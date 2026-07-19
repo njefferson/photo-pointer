@@ -176,6 +176,12 @@ export function createMapView(container, { region, onChange }) {
       spot.access_difficulty && spot.access_difficulty !== 'unknown'
         ? el('p', {}, `Access: ${spot.access_difficulty}`)
         : null,
+      spot.tags?.publicLand
+        ? el('p', { class: 'popup-land' },
+            `On public land: ${spot.tags.publicLand.name || spot.tags.publicLand.class}` +
+            (spot.tags.publicLand.operator ? ` (${spot.tags.publicLand.operator})` : '') +
+            ' — check access hours')
+        : null,
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),
