@@ -23,16 +23,17 @@ jobs:
           node-version: 22
       - name: Install GDAL
         run: sudo apt-get update -qq && sudo apt-get install -y -qq gdal-bin
-      - name: Resolve download URL from DOI
-        id: resolve
+      - name: Resolve download URLs from DataCite
+        run: node scripts/resolve-falchi-url.mjs | tee urls.txt
+      - name: HEAD + gdalinfo each candidate (no full download)
         run: |
-          node scripts/resolve-falchi-url.mjs | tee urls.txt
-          echo "url=$(head -1 urls.txt)" >> "$GITHUB_OUTPUT"
-      - name: Read GeoTIFF header via /vsicurl (no full download)
-        run: |
-          URL='${{ steps.resolve.outputs.url }}'
-          echo "Probing: $URL"
-          # HEAD for size + type
-          curl -sS -I -L --max-time 120 "$URL" | grep -iE 'content-length|content-type|HTTP/' || true
-          # gdalinfo reads only the TIFF header/IFD via HTTP range requests
-          gdalinfo "/vsicurl/$URL" 2>&1 | head -60 || echo "gdalinfo failed on /vsicurl (may need /vsizip/ or full download)"
+          while read -r URL; do
+            [ -z "$URL" ] && continue
+            echo "=================================================="
+            echo "Candidate: $URL"
+            curl -sS -I -L --max-time 120 "$URL" | grep -iE 'content-length|content-type|HTTP/|location' || true
+            echo "--- gdalinfo /vsicurl ---"
+            gdalinfo "/vsicurl/$URL" 2>&1 | head -40 || true
+            echo "--- gdalinfo /vsizip/vsicurl (if archive) ---"
+            gdalinfo "/vsizip//vsicurl/$URL" 2>&1 | head -15 || true
+          done < urls.txt
