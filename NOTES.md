@@ -59,10 +59,40 @@ offline-first, no account. No Instagram, no social scraping, ever.
 - [x] 0.2.0 "Golden Hour" on staging (2026-07-19) — per-spot on-device
       sunrise/sunset/golden/blue-hour times + sun compass direction, via
       vendored astronomy-engine (MIT). Awaiting Noah's on-device pass.
-- [ ] Candidate next sources/features (Noah's pick): light-pollution/dark-sky
-      raster layer (fits his astro work; needs a license-clean raster source),
-      public-lands boundaries (CPAD, clean), HMdb markers (facts-only),
-      Flickr CC photo-density (needs his API key), "near me" geolocation.
+- [x] 0.3.0 "Cross-layer synthesis" on staging (2026-07-19) — the app's
+      DIFFERENTIATOR (Noah's call after a competitive-research pass showed every
+      single layer is already served better by a dedicated app: PhotoPills/TPE
+      for light, Locationscout for spots, Atlas Obscura for oddities,
+      ExploreHere for markers, Gaia/onX for trails, eBird for birds, Organic
+      Maps for offline OSM, lightpollutionmap for dark sky). The ONLY thing no
+      single app does is score/surface spots where MULTIPLE layers line up.
+      model/synthesis.js: a SIGNAL REGISTRY — new data source = append one
+      signal, scorer never changes. Score = Σ(value·weight) / (sum of weights
+      of signals LIVE in the dataset), so breadth wins and a dormant source
+      doesn't suppress scores. ui: ★ Top spots panel (rank + require-layer
+      chips + fly-to) and a "Why this spot" popup breakdown. darkSky signal
+      ships DORMANT — activates the moment a source writes tags.bortle, no code
+      change (proven by test). Awaiting Noah's on-device pass.
+- [ ] Dark-sky/light-pollution overlay (Noah: "go with the best we can"):
+      DECISION MADE after real research — use Falchi 2016 via GFZ Data Services
+      (DOI 10.5880/GFZ.1.4.2016.001), the real modeled sky-brightness map,
+      licensed CC BY-NC 4.0 (fits PolyForm). 2.9 GB global GeoTIFF → VERIFY a
+      runner can fetch + crop to region before building. It will also write
+      tags.bortle per spot, auto-activating the darkSky synthesis signal.
+      (Rejected: djlorenz = permission-required; lightpollutionmap = not
+      redistributable; NASA VIIRS = CC0 but radiance, not sky-brightness.)
+- [ ] Further candidates: public-lands (CPAD), HMdb markers, Flickr CC,
+      "near me" geolocation.
+
+## Architecture note — the synthesis signal contract (do not break)
+model/synthesis.js SIGNALS is the extension point. To integrate a new data
+source: (1) the ingest adapter writes its fact onto the spot (a tag, or a new
+category, or proximity another signal can read); (2) append ONE signal
+{key,label,weight,evaluate(spot,ctx)->{value,note}|null} that reads it. Never
+edit scoreSpot for a new source. A signal returns null when it has no data for
+a spot (absent, not zero). ctx gives you nearest(spot,category,m) and
+lightFor(spot). The score denominator counts only LIVE signals, so shipping a
+signal before its data exists is safe and encouraged.
 
 ## Measured gotchas (this repo)
 

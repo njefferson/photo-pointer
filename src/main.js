@@ -5,6 +5,8 @@ import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
 import { createMapView, CATEGORY_META } from './ui/mapview.js';
 import { loadRegion } from './model/region.js';
 import { userPins, activeFilters, setActiveFilters, exportBundle, importBundle } from './model/store.js';
+import { rankSpots } from './model/synthesis.js';
+import { topSpotsPanel } from './ui/synthesis.js';
 
 applyTheme(currentTheme());
 
@@ -42,6 +44,7 @@ function renderHeader() {
     el('h1', {}, region?.name ?? 'photo-pointer'),
     el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, chips),
     el('div', { class: 'bar-actions' }, [
+      el('button', { class: 'data-btn top-btn', onClick: openTopSpots }, '★ Top spots'),
       el('button', { class: 'data-btn', onClick: openDataDialog }, 'Backup'),
       themeToggle(),
     ]),
@@ -53,6 +56,25 @@ function renderHeader() {
 
 function spotsForMap() {
   return [...dataSpots, ...userPins()];
+}
+
+let rankingCache = null;
+let rankingKey = null;
+
+// Cross-layer ranking over the current spot set. Recomputed only when the set
+// changes (data + user pins), since it scans all spots.
+function ranking() {
+  const spots = spotsForMap();
+  const key = spots.length + ':' + userPins().length;
+  if (rankingKey !== key) {
+    rankingCache = rankSpots(spots);
+    rankingKey = key;
+  }
+  return rankingCache;
+}
+
+function openTopSpots() {
+  topSpotsPanel(ranking(), (spot) => mapView?.focusSpot(spot));
 }
 
 function openDataDialog() {
@@ -101,6 +123,8 @@ function openDataDialog() {
 function refresh() {
   mapView?.setSpots(spotsForMap());
   mapView?.setVisible(currentVisible());
+  const byId = new Map(ranking().map((r) => [r.spot.id, r]));
+  mapView?.setSynthesis(byId);
 }
 
 let dataBuiltAt = null;

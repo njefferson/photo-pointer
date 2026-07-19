@@ -56,6 +56,21 @@ doing anything.
   notes (ingest/adapters/), region config seeded Sacramento/El Dorado/Placer
   (config/region.json), Leaflet map app (no build step), sw.js offline,
   contrast gate, 33 node --test tests, CI/deploy/ingest workflows.
+- 2026-07-19 0.3.0 "Cross-layer synthesis" BUILT on staging (awaiting on-device
+  pass): the app's DIFFERENTIATOR. Competitive research (real, this session)
+  showed every layer is already served better by a dedicated app — the only
+  unmet need is scoring spots where MULTIPLE layers line up. src/model/
+  synthesis.js is a SIGNAL REGISTRY: new data source = append one signal
+  {key,label,weight,evaluate(spot,ctx)->{value,note}|null}; scoreSpot NEVER
+  changes. Score = Σ(value·weight)/(Σ weights of LIVE signals) so breadth wins
+  and dormant sources don't suppress scores. darkSky signal ships DORMANT →
+  auto-activates when a source writes tags.bortle (tested). UI: ★ Top spots
+  panel (ui/synthesis.js — rank + require-layer chips + fly-to via
+  mapview.focusSpot) + "Why this spot" popup breakdown. sw CACHE pointer-0.3.0.
+  Verified headless: top spot "Upper Eagle Falls" 65 (layered+wildlife+view),
+  require Dark-sky→empty (dormant proof), 3-layer require→3 spots all matching,
+  52 tests, contrast green, zero pageerrors. See the synthesis contract in
+  NOTES.md — don't edit scoreSpot to add a source.
 - 2026-07-19 0.1.0 PROMOTED to main (Noah's "Promote to main"): production
   live at photo-pointer.pages.dev (Deploy run on main green). Then eBird added
   (2,362 spots) + PolyForm license. main == 0.1.0.

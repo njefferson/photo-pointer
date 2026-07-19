@@ -2,6 +2,21 @@
 
 Written for the person using the app. Newest first.
 
+## 0.3.0 — 2026-07-19
+
+**Find the spots where everything lines up.**
+
+- New **★ Top spots** — the map ranks every place by how many things line up
+  at once: a park that's *also* a birding hotspot, *also* an open viewpoint
+  facing the evening light, *also* easy to reach. That combination is the one
+  thing a single map can do that separate apps can't.
+- **Require layers**: tap "Wildlife," "Open view," "Dark sky," etc. to narrow
+  to only the spots that satisfy all of them together.
+- Every place now shows a **"Why this spot"** breakdown — which layers earned
+  its score, in plain words.
+- Built to grow: each data source added from here (dark sky next) becomes a new
+  ingredient in the score automatically.
+
 ## 0.2.0 — 2026-07-19
 
 **Golden hour, for every spot.**

@@ -162,6 +162,41 @@ body {
 .light-dir { color: #555555; }
 .light-polar { font-size: 12px; margin: 2px 0; }
 
+/* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
+   consistent with .light-table; meaning is in the layer labels, not color. */
+.synth-box { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 5px; }
+.synth-head { display: flex; justify-content: space-between; align-items: baseline; }
+.synth-why { font-size: 13px; font-weight: 700; color: #1e1e1e; }
+.synth-score { font-size: 11px; color: #555555; font-variant-numeric: tabular-nums; }
+.synth-parts { list-style: none; margin: 3px 0 0; padding: 0; font-size: 12px; color: #2a2a2a; }
+.synth-parts li { padding: 1px 0; }
+.synth-part-label { font-weight: 600; }
+.synth-part-note { color: #555555; }
+
+/* Top-spots panel. Uses the theme tokens (theme-aware, gated). */
+.top-dialog .top-sub { color: var(--dim); }
+.top-reqs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 10px; }
+.top-req {
+  font: inherit; font-size: 12px; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 14px; padding: 4px 10px;
+  min-height: 32px; cursor: pointer;
+}
+/* On = required. Non-hue: a ✓ prefix + bold + firm border (survives grayscale). */
+.top-req[aria-pressed="true"] { font-weight: 700; border-color: var(--ink); border-width: 2px; }
+.top-req[aria-pressed="true"]::before { content: "✓ "; }
+.top-list { display: flex; flex-direction: column; gap: 4px; max-height: 60vh; overflow-y: auto; }
+.top-row {
+  display: flex; align-items: center; gap: 8px; width: 100%; text-align: left;
+  font: inherit; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; cursor: pointer;
+  min-height: 44px;
+}
+.top-row-main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.top-row-name { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.top-row-why { font-size: 11px; color: var(--dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.top-row-score { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent); }
+.top-empty { color: var(--dim); font-size: 13px; }
+
 .data-dialog {
   max-width: 480px;
   width: calc(100vw - 40px);

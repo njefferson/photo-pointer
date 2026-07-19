@@ -5,6 +5,7 @@ import * as L from '../vendor/leaflet.js';
 import { el, toast } from './dom.js';
 import { addUserPin, removeUserPin, restoreUserPin } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
+import { synthesisBreakdown } from './synthesis.js';
 
 export const CATEGORY_META = {
   viewpoint: { label: 'Viewpoint', letter: 'V' },
@@ -52,7 +53,9 @@ export function createMapView(container, { region, onChange }) {
   L.control.layers(bases, {}, { position: 'topright' }).addTo(map);
 
   const markersByCategory = new Map(); // category -> L.LayerGroup
+  const markerById = new Map(); // spot.id -> L.Marker (for fly-to)
   let visible = new Set(Object.keys(CATEGORY_META));
+  let synthesisFor = () => null; // set by setSynthesis; id -> {score, parts}
 
   // "Light today" — the question the app is named for, computed on-device for
   // this spot and this date. A row per window; each carries a text label (not
@@ -126,6 +129,7 @@ export function createMapView(container, { region, onChange }) {
         ? el('p', {}, `Access: ${spot.access_difficulty}`)
         : null,
       spot.notes ? el('p', {}, spot.notes) : null,
+      synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),
       el('p', { class: 'popup-nav' }, [
         el('a', {
@@ -166,6 +170,7 @@ export function createMapView(container, { region, onChange }) {
   function setSpots(spots) {
     for (const g of markersByCategory.values()) g.remove();
     markersByCategory.clear();
+    markerById.clear();
     for (const spot of spots) {
       let group = markersByCategory.get(spot.category);
       if (!group) {
@@ -173,10 +178,27 @@ export function createMapView(container, { region, onChange }) {
         markersByCategory.set(spot.category, group);
         if (visible.has(spot.category)) group.addTo(map);
       }
-      L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category) })
+      const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category) })
         .bindPopup(() => popupFor(spot))
         .addTo(group);
+      markerById.set(spot.id, { marker, category: spot.category });
     }
+  }
+
+  function setSynthesis(byId) {
+    synthesisFor = (id) => byId.get(id) ?? null;
+  }
+
+  // Fly to a spot and open its popup (from the Top-spots panel). Ensures its
+  // category is visible first.
+  function focusSpot(spot) {
+    if (!visible.has(spot.category)) {
+      const v = new Set(visible);
+      v.add(spot.category);
+      setVisible(v);
+    }
+    map.setView([spot.lat, spot.lng], Math.max(map.getZoom(), 13));
+    markerById.get(spot.id)?.marker.openPopup();
   }
 
   function setVisible(categories) {
@@ -207,5 +229,5 @@ export function createMapView(container, { region, onChange }) {
     L.popup().setLatLng(e.latlng).setContent(form).openOn(map);
   });
 
-  return { map, setSpots, setVisible };
+  return { map, setSpots, setVisible, setSynthesis, focusSpot };
 }

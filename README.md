@@ -21,6 +21,13 @@ A personal tool: free, on-device, offline-first, no account, no tracking.
   declaring its own license so a violation can't be built in. They run on
   GitHub Actions runners and commit their output to this repo: the committed
   JSON **is** the durable, immutable-history data store.
+- **Cross-layer synthesis** (`src/model/synthesis.js`) is the point of putting
+  everything on one data model: it scores each place by how many layers line up
+  — a park that's also a birding hotspot, an open viewpoint facing the evening
+  light, easy to reach — and the **★ Top spots** panel ranks and filters by
+  those combinations. New data sources plug in as new *signals* without
+  touching the scorer (a park's dark-sky rating will light up its score the
+  moment that layer lands). No single existing app does this cross-layer query.
 - The app (`index.html` + `src/`) is a no-build vanilla-JS PWA: Leaflet map,
   category filters, offline via service worker. Your own pins live in
   localStorage with a versioned export/import backup bundle.
