@@ -1,0 +1,45 @@
+name: Light pollution ingest
+
+# Downloads the Falchi world-atlas KMZ (shared from Noah's Drive), reads its
+# georeferenced overlay, crops to the region, derives Bortle, and (once the
+# processing step lands) commits the small derived layer. This first cut
+# downloads + inspects so the exact structure is known before processing.
+#
+# Data: New World Atlas of Artificial Night Sky Brightness (Falchi et al. 2016),
+# GFZ Data Services, DOI 10.5880/GFZ.1.4.2016.001, CC BY-NC 4.0.
+
+on:
+  workflow_dispatch:
+    inputs:
+      kmz_url:
+        description: Direct download URL for the KMZ
+        default: 'https://drive.google.com/uc?export=download&id=1yPqyTkbkEOofnDqzJITEafLEwxO_A9M9'
+
+concurrency:
+  group: lp-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install GDAL
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq gdal-bin unzip
+      - name: Download KMZ
+        run: |
+          curl -sSL --max-time 300 -o falchi.kmz "${{ github.event.inputs.kmz_url }}"
+          ls -la falchi.kmz
+          echo "--- first bytes (should be 'PK' zip magic, not HTML) ---"
+          head -c 16 falchi.kmz | xxd | head -1
+      - name: Inspect KMZ structure
+        run: |
+          mkdir -p kmz && unzip -o falchi.kmz -d kmz >/dev/null || { echo "unzip failed — likely not a public link (got an HTML page)"; head -c 400 falchi.kmz; exit 1; }
+          echo "--- contents ---"; find kmz -type f -printf '%s\t%p\n' | sort -rn | head -40
+          echo "--- KML (bounds + overlays) ---"
+          find kmz -iname '*.kml' -exec sh -c 'echo "== $1 =="; grep -iE "latlonbox|north|south|east|west|href|GroundOverlay|Icon" "$1" | head -60' _ {} \;
+          echo "--- gdalinfo on the KMZ (georeferencing) ---"
+          gdalinfo falchi.kmz 2>&1 | head -50 || true
+          echo "--- overlay image(s) ---"
+          for f in $(find kmz -iname '*.png' -o -iname '*.jpg'); do echo "== $f =="; gdalinfo "$f" 2>&1 | grep -iE 'Size is|Band|ColorInterp' | head -6; done
