@@ -195,6 +195,14 @@ export function createMapView(container, { region, onChange }) {
             `Wildlife photographed nearby: ${spot.tags.inaturalist.species} ` +
             `non-bird species (${spot.tags.inaturalist.observations} iNaturalist records)`)
         : null,
+      spot.tags?.hmdb
+        ? el('p', { class: 'popup-marker' }, [
+            'Historical marker — ',
+            el('a', { href: `https://www.hmdb.org/m.asp?m=${spot.tags.hmdb}`, target: '_blank', rel: 'noopener' }, 'read it on HMdb'),
+          ])
+        : spot.tags?.california_landmark
+          ? el('p', { class: 'popup-marker' }, `California Historical Landmark No. ${spot.tags.california_landmark}`)
+          : null,
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),

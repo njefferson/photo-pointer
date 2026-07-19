@@ -1,0 +1,44 @@
+name: Historical markers ingest
+
+# Fetches historical markers (Wikidata, CC0 — links out to HMdb) in the region,
+# re-merges into data/spots.json (the merge is TAG-PRESERVING, so the existing
+# bortle/publicLand/horizon/inaturalist enrichment tags survive), validates, and
+# commits. New marker spots won't carry the enrichment tags until the next full
+# refresh (or a dispatch of horizon/public-lands/inaturalist) — the signals are
+# simply dormant for them, which is honest. Dispatch via actions_run_trigger.
+#
+# No API key. The Wikidata Query Service needs a descriptive User-Agent (set in
+# the adapter) and is unreachable from the sandbox, so this runs on a runner.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: markers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Fetch historical markers (Wikidata CC0)
+        run: node ingest/ingest.mjs markers
+      - name: Re-merge (tag-preserving) + validate
+        run: |
+          node ingest/ingest.mjs merge
+          node ingest/ingest.mjs validate
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/sources/wikidata.json data/spots.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add historical markers: the region's roadside history on the map" -m "Every HMdb marker and California Historical Landmark in the region is now a spot, with a link out to its HMdb page. Facts from Wikidata (CC0); no HMdb content is copied."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

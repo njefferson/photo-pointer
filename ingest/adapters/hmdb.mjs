@@ -1,9 +1,16 @@
-// Historical Marker Database (HMdb.org) — STUB.
+// Historical Marker Database (HMdb.org) — SUPERSEDED by wikidata-markers.mjs.
+//
+// The clean path shipped there (0.9.0): HMdb has no official public API and its
+// inscriptions/photos/commentary are COPYRIGHTED, so we take marker FACTS (name
+// + coordinates) from Wikidata (CC0, property P7883 = HMdb Marker ID, P5651 =
+// California Historical Landmark) and LINK OUT to the HMdb page. No HMdb content
+// is ever copied. This stub is kept as the record of WHY direct HMdb ingest was
+// ruled out; do not revive it into a scraper.
 //
 // LICENSE / LEGAL: marker inscriptions, photos, and commentary on HMdb are
 // COPYRIGHTED by their contributors. We may store marker NAME, COORDINATES,
 // and a LINK (facts + reference), but must NEVER republish inscription text
-// or photos. The adapter enforces this shape: no `notes` from HMdb, ever.
+// or photos.
 //
 // TODO(hmdb):
 //  - HMdb has no official public API. Options, in preference order:

@@ -24,7 +24,7 @@ export const NAME_SIM_MIN = 0.6; // …and names this similar (token Jaccard)
 export const TIGHT_DIST_M = 60;  // unnamed records: same place only if this close
 
 // Higher priority = wins naming/geometry when records merge.
-export const SOURCE_PRIORITY = ['user', 'osm', 'hmdb', 'ebird', 'inaturalist', 'flickr'];
+export const SOURCE_PRIORITY = ['user', 'osm', 'wikidata', 'hmdb', 'ebird', 'inaturalist', 'flickr'];
 
 const STOPWORDS = new Set(['the', 'a', 'an', 'of', 'and', 'at', 'on', 'in', 'to']);
 

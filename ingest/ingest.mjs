@@ -5,6 +5,8 @@
 //                                       (verdict DATA / BLOCKED) before any run
 //   node ingest/ingest.mjs osm        — fetch + normalize OSM → data/sources/osm.json
 //   node ingest/ingest.mjs ebird      — normalize the eBird snapshot → data/sources/ebird.json
+//   node ingest/ingest.mjs markers    — fetch historical markers (Wikidata CC0) → data/sources/wikidata.json
+//   node ingest/ingest.mjs public-lands / inaturalist — enrich committed spots (tag, no re-merge)
 //   node ingest/ingest.mjs merge      — resolve all data/sources/*.json → data/spots.json
 //   node ingest/ingest.mjs validate   — schema-check committed data (CI gate, exit 1)
 //   node ingest/ingest.mjs all        — osm + merge + validate
@@ -25,6 +27,7 @@ import * as osm from './adapters/osm-overpass.mjs';
 import * as ebird from './adapters/ebird-hotspots.mjs';
 import * as publicLands from './adapters/public-lands.mjs';
 import * as inaturalist from './adapters/inaturalist.mjs';
+import * as markers from './adapters/wikidata-markers.mjs';
 import { pointInArea, distanceM } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -234,12 +237,36 @@ async function cmdINaturalist() {
   log(`tagged ${tagged}/${doc.spots.length} spots with iNaturalist wildlife density (${obs.length} observations)`);
 }
 
+async function cmdMarkers() {
+  const region = await loadRegionFile();
+  const records = await markers.ingest(region, { today, log });
+  if (records.length === 0) {
+    console.error('markers: 0 records — refusing to write an empty file over good data');
+    process.exit(1);
+  }
+  await writeSource('wikidata.json', markers.meta, region, records);
+}
+
+// Enrichment tags are written AFTER merge by the light-pollution / public-lands
+// / horizon / inaturalist passes — a fresh merge would otherwise drop them all,
+// forcing every enrichment to re-run. Carry them forward for spots whose id is
+// unchanged, so adding a source (e.g. markers) is non-destructive.
+const ENRICH_TAGS = ['bortle', 'publicLand', 'horizon', 'inaturalist'];
+
 async function cmdMerge() {
   const region = await loadRegionFile();
   const files = (await readdir(SOURCES_DIR).catch(() => [])).filter((f) => f.endsWith('.json'));
   if (files.length === 0) {
     console.error('merge: no data/sources/*.json — run an adapter first');
     process.exit(1);
+  }
+  // Snapshot the enrichment tags on the current spots, keyed by id.
+  const prev = await readJsonIfExists(SPOTS_FILE);
+  const prevTags = new Map();
+  for (const s of prev?.spots ?? []) {
+    const carry = {};
+    for (const k of ENRICH_TAGS) if (s.tags?.[k] !== undefined) carry[k] = s.tags[k];
+    if (Object.keys(carry).length) prevTags.set(s.id, carry);
   }
   const all = [];
   for (const f of files) {
@@ -249,11 +276,17 @@ async function cmdMerge() {
   }
   const spots = resolveSpots(all);
   const collapsed = all.length - spots.length;
+  let carried = 0;
+  for (const s of spots) {
+    const carry = prevTags.get(s.id);
+    if (carry) { s.tags = { ...(s.tags ?? {}), ...carry }; carried++; }
+  }
   await writeFile(
     SPOTS_FILE,
     JSON.stringify({ region: region.id, builtAt: today, spots }, null, 2) + '\n'
   );
-  log(`wrote data/spots.json: ${spots.length} spots from ${all.length} records (${collapsed} collapsed by dedup)`);
+  log(`wrote data/spots.json: ${spots.length} spots from ${all.length} records ` +
+      `(${collapsed} collapsed by dedup; ${carried} kept enrichment tags across the merge)`);
 }
 
 async function cmdValidate() {
@@ -302,9 +335,10 @@ const commands = {
   ebird: cmdEbird,
   'public-lands': cmdPublicLands,
   inaturalist: cmdINaturalist,
+  markers: cmdMarkers,
   merge: cmdMerge,
   validate: cmdValidate,
-  all: async () => { await cmdOsm(); await cmdEbird(); await cmdMerge(); await cmdValidate(); },
+  all: async () => { await cmdOsm(); await cmdEbird(); await cmdMarkers(); await cmdMerge(); await cmdValidate(); },
 };
 if (!commands[cmd]) {
   console.error(`usage: node ingest/ingest.mjs <${Object.keys(commands).join('|')}>`);

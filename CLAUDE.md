@@ -51,6 +51,34 @@ doing anything.
 ## "set up" while any is unconfirmed.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 0.9.0 "Historical markers" BUILT on staging (awaiting on-device
+  pass + a markers.yml runner pass to add the data): Tier 3 item #2 (Noah's "Do
+  1 and 2"). HMdb has NO public API + its content is COPYRIGHTED, so the clean
+  path is Wikidata (CC0): ingest/adapters/wikidata-markers.mjs SPARQL-queries the
+  Wikidata Query Service for items in the region bbox carrying P7883 (Historical
+  Marker Database ID → real HMdb markers) OR P5651 (California Historical Landmark
+  number — dense in this Gold Rush region). FACTS from Wikidata (CC0), LINK OUT
+  to hmdb.org/m.asp?m=<P7883> (verified property, formatter URL); NO HMdb content
+  copied (notes always null). source='wikidata' (ADDED to dedup SOURCE_PRIORITY
+  after osm), source_license CC0-1.0. KEY GOTCHA: the WDQS returns 403 without a
+  descriptive User-Agent (set in adapter); runner-only (sandbox blocked; even
+  WebFetch got 403 — UA-gated). This is a SOURCE adapter (creates marker spots)
+  not an enrichment → needs a re-merge. TO AVOID the re-merge wiping every
+  enrichment tag, cmdMerge is now TAG-PRESERVING: it snapshots ENRICH_TAGS
+  ['bortle','publicLand','horizon','inaturalist'] by spot id before resolveSpots
+  and carries them forward to unchanged ids (VERIFIED locally: a full osm+ebird
+  re-merge kept all 2362 bortle/2362 horizon/488 publicLand/134 inaturalist tags;
+  spot set reproduced exactly). markers.yml = markers → merge → validate →
+  commit; NEW marker spots lack enrichment tags until the next full refresh (or a
+  horizon/public-lands dispatch) — their signals just stay dormant, honest. `all`
+  command now includes markers. UI: popup shows "Historical marker — read it on
+  HMdb" (tags.hmdb) or "California Historical Landmark No. X" (tags.california_
+  landmark); .popup-marker (no CSS needed). No new synthesis signal (markers feed
+  'layered' when colocated). sw CACHE pointer-0.9.0. VERIFIED: adapter unit-tested
+  (parsePoint WKT lon-lat; HMdb-vs-Wikidata link selection; CHL tag; unlabeled→
+  null name; bbox in query; double-ID dedup); tag-preserving merge proven locally;
+  app boots 2362 pins zero pageerrors; 78 tests, contrast green. The Wikidata
+  fetch is unrun locally (network+UA) — runner will confirm the real marker count.
 - 2026-07-19 0.8.0 "Wild subjects" BUILT on staging (awaiting on-device pass +
   an inaturalist.yml runner pass to tag the data): Tier 3 item #1 of the
   integrations list (Noah's "Do 1 and 2"). NON-BIRD wildlife density per spot —

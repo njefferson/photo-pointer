@@ -2,6 +2,20 @@
 
 Written for the person using the app. Newest first.
 
+## 0.9.0 — 2026-07-19
+
+**The region's roadside history, on the map.**
+
+- Every **historical marker** and **California Historical Landmark** in the
+  region is now a spot — the Gold Rush plaques, the pioneer monuments, the
+  little brass markers you drive past. Tap one and jump straight to its full
+  write-up on **HMdb** (the Historical Marker Database).
+- These join the same map as everything else, so a marker that sits in a park
+  with an open western horizon and dark skies rises in **Top spots** like any
+  other layered place.
+- Facts come from **Wikidata** (public domain / CC0); HMdb keeps its own
+  content — we only link to it, never copy it.
+
 ## 0.8.0 — 2026-07-19
 
 **Where the wildlife actually is — beyond birds.**

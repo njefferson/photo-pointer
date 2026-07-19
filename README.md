@@ -57,7 +57,7 @@ commits `data/` to the branch it ran on.
 | Source | What | License / terms | Status |
 | --- | --- | --- | --- |
 | OpenStreetMap (Overpass) | viewpoints, waterfalls, peaks, markers, oddities, parks, trailheads, campsites | **ODbL 1.0** — attribution "© OpenStreetMap contributors"; share-alike on the database | **Working** |
-| HMdb.org | historical markers | Content **copyrighted** — store name/coords/link only, never republish inscriptions or photos | Stub |
+| Historical markers | HMdb markers + California Historical Landmarks as spots, linking out to HMdb | Facts from **Wikidata (CC0)**; HMdb pages linked, never copied (HMdb content is copyrighted) | **Working** |
 | eBird (Cornell Lab) | wildlife hotspots | API terms — attribution required, no bulk redistribution | **Working** |
 | iNaturalist | non-bird wildlife density (mammals/reptiles/amphibians/insects) near each spot | Per-record CC licensing — ingest fetches CC0/CC-BY/CC-BY-SA only, counts not content | **Working** |
 | Flickr | where CC photographers actually shoot | Per-photo — **only CC/public-domain licensed photos**; needs `FLICKR_API_KEY` | Stub |
