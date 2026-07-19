@@ -1,0 +1,69 @@
+{
+  "source": "Falchi et al. 2016, New World Atlas of Artificial Night Sky Brightness",
+  "license": "CC BY-NC 4.0",
+  "attribution": "Falchi, F. et al. (2016), GFZ Data Services, doi:10.5880/GFZ.1.4.2016.001",
+  "builtAt": "2026-07-19",
+  "bounds": {
+    "south": 38.004185684500094,
+    "west": -121.95002322000002,
+    "north": 39.404185124500096,
+    "east": -119.85002406000002
+  },
+  "legend": [
+    {
+      "bortle": 1,
+      "label": "Bortle 1 \u2014 pristine",
+      "color": "#0c1840"
+    },
+    {
+      "bortle": 2,
+      "label": "Bortle 2 \u2014 truly dark",
+      "color": "#1a3478"
+    },
+    {
+      "bortle": 3,
+      "label": "Bortle 3 \u2014 rural",
+      "color": "#1e6096"
+    },
+    {
+      "bortle": 4,
+      "label": "Bortle 4 \u2014 rural/suburban",
+      "color": "#249478"
+    },
+    {
+      "bortle": 5,
+      "label": "Bortle 5 \u2014 suburban",
+      "color": "#96aa28"
+    },
+    {
+      "bortle": 6,
+      "label": "Bortle 6 \u2014 bright suburban",
+      "color": "#d0961e"
+    },
+    {
+      "bortle": 7,
+      "label": "Bortle 7 \u2014 suburban/urban",
+      "color": "#d6601e"
+    },
+    {
+      "bortle": 8,
+      "label": "Bortle 8 \u2014 city",
+      "color": "#e04a36"
+    },
+    {
+      "bortle": 9,
+      "label": "Bortle 9 \u2014 inner city",
+      "color": "#f5f0eb"
+    }
+  ],
+  "present": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ]
+}
