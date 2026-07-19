@@ -56,6 +56,28 @@ doing anything.
   notes (ingest/adapters/), region config seeded Sacramento/El Dorado/Placer
   (config/region.json), Leaflet map app (no build step), sw.js offline,
   contrast gate, 33 node --test tests, CI/deploy/ingest workflows.
+- 2026-07-19 0.4.0 "Dark skies" BUILT on staging (awaiting on-device pass): the
+  light-pollution layer + Bortle per spot. Data = Falchi 2016 World Atlas of
+  Artificial Night Sky Brightness (CC BY-NC 4.0, doi:10.5880/GFZ.1.4.2016.001).
+  KEY LESSON (cost hours): the GFZ file is NOT machine-downloadable (JS-app
+  landing, no DataCite contentUrl, backend API not scrapeable) — DO NOT try to
+  hack GFZ again. Noah shared World_Atlas_2015.zip (684 MB raw GeoTIFF) +
+  a KMZ from his Drive; the Google Drive MCP connector caps downloads at 10 MB,
+  so a RUNNER fetches the public Drive link
+  (https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t)
+  — that's the working pattern for any big Drive file. Pipeline
+  (.github/workflows/light-pollution.yml + scripts/build-light-pollution.py,
+  GDAL+python on a runner): download zip → crop World_Atlas_2015.tif to region
+  bbox → artificial brightness mcd/m² → total sky mag/arcsec² (natural sky
+  0.174 mcd/m²) → Bortle via the SQM table → write tags.bortle on every spot +
+  render data/layers/light-pollution.{png,json} (overlay + labeled legend).
+  This AUTO-ACTIVATED the dormant darkSky synthesis signal. UI: ui/lightlayer.js
+  (Leaflet ImageOverlay + opacity + text legend, toggled in the layers control).
+  sw CACHE pointer-0.4.0. VERIFIED headless: overlay + 9-class legend render,
+  Top-spots "Dark sky" require returns 30 spots all Bortle-tagged, popup shows
+  the Bortle part, zero pageerrors; ingest sanity Sacramento=7, Auburn=5,
+  Desolation Wilderness=1 (all correct); 2,362/2,362 spots tagged. 52 tests,
+  contrast green.
 - 2026-07-19 0.3.0 "Cross-layer synthesis" BUILT on staging (awaiting on-device
   pass): the app's DIFFERENTIATOR. Competitive research (real, this session)
   showed every layer is already served better by a dedicated app — the only

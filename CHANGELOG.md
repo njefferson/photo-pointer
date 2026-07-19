@@ -2,6 +2,22 @@
 
 Written for the person using the app. Newest first.
 
+## 0.4.0 — 2026-07-19
+
+**Dark skies, on the map and in the ranking.**
+
+- A new **Dark sky** map layer shows how light-polluted the sky is everywhere
+  in the region, on the real Bortle scale (1 = pristine, 9 = inner city), with
+  an opacity slider and a legend that names every level.
+- **Every spot now knows its Bortle rating.** Tap a place and its darkness
+  shows in the "Why this spot" breakdown; a Sierra viewpoint reads Bortle 1–2,
+  a valley park reads 6–7.
+- **Top spots can now require dark skies** — combine "Dark sky" with "Open
+  view" to find exactly the places worth a night shoot. This is the cross-layer
+  question no other app answers.
+- Built on the World Atlas of Artificial Night Sky Brightness
+  (Falchi et al. 2016), used under CC BY-NC 4.0.
+
 ## 0.3.0 — 2026-07-19
 
 **Find the spots where everything lines up.**

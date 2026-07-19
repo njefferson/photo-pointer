@@ -6,6 +6,7 @@ import { el, toast } from './dom.js';
 import { addUserPin, removeUserPin, restoreUserPin } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
 import { synthesisBreakdown } from './synthesis.js';
+import { loadLightLayer } from './lightlayer.js';
 
 export const CATEGORY_META = {
   viewpoint: { label: 'Viewpoint', letter: 'V' },
@@ -50,7 +51,16 @@ export function createMapView(container, { region, onChange }) {
 
   const bases = BASE_LAYERS();
   bases.Map.addTo(map);
-  L.control.layers(bases, {}, { position: 'topright' }).addTo(map);
+  const layerControl = L.control.layers(bases, {}, { position: 'topright' }).addTo(map);
+
+  // Dark-sky overlay (async — added when its data loads). Its legend shows
+  // only while the overlay is on.
+  loadLightLayer().then((lp) => {
+    if (!lp) return;
+    layerControl.addOverlay(lp.overlay, lp.name);
+    map.on('overlayadd', (e) => { if (e.layer === lp.overlay) lp.legend.addTo(map); });
+    map.on('overlayremove', (e) => { if (e.layer === lp.overlay) map.removeControl(lp.legend); });
+  });
 
   const markersByCategory = new Map(); // category -> L.LayerGroup
   const markerById = new Map(); // spot.id -> L.Marker (for fly-to)

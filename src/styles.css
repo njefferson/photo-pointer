@@ -197,6 +197,26 @@ body {
 .top-row-score { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent); }
 .top-empty { color: var(--dim); font-size: 13px; }
 
+/* Dark-sky overlay legend (a Leaflet control). Solid card bg + dark text so
+   it reads over any basemap; every Bortle class is labeled in words. */
+.lp-legend {
+  background: var(--card);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 11px;
+  max-width: 200px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+.lp-legend-title { font-weight: 700; font-size: 12px; margin-bottom: 4px; }
+.lp-op { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+.lp-op input { flex: 1; }
+.lp-row { display: flex; align-items: center; gap: 6px; padding: 1px 0; }
+.lp-swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.35); flex: none; }
+.lp-row-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lp-credit { margin-top: 5px; color: var(--dim); font-size: 10px; }
+
 .data-dialog {
   max-width: 480px;
   width: calc(100vw - 40px);
