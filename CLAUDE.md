@@ -49,5 +49,13 @@ doing anything.
   (src/model/), OSM/Overpass adapter working + 6 stub adapters with license
   notes (ingest/adapters/), region config seeded Sacramento/El Dorado/Placer
   (config/region.json), Leaflet map app (no build step), sw.js offline,
-  contrast gate, 31 node --test tests, CI/deploy/ingest workflows.
-  Cloudflare project + secrets NOT yet configured (Noah's manual step).
+  contrast gate, 33 node --test tests, CI/deploy/ingest workflows.
+- 2026-07-19 FIRST LIVE DATA: Ingest OSM committed data/spots.json = 1,711
+  deduped spots for Sacramento/El Dorado/Placer (OSM/Overpass, ODbL). Deploy
+  auto-creates the Pages project; staging deploys are green (no secrets step
+  needed — they're inherited from Noah's account). GOTCHAS learned this
+  session: (1) Overpass rejects anonymous UAs (406/429) — send a real
+  User-Agent; (2) Overpass public mirrors hang/504 under load — retry across
+  3 mirrors with a 210s per-attempt cap + a 25-min job timeout; (3) the
+  dedup_key can collide for two DIFFERENT nearby places sharing a geohash
+  cell — resolveSpots suffixes collisions (`~2`) so ids stay unique.

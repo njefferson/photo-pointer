@@ -45,7 +45,16 @@ offline-first, no account. No Instagram, no social scraping, ever.
 ## Roadmap (v0 → )
 
 - [x] Scaffold: schema, dedup, OSM adapter, map app, workflows (2026-07-19)
-- [ ] First live ingest run committed (Ingest OSM workflow on staging)
+- [x] First live ingest run committed (2026-07-19): 1,711 spots for the seed
+      region in data/spots.json (991 park, 353 viewpoint, 132 oddity, 127
+      campsite, 75 marker, 33 trailhead; 1,592 named; 56 merged across the
+      OSM element types; 2 collision-suffixed ids). data/sources/osm.json is
+      the raw per-source layer. Verified headless: app plots all 1,711,
+      category filter hides parks (1711→720), popups show name + Apple/Google
+      links + ODbL source link, zero pageerrors.
+- [x] Cloudflare Pages deploy live (2026-07-19): the Pages project is
+      auto-created on first publish; staging deploys succeed
+      (staging.photo-pointer.pages.dev preview).
 - [ ] Noah's on-device pass of the staged map
 - [ ] Second source (his pick, question 3)
 - [ ] Light-pollution layer
