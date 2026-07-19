@@ -64,7 +64,8 @@ commits `data/` to the branch it ran on.
 | World Atlas (Falchi 2016) | dark-sky / light-pollution raster → Bortle per spot + map overlay | **CC BY-NC 4.0**, doi:10.5880/GFZ.1.4.2016.001 | **Working** |
 | CPAD / PAD-US | public-land boundaries | CPAD free w/ attribution · PAD-US public domain | Stub |
 | Map tiles | OSM carto + Esri World Imagery | © OpenStreetMap contributors · Imagery © Esri | Working |
-| Sun times | on-device golden/blue-hour, sunrise/sunset + sun direction | astronomy-engine © Don Cross, MIT (vendored) | Working |
+| Sun & moon | on-device golden/blue-hour, sunrise/sunset + direction, moon phase + Milky-Way dark window | astronomy-engine © Don Cross, MIT (vendored) | Working |
+| Weather | live clear-sky (cloud) forecast for tonight, per spot | Open-Meteo, free, no key (CC BY 4.0) | Working |
 
 Each adapter's header comment is the authoritative license note — read it
 before extending that source.

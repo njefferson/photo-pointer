@@ -2,6 +2,18 @@
 
 Written for the person using the app. Newest first.
 
+## 0.5.0 — 2026-07-19
+
+**Is tonight the night?**
+
+- Every spot now has a **Tonight** panel: the **moon** (phase and how lit it
+  is), the **dark window** — the exact hours the sun *and* moon are both down,
+  which is your Milky-Way time — and a live **sky-tonight** cloud forecast.
+- Put it together with the dark-sky layer and this answers the question no
+  other app does: *a Bortle-2 spot, moonless from 11:29 PM, clear skies — go.*
+- Moon and dark window are computed on your device (no signal needed); the
+  cloud forecast is a quick live check from Open-Meteo (free, no account).
+
 ## 0.4.0 — 2026-07-19
 
 **Dark skies, on the map and in the ranking.**

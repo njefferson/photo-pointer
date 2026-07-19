@@ -51,6 +51,24 @@ doing anything.
 ## "set up" while any is unconfirmed.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 0.5.0 "Tonight" BUILT on staging (awaiting on-device pass): moon +
+  clear-sky = Tier 1 of Noah's "do all integrations in order" list. model/
+  tonight.js (on-device via astronomy-engine): moon phase/illumination,
+  moonrise/set, astronomical night (sun<−18°), and the DARK WINDOW (longest
+  stretch of astro-night with the moon also down, sampled at 12-min steps) —
+  the Milky-Way time. GOTCHA: anchor the sun/moon search at local NOON (not
+  midnight) so the COMING night's dusk→dawn are found in order. model/
+  weather.js: cloudTonight() live from Open-Meteo (free, no key, CORS), fetched
+  PER SPOT on popup open (not for all 2362), fails soft. UI: "Tonight" panel in
+  the popup (ui/mapview.js tonightSection). CSP connect-src adds
+  api.open-meteo.com (_headers). NOT ranking signals (moon/weather are global-
+  ish or per-spot-network, don't fit the spatial one-time scorer) — they're the
+  Tonight readout; synthesis stays spatial. sw CACHE pointer-0.5.0. Verified
+  headless (mocked Open-Meteo): panel shows moon "first quarter 34% lit", dark
+  window 11:29PM–3:53AM, "Sky tonight: clear (8% cloud)"; 58 tests, contrast
+  green, zero pageerrors. REMAINING in-order: (Tier2) public-lands boundaries
+  +night-access signal, open-horizon/elevation signal; (Tier3) air-quality/
+  smoke, iNaturalist seasonal wildlife, HMdb markers, Flickr CC density.
 - 2026-07-19 PROMOTED 0.2.0 + 0.3.0 + 0.4.0 to main in one fast-forward
   (Noah's "Push main"): production == 0.4.0 (photo-pointer.pages.dev). Golden
   Hour, cross-layer synthesis, and the dark-sky/Bortle layer are all live.

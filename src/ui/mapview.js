@@ -5,6 +5,8 @@ import * as L from '../vendor/leaflet.js';
 import { el, toast } from './dom.js';
 import { addUserPin, removeUserPin, restoreUserPin } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
+import { moonTonight } from '../model/tonight.js';
+import { cloudTonight } from '../model/weather.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
 
@@ -124,6 +126,42 @@ export function createMapView(container, { region, onChange }) {
     ]);
   }
 
+  // "Tonight" — moon + the Milky-Way dark window (on-device), plus a live
+  // clear-sky check (Open-Meteo). The payoff of the Bortle layer: a dark spot
+  // on a moonless, clear night is when you go.
+  function tonightSection(spot) {
+    let t;
+    try {
+      t = moonTonight(spot.lat, spot.lng);
+    } catch {
+      return null;
+    }
+    const pct = Math.round((t.illumination ?? 0) * 100);
+    const rows = [
+      el('tr', {}, [el('th', { scope: 'row' }, 'Moon'), el('td', {}, `${t.phaseName}, ${pct}% lit`)]),
+    ];
+    if (t.darkWindow) {
+      rows.push(el('tr', { class: 'light-mark' }, [
+        el('th', { scope: 'row' }, 'Dark window'),
+        el('td', {}, `${clock(t.darkWindow.start)} – ${clock(t.darkWindow.end)}`),
+      ]));
+    } else if (t.astroNight) {
+      rows.push(el('tr', {}, [el('th', { scope: 'row' }, 'Moon up'), el('td', {}, 'all night — bright')]));
+    }
+    const sky = el('td', {}, 'checking…');
+    rows.push(el('tr', {}, [el('th', { scope: 'row' }, 'Sky tonight'), sky]));
+
+    // Live clear-sky fetch; fills in when it returns, fails soft.
+    cloudTonight(spot.lat, spot.lng).then((c) => {
+      sky.textContent = c ? `${c.verdict} (${c.avgCloud}% cloud)` : 'forecast unavailable';
+    }).catch(() => { sky.textContent = 'forecast unavailable'; });
+
+    return el('div', { class: 'light-box tonight-box' }, [
+      el('h4', {}, 'Tonight'),
+      el('table', { class: 'light-table' }, [el('tbody', {}, rows)]),
+    ]);
+  }
+
   function popupFor(spot) {
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
@@ -141,6 +179,7 @@ export function createMapView(container, { region, onChange }) {
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),
+      tonightSection(spot),
       el('p', { class: 'popup-nav' }, [
         el('a', {
           href: `https://maps.apple.com/?ll=${spot.lat},${spot.lng}&q=${encodeURIComponent(spot.name ?? 'Spot')}`,
