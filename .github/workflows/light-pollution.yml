@@ -62,9 +62,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/layers data/spots.json
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "Add the dark-sky layer: Bortle for every spot + map overlay
-
-Every spot now carries a Bortle sky-darkness rating from the World Atlas of
-Artificial Night Sky Brightness, and the map gains a dark-sky overlay. Data:
-Falchi et al. 2016 (CC BY-NC 4.0)."
+          git commit -m "Add the dark-sky layer: a Bortle rating for every spot, and a map overlay" -m "Every spot now carries a Bortle sky-darkness rating from the World Atlas of Artificial Night Sky Brightness (Falchi et al. 2016, CC BY-NC 4.0), and the map gains a dark-sky overlay."
           for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done
