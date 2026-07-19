@@ -51,6 +51,10 @@ doing anything.
 ## "set up" while any is unconfirmed.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 PROMOTED 0.2.0 + 0.3.0 + 0.4.0 to main in one fast-forward
+  (Noah's "Push main"): production == 0.4.0 (photo-pointer.pages.dev). Golden
+  Hour, cross-layer synthesis, and the dark-sky/Bortle layer are all live.
+  staging == main after this; next candidate re-diverges staging.
 - 2026-07-19 SCAFFOLDED (this repo's genesis): Spot schema + dedup
   (src/model/), OSM/Overpass adapter working + 6 stub adapters with license
   notes (ingest/adapters/), region config seeded Sacramento/El Dorado/Placer
