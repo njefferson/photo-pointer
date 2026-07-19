@@ -190,6 +190,11 @@ export function createMapView(container, { region, onChange }) {
             (spot.tags.publicLand.operator ? ` (${spot.tags.publicLand.operator})` : '') +
             ' — check access hours')
         : null,
+      spot.tags?.inaturalist?.observations
+        ? el('p', { class: 'popup-wild' },
+            `Wildlife photographed nearby: ${spot.tags.inaturalist.species} ` +
+            `non-bird species (${spot.tags.inaturalist.observations} iNaturalist records)`)
+        : null,
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),

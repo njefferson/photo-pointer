@@ -1,0 +1,41 @@
+name: iNaturalist ingest
+
+# Fetches open-licensed (CC0/CC-BY/CC-BY-SA), research-grade, NON-bird
+# observations from iNaturalist, assigns each to the nearest committed spot,
+# writes tags.inaturalist (a wildlife-density enrichment) + a small metadata
+# layer, and commits. Runs on its own — RE-RUN after a full OSM refresh (which
+# regenerates spots.json and drops the tags). Dispatch via actions_run_trigger.
+#
+# No API key. The sandbox can't reach api.inaturalist.org, so this runs on a
+# runner. eBird already covers birds; iNaturalist adds everything else.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: inat-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Fetch iNaturalist observations + tag spots
+        run: node ingest/ingest.mjs inaturalist
+      - name: Validate
+        run: node ingest/ingest.mjs validate
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/spots.json data/layers/inaturalist.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add the wildlife layer: where the non-bird animals are photographed" -m "Marks every spot near open-licensed iNaturalist records of mammals, reptiles, amphibians, and insects — the wildlife eBird doesn't cover — feeding the 'Wild subjects' signal in Top spots."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

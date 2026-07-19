@@ -24,7 +24,8 @@ import { validateRegion } from '../src/model/region.js';
 import * as osm from './adapters/osm-overpass.mjs';
 import * as ebird from './adapters/ebird-hotspots.mjs';
 import * as publicLands from './adapters/public-lands.mjs';
-import { pointInArea } from '../src/model/geo.js';
+import * as inaturalist from './adapters/inaturalist.mjs';
+import { pointInArea, distanceM } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SOURCES_DIR = path.join(ROOT, 'data', 'sources');
@@ -168,6 +169,71 @@ async function cmdPublicLands() {
   log(`tagged ${tagged}/${doc.spots.length} spots on public land (${areas.length} areas)`);
 }
 
+// Enrich spots with nearby iNaturalist wildlife density (non-bird, open-
+// licensed, research-grade). Assigns each observation to the NEAREST spot
+// within RADIUS_M and aggregates. Like public-lands, re-run after a full OSM
+// refresh (which regenerates spots.json and drops the tags).
+async function cmdINaturalist() {
+  const RADIUS_M = 500;
+  const region = await loadRegionFile();
+  const obs = await inaturalist.ingest(region, { log });
+  if (obs.length === 0) {
+    console.error('inaturalist: 0 observations — refusing to wipe tags');
+    process.exit(1);
+  }
+  const doc = await readJsonIfExists(SPOTS_FILE);
+  if (!doc) {
+    console.error('inaturalist: no data/spots.json — run merge first');
+    process.exit(1);
+  }
+  // Spot grid (~0.006° ≈ 600 m cells) for a bounded nearest-spot search.
+  const CELL = 0.006;
+  const grid = new Map();
+  const gkey = (lat, lng) => `${Math.round(lat / CELL)}:${Math.round(lng / CELL)}`;
+  for (const s of doc.spots) {
+    const k = gkey(s.lat, s.lng);
+    (grid.get(k) ?? grid.set(k, []).get(k)).push(s);
+  }
+  const acc = new Map(); // spot.id -> { n, taxa:Set, guilds:{} }
+  for (const o of obs) {
+    const clat = Math.round(o.lat / CELL);
+    const clng = Math.round(o.lng / CELL);
+    let best = null;
+    for (let dy = -1; dy <= 1; dy++) {
+      for (let dx = -1; dx <= 1; dx++) {
+        for (const s of grid.get(`${clat + dy}:${clng + dx}`) ?? []) {
+          const d = distanceM(o, s);
+          if (d <= RADIUS_M && (!best || d < best.d)) best = { s, d };
+        }
+      }
+    }
+    if (!best) continue;
+    let a = acc.get(best.s.id);
+    if (!a) acc.set(best.s.id, (a = { n: 0, taxa: new Set(), guilds: {} }));
+    a.n++;
+    if (o.taxon) a.taxa.add(o.taxon);
+    a.guilds[o.guild] = (a.guilds[o.guild] ?? 0) + 1;
+  }
+  let tagged = 0;
+  for (const s of doc.spots) {
+    const a = acc.get(s.id);
+    if (a && a.n >= 3) { // ≥3 open observations to count as a wildlife spot
+      const topGuild = Object.entries(a.guilds).sort((x, y) => y[1] - x[1])[0][0];
+      (s.tags ??= {}).inaturalist = { observations: a.n, species: a.taxa.size, topGuild };
+      tagged++;
+    } else if (s.tags?.inaturalist) {
+      delete s.tags.inaturalist;
+    }
+  }
+  await writeFile(SPOTS_FILE, JSON.stringify(doc, null, 2) + '\n');
+  await mkdir(path.join(ROOT, 'data', 'layers'), { recursive: true });
+  await writeFile(
+    path.join(ROOT, 'data', 'layers', 'inaturalist.json'),
+    JSON.stringify({ source: inaturalist.meta, builtAt: today, observations: obs.length, spotsTagged: tagged }, null, 2) + '\n'
+  );
+  log(`tagged ${tagged}/${doc.spots.length} spots with iNaturalist wildlife density (${obs.length} observations)`);
+}
+
 async function cmdMerge() {
   const region = await loadRegionFile();
   const files = (await readdir(SOURCES_DIR).catch(() => [])).filter((f) => f.endsWith('.json'));
@@ -235,6 +301,7 @@ const commands = {
   osm: cmdOsm,
   ebird: cmdEbird,
   'public-lands': cmdPublicLands,
+  inaturalist: cmdINaturalist,
   merge: cmdMerge,
   validate: cmdValidate,
   all: async () => { await cmdOsm(); await cmdEbird(); await cmdMerge(); await cmdValidate(); },

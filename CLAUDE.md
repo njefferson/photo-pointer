@@ -51,6 +51,34 @@ doing anything.
 ## "set up" while any is unconfirmed.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 0.8.0 "Wild subjects" BUILT on staging (awaiting on-device pass +
+  an inaturalist.yml runner pass to tag the data): Tier 3 item #1 of the
+  integrations list (Noah's "Do 1 and 2"). NON-BIRD wildlife density per spot —
+  the layer eBird can't give. ingest/adapters/inaturalist.mjs (per-record CC,
+  FETCHES only cc0/cc-by/cc-by-sa research-grade, captive=false, geoprivacy=
+  open, iconic_taxa Mammalia/Reptilia/Amphibia/Insecta/Arachnida/Mollusca —
+  Aves EXCLUDED to not double-count eBird). No key; sandbox can't reach
+  api.inaturalist.org so it's runner-only. MAX_PAGES=30 (×200 = 6000 most-recent
+  obs, bounded/honest — documented cap). ENRICHMENT not source (like public-
+  lands/horizon): ingest.mjs `inaturalist` command assigns each obs to the
+  NEAREST spot within RADIUS_M=500 via a 0.006° spot grid, aggregates, writes
+  tags.inaturalist {observations, species, topGuild} on spots with ≥3 open obs +
+  data/layers/inaturalist.json. So it tags EXISTING spots, never invents new
+  ones (a dense wildlife area far from any spot is missed — rare gap given
+  OSM+eBird density, documented). synthesis.js iNatWildlife signal (weight 0.7,
+  value = species/25 clamped 0.3..1, dormant until tagged). UI: popup "Wildlife
+  photographed nearby: N non-bird species" (.popup-wild, no CSS needed — uses
+  .popup p) + Top-spots "Wild subjects" require chip (ADD signals to BOTH
+  synthesis.SIGNALS and ui/synthesis.js LAYER_CHIPS). RE-RUN inaturalist.yml
+  after a full OSM refresh (same ordering caveat). sw CACHE pointer-0.8.0.
+  VERIFIED: adapter unit-tested (normalizeObs license filter cc0/cc-by/cc-by-sa
+  only, rejects cc-by-nc/null; geojson + location parsing; mocked-fetch
+  pagination stops on short page); iNatWildlife signal dormant→active test; app
+  boots zero pageerrors, "Wild subjects" chip renders + DORMANT (0 rows)
+  pre-data; 72 tests, contrast green. NOTE the enrichment fetch is unrun locally
+  (network) — mirrors public-lands; runner will confirm real counts. NEXT: Tier
+  3 #2 = markers (HMdb has NO clean API + copyrighted → license-clean path is
+  Wikidata CC0 for facts + HMdb link-out; it's a SOURCE adapter = re-merge).
 - 2026-07-19 0.7.0 "Open horizon" BUILT on staging (awaiting on-device pass +
   a horizon.yml runner pass to tag the data): Tier 2b of the integrations list.
   MEASURED terrain horizon per spot — the distinct-from-`view` layer (`view` is

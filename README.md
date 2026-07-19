@@ -59,7 +59,7 @@ commits `data/` to the branch it ran on.
 | OpenStreetMap (Overpass) | viewpoints, waterfalls, peaks, markers, oddities, parks, trailheads, campsites | **ODbL 1.0** — attribution "© OpenStreetMap contributors"; share-alike on the database | **Working** |
 | HMdb.org | historical markers | Content **copyrighted** — store name/coords/link only, never republish inscriptions or photos | Stub |
 | eBird (Cornell Lab) | wildlife hotspots | API terms — attribution required, no bulk redistribution | **Working** |
-| iNaturalist | wildlife observation clusters | Per-record CC licensing — ingest filters to CC0/CC-BY/CC-BY-SA only | Stub |
+| iNaturalist | non-bird wildlife density (mammals/reptiles/amphibians/insects) near each spot | Per-record CC licensing — ingest fetches CC0/CC-BY/CC-BY-SA only, counts not content | **Working** |
 | Flickr | where CC photographers actually shoot | Per-photo — **only CC/public-domain licensed photos**; needs `FLICKR_API_KEY` | Stub |
 | World Atlas (Falchi 2016) | dark-sky / light-pollution raster → Bortle per spot + map overlay | **CC BY-NC 4.0**, doi:10.5880/GFZ.1.4.2016.001 | **Working** |
 | Public lands | protected-area boundaries → which spots are on public land | OpenStreetMap, ODbL | **Working** |

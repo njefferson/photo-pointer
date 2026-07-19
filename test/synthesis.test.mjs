@@ -87,6 +87,19 @@ test('the open-horizon signal is dormant with no data and activates on tags.hori
   assert.match(oh.note, /wide open/);
 });
 
+test('the iNaturalist wildlife signal is dormant with no data and activates on tags.inaturalist', () => {
+  const ctx = buildContext(spots);
+  const before = scoreSpot(spots[0], ctx);
+  assert.ok(!before.parts.some((p) => p.key === 'iNatWildlife'), 'dormant without data');
+
+  const withINat = { ...spots[0], tags: { ...spots[0].tags, inaturalist: { observations: 40, species: 18, topGuild: 'mammals' } } };
+  const ctx2 = buildContext([withINat]);
+  const after = scoreSpot(withINat, ctx2);
+  const w = after.parts.find((p) => p.key === 'iNatWildlife');
+  assert.ok(w, 'activates once its data source lands');
+  assert.match(w.note, /mammals, 18 species/);
+});
+
 test('cross-layer require: "dark AND open view" filters to spots satisfying both', () => {
   const world = [
     { ...spots[3], id: 'darkview', tags: { direction: 'W', bortle: 3 } }, // view + dark

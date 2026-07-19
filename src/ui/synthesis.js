@@ -50,6 +50,7 @@ export function topSpotsPanel(ranked, onGo) {
   const LAYER_CHIPS = [
     ['layered', 'Layered'],
     ['wildlife', 'Wildlife'],
+    ['iNatWildlife', 'Wild subjects'],
     ['view', 'Open view'],
     ['openHorizon', 'Open horizon'],
     ['access', 'Easy access'],

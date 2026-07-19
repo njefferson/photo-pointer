@@ -52,6 +52,22 @@ export const SIGNALS = [
     },
   },
   {
+    key: 'iNatWildlife',
+    label: 'Wildlife photographed here',
+    weight: 0.7,
+    // DORMANT until the iNaturalist ingest writes tags.inaturalist. This is the
+    // NON-BIRD wildlife layer (mammals/reptiles/amphibians/insects) that eBird
+    // can't give — where people actually photograph the rest of the wildlife.
+    evaluate(spot) {
+      const i = spot.tags?.inaturalist;
+      if (i == null || !i.observations) return null;
+      // More distinct species = a richer subject; saturate around 25.
+      const value = clamp((i.species ?? 1) / 25, 0.3, 1);
+      const g = i.topGuild && i.topGuild !== 'wildlife' ? `${i.topGuild}, ` : '';
+      return { value, note: `${g}${i.species} species photographed nearby` };
+    },
+  },
+  {
     key: 'view',
     label: 'Open view for golden hour',
     weight: 0.8,

@@ -2,6 +2,19 @@
 
 Written for the person using the app. Newest first.
 
+## 0.8.0 — 2026-07-19
+
+**Where the wildlife actually is — beyond birds.**
+
+- eBird already tells you where the birds are. Now every spot also knows the
+  **other** wildlife photographed nearby — mammals, reptiles, amphibians,
+  insects — from openly-licensed iNaturalist records. Tap a place and see how
+  many non-bird species people have actually shot there.
+- **Top spots gains a "Wild subjects" filter.** A park that's a birding
+  hotspot *and* a mammal-and-herp hotspot now rises to the top.
+- Only research-grade records under open licenses (CC0, CC-BY, CC-BY-SA) are
+  used, and only as counts — no photos or content are copied.
+
 ## 0.7.0 — 2026-07-19
 
 **How open is the sky, really?**
