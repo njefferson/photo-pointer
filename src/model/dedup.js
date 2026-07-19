@@ -177,5 +177,30 @@ export function resolveSpots(records) {
     }
   }
 
+  // Guarantee unique ids. Two DIFFERENT places (resolveSpots kept them
+  // separate) can still compute the same dedupKey when they share a geohash
+  // cell — e.g. two distinct markers with identical names ~300 m apart. Give
+  // the collisions a deterministic suffix so one real place still owns the
+  // clean key. Order-independent: colliding spots are ranked by a fine
+  // geohash + canonical source id, not by processing order.
+  const byKey = new Map();
+  for (const s of out) {
+    if (!byKey.has(s.id)) byKey.set(s.id, []);
+    byKey.get(s.id).push(s);
+  }
+  for (const [base, group] of byKey) {
+    if (group.length === 1) continue;
+    group.sort((a, b) => disambRank(a).localeCompare(disambRank(b)));
+    group.forEach((s, i) => {
+      if (i > 0) s.id = `${base}~${i + 1}`;
+    });
+  }
+
   return out.sort((a, b) => a.id.localeCompare(b.id));
+}
+
+function disambRank(spot) {
+  const canonical = [...(spot.sources ?? [])]
+    .sort((a, b) => `${a.source}:${a.source_id}`.localeCompare(`${b.source}:${b.source_id}`))[0];
+  return `${geohash(spot.lat, spot.lng, 10)}:${canonical ? canonical.source + ':' + canonical.source_id : ''}`;
 }

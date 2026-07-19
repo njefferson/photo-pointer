@@ -107,6 +107,28 @@ test('mergeSpots unions sources without duplicating the same record', () => {
   assert.equal(merged.sources[0].last_seen, '2026-08-01');
 });
 
+test('distinct places that collide on a dedup key get unique ids', () => {
+  // Two different markers, same name, ~300 m apart (same geohash6 cell but
+  // beyond MATCH_DIST_M) — must stay separate AND end up with unique ids.
+  // These two share geohash6 cell 9qcgd5 but are 278 m apart (> MATCH_DIST_M).
+  const a = { name: 'Sportsmans Hall Landmark', lat: 38.6006, lng: -121.2000, category: 'marker', sources: [src('osm', 'node/100')], tags: {} };
+  const b = { name: 'Sportsmans Hall Landmark', lat: 38.6031, lng: -121.2000, category: 'marker', sources: [src('osm', 'node/101')], tags: {} };
+  const out = resolveSpots([a, b]);
+  assert.equal(out.length, 2, 'two distinct places stay separate');
+  assert.equal(new Set(out.map((s) => s.id)).size, 2, 'ids are unique');
+  // One keeps the clean base key; the other is suffixed.
+  assert.ok(out.some((s) => !s.id.includes('~')));
+  assert.ok(out.some((s) => s.id.includes('~')));
+});
+
+test('dedup-key disambiguation is order-independent', () => {
+  const a = { name: 'Twin Oaks', lat: 38.6006, lng: -121.2000, category: 'viewpoint', sources: [src('osm', 'node/200')], tags: {} };
+  const b = { name: 'Twin Oaks', lat: 38.6031, lng: -121.2000, category: 'viewpoint', sources: [src('osm', 'node/201')], tags: {} };
+  const fwd = resolveSpots([a, b]).map((s) => s.id).sort();
+  const rev = resolveSpots([b, a]).map((s) => s.id).sort();
+  assert.deepEqual(fwd, rev);
+});
+
 test('isSamePlace requires name agreement for named pairs', () => {
   const a = { name: 'North Table Vista', lat: 38.75, lng: -121.25, category: 'viewpoint' };
   const b = { name: 'Completely Different Spot', lat: 38.75, lng: -121.25, category: 'viewpoint' };
