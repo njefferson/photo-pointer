@@ -67,6 +67,7 @@ commits `data/` to the branch it ran on.
 | Map tiles | OSM carto + Esri World Imagery | © OpenStreetMap contributors · Imagery © Esri | Working |
 | Sun & moon | on-device golden/blue-hour, sunrise/sunset + direction, moon phase + Milky-Way dark window | astronomy-engine © Don Cross, MIT (vendored) | Working |
 | Weather | live clear-sky (cloud) forecast for tonight, per spot | Open-Meteo, free, no key (CC BY 4.0) | Working |
+| Air quality | live US AQI + wildfire-smoke note today, per spot | Open-Meteo Air Quality, free, no key (CC BY 4.0) | Working |
 
 Each adapter's header comment is the authoritative license note — read it
 before extending that source.

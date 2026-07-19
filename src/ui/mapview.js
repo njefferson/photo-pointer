@@ -7,6 +7,7 @@ import { addUserPin, removeUserPin, restoreUserPin } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
 import { moonTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
+import { airToday } from '../model/airquality.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
 
@@ -170,6 +171,18 @@ export function createMapView(container, { region, onChange }) {
     ]);
   }
 
+  // Live air-quality line (Open-Meteo). Fills in async, fails soft.
+  function airLine(spot) {
+    const p = el('p', { class: 'popup-air' }, 'Air today: checking…');
+    airToday(spot.lat, spot.lng).then((a) => {
+      if (!a) { p.textContent = 'Air today: unavailable'; return; }
+      p.textContent =
+        `Air today: up to AQI ${a.maxAqi} (${a.category})` +
+        (a.smoke ? ' — likely wildfire smoke' : '');
+    }).catch(() => { p.textContent = 'Air today: unavailable'; });
+    return p;
+  }
+
   function popupFor(spot) {
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
@@ -210,6 +223,7 @@ export function createMapView(container, { region, onChange }) {
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),
+      airLine(spot),
       tonightSection(spot),
       el('p', { class: 'popup-nav' }, [
         el('a', {

@@ -2,6 +2,18 @@
 
 Written for the person using the app. Newest first.
 
+## 0.11.0 — 2026-07-19
+
+**Is the air clear enough to shoot?**
+
+- Every spot's popup now shows **today's air quality** — the US AQI and, when
+  the air is bad, a plain "**likely wildfire smoke**" note (smoke is exactly
+  what spikes the fine-particle reading out here).
+- It's a live check from Open-Meteo (free, no account), fetched only when you
+  open a spot — so it's always current, never a stale number baked into the app.
+- Put it with the Tonight panel and you get the whole picture before you drive
+  out: dark, moonless, clear *and* smoke-free.
+
 ## 0.10.0 — 2026-07-19
 
 **Where people actually point their cameras.**

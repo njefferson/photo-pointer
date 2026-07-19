@@ -65,6 +65,25 @@ doing anything.
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 0.11.0 "Air today" BUILT on staging (awaiting on-device pass): Tier
+  3 item #3 (air quality / wildfire smoke). Uses OPEN-METEO AIR QUALITY (keyless,
+  CORS, live client-side) NOT NASA FIRMS — a committed fire snapshot goes stale;
+  live AQI at view time is the right shape (same as the Tonight weather), and
+  PM2.5 IS the wildfire-smoke signal. model/airquality.js airToday(lat,lng):
+  hits air-quality-api.open-meteo.com/v1/air-quality (hourly us_aqi,pm2_5,
+  forecast_days=1, timezone=auto), returns {maxAqi, category, pm25peak, smoke}.
+  Reports TODAY'S PEAK (robust without a reliable cross-tz "now"; peak is what
+  matters for planning); smoke=true when pm25peak≥35 µg/m³ (unhealthy-for-
+  sensitive line, ≈ wildfire smoke out here). aqiCategory() = US AQI bands. NOT a
+  ranking signal (ephemeral/per-spot-live, like moon/weather) — it's a popup
+  readout. UI: mapview airLine(spot) — async popup <p.popup-air> "Air today: up
+  to AQI N (category) — likely wildfire smoke", fills async, fails soft. CSP
+  connect-src adds air-quality-api.open-meteo.com (_headers). sw CACHE
+  pointer-0.11.0 (airquality.js precached). VERIFIED: unit tests (AQI bands, peak
+  AQI, smoke flag on PM2.5 spike, fail-soft); headless with mocked AQI → popup
+  shows "up to AQI 161 (unhealthy) — likely wildfire smoke", zero pageerrors; 87
+  tests, contrast green. FLICKR IS DEAD (PRO-only keys) — see SETTLED; replaced
+  by Commons (0.10.0).
 - 2026-07-19 0.10.0 "Photographed" BUILT on staging (awaiting on-device pass +
   a commons.yml runner pass to tag the data): Tier 3 item #4, Flickr's clean
   replacement (Flickr keys are PRO-only now — see SETTLED). ingest/adapters/
