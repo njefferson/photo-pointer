@@ -7,12 +7,17 @@
 // when Wikidata records its HMdb Marker ID (property P7883). No HMdb content is
 // copied — this is exactly HMdb's "links only" posture, done cleanly.
 //
-// WHAT WE PULL (in the region bbox): items that carry either
-//   • P7883 — Historical Marker Database ID (→ a real HMdb marker), or
-//   • P5651 — California Historical Landmark number (the roadside history
-//     plaques this Gold Rush region is dense with).
-// Both are external-identifier properties, so a hit unambiguously means "this
-// is a historical marker/landmark" — no fragile instance-of class guessing.
+// WHAT WE PULL (in the region bbox): historical markers, landmarks, and
+// monuments —
+//   • anything with P7883 (Historical Marker Database ID → a real HMdb marker),
+//   • instances of Q2933979 (California Historical Landmark — this Gold Rush
+//     region is dense with them),
+//   • instances of (or subclasses of) Q4989906 (monument) or Q5003624
+//     (memorial) — statues, obelisks, war memorials, commemorative plaques.
+// HONEST COVERAGE NOTE: Wikidata's coverage of the small brass HMdb *markers*
+// is sparse (it shines on notable monuments/landmarks). So this surfaces the
+// region's notable historical sites, plus the HMdb markers Wikidata knows —
+// not every roadside plaque HMdb itself lists.
 //
 // LICENSE: Wikidata is CC0. Attribution is courteous, not required. HMdb links
 // are references only.
@@ -34,15 +39,20 @@ export const USER_AGENT =
 
 export function buildQuery(region) {
   const b = region.bbox;
-  return `SELECT ?item ?itemLabel ?coord ?hmdb ?chl WHERE {
+  return `SELECT DISTINCT ?item ?itemLabel ?coord ?hmdb ?chl WHERE {
   SERVICE wikibase:box {
     ?item wdt:P625 ?coord .
     bd:serviceParam wikibase:cornerSouthWest "Point(${b.west} ${b.south})"^^geo:wktLiteral .
     bd:serviceParam wikibase:cornerNorthEast "Point(${b.east} ${b.north})"^^geo:wktLiteral .
   }
-  { ?item wdt:P7883 ?hmdb. } UNION { ?item wdt:P5651 ?chl. }
+  {
+    { ?item wdt:P7883 ?hmdb. }
+    UNION { ?item wdt:P31 wd:Q2933979. }
+    UNION { ?item wdt:P31/wdt:P279* wd:Q4989906. }
+    UNION { ?item wdt:P31/wdt:P279* wd:Q5003624. }
+  }
   OPTIONAL { ?item wdt:P7883 ?hmdb. }
-  OPTIONAL { ?item wdt:P5651 ?chl. }
+  OPTIONAL { ?item wdt:P31 wd:Q2933979. BIND(true AS ?chl) }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mul". }
 }`;
 }
@@ -62,14 +72,14 @@ export function normalizeBinding(row, today) {
   if (!qid) return null;
   const name = row.itemLabel?.value && row.itemLabel.value !== qid ? row.itemLabel.value : null;
   const hmdbId = row.hmdb?.value || null;
-  const chl = row.chl?.value || null;
+  const isCHL = row.chl?.value === 'true' || row.chl?.value === '1';
   // Prefer the HMdb marker page as the outbound link; else the Wikidata item.
   const source_url = hmdbId
     ? `https://www.hmdb.org/m.asp?m=${hmdbId}`
     : `https://www.wikidata.org/wiki/${qid}`;
   const tags = {};
   if (hmdbId) tags.hmdb = hmdbId;
-  if (chl) tags.california_landmark = chl;
+  if (isCHL) tags.california_landmark = true;
   return {
     name,
     lat: p.lat,

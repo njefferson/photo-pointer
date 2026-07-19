@@ -24,15 +24,15 @@ test('a marker with an HMdb ID links to its HMdb page', () => {
   assert.equal(rec.notes, null, 'never stores inscription text');
 });
 
-test('a landmark with only a CHL number links to Wikidata and tags the landmark', () => {
+test('a California Historical Landmark (no HMdb id) links to Wikidata and is flagged', () => {
   const rec = normalizeBinding({
     item: { value: 'http://www.wikidata.org/entity/Q99' },
     itemLabel: { value: 'Old Sacramento' },
     coord: { value: 'Point(-121.50 38.58)' },
-    chl: { value: '812' },
+    chl: { value: 'true' },
   }, '2026-07-19');
   assert.equal(rec.sources[0].source_url, 'https://www.wikidata.org/wiki/Q99');
-  assert.equal(rec.tags.california_landmark, '812');
+  assert.equal(rec.tags.california_landmark, true);
   assert.equal(rec.tags.hmdb, undefined);
 });
 
@@ -51,7 +51,8 @@ test('buildQuery embeds the region bbox as SW/NE WKT corners', () => {
   assert.match(q, /cornerSouthWest "Point\(-121\.95 38\)"/);
   assert.match(q, /cornerNorthEast "Point\(-119\.85 39\.4\)"/);
   assert.match(q, /P7883/);
-  assert.match(q, /P5651/);
+  assert.match(q, /Q2933979/); // California Historical Landmark type
+  assert.match(q, /Q4989906/); // monument
 });
 
 test('ingest dedups a marker returned twice (both IDs) and counts HMdb links', async () => {
