@@ -239,51 +239,57 @@ async function cmdINaturalist() {
 }
 
 // Enrich spots with nearby Wikimedia Commons photo density (all Commons media
-// is free-licensed). Per-spot geosearch with a small concurrency pool. Like the
-// other enrichments, re-run after a full OSM refresh.
+// is free-licensed). HARVEST the region's geotagged photos once (coarse tile
+// grid), then count per spot LOCALLY — no per-spot API calls. Like the other
+// enrichments, re-run after a full OSM refresh.
 async function cmdCommons() {
-  const MIN = 3; // a spot needs ≥3 nearby photos to count as "photographed"
-  const POOL = 6;
+  const MIN = 3;         // ≥3 nearby photos to count as "photographed"
+  const RADIUS_M = commons.RADIUS_M;
   const region = await loadRegionFile();
   const doc = await readJsonIfExists(SPOTS_FILE);
   if (!doc) {
     console.error('commons: no data/spots.json — run merge first');
     process.exit(1);
   }
-  const spots = doc.spots;
-  let tagged = 0, done = 0, errors = 0;
-  let next = 0;
-  async function worker() {
-    while (next < spots.length) {
-      const s = spots[next++];
-      try {
-        const { photos, capped } = await commons.countPhotosNear(s.lat, s.lng);
-        if (photos >= MIN) {
-          (s.tags ??= {}).commons = { photos, capped };
-          tagged++;
-        } else if (s.tags?.commons) {
-          delete s.tags.commons;
-        }
-      } catch {
-        errors++;
-      }
-      done++;
-      if (done % 250 === 0) log(`  commons: ${done}/${spots.length} spots probed, ${tagged} tagged, ${errors} errs`);
-      await new Promise((r) => setTimeout(r, 60)); // gentle per-worker pacing
-    }
-  }
-  await Promise.all(Array.from({ length: POOL }, worker));
-  if (tagged === 0) {
-    console.error('commons: 0 spots tagged — refusing to wipe (likely a fetch problem)');
+  const images = await commons.harvestBBox(region.bbox, { log });
+  if (images.length === 0) {
+    console.error('commons: 0 photos harvested — refusing to wipe (likely a fetch problem)');
     process.exit(1);
+  }
+  // Grid the harvested photos (~0.008° ≈ 900 m cells) for fast nearest counting.
+  const CELL = 0.008;
+  const grid = new Map();
+  const gkey = (lat, lng) => `${Math.round(lat / CELL)}:${Math.round(lng / CELL)}`;
+  for (const im of images) {
+    const k = gkey(im.lat, im.lng);
+    (grid.get(k) ?? grid.set(k, []).get(k)).push(im);
+  }
+  let tagged = 0;
+  for (const s of doc.spots) {
+    const clat = Math.round(s.lat / CELL);
+    const clng = Math.round(s.lng / CELL);
+    let n = 0;
+    for (let dy = -1; dy <= 1; dy++) {
+      for (let dx = -1; dx <= 1; dx++) {
+        for (const im of grid.get(`${clat + dy}:${clng + dx}`) ?? []) {
+          if (distanceM(s, im) <= RADIUS_M) n++;
+        }
+      }
+    }
+    if (n >= MIN) {
+      (s.tags ??= {}).commons = { photos: n };
+      tagged++;
+    } else if (s.tags?.commons) {
+      delete s.tags.commons;
+    }
   }
   await writeFile(SPOTS_FILE, JSON.stringify(doc, null, 2) + '\n');
   await mkdir(path.join(ROOT, 'data', 'layers'), { recursive: true });
   await writeFile(
     path.join(ROOT, 'data', 'layers', 'commons.json'),
-    JSON.stringify({ source: commons.meta, builtAt: today, spotsTagged: tagged, probed: done, errors }, null, 2) + '\n'
+    JSON.stringify({ source: commons.meta, builtAt: today, photosHarvested: images.length, spotsTagged: tagged }, null, 2) + '\n'
   );
-  log(`tagged ${tagged}/${spots.length} spots with Commons photo density (${errors} fetch errors)`);
+  log(`tagged ${tagged}/${doc.spots.length} spots with Commons photo density (${images.length} photos harvested)`);
 }
 
 async function cmdMarkers() {
