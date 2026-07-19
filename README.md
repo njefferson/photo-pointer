@@ -57,6 +57,7 @@ commits `data/` to the branch it ran on.
 | VIIRS / World Atlas | light-pollution raster | TBD at implementation (attribution required; World Atlas is non-commercial) — a map **layer**, not points | Stub |
 | CPAD / PAD-US | public-land boundaries | CPAD free w/ attribution · PAD-US public domain | Stub |
 | Map tiles | OSM carto + Esri World Imagery | © OpenStreetMap contributors · Imagery © Esri | Working |
+| Sun times | on-device golden/blue-hour, sunrise/sunset + sun direction | astronomy-engine © Don Cross, MIT (vendored) | Working |
 
 Each adapter's header comment is the authoritative license note — read it
 before extending that source.

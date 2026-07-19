@@ -54,6 +54,19 @@ doing anything.
   notes (ingest/adapters/), region config seeded Sacramento/El Dorado/Placer
   (config/region.json), Leaflet map app (no build step), sw.js offline,
   contrast gate, 33 node --test tests, CI/deploy/ingest workflows.
+- 2026-07-19 0.1.0 PROMOTED to main (Noah's "Promote to main"): production
+  live at photo-pointer.pages.dev (Deploy run on main green). Then eBird added
+  (2,362 spots) + PolyForm license. main == 0.1.0.
+- 2026-07-19 0.2.0 "Golden Hour" BUILT on staging (awaiting on-device pass):
+  per-spot "Light today" in the popup — blue/golden-hour, sunrise, sunset +
+  sun COMPASS direction, computed on-device (src/model/light.js) via vendored
+  astronomy-engine (MIT, src/vendor/astronomy.js). GOTCHA baked into light.js:
+  anchor the rise/set search at the spot's LOCAL midnight (est. from lng,
+  solar time = UTC + lng/15h) — a UTC-midnight anchor returns YESTERDAY's
+  sunset for US sites. sw CACHE pointer-0.2.0 (astronomy.js + light.js
+  precached). Verified headless (TZ=America/Los_Angeles): popup shows
+  "Sunrise 5:54 AM NE", 6 windows ordered, polar day handled, zero pageerrors;
+  43 tests, contrast green.
 - 2026-07-19 FIRST LIVE DATA: Ingest OSM committed data/spots.json = 1,711
   deduped spots for Sacramento/El Dorado/Placer (OSM/Overpass, ODbL). Deploy
   auto-creates the Pages project; staging deploys are green (no secrets step

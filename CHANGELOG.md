@@ -2,6 +2,16 @@
 
 Written for the person using the app. Newest first.
 
+## 0.2.0 — 2026-07-19
+
+**Golden hour, for every spot.**
+
+- Tap any place and see **today's light** for that exact spot: blue hour,
+  golden hour, sunrise, and sunset — with the sunrise and sunset **compass
+  direction** so you know which way to point the camera.
+- All computed on your device from the spot's location and today's date —
+  no signal needed, nothing sent anywhere.
+
 ## 0.1.0 — 2026-07-19
 
 The first release: one map of every photo-worthy place in Sacramento,

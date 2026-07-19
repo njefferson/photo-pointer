@@ -54,12 +54,15 @@ offline-first, no account. No Instagram, no social scraping, ever.
 - [x] Cloudflare Pages deploy live (2026-07-19): the Pages project is
       auto-created on first publish; staging deploys succeed
       (staging.photo-pointer.pages.dev preview).
-- [ ] Noah's on-device pass of the staged map
-- [ ] Second source (his pick, question 3)
-- [ ] Light-pollution layer
-- [ ] Public-lands layer
-- [ ] Per-spot detail view with sun-angle hints (golden-hour azimuth for the
-      spot's `direction` tag where OSM has one)
+- [x] 0.1.0 PROMOTED to main / production (2026-07-19), Noah's go.
+- [x] eBird wildlife hotspots (0.1.0) — 2,362 spots.
+- [x] 0.2.0 "Golden Hour" on staging (2026-07-19) — per-spot on-device
+      sunrise/sunset/golden/blue-hour times + sun compass direction, via
+      vendored astronomy-engine (MIT). Awaiting Noah's on-device pass.
+- [ ] Candidate next sources/features (Noah's pick): light-pollution/dark-sky
+      raster layer (fits his astro work; needs a license-clean raster source),
+      public-lands boundaries (CPAD, clean), HMdb markers (facts-only),
+      Flickr CC photo-density (needs his API key), "near me" geolocation.
 
 ## Measured gotchas (this repo)
 

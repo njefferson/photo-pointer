@@ -4,6 +4,7 @@
 import * as L from '../vendor/leaflet.js';
 import { el, toast } from './dom.js';
 import { addUserPin, removeUserPin, restoreUserPin } from '../model/store.js';
+import { sunTimesFor, compass, clock } from '../model/light.js';
 
 export const CATEGORY_META = {
   viewpoint: { label: 'Viewpoint', letter: 'V' },
@@ -53,6 +54,63 @@ export function createMapView(container, { region, onChange }) {
   const markersByCategory = new Map(); // category -> L.LayerGroup
   let visible = new Set(Object.keys(CATEGORY_META));
 
+  // "Light today" — the question the app is named for, computed on-device for
+  // this spot and this date. A row per window; each carries a text label (not
+  // color) and the sun's compass direction where it helps frame the shot.
+  function lightSection(spot) {
+    let t;
+    try {
+      t = sunTimesFor(spot.lat, spot.lng);
+    } catch {
+      return null;
+    }
+    const rows = [];
+    const row = (label, w, extra) =>
+      w ? el('tr', {}, [
+        el('th', { scope: 'row' }, label),
+        el('td', {}, `${clock(w.start)} – ${clock(w.end)}`),
+        el('td', { class: 'light-dir' }, extra ?? ''),
+      ]) : null;
+
+    if (t.polar) {
+      return el('div', { class: 'light-box' }, [
+        el('h4', {}, 'Light today'),
+        el('p', { class: 'light-polar' }, 'The sun stays up (or down) all day at this latitude today.'),
+      ]);
+    }
+    const sunriseDir = compass(t.sunriseAzimuth);
+    const sunsetDir = compass(t.sunsetAzimuth);
+    rows.push(row('Blue hour', t.blueMorning));
+    rows.push(row('Golden hour', t.goldenMorning, sunriseDir ? `sun rises ${sunriseDir}` : ''));
+    rows.push(
+      t.sunrise
+        ? el('tr', { class: 'light-mark' }, [
+            el('th', { scope: 'row' }, 'Sunrise'),
+            el('td', {}, clock(t.sunrise)),
+            el('td', { class: 'light-dir' }, sunriseDir ?? ''),
+          ])
+        : null
+    );
+    rows.push(
+      t.sunset
+        ? el('tr', { class: 'light-mark' }, [
+            el('th', { scope: 'row' }, 'Sunset'),
+            el('td', {}, clock(t.sunset)),
+            el('td', { class: 'light-dir' }, sunsetDir ?? ''),
+          ])
+        : null
+    );
+    rows.push(row('Golden hour', t.goldenEvening, sunsetDir ? `sun sets ${sunsetDir}` : ''));
+    rows.push(row('Blue hour', t.blueEvening));
+
+    return el('div', { class: 'light-box' }, [
+      el('h4', {}, 'Light today'),
+      el('table', { class: 'light-table' }, [
+        el('tbody', {}, rows.filter(Boolean)),
+      ]),
+    ]);
+  }
+
   function popupFor(spot) {
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
@@ -68,6 +126,7 @@ export function createMapView(container, { region, onChange }) {
         ? el('p', {}, `Access: ${spot.access_difficulty}`)
         : null,
       spot.notes ? el('p', {}, spot.notes) : null,
+      lightSection(spot),
       el('p', { class: 'popup-nav' }, [
         el('a', {
           href: `https://maps.apple.com/?ll=${spot.lat},${spot.lng}&q=${encodeURIComponent(spot.name ?? 'Spot')}`,

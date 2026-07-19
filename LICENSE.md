@@ -11,6 +11,8 @@ Required Notice: Copyright © 2026 Noah Jefferson (https://github.com/njefferson
 > - **`src/vendor/leaflet.js`** and **`src/vendor/leaflet.css`** — Leaflet,
 >   © Vladimir Agafonkin and CloudMade, BSD-2-Clause (the notice is in the
 >   file header).
+> - **`src/vendor/astronomy.js`** — astronomy-engine, © Don Cross, MIT License
+>   (the MIT text is in that file's header).
 > - **`data/spots.json`** and **`data/sources/osm.json`** — data derived from
 >   OpenStreetMap, © OpenStreetMap contributors, Open Database License (ODbL)
 >   1.0. Redistribution of the database must preserve that attribution and the
