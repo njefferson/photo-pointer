@@ -31,6 +31,17 @@ jobs:
             echo "ready=false" >> "$GITHUB_OUTPUT"
             echo "Cloudflare secrets not configured yet - skipping deploy."
           fi
+      # Create the Pages project if it does not exist yet (first deploy).
+      # continue-on-error so an "already exists" response never fails the run
+      # — this is what stops the repeated failure notifications.
+      - name: Ensure Pages project exists
+        if: steps.cf.outputs.ready == 'true'
+        continue-on-error: true
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages project create photo-pointer --production-branch=main
       - name: Deploy to Cloudflare Pages
         if: steps.cf.outputs.ready == 'true'
         uses: cloudflare/wrangler-action@v3
