@@ -23,6 +23,8 @@ import { makeSpot, validateSpot } from '../src/model/spot.js';
 import { validateRegion } from '../src/model/region.js';
 import * as osm from './adapters/osm-overpass.mjs';
 import * as ebird from './adapters/ebird-hotspots.mjs';
+import * as publicLands from './adapters/public-lands.mjs';
+import { pointInArea } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SOURCES_DIR = path.join(ROOT, 'data', 'sources');
@@ -125,6 +127,47 @@ async function cmdEbird() {
   await writeSource('ebird.json', ebird.meta, region, records);
 }
 
+// Enrich the committed spots with public-land membership. Runs on its own
+// (like light-pollution) so it survives — but note: a full OSM refresh
+// regenerates spots.json, so re-run public-lands (and light-pollution) after.
+async function cmdPublicLands() {
+  const region = await loadRegionFile();
+  const areas = await publicLands.ingest(region, { log });
+  if (areas.length === 0) {
+    console.error('public-lands: 0 areas — refusing to wipe tags');
+    process.exit(1);
+  }
+  const doc = await readJsonIfExists(SPOTS_FILE);
+  if (!doc) {
+    console.error('public-lands: no data/spots.json — run merge first');
+    process.exit(1);
+  }
+  const areaSize = (a) => (a.bbox.north - a.bbox.south) * (a.bbox.east - a.bbox.west);
+  let tagged = 0;
+  for (const s of doc.spots) {
+    const hits = areas.filter((a) => pointInArea(s.lat, s.lng, a));
+    if (hits.length) {
+      // Smallest containing area = most specific (a reserve inside a forest).
+      hits.sort((a, b) => areaSize(a) - areaSize(b));
+      const h = hits[0];
+      (s.tags ??= {}).publicLand = { name: h.name, class: h.class, operator: h.operator };
+      tagged++;
+    } else if (s.tags?.publicLand) {
+      delete s.tags.publicLand;
+    }
+  }
+  await writeFile(SPOTS_FILE, JSON.stringify(doc, null, 2) + '\n');
+  await mkdir(path.join(ROOT, 'data', 'layers'), { recursive: true });
+  await writeFile(
+    path.join(ROOT, 'data', 'layers', 'public-lands.json'),
+    JSON.stringify({
+      source: publicLands.meta, builtAt: today, count: areas.length,
+      areas: areas.map((a) => ({ name: a.name, class: a.class, operator: a.operator, bbox: a.bbox })),
+    }, null, 2) + '\n'
+  );
+  log(`tagged ${tagged}/${doc.spots.length} spots on public land (${areas.length} areas)`);
+}
+
 async function cmdMerge() {
   const region = await loadRegionFile();
   const files = (await readdir(SOURCES_DIR).catch(() => [])).filter((f) => f.endsWith('.json'));
@@ -191,6 +234,7 @@ const commands = {
   probe: cmdProbe,
   osm: cmdOsm,
   ebird: cmdEbird,
+  'public-lands': cmdPublicLands,
   merge: cmdMerge,
   validate: cmdValidate,
   all: async () => { await cmdOsm(); await cmdEbird(); await cmdMerge(); await cmdValidate(); },

@@ -1,0 +1,39 @@
+name: Public lands ingest
+
+# Fetches protected-area boundaries (OSM/Overpass, ODbL), point-in-polygons
+# every committed spot, writes tags.publicLand + a small metadata layer, and
+# commits. Runs on its own — RE-RUN THIS (and light-pollution) after a full
+# OSM refresh, which regenerates spots.json. Dispatch via actions_run_trigger.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: pl-lands-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Probe Overpass
+        run: node ingest/ingest.mjs probe
+      - name: Fetch public lands + tag spots
+        run: node ingest/ingest.mjs public-lands
+      - name: Validate
+        run: node ingest/ingest.mjs validate
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/spots.json data/layers/public-lands.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Tag which spots sit on public land" -m "Marks every spot that falls inside a park, forest, or reserve boundary (OpenStreetMap, ODbL), feeding the Public-land signal in Top spots."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

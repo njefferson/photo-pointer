@@ -79,6 +79,20 @@ export const SIGNALS = [
     },
   },
   {
+    key: 'publicLand',
+    label: 'Public land',
+    weight: 0.6,
+    // DORMANT until the public-lands ingest writes tags.publicLand. Being on a
+    // park/forest/reserve makes a spot more likely to be somewhere you can
+    // legally shoot (hours still vary — the UI says "check access").
+    evaluate(spot) {
+      const pl = spot.tags?.publicLand;
+      if (!pl) return null;
+      const openish = /national_park|nature_reserve|park|forest|1[abc]?|2|3|4|5/.test(String(pl.class ?? ''));
+      return { value: openish ? 0.9 : 0.6, note: pl.name || pl.class || 'public land' };
+    },
+  },
+  {
     key: 'darkSky',
     label: 'Dark sky',
     weight: 1.2,

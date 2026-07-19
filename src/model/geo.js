@@ -53,3 +53,23 @@ export function bboxCenter(bbox) {
     lng: (bbox.west + bbox.east) / 2,
   };
 }
+
+// Even-odd ray cast: is (lat,lng) inside a ring of [lat,lng] points?
+export function pointInRing(lat, lng, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const yi = ring[i][0], xi = ring[i][1];
+    const yj = ring[j][0], xj = ring[j][1];
+    const hit = (yi > lat) !== (yj > lat) &&
+      lng < ((xj - xi) * (lat - yi)) / (yj - yi + 0) + xi;
+    if (hit) inside = !inside;
+  }
+  return inside;
+}
+
+// Inside ANY ring of an area, with a fast bbox reject first.
+export function pointInArea(lat, lng, area) {
+  const b = area.bbox;
+  if (b && (lat < b.south || lat > b.north || lng < b.west || lng > b.east)) return false;
+  return (area.rings ?? []).some((r) => pointInRing(lat, lng, r));
+}
