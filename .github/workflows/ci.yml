@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Unit tests
+        run: node --test
+      - name: Contrast gate (WCAG, both themes)
+        run: node scripts/check-contrast.mjs
+      - name: Validate committed spot data
+        run: node ingest/ingest.mjs validate

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>photo-pointer</title>
+  <meta name="description" content="One map of every photo-worthy place in your region — open data only.">
+  <meta name="theme-color" content="#f5f1e8">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <script>
+    // Apply the stored theme before first paint — no flash.
+    try {
+      var t = localStorage.getItem('pointer.theme');
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+    } catch (e) { /* private mode */ }
+  </script>
+  <link rel="stylesheet" href="./src/vendor/leaflet.css">
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- A map pin whose head is a camera aperture. -->
+  <rect width="96" height="96" rx="20" fill="#2e2618"/>
+  <path d="M48 14c-14.9 0-27 12.1-27 27 0 19.8 27 41 27 41s27-21.2 27-41c0-14.9-12.1-27-27-27z" fill="#a34a00"/>
+  <circle cx="48" cy="41" r="17" fill="#fffdf6"/>
+  <g fill="none" stroke="#2e2618" stroke-width="4" stroke-linecap="round">
+    <path d="M48 27v10"/>
+    <path d="M60.1 34l-8.7 5"/>
+    <path d="M60.1 48l-8.7-5"/>
+    <path d="M48 55V45"/>
+    <path d="M35.9 48l8.7-5"/>
+    <path d="M35.9 34l8.7 5"/>
+  </g>
+  <circle cx="48" cy="41" r="4.5" fill="#a34a00"/>
+</svg>

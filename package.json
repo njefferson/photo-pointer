@@ -1,0 +1,16 @@
+{
+  "name": "photo-pointer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "One map of every photo-worthy place in your region — open data only.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "test:contrast": "node scripts/check-contrast.mjs",
+    "ingest": "node ingest/ingest.mjs all",
+    "probe": "node ingest/ingest.mjs probe",
+    "validate": "node ingest/ingest.mjs validate",
+    "serve": "python3 -m http.server 8080"
+  }
+}

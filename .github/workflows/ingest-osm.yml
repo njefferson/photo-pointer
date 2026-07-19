@@ -1,0 +1,53 @@
+name: Ingest OSM
+
+# Fetches OpenStreetMap data (Overpass) for the configured region, merges +
+# validates, and commits the result to the branch it ran on. Runs on a
+# GitHub runner because Overpass is unreachable from Claude session sandboxes.
+#
+# Fire it via workflow_dispatch (MCP actions_run_trigger is the proven
+# channel) or by committing to .github/trigger/ingest-osm.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/trigger/ingest-osm'
+
+# Own concurrency group (never share with deploy — a deploy must not cancel
+# an in-flight ingest).
+concurrency:
+  group: ingest-osm-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Probe Overpass reachability
+        run: node ingest/ingest.mjs probe
+      - name: Fetch + normalize OSM
+        run: node ingest/ingest.mjs osm
+      - name: Merge + dedup all sources
+        run: node ingest/ingest.mjs merge
+      - name: Validate
+        run: node ingest/ingest.mjs validate
+      - name: Commit data
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "Refresh OSM spot data for the configured region"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && break
+            sleep $((i * 5))
+          done

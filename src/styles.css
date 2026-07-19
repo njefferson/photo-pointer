@@ -1,0 +1,210 @@
+/* photo-pointer — all colors are :root tokens with a [data-theme="dark"]
+   override. Restyle by swapping tokens, never hex-in-place.
+   Every token pair used for text must be in scripts/check-contrast.mjs. */
+
+:root {
+  --bg: #f5f1e8;
+  --card: #fffdf6;
+  --ink: #2e2618;
+  --dim: #6d5f49;
+  --line: #c9bfa9;
+  --accent: #a34a00;
+  --focus: #5a6b7a;
+
+  /* Category pin fills — the letter glyph on each must pass 4.5:1 with
+     --pin-ink. The letter is the non-hue channel; color is reinforcement. */
+  --pin-ink: #ffffff;
+  --cat-viewpoint: #a34a00;
+  --cat-marker: #8a2f2b;
+  --cat-oddity: #7b3f8f;
+  --cat-park: #3f6d2a;
+  --cat-trailhead: #2a5f6d;
+  --cat-campsite: #6d5424;
+  --cat-wildlife_hotspot: #365f8a;
+  --cat-dark_sky: #3a3670;
+  --cat-user_pin: #6d5200;
+}
+
+[data-theme="dark"] {
+  --bg: #1c1914;
+  --card: #29241c;
+  --ink: #f0e8d8;
+  --dim: #b0a48c;
+  --line: #4a4232;
+  --accent: #ff8321;
+  --focus: #9db4c7;
+  /* Pin fills stay theme-invariant: they sit on map tiles, not on --bg. */
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+}
+
+#app { display: flex; flex-direction: column; height: 100%; }
+
+.bar {
+  padding: calc(8px + env(safe-area-inset-top)) 12px 8px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.bar h1 { font-size: 17px; margin: 0; flex: 1 1 auto; }
+
+.bar-actions { display: flex; gap: 8px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+
+.chip {
+  font: inherit;
+  font-size: 13px;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 4px 10px;
+  cursor: pointer;
+  min-height: 30px;
+}
+
+/* Off = excluded: struck through + dimmed (decoration + luminance, not hue). */
+.chip[aria-pressed="false"] { opacity: 0.55; text-decoration: line-through; }
+
+.theme-toggle, .data-btn {
+  font: inherit;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 10px;
+  min-width: 44px;
+  min-height: 34px;
+  cursor: pointer;
+}
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.map-root { flex: 1; min-height: 0; }
+
+/* Category pins: letter glyph on a filled disc with a white ring so they
+   read on both light tiles and imagery. */
+.pin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  color: var(--pin-ink);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pin-inline { width: 18px; height: 18px; font-size: 10px; border-width: 1px; box-shadow: none; }
+
+.pin-viewpoint { background: var(--cat-viewpoint); }
+.pin-marker { background: var(--cat-marker); }
+.pin-oddity { background: var(--cat-oddity); }
+.pin-park { background: var(--cat-park); }
+.pin-trailhead { background: var(--cat-trailhead); }
+.pin-campsite { background: var(--cat-campsite); }
+.pin-wildlife_hotspot { background: var(--cat-wildlife_hotspot); }
+.pin-dark_sky { background: var(--cat-dark_sky); }
+.pin-user_pin { background: var(--cat-user_pin); }
+
+.popup h3 { margin: 0 0 4px; font-size: 15px; }
+.popup p { margin: 4px 0; font-size: 13px; }
+.popup-cat { color: #555555; }
+.popup input {
+  font: inherit;
+  width: 100%;
+  margin: 4px 0;
+  padding: 6px;
+  border: 1px solid #999999;
+  border-radius: 6px;
+}
+.popup button {
+  font: inherit;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #999999;
+  background: #f2f2f2;
+  color: #222222;
+  cursor: pointer;
+  min-height: 34px;
+}
+
+.data-dialog {
+  max-width: 480px;
+  width: calc(100vw - 40px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--ink);
+  padding: 16px;
+}
+.data-dialog h2 { font-size: 16px; margin: 0 0 6px; }
+.data-dialog p, .data-dialog li { font-size: 13px; }
+.data-dialog textarea {
+  width: 100%;
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.data-dialog button {
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  min-height: 40px;
+  cursor: pointer;
+}
+.dialog-row { display: flex; gap: 8px; margin: 8px 0; }
+.dialog-close { margin-top: 8px; }
+.src-list { padding-left: 18px; margin: 4px 0; }
+
+.toast {
+  position: fixed;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: var(--bg);
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s;
+  z-index: 2000;
+  max-width: calc(100vw - 32px);
+}
+.toast.show { opacity: 1; pointer-events: auto; cursor: pointer; }
+
+.boot-error { padding: 24px; max-width: 480px; margin: 0 auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
