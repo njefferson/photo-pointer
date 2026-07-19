@@ -102,6 +102,22 @@ export const SIGNALS = [
     },
   },
   {
+    key: 'commonsPhotos',
+    label: 'People photograph it',
+    weight: 0.6,
+    // DORMANT until the Commons ingest writes tags.commons. Counts freely-
+    // licensed geolocated photos nearby — a proxy for "photogenic / people
+    // actually shoot here". Replaces the Flickr idea with a license-clean source
+    // (everything on Commons is CC/PD, so no per-photo filtering).
+    evaluate(spot) {
+      const c = spot.tags?.commons;
+      if (c == null || !c.photos) return null;
+      // Log-ish: 3 photos ~0.3, ~20 ~0.7, 100+ = 1.
+      const value = clamp(Math.log10(c.photos) / 2, 0.3, 1);
+      return { value, note: `${c.photos}${c.capped ? '+' : ''} photos taken nearby` };
+    },
+  },
+  {
     key: 'access',
     label: 'Easy to reach',
     weight: 0.5,

@@ -53,6 +53,7 @@ export function topSpotsPanel(ranked, onGo) {
     ['iNatWildlife', 'Wild subjects'],
     ['view', 'Open view'],
     ['openHorizon', 'Open horizon'],
+    ['commonsPhotos', 'Photographed'],
     ['access', 'Easy access'],
     ['darkSky', 'Dark sky'],
     ['publicLand', 'Public land'],

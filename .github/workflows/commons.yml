@@ -1,0 +1,41 @@
+name: Commons photo density ingest
+
+# For every committed spot, counts freely-licensed geotagged photos nearby on
+# Wikimedia Commons (a "how photographed / how photogenic" signal), writes
+# tags.commons, and commits. Everything on Commons is CC/public-domain, so
+# there's no per-photo license filtering — a geolocated file IS a reusable photo
+# of that place. This replaces the Flickr idea (Flickr API keys are now PRO-only).
+#
+# RE-RUN after a full OSM refresh. No API key; runs on a runner (sandbox blocked).
+# ~2,362 per-spot geosearch calls with a small concurrency pool (~2-3 min).
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: commons-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Count nearby Commons photos + tag spots
+        run: node ingest/ingest.mjs commons
+      - name: Validate
+        run: node ingest/ingest.mjs validate
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/spots.json data/layers/commons.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add the 'people photograph it' layer from Wikimedia Commons" -m "Marks how many freely-licensed photos have been taken near each spot (Wikimedia Commons) — a proxy for how photogenic a place is — feeding the 'Photographed' signal in Top spots. Counts only; no images are copied."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

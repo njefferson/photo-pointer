@@ -50,7 +50,40 @@ doing anything.
 ## List these and ask Noah to confirm each is done; never report the repo
 ## "set up" while any is unconfirmed.
 
+## SETTLED, don't re-offer:
+## - FLICKR is DEAD as a source (Noah verified 2026-07-19 with a screenshot):
+##   "API key creation is currently disabled for free accounts. API key creation
+##   is available to all Flickr PRO subscribers." So no free Flickr key exists.
+##   We do NOT pay for Flickr PRO for a free personal tool. The "where CC
+##   photographers shoot" value is served instead by WIKIMEDIA COMMONS photo
+##   density (keyless, and everything on Commons is already free-licensed — no
+##   per-photo filtering needed). Do not re-propose Flickr.
+## - AIR QUALITY / SMOKE uses OPEN-METEO AIR QUALITY (keyless, CORS, live,
+##   client-side per spot — us_aqi + pm2_5, and PM2.5 captures wildfire smoke),
+##   NOT NASA FIRMS. FIRMS 24h active-fire is an ephemeral snapshot that would go
+##   stale the moment it's committed; Open-Meteo AQI is live at view time (same
+##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
+
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 0.10.0 "Photographed" BUILT on staging (awaiting on-device pass +
+  a commons.yml runner pass to tag the data): Tier 3 item #4, Flickr's clean
+  replacement (Flickr keys are PRO-only now — see SETTLED). ingest/adapters/
+  commons-photos.mjs: countPhotosNear(lat,lng) hits the keyless MediaWiki
+  geosearch (commons.wikimedia.org/w/api.php, list=geosearch, gsnamespace=6
+  File, gsradius=800, gslimit=100) and returns {photos, capped}. EVERYTHING on
+  Commons is CC/PD by definition, so NO per-photo license filter needed (the
+  Flickr problem vanishes). ENRICHMENT (like inaturalist): ingest.mjs `commons`
+  command probes every spot via a 6-worker CONCURRENCY POOL (~2362 calls, ~2-3
+  min), writes tags.commons {photos, capped} on spots with ≥3 nearby photos +
+  data/layers/commons.json. ADDED 'commons' to ENRICH_TAGS so the tag survives a
+  re-merge. synthesis.js commonsPhotos signal (weight 0.6, value = log10(n)/2
+  clamped 0.3..1, dormant until tagged). UI: popup "N freely-licensed photos
+  taken near here" (.popup-photos) + Top-spots "Photographed" chip (in BOTH
+  synthesis.SIGNALS and ui/synthesis.js LAYER_CHIPS). RE-RUN commons.yml after a
+  full OSM refresh. sw CACHE pointer-0.10.0. VERIFIED: adapter unit-tested
+  (geosearch URL params, count, capped-flag, retry-then-throw); commonsPhotos
+  dormant→active test; 83 tests, contrast green. Commons API unreachable from
+  sandbox (WebFetch 403, UA-gated) — runner will confirm real counts.
 - 2026-07-19 0.9.0 "Historical markers" BUILT on staging (awaiting on-device
   pass + a markers.yml runner pass to add the data): Tier 3 item #2 (Noah's "Do
   1 and 2"). HMdb has NO public API + its content is COPYRIGHTED, so the clean

@@ -100,6 +100,19 @@ test('the iNaturalist wildlife signal is dormant with no data and activates on t
   assert.match(w.note, /mammals, 18 species/);
 });
 
+test('the Commons photo-density signal is dormant with no data and activates on tags.commons', () => {
+  const ctx = buildContext(spots);
+  const before = scoreSpot(spots[3], ctx);
+  assert.ok(!before.parts.some((p) => p.key === 'commonsPhotos'), 'dormant without data');
+
+  const withPhotos = { ...spots[3], tags: { ...spots[3].tags, commons: { photos: 42, capped: false } } };
+  const ctx2 = buildContext([withPhotos]);
+  const after = scoreSpot(withPhotos, ctx2);
+  const c = after.parts.find((p) => p.key === 'commonsPhotos');
+  assert.ok(c, 'activates once its data source lands');
+  assert.match(c.note, /42 photos taken nearby/);
+});
+
 test('cross-layer require: "dark AND open view" filters to spots satisfying both', () => {
   const world = [
     { ...spots[3], id: 'darkview', tags: { direction: 'W', bortle: 3 } }, // view + dark

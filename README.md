@@ -60,7 +60,7 @@ commits `data/` to the branch it ran on.
 | Historical markers | HMdb markers + California Historical Landmarks as spots, linking out to HMdb | Facts from **Wikidata (CC0)**; HMdb pages linked, never copied (HMdb content is copyrighted) | **Working** |
 | eBird (Cornell Lab) | wildlife hotspots | API terms — attribution required, no bulk redistribution | **Working** |
 | iNaturalist | non-bird wildlife density (mammals/reptiles/amphibians/insects) near each spot | Per-record CC licensing — ingest fetches CC0/CC-BY/CC-BY-SA only, counts not content | **Working** |
-| Flickr | where CC photographers actually shoot | Per-photo — **only CC/public-domain licensed photos**; needs `FLICKR_API_KEY` | Stub |
+| Wikimedia Commons | how many freely-licensed photos are taken near each spot (photogenic proxy) | All Commons media is **CC/public-domain**; derived counts only, no images copied | **Working** |
 | World Atlas (Falchi 2016) | dark-sky / light-pollution raster → Bortle per spot + map overlay | **CC BY-NC 4.0**, doi:10.5880/GFZ.1.4.2016.001 | **Working** |
 | Public lands | protected-area boundaries → which spots are on public land | OpenStreetMap, ODbL | **Working** |
 | Terrain (SRTM) | 30 m elevation model → each spot's real horizon openness + E/W/S ridge angles | **Public domain** (NASA/USGS SRTM, via AWS Terrain Tiles) | **Working** |

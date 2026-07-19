@@ -2,6 +2,20 @@
 
 Written for the person using the app. Newest first.
 
+## 0.10.0 — 2026-07-19
+
+**Where people actually point their cameras.**
+
+- Every spot now knows how many **freely-licensed photos** have been taken
+  nearby (from Wikimedia Commons) — a good proxy for how photogenic a place is,
+  and where others have found the shot.
+- **Top spots gains a "Photographed" filter.** Combine it with an open horizon
+  and dark skies to find the spots that are both proven *and* yours to work.
+- This replaces the earlier Flickr idea: Flickr locked API access behind a paid
+  tier, and everything on Wikimedia Commons is already openly licensed — so the
+  photos this points to are ones you can actually reuse. Counts only; no images
+  are copied.
+
 ## 0.9.0 — 2026-07-19
 
 **The region's history, on the map.**

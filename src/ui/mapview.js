@@ -203,6 +203,10 @@ export function createMapView(container, { region, onChange }) {
         : spot.tags?.california_landmark
           ? el('p', { class: 'popup-marker' }, 'California Historical Landmark')
           : null,
+      spot.tags?.commons?.photos
+        ? el('p', { class: 'popup-photos' },
+            `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here (Wikimedia Commons)`)
+        : null,
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),

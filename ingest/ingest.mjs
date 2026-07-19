@@ -28,6 +28,7 @@ import * as ebird from './adapters/ebird-hotspots.mjs';
 import * as publicLands from './adapters/public-lands.mjs';
 import * as inaturalist from './adapters/inaturalist.mjs';
 import * as markers from './adapters/wikidata-markers.mjs';
+import * as commons from './adapters/commons-photos.mjs';
 import { pointInArea, distanceM } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -237,6 +238,54 @@ async function cmdINaturalist() {
   log(`tagged ${tagged}/${doc.spots.length} spots with iNaturalist wildlife density (${obs.length} observations)`);
 }
 
+// Enrich spots with nearby Wikimedia Commons photo density (all Commons media
+// is free-licensed). Per-spot geosearch with a small concurrency pool. Like the
+// other enrichments, re-run after a full OSM refresh.
+async function cmdCommons() {
+  const MIN = 3; // a spot needs ≥3 nearby photos to count as "photographed"
+  const POOL = 6;
+  const region = await loadRegionFile();
+  const doc = await readJsonIfExists(SPOTS_FILE);
+  if (!doc) {
+    console.error('commons: no data/spots.json — run merge first');
+    process.exit(1);
+  }
+  const spots = doc.spots;
+  let tagged = 0, done = 0, errors = 0;
+  let next = 0;
+  async function worker() {
+    while (next < spots.length) {
+      const s = spots[next++];
+      try {
+        const { photos, capped } = await commons.countPhotosNear(s.lat, s.lng);
+        if (photos >= MIN) {
+          (s.tags ??= {}).commons = { photos, capped };
+          tagged++;
+        } else if (s.tags?.commons) {
+          delete s.tags.commons;
+        }
+      } catch {
+        errors++;
+      }
+      done++;
+      if (done % 250 === 0) log(`  commons: ${done}/${spots.length} spots probed, ${tagged} tagged, ${errors} errs`);
+      await new Promise((r) => setTimeout(r, 60)); // gentle per-worker pacing
+    }
+  }
+  await Promise.all(Array.from({ length: POOL }, worker));
+  if (tagged === 0) {
+    console.error('commons: 0 spots tagged — refusing to wipe (likely a fetch problem)');
+    process.exit(1);
+  }
+  await writeFile(SPOTS_FILE, JSON.stringify(doc, null, 2) + '\n');
+  await mkdir(path.join(ROOT, 'data', 'layers'), { recursive: true });
+  await writeFile(
+    path.join(ROOT, 'data', 'layers', 'commons.json'),
+    JSON.stringify({ source: commons.meta, builtAt: today, spotsTagged: tagged, probed: done, errors }, null, 2) + '\n'
+  );
+  log(`tagged ${tagged}/${spots.length} spots with Commons photo density (${errors} fetch errors)`);
+}
+
 async function cmdMarkers() {
   const region = await loadRegionFile();
   const records = await markers.ingest(region, { today, log });
@@ -251,7 +300,7 @@ async function cmdMarkers() {
 // / horizon / inaturalist passes — a fresh merge would otherwise drop them all,
 // forcing every enrichment to re-run. Carry them forward for spots whose id is
 // unchanged, so adding a source (e.g. markers) is non-destructive.
-const ENRICH_TAGS = ['bortle', 'publicLand', 'horizon', 'inaturalist'];
+const ENRICH_TAGS = ['bortle', 'publicLand', 'horizon', 'inaturalist', 'commons'];
 
 async function cmdMerge() {
   const region = await loadRegionFile();
@@ -335,6 +384,7 @@ const commands = {
   ebird: cmdEbird,
   'public-lands': cmdPublicLands,
   inaturalist: cmdINaturalist,
+  commons: cmdCommons,
   markers: cmdMarkers,
   merge: cmdMerge,
   validate: cmdValidate,
