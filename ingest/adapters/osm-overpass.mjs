@@ -78,8 +78,9 @@ export const USER_AGENT =
 export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_HOSTS } = {}) {
   let lastErr = null;
   // Overpass public instances 504/timeout often when busy — that is transient,
-  // so cycle the hosts several times with backoff before giving up.
-  for (let round = 0; round < 4; round++) {
+  // so cycle the hosts a few times with backoff before giving up. The job's
+  // timeout-minutes is the hard ceiling if a whole Overpass hour is bad.
+  for (let round = 0; round < 3; round++) {
     for (const host of hosts) {
       try {
         const res = await fetchFn(host, {
@@ -89,7 +90,10 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
             'User-Agent': USER_AGENT,
           },
           body: 'data=' + encodeURIComponent(query),
-          signal: AbortSignal.timeout(300000), // matches [timeout:300] in the query
+          // Per-attempt cap must clear the REAL query time (~180 s healthy)
+          // yet still bail on a mirror that accepted the connection and went
+          // silent. 210 s does both; rounds/hosts handle transient overload.
+          signal: AbortSignal.timeout(210000),
         });
         if (res.status === 429 || res.status === 502 || res.status === 503 || res.status === 504) {
           lastErr = new Error(`${host}: HTTP ${res.status}`);
