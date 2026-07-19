@@ -1,45 +1,70 @@
 name: Light pollution ingest
 
-# Downloads the Falchi world-atlas KMZ (shared from Noah's Drive), reads its
-# georeferenced overlay, crops to the region, derives Bortle, and (once the
-# processing step lands) commits the small derived layer. This first cut
-# downloads + inspects so the exact structure is known before processing.
+# Downloads the Falchi World Atlas 2015 raster (raw artificial sky brightness),
+# crops it to the region, converts to Bortle, tags every spot, and commits the
+# small derived layer (overlay PNG + bounds/legend JSON + spot tags). The
+# 684 MB source is never committed. Dispatch via MCP actions_run_trigger.
 #
-# Data: New World Atlas of Artificial Night Sky Brightness (Falchi et al. 2016),
-# GFZ Data Services, DOI 10.5880/GFZ.1.4.2016.001, CC BY-NC 4.0.
+# Data: Falchi et al. 2016, GFZ Data Services, doi:10.5880/GFZ.1.4.2016.001,
+# CC BY-NC 4.0. Fetched from Noah's shared Drive copy.
 
 on:
   workflow_dispatch:
     inputs:
-      kmz_url:
-        description: Direct download URL for the KMZ
-        default: 'https://drive.google.com/uc?export=download&id=1yPqyTkbkEOofnDqzJITEafLEwxO_A9M9'
+      zip_id:
+        description: Google Drive file id of World_Atlas_2015.zip
+        default: '14fJT5hLJ8chU3xOSfHBo36SbF1NIN1pL'
 
 concurrency:
   group: lp-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v5
       - name: Install GDAL
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq gdal-bin unzip
-      - name: Download KMZ
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq gdal-bin python3-gdal python3-numpy unzip
+      - name: Download World Atlas zip (handles Drive's big-file confirm)
+        env:
+          ID: ${{ github.event.inputs.zip_id }}
         run: |
-          curl -sSL --max-time 300 -o falchi.kmz "${{ github.event.inputs.kmz_url }}"
-          ls -la falchi.kmz
-          echo "--- first bytes (should be 'PK' zip magic, not HTML) ---"
-          head -c 16 falchi.kmz | xxd | head -1
-      - name: Inspect KMZ structure
+          curl -sL --max-time 600 "https://drive.usercontent.google.com/download?id=${ID}&export=download&confirm=t" -o atlas.zip
+          ls -la atlas.zip
+          echo "magic:"; head -c 4 atlas.zip | xxd | head -1
+          if ! head -c 2 atlas.zip | grep -q 'PK'; then
+            echo "Not a zip — the file is probably not link-shared. First bytes:"; head -c 400 atlas.zip; exit 1
+          fi
+      - name: Unzip and locate the GeoTIFF
         run: |
-          mkdir -p kmz && unzip -o falchi.kmz -d kmz >/dev/null || { echo "unzip failed — likely not a public link (got an HTML page)"; head -c 400 falchi.kmz; exit 1; }
-          echo "--- contents ---"; find kmz -type f -printf '%s\t%p\n' | sort -rn | head -40
-          echo "--- KML (bounds + overlays) ---"
-          find kmz -iname '*.kml' -exec sh -c 'echo "== $1 =="; grep -iE "latlonbox|north|south|east|west|href|GroundOverlay|Icon" "$1" | head -60' _ {} \;
-          echo "--- gdalinfo on the KMZ (georeferencing) ---"
-          gdalinfo falchi.kmz 2>&1 | head -50 || true
-          echo "--- overlay image(s) ---"
-          for f in $(find kmz -iname '*.png' -o -iname '*.jpg'); do echo "== $f =="; gdalinfo "$f" 2>&1 | grep -iE 'Size is|Band|ColorInterp' | head -6; done
+          unzip -o atlas.zip -d atlas >/dev/null
+          find atlas -type f -printf '%s\t%p\n' | sort -rn | head
+          TIF=$(find atlas -iname '*.tif' -o -iname '*.tiff' | head -1)
+          echo "TIF=$TIF" >> "$GITHUB_ENV"
+          echo "Using: $TIF"
+      - name: Inspect raster (bands, type, value range)
+        run: gdalinfo -mm "$TIF" 2>&1 | grep -iE 'Driver|Size is|Coordinate|Origin|Pixel Size|Band|Type=|Min/Max|NoData|Computed' | head -30
+      - name: Crop to region + build Bortle layer
+        run: |
+          mkdir -p data/layers
+          # region bbox from config/region.json: W N E S
+          gdal_translate -q -projwin -121.95 39.4 -119.85 38.0 "$TIF" region.tif
+          gdalinfo -mm region.tif | grep -iE 'Size is|Computed Min/Max' | head
+          python3 scripts/build-light-pollution.py region.tif data/spots.json data/layers/light-pollution.png data/layers/light-pollution.json "$(date -u +%F)"
+          ls -la data/layers/
+      - name: Commit derived layer
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/layers data/spots.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add the dark-sky layer: Bortle for every spot + map overlay
+
+Every spot now carries a Bortle sky-darkness rating from the World Atlas of
+Artificial Night Sky Brightness, and the map gains a dark-sky overlay. Data:
+Falchi et al. 2016 (CC BY-NC 4.0)."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done
