@@ -24,27 +24,37 @@ async function main() {
     process.exit(3);
   }
 
-  // Collect absolute URLs that look like data files or GFZ datapub links.
+  const base = 'https://ernie.rz-vm499.gfz.de/';
+  // Collect every href/src, resolve relative → absolute.
   const urls = new Set();
-  const re = /https?:\/\/[^\s"'<>()]+/g;
-  for (const m of html.matchAll(re)) {
-    const u = m[0].replace(/[.,)]+$/, '');
-    if (/datapub\.gfz|\.tif\b|\.tiff\b|\.zip\b/i.test(u)) urls.add(u);
+  for (const m of html.matchAll(/(?:href|src)\s*=\s*["']([^"']+)["']/gi)) {
+    try {
+      urls.add(new URL(m[1], base).href);
+    } catch { /* skip */ }
+  }
+  for (const m of html.matchAll(/https?:\/\/[^\s"'<>()]+/g)) {
+    urls.add(m[0].replace(/[.,)]+$/, ''));
   }
 
-  const ranked = [...urls].sort((a, b) => score(b) - score(a));
-  if (ranked.length === 0) {
-    process.stderr.write('No candidate data URLs found on the landing page.\n');
-    process.exit(4);
-  }
+  // Print download-looking candidates first (a file component or archive),
+  // then everything else so the probe log reveals the real pattern.
+  const all = [...urls];
+  const dl = all.filter((u) => /download|content|component|\.tif|\.tiff|\.zip|atlas/i.test(u));
+  const ranked = dl.sort((a, b) => score(b) - score(a));
+  process.stderr.write(`--- ${dl.length} download-candidate links ---\n`);
   for (const u of ranked) console.log(u);
+  process.stderr.write(`--- all ${all.length} links (for reference) ---\n`);
+  for (const u of all) process.stderr.write(u + '\n');
+  if (ranked.length === 0) process.exit(4);
 }
 
 function score(u) {
   let s = 0;
-  if (/\.tif\b|\.tiff\b/i.test(u)) s += 3;
+  if (/\.tif\b|\.tiff\b/i.test(u)) s += 4;
+  if (/\.zip\b/i.test(u)) s += 3;
+  if (/content|component/i.test(u)) s += 2;
   if (/datapub\.gfz/i.test(u)) s += 2;
-  if (/\.zip\b/i.test(u)) s += 1;
+  if (/atlas/i.test(u)) s += 1;
   return s;
 }
 
