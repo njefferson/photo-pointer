@@ -4252,6 +4252,33 @@
       }
     },
     {
+      "id": "angels-camp@9qf294",
+      "name": "Angels Camp",
+      "lat": 38.068333333,
+      "lng": -120.539722222,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2603725",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q2603725",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {
+        "california_landmark": true
+      }
+    },
+    {
       "id": "angora-lakes@9qft5g",
       "name": "Angora Lakes",
       "lat": 38.8652,
@@ -6073,6 +6100,33 @@
           "w": 2.3,
           "site_m": 445
         }
+      }
+    },
+    {
+      "id": "auburn@9qcvkc",
+      "name": "Auburn",
+      "lat": 38.898611111,
+      "lng": -121.074444444,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q758542",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q758542",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {
+        "california_landmark": true
       }
     },
     {
@@ -17340,6 +17394,31 @@
       }
     },
     {
+      "id": "columbia-state-historic-park@9qf2k7",
+      "name": "Columbia State Historic Park",
+      "lat": 38.0327,
+      "lng": -120.39853,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5149849",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5149849",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "connolly-beach@9qftw4",
       "name": "Connolly Beach",
       "lat": 38.947214,
@@ -21687,10 +21766,12 @@
       "lat": 38.6949037,
       "lng": -120.8163245,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -21698,6 +21779,14 @@
           "source_id": "node/358827901",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/358827901",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49483185",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49483185",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -22312,6 +22401,56 @@
           "site_m": 4
         }
       }
+    },
+    {
+      "id": "donner-memorial-state-park@9qfrxv",
+      "name": "Donner Memorial State Park",
+      "lat": 39.32,
+      "lng": -120.242,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3363979",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q3363979",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
+      "id": "donner-monument@9qfx8n",
+      "name": "Donner Monument",
+      "lat": 39.323888888,
+      "lng": -120.229722222,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49483753",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49483753",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "donner-peak-trailhead@9qfrtv",
@@ -25165,6 +25304,31 @@
       }
     },
     {
+      "id": "elk-grove-free-library@9qcdw2",
+      "name": "Elk Grove Free Library",
+      "lat": 38.409,
+      "lng": -121.3612,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122878777",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122878777",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "elk-grove-historic-district@9qcdw0",
       "name": "Elk Grove Historic District",
       "lat": 38.4089911,
@@ -25802,10 +25966,12 @@
       "lat": 39.3032341,
       "lng": -120.6563228,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -25813,6 +25979,14 @@
           "source_id": "node/358797724",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/358797724",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49486937",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49486937",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -25908,6 +26082,31 @@
           "site_m": 7
         }
       }
+    },
+    {
+      "id": "empire-mine-state-historic-park@9qczj8",
+      "name": "Empire Mine State Historic Park",
+      "lat": 39.2036,
+      "lng": -121.043,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5374101",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5374101",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "empire-ranch-golf-course@9qcuh4",
@@ -27233,6 +27432,31 @@
           "site_m": 46
         }
       }
+    },
+    {
+      "id": "first-jewish-synagogue@9qce7n",
+      "name": "First Jewish Synagogue",
+      "lat": 38.578,
+      "lng": -121.498,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122941940",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122941940",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "first-sugarloaf@9qfn3w",
@@ -28890,10 +29114,12 @@
       "lat": 38.6813697,
       "lng": -121.1741953,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -28901,6 +29127,14 @@
           "source_id": "way/40118813",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/40118813",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q5464868",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5464868",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -32098,10 +32332,12 @@
       "lat": 38.5801098,
       "lng": -121.4848797,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -32109,6 +32345,14 @@
           "source_id": "way/40180170",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/40180170",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q2330077",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q2330077",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -33876,6 +34120,31 @@
           "site_m": 9
         }
       }
+    },
+    {
+      "id": "hapgood-hume-company@9qce6z",
+      "name": "Hapgood-Hume Company",
+      "lat": 38.58312,
+      "lng": -121.50896,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123221316",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123221316",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "happy-harbor@9qc8c0",
@@ -35772,7 +36041,7 @@
       ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -35796,6 +36065,14 @@
           "source_id": "node/14019144263",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/14019144263",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q140586156",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q140586156",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -36049,6 +36326,31 @@
           "site_m": 2
         }
       }
+    },
+    {
+      "id": "hotel-regis@9qce7r",
+      "name": "Hotel Regis",
+      "lat": 38.578888888,
+      "lng": -121.491666666,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q95152889",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q95152889",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "houde-park@9qcd7z",
@@ -37278,6 +37580,31 @@
       }
     },
     {
+      "id": "indian-grinding-rock-state-historic-park@9qf4df",
+      "name": "Indian Grinding Rock State Historic Park",
+      "lat": 38.424194444,
+      "lng": -120.814111111,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6020369",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q6020369",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "indian-knoll@9qfn2v",
       "name": "Indian Knoll",
       "lat": 39.0985086,
@@ -38222,6 +38549,31 @@
       }
     },
     {
+      "id": "jack-tone-homestead-historical-marker@9qcbe1",
+      "name": "Jack Tone Homestead Historical Marker",
+      "lat": 38.066111111,
+      "lng": -121.150833333,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49506035",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49506035",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "jack-wallace-park-cresthaven@9qcsrc",
       "name": "Jack Wallace Park at Cresthaven",
       "lat": 38.7262932,
@@ -38513,10 +38865,12 @@
       "lat": 38.7966986,
       "lng": -120.8941393,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -38524,6 +38878,14 @@
           "source_id": "node/358768260",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/358768260",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49506690",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49506690",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -41411,6 +41773,31 @@
       }
     },
     {
+      "id": "knight-monument@9qczhf",
+      "name": "Knight Monument",
+      "lat": 39.212222222,
+      "lng": -121.070277777,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49511681",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49511681",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "kohler-park@9qcsn3",
       "name": "Kohler Park",
       "lat": 38.6799031,
@@ -41829,6 +42216,31 @@
           "site_m": 73
         }
       }
+    },
+    {
+      "id": "lady-adams-building@9qce7p",
+      "name": "Lady Adams Building",
+      "lat": 38.5823,
+      "lng": -121.5053,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122878679",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122878679",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "lady-gaga@9qce7p",
@@ -44431,10 +44843,12 @@
       "lat": 38.5761222,
       "lng": -121.4976664,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -44442,6 +44856,14 @@
           "source_id": "way/40181299",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/40181299",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q6520801",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q6520801",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -48555,6 +48977,31 @@
       }
     },
     {
+      "id": "malakoff-diggins-state-historic-park@9qfpbz",
+      "name": "Malakoff Diggins State Historic Park",
+      "lat": 39.370756,
+      "lng": -120.900153,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6741178",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q6741178",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "mallard-lake@9qcv09",
       "name": "Mallard Lake",
       "lat": 38.8569,
@@ -49150,6 +49597,31 @@
           "site_m": 37
         }
       }
+    },
+    {
+      "id": "mark-twain-monument@9qf28f",
+      "name": "Mark Twain Monument",
+      "lat": 38.073055555,
+      "lng": -120.543611111,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49521865",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49521865",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "mark-white-neighborhood-park@9qcsrg",
@@ -50274,6 +50746,41 @@
     {
       "id": "marshall-gold-discovery-state-historic-park@9qfh9p",
       "name": "Marshall Gold Discovery State Historic Park",
+      "lat": 38.8,
+      "lng": -120.889,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6773595",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q6773595",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {
+        "bortle": 4,
+        "horizon": {
+          "open": 0,
+          "n": 9.4,
+          "e": 9.4,
+          "s": 4,
+          "w": 2.8,
+          "site_m": 268
+        }
+      }
+    },
+    {
+      "id": "marshall-gold-discovery-state-historic-park@9qfh9p~2",
+      "name": "Marshall Gold Discovery State Historic Park",
       "lat": 38.8027151,
       "lng": -120.8854682,
       "category": "park",
@@ -50297,16 +50804,7 @@
         "wikipedia": "en:Marshall Gold Discovery State Historic Park",
         "wikidata": "Q6773595",
         "historic": "yes",
-        "leisure": "park",
-        "bortle": 4,
-        "horizon": {
-          "open": 0,
-          "n": 9.4,
-          "e": 9.4,
-          "s": 4,
-          "w": 2.8,
-          "site_m": 268
-        }
+        "leisure": "park"
       }
     },
     {
@@ -52567,7 +53065,7 @@
       ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -52575,6 +53073,14 @@
           "source_id": "node/358770703",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/358770703",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49525850",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49525850",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -55421,6 +55927,31 @@
       }
     },
     {
+      "id": "murphy-s-corral@9qcdq3",
+      "name": "Murphy's Corral",
+      "lat": 38.372,
+      "lng": -121.359,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122929580",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122929580",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "n-brewer-rd-nicolaus-ave-w-wise-rd@9qctkk",
       "name": "N Brewer Rd (Nicolaus Ave. to W Wise Rd.)",
       "lat": 38.9178,
@@ -56805,6 +57336,31 @@
           "site_m": 165
         }
       }
+    },
+    {
+      "id": "nisipowinan-village@9qcee5",
+      "name": "Nisipowinan Village",
+      "lat": 38.605,
+      "lng": -121.499,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122942036",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122942036",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "nopales-park@9qc90g",
@@ -59802,6 +60358,31 @@
       }
     },
     {
+      "id": "old-emigrant-trail-historical-marker@9qfshm",
+      "name": "Old Emigrant Trail Historical Marker",
+      "lat": 38.703055555,
+      "lng": -120.036944444,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49534972",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49534972",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "old-flume-trailhead@9qfhd0",
       "name": "Old Flume Trailhead",
       "lat": 38.76,
@@ -59842,15 +60423,42 @@
       }
     },
     {
+      "id": "old-folsom-powerhouse-station@9qce7r",
+      "name": "Old Folsom Powerhouse Station",
+      "lat": 38.5839,
+      "lng": -121.4977,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122929315",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122929315",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "old-fort-jim-historical-marker@9qfhjn",
       "name": "Old Fort Jim Historical Marker",
       "lat": 38.7054594,
       "lng": -120.713265,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -59858,6 +60466,14 @@
           "source_id": "node/358798972",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/358798972",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49534994",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49534994",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -59999,6 +60615,31 @@
           "site_m": 2
         }
       }
+    },
+    {
+      "id": "old-sacramento-state-historic-park@9qcee0",
+      "name": "Old Sacramento State Historic Park",
+      "lat": 38.584247222,
+      "lng": -121.504916666,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7084883",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7084883",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "old-salmon-falls-bridge@9qcut0",
@@ -60543,6 +61184,31 @@
       }
     },
     {
+      "id": "orleans-hotel@9qce7p",
+      "name": "Orleans Hotel",
+      "lat": 38.582,
+      "lng": -121.504,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7103267",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7103267",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "orr-ranch-limited-access@9qc9ty",
       "name": "Orr Ranch (limited access)",
       "lat": 38.2671,
@@ -60740,6 +61406,31 @@
           "site_m": 412
         }
       }
+    },
+    {
+      "id": "overton-building@9qce7p",
+      "name": "Overton Building",
+      "lat": 38.582,
+      "lng": -121.503,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122929285",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122929285",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "owl-s-tree-house@9qce5p",
@@ -61446,6 +62137,31 @@
           "site_m": 3
         }
       }
+    },
+    {
+      "id": "parrott-s-ferry@9qf26u",
+      "name": "Parrott's Ferry",
+      "lat": 38.039517,
+      "lng": -120.456417,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123200123",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123200123",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "partner-park-dog-park@9qce4v",
@@ -63291,6 +64007,31 @@
       }
     },
     {
+      "id": "pioneer-first-congregational-church@9qce7p",
+      "name": "Pioneer First Congregational Church",
+      "lat": 38.582,
+      "lng": -121.498,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122942037",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122942037",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "pioneer-landing-park@9qce6y",
       "name": "Pioneer Landing Park",
       "lat": 38.5753053,
@@ -63326,6 +64067,31 @@
           "site_m": 11
         }
       }
+    },
+    {
+      "id": "pioneer-mutual-volunteer-firehouse@9qce7p",
+      "name": "Pioneer Mutual Volunteer Firehouse",
+      "lat": 38.5829,
+      "lng": -121.5024,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122942010",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122942010",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "pioneer-park-eld-co@9qf5tk",
@@ -63862,6 +64628,31 @@
       }
     },
     {
+      "id": "pleasant-grove-house@9qcunh",
+      "name": "Pleasant Grove House",
+      "lat": 38.697,
+      "lng": -121.02,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123509296",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123509296",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "pleasant-grove-waste-water-treatment-plant@9qcstv",
       "name": "Pleasant Grove Waste Water Treatment Plant",
       "lat": 38.7905,
@@ -64249,7 +65040,7 @@
       ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -64257,6 +65048,14 @@
           "source_id": "node/358836111",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/358836111",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49544908",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49544908",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -68453,6 +69252,31 @@
       }
     },
     {
+      "id": "rock-monument@9qf49y",
+      "name": "Rock Monument",
+      "lat": 38.442222222,
+      "lng": -120.855277777,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49552584",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49552584",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "rockbound-trail@9qfmpb",
       "name": "Rockbound Trail",
       "lat": 38.8489,
@@ -70489,6 +71313,31 @@
       }
     },
     {
+      "id": "sacramento-first-courthouse@9qce7r",
+      "name": "Sacramento First Courthouse",
+      "lat": 38.5825,
+      "lng": -121.497,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122864723",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122864723",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "sacramento-hill@9qfh6c",
       "name": "Sacramento Hill",
       "lat": 38.7246253,
@@ -70923,6 +71772,31 @@
           "site_m": 9
         }
       }
+    },
+    {
+      "id": "sacramento-valley-national-cemetery@9qc6d9",
+      "name": "Sacramento Valley National Cemetery",
+      "lat": 38.416666666,
+      "lng": -121.878055555,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7397041",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7397041",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "sacramento-zoo-inside-entrance-gates@9qce5p",
@@ -71545,6 +72419,31 @@
       }
     },
     {
+      "id": "salt-box@9qceym",
+      "name": "The Salt Box",
+      "lat": 38.6572,
+      "lng": -121.3646,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7762123",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7762123",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "salt-wash-way-oak-forest-open-space@9qcgyr",
       "name": "Salt Wash Way--oak forest open space",
       "lat": 38.67,
@@ -71619,6 +72518,31 @@
           "site_m": 6
         }
       }
+    },
+    {
+      "id": "sam-brannan-house@9qce7p",
+      "name": "Sam Brannan House",
+      "lat": 38.5834,
+      "lng": -121.5052,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122909145",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122909145",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "san-juan-azevedo-rookery-little-blue-heron-2014@9qcedz",
@@ -73349,6 +74273,31 @@
       }
     },
     {
+      "id": "shaw-s-flat-california@9qf2hn",
+      "name": "Shaw's Flat, California",
+      "lat": 38.00369,
+      "lng": -120.40143,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123200176",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123200176",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "sheffield-park@9qctpv",
       "name": "Sheffield Park",
       "lat": 38.8773528,
@@ -73385,6 +74334,31 @@
           "site_m": 46
         }
       }
+    },
+    {
+      "id": "sheldon-gristmill@9qcffp",
+      "name": "Sheldon Gristmill",
+      "lat": 38.496,
+      "lng": -121.197,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122920217",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122920217",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "sheldon-park@9qcduw",
@@ -75806,6 +76780,31 @@
       }
     },
     {
+      "id": "snowshoe-thompson-historical-monument@9qfsjs",
+      "name": "Snowshoe Thompson Historical Monument",
+      "lat": 38.695277777,
+      "lng": -119.99,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49562787",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49562787",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "soil-born-farms@9qcex6",
       "name": "Soil Born Farms",
       "lat": 38.5982,
@@ -76001,6 +77000,31 @@
           "site_m": 636
         }
       }
+    },
+    {
+      "id": "sonora-mono-toll-road@9qf2hn",
+      "name": "Sonora-Mono Toll Road",
+      "lat": 38.00369,
+      "lng": -120.40143,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123200098",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123200098",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "sonora-park@9qcu8p",
@@ -76317,6 +77341,31 @@
           "site_m": 4
         }
       }
+    },
+    {
+      "id": "south-yuba-canal-office@9qczq5",
+      "name": "South Yuba Canal Office",
+      "lat": 39.2629,
+      "lng": -121.0169,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7569014",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7569014",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "southgate-park@9qcdgy",
@@ -78180,6 +79229,31 @@
           "site_m": 47
         }
       }
+    },
+    {
+      "id": "stone-corral-california@9qf0b2",
+      "name": "Stone Corral, California",
+      "lat": 38.1016,
+      "lng": -120.926,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123162006",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123162006",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "stone-creek-bike-trail-pond-between-oselot-zinfandel@9qcg2w",
@@ -80369,10 +81443,12 @@
       "lat": 38.5725608,
       "lng": -121.4712802,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -80380,6 +81456,14 @@
           "source_id": "way/40186323",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/40186323",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49568208",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49568208",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -80407,10 +81491,11 @@
     {
       "id": "sutter-s-fort@9qce7v",
       "name": "Sutter's Fort",
-      "lat": 38.5727,
-      "lng": -121.4711,
-      "category": "wildlife_hotspot",
+      "lat": 38.572222,
+      "lng": -121.47,
+      "category": "marker",
       "subject_type": [
+        "historic",
         "birds",
         "wildlife"
       ],
@@ -80419,7 +81504,7 @@
         "golden_hour"
       ],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -80427,6 +81512,14 @@
           "source_id": "L1092589",
           "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L1092589",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q2792626",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q2792626",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -80491,7 +81584,7 @@
       ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -80499,6 +81592,14 @@
           "source_id": "node/12941798181",
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/12941798181",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q66816424",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q66816424",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -82700,6 +83801,14 @@
           "source_url": "https://www.openstreetmap.org/node/358836117",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q49570067",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49570067",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
         }
       ],
       "tags": {
@@ -83547,10 +84656,11 @@
     {
       "id": "tragedy-spring@9qfecf",
       "name": "Tragedy Spring",
-      "lat": 38.6397,
-      "lng": -120.1468,
-      "category": "wildlife_hotspot",
+      "lat": 38.639722222,
+      "lng": -120.147222222,
+      "category": "marker",
       "subject_type": [
+        "historic",
         "birds",
         "wildlife"
       ],
@@ -83559,7 +84669,7 @@
         "golden_hour"
       ],
       "best_season": [],
-      "access_difficulty": "unknown",
+      "access_difficulty": "roadside",
       "notes": null,
       "sources": [
         {
@@ -83567,6 +84677,14 @@
           "source_id": "L15539896",
           "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L15539896",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q7832615",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7832615",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-19"
         }
@@ -83835,6 +84953,31 @@
           "site_m": 10
         }
       }
+    },
+    {
+      "id": "trap@9qce4e",
+      "name": "The Trap",
+      "lat": 38.5154,
+      "lng": -121.5263,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q131324979",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q131324979",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "traverse-creek-special-interest-area@9qfj4s",
@@ -85919,6 +87062,33 @@
           "w": 6,
           "site_m": 1902
         }
+      }
+    },
+    {
+      "id": "vallecito-bell-monument@9qf2dt",
+      "name": "Vallecito Bell Monument",
+      "lat": 38.086364,
+      "lng": -120.4741,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122746201",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122746201",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {
+        "california_landmark": true
       }
     },
     {
@@ -90913,6 +92083,31 @@
       }
     },
     {
+      "id": "western-hotel@9qce7p",
+      "name": "Western Hotel",
+      "lat": 38.582,
+      "lng": -121.503,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122898452",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122898452",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "westhamptton-park@9qcs42",
       "name": "Westhamptton Park",
       "lat": 38.6762001,
@@ -91098,6 +92293,31 @@
           "site_m": 44
         }
       }
+    },
+    {
+      "id": "what-cheer-house@9qce7p",
+      "name": "What Cheer House",
+      "lat": 38.5823,
+      "lng": -121.5058,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q122898205",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q122898205",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "wheatland-wtp-pla-co@9qctv5",
@@ -91474,6 +92694,31 @@
           "site_m": 58
         }
       }
+    },
+    {
+      "id": "whitney-family-mausoleum@9qcubg",
+      "name": "Whitney Family Mausoleum",
+      "lat": 38.82565,
+      "lng": -121.2477,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q139799022",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q139799022",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "whitney-oaks-golf-club@9qcuc5",
@@ -93147,6 +94392,31 @@
       }
     },
     {
+      "id": "wood-s-bridge@9qc9pf",
+      "name": "Wood's Bridge",
+      "lat": 38.157,
+      "lng": -121.297,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123050479",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123050479",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
+    },
+    {
       "id": "wood-school-park@9qcehg",
       "name": "Wood School Park",
       "lat": 38.5165737,
@@ -93293,6 +94563,31 @@
           "site_m": 9
         }
       }
+    },
+    {
+      "id": "woodland-opera-house-state-historic-park@9qckj1",
+      "name": "Woodland Opera House State Historic Park",
+      "lat": 38.677777777,
+      "lng": -121.771944444,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49582738",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49582738",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {}
     },
     {
       "id": "woods-park@9qcduf",
