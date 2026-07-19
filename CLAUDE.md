@@ -8,12 +8,14 @@ doing anything.
 ## absolute and permanent, applies to every repo). Present choices as plain
 ## text; he replies in his own words.
 
-## Branches: only `staging` and `main`, ever (Noah, 2026-07-19, restated for
-## this repo at creation). No `claude/*` or other branches. Work lands on
-## `staging` → his on-device pass → merge to `main` (= production deploy).
-## Docs-only changes may merge without the gate. Start every session by
-## checking whether `staging` is ahead of `main` or an "awaiting on-device
-## acceptance" draft PR exists — a waiting candidate is never rebuilt.
+## Branches: only `staging` and `main`, ever (Noah, 2026-07-19). No `claude/*`,
+## no other branches, and NO pull requests — he does not use them. EVERY build
+## lands on `staging`; his hands-on device test happens there; he EXPLICITLY
+## says "promote to main" and only then does it go to `main` (= production
+## deploy). Never promote to main on your own read of "it's ready." Docs-only
+## changes may go straight to main. Start every session by checking whether
+## `staging` is ahead of `main` — that candidate is already waiting on his
+## test; surface it, never rebuild it (it's also logged in Project facts).
 
 ## Accessibility is a top priority (owner mandate). Hue-only encoding is a
 ## fail state. Every new visual encoding states its non-hue channel at design
