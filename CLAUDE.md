@@ -101,8 +101,22 @@ doing anything.
   synthesis.SIGNALS and ui/synthesis.js LAYER_CHIPS). RE-RUN commons.yml after a
   full OSM refresh. sw CACHE pointer-0.10.0. VERIFIED: adapter unit-tested
   (geosearch URL params, count, capped-flag, retry-then-throw); commonsPhotos
-  dormant→active test; 83 tests, contrast green. Commons API unreachable from
-  sandbox (WebFetch 403, UA-gated) — runner will confirm real counts.
+  dormant→active test; 83 tests, contrast green. FIRST RUNNER RUN THROTTLED OUT:
+  the initial per-spot design (2362 geosearch calls, 6-worker pool) crawled and
+  was CANCELLED at ~19 min — Wikimedia THROTTLES GitHub Actions datacenter IPs
+  hard, and concurrency reads as abuse. REWORKED to a TILED HARVEST (commons-
+  photos.mjs harvestBBox/geosearchTile/tileCenters): ~195 wide tiles (10 km
+  radius, gslimit 500) over the region bbox at pool 4, dedup images by pageid,
+  then cmdCommons counts per spot LOCALLY (0.008° grid, within RADIUS_M=800) —
+  no per-spot API calls. RUNNER RESULT (run 29700240178, ~8 min — still slow from
+  the IP throttling but BOUNDED and it committed): harvested 10,687 unique
+  geotagged photos, tagged 286 spots (median 7, max 368 Camp Alta; Locke Historic
+  District 102, South Yuba Canal Office 316 — real photographed places). ALL
+  enrichment tags survived (bortle/horizon 2362, inat 134 — tag-preserving merge
+  held). VERIFIED LIVE: "Photographed" chip → 30 rows all crediting it; popup "N
+  freely-licensed photos taken near here"; 88 tests, contrast green, zero
+  pageerrors. LESSON: for Wikimedia from a runner, MINIMIZE call count (tile-
+  harvest, not per-spot) — the IP throttling is the wall, not the total work.
 - 2026-07-19 0.9.0 "Historical markers" BUILT on staging (awaiting on-device
   pass + a markers.yml runner pass to add the data): Tier 3 item #2 (Noah's "Do
   1 and 2"). HMdb has NO public API + its content is COPYRIGHTED, so the clean
