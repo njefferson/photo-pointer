@@ -80,7 +80,19 @@ doing anything.
   renders + correctly DORMANT (0 rows) pre-data; 65 tests (added openHorizon
   dormant→active), contrast green. GDAL is runner-only (not installable in the
   sandbox) — like build-light-pollution.py, the python glue is unrun locally but
-  mirrors the proven light-pollution script exactly.
+  mirrors the proven light-pollution script exactly. RUNNER RESULT (run
+  29698317857, whole job <60 s — DEM download 23 s, trace+tag 2 s): the AWS
+  `elevation-tiles-prod` skadi source WORKS from a runner, no key. 2362/2362
+  tagged; openness min/median/max 0.00/0.91/1.00 with a real spread (361 spots
+  ≤0.2 closed, 1479 ≥0.8 open — valley-dominated region, correct). SANITY
+  (measured, correct): Emerald Bay overlook @2078 m reads open 0.0 (ringed by
+  the Tahoe basin, ridges 5–11° all around — an "overlook" NOT open to low sun,
+  the measurement earning its keep); American River valley floor @21 m reads
+  0.82 (near-flat E1° W0.7°). VERIFIED LIVE on the tagged data: Top-spots "Open
+  horizon" → 30 rows all crediting it; the 3-layer astro shortlist (Open horizon
+  + Dark sky + Public land) → 30 rows, top ones layering SIX signals ("A layered
+  place · Wildlife · Open view · Open horizon · Public land · Dark sky"), zero
+  pageerrors. OPEN_DEG=6.0 confirmed good (no bunching).
 - 2026-07-19 0.6.0 "Public lands" BUILT on staging (awaiting on-device pass):
   Tier 2a of the integrations list. ingest/adapters/public-lands.mjs (OSM/
   Overpass, ODbL): fetches protected-area POLYGONS (out geom) — boundary=
