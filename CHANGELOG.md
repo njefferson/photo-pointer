@@ -2,6 +2,19 @@
 
 Written for the person using the app. Newest first.
 
+## 0.6.0 — 2026-07-19
+
+**Which spots are on public land.**
+
+- Every spot that sits inside a park, national forest, wilderness, or reserve
+  is now marked — 488 of them across the region, from Desolation Wilderness to
+  the Tahoe Basin. The popup names the land and reminds you to check access
+  hours.
+- **Top spots gains a "Public land" filter.** Combine it with "Dark sky" and
+  you get the astro shortlist that matters: dark *and* somewhere you can
+  legally stand at night.
+- Boundaries from OpenStreetMap (ODbL).
+
 ## 0.5.0 — 2026-07-19
 
 **Is tonight the night?**

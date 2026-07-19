@@ -51,6 +51,26 @@ doing anything.
 ## "set up" while any is unconfirmed.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 0.6.0 "Public lands" BUILT on staging (awaiting on-device pass):
+  Tier 2a of the integrations list. ingest/adapters/public-lands.mjs (OSM/
+  Overpass, ODbL): fetches protected-area POLYGONS (out geom) — boundary=
+  protected_area / leisure=nature_reserve / boundary=national_park ONLY (the
+  leisure=park["name"] selector made out geom HANG on Overpass across
+  Sacramento's city parks — dropped it; city parks are already `park` spots).
+  ingest.mjs `public-lands` command point-in-polygons every spot
+  (geo.js pointInArea, smallest-containing-area wins) → tags.publicLand
+  {name,class,operator}; writes data/layers/public-lands.json (metadata, no
+  rings — repo stays lean). Own workflow public-lands.yml (RE-RUN after a full
+  OSM refresh, which regenerates spots.json and drops publicLand+bortle tags —
+  same ordering caveat as light-pollution). synthesis.js publicLand signal
+  (weight 0.6, dormant until tagged). ui: popup "On public land: X — check
+  access hours" + Top-spots "Public land" require chip (ADD new signals to
+  BOTH synthesis.SIGNALS and ui/synthesis.js LAYER_CHIPS). RESULT: 488/2362
+  spots on public land (protected_area 220, forest cls6 135, reserve 52,
+  wilderness 1b 39, ...), 97 areas. sw CACHE pointer-0.6.0. VERIFIED headless:
+  Top-spots "Public land" require → 30 all-public, "Public land"+"Dark sky" →
+  30 satisfying both, popup note renders, 64 tests, contrast green, zero
+  pageerrors.
 - 2026-07-19 0.5.0 "Tonight" BUILT on staging (awaiting on-device pass): moon +
   clear-sky = Tier 1 of Noah's "do all integrations in order" list. model/
   tonight.js (on-device via astronomy-engine): moon phase/illumination,

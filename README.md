@@ -62,7 +62,7 @@ commits `data/` to the branch it ran on.
 | iNaturalist | wildlife observation clusters | Per-record CC licensing — ingest filters to CC0/CC-BY/CC-BY-SA only | Stub |
 | Flickr | where CC photographers actually shoot | Per-photo — **only CC/public-domain licensed photos**; needs `FLICKR_API_KEY` | Stub |
 | World Atlas (Falchi 2016) | dark-sky / light-pollution raster → Bortle per spot + map overlay | **CC BY-NC 4.0**, doi:10.5880/GFZ.1.4.2016.001 | **Working** |
-| CPAD / PAD-US | public-land boundaries | CPAD free w/ attribution · PAD-US public domain | Stub |
+| Public lands | protected-area boundaries → which spots are on public land | OpenStreetMap, ODbL | **Working** |
 | Map tiles | OSM carto + Esri World Imagery | © OpenStreetMap contributors · Imagery © Esri | Working |
 | Sun & moon | on-device golden/blue-hour, sunrise/sunset + direction, moon phase + Milky-Way dark window | astronomy-engine © Don Cross, MIT (vendored) | Working |
 | Weather | live clear-sky (cloud) forecast for tonight, per spot | Open-Meteo, free, no key (CC BY 4.0) | Working |

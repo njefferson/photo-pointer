@@ -53,6 +53,7 @@ export function topSpotsPanel(ranked, onGo) {
     ['view', 'Open view'],
     ['access', 'Easy access'],
     ['darkSky', 'Dark sky'],
+    ['publicLand', 'Public land'],
   ];
   const chips = LAYER_CHIPS.map(([key, label]) =>
     el('button', {

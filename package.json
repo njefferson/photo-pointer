@@ -1,7 +1,7 @@
 {
   "name": "photo-pointer",
   "private": true,
-  "version": "0.5.0",
+  "version": "0.6.0",
   "type": "module",
   "description": "One map of every photo-worthy place in your region — open data only.",
   "engines": { "node": ">=22" },
