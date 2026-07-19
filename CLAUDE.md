@@ -20,6 +20,10 @@ doing anything.
 ## time; `node scripts/check-contrast.mjs` is a gate (add new fg/bg pairs in
 ## the same commit); keyboard + focus-visible always.
 
+## License: PolyForm Noncommercial 1.0.0 (LICENSE.md), same as Clear Horizons
+## (Noah, 2026-07-19 — corrected from an earlier wrong "no LICENSE" reading).
+## Keep the header scope current when third-party material changes.
+
 ## Licensing is load-bearing. Every ingest adapter declares its source's
 ## license in its header and honors it structurally (HMdb: links only;
 ## Flickr: CC/PD only; eBird: no bulk redistribution). Never add a source

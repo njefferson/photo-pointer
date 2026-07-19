@@ -37,8 +37,9 @@ offline-first, no account. No Instagram, no social scraping, ever.
    Flickr CC photo-density, light-pollution layer, public-lands layer.
    RESOLVED 2026-07-19: eBird next. Shipped — imported from Frame's committed
    county hotspot data (no key/network). 2,362 spots now.
-4. License: RESOLVED 2026-07-19 — proprietary / all rights reserved, NO
-   LICENSE file (same as Bird-location-scouting). Do not add one.
+4. License: RESOLVED 2026-07-19 — PolyForm Noncommercial License 1.0.0
+   (LICENSE.md), the same as Clear Horizons. Header scope lists this repo's
+   third-party material (Leaflet BSD-2, OSM ODbL, eBird API terms).
 
 ## Roadmap (v0 → )
 

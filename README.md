@@ -69,10 +69,11 @@ For a region that app doesn't cover, the adapter documents the live-API path
 
 ## License
 
-Proprietary — all rights reserved. No LICENSE file, matching the sibling
-apps. The ingested open data keeps its own terms (OSM is ODbL, eBird per
-the API terms above); those obligations stand regardless of this project's
-code license.
+**PolyForm Noncommercial License 1.0.0** (see `LICENSE.md`) — the same
+license as Clear Horizons. The app's own source is free for any
+noncommercial purpose. The ingested open data keeps its own terms (OSM is
+ODbL, eBird per the API terms above); those obligations stand regardless of
+this project's code license, and `LICENSE.md` lists them.
 
 ## Expanding the region
 
