@@ -1,0 +1,1080 @@
+{
+  "source": {
+    "source": "public_lands",
+    "name": "Public-land boundaries (OpenStreetMap)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "builtAt": "2026-07-19",
+  "count": 97,
+  "areas": [
+    {
+      "name": "Royal Gorge",
+      "class": "5",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.2733177,
+        "west": -120.4136646,
+        "north": 39.3198401,
+        "east": -120.3625194
+      }
+    },
+    {
+      "name": "Onion Creek Experimental Forest",
+      "class": "4",
+      "operator": "USFS Tahoe National Forest",
+      "bbox": {
+        "south": 39.2589302,
+        "west": -120.3811,
+        "north": 39.301953,
+        "east": -120.3281455
+      }
+    },
+    {
+      "name": "California Tahoe Conservancy",
+      "class": "6",
+      "operator": "California Tahoe Conservancy",
+      "bbox": {
+        "south": 38.8505088,
+        "west": -120.2447855,
+        "north": 39.2731369,
+        "east": -119.9445851
+      }
+    },
+    {
+      "name": "American River Headwaters",
+      "class": "5",
+      "operator": "American River Conservancy",
+      "bbox": {
+        "south": 39.113613,
+        "west": -120.3906942,
+        "north": 39.1947051,
+        "east": -120.3300623
+      }
+    },
+    {
+      "name": "Blodgett Experimental Forest",
+      "class": "6",
+      "operator": "University of California Berkeley College of Natural Resources",
+      "bbox": {
+        "south": 38.8670456,
+        "west": -120.6790638,
+        "north": 38.9111494,
+        "east": -120.639925
+      }
+    },
+    {
+      "name": "Chickering American River Reserve",
+      "class": "2",
+      "operator": "University of California Natural Reserve System",
+      "bbox": {
+        "south": 39.2058375,
+        "west": -120.3285313,
+        "north": 39.2499023,
+        "east": -120.2648663
+      }
+    },
+    {
+      "name": "Snow Mountain",
+      "class": "5",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.2296769,
+        "west": -120.4932618,
+        "north": 39.2442358,
+        "east": -120.4738637
+      }
+    },
+    {
+      "name": "Cisco Grove Gould Park",
+      "class": "nature_reserve",
+      "operator": "Placer County",
+      "bbox": {
+        "south": 39.3056478,
+        "west": -120.5432448,
+        "north": 39.3114048,
+        "east": -120.5333179
+      }
+    },
+    {
+      "name": "Bureau of Land Management",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 39.0966364,
+        "west": -120.94751,
+        "north": 39.2172793,
+        "east": -120.7893257
+      }
+    },
+    {
+      "name": "North Fork American Wild and Scenic River",
+      "class": "5",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 39.1698972,
+        "west": -120.7893762,
+        "north": 39.2480578,
+        "east": -120.4000176
+      }
+    },
+    {
+      "name": null,
+      "class": "6",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 38.7761963,
+        "west": -120.7831228,
+        "north": 38.7945859,
+        "east": -120.7444591
+      }
+    },
+    {
+      "name": "Truckee Springs",
+      "class": "5",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.3152499,
+        "west": -120.1987034,
+        "north": 39.3258208,
+        "east": -120.1849714
+      }
+    },
+    {
+      "name": "California Tahoe Conservancy Easement",
+      "class": "5",
+      "operator": "California Tahoe Conservancy",
+      "bbox": {
+        "south": 39.0953356,
+        "west": -120.1664499,
+        "north": 39.2573902,
+        "east": -120.0632111
+      }
+    },
+    {
+      "name": "Brush Creek Company",
+      "class": "6",
+      "operator": null,
+      "bbox": {
+        "south": 38.7613784,
+        "west": -121.0726086,
+        "north": 38.8231061,
+        "east": -121.035056
+      }
+    },
+    {
+      "name": "Salmon Falls Ranch",
+      "class": "5",
+      "operator": "American River Conservancy",
+      "bbox": {
+        "south": 38.7689366,
+        "west": -121.0631425,
+        "north": 38.783672,
+        "east": -121.0302517
+      }
+    },
+    {
+      "name": "Brush Creek Ranch",
+      "class": "5",
+      "operator": "American River Conservancy",
+      "bbox": {
+        "south": 38.7732609,
+        "west": -121.0354065,
+        "north": 38.7836831,
+        "east": -121.0257558
+      }
+    },
+    {
+      "name": "Bureau of Land Management",
+      "class": "6",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 38.7472466,
+        "west": -121.0066738,
+        "north": 38.7689371,
+        "east": -120.9846165
+      }
+    },
+    {
+      "name": "Greenwood Creek Management Area",
+      "class": "5",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 38.8124278,
+        "west": -120.9694028,
+        "north": 38.8276163,
+        "east": -120.9461282
+      }
+    },
+    {
+      "name": "Cronan Ranch",
+      "class": "5",
+      "operator": "American River Conservancy",
+      "bbox": {
+        "south": 38.8197239,
+        "west": -120.9890388,
+        "north": 38.8271624,
+        "east": -120.9829903
+      }
+    },
+    {
+      "name": "Cronan Ranch Management Area",
+      "class": "5",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 38.7906542,
+        "west": -120.9926989,
+        "north": 38.8277105,
+        "east": -120.9663281
+      }
+    },
+    {
+      "name": "Norton Ravine Management Area",
+      "class": "5",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 38.7688843,
+        "west": -121.0066581,
+        "north": 38.7906848,
+        "east": -120.9789455
+      }
+    },
+    {
+      "name": "Spring Garden Preserve",
+      "class": "5",
+      "operator": "Placer Land Trust",
+      "bbox": {
+        "south": 38.9953905,
+        "west": -120.9158532,
+        "north": 39.0098824,
+        "east": -120.9069389
+      }
+    },
+    {
+      "name": "Bureau of Land Management",
+      "class": "6",
+      "operator": null,
+      "bbox": {
+        "south": 39.0135373,
+        "west": -120.8855331,
+        "north": 39.1099257,
+        "east": -120.7381003
+      }
+    },
+    {
+      "name": "North Fork of North Fork American River Preserve",
+      "class": "5",
+      "operator": "Placer Land Trust",
+      "bbox": {
+        "south": 39.2004004,
+        "west": -120.7190609,
+        "north": 39.2151431,
+        "east": -120.7097874
+      }
+    },
+    {
+      "name": "D.L. Bliss State Park",
+      "class": "5",
+      "operator": "State of California",
+      "bbox": {
+        "south": 38.9656381,
+        "west": -120.1117358,
+        "north": 39.0032049,
+        "east": -120.0840212
+      }
+    },
+    {
+      "name": "Gate Keepers Cottage",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 39.1659977,
+        "west": -120.1445809,
+        "north": 39.1678914,
+        "east": -120.1423053
+      }
+    },
+    {
+      "name": "Nimbus Fish Hatchery",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 38.6318568,
+        "west": -121.2331642,
+        "north": 38.6362122,
+        "east": -121.2183995
+      }
+    },
+    {
+      "name": "Laursen South Preserve",
+      "class": "5",
+      "operator": "Placer Land Trust",
+      "bbox": {
+        "south": 38.999975,
+        "west": -121.118153,
+        "north": 39.0132814,
+        "east": -121.1098578
+      }
+    },
+    {
+      "name": "Shutamul Bear River Preserve",
+      "class": "5",
+      "operator": "Placer Land Trust",
+      "bbox": {
+        "south": 39.0293322,
+        "west": -121.1293302,
+        "north": 39.0331052,
+        "east": -121.1249312
+      }
+    },
+    {
+      "name": "Laursen Bear River Preserve",
+      "class": "5",
+      "operator": "Placer Land Trust",
+      "bbox": {
+        "south": 39.0141194,
+        "west": -121.1359191,
+        "north": 39.0353477,
+        "east": -121.1178445
+      }
+    },
+    {
+      "name": "Harvego Bear River Preserve",
+      "class": "6",
+      "operator": "Placer Land Trust",
+      "bbox": {
+        "south": 38.9996618,
+        "west": -121.1914133,
+        "north": 39.0378674,
+        "east": -121.1342869
+      }
+    },
+    {
+      "name": "Donner Memorial State Park",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 39.285855,
+        "west": -120.3098577,
+        "north": 39.3270713,
+        "east": -120.2268058
+      }
+    },
+    {
+      "name": "Jackass Ridge",
+      "class": "5",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.3075551,
+        "west": -120.236392,
+        "north": 39.3149679,
+        "east": -120.2264786
+      }
+    },
+    {
+      "name": "Old Sacramento State Historic Park",
+      "class": "22",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 38.3577016,
+        "west": -121.5196017,
+        "north": 38.5882398,
+        "east": -121.4991087
+      }
+    },
+    {
+      "name": "Old Sacramento Historic District",
+      "class": "22",
+      "operator": null,
+      "bbox": {
+        "south": 38.5800344,
+        "west": -121.507379,
+        "north": 38.5859729,
+        "east": -121.5034386
+      }
+    },
+    {
+      "name": "Sacramento Shops Historic District",
+      "class": "22",
+      "operator": null,
+      "bbox": {
+        "south": 38.5863196,
+        "west": -121.5020493,
+        "north": 38.5886087,
+        "east": -121.4979204
+      }
+    },
+    {
+      "name": "Stone Lakes National Wildlife Refuge",
+      "class": "4",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 38.3206234,
+        "west": -121.5098689,
+        "north": 38.4378036,
+        "east": -121.4781012
+      }
+    },
+    {
+      "name": "Stone Lake Park Property",
+      "class": "4",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 38.3839042,
+        "west": -121.5007419,
+        "north": 38.4075908,
+        "east": -121.4790924
+      }
+    },
+    {
+      "name": "American River Parkway",
+      "class": "protected_area",
+      "operator": "Sacramento County Parks",
+      "bbox": {
+        "south": 38.5578709,
+        "west": -121.513791,
+        "north": 38.7056558,
+        "east": -121.1614584
+      }
+    },
+    {
+      "name": "Martis Creek Lake Recreation Area",
+      "class": "nature_reserve",
+      "operator": "U.S. Army Corps of Engineers",
+      "bbox": {
+        "south": 39.2861977,
+        "west": -120.1421591,
+        "north": 39.3302576,
+        "east": -120.108387
+      }
+    },
+    {
+      "name": "Auburn State Recreation Area",
+      "class": "6",
+      "operator": null,
+      "bbox": {
+        "south": 38.8553954,
+        "west": -121.0699504,
+        "north": 39.0968583,
+        "east": -120.8011042
+      }
+    },
+    {
+      "name": "Folsom Lake State Recreation Area",
+      "class": "protected_area",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 38.6318568,
+        "west": -121.2331642,
+        "north": 38.8797196,
+        "east": -121.0114288
+      }
+    },
+    {
+      "name": "Emerald Bay State Park",
+      "class": "nature_reserve",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 38.9475212,
+        "west": -120.1120435,
+        "north": 38.9733569,
+        "east": -120.0741043
+      }
+    },
+    {
+      "name": "Humboldt–Toiyabe National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 35.9120821,
+        "west": -120.1471765,
+        "north": 41.9992568,
+        "east": -114.0788038
+      }
+    },
+    {
+      "name": "Edwin L. Z'berg Natural Preserve",
+      "class": "nature_reserve",
+      "operator": "State of California",
+      "bbox": {
+        "south": 39.0521446,
+        "west": -120.1222573,
+        "north": 39.0651062,
+        "east": -120.1134401
+      }
+    },
+    {
+      "name": "Ed Z'berg Sugar Pine Point State Park",
+      "class": "5",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 39.0192021,
+        "west": -120.1691478,
+        "north": 39.0651062,
+        "east": -120.1109232
+      }
+    },
+    {
+      "name": "Desolation Wilderness",
+      "class": "1b",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 38.8163049,
+        "west": -120.2869043,
+        "north": 39.0212814,
+        "east": -120.0695681
+      }
+    },
+    {
+      "name": "Granite Chief Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 39.0528382,
+        "west": -120.3504851,
+        "north": 39.2188887,
+        "east": -120.2311065
+      }
+    },
+    {
+      "name": "Hopkins Ranch",
+      "class": "5",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.3045001,
+        "west": -120.1611024,
+        "north": 39.3153726,
+        "east": -120.1419997
+      }
+    },
+    {
+      "name": "Van Sickle Bi-State Park",
+      "class": "protected_area",
+      "operator": "Nevada State Parks",
+      "bbox": {
+        "south": 38.9467881,
+        "west": -119.9433294,
+        "north": 38.9576645,
+        "east": -119.9219844
+      }
+    },
+    {
+      "name": "Lake Tahoe Basin Management Unit",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 38.7041881,
+        "west": -120.2522816,
+        "north": 39.3248504,
+        "east": -119.8531868
+      }
+    },
+    {
+      "name": "Tahoe National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 38.996132,
+        "west": -121.1620931,
+        "north": 39.7957603,
+        "east": -120.0054901
+      }
+    },
+    {
+      "name": "Eldorado National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 38.4457944,
+        "west": -120.8629775,
+        "north": 39.1000582,
+        "east": -119.8402428
+      }
+    },
+    {
+      "name": "Placer County Open Space",
+      "class": "nature_reserve",
+      "operator": "Placer County",
+      "bbox": {
+        "south": 39.2175629,
+        "west": -120.0900909,
+        "north": 39.2188118,
+        "east": -120.0873929
+      }
+    },
+    {
+      "name": "Olympic Meadow Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 39.2033675,
+        "west": -120.2147787,
+        "north": 39.2064204,
+        "east": -120.2109352
+      }
+    },
+    {
+      "name": "Finnon Recreation Area",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7957544,
+        "west": -120.7557213,
+        "north": 38.8015824,
+        "east": -120.7447135
+      }
+    },
+    {
+      "name": null,
+      "class": "22",
+      "operator": null,
+      "bbox": {
+        "south": 38.6541303,
+        "west": -121.3926872,
+        "north": 38.6642009,
+        "east": -121.3829843
+      }
+    },
+    {
+      "name": "Natomas Station Wildlife Area",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 38.6543096,
+        "west": -121.1727328,
+        "north": 38.6560177,
+        "east": -121.1710156
+      }
+    },
+    {
+      "name": "Auburn Ravine Nature Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.881525,
+        "west": -121.3071127,
+        "north": 38.8839381,
+        "east": -121.2944885
+      }
+    },
+    {
+      "name": "Coyote Creek Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7786271,
+        "west": -121.3689515,
+        "north": 38.785631,
+        "east": -121.3633443
+      }
+    },
+    {
+      "name": "Auburn Ravine Nature Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.8824738,
+        "west": -121.3065808,
+        "north": 38.8842548,
+        "east": -121.2941476
+      }
+    },
+    {
+      "name": null,
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 38.6507986,
+        "west": -121.0984305,
+        "north": 38.6534982,
+        "east": -121.0958897
+      }
+    },
+    {
+      "name": "Dollar Property",
+      "class": "5",
+      "operator": "California Tahoe Conservancy",
+      "bbox": {
+        "south": 39.1983082,
+        "west": -120.1327001,
+        "north": 39.2130967,
+        "east": -120.104996
+      }
+    },
+    {
+      "name": "Laurel Canyon Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7765344,
+        "west": -121.3798656,
+        "north": 38.7785585,
+        "east": -121.3747534
+      }
+    },
+    {
+      "name": "Traylor Ranch Nature Reserve",
+      "class": "nature_reserve",
+      "operator": "Placer County",
+      "bbox": {
+        "south": 38.8466668,
+        "west": -121.2149557,
+        "north": 38.853939,
+        "east": -121.2055771
+      }
+    },
+    {
+      "name": "Robie Park",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 39.2349227,
+        "west": -120.1796605,
+        "north": 39.242268,
+        "east": -120.1702625
+      }
+    },
+    {
+      "name": "Burton Creek State Park",
+      "class": "5",
+      "operator": "State of California",
+      "bbox": {
+        "south": 39.1763893,
+        "west": -120.1610117,
+        "north": 39.2057669,
+        "east": -120.1232847
+      }
+    },
+    {
+      "name": "Anderson Island Natural Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7903115,
+        "west": -121.1057059,
+        "north": 38.7927999,
+        "east": -121.1012482
+      }
+    },
+    {
+      "name": "Mormon Island Wetlands Natural Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.6925923,
+        "west": -121.1216091,
+        "north": 38.700587,
+        "east": -121.1097031
+      }
+    },
+    {
+      "name": "Antone Meadows Natural Preserve",
+      "class": "4",
+      "operator": "State of California",
+      "bbox": {
+        "south": 39.1994063,
+        "west": -120.1610117,
+        "north": 39.2056781,
+        "east": -120.1436225
+      }
+    },
+    {
+      "name": "Burton Creek Natural Preserve",
+      "class": "4",
+      "operator": "State of California",
+      "bbox": {
+        "south": 39.1836955,
+        "west": -120.14494,
+        "north": 39.2014479,
+        "east": -120.1232847
+      }
+    },
+    {
+      "name": "Auburn State Recreation Area",
+      "class": "national_park",
+      "operator": null,
+      "bbox": {
+        "south": 39.0166571,
+        "west": -120.8001251,
+        "north": 39.0211033,
+        "east": -120.7948912
+      }
+    },
+    {
+      "name": "Auburn State Recreation Area",
+      "class": "national_park",
+      "operator": null,
+      "bbox": {
+        "south": 38.9670116,
+        "west": -120.9727717,
+        "north": 38.9691772,
+        "east": -120.9715909
+      }
+    },
+    {
+      "name": "Delta Meadows",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.2451325,
+        "west": -121.5093574,
+        "north": 38.2767718,
+        "east": -121.4937154
+      }
+    },
+    {
+      "name": "Ward Creek",
+      "class": "nature_reserve",
+      "operator": "State of California",
+      "bbox": {
+        "south": 39.1278922,
+        "west": -120.171472,
+        "north": 39.1369343,
+        "east": -120.1576947
+      }
+    },
+    {
+      "name": "Blue Heron Trails",
+      "class": "nature_reserve",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 38.3689415,
+        "west": -121.4959905,
+        "north": 38.372733,
+        "east": -121.4893949
+      }
+    },
+    {
+      "name": null,
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 38.8017819,
+        "west": -121.2273498,
+        "north": 38.8095706,
+        "east": -121.220699
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7773741,
+        "west": -121.3551126,
+        "north": 38.7836443,
+        "east": -121.3466797
+      }
+    },
+    {
+      "name": "Elizabethtown Meadows",
+      "class": "nature_reserve",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.286905,
+        "west": -120.1084989,
+        "north": 39.3012697,
+        "east": -120.1002433
+      }
+    },
+    {
+      "name": "Waddle Ranch Preserve",
+      "class": "nature_reserve",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.3012041,
+        "west": -120.1143569,
+        "north": 39.3301942,
+        "east": -120.081638
+      }
+    },
+    {
+      "name": "Keilhofer",
+      "class": "nature_reserve",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.3066046,
+        "west": -120.1420319,
+        "north": 39.3117348,
+        "east": -120.1373943
+      }
+    },
+    {
+      "name": "Martis Camp Conservation Easement",
+      "class": "nature_reserve",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.2715796,
+        "west": -120.161494,
+        "north": 39.2862328,
+        "east": -120.1331806
+      }
+    },
+    {
+      "name": "Washoe Meadows State Park",
+      "class": "nature_reserve",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 38.859669,
+        "west": -120.031895,
+        "north": 38.8869242,
+        "east": -120.0189461
+      }
+    },
+    {
+      "name": "Mahany Nature Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7635281,
+        "west": -121.3439525,
+        "north": 38.7663289,
+        "east": -121.3348491
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.6858745,
+        "west": -121.1237561,
+        "north": 38.6902057,
+        "east": -121.1166281
+      }
+    },
+    {
+      "name": "Northstar Vail Conservation Easement",
+      "class": "nature_reserve",
+      "operator": "Truckee Donner Land Trust",
+      "bbox": {
+        "south": 39.2717831,
+        "west": -120.1044542,
+        "north": 39.2869145,
+        "east": -120.0956351
+      }
+    },
+    {
+      "name": "Al Johnson Wildlife Area",
+      "class": "nature_reserve",
+      "operator": "City of Roseville",
+      "bbox": {
+        "south": 38.8030247,
+        "west": -121.4159753,
+        "north": 38.8100959,
+        "east": -121.4008516
+      }
+    },
+    {
+      "name": "Johnson Meadow",
+      "class": "nature_reserve",
+      "operator": "Tahoe Resource Conservation District",
+      "bbox": {
+        "south": 38.9040566,
+        "west": -119.99502,
+        "north": 38.9223911,
+        "east": -119.9844039
+      }
+    },
+    {
+      "name": "Miners Ravine Nature Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7530353,
+        "west": -121.1707394,
+        "north": 38.7578112,
+        "east": -121.1640877
+      }
+    },
+    {
+      "name": "Kaseberg Nature Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7844644,
+        "west": -121.3648067,
+        "north": 38.7910224,
+        "east": -121.3587783
+      }
+    },
+    {
+      "name": "Kaseberg Nature Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7880341,
+        "west": -121.3655197,
+        "north": 38.7914437,
+        "east": -121.3587764
+      }
+    },
+    {
+      "name": "Lower Sherman Island Wildlife Area",
+      "class": "protected_area",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 38.0247193,
+        "west": -121.8376791,
+        "north": 38.0619985,
+        "east": -121.7844091
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.7983021,
+        "west": -121.2833017,
+        "north": 38.8055409,
+        "east": -121.2770096
+      }
+    },
+    {
+      "name": "Deer Creek Hills Preserve",
+      "class": "protected_area",
+      "operator": "Sacramento Valley Conservancy",
+      "bbox": {
+        "south": 38.5099901,
+        "west": -121.1097055,
+        "north": 38.5546737,
+        "east": -121.0443192
+      }
+    },
+    {
+      "name": "Roseville Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.753003,
+        "west": -121.355034,
+        "north": 38.754113,
+        "east": -121.353549
+      }
+    },
+    {
+      "name": "Wesley Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 38.816656,
+        "west": -121.2711566,
+        "north": 38.8247001,
+        "east": -121.2648394
+      }
+    },
+    {
+      "name": "Towle Conservation Easement",
+      "class": "nature_reserve",
+      "operator": "Placer County",
+      "bbox": {
+        "south": 39.1807595,
+        "west": -120.8034539,
+        "north": 39.1921355,
+        "east": -120.7892796
+      }
+    }
+  ]
+}
