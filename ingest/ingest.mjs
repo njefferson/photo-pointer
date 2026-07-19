@@ -4,6 +4,7 @@
 //   node ingest/ingest.mjs probe      — 15-second Overpass reachability check
 //                                       (verdict DATA / BLOCKED) before any run
 //   node ingest/ingest.mjs osm        — fetch + normalize OSM → data/sources/osm.json
+//   node ingest/ingest.mjs ebird      — normalize the eBird snapshot → data/sources/ebird.json
 //   node ingest/ingest.mjs merge      — resolve all data/sources/*.json → data/spots.json
 //   node ingest/ingest.mjs validate   — schema-check committed data (CI gate, exit 1)
 //   node ingest/ingest.mjs all        — osm + merge + validate
@@ -21,6 +22,7 @@ import { resolveSpots } from '../src/model/dedup.js';
 import { makeSpot, validateSpot } from '../src/model/spot.js';
 import { validateRegion } from '../src/model/region.js';
 import * as osm from './adapters/osm-overpass.mjs';
+import * as ebird from './adapters/ebird-hotspots.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SOURCES_DIR = path.join(ROOT, 'data', 'sources');
@@ -78,16 +80,10 @@ async function cmdProbe() {
   process.exit(2);
 }
 
-async function cmdOsm() {
-  const region = await loadRegionFile();
-  const records = await osm.ingest(region, { today, log });
-  if (records.length === 0) {
-    console.error('osm: 0 records — refusing to write an empty file over good data');
-    process.exit(1);
-  }
-  // Carry forward first_seen from the previous file so provenance survives
-  // re-ingest (last_seen refreshes to today).
-  const prev = await readJsonIfExists(path.join(SOURCES_DIR, 'osm.json'));
+// Write one source's records to data/sources/<file>, carrying forward
+// first_seen from the previous file so provenance survives re-ingest.
+async function writeSource(file, meta, region, records) {
+  const prev = await readJsonIfExists(path.join(SOURCES_DIR, file));
   if (prev) {
     const seen = new Map();
     for (const r of prev.records ?? []) {
@@ -100,15 +96,33 @@ async function cmdOsm() {
       }
     }
   }
-  records.sort((a, b) =>
-    (a.sources[0].source_id).localeCompare(b.sources[0].source_id)
-  );
+  records.sort((a, b) => a.sources[0].source_id.localeCompare(b.sources[0].source_id));
   await mkdir(SOURCES_DIR, { recursive: true });
   await writeFile(
-    path.join(SOURCES_DIR, 'osm.json'),
-    JSON.stringify({ source: osm.meta, region: region.id, builtAt: today, records }, null, 2) + '\n'
+    path.join(SOURCES_DIR, file),
+    JSON.stringify({ source: meta, region: region.id, builtAt: today, records }, null, 2) + '\n'
   );
-  log(`wrote data/sources/osm.json (${records.length} records)`);
+  log(`wrote data/sources/${file} (${records.length} records)`);
+}
+
+async function cmdOsm() {
+  const region = await loadRegionFile();
+  const records = await osm.ingest(region, { today, log });
+  if (records.length === 0) {
+    console.error('osm: 0 records — refusing to write an empty file over good data');
+    process.exit(1);
+  }
+  await writeSource('osm.json', osm.meta, region, records);
+}
+
+async function cmdEbird() {
+  const region = await loadRegionFile();
+  const records = await ebird.ingest(region, { today, log });
+  if (records.length === 0) {
+    console.error('ebird: 0 records — refusing to write an empty file over good data');
+    process.exit(1);
+  }
+  await writeSource('ebird.json', ebird.meta, region, records);
 }
 
 async function cmdMerge() {
@@ -176,9 +190,10 @@ const cmd = process.argv[2];
 const commands = {
   probe: cmdProbe,
   osm: cmdOsm,
+  ebird: cmdEbird,
   merge: cmdMerge,
   validate: cmdValidate,
-  all: async () => { await cmdOsm(); await cmdMerge(); await cmdValidate(); },
+  all: async () => { await cmdOsm(); await cmdEbird(); await cmdMerge(); await cmdValidate(); },
 };
 if (!commands[cmd]) {
   console.error(`usage: node ingest/ingest.mjs <${Object.keys(commands).join('|')}>`);

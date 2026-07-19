@@ -28,19 +28,17 @@ offline-first, no account. No Instagram, no social scraping, ever.
 
 ## Open questions for Noah (blocking-ish, in order)
 
-1. **Deploy setup**: create the Cloudflare Pages project (`photo-pointer`)
-   and add `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` repo secrets —
-   same values as the sibling repos. Until then deploy.yml skips.
-2. **Offline map background**: raster tiles (current: OSM carto + Esri
-   imagery) are online-only. Options: (a) accept online-only basemap with
-   offline pins, (b) Frame-style committed SVG basemap (fully offline, more
-   build), (c) cache a small tile pyramid for the region. Which matters to
-   you?
-3. **Next live source**: eBird hotspots (trivial — Frame already commits the
-   three counties' hotspot data), HMdb markers (manual county export,
-   facts-only), or Flickr CC photo-density (needs a free API key)?
-4. License file: Bird repo is proprietary/no-LICENSE, Clear Horizons is
-   PolyForm Noncommercial. Which here? (Currently: no LICENSE file.)
+1. **Deploy setup**: RESOLVED — the Pages project auto-creates on first
+   publish; secrets are inherited from Noah's account. Staging is live.
+2. **Offline map background**: RESOLVED 2026-07-19 — online basemap is fine
+   (option a). Raster tiles online, pins/data offline. Not revisiting.
+3. **Next live source**: RESOLVED 2026-07-19 — eBird, done (see below).
+   Remaining candidates when Noah wants them: HMdb markers (facts-only),
+   Flickr CC photo-density, light-pollution layer, public-lands layer.
+   RESOLVED 2026-07-19: eBird next. Shipped — imported from Frame's committed
+   county hotspot data (no key/network). 2,362 spots now.
+4. License: RESOLVED 2026-07-19 — proprietary / all rights reserved, NO
+   LICENSE file (same as Bird-location-scouting). Do not add one.
 
 ## Roadmap (v0 → )
 

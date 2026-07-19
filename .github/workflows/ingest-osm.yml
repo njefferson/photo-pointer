@@ -36,6 +36,8 @@ jobs:
         run: node ingest/ingest.mjs probe
       - name: Fetch + normalize OSM
         run: node ingest/ingest.mjs osm
+      - name: Normalize eBird hotspots (from committed snapshot)
+        run: node ingest/ingest.mjs ebird
       - name: Merge + dedup all sources
         run: node ingest/ingest.mjs merge
       - name: Validate

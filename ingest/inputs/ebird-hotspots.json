@@ -1,0 +1,6085 @@
+{
+  "source": "ebird",
+  "note": "Hotspot identity + location only, imported from the Bird-location-scouting county data. Observation frequencies deliberately omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
+  "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+  "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+  "countyBuilt": {
+    "US-CA-067": "2026-07-15",
+    "US-CA-017": "2026-07-15",
+    "US-CA-061": "2026-07-15"
+  },
+  "hotspots": [
+    {
+      "locId": "L1002037",
+      "name": "Crosswoods Park",
+      "lat": 38.6865,
+      "lng": -121.3064,
+      "nSpecies": 64,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1003515",
+      "name": "Stock Ranch Nature Preserve",
+      "lat": 38.687,
+      "lng": -121.2975,
+      "nSpecies": 113,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1006587",
+      "name": "Folsom City Park and Rodeo Grounds",
+      "lat": 38.6837,
+      "lng": -121.1668,
+      "nSpecies": 129,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1007412",
+      "name": "Silver Fork Rd. at Mormon Emigrant Trail",
+      "lat": 38.6577,
+      "lng": -120.2468,
+      "nSpecies": 68,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1010591",
+      "name": "Ice House Rd. (ED Co.)",
+      "lat": 38.7904,
+      "lng": -120.4052,
+      "nSpecies": 147,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1011015",
+      "name": "St. Mary's Cemetery",
+      "lat": 38.5314,
+      "lng": -121.4261,
+      "nSpecies": 30,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L10179293",
+      "name": "Auburn SRA--Quarry Trail",
+      "lat": 38.9121,
+      "lng": -121.035,
+      "nSpecies": 80,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L10185202",
+      "name": "North Natomas Regional Park",
+      "lat": 38.664,
+      "lng": -121.5165,
+      "nSpecies": 158,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L10189948",
+      "name": "Pleasant Grove Creek Open Space",
+      "lat": 38.771,
+      "lng": -121.3088,
+      "nSpecies": 64,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10195615",
+      "name": "Auburn Creek Apartments-Auburn Ravine",
+      "lat": 38.8852,
+      "lng": -121.3057,
+      "nSpecies": 35,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10208807",
+      "name": "Courtland",
+      "lat": 38.3306,
+      "lng": -121.5703,
+      "nSpecies": 106,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1021000",
+      "name": "Desmond Rd.",
+      "lat": 38.2758,
+      "lng": -121.4318,
+      "nSpecies": 208,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1022059",
+      "name": "Sherman Island--East Levee Rd.",
+      "lat": 38.044,
+      "lng": -121.7173,
+      "nSpecies": 196,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1027852",
+      "name": "I-80--Gold Run Rest Area",
+      "lat": 39.1804,
+      "lng": -120.8505,
+      "nSpecies": 87,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10366410",
+      "name": "Manlove Park",
+      "lat": 38.5567,
+      "lng": -121.3624,
+      "nSpecies": 33,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1037499",
+      "name": "Stonehouse Rd. (SAC Co.)",
+      "lat": 38.5051,
+      "lng": -121.1016,
+      "nSpecies": 57,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L10386221",
+      "name": "W Brannan Island Rd",
+      "lat": 38.1241,
+      "lng": -121.6699,
+      "nSpecies": 130,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1040527",
+      "name": "Lake Natoma--Parkshore Dr. access",
+      "lat": 38.6596,
+      "lng": -121.1887,
+      "nSpecies": 107,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1041983",
+      "name": "Lake Natoma--Nimbus Flat access",
+      "lat": 38.636,
+      "lng": -121.2157,
+      "nSpecies": 153,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1042401",
+      "name": "American River Parkway--Mayhew Drain area",
+      "lat": 38.5713,
+      "lng": -121.3544,
+      "nSpecies": 200,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1042411",
+      "name": "Mather Regional Park--Eagles Nest Rd.",
+      "lat": 38.5443,
+      "lng": -121.2612,
+      "nSpecies": 133,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L10447910",
+      "name": "Tahoe State Recreation Area",
+      "lat": 39.1318,
+      "lng": -120.164,
+      "nSpecies": 40,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10457113",
+      "name": "Sugar Bowl Resort",
+      "lat": 39.3005,
+      "lng": -120.3334,
+      "nSpecies": 77,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1048524",
+      "name": "Regency Community Park",
+      "lat": 38.6742,
+      "lng": -121.5055,
+      "nSpecies": 76,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1048530",
+      "name": "Crest Drive Pond",
+      "lat": 38.6678,
+      "lng": -121.5044,
+      "nSpecies": 72,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1049550",
+      "name": "Quarry Pond (private property)",
+      "lat": 38.6049,
+      "lng": -121.486,
+      "nSpecies": 132,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1050178",
+      "name": "Hansen Ranch Preserve",
+      "lat": 38.6593,
+      "lng": -121.4687,
+      "nSpecies": 107,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L10566464",
+      "name": "Meiss Rd, west of Dillard Rd",
+      "lat": 38.4784,
+      "lng": -121.1778,
+      "nSpecies": 94,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1060623",
+      "name": "Laguna West lakes",
+      "lat": 38.4217,
+      "lng": -121.4712,
+      "nSpecies": 94,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1061592",
+      "name": "Scott Rd.--pullout 2 mi south of White Rock Rd.",
+      "lat": 38.595,
+      "lng": -121.1303,
+      "nSpecies": 63,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1061594",
+      "name": "Scott Rd. at Carson Creek",
+      "lat": 38.5629,
+      "lng": -121.1278,
+      "nSpecies": 96,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L10664586",
+      "name": "Rocklin Trails Walkway",
+      "lat": 38.8035,
+      "lng": -121.2131,
+      "nSpecies": 61,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10665763",
+      "name": "Mammoth Reservoir",
+      "lat": 38.8182,
+      "lng": -121.1371,
+      "nSpecies": 54,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10733292",
+      "name": "Bridal Veil Picnic Area",
+      "lat": 38.7654,
+      "lng": -120.4825,
+      "nSpecies": 53,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1074046",
+      "name": "East Portal Park",
+      "lat": 38.564,
+      "lng": -121.4416,
+      "nSpecies": 113,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1076416",
+      "name": "Lincoln Regional Airport-Karl Harder Field",
+      "lat": 38.9037,
+      "lng": -121.3432,
+      "nSpecies": 111,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10828411",
+      "name": "Kanaka Valley BLM Tract",
+      "lat": 38.7466,
+      "lng": -121.0219,
+      "nSpecies": 136,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1084120",
+      "name": "Freeport Blvd.--railroad right-of-way",
+      "lat": 38.4896,
+      "lng": -121.5074,
+      "nSpecies": 10,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1085849",
+      "name": "Humbug--Willow Creek Trail--Prewett Drive to Bowen Dr",
+      "lat": 38.6751,
+      "lng": -121.1184,
+      "nSpecies": 134,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L10877407",
+      "name": "South Lake Tahoe--Ski Run Marina",
+      "lat": 38.9506,
+      "lng": -119.9592,
+      "nSpecies": 97,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L10903361",
+      "name": "Rancho Murieta roadside pond",
+      "lat": 38.4849,
+      "lng": -121.068,
+      "nSpecies": 9,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1092589",
+      "name": "Sutter's Fort",
+      "lat": 38.5727,
+      "lng": -121.4711,
+      "nSpecies": 60,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L109315",
+      "name": "Rancho Murieta Grasslands",
+      "lat": 38.383,
+      "lng": -121.0575,
+      "nSpecies": 74,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L109434",
+      "name": "Folsom Lake SRA--American River inflow",
+      "lat": 38.7353,
+      "lng": -121.1033,
+      "nSpecies": 84,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L109469",
+      "name": "American River headwaters",
+      "lat": 39.2115,
+      "lng": -120.3212,
+      "nSpecies": 65,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L10986638",
+      "name": "Jan Park",
+      "lat": 38.6429,
+      "lng": -121.3237,
+      "nSpecies": 59,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11011445",
+      "name": "American River Parkway--Two Rivers Trail",
+      "lat": 38.6007,
+      "lng": -121.4847,
+      "nSpecies": 82,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11035670",
+      "name": "Riverton--Hwy 50 at Ice House Rd",
+      "lat": 38.7704,
+      "lng": -120.4484,
+      "nSpecies": 67,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L11051542",
+      "name": "Auburn SRA--Quarry Road Trail",
+      "lat": 38.9119,
+      "lng": -121.035,
+      "nSpecies": 70,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1107788",
+      "name": "Silva Valley Pkwy--running trail",
+      "lat": 38.6672,
+      "lng": -121.0626,
+      "nSpecies": 106,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1111087",
+      "name": "Kings Beach SP",
+      "lat": 39.2361,
+      "lng": -120.026,
+      "nSpecies": 103,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1112815",
+      "name": "Princeton Reach",
+      "lat": 38.7409,
+      "lng": -121.1874,
+      "nSpecies": 45,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1115107",
+      "name": "E Levee Rd.--Elverta to Elkhorn",
+      "lat": 38.6946,
+      "lng": -121.4857,
+      "nSpecies": 157,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11172900",
+      "name": "Marilyn Evans Pond",
+      "lat": 38.551,
+      "lng": -121.2695,
+      "nSpecies": 110,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11227854",
+      "name": "Pecan Park",
+      "lat": 38.6739,
+      "lng": -121.2223,
+      "nSpecies": 67,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11228647",
+      "name": "Mule Deer Connector",
+      "lat": 38.8927,
+      "lng": -120.0371,
+      "nSpecies": 64,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1123855",
+      "name": "Fisherman's Lake",
+      "lat": 38.6551,
+      "lng": -121.5584,
+      "nSpecies": 155,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11285312",
+      "name": "Oak grove park, sun City, Roseville",
+      "lat": 38.7758,
+      "lng": -121.3462,
+      "nSpecies": 83,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1132427",
+      "name": "American River Parkway--Sailor Bar - fish pond area",
+      "lat": 38.6407,
+      "lng": -121.237,
+      "nSpecies": 142,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11324912",
+      "name": "Sacramento River — River Walking Trail, Sacramento Co.",
+      "lat": 38.4901,
+      "lng": -121.552,
+      "nSpecies": 147,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11334558",
+      "name": "Indian Creek Country Club",
+      "lat": 38.8019,
+      "lng": -121.1877,
+      "nSpecies": 22,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L11367236",
+      "name": "Omo Ranch Road",
+      "lat": 38.5763,
+      "lng": -120.5648,
+      "nSpecies": 41,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L11403045",
+      "name": "Washoe Meadows State Park",
+      "lat": 38.8635,
+      "lng": -120.0272,
+      "nSpecies": 73,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1141480",
+      "name": "E Levee Rd.--Elverta Rd. to Riego Rd.",
+      "lat": 38.7282,
+      "lng": -121.4891,
+      "nSpecies": 122,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1144342",
+      "name": "Folsom Powerhouse SHP",
+      "lat": 38.6802,
+      "lng": -121.1761,
+      "nSpecies": 109,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11541909",
+      "name": "Union Valley Reservoir",
+      "lat": 38.8721,
+      "lng": -120.3933,
+      "nSpecies": 75,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L11601834",
+      "name": "Hawley Grade Trailhead",
+      "lat": 38.7965,
+      "lng": -120.0199,
+      "nSpecies": 95,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L11639388",
+      "name": "False Ravine Trail",
+      "lat": 38.7697,
+      "lng": -121.2271,
+      "nSpecies": 54,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L11643118",
+      "name": "Ralston Picnic area",
+      "lat": 39.0051,
+      "lng": -120.7324,
+      "nSpecies": 84,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L11661648",
+      "name": "Twin Lakes (El Dorado Co.)",
+      "lat": 38.8692,
+      "lng": -120.1933,
+      "nSpecies": 74,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1167418",
+      "name": "Sherman Island County Park",
+      "lat": 38.0574,
+      "lng": -121.7875,
+      "nSpecies": 141,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11722396",
+      "name": "Caples Creek Canyon",
+      "lat": 38.703,
+      "lng": -120.1577,
+      "nSpecies": 87,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1179920",
+      "name": "Mosquito Ridge Rd.--beginning",
+      "lat": 39.0137,
+      "lng": -120.8068,
+      "nSpecies": 127,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L11806988",
+      "name": "Cosumnes River -- Accidental Forest (restricted access)",
+      "lat": 38.2662,
+      "lng": -121.3987,
+      "nSpecies": 140,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1182378",
+      "name": "Partner Park Dog Park",
+      "lat": 38.5236,
+      "lng": -121.5105,
+      "nSpecies": 17,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11846471",
+      "name": "Mt. Tallac",
+      "lat": 38.906,
+      "lng": -120.099,
+      "nSpecies": 66,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L11892300",
+      "name": "Phantom Spires",
+      "lat": 38.7898,
+      "lng": -120.2417,
+      "nSpecies": 57,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L11928412",
+      "name": "Blackwood Creek Trail and Meadows (Scott’s Valley)",
+      "lat": 39.0774,
+      "lng": -120.2123,
+      "nSpecies": 78,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1193293",
+      "name": "American River Parkway--River Bend Park",
+      "lat": 38.5947,
+      "lng": -121.3292,
+      "nSpecies": 182,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L11955206",
+      "name": "Cold Stream Ponds",
+      "lat": 39.307,
+      "lng": -120.2459,
+      "nSpecies": 55,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L11973472",
+      "name": "Upper Truckee Marsh--Rubicon Trail",
+      "lat": 38.9307,
+      "lng": -119.9851,
+      "nSpecies": 156,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L12008436",
+      "name": "Rollins Lake--Placer County Side",
+      "lat": 39.1346,
+      "lng": -120.9425,
+      "nSpecies": 91,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1204188",
+      "name": "Mormon Island Wetlands SP",
+      "lat": 38.6966,
+      "lng": -121.1168,
+      "nSpecies": 100,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12162272",
+      "name": "Singleton Springs vicinity",
+      "lat": 38.6364,
+      "lng": -120.244,
+      "nSpecies": 70,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1216811",
+      "name": "UC Davis--Tahoe City Field Station",
+      "lat": 39.1845,
+      "lng": -120.1218,
+      "nSpecies": 45,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L12178677",
+      "name": "Dardanelles Lake",
+      "lat": 38.7602,
+      "lng": -120.0221,
+      "nSpecies": 87,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L12194582",
+      "name": "Sherman Lake Marina and access road",
+      "lat": 38.0538,
+      "lng": -121.784,
+      "nSpecies": 57,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12196370",
+      "name": "Angora Lakes",
+      "lat": 38.8652,
+      "lng": -120.0667,
+      "nSpecies": 59,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1220229",
+      "name": "Hicksville Cemetery",
+      "lat": 38.3258,
+      "lng": -121.3191,
+      "nSpecies": 54,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12226900",
+      "name": "Stateline Fire Lookout (CA)",
+      "lat": 39.2316,
+      "lng": -120.0089,
+      "nSpecies": 77,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L12251462",
+      "name": "Berkeley Echo Lake Camp",
+      "lat": 38.8302,
+      "lng": -120.0382,
+      "nSpecies": 97,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L12299862",
+      "name": "Prairie City Road",
+      "lat": 38.6312,
+      "lng": -121.1499,
+      "nSpecies": 71,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12299954",
+      "name": "Dillard Road",
+      "lat": 38.3498,
+      "lng": -121.3268,
+      "nSpecies": 96,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12299990",
+      "name": "Voula Lane",
+      "lat": 38.4288,
+      "lng": -121.1769,
+      "nSpecies": 74,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1230951",
+      "name": "Heavenly Gondola",
+      "lat": 38.9513,
+      "lng": -119.9333,
+      "nSpecies": 74,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L12317874",
+      "name": "Folsom Lake SRA--Snipes-Pershing Ravine and Rollingwood Bluffs",
+      "lat": 38.6664,
+      "lng": -121.194,
+      "nSpecies": 173,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12325259",
+      "name": "Al Johnson Wildlife Area (undeveloped; NOT open to public)",
+      "lat": 38.8072,
+      "lng": -121.4066,
+      "nSpecies": 105,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1232716",
+      "name": "34/35th St. Purple Martin colony",
+      "lat": 38.5605,
+      "lng": -121.466,
+      "nSpecies": 26,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12462788",
+      "name": "Loch Leven Lakes Trail",
+      "lat": 39.3094,
+      "lng": -120.516,
+      "nSpecies": 93,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L12471602",
+      "name": "El Dorado Trail Bike Path--Smith Flat access",
+      "lat": 38.7368,
+      "lng": -120.754,
+      "nSpecies": 55,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1259865",
+      "name": "Lake Tahoe Community Garden",
+      "lat": 38.9281,
+      "lng": -119.9727,
+      "nSpecies": 67,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1259871",
+      "name": "Tahoe Marsh--via San Francisco Ave.",
+      "lat": 38.9398,
+      "lng": -119.9931,
+      "nSpecies": 239,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L12659086",
+      "name": "Truckee River Bike Trail--River Ranch to River Rd. bridge",
+      "lat": 39.1893,
+      "lng": -120.1964,
+      "nSpecies": 50,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L12675179",
+      "name": "Nicolaus Road--Fire Station Pond",
+      "lat": 38.8981,
+      "lng": -121.3903,
+      "nSpecies": 96,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1278190",
+      "name": "Rock Creek Lake",
+      "lat": 38.9457,
+      "lng": -121.0911,
+      "nSpecies": 139,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L12798044",
+      "name": "Kimball Island",
+      "lat": 38.0256,
+      "lng": -121.8186,
+      "nSpecies": 19,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12798463",
+      "name": "China Wall OHV",
+      "lat": 39.1514,
+      "lng": -120.677,
+      "nSpecies": 43,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L12821158",
+      "name": "Pomin Park",
+      "lat": 39.1828,
+      "lng": -120.1208,
+      "nSpecies": 128,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1284417",
+      "name": "Cherry Island Park",
+      "lat": 38.7079,
+      "lng": -121.4062,
+      "nSpecies": 82,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1285540",
+      "name": "Sugar Pine Point SP",
+      "lat": 39.0524,
+      "lng": -120.119,
+      "nSpecies": 155,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L12876134",
+      "name": "Addie's Loop",
+      "lat": 38.8088,
+      "lng": -121.3629,
+      "nSpecies": 55,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1291285",
+      "name": "Capitol Park",
+      "lat": 38.5758,
+      "lng": -121.4906,
+      "nSpecies": 115,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L12933831",
+      "name": "Tyler Island",
+      "lat": 38.1503,
+      "lng": -121.5521,
+      "nSpecies": 162,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1294688",
+      "name": "Sacramento Reg Wastewater Treatment Plant (limited access)",
+      "lat": 38.4407,
+      "lng": -121.4793,
+      "nSpecies": 193,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1295310",
+      "name": "Bufferlands--Upper Beach Lake (limited access)",
+      "lat": 38.4496,
+      "lng": -121.4852,
+      "nSpecies": 211,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1300641",
+      "name": "Lake Oaks Mobile Home Park",
+      "lat": 38.6855,
+      "lng": -120.83,
+      "nSpecies": 53,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L13012215",
+      "name": "Aurburn SRA--Oregon Bar/China Bar",
+      "lat": 38.8695,
+      "lng": -121.0577,
+      "nSpecies": 94,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L13023738",
+      "name": "Dollar Point and beach",
+      "lat": 39.185,
+      "lng": -120.0992,
+      "nSpecies": 80,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1305262",
+      "name": "Cameron Park Lake",
+      "lat": 38.6854,
+      "lng": -120.9957,
+      "nSpecies": 140,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1305643",
+      "name": "American River Parkway--between CSUS and Howe",
+      "lat": 38.5586,
+      "lng": -121.4139,
+      "nSpecies": 81,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1307383",
+      "name": "Stone Lakes NWR--Blue Heron Trails",
+      "lat": 38.3705,
+      "lng": -121.4936,
+      "nSpecies": 169,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1309472",
+      "name": "N Brewer Rd (Nicolaus Ave. to W Wise Rd.)",
+      "lat": 38.9178,
+      "lng": -121.4521,
+      "nSpecies": 171,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1311875",
+      "name": "S Shingle Rd.--Shingle Springs to Latrobe",
+      "lat": 38.6124,
+      "lng": -120.9541,
+      "nSpecies": 37,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1311889",
+      "name": "Folsom Lake SRA--American River at Salmon Falls Bridge",
+      "lat": 38.7728,
+      "lng": -121.0374,
+      "nSpecies": 115,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L13153214",
+      "name": "Miners Ravine",
+      "lat": 38.7577,
+      "lng": -121.2464,
+      "nSpecies": 82,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L13169337",
+      "name": "Folsom Lake Boat Ramp",
+      "lat": 38.7195,
+      "lng": -121.1026,
+      "nSpecies": 96,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1320873",
+      "name": "Laurel Oaks Park",
+      "lat": 38.6678,
+      "lng": -121.0139,
+      "nSpecies": 29,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1321189",
+      "name": "Salt Wash Way--oak forest open space",
+      "lat": 38.67,
+      "lng": -121.0124,
+      "nSpecies": 36,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1321840",
+      "name": "Sienna Ridge Rd. rock outcropping",
+      "lat": 38.675,
+      "lng": -121.0272,
+      "nSpecies": 37,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1322907",
+      "name": "Latrobe Rd.--lower (SAC Co.)",
+      "lat": 38.5225,
+      "lng": -121.0971,
+      "nSpecies": 141,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1328367",
+      "name": "Stone Lakes NWR, Elk Grove Blvd Access (limited)",
+      "lat": 38.4176,
+      "lng": -121.4933,
+      "nSpecies": 150,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1328770",
+      "name": "American River Parkway--Sailor Bar - Olive Ave. access",
+      "lat": 38.6392,
+      "lng": -121.2498,
+      "nSpecies": 150,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L13349977",
+      "name": "Natoma Station Pond",
+      "lat": 38.6505,
+      "lng": -121.1805,
+      "nSpecies": 78,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L13367646",
+      "name": "Meiss Rd--north of river (Sloughhouse)",
+      "lat": 38.4917,
+      "lng": -121.192,
+      "nSpecies": 109,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1350365",
+      "name": "Payen Rd. (ED Co.)",
+      "lat": 38.6127,
+      "lng": -121.0693,
+      "nSpecies": 169,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1366538",
+      "name": "Weimar University and Trails",
+      "lat": 39.0368,
+      "lng": -120.9765,
+      "nSpecies": 123,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1368871",
+      "name": "Ferrari Pond Trail",
+      "lat": 38.8789,
+      "lng": -121.2889,
+      "nSpecies": 153,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1368898",
+      "name": "Seep Trail",
+      "lat": 38.8513,
+      "lng": -121.2715,
+      "nSpecies": 35,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1368965",
+      "name": "Canyon Oaks/Elderberry Trail",
+      "lat": 38.8691,
+      "lng": -121.258,
+      "nSpecies": 119,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L13719491",
+      "name": "Mallard Lake",
+      "lat": 38.8569,
+      "lng": -121.2585,
+      "nSpecies": 67,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1377153",
+      "name": "Humbug--Willow Creek Trail--Wetlands near Cummings Park",
+      "lat": 38.6741,
+      "lng": -121.1396,
+      "nSpecies": 111,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1390750",
+      "name": "Taylor Creek mouth",
+      "lat": 38.9402,
+      "lng": -120.0573,
+      "nSpecies": 149,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1392906",
+      "name": "Cosumnes River Preserve--Lost Slough Wetlands",
+      "lat": 38.2708,
+      "lng": -121.4413,
+      "nSpecies": 215,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L13979397",
+      "name": "Auburn SRA--Catecroft Lane trailhead",
+      "lat": 38.8664,
+      "lng": -121.0195,
+      "nSpecies": 127,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1402908",
+      "name": "Pine Hill Preserve--Cameron Park Unit",
+      "lat": 38.679,
+      "lng": -120.9764,
+      "nSpecies": 88,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1414849",
+      "name": "Sloughhouse gull roost--along Hwy 16",
+      "lat": 38.4921,
+      "lng": -121.1844,
+      "nSpecies": 50,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1417266",
+      "name": "Lower Echo Lake",
+      "lat": 38.8347,
+      "lng": -120.0448,
+      "nSpecies": 151,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1421813",
+      "name": "Bruceville Rd.--Twin Cities Rd. to Desmond Rd.",
+      "lat": 38.2843,
+      "lng": -121.4197,
+      "nSpecies": 159,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L142730",
+      "name": "Marshall Gold Discovery SHP",
+      "lat": 38.8014,
+      "lng": -120.8965,
+      "nSpecies": 125,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1430659",
+      "name": "Stone Lakes NWR--east of I-5",
+      "lat": 38.3712,
+      "lng": -121.4625,
+      "nSpecies": 97,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L14353791",
+      "name": "Sunset Whitney Recreation Area",
+      "lat": 38.8045,
+      "lng": -121.2448,
+      "nSpecies": 120,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1437575",
+      "name": "Gorman Ranch Rd.",
+      "lat": 39.0279,
+      "lng": -120.7511,
+      "nSpecies": 26,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1441036",
+      "name": "Mahany Park Open Space",
+      "lat": 38.7639,
+      "lng": -121.3398,
+      "nSpecies": 182,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1442243",
+      "name": "Auburn SRA--Stagecoach Trail",
+      "lat": 38.9178,
+      "lng": -121.0402,
+      "nSpecies": 72,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L14460618",
+      "name": "SVC Corrals - Latrobe Rd.",
+      "lat": 38.5261,
+      "lng": -121.0876,
+      "nSpecies": 82,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1448154",
+      "name": "Cosumnes River Preserve--barn ponds",
+      "lat": 38.2704,
+      "lng": -121.43,
+      "nSpecies": 159,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1449660",
+      "name": "Natomas Main Drainage Canal",
+      "lat": 38.6816,
+      "lng": -121.4852,
+      "nSpecies": 106,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L14499264",
+      "name": "Azevedo Park",
+      "lat": 38.8201,
+      "lng": -121.2867,
+      "nSpecies": 56,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1473540",
+      "name": "Folsom Lake SRA--Granite Bay Launch Ramp vicinity",
+      "lat": 38.7453,
+      "lng": -121.1423,
+      "nSpecies": 202,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L14890800",
+      "name": "Lincoln WTP-- West Ponds (restricted access, open M–F, 7:30-3:00)",
+      "lat": 38.8599,
+      "lng": -121.3508,
+      "nSpecies": 201,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L14936351",
+      "name": "Camp Far West Rd. (PLA Co.)",
+      "lat": 39.0176,
+      "lng": -121.3477,
+      "nSpecies": 118,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1495012",
+      "name": "I-5--Elkhorn Rest Area",
+      "lat": 38.6716,
+      "lng": -121.6124,
+      "nSpecies": 58,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L15320210",
+      "name": "11 Pines Rd at Rubicon Canyon",
+      "lat": 38.9213,
+      "lng": -120.5137,
+      "nSpecies": 48,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L15320564",
+      "name": "11 Pines Road at Rubicon River (El Dorado Co.)",
+      "lat": 38.9571,
+      "lng": -120.4851,
+      "nSpecies": 70,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1545991",
+      "name": "Garcia Bend Park",
+      "lat": 38.4785,
+      "lng": -121.5418,
+      "nSpecies": 133,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L15471825",
+      "name": "Silver Fork Campground",
+      "lat": 38.6989,
+      "lng": -120.2079,
+      "nSpecies": 50,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1547799",
+      "name": "Don Nottoli Park",
+      "lat": 38.3958,
+      "lng": -121.4709,
+      "nSpecies": 159,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1553370",
+      "name": "Auburn SRA--Foresthill Divide Loop Trail",
+      "lat": 38.9423,
+      "lng": -120.9824,
+      "nSpecies": 95,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L15539896",
+      "name": "Tragedy Spring",
+      "lat": 38.6397,
+      "lng": -120.1468,
+      "nSpecies": 30,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1565481",
+      "name": "Ice House Rd. aspen grove",
+      "lat": 38.808,
+      "lng": -120.3749,
+      "nSpecies": 111,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L15691453",
+      "name": "American River, South Fork--Sweetwater Trail",
+      "lat": 38.7711,
+      "lng": -121.0429,
+      "nSpecies": 71,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1583778",
+      "name": "Serene Lakes",
+      "lat": 39.2983,
+      "lng": -120.3828,
+      "nSpecies": 123,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L15908112",
+      "name": "Sheridan WTP (Viewable from Ranch House Rd.)",
+      "lat": 38.9788,
+      "lng": -121.3692,
+      "nSpecies": 30,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1603244",
+      "name": "Lyons Creek Trail",
+      "lat": 38.8155,
+      "lng": -120.2177,
+      "nSpecies": 101,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L16051161",
+      "name": "Bosphorus Drive Pond",
+      "lat": 38.5427,
+      "lng": -121.2413,
+      "nSpecies": 91,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1611653",
+      "name": "Lake Margaret Trail",
+      "lat": 38.7115,
+      "lng": -120.0685,
+      "nSpecies": 96,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L16163885",
+      "name": "Bear River--Wheatland (PLA. Co)",
+      "lat": 38.9965,
+      "lng": -121.4143,
+      "nSpecies": 25,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1625768",
+      "name": "Marconi Ave. Purple Martin site",
+      "lat": 38.6224,
+      "lng": -121.4227,
+      "nSpecies": 17,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L16265416",
+      "name": "Doyle Ranch Park",
+      "lat": 38.7384,
+      "lng": -121.3699,
+      "nSpecies": 92,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L16579243",
+      "name": "North Tahoe Regional Park--Tall Trees trail",
+      "lat": 39.2439,
+      "lng": -120.0434,
+      "nSpecies": 69,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1661471",
+      "name": "Wrights Lake--marsh area",
+      "lat": 38.8476,
+      "lng": -120.2332,
+      "nSpecies": 76,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1663944",
+      "name": "Lake Forest Community",
+      "lat": 39.1846,
+      "lng": -120.1112,
+      "nSpecies": 148,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L16822477",
+      "name": "The Preserve at District 56",
+      "lat": 38.4032,
+      "lng": -121.4013,
+      "nSpecies": 107,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L16879604",
+      "name": "Skunk Hollow Trail",
+      "lat": 38.7774,
+      "lng": -121.0256,
+      "nSpecies": 90,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L16887318",
+      "name": "Fair Oaks Park",
+      "lat": 38.6622,
+      "lng": -121.2649,
+      "nSpecies": 93,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17215055",
+      "name": "Witter Ranch Park",
+      "lat": 38.6378,
+      "lng": -121.5308,
+      "nSpecies": 51,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17215268",
+      "name": "Hummingbird Park",
+      "lat": 38.6346,
+      "lng": -121.5261,
+      "nSpecies": 22,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17233358",
+      "name": "Nelson Lane",
+      "lat": 38.876,
+      "lng": -121.3401,
+      "nSpecies": 62,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L17278963",
+      "name": "Boardman Canal",
+      "lat": 38.7747,
+      "lng": -121.2249,
+      "nSpecies": 41,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L17301769",
+      "name": "Broder Family Homestead Park",
+      "lat": 38.6813,
+      "lng": -121.1092,
+      "nSpecies": 32,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17343839",
+      "name": "St. Joseph’s Cemetery",
+      "lat": 38.5578,
+      "lng": -121.4863,
+      "nSpecies": 46,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17358978",
+      "name": "stakeout Eastern Phoebe, Tyler Island (2021-2022)",
+      "lat": 38.131,
+      "lng": -121.5792,
+      "nSpecies": 116,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17383135",
+      "name": "Canyon View Preserve",
+      "lat": 38.9317,
+      "lng": -121.0522,
+      "nSpecies": 89,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1739201",
+      "name": "New Auburn Cemetery",
+      "lat": 38.9035,
+      "lng": -121.0873,
+      "nSpecies": 87,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1739211",
+      "name": "Henningsen Lotus Park",
+      "lat": 38.8036,
+      "lng": -120.906,
+      "nSpecies": 84,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L17469217",
+      "name": "Cosumnes River Preserve--Path to Boat Dock",
+      "lat": 38.2643,
+      "lng": -121.4397,
+      "nSpecies": 110,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17502915",
+      "name": "Manzanita Rd.",
+      "lat": 38.9484,
+      "lng": -121.3021,
+      "nSpecies": 74,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L17636577",
+      "name": "Monte Verde Park",
+      "lat": 38.7864,
+      "lng": -121.2144,
+      "nSpecies": 124,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1764390",
+      "name": "Laguna Creek Parkway Trail",
+      "lat": 38.4181,
+      "lng": -121.3681,
+      "nSpecies": 139,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L17687060",
+      "name": "Secret Ravine",
+      "lat": 38.7767,
+      "lng": -121.2291,
+      "nSpecies": 78,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1785673",
+      "name": "Iowa Hill Rd.--American River bridge",
+      "lat": 39.0995,
+      "lng": -120.9249,
+      "nSpecies": 56,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L18073116",
+      "name": "Humbug--Willow Creek Trail--Adjacent to Blue Ravine Road",
+      "lat": 38.6665,
+      "lng": -121.1549,
+      "nSpecies": 77,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L18093523",
+      "name": "Sacramento State-University Arboretum",
+      "lat": 38.5647,
+      "lng": -121.4301,
+      "nSpecies": 60,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L18097833",
+      "name": "Delta Shores wetlands",
+      "lat": 38.4592,
+      "lng": -121.484,
+      "nSpecies": 121,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1815647",
+      "name": "Hwy 104 at SAC/AMA line (SAC Co.)",
+      "lat": 38.3864,
+      "lng": -121.0287,
+      "nSpecies": 38,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1821033",
+      "name": "Anatolia Vernal Pool Preserve",
+      "lat": 38.5366,
+      "lng": -121.238,
+      "nSpecies": 173,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1824886",
+      "name": "Wrights Lake--vicinity",
+      "lat": 38.8453,
+      "lng": -120.2359,
+      "nSpecies": 152,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L1825270",
+      "name": "Cosumnes River Preserve--Lost Slough Wetlands Walk - east",
+      "lat": 38.2678,
+      "lng": -121.4379,
+      "nSpecies": 184,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1828614",
+      "name": "Montview Park",
+      "lat": 38.646,
+      "lng": -121.2834,
+      "nSpecies": 38,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1830778",
+      "name": "McBean Memorial Park",
+      "lat": 38.889,
+      "lng": -121.2872,
+      "nSpecies": 100,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1830790",
+      "name": "Manzanita Cemetery",
+      "lat": 38.9434,
+      "lng": -121.3034,
+      "nSpecies": 123,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1830794",
+      "name": "Nader Rd.",
+      "lat": 38.9535,
+      "lng": -121.3494,
+      "nSpecies": 158,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1830897",
+      "name": "Chamberlain Rd.",
+      "lat": 38.936,
+      "lng": -121.3305,
+      "nSpecies": 125,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1830921",
+      "name": "E Catlett Rd.",
+      "lat": 38.8462,
+      "lng": -121.3969,
+      "nSpecies": 159,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L1831761",
+      "name": "Rattlesnake Bar SP",
+      "lat": 38.826,
+      "lng": -121.0954,
+      "nSpecies": 155,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L18457291",
+      "name": "Arno Road--west",
+      "lat": 38.3256,
+      "lng": -121.322,
+      "nSpecies": 57,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L18480611",
+      "name": "Nisenan Community Park Trail",
+      "lat": 38.6646,
+      "lng": -121.1052,
+      "nSpecies": 62,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1857525",
+      "name": "Lake Greenhaven, Sacramento",
+      "lat": 38.5083,
+      "lng": -121.5353,
+      "nSpecies": 90,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1858179",
+      "name": "Folsom Lake SRA--Peninsula",
+      "lat": 38.7358,
+      "lng": -121.1259,
+      "nSpecies": 149,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L18778552",
+      "name": "Finnon Lake",
+      "lat": 38.798,
+      "lng": -120.751,
+      "nSpecies": 69,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L189834",
+      "name": "Sacramento Co. Bufferlands (limited access)",
+      "lat": 38.4447,
+      "lng": -121.4807,
+      "nSpecies": 247,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1903004",
+      "name": "Red Corrals pond",
+      "lat": 38.3877,
+      "lng": -121.0443,
+      "nSpecies": 42,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1906041",
+      "name": "Galt WTP (limited access)",
+      "lat": 38.2983,
+      "lng": -121.326,
+      "nSpecies": 81,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1906711",
+      "name": "Camden Park",
+      "lat": 38.4251,
+      "lng": -121.3791,
+      "nSpecies": 155,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L1911869",
+      "name": "Stone Lake Rd.",
+      "lat": 38.3703,
+      "lng": -121.482,
+      "nSpecies": 98,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L19254057",
+      "name": "Sterling Pointe Park trails",
+      "lat": 38.7967,
+      "lng": -121.1167,
+      "nSpecies": 96,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L19370593",
+      "name": "Pebble Beach (PLA Co.)",
+      "lat": 39.1205,
+      "lng": -120.1611,
+      "nSpecies": 39,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L19372659",
+      "name": "Rockbound Trail",
+      "lat": 38.8489,
+      "lng": -120.238,
+      "nSpecies": 73,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L19638123",
+      "name": "Granite Chief Wilderness",
+      "lat": 39.1837,
+      "lng": -120.3267,
+      "nSpecies": 54,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L19911591",
+      "name": "Basin 7B",
+      "lat": 38.6269,
+      "lng": -121.5303,
+      "nSpecies": 36,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L200506",
+      "name": "American River Parkway--Effie Yeaw Nature Center",
+      "lat": 38.6173,
+      "lng": -121.3118,
+      "nSpecies": 192,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2022676",
+      "name": "Riley Rd.",
+      "lat": 38.3491,
+      "lng": -121.2976,
+      "nSpecies": 118,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L20363990",
+      "name": "Codfish Creek Falls Discovery Trail",
+      "lat": 39,
+      "lng": -120.9399,
+      "nSpecies": 47,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2041730",
+      "name": "American River Parkway--Pennsylvania Ave. access",
+      "lat": 38.6332,
+      "lng": -121.2724,
+      "nSpecies": 154,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L20553268",
+      "name": "Folsom Lake--trail from Granite Bay to Beals Pt",
+      "lat": 38.738,
+      "lng": -121.1538,
+      "nSpecies": 57,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2055729",
+      "name": "Salmon Falls Rd.",
+      "lat": 38.7831,
+      "lng": -121.0309,
+      "nSpecies": 70,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2055740",
+      "name": "Dover Dr.",
+      "lat": 38.9293,
+      "lng": -120.0031,
+      "nSpecies": 54,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2055876",
+      "name": "Folsom Lake Dam",
+      "lat": 38.7024,
+      "lng": -121.1107,
+      "nSpecies": 133,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2055925",
+      "name": "Loon Lake",
+      "lat": 38.9941,
+      "lng": -120.3161,
+      "nSpecies": 102,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2056058",
+      "name": "Dave Moore Nature Area BLM",
+      "lat": 38.8151,
+      "lng": -120.921,
+      "nSpecies": 79,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L20606998",
+      "name": "American River Parkway--Expo Parkway Access",
+      "lat": 38.5956,
+      "lng": -121.4488,
+      "nSpecies": 90,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L20651295",
+      "name": "Dollar Creek Trail",
+      "lat": 39.1935,
+      "lng": -120.1047,
+      "nSpecies": 65,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2075910",
+      "name": "Franklin Rd.",
+      "lat": 38.3002,
+      "lng": -121.442,
+      "nSpecies": 106,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2075993",
+      "name": "Oak Meadow Park",
+      "lat": 38.5672,
+      "lng": -121.3961,
+      "nSpecies": 65,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2076786",
+      "name": "Rosemont Community Park",
+      "lat": 38.5511,
+      "lng": -121.3526,
+      "nSpecies": 67,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L20886760",
+      "name": "Dry Creek Trail--west of Walerga Rd.",
+      "lat": 38.7372,
+      "lng": -121.3763,
+      "nSpecies": 95,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2113849",
+      "name": "Long Canyon Forebay",
+      "lat": 38.7703,
+      "lng": -120.5853,
+      "nSpecies": 106,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2137709",
+      "name": "American River Parkway--Estates Dr.",
+      "lat": 38.5701,
+      "lng": -121.3669,
+      "nSpecies": 153,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L21442975",
+      "name": "Folsom Automall Pond",
+      "lat": 38.6362,
+      "lng": -121.2036,
+      "nSpecies": 24,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2156236",
+      "name": "Miners Gulch Nature Reserve",
+      "lat": 38.755,
+      "lng": -121.1677,
+      "nSpecies": 84,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2163567",
+      "name": "Pi Pi Valley Campground",
+      "lat": 38.5672,
+      "lng": -120.4379,
+      "nSpecies": 69,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2169564",
+      "name": "Lake Forest Beach Park",
+      "lat": 39.1806,
+      "lng": -120.1153,
+      "nSpecies": 181,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L21811503",
+      "name": "Pellandini Rd",
+      "lat": 38.2819,
+      "lng": -121.3513,
+      "nSpecies": 68,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2186877",
+      "name": "Waegell Ranch",
+      "lat": 38.4763,
+      "lng": -121.2607,
+      "nSpecies": 75,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2207175",
+      "name": "Foresthill Rd.--above Mosquito Ridge",
+      "lat": 39.1243,
+      "lng": -120.7107,
+      "nSpecies": 43,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2216165",
+      "name": "Granite Springs Rd.",
+      "lat": 38.8003,
+      "lng": -120.3753,
+      "nSpecies": 126,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2238372",
+      "name": "Lakeside Beach",
+      "lat": 38.9601,
+      "lng": -119.9508,
+      "nSpecies": 113,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L22430740",
+      "name": "Anatolia North Pond, & (no direct access) Montelena Preserve",
+      "lat": 38.5516,
+      "lng": -121.2327,
+      "nSpecies": 91,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225810",
+      "name": "American River Parkway--Gristmill Recreation Area",
+      "lat": 38.5784,
+      "lng": -121.342,
+      "nSpecies": 215,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225811",
+      "name": "American River Parkway--Ancil Hoffman Park",
+      "lat": 38.6117,
+      "lng": -121.3074,
+      "nSpecies": 197,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225812",
+      "name": "American River Parkway--William B Pond Rec Area",
+      "lat": 38.5864,
+      "lng": -121.3325,
+      "nSpecies": 223,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225814",
+      "name": "American River Parkway--please use a more specific location",
+      "lat": 38.6205,
+      "lng": -121.3015,
+      "nSpecies": 135,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225843",
+      "name": "American River Parkway--Sacramento Bar",
+      "lat": 38.6276,
+      "lng": -121.2825,
+      "nSpecies": 199,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225847",
+      "name": "American River Parkway--Sailor Bar",
+      "lat": 38.6338,
+      "lng": -121.2358,
+      "nSpecies": 219,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225848",
+      "name": "American River Parkway--Rossmoor Bar",
+      "lat": 38.6231,
+      "lng": -121.2948,
+      "nSpecies": 165,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225850",
+      "name": "American River Parkway--Lower Sunrise",
+      "lat": 38.6269,
+      "lng": -121.2749,
+      "nSpecies": 181,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L225853",
+      "name": "American River Parkway--Upper Sunrise",
+      "lat": 38.6345,
+      "lng": -121.2477,
+      "nSpecies": 197,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L22681335",
+      "name": "Creekside Park",
+      "lat": 38.6139,
+      "lng": -121.3938,
+      "nSpecies": 8,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2273880",
+      "name": "French Meadows Reservoir",
+      "lat": 39.106,
+      "lng": -120.4428,
+      "nSpecies": 103,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L22847885",
+      "name": "stakeout Evening Grosbeak, Roaring Camp Drive vicinity",
+      "lat": 38.6274,
+      "lng": -121.2477,
+      "nSpecies": 71,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2296155",
+      "name": "American River Parkway--Spanos Ct. access",
+      "lat": 38.5799,
+      "lng": -121.4185,
+      "nSpecies": 152,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L22992304",
+      "name": "Ninos Parkway--Grassland Garden US-CA",
+      "lat": 38.6249,
+      "lng": -121.4842,
+      "nSpecies": 42,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2316705",
+      "name": "Shirley Canyon Trail",
+      "lat": 39.2034,
+      "lng": -120.2506,
+      "nSpecies": 100,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2317965",
+      "name": "Garden Hwy--Powerline Rd. to SUT Co.",
+      "lat": 38.6512,
+      "lng": -121.5986,
+      "nSpecies": 78,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2317973",
+      "name": "Garden Hwy--SAC Co. to Howsley Rd.",
+      "lat": 38.7048,
+      "lng": -121.6145,
+      "nSpecies": 151,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2327662",
+      "name": "Lower Bear Creek (PLA Co.)",
+      "lat": 39.1849,
+      "lng": -120.2097,
+      "nSpecies": 33,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2335446",
+      "name": "Lake Valley Rd.",
+      "lat": 39.3057,
+      "lng": -120.61,
+      "nSpecies": 124,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2351368",
+      "name": "Auburn Valley Ranch",
+      "lat": 38.9957,
+      "lng": -121.1198,
+      "nSpecies": 81,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2355142",
+      "name": "Ashford Park",
+      "lat": 38.9187,
+      "lng": -121.0635,
+      "nSpecies": 71,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2368527",
+      "name": "Kost Rd.",
+      "lat": 38.2398,
+      "lng": -121.3431,
+      "nSpecies": 24,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2375772",
+      "name": "Eagle Falls",
+      "lat": 38.9507,
+      "lng": -120.1152,
+      "nSpecies": 98,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2388506",
+      "name": "DL Bliss SP",
+      "lat": 38.9819,
+      "lng": -120.0998,
+      "nSpecies": 124,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L24041462",
+      "name": "Colonial Heights Park",
+      "lat": 38.5348,
+      "lng": -121.4438,
+      "nSpecies": 30,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2417512",
+      "name": "Twitchell Island",
+      "lat": 38.1146,
+      "lng": -121.6807,
+      "nSpecies": 164,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2424779",
+      "name": "Sacramento Zoo--Inside Entrance Gates",
+      "lat": 38.5396,
+      "lng": -121.5038,
+      "nSpecies": 71,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L24321492",
+      "name": "Sunridge stormwater detention pond",
+      "lat": 38.5533,
+      "lng": -121.2092,
+      "nSpecies": 53,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2436140",
+      "name": "Mt. Judah Trail",
+      "lat": 39.3056,
+      "lng": -120.3143,
+      "nSpecies": 86,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2457512",
+      "name": "Bill Griffith Island",
+      "lat": 38.574,
+      "lng": -121.3551,
+      "nSpecies": 86,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L24587082",
+      "name": "Kassis Property--Upper (Meadow), Rancho Cordova",
+      "lat": 38.5841,
+      "lng": -121.3233,
+      "nSpecies": 70,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L24646644",
+      "name": "Stone Creek Bike Trail and Pond, between Oselot and Zinfandel",
+      "lat": 38.5746,
+      "lng": -121.2652,
+      "nSpecies": 49,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2484508",
+      "name": "Morgan Creek Golf Club",
+      "lat": 38.7398,
+      "lng": -121.3464,
+      "nSpecies": 93,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L24986870",
+      "name": "Bassi Falls Trail",
+      "lat": 38.884,
+      "lng": -120.3556,
+      "nSpecies": 52,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2566841",
+      "name": "Veteran's Memorial Park (PLA Co.)",
+      "lat": 38.7964,
+      "lng": -121.3477,
+      "nSpecies": 148,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2585428",
+      "name": "Elverta Rd.",
+      "lat": 38.7152,
+      "lng": -121.5237,
+      "nSpecies": 117,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2611092",
+      "name": "Laguna Lake",
+      "lat": 38.4108,
+      "lng": -121.4718,
+      "nSpecies": 89,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2635603",
+      "name": "Carbondale Rd. (SAC Co.)",
+      "lat": 38.4193,
+      "lng": -121.0343,
+      "nSpecies": 61,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2657622",
+      "name": "Kings Beach Library",
+      "lat": 39.2386,
+      "lng": -120.0302,
+      "nSpecies": 37,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2660474",
+      "name": "Taylor Creek observation platform",
+      "lat": 38.9383,
+      "lng": -120.0553,
+      "nSpecies": 112,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L26723221",
+      "name": "William Taylor Park",
+      "lat": 38.753,
+      "lng": -121.2746,
+      "nSpecies": 56,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L268066",
+      "name": "Capitol Mall",
+      "lat": 38.5813,
+      "lng": -121.5066,
+      "nSpecies": 82,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27028284",
+      "name": "Peregrine Park",
+      "lat": 38.6248,
+      "lng": -121.5265,
+      "nSpecies": 48,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27062723",
+      "name": "Eagle Rock Trail",
+      "lat": 39.1091,
+      "lng": -120.1621,
+      "nSpecies": 50,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2712331",
+      "name": "White Rock Rd. at Scott Rd.",
+      "lat": 38.6187,
+      "lng": -121.1396,
+      "nSpecies": 105,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27379189",
+      "name": "School Park Preserve",
+      "lat": 38.8967,
+      "lng": -121.074,
+      "nSpecies": 33,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L27387720",
+      "name": "Morgan Oaks Eternal Preserve",
+      "lat": 38.9626,
+      "lng": -121.2865,
+      "nSpecies": 67,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L27423076",
+      "name": "Taylor Creek Bridge",
+      "lat": 38.9336,
+      "lng": -120.0559,
+      "nSpecies": 97,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L27442521",
+      "name": "Bill Conlin Sports Complex",
+      "lat": 38.472,
+      "lng": -121.5023,
+      "nSpecies": 24,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27503185",
+      "name": "Lincoln WTP--East Ponds (restricted access, open M–F, 7:30-3:00)",
+      "lat": 38.8587,
+      "lng": -121.3388,
+      "nSpecies": 146,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L27557299",
+      "name": "Carmichael Park",
+      "lat": 38.6277,
+      "lng": -121.3304,
+      "nSpecies": 14,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27632871",
+      "name": "Prairie City SVRA",
+      "lat": 38.5998,
+      "lng": -121.1492,
+      "nSpecies": 67,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2771163",
+      "name": "Blodgett Reservoir (limited public access from Kiefer Blvd)",
+      "lat": 38.5213,
+      "lng": -121.208,
+      "nSpecies": 131,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27793957",
+      "name": "Federspiel Park",
+      "lat": 38.6001,
+      "lng": -121.2934,
+      "nSpecies": 47,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2780607",
+      "name": "San Juan and Azevedo Rookery (Little Blue Heron 2014)",
+      "lat": 38.6269,
+      "lng": -121.509,
+      "nSpecies": 9,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27824146",
+      "name": "Dave Roberts Community Park",
+      "lat": 38.6122,
+      "lng": -121.2819,
+      "nSpecies": 52,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L27926706",
+      "name": "Ahlstrom Park",
+      "lat": 38.6032,
+      "lng": -121.2889,
+      "nSpecies": 59,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L279520",
+      "name": "Miners Ravine Bike Trail",
+      "lat": 38.7522,
+      "lng": -121.2407,
+      "nSpecies": 130,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2817241",
+      "name": "Laguna Creek Parkway Trail--Vineyard Rd. to Excelsior Rd.",
+      "lat": 38.4646,
+      "lng": -121.3048,
+      "nSpecies": 97,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L281853",
+      "name": "Natomas Oaks Park",
+      "lat": 38.6052,
+      "lng": -121.5176,
+      "nSpecies": 86,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L28222516",
+      "name": "Humbug--Willow Creek Trail--Oak Avenue Parkway to Railroad Tracks",
+      "lat": 38.6692,
+      "lng": -121.1388,
+      "nSpecies": 44,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2832440",
+      "name": "True Vine Vineyards",
+      "lat": 38.6541,
+      "lng": -120.6186,
+      "nSpecies": 38,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L2832707",
+      "name": "Foresthill Old Cemetery",
+      "lat": 39.0183,
+      "lng": -120.8118,
+      "nSpecies": 34,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L2847898",
+      "name": "Tahoe Woods Blvd. open space",
+      "lat": 39.1467,
+      "lng": -120.1556,
+      "nSpecies": 70,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L28904939",
+      "name": "Clarksville Road Pond",
+      "lat": 38.6524,
+      "lng": -121.1283,
+      "nSpecies": 44,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L29082168",
+      "name": "Placerville RV Resort & Campground",
+      "lat": 38.6735,
+      "lng": -120.9234,
+      "nSpecies": 27,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L29195710",
+      "name": "stakeout Cape May Warbler, Ringe Circle (2024)",
+      "lat": 38.4178,
+      "lng": -121.3575,
+      "nSpecies": 24,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2930027",
+      "name": "Mehrten Spring Rd.",
+      "lat": 38.557,
+      "lng": -120.3006,
+      "nSpecies": 38,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L29353742",
+      "name": "American River Parkway--Glenbrook Park Access",
+      "lat": 38.5632,
+      "lng": -121.3923,
+      "nSpecies": 77,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L2950363",
+      "name": "Sierra Discovery Trail (PLA Co.)",
+      "lat": 39.3091,
+      "lng": -120.6658,
+      "nSpecies": 96,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3013032",
+      "name": "Hampshire Rocks Campground",
+      "lat": 39.3106,
+      "lng": -120.4998,
+      "nSpecies": 56,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L301577",
+      "name": "Sacramento Levee--35th Ave. to Clipper Way",
+      "lat": 38.5208,
+      "lng": -121.5218,
+      "nSpecies": 87,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3051890",
+      "name": "Granite Flat Campground",
+      "lat": 39.3005,
+      "lng": -120.2048,
+      "nSpecies": 48,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L305533",
+      "name": "Larchmont Community Park",
+      "lat": 38.5675,
+      "lng": -121.3589,
+      "nSpecies": 164,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L30906067",
+      "name": "Monte Vista Trailhead",
+      "lat": 38.7479,
+      "lng": -121.0597,
+      "nSpecies": 97,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3091784",
+      "name": "Dry Creek Community Park",
+      "lat": 38.7353,
+      "lng": -121.3609,
+      "nSpecies": 124,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3109251",
+      "name": "Moore Rd.",
+      "lat": 38.8682,
+      "lng": -121.3593,
+      "nSpecies": 164,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3149957",
+      "name": "Sacramento Executive Airport",
+      "lat": 38.514,
+      "lng": -121.4939,
+      "nSpecies": 40,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3232373",
+      "name": "Willow Hill Reservoir Community Park",
+      "lat": 38.6453,
+      "lng": -121.1543,
+      "nSpecies": 140,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3260567",
+      "name": "Antelope Creek Trail",
+      "lat": 38.7694,
+      "lng": -121.2582,
+      "nSpecies": 123,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3270114",
+      "name": "Royal Gorge Cross Country Ski Resort",
+      "lat": 39.3124,
+      "lng": -120.3889,
+      "nSpecies": 83,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3271421",
+      "name": "Humbug--Willow Creek Trail--Adjacent Parkway Drive",
+      "lat": 38.6783,
+      "lng": -121.1249,
+      "nSpecies": 136,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3274514",
+      "name": "Strong Ranch Slough (Fed/Kaiser lots)",
+      "lat": 38.6004,
+      "lng": -121.3969,
+      "nSpecies": 96,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3286091",
+      "name": "Lembi Park",
+      "lat": 38.6682,
+      "lng": -121.1628,
+      "nSpecies": 91,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3286193",
+      "name": "B T Collins Park",
+      "lat": 38.6839,
+      "lng": -121.1385,
+      "nSpecies": 73,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3286743",
+      "name": "Los Lagos Pond Trail",
+      "lat": 38.7729,
+      "lng": -121.1344,
+      "nSpecies": 98,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L33050666",
+      "name": "Martin's Meadow--west of Carson Pass Hwy (ELD Co.)",
+      "lat": 38.6971,
+      "lng": -120.1247,
+      "nSpecies": 45,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3305338",
+      "name": "Deer Creek Bridge--Latrobe Rd. / Cothrin Ranch Rd.",
+      "lat": 38.6006,
+      "lng": -121.0226,
+      "nSpecies": 179,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3315685",
+      "name": "American River Bike Trail",
+      "lat": 38.6544,
+      "lng": -121.1908,
+      "nSpecies": 91,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3318950",
+      "name": "Camp Far West Reservoir (PLA Co.)",
+      "lat": 39.0458,
+      "lng": -121.3119,
+      "nSpecies": 130,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3319022",
+      "name": "Bannister Park Access Trail",
+      "lat": 38.633,
+      "lng": -121.2852,
+      "nSpecies": 133,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3328558",
+      "name": "Soil Born Farms",
+      "lat": 38.5982,
+      "lng": -121.3168,
+      "nSpecies": 144,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L33816811",
+      "name": "Highway 99 over Highway 50 Purple Martin Colony",
+      "lat": 38.559,
+      "lng": -121.4737,
+      "nSpecies": 14,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L34405146",
+      "name": "Big Meadows Campground",
+      "lat": 39.0749,
+      "lng": -120.4261,
+      "nSpecies": 6,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L34532814",
+      "name": "Granite Lake Trail",
+      "lat": 38.9393,
+      "lng": -120.1107,
+      "nSpecies": 31,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3455288",
+      "name": "Arcade Creek Park Preserve",
+      "lat": 38.6833,
+      "lng": -121.2732,
+      "nSpecies": 52,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3466550",
+      "name": "Knickerbocker Creek",
+      "lat": 38.881,
+      "lng": -121.0264,
+      "nSpecies": 136,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L34803413",
+      "name": "Eldorado NF--Pacific Ranger Station",
+      "lat": 38.7608,
+      "lng": -120.521,
+      "nSpecies": 2,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3487536",
+      "name": "Wakamatsu Colony Farm",
+      "lat": 38.7679,
+      "lng": -120.8857,
+      "nSpecies": 99,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3493094",
+      "name": "Curtis Park",
+      "lat": 38.5436,
+      "lng": -121.4794,
+      "nSpecies": 61,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L351309",
+      "name": "Deer Creek Hills",
+      "lat": 38.5283,
+      "lng": -121.0744,
+      "nSpecies": 164,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L351319",
+      "name": "Michigan Bar",
+      "lat": 38.5023,
+      "lng": -121.0472,
+      "nSpecies": 186,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L35791321",
+      "name": "Upper Echo Lake",
+      "lat": 38.8426,
+      "lng": -120.0795,
+      "nSpecies": 78,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3600011",
+      "name": "Bufferlands--Fishhead Lake and vicinity (limited access)",
+      "lat": 38.4458,
+      "lng": -121.4526,
+      "nSpecies": 167,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L360088",
+      "name": "Pine Hill Reserve",
+      "lat": 38.7204,
+      "lng": -120.9906,
+      "nSpecies": 126,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3601106",
+      "name": "Elk Grove/Laguna Creek",
+      "lat": 38.4206,
+      "lng": -121.3996,
+      "nSpecies": 99,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3604381",
+      "name": "Granlibakken Resort",
+      "lat": 39.1565,
+      "lng": -120.1551,
+      "nSpecies": 86,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3604393",
+      "name": "Ward Creek Meadows",
+      "lat": 39.1386,
+      "lng": -120.1868,
+      "nSpecies": 47,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L36076540",
+      "name": "Mitchell Village Park",
+      "lat": 38.6827,
+      "lng": -121.2689,
+      "nSpecies": 34,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3611754",
+      "name": "Luther Pass (ED Co.)",
+      "lat": 38.7896,
+      "lng": -119.9505,
+      "nSpecies": 91,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3626144",
+      "name": "Camp Pollock",
+      "lat": 38.6006,
+      "lng": -121.4783,
+      "nSpecies": 125,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L36306896",
+      "name": "Silvertip Picnic Area",
+      "lat": 39.3023,
+      "lng": -120.5984,
+      "nSpecies": 45,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3650311",
+      "name": "American River--Strawberry Ln. bridge",
+      "lat": 38.7976,
+      "lng": -120.1435,
+      "nSpecies": 53,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L36657259",
+      "name": "Winchester Mitigation Property (Restricted Access)",
+      "lat": 38.9739,
+      "lng": -121.0415,
+      "nSpecies": 24,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3684432",
+      "name": "South Fork American River--Chili Bar Put In",
+      "lat": 38.7653,
+      "lng": -120.823,
+      "nSpecies": 63,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3690146",
+      "name": "Desolation Wilderness--Susie & Heather Lakes area",
+      "lat": 38.8793,
+      "lng": -120.1244,
+      "nSpecies": 84,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3690163",
+      "name": "Desolation Wilderness--Grouse Lake area",
+      "lat": 38.858,
+      "lng": -120.2009,
+      "nSpecies": 81,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L370941",
+      "name": "Folsom Lake SRA--Beals Pt.",
+      "lat": 38.7214,
+      "lng": -121.167,
+      "nSpecies": 224,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L370942",
+      "name": "Folsom Lake SRA--Folsom Pt.",
+      "lat": 38.699,
+      "lng": -121.1274,
+      "nSpecies": 213,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L373931",
+      "name": "American River Parkway--Watt Ave. access",
+      "lat": 38.5662,
+      "lng": -121.381,
+      "nSpecies": 146,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L374720",
+      "name": "American River Parkway--Sarah Ct. access",
+      "lat": 38.6028,
+      "lng": -121.3274,
+      "nSpecies": 78,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L374722",
+      "name": "Natomas (SAC Co.)",
+      "lat": 38.6529,
+      "lng": -121.5075,
+      "nSpecies": 133,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L374927",
+      "name": "American River Parkway--Nimbus Fish Hatchery downstream to Upper Sunrise Nimbus Road Parking Area",
+      "lat": 38.6342,
+      "lng": -121.2254,
+      "nSpecies": 206,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L376107",
+      "name": "Schweitzer School",
+      "lat": 38.645,
+      "lng": -121.2989,
+      "nSpecies": 40,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3766312",
+      "name": "St. Florian Ct. fireroad",
+      "lat": 38.8848,
+      "lng": -121.0231,
+      "nSpecies": 102,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3781485",
+      "name": "Bear River Park and Campground",
+      "lat": 39.0841,
+      "lng": -120.9881,
+      "nSpecies": 109,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3793756",
+      "name": "McKinney Creek Trail",
+      "lat": 39.0611,
+      "lng": -120.1519,
+      "nSpecies": 58,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L38027230",
+      "name": "Humbug -- Willow Creek Trail -- Oak Ave to Prewett Dr",
+      "lat": 38.6718,
+      "lng": -121.125,
+      "nSpecies": 77,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L382521",
+      "name": "S Brewer Rd (Baseline to E Catlett)",
+      "lat": 38.7942,
+      "lng": -121.4515,
+      "nSpecies": 177,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L383934",
+      "name": "American River Parkway--Bushy Lake",
+      "lat": 38.5883,
+      "lng": -121.4331,
+      "nSpecies": 179,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3845110",
+      "name": "Auburn Ravine--Moore Rd. trails",
+      "lat": 38.8826,
+      "lng": -121.3072,
+      "nSpecies": 104,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L386465",
+      "name": "Lake Natoma--Black Miners Bar",
+      "lat": 38.68,
+      "lng": -121.1855,
+      "nSpecies": 145,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3872371",
+      "name": "North Tahoe regional Park",
+      "lat": 39.2416,
+      "lng": -120.0501,
+      "nSpecies": 105,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3877712",
+      "name": "Fallen Leaf Lake--Stanford Sierra Camp",
+      "lat": 38.885,
+      "lng": -120.0734,
+      "nSpecies": 124,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L3880518",
+      "name": "Grass Lake (ED Co.)",
+      "lat": 38.7955,
+      "lng": -119.9682,
+      "nSpecies": 87,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L393524",
+      "name": "San Juan Reservoir Park",
+      "lat": 38.6303,
+      "lng": -121.5334,
+      "nSpecies": 151,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L3946959",
+      "name": "Five Lakes",
+      "lat": 39.1768,
+      "lng": -120.2515,
+      "nSpecies": 102,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3950514",
+      "name": "Truckee River Bike Trail--Alpine Meadows to Tahoe City",
+      "lat": 39.1679,
+      "lng": -120.1837,
+      "nSpecies": 88,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L3954153",
+      "name": "The Nordic Center",
+      "lat": 39.2069,
+      "lng": -120.1227,
+      "nSpecies": 59,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L39767261",
+      "name": "Golden Poppy Park",
+      "lat": 38.6827,
+      "lng": -121.5343,
+      "nSpecies": 14,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4003280",
+      "name": "Lake Natoma Overlook, north of Nimbus Dam",
+      "lat": 38.638,
+      "lng": -121.2208,
+      "nSpecies": 123,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4003339",
+      "name": "Mississippi Bar",
+      "lat": 38.6495,
+      "lng": -121.203,
+      "nSpecies": 195,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4003452",
+      "name": "American Canyon Trail",
+      "lat": 38.9216,
+      "lng": -120.9321,
+      "nSpecies": 88,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L40326640",
+      "name": "Traylor Ranch Bird Sanctuary and Nature Preserve",
+      "lat": 38.8487,
+      "lng": -121.2058,
+      "nSpecies": 148,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4037728",
+      "name": "Stevens Trail",
+      "lat": 39.1048,
+      "lng": -120.9474,
+      "nSpecies": 82,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4090478",
+      "name": "Rossmoor Park",
+      "lat": 38.6157,
+      "lng": -121.2918,
+      "nSpecies": 77,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4090898",
+      "name": "Saugstad Park",
+      "lat": 38.7428,
+      "lng": -121.2833,
+      "nSpecies": 72,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4092537",
+      "name": "Charles Jensen Botanical Garden",
+      "lat": 38.636,
+      "lng": -121.305,
+      "nSpecies": 85,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L40985801",
+      "name": "Pioneer Park (ELD Co.)",
+      "lat": 38.608,
+      "lng": -120.7029,
+      "nSpecies": 28,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L4101126",
+      "name": "Mangan Park",
+      "lat": 38.5215,
+      "lng": -121.4908,
+      "nSpecies": 52,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4105782",
+      "name": "Stone Lakes NWR--Lewis Trail Station (limited access)",
+      "lat": 38.4163,
+      "lng": -121.4991,
+      "nSpecies": 152,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4105824",
+      "name": "Stone Lakes NWR--Keyhole Station (limited access)",
+      "lat": 38.4274,
+      "lng": -121.4993,
+      "nSpecies": 152,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4105842",
+      "name": "Stone Lakes NWR--Peninsula (Central Loop) Station (limited access)",
+      "lat": 38.3439,
+      "lng": -121.5047,
+      "nSpecies": 154,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4141121",
+      "name": "Meiss Rd--west",
+      "lat": 38.4646,
+      "lng": -121.135,
+      "nSpecies": 148,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4141288",
+      "name": "Meiss Rd--east",
+      "lat": 38.4383,
+      "lng": -121.075,
+      "nSpecies": 131,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4145013",
+      "name": "Empire Ranch Golf Course",
+      "lat": 38.6853,
+      "lng": -121.1115,
+      "nSpecies": 74,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L41487215",
+      "name": "River Birch Park",
+      "lat": 38.6519,
+      "lng": -121.5088,
+      "nSpecies": 26,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L41670606",
+      "name": "Dry Creek Riparian - East of Folsom Rd",
+      "lat": 38.7522,
+      "lng": -121.2777,
+      "nSpecies": 74,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L41840511",
+      "name": "stakeout Barred Owl, Sacramento (2025)",
+      "lat": 38.5658,
+      "lng": -121.4529,
+      "nSpecies": 20,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L421037",
+      "name": "Phillip Rd.",
+      "lat": 38.8025,
+      "lng": -121.405,
+      "nSpecies": 141,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L421043",
+      "name": "Sweetwater Creek",
+      "lat": 38.751,
+      "lng": -121.0492,
+      "nSpecies": 184,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L422795",
+      "name": "Meiss Rd.",
+      "lat": 38.4467,
+      "lng": -121.0849,
+      "nSpecies": 183,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4264074",
+      "name": "Blue Oaks Park",
+      "lat": 38.7919,
+      "lng": -121.3386,
+      "nSpecies": 126,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4267147",
+      "name": "Cronan Ranch Regional Trails Park",
+      "lat": 38.8264,
+      "lng": -120.9889,
+      "nSpecies": 123,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L4275382",
+      "name": "Koobs Nature Area (restricted access, monthly hosted open days)",
+      "lat": 38.6341,
+      "lng": -121.3384,
+      "nSpecies": 94,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4294059",
+      "name": "Ulta parking lot pond",
+      "lat": 38.6435,
+      "lng": -121.124,
+      "nSpecies": 92,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4332398",
+      "name": "White Rock Rd. at Valley View Pkwy--ponds",
+      "lat": 38.6496,
+      "lng": -121.0597,
+      "nSpecies": 103,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L434059",
+      "name": "Martis Valley",
+      "lat": 39.3013,
+      "lng": -120.1134,
+      "nSpecies": 107,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L434106",
+      "name": "Martis Creek Wildlife Area Trail",
+      "lat": 39.2971,
+      "lng": -120.1367,
+      "nSpecies": 150,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L434119",
+      "name": "Martis Creek Lake (PLA Co.)",
+      "lat": 39.3153,
+      "lng": -120.1177,
+      "nSpecies": 171,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L434134",
+      "name": "Martis Peak Rd.",
+      "lat": 39.2748,
+      "lng": -120.0533,
+      "nSpecies": 80,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L43473714",
+      "name": "Serna Dr detention basin",
+      "lat": 38.7007,
+      "lng": -121.5751,
+      "nSpecies": 8,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L43511539",
+      "name": "Blackwood Canyon SNO-PARK/Kaspian Recreation Area",
+      "lat": 39.1138,
+      "lng": -120.1585,
+      "nSpecies": 42,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4406789",
+      "name": "American River Parkway- Oak Meadow Park Access ",
+      "lat": 38.565,
+      "lng": -121.394,
+      "nSpecies": 116,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4440103",
+      "name": "Sierra College--nature trail",
+      "lat": 38.7923,
+      "lng": -121.2155,
+      "nSpecies": 105,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L444159",
+      "name": "Cascade Lake",
+      "lat": 39.298,
+      "lng": -120.4283,
+      "nSpecies": 57,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L444161",
+      "name": "Camp Winthers",
+      "lat": 39.3027,
+      "lng": -120.4252,
+      "nSpecies": 18,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4455323",
+      "name": "Tahoe Mountain",
+      "lat": 38.9099,
+      "lng": -120.0357,
+      "nSpecies": 107,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L447185",
+      "name": "American River Parkway--near Rio Americano High School",
+      "lat": 38.5767,
+      "lng": -121.3499,
+      "nSpecies": 155,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L447279",
+      "name": "CSU Sacramento",
+      "lat": 38.5582,
+      "lng": -121.4227,
+      "nSpecies": 103,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4501573",
+      "name": "Humbug--Willow Creek Trail--East Bidwell Street to Railroad Tracks",
+      "lat": 38.6693,
+      "lng": -121.1456,
+      "nSpecies": 75,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4512800",
+      "name": "Camp Lotus",
+      "lat": 38.7992,
+      "lng": -120.9118,
+      "nSpecies": 86,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L4526234",
+      "name": "Lake Tahoe Nature Center",
+      "lat": 38.9397,
+      "lng": -120.0534,
+      "nSpecies": 107,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L4531676",
+      "name": "Mormon Center",
+      "lat": 38.6343,
+      "lng": -121.1946,
+      "nSpecies": 52,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4577501",
+      "name": "Cresta Park",
+      "lat": 38.5928,
+      "lng": -121.3687,
+      "nSpecies": 41,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4590544",
+      "name": "Marshall Gold Discovery SHP--Monroe Ridge Trail",
+      "lat": 38.7976,
+      "lng": -120.8975,
+      "nSpecies": 78,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L459813",
+      "name": "Mather Lake",
+      "lat": 38.5546,
+      "lng": -121.2561,
+      "nSpecies": 201,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L461209",
+      "name": "Taylor Creek",
+      "lat": 38.9351,
+      "lng": -120.0527,
+      "nSpecies": 196,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L4624841",
+      "name": "McCormack-Williamson Tract",
+      "lat": 38.2576,
+      "lng": -121.4832,
+      "nSpecies": 156,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4626945",
+      "name": "Green Heron Rookery (7910 La Riviera Drive)",
+      "lat": 38.5575,
+      "lng": -121.4101,
+      "nSpecies": 30,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L466540",
+      "name": "Lake Natoma--upper",
+      "lat": 38.6841,
+      "lng": -121.1722,
+      "nSpecies": 132,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L467097",
+      "name": "Mather Air Force Base",
+      "lat": 38.5519,
+      "lng": -121.3038,
+      "nSpecies": 83,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4676269",
+      "name": "stakeout, Worm-eating Warbler, (2016)",
+      "lat": 38.5958,
+      "lng": -121.0357,
+      "nSpecies": 86,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L4692629",
+      "name": "Fallen Leaf Lake--Glen Alpine Trail",
+      "lat": 38.878,
+      "lng": -120.0908,
+      "nSpecies": 118,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L469761",
+      "name": "Lake Natoma",
+      "lat": 38.6454,
+      "lng": -121.1956,
+      "nSpecies": 197,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L469788",
+      "name": "Sacramento International Airport",
+      "lat": 38.684,
+      "lng": -121.589,
+      "nSpecies": 122,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L471437",
+      "name": "Canyon View Community Center",
+      "lat": 38.8788,
+      "lng": -121.0681,
+      "nSpecies": 64,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L47392937",
+      "name": "11 Pines Road (Placer County)",
+      "lat": 38.9576,
+      "lng": -120.4874,
+      "nSpecies": 49,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L474988",
+      "name": "Reichmuth Park",
+      "lat": 38.5135,
+      "lng": -121.5169,
+      "nSpecies": 185,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4751647",
+      "name": "Loomis Basin Community Park",
+      "lat": 38.8248,
+      "lng": -121.1742,
+      "nSpecies": 73,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L478268",
+      "name": "Folsom Lake SRA--Beeks Bight",
+      "lat": 38.7702,
+      "lng": -121.1322,
+      "nSpecies": 183,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4789986",
+      "name": "Murieta pond (Hwy 16 west of Rancho Murieta)",
+      "lat": 38.4954,
+      "lng": -121.1171,
+      "nSpecies": 62,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L479841",
+      "name": "Payen Rd. (SAC Co.)",
+      "lat": 38.6174,
+      "lng": -121.0797,
+      "nSpecies": 142,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L479842",
+      "name": "Bass Lake (ED Co.)",
+      "lat": 38.6779,
+      "lng": -121.0215,
+      "nSpecies": 167,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L480242",
+      "name": "Lew Howard Park and Hinkle Creek",
+      "lat": 38.6943,
+      "lng": -121.1839,
+      "nSpecies": 96,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L480692",
+      "name": "Cosumnes River College",
+      "lat": 38.4559,
+      "lng": -121.423,
+      "nSpecies": 70,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L48108887",
+      "name": "Gilbert A. & Helen K. Duran Park",
+      "lat": 38.7859,
+      "lng": -121.292,
+      "nSpecies": 45,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L481589",
+      "name": "Arcade Creek--Jo Smith Trail",
+      "lat": 38.652,
+      "lng": -121.3424,
+      "nSpecies": 135,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L48274980",
+      "name": "Martis Dam Rd (PLA Co.)",
+      "lat": 39.3078,
+      "lng": -120.1281,
+      "nSpecies": 52,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L4829286",
+      "name": "Camp Richardson",
+      "lat": 38.9344,
+      "lng": -120.0397,
+      "nSpecies": 125,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L483944",
+      "name": "Elk Grove Regional Park",
+      "lat": 38.3958,
+      "lng": -121.3755,
+      "nSpecies": 135,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4853380",
+      "name": "Burton Creek State Park",
+      "lat": 39.1876,
+      "lng": -120.1275,
+      "nSpecies": 90,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L486301",
+      "name": "William Land Park",
+      "lat": 38.5395,
+      "lng": -121.4991,
+      "nSpecies": 176,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L486303",
+      "name": "Sacramento City/Odd Fellows Cemeteries",
+      "lat": 38.5624,
+      "lng": -121.5012,
+      "nSpecies": 149,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L486310",
+      "name": "Sly Park Rec Area",
+      "lat": 38.721,
+      "lng": -120.5627,
+      "nSpecies": 160,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L486315",
+      "name": "Tallac Historic Site",
+      "lat": 38.9389,
+      "lng": -120.0502,
+      "nSpecies": 106,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L486316",
+      "name": "Tahoe Keys",
+      "lat": 38.9362,
+      "lng": -120.0134,
+      "nSpecies": 222,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L486328",
+      "name": "Alpine Meadows Rd.",
+      "lat": 39.1813,
+      "lng": -120.2205,
+      "nSpecies": 88,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L486333",
+      "name": "Fallen Leaf Lake",
+      "lat": 38.9082,
+      "lng": -120.0592,
+      "nSpecies": 177,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L486459",
+      "name": "Lewis Park",
+      "lat": 38.5078,
+      "lng": -121.5486,
+      "nSpecies": 45,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L486980",
+      "name": "Galt city limits",
+      "lat": 38.262,
+      "lng": -121.3099,
+      "nSpecies": 52,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4896383",
+      "name": "Summit Valley (Placer Co)",
+      "lat": 39.3146,
+      "lng": -120.3667,
+      "nSpecies": 110,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L489718",
+      "name": "Cosumnes River Preserve--Valensin Ranch east of 99",
+      "lat": 38.3333,
+      "lng": -121.3266,
+      "nSpecies": 172,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L492000",
+      "name": "Shingle Springs vicinity",
+      "lat": 38.6558,
+      "lng": -120.9378,
+      "nSpecies": 78,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L493382",
+      "name": "American River Parkway--near CSUS",
+      "lat": 38.5626,
+      "lng": -121.42,
+      "nSpecies": 149,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L4950250",
+      "name": "Sacramento Dharma Center",
+      "lat": 38.5515,
+      "lng": -121.3811,
+      "nSpecies": 31,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L50246479",
+      "name": "Wheatland WTP (PLA Co.)",
+      "lat": 38.9985,
+      "lng": -121.4131,
+      "nSpecies": 34,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L507368",
+      "name": "American River Parkway--Discovery Park",
+      "lat": 38.6017,
+      "lng": -121.5083,
+      "nSpecies": 166,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L507629",
+      "name": "American River--El Manto Dr.",
+      "lat": 38.6201,
+      "lng": -121.2856,
+      "nSpecies": 138,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L509109",
+      "name": "New York Creek",
+      "lat": 38.6887,
+      "lng": -121.0786,
+      "nSpecies": 90,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L5107378",
+      "name": "Truckee River--mouth",
+      "lat": 39.1668,
+      "lng": -120.1442,
+      "nSpecies": 103,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L512903",
+      "name": "Glenbrook Park",
+      "lat": 38.5596,
+      "lng": -121.3888,
+      "nSpecies": 80,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L515081",
+      "name": "El Camino Purple Martin Colony",
+      "lat": 38.6107,
+      "lng": -121.4363,
+      "nSpecies": 22,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L515084",
+      "name": "Arden Way Purple Martin Colony",
+      "lat": 38.6063,
+      "lng": -121.4413,
+      "nSpecies": 24,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L515558",
+      "name": "Roseville Road Purple Martin Colony",
+      "lat": 38.6374,
+      "lng": -121.4066,
+      "nSpecies": 53,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L515562",
+      "name": "I Street Purple Martin Colony",
+      "lat": 38.5855,
+      "lng": -121.5042,
+      "nSpecies": 68,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L515564",
+      "name": "20th Street Purple Martin Colony",
+      "lat": 38.5622,
+      "lng": -121.4867,
+      "nSpecies": 14,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5160351",
+      "name": "East Lawn Cemetery--west side for BBA",
+      "lat": 38.5612,
+      "lng": -121.4528,
+      "nSpecies": 39,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L51661273",
+      "name": "Linda Creek -- Meadow Ln",
+      "lat": 38.7275,
+      "lng": -121.2452,
+      "nSpecies": 66,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L5168936",
+      "name": "Michigan Bar Rd--Grassland portion",
+      "lat": 38.5259,
+      "lng": -121.0441,
+      "nSpecies": 102,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L51730514",
+      "name": "Speedboat Beach (PLA Co.)",
+      "lat": 39.2231,
+      "lng": -120.0086,
+      "nSpecies": 8,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L518641",
+      "name": "Gibson Ranch County Park",
+      "lat": 38.7244,
+      "lng": -121.4025,
+      "nSpecies": 189,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5186659",
+      "name": "UC Davis Medical Center",
+      "lat": 38.5547,
+      "lng": -121.4543,
+      "nSpecies": 81,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5187080",
+      "name": "West Wise Road  (PLA)",
+      "lat": 38.9263,
+      "lng": -121.401,
+      "nSpecies": 88,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L5192295",
+      "name": "Waltz Rd.",
+      "lat": 38.941,
+      "lng": -121.4018,
+      "nSpecies": 123,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L525723",
+      "name": "Gillis Hill",
+      "lat": 39.0587,
+      "lng": -120.9217,
+      "nSpecies": 26,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L527048",
+      "name": "McKinley Park",
+      "lat": 38.5757,
+      "lng": -121.4631,
+      "nSpecies": 113,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L53781253",
+      "name": "Sacramento River--Benham Way access",
+      "lat": 38.5074,
+      "lng": -121.5553,
+      "nSpecies": 96,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5404083",
+      "name": "Sherman Island X Rd",
+      "lat": 38.0425,
+      "lng": -121.7363,
+      "nSpecies": 162,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L54048467",
+      "name": "Meadow Vista Park",
+      "lat": 38.9928,
+      "lng": -121.0257,
+      "nSpecies": 41,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L5408151",
+      "name": "Jackson Hwy Park and Ride at Sunrise Blvd",
+      "lat": 38.5066,
+      "lng": -121.2456,
+      "nSpecies": 75,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5414758",
+      "name": "W Sherman Island Rd",
+      "lat": 38.0774,
+      "lng": -121.7511,
+      "nSpecies": 180,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5418662",
+      "name": "Shadowcreek Park",
+      "lat": 38.6745,
+      "lng": -121.3192,
+      "nSpecies": 53,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5435176",
+      "name": "Auburn SRA--Ranger Station",
+      "lat": 38.9045,
+      "lng": -121.0559,
+      "nSpecies": 71,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L54556511",
+      "name": "Ponds at Elkhorn Blvd and Northborough Dr",
+      "lat": 38.6847,
+      "lng": -121.5158,
+      "nSpecies": 55,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5521750",
+      "name": "Galt Community Park & Nature Area",
+      "lat": 38.2782,
+      "lng": -121.2919,
+      "nSpecies": 117,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5572685",
+      "name": "University Pond (PLA Co.)",
+      "lat": 38.8223,
+      "lng": -121.2968,
+      "nSpecies": 135,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L5572691",
+      "name": "Ponds at Montessa (Placer Co.)",
+      "lat": 38.833,
+      "lng": -121.291,
+      "nSpecies": 84,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L5581252",
+      "name": "Folsom Costco Paking lot",
+      "lat": 38.6446,
+      "lng": -121.1094,
+      "nSpecies": 39,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L56116144",
+      "name": "Lake Arthur",
+      "lat": 38.9643,
+      "lng": -121.0248,
+      "nSpecies": 10,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L5629300",
+      "name": "Sun City--Central Preserve",
+      "lat": 38.782,
+      "lng": -121.352,
+      "nSpecies": 115,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L56388515",
+      "name": "Fair Oaks Bluff",
+      "lat": 38.6371,
+      "lng": -121.2649,
+      "nSpecies": 98,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5645477",
+      "name": "Atwood Park",
+      "lat": 38.934,
+      "lng": -121.1068,
+      "nSpecies": 74,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L56489710",
+      "name": "Meadowlands Park (PLA Co.)",
+      "lat": 38.9025,
+      "lng": -121.2874,
+      "nSpecies": 24,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L565075",
+      "name": "Desolation Wilderness",
+      "lat": 38.9428,
+      "lng": -120.1208,
+      "nSpecies": 122,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L570454",
+      "name": "Page Meadows",
+      "lat": 39.1512,
+      "lng": -120.1877,
+      "nSpecies": 123,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L570459",
+      "name": "Tahoe City",
+      "lat": 39.1633,
+      "lng": -120.1451,
+      "nSpecies": 120,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L570464",
+      "name": "Olympic Valley (PLA Co.)",
+      "lat": 39.196,
+      "lng": -120.2444,
+      "nSpecies": 126,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L572576",
+      "name": "Sherman Island",
+      "lat": 38.0617,
+      "lng": -121.7306,
+      "nSpecies": 208,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L579644",
+      "name": "Brannan Island SRA",
+      "lat": 38.1157,
+      "lng": -121.6899,
+      "nSpecies": 185,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L58173961",
+      "name": "Folsom Lake College",
+      "lat": 38.6614,
+      "lng": -121.1274,
+      "nSpecies": 52,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L58182035",
+      "name": "Cottage Park",
+      "lat": 38.6043,
+      "lng": -121.3917,
+      "nSpecies": 39,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L58251225",
+      "name": "Courtland Bottlebrush-Washington Ave",
+      "lat": 38.3274,
+      "lng": -121.5718,
+      "nSpecies": 84,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5825484",
+      "name": "Olympus Pointe Sculpture Park",
+      "lat": 38.755,
+      "lng": -121.261,
+      "nSpecies": 82,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L58648711",
+      "name": "Michigan Bar Rd South Of The River",
+      "lat": 38.4919,
+      "lng": -121.0483,
+      "nSpecies": 52,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5895112",
+      "name": "Folsom Lake SRA--Peninsula Campground",
+      "lat": 38.7608,
+      "lng": -121.1128,
+      "nSpecies": 120,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L5908276",
+      "name": "Pond and Creek Along Iron Point Rd",
+      "lat": 38.6463,
+      "lng": -121.1348,
+      "nSpecies": 64,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L592549",
+      "name": "Happy Harbor",
+      "lat": 38.1046,
+      "lng": -121.5938,
+      "nSpecies": 55,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5927265",
+      "name": "Lava Cap Winery",
+      "lat": 38.7518,
+      "lng": -120.7408,
+      "nSpecies": 57,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L5927312",
+      "name": "Bumgarner Winery",
+      "lat": 38.7405,
+      "lng": -120.699,
+      "nSpecies": 11,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L594212",
+      "name": "Cosumnes River Preserve--Tall Forest (limited access)",
+      "lat": 38.2611,
+      "lng": -121.4085,
+      "nSpecies": 228,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L594216",
+      "name": "Scott Rd.--south",
+      "lat": 38.55,
+      "lng": -121.1138,
+      "nSpecies": 117,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L594624",
+      "name": "Orr Ranch (limited access)",
+      "lat": 38.2671,
+      "lng": -121.387,
+      "nSpecies": 209,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L598853",
+      "name": "American River Parkway--Howe Ave. access",
+      "lat": 38.5597,
+      "lng": -121.4038,
+      "nSpecies": 143,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L5999782",
+      "name": "Cascade Falls",
+      "lat": 38.9349,
+      "lng": -120.1009,
+      "nSpecies": 72,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L600629",
+      "name": "Turkey Creek Golf Course",
+      "lat": 38.8976,
+      "lng": -121.2585,
+      "nSpecies": 98,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L601076",
+      "name": "Mosquito Ridge Rd.--upper",
+      "lat": 39.1222,
+      "lng": -120.4965,
+      "nSpecies": 117,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L601077",
+      "name": "Gladding Rd. pond",
+      "lat": 38.9645,
+      "lng": -121.2947,
+      "nSpecies": 107,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L6013561",
+      "name": "Eldorado NF--10N14/upper Cody Meadows Rd.",
+      "lat": 38.7236,
+      "lng": -120.1458,
+      "nSpecies": 58,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6019765",
+      "name": "Emerald Bay SP",
+      "lat": 38.9562,
+      "lng": -120.1085,
+      "nSpecies": 131,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6023108",
+      "name": "Big Meadow",
+      "lat": 38.791,
+      "lng": -120.0079,
+      "nSpecies": 90,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L602499",
+      "name": "Redding Ave. Purple Martin Colony",
+      "lat": 38.5511,
+      "lng": -121.423,
+      "nSpecies": 47,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6027761",
+      "name": "Teal Bend Golf Course (restricted access)",
+      "lat": 38.6997,
+      "lng": -121.6209,
+      "nSpecies": 135,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L603896",
+      "name": "Korth's Marina",
+      "lat": 38.0977,
+      "lng": -121.5693,
+      "nSpecies": 115,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6050763",
+      "name": "Wolf Creek Campground",
+      "lat": 38.885,
+      "lng": -120.3993,
+      "nSpecies": 15,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6050941",
+      "name": "Airport Flat Campground",
+      "lat": 38.9854,
+      "lng": -120.3803,
+      "nSpecies": 24,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6050982",
+      "name": "Gerle Creek Divide Reservoir",
+      "lat": 38.9684,
+      "lng": -120.3926,
+      "nSpecies": 69,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6051044",
+      "name": "Lake Tahoe KOA",
+      "lat": 38.8454,
+      "lng": -120.0294,
+      "nSpecies": 50,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L605511",
+      "name": "S Shingle Rd.--west of Latrobe",
+      "lat": 38.5506,
+      "lng": -121.0193,
+      "nSpecies": 97,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L605515",
+      "name": "Scott Rd.--north",
+      "lat": 38.5902,
+      "lng": -121.1304,
+      "nSpecies": 129,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6060145",
+      "name": "Hwy 160 pullout south of Hwy 12",
+      "lat": 38.1341,
+      "lng": -121.6862,
+      "nSpecies": 58,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6060157",
+      "name": "Cliff House Fishing Access",
+      "lat": 38.1701,
+      "lng": -121.669,
+      "nSpecies": 85,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6071266",
+      "name": "Ice House General Store",
+      "lat": 38.8145,
+      "lng": -120.374,
+      "nSpecies": 65,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6074248",
+      "name": "China Flat Campground",
+      "lat": 38.7525,
+      "lng": -120.2666,
+      "nSpecies": 62,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L609636",
+      "name": "Mosquito Ridge Rd.--lower",
+      "lat": 39.052,
+      "lng": -120.6399,
+      "nSpecies": 115,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L609637",
+      "name": "S Brewer Rd (E Catlett to Nicolaus Rd)",
+      "lat": 38.8688,
+      "lng": -121.4516,
+      "nSpecies": 169,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L6104906",
+      "name": "Grant Park",
+      "lat": 38.5843,
+      "lng": -121.4744,
+      "nSpecies": 49,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L611793",
+      "name": "Ione Rd. pond",
+      "lat": 38.459,
+      "lng": -121.0455,
+      "nSpecies": 67,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6123759",
+      "name": "Lower Eagle Point Campground",
+      "lat": 38.961,
+      "lng": -120.0805,
+      "nSpecies": 69,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6152770",
+      "name": "Valley High Park",
+      "lat": 38.4617,
+      "lng": -121.4267,
+      "nSpecies": 22,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L618977",
+      "name": "Maidu Park",
+      "lat": 38.7349,
+      "lng": -121.2443,
+      "nSpecies": 134,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L6194974",
+      "name": "Ellis Peak Trail",
+      "lat": 39.0711,
+      "lng": -120.2301,
+      "nSpecies": 68,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L6220712",
+      "name": "Lake Aloha vicinity",
+      "lat": 38.8685,
+      "lng": -120.1367,
+      "nSpecies": 84,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6264652",
+      "name": "Ferrari Ranch Ponds",
+      "lat": 38.8625,
+      "lng": -121.3244,
+      "nSpecies": 162,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L627118",
+      "name": "Southside Park",
+      "lat": 38.5688,
+      "lng": -121.5029,
+      "nSpecies": 116,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L627629",
+      "name": "Cosumnes River Preserve--Staging Area 2 and Boardwalk",
+      "lat": 38.2697,
+      "lng": -121.4412,
+      "nSpecies": 198,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L627634",
+      "name": "Cosumnes River Preserve--Cosumnes River Walk",
+      "lat": 38.2599,
+      "lng": -121.4365,
+      "nSpecies": 226,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6300849",
+      "name": "Unschool campus",
+      "lat": 38.6456,
+      "lng": -121.2633,
+      "nSpecies": 42,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6301112",
+      "name": "Overlook Park",
+      "lat": 38.8891,
+      "lng": -121.0688,
+      "nSpecies": 93,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L63367309",
+      "name": "Dry Creek Bikeway - U St. to Q St.",
+      "lat": 38.7028,
+      "lng": -121.4155,
+      "nSpecies": 51,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6380007",
+      "name": "Willow Springs Reservoir Park",
+      "lat": 38.6533,
+      "lng": -121.1444,
+      "nSpecies": 160,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L63912846",
+      "name": "Mather Regional Park--Eagles Nest Rd. (Cal Atlas-Carmichael CE)",
+      "lat": 38.545,
+      "lng": -121.2613,
+      "nSpecies": 40,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L63926200",
+      "name": "Mather Regional Park--Eagles Nest Rd. (Cal Atlas-Carmichael SE)",
+      "lat": 38.5375,
+      "lng": -121.2612,
+      "nSpecies": 19,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6445940",
+      "name": "American River Parkway--SARA Park access",
+      "lat": 38.5685,
+      "lng": -121.3643,
+      "nSpecies": 101,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6500076",
+      "name": "Cleveland Corral Picnic Area",
+      "lat": 38.7811,
+      "lng": -120.4248,
+      "nSpecies": 83,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6504570",
+      "name": "Acorn Creek Trailhead",
+      "lat": 38.7814,
+      "lng": -121.034,
+      "nSpecies": 68,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6512567",
+      "name": "Boulder Ridge Park",
+      "lat": 38.8386,
+      "lng": -121.2308,
+      "nSpecies": 119,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L656782",
+      "name": "Cosumnes River Preserve",
+      "lat": 38.2658,
+      "lng": -121.4395,
+      "nSpecies": 270,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6578412",
+      "name": "Little Pocket, Sacramento",
+      "lat": 38.5303,
+      "lng": -121.5264,
+      "nSpecies": 58,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6614711",
+      "name": "Fremont Park",
+      "lat": 38.5712,
+      "lng": -121.4889,
+      "nSpecies": 34,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6639425",
+      "name": "Promontory Community Park",
+      "lat": 38.6893,
+      "lng": -121.0999,
+      "nSpecies": 49,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6733145",
+      "name": "Tanzanite Park",
+      "lat": 38.6326,
+      "lng": -121.5105,
+      "nSpecies": 124,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6764425",
+      "name": "Renfree Park",
+      "lat": 38.488,
+      "lng": -121.5426,
+      "nSpecies": 79,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L6785708",
+      "name": "Oki Park",
+      "lat": 38.5548,
+      "lng": -121.3907,
+      "nSpecies": 31,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L679245",
+      "name": "Rancho Seco Reservoir Park",
+      "lat": 38.3376,
+      "lng": -121.0992,
+      "nSpecies": 184,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L681200",
+      "name": "Latrobe Rd. (SAC Co.)",
+      "lat": 38.5405,
+      "lng": -121.0568,
+      "nSpecies": 144,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L681204",
+      "name": "Latrobe Rd. (ED Co.)",
+      "lat": 38.5237,
+      "lng": -120.9555,
+      "nSpecies": 91,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L681208",
+      "name": "Latrobe area",
+      "lat": 38.5586,
+      "lng": -120.9833,
+      "nSpecies": 98,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L681305",
+      "name": "Granite Regional Park",
+      "lat": 38.5438,
+      "lng": -121.4015,
+      "nSpecies": 161,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L684760",
+      "name": "Bannon Creek Parkway",
+      "lat": 38.6173,
+      "lng": -121.5056,
+      "nSpecies": 84,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L68696377",
+      "name": "Wainscott Way Fields",
+      "lat": 38.4837,
+      "lng": -121.4693,
+      "nSpecies": 17,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L686964",
+      "name": "S St Purple Martin Colony",
+      "lat": 38.564,
+      "lng": -121.4717,
+      "nSpecies": 28,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L687548",
+      "name": "Highland Reserve--South Preserve",
+      "lat": 38.7737,
+      "lng": -121.2808,
+      "nSpecies": 80,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L687680",
+      "name": "Sutterville Rd. Purple Martin Colony",
+      "lat": 38.5397,
+      "lng": -121.4842,
+      "nSpecies": 51,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L689845",
+      "name": "Auburn SRA--Confluence Area",
+      "lat": 38.9156,
+      "lng": -121.0359,
+      "nSpecies": 110,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L692870",
+      "name": "Folsom Lake SRA--Dotons Pt.",
+      "lat": 38.7593,
+      "lng": -121.1289,
+      "nSpecies": 130,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L695003",
+      "name": "Robbs Hut",
+      "lat": 38.9249,
+      "lng": -120.4035,
+      "nSpecies": 33,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L6983824",
+      "name": "D'Agostini Reservoir",
+      "lat": 38.5867,
+      "lng": -120.737,
+      "nSpecies": 79,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7007990",
+      "name": "Sacramento Adventist Academy (private)",
+      "lat": 38.6496,
+      "lng": -121.3347,
+      "nSpecies": 113,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7069342",
+      "name": "North Tahoe Beach Park",
+      "lat": 39.2379,
+      "lng": -120.033,
+      "nSpecies": 67,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L7130493",
+      "name": "Delta - Long Island",
+      "lat": 38.1662,
+      "lng": -121.6233,
+      "nSpecies": 82,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L715065",
+      "name": "Highland Reserve--South Preserve - West Creek",
+      "lat": 38.7731,
+      "lng": -121.2869,
+      "nSpecies": 53,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L715772",
+      "name": "Foresthill Bridge--Fuel Break Trail/chaparral area",
+      "lat": 38.9265,
+      "lng": -121.0239,
+      "nSpecies": 133,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L71947791",
+      "name": "Tanzanite Park",
+      "lat": 38.6309,
+      "lng": -121.5125,
+      "nSpecies": 6,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L723167",
+      "name": "South Lake Tahoe area",
+      "lat": 38.9419,
+      "lng": -119.9793,
+      "nSpecies": 181,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7274262",
+      "name": "Secret Ravine",
+      "lat": 38.7607,
+      "lng": -121.2529,
+      "nSpecies": 72,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L728460",
+      "name": "Mosquito Ridge--Little Oak Flat",
+      "lat": 39.0332,
+      "lng": -120.6715,
+      "nSpecies": 91,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L728465",
+      "name": "Placer County Big Trees Grove / Sierra Redwoods",
+      "lat": 39.0597,
+      "lng": -120.5717,
+      "nSpecies": 92,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L7305269",
+      "name": "Squaw Creek Rd.",
+      "lat": 39.2006,
+      "lng": -120.217,
+      "nSpecies": 77,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L733000",
+      "name": "Upper Truckee River--marsh trail and offshore",
+      "lat": 38.9389,
+      "lng": -120.0018,
+      "nSpecies": 244,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7360978",
+      "name": "Linda Creek Open Space",
+      "lat": 38.7342,
+      "lng": -121.2588,
+      "nSpecies": 139,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L7365144",
+      "name": "Cosumnes River Preserve--Horseshoe Lake (limited access)",
+      "lat": 38.3415,
+      "lng": -121.325,
+      "nSpecies": 130,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7398590",
+      "name": "Verde Cruz Creek Sac Co.",
+      "lat": 38.6768,
+      "lng": -121.2585,
+      "nSpecies": 120,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L742731",
+      "name": "Crystal Basin Rec Area",
+      "lat": 38.8544,
+      "lng": -120.3854,
+      "nSpecies": 127,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7441751",
+      "name": "Natomas Main Drainage Canal",
+      "lat": 38.608,
+      "lng": -121.5239,
+      "nSpecies": 98,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7499038",
+      "name": "Elk Grove Creek Wetlands, Elk Grove",
+      "lat": 38.4226,
+      "lng": -121.4031,
+      "nSpecies": 115,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7530966",
+      "name": "Fallen Leaf Campground",
+      "lat": 38.9261,
+      "lng": -120.0513,
+      "nSpecies": 123,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7661907",
+      "name": "Sherwood Demonstration Garden (restricted access)",
+      "lat": 38.7248,
+      "lng": -120.8682,
+      "nSpecies": 67,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7735234",
+      "name": "Round Lake",
+      "lat": 38.7518,
+      "lng": -120.0038,
+      "nSpecies": 67,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7738144",
+      "name": "Sawmill Lake",
+      "lat": 39.2584,
+      "lng": -120.1117,
+      "nSpecies": 45,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L7746046",
+      "name": "Eastridge Wetlands",
+      "lat": 38.7211,
+      "lng": -121.2197,
+      "nSpecies": 93,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L7794675",
+      "name": "Leoni Meadows",
+      "lat": 38.6087,
+      "lng": -120.5046,
+      "nSpecies": 106,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7806059",
+      "name": "Mt. Tallac trail",
+      "lat": 38.9215,
+      "lng": -120.0683,
+      "nSpecies": 100,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L781550",
+      "name": "Lake Forest Campground",
+      "lat": 39.184,
+      "lng": -120.1198,
+      "nSpecies": 105,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L7823383",
+      "name": "Marriott Park",
+      "lat": 38.4777,
+      "lng": -121.5113,
+      "nSpecies": 97,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7826615",
+      "name": "Robert L. Doyle Park (PLA Co.)",
+      "lat": 38.7742,
+      "lng": -121.3329,
+      "nSpecies": 41,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L7826626",
+      "name": "Sawmill Pond",
+      "lat": 38.8892,
+      "lng": -120.0261,
+      "nSpecies": 62,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L784387",
+      "name": "American River Parkway--Paradise Beach",
+      "lat": 38.5817,
+      "lng": -121.4237,
+      "nSpecies": 179,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7853224",
+      "name": "Bass Lake Park (Sellwood Field)",
+      "lat": 38.6808,
+      "lng": -121.028,
+      "nSpecies": 117,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7865394",
+      "name": "Showers Lake",
+      "lat": 38.7418,
+      "lng": -120.0351,
+      "nSpecies": 111,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L7905392",
+      "name": "Haggin Oaks Golf Complex",
+      "lat": 38.6311,
+      "lng": -121.4087,
+      "nSpecies": 80,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7928503",
+      "name": "Old Flume Trailhead",
+      "lat": 38.76,
+      "lng": -120.8425,
+      "nSpecies": 116,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L796889",
+      "name": "N Mather Dr.--wetland",
+      "lat": 38.5686,
+      "lng": -121.2791,
+      "nSpecies": 146,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L7975794",
+      "name": "Seymour Park",
+      "lat": 38.5113,
+      "lng": -121.5288,
+      "nSpecies": 59,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8040891",
+      "name": "Tahoe Rim Trail--Echo Summit",
+      "lat": 38.8126,
+      "lng": -120.0339,
+      "nSpecies": 77,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L805799",
+      "name": "Bufferlands--W of I-5 (limited access)",
+      "lat": 38.4396,
+      "lng": -121.4932,
+      "nSpecies": 172,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8084608",
+      "name": "Terracina Dr -- Pond East of Canal",
+      "lat": 38.6515,
+      "lng": -121.506,
+      "nSpecies": 78,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8084618",
+      "name": "Terracina Dr -- Pond West of Canal",
+      "lat": 38.6519,
+      "lng": -121.5088,
+      "nSpecies": 100,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8113713",
+      "name": "El Dorado Hills WTP",
+      "lat": 38.6341,
+      "lng": -121.0546,
+      "nSpecies": 139,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L8131836",
+      "name": "Lake Tahoe--Commons Beach",
+      "lat": 39.1699,
+      "lng": -120.1414,
+      "nSpecies": 98,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L813800",
+      "name": "Seven Mile Slough (SAC Co.)",
+      "lat": 38.1169,
+      "lng": -121.6288,
+      "nSpecies": 138,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L815054",
+      "name": "Lake Natoma--Willow Creek access",
+      "lat": 38.6485,
+      "lng": -121.1907,
+      "nSpecies": 130,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8161559",
+      "name": "Lake Tahoe Golf Course (open to birders in winter)",
+      "lat": 38.8715,
+      "lng": -120.0074,
+      "nSpecies": 52,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L8251712",
+      "name": "Traverse Creek Special Interest Area",
+      "lat": 38.8726,
+      "lng": -120.8185,
+      "nSpecies": 80,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L828028",
+      "name": "Howard Ranch",
+      "lat": 38.3477,
+      "lng": -121.0779,
+      "nSpecies": 146,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L828316",
+      "name": "Clay Station Rd.",
+      "lat": 38.3845,
+      "lng": -121.1682,
+      "nSpecies": 67,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8291188",
+      "name": "Nimbus Dam, south side, American River access",
+      "lat": 38.6359,
+      "lng": -121.221,
+      "nSpecies": 128,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L830496",
+      "name": "Cosumnes River Preserve--Wood Duck Slough (limited access)",
+      "lat": 38.2664,
+      "lng": -121.4082,
+      "nSpecies": 166,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8333446",
+      "name": "Northstar Resort",
+      "lat": 39.2743,
+      "lng": -120.1218,
+      "nSpecies": 113,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8346557",
+      "name": "Little Canyon",
+      "lat": 38.6165,
+      "lng": -120.8176,
+      "nSpecies": 81,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L834943",
+      "name": "Elkhorn Blvd Burrowing Owl site",
+      "lat": 38.6855,
+      "lng": -121.493,
+      "nSpecies": 43,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L835174",
+      "name": "Aitken Rd.",
+      "lat": 38.8632,
+      "lng": -121.3743,
+      "nSpecies": 71,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8353179",
+      "name": "Grand Island",
+      "lat": 38.2253,
+      "lng": -121.5784,
+      "nSpecies": 98,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L835962",
+      "name": "East Lawn Cemetery",
+      "lat": 38.562,
+      "lng": -121.4508,
+      "nSpecies": 106,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L836177",
+      "name": "William Land Park--Panhandle",
+      "lat": 38.546,
+      "lng": -121.506,
+      "nSpecies": 94,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L837241",
+      "name": "Rancho Cordova Golf Course",
+      "lat": 38.5334,
+      "lng": -121.3472,
+      "nSpecies": 45,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8421812",
+      "name": "Van Sickle Bi-State Park (CA)",
+      "lat": 38.9544,
+      "lng": -119.9408,
+      "nSpecies": 83,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L8421998",
+      "name": "Sheridan--Dalby Rd.",
+      "lat": 38.9631,
+      "lng": -121.3953,
+      "nSpecies": 98,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L843283",
+      "name": "Halsey Forebay",
+      "lat": 38.9735,
+      "lng": -121.0368,
+      "nSpecies": 98,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L845770",
+      "name": "American River Parkway--Harrington Way access",
+      "lat": 38.5806,
+      "lng": -121.3414,
+      "nSpecies": 152,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8458013",
+      "name": "Auburn Recreation Park",
+      "lat": 38.8892,
+      "lng": -121.0795,
+      "nSpecies": 76,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8464996",
+      "name": "Avery’s Pond Trail",
+      "lat": 38.8307,
+      "lng": -121.0918,
+      "nSpecies": 81,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8466472",
+      "name": "Maddox Park",
+      "lat": 38.5989,
+      "lng": -121.35,
+      "nSpecies": 38,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L848338",
+      "name": "American River Parkway--Waterton Way access",
+      "lat": 38.5666,
+      "lng": -121.3721,
+      "nSpecies": 109,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8540145",
+      "name": "Leonardo Da Vinci K-8 School",
+      "lat": 38.5313,
+      "lng": -121.4905,
+      "nSpecies": 55,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L857272",
+      "name": "Phoenix Park",
+      "lat": 38.6523,
+      "lng": -121.2177,
+      "nSpecies": 134,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L858118",
+      "name": "Rattlesnake Bar Rd.",
+      "lat": 38.7691,
+      "lng": -121.1026,
+      "nSpecies": 96,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L858627",
+      "name": "Meiss Rd. pond",
+      "lat": 38.4711,
+      "lng": -121.1644,
+      "nSpecies": 120,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8596802",
+      "name": "High Camp, Palisades Tahoe",
+      "lat": 39.1908,
+      "lng": -120.2707,
+      "nSpecies": 69,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8609213",
+      "name": "Horsetail Falls",
+      "lat": 38.8137,
+      "lng": -120.1197,
+      "nSpecies": 79,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L861475",
+      "name": "American River Parkway--Sutter's Landing Park",
+      "lat": 38.5867,
+      "lng": -121.4593,
+      "nSpecies": 164,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L861476",
+      "name": "Miller Park (SAC Co.)",
+      "lat": 38.5647,
+      "lng": -121.5194,
+      "nSpecies": 113,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L862241",
+      "name": "Colfax Cemetery",
+      "lat": 39.0981,
+      "lng": -120.947,
+      "nSpecies": 49,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L863148",
+      "name": "College Greens East",
+      "lat": 38.5667,
+      "lng": -121.3556,
+      "nSpecies": 35,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L8640810",
+      "name": "Tillotson Pkwy path",
+      "lat": 38.4599,
+      "lng": -121.3839,
+      "nSpecies": 28,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L864596",
+      "name": "Auburn District Regional Park",
+      "lat": 38.951,
+      "lng": -121.1056,
+      "nSpecies": 121,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8652384",
+      "name": "Whitney Oaks Golf Club",
+      "lat": 38.825,
+      "lng": -121.2423,
+      "nSpecies": 35,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L865466",
+      "name": "Ueda Parkway",
+      "lat": 38.6758,
+      "lng": -121.4815,
+      "nSpecies": 141,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L868140",
+      "name": "Folsom Lake SRA--Boulder Rd. trails",
+      "lat": 38.7677,
+      "lng": -121.142,
+      "nSpecies": 99,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L868467",
+      "name": "Brannan Island Rd.--Delta Loop",
+      "lat": 38.1075,
+      "lng": -121.5987,
+      "nSpecies": 158,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L873108",
+      "name": "Lake Natoma--Young Wo Cir. access",
+      "lat": 38.6718,
+      "lng": -121.1876,
+      "nSpecies": 154,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L873301",
+      "name": "Lincoln Hills Golf Course",
+      "lat": 38.8668,
+      "lng": -121.2754,
+      "nSpecies": 103,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L874021",
+      "name": "Laguna Creek Wildlife Area",
+      "lat": 38.442,
+      "lng": -121.429,
+      "nSpecies": 153,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L878839",
+      "name": "Kirkwood Lake area (ED Co.)",
+      "lat": 38.709,
+      "lng": -120.0849,
+      "nSpecies": 64,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L879502",
+      "name": "Folsom Lake SRA--Old County Rd.",
+      "lat": 38.7619,
+      "lng": -121.1455,
+      "nSpecies": 112,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8828776",
+      "name": "Sierra-at-Tahoe Resort",
+      "lat": 38.7953,
+      "lng": -120.0808,
+      "nSpecies": 63,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L891130",
+      "name": "El Dorado Trail Bike Path--Camino Heights",
+      "lat": 38.7346,
+      "lng": -120.7188,
+      "nSpecies": 98,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L893483",
+      "name": "Driver's Flat Staging Area",
+      "lat": 38.9666,
+      "lng": -120.9521,
+      "nSpecies": 131,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L893485",
+      "name": "Ruck-a-Chucky Campground",
+      "lat": 38.9627,
+      "lng": -120.9318,
+      "nSpecies": 100,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L8935502",
+      "name": "Pleasant Grove Waste Water Treatment Plant",
+      "lat": 38.7905,
+      "lng": -121.3788,
+      "nSpecies": 107,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L893625",
+      "name": "Delta Meadows Slough",
+      "lat": 38.2508,
+      "lng": -121.506,
+      "nSpecies": 152,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L897207",
+      "name": "Capps Crossing at Mormon Emigrant Trail",
+      "lat": 38.7037,
+      "lng": -120.402,
+      "nSpecies": 78,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L8992959",
+      "name": "Coyote Pond Park",
+      "lat": 38.8466,
+      "lng": -121.2591,
+      "nSpecies": 153,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L903166",
+      "name": "Flemming Meadow Park",
+      "lat": 38.7094,
+      "lng": -120.55,
+      "nSpecies": 102,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L903171",
+      "name": "El Dorado Trail Bike Path--Missouri Flat",
+      "lat": 38.7022,
+      "lng": -120.8208,
+      "nSpecies": 85,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L906983",
+      "name": "Del Campo Park",
+      "lat": 38.6549,
+      "lng": -121.3147,
+      "nSpecies": 97,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9089887",
+      "name": "Orangevale Park",
+      "lat": 38.6996,
+      "lng": -121.224,
+      "nSpecies": 90,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9091944",
+      "name": "Wildman Hill",
+      "lat": 38.7732,
+      "lng": -120.8272,
+      "nSpecies": 18,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9098700",
+      "name": "Chorley Park, Sacramento US-CA (38.4988,-121.4923)",
+      "lat": 38.4988,
+      "lng": -121.4923,
+      "nSpecies": 73,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L913573",
+      "name": "Ice House Reservoir--Boat Launch",
+      "lat": 38.83,
+      "lng": -120.3624,
+      "nSpecies": 91,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L913613",
+      "name": "Crystal Basin--Big Hill Lookout",
+      "lat": 38.8424,
+      "lng": -120.4079,
+      "nSpecies": 100,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L914043",
+      "name": "stakeout Painted Redstart, Shockley Rd., Auburn (2010)",
+      "lat": 38.9216,
+      "lng": -121.0678,
+      "nSpecies": 37,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L914197",
+      "name": "Somerset",
+      "lat": 38.6477,
+      "lng": -120.6858,
+      "nSpecies": 82,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9192691",
+      "name": "Foresthill Park",
+      "lat": 39.0216,
+      "lng": -120.8178,
+      "nSpecies": 53,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L920553",
+      "name": "Del Paso Park",
+      "lat": 38.643,
+      "lng": -121.3692,
+      "nSpecies": 119,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L920975",
+      "name": "Sorento Rd.",
+      "lat": 38.6688,
+      "lng": -121.4833,
+      "nSpecies": 80,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9212815",
+      "name": "William Bill Hughes Park",
+      "lat": 38.7992,
+      "lng": -121.3353,
+      "nSpecies": 110,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L921505",
+      "name": "Hamilton Street Park",
+      "lat": 38.6538,
+      "lng": -121.3646,
+      "nSpecies": 50,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L922435",
+      "name": "Mission North Park",
+      "lat": 38.6253,
+      "lng": -121.3539,
+      "nSpecies": 35,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L922491",
+      "name": "Sacramento River Riparian off Riverside Blvd near 35th Ave",
+      "lat": 38.5254,
+      "lng": -121.5266,
+      "nSpecies": 113,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L922501",
+      "name": "Campus Commons Golf Course",
+      "lat": 38.5738,
+      "lng": -121.421,
+      "nSpecies": 91,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L922609",
+      "name": "Johnson-Springview Park",
+      "lat": 38.7902,
+      "lng": -121.2449,
+      "nSpecies": 118,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L922680",
+      "name": "Diamond Oaks Golf Course",
+      "lat": 38.7686,
+      "lng": -121.2843,
+      "nSpecies": 63,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L9229897",
+      "name": "Waterford Cove Apartments heron rookery",
+      "lat": 38.4835,
+      "lng": -121.5344,
+      "nSpecies": 60,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L923651",
+      "name": "Jefferson School ",
+      "lat": 38.6219,
+      "lng": -121.5059,
+      "nSpecies": 46,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L928948",
+      "name": "Grouse Falls Trail",
+      "lat": 39.0855,
+      "lng": -120.6235,
+      "nSpecies": 64,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L928963",
+      "name": "Peavine Rd. (FR 33) loop",
+      "lat": 39.0748,
+      "lng": -120.6296,
+      "nSpecies": 55,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L929149",
+      "name": "Arden-Arcade neighborhood",
+      "lat": 38.5992,
+      "lng": -121.3802,
+      "nSpecies": 111,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L930572",
+      "name": "Hagan Community Park",
+      "lat": 38.605,
+      "lng": -121.3097,
+      "nSpecies": 135,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9341712",
+      "name": "Laguna Creek: Bradshaw to Vineyard",
+      "lat": 38.4625,
+      "lng": -121.3301,
+      "nSpecies": 81,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L934886",
+      "name": "Schweitzer Grove",
+      "lat": 38.6449,
+      "lng": -121.2957,
+      "nSpecies": 73,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9440510",
+      "name": "Pyramid Peak Trail",
+      "lat": 38.8423,
+      "lng": -120.1579,
+      "nSpecies": 48,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L947253",
+      "name": "Delta Meadows Park--north",
+      "lat": 38.26,
+      "lng": -121.5014,
+      "nSpecies": 105,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L947254",
+      "name": "Delta Meadows Park--southeast",
+      "lat": 38.2489,
+      "lng": -121.5031,
+      "nSpecies": 126,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9503519",
+      "name": "Mountain Camp",
+      "lat": 38.83,
+      "lng": -120.3412,
+      "nSpecies": 58,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L951053",
+      "name": "Watson Lake",
+      "lat": 39.2242,
+      "lng": -120.1388,
+      "nSpecies": 57,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L951066",
+      "name": "Mt. Watson Rd.",
+      "lat": 39.2475,
+      "lng": -120.1017,
+      "nSpecies": 75,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L951071",
+      "name": "Barker Pass Rd. (Barker Pass Rd. Bridge to Barker Pass)",
+      "lat": 39.0756,
+      "lng": -120.2378,
+      "nSpecies": 88,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L951074",
+      "name": "Blackwood Canyon (Hwy 89 to Barker Pass Rd. Bridge)",
+      "lat": 39.1044,
+      "lng": -120.2013,
+      "nSpecies": 114,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L9523171",
+      "name": "Sugar Pine Reservoir",
+      "lat": 39.1337,
+      "lng": -120.7925,
+      "nSpecies": 118,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L9575520",
+      "name": "Tells Creek Rd.--pond",
+      "lat": 38.9263,
+      "lng": -120.3696,
+      "nSpecies": 40,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9575534",
+      "name": "Van Vleck Meadow/Bunkhouse",
+      "lat": 38.9364,
+      "lng": -120.3216,
+      "nSpecies": 70,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9579151",
+      "name": "Portuguese Community Park",
+      "lat": 38.4908,
+      "lng": -121.5339,
+      "nSpecies": 47,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9609171",
+      "name": "Lake Baron",
+      "lat": 38.857,
+      "lng": -120.0257,
+      "nSpecies": 84,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L964469",
+      "name": "Emerald Bay overlook",
+      "lat": 38.9466,
+      "lng": -120.0981,
+      "nSpecies": 72,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9644747",
+      "name": "Osgood Swamp",
+      "lat": 38.8457,
+      "lng": -120.0424,
+      "nSpecies": 83,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9648874",
+      "name": "Strawberry Pass Trailhead",
+      "lat": 38.7259,
+      "lng": -120.0478,
+      "nSpecies": 77,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9672408",
+      "name": "Twin Lakes Trailhead",
+      "lat": 38.8494,
+      "lng": -120.2266,
+      "nSpecies": 128,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L969163",
+      "name": "Brown's Landing",
+      "lat": 38.7116,
+      "lng": -121.0944,
+      "nSpecies": 141,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L971245",
+      "name": "Pope Marsh",
+      "lat": 38.9311,
+      "lng": -120.0265,
+      "nSpecies": 161,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L9720396",
+      "name": "Fair Oaks Cemetery",
+      "lat": 38.649,
+      "lng": -121.2791,
+      "nSpecies": 79,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9729592",
+      "name": "Meeks Bay",
+      "lat": 39.037,
+      "lng": -120.1217,
+      "nSpecies": 57,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L973475",
+      "name": "Trout Creek",
+      "lat": 38.9007,
+      "lng": -119.9678,
+      "nSpecies": 102,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L973478",
+      "name": "Meeks Creek Meadow",
+      "lat": 39.033,
+      "lng": -120.1352,
+      "nSpecies": 127,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L974618",
+      "name": "Silver Fork Rd.",
+      "lat": 38.6834,
+      "lng": -120.1956,
+      "nSpecies": 86,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L978827",
+      "name": "Gold Bug Park",
+      "lat": 38.7441,
+      "lng": -120.7988,
+      "nSpecies": 66,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L978835",
+      "name": "Magnolia Ranch",
+      "lat": 38.8244,
+      "lng": -120.958,
+      "nSpecies": 133,
+      "county": "US-CA-017"
+    },
+    {
+      "locId": "L989075",
+      "name": "Hidden Falls Regional Park",
+      "lat": 38.9591,
+      "lng": -121.1643,
+      "nSpecies": 124,
+      "county": "US-CA-061"
+    },
+    {
+      "locId": "L991188",
+      "name": "Howe Community Park",
+      "lat": 38.6053,
+      "lng": -121.4132,
+      "nSpecies": 69,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9946491",
+      "name": "Central Orangevale",
+      "lat": 38.6783,
+      "lng": -121.2257,
+      "nSpecies": 136,
+      "county": "US-CA-067"
+    },
+    {
+      "locId": "L9957359",
+      "name": "Cody Lake trail",
+      "lat": 38.7673,
+      "lng": -120.1412,
+      "nSpecies": 68,
+      "county": "US-CA-017"
+    }
+  ]
+}

@@ -51,7 +51,7 @@ commits `data/` to the branch it ran on.
 | --- | --- | --- | --- |
 | OpenStreetMap (Overpass) | viewpoints, waterfalls, peaks, markers, oddities, parks, trailheads, campsites | **ODbL 1.0** — attribution "© OpenStreetMap contributors"; share-alike on the database | **Working** |
 | HMdb.org | historical markers | Content **copyrighted** — store name/coords/link only, never republish inscriptions or photos | Stub |
-| eBird (Cornell Lab) | wildlife hotspots | API terms — attribution required, no bulk redistribution; needs `EBIRD_API_TOKEN` | Stub |
+| eBird (Cornell Lab) | wildlife hotspots | API terms — attribution required, no bulk redistribution | **Working** |
 | iNaturalist | wildlife observation clusters | Per-record CC licensing — ingest filters to CC0/CC-BY/CC-BY-SA only | Stub |
 | Flickr | where CC photographers actually shoot | Per-photo — **only CC/public-domain licensed photos**; needs `FLICKR_API_KEY` | Stub |
 | VIIRS / World Atlas | light-pollution raster | TBD at implementation (attribution required; World Atlas is non-commercial) — a map **layer**, not points | Stub |
@@ -60,6 +60,19 @@ commits `data/` to the branch it ran on.
 
 Each adapter's header comment is the authoritative license note — read it
 before extending that source.
+
+The eBird hotspot layer is imported from the sibling Bird-location-scouting
+app's committed county data (hotspot name + location only — no observation
+frequencies), refreshable with `node scripts/import-ebird-from-frame.mjs`.
+For a region that app doesn't cover, the adapter documents the live-API path
+(needs `EBIRD_API_TOKEN`).
+
+## License
+
+Proprietary — all rights reserved. No LICENSE file, matching the sibling
+apps. The ingested open data keeps its own terms (OSM is ODbL, eBird per
+the API terms above); those obligations stand regardless of this project's
+code license.
 
 ## Expanding the region
 
