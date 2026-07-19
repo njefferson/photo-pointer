@@ -75,10 +75,26 @@ doing anything.
   HMdb" (tags.hmdb) or "California Historical Landmark No. X" (tags.california_
   landmark); .popup-marker (no CSS needed). No new synthesis signal (markers feed
   'layered' when colocated). sw CACHE pointer-0.9.0. VERIFIED: adapter unit-tested
-  (parsePoint WKT lon-lat; HMdb-vs-Wikidata link selection; CHL tag; unlabeled→
+  (parsePoint WKT lon-lat; HMdb-vs-Wikidata link selection; CHL flag; unlabeled→
   null name; bbox in query; double-ID dedup); tag-preserving merge proven locally;
-  app boots 2362 pins zero pageerrors; 78 tests, contrast green. The Wikidata
-  fetch is unrun locally (network+UA) — runner will confirm the real marker count.
+  app boots zero pageerrors; 78 tests, contrast green. BUG CAUGHT ON FIRST RUNNER
+  RUN (run 29698936061): the initial query keyed on P7883 OR **P5651** and got
+  only 1 marker — because P5651 is "Expedia hotel ID", NOT a landmark property
+  (verified via search; the CHL type is Q2933979, not a number property I could
+  confirm). REWROTE type-based: bbox items with P7883 OR P31=Q2933979 (California
+  Historical Landmark) OR P31/P279* of Q4989906 (monument) / Q5003624 (memorial);
+  CHL now a boolean flag. RUNNER RESULT (run 29699065005): 62 markers/monuments
+  (was 1) — Angels Camp, Auburn (CHL), Brighton School (HMdb), Columbia State
+  Historic Park, Donner Memorial/Monument, etc. — exactly the region's Gold Rush /
+  pioneer history, all CC0. Total spots 2362→2409 (some monuments deduped into
+  existing OSM spots — SOURCE_PRIORITY osm>wikidata keeps their category); ALL
+  enrichment tags survived the re-merge (bortle/horizon 2362, proving the tag-
+  preserving merge on a real source add). 125 marker pins render, zero pageerrors.
+  GOTCHA for later: WDQS 403s WebFetch AND the r.jina.ai proxy (UA-gated) — you
+  CANNOT test SPARQL from the sandbox; verify property/type IDs via WebSearch and
+  iterate on the runner. HONEST COVERAGE: Wikidata has few of HMdb's small brass
+  markers (1 here) — this surfaces notable monuments/landmarks + the HMdb markers
+  WD knows, not every roadside plaque (stated in changelog + adapter header).
 - 2026-07-19 0.8.0 "Wild subjects" BUILT on staging (awaiting on-device pass +
   an inaturalist.yml runner pass to tag the data): Tier 3 item #1 of the
   integrations list (Noah's "Do 1 and 2"). NON-BIRD wildlife density per spot —

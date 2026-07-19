@@ -4,17 +4,19 @@ Written for the person using the app. Newest first.
 
 ## 0.9.0 — 2026-07-19
 
-**The region's roadside history, on the map.**
+**The region's history, on the map.**
 
-- Every **historical marker** and **California Historical Landmark** in the
-  region is now a spot — the Gold Rush plaques, the pioneer monuments, the
-  little brass markers you drive past. Tap one and jump straight to its full
-  write-up on **HMdb** (the Historical Marker Database).
-- These join the same map as everything else, so a marker that sits in a park
+- The region's **historical landmarks and monuments** are now spots — Columbia
+  State Historic Park, the Donner Memorial, Angels Camp, Auburn, and dozens more
+  Gold Rush and pioneer sites. Where a marker has a **HMdb** page (the Historical
+  Marker Database), tap through to its full write-up; California Historical
+  Landmarks are labeled as such.
+- These join the same map as everything else, so a monument that sits in a park
   with an open western horizon and dark skies rises in **Top spots** like any
   other layered place.
 - Facts come from **Wikidata** (public domain / CC0); HMdb keeps its own
-  content — we only link to it, never copy it.
+  content — we only link to it, never copy it. (Honest note: Wikidata knows the
+  notable sites well, but only some of HMdb's smaller roadside plaques.)
 
 ## 0.8.0 — 2026-07-19
 
