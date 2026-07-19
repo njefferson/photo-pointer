@@ -1,0 +1,78 @@
+name: Terrain horizon ingest
+
+# Measures each spot's real land horizon from a DEM and writes an openness
+# value + E/W/S/N ridge angles onto every spot. No big source is committed —
+# only the derived tags + a tiny manifest. Dispatch via MCP actions_run_trigger.
+#
+# RE-RUN after a full OSM refresh: a fresh spots.json has no horizon tags (same
+# ordering caveat as light-pollution and public-lands).
+#
+# DATA: Terrain Tiles (SRTM 1-arc-second, ~30 m), AWS Open Data
+# `elevation-tiles-prod`, skadi/HGT — public, no key, public domain.
+# FALLBACK if that bucket ever moves: Copernicus GLO-30 on AWS
+# (`copernicus-dem-30m`, anonymous S3, GDAL /vsis3/ with AWS_NO_SIGN_REQUEST).
+
+on:
+  workflow_dispatch: {}
+
+concurrency:
+  group: horizon-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install GDAL
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq gdal-bin python3-gdal python3-numpy
+      - name: Enumerate the DEM tiles covering the region (+0.6° pad for far samples)
+        run: |
+          python3 - <<'PY'
+          import json, math
+          b = json.load(open('config/region.json'))['bbox']
+          pad = 0.6
+          lats = range(math.floor(b['south'] - pad), math.floor(b['north'] + pad) + 1)
+          lons = range(math.floor(b['west'] - pad), math.floor(b['east'] + pad) + 1)
+          tiles = []
+          for la in lats:
+              for lo in lons:
+                  ns = 'N' if la >= 0 else 'S'
+                  ew = 'E' if lo >= 0 else 'W'
+                  tiles.append(f"{ns}{abs(la):02d}{ew}{abs(lo):03d}")
+          open('tiles.txt', 'w').write('\n'.join(tiles))
+          print(len(tiles), 'tiles:', ' '.join(tiles))
+          PY
+      - name: Download DEM tiles (ocean/void tiles may 404 — that's fine)
+        run: |
+          mkdir -p dem
+          while read T; do
+            [ -z "$T" ] && continue
+            LAT=${T:0:3}
+            if curl -sfL --max-time 300 "https://elevation-tiles-prod.s3.amazonaws.com/skadi/${LAT}/${T}.hgt.gz" -o "dem/${T}.hgt.gz"; then
+              gunzip -f "dem/${T}.hgt.gz" && echo "got $T"
+            else
+              echo "MISS $T (likely no land here — ok)"
+            fi
+          done < tiles.txt
+          COUNT=$(ls dem/*.hgt 2>/dev/null | wc -l)
+          echo "downloaded $COUNT DEM tiles"
+          [ "$COUNT" -eq 0 ] && { echo "no DEM tiles — cannot build horizon"; exit 1; } || true
+      - name: Mosaic + trace horizons + tag spots
+        run: |
+          mkdir -p data/layers
+          gdalbuildvrt -q dem.vrt dem/*.hgt
+          gdalinfo dem.vrt | grep -iE 'Size is|Pixel Size|Origin' | head
+          python3 scripts/build-horizon.py dem.vrt data/spots.json data/layers/horizon.json "$(date -u +%F)"
+          ls -la data/layers/horizon.json
+      - name: Commit derived tags
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/layers/horizon.json data/spots.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Measure each spot's real horizon — how open the sky is for sunrise, sunset, and the Milky Way" -m "Every spot now carries how open its land horizon is (from a 30 m elevation model), plus the ridge height east, west, and south. The land horizon only — elevation models don't see trees or buildings."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

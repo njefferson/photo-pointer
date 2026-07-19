@@ -118,11 +118,19 @@ export function createMapView(container, { region, onChange }) {
     rows.push(row('Golden hour', t.goldenEvening, sunsetDir ? `sun sets ${sunsetDir}` : ''));
     rows.push(row('Blue hour', t.blueEvening));
 
+    const h = spot.tags?.horizon;
+    const horizonNote = h && h.open != null
+      ? el('p', { class: 'light-horizon' },
+          `Land horizon: sun clears ${h.e ?? '?'}° in the east, ${h.w ?? '?'}° in the west` +
+          ' (from terrain — trees not counted)')
+      : null;
+
     return el('div', { class: 'light-box' }, [
       el('h4', {}, 'Light today'),
       el('table', { class: 'light-table' }, [
         el('tbody', {}, rows.filter(Boolean)),
       ]),
+      horizonNote,
     ]);
   }
 

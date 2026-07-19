@@ -161,6 +161,7 @@ body {
 .light-table tr.light-mark th, .light-table tr.light-mark td { font-weight: 700; color: #1e1e1e; }
 .light-dir { color: #555555; }
 .light-polar { font-size: 12px; margin: 2px 0; }
+.light-horizon { font-size: 11px; margin: 3px 0 0; color: #555555; }
 
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
    consistent with .light-table; meaning is in the layer labels, not color. */

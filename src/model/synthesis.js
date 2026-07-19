@@ -68,6 +68,24 @@ export const SIGNALS = [
     },
   },
   {
+    key: 'openHorizon',
+    label: 'Open horizon',
+    weight: 0.8,
+    // DORMANT until the terrain-horizon ingest writes tags.horizon. MEASURED
+    // from a 30 m elevation model (not the category guess the `view` signal
+    // makes): how low the land sits all around, so the rising/setting sun and
+    // the Milky Way can actually clear it. Land only — DEMs carry no trees.
+    evaluate(spot) {
+      const h = spot.tags?.horizon;
+      if (h == null || h.open == null) return null;
+      const parts = [];
+      if (h.e != null) parts.push(`E ${h.e}°`);
+      if (h.w != null) parts.push(`W ${h.w}°`);
+      const desc = h.open >= 0.75 ? 'wide open' : h.open >= 0.45 ? 'fairly open' : 'ridged';
+      return { value: clamp(h.open, 0, 1), note: parts.length ? `${desc} (${parts.join(', ')})` : desc };
+    },
+  },
+  {
     key: 'access',
     label: 'Easy to reach',
     weight: 0.5,

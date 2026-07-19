@@ -2,6 +2,23 @@
 
 Written for the person using the app. Newest first.
 
+## 0.7.0 — 2026-07-19
+
+**How open is the sky, really?**
+
+- Every spot now knows its **real land horizon** — measured from a 30-meter
+  elevation model, not assumed flat. A valley floor reads wide open; a spot
+  down in a canyon or ringed by foothills reads closed.
+- The **"Light today"** panel now tells you how high the land sits where the
+  sun rises and sets ("sun clears 1° in the east, 4° in the west"), so you know
+  whether the low golden light actually reaches you or hides behind a ridge.
+- **Top spots gains an "Open horizon" filter.** Stack it with "Dark sky" and
+  "Public land" and you've got the real astro shortlist: dark, open to the sky,
+  and somewhere you can legally stand.
+- Honest limit: an elevation model sees the land, not the trees — a
+  meadow ringed by tall pines will read more open than it shoots.
+- Terrain from the public-domain SRTM elevation model (NASA/USGS).
+
 ## 0.6.0 — 2026-07-19
 
 **Which spots are on public land.**

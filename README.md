@@ -63,6 +63,7 @@ commits `data/` to the branch it ran on.
 | Flickr | where CC photographers actually shoot | Per-photo — **only CC/public-domain licensed photos**; needs `FLICKR_API_KEY` | Stub |
 | World Atlas (Falchi 2016) | dark-sky / light-pollution raster → Bortle per spot + map overlay | **CC BY-NC 4.0**, doi:10.5880/GFZ.1.4.2016.001 | **Working** |
 | Public lands | protected-area boundaries → which spots are on public land | OpenStreetMap, ODbL | **Working** |
+| Terrain (SRTM) | 30 m elevation model → each spot's real horizon openness + E/W/S ridge angles | **Public domain** (NASA/USGS SRTM, via AWS Terrain Tiles) | **Working** |
 | Map tiles | OSM carto + Esri World Imagery | © OpenStreetMap contributors · Imagery © Esri | Working |
 | Sun & moon | on-device golden/blue-hour, sunrise/sunset + direction, moon phase + Milky-Way dark window | astronomy-engine © Don Cross, MIT (vendored) | Working |
 | Weather | live clear-sky (cloud) forecast for tonight, per spot | Open-Meteo, free, no key (CC BY 4.0) | Working |

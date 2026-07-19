@@ -71,6 +71,22 @@ test('the dark-sky signal is dormant with no data and activates when tags.bortle
   assert.match(dark.note, /Bortle 3/);
 });
 
+// Same plug-in contract for the measured horizon: dormant until the terrain
+// ingest writes tags.horizon, then it scores with NO change to the scorer.
+test('the open-horizon signal is dormant with no data and activates on tags.horizon', () => {
+  const ctx = buildContext(spots);
+  const before = scoreSpot(spots[3], ctx);
+  assert.ok(!before.parts.some((p) => p.key === 'openHorizon'), 'dormant without data');
+
+  const withHorizon = { ...spots[3], tags: { ...spots[3].tags, horizon: { open: 0.9, e: 0.5, w: 1.2 } } };
+  const ctx2 = buildContext([withHorizon]);
+  const after = scoreSpot(withHorizon, ctx2);
+  const oh = after.parts.find((p) => p.key === 'openHorizon');
+  assert.ok(oh, 'activates once its data source lands');
+  assert.equal(oh.value, 0.9);
+  assert.match(oh.note, /wide open/);
+});
+
 test('cross-layer require: "dark AND open view" filters to spots satisfying both', () => {
   const world = [
     { ...spots[3], id: 'darkview', tags: { direction: 'W', bortle: 3 } }, // view + dark

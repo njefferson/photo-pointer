@@ -51,6 +51,7 @@ export function topSpotsPanel(ranked, onGo) {
     ['layered', 'Layered'],
     ['wildlife', 'Wildlife'],
     ['view', 'Open view'],
+    ['openHorizon', 'Open horizon'],
     ['access', 'Easy access'],
     ['darkSky', 'Dark sky'],
     ['publicLand', 'Public land'],

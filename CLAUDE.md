@@ -51,6 +51,36 @@ doing anything.
 ## "set up" while any is unconfirmed.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 0.7.0 "Open horizon" BUILT on staging (awaiting on-device pass +
+  a horizon.yml runner pass to tag the data): Tier 2b of the integrations list.
+  MEASURED terrain horizon per spot — the distinct-from-`view` layer (`view` is
+  a category guess; this is real geometry). scripts/build-horizon.py (GDAL +
+  numpy on a runner, mirrors build-light-pollution.py): downloads SRTM 1-arc-sec
+  DEM tiles (AWS Open Data `elevation-tiles-prod` skadi/HGT — PUBLIC, NO KEY,
+  public domain), mosaics via gdalbuildvrt, then per spot traces a radial
+  horizon (24 az × 24 log-spaced dists 150 m–45 km), max apparent altitude per
+  ray with earth-curvature + refraction k=0.13 (geometry PORTED from
+  clear-horizons src/model/terrain.js). Writes tags.horizon =
+  {open 0..1, n,e,s,w ridge °, site_m} on every spot + data/layers/horizon.json
+  (manifest only, no geometry). WHY A DEM NOT OPEN-METEO ELEVATION: Clear
+  Horizons uses Open-Meteo /v1/elevation but that meters ~600 COORDINATES/MINUTE
+  (its on-device gotcha) — a radial trace ×2362 spots = hours of API hammering.
+  DEM raster = no rate limit, seconds. OPEN_DEG=6.0 is THE tuning knob (mean
+  ridge° → openness 0); the script's 4 sanity probes (Sacramento flat / Auburn
+  foothills / Emerald Bay basin / canyon floor) reveal the real spread — retune
+  if they bunch. synthesis.js openHorizon signal (weight 0.8, dormant until
+  tags.horizon written). UI: popup "Light today" gains a land-horizon line
+  (E/W ridge °, "trees not counted"); Top-spots "Open horizon" require chip
+  (ADD new signals to BOTH synthesis.SIGNALS and ui/synthesis.js LAYER_CHIPS).
+  RE-RUN horizon.yml after a full OSM refresh (regenerates spots.json, drops the
+  tags — same ordering caveat as light-pollution/public-lands). sw CACHE
+  pointer-0.7.0. VERIFIED: geometry validated headless vs synthetic surfaces
+  (distance round-trip exact, 100 m@1 km=5.59°, flat→open 1.0, ridged→0,
+  directional rays correct); app boots zero pageerrors, "Open horizon" chip
+  renders + correctly DORMANT (0 rows) pre-data; 65 tests (added openHorizon
+  dormant→active), contrast green. GDAL is runner-only (not installable in the
+  sandbox) — like build-light-pollution.py, the python glue is unrun locally but
+  mirrors the proven light-pollution script exactly.
 - 2026-07-19 0.6.0 "Public lands" BUILT on staging (awaiting on-device pass):
   Tier 2a of the integrations list. ingest/adapters/public-lands.mjs (OSM/
   Overpass, ODbL): fetches protected-area POLYGONS (out geom) — boundary=
