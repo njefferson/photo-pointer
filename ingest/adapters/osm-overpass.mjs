@@ -69,6 +69,11 @@ export const OVERPASS_HOSTS = [
   'https://overpass.kumi.systems/api/interpreter',
 ];
 
+// Overpass instances answer 406/403 to anonymous UAs — identify honestly
+// (their usage policy asks for a contactable User-Agent).
+export const USER_AGENT =
+  'photo-pointer-ingest/0.1 (personal project; https://github.com/njefferson/photo-pointer)';
+
 export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_HOSTS } = {}) {
   let lastErr = null;
   for (const host of hosts) {
@@ -76,7 +81,10 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
       try {
         const res = await fetchFn(host, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'User-Agent': USER_AGENT,
+          },
           body: 'data=' + encodeURIComponent(query),
         });
         if (res.status === 429 || res.status === 504) {

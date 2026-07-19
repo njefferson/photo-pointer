@@ -44,22 +44,34 @@ async function cmdProbe() {
   // whether Overpass answers with DATA from this machine.
   const q = '[out:json][timeout:10];node["tourism"="viewpoint"](38.4,-121.6,38.8,-121.2);out 3;';
   for (const host of osm.OVERPASS_HOSTS) {
-    try {
-      const res = await fetch(host, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: 'data=' + encodeURIComponent(q),
-        signal: AbortSignal.timeout(20000),
-      });
-      const body = await res.text();
-      const isJson = body.trimStart().startsWith('{');
-      log(`${host} → HTTP ${res.status}, ${isJson ? 'JSON' : 'non-JSON'} (${body.length} bytes)`);
-      if (res.ok && isJson) {
-        log('VERDICT: DATA — Overpass reachable from here.');
-        return;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const res = await fetch(host, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'User-Agent': osm.USER_AGENT,
+          },
+          body: 'data=' + encodeURIComponent(q),
+          signal: AbortSignal.timeout(20000),
+        });
+        const body = await res.text();
+        const isJson = body.trimStart().startsWith('{');
+        log(`${host} → HTTP ${res.status}, ${isJson ? 'JSON' : 'non-JSON'} (${body.length} bytes)`);
+        if (res.ok && isJson) {
+          log('VERDICT: DATA — Overpass reachable from here.');
+          return;
+        }
+        if (res.status === 429) {
+          log('  rate-limited, waiting 20s…');
+          await new Promise((r) => setTimeout(r, 20000));
+          continue;
+        }
+        break; // other statuses: try the next host
+      } catch (e) {
+        log(`${host} → ${e.message}`);
+        break;
       }
-    } catch (e) {
-      log(`${host} → ${e.message}`);
     }
   }
   log('VERDICT: BLOCKED — run ingest on a GitHub Actions runner (ingest-osm.yml).');
