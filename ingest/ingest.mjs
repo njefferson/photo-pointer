@@ -42,9 +42,12 @@ async function loadRegionFile() {
 async function cmdProbe() {
   // Tiny query: a handful of viewpoints near Sacramento. Settles in seconds
   // whether Overpass answers with DATA from this machine.
-  const q = '[out:json][timeout:10];node["tourism"="viewpoint"](38.4,-121.6,38.8,-121.2);out 3;';
-  for (const host of osm.OVERPASS_HOSTS) {
-    for (let attempt = 0; attempt < 3; attempt++) {
+  const q = '[out:json][timeout:25];node["tourism"="viewpoint"](38.4,-121.6,38.8,-121.2);out 3;';
+  // Overpass public instances 504/timeout when busy — that is transient, not
+  // "blocked". Cycle the hosts several times with backoff before concluding
+  // the network is the problem (a real egress block fails instantly, not slow).
+  for (let round = 0; round < 4; round++) {
+    for (const host of osm.OVERPASS_HOSTS) {
       try {
         const res = await fetch(host, {
           method: 'POST',
@@ -53,7 +56,7 @@ async function cmdProbe() {
             'User-Agent': osm.USER_AGENT,
           },
           body: 'data=' + encodeURIComponent(q),
-          signal: AbortSignal.timeout(20000),
+          signal: AbortSignal.timeout(40000),
         });
         const body = await res.text();
         const isJson = body.trimStart().startsWith('{');
@@ -62,19 +65,16 @@ async function cmdProbe() {
           log('VERDICT: DATA — Overpass reachable from here.');
           return;
         }
-        if (res.status === 429) {
-          log('  rate-limited, waiting 20s…');
-          await new Promise((r) => setTimeout(r, 20000));
-          continue;
-        }
-        break; // other statuses: try the next host
       } catch (e) {
         log(`${host} → ${e.message}`);
-        break;
       }
     }
+    if (round < 3) {
+      log(`  all hosts unhappy this round, backing off ${20 * (round + 1)}s…`);
+      await new Promise((r) => setTimeout(r, 20000 * (round + 1)));
+    }
   }
-  log('VERDICT: BLOCKED — run ingest on a GitHub Actions runner (ingest-osm.yml).');
+  log('VERDICT: BLOCKED — Overpass unreachable after retries (transient overload or egress block).');
   process.exit(2);
 }
 

@@ -67,6 +67,7 @@ out center tags;
 export const OVERPASS_HOSTS = [
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter',
+  'https://overpass.private.coffee/api/interpreter',
 ];
 
 // Overpass instances answer 406/403 to anonymous UAs — identify honestly
@@ -76,8 +77,10 @@ export const USER_AGENT =
 
 export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_HOSTS } = {}) {
   let lastErr = null;
-  for (const host of hosts) {
-    for (let attempt = 0; attempt < 3; attempt++) {
+  // Overpass public instances 504/timeout often when busy — that is transient,
+  // so cycle the hosts several times with backoff before giving up.
+  for (let round = 0; round < 4; round++) {
+    for (const host of hosts) {
       try {
         const res = await fetchFn(host, {
           method: 'POST',
@@ -86,10 +89,11 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
             'User-Agent': USER_AGENT,
           },
           body: 'data=' + encodeURIComponent(query),
+          signal: AbortSignal.timeout(300000), // matches [timeout:300] in the query
         });
-        if (res.status === 429 || res.status === 504) {
+        if (res.status === 429 || res.status === 502 || res.status === 503 || res.status === 504) {
           lastErr = new Error(`${host}: HTTP ${res.status}`);
-          await sleep(15000 * (attempt + 1));
+          await sleep(20000 * (round + 1));
           continue;
         }
         if (!res.ok) throw new Error(`${host}: HTTP ${res.status}`);
@@ -97,8 +101,8 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
         if (!Array.isArray(json.elements)) throw new Error(`${host}: no elements array`);
         return json;
       } catch (e) {
-        lastErr = e;
-        await sleep(2000 * (attempt + 1));
+        lastErr = e; // network error / timeout — try the next host, then back off
+        await sleep(5000 * (round + 1));
       }
     }
   }
