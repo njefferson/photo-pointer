@@ -75,10 +75,16 @@ doing anything.
   only, rejects cc-by-nc/null; geojson + location parsing; mocked-fetch
   pagination stops on short page); iNatWildlife signal dormant→active test; app
   boots zero pageerrors, "Wild subjects" chip renders + DORMANT (0 rows)
-  pre-data; 72 tests, contrast green. NOTE the enrichment fetch is unrun locally
-  (network) — mirrors public-lands; runner will confirm real counts. NEXT: Tier
-  3 #2 = markers (HMdb has NO clean API + copyrighted → license-clean path is
-  Wikidata CC0 for facts + HMdb link-out; it's a SOURCE adapter = re-merge).
+  pre-data; 72 tests, contrast green. RUNNER RESULT (run 29698697538, ~2 min):
+  fetched 6000 obs (the MAX_PAGES cap — total available is larger, so it's the
+  6000 MOST-RECENT, honest/documented), tagged 134 spots (≥3 obs). Mississippi
+  Bar tops it (185 non-bird spp, 979 obs, insects — a real famous American River
+  nature spot, correct); median 4 spp/spot. VERIFIED LIVE: "Wild subjects" → 30
+  rows all crediting it; stacking Wild subjects + Dark sky + Open horizon → spots
+  layering SEVEN signals ("A layered place · Wildlife · Wildlife photographed
+  here · Open view · Open horizon · Public land · Dark sky"), zero pageerrors.
+  NEXT: Tier 3 #2 = markers (HMdb has NO clean API + copyrighted → license-clean
+  path is Wikidata CC0 P7883/P5651 for facts + HMdb link-out; SOURCE adapter).
 - 2026-07-19 0.7.0 "Open horizon" BUILT on staging (awaiting on-device pass +
   a horizon.yml runner pass to tag the data): Tier 2b of the integrations list.
   MEASURED terrain horizon per spot — the distinct-from-`view` layer (`view` is
