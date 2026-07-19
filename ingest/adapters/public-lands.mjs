@@ -23,11 +23,13 @@ export const meta = {
   status: 'working',
 };
 
+// True protected land only. City parks are excluded on purpose — they're
+// already `park` spots, and pulling every named park's full polygon across
+// Sacramento made the `out geom` query too heavy for Overpass (it hung).
 const SELECTORS = [
   'wr["boundary"="protected_area"]',
   'wr["leisure"="nature_reserve"]',
   'wr["boundary"="national_park"]',
-  'wr["leisure"="park"]["name"]',
 ];
 
 export function buildQuery(region) {
