@@ -11470,6 +11470,33 @@
       }
     },
     {
+      "id": "brighton-school@9qcequ",
+      "name": "Brighton School",
+      "lat": 38.56218878,
+      "lng": -121.336610844,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4967715",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.hmdb.org/m.asp?m=704",
+          "first_seen": "2026-07-19",
+          "last_seen": "2026-07-19"
+        }
+      ],
+      "tags": {
+        "hmdb": "704"
+      }
+    },
+    {
       "id": "brock-park@9qcsnj",
       "name": "Brock Park",
       "lat": 38.702736,
