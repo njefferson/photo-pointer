@@ -71,6 +71,9 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 1.3.0 to main (Noah's "Promote"). Production ==
+  origin/staging == 25ebf85 (clean fast-forward from 1.2.1). Seamless
+  auto-update on relaunch + "Check for updates" button are live. staging == main.
 - 2026-07-20 1.3.0 "Updates arrive on their own" BUILT on staging (Noah: "I don't
   like having to force close my app twice every time to see new updates. My kids
   will never get them" + asked for a "force update" button). ROOT CAUSE of the
