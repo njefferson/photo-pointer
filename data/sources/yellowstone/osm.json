@@ -879,7 +879,8 @@
       "notes": null,
       "tags": {
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "wikimedia_commons": "File:Buffalo_Bill_Center_of_the_West_Wyoming1.jpg"
       },
       "sources": [
         {
@@ -3481,7 +3482,8 @@
         "name": "Laurance S. Rockefeller Preserve",
         "wikipedia": "en:Laurance S. Rockefeller Preserve",
         "wikidata": "Q6499630",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "note": "Needs area drawn"
       },
       "sources": [
         {
@@ -4458,7 +4460,8 @@
       "notes": null,
       "tags": {
         "name": "SJ Healing Crossroads Shrine by Scott & Janae Johnson",
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "memorial"
       },
       "sources": [
         {
@@ -7673,7 +7676,8 @@
       "notes": null,
       "tags": {
         "name": "Wildlife Park",
-        "leisure": "park"
+        "leisure": "park",
+        "note": "Donated to be used as a wildlife park."
       },
       "sources": [
         {
@@ -18254,7 +18258,9 @@
         "wikidata": "Q7762661",
         "artwork_type": "statue",
         "historic": "heritage",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "memorial": "statue",
+        "wikimedia_commons": "File:The Scout by Gertrude Vanderbilt Whitney.jpg"
       },
       "sources": [
         {
@@ -41271,7 +41277,8 @@
         "wikidata": "Q14714801",
         "operator": "NPS",
         "historic": "district",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "heritage": "2"
       },
       "sources": [
         {
@@ -44197,7 +44204,10 @@
       "tags": {
         "name": "Michael P. Malone Centennial Mall",
         "description": "...he joined MSU in 1967 as Assistant Professor of History. A prolific scholarly author, his research and public presentations took him to every corner of Montana, his adopted state. With Irish good humor and erudition, he described and analyzed...",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "Michael P. Malone (1940-1999) was an award winning teacher and nationally prominent historian of the American  West who became the tenth President of Montana State University (1991-1999). Born in the small town of Pomeroy, Washington...",
+        "memorial": "plaque",
+        "note": "...the nation's western experience. President Malone presided over the reconstruction of the space around us here. Think of him as he surveyed this beautiful valley and know that you, too, belong to his West."
       },
       "sources": [
         {
@@ -45683,7 +45693,8 @@
         "wikipedia": "en:Heart Mountain Relocation Center",
         "wikidata": "Q5692049",
         "historic": "monument",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "heritage": "2"
       },
       "sources": [
         {
@@ -50332,7 +50343,8 @@
       "notes": null,
       "tags": {
         "name": "Jackson Hole Veteran Monument",
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "war_memorial"
       },
       "sources": [
         {
@@ -50650,7 +50662,8 @@
         "website": "https://www.nps.gov/yell/",
         "operator": "National Park Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "heritage": "1"
       },
       "sources": [
         {
@@ -52174,7 +52187,8 @@
       "notes": null,
       "tags": {
         "name": "Cave Falls Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "note": "pit toilets, water from artisian well"
       },
       "sources": [
         {
@@ -53930,7 +53944,8 @@
         "name": "Town Square",
         "wikipedia": "en:George Washington Memorial Park (Jackson, Wyoming)",
         "wikidata": "Q5546002",
-        "leisure": "park"
+        "leisure": "park",
+        "heritage": "2"
       },
       "sources": [
         {
@@ -55648,7 +55663,8 @@
         "operator": "State of Montana",
         "historic": "yes",
         "leisure": "park",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "note": "This park also contains a Natianal Historic Landmark, Three Forks of the Missouri, but I could not determine its physical location"
       },
       "sources": [
         {
@@ -58183,7 +58199,8 @@
       "notes": null,
       "tags": {
         "description": "One of the cabins of the Hilgard Resort",
-        "historic": "ruins"
+        "historic": "ruins",
+        "note": "It is not an error that this crosses the lakeshore: the cabin ruins are partially submerged."
       },
       "sources": [
         {
@@ -58733,7 +58750,8 @@
         "name": "Queen's Laundry Bath House",
         "wikipedia": "en:Queen's Laundry Bath House",
         "wikidata": "Q7270021",
-        "historic": "ruins"
+        "historic": "ruins",
+        "heritage": "2"
       },
       "sources": [
         {
