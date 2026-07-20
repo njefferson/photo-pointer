@@ -71,6 +71,42 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.4.0 "Two new areas: Hahira, GA & Panama City Beach" BUILT on
+  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: real iPad region-switch
+  to Hahira + Panama City Beach and how those two areas feel). TWO NEW REGIONS
+  added to config/regions.json (a config + data change, no app code): `hahira`
+  = Lowndes County, GA (fips 13185, US-GA-185, bbox 30.5..31.1 / -83.65..-82.95,
+  center Hahira 30.9902,-83.3724) and `panama-city-beach` = Bay County, FL (fips
+  12005, US-FL-005, bbox 29.9..30.65 / -86.05..-85.3, center PCB 30.1766,
+  -85.8055). DATA via ingest-osm.yml runner dispatched on staging (MCP
+  actions_run_trigger): hahira 134 spots (78 oddity, 32 park, 23 marker, 1
+  viewpoint), panama-city-beach 83 spots (64 park, 8 oddity, 6 marker, 4
+  campsite, 1 trailhead). Both validate clean; each region `center` opens on the
+  named town. TWO PIPELINE ROBUSTNESS FIXES were needed because Frame (the eBird
+  source) doesn't cover GA/FL: (1) eBird now SKIPS GRACEFULLY when a region has
+  no committed hotspot snapshot (ebird.mjs snapshotFile/hasSnapshot +
+  cmdEbird guard) instead of aborting `all` — so these two launch with NO bird
+  hotspots for now (add later from the live eBird API, GET ref/hotspot/{region}
+  with an EBIRD_API_TOKEN repo secret — a Noah manual step, not done). (2) the
+  markers 0-guard now only refuses when an EXISTING wikidata.json would be
+  clobbered; a brand-new region with 0 Wikidata markers skips gracefully. WHY:
+  the FIRST hahira run FAILED — OSM fetched 151 places, eBird skipped fine, then
+  `markers: 0 records` (Lowndes County GA has no Wikidata monuments/HMdb items)
+  aborted the whole `all` before merge; PCB had markers and succeeded first try.
+  After the guard fix, re-dispatched hahira → merged. (Note hahira's 23 markers
+  are OSM historic=memorial/monument tags, not Wikidata.) ENRICHMENT LAYERS
+  (bortle/horizon/public-lands/inaturalist/commons) NOT yet run for either
+  region — the documented follow-up (dispatch each workflow with region=hahira /
+  panama-city-beach), exactly how Humboldt/Yellowstone were built up; their
+  synthesis signals stay dormant until then. sw CACHE pointer-1.4.0;
+  changelog[0] 1.4.0. VERIFIED headless (playwright, TZ=LA, tiles blocked as
+  usual): all 5 region pills render incl. both new ones; switch Hahira → h1
+  "photo-pointer — Hahira, GA" + 18 pins mounted after Show all; switch Panama
+  City Beach → 54 pins; switch back to home clean; ZERO pageerrors. 91 tests +
+  contrast green. No new GitHub metadata step (description/website/topics
+  unchanged; regions aren't repo metadata). BRANCH NOTE: the web-task harness
+  designated a `claude/add-hahira-pcb-regions-md0yyb` branch, but per the
+  standing staging-only rule this landed on `staging` (flagged to Noah).
 - 2026-07-20 PROMOTED 1.3.1 to main (Noah's "Promote"). Production ==
   origin/staging == a8c6564 (clean fast-forward from 1.3.0). New app icon +
   matching social-preview.png. Noah CONFIRMED he uploaded the new
