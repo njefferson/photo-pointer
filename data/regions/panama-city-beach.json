@@ -25,7 +25,15 @@
       ],
       "tags": {
         "name": "Aaron Bessant Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.2,
+          "w": -0.1,
+          "site_m": 5
+        }
       }
     },
     {
@@ -58,7 +66,15 @@
         "website": "https://www.fs.usda.gov/florida",
         "operator": "United States Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.1,
+          "e": 0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 8
+        }
       }
     },
     {
@@ -84,7 +100,15 @@
       ],
       "tags": {
         "name": "Asbell Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.3,
+          "e": 0.2,
+          "s": 0.1,
+          "w": -0.0,
+          "site_m": 2
+        }
       }
     },
     {
@@ -110,7 +134,15 @@
       ],
       "tags": {
         "name": "Balfour Beatty Community Recreation Center",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.2,
+          "w": -0.1,
+          "site_m": 7
+        }
       }
     },
     {
@@ -136,7 +168,15 @@
       ],
       "tags": {
         "name": "Bay Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.3,
+          "e": 0.2,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 5
+        }
       }
     },
     {
@@ -162,7 +202,15 @@
       ],
       "tags": {
         "name": "Bonita Bay Recreation Area",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.1,
+          "e": -0.0,
+          "s": 0.1,
+          "w": 0.3,
+          "site_m": 3
+        }
       }
     },
     {
@@ -196,7 +244,15 @@
       ],
       "tags": {
         "name": "Buddy McLemore Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.6,
+          "e": 0.1,
+          "s": 0.2,
+          "w": 0.3,
+          "site_m": 5
+        }
       }
     },
     {
@@ -222,7 +278,15 @@
       ],
       "tags": {
         "name": "Cain Griffin Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": 0.0,
+          "s": 0.1,
+          "w": -0.1,
+          "site_m": 6
+        }
       }
     },
     {
@@ -251,7 +315,15 @@
         "wikipedia": "en:Camp Helen State Park",
         "wikidata": "Q3364025",
         "website": "https://www.floridastateparks.org/parks-and-trails/camp-helen-state-park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.1,
+          "e": 0.0,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 6
+        }
       }
     },
     {
@@ -277,7 +349,15 @@
       ],
       "tags": {
         "name": "Carl Gray Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.4,
+          "w": 0.1,
+          "site_m": 0
+        }
       }
     },
     {
@@ -315,7 +395,15 @@
         "artwork_type": "sculpture",
         "tourism": "attraction",
         "name": "Celebration Tower",
-        "operator": "Pier Park"
+        "operator": "Pier Park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.2,
+          "w": -0.0,
+          "site_m": 5
+        }
       }
     },
     {
@@ -342,7 +430,15 @@
       "tags": {
         "name": "Chickadee Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.2,
+          "w": -0.1,
+          "site_m": 5
+        }
       }
     },
     {
@@ -369,7 +465,15 @@
       "tags": {
         "name": "Cove Park",
         "ele": "5",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 6
+        }
       }
     },
     {
@@ -395,7 +499,15 @@
       ],
       "tags": {
         "name": "Deep Springs Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.1,
+          "e": 0.5,
+          "s": 0.2,
+          "w": -0.0,
+          "site_m": 54
+        }
       }
     },
     {
@@ -423,7 +535,15 @@
         "name": "Denae Park",
         "opening_hours": "24/7",
         "operator": "Denae",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.5,
+          "e": 0.6,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 0
+        }
       }
     },
     {
@@ -449,7 +569,15 @@
       ],
       "tags": {
         "name": "Denae's camping area",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.1,
+          "e": 0.0,
+          "s": -0.0,
+          "w": 0.0,
+          "site_m": 0
+        }
       }
     },
     {
@@ -475,7 +603,15 @@
       ],
       "tags": {
         "name": "Dog Walking Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.0,
+          "s": 0.1,
+          "w": 0.1,
+          "site_m": 3
+        }
       }
     },
     {
@@ -501,7 +637,15 @@
       ],
       "tags": {
         "name": "Earl Gilbert Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.94,
+          "n": 0.3,
+          "e": -0.0,
+          "s": 0.1,
+          "w": 0.1,
+          "site_m": 1
+        }
       }
     },
     {
@@ -527,7 +671,15 @@
       ],
       "tags": {
         "name": "Felix Lake Recreation Area",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 5
+        }
       }
     },
     {
@@ -554,7 +706,15 @@
       "tags": {
         "name": "Frank Brown Park",
         "website": "https://www.pcbfl.gov/departments/parks-recreation-department/parks-facilities/frank-brown-park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.2,
+          "w": 0.1,
+          "site_m": 8
+        }
       }
     },
     {
@@ -580,7 +740,15 @@
       ],
       "tags": {
         "name": "Frank Nelson Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 3
+        }
       }
     },
     {
@@ -607,7 +775,15 @@
       "tags": {
         "name": "George Park",
         "ele": "5",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.1,
+          "e": 0.1,
+          "s": 0.3,
+          "w": 0.1,
+          "site_m": 4
+        }
       }
     },
     {
@@ -633,7 +809,15 @@
       ],
       "tags": {
         "name": "Grove Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": 0.0,
+          "site_m": 3
+        }
       }
     },
     {
@@ -659,7 +843,15 @@
       ],
       "tags": {
         "name": "Harvey De Mathis Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.2,
+          "w": -0.1,
+          "site_m": 6
+        }
       }
     },
     {
@@ -685,7 +877,15 @@
       ],
       "tags": {
         "name": "Henry Brooks Memorial Walking Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.0,
+          "s": 0.3,
+          "w": -0.1,
+          "site_m": 9
+        }
       }
     },
     {
@@ -711,7 +911,15 @@
       ],
       "tags": {
         "name": "Heritage Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.96,
+          "n": 0.5,
+          "e": 0.3,
+          "s": 0.6,
+          "w": -0.1,
+          "site_m": 2
+        }
       }
     },
     {
@@ -737,7 +945,15 @@
       ],
       "tags": {
         "name": "HG Harders Recreational Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.94,
+          "n": 0.1,
+          "e": 0.7,
+          "s": 0.1,
+          "w": 0.5,
+          "site_m": 12
+        }
       }
     },
     {
@@ -763,7 +979,15 @@
       ],
       "tags": {
         "name": "James E. Rogers Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.2,
+          "w": -0.1,
+          "site_m": 5
+        }
       }
     },
     {
@@ -789,7 +1013,15 @@
       ],
       "tags": {
         "name": "Joe Moody Harris Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.5,
+          "e": 0.4,
+          "s": 0.1,
+          "w": 0.1,
+          "site_m": 7
+        }
       }
     },
     {
@@ -816,7 +1048,15 @@
       "tags": {
         "name": "Kenneth R. Hammons Park",
         "operator": "City of Panama City",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.88,
+          "n": 1.1,
+          "e": 0.6,
+          "s": 0.0,
+          "w": 1.1,
+          "site_m": 5
+        }
       }
     },
     {
@@ -842,7 +1082,15 @@
       ],
       "tags": {
         "name": "A.L. Kinsaul Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.1,
+          "e": 0.1,
+          "s": 0.1,
+          "w": -0.0,
+          "site_m": 1
+        }
       }
     },
     {
@@ -868,7 +1116,15 @@
       ],
       "tags": {
         "name": "Lake Powell Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 4
+        }
       }
     },
     {
@@ -894,7 +1150,15 @@
       ],
       "tags": {
         "name": "Leslie Porter Wayside Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.0,
+          "e": 0.1,
+          "s": 0.1,
+          "w": -0.0,
+          "site_m": 2
+        }
       }
     },
     {
@@ -920,7 +1184,15 @@
       ],
       "tags": {
         "name": "Lynn Haven Sports Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": 0.0,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 12
+        }
       }
     },
     {
@@ -946,7 +1218,15 @@
       ],
       "tags": {
         "name": "Maggi Still Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 8
+        }
       }
     },
     {
@@ -972,7 +1252,15 @@
       ],
       "tags": {
         "name": "Maxwell Flag Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 9
+        }
       }
     },
     {
@@ -998,7 +1286,15 @@
       ],
       "tags": {
         "name": "McKenzie Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.0,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 6
+        }
       }
     },
     {
@@ -1024,7 +1320,15 @@
       ],
       "tags": {
         "name": "Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": 0.0,
+          "s": 0.1,
+          "w": -0.1,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1050,7 +1354,15 @@
       ],
       "tags": {
         "name": "Mexico Beach Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 5
+        }
       }
     },
     {
@@ -1078,7 +1390,15 @@
         "name": "Millville Waterfront Park",
         "website": "https://www.panamacity.gov/Facilities/Facility/Details/Millville-Waterfront-Park-33",
         "operator": "Panama City Parks Culture and Recreation",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.2,
+          "e": 0.5,
+          "s": 0.5,
+          "w": 0.2,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1106,7 +1426,15 @@
         "name": "Oakland Terrace Park",
         "ele": "10",
         "opening_hours": "sunrise-sunset",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 11
+        }
       }
     },
     {
@@ -1132,7 +1460,15 @@
       ],
       "tags": {
         "name": "Oaks By The Bay Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 4
+        }
       }
     },
     {
@@ -1160,7 +1496,15 @@
       ],
       "tags": {
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1188,7 +1532,15 @@
       ],
       "tags": {
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 0.94,
+          "n": 0.9,
+          "e": 0.1,
+          "s": 0.1,
+          "w": 0.4,
+          "site_m": 4
+        }
       }
     },
     {
@@ -1216,7 +1568,15 @@
       ],
       "tags": {
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": 0.0,
+          "s": 0.1,
+          "w": -0.1,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1243,7 +1603,15 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": 0.0,
+          "site_m": 54
+        }
       }
     },
     {
@@ -1270,7 +1638,15 @@
       "tags": {
         "name": "Oliver Stadium",
         "ele": "10",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 10
+        }
       }
     },
     {
@@ -1299,7 +1675,15 @@
       "tags": {
         "name": "Panama City 9/11 Memorial",
         "historic": "memorial",
-        "memorial": "statue"
+        "memorial": "statue",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.2,
+          "e": 0.2,
+          "s": 0.0,
+          "w": -0.0,
+          "site_m": 2
+        }
       }
     },
     {
@@ -1325,7 +1709,15 @@
       ],
       "tags": {
         "name": "Panama City Beach Conservation Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 11
+        }
       }
     },
     {
@@ -1351,7 +1743,15 @@
       ],
       "tags": {
         "name": "Panama City Beach Sports Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": 0.0,
+          "w": 0.0,
+          "site_m": 2
+        }
       }
     },
     {
@@ -1385,7 +1785,15 @@
         "operator": "Panama City Beach Parks and Recreation",
         "historic": "memorial",
         "tourism": "attraction",
-        "memorial": "war_memorial"
+        "memorial": "war_memorial",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.2,
+          "e": 0.2,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 4
+        }
       }
     },
     {
@@ -1413,7 +1821,15 @@
       ],
       "tags": {
         "name": "Panama City Flame",
-        "historic": "memorial"
+        "historic": "memorial",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.2,
+          "e": 0.2,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1439,7 +1855,15 @@
       ],
       "tags": {
         "name": "Park Under the Palms",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.0,
+          "s": 0.1,
+          "w": -0.1,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1465,7 +1889,15 @@
       ],
       "tags": {
         "name": "Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": 0.0,
+          "s": 0.1,
+          "w": 0.0,
+          "site_m": 4
+        }
       }
     },
     {
@@ -1491,7 +1923,15 @@
       ],
       "tags": {
         "name": "Parker Sports Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 7
+        }
       }
     },
     {
@@ -1526,6 +1966,14 @@
           "name": "Pine Log State Forest",
           "class": "protected_area",
           "operator": null
+        },
+        "horizon": {
+          "open": 0.98,
+          "n": 0.1,
+          "e": 0.2,
+          "s": 0.2,
+          "w": -0.1,
+          "site_m": 12
         }
       }
     },
@@ -1560,7 +2008,15 @@
       ],
       "tags": {
         "name": "Pinnacle Dog Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 2
+        }
       }
     },
     {
@@ -1587,7 +2043,15 @@
       "tags": {
         "name": "Point Washington Wildlife Management Area",
         "ele": "15",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 14
+        }
       }
     },
     {
@@ -1613,7 +2077,16 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "horizon": {
+          "open": 0.92,
+          "n": 0.2,
+          "e": 0.9,
+          "s": 0.6,
+          "w": 0.6,
+          "site_m": 28
+        }
+      }
     },
     {
       "id": "raccoon-river-campground@dj6gyb",
@@ -1639,7 +2112,15 @@
       "tags": {
         "name": "Raccoon River Campground",
         "website": "http://raccoonriver.net/",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.0,
+          "e": 0.1,
+          "s": 0.0,
+          "w": 0.3,
+          "site_m": 4
+        }
       }
     },
     {
@@ -1665,7 +2146,15 @@
       ],
       "tags": {
         "name": "Richard Seltzer Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.0,
+          "s": -0.2,
+          "w": -0.1,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1691,7 +2180,15 @@
       ],
       "tags": {
         "name": "Rick Seltzer Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 2
+        }
       }
     },
     {
@@ -1717,7 +2214,15 @@
       ],
       "tags": {
         "name": "Russell-Fields City Pier",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 7
+        }
       }
     },
     {
@@ -1747,7 +2252,15 @@
         "fee": "yes",
         "access": "customers",
         "operator": "Florida State Parks",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 6
+        }
       }
     },
     {
@@ -1779,7 +2292,15 @@
         "website": "https://www.floridastateparks.org/parks-and-trails/st-andrews-state-park",
         "opening_hours": "08:00-sunset",
         "operator": "Florida State Parks",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 1
+        }
       }
     },
     {
@@ -1805,7 +2326,15 @@
       ],
       "tags": {
         "name": "Scott Field Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 9
+        }
       }
     },
     {
@@ -1832,7 +2361,15 @@
       "tags": {
         "name": "Sea Screamer",
         "website": "https://seascreamer.net/",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.8,
+          "e": 0.0,
+          "s": 0.0,
+          "w": 0.0,
+          "site_m": 2
+        }
       }
     },
     {
@@ -1858,7 +2395,15 @@
       ],
       "tags": {
         "name": "Sharon J. Sheffield Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": 0.1,
+          "s": 0.0,
+          "w": -0.1,
+          "site_m": 4
+        }
       }
     },
     {
@@ -1892,6 +2437,14 @@
           "name": "Shell Island",
           "class": "nature_reserve",
           "operator": "United States Fish and Wildlife Service"
+        },
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": 0.0,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 3
         }
       }
     },
@@ -1918,7 +2471,15 @@
       ],
       "tags": {
         "name": "Snug Harbor Public Boat Launch",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.93,
+          "n": 0.4,
+          "e": 0.7,
+          "s": 0.4,
+          "w": 0.2,
+          "site_m": 3
+        }
       }
     },
     {
@@ -1944,7 +2505,15 @@
       ],
       "tags": {
         "name": "Southport Ball Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 4
+        }
       }
     },
     {
@@ -1971,7 +2540,15 @@
       "tags": {
         "name": "Spring Valley Walking Park",
         "operator": "Bay County",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 10
+        }
       }
     },
     {
@@ -1997,7 +2574,15 @@
       ],
       "tags": {
         "name": "Springfield Gardens Walking Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.2,
+          "e": 0.2,
+          "s": -0.1,
+          "w": 0.5,
+          "site_m": 7
+        }
       }
     },
     {
@@ -2022,7 +2607,15 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.2,
+          "e": 0.2,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 64
+        }
       }
     },
     {
@@ -2048,7 +2641,15 @@
       ],
       "tags": {
         "name": "Trap Pond Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "horizon": {
+          "open": 0.9,
+          "n": 0.8,
+          "e": 0.4,
+          "s": 0.0,
+          "w": 0.5,
+          "site_m": 44
+        }
       }
     },
     {
@@ -2075,7 +2676,15 @@
       "tags": {
         "name": "Truesdell Park",
         "ele": "4",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": 0.2,
+          "site_m": 4
+        }
       }
     },
     {
@@ -2103,7 +2712,15 @@
       ],
       "tags": {
         "name": "Tyndall Air Field Gunnery School",
-        "historic": "memorial"
+        "historic": "memorial",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.2,
+          "w": -0.1,
+          "site_m": 10
+        }
       }
     },
     {
@@ -2129,7 +2746,15 @@
       ],
       "tags": {
         "name": "Under The Oaks Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.2,
+          "e": -0.0,
+          "s": 0.4,
+          "w": 0.1,
+          "site_m": 3
+        }
       }
     },
     {
@@ -2157,7 +2782,15 @@
       ],
       "tags": {
         "name": "Veterans Memorial",
-        "historic": "memorial"
+        "historic": "memorial",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.2,
+          "w": -0.1,
+          "site_m": 5
+        }
       }
     },
     {
@@ -2183,7 +2816,15 @@
       ],
       "tags": {
         "name": "Whittington Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.93,
+          "n": 1.0,
+          "e": 0.2,
+          "s": 0.1,
+          "w": 0.2,
+          "site_m": 4
+        }
       }
     },
     {
@@ -2209,7 +2850,15 @@
       ],
       "tags": {
         "name": "Wild Thang Airboat Tours",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.2,
+          "e": -0.0,
+          "s": 0.1,
+          "w": 0.3,
+          "site_m": 1
+        }
       }
     },
     {
@@ -2235,7 +2884,15 @@
       ],
       "tags": {
         "name": "Youngstown/Fountain Recreational Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": 0.6,
+          "site_m": 43
+        }
       }
     },
     {
@@ -2261,7 +2918,15 @@
       ],
       "tags": {
         "name": "Zoom Flume",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.2,
+          "w": -0.2,
+          "site_m": 13
+        }
       }
     }
   ]
