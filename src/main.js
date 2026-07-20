@@ -102,6 +102,28 @@ function openTopSpots() {
   topSpotsPanel(ranking(), (spot) => mapView?.focusSpot(spot));
 }
 
+// The pop-up shown on open when nothing is selected: says why the map is empty
+// and offers a one-tap "Show all" so a new arrival is never staring at a blank.
+function showStartTip() {
+  const dlg = el('dialog', { class: 'tip-dialog' }, [
+    el('h2', {}, 'Turn on a pin type to begin'),
+    el('p', {}, 'The map opens with every category switched off, so it starts empty. Turn on at least one pin type — viewpoints, markers, parks, wildlife spots and more — to see places near you.'),
+    el('div', { class: 'dialog-row' }, [
+      el('button', {
+        class: 'tip-primary',
+        onClick: (e) => { applyVisible(allCategories()); e.target.closest('dialog').close(); },
+      }, 'Show all pins'),
+      el('button', {
+        class: 'dialog-close',
+        onClick: (e) => e.target.closest('dialog').close(),
+      }, 'I’ll choose'),
+    ]),
+  ]);
+  document.body.append(dlg);
+  dlg.addEventListener('close', () => dlg.remove());
+  dlg.showModal();
+}
+
 function openDataDialog() {
   const dlg = el('dialog', { class: 'data-dialog' }, [
     el('h2', {}, 'Backup & data'),
@@ -203,6 +225,11 @@ async function boot() {
   refresh();
   // Opening frame: geolocate on the home region, fit-bounds on the others.
   mapView.setRegion(region, { locate: region.id === regionsDoc.default });
+
+  // The map opens with every category off, so on first sight it's empty. Greet a
+  // new arrival with a popup explaining they need to turn on a pin type. (The
+  // header keeps a quieter standing tip too, for after this is dismissed.)
+  if (currentVisible().size === 0) showStartTip();
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});
