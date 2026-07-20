@@ -1,12 +1,14 @@
 // Service worker — offline-first, per the house pattern.
 // CACHE bumps with every release (keep in sync with NOTES.md release log).
-const CACHE = 'pointer-1.3.0';
+const CACHE = 'pointer-1.3.1';
 
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icon.svg',
+  './apple-touch-icon.png',
+  './icon-192.png',
+  './icon-512.png',
   './config/regions.json',
   // Precache the DEFAULT region only; other regions runtime-cache on first
   // visit (stale-while-revalidate below), like Frame's featured-vs-visited split.

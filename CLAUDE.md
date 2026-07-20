@@ -71,6 +71,29 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.3.1 "A brand-new icon" BUILT on staging (Noah: the old dark-brown
+  #2e2618 pin-on-square icon was "poop brown"; he generated a new one with
+  another AI — the camera-aperture map pin over a bright golden-hour valley
+  (mountains, pines, stone bridge, river, a dirt trail, and a CA historical-
+  landmark sign). He iterated once: v1's busy tall foreground grass → v2 swapped
+  it for a calmer dirt trail/river foreground, which he chose. ASSET PIPELINE
+  (sharp, installed from npm in the repo dir — sandbox reaches registry.npmjs.org):
+  source at assets/icon-source.png (1254², kept for regen). The source had baked
+  ROUNDED CORNERS with a black border (radius ≈222px, black reaching ~66px along
+  the diagonal), so scripts cropped an 80px inset each side → clean full-bleed
+  square (no black, ~6% edge loss), then resized to apple-touch-icon.png (180),
+  icon-192.png, icon-512.png (flatten #fff, opaque). Full-bleed so iOS/Android
+  apply their OWN mask — never bake rounding/black into an icon PNG. index.html
+  rel=icon → icon-192.png; manifest icons → 192+512 png "any"; sw.js precaches
+  the three PNGs; OLD icon.svg DELETED (all refs updated). sw CACHE pointer-1.3.1;
+  changelog[0] 1.3.1. VERIFIED: post-crop corners are sky/ground not black;
+  renders clean + legible (pin is the hero) at 60/120/180; manifest valid JSON;
+  91 tests + contrast + smoke48 green, zero pageerrors. NEEDS NOAH'S HANDS +
+  IOS CAVEAT: iOS captures a PWA's home-screen icon AT INSTALL time, so an
+  already-installed app won't show the new icon until he REMOVES it from the home
+  screen and re-adds it (Share → Add to Home Screen); new installs get it
+  automatically. To regenerate icons from a new source: sharp crop-inset +
+  resize (see this entry).
 - 2026-07-20 PROMOTED 1.3.0 to main (Noah's "Promote"). Production ==
   origin/staging == 25ebf85 (clean fast-forward from 1.2.1). Seamless
   auto-update on relaunch + "Check for updates" button are live. staging == main.

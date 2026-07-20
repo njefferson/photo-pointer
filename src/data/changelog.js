@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
+  { v: '1.3.1', t: 'A brand-new icon', n: 'photo-pointer has a fresh home-screen icon — the camera-lens map pin standing in a bright golden-hour valley, mountains and river behind it.' },
   { v: '1.3.0', t: 'Updates arrive on their own', n: 'photo-pointer now refreshes itself to the newest version the next time you open it — no more closing the app twice to see changes. There’s also a “Check for updates” button under ⓘ to pull the latest right away.' },
   { v: '1.2.1', t: 'Photo button is readable', n: 'Fixed the “View the photos on Commons” and “See the wildlife on iNaturalist” buttons, whose label was rendering the same blue as the button — now clear white text on blue, legible at a glance.' },
   { v: '1.2.0', t: 'A map legend, clearer links & pin help', n: 'A collapsible Legend on the map explains every pin — the category letters, the gold ring for places with photos nearby, and the neutral number circle for a cluster. Photo and wildlife links now stand out as buttons instead of hiding in a sentence. Tapping a place in Top spots reliably flies to it and stays centred there, and the Top-spots layer filters now narrow the map itself (with a clear “Show all” to exit). The About panel explains how to drop and manage your own pins, the Top-spots button has its own icon, and the “My pins” filter reads right.' },
