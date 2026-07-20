@@ -1,16 +1,18 @@
 // Service worker — offline-first, per the house pattern.
 // CACHE bumps with every release (keep in sync with NOTES.md release log).
-const CACHE = 'pointer-0.12.0';
+const CACHE = 'pointer-0.13.0';
 
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
   './icon.svg',
-  './config/region.json',
-  './data/spots.json',
-  './data/layers/light-pollution.json',
-  './data/layers/light-pollution.png',
+  './config/regions.json',
+  // Precache the DEFAULT region only; other regions runtime-cache on first
+  // visit (stale-while-revalidate below), like Frame's featured-vs-visited split.
+  './data/regions/sac-eldorado-placer.json',
+  './data/layers/sac-eldorado-placer/light-pollution.json',
+  './data/layers/sac-eldorado-placer/light-pollution.png',
   './src/main.js',
   './src/styles.css',
   './src/model/geo.js',

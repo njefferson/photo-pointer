@@ -11,6 +11,9 @@ name: Light pollution ingest
 on:
   workflow_dispatch:
     inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
       zip_id:
         description: Google Drive file id of World_Atlas_2015.zip
         default: '14fJT5hLJ8chU3xOSfHBo36SbF1NIN1pL'
@@ -25,6 +28,8 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
     steps:
       - uses: actions/checkout@v5
       - name: Install GDAL
@@ -50,17 +55,17 @@ jobs:
         run: gdalinfo -mm "$TIF" 2>&1 | grep -iE 'Driver|Size is|Coordinate|Origin|Pixel Size|Band|Type=|Min/Max|NoData|Computed' | head -30
       - name: Crop to region + build Bortle layer
         run: |
-          mkdir -p data/layers
+          mkdir -p "data/layers/$REGION"
           # region bbox from config/region.json: W N E S
           gdal_translate -q -projwin -121.95 39.4 -119.85 38.0 "$TIF" region.tif
           gdalinfo -mm region.tif | grep -iE 'Size is|Computed Min/Max' | head
-          python3 scripts/build-light-pollution.py region.tif data/spots.json data/layers/light-pollution.png data/layers/light-pollution.json "$(date -u +%F)"
+          python3 scripts/build-light-pollution.py region.tif "data/regions/$REGION.json" "data/layers/$REGION/light-pollution.png" "data/layers/$REGION/light-pollution.json" "$(date -u +%F)"
           ls -la data/layers/
       - name: Commit derived layer
         run: |
           git config user.name "photo-pointer ingest"
           git config user.email "actions@users.noreply.github.com"
-          git add data/layers data/spots.json
+          git add data/
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "Add the dark-sky layer: a Bortle rating for every spot, and a map overlay" -m "Every spot now carries a Bortle sky-darkness rating from the World Atlas of Artificial Night Sky Brightness (Falchi et al. 2016, CC BY-NC 4.0), and the map gains a dark-sky overlay."
           for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

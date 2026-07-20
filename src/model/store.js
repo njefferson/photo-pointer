@@ -11,6 +11,7 @@ const K_PINS = 'pointer.userPins';
 // none (all off). The v1 key used empty to mean "all on" — bumping avoids that
 // stale meaning flipping a returning user's view.
 const K_FILTERS = 'pointer.filters.v2';
+const K_REGION = 'pointer.region';
 
 function read(key, fallback) {
   try {
@@ -73,6 +74,14 @@ export function restoreUserPin(pin) {
   const pins = userPins().filter((p) => p.id !== pin.id);
   pins.push(pin);
   write(K_PINS, pins);
+}
+
+export function activeRegionId() {
+  return read(K_REGION, null);
+}
+
+export function setActiveRegionId(id) {
+  write(K_REGION, id);
 }
 
 export function activeFilters() {

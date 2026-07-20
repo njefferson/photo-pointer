@@ -6,10 +6,11 @@
 import * as L from '../vendor/leaflet.js';
 import { el } from './dom.js';
 
-export async function loadLightLayer() {
+export async function loadLightLayer(regionId) {
+  const base = `./data/layers/${regionId}`;
   let meta;
   try {
-    const res = await fetch('./data/layers/light-pollution.json', { cache: 'no-cache' });
+    const res = await fetch(`${base}/light-pollution.json`, { cache: 'no-cache' });
     if (!res.ok) return null;
     meta = await res.json();
   } catch {
@@ -17,7 +18,7 @@ export async function loadLightLayer() {
   }
   const b = meta.bounds;
   const overlay = L.imageOverlay(
-    './data/layers/light-pollution.png',
+    `${base}/light-pollution.png`,
     [[b.south, b.west], [b.north, b.east]],
     { opacity: 0.6, interactive: false, alt: 'Dark-sky (light pollution) overlay' }
   );

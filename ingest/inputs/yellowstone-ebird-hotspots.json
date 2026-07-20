@@ -1,0 +1,5784 @@
+{
+  "source": "ebird",
+  "region": "yellowstone",
+  "note": "Hotspot identity + location only, imported from Bird-location-scouting county data. Observation frequencies omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
+  "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+  "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+  "countyBuilt": {
+    "US-WY-029": "2026-07-18",
+    "US-WY-039": "2026-07-18",
+    "US-MT-031": "2026-07-18",
+    "US-MT-067": "2026-07-18",
+    "US-ID-043": "2026-07-18"
+  },
+  "hotspots": [
+    {
+      "locId": "L10035891",
+      "name": "Graf Park",
+      "lat": 45.6517,
+      "lng": -111.0377,
+      "nSpecies": 104,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L10124484",
+      "name": "Penwell Bridge Rd.",
+      "lat": 45.8049,
+      "lng": -111.1469,
+      "nSpecies": 92,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L10213921",
+      "name": "Fish Creek Rd",
+      "lat": 43.5294,
+      "lng": -110.8598,
+      "nSpecies": 84,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L10306287",
+      "name": "Swamp Rd.",
+      "lat": 45.8415,
+      "lng": -111.2011,
+      "nSpecies": 129,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L10313937",
+      "name": "Emigrant Rest Area",
+      "lat": 45.2955,
+      "lng": -110.8344,
+      "nSpecies": 99,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1046984",
+      "name": "Convict Grade Rd.",
+      "lat": 45.7303,
+      "lng": -110.3934,
+      "nSpecies": 97,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1051463",
+      "name": "Logan Bridge",
+      "lat": 45.8861,
+      "lng": -111.4421,
+      "nSpecies": 110,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1058980",
+      "name": "Carpenter Road",
+      "lat": 45.9053,
+      "lng": -111.4756,
+      "nSpecies": 133,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1064290",
+      "name": "Yellowstone NP--Cascade Lake & Trail",
+      "lat": 44.7522,
+      "lng": -110.5163,
+      "nSpecies": 110,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L10793130",
+      "name": "Carter's Bridge FAS",
+      "lat": 45.5977,
+      "lng": -110.5661,
+      "nSpecies": 89,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L10952715",
+      "name": "Enos Lake",
+      "lat": 43.9868,
+      "lng": -110.2463,
+      "nSpecies": 3,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L11015869",
+      "name": "Blue Creek",
+      "lat": 44.229,
+      "lng": -111.5983,
+      "nSpecies": 1,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L11101745",
+      "name": "Island Park Reservoir--West End",
+      "lat": 44.3894,
+      "lng": -111.549,
+      "nSpecies": 95,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L11125134",
+      "name": "Yellowstone NP--Amphitheater Creek (below timberline)",
+      "lat": 44.9433,
+      "lng": -110.0415,
+      "nSpecies": 9,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1119778",
+      "name": "Grand Teton NP--Kelly Warm Springs",
+      "lat": 43.6394,
+      "lng": -110.6162,
+      "nSpecies": 121,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L11203729",
+      "name": "Grand Teton NP--Garnet Canyon",
+      "lat": 43.7253,
+      "lng": -110.7823,
+      "nSpecies": 64,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L11213323",
+      "name": "Grand Teton NP--Paintbrush Canyon",
+      "lat": 43.7962,
+      "lng": -110.7774,
+      "nSpecies": 84,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L11350370",
+      "name": "Rocky Mountain Rd--Pass Creek Rd south",
+      "lat": 45.9119,
+      "lng": -111.0769,
+      "nSpecies": 85,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1145057",
+      "name": "Chester Wetlands",
+      "lat": 44.0186,
+      "lng": -111.5833,
+      "nSpecies": 194,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1145080",
+      "name": "Ashton Fish Hatchery",
+      "lat": 44.0567,
+      "lng": -111.4913,
+      "nSpecies": 61,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L11471285",
+      "name": "Divide Lake",
+      "lat": 44.9121,
+      "lng": -111.0512,
+      "nSpecies": 33,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1148948",
+      "name": "Missouri Headwaters SP--Boat Launch",
+      "lat": 45.9399,
+      "lng": -111.4905,
+      "nSpecies": 155,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L11530733",
+      "name": "Home 40 Ponds (restricted access)",
+      "lat": 45.6024,
+      "lng": -111.0781,
+      "nSpecies": 97,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L11554595",
+      "name": "Jackson Creek Rd",
+      "lat": 45.6993,
+      "lng": -110.8313,
+      "nSpecies": 83,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L11554657",
+      "name": "Jackson Creek forest Rd # 977",
+      "lat": 45.6952,
+      "lng": -110.8017,
+      "nSpecies": 113,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L11570251",
+      "name": "Harriman State Park",
+      "lat": 44.323,
+      "lng": -111.4604,
+      "nSpecies": 214,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L11593797",
+      "name": "Mayor's Landing",
+      "lat": 45.6667,
+      "lng": -110.5397,
+      "nSpecies": 89,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L11621372",
+      "name": "Yellowstone NP--Slough Creek Trail (trailhead to first meadow)",
+      "lat": 44.9513,
+      "lng": -110.277,
+      "nSpecies": 137,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L11669971",
+      "name": "Jackson National Fish Hatchery",
+      "lat": 43.5352,
+      "lng": -110.7338,
+      "nSpecies": 126,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L11673300",
+      "name": "North Cottonwood Trail",
+      "lat": 45.9191,
+      "lng": -111.0621,
+      "nSpecies": 90,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1167612",
+      "name": "Pine Creek Bridge",
+      "lat": 45.5117,
+      "lng": -110.5833,
+      "nSpecies": 99,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1169119",
+      "name": "Livingston--Bell's Ferry",
+      "lat": 45.5875,
+      "lng": -110.5737,
+      "nSpecies": 71,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L11730084",
+      "name": "Cabin Creek Campground",
+      "lat": 44.8716,
+      "lng": -111.3424,
+      "nSpecies": 65,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L11757244",
+      "name": "Upper Sunshine Reservoir",
+      "lat": 44.0577,
+      "lng": -109.0737,
+      "nSpecies": 77,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L11757764",
+      "name": "Yellowstone NP--Mammoth (town)",
+      "lat": 44.9752,
+      "lng": -110.6978,
+      "nSpecies": 102,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L11758106",
+      "name": "Lower Sunshine Reservoir",
+      "lat": 44.0866,
+      "lng": -108.9881,
+      "nSpecies": 82,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1178194",
+      "name": "Fisherman Drive at  East Rim Loop",
+      "lat": 44.1008,
+      "lng": -111.3879,
+      "nSpecies": 94,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1178209",
+      "name": "Fall River at State Hwy. 32",
+      "lat": 44.021,
+      "lng": -111.4297,
+      "nSpecies": 52,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1178245",
+      "name": "Lemon Lake",
+      "lat": 44.0675,
+      "lng": -111.56,
+      "nSpecies": 52,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1178279",
+      "name": "Henry's Fork 3300 E Wetlands",
+      "lat": 44.0654,
+      "lng": -111.4963,
+      "nSpecies": 29,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L11847138",
+      "name": "West Pine Creek Trail FS #139",
+      "lat": 45.5096,
+      "lng": -110.7646,
+      "nSpecies": 46,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1185840",
+      "name": "Swan Lake (Fremont Co.)",
+      "lat": 44.2902,
+      "lng": -111.4612,
+      "nSpecies": 121,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L11882221",
+      "name": "Bridger Mountain Trail",
+      "lat": 45.8013,
+      "lng": -110.9439,
+      "nSpecies": 41,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L11882563",
+      "name": "Truman Gulch Trail #535",
+      "lat": 45.8235,
+      "lng": -110.9856,
+      "nSpecies": 68,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1191154",
+      "name": "Grand Teton NP--Willow Flats",
+      "lat": 43.8688,
+      "lng": -110.5729,
+      "nSpecies": 146,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L11918138",
+      "name": "North Fork Deep Creek Trail",
+      "lat": 45.5488,
+      "lng": -110.425,
+      "nSpecies": 54,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L11937661",
+      "name": "Yellowstone NP--Lower Falls of the Yellowstone",
+      "lat": 44.7183,
+      "lng": -110.4964,
+      "nSpecies": 111,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L11961687",
+      "name": "Clark's Fork Picnic Area",
+      "lat": 45.0176,
+      "lng": -109.8693,
+      "nSpecies": 41,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1197080",
+      "name": "Yellowstone NP--Clear Lake Trail",
+      "lat": 44.713,
+      "lng": -110.4795,
+      "nSpecies": 100,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L11971200",
+      "name": "Bracket Creek Trail",
+      "lat": 45.8587,
+      "lng": -110.8799,
+      "nSpecies": 89,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L11981704",
+      "name": "Lily Lake and Campground",
+      "lat": 44.9457,
+      "lng": -109.7124,
+      "nSpecies": 38,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L12009593",
+      "name": "Yellowstone NP--Lake Yellowstone at Lake Lodge",
+      "lat": 44.5542,
+      "lng": -110.3929,
+      "nSpecies": 127,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1202839",
+      "name": "McCrea Bridge",
+      "lat": 44.4635,
+      "lng": -111.4029,
+      "nSpecies": 61,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1204413",
+      "name": "Yellowstone NP--Trout Lake & Trail",
+      "lat": 44.8988,
+      "lng": -110.1247,
+      "nSpecies": 142,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L12050721",
+      "name": "Springdale Bridge FAS",
+      "lat": 45.7432,
+      "lng": -110.2311,
+      "nSpecies": 63,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L12054108",
+      "name": "Storm Castle Trail #185",
+      "lat": 45.4095,
+      "lng": -111.041,
+      "nSpecies": 50,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1208220",
+      "name": "ID20 Henry's Fork Bridge",
+      "lat": 44.5009,
+      "lng": -111.3366,
+      "nSpecies": 79,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1208224",
+      "name": "Island Park Public Library",
+      "lat": 44.5143,
+      "lng": -111.3314,
+      "nSpecies": 50,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L12088018",
+      "name": "Bridger-Teton NF--Nelson Dr Trailhead & nearby trails",
+      "lat": 43.4763,
+      "lng": -110.7406,
+      "nSpecies": 95,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1209139",
+      "name": "Ponds Lodge Bridge",
+      "lat": 44.4221,
+      "lng": -111.3714,
+      "nSpecies": 83,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1209157",
+      "name": "Sawtell Peak",
+      "lat": 44.5621,
+      "lng": -111.4451,
+      "nSpecies": 56,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1209173",
+      "name": "Sawtell Peak Rd.",
+      "lat": 44.5445,
+      "lng": -111.4133,
+      "nSpecies": 102,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1210757",
+      "name": "Lower Mesa Falls",
+      "lat": 44.1753,
+      "lng": -111.3167,
+      "nSpecies": 75,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L12108780",
+      "name": "Sheep Bridge Trail",
+      "lat": 43.7556,
+      "lng": -110.9769,
+      "nSpecies": 67,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L12133637",
+      "name": "Teton Canyon Trailhead",
+      "lat": 43.7571,
+      "lng": -110.9176,
+      "nSpecies": 64,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L12133673",
+      "name": "Table Mountain--above timeline",
+      "lat": 43.7467,
+      "lng": -110.8521,
+      "nSpecies": 40,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L12139496",
+      "name": "Lower Green Lake",
+      "lat": 43.8347,
+      "lng": -110.9006,
+      "nSpecies": 49,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L12139525",
+      "name": "Green Mountain Trail",
+      "lat": 43.8487,
+      "lng": -110.9273,
+      "nSpecies": 75,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L12161000",
+      "name": "Hick's Park Campground",
+      "lat": 45.2972,
+      "lng": -110.2399,
+      "nSpecies": 56,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1216484",
+      "name": "Buffalo River Viewpoint",
+      "lat": 44.4142,
+      "lng": -111.3915,
+      "nSpecies": 85,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1216784",
+      "name": "Flat Ranch Preserve",
+      "lat": 44.5715,
+      "lng": -111.3282,
+      "nSpecies": 91,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1223385",
+      "name": "Ashton Reservoir--Boat Launch",
+      "lat": 44.1116,
+      "lng": -111.4556,
+      "nSpecies": 100,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1235879",
+      "name": "Palisade Falls Area",
+      "lat": 45.4688,
+      "lng": -110.9388,
+      "nSpecies": 88,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235891",
+      "name": "Grotto Falls Area",
+      "lat": 45.4443,
+      "lng": -110.9627,
+      "nSpecies": 60,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235897",
+      "name": "Sourdough Nature Trail",
+      "lat": 45.6398,
+      "lng": -111.0307,
+      "nSpecies": 193,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235908",
+      "name": "Langohr Campground",
+      "lat": 45.5344,
+      "lng": -111.0164,
+      "nSpecies": 93,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235911",
+      "name": "M Trail",
+      "lat": 45.71,
+      "lng": -110.9771,
+      "nSpecies": 132,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235917",
+      "name": "Kirk Hill Nature Trail",
+      "lat": 45.5905,
+      "lng": -111.0633,
+      "nSpecies": 122,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235919",
+      "name": "Triple Tree Trail",
+      "lat": 45.6112,
+      "lng": -111.0014,
+      "nSpecies": 149,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235933",
+      "name": "Trail Creek Rd.--West",
+      "lat": 45.6313,
+      "lng": -110.8582,
+      "nSpecies": 97,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1235935",
+      "name": "Trail Creek Rd.--East",
+      "lat": 45.5347,
+      "lng": -110.7168,
+      "nSpecies": 90,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1235995",
+      "name": "Fowler Lane",
+      "lat": 45.6368,
+      "lng": -111.0835,
+      "nSpecies": 114,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1236265",
+      "name": "Grand Teton NP--Moose-Wilson Road (please use more precise locations)",
+      "lat": 43.6079,
+      "lng": -110.7926,
+      "nSpecies": 171,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1236887",
+      "name": "Grand Teton NP--Emma Matilda Lake",
+      "lat": 43.8892,
+      "lng": -110.531,
+      "nSpecies": 119,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1238066",
+      "name": "Grand Teton NP--Antelope Flats",
+      "lat": 43.6721,
+      "lng": -110.6454,
+      "nSpecies": 153,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1239025",
+      "name": "Grand Teton NP--Jenny Lake Loop Trail",
+      "lat": 43.7623,
+      "lng": -110.7438,
+      "nSpecies": 166,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1239027",
+      "name": "Grand Teton NP--Cascade Canyon Trail",
+      "lat": 43.7629,
+      "lng": -110.7757,
+      "nSpecies": 135,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1240506",
+      "name": "Bridger-Teton NF--Goodwin Lake trail",
+      "lat": 43.4917,
+      "lng": -110.6227,
+      "nSpecies": 59,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1245009",
+      "name": "Karns Meadow Park",
+      "lat": 43.4739,
+      "lng": -110.7723,
+      "nSpecies": 118,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1249455",
+      "name": "Yellowstone NP-Lewis River Canyon",
+      "lat": 44.1949,
+      "lng": -110.6574,
+      "nSpecies": 43,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1250940",
+      "name": "Grand Teton NP--Elk Island (Jackson Lake)",
+      "lat": 43.8541,
+      "lng": -110.6754,
+      "nSpecies": 34,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1274515",
+      "name": "Sacajawea Park",
+      "lat": 45.6539,
+      "lng": -110.5599,
+      "nSpecies": 163,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1283588",
+      "name": "Yellowstone NP--LeHardy Rapids",
+      "lat": 44.6074,
+      "lng": -110.3846,
+      "nSpecies": 140,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1285065",
+      "name": "Crescent H Ranch",
+      "lat": 43.4611,
+      "lng": -110.879,
+      "nSpecies": 104,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L12902539",
+      "name": "Buffalo Jump Road--South",
+      "lat": 45.7608,
+      "lng": -111.4646,
+      "nSpecies": 56,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L12908143",
+      "name": "Dry Creek Road--north of Menard",
+      "lat": 46.0667,
+      "lng": -111.1764,
+      "nSpecies": 66,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1296818",
+      "name": "Missouri Headwaters SP",
+      "lat": 45.9235,
+      "lng": -111.4996,
+      "nSpecies": 210,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1298100",
+      "name": "Yellowstone NP--Sheepeater Cliff",
+      "lat": 44.8913,
+      "lng": -110.7297,
+      "nSpecies": 90,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1298105",
+      "name": "Yellowstone NP--Norris Campground",
+      "lat": 44.7378,
+      "lng": -110.6937,
+      "nSpecies": 84,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1298108",
+      "name": "Yellowstone NP--Fountain Flats",
+      "lat": 44.5653,
+      "lng": -110.8365,
+      "nSpecies": 124,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1306511",
+      "name": "Grand Teton NP--Cunningham Cabin Historical Site",
+      "lat": 43.7787,
+      "lng": -110.5583,
+      "nSpecies": 76,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1308838",
+      "name": "Grand Teton NP--Snake River Overlook",
+      "lat": 43.7534,
+      "lng": -110.624,
+      "nSpecies": 130,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1311129",
+      "name": "Yellowstone NP--Black Sand Basin",
+      "lat": 44.4621,
+      "lng": -110.8536,
+      "nSpecies": 82,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1311131",
+      "name": "Yellowstone NP--Biscuit Basin",
+      "lat": 44.485,
+      "lng": -110.8537,
+      "nSpecies": 113,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1311134",
+      "name": "Yellowstone NP--Firehole Lake Drive",
+      "lat": 44.5439,
+      "lng": -110.7854,
+      "nSpecies": 77,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1311142",
+      "name": "Yellowstone NP--Lost Lake",
+      "lat": 44.9105,
+      "lng": -110.4276,
+      "nSpecies": 118,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1311204",
+      "name": "Grand Teton NP--Colter Bay Campground",
+      "lat": 43.9122,
+      "lng": -110.644,
+      "nSpecies": 128,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1313063",
+      "name": "Grand Teton NP--Pacific Creek Rd.",
+      "lat": 43.863,
+      "lng": -110.51,
+      "nSpecies": 114,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1313069",
+      "name": "Grand Teton NP--Elk Ranch Flats Turnout",
+      "lat": 43.8108,
+      "lng": -110.5271,
+      "nSpecies": 106,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1313082",
+      "name": "Grand Teton NP--Hermitage Point",
+      "lat": 43.8506,
+      "lng": -110.6486,
+      "nSpecies": 103,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1313100",
+      "name": "Grand Teton NP--Moose Junction",
+      "lat": 43.6509,
+      "lng": -110.7078,
+      "nSpecies": 148,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1313120",
+      "name": "Grand Teton NP--Spalding Bay Rd.",
+      "lat": 43.8107,
+      "lng": -110.68,
+      "nSpecies": 85,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1318971",
+      "name": "Yellowstone NP--Boiling River Trail",
+      "lat": 44.9891,
+      "lng": -110.6909,
+      "nSpecies": 93,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1343384",
+      "name": "Belgrade Gravel Pits",
+      "lat": 45.7571,
+      "lng": -111.1507,
+      "nSpecies": 62,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1365227",
+      "name": "Leverich Canyon (trails)",
+      "lat": 45.5838,
+      "lng": -111.0405,
+      "nSpecies": 97,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1369577",
+      "name": "Bozeman Fish Technology Center ",
+      "lat": 45.7071,
+      "lng": -110.9785,
+      "nSpecies": 114,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1371195",
+      "name": "South Cottonwood Canyon Trail",
+      "lat": 45.5396,
+      "lng": -111.0957,
+      "nSpecies": 102,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1371380",
+      "name": "Mount Ellis North Flank",
+      "lat": 45.6248,
+      "lng": -110.962,
+      "nSpecies": 146,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1373276",
+      "name": "Emerald Lake Trail",
+      "lat": 45.4578,
+      "lng": -110.9205,
+      "nSpecies": 47,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1373321",
+      "name": "Hyalite Lake to Hyalite Peak",
+      "lat": 45.3915,
+      "lng": -110.9557,
+      "nSpecies": 49,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L13835291",
+      "name": "Rock Creek Basin Trail",
+      "lat": 44.5543,
+      "lng": -111.4454,
+      "nSpecies": 22,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L13835313",
+      "name": "Targhee Creek Trail",
+      "lat": 44.6709,
+      "lng": -111.313,
+      "nSpecies": 84,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L13835344",
+      "name": "Big Springs Interpretive Trail",
+      "lat": 44.5008,
+      "lng": -111.2559,
+      "nSpecies": 80,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1399773",
+      "name": "Mount Blackmore Trail",
+      "lat": 45.4693,
+      "lng": -110.9843,
+      "nSpecies": 77,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1410727",
+      "name": "Targhee NF--Grand Targhee Resort",
+      "lat": 43.7884,
+      "lng": -110.9588,
+      "nSpecies": 99,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1413496",
+      "name": "Yellowstone NP--Divide Lake",
+      "lat": 44.912,
+      "lng": -111.0512,
+      "nSpecies": 69,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1414232",
+      "name": "Yellowstone NP--Nymph Lake",
+      "lat": 44.753,
+      "lng": -110.7253,
+      "nSpecies": 86,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1418376",
+      "name": "History Rock Trail",
+      "lat": 45.4975,
+      "lng": -110.9893,
+      "nSpecies": 72,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1420381",
+      "name": "Blackbird FAS",
+      "lat": 45.9008,
+      "lng": -111.526,
+      "nSpecies": 154,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1424056",
+      "name": "Yellowstone NP--Telemark Meadows (Montana)",
+      "lat": 44.897,
+      "lng": -111.0702,
+      "nSpecies": 30,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1427545",
+      "name": "Yellowstone NP--Dunraven Pass",
+      "lat": 44.7749,
+      "lng": -110.459,
+      "nSpecies": 90,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1429974",
+      "name": "Battle Ridge Campground",
+      "lat": 45.8838,
+      "lng": -110.8786,
+      "nSpecies": 118,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1435512",
+      "name": "Colter Pass",
+      "lat": 45.0274,
+      "lng": -109.8968,
+      "nSpecies": 59,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L14395248",
+      "name": "Red Road Bridge",
+      "lat": 43.9274,
+      "lng": -111.7779,
+      "nSpecies": 55,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L14447606",
+      "name": "Bolinger Road Gravel Pit",
+      "lat": 45.7904,
+      "lng": -111.1994,
+      "nSpecies": 21,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L14656486",
+      "name": "Kersey Lake",
+      "lat": 45.0277,
+      "lng": -109.8409,
+      "nSpecies": 12,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L14900679",
+      "name": "Fun Farm Bridge",
+      "lat": 43.9834,
+      "lng": -111.6248,
+      "nSpecies": 117,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1500575",
+      "name": "Big Sky--Community Park and Waste Water Treatment Facility",
+      "lat": 45.269,
+      "lng": -111.2909,
+      "nSpecies": 128,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1502605",
+      "name": "Cherry River FAS",
+      "lat": 45.7111,
+      "lng": -111.0505,
+      "nSpecies": 200,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1524203",
+      "name": "Cattail Lake/Davis Lane Pond",
+      "lat": 45.7175,
+      "lng": -111.0806,
+      "nSpecies": 181,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L15348546",
+      "name": "Bear Canyon Trail",
+      "lat": 45.607,
+      "lng": -110.9215,
+      "nSpecies": 93,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L15389418",
+      "name": "Yellowstone NP--Indian Creek CG",
+      "lat": 44.8866,
+      "lng": -110.7361,
+      "nSpecies": 74,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L15411170",
+      "name": "Grand Teton NP--Jackson Lake Overlook",
+      "lat": 43.9818,
+      "lng": -110.6621,
+      "nSpecies": 115,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L15415942",
+      "name": "Yellowstone NP--Mouth of Otter Creek",
+      "lat": 44.7017,
+      "lng": -110.5063,
+      "nSpecies": 65,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1547112",
+      "name": "Yellowstone NP--Howard Eaton Trail--Mammoth to Golden Gate",
+      "lat": 44.9574,
+      "lng": -110.7157,
+      "nSpecies": 43,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1547119",
+      "name": "Yellowstone NP--Clagget Butte Trail",
+      "lat": 44.9719,
+      "lng": -110.7263,
+      "nSpecies": 51,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1567647",
+      "name": "Ora Bridge on Henry's Fork",
+      "lat": 44.0716,
+      "lng": -111.5082,
+      "nSpecies": 120,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1567665",
+      "name": "Warm River Campground",
+      "lat": 44.1195,
+      "lng": -111.3148,
+      "nSpecies": 121,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1570891",
+      "name": "Missouri Headwaters SP--picnic area/Fort Rock",
+      "lat": 45.9351,
+      "lng": -111.4928,
+      "nSpecies": 151,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L15835770",
+      "name": "Bridger-Teton NF--Lake of the Woods",
+      "lat": 44.1069,
+      "lng": -110.8449,
+      "nSpecies": 35,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L15886833",
+      "name": "Beaver Creek Campground",
+      "lat": 44.8561,
+      "lng": -111.3742,
+      "nSpecies": 103,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1589388",
+      "name": "Yellowstone NP--Virginia Cascades Drive",
+      "lat": 44.7128,
+      "lng": -110.6469,
+      "nSpecies": 82,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L15913738",
+      "name": "Pine Creek Falls and Lake Trail",
+      "lat": 45.4889,
+      "lng": -110.5006,
+      "nSpecies": 64,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1592528",
+      "name": "Yellowstone NP--Mary Bay Picnic Area",
+      "lat": 44.548,
+      "lng": -110.2962,
+      "nSpecies": 150,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1595215",
+      "name": "Pass Creek Rd.",
+      "lat": 45.977,
+      "lng": -111.1455,
+      "nSpecies": 93,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1596456",
+      "name": "Yellowstone NP--Bechler Ranger Station",
+      "lat": 44.1495,
+      "lng": -111.0464,
+      "nSpecies": 18,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L16092597",
+      "name": "Goose Creek Trail",
+      "lat": 45.6068,
+      "lng": -110.8559,
+      "nSpecies": 57,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L16121190",
+      "name": "Yellowstone NP--Soda Butte Creek Picnic Area",
+      "lat": 44.9349,
+      "lng": -110.0836,
+      "nSpecies": 80,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L16121411",
+      "name": "West End Campground",
+      "lat": 44.3722,
+      "lng": -111.5278,
+      "nSpecies": 42,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1624857",
+      "name": "Storm Castle Trail",
+      "lat": 45.4472,
+      "lng": -111.2234,
+      "nSpecies": 85,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1625282",
+      "name": "Yellowstone NP--Fairy Falls Trail",
+      "lat": 44.5182,
+      "lng": -110.833,
+      "nSpecies": 137,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1625295",
+      "name": "Yellowstone NP--Mystic Falls Trail",
+      "lat": 44.4837,
+      "lng": -110.8691,
+      "nSpecies": 82,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1626786",
+      "name": "Yellowstone NP--Lamar Valley (please use more precise locations)",
+      "lat": 44.8716,
+      "lng": -110.185,
+      "nSpecies": 217,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1627403",
+      "name": "Yellowstone NP--Pelican Creek",
+      "lat": 44.5578,
+      "lng": -110.3627,
+      "nSpecies": 172,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1632157",
+      "name": "Grand Teton NP--Signal Mountain Lodge (private) and Campground",
+      "lat": 43.8427,
+      "lng": -110.6137,
+      "nSpecies": 154,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L16328040",
+      "name": "Yellowstone NP--Otter Creek Picnic Area",
+      "lat": 44.6986,
+      "lng": -110.5029,
+      "nSpecies": 77,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1632964",
+      "name": "Yellowstone NP--Grizzly Lake Trail--trailhead to Mt Holmes Jct",
+      "lat": 44.8165,
+      "lng": -110.7672,
+      "nSpecies": 72,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L16366716",
+      "name": "Astoria Hot Springs",
+      "lat": 43.3004,
+      "lng": -110.7763,
+      "nSpecies": 70,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1639306",
+      "name": "Yellowstone NP--Sepulcher Mt Trail--Clagget Butte Jct to peak",
+      "lat": 44.9785,
+      "lng": -110.7351,
+      "nSpecies": 79,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1652165",
+      "name": "Yellowstone NP--Snow Pass Trail",
+      "lat": 44.9614,
+      "lng": -110.7243,
+      "nSpecies": 52,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1658670",
+      "name": "Upper Coffee Pot Trail",
+      "lat": 44.4905,
+      "lng": -111.3669,
+      "nSpecies": 82,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1660303",
+      "name": "Yellowstone NP--Bighorn Pass Trail--Indian Creek Campground to Panther Creek",
+      "lat": 44.8859,
+      "lng": -110.7586,
+      "nSpecies": 31,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L16659327",
+      "name": "La Duke Picnic Area/Trailhead",
+      "lat": 45.093,
+      "lng": -110.7787,
+      "nSpecies": 48,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1666377",
+      "name": "Island Park Reservoir Dam",
+      "lat": 44.4202,
+      "lng": -111.3975,
+      "nSpecies": 145,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1667746",
+      "name": "Grand Teton NP--South Teton Creek Trail",
+      "lat": 43.7557,
+      "lng": -110.9156,
+      "nSpecies": 86,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1669011",
+      "name": "Yellowstone NP--Lake Butte",
+      "lat": 44.51,
+      "lng": -110.2744,
+      "nSpecies": 135,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1669018",
+      "name": "Yellowstone NP--Specimen Ridge Trail--west end to Amethyst Mt",
+      "lat": 44.8986,
+      "lng": -110.3848,
+      "nSpecies": 62,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1678724",
+      "name": "Great Western Trail--Bear Gulch Trailhead",
+      "lat": 44.1521,
+      "lng": -111.2857,
+      "nSpecies": 64,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L16852794",
+      "name": "Mesa Marsh area",
+      "lat": 44.2523,
+      "lng": -111.2705,
+      "nSpecies": 2,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L16945450",
+      "name": "Grand Teton NP--Bradley Lake",
+      "lat": 43.7151,
+      "lng": -110.7516,
+      "nSpecies": 64,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L16963896",
+      "name": "Wilsall (town)",
+      "lat": 45.996,
+      "lng": -110.6634,
+      "nSpecies": 18,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1743056",
+      "name": "Yellowstone NP--Mt. Washburn overlook",
+      "lat": 44.8248,
+      "lng": -110.4445,
+      "nSpecies": 85,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1743058",
+      "name": "Yellowstone NP--Rainy Lake",
+      "lat": 44.9091,
+      "lng": -110.4024,
+      "nSpecies": 57,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1743085",
+      "name": "Yellowstone NP--Round Prairie",
+      "lat": 44.9068,
+      "lng": -110.1129,
+      "nSpecies": 136,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1743103",
+      "name": "Yellowstone NP--Roaring Mountain and Twin Lakes area",
+      "lat": 44.7762,
+      "lng": -110.7386,
+      "nSpecies": 103,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1743120",
+      "name": "Henrys Lake SP--Boat Dock",
+      "lat": 44.6208,
+      "lng": -111.3736,
+      "nSpecies": 146,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1743135",
+      "name": "Harriman SP--Sage Flat",
+      "lat": 44.3255,
+      "lng": -111.4565,
+      "nSpecies": 86,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1743141",
+      "name": "Harriman SP--Ranchview Parking and River Trail Area",
+      "lat": 44.3349,
+      "lng": -111.4655,
+      "nSpecies": 153,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L17471194",
+      "name": "Big Creek Trail",
+      "lat": 45.3048,
+      "lng": -110.9392,
+      "nSpecies": 51,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1758510",
+      "name": "Bridger Bowl Ski Area",
+      "lat": 45.82,
+      "lng": -110.9223,
+      "nSpecies": 106,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1763515",
+      "name": "Yellowstone NP--Stephens Creek Rd.",
+      "lat": 45.0388,
+      "lng": -110.739,
+      "nSpecies": 117,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1763520",
+      "name": "Yellowstone NP--Howard Eaton Trail--Old Faithful to Lone Star Geyser",
+      "lat": 44.4422,
+      "lng": -110.8201,
+      "nSpecies": 24,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L1784385",
+      "name": "Sand Creek WMA--Sand Creek Reservoir",
+      "lat": 44.2022,
+      "lng": -111.6272,
+      "nSpecies": 152,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1784407",
+      "name": "Sand Creek WMA--Blue Creek Reservoir",
+      "lat": 44.2232,
+      "lng": -111.613,
+      "nSpecies": 129,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L1792765",
+      "name": "Yellowstone NP--Mammoth Campground",
+      "lat": 44.9779,
+      "lng": -110.6944,
+      "nSpecies": 110,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1802842",
+      "name": "Deer Creek",
+      "lat": 45.2992,
+      "lng": -111.2038,
+      "nSpecies": 76,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1850137",
+      "name": "Jackson Hole Mountain Resort",
+      "lat": 43.5923,
+      "lng": -110.8303,
+      "nSpecies": 135,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L18509946",
+      "name": "Emigrant Ponds",
+      "lat": 45.3669,
+      "lng": -110.7358,
+      "nSpecies": 89,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1859626",
+      "name": "Yellowstone NP--N. Entrance Road (MT)",
+      "lat": 45.0067,
+      "lng": -110.7041,
+      "nSpecies": 170,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L1861513",
+      "name": "Bench Rd.--Upper and Baseline Rd.",
+      "lat": 45.7869,
+      "lng": -111.5963,
+      "nSpecies": 98,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1873895",
+      "name": "Yellowstone NP--Gibbon Meadows",
+      "lat": 44.7022,
+      "lng": -110.7517,
+      "nSpecies": 92,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1873949",
+      "name": "Yellowstone NP--Hayden Valley (please use more precise locations)",
+      "lat": 44.6431,
+      "lng": -110.4559,
+      "nSpecies": 209,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1873962",
+      "name": "Yellowstone NP--Grizzly Overlook",
+      "lat": 44.6683,
+      "lng": -110.4708,
+      "nSpecies": 122,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1874121",
+      "name": "Burnt Rd.",
+      "lat": 45.8458,
+      "lng": -111.2445,
+      "nSpecies": 126,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1874705",
+      "name": "Bench Rd.",
+      "lat": 45.8203,
+      "lng": -111.576,
+      "nSpecies": 127,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1892108",
+      "name": "Nixon Bridge FAS area",
+      "lat": 45.891,
+      "lng": -111.3366,
+      "nSpecies": 137,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1900120",
+      "name": "Yellowstone NP--Apollinaris Spring and picnic area",
+      "lat": 44.8425,
+      "lng": -110.7352,
+      "nSpecies": 53,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1900124",
+      "name": "Yellowstone NP--Cascade Meadows",
+      "lat": 44.7369,
+      "lng": -110.5109,
+      "nSpecies": 73,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L1915123",
+      "name": "Gallatin Forks FAS",
+      "lat": 45.8831,
+      "lng": -111.3183,
+      "nSpecies": 95,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L19329507",
+      "name": "Teton Science School--Jackson Campus",
+      "lat": 43.4903,
+      "lng": -110.8116,
+      "nSpecies": 71,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L19411372",
+      "name": "Gallatin Gateway (old town)",
+      "lat": 45.5932,
+      "lng": -111.2026,
+      "nSpecies": 139,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L1944395",
+      "name": "Shields River Road East",
+      "lat": 45.8061,
+      "lng": -110.517,
+      "nSpecies": 105,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L19567280",
+      "name": "Peet's Hill/Burke Park",
+      "lat": 45.6712,
+      "lng": -111.0284,
+      "nSpecies": 96,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L19576640",
+      "name": "Yellowstone NP--Fawn Pass Trail--Hwy 191 to Fawn Pass",
+      "lat": 44.9529,
+      "lng": -111.0327,
+      "nSpecies": 52,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L19581829",
+      "name": "Henry's Fork Greenway",
+      "lat": 43.9632,
+      "lng": -111.6842,
+      "nSpecies": 65,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L19662550",
+      "name": "Our Lady of Lourdes Shrine and Emigrant Ponds",
+      "lat": 45.3676,
+      "lng": -110.7338,
+      "nSpecies": 49,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L19782860",
+      "name": "Big Game Cpg",
+      "lat": 44.4626,
+      "lng": -109.6077,
+      "nSpecies": 35,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L19796126",
+      "name": "Suce Creek Trail",
+      "lat": 45.5737,
+      "lng": -110.5064,
+      "nSpecies": 98,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L19849893",
+      "name": "Indian Lake (Idaho portion)",
+      "lat": 44.0667,
+      "lng": -111.0501,
+      "nSpecies": 29,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L20014127",
+      "name": "Amsterdam (town)",
+      "lat": 45.7582,
+      "lng": -111.3217,
+      "nSpecies": 109,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L20212171",
+      "name": "Ski Lake Trail",
+      "lat": 43.5183,
+      "lng": -110.9222,
+      "nSpecies": 73,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L20298122",
+      "name": "Yellowstone NP--Specimen Ridge Trail",
+      "lat": 44.8879,
+      "lng": -110.3508,
+      "nSpecies": 40,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L20373222",
+      "name": "Yellowstone NP--Upper Pebble Creek/Warm Creek Trail",
+      "lat": 45.0205,
+      "lng": -110.0775,
+      "nSpecies": 35,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L20494526",
+      "name": "Yellowstone NP--Point Sublime Trail",
+      "lat": 44.7201,
+      "lng": -110.469,
+      "nSpecies": 50,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L20587803",
+      "name": "Silver Gate--Bannock Trail",
+      "lat": 45.004,
+      "lng": -109.9882,
+      "nSpecies": 47,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2061094",
+      "name": "Duck Creek Pond",
+      "lat": 44.7777,
+      "lng": -111.1,
+      "nSpecies": 116,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2071278",
+      "name": "Gallagator/Linear Park Trail",
+      "lat": 45.671,
+      "lng": -111.0332,
+      "nSpecies": 127,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2075937",
+      "name": "Dry Creek Rd.--Canyon Stretch",
+      "lat": 45.95,
+      "lng": -111.1861,
+      "nSpecies": 112,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2095570",
+      "name": "Castle Mountain Spur Ponds",
+      "lat": 45.8218,
+      "lng": -110.5563,
+      "nSpecies": 120,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2124025",
+      "name": "Yellowstone NP--Lava Creek Trail",
+      "lat": 44.9641,
+      "lng": -110.6746,
+      "nSpecies": 70,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2135151",
+      "name": "Arthun Ranch Pond",
+      "lat": 45.9267,
+      "lng": -110.6399,
+      "nSpecies": 103,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2137091",
+      "name": "Bench Rd.--lower",
+      "lat": 45.8537,
+      "lng": -111.5555,
+      "nSpecies": 151,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2143967",
+      "name": "Droulliard FAS",
+      "lat": 45.8969,
+      "lng": -111.5937,
+      "nSpecies": 157,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2156968",
+      "name": "Mission Creek Rd.",
+      "lat": 45.6683,
+      "lng": -110.3951,
+      "nSpecies": 90,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2161814",
+      "name": "South Park Wildlife Habitat Management Area",
+      "lat": 43.3965,
+      "lng": -110.7768,
+      "nSpecies": 201,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2172224",
+      "name": "Ralston Reservoir",
+      "lat": 44.7143,
+      "lng": -108.8918,
+      "nSpecies": 143,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2191787",
+      "name": "Glen Lake Rotary Park--Trails east of the river",
+      "lat": 45.7063,
+      "lng": -111.0325,
+      "nSpecies": 181,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2197267",
+      "name": "Erwin Bridge FAS",
+      "lat": 45.7719,
+      "lng": -111.2405,
+      "nSpecies": 76,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2197567",
+      "name": "Grand Teton NP--UW NPS Research Station",
+      "lat": 43.9388,
+      "lng": -110.6425,
+      "nSpecies": 96,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2202780",
+      "name": "Ousel Falls Trail",
+      "lat": 45.244,
+      "lng": -111.3311,
+      "nSpecies": 72,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2217259",
+      "name": "Flat Creek on Saddle Butte",
+      "lat": 43.4828,
+      "lng": -110.7659,
+      "nSpecies": 97,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2217467",
+      "name": "Deep Creek Burn",
+      "lat": 45.5262,
+      "lng": -110.5207,
+      "nSpecies": 70,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2217477",
+      "name": "Pine Creek Recreation Area",
+      "lat": 45.4984,
+      "lng": -110.5235,
+      "nSpecies": 118,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2221192",
+      "name": "Middle Cottonwood Canyon Trail",
+      "lat": 45.7659,
+      "lng": -110.9829,
+      "nSpecies": 101,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2223426",
+      "name": "Meadow View Cemetery",
+      "lat": 45.824,
+      "lng": -111.3092,
+      "nSpecies": 122,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2241801",
+      "name": "Bridger-Teton NF--Buffalo Valley",
+      "lat": 43.8444,
+      "lng": -110.4052,
+      "nSpecies": 127,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2259093",
+      "name": "Cameron Bridge FAS",
+      "lat": 45.7397,
+      "lng": -111.218,
+      "nSpecies": 143,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2261568",
+      "name": "Box Canyon Campground",
+      "lat": 44.4101,
+      "lng": -111.396,
+      "nSpecies": 55,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2261621",
+      "name": "Caribou-Targhee National Forest--FR057 (Howard Creek Road)",
+      "lat": 44.6635,
+      "lng": -111.308,
+      "nSpecies": 85,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2264438",
+      "name": "Yellowstone NP--Ice Box Canyon",
+      "lat": 44.9245,
+      "lng": -110.092,
+      "nSpecies": 52,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2264460",
+      "name": "Henrys Lake--North Parking Area",
+      "lat": 44.6697,
+      "lng": -111.4174,
+      "nSpecies": 131,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2272002",
+      "name": "East Hatchery Ford Boat Take Out",
+      "lat": 44.2162,
+      "lng": -111.4311,
+      "nSpecies": 22,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2272593",
+      "name": "Confluence of Warm River and Henry's Fork",
+      "lat": 44.1106,
+      "lng": -111.3351,
+      "nSpecies": 94,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2272778",
+      "name": "Last Chance Fisherman Parking",
+      "lat": 44.3556,
+      "lng": -111.414,
+      "nSpecies": 115,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2272855",
+      "name": "Harriman SP--Silver Lake",
+      "lat": 44.3283,
+      "lng": -111.467,
+      "nSpecies": 163,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2278475",
+      "name": "Yellowstone NP--Osprey Falls Trail",
+      "lat": 44.9297,
+      "lng": -110.6841,
+      "nSpecies": 41,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2285790",
+      "name": "East Fork Mill Creek Trail",
+      "lat": 45.3176,
+      "lng": -110.5129,
+      "nSpecies": 75,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2285806",
+      "name": "Six-Mile Canyon",
+      "lat": 45.2415,
+      "lng": -110.7509,
+      "nSpecies": 38,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2285815",
+      "name": "Dailey Lake",
+      "lat": 45.2618,
+      "lng": -110.8158,
+      "nSpecies": 167,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2289918",
+      "name": "Three Forks (town)",
+      "lat": 45.8926,
+      "lng": -111.5494,
+      "nSpecies": 113,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2290802",
+      "name": "Yellowstone NP--Bighorn Pass Trail--Hwy 191 to Fawn Pass cut-off",
+      "lat": 44.9168,
+      "lng": -111.0203,
+      "nSpecies": 58,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2290823",
+      "name": "Yellowstone NP--Bighorn Pass Trail--Fawn Pass cutoff to Bighorn Pass",
+      "lat": 44.8994,
+      "lng": -110.9077,
+      "nSpecies": 38,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2290833",
+      "name": "Yellowstone NP--Bighorn Pass Trail--Bighorn Pass to Panther Creek",
+      "lat": 44.8893,
+      "lng": -110.8231,
+      "nSpecies": 28,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2293624",
+      "name": "Grand Teton NP--Lower Saddle",
+      "lat": 43.7341,
+      "lng": -110.8028,
+      "nSpecies": 35,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2296899",
+      "name": "Yellowstone NP--Willow Park",
+      "lat": 44.8594,
+      "lng": -110.7407,
+      "nSpecies": 109,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2296910",
+      "name": "Yellowstone NP--Wraith Falls Trail",
+      "lat": 44.9398,
+      "lng": -110.6245,
+      "nSpecies": 95,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2320631",
+      "name": "Yellowstone NP--Indian Pond",
+      "lat": 44.5587,
+      "lng": -110.3244,
+      "nSpecies": 130,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2321051",
+      "name": "Hyalite Creek Tr. #427 to Jct. with  Storm Castle Tr. #185",
+      "lat": 45.4245,
+      "lng": -110.9602,
+      "nSpecies": 57,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2323707",
+      "name": "Yellowstone NP--Daly Creek--Hwy 191 to Daly Pass",
+      "lat": 45.0763,
+      "lng": -111.1197,
+      "nSpecies": 21,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2323716",
+      "name": "Yellowstone NP--Skyline Trail--Daly Pass to Bighorn Peak",
+      "lat": 45.0917,
+      "lng": -111.0751,
+      "nSpecies": 34,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2323725",
+      "name": "Yellowstone NP--Black Butte Creek--Hwy 191 to Bighorn Peak",
+      "lat": 45.0547,
+      "lng": -111.0931,
+      "nSpecies": 45,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2329462",
+      "name": "Henrys Lake--Hope Creek",
+      "lat": 44.612,
+      "lng": -111.4213,
+      "nSpecies": 117,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2338243",
+      "name": "Grand Teton NP--Stewart Draw",
+      "lat": 43.6687,
+      "lng": -110.7885,
+      "nSpecies": 50,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2339354",
+      "name": "Yellowstone NP--Pebble Creek Campground",
+      "lat": 44.9183,
+      "lng": -110.1143,
+      "nSpecies": 119,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2339360",
+      "name": "Yellowstone NP--Pumice Point",
+      "lat": 44.4522,
+      "lng": -110.5036,
+      "nSpecies": 122,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2340959",
+      "name": "Yellowstone NP--Grant Village",
+      "lat": 44.3941,
+      "lng": -110.5556,
+      "nSpecies": 146,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2350431",
+      "name": "Yellowstone NP--Riddle Lake Trail",
+      "lat": 44.3585,
+      "lng": -110.5817,
+      "nSpecies": 90,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2350441",
+      "name": "Yellowstone NP--Mt. Washburn Trail",
+      "lat": 44.7839,
+      "lng": -110.4522,
+      "nSpecies": 107,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2350471",
+      "name": "Yellowstone NP--DeLacy Creek Trail",
+      "lat": 44.4301,
+      "lng": -110.701,
+      "nSpecies": 113,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2354314",
+      "name": "Yellowstone NP--Cave Falls",
+      "lat": 44.1434,
+      "lng": -110.9984,
+      "nSpecies": 28,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2358215",
+      "name": "Henrys Lake SP--Outlet Trail",
+      "lat": 44.6139,
+      "lng": -111.3683,
+      "nSpecies": 117,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2358910",
+      "name": "Nixon Gulch Rd.",
+      "lat": 45.9124,
+      "lng": -111.3224,
+      "nSpecies": 89,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2359914",
+      "name": "Yellowstone NP--Lewis River Channel Trail--Dogshead Jct to Shoshone Lake",
+      "lat": 44.3183,
+      "lng": -110.64,
+      "nSpecies": 72,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2373040",
+      "name": "Cody (town)",
+      "lat": 44.5274,
+      "lng": -109.0573,
+      "nSpecies": 120,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2378404",
+      "name": "Harriman SP--Osborne Bridge",
+      "lat": 44.3241,
+      "lng": -111.4483,
+      "nSpecies": 84,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L23949689",
+      "name": "Gros Ventre Road",
+      "lat": 43.6432,
+      "lng": -110.5932,
+      "nSpecies": 97,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2396661",
+      "name": "Sypes Canyon Trail",
+      "lat": 45.7452,
+      "lng": -111.0052,
+      "nSpecies": 99,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2418227",
+      "name": "Mystic Heights Pond \" resricted access\"",
+      "lat": 45.5977,
+      "lng": -111.0447,
+      "nSpecies": 69,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L24513209",
+      "name": "Stinking Spring pullout",
+      "lat": 43.2888,
+      "lng": -110.6347,
+      "nSpecies": 52,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L247305",
+      "name": "Central Park Pond",
+      "lat": 45.8285,
+      "lng": -111.2841,
+      "nSpecies": 194,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2478963",
+      "name": "Glasrock mining area (public land)",
+      "lat": 44.4365,
+      "lng": -109.0324,
+      "nSpecies": 65,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L24877137",
+      "name": "Yellowstone NP--Upper Terrace Drive",
+      "lat": 44.9651,
+      "lng": -110.7126,
+      "nSpecies": 98,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2488087",
+      "name": "Reese Creek Rd.",
+      "lat": 45.8555,
+      "lng": -111.125,
+      "nSpecies": 78,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2514380",
+      "name": "Rockefeller Preserve",
+      "lat": 43.6276,
+      "lng": -110.7754,
+      "nSpecies": 142,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2519376",
+      "name": "Cobblestone FAS",
+      "lat": 45.8007,
+      "lng": -111.5061,
+      "nSpecies": 132,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2528111",
+      "name": "Story Hills",
+      "lat": 45.6953,
+      "lng": -111.0181,
+      "nSpecies": 101,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L25348158",
+      "name": "Harriman SP--Silver Lake Trail",
+      "lat": 44.3257,
+      "lng": -111.4659,
+      "nSpecies": 86,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L25673679",
+      "name": "Bangtail Divide, Stone Creek Trailhead",
+      "lat": 45.7636,
+      "lng": -110.8536,
+      "nSpecies": 40,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L25676155",
+      "name": "Snow King Mountain Observatory",
+      "lat": 43.4619,
+      "lng": -110.7637,
+      "nSpecies": 51,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L25734690",
+      "name": "Little Bear Road (to FS gate)",
+      "lat": 45.5331,
+      "lng": -111.1571,
+      "nSpecies": 121,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L25901288",
+      "name": "Moose Wilson Road",
+      "lat": 43.6582,
+      "lng": -110.7317,
+      "nSpecies": 102,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L25977763",
+      "name": "Yellowstone NP--Roosevelt Lodge",
+      "lat": 44.9126,
+      "lng": -110.4169,
+      "nSpecies": 57,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L26060437",
+      "name": "Bike Path at Trail Creek",
+      "lat": 43.4916,
+      "lng": -110.9201,
+      "nSpecies": 56,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2619242",
+      "name": "Rendezvous Mountain Trails",
+      "lat": 43.5895,
+      "lng": -110.8689,
+      "nSpecies": 88,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L26295722",
+      "name": "Red Cliff Campground",
+      "lat": 45.1747,
+      "lng": -111.2413,
+      "nSpecies": 47,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2687604",
+      "name": "Fairweather FAS",
+      "lat": 46.0344,
+      "lng": -111.4205,
+      "nSpecies": 85,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2690630",
+      "name": "Sourdough Canyon Trail",
+      "lat": 45.5901,
+      "lng": -111.0253,
+      "nSpecies": 111,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L27077226",
+      "name": "Corbly Gulch",
+      "lat": 45.8666,
+      "lng": -111.02,
+      "nSpecies": 34,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L271593",
+      "name": "Flat Creek Wildlife Observation Point and Marshes",
+      "lat": 43.4909,
+      "lng": -110.7611,
+      "nSpecies": 190,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L27253236",
+      "name": "Henry's Fork--Mack's Inn",
+      "lat": 44.5007,
+      "lng": -111.3275,
+      "nSpecies": 54,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L27278344",
+      "name": "Yellowstone NP--Chittenden Road / Mount Washburn",
+      "lat": 44.8066,
+      "lng": -110.4358,
+      "nSpecies": 82,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2729687",
+      "name": "Emily Stevens Park",
+      "lat": 43.4997,
+      "lng": -110.8375,
+      "nSpecies": 148,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2733839",
+      "name": "Madison Road",
+      "lat": 45.7041,
+      "lng": -111.5059,
+      "nSpecies": 92,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L27602949",
+      "name": "Yellowstone NP--Two Ribbons Trail",
+      "lat": 44.652,
+      "lng": -111.0345,
+      "nSpecies": 102,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L27747103",
+      "name": "Yellowstone NP--Hayden Valley-River Overlook",
+      "lat": 44.6348,
+      "lng": -110.4479,
+      "nSpecies": 104,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L27862569",
+      "name": "Shoshone NF--Beartooth Pass",
+      "lat": 44.969,
+      "lng": -109.4739,
+      "nSpecies": 25,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2830287",
+      "name": "Drinking Horse Trail",
+      "lat": 45.7055,
+      "lng": -110.9743,
+      "nSpecies": 135,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2843110",
+      "name": "Missouri Headwaters SP--Campground area",
+      "lat": 45.9193,
+      "lng": -111.5016,
+      "nSpecies": 154,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2871531",
+      "name": "Corwin Springs FAS",
+      "lat": 45.108,
+      "lng": -110.7908,
+      "nSpecies": 85,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2880326",
+      "name": "Grand Teton NP--South Entrance Sign area",
+      "lat": 43.5466,
+      "lng": -110.7328,
+      "nSpecies": 123,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2880474",
+      "name": "Grand Teton NP--Craig Thomas Discovery Center",
+      "lat": 43.6533,
+      "lng": -110.7175,
+      "nSpecies": 143,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2880593",
+      "name": "Grand Teton NP--Dornan's",
+      "lat": 43.6569,
+      "lng": -110.7104,
+      "nSpecies": 104,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2880605",
+      "name": "Grand Teton NP--Moran Junction",
+      "lat": 43.84,
+      "lng": -110.5102,
+      "nSpecies": 118,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2882282",
+      "name": "Yellowstone NP--Beaver Lake",
+      "lat": 44.816,
+      "lng": -110.7301,
+      "nSpecies": 78,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2882286",
+      "name": "Yellowstone NP--Sheepeater Canyon Bridge",
+      "lat": 44.9583,
+      "lng": -110.6789,
+      "nSpecies": 75,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2882288",
+      "name": "Yellowstone NP--Phantom Lake",
+      "lat": 44.9559,
+      "lng": -110.5267,
+      "nSpecies": 102,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2882296",
+      "name": "Yellowstone NP--Crystal Creek",
+      "lat": 44.9134,
+      "lng": -110.3257,
+      "nSpecies": 124,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2882297",
+      "name": "Yellowstone NP--Junction Butte",
+      "lat": 44.9198,
+      "lng": -110.3885,
+      "nSpecies": 112,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2882299",
+      "name": "Yellowstone NP--Calcite Springs overlook",
+      "lat": 44.9019,
+      "lng": -110.3938,
+      "nSpecies": 98,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2882344",
+      "name": "Grand Teton NP--Headwaters Lodge at Flagg Ranch",
+      "lat": 44.1052,
+      "lng": -110.6682,
+      "nSpecies": 125,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2882345",
+      "name": "Grand Teton NP--North Jackson Lake",
+      "lat": 43.9876,
+      "lng": -110.6838,
+      "nSpecies": 141,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2885455",
+      "name": "Old Town Rd. (Gallatin Co.)",
+      "lat": 45.9073,
+      "lng": -111.5348,
+      "nSpecies": 89,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2888305",
+      "name": "Spanish Creek Rd.--Lower 5 miles",
+      "lat": 45.499,
+      "lng": -111.3219,
+      "nSpecies": 112,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2892801",
+      "name": "Yellowstone NP--Hwy 212 at Yellowstone River Bridge",
+      "lat": 44.9202,
+      "lng": -110.4059,
+      "nSpecies": 104,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2898674",
+      "name": "Yellowstone NP--Harlequin Lake and Trail",
+      "lat": 44.6434,
+      "lng": -110.8889,
+      "nSpecies": 105,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2913410",
+      "name": "Yellowstone NP--Nez Perce Ford Picnic Area",
+      "lat": 44.6214,
+      "lng": -110.4184,
+      "nSpecies": 115,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2923336",
+      "name": "Shoshone Riverway & Cody City Park",
+      "lat": 44.5339,
+      "lng": -109.0655,
+      "nSpecies": 134,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2939354",
+      "name": "Forest Rd 322 Turn-Around",
+      "lat": 44.2052,
+      "lng": -111.3485,
+      "nSpecies": 23,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2943667",
+      "name": "Buffalo Campground River Access",
+      "lat": 44.4283,
+      "lng": -111.3562,
+      "nSpecies": 79,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2949165",
+      "name": "Yellowstone NP--Old Gardiner Road Auto Trail",
+      "lat": 44.979,
+      "lng": -110.6999,
+      "nSpecies": 95,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2954304",
+      "name": "Yellowstone NP--Bunsen Peak Trail",
+      "lat": 44.9326,
+      "lng": -110.7068,
+      "nSpecies": 100,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2956084",
+      "name": "Forest Rd. 241 at Robinson Creek",
+      "lat": 44.1122,
+      "lng": -111.2514,
+      "nSpecies": 40,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2956091",
+      "name": "Grand Teton NP--Mormon Row Historic District",
+      "lat": 43.6667,
+      "lng": -110.664,
+      "nSpecies": 123,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2956185",
+      "name": "Chestnut Mountain Trail",
+      "lat": 45.6449,
+      "lng": -110.8808,
+      "nSpecies": 117,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L295755",
+      "name": "Henrys Lake",
+      "lat": 44.6459,
+      "lng": -111.4055,
+      "nSpecies": 200,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2958012",
+      "name": "Teton Canyon Rd. & Campground",
+      "lat": 43.7587,
+      "lng": -110.9686,
+      "nSpecies": 73,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2958015",
+      "name": "Grand Teton NP--North Teton Creek Trail",
+      "lat": 43.7595,
+      "lng": -110.9143,
+      "nSpecies": 78,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2961307",
+      "name": "Forest Rd. 261 at Paddy Lake",
+      "lat": 44.0554,
+      "lng": -111.1233,
+      "nSpecies": 33,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L2963854",
+      "name": "Grand Teton NP--Lupine Meadows",
+      "lat": 43.7371,
+      "lng": -110.7346,
+      "nSpecies": 119,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2971798",
+      "name": "Yellowstone NP--Little America area",
+      "lat": 44.9048,
+      "lng": -110.3636,
+      "nSpecies": 122,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L2972344",
+      "name": "Grand Teton NP--Moose Community",
+      "lat": 43.6576,
+      "lng": -110.7171,
+      "nSpecies": 126,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L2973263",
+      "name": "Cinnamon Creek trail",
+      "lat": 45.1124,
+      "lng": -111.2324,
+      "nSpecies": 59,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2979461",
+      "name": "Bridger Bowl Hawk Watch",
+      "lat": 45.8173,
+      "lng": -110.9293,
+      "nSpecies": 107,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L2982318",
+      "name": "Yellowstone NP--Beaver Ponds Trail (MT)",
+      "lat": 44.9987,
+      "lng": -110.718,
+      "nSpecies": 134,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L2982325",
+      "name": "Yellowstone NP--Beaver Ponds Trail (WY)",
+      "lat": 44.9865,
+      "lng": -110.7089,
+      "nSpecies": 153,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L299762",
+      "name": "Yellowstone NP--Mammoth Hot Springs area",
+      "lat": 44.9734,
+      "lng": -110.7041,
+      "nSpecies": 190,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L299772",
+      "name": "Yellowstone NP--Floating Island Lake",
+      "lat": 44.9424,
+      "lng": -110.4497,
+      "nSpecies": 135,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L299774",
+      "name": "Beartooth Hwy--Beartooth Lake & Campground",
+      "lat": 44.9448,
+      "lng": -109.5922,
+      "nSpecies": 78,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L299776",
+      "name": "Beartooth Hwy--Beartooth Pass",
+      "lat": 44.9686,
+      "lng": -109.4741,
+      "nSpecies": 102,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3019918",
+      "name": "Cave Falls Road at State Line",
+      "lat": 44.1288,
+      "lng": -111.0508,
+      "nSpecies": 27,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L302479",
+      "name": "Yellowstone NP--Swan Lake",
+      "lat": 44.9194,
+      "lng": -110.7345,
+      "nSpecies": 149,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3036532",
+      "name": "Yellowstone NP--Madison Campground  and picnic area",
+      "lat": 44.6431,
+      "lng": -110.8622,
+      "nSpecies": 148,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L30442369",
+      "name": "Grand Teton NP--Lunch Tree Hill",
+      "lat": 43.8805,
+      "lng": -110.5786,
+      "nSpecies": 70,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3048742",
+      "name": "Swan Creek",
+      "lat": 45.3733,
+      "lng": -111.1545,
+      "nSpecies": 66,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3053226",
+      "name": "Rose Park",
+      "lat": 45.695,
+      "lng": -111.0695,
+      "nSpecies": 88,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3054292",
+      "name": "Grand Teton NP--Lizard Creek Campground",
+      "lat": 44.0032,
+      "lng": -110.6886,
+      "nSpecies": 113,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3054300",
+      "name": "Yellowstone NP--Cascade Creek Trail",
+      "lat": 44.1342,
+      "lng": -110.8499,
+      "nSpecies": 72,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3073026",
+      "name": "Highland Glen Nature Preserve",
+      "lat": 45.6695,
+      "lng": -111.0124,
+      "nSpecies": 138,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3076276",
+      "name": "Snake River Float",
+      "lat": 43.6823,
+      "lng": -110.6976,
+      "nSpecies": 118,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3077132",
+      "name": "Grand Teton NP--Whitegrass Ranch/Death Canyon Burn",
+      "lat": 43.6533,
+      "lng": -110.7762,
+      "nSpecies": 86,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3077539",
+      "name": "Yellowstone NP--Buffalo Plateau Trail (Wyoming)",
+      "lat": 44.9793,
+      "lng": -110.4191,
+      "nSpecies": 21,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3088230",
+      "name": "Yellowstone NP--Africa Lake (Beatty Lake) to Golden Gate",
+      "lat": 44.9476,
+      "lng": -110.714,
+      "nSpecies": 96,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3088236",
+      "name": "Yellowstone NP--Bunsen Peak Rd",
+      "lat": 44.922,
+      "lng": -110.7199,
+      "nSpecies": 104,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3090758",
+      "name": "Yellowstone NP--Blacktail Plateau Drive",
+      "lat": 44.944,
+      "lng": -110.4882,
+      "nSpecies": 137,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3092740",
+      "name": "Grand Teton NP--Jenny Lake CG & Visitor Center",
+      "lat": 43.7521,
+      "lng": -110.7224,
+      "nSpecies": 163,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3128953",
+      "name": "Grand Teton NP--White Grass Ranch",
+      "lat": 43.6488,
+      "lng": -110.7686,
+      "nSpecies": 100,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3169557",
+      "name": "Galactic Park Pond",
+      "lat": 45.6799,
+      "lng": -111.2018,
+      "nSpecies": 58,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3189488",
+      "name": "Kelly Canyon Rd.",
+      "lat": 45.6811,
+      "lng": -110.9165,
+      "nSpecies": 136,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L32117152",
+      "name": "Linney Parcel",
+      "lat": 45.7695,
+      "lng": -111.2539,
+      "nSpecies": 45,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L32170933",
+      "name": "Belgrade (town)",
+      "lat": 45.7801,
+      "lng": -111.1768,
+      "nSpecies": 49,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L32266474",
+      "name": "Grand Teton NP--Deadmans Bar and Snake River Overlook",
+      "lat": 43.7607,
+      "lng": -110.6276,
+      "nSpecies": 70,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L32266569",
+      "name": "Grand Teton NP--Windy Point Turnout",
+      "lat": 43.677,
+      "lng": -110.7245,
+      "nSpecies": 41,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3233145",
+      "name": "Bozeman Pond Park",
+      "lat": 45.6735,
+      "lng": -111.0813,
+      "nSpecies": 124,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3240226",
+      "name": "Grand Teton NP--Blacktail Ponds Overlook",
+      "lat": 43.6672,
+      "lng": -110.6962,
+      "nSpecies": 152,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3291849",
+      "name": "Yellowstone NP--Bechler Meadows Trail",
+      "lat": 44.1862,
+      "lng": -111.0046,
+      "nSpecies": 83,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3340130",
+      "name": "Axtell-Anceny Bridge FAS",
+      "lat": 45.6231,
+      "lng": -111.2052,
+      "nSpecies": 109,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L33417726",
+      "name": "Mosquito Creek Area (lower)",
+      "lat": 43.4355,
+      "lng": -110.9292,
+      "nSpecies": 64,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3344517",
+      "name": "Boundary Ski/Bike Trail",
+      "lat": 44.665,
+      "lng": -111.0974,
+      "nSpecies": 76,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L33667186",
+      "name": "North Fork Fall Creek Road",
+      "lat": 43.3719,
+      "lng": -110.8533,
+      "nSpecies": 56,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3371098",
+      "name": "Yellowstone NP--Firehole River between Old Faithful & Biscuit Basin",
+      "lat": 44.4749,
+      "lng": -110.843,
+      "nSpecies": 119,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L33826260",
+      "name": "Sheep Creek Road",
+      "lat": 43.5081,
+      "lng": -110.6052,
+      "nSpecies": 51,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3384934",
+      "name": "Grand Teton NP--Jenny Lake Lodge area",
+      "lat": 43.7829,
+      "lng": -110.7248,
+      "nSpecies": 130,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L340118",
+      "name": "Yellowstone NP--South Entrance Road (HISTORICAL DATA ONLY, NOT FOR CURRENT CHECKLISTS)",
+      "lat": 44.1698,
+      "lng": -110.6634,
+      "nSpecies": 118,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L340156",
+      "name": "Yellowstone NP--Tower Roosevelt area",
+      "lat": 44.8927,
+      "lng": -110.3877,
+      "nSpecies": 144,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L340158",
+      "name": "Yellowstone NP--NE Entrance Rd (HISTORICAL DATA ONLY, NOT FOR CURRENT OBSERVATIONS)",
+      "lat": 44.9518,
+      "lng": -110.0766,
+      "nSpecies": 146,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L340679",
+      "name": "Grand Teton NP--Leigh & String Lakes",
+      "lat": 43.7944,
+      "lng": -110.7263,
+      "nSpecies": 154,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L341396",
+      "name": "Grand Teton NP--Taggart Lake",
+      "lat": 43.6992,
+      "lng": -110.7529,
+      "nSpecies": 147,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3462352",
+      "name": "Big Springs Bridge",
+      "lat": 44.4995,
+      "lng": -111.255,
+      "nSpecies": 94,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L3462481",
+      "name": "Yellowstone NP--Arnica Creek Picnic Area",
+      "lat": 44.4731,
+      "lng": -110.5261,
+      "nSpecies": 114,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L35605349",
+      "name": "Hebgen Lake--Rainbow Pt. Picnic Area/Boat Ramp",
+      "lat": 44.7796,
+      "lng": -111.1746,
+      "nSpecies": 64,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L35683630",
+      "name": "Yellowstone NP--Tuff Cliff",
+      "lat": 44.6506,
+      "lng": -110.8293,
+      "nSpecies": 18,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L35725083",
+      "name": "Grand Teton NP--Leek's Marina",
+      "lat": 43.93,
+      "lng": -110.6399,
+      "nSpecies": 37,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3590345",
+      "name": "Grand Teton NP--Moulton Barn",
+      "lat": 43.6626,
+      "lng": -110.6588,
+      "nSpecies": 87,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3596645",
+      "name": "Upper Phillips Canyon",
+      "lat": 43.538,
+      "lng": -110.8729,
+      "nSpecies": 61,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3598871",
+      "name": "Sheep Mountain FAS",
+      "lat": 45.7298,
+      "lng": -110.4066,
+      "nSpecies": 75,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3622986",
+      "name": "Gallatin River Ranch--East Roads (restricted access)",
+      "lat": 45.9083,
+      "lng": -111.3065,
+      "nSpecies": 81,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L36491692",
+      "name": "Flat Ranch Preserve (TNC)",
+      "lat": 44.5703,
+      "lng": -111.3361,
+      "nSpecies": 48,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L3672981",
+      "name": "Gallatin County Regional Park",
+      "lat": 45.695,
+      "lng": -111.0884,
+      "nSpecies": 123,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L36743810",
+      "name": "Arch Park",
+      "lat": 45.03,
+      "lng": -110.7099,
+      "nSpecies": 45,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L36884722",
+      "name": "Yellowstone NP--Storm Point Trail",
+      "lat": 44.55,
+      "lng": -110.3337,
+      "nSpecies": 154,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3690412",
+      "name": "Old Yellowstone Trail Slough",
+      "lat": 45.579,
+      "lng": -110.5853,
+      "nSpecies": 146,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3690518",
+      "name": "Yellowstone NP--Hayden Valley--Trout Creek area",
+      "lat": 44.6465,
+      "lng": -110.4584,
+      "nSpecies": 140,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L370913",
+      "name": "Yellowstone NP--Grand Canyon of Yellowstone",
+      "lat": 44.7216,
+      "lng": -110.4869,
+      "nSpecies": 144,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3732510",
+      "name": "West Jackson (town)",
+      "lat": 43.4735,
+      "lng": -110.7885,
+      "nSpecies": 95,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3732660",
+      "name": "Grand Teton NP--Gros Ventre River at WY191",
+      "lat": 43.5667,
+      "lng": -110.7331,
+      "nSpecies": 115,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3738205",
+      "name": "The Buffalo Bill Dam Visitor Center",
+      "lat": 44.502,
+      "lng": -109.1841,
+      "nSpecies": 54,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3738227",
+      "name": "Buffalo Bill SP--North Shore Campground",
+      "lat": 44.5009,
+      "lng": -109.2343,
+      "nSpecies": 93,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3748956",
+      "name": "Myer's View Park",
+      "lat": 45.6748,
+      "lng": -110.5345,
+      "nSpecies": 132,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3751210",
+      "name": "Mesa Falls Road Campsite",
+      "lat": 44.3225,
+      "lng": -111.4322,
+      "nSpecies": 69,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L3751971",
+      "name": "Yellowstone NP--Gibbon Falls",
+      "lat": 44.6544,
+      "lng": -110.7713,
+      "nSpecies": 83,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3757405",
+      "name": "Beartooth Hwy--Twin Lakes area",
+      "lat": 44.9844,
+      "lng": -109.4272,
+      "nSpecies": 53,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3757411",
+      "name": "Long Lake CG",
+      "lat": 44.9394,
+      "lng": -109.5141,
+      "nSpecies": 46,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3757412",
+      "name": "Muddy Creek US Hwy 212",
+      "lat": 44.9301,
+      "lng": -109.6697,
+      "nSpecies": 84,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3757418",
+      "name": "Yellowstone NP--Warm Creek Picnic Area",
+      "lat": 45.0034,
+      "lng": -110.0285,
+      "nSpecies": 70,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3757421",
+      "name": "Cooke City (town)",
+      "lat": 45.0196,
+      "lng": -109.9335,
+      "nSpecies": 97,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3757424",
+      "name": "Silvergate (town)",
+      "lat": 45.007,
+      "lng": -109.9896,
+      "nSpecies": 117,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3757425",
+      "name": "Yellowstone NP--Lamar Canyon",
+      "lat": 44.9184,
+      "lng": -110.3038,
+      "nSpecies": 138,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3757428",
+      "name": "Yellowstone NP--Tower Junction",
+      "lat": 44.916,
+      "lng": -110.4158,
+      "nSpecies": 135,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3760369",
+      "name": "Hyalite Reservoir",
+      "lat": 45.4821,
+      "lng": -110.9694,
+      "nSpecies": 180,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3766292",
+      "name": "Shields River Campground",
+      "lat": 46.1829,
+      "lng": -110.408,
+      "nSpecies": 34,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3766671",
+      "name": "Yellowstone NP--Artist Point",
+      "lat": 44.7211,
+      "lng": -110.4794,
+      "nSpecies": 88,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3766675",
+      "name": "Yellowstone NP--Inspiration Point on Canyon",
+      "lat": 44.7253,
+      "lng": -110.4705,
+      "nSpecies": 69,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3766682",
+      "name": "Yellowstone NP--Lewis Lake Campground",
+      "lat": 44.2822,
+      "lng": -110.6265,
+      "nSpecies": 95,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3766740",
+      "name": "Yellowstone NP--Midway Geyser Basin",
+      "lat": 44.5267,
+      "lng": -110.837,
+      "nSpecies": 128,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3771551",
+      "name": "National Museum of Wildlife Art area",
+      "lat": 43.521,
+      "lng": -110.7479,
+      "nSpecies": 102,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3783203",
+      "name": "Kelly (town)",
+      "lat": 43.6212,
+      "lng": -110.6253,
+      "nSpecies": 125,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3788955",
+      "name": "Saint Anthony Sand Dunes",
+      "lat": 44.0067,
+      "lng": -111.7817,
+      "nSpecies": 85,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L3793372",
+      "name": "Yellowstone NP--Shoshone Geyser Basin area",
+      "lat": 44.3548,
+      "lng": -110.7991,
+      "nSpecies": 65,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L38081906",
+      "name": "Dry Creek Trail #132",
+      "lat": 45.4878,
+      "lng": -110.7562,
+      "nSpecies": 33,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3811321",
+      "name": "Grand Teton NP--Moose Wilson Rd. wetlands overlook",
+      "lat": 43.6542,
+      "lng": -110.7376,
+      "nSpecies": 160,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3811946",
+      "name": "Blacktail Butte Summit Trail",
+      "lat": 43.6543,
+      "lng": -110.6971,
+      "nSpecies": 108,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3829621",
+      "name": "Swan Lake",
+      "lat": 43.8908,
+      "lng": -110.6326,
+      "nSpecies": 125,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3837349",
+      "name": "Breccia Peak Trail",
+      "lat": 43.769,
+      "lng": -110.0881,
+      "nSpecies": 43,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3845476",
+      "name": "Mystic Lake",
+      "lat": 45.5432,
+      "lng": -110.9191,
+      "nSpecies": 69,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L385452",
+      "name": "Yellowstone NP--Wyoming (HISTORICAL DATA ONLY, NOT FOR CURRENT CHECKLISTS)",
+      "lat": 44.5435,
+      "lng": -110.5994,
+      "nSpecies": 179,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3862973",
+      "name": "Fairy Pass/Sacajawea Peak Trail",
+      "lat": 45.9068,
+      "lng": -110.9773,
+      "nSpecies": 49,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3882753",
+      "name": "Yellowstone NP--Lava Creek Picnic Area",
+      "lat": 44.9407,
+      "lng": -110.6323,
+      "nSpecies": 86,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L3882767",
+      "name": "Yellowstone NP--Hayden Valley--Alum Creek",
+      "lat": 44.6775,
+      "lng": -110.4859,
+      "nSpecies": 166,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L38829122",
+      "name": "Rock Creek Road",
+      "lat": 45.8869,
+      "lng": -110.5422,
+      "nSpecies": 35,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3885711",
+      "name": "Bridger-Teton NF--Crystal Creek",
+      "lat": 43.6046,
+      "lng": -110.4226,
+      "nSpecies": 77,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3885714",
+      "name": "Bridger-Teton NF--Lower Slide Lake",
+      "lat": 43.6327,
+      "lng": -110.5308,
+      "nSpecies": 102,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3887446",
+      "name": "Glen Lake Rotary Park",
+      "lat": 45.7048,
+      "lng": -111.0375,
+      "nSpecies": 232,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3891098",
+      "name": "Bridger-Teton NF--Atherton Creek",
+      "lat": 43.6379,
+      "lng": -110.5233,
+      "nSpecies": 103,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L3912876",
+      "name": "Gallatin River Ranch--West Roads (restricted access)",
+      "lat": 45.9104,
+      "lng": -111.3465,
+      "nSpecies": 60,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L39237572",
+      "name": "Dan Bailey FAS",
+      "lat": 45.4204,
+      "lng": -110.6369,
+      "nSpecies": 27,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L3965761",
+      "name": "Crosscut Mountain Sport Center",
+      "lat": 45.8284,
+      "lng": -110.887,
+      "nSpecies": 76,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L3981912",
+      "name": "Wapiti & Elk Fork Campgrounds",
+      "lat": 44.465,
+      "lng": -109.6257,
+      "nSpecies": 118,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L40322424",
+      "name": "Yellowstone NP--Steamboat Point",
+      "lat": 44.5299,
+      "lng": -110.298,
+      "nSpecies": 22,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L40437875",
+      "name": "Canary Spring",
+      "lat": 44.9673,
+      "lng": -110.7059,
+      "nSpecies": 64,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4115928",
+      "name": "Angler's Lodge",
+      "lat": 44.3723,
+      "lng": -111.4027,
+      "nSpecies": 99,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L4122432",
+      "name": "Rafter J Pond",
+      "lat": 43.4319,
+      "lng": -110.7982,
+      "nSpecies": 112,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4156361",
+      "name": "Cooper Park",
+      "lat": 45.675,
+      "lng": -111.0473,
+      "nSpecies": 67,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L41794763",
+      "name": "Eagle Creek Campground",
+      "lat": 45.0451,
+      "lng": -110.6801,
+      "nSpecies": 60,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L421073",
+      "name": "Beck & Alkali Lakes",
+      "lat": 44.5097,
+      "lng": -109.0377,
+      "nSpecies": 188,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4287749",
+      "name": "Four Corners FAS",
+      "lat": 45.8585,
+      "lng": -111.2891,
+      "nSpecies": 106,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L4298031",
+      "name": "Gray Cliff FAS",
+      "lat": 45.7103,
+      "lng": -111.5141,
+      "nSpecies": 92,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L4354653",
+      "name": "Yellowstone NP--Lamar Valley River Trail",
+      "lat": 44.8692,
+      "lng": -110.1658,
+      "nSpecies": 166,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4356349",
+      "name": "Harriman SP--Golden Lake",
+      "lat": 44.3554,
+      "lng": -111.4806,
+      "nSpecies": 73,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L4458297",
+      "name": "Elk Creek Pond/Goosewing Lake",
+      "lat": 46.068,
+      "lng": -110.5893,
+      "nSpecies": 108,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L4606638",
+      "name": "Grand Teton NP--Signal Mountain Rd. area",
+      "lat": 43.8507,
+      "lng": -110.5846,
+      "nSpecies": 94,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L46105064",
+      "name": "Yellowstone NP--Nez Perce Picnic Area",
+      "lat": 44.5797,
+      "lng": -110.832,
+      "nSpecies": 54,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4660115",
+      "name": "Henrys Lake Drive",
+      "lat": 44.6684,
+      "lng": -111.4259,
+      "nSpecies": 123,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L4665721",
+      "name": "Indreland Audubon Wetland Preserve",
+      "lat": 45.6814,
+      "lng": -111.0181,
+      "nSpecies": 188,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L4685650",
+      "name": "Yellowstone NP--Slough Creek",
+      "lat": 44.9268,
+      "lng": -110.3228,
+      "nSpecies": 171,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4686166",
+      "name": "Story Mill Community Park",
+      "lat": 45.6976,
+      "lng": -111.0224,
+      "nSpecies": 168,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L4695052",
+      "name": "Grand Teton NP--End Highlands Rd",
+      "lat": 43.7102,
+      "lng": -110.7299,
+      "nSpecies": 79,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4708559",
+      "name": "Bill Frome Memorial County RV Park",
+      "lat": 44.6501,
+      "lng": -111.4374,
+      "nSpecies": 114,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L47336503",
+      "name": "Four Bear Trail",
+      "lat": 44.4761,
+      "lng": -109.4143,
+      "nSpecies": 49,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4737184",
+      "name": "Gallatin River Marsh at Tepee Creek",
+      "lat": 45.0606,
+      "lng": -111.1675,
+      "nSpecies": 74,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L4737298",
+      "name": "Yellowstone NP--Pebble Creek Trail",
+      "lat": 44.9279,
+      "lng": -110.1112,
+      "nSpecies": 67,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4742680",
+      "name": "Yellowstone NP--Tower Falls",
+      "lat": 44.8944,
+      "lng": -110.3878,
+      "nSpecies": 102,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4744017",
+      "name": "Yellowstone NP--Petrified Tree",
+      "lat": 44.9166,
+      "lng": -110.4406,
+      "nSpecies": 87,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4744019",
+      "name": "Yellowstone NP--Elk Creek",
+      "lat": 44.9295,
+      "lng": -110.443,
+      "nSpecies": 85,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4748216",
+      "name": "Flanders Mill Rd. pond",
+      "lat": 45.6925,
+      "lng": -111.0973,
+      "nSpecies": 140,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L4748608",
+      "name": "Yellowstone NP--Uncle Tom's Point",
+      "lat": 44.715,
+      "lng": -110.4961,
+      "nSpecies": 85,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4753656",
+      "name": "Yellowstone NP--Union Falls trail",
+      "lat": 44.1827,
+      "lng": -110.8888,
+      "nSpecies": 43,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4758315",
+      "name": "Grand Teton NP--Antelope Flats Rd",
+      "lat": 43.6479,
+      "lng": -110.6639,
+      "nSpecies": 128,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4758316",
+      "name": "Grand Teton NP--Cottonwood Creek Picnic Area",
+      "lat": 43.6971,
+      "lng": -110.7301,
+      "nSpecies": 111,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4763978",
+      "name": "Yellowstone NP--West Thumb Lake Overlook Trail",
+      "lat": 44.4113,
+      "lng": -110.5859,
+      "nSpecies": 95,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4766090",
+      "name": "Yellowstone NP--Specimen Ridge Trail, West End",
+      "lat": 44.9118,
+      "lng": -110.3874,
+      "nSpecies": 128,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4766653",
+      "name": "Grand Teton NP--Grassy Lake Road (please use more precise locations)",
+      "lat": 44.1087,
+      "lng": -110.6856,
+      "nSpecies": 132,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4778983",
+      "name": "Yellowstone NP--Bridge Bay and Campground",
+      "lat": 44.5339,
+      "lng": -110.4375,
+      "nSpecies": 140,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4784392",
+      "name": "Yellowstone NP--Firehole River Picnic Area",
+      "lat": 44.5934,
+      "lng": -110.8313,
+      "nSpecies": 99,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4784518",
+      "name": "Yellowstone NP--Gibbon Falls Picnic Ground",
+      "lat": 44.6485,
+      "lng": -110.7735,
+      "nSpecies": 60,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4784538",
+      "name": "Yellowstone NP--Canyon Campground",
+      "lat": 44.7367,
+      "lng": -110.4849,
+      "nSpecies": 59,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4794045",
+      "name": "Yankee Jim Canyon Campground",
+      "lat": 45.1824,
+      "lng": -110.8868,
+      "nSpecies": 80,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L4803219",
+      "name": "Loch Leven FAS and Campground",
+      "lat": 45.4573,
+      "lng": -110.6246,
+      "nSpecies": 104,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L4803231",
+      "name": "Emigrant FAS",
+      "lat": 45.3673,
+      "lng": -110.7259,
+      "nSpecies": 129,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L4809185",
+      "name": "Yellowstone NP--Pelican Valley Trail",
+      "lat": 44.5801,
+      "lng": -110.246,
+      "nSpecies": 90,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4813130",
+      "name": "Shoshone River--Willwood Access area",
+      "lat": 44.7075,
+      "lng": -108.7562,
+      "nSpecies": 110,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4813167",
+      "name": "Deaver Reservoir",
+      "lat": 44.9006,
+      "lng": -108.6377,
+      "nSpecies": 127,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4824674",
+      "name": "Yellowstone NP--Avalanche Peak",
+      "lat": 44.4869,
+      "lng": -110.1429,
+      "nSpecies": 87,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4835085",
+      "name": "Gros Ventre Slide Geology Trail",
+      "lat": 43.634,
+      "lng": -110.5473,
+      "nSpecies": 54,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4835852",
+      "name": "Rendezvous Park",
+      "lat": 43.5023,
+      "lng": -110.8434,
+      "nSpecies": 130,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4856635",
+      "name": "New World Gulch Trail",
+      "lat": 45.609,
+      "lng": -110.9244,
+      "nSpecies": 83,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L4869201",
+      "name": "Yellowstone NP--Kepler Cascades",
+      "lat": 44.4453,
+      "lng": -110.8054,
+      "nSpecies": 52,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4871475",
+      "name": "South Fork Darby Canyon",
+      "lat": 43.6587,
+      "lng": -110.9432,
+      "nSpecies": 16,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L48846652",
+      "name": "Aspen Trail",
+      "lat": 43.6758,
+      "lng": -111.0265,
+      "nSpecies": 31,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4896507",
+      "name": "Yellowstone NP--Grebe Lake",
+      "lat": 44.7498,
+      "lng": -110.5549,
+      "nSpecies": 94,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4904691",
+      "name": "Box Canyon",
+      "lat": 44.377,
+      "lng": -111.4052,
+      "nSpecies": 78,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L4905178",
+      "name": "Yellowstone NP--Hellroaring Creek Trail",
+      "lat": 44.9495,
+      "lng": -110.45,
+      "nSpecies": 134,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4924472",
+      "name": "Yellowstone NP--Lone Star Geyser trail",
+      "lat": 44.4314,
+      "lng": -110.8134,
+      "nSpecies": 70,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4931118",
+      "name": "Yellowstone NP--Natural Bridge",
+      "lat": 44.5257,
+      "lng": -110.4546,
+      "nSpecies": 107,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L49494563",
+      "name": "Divide Road",
+      "lat": 45.5266,
+      "lng": -110.6647,
+      "nSpecies": 31,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L4950369",
+      "name": "Chico Hot Springs",
+      "lat": 45.3376,
+      "lng": -110.691,
+      "nSpecies": 117,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L49528285",
+      "name": "Wind River Lake",
+      "lat": 43.7478,
+      "lng": -110.0572,
+      "nSpecies": 12,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4960408",
+      "name": "Grand Teton NP--Cattleman's Bridge",
+      "lat": 43.8566,
+      "lng": -110.5534,
+      "nSpecies": 133,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4961841",
+      "name": "US Hwy 26 at Turpin Meadows Ranch Rd area",
+      "lat": 43.8163,
+      "lng": -110.2668,
+      "nSpecies": 119,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L4976298",
+      "name": "Yellowstone NP--Canyon Village",
+      "lat": 44.7342,
+      "lng": -110.4905,
+      "nSpecies": 105,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4981853",
+      "name": "Horse Creek Picnic Area",
+      "lat": 44.4664,
+      "lng": -109.5864,
+      "nSpecies": 66,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L4999023",
+      "name": "Yellowstone NP--Sylvan Lake",
+      "lat": 44.4804,
+      "lng": -110.1612,
+      "nSpecies": 78,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L5044136",
+      "name": "Heart Mountain",
+      "lat": 44.6665,
+      "lng": -109.1257,
+      "nSpecies": 93,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L5052864",
+      "name": "Yellowstone NP--Lamar Ranger Station",
+      "lat": 44.8952,
+      "lng": -110.2332,
+      "nSpecies": 141,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L5052905",
+      "name": "Yellowstone NP--Geode Creek",
+      "lat": 44.9553,
+      "lng": -110.5008,
+      "nSpecies": 98,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L50650517",
+      "name": "Yellowstone NP--Cascade Lake Picnic Area",
+      "lat": 44.752,
+      "lng": -110.4863,
+      "nSpecies": 34,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L5066567",
+      "name": "Henry's Fork at St. Anthony",
+      "lat": 43.9677,
+      "lng": -111.6705,
+      "nSpecies": 75,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L5068693",
+      "name": "Ashton (Town)",
+      "lat": 44.0717,
+      "lng": -111.452,
+      "nSpecies": 91,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L5068705",
+      "name": "Targhee Riverside Campground",
+      "lat": 44.2666,
+      "lng": -111.4568,
+      "nSpecies": 78,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L5070409",
+      "name": "West Yellowstone (town)",
+      "lat": 44.6622,
+      "lng": -111.102,
+      "nSpecies": 147,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L5070641",
+      "name": "Museum of the Rockies",
+      "lat": 45.6586,
+      "lng": -111.0455,
+      "nSpecies": 65,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L5086021",
+      "name": "Teton Pass area",
+      "lat": 43.4971,
+      "lng": -110.9564,
+      "nSpecies": 107,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L5100983",
+      "name": "Cattail pond",
+      "lat": 45.7093,
+      "lng": -111.0778,
+      "nSpecies": 100,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L51222824",
+      "name": "Flanders Creek Trail",
+      "lat": 45.4544,
+      "lng": -110.9306,
+      "nSpecies": 19,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L514208",
+      "name": "Three Forks Ponds",
+      "lat": 45.8963,
+      "lng": -111.5368,
+      "nSpecies": 203,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L517784",
+      "name": "Yellowstone NP--Sedge Bay",
+      "lat": 44.5198,
+      "lng": -110.2787,
+      "nSpecies": 124,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L52574520",
+      "name": "Yellowstone NP--Tower Falls Trail",
+      "lat": 44.8941,
+      "lng": -110.3837,
+      "nSpecies": 34,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L52574680",
+      "name": "Yellowstone NP--Tower Falls CG",
+      "lat": 44.8891,
+      "lng": -110.3908,
+      "nSpecies": 38,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L5271792",
+      "name": "King Arthur Pond/Minder Park",
+      "lat": 45.6641,
+      "lng": -111.1213,
+      "nSpecies": 72,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L5413101",
+      "name": "Moose Creek",
+      "lat": 43.5641,
+      "lng": -111.0372,
+      "nSpecies": 59,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L54613159",
+      "name": "Grand Teton NP--Grand View Point Trail",
+      "lat": 43.9053,
+      "lng": -110.5559,
+      "nSpecies": 39,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L550103",
+      "name": "Snake River--26/89/189/191 Bridge",
+      "lat": 43.385,
+      "lng": -110.7457,
+      "nSpecies": 121,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L55039406",
+      "name": "Devil's Slide Viewpoint",
+      "lat": 45.0863,
+      "lng": -110.7757,
+      "nSpecies": 22,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L55419614",
+      "name": "Miller Park",
+      "lat": 43.4813,
+      "lng": -110.7658,
+      "nSpecies": 29,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L555865",
+      "name": "Grand Teton NP--Teton Science School",
+      "lat": 43.67,
+      "lng": -110.5983,
+      "nSpecies": 146,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L556992",
+      "name": "Madison Buffalo Jump SP",
+      "lat": 45.7944,
+      "lng": -111.4722,
+      "nSpecies": 113,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L55831250",
+      "name": "Pine Creek",
+      "lat": 45.5077,
+      "lng": -110.5637,
+      "nSpecies": 6,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L55896217",
+      "name": "Free River FAS",
+      "lat": 45.6067,
+      "lng": -110.5718,
+      "nSpecies": 68,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L563009",
+      "name": "Deep Creek Bench",
+      "lat": 45.5258,
+      "lng": -110.5268,
+      "nSpecies": 79,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L5630942",
+      "name": "Brackett Creek Rd.",
+      "lat": 45.875,
+      "lng": -110.7255,
+      "nSpecies": 79,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L5776473",
+      "name": "Laurel Pkwy Ponds",
+      "lat": 45.6836,
+      "lng": -111.1139,
+      "nSpecies": 117,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L5788110",
+      "name": "Yellowstone NP--Heart Lake and vicinity",
+      "lat": 44.2873,
+      "lng": -110.5007,
+      "nSpecies": 140,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L5792138",
+      "name": "Allenspur/Pop Stand",
+      "lat": 45.6088,
+      "lng": -110.576,
+      "nSpecies": 63,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L582649",
+      "name": "Grand Teton NP--Phelps Lake area",
+      "lat": 43.6431,
+      "lng": -110.7963,
+      "nSpecies": 144,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L583983",
+      "name": "Yellowstone NP--West Thumb",
+      "lat": 44.4316,
+      "lng": -110.5805,
+      "nSpecies": 160,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L5898997",
+      "name": "Island Park Landfill",
+      "lat": 44.4498,
+      "lng": -111.3702,
+      "nSpecies": 7,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L5918707",
+      "name": "Yellowstone NP--Whiskey Flat Picnic Area",
+      "lat": 44.5324,
+      "lng": -110.8272,
+      "nSpecies": 76,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L5923775",
+      "name": "Mesa Nature Trail",
+      "lat": 44.1841,
+      "lng": -111.322,
+      "nSpecies": 65,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L594020",
+      "name": "Cottonwood Reservoir ",
+      "lat": 46.0377,
+      "lng": -110.6866,
+      "nSpecies": 180,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L59776786",
+      "name": "Grand Teton NP--Lakeview Picnic Area",
+      "lat": 43.9769,
+      "lng": -110.6565,
+      "nSpecies": 16,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L59776892",
+      "name": "Grand Teton NP--Arizona Island Picnic Area",
+      "lat": 43.9675,
+      "lng": -110.6393,
+      "nSpecies": 7,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L5982708",
+      "name": "Yellowstone NP--Specimen Creek Trail",
+      "lat": 45.0187,
+      "lng": -111.0684,
+      "nSpecies": 59,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L6005456",
+      "name": "Yellowstone NP--Antelope Creek",
+      "lat": 44.8686,
+      "lng": -110.3879,
+      "nSpecies": 83,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L6016958",
+      "name": "Henrys Lake Hatchery",
+      "lat": 44.6657,
+      "lng": -111.3867,
+      "nSpecies": 77,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L6018517",
+      "name": "Beaver Creek Wetlands",
+      "lat": 44.8623,
+      "lng": -111.3695,
+      "nSpecies": 99,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L6022746",
+      "name": "Grand Teton NP--Pilgrim Creek Rd",
+      "lat": 43.913,
+      "lng": -110.5817,
+      "nSpecies": 104,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L603410",
+      "name": "National Elk Refuge",
+      "lat": 43.489,
+      "lng": -110.7488,
+      "nSpecies": 185,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6035123",
+      "name": "River Road south of Hwy 84",
+      "lat": 45.6514,
+      "lng": -111.2025,
+      "nSpecies": 99,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L6047554",
+      "name": "Mountainside KOA Campground",
+      "lat": 44.6879,
+      "lng": -111.2528,
+      "nSpecies": 106,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L60742692",
+      "name": "Grand Teton NP--Sargents Bay Picnic Area",
+      "lat": 43.937,
+      "lng": -110.6301,
+      "nSpecies": 5,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6094796",
+      "name": "Sunlight Wildlife Habitat Management Area",
+      "lat": 44.7462,
+      "lng": -109.5027,
+      "nSpecies": 80,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L6110390",
+      "name": "Triple Tree Trail--lower",
+      "lat": 45.6131,
+      "lng": -111.0123,
+      "nSpecies": 107,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L6133746",
+      "name": "Joe Brown Trail",
+      "lat": 45.1682,
+      "lng": -110.8519,
+      "nSpecies": 64,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L6208090",
+      "name": "Sunset Lake",
+      "lat": 43.7103,
+      "lng": -110.8575,
+      "nSpecies": 36,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6208104",
+      "name": "Grand Teton NP--Alaska Basin Trail (Sunset Lake to Buck Pass)",
+      "lat": 43.6997,
+      "lng": -110.8387,
+      "nSpecies": 74,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6208106",
+      "name": "Grand Teton NP--Buck Pass",
+      "lat": 43.687,
+      "lng": -110.8299,
+      "nSpecies": 10,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6208179",
+      "name": "Grand Teton NP--Buck Pass to Fox Creek Pass",
+      "lat": 43.6798,
+      "lng": -110.8781,
+      "nSpecies": 27,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6210112",
+      "name": "Beartooth Hwy--state line pullout",
+      "lat": 45.003,
+      "lng": -109.4144,
+      "nSpecies": 27,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L6210130",
+      "name": "Beartooth Hwy--Gardner Lake & Trail",
+      "lat": 44.9728,
+      "lng": -109.4519,
+      "nSpecies": 40,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L6214528",
+      "name": "Yellowstone NP--Lewis Falls",
+      "lat": 44.2675,
+      "lng": -110.6364,
+      "nSpecies": 59,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6214601",
+      "name": "Grand Teton NP--Amphitheater Lake Trail",
+      "lat": 43.7291,
+      "lng": -110.7686,
+      "nSpecies": 103,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6219269",
+      "name": "Grand Teton NP--Colter Bay--Hermitage Point Trail",
+      "lat": 43.8842,
+      "lng": -110.6314,
+      "nSpecies": 133,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6233503",
+      "name": "Hausser Park",
+      "lat": 45.6561,
+      "lng": -111.0268,
+      "nSpecies": 78,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L623661",
+      "name": "Hebgen Lake",
+      "lat": 44.7888,
+      "lng": -111.2519,
+      "nSpecies": 201,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L623670",
+      "name": "Yellowstone NP--Yellowstone Lake Hotel",
+      "lat": 44.5494,
+      "lng": -110.4009,
+      "nSpecies": 153,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6261303",
+      "name": "Fairy Lake",
+      "lat": 45.9044,
+      "lng": -110.958,
+      "nSpecies": 74,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L6292626",
+      "name": "Montana State University",
+      "lat": 45.6664,
+      "lng": -111.0518,
+      "nSpecies": 109,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L63905835",
+      "name": "Hebgen Lake--The Narrows",
+      "lat": 44.8284,
+      "lng": -111.2847,
+      "nSpecies": 43,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L6428037",
+      "name": "Newton Lakes",
+      "lat": 44.5426,
+      "lng": -109.1202,
+      "nSpecies": 142,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L6587176",
+      "name": "National Elk Refuge--Shop Ponds",
+      "lat": 43.4924,
+      "lng": -110.7359,
+      "nSpecies": 131,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L66330893",
+      "name": "Floating Island Lake",
+      "lat": 44.9415,
+      "lng": -110.45,
+      "nSpecies": 41,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L6678694",
+      "name": "Powell WTP area",
+      "lat": 44.7919,
+      "lng": -108.7367,
+      "nSpecies": 91,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L6685509",
+      "name": "Powell (town)",
+      "lat": 44.7549,
+      "lng": -108.7625,
+      "nSpecies": 56,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L67249003",
+      "name": "The Westside Trail",
+      "lat": 45.6873,
+      "lng": -111.0744,
+      "nSpecies": 32,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L68251920",
+      "name": "Jackson (town)",
+      "lat": 43.48,
+      "lng": -110.7618,
+      "nSpecies": 178,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6842172",
+      "name": "Grand Teton NP--Cottonwood Creek Rd",
+      "lat": 43.699,
+      "lng": -110.7121,
+      "nSpecies": 66,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L6842204",
+      "name": "Grand Teton NP--Murie Ranch",
+      "lat": 43.6505,
+      "lng": -110.729,
+      "nSpecies": 123,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L68608609",
+      "name": "Yellowstone NP--Eleanor Lake",
+      "lat": 44.4697,
+      "lng": -110.1403,
+      "nSpecies": 4,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L69426234",
+      "name": "Elk Fork Creek Trail",
+      "lat": 44.4558,
+      "lng": -109.6328,
+      "nSpecies": 41,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L69782685",
+      "name": "Bridger Creek Golf Coarse",
+      "lat": 45.7105,
+      "lng": -111.0273,
+      "nSpecies": 48,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L69883341",
+      "name": "Yellowstone NP--Bighorn Pass Trailhead",
+      "lat": 44.9281,
+      "lng": -111.0492,
+      "nSpecies": 6,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L69883473",
+      "name": "Yellowstone NP--Grayling Creek Marshes",
+      "lat": 44.874,
+      "lng": -111.0456,
+      "nSpecies": 7,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7049056",
+      "name": "Russ Garaman Park",
+      "lat": 43.4658,
+      "lng": -110.788,
+      "nSpecies": 106,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7057623",
+      "name": "Jackson Hole & Greater Yellowstone Visitor Center",
+      "lat": 43.4863,
+      "lng": -110.7618,
+      "nSpecies": 153,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7068474",
+      "name": "Logan to Trident Road",
+      "lat": 45.9261,
+      "lng": -111.4587,
+      "nSpecies": 71,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L71907452",
+      "name": "stakeout Dickcissel, Staudaher St, Bozeman (2026)",
+      "lat": 45.6511,
+      "lng": -111.0553,
+      "nSpecies": 31,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L7248685",
+      "name": "Heart Mountain Ranch Preserve",
+      "lat": 44.6347,
+      "lng": -109.0181,
+      "nSpecies": 64,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7276896",
+      "name": "National Elk Refuge--Bert's Bench",
+      "lat": 43.4868,
+      "lng": -110.7612,
+      "nSpecies": 156,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7341059",
+      "name": "Valley West Park",
+      "lat": 45.6821,
+      "lng": -111.099,
+      "nSpecies": 83,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L7349721",
+      "name": "Big Sky--Lone Mountain Ranch",
+      "lat": 45.2773,
+      "lng": -111.3253,
+      "nSpecies": 92,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L7392929",
+      "name": "Creekwood Park and Trails",
+      "lat": 45.7058,
+      "lng": -111.0048,
+      "nSpecies": 128,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L7403501",
+      "name": "Fleshman Trail and Mountain View Cemetery",
+      "lat": 45.661,
+      "lng": -110.5922,
+      "nSpecies": 141,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L742495",
+      "name": "Yellowstone NP--West Thumb Geyser Basin",
+      "lat": 44.4164,
+      "lng": -110.5728,
+      "nSpecies": 172,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L742501",
+      "name": "Yellowstone NP--Firehole Canyon",
+      "lat": 44.628,
+      "lng": -110.8623,
+      "nSpecies": 109,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L743100",
+      "name": "Grand Teton NP--Two Ocean Lake",
+      "lat": 43.9019,
+      "lng": -110.5005,
+      "nSpecies": 153,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L743130",
+      "name": "Yellowstone NP--Old Faithful area",
+      "lat": 44.4584,
+      "lng": -110.8294,
+      "nSpecies": 185,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L743148",
+      "name": "Grand Teton NP--Jenny Lake Rd.",
+      "lat": 43.7671,
+      "lng": -110.7174,
+      "nSpecies": 144,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L743302",
+      "name": "Bridger-Teton NF--Teton Village Tram",
+      "lat": 43.5973,
+      "lng": -110.8712,
+      "nSpecies": 109,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7520750",
+      "name": "Darby Wind Caves Trail",
+      "lat": 43.6818,
+      "lng": -110.9555,
+      "nSpecies": 69,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7531577",
+      "name": "Grand Teton NP--Donoho Point",
+      "lat": 43.8455,
+      "lng": -110.6314,
+      "nSpecies": 26,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7565505",
+      "name": "Sunlight Bridge & overlook",
+      "lat": 44.7699,
+      "lng": -109.4249,
+      "nSpecies": 60,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7573014",
+      "name": "Wood Road Fishing Access",
+      "lat": 44.3058,
+      "lng": -111.4404,
+      "nSpecies": 38,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L7583062",
+      "name": "Reef Creek turnout",
+      "lat": 44.8448,
+      "lng": -109.5616,
+      "nSpecies": 60,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7583082",
+      "name": "Yellowstone NP--Yellowstone River Picnic Area Trail",
+      "lat": 44.9166,
+      "lng": -110.4006,
+      "nSpecies": 120,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L760406",
+      "name": "Yellowstone NP--Blacktail Ponds",
+      "lat": 44.9531,
+      "lng": -110.6025,
+      "nSpecies": 154,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7609122",
+      "name": "Yellowstone NP--Gneiss Creek Trail-Fir Ridge to Gneiss Creek",
+      "lat": 44.796,
+      "lng": -111.103,
+      "nSpecies": 79,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L7619963",
+      "name": "Buffalo Bill Reservoir--South Fork",
+      "lat": 44.4454,
+      "lng": -109.2266,
+      "nSpecies": 105,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7639593",
+      "name": "Snow King Mountain",
+      "lat": 43.4673,
+      "lng": -110.766,
+      "nSpecies": 87,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7674249",
+      "name": "Grand Teton NP--Moose Ponds Loop Trail",
+      "lat": 43.7483,
+      "lng": -110.741,
+      "nSpecies": 119,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7699408",
+      "name": "Yellowstone NP--Forces of the Northern Range Nature Trail",
+      "lat": 44.96,
+      "lng": -110.5668,
+      "nSpecies": 105,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7699990",
+      "name": "Shoshone NF--Island Lake",
+      "lat": 44.9435,
+      "lng": -109.5401,
+      "nSpecies": 59,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L770159",
+      "name": "Macks Inn",
+      "lat": 44.4959,
+      "lng": -111.3078,
+      "nSpecies": 113,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L771908",
+      "name": "Grand Teton NP--Signal Mt.",
+      "lat": 43.8459,
+      "lng": -110.5755,
+      "nSpecies": 130,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L771915",
+      "name": "Grand Teton NP--Jackson Lake Dam area",
+      "lat": 43.8581,
+      "lng": -110.5886,
+      "nSpecies": 199,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L771967",
+      "name": "Grand Teton NP--Colter Bay",
+      "lat": 43.9033,
+      "lng": -110.6433,
+      "nSpecies": 174,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L772028",
+      "name": "Yellowstone NP--W. Entrance Rd./Madison Riv.",
+      "lat": 44.6619,
+      "lng": -110.9625,
+      "nSpecies": 164,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L772170",
+      "name": "Lava Lake trail",
+      "lat": 45.4062,
+      "lng": -111.2246,
+      "nSpecies": 84,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L7732040",
+      "name": "Yellowstone NP--Lodgepole Pullout",
+      "lat": 44.8387,
+      "lng": -110.442,
+      "nSpecies": 53,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7742242",
+      "name": "Sixteenmile Creek Road, Maudlow",
+      "lat": 46.1097,
+      "lng": -111.1678,
+      "nSpecies": 131,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L7747997",
+      "name": "Gardiner (town)",
+      "lat": 45.0317,
+      "lng": -110.7073,
+      "nSpecies": 150,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L777997",
+      "name": "Yellowstone NP--Artist's Paintpots",
+      "lat": 44.6921,
+      "lng": -110.7383,
+      "nSpecies": 92,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L777998",
+      "name": "Yellowstone NP--Norris Geyser Basin",
+      "lat": 44.7262,
+      "lng": -110.7028,
+      "nSpecies": 149,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L787257",
+      "name": "Buffalo Bill SP",
+      "lat": 44.4894,
+      "lng": -109.229,
+      "nSpecies": 163,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7949645",
+      "name": "Grand Teton NP--Timbered Pullout",
+      "lat": 43.5978,
+      "lng": -110.6978,
+      "nSpecies": 116,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7954382",
+      "name": "Grand Teton NP—Uhl Hill Rd area",
+      "lat": 43.8082,
+      "lng": -110.5078,
+      "nSpecies": 131,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7957089",
+      "name": "Grand Teton NP--Teton Glacier Turnout",
+      "lat": 43.7131,
+      "lng": -110.7278,
+      "nSpecies": 62,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7957428",
+      "name": "Grand Teton NP--Triangle X Ranch turnoff",
+      "lat": 43.77,
+      "lng": -110.5702,
+      "nSpecies": 57,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7960444",
+      "name": "Grand Teton NP—Two Ocean Lake Rd pullout",
+      "lat": 43.8924,
+      "lng": -110.5002,
+      "nSpecies": 97,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7962845",
+      "name": "Yellowstone NP--Lily Falls overlook",
+      "lat": 44.2218,
+      "lng": -110.6553,
+      "nSpecies": 14,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7962846",
+      "name": "Yellowstone NP--Lewis River pulloff",
+      "lat": 44.2495,
+      "lng": -110.6453,
+      "nSpecies": 67,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7967875",
+      "name": "Yellowstone NP--Riverside Dr",
+      "lat": 44.6561,
+      "lng": -110.9921,
+      "nSpecies": 94,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7967878",
+      "name": "Yellowstone NP--Dunraven Pass pulloff",
+      "lat": 44.7921,
+      "lng": -110.4523,
+      "nSpecies": 33,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7967881",
+      "name": "Yellowstone NP--Dunraven rest area",
+      "lat": 44.7796,
+      "lng": -110.4564,
+      "nSpecies": 46,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7971627",
+      "name": "Yellowstone NP--Upper Falls parking & viewpoint",
+      "lat": 44.7144,
+      "lng": -110.5007,
+      "nSpecies": 91,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7971648",
+      "name": "Yellowstone NP--Terrace Spring",
+      "lat": 44.65,
+      "lng": -110.8465,
+      "nSpecies": 42,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L7978289",
+      "name": "Yellowstone NP--Barronette Peak pulloff",
+      "lat": 44.9791,
+      "lng": -110.0629,
+      "nSpecies": 62,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7979823",
+      "name": "Shoshone NF--lower switchback",
+      "lat": 44.9488,
+      "lng": -109.4803,
+      "nSpecies": 43,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7979827",
+      "name": "Shoshone NF--Yellowstone Overlook",
+      "lat": 44.9329,
+      "lng": -109.6391,
+      "nSpecies": 48,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7979829",
+      "name": "Shoshone NF--Willow Park area",
+      "lat": 44.9662,
+      "lng": -109.8248,
+      "nSpecies": 36,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L7985611",
+      "name": "Yellowstone NP--Overhanging Cliff pulloff",
+      "lat": 44.8971,
+      "lng": -110.3895,
+      "nSpecies": 92,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L8188194",
+      "name": "Jardine Road",
+      "lat": 45.0363,
+      "lng": -110.6862,
+      "nSpecies": 109,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L8221629",
+      "name": "Yellowstone NP--Ice Lake",
+      "lat": 44.7213,
+      "lng": -110.63,
+      "nSpecies": 59,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L8353702",
+      "name": "Willow Creek",
+      "lat": 45.8265,
+      "lng": -111.6449,
+      "nSpecies": 111,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L8404052",
+      "name": "Bozeman Yellowstone International Airport and Gallatin Field",
+      "lat": 45.7804,
+      "lng": -111.1549,
+      "nSpecies": 44,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L8425954",
+      "name": "Hebgen Lake--Madison Arm",
+      "lat": 44.7418,
+      "lng": -111.1856,
+      "nSpecies": 153,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L8478460",
+      "name": "Yellowstone NP--Isa Lake",
+      "lat": 44.4419,
+      "lng": -110.7184,
+      "nSpecies": 49,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L8479800",
+      "name": "Yellowstone NP--Yellowstone River Delta",
+      "lat": 44.3108,
+      "lng": -110.1779,
+      "nSpecies": 112,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L850317",
+      "name": "Hog Hollow",
+      "lat": 43.9347,
+      "lng": -111.6108,
+      "nSpecies": 77,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L852131",
+      "name": "Sunset Hills Cemetery and Lindley Park",
+      "lat": 45.6763,
+      "lng": -111.025,
+      "nSpecies": 140,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L890909",
+      "name": "Yellowstone NP--Undine Falls",
+      "lat": 44.9437,
+      "lng": -110.64,
+      "nSpecies": 79,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L890928",
+      "name": "Grand Teton NP--Willow Flats Overlook",
+      "lat": 43.7979,
+      "lng": -110.5359,
+      "nSpecies": 78,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L917425",
+      "name": "Island Park Reservoir Windrow",
+      "lat": 44.4227,
+      "lng": -111.3909,
+      "nSpecies": 153,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L9252839",
+      "name": "Game Creek Trail",
+      "lat": 43.3942,
+      "lng": -110.7152,
+      "nSpecies": 87,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L925450",
+      "name": "Hebgen Lake--Grayling Arm",
+      "lat": 44.7973,
+      "lng": -111.1745,
+      "nSpecies": 169,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L928392",
+      "name": "The Hogback",
+      "lat": 45.5284,
+      "lng": -110.6418,
+      "nSpecies": 67,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L9327295",
+      "name": "Wilson Canyon Trail",
+      "lat": 43.4253,
+      "lng": -110.7547,
+      "nSpecies": 65,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9347260",
+      "name": "Wetlands SW corner of 19th and Baxter",
+      "lat": 45.6993,
+      "lng": -111.0659,
+      "nSpecies": 36,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L9347351",
+      "name": "Cattail Creek Park Complex",
+      "lat": 45.712,
+      "lng": -111.0779,
+      "nSpecies": 79,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L937737",
+      "name": "Upper Mesa Falls",
+      "lat": 44.1879,
+      "lng": -111.3285,
+      "nSpecies": 98,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L9432040",
+      "name": "Hoback Campground",
+      "lat": 43.2799,
+      "lng": -110.5975,
+      "nSpecies": 85,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9462966",
+      "name": "Yellowstone NP--Bacon Rind Trail",
+      "lat": 44.9546,
+      "lng": -111.0708,
+      "nSpecies": 79,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L9500907",
+      "name": "Yellowstone NP--Duck Lake",
+      "lat": 44.4206,
+      "lng": -110.5808,
+      "nSpecies": 122,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9539220",
+      "name": "Yellowstone NP--Soda Butte",
+      "lat": 44.878,
+      "lng": -110.1528,
+      "nSpecies": 109,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L955146",
+      "name": "Spring Creek Ranch",
+      "lat": 43.5056,
+      "lng": -110.7729,
+      "nSpecies": 91,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L955858",
+      "name": "Grand Teton NP--Schwabacher Landing",
+      "lat": 43.7117,
+      "lng": -110.6706,
+      "nSpecies": 157,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L955859",
+      "name": "Grand Teton NP--Christian Pond",
+      "lat": 43.8759,
+      "lng": -110.5658,
+      "nSpecies": 148,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L955860",
+      "name": "Grand Teton NP--Potholes Turnout",
+      "lat": 43.8066,
+      "lng": -110.628,
+      "nSpecies": 81,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L955862",
+      "name": "Grand Teton NP--Oxbow Bend",
+      "lat": 43.8665,
+      "lng": -110.5501,
+      "nSpecies": 177,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L955868",
+      "name": "Grand Teton NP--Death Canyon",
+      "lat": 43.6549,
+      "lng": -110.8051,
+      "nSpecies": 119,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L955870",
+      "name": "Skyline Pond",
+      "lat": 43.4882,
+      "lng": -110.8287,
+      "nSpecies": 132,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L955930",
+      "name": "Spring Gulch Rd.",
+      "lat": 43.5408,
+      "lng": -110.7628,
+      "nSpecies": 116,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L956580",
+      "name": "Bridger-Teton NF--Goodwin Lake",
+      "lat": 43.4717,
+      "lng": -110.6168,
+      "nSpecies": 26,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9572620",
+      "name": "Big Sky--Uplands Trail",
+      "lat": 45.2552,
+      "lng": -111.3032,
+      "nSpecies": 82,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L959071",
+      "name": "Black's Ford FAS",
+      "lat": 45.6464,
+      "lng": -111.5229,
+      "nSpecies": 168,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L963288",
+      "name": "Grand Teton NP--Gros Ventre CG",
+      "lat": 43.6149,
+      "lng": -110.6651,
+      "nSpecies": 154,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9665199",
+      "name": "Beartooth Hwy--Beartooth Basin Summer Ski Area",
+      "lat": 44.9751,
+      "lng": -109.4345,
+      "nSpecies": 30,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L9698834",
+      "name": "Ross Pass Trail # 551",
+      "lat": 45.8489,
+      "lng": -110.9366,
+      "nSpecies": 45,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L9725784",
+      "name": "Corbett Dam Area",
+      "lat": 44.59,
+      "lng": -108.9535,
+      "nSpecies": 63,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L9725790",
+      "name": "Heart Mountain Interpretive Center",
+      "lat": 44.6705,
+      "lng": -108.941,
+      "nSpecies": 29,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L9725796",
+      "name": "Shoshone River Trail--Hayden Bridge Access",
+      "lat": 44.51,
+      "lng": -109.1468,
+      "nSpecies": 87,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L9784646",
+      "name": "Emigrant Gultch",
+      "lat": 45.3167,
+      "lng": -110.7011,
+      "nSpecies": 29,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L978821",
+      "name": "Bridger-Teton NF--Cache Creek Canyon",
+      "lat": 43.465,
+      "lng": -110.7306,
+      "nSpecies": 154,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9788985",
+      "name": "Mill Creek Rd--Upper (above W Fork Rd)",
+      "lat": 45.2869,
+      "lng": -110.5177,
+      "nSpecies": 59,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L9788986",
+      "name": "Mill Creek Road--Lower (below W Fork Rd)",
+      "lat": 45.3866,
+      "lng": -110.6377,
+      "nSpecies": 101,
+      "county": "US-MT-067"
+    },
+    {
+      "locId": "L981906",
+      "name": "Yellowstone NP--Gull Point Drive",
+      "lat": 44.5255,
+      "lng": -110.4183,
+      "nSpecies": 157,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L981911",
+      "name": "Yellowstone NP--Mud Volcano",
+      "lat": 44.6246,
+      "lng": -110.4342,
+      "nSpecies": 136,
+      "county": "US-WY-029"
+    },
+    {
+      "locId": "L981923",
+      "name": "Grand Teton NP--Jackson Lake Lodge area",
+      "lat": 43.8775,
+      "lng": -110.5777,
+      "nSpecies": 169,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L981925",
+      "name": "Yellowstone NP--Fishing Bridge",
+      "lat": 44.5664,
+      "lng": -110.3821,
+      "nSpecies": 170,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L981932",
+      "name": "Yellowstone NP--Fountain Paint Pots",
+      "lat": 44.5498,
+      "lng": -110.8066,
+      "nSpecies": 101,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9840026",
+      "name": "Grand Teton NP--S Fall Creek Rd",
+      "lat": 43.429,
+      "lng": -110.8582,
+      "nSpecies": 116,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9906663",
+      "name": "Vernon Bridge",
+      "lat": 44.0552,
+      "lng": -111.5363,
+      "nSpecies": 62,
+      "county": "US-ID-043"
+    },
+    {
+      "locId": "L9909549",
+      "name": "Baker's Hole Campground",
+      "lat": 44.7049,
+      "lng": -111.1003,
+      "nSpecies": 91,
+      "county": "US-MT-031"
+    },
+    {
+      "locId": "L9949167",
+      "name": "Grand Teton NP--Beaver Creek",
+      "lat": 43.6865,
+      "lng": -110.7351,
+      "nSpecies": 103,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9949517",
+      "name": "Grand Teton NP--Mount Moran turnout",
+      "lat": 43.8034,
+      "lng": -110.6415,
+      "nSpecies": 55,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9949623",
+      "name": "Grand Teton NP--Taggart Lake Trailhead",
+      "lat": 43.6929,
+      "lng": -110.7326,
+      "nSpecies": 128,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9950019",
+      "name": "Grand Teton NP--Mountain View turnout",
+      "lat": 43.7939,
+      "lng": -110.6964,
+      "nSpecies": 119,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9954432",
+      "name": "Grand Teton NP--Pacific Creek Landing",
+      "lat": 43.8453,
+      "lng": -110.5159,
+      "nSpecies": 87,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9954655",
+      "name": "Grand Teton NP--Glacier View turnout",
+      "lat": 43.6909,
+      "lng": -110.6727,
+      "nSpecies": 89,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9957821",
+      "name": "Yellowstone NP--Madison Canyon turnout",
+      "lat": 44.6399,
+      "lng": -110.8825,
+      "nSpecies": 90,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9957827",
+      "name": "Yellowstone NP--Scaup Lake and southside pond",
+      "lat": 44.43,
+      "lng": -110.7663,
+      "nSpecies": 51,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9957833",
+      "name": "Yellowstone NP--South Entrance Gate",
+      "lat": 44.1357,
+      "lng": -110.6668,
+      "nSpecies": 113,
+      "county": "US-WY-039"
+    },
+    {
+      "locId": "L9960437",
+      "name": "Yellowstone NP--Elk Park turnout",
+      "lat": 44.7176,
+      "lng": -110.7228,
+      "nSpecies": 58,
+      "county": "US-WY-029"
+    }
+  ]
+}

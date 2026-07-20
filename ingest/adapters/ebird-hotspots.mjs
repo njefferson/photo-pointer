@@ -57,7 +57,7 @@ export function normalizeHotspot(h, today) {
 }
 
 export async function ingest(region, { today, log = () => {} } = {}) {
-  const file = path.join(ROOT, 'ingest', 'inputs', 'ebird-hotspots.json');
+  const file = path.join(ROOT, 'ingest', 'inputs', `${region.id}-ebird-hotspots.json`);
   let snapshot;
   try {
     snapshot = JSON.parse(await readFile(file, 'utf8'));

@@ -10,7 +10,7 @@ import { cloudTonight } from '../model/weather.js';
 import { airToday } from '../model/airquality.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
-import { inBBox } from '../model/geo.js';
+import { inBBox, bboxCenter } from '../model/geo.js';
 
 // If a GPS fix lands outside the covered region, drop the user in the middle of
 // the map's world instead — Cameron Park, in El Dorado County (Noah's call).
@@ -54,36 +54,59 @@ function pinIcon(category) {
 
 export function createMapView(container, { region, onChange }) {
   const map = L.map(container, { zoomControl: true });
-  const b = region.bbox;
-  // Open zoomed in, not at the whole-region overview: start on Cameron Park,
-  // then refine to the user's real spot once geolocation answers.
-  map.setView([FALLBACK_CENTER.lat, FALLBACK_CENTER.lng], 12);
+  let activeRegion = region;
+
+  // The center to fall back to when GPS is outside the active region. Cameron
+  // Park for the home region (Noah's call); the region's middle otherwise.
+  function fallbackCenter() {
+    if (activeRegion.id === 'sac-eldorado-placer') return { lat: FALLBACK_CENTER.lat, lng: FALLBACK_CENTER.lng, name: FALLBACK_CENTER.name };
+    const c = bboxCenter(activeRegion.bbox);
+    return { lat: c.lat, lng: c.lng, name: activeRegion.name };
+  }
+
+  // Fit the whole active region in view (used when switching regions).
+  function frameRegion() {
+    const b = activeRegion.bbox;
+    map.fitBounds([[b.south, b.west], [b.north, b.east]]);
+  }
 
   // Where should "center on me" put the view? The GPS fix if it's inside the
-  // covered region; otherwise the in-region fallback (Cameron Park). Returns
-  // { lat, lng, inArea }.
+  // active region; otherwise that region's fallback. Returns {lat,lng,inArea,name}.
   function resolveCenter(coords) {
-    if (coords && inBBox(coords.lat, coords.lng, region.bbox)) {
-      return { lat: coords.lat, lng: coords.lng, inArea: true };
+    if (coords && inBBox(coords.lat, coords.lng, activeRegion.bbox)) {
+      return { lat: coords.lat, lng: coords.lng, inArea: true, name: activeRegion.name };
     }
-    return { lat: FALLBACK_CENTER.lat, lng: FALLBACK_CENTER.lng, inArea: false };
+    return { ...fallbackCenter(), inArea: false };
   }
 
   // Ask the browser for a fix and center on it (or the fallback). Fails soft —
-  // a denied/blocked/timed-out fix just leaves the Cameron Park view. `onDone`
+  // a denied/blocked/timed-out fix just leaves the fallback view. `onDone`
   // reports the resolved center so the caller can toast when out of area.
   function centerOnLocation(onDone) {
-    if (!navigator.geolocation) { onDone?.(resolveCenter(null)); return; }
+    const fb = fallbackCenter();
+    if (!navigator.geolocation) { map.setView([fb.lat, fb.lng], 12); onDone?.(resolveCenter(null)); return; }
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const c = resolveCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude });
         map.setView([c.lat, c.lng], c.inArea ? 14 : 12);
         onDone?.(c);
       },
-      () => { map.setView([FALLBACK_CENTER.lat, FALLBACK_CENTER.lng], 12); onDone?.(resolveCenter(null)); },
+      () => { map.setView([fb.lat, fb.lng], 12); onDone?.(resolveCenter(null)); },
       { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
     );
   }
+
+  // Switch the active region: re-frame the map. `locate` (home-region boot) also
+  // tries geolocation; a manual switch just fits the new region's bounds.
+  function setRegion(newRegion, { locate = false } = {}) {
+    activeRegion = newRegion;
+    loadDarkSkyFor(newRegion.id);
+    if (locate) centerOnLocation((c) => { if (!c.inArea) toast(`You're outside the covered area — centered on ${c.name}`); });
+    else frameRegion();
+  }
+
+  // Opening view: start on the fallback center, refined by geolocation below.
+  { const fb = fallbackCenter(); map.setView([fb.lat, fb.lng], 12); }
 
   // A crosshair "center on me" button, next to the zoom control.
   const CenterControl = L.Control.extend({
@@ -97,7 +120,7 @@ export function createMapView(container, { region, onChange }) {
       L.DomEvent.on(btn, 'click', (e) => {
         L.DomEvent.stop(e);
         centerOnLocation((c) => {
-          if (!c.inArea) toast(`You're outside the map — centered on ${FALLBACK_CENTER.name}`);
+          if (!c.inArea) toast(`You're outside the covered area — centered on ${c.name}`);
         });
       });
       return btn;
@@ -105,27 +128,57 @@ export function createMapView(container, { region, onChange }) {
   });
   new CenterControl().addTo(map);
 
-  // On open, try to zoom to the user right away.
-  centerOnLocation((c) => {
-    if (!c.inArea) toast(`You're outside the covered area — centered on ${FALLBACK_CENTER.name}`);
-  });
+  // The opening frame (geolocate on the home region, fit-bounds elsewhere) is
+  // driven by main.js via setRegion once data is ready.
 
   const bases = BASE_LAYERS();
   bases.Map.addTo(map);
   const layerControl = L.control.layers(bases, {}, { position: 'topright' }).addTo(map);
 
-  // Dark-sky overlay (async — added when its data loads). Its legend shows
-  // only while the overlay is on.
-  loadLightLayer().then((lp) => {
-    if (!lp) return;
-    layerControl.addOverlay(lp.overlay, lp.name);
-    map.on('overlayadd', (e) => { if (e.layer === lp.overlay) lp.legend.addTo(map); });
-    map.on('overlayremove', (e) => { if (e.layer === lp.overlay) map.removeControl(lp.legend); });
-  });
+  // Dark-sky overlay — per region, so it swaps when you switch regions. Loaded
+  // async; a region without the layer simply gets none. Its legend shows only
+  // while the overlay is on.
+  let darkLayer = null;
+  function loadDarkSkyFor(regionId) {
+    if (darkLayer) {
+      layerControl.removeLayer(darkLayer.overlay);
+      map.removeLayer(darkLayer.overlay);
+      map.removeControl(darkLayer.legend);
+      darkLayer = null;
+    }
+    loadLightLayer(regionId).then((lp) => {
+      if (!lp || activeRegion.id !== regionId) return;
+      darkLayer = lp;
+      layerControl.addOverlay(lp.overlay, lp.name);
+      map.on('overlayadd', (e) => { if (e.layer === lp.overlay) lp.legend.addTo(map); });
+      map.on('overlayremove', (e) => { if (e.layer === lp.overlay) map.removeControl(lp.legend); });
+    });
+  }
+  loadDarkSkyFor(activeRegion.id);
 
-  const markersByCategory = new Map(); // category -> L.LayerGroup
-  const markerById = new Map(); // spot.id -> L.Marker (for fly-to)
+  // id -> { marker, category, lat, lng, mounted }. Markers are CREATED once but
+  // only mounted on the map while in a visible category AND within the padded
+  // view — "map trimming", so a dense region keeps only the on-screen pins in
+  // the DOM (mirrors Frame's virtualization).
+  const markerById = new Map();
   let visible = new Set(Object.keys(CATEGORY_META));
+
+  const padded = () => map.getBounds().pad(0.35);
+  function cull() {
+    const b = padded();
+    for (const rec of markerById.values()) {
+      const show = visible.has(rec.category) && b.contains([rec.lat, rec.lng]);
+      if (show && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
+      else if (!show && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
+    }
+  }
+  let cullPending = false;
+  function scheduleCull() {
+    if (cullPending) return;
+    cullPending = true;
+    requestAnimationFrame(() => { cullPending = false; cull(); });
+  }
+  map.on('moveend zoomend', scheduleCull);
   let synthesisFor = () => null; // set by setSynthesis; id -> {score, parts}
 
   // "Light today" — the question the app is named for, computed on-device for
@@ -320,21 +373,14 @@ export function createMapView(container, { region, onChange }) {
   }
 
   function setSpots(spots) {
-    for (const g of markersByCategory.values()) g.remove();
-    markersByCategory.clear();
+    for (const rec of markerById.values()) rec.marker.remove();
     markerById.clear();
     for (const spot of spots) {
-      let group = markersByCategory.get(spot.category);
-      if (!group) {
-        group = L.layerGroup();
-        markersByCategory.set(spot.category, group);
-        if (visible.has(spot.category)) group.addTo(map);
-      }
       const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category) })
-        .bindPopup(() => popupFor(spot))
-        .addTo(group);
-      markerById.set(spot.id, { marker, category: spot.category });
+        .bindPopup(() => popupFor(spot));
+      markerById.set(spot.id, { marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false });
     }
+    cull();
   }
 
   function setSynthesis(byId) {
@@ -344,21 +390,19 @@ export function createMapView(container, { region, onChange }) {
   // Fly to a spot and open its popup (from the Top-spots panel). Ensures its
   // category is visible first.
   function focusSpot(spot) {
-    if (!visible.has(spot.category)) {
-      const v = new Set(visible);
-      v.add(spot.category);
-      setVisible(v);
-    }
+    if (!visible.has(spot.category)) { visible = new Set(visible).add(spot.category); }
     map.setView([spot.lat, spot.lng], Math.max(map.getZoom(), 13));
-    markerById.get(spot.id)?.marker.openPopup();
+    const rec = markerById.get(spot.id);
+    if (rec) {
+      if (!rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
+      rec.marker.openPopup();
+    }
+    scheduleCull();
   }
 
   function setVisible(categories) {
     visible = categories;
-    for (const [cat, group] of markersByCategory) {
-      if (visible.has(cat)) group.addTo(map);
-      else group.remove();
-    }
+    cull();
   }
 
   // Long-press / tap-and-hold empty map → add a user pin (direct manipulation).
@@ -381,5 +425,5 @@ export function createMapView(container, { region, onChange }) {
     L.popup().setLatLng(e.latlng).setContent(form).openOn(map);
   });
 
-  return { map, setSpots, setVisible, setSynthesis, focusSpot };
+  return { map, setSpots, setVisible, setSynthesis, focusSpot, setRegion };
 }

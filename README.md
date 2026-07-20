@@ -86,17 +86,25 @@ noncommercial purpose. The ingested open data keeps its own terms (OSM is
 ODbL, eBird per the API terms above); those obligations stand regardless of
 this project's code license, and `LICENSE.md` lists them.
 
-## Expanding the region
+## Regions
 
-Coverage is bounded by `config/region.json` (seeded: Sacramento, El Dorado,
-and Placer counties, CA). To expand:
+The app is **multi-region** — `config/regions.json` holds a list, and you
+switch between them with the pills at the top of the app. Seeded regions:
+**Sacramento · El Dorado · Placer**, **Humboldt Coast**, and **Yellowstone**
+(WY/MT/ID). Each region's data lives in `data/regions/<id>.json`; the map only
+mounts the pins currently on screen, so dense regions stay smooth.
 
-1. Add a county object to `config/region.json` (`name`, `state`, `fips`,
-   `osm_area_name`, `ebird_region`) and widen `bbox` to cover it.
-2. Re-run the **Ingest OSM** workflow.
-3. That's it. Expanding coverage is a config + data change — never a code
-   change. (If coverage ever leaves one map's worth of world, steal the
-   multi-area `MAP_AREAS` pattern from the Bird-location-scouting repo.)
+To add a region:
+
+1. Add a region object to `config/regions.json` (`id`, `name`, `bbox`, and a
+   `counties` array with `name`/`state`/`fips`/`osm_area_name`/`ebird_region`).
+2. If a sibling checkout of `Bird-location-scouting` has those counties, run
+   `node scripts/import-ebird-from-frame.mjs <id>` to seed the birding hotspots.
+3. Dispatch the **Ingest OSM** workflow with that region id (adds viewpoints,
+   parks, trailheads, markers). Enrichment workflows (dark sky, horizon, public
+   lands, wildlife, photos) each take the same region id.
+4. That's it — expanding coverage is a config + data change, never a code one.
+   Leaflet handles far-apart regions natively (no custom map-projection code).
 
 ## Accessibility
 

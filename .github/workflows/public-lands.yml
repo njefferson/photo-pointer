@@ -7,7 +7,10 @@ name: Public lands ingest
 
 on:
   workflow_dispatch:
-
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
 concurrency:
   group: pl-lands-${{ github.ref }}
   cancel-in-progress: false
@@ -18,6 +21,8 @@ jobs:
     timeout-minutes: 25
     permissions:
       contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -26,14 +31,14 @@ jobs:
       - name: Probe Overpass
         run: node ingest/ingest.mjs probe
       - name: Fetch public lands + tag spots
-        run: node ingest/ingest.mjs public-lands
+        run: node ingest/ingest.mjs public-lands "$REGION"
       - name: Validate
-        run: node ingest/ingest.mjs validate
+        run: node ingest/ingest.mjs validate "$REGION"
       - name: Commit
         run: |
           git config user.name "photo-pointer ingest"
           git config user.email "actions@users.noreply.github.com"
-          git add data/spots.json data/layers/public-lands.json
+          git add data/
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "Tag which spots sit on public land" -m "Marks every spot that falls inside a park, forest, or reserve boundary (OpenStreetMap, ODbL), feeding the Public-land signal in Top spots."
           for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

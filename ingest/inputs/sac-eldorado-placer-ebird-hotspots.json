@@ -1,6 +1,7 @@
 {
   "source": "ebird",
-  "note": "Hotspot identity + location only, imported from the Bird-location-scouting county data. Observation frequencies deliberately omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
+  "region": "sac-eldorado-placer",
+  "note": "Hotspot identity + location only, imported from Bird-location-scouting county data. Observation frequencies omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
   "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
   "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
   "countyBuilt": {

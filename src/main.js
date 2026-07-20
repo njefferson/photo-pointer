@@ -3,8 +3,8 @@
 import { el, clear, toast } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
 import { createMapView, CATEGORY_META } from './ui/mapview.js';
-import { loadRegion } from './model/region.js';
-import { userPins, activeFilters, setActiveFilters, exportBundle, importBundle } from './model/store.js';
+import { loadRegions, pickRegion } from './model/region.js';
+import { userPins, activeFilters, setActiveFilters, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
 import { topSpotsPanel } from './ui/synthesis.js';
 
@@ -13,6 +13,7 @@ applyTheme(currentTheme());
 const app = document.getElementById('app');
 let mapView = null;
 let dataSpots = [];
+let regionsDoc = null;
 let region = null;
 
 function allCategories() {
@@ -50,8 +51,18 @@ function renderHeader() {
       },
     }, [el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter), ` ${meta.label}`])
   );
+  const regionPills = (regionsDoc?.regions ?? []).map((r) =>
+    el('button', {
+      class: `region-pill${r.id === region?.id ? ' active' : ''}`,
+      'aria-pressed': String(r.id === region?.id),
+      onClick: () => { if (r.id !== region?.id) switchRegion(r.id); },
+    }, r.name)
+  );
   const header = el('header', { class: 'bar' }, [
-    el('h1', {}, region?.name ?? 'photo-pointer'),
+    el('h1', { class: 'sr-only' }, `photo-pointer — ${region?.name ?? ''}`),
+    regionPills.length > 1
+      ? el('div', { class: 'regions', role: 'group', 'aria-label': 'Region' }, regionPills)
+      : null,
     el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
     el('div', { class: 'bar-actions' }, [
       el('button', { class: 'data-btn top-btn', onClick: openTopSpots }, '★ Top spots'),
@@ -75,7 +86,7 @@ let rankingKey = null;
 // changes (data + user pins), since it scans all spots.
 function ranking() {
   const spots = spotsForMap();
-  const key = spots.length + ':' + userPins().length;
+  const key = `${region?.id}:${spots.length}:${userPins().length}`;
   if (rankingKey !== key) {
     rankingCache = rankSpots(spots);
     rankingKey = key;
@@ -139,27 +150,48 @@ function refresh() {
 
 let dataBuiltAt = null;
 
+// Load one region's committed spots. Fails soft (offline / not-yet-ingested).
+async function loadRegionData(id) {
+  dataSpots = [];
+  dataBuiltAt = null;
+  rankingKey = null; // force a re-rank for the new spot set
+  try {
+    const res = await fetch(`./data/regions/${id}.json`, { cache: 'no-cache' });
+    if (res.ok) {
+      const doc = await res.json();
+      dataSpots = doc.spots ?? [];
+      dataBuiltAt = doc.builtAt ?? null;
+    } else {
+      toast('No spot data for this region yet');
+    }
+  } catch {
+    toast('Region data unavailable offline — showing your pins only');
+  }
+}
+
+async function switchRegion(id) {
+  region = pickRegion(regionsDoc, id);
+  setActiveRegionId(region.id);
+  renderHeader();
+  await loadRegionData(region.id);
+  mapView?.setRegion(region, { locate: false }); // manual switch → fit the region
+  refresh();
+}
+
 async function boot() {
-  region = await loadRegion();
+  regionsDoc = await loadRegions();
+  region = pickRegion(regionsDoc, activeRegionId() ?? regionsDoc.default);
+  setActiveRegionId(region.id);
   renderHeader();
 
   const mapEl = el('main', { class: 'map-root', 'aria-label': 'Map of photo spots' });
   app.append(mapEl);
   mapView = createMapView(mapEl, { region, onChange: refresh });
 
-  try {
-    const res = await fetch('./data/spots.json', { cache: 'no-cache' });
-    if (res.ok) {
-      const doc = await res.json();
-      dataSpots = doc.spots ?? [];
-      dataBuiltAt = doc.builtAt ?? null;
-    } else {
-      toast('No spot data yet — run the ingest workflow');
-    }
-  } catch {
-    toast('Spot data unavailable offline — showing your pins only');
-  }
+  await loadRegionData(region.id);
   refresh();
+  // Opening frame: geolocate on the home region, fit-bounds on the others.
+  mapView.setRegion(region, { locate: region.id === regionsDoc.default });
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});

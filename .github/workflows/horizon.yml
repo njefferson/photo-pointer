@@ -13,8 +13,11 @@ name: Terrain horizon ingest
 # (`copernicus-dem-30m`, anonymous S3, GDAL /vsis3/ with AWS_NO_SIGN_REQUEST).
 
 on:
-  workflow_dispatch: {}
-
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
 concurrency:
   group: horizon-${{ github.ref }}
   cancel-in-progress: false
@@ -25,6 +28,8 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
     steps:
       - uses: actions/checkout@v5
       - name: Install GDAL
@@ -63,16 +68,16 @@ jobs:
           [ "$COUNT" -eq 0 ] && { echo "no DEM tiles — cannot build horizon"; exit 1; } || true
       - name: Mosaic + trace horizons + tag spots
         run: |
-          mkdir -p data/layers
+          mkdir -p "data/layers/$REGION"
           gdalbuildvrt -q dem.vrt dem/*.hgt
           gdalinfo dem.vrt | grep -iE 'Size is|Pixel Size|Origin' | head
-          python3 scripts/build-horizon.py dem.vrt data/spots.json data/layers/horizon.json "$(date -u +%F)"
-          ls -la data/layers/horizon.json
+          python3 scripts/build-horizon.py dem.vrt "data/regions/$REGION.json" "data/layers/$REGION/horizon.json" "$(date -u +%F)"
+          ls -la "data/layers/$REGION/"
       - name: Commit derived tags
         run: |
           git config user.name "photo-pointer ingest"
           git config user.email "actions@users.noreply.github.com"
-          git add data/layers/horizon.json data/spots.json
+          git add data/
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "Measure each spot's real horizon — how open the sky is for sunrise, sunset, and the Milky Way" -m "Every spot now carries how open its land horizon is (from a 30 m elevation model), plus the ridge height east, west, and south. The land horizon only — elevation models don't see trees or buildings."
           for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

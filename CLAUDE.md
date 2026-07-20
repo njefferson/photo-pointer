@@ -65,6 +65,44 @@ doing anything.
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 0.13.0 "Three regions + map trimming" BUILT on staging (awaiting
+  on-device pass): Noah's "all the map trimming and Humboldt + Yellowstone
+  regions, like Frame". FULL MULTI-REGION REFACTOR. config/regions.json = {
+  default, regions:[...] } (old config/region.json DELETED); region.js gains
+  loadRegions/pickRegion/validateRegions. DATA IS PER-REGION: data/regions/<id>
+  .json (spots), data/sources/<id>/*.json, data/layers/<id>/* — migrated the
+  Sacramento data into that layout (git mv). ingest.mjs: EVERY command takes an
+  optional regionId 2nd arg (defaults to config default), per-region paths via
+  regionPaths(id); `all <id>` = osm+ebird+markers+merge+validate. eBird for the
+  new regions IMPORTED FROM FRAME (free, no runner): import-ebird-from-frame.mjs
+  now region-aware, writes ingest/inputs/<id>-ebird-hotspots.json; Frame had all
+  needed counties committed (Humboldt US-CA-023 597 hotspots; Yellowstone 5
+  counties 721). Ran ebird+merge+validate LOCALLY → data/regions/humboldt.json
+  (594 spots) + yellowstone.json (720). BBOXES widened to cover offshore/edge
+  eBird hotspots (Humboldt pelagic west of coast; Powell WY east) — validate
+  bbox check caught them. APP: main.js region switcher pills (.region-pill,
+  active = weight+fill+accent-underline, not hue), store.js K_REGION persists
+  choice, loadRegionData(id) fetches data/regions/<id>.json, switchRegion re-
+  frames. mapview.js setRegion(region,{locate}) — geolocate on the HOME region
+  boot, fitBounds on manual switch / other regions; fallbackCenter() = Cameron
+  Park for home region else bboxCenter. lightlayer.js per-region path, overlay
+  swaps on region change. MAP TRIMMING = viewport culling: markers CREATED once
+  but only mounted while in a visible category AND within map.getBounds().pad
+  (0.35); cull() on moveend/zoomend (rAF-debounced) — mirrors Frame's
+  virtualization. Dropped the per-category LayerGroups. sw.js precaches DEFAULT
+  region only (data/regions/sac-eldorado-placer.json + its layers); other
+  regions runtime-cache on first visit. ALL workflows region-aware (workflow_
+  dispatch `region` input + REGION env + "$REGION" arg + git add data/); ingest-
+  osm.yml runs `all "$REGION"`. sw CACHE pointer-0.13.0. VERIFIED headless
+  (smoke25): 3 region pills, all-off start (0 pins), Show all mounts 604/2409
+  (CULLING PROVEN — only the viewport), switch Humboldt→594 pins + real hotspots
+  (Arcata Bottoms/Ferndale Bottoms/Mad River), switch Yellowstone→720, zero
+  pageerrors; 91 tests, contrast green. NEEDS RUNNER: OSM for humboldt +
+  yellowstone (dispatch ingest-osm.yml region=<id>) to add viewpoints/parks/
+  trailheads (they have eBird+markers-capable base now). NEEDS NOAH'S HANDS: real
+  iPad region-switch feel + GPS. Enrichments (bortle/horizon/lands/inat/commons)
+  for new regions = follow-up (workflows ready with region input; signals dormant
+  until then).
 - 2026-07-20 PROMOTED 0.12.0 to main (Noah's "Promote to main" after his device
   pass): production == 0.12.0 (photo-pointer.pages.dev, Deploy run #45 on main,
   green). Clean 1-commit fast-forward. staging == main after this. "Opens where

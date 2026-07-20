@@ -65,6 +65,36 @@ body {
 
 .bar h1 { font-size: 17px; margin: 0; flex: 1 1 auto; }
 
+/* Region switcher (Frame-style pills). Active reads by weight + fill + accent
+   underline, never hue alone. */
+.regions { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+.region-pill {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 3px 12px;
+  min-height: 30px;
+  cursor: pointer;
+}
+.region-pill.active {
+  font-weight: 700;
+  background: var(--card);
+  border-color: color-mix(in srgb, var(--ink) 45%, var(--line));
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+
 .bar-actions { display: flex; gap: 8px; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }

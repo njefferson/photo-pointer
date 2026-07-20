@@ -1,32 +1,35 @@
 name: Ingest OSM
 
-# Fetches OpenStreetMap data (Overpass) for the configured region, merges +
-# validates, and commits the result to the branch it ran on. Runs on a
-# GitHub runner because Overpass is unreachable from Claude session sandboxes.
+# Fetches OpenStreetMap data (Overpass) for a region, adds eBird hotspots +
+# historical markers, merges + validates, and commits. Runs on a GitHub runner
+# because Overpass is unreachable from Claude session sandboxes.
 #
-# Fire it via workflow_dispatch (MCP actions_run_trigger is the proven
-# channel) or by committing to .github/trigger/ingest-osm.
+# Pick the region with the `region` dispatch input (an id from
+# config/regions.json; default = the home region). Fire via workflow_dispatch
+# (MCP actions_run_trigger) or by committing to .github/trigger/ingest-osm.
 
 on:
   workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
   push:
     paths:
       - '.github/trigger/ingest-osm'
 
-# Own concurrency group (never share with deploy — a deploy must not cancel
-# an in-flight ingest).
 concurrency:
-  group: ingest-osm-${{ github.ref }}
+  group: ingest-osm-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
   cancel-in-progress: false
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    # Hard ceiling: a genuinely bad Overpass hour fails the job in 25 min
-    # instead of spinning on the retry budget.
     timeout-minutes: 25
     permissions:
       contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -34,25 +37,13 @@ jobs:
           node-version: 22
       - name: Probe Overpass reachability
         run: node ingest/ingest.mjs probe
-      - name: Fetch + normalize OSM
-        run: node ingest/ingest.mjs osm
-      - name: Normalize eBird hotspots (from committed snapshot)
-        run: node ingest/ingest.mjs ebird
-      - name: Merge + dedup all sources
-        run: node ingest/ingest.mjs merge
-      - name: Validate
-        run: node ingest/ingest.mjs validate
+      - name: Fetch OSM + eBird + markers, merge + validate
+        run: node ingest/ingest.mjs all "$REGION"
       - name: Commit data
         run: |
           git config user.name "photo-pointer ingest"
           git config user.email "actions@users.noreply.github.com"
           git add data/
-          if git diff --cached --quiet; then
-            echo "No data changes."
-            exit 0
-          fi
-          git commit -m "Refresh OSM spot data for the configured region"
-          for i in 1 2 3 4 5; do
-            git pull --rebase && git push && break
-            sleep $((i * 5))
-          done
+          if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
+          git commit -m "Refresh map data for the $REGION region"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i * 5)); done

@@ -1,0 +1,4788 @@
+{
+  "source": "ebird",
+  "region": "humboldt",
+  "note": "Hotspot identity + location only, imported from Bird-location-scouting county data. Observation frequencies omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
+  "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+  "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+  "countyBuilt": {
+    "US-CA-023": "2026-07-15"
+  },
+  "hotspots": [
+    {
+      "locId": "L1005302",
+      "name": "Ferndale Bottoms--Morgan Slough Rd.",
+      "lat": 40.6192,
+      "lng": -124.2932,
+      "nSpecies": 167,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1010057",
+      "name": "Lower Redwood Creek--south levee",
+      "lat": 41.2933,
+      "lng": -124.0766,
+      "nSpecies": 176,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1012563",
+      "name": "Humboldt Coastal Nature Center",
+      "lat": 40.8574,
+      "lng": -124.1641,
+      "nSpecies": 123,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L10137169",
+      "name": "stakeout Blue Jay, Fortuna (2019-2020)",
+      "lat": 40.6043,
+      "lng": -124.1566,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1021403",
+      "name": "Last Chance and Whiting Ridges (FS 1 btwn. MacIntosh Rd. and Dan East Trail)",
+      "lat": 40.6568,
+      "lng": -123.6356,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L10235025",
+      "name": "Eureka Waterfront--Tydd St. to Hwy 101 bridge",
+      "lat": 40.8023,
+      "lng": -124.1438,
+      "nSpecies": 88,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L10264742",
+      "name": "Mad River Slough WA--east (restricted access)",
+      "lat": 40.8631,
+      "lng": -124.1054,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1029069",
+      "name": "Hammond Trail--Vista Point",
+      "lat": 40.9745,
+      "lng": -124.1177,
+      "nSpecies": 204,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1030388",
+      "name": "Greenwood Cemetery",
+      "lat": 40.8769,
+      "lng": -124.0875,
+      "nSpecies": 104,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1032417",
+      "name": "McKinleyville Bottoms",
+      "lat": 40.9292,
+      "lng": -124.1236,
+      "nSpecies": 212,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1036290",
+      "name": "Humboldt Lagoons SP--Chah-pekw O' Ket'-toh \"Stone Lagoon” Visitor Center",
+      "lat": 41.2328,
+      "lng": -124.0837,
+      "nSpecies": 144,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1041200",
+      "name": "Loleta Bottoms--Cannibal Island Rd.",
+      "lat": 40.6434,
+      "lng": -124.2686,
+      "nSpecies": 188,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L10424862",
+      "name": "Redwood NP--Emerald Ridge Trail",
+      "lat": 41.1993,
+      "lng": -123.9971,
+      "nSpecies": 38,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1048840",
+      "name": "Edward Wagner Memorial Bridge",
+      "lat": 40.0329,
+      "lng": -123.7776,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1049791",
+      "name": "Bigfoot Golf and Country Club",
+      "lat": 40.9535,
+      "lng": -123.6274,
+      "nSpecies": 112,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1053419",
+      "name": "Eureka Slough",
+      "lat": 40.8068,
+      "lng": -124.1424,
+      "nSpecies": 146,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1055839",
+      "name": "Ferndale Bottoms--Sage Rd. west of 211",
+      "lat": 40.6041,
+      "lng": -124.2292,
+      "nSpecies": 98,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1055842",
+      "name": "Ferndale Bottoms--Goble Ln. east of Fulmor Rd.",
+      "lat": 40.6064,
+      "lng": -124.2316,
+      "nSpecies": 137,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1061635",
+      "name": "Clendenen's Cider Works",
+      "lat": 40.5899,
+      "lng": -124.1556,
+      "nSpecies": 70,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1064871",
+      "name": "Cal Poly Humboldt Telonicher Marine Lab area",
+      "lat": 41.0592,
+      "lng": -124.1472,
+      "nSpecies": 81,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L10652648",
+      "name": "Korbel (town)",
+      "lat": 40.8703,
+      "lng": -123.9588,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1066552",
+      "name": "Loleta Bottoms--O'Neil Dairy",
+      "lat": 40.643,
+      "lng": -124.2645,
+      "nSpecies": 108,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1069310",
+      "name": "Ferndale Bottoms--west of Hwy. 211 (please use more specific location(s) when possible)",
+      "lat": 40.601,
+      "lng": -124.2779,
+      "nSpecies": 156,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L10805439",
+      "name": "Redwood NP--Gyron Bluffs seawatch ONLY",
+      "lat": 41.2745,
+      "lng": -124.0956,
+      "nSpecies": 99,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L10882844",
+      "name": "Newburg Park and Gene Lucas Community Center",
+      "lat": 40.5932,
+      "lng": -124.1348,
+      "nSpecies": 100,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L109278",
+      "name": "Trinidad Rocks IBA",
+      "lat": 41.0599,
+      "lng": -124.1628,
+      "nSpecies": 69,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L109449",
+      "name": "Humboldt Bay--south (please use more specific location(s) if possible)",
+      "lat": 40.6991,
+      "lng": -124.232,
+      "nSpecies": 169,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L109450",
+      "name": "Humboldt Lagoons SP",
+      "lat": 41.2301,
+      "lng": -124.1015,
+      "nSpecies": 257,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11014487",
+      "name": "Murray Field Airport and surrounding area",
+      "lat": 40.8041,
+      "lng": -124.1196,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11031749",
+      "name": "Janes Creek at Stewart Ct.",
+      "lat": 40.8829,
+      "lng": -124.0896,
+      "nSpecies": 59,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11032921",
+      "name": "McKay Community Forest",
+      "lat": 40.7764,
+      "lng": -124.13,
+      "nSpecies": 95,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11059406",
+      "name": "Maple Creek Rd.--Canon Creek to Barr Rd. (mi 7.3 - 10.1)",
+      "lat": 40.8265,
+      "lng": -123.8949,
+      "nSpecies": 51,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11059476",
+      "name": "Maple Creek Rd.--Maple Creek village (mi. 15.0 - 15.5)",
+      "lat": 40.7612,
+      "lng": -123.8724,
+      "nSpecies": 57,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11059503",
+      "name": "Maple Creek Rd.--Korbel to Bald Mountain Rd. (mi 1.4 - 4.0)",
+      "lat": 40.8656,
+      "lng": -123.948,
+      "nSpecies": 46,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11059528",
+      "name": "Maple Creek Rd.--powerline clearing (mi. 13.9)",
+      "lat": 40.768,
+      "lng": -123.8757,
+      "nSpecies": 37,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11059557",
+      "name": "Maple Creek Rd.--Barr Rd. to Maple Creek bridge (mi. 10.1 - 12.9)",
+      "lat": 40.7999,
+      "lng": -123.8757,
+      "nSpecies": 49,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11059642",
+      "name": "Maple Creek Rd.--Bald Mountain Rd. to Canon Creek (mi 4.0 - 7.3)",
+      "lat": 40.8539,
+      "lng": -123.9295,
+      "nSpecies": 68,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1134339",
+      "name": "Humboldt Botanical Garden",
+      "lat": 40.7019,
+      "lng": -124.2002,
+      "nSpecies": 112,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1135899",
+      "name": "Benbow Dam Rd. and trail",
+      "lat": 40.0657,
+      "lng": -123.8099,
+      "nSpecies": 107,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1139335",
+      "name": "Hoopa Valley Indian Reservation",
+      "lat": 41.1042,
+      "lng": -123.6758,
+      "nSpecies": 109,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1154502",
+      "name": "Hansen/Hauck gravel bar",
+      "lat": 40.5486,
+      "lng": -124.1548,
+      "nSpecies": 128,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1154512",
+      "name": "King Range NCA--Lost Coast-Prosper Ridge Loop",
+      "lat": 40.2747,
+      "lng": -124.3572,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1155538",
+      "name": "Klamath River--Ullathorne Bar",
+      "lat": 41.2887,
+      "lng": -123.5715,
+      "nSpecies": 52,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1155592",
+      "name": "Six Rivers NF--Aikens Creek West Campground & river access",
+      "lat": 41.2283,
+      "lng": -123.6562,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1155624",
+      "name": "Klamath River--Big Bar",
+      "lat": 41.2527,
+      "lng": -123.6358,
+      "nSpecies": 34,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1157900",
+      "name": "Bluff Creek Geographic Area",
+      "lat": 41.2408,
+      "lng": -123.6559,
+      "nSpecies": 92,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1161557",
+      "name": "Arcata Bottoms--Bay School Rd./Polaris Ln.",
+      "lat": 40.8798,
+      "lng": -124.1197,
+      "nSpecies": 125,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11935892",
+      "name": "Seawood Cape Preserve",
+      "lat": 41.1013,
+      "lng": -124.1595,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L11991675",
+      "name": "Powers Creek north of Taylor Way",
+      "lat": 40.88,
+      "lng": -123.9973,
+      "nSpecies": 93,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L12032162",
+      "name": "Drydens Rd. levee",
+      "lat": 41.2947,
+      "lng": -124.0531,
+      "nSpecies": 116,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1226350",
+      "name": "Dry Lagoon",
+      "lat": 41.2252,
+      "lng": -124.1053,
+      "nSpecies": 188,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1235322",
+      "name": "Southern Humboldt Community Park",
+      "lat": 40.0876,
+      "lng": -123.8025,
+      "nSpecies": 159,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1247935",
+      "name": "Prairie Creek Redwoods SP--Big Tree Wayside",
+      "lat": 41.3731,
+      "lng": -124.0138,
+      "nSpecies": 100,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1251861",
+      "name": "North Trinity Mountain & surrounds (incl. Water Dog Lakes, Mill Creek Lakes, & Red Cap Hole)",
+      "lat": 41.1077,
+      "lng": -123.4833,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L12552986",
+      "name": "Uniontown shopping center",
+      "lat": 40.8663,
+      "lng": -124.0847,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1259886",
+      "name": "Prairie Creek Redwoods SP--Cal Barrel Rd.",
+      "lat": 41.3683,
+      "lng": -124.0078,
+      "nSpecies": 50,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1263299",
+      "name": "Trinidad pelagic--nearshore 0-5 miles (HUM Co.)",
+      "lat": 41.0522,
+      "lng": -124.177,
+      "nSpecies": 40,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1263319",
+      "name": "Trinidad pelagic--offshore 5 miles and farther (HUM Co.)",
+      "lat": 41.0527,
+      "lng": -124.2568,
+      "nSpecies": 36,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1264490",
+      "name": "Ferndale Bottoms--Salt River bridge",
+      "lat": 40.5959,
+      "lng": -124.2407,
+      "nSpecies": 70,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1267564",
+      "name": "Mike Thompson WA (South Spit Humboldt Bay)--end of S Jetty Rd.",
+      "lat": 40.7532,
+      "lng": -124.2331,
+      "nSpecies": 168,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1272563",
+      "name": "Ferndale Bottoms--Goble Ln. west of Fulmor Rd.",
+      "lat": 40.6063,
+      "lng": -124.2624,
+      "nSpecies": 115,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1272567",
+      "name": "Russ Ranch Wetlands",
+      "lat": 40.5772,
+      "lng": -124.344,
+      "nSpecies": 246,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1278310",
+      "name": "Prairie Creek Redwoods SP--Fern Canyon",
+      "lat": 41.4006,
+      "lng": -124.0658,
+      "nSpecies": 169,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L12785465",
+      "name": "Firemen's Park",
+      "lat": 40.5732,
+      "lng": -124.2652,
+      "nSpecies": 54,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1288412",
+      "name": "Norton Creek Wildlife Area",
+      "lat": 40.9627,
+      "lng": -124.1096,
+      "nSpecies": 70,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1293469",
+      "name": "Baxter Environmental Camp",
+      "lat": 40.3471,
+      "lng": -124.0235,
+      "nSpecies": 45,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1295617",
+      "name": "Snow Camp Rd.",
+      "lat": 40.8297,
+      "lng": -123.8239,
+      "nSpecies": 130,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L13001786",
+      "name": "Laurel Tree Charter School (restricted access)",
+      "lat": 40.8996,
+      "lng": -124.0831,
+      "nSpecies": 78,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1307137",
+      "name": "Eureka Waterfront--Elk River mouth",
+      "lat": 40.7731,
+      "lng": -124.1965,
+      "nSpecies": 206,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1309293",
+      "name": "Humboldt Bay--entrance channel",
+      "lat": 40.759,
+      "lng": -124.2315,
+      "nSpecies": 135,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1309371",
+      "name": "Cal Poly Humboldt",
+      "lat": 40.8745,
+      "lng": -124.0768,
+      "nSpecies": 189,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L13107318",
+      "name": "Sunny Brae (general)",
+      "lat": 40.8585,
+      "lng": -124.0678,
+      "nSpecies": 116,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1310801",
+      "name": "Essex Pond (access by permission only)",
+      "lat": 40.9118,
+      "lng": -124.0308,
+      "nSpecies": 115,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1317062",
+      "name": "Humboldt Bay NWR--Ma-le'l Dunes Unit North",
+      "lat": 40.8742,
+      "lng": -124.1523,
+      "nSpecies": 199,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1317156",
+      "name": "Arcata Bottoms--Warren Creek Farm",
+      "lat": 40.9172,
+      "lng": -124.1131,
+      "nSpecies": 113,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L13190149",
+      "name": "stakeout Eurasian Skylark, Cannibal Island Rd. (2021)",
+      "lat": 40.6418,
+      "lng": -124.2791,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L13201372",
+      "name": "Airport Rd. (HUM Co.)",
+      "lat": 40.9701,
+      "lng": -124.1087,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L13244591",
+      "name": "Arcata Community Forest--Sunny Brae Tract",
+      "lat": 40.8604,
+      "lng": -124.0549,
+      "nSpecies": 71,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1325906",
+      "name": "Cummings Creek Restoration Interpretive Trail",
+      "lat": 40.5237,
+      "lng": -124.006,
+      "nSpecies": 17,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1328056",
+      "name": "Cannibal Island Rd.--Mosley Island willow patch & slough",
+      "lat": 40.6432,
+      "lng": -124.2967,
+      "nSpecies": 164,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1335404",
+      "name": "Arcata Baylands--south wetland (restricted access)",
+      "lat": 40.8431,
+      "lng": -124.0718,
+      "nSpecies": 105,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1341000",
+      "name": "Tooby Memorial Park",
+      "lat": 40.0896,
+      "lng": -123.7976,
+      "nSpecies": 107,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1344589",
+      "name": "Widow White Creek RV Park (restricted access)",
+      "lat": 40.9579,
+      "lng": -124.1136,
+      "nSpecies": 58,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1344590",
+      "name": "Ammon Prairie",
+      "lat": 40.8165,
+      "lng": -123.5953,
+      "nSpecies": 97,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1344698",
+      "name": "Arcata Marsh and Wildlife Sanctuary--Allen Marsh",
+      "lat": 40.859,
+      "lng": -124.0935,
+      "nSpecies": 184,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1344700",
+      "name": "Arcata Marsh and Wildlife Sanctuary--Gearheart Marsh",
+      "lat": 40.8604,
+      "lng": -124.0947,
+      "nSpecies": 185,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1348389",
+      "name": "Eureka Municipal Golf Course",
+      "lat": 40.7586,
+      "lng": -124.1707,
+      "nSpecies": 103,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1357508",
+      "name": "Mattole Rd.--Ocean Ave. to Bear River Ridge Rd. (6 miles distance)",
+      "lat": 40.5509,
+      "lng": -124.274,
+      "nSpecies": 85,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1370444",
+      "name": "Eel River Estuary Preserve (access by permission only)",
+      "lat": 40.6072,
+      "lng": -124.3269,
+      "nSpecies": 144,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1394166",
+      "name": "Freshwater County Park",
+      "lat": 40.7558,
+      "lng": -124.0501,
+      "nSpecies": 79,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1403990",
+      "name": "Humboldt Bay--Depot Rd. (restricted access)",
+      "lat": 40.7217,
+      "lng": -124.2213,
+      "nSpecies": 164,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1404057",
+      "name": "W Hawthorne/Felt St. patch",
+      "lat": 40.7892,
+      "lng": -124.1835,
+      "nSpecies": 67,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1405417",
+      "name": "Tompkins Hill Rd.",
+      "lat": 40.6079,
+      "lng": -124.1812,
+      "nSpecies": 51,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1407969",
+      "name": "West End Ct. pond",
+      "lat": 40.8948,
+      "lng": -124.0803,
+      "nSpecies": 105,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1408946",
+      "name": "Mad River mouth",
+      "lat": 40.9714,
+      "lng": -124.1219,
+      "nSpecies": 165,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1412474",
+      "name": "Pine Hill Rd. tidegate",
+      "lat": 40.7525,
+      "lng": -124.1826,
+      "nSpecies": 119,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1413353",
+      "name": "Loleta (town)",
+      "lat": 40.6424,
+      "lng": -124.2232,
+      "nSpecies": 142,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1413382",
+      "name": "Ferndale Bottoms--east of Hwy. 211 (please use more specific location(s) when possible)",
+      "lat": 40.585,
+      "lng": -124.1968,
+      "nSpecies": 83,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1413444",
+      "name": "Ferndale Bottoms--Camp Weott Rd.",
+      "lat": 40.6142,
+      "lng": -124.2936,
+      "nSpecies": 143,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1413509",
+      "name": "Ferndale Bottoms--Pleasant Point Rd.",
+      "lat": 40.5848,
+      "lng": -124.1879,
+      "nSpecies": 71,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1413524",
+      "name": "Ferndale Bottoms--Church Ln.",
+      "lat": 40.5613,
+      "lng": -124.1782,
+      "nSpecies": 56,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1413540",
+      "name": "Blue Slide Rd.",
+      "lat": 40.5182,
+      "lng": -124.1632,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1417533",
+      "name": "Freshwater Farms Reserve",
+      "lat": 40.7852,
+      "lng": -124.0951,
+      "nSpecies": 174,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1429388",
+      "name": "Prairie Creek Redwoods SP--Gold Bluffs Beach",
+      "lat": 41.3597,
+      "lng": -124.0742,
+      "nSpecies": 182,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1431890",
+      "name": "Parker Creek Trail",
+      "lat": 41.0589,
+      "lng": -124.1396,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1439068",
+      "name": "Midtown Trail (McKinleyville)",
+      "lat": 40.948,
+      "lng": -124.1057,
+      "nSpecies": 81,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1459412",
+      "name": "Arcata Bottoms--Foster Ave. dairy",
+      "lat": 40.8833,
+      "lng": -124.1137,
+      "nSpecies": 122,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L14744058",
+      "name": "Little River Dr.",
+      "lat": 41.0182,
+      "lng": -124.1064,
+      "nSpecies": 109,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L14785565",
+      "name": "Anvick Rd.",
+      "lat": 40.8502,
+      "lng": -124.0659,
+      "nSpecies": 82,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L14788783",
+      "name": "Hyland & Irene Sts. and Clipper Ln.",
+      "lat": 40.8493,
+      "lng": -124.0655,
+      "nSpecies": 92,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1479626",
+      "name": "Peavine Rd.",
+      "lat": 40.3807,
+      "lng": -124.0438,
+      "nSpecies": 49,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L14953705",
+      "name": "Digawututlkh Dunes & Wetlands",
+      "lat": 40.8237,
+      "lng": -124.1816,
+      "nSpecies": 129,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L14982697",
+      "name": "Lacks Creek Management Area--Run Around and Pine Ridge trailheads",
+      "lat": 41.0057,
+      "lng": -123.7851,
+      "nSpecies": 42,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L15029915",
+      "name": "Humboldt Redwoods SP--Founder's Grove",
+      "lat": 40.3514,
+      "lng": -123.9252,
+      "nSpecies": 80,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1504807",
+      "name": "Upper Bear River Rd.",
+      "lat": 40.4858,
+      "lng": -124.2601,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1528572",
+      "name": "Alderpoint Rd.--Garberville to Alderpoint (incidental or historical lists only)",
+      "lat": 40.1219,
+      "lng": -123.6658,
+      "nSpecies": 82,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1528607",
+      "name": "Alderpoint Rd.--Rock Wren rocks",
+      "lat": 40.1053,
+      "lng": -123.7055,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1528613",
+      "name": "Alderpoint Rd.--Dyerville Loop intersection",
+      "lat": 40.1077,
+      "lng": -123.6998,
+      "nSpecies": 55,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1528697",
+      "name": "Trinidad Museum area",
+      "lat": 41.0621,
+      "lng": -124.1413,
+      "nSpecies": 74,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L15366229",
+      "name": "Alderpoint--Eel River at River Rd.",
+      "lat": 40.1668,
+      "lng": -123.6015,
+      "nSpecies": 78,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1538640",
+      "name": "Sandy Bar Ranch",
+      "lat": 41.3122,
+      "lng": -123.529,
+      "nSpecies": 74,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L15614097",
+      "name": "Humboldt Redwoods SP--Giant Tree Area",
+      "lat": 40.3507,
+      "lng": -123.9922,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580174",
+      "name": "Forest Service Rte. 1 (Titlow Hill Rd.)--Horse Mountain Botanical Area",
+      "lat": 40.8658,
+      "lng": -123.7339,
+      "nSpecies": 97,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580198",
+      "name": "Forest Service Rte. 1 (Titlow Hill Rd.)--Meteor Hill",
+      "lat": 40.8359,
+      "lng": -123.7155,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580231",
+      "name": "King Range NCA--Lost Coast Trail-Mattole River to Punta Gorda",
+      "lat": 40.2733,
+      "lng": -124.3622,
+      "nSpecies": 128,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580235",
+      "name": "Forest Service Rte. 1 (Titlow Hill Rd.)--Cold Spring",
+      "lat": 40.834,
+      "lng": -123.7129,
+      "nSpecies": 90,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580248",
+      "name": "Forest Service Rte. 1 (Titlow Hill Rd.)--Russ Ranch clearcut",
+      "lat": 40.8308,
+      "lng": -123.7051,
+      "nSpecies": 99,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580254",
+      "name": "King Range NCA--Lost Coast Trail-Punta Gorda to Cooskie Creek",
+      "lat": 40.2491,
+      "lng": -124.3496,
+      "nSpecies": 105,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580265",
+      "name": "Forest Service Rte. 1 (Titlow Hill Rd.)--pullout 8.4 mi. from Hwy. 299",
+      "lat": 40.8237,
+      "lng": -123.7008,
+      "nSpecies": 65,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580278",
+      "name": "Forest Service Rte. 1--mi. 11.1 clearcut",
+      "lat": 40.7934,
+      "lng": -123.6901,
+      "nSpecies": 95,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580287",
+      "name": "King Range NCA--Lost Coast Trail-Cooskie Creek to Randall Creek",
+      "lat": 40.2168,
+      "lng": -124.3068,
+      "nSpecies": 48,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580300",
+      "name": "King Range NCA--Lost Coast Trail-Randall Creek to Spanish Creek",
+      "lat": 40.2126,
+      "lng": -124.3012,
+      "nSpecies": 63,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580405",
+      "name": "King Range NCA--Lost Coast Trail-Spanish Creek to Kinsey Creek",
+      "lat": 40.1832,
+      "lng": -124.2525,
+      "nSpecies": 43,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580443",
+      "name": "King Range NCA--Lost Coast Trail-Big Flat Creek Trail Camp",
+      "lat": 40.1281,
+      "lng": -124.1758,
+      "nSpecies": 48,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580475",
+      "name": "King Range NCA--Lost Coast Trail-Big Flat Creek to Shipman Creek",
+      "lat": 40.1245,
+      "lng": -124.1702,
+      "nSpecies": 39,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580491",
+      "name": "King Range NCA--Lost Coast Trail-Shipman Creek Trail Camp",
+      "lat": 40.1179,
+      "lng": -124.1449,
+      "nSpecies": 23,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580506",
+      "name": "King Range NCA--Lost Coast Trail-Shipman Creek to Gitchell Creek",
+      "lat": 40.1056,
+      "lng": -124.1147,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1580535",
+      "name": "King Range NCA--Lost Coast Trail-Black Sands Beach",
+      "lat": 40.0591,
+      "lng": -124.0787,
+      "nSpecies": 108,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1600770",
+      "name": "Mal Coombs Park",
+      "lat": 40.0224,
+      "lng": -124.0693,
+      "nSpecies": 131,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1600798",
+      "name": "King Range NCA--Horse Mountain Ridge Trail",
+      "lat": 40.1037,
+      "lng": -124.0763,
+      "nSpecies": 98,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1601147",
+      "name": "Salmon Summit National Scenic Trail",
+      "lat": 41.202,
+      "lng": -123.4273,
+      "nSpecies": 64,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1626711",
+      "name": "Mattole Rd.--coastal section",
+      "lat": 40.3799,
+      "lng": -124.3658,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L16619837",
+      "name": "stakeout Brown-crested Flycatcher, Anderson Avenue, McKinleyville (2021)",
+      "lat": 40.9332,
+      "lng": -124.1173,
+      "nSpecies": 67,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L16652808",
+      "name": "stakeout Broad-billed Hummingbird, Sprowl Creek Rd. (2021)",
+      "lat": 40.0684,
+      "lng": -123.8307,
+      "nSpecies": 33,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1669321",
+      "name": "Eel River Dr. at Summer St.",
+      "lat": 40.6374,
+      "lng": -124.2246,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L16949154",
+      "name": "Prairie Creek Redwoods SP--Ah-Pah Interpretive Trail",
+      "lat": 41.4508,
+      "lng": -124.0383,
+      "nSpecies": 34,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L16979473",
+      "name": "Forest Service Rte. 5N01--Buck Flat",
+      "lat": 40.7851,
+      "lng": -123.6804,
+      "nSpecies": 38,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L17336396",
+      "name": "Eureka Dog Park",
+      "lat": 40.7889,
+      "lng": -124.1428,
+      "nSpecies": 87,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L17492554",
+      "name": "Ocean View and St. Bernard’s Cemeteries",
+      "lat": 40.7714,
+      "lng": -124.1893,
+      "nSpecies": 87,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L17590731",
+      "name": "Davison Tr. btwn. Davison Rd. & Elk Prairie Tr.",
+      "lat": 41.348,
+      "lng": -124.0328,
+      "nSpecies": 54,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L17611705",
+      "name": "Zana/Occidental Ranch (restricted access)",
+      "lat": 40.6065,
+      "lng": -124.3023,
+      "nSpecies": 75,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L17663964",
+      "name": "Stone Lagoon--seawatch ONLY",
+      "lat": 41.2584,
+      "lng": -124.0996,
+      "nSpecies": 84,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1768839",
+      "name": "Ferndale Cemetery",
+      "lat": 40.5737,
+      "lng": -124.2629,
+      "nSpecies": 77,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1768932",
+      "name": "South Elk River Estuary Project",
+      "lat": 40.7491,
+      "lng": -124.1971,
+      "nSpecies": 160,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1770174",
+      "name": "Humboldt Bay--Bracut",
+      "lat": 40.8286,
+      "lng": -124.085,
+      "nSpecies": 126,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1770946",
+      "name": "Samoa Dunes Recreation Area--eucalyptus patch",
+      "lat": 40.7705,
+      "lng": -124.2162,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L17823489",
+      "name": "Carruthers Cove (HUM Co.)",
+      "lat": 41.4632,
+      "lng": -124.0653,
+      "nSpecies": 59,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L17823597",
+      "name": "Prairie Creek Redwoods SP--Ossagon Trail",
+      "lat": 41.4389,
+      "lng": -124.0408,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1785171",
+      "name": "Sunny Brae Park",
+      "lat": 40.8602,
+      "lng": -124.067,
+      "nSpecies": 59,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1785275",
+      "name": "Mad River levee east of Hatchery Rd. bridge",
+      "lat": 40.8761,
+      "lng": -123.9915,
+      "nSpecies": 163,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1823517",
+      "name": "Silva Rd.",
+      "lat": 40.9197,
+      "lng": -124.1016,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1842027",
+      "name": "Arcata Bottoms--Jackson Ranch Rd.",
+      "lat": 40.8763,
+      "lng": -124.1348,
+      "nSpecies": 178,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1842029",
+      "name": "Lohse farm (historic; no longer accessible to public)",
+      "lat": 40.8709,
+      "lng": -123.9946,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1848427",
+      "name": "Sue-Meg State Park--Agate Beach (incl. trail)",
+      "lat": 41.1409,
+      "lng": -124.1471,
+      "nSpecies": 122,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1854354",
+      "name": "Shoemaker Rd.",
+      "lat": 41.0275,
+      "lng": -123.6643,
+      "nSpecies": 87,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1854359",
+      "name": "Hoopa Roads Aggregate and Ready-Mix",
+      "lat": 41.0346,
+      "lng": -123.6563,
+      "nSpecies": 83,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1854380",
+      "name": "Trinity River Farm",
+      "lat": 40.9745,
+      "lng": -123.6391,
+      "nSpecies": 92,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1854387",
+      "name": "Patterson Pond",
+      "lat": 40.9791,
+      "lng": -123.6287,
+      "nSpecies": 80,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1854389",
+      "name": "Patterson Rd. (HUM Co.)",
+      "lat": 40.9721,
+      "lng": -123.6304,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1872219",
+      "name": "Quinn Rd.",
+      "lat": 40.6822,
+      "lng": -124.2506,
+      "nSpecies": 86,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L188879",
+      "name": "Redwood NP (HUM Co.)",
+      "lat": 41.2121,
+      "lng": -124.0048,
+      "nSpecies": 148,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L189487",
+      "name": "Arcata Marsh and Wildlife Sanctuary",
+      "lat": 40.8574,
+      "lng": -124.0946,
+      "nSpecies": 344,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1906554",
+      "name": "Berry Summit Vista Point",
+      "lat": 40.9013,
+      "lng": -123.7806,
+      "nSpecies": 78,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L1908256",
+      "name": "Kimtu gravel bar",
+      "lat": 40.9477,
+      "lng": -123.6146,
+      "nSpecies": 69,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L190961",
+      "name": "Dyerville Bar",
+      "lat": 40.3547,
+      "lng": -123.9224,
+      "nSpecies": 111,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L19743189",
+      "name": "Sue-meg State Park--Agate Campground",
+      "lat": 41.1397,
+      "lng": -124.1495,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L19947529",
+      "name": "stakeout Black-chinned Sparrow, Forest Service Rte. 1 (2022)",
+      "lat": 40.7523,
+      "lng": -123.6943,
+      "nSpecies": 54,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2060106",
+      "name": "Scotia Log Pond 205 Dam",
+      "lat": 40.4812,
+      "lng": -124.1057,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2086746",
+      "name": "Hatchery Rd. bridge",
+      "lat": 40.876,
+      "lng": -123.9924,
+      "nSpecies": 140,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L209647",
+      "name": "Humboldt Bay Bird Observatory (restricted access)",
+      "lat": 40.8895,
+      "lng": -124.1416,
+      "nSpecies": 234,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2101845",
+      "name": "Humboldt Redwoods SP--Albee Creek Campground",
+      "lat": 40.3522,
+      "lng": -124.0107,
+      "nSpecies": 90,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L21085329",
+      "name": "Six Rivers NF--East Fork CG",
+      "lat": 40.9067,
+      "lng": -123.7069,
+      "nSpecies": 30,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L212936",
+      "name": "Cape Mendocino",
+      "lat": 40.435,
+      "lng": -124.3965,
+      "nSpecies": 111,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L21352067",
+      "name": "Willow Creek (town)",
+      "lat": 40.9391,
+      "lng": -123.6299,
+      "nSpecies": 164,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2143391",
+      "name": "Ferndale Bottoms--Russ Ln.",
+      "lat": 40.5844,
+      "lng": -124.3124,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L21483173",
+      "name": "stakeout Ovenbird, Sunny Brae--Brigid Lane (2022)",
+      "lat": 40.8528,
+      "lng": -124.0698,
+      "nSpecies": 34,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2180025",
+      "name": "Elk River Wildlife Sanctuary (incl. Hikshari' Trail & WTP)",
+      "lat": 40.7662,
+      "lng": -124.1963,
+      "nSpecies": 224,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L22009372",
+      "name": "Ferndale Bottoms--Nissen Rd.",
+      "lat": 40.6103,
+      "lng": -124.2647,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L22016676",
+      "name": "Ferndale Bottoms--Goble Ln. east of Sage Rd.",
+      "lat": 40.6065,
+      "lng": -124.228,
+      "nSpecies": 59,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L22493803",
+      "name": "Airport Business Park",
+      "lat": 40.9673,
+      "lng": -124.1122,
+      "nSpecies": 68,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2274703",
+      "name": "Broken Bridge",
+      "lat": 40.8347,
+      "lng": -123.5682,
+      "nSpecies": 31,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2300854",
+      "name": "Skull Camp Trail",
+      "lat": 40.5628,
+      "lng": -123.5647,
+      "nSpecies": 37,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2311402",
+      "name": "King Range NCA--King Crest",
+      "lat": 40.1566,
+      "lng": -124.1244,
+      "nSpecies": 48,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2317313",
+      "name": "King Range NCA",
+      "lat": 40.1673,
+      "lng": -124.164,
+      "nSpecies": 100,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2320076",
+      "name": "Board Camp Mtn./Bug Creek/Chaparral Mtn. area",
+      "lat": 40.6952,
+      "lng": -123.7061,
+      "nSpecies": 55,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2325988",
+      "name": "Alderpoint Rd.--mile 5.9",
+      "lat": 40.108,
+      "lng": -123.7147,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2325992",
+      "name": "Alderpoint Rd.--mile 7.4",
+      "lat": 40.1049,
+      "lng": -123.6932,
+      "nSpecies": 52,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2326011",
+      "name": "Alderpoint Rd.--mile 12.6",
+      "lat": 40.1289,
+      "lng": -123.633,
+      "nSpecies": 77,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2342940",
+      "name": "Turner Rd.",
+      "lat": 40.9298,
+      "lng": -124.1027,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2343499",
+      "name": "King Range NCA--south of Shelter Cove Rd.",
+      "lat": 40.0084,
+      "lng": -124.0125,
+      "nSpecies": 65,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L23441795",
+      "name": "Prairie Creek Redwoods SP--North Gold Bluffs Beach",
+      "lat": 41.4304,
+      "lng": -124.0631,
+      "nSpecies": 65,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2346517",
+      "name": "Walker Point Rd. south end",
+      "lat": 40.8038,
+      "lng": -124.0933,
+      "nSpecies": 103,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2362436",
+      "name": "Waluplh-Lighthouse Ranch",
+      "lat": 40.6955,
+      "lng": -124.2747,
+      "nSpecies": 146,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2363659",
+      "name": "Waluplh-Lighthouse Ranch--seawatch ONLY",
+      "lat": 40.6967,
+      "lng": -124.2751,
+      "nSpecies": 156,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2373185",
+      "name": "Arcata Marsh and Wildlife Sanctuary--McDaniel Slough restoration area",
+      "lat": 40.8624,
+      "lng": -124.0988,
+      "nSpecies": 181,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2378239",
+      "name": "Trinidad Scenic Dr.",
+      "lat": 41.0493,
+      "lng": -124.1248,
+      "nSpecies": 117,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2381228",
+      "name": "Bald Hills Rd. mi. 0.0 – 0.5",
+      "lat": 41.3007,
+      "lng": -124.0457,
+      "nSpecies": 130,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2381405",
+      "name": "Singing Tree Gardens",
+      "lat": 41,
+      "lng": -124.0953,
+      "nSpecies": 56,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2386219",
+      "name": "Perigot Park",
+      "lat": 40.8824,
+      "lng": -123.9937,
+      "nSpecies": 79,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L24000431",
+      "name": "Arcata Ridge Trail (North Janes Creek Segment)",
+      "lat": 40.8924,
+      "lng": -124.0798,
+      "nSpecies": 92,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2406735",
+      "name": "Centerville Rd.--Russ Ln. to Poole Rd.",
+      "lat": 40.5798,
+      "lng": -124.3247,
+      "nSpecies": 138,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L24121272",
+      "name": "Redwood NP--Dolason Prairie Picnic Area",
+      "lat": 41.2055,
+      "lng": -123.9508,
+      "nSpecies": 99,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2416323",
+      "name": "Lacks Creek Management Area",
+      "lat": 41.0207,
+      "lng": -123.8064,
+      "nSpecies": 81,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L24312264",
+      "name": "Prairie Creek Redwoods SP--James Irvine Trail",
+      "lat": 41.3828,
+      "lng": -124.0416,
+      "nSpecies": 77,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2435180",
+      "name": "Lost Coast Headlands",
+      "lat": 40.5521,
+      "lng": -124.3571,
+      "nSpecies": 74,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2471276",
+      "name": "Warren Creek Rd.",
+      "lat": 40.8939,
+      "lng": -124.0253,
+      "nSpecies": 102,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2486683",
+      "name": "Blue Lake WTP",
+      "lat": 40.8855,
+      "lng": -124.0016,
+      "nSpecies": 104,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2486779",
+      "name": "Salmon Ave. neighborhoods",
+      "lat": 40.9328,
+      "lng": -124.1123,
+      "nSpecies": 78,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2502044",
+      "name": "stakeout Vermilion Flycatcher, Centerville Slough (2013)",
+      "lat": 40.612,
+      "lng": -124.3145,
+      "nSpecies": 83,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2502356",
+      "name": "Ferndale Bottoms--north Coffee Creek Rd.",
+      "lat": 40.5913,
+      "lng": -124.2262,
+      "nSpecies": 130,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2504341",
+      "name": "stakeout Summer Tanager, California Ave., Arcata (2014)",
+      "lat": 40.8809,
+      "lng": -124.0773,
+      "nSpecies": 57,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2510688",
+      "name": "Ferndale Bottoms--Grizzly Bluff Rd. at Lawson Ln./Pleasant Point Rd.",
+      "lat": 40.5636,
+      "lng": -124.1846,
+      "nSpecies": 52,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L25663445",
+      "name": "Grizzly Creek Redwoods SP--Cheatham Grove",
+      "lat": 40.4832,
+      "lng": -123.9631,
+      "nSpecies": 44,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L25923156",
+      "name": "Arcata Plaza",
+      "lat": 40.8686,
+      "lng": -124.0864,
+      "nSpecies": 36,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2605255",
+      "name": "Redwood NP--Redwood Creek to Mussel Pt.",
+      "lat": 41.3203,
+      "lng": -124.0859,
+      "nSpecies": 126,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2662355",
+      "name": "Christie Ranch pastures (from Glendale Rd.)",
+      "lat": 40.8918,
+      "lng": -124.0043,
+      "nSpecies": 75,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2663487",
+      "name": "Dead Mouse Marsh",
+      "lat": 40.7951,
+      "lng": -124.1221,
+      "nSpecies": 176,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2670450",
+      "name": "Ferndale Bottoms--Sage Rd. north of Goble Ln.",
+      "lat": 40.611,
+      "lng": -124.2243,
+      "nSpecies": 65,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L270786",
+      "name": "Fairhaven--horse pasture patch",
+      "lat": 40.7807,
+      "lng": -124.2063,
+      "nSpecies": 208,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L270787",
+      "name": "North Spit—Airport and Satellite Patch",
+      "lat": 40.7776,
+      "lng": -124.2105,
+      "nSpecies": 164,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L270789",
+      "name": "Samoa Dunes Recreation Area--cypress patch",
+      "lat": 40.7605,
+      "lng": -124.2224,
+      "nSpecies": 228,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L271485",
+      "name": "Arcata Marsh and Wildlife Sanctuary--oxidation ponds",
+      "lat": 40.8512,
+      "lng": -124.0892,
+      "nSpecies": 244,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L271497",
+      "name": "Humboldt Bay--King Salmon",
+      "lat": 40.7403,
+      "lng": -124.2186,
+      "nSpecies": 219,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L271707",
+      "name": "Arcata Bottoms--Jackson Ranch Rd. slough",
+      "lat": 40.8834,
+      "lng": -124.1254,
+      "nSpecies": 158,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L271711",
+      "name": "Mad River County Park",
+      "lat": 40.9295,
+      "lng": -124.1311,
+      "nSpecies": 248,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L27296636",
+      "name": "Prairie Creek Redwoods SP--Visitor Center Trails (Nature, Redwood Access, & Revelation Trails)",
+      "lat": 41.3646,
+      "lng": -124.0214,
+      "nSpecies": 99,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2776155",
+      "name": "Alderpoint Rd.--mile 4.2",
+      "lat": 40.1113,
+      "lng": -123.7411,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2776205",
+      "name": "Alderpoint Rd.--mile 7.2 pullout",
+      "lat": 40.1068,
+      "lng": -123.6964,
+      "nSpecies": 57,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2776224",
+      "name": "Alderpoint Rd.--mile 8.2",
+      "lat": 40.1028,
+      "lng": -123.6845,
+      "nSpecies": 66,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2776286",
+      "name": "Alderpoint (town)",
+      "lat": 40.1761,
+      "lng": -123.6119,
+      "nSpecies": 80,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2790030",
+      "name": "Redwood Park (HUM Co.)",
+      "lat": 40.8697,
+      "lng": -124.0731,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2808658",
+      "name": "Humboldt pelagic--nearshore to 3 miles offshore (HUM Co.)",
+      "lat": 40.7784,
+      "lng": -124.2591,
+      "nSpecies": 84,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2818442",
+      "name": "Redwood NP--Thomas H. Kuchel Visitor Center",
+      "lat": 41.2863,
+      "lng": -124.0902,
+      "nSpecies": 200,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28250406",
+      "name": "West End Rd. riparian patch",
+      "lat": 40.8966,
+      "lng": -124.0771,
+      "nSpecies": 105,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28316476",
+      "name": "Arcata Bottoms--Mad River Rd. east of Canal School",
+      "lat": 40.916,
+      "lng": -124.1083,
+      "nSpecies": 128,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2837061",
+      "name": "Janes Creek Meadows Park",
+      "lat": 40.8882,
+      "lng": -124.0828,
+      "nSpecies": 135,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28463693",
+      "name": "North Myrtletown neighborhood and marshes",
+      "lat": 40.7951,
+      "lng": -124.1304,
+      "nSpecies": 166,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2850690",
+      "name": "Friday Ridge Rd.--lower (burn area)",
+      "lat": 40.8889,
+      "lng": -123.6128,
+      "nSpecies": 130,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2866598",
+      "name": "Vizcaino Knoll",
+      "lat": 39.8975,
+      "lng": -124.6747,
+      "nSpecies": 21,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28694787",
+      "name": "Phelan Rd.",
+      "lat": 40.6924,
+      "lng": -124.25,
+      "nSpecies": 78,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28694872",
+      "name": "Hadley Gardens and Shaw House",
+      "lat": 40.5786,
+      "lng": -124.2621,
+      "nSpecies": 45,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28694891",
+      "name": "Ferndale Bottoms--Meridian Rd.",
+      "lat": 40.5929,
+      "lng": -124.2839,
+      "nSpecies": 75,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2872058",
+      "name": "Hookton Rd.",
+      "lat": 40.6817,
+      "lng": -124.2309,
+      "nSpecies": 115,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2888059",
+      "name": "Lower Van Duzen River",
+      "lat": 40.5391,
+      "lng": -124.1476,
+      "nSpecies": 122,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28889108",
+      "name": "stakeout Black-throated Green and Virginia's Warblers, Eureka (2024)",
+      "lat": 40.7899,
+      "lng": -124.1691,
+      "nSpecies": 84,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L28940430",
+      "name": "stakeout Least Flycatcher, Eureka (2024)",
+      "lat": 40.7801,
+      "lng": -124.176,
+      "nSpecies": 33,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2896650",
+      "name": "Wilson St. palms",
+      "lat": 40.8825,
+      "lng": -124.0875,
+      "nSpecies": 46,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L29083725",
+      "name": "Cooper Gulch at Huntoon/L St.",
+      "lat": 40.7869,
+      "lng": -124.1564,
+      "nSpecies": 55,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L29157674",
+      "name": "14th St. patch",
+      "lat": 40.7956,
+      "lng": -124.1465,
+      "nSpecies": 53,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2924837",
+      "name": "Big Hill Rd.--Box Camp",
+      "lat": 41.0921,
+      "lng": -123.555,
+      "nSpecies": 58,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2954544",
+      "name": "Bridgeville (town)",
+      "lat": 40.4691,
+      "lng": -123.799,
+      "nSpecies": 78,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L2967136",
+      "name": "Humboldt Redwoods SP--Nelson Grove",
+      "lat": 40.2728,
+      "lng": -123.8623,
+      "nSpecies": 57,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L29781603",
+      "name": "King Range NCA--Lost Coast Trail @ Randall Creek Mouth",
+      "lat": 40.2008,
+      "lng": -124.2823,
+      "nSpecies": 39,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L301060",
+      "name": "Mad River Fish Hatchery",
+      "lat": 40.856,
+      "lng": -123.9906,
+      "nSpecies": 197,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L301642",
+      "name": "Eureka Waterfront--Del Norte Street Fishing Pier",
+      "lat": 40.7907,
+      "lng": -124.1877,
+      "nSpecies": 147,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L301643",
+      "name": "Eureka Waterfront--Eureka Marsh",
+      "lat": 40.7873,
+      "lng": -124.1863,
+      "nSpecies": 209,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L301653",
+      "name": "Arcata Community Forest",
+      "lat": 40.8755,
+      "lng": -124.0521,
+      "nSpecies": 108,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L302107",
+      "name": "Prairie Creek Redwoods SP (HUM Co.)",
+      "lat": 41.4039,
+      "lng": -124.0289,
+      "nSpecies": 244,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3056009",
+      "name": "Strawberry Rock Trail",
+      "lat": 41.0768,
+      "lng": -124.1371,
+      "nSpecies": 55,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L30665552",
+      "name": "Arcata Bottoms--north Heindon Rd. patch",
+      "lat": 40.9128,
+      "lng": -124.0915,
+      "nSpecies": 79,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3069797",
+      "name": "stakeout Ruby-throated Hummingbird, New St., Eureka (2014)",
+      "lat": 40.7747,
+      "lng": -124.171,
+      "nSpecies": 32,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L31019417",
+      "name": "Creekside Park (HUM Co.)",
+      "lat": 40.9418,
+      "lng": -123.6343,
+      "nSpecies": 34,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L31223932",
+      "name": "McKinleyville Community Forest",
+      "lat": 40.9552,
+      "lng": -124.0762,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L31363465",
+      "name": "Peninsula Dr. west of Samoa Blvd.",
+      "lat": 40.8443,
+      "lng": -124.1688,
+      "nSpecies": 100,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3136452",
+      "name": "Cal Poly Humboldt--library area",
+      "lat": 40.876,
+      "lng": -124.0799,
+      "nSpecies": 116,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3146265",
+      "name": "Bear River Ridge Rd.--Y intersection (J3244 marker)",
+      "lat": 40.4491,
+      "lng": -124.169,
+      "nSpecies": 90,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3158831",
+      "name": "stakeout Brambling, Sunny Brae (2014-2015)",
+      "lat": 40.8573,
+      "lng": -124.0614,
+      "nSpecies": 97,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3160771",
+      "name": "Arcata Bottoms--Miller Ln.",
+      "lat": 40.9087,
+      "lng": -124.0984,
+      "nSpecies": 132,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L318469",
+      "name": "Shay Park",
+      "lat": 40.8791,
+      "lng": -124.0889,
+      "nSpecies": 176,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3228571",
+      "name": "Old Town Eureka",
+      "lat": 40.8046,
+      "lng": -124.167,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L323639",
+      "name": "Blue Lake cottonwoods",
+      "lat": 40.8737,
+      "lng": -123.9948,
+      "nSpecies": 192,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3283965",
+      "name": "Headwaters Forest Reserve--Elk River Trail",
+      "lat": 40.692,
+      "lng": -124.1407,
+      "nSpecies": 86,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L33305342",
+      "name": "Humboldt Bay NWR--Visitor Center Access Rd.",
+      "lat": 40.6788,
+      "lng": -124.2013,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L33710768",
+      "name": "Bald Hills Rd.--Walker Ridge Rd. to Coyote Rock trail turnoff (mi. 15.9 – 18.4)",
+      "lat": 41.1589,
+      "lng": -123.8937,
+      "nSpecies": 110,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3392177",
+      "name": "Trinidad Southbound Rest Area",
+      "lat": 41.0918,
+      "lng": -124.1507,
+      "nSpecies": 35,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L340449",
+      "name": "Mad River Estuary--Murray Rd.",
+      "lat": 40.9565,
+      "lng": -124.1236,
+      "nSpecies": 166,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L340454",
+      "name": "Humboldt Bay--northeast tidal wetlands (Jacoby Creek mouth, observation deck, & bay trail)",
+      "lat": 40.8459,
+      "lng": -124.0833,
+      "nSpecies": 194,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3438956",
+      "name": "Maple Creek Rd.--Korbel to Maple Creek (incidental or historical; please use more specific locations)",
+      "lat": 40.8617,
+      "lng": -123.9351,
+      "nSpecies": 114,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3441657",
+      "name": "Poole Rd. west of Ferndale",
+      "lat": 40.5691,
+      "lng": -124.3361,
+      "nSpecies": 82,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3442525",
+      "name": "Ferndale Bottoms--south Coffee Creek Rd.",
+      "lat": 40.5801,
+      "lng": -124.2212,
+      "nSpecies": 131,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3461293",
+      "name": "Bear River Ridge Rd.--Kinman Pond",
+      "lat": 40.4607,
+      "lng": -124.2056,
+      "nSpecies": 101,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3462280",
+      "name": "Bear River Ridge Rd.--west of Upper Bear River Rd. (1.7 miles distance)",
+      "lat": 40.5025,
+      "lng": -124.2752,
+      "nSpecies": 89,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L34952639",
+      "name": "Redwood NP--Redwood Creek Overlook",
+      "lat": 41.258,
+      "lng": -123.9894,
+      "nSpecies": 60,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3516675",
+      "name": "Sandy Bar",
+      "lat": 40.8815,
+      "lng": -123.6037,
+      "nSpecies": 86,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L352953",
+      "name": "Fay Slough Wildlife Area",
+      "lat": 40.8071,
+      "lng": -124.1032,
+      "nSpecies": 199,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L352957",
+      "name": "Big Lagoon spit",
+      "lat": 41.1729,
+      "lng": -124.1285,
+      "nSpecies": 208,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L35382002",
+      "name": "Benbow Inn",
+      "lat": 40.0676,
+      "lng": -123.79,
+      "nSpecies": 65,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3551281",
+      "name": "Arcata Marsh and Wildlife Sanctuary--Arcata Bay from I St. (baywatch only)",
+      "lat": 40.8554,
+      "lng": -124.0983,
+      "nSpecies": 199,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3575854",
+      "name": "Arcata Community Park and Sports Complex",
+      "lat": 40.8646,
+      "lng": -124.0791,
+      "nSpecies": 122,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L357876",
+      "name": "Arcata Bottoms",
+      "lat": 40.8956,
+      "lng": -124.1174,
+      "nSpecies": 308,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L358812",
+      "name": "Loleta Bottoms",
+      "lat": 40.651,
+      "lng": -124.265,
+      "nSpecies": 240,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3659332",
+      "name": "Sandy Prairie/Drake gravel bar",
+      "lat": 40.5823,
+      "lng": -124.1639,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L368390",
+      "name": "Stone Lagoon",
+      "lat": 41.2424,
+      "lng": -124.0926,
+      "nSpecies": 214,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L368398",
+      "name": "Redwood Creek mouth",
+      "lat": 41.2919,
+      "lng": -124.09,
+      "nSpecies": 234,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3694049",
+      "name": "Fernbridge/Singley gravel bar",
+      "lat": 40.6121,
+      "lng": -124.2066,
+      "nSpecies": 174,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L36962191",
+      "name": "6th Street patch",
+      "lat": 40.8026,
+      "lng": -124.1509,
+      "nSpecies": 52,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L370905",
+      "name": "Crab Park",
+      "lat": 40.642,
+      "lng": -124.303,
+      "nSpecies": 236,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L370924",
+      "name": "Mike Thompson WA (South Spit Humboldt Bay)",
+      "lat": 40.7251,
+      "lng": -124.2533,
+      "nSpecies": 234,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L370930",
+      "name": "Freshwater Lagoon",
+      "lat": 41.2685,
+      "lng": -124.0928,
+      "nSpecies": 190,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L370973",
+      "name": "Arcata Bottoms--Moxon Ln./Vaissade Rd.",
+      "lat": 40.8724,
+      "lng": -124.1108,
+      "nSpecies": 198,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L371041",
+      "name": "Hiller Park and Mad River Bluffs",
+      "lat": 40.9454,
+      "lng": -124.1206,
+      "nSpecies": 236,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L371550",
+      "name": "Ferndale WTP",
+      "lat": 40.5936,
+      "lng": -124.2606,
+      "nSpecies": 152,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3728717",
+      "name": "Worswick gravel bar",
+      "lat": 40.6101,
+      "lng": -124.1982,
+      "nSpecies": 111,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L372937",
+      "name": "Humboldt Bay--Fields Landing Boat Ramp",
+      "lat": 40.7261,
+      "lng": -124.2211,
+      "nSpecies": 166,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L373401",
+      "name": "Humboldt Bay NWR--Hookton Slough Unit",
+      "lat": 40.6773,
+      "lng": -124.2223,
+      "nSpecies": 212,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L373414",
+      "name": "Arcata Marsh and Wildlife Sanctuary--Butcher Slough log pond",
+      "lat": 40.8601,
+      "lng": -124.0908,
+      "nSpecies": 240,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L373421",
+      "name": "O St. patch",
+      "lat": 40.8696,
+      "lng": -124.0951,
+      "nSpecies": 95,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L373858",
+      "name": "Loleta Pond",
+      "lat": 40.6452,
+      "lng": -124.228,
+      "nSpecies": 160,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L373874",
+      "name": "Cock Robin Island Rd. bridge",
+      "lat": 40.6367,
+      "lng": -124.282,
+      "nSpecies": 171,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3738892",
+      "name": "King Range NCA--King Peak Rd.",
+      "lat": 40.0839,
+      "lng": -124.0581,
+      "nSpecies": 50,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L375043",
+      "name": "Humboldt Bay--Elk River Spit",
+      "lat": 40.7574,
+      "lng": -124.1973,
+      "nSpecies": 157,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L375214",
+      "name": "Humboldt Bay NWR--Salmon Creek Unit",
+      "lat": 40.6849,
+      "lng": -124.2114,
+      "nSpecies": 247,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L375216",
+      "name": "Ferndale Bottoms",
+      "lat": 40.5936,
+      "lng": -124.243,
+      "nSpecies": 280,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3763005",
+      "name": "Grouse Mtn. area",
+      "lat": 40.7577,
+      "lng": -123.6729,
+      "nSpecies": 75,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L37844104",
+      "name": "Fairfield St. greenbelt",
+      "lat": 40.7851,
+      "lng": -124.1807,
+      "nSpecies": 74,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L378911",
+      "name": "Mattole River mouth",
+      "lat": 40.2899,
+      "lng": -124.3554,
+      "nSpecies": 196,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3814510",
+      "name": "Six Rivers NF--Clear Lake",
+      "lat": 40.8155,
+      "lng": -123.6971,
+      "nSpecies": 53,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L38392611",
+      "name": "Ferndale (neighborhoods)",
+      "lat": 40.576,
+      "lng": -124.2631,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3842800",
+      "name": "Table Bluff beaches",
+      "lat": 40.6739,
+      "lng": -124.2937,
+      "nSpecies": 154,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L384802",
+      "name": "Elk Meadow",
+      "lat": 41.3215,
+      "lng": -124.042,
+      "nSpecies": 151,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L38497104",
+      "name": "South G street/Highway 101 pasture",
+      "lat": 40.8579,
+      "lng": -124.0853,
+      "nSpecies": 66,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3865109",
+      "name": "Mad River Estuary--Hammond Trail Bridge",
+      "lat": 40.924,
+      "lng": -124.1204,
+      "nSpecies": 211,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3867811",
+      "name": "Kokte Ranch and Nature Preserve",
+      "lat": 40.8378,
+      "lng": -124.069,
+      "nSpecies": 115,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L38753761",
+      "name": "Ferndale Bottoms--Main St. pastures",
+      "lat": 40.5925,
+      "lng": -124.2509,
+      "nSpecies": 28,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3883935",
+      "name": "Humboldt Redwoods SP-- Hidden Springs Campground",
+      "lat": 40.2764,
+      "lng": -123.8649,
+      "nSpecies": 61,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3891136",
+      "name": "Tish Tang Trail",
+      "lat": 41.0377,
+      "lng": -123.5191,
+      "nSpecies": 18,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3922582",
+      "name": "Metropolitan Rd. Bottoms",
+      "lat": 40.5144,
+      "lng": -124.1411,
+      "nSpecies": 82,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L39471796",
+      "name": "stakeout Costa's Hummingbird, McKinleyville (2025-2026)",
+      "lat": 40.9378,
+      "lng": -124.0908,
+      "nSpecies": 64,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3951073",
+      "name": "Samoa (HUM Co.)",
+      "lat": 40.8195,
+      "lng": -124.1856,
+      "nSpecies": 141,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3978628",
+      "name": "stakeout Wood Thrush, Sunny Brae (2015)",
+      "lat": 40.8559,
+      "lng": -124.0736,
+      "nSpecies": 74,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L39832893",
+      "name": "Highland Park and neighborhoods",
+      "lat": 40.7765,
+      "lng": -124.1839,
+      "nSpecies": 66,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L3992097",
+      "name": "Mattole Rd.--Malfunction Junction (Bear River Ridge Rd. intersection)",
+      "lat": 40.5098,
+      "lng": -124.2837,
+      "nSpecies": 35,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4009633",
+      "name": "Elk River Bottoms",
+      "lat": 40.7264,
+      "lng": -124.1741,
+      "nSpecies": 76,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4063719",
+      "name": "Ferndale Bottoms--Riverside Ranch (restricted access)",
+      "lat": 40.6094,
+      "lng": -124.3003,
+      "nSpecies": 139,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4149592",
+      "name": "Pookey's Park",
+      "lat": 41.0498,
+      "lng": -123.6794,
+      "nSpecies": 99,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4149969",
+      "name": "Van Ness Ave.",
+      "lat": 40.5881,
+      "lng": -124.2588,
+      "nSpecies": 98,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4280725",
+      "name": "Redwood NP--Trillium Falls Trail",
+      "lat": 41.3215,
+      "lng": -124.0452,
+      "nSpecies": 112,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L42981525",
+      "name": "Kneeland Rd. btwn. Mountain View Rd. & Showers Pass Rd.",
+      "lat": 40.7199,
+      "lng": -123.9426,
+      "nSpecies": 62,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L430688",
+      "name": "Redway (general)",
+      "lat": 40.1205,
+      "lng": -123.8342,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L433453",
+      "name": "Eel River Wildlife Area--Ocean Ranch Unit",
+      "lat": 40.6833,
+      "lng": -124.2755,
+      "nSpecies": 226,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L433463",
+      "name": "Tuluwat Island (limited access)",
+      "lat": 40.8166,
+      "lng": -124.1628,
+      "nSpecies": 128,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4334831",
+      "name": "Eureka Waterfront--Madaket Square & Boardwalk",
+      "lat": 40.8054,
+      "lng": -124.1692,
+      "nSpecies": 113,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L433528",
+      "name": "Mad River Estuary--Mad River Bluffs South Stairs",
+      "lat": 40.943,
+      "lng": -124.1276,
+      "nSpecies": 147,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L433570",
+      "name": "Blue Lake gravel bar (incl. Taylor Way and west levee trail)",
+      "lat": 40.8776,
+      "lng": -124.0013,
+      "nSpecies": 155,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4353391",
+      "name": "Eureka Waterfront--Halvorsen Park",
+      "lat": 40.8069,
+      "lng": -124.1568,
+      "nSpecies": 122,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L436636",
+      "name": "Sue-Meg State Park",
+      "lat": 41.1365,
+      "lng": -124.1559,
+      "nSpecies": 223,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L440108",
+      "name": "Redwood NP--Redwood Creek Trail",
+      "lat": 41.2993,
+      "lng": -124.0334,
+      "nSpecies": 124,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L440110",
+      "name": "Mad River Slough WA",
+      "lat": 40.861,
+      "lng": -124.12,
+      "nSpecies": 176,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L440335",
+      "name": "Redwood Roots Farm",
+      "lat": 40.8354,
+      "lng": -124.0526,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L442116",
+      "name": "Humboldt Bay NWR--Lanphere Dunes Unit (restricted access)",
+      "lat": 40.8941,
+      "lng": -124.1429,
+      "nSpecies": 200,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4447734",
+      "name": "East Arcata/Bay View neighborhood w. of Bayview St.",
+      "lat": 40.8698,
+      "lng": -124.0786,
+      "nSpecies": 105,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L446627",
+      "name": "Ferndale Bottoms--Port Kenyon Rd.(Salt River)",
+      "lat": 40.5953,
+      "lng": -124.2752,
+      "nSpecies": 196,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L447314",
+      "name": "Trinidad SB",
+      "lat": 41.0625,
+      "lng": -124.1482,
+      "nSpecies": 154,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4475376",
+      "name": "Samoa Dunes Recreation Area--Coast Guard Cove",
+      "lat": 40.7642,
+      "lng": -124.2204,
+      "nSpecies": 140,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L44997047",
+      "name": "Lucas St. patch",
+      "lat": 40.7926,
+      "lng": -124.1366,
+      "nSpecies": 25,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L450170",
+      "name": "Mad River Estuary (general)",
+      "lat": 40.9397,
+      "lng": -124.1302,
+      "nSpecies": 276,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L450591",
+      "name": "Bayshore Mall",
+      "lat": 40.7839,
+      "lng": -124.1878,
+      "nSpecies": 187,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4508780",
+      "name": "Hoover St. palms",
+      "lat": 40.7983,
+      "lng": -124.1372,
+      "nSpecies": 83,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L451790",
+      "name": "Cooper Gulch Park",
+      "lat": 40.7996,
+      "lng": -124.1527,
+      "nSpecies": 170,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L45208684",
+      "name": "Humboldt Lagoons SP--Stagecoach Hill Azalea Nature Trail",
+      "lat": 41.214,
+      "lng": -124.103,
+      "nSpecies": 29,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L452572",
+      "name": "Orick Transfer Station",
+      "lat": 41.2879,
+      "lng": -124.0798,
+      "nSpecies": 98,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4548487",
+      "name": "Arcata Bottoms--Dolly Varden Rd.",
+      "lat": 40.8807,
+      "lng": -124.1096,
+      "nSpecies": 107,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4550894",
+      "name": "Alderpoint Rd.--Bell Springs Rd. intersection (mile 8.0)",
+      "lat": 40.1009,
+      "lng": -123.6869,
+      "nSpecies": 33,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L458029",
+      "name": "Tepona Point",
+      "lat": 41.0399,
+      "lng": -124.12,
+      "nSpecies": 143,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L46114656",
+      "name": "Humboldt Redwoods SP--Franklin K. Lane Grove",
+      "lat": 40.2149,
+      "lng": -123.7861,
+      "nSpecies": 22,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L464347",
+      "name": "Bear River Ridge (please use more specific location(s) when possible)",
+      "lat": 40.4666,
+      "lng": -124.2123,
+      "nSpecies": 177,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L466101",
+      "name": "Vance Ave. north of Samoa Cookhouse",
+      "lat": 40.8241,
+      "lng": -124.174,
+      "nSpecies": 200,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4686605",
+      "name": "Jacoby Creek Forest trail (restricted access)",
+      "lat": 40.7779,
+      "lng": -123.9904,
+      "nSpecies": 56,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L469584",
+      "name": "Kneeland Airport",
+      "lat": 40.7189,
+      "lng": -123.9274,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4696685",
+      "name": "Forest Service Rte. 1 (Titlow Hill Rd.)--Alps and Mt. Shasta viewpoints",
+      "lat": 40.815,
+      "lng": -123.6915,
+      "nSpecies": 51,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4696692",
+      "name": "Forest Service Rte. 1 (Titlow Hill Rd.)--roadside forest near Cold Spring",
+      "lat": 40.8339,
+      "lng": -123.7091,
+      "nSpecies": 50,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L469940",
+      "name": "Eureka Waterfront--Coast Seafoods to Marina Way",
+      "lat": 40.8036,
+      "lng": -124.1757,
+      "nSpecies": 139,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L470214",
+      "name": "Eel River Delta--Ferndale and Loleta Bottoms (for historical entries only; please use more specific locations)",
+      "lat": 40.6124,
+      "lng": -124.2368,
+      "nSpecies": 197,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L480883",
+      "name": "Big Lagoon",
+      "lat": 41.1772,
+      "lng": -124.116,
+      "nSpecies": 215,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L483243",
+      "name": "Little River Mouth and Moonstone County Park",
+      "lat": 41.0281,
+      "lng": -124.1103,
+      "nSpecies": 159,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L485958",
+      "name": "Boyd Rd. gravel bar",
+      "lat": 40.9125,
+      "lng": -124.0661,
+      "nSpecies": 101,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L485959",
+      "name": "Titlow Hill Rd.--Hwy. 299 to Horse Mountain saddle (first 4.6 miles)",
+      "lat": 40.8752,
+      "lng": -123.7553,
+      "nSpecies": 104,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L486044",
+      "name": "Lost Man Creek Rd. and trail (to mi. 1.0 at 3rd trail bridge)",
+      "lat": 41.3282,
+      "lng": -124.0259,
+      "nSpecies": 63,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L487997",
+      "name": "Humboldt Bay--North Spit jetty",
+      "lat": 40.7658,
+      "lng": -124.2347,
+      "nSpecies": 229,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4883368",
+      "name": "Baylands Pond Number Four (viewed from Old Arcata Rd.)",
+      "lat": 40.8473,
+      "lng": -124.0711,
+      "nSpecies": 105,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4889694",
+      "name": "S. Broadway St. wetlands",
+      "lat": 40.7399,
+      "lng": -124.2042,
+      "nSpecies": 126,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4904968",
+      "name": "Freshwater Rd.--Myrtle Ave. to Freshwater Park",
+      "lat": 40.7713,
+      "lng": -124.0735,
+      "nSpecies": 108,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4905045",
+      "name": "Greenwood Heights Dr.",
+      "lat": 40.7954,
+      "lng": -124.0303,
+      "nSpecies": 39,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4905069",
+      "name": "Kneeland Rd.--Freshwater Park to Greenwood Heights Dr.",
+      "lat": 40.7589,
+      "lng": -124.0223,
+      "nSpecies": 47,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4905075",
+      "name": "Kneeland Rd.--Greenwood Heights Dr. to Butler Valley Rd.",
+      "lat": 40.7548,
+      "lng": -123.9867,
+      "nSpecies": 45,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4905083",
+      "name": "Kneeland Rd.--Butler Valley Rd. to Mountain View Rd.",
+      "lat": 40.7395,
+      "lng": -123.9575,
+      "nSpecies": 80,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4905086",
+      "name": "Mountain View Rd.--south of Ashfield Ridge (mi. 3.1 to Showers Pass Rd.)",
+      "lat": 40.6937,
+      "lng": -123.8766,
+      "nSpecies": 69,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4905125",
+      "name": "Showers Pass Rd.",
+      "lat": 40.617,
+      "lng": -123.7624,
+      "nSpecies": 65,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4905128",
+      "name": "Kneeland Rd. s. of Showers Pass Rd.",
+      "lat": 40.5105,
+      "lng": -123.821,
+      "nSpecies": 69,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L49108736",
+      "name": "Prairie Creek Redwoods SP--Miner's Ridge Trail",
+      "lat": 41.3761,
+      "lng": -124.0573,
+      "nSpecies": 41,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L492514",
+      "name": "Arcata Bottoms--south of Lanphere Rd.",
+      "lat": 40.8851,
+      "lng": -124.1191,
+      "nSpecies": 207,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L493052",
+      "name": "14th/L St. eucalyptus",
+      "lat": 40.874,
+      "lng": -124.0894,
+      "nSpecies": 11,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4948685",
+      "name": "Mad River Slough",
+      "lat": 40.867,
+      "lng": -124.1506,
+      "nSpecies": 144,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4950831",
+      "name": "Mattole Rd.--Black Sand Beach & Steamboat Rock",
+      "lat": 40.417,
+      "lng": -124.3979,
+      "nSpecies": 97,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4964571",
+      "name": "Big Lagoon County Park",
+      "lat": 41.1631,
+      "lng": -124.1316,
+      "nSpecies": 174,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4969693",
+      "name": "Petrolia Table Cemetery",
+      "lat": 40.3372,
+      "lng": -124.3094,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4977592",
+      "name": "Chah-GAH-Cho Trail",
+      "lat": 40.9312,
+      "lng": -124.1042,
+      "nSpecies": 112,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L4998646",
+      "name": "Arcata Bottoms--Parton Ln.",
+      "lat": 40.9041,
+      "lng": -124.0962,
+      "nSpecies": 116,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5039644",
+      "name": "Centerville Beach--seawatch ONLY",
+      "lat": 40.574,
+      "lng": -124.3497,
+      "nSpecies": 85,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L505023",
+      "name": "Mattole Rd.--Cape Ranch pond",
+      "lat": 40.4556,
+      "lng": -124.3751,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L505033",
+      "name": "Mattole Rd.--Flyblow Gulch overlook",
+      "lat": 40.4787,
+      "lng": -124.3688,
+      "nSpecies": 38,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L505039",
+      "name": "Clam and Little River State Beach",
+      "lat": 41.0048,
+      "lng": -124.1155,
+      "nSpecies": 239,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5097341",
+      "name": "Ferndale Bottoms--north Fulmor Rd.",
+      "lat": 40.6176,
+      "lng": -124.2521,
+      "nSpecies": 87,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5149584",
+      "name": "Manila (HUM Co.)",
+      "lat": 40.8518,
+      "lng": -124.1639,
+      "nSpecies": 126,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L517692",
+      "name": "Prairie Creek Redwoods SP--Elk Prairie",
+      "lat": 41.3596,
+      "lng": -124.0254,
+      "nSpecies": 171,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L518374",
+      "name": "Trinidad SB--Elk Head",
+      "lat": 41.0679,
+      "lng": -124.1554,
+      "nSpecies": 194,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L518463",
+      "name": "Samoa Boat Ramp",
+      "lat": 40.7723,
+      "lng": -124.2135,
+      "nSpecies": 188,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L518878",
+      "name": "Groves Prairie",
+      "lat": 40.9549,
+      "lng": -123.4882,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5191624",
+      "name": "Aldergrove Rd. past Pepperwood Ln.",
+      "lat": 40.8986,
+      "lng": -124.0576,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L519197",
+      "name": "Fortuna WTP (restricted access)",
+      "lat": 40.5908,
+      "lng": -124.1584,
+      "nSpecies": 49,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5207403",
+      "name": "Ferndale Bottoms--Riverside Rd.",
+      "lat": 40.597,
+      "lng": -124.2843,
+      "nSpecies": 144,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5207407",
+      "name": "Ferndale Bottoms--Dillon Rd.",
+      "lat": 40.6035,
+      "lng": -124.2743,
+      "nSpecies": 121,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5214053",
+      "name": "Arcata Marsh and Wildlife Sanctuary--East & West Ponds",
+      "lat": 40.864,
+      "lng": -124.0961,
+      "nSpecies": 161,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5214060",
+      "name": "Arcata Marsh and Wildlife Sanctuary--Hauser Marsh",
+      "lat": 40.8584,
+      "lng": -124.0969,
+      "nSpecies": 157,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5214062",
+      "name": "Arcata Marsh and Wildlife Sanctuary--South I Street Storm Water Pond",
+      "lat": 40.8627,
+      "lng": -124.0922,
+      "nSpecies": 142,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L521787",
+      "name": "Arcata Bottoms--Seidel Rd. (incl. Sun Valley Pond)",
+      "lat": 40.89,
+      "lng": -124.115,
+      "nSpecies": 122,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L523108",
+      "name": "Trinidad Harbor",
+      "lat": 41.0565,
+      "lng": -124.1471,
+      "nSpecies": 169,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L53361579",
+      "name": "SCARF Fitness Trail",
+      "lat": 40.0363,
+      "lng": -124.0663,
+      "nSpecies": 25,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L53361601",
+      "name": "King Range NCA--Hidden Valley Loop Trail",
+      "lat": 40.0279,
+      "lng": -124.0259,
+      "nSpecies": 10,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5417030",
+      "name": "Ferndale Bottoms--Coffee Creek tributary at Grizzly Bluff Rd.",
+      "lat": 40.5691,
+      "lng": -124.2137,
+      "nSpecies": 67,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5434319",
+      "name": "stakeout Mexican Whip-Poor-Will, Willow Creek (2007 & 2009)",
+      "lat": 40.9097,
+      "lng": -123.6172,
+      "nSpecies": 19,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L549010",
+      "name": "Fleener Creek Trail (closed since 2024)",
+      "lat": 40.5628,
+      "lng": -124.3537,
+      "nSpecies": 114,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L549014",
+      "name": "Ferndale Bottoms--Arlynda Pond",
+      "lat": 40.5966,
+      "lng": -124.2523,
+      "nSpecies": 127,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5495700",
+      "name": "Bear River Ridge Rd.--easternmost pond to Kinman Pond (2.7 miles distance)",
+      "lat": 40.4515,
+      "lng": -124.1832,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5495712",
+      "name": "Bear River Ridge Rd.--Kinman Pond to Upper Bear River Rd. (4.3 miles distance)",
+      "lat": 40.4844,
+      "lng": -124.2308,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L550499",
+      "name": "Azalea State Reserve",
+      "lat": 40.9177,
+      "lng": -124.0794,
+      "nSpecies": 108,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L550509",
+      "name": "West End Rd.",
+      "lat": 40.888,
+      "lng": -124.0374,
+      "nSpecies": 123,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L550525",
+      "name": "Ma-le’l Dunes Unit South (BLM)",
+      "lat": 40.8645,
+      "lng": -124.1591,
+      "nSpecies": 166,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L572259",
+      "name": "Grizzly Creek Redwoods SP",
+      "lat": 40.4856,
+      "lng": -123.9035,
+      "nSpecies": 88,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5765349",
+      "name": "Alderpoint Rd.--mile 1.8",
+      "lat": 40.1122,
+      "lng": -123.7735,
+      "nSpecies": 39,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5765350",
+      "name": "Alderpoint Rd.--mile 2.4",
+      "lat": 40.1127,
+      "lng": -123.7657,
+      "nSpecies": 25,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5765357",
+      "name": "Alderpoint Rd.--mile 3.4",
+      "lat": 40.1109,
+      "lng": -123.7528,
+      "nSpecies": 29,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5765380",
+      "name": "Alderpoint Rd.--mile 11.6",
+      "lat": 40.1204,
+      "lng": -123.646,
+      "nSpecies": 29,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5765386",
+      "name": "Alderpoint Rd.--oak grove south of Alderpoint (mile 16)",
+      "lat": 40.1655,
+      "lng": -123.6115,
+      "nSpecies": 55,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5773253",
+      "name": "Samoa Boulevard log pond",
+      "lat": 40.868,
+      "lng": -124.14,
+      "nSpecies": 92,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L578586",
+      "name": "Trinidad Head",
+      "lat": 41.0541,
+      "lng": -124.1505,
+      "nSpecies": 181,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L578591",
+      "name": "Arcata Bottoms--V St. loop",
+      "lat": 40.8647,
+      "lng": -124.121,
+      "nSpecies": 252,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L578597",
+      "name": "Cock Robin Island",
+      "lat": 40.6271,
+      "lng": -124.2827,
+      "nSpecies": 198,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L579586",
+      "name": "Arcata Marsh and Wildlife Sanctuary--Klopp Lake",
+      "lat": 40.8553,
+      "lng": -124.0956,
+      "nSpecies": 222,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5815664",
+      "name": "Forest Service Rte. 1--first meadow south of Grouse Mountain",
+      "lat": 40.7643,
+      "lng": -123.6851,
+      "nSpecies": 51,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L583018",
+      "name": "Klamath River--Orleans Bar",
+      "lat": 41.2936,
+      "lng": -123.5544,
+      "nSpecies": 107,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L58585593",
+      "name": "Petrolia (town)",
+      "lat": 40.3251,
+      "lng": -124.2863,
+      "nSpecies": 56,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5903825",
+      "name": "stakeout Yellow-throated Warbler, Palmer Blvd., Fortuna (2017)",
+      "lat": 40.6056,
+      "lng": -124.1779,
+      "nSpecies": 73,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L592866",
+      "name": "Stagecoach Rd.",
+      "lat": 41.0699,
+      "lng": -124.1488,
+      "nSpecies": 85,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L5937101",
+      "name": "MCSD River Park",
+      "lat": 40.915,
+      "lng": -124.0813,
+      "nSpecies": 117,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L59468314",
+      "name": "Butler Valley Rd.",
+      "lat": 40.7598,
+      "lng": -123.9189,
+      "nSpecies": 17,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L595412",
+      "name": "Bald Hills Rd. (general)",
+      "lat": 41.19,
+      "lng": -123.9324,
+      "nSpecies": 135,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L599558",
+      "name": "Samoa Dunes Recreation Area",
+      "lat": 40.7629,
+      "lng": -124.226,
+      "nSpecies": 202,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6052852",
+      "name": "Redwood NP--Redwood Creek Trail above Elam Horse Camp",
+      "lat": 41.2606,
+      "lng": -124.0173,
+      "nSpecies": 64,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L608224",
+      "name": "Potawot Health Village",
+      "lat": 40.8953,
+      "lng": -124.0859,
+      "nSpecies": 156,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L608658",
+      "name": "Humboldt Bay--North Spit (please use more specific location(s) when possible)",
+      "lat": 40.793,
+      "lng": -124.2046,
+      "nSpecies": 209,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L61210291",
+      "name": "‘O Rew (restricted access until June 2026)",
+      "lat": 41.3019,
+      "lng": -124.0436,
+      "nSpecies": 49,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L61400144",
+      "name": "Lord-Ellis Summit",
+      "lat": 40.9306,
+      "lng": -123.8608,
+      "nSpecies": 8,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6148446",
+      "name": "Carlson Park",
+      "lat": 40.9067,
+      "lng": -124.0781,
+      "nSpecies": 148,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L616062",
+      "name": "College of the Redwoods Eureka Campus--Campus Park ponds",
+      "lat": 40.6999,
+      "lng": -124.1993,
+      "nSpecies": 100,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6254172",
+      "name": "Cahill Park",
+      "lat": 40.8839,
+      "lng": -124.0854,
+      "nSpecies": 71,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6256995",
+      "name": "Lower Pacific Dr.",
+      "lat": 40.0282,
+      "lng": -124.0766,
+      "nSpecies": 120,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6262373",
+      "name": "Jolly Giant Creek from Alliance Rd. to 11th St.",
+      "lat": 40.8743,
+      "lng": -124.0912,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L62664324",
+      "name": "Hilfiker Pond",
+      "lat": 40.7722,
+      "lng": -124.1932,
+      "nSpecies": 10,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L63149655",
+      "name": "Stakeout Yellow-throated Warbler (2026)",
+      "lat": 40.9689,
+      "lng": -124.1167,
+      "nSpecies": 51,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L63203245",
+      "name": "Mountain View Rd.--Kneeland Rd. to Ashfield Ridge",
+      "lat": 40.7204,
+      "lng": -123.9419,
+      "nSpecies": 14,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6354839",
+      "name": "Cal Poly Humboldt--Wright Wildlife Refuge (restricted access)",
+      "lat": 40.7824,
+      "lng": -124.1229,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6360062",
+      "name": "Orick (town)",
+      "lat": 41.2864,
+      "lng": -124.0598,
+      "nSpecies": 151,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L64207141",
+      "name": "Redwood NP--Schoolhouse Peak",
+      "lat": 41.1514,
+      "lng": -123.8829,
+      "nSpecies": 27,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6432097",
+      "name": "Eureka Waterfront--Samoa Bridge to Blue Ox Millworks",
+      "lat": 40.8099,
+      "lng": -124.1492,
+      "nSpecies": 147,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L64599422",
+      "name": "Camp Trinidad RV Resort (restricted access)",
+      "lat": 41.1226,
+      "lng": -124.154,
+      "nSpecies": 16,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L64599681",
+      "name": "Sue-Meg SP--Palmer's Point",
+      "lat": 41.1298,
+      "lng": -124.1636,
+      "nSpecies": 5,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L650222",
+      "name": "Manila Community Park",
+      "lat": 40.8522,
+      "lng": -124.1608,
+      "nSpecies": 162,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6508985",
+      "name": "Bear River Ridge--Whatcheer Ranch",
+      "lat": 40.4925,
+      "lng": -124.2392,
+      "nSpecies": 68,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L651721",
+      "name": "Humboldt Area Foundation",
+      "lat": 40.8161,
+      "lng": -124.0887,
+      "nSpecies": 61,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L652098",
+      "name": "Arcata Baylands (restricted access)",
+      "lat": 40.8558,
+      "lng": -124.0778,
+      "nSpecies": 149,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L653647",
+      "name": "Redwood NP--Childs Hill Prairie",
+      "lat": 41.1706,
+      "lng": -123.9203,
+      "nSpecies": 110,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L653675",
+      "name": "Camp Riggs Johnston (restricted access)",
+      "lat": 40.7,
+      "lng": -124.1086,
+      "nSpecies": 56,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6551864",
+      "name": "Trinidad (town)",
+      "lat": 41.06,
+      "lng": -124.142,
+      "nSpecies": 152,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L660797",
+      "name": "Stone Lagoon--north",
+      "lat": 41.2497,
+      "lng": -124.0959,
+      "nSpecies": 192,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L66345676",
+      "name": "Black Sands Beach Trail",
+      "lat": 40.045,
+      "lng": -124.078,
+      "nSpecies": 6,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6706833",
+      "name": "Arcata Bottoms--Heindon Rd.",
+      "lat": 40.9068,
+      "lng": -124.0913,
+      "nSpecies": 113,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6719745",
+      "name": "Valley West Shopping Center",
+      "lat": 40.9035,
+      "lng": -124.0822,
+      "nSpecies": 69,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L67446611",
+      "name": "Humboldt Redwoods SP--Mather Grove",
+      "lat": 40.2928,
+      "lng": -123.8988,
+      "nSpecies": 5,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L67547654",
+      "name": "Gene Lucas Community Center Wetlands",
+      "lat": 40.5937,
+      "lng": -124.134,
+      "nSpecies": 13,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6764836",
+      "name": "Janes Creek at 11th Street",
+      "lat": 40.8731,
+      "lng": -124.0973,
+      "nSpecies": 100,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L676523",
+      "name": "Copenhagen Rd.",
+      "lat": 40.6622,
+      "lng": -124.247,
+      "nSpecies": 155,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L67717094",
+      "name": "Humboldt Redwoods SP--North and South",
+      "lat": 40.3521,
+      "lng": -123.9728,
+      "nSpecies": 17,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L6792737",
+      "name": "Arcata Bottoms--Foster Ave. to Polaris Ln.",
+      "lat": 40.8825,
+      "lng": -124.1058,
+      "nSpecies": 141,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L681843",
+      "name": "Humboldt Bay--South Spit jetty",
+      "lat": 40.7614,
+      "lng": -124.2399,
+      "nSpecies": 153,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L69168569",
+      "name": "Prairie Creek Redwoods SP--Gold Bluffs Picnic area",
+      "lat": 41.3776,
+      "lng": -124.0702,
+      "nSpecies": 1,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L691872",
+      "name": "Humboldt Redwoods SP--Williams Grove",
+      "lat": 40.2795,
+      "lng": -123.8897,
+      "nSpecies": 66,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L693559",
+      "name": "Rohner Park",
+      "lat": 40.6016,
+      "lng": -124.1468,
+      "nSpecies": 77,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L694062",
+      "name": "Horse Mountain--summit",
+      "lat": 40.8742,
+      "lng": -123.7323,
+      "nSpecies": 117,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L697385",
+      "name": "Humboldt Redwoods SP--Rockefeller Loop & Bull Creek mouth",
+      "lat": 40.3394,
+      "lng": -123.94,
+      "nSpecies": 75,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7002747",
+      "name": "College of the Redwoods Eureka Campus",
+      "lat": 40.698,
+      "lng": -124.196,
+      "nSpecies": 66,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7005241",
+      "name": "stakeout Summer Tanager, Hillside Dr. Eureka (2018)",
+      "lat": 40.7901,
+      "lng": -124.143,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7030230",
+      "name": "Mountain View Rd.--Ashfield Ridge (mi. 1.5 - 3.1)",
+      "lat": 40.7122,
+      "lng": -123.9122,
+      "nSpecies": 66,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L70380872",
+      "name": "Dolason Prairie Trail- Picnic Area to Barn",
+      "lat": 41.2057,
+      "lng": -123.9568,
+      "nSpecies": 8,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L711426",
+      "name": "Russ Park",
+      "lat": 40.5718,
+      "lng": -124.2553,
+      "nSpecies": 101,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L715527",
+      "name": "Redwood NP--Lyons Ranch Trail",
+      "lat": 41.1431,
+      "lng": -123.8986,
+      "nSpecies": 137,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L71838128",
+      "name": "McKay Community Forest",
+      "lat": 40.7804,
+      "lng": -124.1311,
+      "nSpecies": 10,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7224731",
+      "name": "Cooper Gulch south of 14th St.",
+      "lat": 40.7959,
+      "lng": -124.1531,
+      "nSpecies": 83,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7305671",
+      "name": "Bald Mountain Rd.",
+      "lat": 40.8696,
+      "lng": -123.8999,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L734115",
+      "name": "Eel River Canyon (HUM Co.)",
+      "lat": 40.6285,
+      "lng": -124.8267,
+      "nSpecies": 79,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L734322",
+      "name": "Arcata Bottoms--Tyee City/Mad River overlook",
+      "lat": 40.9237,
+      "lng": -124.1288,
+      "nSpecies": 182,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L734332",
+      "name": "V St. log pond",
+      "lat": 40.8697,
+      "lng": -124.1059,
+      "nSpecies": 117,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L735133",
+      "name": "Tish Tang Campground",
+      "lat": 41.0222,
+      "lng": -123.6388,
+      "nSpecies": 95,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L735354",
+      "name": "Arcata Bottoms--Ferreira & Son Dairy (Lanphere Rd.)",
+      "lat": 40.8981,
+      "lng": -124.1193,
+      "nSpecies": 157,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L737599",
+      "name": "Horse/Grouse Mtn. area (general)",
+      "lat": 40.8471,
+      "lng": -123.7258,
+      "nSpecies": 139,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L737606",
+      "name": "Redwood NP--Lady Bird Johnson Grove",
+      "lat": 41.3052,
+      "lng": -124.0197,
+      "nSpecies": 82,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7396715",
+      "name": "G-O Road from Hwy. 96 to mi. 5.0 (HUM Co.)",
+      "lat": 41.3098,
+      "lng": -123.5513,
+      "nSpecies": 30,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L745639",
+      "name": "Redwood NP--Skunk Cabbage Trail",
+      "lat": 41.3074,
+      "lng": -124.0568,
+      "nSpecies": 91,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7485540",
+      "name": "Humboldt Redwoods SP--Gov. William D. Stephens Loop Trail",
+      "lat": 40.2429,
+      "lng": -123.8215,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7488184",
+      "name": "Humboldt Redwoods SP--Burlington Campground & Park HQ",
+      "lat": 40.3086,
+      "lng": -123.909,
+      "nSpecies": 85,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L751653",
+      "name": "Arthur W. Way County Park",
+      "lat": 40.268,
+      "lng": -124.2303,
+      "nSpecies": 103,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7550313",
+      "name": "Horse Mountain Area--Forest Service Rte. 6N38",
+      "lat": 40.8663,
+      "lng": -123.7302,
+      "nSpecies": 75,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7552365",
+      "name": "King Range NCA--Cooskie Creek mouth",
+      "lat": 40.2201,
+      "lng": -124.3086,
+      "nSpecies": 70,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7552520",
+      "name": "Snow Camp Rd.--Hwy 299 to Bald Mountain Rd.",
+      "lat": 40.9059,
+      "lng": -123.8711,
+      "nSpecies": 80,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L761991",
+      "name": "Richardson Grove SP",
+      "lat": 40.0203,
+      "lng": -123.7928,
+      "nSpecies": 98,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7627266",
+      "name": "King Range NCA--Lost Coast Trail-Randall Creek to Spanish Creek",
+      "lat": 40.1948,
+      "lng": -124.2712,
+      "nSpecies": 22,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7627409",
+      "name": "King Range NCA--Lost Coast Trail from Kinsey Creek to Big Creek",
+      "lat": 40.1697,
+      "lng": -124.2273,
+      "nSpecies": 68,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7627478",
+      "name": "King Range NCA--Lost Coast Trail from Big Creek to Big Flat Creek",
+      "lat": 40.1517,
+      "lng": -124.2055,
+      "nSpecies": 81,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7627864",
+      "name": "Mount Lassic Wilderness (HUM Co.)",
+      "lat": 40.3337,
+      "lng": -123.5544,
+      "nSpecies": 78,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7641690",
+      "name": "Snow Camp Rd.--Bald Mountain Rd. to High Prairie Rd.",
+      "lat": 40.8627,
+      "lng": -123.8443,
+      "nSpecies": 89,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7641700",
+      "name": "Snow Camp Rd.--High Prairie Rd. to Thief Camp Rd.",
+      "lat": 40.8207,
+      "lng": -123.8294,
+      "nSpecies": 84,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7652771",
+      "name": "Snow Camp Rd.--Thief Camp Rd. to Snow Camp Lake",
+      "lat": 40.7826,
+      "lng": -123.7857,
+      "nSpecies": 70,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7652809",
+      "name": "Snow Camp Lake",
+      "lat": 40.7482,
+      "lng": -123.7595,
+      "nSpecies": 49,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L772156",
+      "name": "Arcata Marsh and Wildlife Sanctuary--Brackish Pond",
+      "lat": 40.8613,
+      "lng": -124.0936,
+      "nSpecies": 197,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L773051",
+      "name": "Lhiwetgut Park",
+      "lat": 40.931,
+      "lng": -124.1274,
+      "nSpecies": 236,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L777805",
+      "name": "Eureka Waterfront--Marina Way",
+      "lat": 40.8008,
+      "lng": -124.182,
+      "nSpecies": 145,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L780278",
+      "name": "Alderpoint Rd.--Redwood Drive to Dyerville Loop",
+      "lat": 40.1141,
+      "lng": -123.7592,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7807746",
+      "name": "Forest Service Rte. 1--quarry and cattle guard lookout",
+      "lat": 40.7657,
+      "lng": -123.6944,
+      "nSpecies": 40,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L781201",
+      "name": "Little River Bottoms",
+      "lat": 41.0105,
+      "lng": -124.0953,
+      "nSpecies": 161,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L784219",
+      "name": "Janes Creek at Heather Ln.",
+      "lat": 40.8805,
+      "lng": -124.0938,
+      "nSpecies": 119,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L784221",
+      "name": "Aldergrove Marsh",
+      "lat": 40.9018,
+      "lng": -124.0679,
+      "nSpecies": 125,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L785622",
+      "name": "Bair-Stokes House area",
+      "lat": 40.8728,
+      "lng": -124.0869,
+      "nSpecies": 68,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L788299",
+      "name": "Fairhaven (HUM Co.)",
+      "lat": 40.7849,
+      "lng": -124.2022,
+      "nSpecies": 199,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L7955258",
+      "name": "Trinidad Northbound Rest Area",
+      "lat": 41.1233,
+      "lng": -124.1502,
+      "nSpecies": 44,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L796451",
+      "name": "Headwaters Forest Reserve",
+      "lat": 40.6731,
+      "lng": -124.0981,
+      "nSpecies": 79,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L800724",
+      "name": "Bayside Cutoff",
+      "lat": 40.8351,
+      "lng": -124.0761,
+      "nSpecies": 120,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L8134563",
+      "name": "Maple Creek Rd.--mi. 6.2 pullout",
+      "lat": 40.8434,
+      "lng": -123.9101,
+      "nSpecies": 50,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L8134801",
+      "name": "Maple Creek Rd.--Maple Creek Ranch (mi. 13.5)",
+      "lat": 40.7735,
+      "lng": -123.8767,
+      "nSpecies": 44,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L8134894",
+      "name": "Butler Valley Rd. bridge",
+      "lat": 40.7651,
+      "lng": -123.8896,
+      "nSpecies": 44,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L814492",
+      "name": "Shelter Cove (town)",
+      "lat": 40.0295,
+      "lng": -124.0727,
+      "nSpecies": 199,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L814576",
+      "name": "Island Mountain Rd.",
+      "lat": 40.0406,
+      "lng": -123.5957,
+      "nSpecies": 77,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L815222",
+      "name": "Woodley Island",
+      "lat": 40.8099,
+      "lng": -124.1614,
+      "nSpecies": 205,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L815558",
+      "name": "Redwood NP--Tall Trees Rd.",
+      "lat": 41.2351,
+      "lng": -123.9909,
+      "nSpecies": 64,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L815563",
+      "name": "Redwood NP--Tall Trees Trail",
+      "lat": 41.208,
+      "lng": -123.9933,
+      "nSpecies": 96,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L818848",
+      "name": "Bay St. seawatch",
+      "lat": 40.7993,
+      "lng": -124.2049,
+      "nSpecies": 115,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L818850",
+      "name": "Fairhaven--Park St. bay access",
+      "lat": 40.7833,
+      "lng": -124.1995,
+      "nSpecies": 146,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L824140",
+      "name": "Janes Creek from 17th St. to R St.",
+      "lat": 40.8755,
+      "lng": -124.0947,
+      "nSpecies": 136,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L824159",
+      "name": "Mad River Slough--Lanphere Rd. bridge",
+      "lat": 40.8979,
+      "lng": -124.1345,
+      "nSpecies": 180,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L825508",
+      "name": "Centerville Beach",
+      "lat": 40.5894,
+      "lng": -124.3415,
+      "nSpecies": 193,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L826499",
+      "name": "Humboldt Bay--north (Arcata Bay; please use more specific location(s) when possible)",
+      "lat": 40.8371,
+      "lng": -124.1281,
+      "nSpecies": 165,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L832329",
+      "name": "Fort Humboldt SHP",
+      "lat": 40.7771,
+      "lng": -124.1878,
+      "nSpecies": 108,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L837008",
+      "name": "Arcata Bottoms--north of Lanphere Rd.",
+      "lat": 40.9079,
+      "lng": -124.1118,
+      "nSpecies": 182,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L837805",
+      "name": "Hufford Rd.",
+      "lat": 41.2952,
+      "lng": -124.0799,
+      "nSpecies": 191,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L842015",
+      "name": "Arcata Bottoms--Upper Bay/Lanphere Rd.",
+      "lat": 40.8978,
+      "lng": -124.115,
+      "nSpecies": 198,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L8459465",
+      "name": "Cypress Grove Goat Dairy",
+      "lat": 41.0016,
+      "lng": -124.0987,
+      "nSpecies": 22,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L8459467",
+      "name": "Dow's Prairie Educational Wetland (restricted access)",
+      "lat": 40.9762,
+      "lng": -124.0987,
+      "nSpecies": 45,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L8459473",
+      "name": "Beau Pre Golf Club (restricted access)",
+      "lat": 40.9604,
+      "lng": -124.0959,
+      "nSpecies": 101,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L850035",
+      "name": "Sequoia Park and Sequoia Park Zoo",
+      "lat": 40.7769,
+      "lng": -124.1469,
+      "nSpecies": 123,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L857863",
+      "name": "Arcata Bottoms--Mad River Farmhouse Collective",
+      "lat": 40.9148,
+      "lng": -124.1045,
+      "nSpecies": 146,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L866150",
+      "name": "Eureka Waterfront--Wigi Wetlands",
+      "lat": 40.7795,
+      "lng": -124.1929,
+      "nSpecies": 157,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L866170",
+      "name": "Indianola Cutoff",
+      "lat": 40.8195,
+      "lng": -124.0926,
+      "nSpecies": 110,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L869037",
+      "name": "Elk River Wildlife Area",
+      "lat": 40.7502,
+      "lng": -124.1876,
+      "nSpecies": 137,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L872863",
+      "name": "Manila Dunes Recreation Area",
+      "lat": 40.8502,
+      "lng": -124.1713,
+      "nSpecies": 125,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L876206",
+      "name": "Northwestern Pacific Railroad--Alderpoint to Cain Rock Trestle",
+      "lat": 40.148,
+      "lng": -123.6033,
+      "nSpecies": 120,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L886397",
+      "name": "Mattole Rd.--Bear River bridge",
+      "lat": 40.4655,
+      "lng": -124.3673,
+      "nSpecies": 103,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L889837",
+      "name": "Humboldt pelagic--Humboldt Bay portion only",
+      "lat": 40.7586,
+      "lng": -124.2124,
+      "nSpecies": 144,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L889860",
+      "name": "Offshore (HUM Co.)",
+      "lat": 40.7701,
+      "lng": -124.6413,
+      "nSpecies": 128,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L923744",
+      "name": "Benbow SRA--Campground",
+      "lat": 40.061,
+      "lng": -123.782,
+      "nSpecies": 100,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9269556",
+      "name": "North Bank Rd.",
+      "lat": 40.9157,
+      "lng": -124.0786,
+      "nSpecies": 74,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L927340",
+      "name": "Sue-Meg State Park--Wedding Rock",
+      "lat": 41.1412,
+      "lng": -124.1619,
+      "nSpecies": 172,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9284408",
+      "name": "Yager Creek & Mainline Rd. (restricted access)",
+      "lat": 40.5681,
+      "lng": -124.0556,
+      "nSpecies": 120,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L936985",
+      "name": "Van Duzen County Park",
+      "lat": 40.4883,
+      "lng": -123.9737,
+      "nSpecies": 72,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9414360",
+      "name": "Pump Station 4 Park",
+      "lat": 40.9038,
+      "lng": -124.0389,
+      "nSpecies": 99,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L943271",
+      "name": "Blake Mountain",
+      "lat": 40.6115,
+      "lng": -123.5621,
+      "nSpecies": 76,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L950379",
+      "name": "Humboldt Redwoods SP",
+      "lat": 40.3162,
+      "lng": -123.9773,
+      "nSpecies": 145,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9610507",
+      "name": "Barry Ridge",
+      "lat": 40.7258,
+      "lng": -123.9722,
+      "nSpecies": 69,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L962320",
+      "name": "Fortuna Riverfront",
+      "lat": 40.5753,
+      "lng": -124.153,
+      "nSpecies": 163,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9630822",
+      "name": "Prairie Creek Redwoods SP--Gold Bluffs Beach Campground",
+      "lat": 41.3836,
+      "lng": -124.0695,
+      "nSpecies": 129,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L967893",
+      "name": "Hammond Trail--between Hiller Rd. and School Rd.",
+      "lat": 40.9397,
+      "lng": -124.1201,
+      "nSpecies": 92,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9725820",
+      "name": "Veteran's Park (HUM Co.)",
+      "lat": 40.945,
+      "lng": -123.6184,
+      "nSpecies": 55,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L976636",
+      "name": "Mad River spit",
+      "lat": 40.944,
+      "lng": -124.1309,
+      "nSpecies": 170,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L977656",
+      "name": "Widow White Creek--Fernwood Dr. access",
+      "lat": 40.9516,
+      "lng": -124.1058,
+      "nSpecies": 104,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9803039",
+      "name": "King Range NCA--Wailaki Campground",
+      "lat": 40.018,
+      "lng": -124.0033,
+      "nSpecies": 32,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9856002",
+      "name": "Samoa Beach",
+      "lat": 40.8209,
+      "lng": -124.1899,
+      "nSpecies": 133,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L9876783",
+      "name": "Humboldt Bay Municipal Water District Park 1",
+      "lat": 40.9079,
+      "lng": -124.0511,
+      "nSpecies": 94,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L989187",
+      "name": "Big Rock Day Use Area and River Access",
+      "lat": 40.9468,
+      "lng": -123.6333,
+      "nSpecies": 154,
+      "county": "US-CA-023"
+    },
+    {
+      "locId": "L997851",
+      "name": "Hammond Trail Interpretive Footpath",
+      "lat": 40.961,
+      "lng": -124.119,
+      "nSpecies": 136,
+      "county": "US-CA-023"
+    }
+  ]
+}

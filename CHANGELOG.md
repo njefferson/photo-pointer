@@ -2,6 +2,24 @@
 
 Written for the person using the app. Newest first.
 
+## 0.13.0 — 2026-07-20
+
+**Three regions, and a map that stays smooth.**
+
+- The app now covers **three regions** — Sacramento · El Dorado · Placer,
+  the **Humboldt Coast**, and **Yellowstone** (Wyoming, Montana, and Idaho).
+  Switch between them with the pills at the top; the map re-frames on the one
+  you pick and remembers it next time.
+- **Humboldt** brings ~600 coastal birding hotspots (Arcata Bottoms, the Mad
+  River estuary, the pelagic spots offshore); **Yellowstone** brings ~720 across
+  the park and its gateways (Lamar Valley, Old Faithful, Hebgen Lake).
+- **The map only draws what's on screen now**, so panning and zooming stay
+  smooth even where the pins are dense — no more waiting on hundreds of markers
+  you can't see.
+- New regions start with their birding hotspots and historical markers; the
+  richer layers (dark sky, open horizon, wildlife, photo density) fill in for
+  them over the next data runs.
+
 ## 0.12.0 — 2026-07-20
 
 **Opens where you are, and starts from a clean map.**
