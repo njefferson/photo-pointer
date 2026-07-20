@@ -25,7 +25,15 @@
       ],
       "tags": {
         "name": "American Alligator",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 63
+        }
       }
     },
     {
@@ -55,7 +63,15 @@
         "name": "Attainable",
         "website": "https://www.valdostamainstreet.com/plain-sight",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -81,7 +97,15 @@
       ],
       "tags": {
         "name": "Aviator",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.2,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -110,7 +134,15 @@
       "tags": {
         "name": "Azalea Mural",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -138,7 +170,15 @@
         "name": "Barber Park",
         "ele": "55",
         "wikidata": "Q34831309",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.96,
+          "n": 0.1,
+          "e": 0.3,
+          "s": 0.3,
+          "w": 0.2,
+          "site_m": 56
+        }
       }
     },
     {
@@ -170,7 +210,15 @@
         "historic": "memorial",
         "inscription": "Michael Luther King Jr. was born in Atlanta, Georgia on January 15, 1929, to Mrs. Alberta King and Baptist minister Michael L. King Sr.",
         "memorial": "stone",
-        "wikimedia_commons": "File:Birth Memorial at the MLK Memorial Park.jpg"
+        "wikimedia_commons": "File:Birth Memorial at the MLK Memorial Park.jpg",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.4,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -196,7 +244,15 @@
       ],
       "tags": {
         "name": "Black Bear",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 63
+        }
       }
     },
     {
@@ -222,7 +278,15 @@
       ],
       "tags": {
         "name": "Black Buck",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.0,
+          "e": 0.4,
+          "s": 0.2,
+          "w": 0.1,
+          "site_m": 59
+        }
       }
     },
     {
@@ -250,7 +314,15 @@
         "name": "Bland Park",
         "website": "https://vlpra.com/207/Bland-Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.79,
+          "n": 0.3,
+          "e": 2.2,
+          "s": 0.4,
+          "w": 1.6,
+          "site_m": 42
+        }
       }
     },
     {
@@ -278,7 +350,15 @@
         "name": "Blazer Field",
         "ele": "58",
         "wikidata": "Q34900926",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.91,
+          "n": 0.9,
+          "e": 1.0,
+          "s": 0.5,
+          "w": -0.0,
+          "site_m": 57
+        }
       }
     },
     {
@@ -304,7 +384,15 @@
       ],
       "tags": {
         "name": "Bonzai Pipelines",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 63
+        }
       }
     },
     {
@@ -330,7 +418,15 @@
       ],
       "tags": {
         "name": "Boomerang",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.2,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -359,7 +455,15 @@
         "ele": "56",
         "wikidata": "Q34908020",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.93,
+          "n": 0.4,
+          "e": 0.3,
+          "s": 1.1,
+          "w": 0.1,
+          "site_m": 57
+        }
       }
     },
     {
@@ -385,7 +489,15 @@
       ],
       "tags": {
         "name": "Butterfly Garden",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": 0.0,
+          "s": 0.0,
+          "w": -0.1,
+          "site_m": 62
+        }
       }
     },
     {
@@ -414,7 +526,15 @@
       "tags": {
         "name": "Butterfly Wings",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.2,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 68
+        }
       }
     },
     {
@@ -440,7 +560,15 @@
       ],
       "tags": {
         "name": "Capybura",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -466,7 +594,15 @@
       ],
       "tags": {
         "name": "Caracal",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -492,7 +628,15 @@
       ],
       "tags": {
         "name": "Catchawave bay",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 64
+        }
       }
     },
     {
@@ -518,7 +662,15 @@
       ],
       "tags": {
         "name": "Century Wheel",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -590,7 +742,15 @@
         "historic": "memorial",
         "inscription": "When Rosa Parks was arrested in Montgomery for refusing to surrender her bus seat to a white passenger, community activists asked if they could meet at church to play in a bus boycott.",
         "memorial": "stone",
-        "wikimedia_commons": "File:Civil Rights Movement Memorial at the MLK Memorial Park - 1.jpg"
+        "wikimedia_commons": "File:Civil Rights Movement Memorial at the MLK Memorial Park - 1.jpg",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.5,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -619,7 +779,15 @@
       "tags": {
         "name": "Civil Rights Mural",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 67
+        }
       }
     },
     {
@@ -648,7 +816,15 @@
       "tags": {
         "name": "Coca-Cola Alley",
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -677,7 +853,15 @@
       "tags": {
         "name": "Coffee Drip",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -704,7 +888,15 @@
       "tags": {
         "name": "Cold Springs Pocket Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.91,
+          "n": 0.5,
+          "e": 1.1,
+          "s": 0.3,
+          "w": 0.9,
+          "site_m": 52
+        }
       }
     },
     {
@@ -736,7 +928,15 @@
         "historic": "memorial",
         "inscription": "King enrolled at Morehouse College, where he majored in sociology. Drawn to the ministry, King Jr. was ordained by his father as the Baptist minister in February 1948.",
         "memorial": "stone",
-        "wikimedia_commons": "File:College Education and Spiritual Growth Memorial at the MLK Memorial Park.jpg"
+        "wikimedia_commons": "File:College Education and Spiritual Growth Memorial at the MLK Memorial Park.jpg",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.5,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -764,7 +964,15 @@
         "name": "Cranford Park",
         "ele": "70",
         "wikidata": "Q49480860",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 69
+        }
       }
     },
     {
@@ -793,7 +1001,15 @@
         "description": "http://thecrescentatvaldosta.com/",
         "wikidata": "Q16901515",
         "historic": "manor",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -827,7 +1043,15 @@
       ],
       "tags": {
         "name": "Critter Crawl",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -853,7 +1077,15 @@
       ],
       "tags": {
         "name": "Critter Kitchen",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -879,7 +1111,15 @@
       ],
       "tags": {
         "name": "Dizzy Dragons",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -905,7 +1145,15 @@
       ],
       "tags": {
         "name": "Dockside Games",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -935,7 +1183,15 @@
         "name": "Doors to Freedom",
         "artwork_type": "installation",
         "tourism": "artwork",
-        "inscription": "Inspired by those that bravely went in search of freedom and to those who opened their doors to welcome them"
+        "inscription": "Inspired by those that bravely went in search of freedom and to those who opened their doors to welcome them",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -964,7 +1220,15 @@
         "ele": "55",
         "wikidata": "Q49484259",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.91,
+          "n": 0.6,
+          "e": 0.4,
+          "s": 1.2,
+          "w": 0.1,
+          "site_m": 55
+        }
       }
     },
     {
@@ -996,7 +1260,15 @@
         "historic": "memorial",
         "inscription": "King spent his early years at 501 Auburn Avenue, about a block from Ebrnezer Baptist Church where his father was pastor.",
         "memorial": "stone",
-        "wikimedia_commons": "File:Early Life Memorial at the MLK Memorial Park.jpg"
+        "wikimedia_commons": "File:Early Life Memorial at the MLK Memorial Park.jpg",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.4,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -1022,7 +1294,15 @@
       ],
       "tags": {
         "name": "Elephant",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": 0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -1052,7 +1332,15 @@
         "name": "F-16 Model",
         "description": "Airplane at the front of Freedom Park",
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.3,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 68
+        }
       }
     },
     {
@@ -1078,7 +1366,15 @@
       ],
       "tags": {
         "name": "Falcon Flyer",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": 0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1106,7 +1402,15 @@
         "name": "Fellowship Park",
         "access": "yes",
         "operator": "Valdosta-Lowndes County Parks & Recreation Authority",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": -0.1,
+          "s": -0.1,
+          "w": 0.1,
+          "site_m": 63
+        }
       }
     },
     {
@@ -1136,7 +1440,15 @@
         "name": "Fenris",
         "website": "https://www.valdosta.edu/blazer-wellness/vsu-walking-trail/fenris.php",
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.7,
+          "e": 0.1,
+          "s": 0.1,
+          "w": 0.1,
+          "site_m": 58
+        }
       }
     },
     {
@@ -1167,7 +1479,15 @@
         "description": "Brick pillar with a lamp on top. The lamp has an eagle, wings open, on its top.",
         "historic": "memorial",
         "inscription": "Flame of Freedom // American Legion Valdosta Post No. 13 // A gift to Valdosta and Lowndes County in memory of the veterans of all wars // Robert H. Haze, commander // Dedicated Veterans Day November 11, 1969",
-        "memorial": "war_memorial"
+        "memorial": "war_memorial",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -1195,7 +1515,15 @@
         "name": "Freedom Park",
         "website": "https://vlpra.com/199/Freedom-Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.96,
+          "n": 0.7,
+          "e": 0.1,
+          "s": 0.2,
+          "w": -0.0,
+          "site_m": 59
+        }
       }
     },
     {
@@ -1224,7 +1552,15 @@
         "website": "http://frogtown.us/",
         "opening_hours": "Mo-Th 12:00-18:00; Fr 12:00-22:00; Sa 12:00-18:00; Su 12:30-18:00",
         "operator": "Frogtown Cellars",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.2,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.3,
+          "site_m": 61
+        }
       }
     },
     {
@@ -1250,7 +1586,15 @@
       ],
       "tags": {
         "name": "Geronimo",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.1,
+          "e": 0.0,
+          "s": -0.1,
+          "w": 0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1276,7 +1620,15 @@
       ],
       "tags": {
         "name": "Giraffe",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.1,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -1302,7 +1654,15 @@
       ],
       "tags": {
         "name": "Go Bananas",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1328,7 +1688,15 @@
       ],
       "tags": {
         "name": "Go Karts/",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1355,7 +1723,15 @@
       "tags": {
         "name": "Grand Bay Public Hunting Area",
         "ele": "60",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": 0.0,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -1381,7 +1757,15 @@
       ],
       "tags": {
         "name": "Green Monkey",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 63
+        }
       }
     },
     {
@@ -1410,7 +1794,15 @@
       "tags": {
         "name": "Greetings From Downtown Valdosta",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -1436,7 +1828,15 @@
       ],
       "tags": {
         "name": "Grove Point Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": 0.3,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1462,7 +1862,15 @@
       ],
       "tags": {
         "name": "Hakini Rapids",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 64
+        }
       }
     },
     {
@@ -1494,7 +1902,15 @@
         "historic": "memorial",
         "inscription": "The Valdosta / Lowndes County Martin Luther King Jr. Commemorative Committee",
         "memorial": "plaque",
-        "wikimedia_commons": "File:Historical Perspective Sign at the MLK Memorial Park.jpg"
+        "wikimedia_commons": "File:Historical Perspective Sign at the MLK Memorial Park.jpg",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.4,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -1538,7 +1954,15 @@
         "leisure": "park",
         "artwork_type": "sculpture",
         "tourism": "artwork",
-        "inscription": "A Valdosta city park maintained in perpetuity by the Town & Country Garden Club of Valdosta, Inc."
+        "inscription": "A Valdosta city park maintained in perpetuity by the Town & Country Garden Club of Valdosta, Inc.",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.4,
+          "e": 0.0,
+          "s": -0.0,
+          "w": 0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -1564,7 +1988,15 @@
       ],
       "tags": {
         "name": "Indian Crested Porcupine",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 63
+        }
       }
     },
     {
@@ -1590,7 +2022,15 @@
       ],
       "tags": {
         "name": "Island Falls",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 63
+        }
       }
     },
     {
@@ -1617,7 +2057,15 @@
       "tags": {
         "name": "J. L. Newbern Sr. Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.89,
+          "n": 0.2,
+          "e": 0.7,
+          "s": 0.9,
+          "w": 0.9,
+          "site_m": 61
+        }
       }
     },
     {
@@ -1643,7 +2091,15 @@
       ],
       "tags": {
         "name": "Jungle Rumble",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1669,7 +2125,15 @@
       ],
       "tags": {
         "name": "Jungle Twirl",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1695,7 +2159,15 @@
       ],
       "tags": {
         "name": "Junior Base Camp Rides",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1721,7 +2193,15 @@
       ],
       "tags": {
         "name": "Kalani Blsaters",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 64
+        }
       }
     },
     {
@@ -1747,7 +2227,15 @@
       ],
       "tags": {
         "name": "Kite Flyer",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1810,7 +2298,15 @@
         "inscription": "L.M. STANFILL // A.D. 1911",
         "memorial": "stone",
         "wikimedia_commons": "File:CPL John E. McDonald Memorial Bench in Hahira, GA.jpg",
-        "name": "L.M.Stanfill"
+        "name": "L.M.Stanfill",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.1,
+          "e": 0.2,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 67
+        }
       }
     },
     {
@@ -1841,7 +2337,15 @@
         "access": "yes",
         "operator": "Valdosta-Lowndes County Parks & Recreation Authority",
         "leisure": "park",
-        "note": "All trails are closed until further notice due to Hurricane Hellene damage."
+        "note": "All trails are closed until further notice due to Hurricane Hellene damage.",
+        "horizon": {
+          "open": 0.92,
+          "n": 0.2,
+          "e": 1.1,
+          "s": 0.4,
+          "w": 0.5,
+          "site_m": 38
+        }
       }
     },
     {
@@ -1879,9 +2383,17 @@
         "name": "Legacy",
         "operator": "Valdosta",
         "historic": "memorial",
-        "inscription": "Coretta Scott King founded the King Center in Atlanta in 1968. The center is dedicated to advancing King’s philosophies of non-violence and justice through its programs, exhibits, and tours.",
+        "inscription": "Coretta Scott King founded the King Center in Atlanta in 1968. The center is dedicated to advancing King\u2019s philosophies of non-violence and justice through its programs, exhibits, and tours.",
         "memorial": "stone",
-        "wikimedia_commons": "File:Legacy Memorial at the MLK Memorial Park - 1.jpg"
+        "wikimedia_commons": "File:Legacy Memorial at the MLK Memorial Park - 1.jpg",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.5,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -1908,7 +2420,15 @@
       "tags": {
         "name": "Little Criiters Playzone",
         "tourism": "attraction",
-        "leisure": "playground"
+        "leisure": "playground",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -1937,12 +2457,20 @@
       "tags": {
         "name": "Low-Poly Heart",
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 67
+        }
       }
     },
     {
       "id": "lowndes-county-sherriff-s-office-memorial@djkz2u",
-      "name": "Lowndes County Sherriff’s Office Memorial",
+      "name": "Lowndes County Sherriff\u2019s Office Memorial",
       "lat": 30.8328214,
       "lng": -83.2790402,
       "category": "marker",
@@ -1964,10 +2492,18 @@
         }
       ],
       "tags": {
-        "name": "Lowndes County Sherriff’s Office Memorial",
+        "name": "Lowndes County Sherriff\u2019s Office Memorial",
         "access": "yes",
         "historic": "monument",
-        "inscription": "This monument is in remembrance of those who have given their lives while serving with the Lowndes County Sheriff’s Office since its inception in 1826. // May the Lord always be with them and their families."
+        "inscription": "This monument is in remembrance of those who have given their lives while serving with the Lowndes County Sheriff\u2019s Office since its inception in 1826. // May the Lord always be with them and their families.",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -1995,7 +2531,15 @@
         "name": "Mack's Park",
         "opening_hours": "24/7",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -2025,7 +2569,15 @@
         "name": "Maddie's Tree",
         "historic": "memorial",
         "natural": "tree",
-        "inscription": "Maddie’s Tree // Madeline Pitts // “Don’t Count Me Out”"
+        "inscription": "Maddie\u2019s Tree // Madeline Pitts // \u201cDon\u2019t Count Me Out\u201d",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.9,
+          "e": 0.4,
+          "s": 0.1,
+          "w": -0.1,
+          "site_m": 64
+        }
       }
     },
     {
@@ -2052,7 +2604,15 @@
       "tags": {
         "name": "Madison Heights Drive Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.0,
+          "e": -0.0,
+          "s": -0.1,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -2090,7 +2650,15 @@
         "historic": "memorial",
         "inscription": "In Loving Memory D. Stewart DeMersseman 1979-2018",
         "memorial": "bench",
-        "access": "yes"
+        "access": "yes",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -2119,7 +2687,15 @@
       "tags": {
         "historic": "memorial",
         "inscription": "In Loving Memory David G. DeMersseman // 1955-2010",
-        "memorial": "bench"
+        "memorial": "bench",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -2157,7 +2733,15 @@
         "description": "Small urn on top of a staircase side, with a plaque with inscription in front of the urn",
         "historic": "memorial",
         "inscription": "This urn is presented to the Valdosta Junior Service League in memory of Miss Vallie Ferrell by Clarence W. & Vallie Dalton Staten and family",
-        "memorial": "urn"
+        "memorial": "urn",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": 0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -2194,7 +2778,15 @@
       "tags": {
         "historic": "memorial",
         "inscription": "Beloved Brother // TSGT Derry Howell // Forever In Our Hearts",
-        "memorial": "bench"
+        "memorial": "bench",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 68
+        }
       }
     },
     {
@@ -2224,9 +2816,17 @@
         "name": "Marriage",
         "operator": "Valdosta",
         "historic": "memorial",
-        "inscription": "In September 1951, King enrolled in Boston University’s PhD program in systematic theology. King met Coretta Scott while at Boston University and they were married on June 18, 1953, in Perry County, Alabama.",
+        "inscription": "In September 1951, King enrolled in Boston University\u2019s PhD program in systematic theology. King met Coretta Scott while at Boston University and they were married on June 18, 1953, in Perry County, Alabama.",
         "memorial": "stone",
-        "wikimedia_commons": "File:Marriage Memorial at the MLK Memorial Park.jpg"
+        "wikimedia_commons": "File:Marriage Memorial at the MLK Memorial Park.jpg",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.5,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -2262,12 +2862,20 @@
       ],
       "tags": {
         "name": "Martin Luther King, Jr. Memorial Park",
-        "description": "Large obelisk with 4 sides of inscriptions quoting some of MLK Jr.’s most memorable quotes.",
+        "description": "Large obelisk with 4 sides of inscriptions quoting some of MLK Jr.\u2019s most memorable quotes.",
         "operator": "Valdosta",
         "historic": "memorial",
         "wikimedia_commons": "File:MLK Memorial Park Obelisk Inscription - 1.jpg;File:MLK Memorial Park Obelisk Inscription - 2.jpg;File:MLK Memorial Park Obelisk Inscription - 3.jpg;File:MLK Memorial Park Obelisk Inscription - 4.jpg",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.4,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -2295,7 +2903,15 @@
       ],
       "tags": {
         "name": "Mary Turner Lynching Site",
-        "historic": "memorial"
+        "historic": "memorial",
+        "horizon": {
+          "open": 0.94,
+          "n": 0.4,
+          "e": 0.7,
+          "s": 0.0,
+          "w": 0.4,
+          "site_m": 45
+        }
       }
     },
     {
@@ -2325,7 +2941,15 @@
         "wikidata": "Q49523767",
         "website": "https://vlpra.com/201/McKey-Park-HBA-Tennis-Center",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.88,
+          "n": 1.0,
+          "e": 1.0,
+          "s": 1.2,
+          "w": -0.0,
+          "site_m": 54
+        }
       }
     },
     {
@@ -2363,10 +2987,18 @@
         "name": "In Memory of Rev. Dr. Martin Luther King Jr.",
         "operator": "Valdosta",
         "historic": "memorial",
-        "inscription": "In Memory of Rev. Dr. Martin Luther King Jr. // 1929-1968 // The dream lives on…",
+        "inscription": "In Memory of Rev. Dr. Martin Luther King Jr. // 1929-1968 // The dream lives on\u2026",
         "memorial": "plaque",
-        "note": "This is the start of the story of MLK Jr.’s life that the commemorative stones tell. Follow in a winding pattern from the “Birth” stone.",
-        "wikimedia_commons": "File:In-ground plaque memorial at the MLK Memorial Park.jpg"
+        "note": "This is the start of the story of MLK Jr.\u2019s life that the commemorative stones tell. Follow in a winding pattern from the \u201cBirth\u201d stone.",
+        "wikimedia_commons": "File:In-ground plaque memorial at the MLK Memorial Park.jpg",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.5,
+          "e": 0.1,
+          "s": -0.0,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -2392,7 +3024,15 @@
       ],
       "tags": {
         "name": "Monkey Around",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -2421,7 +3061,15 @@
         "ele": "64",
         "wikidata": "Q30627065",
         "historic": "district",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.1,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 65
+        }
       }
     },
     {
@@ -2449,7 +3097,15 @@
       ],
       "tags": {
         "artwork_type": "graffiti",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -2477,7 +3133,15 @@
       ],
       "tags": {
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 0.97,
+          "n": -0.1,
+          "e": 0.1,
+          "s": 0.5,
+          "w": 0.2,
+          "site_m": 68
+        }
       }
     },
     {
@@ -2506,7 +3170,15 @@
       "tags": {
         "name": "Old City Hall",
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -2534,7 +3206,15 @@
         "name": "Olympic Park",
         "website": "https://vlpra.com/221/Olympic-Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.4,
+          "e": -0.0,
+          "s": -0.1,
+          "w": 0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -2560,7 +3240,15 @@
       ],
       "tags": {
         "name": "Oris Blackburn Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.93,
+          "n": 0.5,
+          "e": 0.7,
+          "s": 0.6,
+          "w": -0.0,
+          "site_m": 46
+        }
       }
     },
     {
@@ -2590,8 +3278,16 @@
         "name": "Our Confederate Dead",
         "description": "Large pedestal with multiple inscriptions and confederate symbols, atop which is a statue of a confederate soldier.",
         "historic": "memorial",
-        "inscription": "1861-1865 // Erected by Valdosta chapter, U.D.C. No. 471. // 1911. // “Lest we forget.” // Comrades // Our Confederate Dead // The principles for which they fought live eternally. // CSA",
-        "memorial": "statue"
+        "inscription": "1861-1865 // Erected by Valdosta chapter, U.D.C. No. 471. // 1911. // \u201cLest we forget.\u201d // Comrades // Our Confederate Dead // The principles for which they fought live eternally. // CSA",
+        "memorial": "statue",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -2617,7 +3313,15 @@
       ],
       "tags": {
         "name": "Outpost Express",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -2643,7 +3347,15 @@
       ],
       "tags": {
         "name": "Paradise River",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 64
+        }
       }
     },
     {
@@ -2671,7 +3383,15 @@
         "name": "Pendleton Park",
         "wikidata": "Q49541068",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.1,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 70
+        }
       }
     },
     {
@@ -2697,7 +3417,15 @@
       ],
       "tags": {
         "name": "Pharao's Fury",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": 0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -2724,7 +3452,15 @@
       "tags": {
         "name": "The Playhouse",
         "tourism": "attraction",
-        "leisure": "playground"
+        "leisure": "playground",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -2750,7 +3486,15 @@
       ],
       "tags": {
         "name": "Pop Jets",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -2777,7 +3521,15 @@
       "tags": {
         "name": "President George W. Bush Heritage Park",
         "operator": "United States Air Force",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": 0.1,
+          "site_m": 70
+        }
       }
     },
     {
@@ -2803,7 +3555,15 @@
       ],
       "tags": {
         "name": "Rhinoceros",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.97,
+          "n": 0.0,
+          "e": 0.6,
+          "s": 0.3,
+          "w": 0.1,
+          "site_m": 59
+        }
       }
     },
     {
@@ -2833,7 +3593,15 @@
         "name": "The Rise of Agriculture and Industry in Valdosta, Georgia",
         "website": "https://www.valdostamainstreet.com/plain-sight",
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -2863,7 +3631,15 @@
         "name": "River of Life in the Azalea City",
         "website": "https://www.valdostamainstreet.com/plain-sight",
         "artwork_type": "mosaic",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -2889,7 +3665,15 @@
       ],
       "tags": {
         "name": "Safari Jeeps",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -2915,7 +3699,15 @@
       ],
       "tags": {
         "name": "Safari Train",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -2944,7 +3736,15 @@
         "ele": "64",
         "wikidata": "Q49558917",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 64
+        }
       }
     },
     {
@@ -2974,7 +3774,15 @@
         "name": "September 11 Rememberance",
         "historic": "memorial",
         "inscription": "In remembrance of the courage, honor and sacrifice shown by those brave men and women who fought to defend the spirit of America on September 11, 2001. // Lowndes County Board of Commissioners",
-        "memorial": "stone"
+        "memorial": "stone",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -3000,7 +3808,15 @@
       ],
       "tags": {
         "name": "Smash Attack",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -3028,7 +3844,15 @@
         "name": "Smith Park",
         "website": "https://vlpra.com/225/Smith-Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -3054,7 +3878,15 @@
       ],
       "tags": {
         "name": "Smith Park",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 70
+        }
       }
     },
     {
@@ -3083,7 +3915,15 @@
       "tags": {
         "name": "Southern Trees Bear Strange Fruit",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 67
+        }
       }
     },
     {
@@ -3113,7 +3953,15 @@
         "name": "Spanish-American War Memorial",
         "historic": "memorial",
         "inscription": "Erected AD. 1949 by J.O. Varnedoe camp no. 14 U.S. W.V. and their friends in memory of Spanish American war veterans // Sixteen million world war veterans wonder when wars will cease",
-        "memorial": "obelisk"
+        "memorial": "obelisk",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -3139,7 +3987,15 @@
       ],
       "tags": {
         "name": "Splatter Swamp Paintball Range",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.98,
+          "n": 0.3,
+          "e": -0.0,
+          "s": -0.1,
+          "w": 0.1,
+          "site_m": 67
+        }
       }
     },
     {
@@ -3170,7 +4026,15 @@
         "access": "customers",
         "wheelchair": "yes",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 0.89,
+          "n": 0.5,
+          "e": 0.1,
+          "s": 1.1,
+          "w": 1.0,
+          "site_m": 55
+        }
       }
     },
     {
@@ -3197,7 +4061,15 @@
       "tags": {
         "name": "Swamp Thing",
         "wikidata": "Q7653346",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 62
+        }
       }
     },
     {
@@ -3223,7 +4095,15 @@
       ],
       "tags": {
         "name": "Swinging Safari",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.2,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -3253,7 +4133,15 @@
         "name": "Tabellain Memoriam",
         "historic": "memorial",
         "inscription": "This building is dedicated to the memory of Daniel Cornelius Ashley, Jr. 1894-1925",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -3279,7 +4167,15 @@
       ],
       "tags": {
         "name": "Tail Spin",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.3,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -3305,7 +4201,15 @@
       ],
       "tags": {
         "name": "Tasmanian River Rapids",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -3333,7 +4237,15 @@
         "name": "Taylor-Cowart Memorial Park",
         "website": "https://vlpra.com/227/Taylor-Cowart-Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.96,
+          "n": 0.3,
+          "e": 0.2,
+          "s": 0.5,
+          "w": -0.1,
+          "site_m": 66
+        }
       }
     },
     {
@@ -3359,7 +4271,15 @@
       ],
       "tags": {
         "name": "Thomson's Gazelle",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": 0.0,
+          "s": 0.0,
+          "w": 0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -3385,7 +4305,15 @@
       ],
       "tags": {
         "name": "Tiger",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": 0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -3411,7 +4339,15 @@
       ],
       "tags": {
         "name": "Toucan Alley",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -3437,7 +4373,15 @@
       ],
       "tags": {
         "name": "Turtle Race",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.0,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -3463,7 +4407,15 @@
       ],
       "tags": {
         "name": "Twisted Typhoon",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.0,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 62
+        }
       }
     },
     {
@@ -3489,7 +4441,15 @@
       ],
       "tags": {
         "name": "Two Toed Sloth",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 63
+        }
       }
     },
     {
@@ -3519,7 +4479,15 @@
         "name": "Unarranged Flowers: Where is Mack Now That We Need Him?",
         "website": "https://www.valdostamainstreet.com/plain-sight",
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 67
+        }
       }
     },
     {
@@ -3546,7 +4514,15 @@
       "tags": {
         "name": "Unity Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 67
+        }
       }
     },
     {
@@ -3575,7 +4551,15 @@
         "ele": "66",
         "wikidata": "Q29094031",
         "historic": "district",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -3605,7 +4589,15 @@
         "name": "Valdosta Runs Circles",
         "website": "https://www.valdostamainstreet.com/plain-sight",
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "horizon": {
+          "open": 1.0,
+          "n": 0.0,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 66
+        }
       }
     },
     {
@@ -3634,7 +4626,15 @@
         "ele": "58",
         "wikidata": "Q49574022",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.3,
+          "e": 0.7,
+          "s": 0.3,
+          "w": 0.1,
+          "site_m": 59
+        }
       }
     },
     {
@@ -3662,7 +4662,15 @@
         "name": "Vallotton Youth Complex",
         "ele": "60",
         "wikidata": "Q49582841",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.95,
+          "n": 0.3,
+          "e": 0.6,
+          "s": 0.3,
+          "w": 0.1,
+          "site_m": 60
+        }
       }
     },
     {
@@ -3692,7 +4700,15 @@
       ],
       "tags": {
         "description": "Lookout Tower",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "horizon": {
+          "open": 0.99,
+          "n": 0.1,
+          "e": -0.0,
+          "s": 0.1,
+          "w": 0.2,
+          "site_m": 60
+        }
       }
     },
     {
@@ -3718,7 +4734,15 @@
       ],
       "tags": {
         "name": "Wacky Wheels",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.3,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -3744,7 +4768,15 @@
       ],
       "tags": {
         "name": "Wahee Cyclone",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.0,
+          "w": -0.1,
+          "site_m": 64
+        }
       }
     },
     {
@@ -3770,7 +4802,15 @@
       ],
       "tags": {
         "name": "Whirling Wildcats",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": -0.1,
+          "w": -0.0,
+          "site_m": 61
+        }
       }
     },
     {
@@ -3799,7 +4839,15 @@
         "ele": "58",
         "wikidata": "Q49579977",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "horizon": {
+          "open": 0.96,
+          "n": 0.5,
+          "e": 0.1,
+          "s": 0.3,
+          "w": 0.1,
+          "site_m": 58
+        }
       }
     },
     {
@@ -3825,7 +4873,15 @@
       ],
       "tags": {
         "name": "Yo Yo",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 1.0,
+          "n": -0.1,
+          "e": -0.1,
+          "s": -0.1,
+          "w": -0.1,
+          "site_m": 64
+        }
       }
     },
     {
@@ -3851,7 +4907,15 @@
       ],
       "tags": {
         "name": "Zebra",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.98,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.2,
+          "w": 0.1,
+          "site_m": 59
+        }
       }
     },
     {
@@ -3877,7 +4941,15 @@
       ],
       "tags": {
         "name": "Zebu",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "horizon": {
+          "open": 0.99,
+          "n": -0.0,
+          "e": 0.1,
+          "s": 0.1,
+          "w": 0.0,
+          "site_m": 61
+        }
       }
     }
   ]

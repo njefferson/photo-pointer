@@ -1,0 +1,8 @@
+{
+  "built": "2026-07-20",
+  "source": "Terrain Tiles (SRTM 1-arc-second), AWS Open Data \u2014 public domain",
+  "method": "radial DEM horizon trace, earth curvature + refraction k=0.13",
+  "tagged": 134,
+  "open_median": 1.0,
+  "note": "Land horizon only \u2014 DEMs carry no trees or buildings."
+}
