@@ -325,6 +325,34 @@ export function createMapView(container, { region, onChange }) {
     ]);
   }
 
+  // A link out to this place's Wikipedia article, from tags OSM already gives
+  // us — no fetch, link-only (article text is CC BY-SA, so we never copy it).
+  // Prefer the `wikipedia` tag ("lang:Title"); fall back to a `wikidata` QID
+  // via Wikidata's keyless redirect to the English article.
+  function wikiUrl(spot) {
+    const t = spot.tags ?? {};
+    const raw = typeof t.wikipedia === 'string' ? t.wikipedia.trim() : '';
+    if (raw) {
+      if (/^https?:\/\//.test(raw)) return raw;
+      const m = raw.match(/^([a-z-]{2,12}):(.+)$/);
+      const lang = m ? m[1] : 'en';
+      const title = (m ? m[2] : raw).trim();
+      if (title) return `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`;
+    }
+    if (typeof t.wikidata === 'string' && /^Q\d+$/.test(t.wikidata.trim())) {
+      return `https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/${t.wikidata.trim()}`;
+    }
+    return null;
+  }
+
+  function wikiLine(spot) {
+    const url = wikiUrl(spot);
+    if (!url) return null;
+    return el('p', { class: 'popup-wiki' }, [
+      el('a', { href: url, target: '_blank', rel: 'noopener' }, 'Read about this place on Wikipedia →'),
+    ]);
+  }
+
   function popupFor(spot) {
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
@@ -355,6 +383,7 @@ export function createMapView(container, { region, onChange }) {
         ? el('p', { class: 'popup-photos' },
             `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here (Wikimedia Commons)`)
         : null,
+      wikiLine(spot),
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
       lightSection(spot),

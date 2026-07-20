@@ -240,6 +240,11 @@ body {
 .marker-ref { margin: 0; }
 .marker-ref a { font-size: 13px; font-weight: 700; color: #a34a00; text-decoration: underline; }
 
+/* "Read about this place on Wikipedia" — a link out we build from OSM's own
+   wikipedia/wikidata tags (no fetch). Popup-local accent, ~5.9:1 on white. */
+.popup-wiki { margin: 6px 0 0; }
+.popup-wiki a { font-size: 13px; color: #a34a00; text-decoration: underline; }
+
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
    consistent with .light-table; meaning is in the layer labels, not color. */
 .synth-box { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 5px; }
