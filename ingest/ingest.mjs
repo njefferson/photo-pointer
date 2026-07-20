@@ -152,8 +152,15 @@ async function cmdMarkers(id) {
   const P = regionPaths(region.id);
   const records = await markers.ingest(region, { today, log });
   if (records.length === 0) {
-    console.error('markers: 0 records — refusing to write an empty file over good data');
-    process.exit(1);
+    // The 0-guard protects an EXISTING marker file from being clobbered by a
+    // transient empty fetch. With no prior file, 0 just means this area has no
+    // Wikidata markers yet — skip (don't abort the `all` run so OSM still merges).
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'wikidata.json'))) {
+      console.error('markers: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`markers: no Wikidata markers for ${region.id} — skipping (none in this area yet)`);
+    return;
   }
   await writeSource(P.sourcesDir, 'wikidata.json', markers.meta, region, records);
 }
