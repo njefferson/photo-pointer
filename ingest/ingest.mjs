@@ -31,7 +31,7 @@ import * as publicLands from './adapters/public-lands.mjs';
 import * as inaturalist from './adapters/inaturalist.mjs';
 import * as markers from './adapters/wikidata-markers.mjs';
 import * as commons from './adapters/commons-photos.mjs';
-import { pointInArea, distanceM } from '../src/model/geo.js';
+import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONFIG = path.join(ROOT, 'config', 'regions.json');
@@ -319,8 +319,13 @@ async function cmdMerge(id) {
     log(`merge: ${region.id}/${f} (${doc.records.length} records, source=${doc.source?.source})`);
     all.push(...doc.records.map((r) => makeSpot(r)));
   }
-  const spots = resolveSpots(all);
-  const collapsed = all.length - spots.length;
+  const resolved = resolveSpots(all);
+  // Drop spots whose point falls outside the region bbox — `out center` gives
+  // the CENTROID of large multi-county areas (a national forest, a wilderness),
+  // which can land tens of km outside the region. Those aren't useful pins here.
+  const spots = resolved.filter((s) => inBBox(s.lat, s.lng, region.bbox));
+  const offMap = resolved.length - spots.length;
+  const collapsed = all.length - resolved.length;
   let carried = 0;
   for (const s of spots) {
     const carry = prevTags.get(s.id);
@@ -329,7 +334,7 @@ async function cmdMerge(id) {
   await mkdir(path.dirname(P.spotsFile), { recursive: true });
   await writeFile(P.spotsFile, JSON.stringify({ region: region.id, builtAt: today, spots }, null, 2) + '\n');
   log(`wrote data/regions/${region.id}.json: ${spots.length} spots from ${all.length} records ` +
-      `(${collapsed} collapsed by dedup; ${carried} kept enrichment tags across the merge)`);
+      `(${collapsed} collapsed by dedup; ${offMap} dropped outside bbox; ${carried} kept enrichment tags across the merge)`);
 }
 
 async function cmdValidate(id) {
