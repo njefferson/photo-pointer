@@ -71,6 +71,24 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.4.2 "The map background is back" BUILT on staging (awaiting
+  on-device pass — NEEDS NOAH'S HANDS: confirm the OSM basemap tiles actually
+  render on his device). BUG (Noah screenshot, home region): the ENTIRE basemap
+  was OSM's "Access blocked — Referer is required by tile usage policy of
+  OpenStreetMap's volunteer-run servers: osm.wiki/Blocked" placeholder — every
+  tile 403'd; pins/popup/data all fine (app logic unaffected). ROOT CAUSE: the
+  _headers file set `Referrer-Policy: no-referrer`, which strips the Referer from
+  the cross-origin tile requests to tile.openstreetmap.org; OSM's tile servers now
+  REQUIRE a Referer (or identifiable UA — browsers can't set UA) and block
+  requests without one. FIX: Referrer-Policy → `strict-origin-when-cross-origin`
+  (the modern browser default — sends only the ORIGIN on cross-origin HTTPS, no
+  path leak, no https→http downgrade), plus a comment in _headers so it's never
+  reverted to no-referrer. VERIFIED headless A/B (playwright request-header
+  capture): under no-referrer a cross-origin tile request carries NO Referer;
+  under strict-origin-when-cross-origin it carries the origin. Could NOT hit
+  tile.openstreetmap.org from the sandbox (egress blocked), so the final
+  tiles-render proof is NOAH'S DEVICE. Affects ALL regions, not just the new
+  ones. sw CACHE pointer-1.4.2; changelog[0] 1.4.2. 91 tests + contrast green.
 - 2026-07-20 PROMOTED 1.4.1 to main (Noah's "Promote"). Production ==
   origin/staging == 6e84e35 (clean 12-commit fast-forward from 1.4.0). Ships all
   5 enrichment layers for both new regions (hahira + panama-city-beach:
