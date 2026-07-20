@@ -102,7 +102,16 @@ doing anything.
   trailheads (they have eBird+markers-capable base now). NEEDS NOAH'S HANDS: real
   iPad region-switch feel + GPS. Enrichments (bortle/horizon/lands/inat/commons)
   for new regions = follow-up (workflows ready with region input; signals dormant
-  until then).
+  until then). OSM RUNS DONE (ingest-osm.yml region=humboldt/yellowstone on
+  staging): Humboldt now 1130 spots (207 viewpoints, 148 parks, 77 campsites, 69
+  oddities, 38 markers, 28 trailheads, 563 hotspots); Yellowstone 2789 (1098
+  viewpoints, 403 campsites, 303 parks, 139 trailheads, 119 oddities, 46 markers,
+  681 hotspots). FIRST OSM RUNS FAILED at validate: `out center` returns the
+  CENTROID of large multi-county areas (Klamath NF, Trinity Alps/Siskiyou
+  Wilderness for Humboldt) which lands outside the region bbox → FIX: cmdMerge
+  now drops spots outside region.bbox (inBBox filter, logged as "N dropped
+  outside bbox"); re-ran, both green. VERIFIED (smoke26): switch Yellowstone →
+  2789 pins, Humboldt → 1130, Sacramento culled 604/2409, 0 pageerrors.
 - 2026-07-20 PROMOTED 0.12.0 to main (Noah's "Promote to main" after his device
   pass): production == 0.12.0 (photo-pointer.pages.dev, Deploy run #45 on main,
   green). Clean 1-commit fast-forward. staging == main after this. "Opens where
