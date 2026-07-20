@@ -14,8 +14,11 @@ test('committed regions config is valid (unique ids, valid default, each region)
   assert.deepEqual(validateRegions(doc), []);
 });
 
-test('the three regions are present', () => {
-  assert.deepEqual(doc.regions.map((r) => r.id).sort(), ['humboldt', 'sac-eldorado-placer', 'yellowstone']);
+test('all regions are present', () => {
+  assert.deepEqual(
+    doc.regions.map((r) => r.id).sort(),
+    ['hahira', 'humboldt', 'panama-city-beach', 'sac-eldorado-placer', 'yellowstone']
+  );
 });
 
 test('pickRegion resolves by id and falls back to the default', () => {
@@ -32,6 +35,8 @@ test('each region bbox covers a known place inside it', () => {
   assert.ok(inBBox(38.5816, -121.4944, byId['sac-eldorado-placer'].bbox), 'Sacramento');
   assert.ok(inBBox(40.8021, -124.1637, byId['humboldt'].bbox), 'Eureka');
   assert.ok(inBBox(44.4280, -110.5885, byId['yellowstone'].bbox), 'Old Faithful');
+  assert.ok(inBBox(30.9902, -83.3724, byId['hahira'].bbox), 'Hahira, GA');
+  assert.ok(inBBox(30.1766, -85.8055, byId['panama-city-beach'].bbox), 'Panama City Beach, FL');
 });
 
 test('Yellowstone spans three states', () => {

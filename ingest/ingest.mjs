@@ -132,6 +132,13 @@ async function cmdOsm(id) {
 async function cmdEbird(id) {
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
+  // A region Frame doesn't cover has no committed hotspot snapshot yet. Skip
+  // eBird (don't abort the `all` run) — its bird hotspots can be layered in
+  // later from Frame (scripts/import-ebird-from-frame.mjs) or the live API.
+  if (!(await ebird.hasSnapshot(region))) {
+    log(`ebird: no hotspot snapshot for ${region.id} — skipping (add later from Frame or the live eBird API)`);
+    return;
+  }
   const records = await ebird.ingest(region, { today, log });
   if (records.length === 0) {
     console.error('ebird: 0 records — refusing to write an empty file over good data');

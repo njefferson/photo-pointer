@@ -105,6 +105,54 @@
           "ebird_region": "US-ID-043"
         }
       ]
+    },
+    {
+      "id": "hahira",
+      "name": "Hahira, GA",
+      "bbox": {
+        "south": 30.5,
+        "west": -83.65,
+        "north": 31.1,
+        "east": -82.95
+      },
+      "counties": [
+        {
+          "name": "Lowndes County",
+          "state": "GA",
+          "fips": "13185",
+          "osm_area_name": "Lowndes County",
+          "ebird_region": "US-GA-185"
+        }
+      ],
+      "center": {
+        "lat": 30.9902,
+        "lng": -83.3724,
+        "zoom": 12
+      }
+    },
+    {
+      "id": "panama-city-beach",
+      "name": "Panama City Beach, FL",
+      "bbox": {
+        "south": 29.9,
+        "west": -86.05,
+        "north": 30.65,
+        "east": -85.3
+      },
+      "counties": [
+        {
+          "name": "Bay County",
+          "state": "FL",
+          "fips": "12005",
+          "osm_area_name": "Bay County",
+          "ebird_region": "US-FL-005"
+        }
+      ],
+      "center": {
+        "lat": 30.1766,
+        "lng": -85.8055,
+        "zoom": 12
+      }
     }
   ]
 }

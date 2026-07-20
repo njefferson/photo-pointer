@@ -56,8 +56,25 @@ export function normalizeHotspot(h, today) {
   };
 }
 
+// The committed hotspot snapshot for a region (may not exist — Frame only
+// covers the seed counties; a new region has no snapshot until one is imported
+// from Frame or fetched from the live eBird API).
+export function snapshotFile(region) {
+  return path.join(ROOT, 'ingest', 'inputs', `${region.id}-ebird-hotspots.json`);
+}
+
+// True when a region has a committed eBird snapshot to ingest.
+export async function hasSnapshot(region) {
+  try {
+    await readFile(snapshotFile(region), 'utf8');
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 export async function ingest(region, { today, log = () => {} } = {}) {
-  const file = path.join(ROOT, 'ingest', 'inputs', `${region.id}-ebird-hotspots.json`);
+  const file = snapshotFile(region);
   let snapshot;
   try {
     snapshot = JSON.parse(await readFile(file, 'utf8'));
