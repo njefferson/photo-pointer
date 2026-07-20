@@ -51,6 +51,9 @@ function currentVisible() {
 
 function applyVisible(v) {
   setActiveFilters(v);
+  // Driving the category toggles means the user is browsing categories again —
+  // drop any Top-spots layer filter that was narrowing the map.
+  mapView?.setSpotFilter(null);
   mapView?.setVisible(v);
   renderHeader();
 }
@@ -96,7 +99,7 @@ function renderHeader() {
         el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
         el('button', { class: `vt-btn${viewMode === 'list' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'list'), onClick: () => setViewMode('list') }, 'List'),
       ]),
-      el('button', { class: 'data-btn icon-btn top-btn', 'aria-label': 'Top spots', title: 'Top spots', onClick: openTopSpots }, '★'),
+      el('button', { class: 'data-btn icon-btn top-btn', 'aria-label': 'Top spots', title: 'Top spots', onClick: openTopSpots }, '🏆'),
       el('button', { class: 'data-btn icon-btn', 'aria-label': 'Backup & data', title: 'Backup', onClick: openDataDialog }, '⤓'),
       el('button', {
         class: 'data-btn icon-btn info-btn',
@@ -132,7 +135,11 @@ function ranking() {
 }
 
 function openTopSpots() {
-  topSpotsPanel(ranking(), (spot) => mapView?.focusSpot(spot));
+  topSpotsPanel(ranking(), (spot) => mapView?.focusSpot(spot), {
+    // The panel's require/exclude layer chips narrow the map too, not just the
+    // list. null = no filter (chips all neutral).
+    onFilter: (ids) => mapView?.setSpotFilter(ids),
+  });
 }
 
 // The pop-up shown on open when nothing is selected: says why the map is empty

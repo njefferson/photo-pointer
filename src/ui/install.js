@@ -159,6 +159,15 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
     onShowAll
       ? el('button', { class: 'tip-primary', onClick: () => { onShowAll(); dlg.close(); } }, 'Show all pins')
       : null,
+    el('h3', { class: 'welcome-sub' }, 'Drop your own pins'),
+    el('p', {}, [
+      'Press and hold anywhere on the map — a long-press on a phone, or a right-click on a computer — to drop your own pin and give it a name. ',
+      'It saves on this device only.',
+    ]),
+    el('p', {}, [
+      'To remove one, tap a pin you dropped and choose ', el('strong', {}, 'Remove pin'), ' (you get an undo). ',
+      'Back up your pins and saved favorites, or move them to another device, from the ', el('strong', {}, '⤓'), ' button in the top bar.',
+    ]),
     el('h3', { class: 'welcome-sub' }, 'Add it to your home screen'),
     el('p', { class: 'dim' }, 'photo-pointer runs best installed: full-screen, and offline in the field with no signal.'),
     ...installBody(),

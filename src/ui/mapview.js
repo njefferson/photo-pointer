@@ -26,7 +26,7 @@ export const CATEGORY_META = {
   campsite: { label: 'Campsite', letter: 'C' },
   wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W' },
   dark_sky: { label: 'Dark sky', letter: 'D' },
-  user_pin: { label: 'My pin', letter: '★' },
+  user_pin: { label: 'My pins', letter: '★' },
 };
 
 // Tile hosts MUST also be listed in sw.js TILE_HOSTS (SW bypasses them —
@@ -129,6 +129,9 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // `center` (from a cross-region GPS fix) drops straight onto that point.
   function setRegion(newRegion, { locate = false, center = null } = {}) {
     activeRegion = newRegion;
+    // Ids belong to the old region — drop any focus/filter so they can't leak.
+    forcedId = null;
+    if (spotFilter) setSpotFilter(null);
     loadDarkSkyFor(newRegion.id);
     if (center) map.setView([center.lat, center.lng], 14);
     else if (locate) centerOnLocation((c) => { if (!c.inArea) toast(`You're outside the covered area — centered on ${c.name}`); });
@@ -157,6 +160,68 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     },
   });
   new CenterControl().addTo(map);
+
+  // A collapsible legend: what every pin means. Collapsed to a "Legend" button
+  // by default (keeps the map clean); expands to the category letters+colours,
+  // the gold ring (photos nearby) and the neutral number circle (a cluster).
+  const LegendControl = L.Control.extend({
+    options: { position: 'bottomleft' },
+    onAdd() {
+      const wrap = L.DomUtil.create('div', 'map-legend');
+      const panel = el('div', { class: 'legend-panel', id: 'legend-panel', hidden: true });
+      const btn = el('button', {
+        type: 'button', class: 'legend-toggle',
+        'aria-expanded': 'false', 'aria-controls': 'legend-panel',
+        onClick: () => {
+          const open = panel.hidden;
+          panel.hidden = !open;
+          btn.setAttribute('aria-expanded', String(open));
+          btn.textContent = open ? 'Legend ▾' : 'Legend ▸';
+        },
+      }, 'Legend ▸');
+      const row = (swatch, label) => el('div', { class: 'legend-row' }, [swatch, el('span', { class: 'legend-label' }, label)]);
+      for (const [cat, meta] of Object.entries(CATEGORY_META)) {
+        panel.append(row(
+          el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
+          meta.label
+        ));
+      }
+      panel.append(el('div', { class: 'legend-sep', role: 'separator' }));
+      panel.append(row(
+        el('span', { class: 'pin pin-viewpoint legend-swatch has-photos', 'aria-hidden': 'true' }, 'V'),
+        'Gold ring: freely-licensed photos nearby'
+      ));
+      panel.append(row(
+        el('span', { class: 'pin is-cluster legend-swatch', 'aria-hidden': 'true' }, '3'),
+        'Number: several places here — zoom in to separate'
+      ));
+      panel.append(el('p', { class: 'legend-hint' }, 'Tip: press and hold the map (right-click on a computer) to drop your own pin.'));
+      wrap.append(btn, panel);
+      L.DomEvent.disableClickPropagation(wrap);
+      L.DomEvent.disableScrollPropagation(wrap);
+      return wrap;
+    },
+  });
+  new LegendControl().addTo(map);
+
+  // Standing banner shown while a Top-spots layer filter narrows the map — the
+  // mode announces itself and carries an obvious one-tap exit. Lives inside the
+  // Leaflet container so it overlays the map; clicks don't fall through to a pan.
+  const filterBanner = el('div', { class: 'map-filter-banner', role: 'status', hidden: true });
+  L.DomEvent.disableClickPropagation(filterBanner);
+  container.append(filterBanner);
+  function updateFilterBanner() {
+    if (!spotFilter) { filterBanner.hidden = true; filterBanner.replaceChildren(); return; }
+    const n = spotFilter.size;
+    filterBanner.hidden = false;
+    filterBanner.replaceChildren(
+      el('span', { class: 'mfb-text' }, `Map filtered to ${n} top spot${n === 1 ? '' : 's'}`),
+      el('button', {
+        class: 'map-filter-clear',
+        onClick: () => { setSpotFilter(null); onChange?.(); },
+      }, 'Show all')
+    );
+  }
 
   // The opening frame (geolocate on the home region, fit-bounds elsewhere) is
   // driven by main.js via setRegion once data is ready.
@@ -195,15 +260,25 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // the DOM (mirrors Frame's virtualization).
   const markerById = new Map();
   let visible = new Set(Object.keys(CATEGORY_META));
+  // A spot deliberately focused from the Top-spots panel: always mounted and
+  // never collapsed into a cluster, so it's visible the moment you fly to it.
+  let forcedId = null;
+  // A Top-spots layer filter, when active, restricts the map to these spot ids
+  // (overriding the category toggles). null = no filter, category toggles rule.
+  let spotFilter = null;
 
   const padded = () => map.getBounds().pad(0.35);
   const CELL_PX = 40; // declutter grid: at most one pin per ~40px cell in view
   function cull() {
     const b = padded();
-    // 1) Gather the in-view, visible-category candidates; unmount everything else.
+    // 1) Gather the in-view candidates; unmount everything else. A candidate is
+    //    in a shown category (or, when a Top-spots filter is active, in that
+    //    filter set), plus the deliberately-focused spot is always a candidate.
     const cands = [];
     for (const rec of markerById.values()) {
-      const inView = visible.has(rec.category) && b.contains([rec.lat, rec.lng]);
+      const catOk = rec.id === forcedId ||
+        (spotFilter ? (spotFilter.has(rec.id) || rec.category === 'user_pin') : visible.has(rec.category));
+      const inView = catOk && b.contains([rec.lat, rec.lng]);
       if (inView) cands.push(rec);
       else if (rec.mounted) { rec.marker.remove(); rec.mounted = false; }
     }
@@ -217,7 +292,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     const keyOf = new Map();
     const cellCount = new Map();
     for (const rec of cands) {
-      if (rec.category === 'user_pin') continue;
+      if (rec.category === 'user_pin' || rec.id === forcedId) continue;
       const pt = map.latLngToContainerPoint([rec.lat, rec.lng]);
       const key = `${Math.floor(pt.x / CELL_PX)}:${Math.floor(pt.y / CELL_PX)}`;
       keyOf.set(rec, key);
@@ -226,7 +301,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     const taken = new Set();
     for (const rec of cands) {
       const key = keyOf.get(rec);
-      const keep = rec.category === 'user_pin' || !taken.has(key);
+      const keep = rec.category === 'user_pin' || rec.id === forcedId || !taken.has(key);
       if (keep && key) taken.add(key);
       if (keep && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
       else if (!keep && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
@@ -264,15 +339,30 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // before a popup opens and restore it when the LAST popup closes, unless the
   // user deliberately dragged while it was open.
   let popupSavedCenter = null;
+  // When a spot is deliberately focused (Top-spots panel), we WANT to stay on it
+  // after its popup closes — so instead of restoring the old view, recenter here.
+  let focusCenter = null;
   let openPopups = 0;
-  function rememberViewForPopup() { if (openPopups === 0) popupSavedCenter = map.getCenter(); }
+  // A manual marker tap is a fresh intent: save the view to restore, and cancel
+  // any pending "recenter on the focused spot" (this isn't that spot).
+  function rememberViewForPopup() {
+    if (openPopups === 0) popupSavedCenter = map.getCenter();
+    focusCenter = null;
+    forcedId = null;
+  }
   map.on('popupopen', () => { openPopups += 1; });
-  map.on('dragstart', () => { popupSavedCenter = null; });
+  map.on('dragstart', () => { popupSavedCenter = null; focusCenter = null; });
   map.on('popupclose', () => {
     openPopups = Math.max(0, openPopups - 1);
     // Defer so a popup-to-popup switch (close then open) doesn't restore between.
     setTimeout(() => {
-      if (openPopups === 0 && popupSavedCenter) {
+      if (openPopups !== 0) return;
+      if (focusCenter) {
+        // Deliberate focus: keep the map on the spot the user chose.
+        map.panTo(focusCenter, { animate: true });
+        focusCenter = null;
+        popupSavedCenter = null;
+      } else if (popupSavedCenter) {
         map.panTo(popupSavedCenter, { animate: true });
         popupSavedCenter = null;
       }
@@ -540,15 +630,15 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
             ' — check access hours')
         : null,
       spot.tags?.inaturalist?.observations
-        ? el('p', { class: 'popup-wild' }, [
-            `Wildlife photographed nearby: ${spot.tags.inaturalist.species} non-bird species — `,
-            el('a', { href: inatNearUrl(spot), target: '_blank', rel: 'noopener' }, 'see them on iNaturalist →'),
+        ? el('div', { class: 'popup-linkrow' }, [
+            el('p', { class: 'popup-linktext' }, `Wildlife photographed nearby: ${spot.tags.inaturalist.species} non-bird species.`),
+            el('a', { class: 'popup-linkbtn', href: inatNearUrl(spot), target: '_blank', rel: 'noopener' }, 'See the wildlife on iNaturalist →'),
           ])
         : null,
       spot.tags?.commons?.photos
-        ? el('p', { class: 'popup-photos' }, [
-            `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here — `,
-            el('a', { href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'see them on Commons →'),
+        ? el('div', { class: 'popup-linkrow' }, [
+            el('p', { class: 'popup-linktext' }, `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here.`),
+            el('a', { class: 'popup-linkbtn', href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'View the photos on Commons →'),
           ])
         : null,
       wikiLine(spot),
@@ -601,7 +691,9 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
           autoPanPadding: [12, 76],
         });
       const cm = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
-      markerById.set(spot.id, { marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false, letter: cm.letter, label: cm.label });
+      // id is needed for the score-based declutter (scoreOf reads it) and to
+      // hold a deliberately-focused spot unclustered.
+      markerById.set(spot.id, { id: spot.id, marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false, letter: cm.letter, label: cm.label });
     }
     cull();
   }
@@ -610,21 +702,44 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     synthesisFor = (id) => byId.get(id) ?? null;
   }
 
-  // Fly to a spot and open its popup (from the Top-spots panel). Ensures its
-  // category is visible first.
+  // Fly to a spot and open its popup (from the Top-spots panel). Force-mounts it
+  // unclustered (so it's there on the FIRST tap, even inside a decluttered patch)
+  // and recenters on it when the popup closes (see focusCenter) instead of
+  // snapping back to the old view.
   function focusSpot(spot) {
-    if (!visible.has(spot.category)) { visible = new Set(visible).add(spot.category); }
-    map.setView([spot.lat, spot.lng], Math.max(map.getZoom(), 13));
     const rec = markerById.get(spot.id);
-    if (rec) {
-      if (!rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
-      rec.marker.openPopup();
-    }
-    scheduleCull();
+    if (!rec) return;
+    forcedId = spot.id;
+    focusCenter = { lat: spot.lat, lng: spot.lng };
+    popupSavedCenter = null; // deliberate navigation — no restore-to-old-view
+    if (!visible.has(spot.category)) visible = new Set(visible).add(spot.category);
+    const targetZoom = Math.max(map.getZoom(), 15);
+    const reveal = () => {
+      cull(); // forcedId keeps this pin mounted and its category-letter (unclustered)
+      const r = markerById.get(spot.id);
+      if (r) {
+        if (!r.mounted) { r.marker.addTo(map); r.mounted = true; }
+        r.marker.openPopup();
+      }
+    };
+    // setView fires moveend when the view actually changes; reveal there. If the
+    // view is already on the spot (no move), moveend won't fire — reveal now too.
+    map.once('moveend', reveal);
+    map.setView([spot.lat, spot.lng], targetZoom, { animate: true });
+    reveal();
   }
 
   function setVisible(categories) {
     visible = categories;
+    cull();
+  }
+
+  // Restrict the map to a set of spot ids (the Top-spots layer filter) — or null
+  // to clear it and return to the category toggles. Announces itself via a
+  // standing banner so the mode is never silent, and offers an obvious exit.
+  function setSpotFilter(ids) {
+    spotFilter = ids && ids.size ? ids : null;
+    updateFilterBanner();
     cull();
   }
 
@@ -649,5 +764,5 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     L.popup().setLatLng(e.latlng).setContent(form).openOn(map);
   });
 
-  return { map, setSpots, setVisible, setSynthesis, focusSpot, setRegion, syncThemeBasemap };
+  return { map, setSpots, setVisible, setSpotFilter, setSynthesis, focusSpot, setRegion, syncThemeBasemap };
 }

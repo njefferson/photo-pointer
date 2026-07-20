@@ -154,6 +154,51 @@ body {
 }
 .map-center-btn:hover { background: var(--bg); }
 
+/* Collapsible map legend (a Leaflet control, bottom-left). Collapsed to a
+   "Legend" button by default; the panel is a themed card. Meaning rides on the
+   letter/number glyph, so it survives grayscale; colour only reinforces. */
+.map-legend { margin: 0 0 6px 6px; }
+.legend-toggle {
+  font: inherit; font-size: 13px; font-weight: 650; line-height: 1;
+  color: var(--ink); background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px;
+  padding: 7px 11px; min-height: 34px; cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+.legend-panel {
+  margin-top: 6px; padding: 9px 11px; max-width: 240px;
+  max-height: 46vh; overflow-y: auto;
+  color: var(--ink); background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+.legend-row { display: flex; align-items: center; gap: 8px; padding: 2px 0; }
+.legend-label { font-size: 12px; line-height: 1.3; }
+.legend-sep { border-top: 1px solid var(--line); margin: 6px 0; height: 0; }
+.legend-hint { margin: 8px 0 0; font-size: 11px; color: var(--dim); line-height: 1.35; }
+/* Indicator swatches keep their box-shadow ring (unlike .pin-inline), so the
+   gold "photos" ring and the neutral cluster circle actually show at legend size. */
+.pin.legend-swatch { width: 18px; height: 18px; font-size: 10px; flex: none; }
+
+/* "Map filtered to N top spots" banner — a standing indicator with an obvious
+   exit, shown while a Top-spots layer filter narrows the map. Overlays the top
+   of the Leaflet container. --ink/--bg is the gated text pair. */
+.map-filter-banner {
+  position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
+  z-index: 1000; display: flex; align-items: center; gap: 10px;
+  max-width: calc(100% - 24px);
+  padding: 6px 8px 6px 12px;
+  font-size: 13px; color: var(--ink); background: var(--card);
+  border: 1px solid color-mix(in srgb, var(--ink) 45%, var(--line)); border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.mfb-text { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.map-filter-clear {
+  font: inherit; font-size: 13px; font-weight: 650; white-space: nowrap;
+  color: var(--bg); background: var(--ink);
+  border: none; border-radius: 14px; padding: 5px 12px; min-height: 32px; cursor: pointer;
+}
+
 /* The Leaflet layers ("map type") control ships its icon as a background sprite
    image we don't vendor, so it rendered BLANK. Draw it ourselves as a themed
    mask glyph (a stack of sheets), and match the map controls to the theme. */
@@ -202,7 +247,9 @@ body {
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 
 .view-root { flex: 1; min-height: 0; display: flex; flex-direction: column; }
-.map-root { flex: 1; min-height: 0; }
+/* position:relative so the "map filtered" banner (an absolute child of the
+   Leaflet container) anchors to the map, not the page. */
+.map-root { flex: 1; min-height: 0; position: relative; }
 
 /* Dark mode darkens the OSM tiles with a filter (reliable + works offline on
    cached tiles). Satellite imagery is a separate layer with no class, so it's
@@ -363,9 +410,20 @@ body {
 .popup-minor { margin: 6px 0 2px; font-size: 12px; font-style: italic; color: #6d5f49; }
 
 /* Make source + data links obvious (a kid should see they're tappable). */
-.popup-srclink { font-weight: 700; }
-.popup-photos a, .popup-wild a, .popup-srclink { color: #1663a8; text-decoration: underline; }
+.popup-srclink { font-weight: 700; color: #1663a8; text-decoration: underline; }
 .popup-srcrow { margin: 2px 0 0; }
+
+/* Photo / wildlife link-outs used to hide as a word inside a sentence. Give the
+   link its own solid button under a plain caption so it can't be missed. White
+   on #1663a8 ≈ 5.2:1. Popup-local (Leaflet popups are always light). */
+.popup-linkrow { margin: 6px 0; }
+.popup-linktext { margin: 0 0 4px; font-size: 13px; }
+.popup-linkbtn {
+  display: inline-block; font-size: 13px; font-weight: 700; text-decoration: none;
+  color: #ffffff; background: #1663a8; padding: 6px 11px; border-radius: 8px;
+  min-height: 32px; line-height: 20px;
+}
+.popup-linkbtn:hover { background: #12517f; }
 .popup-lic { margin: 3px 0 0; font-size: 11px; color: #8a7d64; }
 
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,

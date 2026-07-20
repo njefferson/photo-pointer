@@ -33,7 +33,7 @@ function scoreBadge(score) {
 // The Top-spots dialog. `ranked` = [{spot, score, parts}]; onGo(spot) focuses
 // the map on a chosen spot. `filters` lets the viewer require cross-layer
 // combinations (e.g. dark + view).
-export function topSpotsPanel(ranked, onGo) {
+export function topSpotsPanel(ranked, onGo, { onFilter } = {}) {
   const dlg = el('dialog', { class: 'data-dialog top-dialog', tabindex: '-1' });
 
   // Each chip is tri-state: neutral (any) → require (✓) → exclude (✕) → neutral.
@@ -57,8 +57,9 @@ export function topSpotsPanel(ranked, onGo) {
   function apply() {
     const req = [], exc = [];
     for (const [k, v] of chipState) (v === 'require' ? req : exc).push(k);
+    const active = req.length || exc.length;
     let rows = ranked;
-    if (req.length || exc.length) {
+    if (active) {
       rows = ranked.filter((r) => {
         const has = (k) => r.parts.some((p) => p.key === k);
         return req.every(has) && !exc.some(has);
@@ -69,6 +70,9 @@ export function topSpotsPanel(ranked, onGo) {
         ? rows.slice(0, 30).map((r, i) => topRow(r, i, () => { dlg.close(); onGo(r.spot); }))
         : [el('p', { class: 'top-empty' }, 'No spots match those filters in this region.')])
     );
+    // Mirror the filter onto the map: the same require/exclude set of spots, or
+    // null to clear when no chip is active.
+    onFilter?.(active ? new Set(rows.map((r) => r.spot.id)) : null);
   }
 
   function renderChips() {
