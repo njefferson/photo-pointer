@@ -4,32 +4,106 @@
   "regions": [
     {
       "id": "sac-eldorado-placer",
-      "name": "Sacramento · El Dorado · Placer",
-      "bbox": { "south": 38.0, "west": -121.95, "north": 39.4, "east": -119.85 },
+      "name": "Sacramento \u00b7 El Dorado \u00b7 Placer",
+      "bbox": {
+        "south": 38.0,
+        "west": -121.95,
+        "north": 39.4,
+        "east": -119.85
+      },
       "counties": [
-        { "name": "Sacramento County", "state": "CA", "fips": "06067", "osm_area_name": "Sacramento County", "ebird_region": "US-CA-067" },
-        { "name": "El Dorado County", "state": "CA", "fips": "06017", "osm_area_name": "El Dorado County", "ebird_region": "US-CA-017" },
-        { "name": "Placer County", "state": "CA", "fips": "06061", "osm_area_name": "Placer County", "ebird_region": "US-CA-061" }
+        {
+          "name": "Sacramento County",
+          "state": "CA",
+          "fips": "06067",
+          "osm_area_name": "Sacramento County",
+          "ebird_region": "US-CA-067"
+        },
+        {
+          "name": "El Dorado County",
+          "state": "CA",
+          "fips": "06017",
+          "osm_area_name": "El Dorado County",
+          "ebird_region": "US-CA-017"
+        },
+        {
+          "name": "Placer County",
+          "state": "CA",
+          "fips": "06061",
+          "osm_area_name": "Placer County",
+          "ebird_region": "US-CA-061"
+        }
       ]
     },
     {
       "id": "humboldt",
       "name": "Humboldt Coast",
-      "bbox": { "south": 39.85, "west": -124.9, "north": 41.5, "east": -123.4 },
+      "bbox": {
+        "south": 39.85,
+        "west": -124.9,
+        "north": 41.5,
+        "east": -123.4
+      },
       "counties": [
-        { "name": "Humboldt County", "state": "CA", "fips": "06023", "osm_area_name": "Humboldt County", "ebird_region": "US-CA-023" }
-      ]
+        {
+          "name": "Humboldt County",
+          "state": "CA",
+          "fips": "06023",
+          "osm_area_name": "Humboldt County",
+          "ebird_region": "US-CA-023"
+        }
+      ],
+      "center": {
+        "lat": 40.8665,
+        "lng": -124.0828,
+        "zoom": 12
+      }
     },
     {
       "id": "yellowstone",
       "name": "Yellowstone",
-      "bbox": { "south": 43.0, "west": -112.2, "north": 46.25, "east": -108.55 },
+      "bbox": {
+        "south": 43.0,
+        "west": -112.2,
+        "north": 46.25,
+        "east": -108.55
+      },
       "counties": [
-        { "name": "Park County, WY", "state": "WY", "fips": "56029", "osm_area_name": "Park County", "ebird_region": "US-WY-029" },
-        { "name": "Teton County, WY", "state": "WY", "fips": "56039", "osm_area_name": "Teton County", "ebird_region": "US-WY-039" },
-        { "name": "Gallatin County, MT", "state": "MT", "fips": "30031", "osm_area_name": "Gallatin County", "ebird_region": "US-MT-031" },
-        { "name": "Park County, MT", "state": "MT", "fips": "30067", "osm_area_name": "Park County", "ebird_region": "US-MT-067" },
-        { "name": "Fremont County, ID", "state": "ID", "fips": "16043", "osm_area_name": "Fremont County", "ebird_region": "US-ID-043" }
+        {
+          "name": "Park County, WY",
+          "state": "WY",
+          "fips": "56029",
+          "osm_area_name": "Park County",
+          "ebird_region": "US-WY-029"
+        },
+        {
+          "name": "Teton County, WY",
+          "state": "WY",
+          "fips": "56039",
+          "osm_area_name": "Teton County",
+          "ebird_region": "US-WY-039"
+        },
+        {
+          "name": "Gallatin County, MT",
+          "state": "MT",
+          "fips": "30031",
+          "osm_area_name": "Gallatin County",
+          "ebird_region": "US-MT-031"
+        },
+        {
+          "name": "Park County, MT",
+          "state": "MT",
+          "fips": "30067",
+          "osm_area_name": "Park County",
+          "ebird_region": "US-MT-067"
+        },
+        {
+          "name": "Fremont County, ID",
+          "state": "ID",
+          "fips": "16043",
+          "osm_area_name": "Fremont County",
+          "ebird_region": "US-ID-043"
+        }
       ]
     }
   ]

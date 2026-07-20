@@ -69,8 +69,14 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     return { lat: c.lat, lng: c.lng, name: activeRegion.name };
   }
 
-  // Fit the whole active region in view (used when switching regions).
+  // Open a region. If it declares a preferred `center` (e.g. Humboldt opens on
+  // Arcata), start there; otherwise fit the whole region's bounds in view.
   function frameRegion() {
+    const c = activeRegion.center;
+    if (c && typeof c.lat === 'number' && typeof c.lng === 'number') {
+      map.setView([c.lat, c.lng], c.zoom ?? 12);
+      return;
+    }
     const b = activeRegion.bbox;
     map.fitBounds([[b.south, b.west], [b.north, b.east]]);
   }
