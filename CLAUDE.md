@@ -65,6 +65,27 @@ doing anything.
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 0.13.6 to main — SECOND promotion, completes Yellowstone +
+  ships the welcome/ⓘ UI batch (Noah's "Promote when it's done"). Production ==
+  origin/staging (clean FF). YELLOWSTONE NOW FULLY DONE: 2789 spots, all 5
+  enrichment layers (publicLand 485, horizon 2789, inat 297, bortle 2789, commons
+  517) + OSM re-run folded in marker inscriptions (only 1 — Yellowstone backcountry
+  has few historic plaques vs Gold-Rush Sacramento; honest, tag-preserving merge
+  kept all 5 layers). All THREE regions now complete: Sacramento (5 layers, 22
+  insc, 2409), Humboldt (5 layers, 17 insc, 1130), Yellowstone (5 layers, 1 insc,
+  2789). Commons for Yellowstone took ~50 min (700 tiles, Wikimedia throttle) —
+  commons.yml timeout is 55 min; if a bigger region is ever added, raise it again.
+  UI ITERATIONS shipped in this promotion (0.13.4/5/6, all with headless smokes +
+  91 tests + contrast green): 0.13.4 empty-map guidance — a "turn on a pin type"
+  pop-up (showStartTip) on open when all categories are off, plus a standing
+  .filter-tip header banner; 0.13.5 WELCOME + INSTALL pop-up (src/ui/install.js,
+  first-visit, localStorage pointer.welcomed) — platform-aware Add-to-Home-Screen
+  steps (iOS Share glyph) / native beforeinstallprompt on Android+desktop,
+  isStandalone/platform detection; 0.13.6 the ⓘ panel = openAbout(): WHY the app
+  exists (thesis) + install + collapsed CHANGELOG (src/data/changelog.js, VERSION
+  === sw CACHE, keep in sync) + Version stamp, opened by a header .info-btn ⓘ and
+  reachable from Backup. sw CACHE pointer-0.13.6. NOTE the earlier same-day fact
+  below (0.13.0→0.13.3) is SUPERSEDED for Yellowstone — it's no longer 4/5.
 - 2026-07-20 PROMOTED 0.13.0→0.13.3 to main (Noah's "Promote now" — he chose to
   ship before Yellowstone fully finished). Production == 7a654f3 (SW cache
   pointer-0.13.3, Deploy on main green). Clean 24-commit fast-forward, main was
