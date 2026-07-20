@@ -233,6 +233,26 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     requestAnimationFrame(() => { cullPending = false; cull(); });
   }
   map.on('moveend zoomend', scheduleCull);
+
+  // Opening a popup autoPans the map to fit the card, but Leaflet never pans
+  // back — leaving the user shifted after they close it. Remember the view just
+  // before a popup opens and restore it when the LAST popup closes, unless the
+  // user deliberately dragged while it was open.
+  let popupSavedCenter = null;
+  let openPopups = 0;
+  function rememberViewForPopup() { if (openPopups === 0) popupSavedCenter = map.getCenter(); }
+  map.on('popupopen', () => { openPopups += 1; });
+  map.on('dragstart', () => { popupSavedCenter = null; });
+  map.on('popupclose', () => {
+    openPopups = Math.max(0, openPopups - 1);
+    // Defer so a popup-to-popup switch (close then open) doesn't restore between.
+    setTimeout(() => {
+      if (openPopups === 0 && popupSavedCenter) {
+        map.panTo(popupSavedCenter, { animate: true });
+        popupSavedCenter = null;
+      }
+    }, 0);
+  });
   let synthesisFor = () => null; // set by setSynthesis; id -> {score, parts}
 
   // "Light today" — the question the app is named for, computed on-device for
@@ -546,6 +566,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     markerById.clear();
     for (const spot of spots) {
       const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category) })
+        .on('click', rememberViewForPopup)
         .bindPopup(() => popupFor(spot), {
           maxWidth: 320,
           // Cap the popup to the viewport so a long card scrolls INSIDE the popup
@@ -598,6 +619,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         },
       }, 'Add pin'),
     ]);
+    rememberViewForPopup();
     L.popup().setLatLng(e.latlng).setContent(form).openOn(map);
   });
 

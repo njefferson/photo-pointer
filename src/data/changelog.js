@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
+  { v: '1.0.1', t: 'The map snaps back after a pop-up', n: 'Opening a place’s pop-up used to leave the map shifted after you closed it. Now it returns to where you were, so you’re not constantly nudging it back.' },
   { v: '1.0.0', t: 'photo-pointer 1.0', n: 'The first full release. Three regions (Sacramento, Humboldt Coast, Yellowstone) with every open-data layer — light and golden hour, dark skies, open horizon, wildlife, photographed spots, public land, air and weather. Save favorites, a list view sorted by distance, verified-only historical markers, and a map that reads cleanly at any zoom, light or dark.' },
   { v: '0.16.2', t: 'Humboldt opens on Arcata', n: 'Switching to the Humboldt Coast region now opens centered on Arcata, instead of zoomed out to the whole coast.' },
   { v: '0.16.1', t: 'A cleaner zoomed-out map', n: 'Zoomed out, the map now thins overlapping pins to a clean spread — keeping the most worthwhile pin in each patch — so a dense region is readable instead of a pile, and lighter to draw, not heavier. The pin-type buttons stay simple on/off toggles.' },
