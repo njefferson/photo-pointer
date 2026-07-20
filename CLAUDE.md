@@ -71,6 +71,15 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 1.4.0 to main (Noah's "Promote"). Production ==
+  origin/staging == c29df83 (clean 6-commit fast-forward from 1.3.1). Ships the
+  two new regions — Hahira / Lowndes County, GA and Panama City Beach / Bay
+  County, FL — with their OSM base data (hahira 134 spots, panama-city-beach 83),
+  plus the eBird graceful-skip and the markers 0-guard fix that let a
+  Frame-uncovered / marker-less region build. staging == main after this. STILL
+  the documented follow-up for these two areas: bird hotspots (live eBird API +
+  EBIRD_API_TOKEN secret — Noah manual step) and the 5 enrichment layers
+  (bortle/horizon/public-lands/inaturalist/commons, one workflow dispatch each).
 - 2026-07-20 1.4.0 "Two new areas: Hahira, GA & Panama City Beach" BUILT on
   staging (awaiting on-device pass — NEEDS NOAH'S HANDS: real iPad region-switch
   to Hahira + Panama City Beach and how those two areas feel). TWO NEW REGIONS
