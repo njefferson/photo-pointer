@@ -1,0 +1,949 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Historical markers (Wikidata, CC0 — links out to HMdb)",
+    "license": "CC0-1.0",
+    "attribution": "Marker facts from Wikidata (CC0); marker pages via HMdb.org",
+    "status": "working"
+  },
+  "region": "yellowstone",
+  "builtAt": "2026-07-20",
+  "records": [
+    {
+      "name": "Roosevelt Arch",
+      "lat": 45.0295,
+      "lng": -110.70867,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2214919",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q2214919",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Yellowstone National Cemetery",
+      "lat": 45.696236111,
+      "lng": -108.772638888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q22919982",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q22919982",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Absaroka-Beartooth Wilderness Historical Marker",
+      "lat": 45.295833333,
+      "lng": -110.834722222,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49471805",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49471805",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Adobetown Historical Marker",
+      "lat": 45.318055555,
+      "lng": -111.984166666,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49471918",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49471918",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Bonanza or Bozeman Trail Historical Marker",
+      "lat": 45.828611111,
+      "lng": -109.968888888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49475247",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49475247",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Boulder River Bridge Historical Marker",
+      "lat": 46.211111111,
+      "lng": -112.091111111,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49475396",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49475396",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Bozeman Pass Historical Marker",
+      "lat": 45.667777777,
+      "lng": -110.806388888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49475510",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49475510",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Bozeman Trail Historical Marker",
+      "lat": 45.500555555,
+      "lng": -111.695,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49475514",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49475514",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Captain William Clark Historical Marker",
+      "lat": 45.735555555,
+      "lng": -109.757222222,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49476917",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49476917",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Columbus Historical Marker",
+      "lat": 45.644444444,
+      "lng": -109.251944444,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49479385",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49479385",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Cooke City Historical Marker",
+      "lat": 45.018888888,
+      "lng": -109.96,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49479977",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49479977",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Crazy Mountains Historical Marker",
+      "lat": 45.735555555,
+      "lng": -109.757222222,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49480902",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49480902",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Emigrant Gulch Historical Marker",
+      "lat": 45.3375,
+      "lng": -110.7675,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49486940",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49486940",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Father De Smet Historical Marker",
+      "lat": 45.872222222,
+      "lng": -111.956388888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49488566",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49488566",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Fort Ellis Historical Marker",
+      "lat": 45.668611111,
+      "lng": -110.975555555,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49490527",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49490527",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Fort Henry Historic Monument",
+      "lat": 43.924722222,
+      "lng": -111.771666666,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49490566",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49490566",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Gallatin Valley Historical Marker",
+      "lat": 45.675,
+      "lng": -111.0125,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49492678",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49492678",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Jim Bridger Mountain Man Historical Marker",
+      "lat": 45.264722222,
+      "lng": -108.911388888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49507732",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49507732",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "John M Bozeman Historical Marker",
+      "lat": 45.694444444,
+      "lng": -110.295277777,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49508262",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49508262",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Jorgen Elesius Madson Historical Marker",
+      "lat": 45.455555555,
+      "lng": -109.448333333,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49508801",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49508801",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Lewis and Clark Expedition Campsite Historical Marker",
+      "lat": 45.872222222,
+      "lng": -111.956388888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49516201",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49516201",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Nevada City Historical Marker",
+      "lat": 45.307777777,
+      "lng": -111.970277777,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49531064",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49531064",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Nineteen Hundred Fifty-Nine Earthquake Historical Marker",
+      "lat": 44.662222222,
+      "lng": -111.104166666,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49531723",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49531723",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Park City Historical Marker",
+      "lat": 45.644444444,
+      "lng": -109.251944444,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49539295",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49539295",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Pryor Mountains Historical Marker",
+      "lat": 45.343611111,
+      "lng": -108.915277777,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49546535",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49546535",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Raynolds Pass Historical Marker",
+      "lat": 44.901944444,
+      "lng": -111.593333333,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49548478",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49548478",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Red Lodge Country Historical Marker",
+      "lat": 45.176388888,
+      "lng": -109.249166666,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49548764",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49548764",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Robbers Roost Historical Marker",
+      "lat": 45.391666666,
+      "lng": -112.146388888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49551880",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49551880",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Ruby Valley Historical Marker",
+      "lat": 45.303888888,
+      "lng": -112.098888888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49554698",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49554698",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Shields River Valley Historical Marker",
+      "lat": 45.952777777,
+      "lng": -110.638888888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49561197",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49561197",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Stateler Monument",
+      "lat": 45.816111111,
+      "lng": -111.638333333,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49565997",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49565997",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Targhee Pass Historical Marker",
+      "lat": 44.675833333,
+      "lng": -111.273055555,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49569187",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49569187",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Party Historical Marker",
+      "lat": 45.735555555,
+      "lng": -109.757222222,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49570260",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49570260",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Three Forks of the Missouri Historical Marker",
+      "lat": 45.902777777,
+      "lng": -111.534166666,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49570499",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49570499",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Virginia City Historical Marker",
+      "lat": 45.292222222,
+      "lng": -111.949444444,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49575664",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49575664",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Historical buildings and structures of Grand Teton National Park",
+      "lat": 43.73333333,
+      "lng": -110.80333333,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5774207",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5774207",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Mather Plaque in Yellowstone National Park",
+      "lat": 44.642279,
+      "lng": -110.862348,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q71411240",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q71411240",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Mather Plaque in Grand Teton National Park",
+      "lat": 43.653442,
+      "lng": -110.717887,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q71741495",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q71741495",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Red Lodge Communal Mausoleum",
+      "lat": 45.194722222,
+      "lng": -109.261388888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q85796352",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q85796352",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    }
+  ]
+}
