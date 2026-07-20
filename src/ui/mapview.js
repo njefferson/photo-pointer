@@ -52,7 +52,7 @@ function pinIcon(category) {
   });
 }
 
-export function createMapView(container, { region, onChange }) {
+export function createMapView(container, { region, regions = [], onSwitchRegion, onChange }) {
   const map = L.map(container, { zoomControl: true });
   let activeRegion = region;
 
@@ -70,38 +70,55 @@ export function createMapView(container, { region, onChange }) {
     map.fitBounds([[b.south, b.west], [b.north, b.east]]);
   }
 
-  // Where should "center on me" put the view? The GPS fix if it's inside the
-  // active region; otherwise that region's fallback. Returns {lat,lng,inArea,name}.
-  function resolveCenter(coords) {
-    if (coords && inBBox(coords.lat, coords.lng, activeRegion.bbox)) {
-      return { lat: coords.lat, lng: coords.lng, inArea: true, name: activeRegion.name };
+  // Which covered region (other than the active one) contains these coords?
+  // Lets a GPS fix land in Humboldt or Yellowstone instead of failing home.
+  function regionContaining(coords) {
+    if (!coords) return null;
+    for (const r of regions) {
+      if (r.id !== activeRegion.id && inBBox(coords.lat, coords.lng, r.bbox)) return r;
     }
-    return { ...fallbackCenter(), inArea: false };
+    return null;
   }
 
-  // Ask the browser for a fix and center on it (or the fallback). Fails soft —
-  // a denied/blocked/timed-out fix just leaves the fallback view. `onDone`
-  // reports the resolved center so the caller can toast when out of area.
+  // Ask the browser for a fix and act on it. In order: center here if the fix is
+  // in the active region; else if it falls in ANOTHER covered region, switch to
+  // that region and center there; else drop on the fallback. Fails soft — a
+  // denied/blocked/timed-out fix just leaves the fallback view. `onDone` reports
+  // the outcome so the caller can toast only when the fix is outside every region.
   function centerOnLocation(onDone) {
     const fb = fallbackCenter();
-    if (!navigator.geolocation) { map.setView([fb.lat, fb.lng], 12); onDone?.(resolveCenter(null)); return; }
+    const act = (coords) => {
+      if (coords && inBBox(coords.lat, coords.lng, activeRegion.bbox)) {
+        map.setView([coords.lat, coords.lng], 14);
+        onDone?.({ lat: coords.lat, lng: coords.lng, inArea: true, name: activeRegion.name });
+        return;
+      }
+      const other = regionContaining(coords);
+      if (other) {
+        // Hand off to main.js: load that region's data, then center on the fix.
+        onSwitchRegion?.(other.id, { lat: coords.lat, lng: coords.lng });
+        onDone?.({ lat: coords.lat, lng: coords.lng, inArea: true, switched: other.name, name: other.name });
+        return;
+      }
+      map.setView([fb.lat, fb.lng], 12);
+      onDone?.({ ...fb, inArea: false });
+    };
+    if (!navigator.geolocation) { act(null); return; }
     navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        const c = resolveCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude });
-        map.setView([c.lat, c.lng], c.inArea ? 14 : 12);
-        onDone?.(c);
-      },
-      () => { map.setView([fb.lat, fb.lng], 12); onDone?.(resolveCenter(null)); },
+      (pos) => act({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
+      () => act(null),
       { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
     );
   }
 
   // Switch the active region: re-frame the map. `locate` (home-region boot) also
-  // tries geolocation; a manual switch just fits the new region's bounds.
-  function setRegion(newRegion, { locate = false } = {}) {
+  // tries geolocation; a manual switch just fits the new region's bounds; a
+  // `center` (from a cross-region GPS fix) drops straight onto that point.
+  function setRegion(newRegion, { locate = false, center = null } = {}) {
     activeRegion = newRegion;
     loadDarkSkyFor(newRegion.id);
-    if (locate) centerOnLocation((c) => { if (!c.inArea) toast(`You're outside the covered area — centered on ${c.name}`); });
+    if (center) map.setView([center.lat, center.lng], 14);
+    else if (locate) centerOnLocation((c) => { if (!c.inArea) toast(`You're outside the covered area — centered on ${c.name}`); });
     else frameRegion();
   }
 

@@ -173,13 +173,15 @@ async function loadRegionData(id) {
   }
 }
 
-async function switchRegion(id) {
+async function switchRegion(id, { center = null } = {}) {
   region = pickRegion(regionsDoc, id);
   setActiveRegionId(region.id);
   renderHeader();
   await loadRegionData(region.id);
-  mapView?.setRegion(region, { locate: false }); // manual switch → fit the region
+  // A manual pill tap fits the region; a GPS fix from another region centers there.
+  mapView?.setRegion(region, { locate: false, center });
   refresh();
+  if (center) toast(`You're in the ${region.name} area — switched to that map`);
 }
 
 async function boot() {
@@ -190,7 +192,12 @@ async function boot() {
 
   const mapEl = el('main', { class: 'map-root', 'aria-label': 'Map of photo spots' });
   app.append(mapEl);
-  mapView = createMapView(mapEl, { region, onChange: refresh });
+  mapView = createMapView(mapEl, {
+    region,
+    regions: regionsDoc.regions ?? [],
+    onSwitchRegion: (id, center) => switchRegion(id, { center }),
+    onChange: refresh,
+  });
 
   await loadRegionData(region.id);
   refresh();
