@@ -46,11 +46,13 @@ const BASE_LAYERS = () => ({
   ),
 });
 
-function pinIcon(category) {
+function pinIcon(category, hasPhotos) {
   const meta = CATEGORY_META[category] ?? { letter: '?' };
+  const cls = `pin pin-${category}${hasPhotos ? ' has-photos' : ''}`;
+  const label = `${meta.label ?? category}${hasPhotos ? ', photos available' : ''}`;
   return L.divIcon({
     className: '',
-    html: `<span class="pin pin-${category}" role="img" aria-label="${meta.label ?? category}">${meta.letter}</span>`,
+    html: `<span class="${cls}" role="img" aria-label="${label}">${meta.letter}</span>`,
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -14],
@@ -210,20 +212,33 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     //    pin gets its own cell (all show). Fewer mounted nodes than before → no
     //    lag. User pins always survive; otherwise the higher-scoring pin wins.
     cands.sort((a, c) => scoreOf(c) - scoreOf(a));
+    // How many candidates fall in each cell — the kept pin shows "+N" for the
+    // rest, so a decluttered map clearly signals there's more to zoom into.
+    const keyOf = new Map();
+    const cellCount = new Map();
+    for (const rec of cands) {
+      if (rec.category === 'user_pin') continue;
+      const pt = map.latLngToContainerPoint([rec.lat, rec.lng]);
+      const key = `${Math.floor(pt.x / CELL_PX)}:${Math.floor(pt.y / CELL_PX)}`;
+      keyOf.set(rec, key);
+      cellCount.set(key, (cellCount.get(key) || 0) + 1);
+    }
     const taken = new Set();
     for (const rec of cands) {
-      let keep;
-      if (rec.category === 'user_pin') {
-        keep = true;
-      } else {
-        const pt = map.latLngToContainerPoint([rec.lat, rec.lng]);
-        const key = `${Math.floor(pt.x / CELL_PX)}:${Math.floor(pt.y / CELL_PX)}`;
-        keep = !taken.has(key);
-        if (keep) taken.add(key);
-      }
+      const key = keyOf.get(rec);
+      const keep = rec.category === 'user_pin' || !taken.has(key);
+      if (keep && key) taken.add(key);
       if (keep && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
       else if (!keep && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
+      if (keep) setClusterBadge(rec, key ? cellCount.get(key) - 1 : 0);
     }
+  }
+  // Stamp/clear the "+N others in this spot" badge on a mounted pin.
+  function setClusterBadge(rec, extra) {
+    const pin = rec.marker._icon?.querySelector?.('.pin');
+    if (!pin) return;
+    if (extra > 0) pin.setAttribute('data-more', extra > 9 ? '9+' : String(extra));
+    else pin.removeAttribute('data-more');
   }
   function scoreOf(rec) { return synthesisFor(rec.id)?.score ?? 0; }
   let cullPending = false;
@@ -565,7 +580,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     for (const rec of markerById.values()) rec.marker.remove();
     markerById.clear();
     for (const spot of spots) {
-      const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category) })
+      const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category, !!spot.tags?.commons?.photos) })
         .on('click', rememberViewForPopup)
         .bindPopup(() => popupFor(spot), {
           maxWidth: 320,
