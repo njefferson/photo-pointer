@@ -24,6 +24,12 @@ export function clear(node) {
   while (node.firstChild) node.removeChild(node.firstChild);
 }
 
+// Let a modal <dialog> be dismissed by tapping the dark backdrop, not only its
+// Close button — so a full-screen dialog on a phone always has a way out.
+export function closeOnBackdrop(dlg) {
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+}
+
 let toastTimer = null;
 
 export function toast(msg) {

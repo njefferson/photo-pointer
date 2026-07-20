@@ -188,9 +188,26 @@ body {
 
 .map-root { flex: 1; min-height: 0; }
 
+/* Dark mode darkens the OSM tiles with a filter (reliable + works offline on
+   cached tiles). Satellite imagery is a separate layer with no class, so it's
+   never inverted. */
+:root[data-theme="dark"] .basemap-osm {
+  filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9) saturate(0.85);
+}
+
+/* Long spot popups scroll INSIDE the popup and keep a big, reachable × close,
+   so a card taller than a phone screen never traps you. */
+.leaflet-popup-content { margin: 12px 14px; }
+.leaflet-popup-close-button {
+  width: 30px !important; height: 30px !important;
+  font-size: 22px !important; line-height: 26px !important;
+  padding: 2px 4px 0 0 !important;
+}
+.popup-head { padding-right: 20px; } /* clear the × close */
+
 /* Map / List view toggle (in the header). Active tab inverts (fill), not hue. */
-.view-toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
-.vt-btn { font: inherit; font-size: 13px; padding: 6px 12px; min-height: 34px; background: var(--card); color: var(--ink); border: none; cursor: pointer; }
+.view-toggle { display: inline-flex; flex-shrink: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.vt-btn { font: inherit; font-size: 13px; padding: 6px 14px; min-height: 34px; min-width: 48px; text-align: center; white-space: nowrap; background: var(--card); color: var(--ink); border: none; cursor: pointer; }
 .vt-btn + .vt-btn { border-left: 1px solid var(--line); }
 .vt-btn.on { background: var(--ink); color: var(--bg); font-weight: 650; }
 
@@ -388,6 +405,10 @@ body {
   color: var(--ink);
   padding: 16px;
 }
+
+/* Never let a modal grow taller than the screen with its Close out of reach —
+   cap to the viewport and scroll inside. Backdrop-tap also closes them (JS). */
+.data-dialog, .welcome-dialog, .tip-dialog { max-height: 88vh; overflow-y: auto; overscroll-behavior: contain; }
 .data-dialog h2 { font-size: 16px; margin: 0 0 6px; }
 .data-dialog p, .data-dialog li { font-size: 13px; }
 .data-dialog textarea {

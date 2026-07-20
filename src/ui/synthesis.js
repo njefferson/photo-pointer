@@ -1,7 +1,7 @@
 // UI for cross-layer synthesis: the per-spot "why" breakdown shown in a popup,
 // and the "Top spots" panel that ranks the region by composite score.
 
-import { el } from './dom.js';
+import { el, closeOnBackdrop } from './dom.js';
 import { CATEGORY_META } from './mapview.js';
 
 // A compact "why this spot" block from a synthesis result {score, parts}.
@@ -104,6 +104,7 @@ export function topSpotsPanel(ranked, onGo) {
   apply();
   document.body.append(dlg);
   dlg.addEventListener('close', () => dlg.remove());
+  closeOnBackdrop(dlg);
   dlg.showModal();
   // Focus the dialog itself so no chip is left focus-ringed (which read as
   // "already selected"). The user taps a chip to activate it.

@@ -8,7 +8,7 @@
 // offers one). It shows once (remembered), and stays reachable afterwards from
 // the Backup dialog. Nothing about installing shows once already installed.
 // =============================================================================
-import { el } from './dom.js';
+import { el, closeOnBackdrop } from './dom.js';
 import { CHANGELOG, VERSION } from '../data/changelog.js';
 
 const WELCOMED_KEY = 'pointer.welcomed';
@@ -169,6 +169,7 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
     ]),
   ]);
   dlg.addEventListener('close', () => dlg.remove());
+  closeOnBackdrop(dlg);
   document.body.append(dlg);
   dlg.showModal();
   if (welcome) { rememberWelcomed(); markVersionSeen(); }
@@ -202,6 +203,7 @@ export function openWhatsNew(entries) {
     ]),
   ]);
   dlg.addEventListener('close', () => dlg.remove());
+  closeOnBackdrop(dlg);
   document.body.append(dlg);
   dlg.showModal();
 }

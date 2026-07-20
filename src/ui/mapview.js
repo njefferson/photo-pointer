@@ -11,7 +11,6 @@ import { airToday } from '../model/airquality.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
 import { inBBox, bboxCenter } from '../model/geo.js';
-import { currentTheme } from './theme.js';
 
 // If a GPS fix lands outside the covered region, drop the user in the middle of
 // the map's world instead — Cameron Park, in El Dorado County (Noah's call).
@@ -32,15 +31,13 @@ export const CATEGORY_META = {
 // Tile hosts MUST also be listed in sw.js TILE_HOSTS (SW bypasses them —
 // opaque cross-origin tiles through a SW break on iOS WebKit).
 const BASE_LAYERS = () => ({
+  // The OSM base carries a class so dark mode can darken it with a CSS filter —
+  // reliable and offline-friendly (works on already-cached tiles), unlike an
+  // external dark-tile provider that can be blocked or unreachable.
   Map: L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
+    className: 'basemap-osm',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  }),
-  // Keyless dark basemap (CARTO), so the map itself goes dark with the theme.
-  Night: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19,
-    subdomains: 'abcd',
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
   }),
   Satellite: L.tileLayer(
     'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
@@ -156,22 +153,11 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // driven by main.js via setRegion once data is ready.
 
   const bases = BASE_LAYERS();
-  // Start the basemap matching the theme so a dark app has a dark map.
-  let currentBaseName = currentTheme() === 'dark' ? 'Night' : 'Map';
-  bases[currentBaseName].addTo(map);
+  bases.Map.addTo(map);
   const layerControl = L.control.layers(bases, {}, { position: 'topright' }).addTo(map);
-  map.on('baselayerchange', (e) => { currentBaseName = e.name; });
-
-  // Follow the theme: swap Map<->Night when it flips, unless the user has
-  // deliberately chosen Satellite (leave their choice alone).
-  function syncThemeBasemap(theme) {
-    if (currentBaseName === 'Satellite') return;
-    const want = theme === 'dark' ? 'Night' : 'Map';
-    if (want === currentBaseName) return;
-    map.removeLayer(bases[currentBaseName]);
-    bases[want].addTo(map);
-    currentBaseName = want;
-  }
+  // Dark mode is handled by a CSS filter on the OSM tiles (see .basemap-osm),
+  // so no JS basemap swap and no external tile provider is needed.
+  function syncThemeBasemap() { /* CSS-driven now; kept for the caller */ }
 
   // Dark-sky overlay — per region, so it swaps when you switch regions. Loaded
   // async; a region without the layer simply gets none. Its legend shows only
@@ -545,7 +531,14 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     markerById.clear();
     for (const spot of spots) {
       const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category) })
-        .bindPopup(() => popupFor(spot));
+        .bindPopup(() => popupFor(spot), {
+          maxWidth: 320,
+          // Cap the popup to the viewport so a long card scrolls INSIDE the popup
+          // (Leaflet makes a scroll container) and the × close stays reachable —
+          // instead of overflowing off a phone screen with no way to dismiss it.
+          maxHeight: Math.max(240, Math.round((typeof window !== 'undefined' ? window.innerHeight : 700) * 0.6)),
+          autoPanPadding: [12, 76],
+        });
       markerById.set(spot.id, { marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false });
     }
     cull();

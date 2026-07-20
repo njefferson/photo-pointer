@@ -1,6 +1,6 @@
 // photo-pointer — boot. One region, one map, every photo-worthy place on it.
 
-import { el, clear, toast } from './ui/dom.js';
+import { el, clear, toast, closeOnBackdrop } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
 import { createMapView, CATEGORY_META } from './ui/mapview.js';
 import { loadRegions, pickRegion } from './model/region.js';
@@ -150,6 +150,7 @@ function showStartTip() {
   ]);
   document.body.append(dlg);
   dlg.addEventListener('close', () => dlg.remove());
+  closeOnBackdrop(dlg);
   dlg.showModal();
 }
 
@@ -197,6 +198,7 @@ function openDataDialog() {
   ]);
   document.body.append(dlg);
   dlg.addEventListener('close', () => dlg.remove());
+  closeOnBackdrop(dlg);
   dlg.showModal();
 }
 
