@@ -1,0 +1,37 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Historical markers (Wikidata, CC0 — links out to HMdb)",
+    "license": "CC0-1.0",
+    "attribution": "Marker facts from Wikidata (CC0); marker pages via HMdb.org",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-20",
+  "records": [
+    {
+      "name": "Possum Monument",
+      "lat": 30.6305,
+      "lng": -85.5896,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123504458",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123504458",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    }
+  ]
+}

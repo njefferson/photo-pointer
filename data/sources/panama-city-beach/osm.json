@@ -1,0 +1,2208 @@
+{
+  "source": {
+    "source": "osm",
+    "name": "OpenStreetMap (Overpass API)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-20",
+  "records": [
+    {
+      "name": null,
+      "lat": 30.1573272,
+      "lng": -85.6422573,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/10015273293",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/10015273293",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Celebration Tower",
+      "lat": 30.2181054,
+      "lng": -85.8734829,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Celebration Tower",
+        "operator": "Pier Park",
+        "tourism": "attraction"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11899496048",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11899496048",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 30.2184374,
+      "lng": -85.8736827,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11899496049",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11899496049",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 30.5489921,
+      "lng": -85.4357081,
+      "category": "trailhead",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "highway": "trailhead"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/3199670251",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/3199670251",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Cove Park",
+      "lat": 30.1366734,
+      "lng": -85.6380245,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Cove Park",
+        "ele": "5",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358694216",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358694216",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Oliver Stadium",
+      "lat": 30.1724237,
+      "lng": -85.6554835,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Oliver Stadium",
+        "ele": "10",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358702420",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358702420",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Point Washington Wildlife Management Area",
+      "lat": 30.3543657,
+      "lng": -85.937436,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Point Washington Wildlife Management Area",
+        "ele": "15",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358709505",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358709505",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Panama City 9/11 Memorial",
+      "lat": 30.1510074,
+      "lng": -85.6657285,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Panama City 9/11 Memorial",
+        "historic": "memorial",
+        "memorial": "statue"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/4687369383",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/4687369383",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Tyndall Air Field Gunnery School",
+      "lat": 30.0692297,
+      "lng": -85.5922443,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Tyndall Air Field Gunnery School",
+        "historic": "memorial"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5796395926",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5796395926",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Flame",
+      "lat": 30.1529657,
+      "lng": -85.6635871,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Panama City Flame",
+        "historic": "memorial"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5808923770",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5808923770",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "George Park",
+      "lat": 30.1463924,
+      "lng": -85.6281053,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "George Park",
+        "ele": "5",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/6008844550",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/6008844550",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Sea Screamer",
+      "lat": 30.1446193,
+      "lng": -85.7482938,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Sea Screamer",
+        "website": "https://seascreamer.net/",
+        "tourism": "attraction"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/6309931137",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/6309931137",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Denae Park",
+      "lat": 30.1249656,
+      "lng": -85.5537276,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Denae Park",
+        "opening_hours": "24/7",
+        "operator": "Denae",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/6525087901",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/6525087901",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Deep Springs Park",
+      "lat": 30.5168679,
+      "lng": -85.4528754,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Deep Springs Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/7182205320",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/7182205320",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 30.1714869,
+      "lng": -85.7588823,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/7727000159",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/7727000159",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Beach Veteran's Memorial",
+      "lat": 30.2190662,
+      "lng": -85.8761218,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Panama City Beach Veteran's Memorial",
+        "description": "Public memorial that honors all branches of the armed forces and those who have served. As mentioned on their website, memorial bricks may be purchased through Panama City Beach Parks and Recreation.",
+        "website": "https://www.panamacitybeachparksandrecreation.com/veterans-memorial.html",
+        "opening_hours": "24/7",
+        "operator": "Panama City Beach Parks and Recreation",
+        "historic": "memorial",
+        "tourism": "attraction",
+        "memorial": "war_memorial"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/7777340736",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/7777340736",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 30.4835299,
+      "lng": -85.4185145,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "historic": "ruins"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/8765073121",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/8765073121",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 30.2464789,
+      "lng": -85.6518623,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/9960881539",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/9960881539",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Trap Pond Camp",
+      "lat": 30.5307026,
+      "lng": -85.4831968,
+      "category": "campsite",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Trap Pond Camp",
+        "tourism": "camp_site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/9984370412",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/9984370412",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Saint Andrews State Park",
+      "lat": 30.1153493,
+      "lng": -85.7115314,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Saint Andrews State Park",
+        "ele": "1",
+        "wikipedia": "en:St. Andrews State Park",
+        "wikidata": "Q3364098",
+        "website": "https://www.floridastateparks.org/parks-and-trails/st-andrews-state-park",
+        "opening_hours": "08:00-sunset",
+        "operator": "Florida State Parks",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "relation/1862927",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/relation/1862927",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Apalachicola National Forest",
+      "lat": 30.3056038,
+      "lng": -85.6106097,
+      "category": "park",
+      "subject_type": [
+        "wildlife"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Apalachicola National Forest",
+        "wikipedia": "en:Apalachicola National Forest",
+        "wikidata": "Q617396",
+        "website": "https://www.fs.usda.gov/florida",
+        "operator": "United States Forest Service",
+        "leisure": "nature_reserve",
+        "boundary": "protected_area"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "relation/3499712",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/relation/3499712",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "McKenzie Park",
+      "lat": 30.1540523,
+      "lng": -85.6605199,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "McKenzie Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "relation/8840259",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/relation/8840259",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Cain Griffin Park",
+      "lat": 30.2336676,
+      "lng": -85.6420179,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Cain Griffin Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1061175895",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1061175895",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Chickadee Park",
+      "lat": 30.2057536,
+      "lng": -85.6811465,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Chickadee Park",
+        "access": "yes",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1079299532",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1079299532",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Sharon J. Sheffield Park",
+      "lat": 30.244324,
+      "lng": -85.6480555,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Sharon J. Sheffield Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1086875191",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1086875191",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Memorial Park",
+      "lat": 30.2464782,
+      "lng": -85.6518576,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Memorial Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1087135109",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1087135109",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Spring Valley Walking Park",
+      "lat": 30.1776098,
+      "lng": -85.6280656,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Spring Valley Walking Park",
+        "operator": "Bay County",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1093459004",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1093459004",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Whittington Park",
+      "lat": 30.1571478,
+      "lng": -85.6427385,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Whittington Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1093515200",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1093515200",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Bay Memorial Park",
+      "lat": 30.1650564,
+      "lng": -85.671988,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Bay Memorial Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1093740241",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1093740241",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Frank Nelson Park",
+      "lat": 30.1889741,
+      "lng": -85.715023,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Frank Nelson Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1097603234",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1097603234",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Southport Ball Park",
+      "lat": 30.2879104,
+      "lng": -85.635615,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Southport Ball Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1101878364",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1101878364",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Kenneth R. Hammons Park",
+      "lat": 30.17227,
+      "lng": -85.6827064,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Kenneth R. Hammons Park",
+        "operator": "City of Panama City",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1103036515",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1103036515",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "James E. Rogers Park",
+      "lat": 30.2217934,
+      "lng": -85.6571941,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "James E. Rogers Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1111706724",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1111706724",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Shell Island",
+      "lat": 30.0771216,
+      "lng": -85.6487655,
+      "category": "park",
+      "subject_type": [
+        "wildlife"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Shell Island",
+        "operator": "United States Fish and Wildlife Service",
+        "leisure": "nature_reserve"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1175996034",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1175996034",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Rick Seltzer Park",
+      "lat": 30.148805,
+      "lng": -85.7241991,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Rick Seltzer Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1267570684",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1267570684",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Snug Harbor Public Boat Launch",
+      "lat": 30.15604,
+      "lng": -85.636362,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Snug Harbor Public Boat Launch",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1337750607",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1337750607",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Millville Waterfront Park",
+      "lat": 30.1534665,
+      "lng": -85.6365402,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Millville Waterfront Park",
+        "website": "https://www.panamacity.gov/Facilities/Facility/Details/Millville-Waterfront-Park-33",
+        "operator": "Panama City Parks Culture and Recreation",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1484033723",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1484033723",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Frank Brown Park",
+      "lat": 30.2303545,
+      "lng": -85.875009,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Frank Brown Park",
+        "website": "https://www.pcbfl.gov/departments/parks-recreation-department/parks-facilities/frank-brown-park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/190134313",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/190134313",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Oakland Terrace Park",
+      "lat": 30.169017,
+      "lng": -85.6900342,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Oakland Terrace Park",
+        "ele": "10",
+        "opening_hours": "sunrise-sunset",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/237754786",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/237754786",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Carl Gray Park",
+      "lat": 30.1878531,
+      "lng": -85.7292709,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Carl Gray Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/298955351",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/298955351",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Camp Helen State Park",
+      "lat": 30.273427,
+      "lng": -85.9906721,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Camp Helen State Park",
+        "wikipedia": "en:Camp Helen State Park",
+        "wikidata": "Q3364025",
+        "website": "https://www.floridastateparks.org/parks-and-trails/camp-helen-state-park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/315107815",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/315107815",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Harvey De Mathis Park",
+      "lat": 30.2082805,
+      "lng": -85.6696221,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Harvey De Mathis Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/340323818",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/340323818",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Pine Log State Forest",
+      "lat": 30.4110651,
+      "lng": -85.8670227,
+      "category": "park",
+      "subject_type": [
+        "wildlife"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Pine Log State Forest",
+        "ele": "16",
+        "leisure": "nature_reserve",
+        "boundary": "protected_area"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/364598779",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/364598779",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "A.L. Kinsaul Park",
+      "lat": 30.2518363,
+      "lng": -85.6611961,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "A.L. Kinsaul Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/386273995",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/386273995",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Maggi Still Memorial Park",
+      "lat": 30.2000075,
+      "lng": -85.8444263,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Maggi Still Memorial Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/402014907",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/402014907",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Scott Field Park",
+      "lat": 30.2335375,
+      "lng": -85.8891634,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Scott Field Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/402015231",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/402015231",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Oaks By The Bay Park",
+      "lat": 30.1664983,
+      "lng": -85.7011493,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Oaks By The Bay Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/421670855",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/421670855",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Youngstown/Fountain Recreational Complex",
+      "lat": 30.4380784,
+      "lng": -85.4172315,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Youngstown/Fountain Recreational Complex",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/421671577",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/421671577",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Russell-Fields City Pier",
+      "lat": 30.1902298,
+      "lng": -85.8309748,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Russell-Fields City Pier",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/424426057",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/424426057",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Aaron Bessant Park",
+      "lat": 30.2215352,
+      "lng": -85.8763953,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Aaron Bessant Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/424601494",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/424601494",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Veterans Memorial",
+      "lat": 30.221605,
+      "lng": -85.8764523,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Veterans Memorial",
+        "historic": "memorial"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/424601502",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/424601502",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Lake Powell Park",
+      "lat": 30.2674964,
+      "lng": -85.9752919,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Lake Powell Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/427742199",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/427742199",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Dog Walking Park",
+      "lat": 29.9390893,
+      "lng": -85.3988202,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Dog Walking Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/462163408",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/462163408",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Park Under the Palms",
+      "lat": 29.9371106,
+      "lng": -85.3964524,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Park Under the Palms",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/462163730",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/462163730",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Park",
+      "lat": 29.9354537,
+      "lng": -85.3944758,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/462164614",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/462164614",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Pinnacle Park",
+      "lat": 30.2669073,
+      "lng": -85.9875055,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Pinnacle Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/468892613",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/468892613",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Pinnacle Dog Park",
+      "lat": 30.2665867,
+      "lng": -85.9855733,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Pinnacle Dog Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/468894373",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/468894373",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Under The Oaks Park",
+      "lat": 30.1189156,
+      "lng": -85.5935042,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Under The Oaks Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/474884003",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/474884003",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Joe Moody Harris Park",
+      "lat": 30.1624494,
+      "lng": -85.6272084,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Joe Moody Harris Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/474927253",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/474927253",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Lynn Haven Sports Complex",
+      "lat": 30.2271414,
+      "lng": -85.6145514,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Lynn Haven Sports Complex",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/475532878",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/475532878",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Richard Seltzer Park",
+      "lat": 30.1593827,
+      "lng": -85.7772683,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Richard Seltzer Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/475891599",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/475891599",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Henry Brooks Memorial Walking Park",
+      "lat": 30.154021,
+      "lng": -85.6142912,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Henry Brooks Memorial Walking Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/477217587",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/477217587",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Buddy McLemore Park",
+      "lat": 30.1523724,
+      "lng": -85.6091734,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Buddy McLemore Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/477217667",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/477217667",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Buddy McLemore Park",
+      "lat": 30.1517043,
+      "lng": -85.610324,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Buddy McLemore Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/477217721",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/477217721",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Parker Sports Complex",
+      "lat": 30.1328737,
+      "lng": -85.6047531,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Parker Sports Complex",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/477217832",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/477217832",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Mexico Beach Park",
+      "lat": 29.9455444,
+      "lng": -85.4108327,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Mexico Beach Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/479884722",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/479884722",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Springfield Gardens Walking Park",
+      "lat": 30.1584572,
+      "lng": -85.6071987,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Springfield Gardens Walking Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/484605303",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/484605303",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Leslie Porter Wayside Park",
+      "lat": 30.2536674,
+      "lng": -85.6462426,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Leslie Porter Wayside Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/487890759",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/487890759",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "HG Harders Recreational Complex",
+      "lat": 30.2425087,
+      "lng": -85.5095387,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "HG Harders Recreational Complex",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/487890760",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/487890760",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Grove Park",
+      "lat": 30.2050568,
+      "lng": -85.8070875,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Grove Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/504129041",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/504129041",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Truesdell Park",
+      "lat": 30.166995,
+      "lng": -85.7000506,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Truesdell Park",
+        "ele": "4",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/548411192",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/548411192",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Asbell Park",
+      "lat": 30.1637561,
+      "lng": -85.6826282,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Asbell Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/563166909",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/563166909",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Felix Lake Recreation Area",
+      "lat": 30.1058101,
+      "lng": -85.6486614,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Felix Lake Recreation Area",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/612322174",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/612322174",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Bonita Bay Recreation Area",
+      "lat": 30.1004306,
+      "lng": -85.6131456,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Bonita Bay Recreation Area",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/612323972",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/612323972",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Maxwell Flag Park",
+      "lat": 30.0687833,
+      "lng": -85.592734,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Maxwell Flag Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/612332589",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/612332589",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Heritage Park",
+      "lat": 30.0688562,
+      "lng": -85.6036669,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Heritage Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/612380099",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/612380099",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Balfour Beatty Community Recreation Center",
+      "lat": 30.0970727,
+      "lng": -85.6405309,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Balfour Beatty Community Recreation Center",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/612441869",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/612441869",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Beach Conservation Park",
+      "lat": 30.2753375,
+      "lng": -85.9188075,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Panama City Beach Conservation Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/613087895",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/613087895",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Earl Gilbert Park",
+      "lat": 30.1063886,
+      "lng": -85.6026028,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Earl Gilbert Park",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/613494048",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/613494048",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Zoom Flume",
+      "lat": 30.1922377,
+      "lng": -85.8273837,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Zoom Flume",
+        "tourism": "attraction"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/616687535",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/616687535",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Wild Thang Airboat Tours",
+      "lat": 30.2935787,
+      "lng": -85.8581832,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Wild Thang Airboat Tours",
+        "tourism": "attraction"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/637632137",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/637632137",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Denae's camping area",
+      "lat": 30.1235071,
+      "lng": -85.5561488,
+      "category": "campsite",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Denae's camping area",
+        "tourism": "camp_site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/694774969",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/694774969",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Saint Andrews State Park Campground",
+      "lat": 30.137536,
+      "lng": -85.7386259,
+      "category": "campsite",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Saint Andrews State Park Campground",
+        "website": "https://www.floridastateparks.org/learn/campground-open-st-andrews",
+        "fee": "yes",
+        "access": "customers",
+        "operator": "Florida State Parks",
+        "tourism": "camp_site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/724321973",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/724321973",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Raccoon River Campground",
+      "lat": 30.1935859,
+      "lng": -85.8301031,
+      "category": "campsite",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Raccoon River Campground",
+        "website": "http://raccoonriver.net/",
+        "tourism": "camp_site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/756385497",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/756385497",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Beach Sports Complex",
+      "lat": 30.1998216,
+      "lng": -85.7715439,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Panama City Beach Sports Complex",
+        "leisure": "park"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/967103851",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/967103851",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ]
+    }
+  ]
+}
