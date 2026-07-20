@@ -65,6 +65,15 @@ doing anything.
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-19 PROMOTED 0.5.0→0.11.0 to main in one fast-forward (Noah's "Promote
+  to main" after his on-device pass on staging): production == 0.11.0
+  (photo-pointer.pages.dev, Deploy run #41 on main). Seven releases went live at
+  once — Tonight (moon/dark-window/clouds), Public lands, Open horizon, Wild
+  subjects (iNaturalist), Historical sites (Wikidata/HMdb), Photographed
+  (Commons), Air today (Open-Meteo AQI). That completes the WHOLE integrations
+  list (Tiers 1-3). A top spot can now stack eight independent layers. main was
+  0.4.0 → clean 23-commit fast-forward, main an ancestor of staging. staging ==
+  main after this; next candidate re-diverges staging.
 - 2026-07-19 0.11.0 "Air today" BUILT on staging (awaiting on-device pass): Tier
   3 item #3 (air quality / wildfire smoke). Uses OPEN-METEO AIR QUALITY (keyless,
   CORS, live client-side) NOT NASA FIRMS — a committed fire snapshot goes stale;
