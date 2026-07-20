@@ -71,6 +71,11 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 1.4.2 to main (Noah's "Promote"). Production ==
+  origin/staging == 6b5f4f2 (clean 1-commit fast-forward from 1.4.1). Ships the
+  basemap fix: Referrer-Policy no-referrer → strict-origin-when-cross-origin so
+  OSM tile requests carry a Referer and stop 403'ing to the "Access blocked"
+  placeholder. Affected every region. staging == main.
 - 2026-07-20 1.4.2 "The map background is back" BUILT on staging (awaiting
   on-device pass — NEEDS NOAH'S HANDS: confirm the OSM basemap tiles actually
   render on his device). BUG (Noah screenshot, home region): the ENTIRE basemap
