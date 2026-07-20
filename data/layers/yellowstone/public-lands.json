@@ -1,0 +1,794 @@
+{
+  "source": {
+    "source": "public_lands",
+    "name": "Public-land boundaries (OpenStreetMap)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "builtAt": "2026-07-20",
+  "count": 71,
+  "areas": [
+    {
+      "name": "Gallatin Wildlife Management Area",
+      "class": "5",
+      "operator": "Montana Department of Fish, Wildlife and Parks",
+      "bbox": {
+        "south": 45.0292511,
+        "west": -111.3726066,
+        "north": 45.2572363,
+        "east": -111.1075082
+      }
+    },
+    {
+      "name": "Dome Mountain Wildlife Management Area",
+      "class": "5",
+      "operator": "Montana Fish, Wildlife & Parks",
+      "bbox": {
+        "south": 45.1533246,
+        "west": -110.8479191,
+        "north": 45.2777619,
+        "east": -110.7814687
+      }
+    },
+    {
+      "name": "John D. Rockefeller, Jr. Memorial Parkway",
+      "class": "national_park",
+      "operator": "National Park Service",
+      "bbox": {
+        "south": 44.043755,
+        "west": -110.7952899,
+        "north": 44.132254,
+        "east": -110.6548086
+      }
+    },
+    {
+      "name": "Yellowstone National Park",
+      "class": "2",
+      "operator": "National Park Service",
+      "bbox": {
+        "south": 44.131575,
+        "west": -111.1559859,
+        "north": 45.1089567,
+        "east": -109.825487
+      }
+    },
+    {
+      "name": "Grand Teton National Park",
+      "class": "2",
+      "operator": "National Park Service",
+      "bbox": {
+        "south": 43.5379226,
+        "west": -110.9484175,
+        "north": 44.0840061,
+        "east": -110.4227323
+      }
+    },
+    {
+      "name": "Custer Gallatin National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 44.4861029,
+        "west": -111.5934587,
+        "north": 46.2924898,
+        "east": -103.0089259
+      }
+    },
+    {
+      "name": "Helena-Lewis and Clark National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 46.1217397,
+        "west": -113.3567235,
+        "north": 48.4128448,
+        "east": -109.0095701
+      }
+    },
+    {
+      "name": "North Absaroka Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 44.4697584,
+        "west": -110.172593,
+        "north": 45.0034185,
+        "east": -109.3724183
+      }
+    },
+    {
+      "name": "Washakie Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 43.6991046,
+        "west": -110.074357,
+        "north": 44.4808521,
+        "east": -109.0637093
+      }
+    },
+    {
+      "name": "Fitzpatrick Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 42.976801,
+        "west": -109.7886734,
+        "north": 43.4918455,
+        "east": -109.458171
+      }
+    },
+    {
+      "name": "Bridger Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 42.5932612,
+        "west": -109.9524003,
+        "north": 43.3905814,
+        "east": -109.0126572
+      }
+    },
+    {
+      "name": "Teton Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 43.7619099,
+        "west": -110.6836775,
+        "north": 44.3243675,
+        "east": -109.7226944
+      }
+    },
+    {
+      "name": "Shoshone National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 42.4916937,
+        "west": -110.172593,
+        "north": 45.0054062,
+        "east": -108.6984903
+      }
+    },
+    {
+      "name": "Gros Ventre Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 43.2597515,
+        "west": -110.7326674,
+        "north": 43.6397442,
+        "east": -110.1181744
+      }
+    },
+    {
+      "name": "Bridger-Teton National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 42.1268737,
+        "west": -111.0470008,
+        "north": 44.3243675,
+        "east": -108.880188
+      }
+    },
+    {
+      "name": "National Elk Refuge",
+      "class": "4",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 43.47971,
+        "west": -110.7622681,
+        "north": 43.6401753,
+        "east": -110.5832055
+      }
+    },
+    {
+      "name": "Jedediah Smith Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 43.5087572,
+        "west": -111.0455021,
+        "north": 44.1163693,
+        "east": -110.7860572
+      }
+    },
+    {
+      "name": "Winegar Hole Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 44.0725733,
+        "west": -111.0486245,
+        "north": 44.1327383,
+        "east": -110.8955279
+      }
+    },
+    {
+      "name": "Palisades Wilderness Study Area",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 43.1772742,
+        "west": -111.045492,
+        "north": 43.5427452,
+        "east": -110.7776248
+      }
+    },
+    {
+      "name": "Shoal Creek Wilderness Study Area",
+      "class": "1b",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 43.2173838,
+        "west": -110.475611,
+        "north": 43.3741271,
+        "east": -110.1572378
+      }
+    },
+    {
+      "name": "Absaroka–Beartooth Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 44.9345566,
+        "west": -110.7813321,
+        "north": 45.6047181,
+        "east": -109.3957837
+      }
+    },
+    {
+      "name": "Whiskey Mountain Wilderness Study Area",
+      "class": "1b",
+      "operator": "BLM",
+      "bbox": {
+        "south": 43.4636479,
+        "west": -109.6445101,
+        "north": 43.4831164,
+        "east": -109.6150077
+      }
+    },
+    {
+      "name": "Dubois Badlands Wilderness Study Area",
+      "class": "1b",
+      "operator": "BLM",
+      "bbox": {
+        "south": 43.4999575,
+        "west": -109.6124822,
+        "north": 43.5518869,
+        "east": -109.5094702
+      }
+    },
+    {
+      "name": "McCullough Peaks Wilderness Study Area",
+      "class": "1b",
+      "operator": "BLM",
+      "bbox": {
+        "south": 44.578942,
+        "west": -108.9047237,
+        "north": 44.6731563,
+        "east": -108.7262651
+      }
+    },
+    {
+      "name": "High Lakes Wilderness Study Area",
+      "class": "1b",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 44.9506101,
+        "west": -109.6385037,
+        "north": 45.0045678,
+        "east": -109.4150501
+      }
+    },
+    {
+      "name": "Caribou-Targhee National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 41.9014246,
+        "west": -113.2778091,
+        "north": 44.754954,
+        "east": -110.764654
+      }
+    },
+    {
+      "name": "Henrys Lake Wilderness Study Area",
+      "class": "1b",
+      "operator": "BLM",
+      "bbox": {
+        "south": 44.6650199,
+        "west": -111.3968506,
+        "north": 44.6757431,
+        "east": -111.3767143
+      }
+    },
+    {
+      "name": "Sand Mountain Wilderness Study Area",
+      "class": "1b",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 43.9420834,
+        "west": -112.0011324,
+        "north": 44.0211174,
+        "east": -111.7781898
+      }
+    },
+    {
+      "name": "Lee Metcalf Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service;Bureau of Land Management",
+      "bbox": {
+        "south": 44.83192,
+        "west": -111.6449854,
+        "north": 45.5816522,
+        "east": -111.096791
+      }
+    },
+    {
+      "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+      "class": "1b",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 45.0571406,
+        "west": -111.2304026,
+        "north": 45.5248956,
+        "east": -110.795395
+      }
+    },
+    {
+      "name": "Beaverhead-Deerlodge National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 44.357915,
+        "west": -113.938095,
+        "north": 46.6876175,
+        "east": -111.3695502
+      }
+    },
+    {
+      "name": "Yellowstone River Island Wilderness Study Area",
+      "class": "1b",
+      "operator": "BLM",
+      "bbox": {
+        "south": 45.7021483,
+        "west": -110.5071432,
+        "north": 45.7094328,
+        "east": -110.4966072
+      }
+    },
+    {
+      "name": "Madison Buffalo Jump State Park",
+      "class": "2",
+      "operator": "Montana Department of Fish, Wildlife and Parks",
+      "bbox": {
+        "south": 45.7869674,
+        "west": -111.4734182,
+        "north": 45.8015743,
+        "east": -111.4513636
+      }
+    },
+    {
+      "name": "Montana State Land Trust",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 45.8598667,
+        "west": -111.4516148,
+        "north": 45.874531,
+        "east": -111.4312508
+      }
+    },
+    {
+      "name": "BLM",
+      "class": "5",
+      "operator": "US Bureau of Land Management",
+      "bbox": {
+        "south": 45.6849089,
+        "west": -110.7958922,
+        "north": 45.699439,
+        "east": -110.7766045
+      }
+    },
+    {
+      "name": "MT University",
+      "class": "5",
+      "operator": "Montana University System",
+      "bbox": {
+        "south": 45.8021776,
+        "west": -111.0558207,
+        "north": 45.8277816,
+        "east": -111.0452472
+      }
+    },
+    {
+      "name": "Public Land",
+      "class": "5",
+      "operator": "Public Land",
+      "bbox": {
+        "south": 45.7200899,
+        "west": -111.0008207,
+        "north": 45.7360869,
+        "east": -110.9798859
+      }
+    },
+    {
+      "name": "Public Land",
+      "class": "5",
+      "operator": "Public Land",
+      "bbox": {
+        "south": 45.7133611,
+        "west": -111.004004,
+        "north": 45.7148586,
+        "east": -111.0008859
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 45.6992933,
+        "west": -110.8159817,
+        "north": 45.7138599,
+        "east": -110.7952801
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 46.0898196,
+        "west": -111.027356,
+        "north": 46.1042488,
+        "east": -111.0169587
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 45.743072,
+        "west": -110.8683873,
+        "north": 45.7576606,
+        "east": -110.857209
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 46.0495931,
+        "west": -111.0526701,
+        "north": 46.0641571,
+        "east": -111.0369732
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 45.7874583,
+        "west": -111.0556173,
+        "north": 45.7949084,
+        "east": -111.034799
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 45.7440351,
+        "west": -110.9998352,
+        "north": 45.7585927,
+        "east": -110.9798892
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 46.0468231,
+        "west": -110.9340863,
+        "north": 46.0612548,
+        "east": -110.9133437
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 46.0062667,
+        "west": -111.1190736,
+        "north": 46.0205353,
+        "east": -111.0987379
+      }
+    },
+    {
+      "name": "USFS",
+      "class": "6",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 45.7034675,
+        "west": -110.980272,
+        "north": 45.707073,
+        "east": -110.975011
+      }
+    },
+    {
+      "name": "Gallatin National Forest",
+      "class": "6",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 46.0610401,
+        "west": -110.9963418,
+        "north": 46.0755054,
+        "east": -110.9755974
+      }
+    },
+    {
+      "name": "Gallatin National Forest",
+      "class": "6",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 46.0898632,
+        "west": -110.9963417,
+        "north": 46.1042971,
+        "east": -110.9756684
+      }
+    },
+    {
+      "name": "Gallatin National Forest",
+      "class": "6",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 46.0755054,
+        "west": -110.9756684,
+        "north": 46.0900074,
+        "east": -110.9547992
+      }
+    },
+    {
+      "name": "USFS",
+      "class": "6",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 46.1097259,
+        "west": -110.96533,
+        "north": 46.1133447,
+        "east": -110.954934
+      }
+    },
+    {
+      "name": "Gallatin National Forest",
+      "class": "6",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 46.0468042,
+        "west": -110.8947735,
+        "north": 46.0612471,
+        "east": -110.8739562
+      }
+    },
+    {
+      "name": "USFWS",
+      "class": "5",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 45.7033964,
+        "west": -110.9803854,
+        "north": 45.7142518,
+        "east": -110.9697847
+      }
+    },
+    {
+      "name": "BLM",
+      "class": "5",
+      "operator": "US Bureau of Land Management",
+      "bbox": {
+        "south": 46.1051996,
+        "west": -110.8635623,
+        "north": 46.1226152,
+        "east": -110.842827
+      }
+    },
+    {
+      "name": "BLM",
+      "class": "5",
+      "operator": "US Bureau of Land Management",
+      "bbox": {
+        "south": 46.126228,
+        "west": -110.8738652,
+        "north": 46.1565917,
+        "east": -110.8530213
+      }
+    },
+    {
+      "name": "BLM",
+      "class": "5",
+      "operator": "US Bureau of Land Management",
+      "bbox": {
+        "south": 46.1226084,
+        "west": -110.8738887,
+        "north": 46.1262206,
+        "east": -110.8687009
+      }
+    },
+    {
+      "name": "BLM",
+      "class": "5",
+      "operator": "US Bureau of Land Management",
+      "bbox": {
+        "south": 46.1153787,
+        "west": -110.8843145,
+        "north": 46.1189993,
+        "east": -110.8738986
+      }
+    },
+    {
+      "name": "BLM",
+      "class": "5",
+      "operator": "US Bureau of Land Management",
+      "bbox": {
+        "south": 46.1117618,
+        "west": -110.8947386,
+        "north": 46.1189751,
+        "east": -110.8895109
+      }
+    },
+    {
+      "name": "BLM",
+      "class": "5",
+      "operator": "US Bureau of Land Management",
+      "bbox": {
+        "south": 46.1225418,
+        "west": -110.9135191,
+        "north": 46.1421821,
+        "east": -110.8946655
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 46.1421001,
+        "west": -110.9304644,
+        "north": 46.1566311,
+        "east": -110.9095132
+      }
+    },
+    {
+      "name": "State Trust",
+      "class": "5",
+      "operator": "Montana State Trust Lands",
+      "bbox": {
+        "south": 46.0900884,
+        "west": -110.8739405,
+        "north": 46.104581,
+        "east": -110.8531116
+      }
+    },
+    {
+      "name": "Gallatin National Forest",
+      "class": "6",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 46.0612139,
+        "west": -110.8739562,
+        "north": 46.0756496,
+        "east": -110.853027
+      }
+    },
+    {
+      "name": "Jackson Lake Lodge",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 43.8766025,
+        "west": -110.5780095,
+        "north": 43.8779381,
+        "east": -110.5768422
+      }
+    },
+    {
+      "name": "Old Faithful Inn",
+      "class": "protected_area",
+      "operator": "Xanterra Parks and Resorts",
+      "bbox": {
+        "south": 44.4590656,
+        "west": -110.8328273,
+        "north": 44.460177,
+        "east": -110.8298475
+      }
+    },
+    {
+      "name": "Norris Geyser Basin Museum",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 44.7264737,
+        "west": -110.7037602,
+        "north": 44.7265772,
+        "east": -110.7033822
+      }
+    },
+    {
+      "name": "Gallatin Forks fishing access",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 45.882253,
+        "west": -111.3377335,
+        "north": 45.8929877,
+        "east": -111.3172895
+      }
+    },
+    {
+      "name": "Wapiti Ranger Station",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 44.4643728,
+        "west": -109.6138417,
+        "north": 44.4644901,
+        "east": -109.6136253
+      }
+    },
+    {
+      "name": "Missouri Headwaters State Park",
+      "class": "2",
+      "operator": "State of Montana",
+      "bbox": {
+        "south": 45.9088615,
+        "west": -111.5079053,
+        "north": 45.9415342,
+        "east": -111.4885504
+      }
+    },
+    {
+      "name": "Murie Ranch Historic District",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 43.6492482,
+        "west": -110.7305666,
+        "north": 43.6513872,
+        "east": -110.7271082
+      }
+    },
+    {
+      "name": "Northeast Entrance Station",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 45.0052962,
+        "west": -110.0119273,
+        "north": 45.0054482,
+        "east": -110.0113889
+      }
+    },
+    {
+      "name": "Story Mill Nature Reserve",
+      "class": "nature_reserve",
+      "operator": "City of Bozeman",
+      "bbox": {
+        "south": 45.6950897,
+        "west": -111.0280795,
+        "north": 45.699817,
+        "east": -111.0215511
+      }
+    }
+  ]
+}

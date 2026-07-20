@@ -28,7 +28,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -83,7 +88,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -639,7 +649,12 @@
       ],
       "tags": {
         "name": "Adam's Canyon Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -876,7 +891,12 @@
       "tags": {
         "name": "Alex Lowe Peak",
         "ele": "3054",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -959,7 +979,12 @@
       ],
       "tags": {
         "name": "Alta Community Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -1014,7 +1039,12 @@
       "tags": {
         "name": "Amber Butte",
         "ele": "2684",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -1188,7 +1218,12 @@
         "name": "Angel Peak",
         "ele": "3767",
         "wikidata": "Q49008798",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -1249,7 +1284,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 99
+        "ebird_species": 99,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -1572,7 +1612,12 @@
       "tags": {
         "name": "Apex Point",
         "ele": "2754",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -1630,7 +1675,12 @@
       "tags": {
         "name": "Apres Vous Mountain",
         "ele": "2898",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -1731,7 +1781,12 @@
       "tags": {
         "ebird_species": 45,
         "name": "Arch Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -2241,7 +2296,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 70
+        "ebird_species": 70,
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -2412,7 +2472,12 @@
       "tags": {
         "name": "Avalanche Spire Rock",
         "ele": "2052",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -2710,7 +2775,12 @@
         "name": "Bald Knob",
         "ele": "2356",
         "wikidata": "Q49009887",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -2838,7 +2908,12 @@
         "name": "Bald Peak",
         "ele": "3108",
         "natural": "peak",
-        "wikidata": "Q49010265"
+        "wikidata": "Q49010265",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -2987,7 +3062,12 @@
       "tags": {
         "name": "Baldy Mountain",
         "ele": "2691",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -3018,7 +3098,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 40
+        "ebird_species": 40,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -3403,7 +3488,12 @@
         "name": "Battle Ridge Campground",
         "website": "https://www.fs.usda.gov/recarea/custergallatin/recreation/camping-cabins/recarea/?recid=5574&actid=29",
         "opening_hours": "May 15-Sep 15 unknown; Sep 16-May 14 closed",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -3434,7 +3524,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 118
+        "ebird_species": 118,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -3524,7 +3619,12 @@
         "name": "Battrum Mountain",
         "ele": "2541",
         "wikidata": "Q49011146",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -3751,7 +3851,12 @@
         "name": "Beard Mountain",
         "ele": "2882",
         "wikidata": "Q49011552",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -4679,7 +4784,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 51
+        "ebird_species": 51,
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -5147,7 +5257,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 114
+        "ebird_species": 114,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5237,7 +5352,12 @@
         "name": "Birdseye Butte",
         "ele": "2059",
         "wikidata": "Q49013000",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5321,7 +5441,12 @@
         "name": "Bishop Park",
         "ele": "2209",
         "wikidata": "Q49474871",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5610,7 +5735,12 @@
       "tags": {
         "name": "Black Mountain",
         "ele": "3309",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5670,7 +5800,12 @@
         "name": "Black Mountain",
         "ele": "2516",
         "wikidata": "Q49013874",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5759,7 +5894,12 @@
       "tags": {
         "name": "Black Mountain",
         "ele": "2825",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -6000,7 +6140,12 @@
       "tags": {
         "name": "Blacktail Mountain",
         "ele": "2551",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -6145,7 +6290,12 @@
         "name": "BLM",
         "operator": "US Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "BLM",
+          "class": "5",
+          "operator": "US Bureau of Land Management"
+        }
       }
     },
     {
@@ -6175,7 +6325,12 @@
         "name": "BLM",
         "operator": "US Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "BLM",
+          "class": "5",
+          "operator": "US Bureau of Land Management"
+        }
       }
     },
     {
@@ -6205,7 +6360,12 @@
         "name": "BLM",
         "operator": "US Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "BLM",
+          "class": "5",
+          "operator": "US Bureau of Land Management"
+        }
       }
     },
     {
@@ -6235,7 +6395,12 @@
         "name": "BLM",
         "operator": "US Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "BLM",
+          "class": "5",
+          "operator": "US Bureau of Land Management"
+        }
       }
     },
     {
@@ -6265,7 +6430,12 @@
         "name": "BLM",
         "operator": "US Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "BLM",
+          "class": "5",
+          "operator": "US Bureau of Land Management"
+        }
       }
     },
     {
@@ -6295,7 +6465,12 @@
         "name": "BLM",
         "operator": "US Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "BLM",
+          "class": "5",
+          "operator": "US Bureau of Land Management"
+        }
       }
     },
     {
@@ -6501,7 +6676,12 @@
         "name": "Boedeker Butte",
         "ele": "3193",
         "wikidata": "Q49014682",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -6897,7 +7077,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 76
+        "ebird_species": 76,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -6926,7 +7111,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -6998,7 +7188,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 78
+        "ebird_species": 78,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -7140,7 +7335,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 114
+        "ebird_species": 114,
+        "publicLand": {
+          "name": "USFWS",
+          "class": "5",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -7372,7 +7572,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 89
+        "ebird_species": 89,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -7729,7 +7934,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 107
+        "ebird_species": 107,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -7755,7 +7965,12 @@
       ],
       "tags": {
         "name": "Bridger Bowl Ridge Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -7786,7 +8001,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 106
+        "ebird_species": 106,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -7848,7 +8068,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 41
+        "ebird_species": 41,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -7877,7 +8102,12 @@
       "tags": {
         "name": "Bridger Peak",
         "ele": "2616",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -8032,7 +8262,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 59
+        "ebird_species": 59,
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -8125,7 +8360,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 102
+        "ebird_species": 102,
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -8187,7 +8427,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 109
+        "ebird_species": 109,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -8477,7 +8722,12 @@
       ],
       "tags": {
         "name": "Brookside Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -8533,7 +8783,12 @@
         "name": "Brown Mountain",
         "ele": "3703",
         "wikidata": "Q49015636",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -8923,7 +9178,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 79
+        "ebird_species": 79,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -9184,7 +9444,12 @@
       ],
       "tags": {
         "name": "Buffalo Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Madison Buffalo Jump State Park",
+          "class": "2",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -9718,7 +9983,12 @@
         "name": "Cache Mountain",
         "ele": "2924",
         "wikidata": "Q49017507",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -9748,7 +10018,12 @@
         "name": "Cache Peak",
         "ele": "3141",
         "wikidata": "Q49017512",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -10147,7 +10422,12 @@
       "tags": {
         "name": "Canary Bird Peak",
         "ele": "2418",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -10207,7 +10487,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -10469,7 +10754,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 85
+        "ebird_species": 85,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -10529,7 +10819,12 @@
       "tags": {
         "name": "Carrot Ridge",
         "ele": "2926",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -10912,7 +11207,12 @@
         "name": "Castle Rock",
         "ele": "1832",
         "wikidata": "Q49018580",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -10942,7 +11242,12 @@
         "name": "Castor Peak",
         "ele": "3293",
         "wikidata": "Q49018603",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11473,7 +11778,12 @@
       ],
       "tags": {
         "name": "Centennial Mountain Shores Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11826,7 +12136,12 @@
       "tags": {
         "name": "Chestnut Mountain",
         "ele": "2341",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11857,7 +12172,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 117
+        "ebird_species": 117,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -12029,7 +12349,12 @@
         "website": "https://www.fs.usda.gov/recarea/custergallatin/recarea/?recid=5586",
         "fee": "yes",
         "operator": "United States Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -12083,7 +12408,12 @@
       ],
       "tags": {
         "name": "Choke Cherry Hill",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -12292,7 +12622,12 @@
         "name": "Citadel Mountain",
         "ele": "3617",
         "wikidata": "Q49020788",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -12655,7 +12990,12 @@
         "name": "Cleaver Peak",
         "ele": "3370",
         "wikidata": "Q5131008",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -12948,7 +13288,12 @@
         "name": "Cody Peak",
         "ele": "3129.3",
         "wikidata": "Q49021304",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -13157,7 +13502,12 @@
       ],
       "tags": {
         "name": "College 'M'",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -13506,7 +13856,12 @@
       "tags": {
         "name": "Cone Peak",
         "ele": "2945",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -13537,7 +13892,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 94
+        "ebird_species": 94,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -13566,7 +13926,12 @@
       "tags": {
         "name": "Conical Peak",
         "ele": "3262",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -13849,7 +14214,12 @@
       ],
       "tags": {
         "name": "Corbly Gulch Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -14451,7 +14821,12 @@
         "name": "Cream Puff Peak",
         "ele": "2938",
         "wikidata": "Q49022899",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -15051,7 +15426,12 @@
       "tags": {
         "name": "Crown Butte",
         "ele": "2449",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -15111,7 +15491,12 @@
         "name": "Crows Nest",
         "ele": "2963",
         "wikidata": "Q49023219",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -15270,7 +15655,12 @@
         "name": "Crystal Peak",
         "ele": "3343",
         "wikidata": "Q49023282",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -15327,7 +15717,12 @@
         "name": "Cunningham Cabin",
         "opening_hours": "24/7",
         "wheelchair": "no",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -15353,7 +15748,12 @@
       ],
       "tags": {
         "name": "Curtis Canyon Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -15382,7 +15782,12 @@
       "tags": {
         "name": "Cutoff Mountain",
         "ele": "3251",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -15439,7 +15844,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 167
+        "ebird_species": 167,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -15636,7 +16046,12 @@
         "name": "Darwin Peak",
         "ele": "3537",
         "wikidata": "Q49023635",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -15779,7 +16194,12 @@
       ],
       "tags": {
         "name": "Dead Horse Bowl",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -15927,7 +16347,12 @@
         "name": "Deaf Jim Knob",
         "ele": "2486",
         "wikidata": "Q49023947",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -15985,7 +16410,12 @@
         "fee": "yes",
         "access": "permit",
         "tourism": "camp_site",
-        "boundary": "administrative"
+        "boundary": "administrative",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -16073,7 +16503,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 79
+        "ebird_species": 79,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -16130,7 +16565,12 @@
       ],
       "tags": {
         "name": "Deer Creek Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -16217,7 +16657,12 @@
       ],
       "tags": {
         "name": "Deer Drive Trail Access",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -16354,7 +16799,12 @@
       "tags": {
         "name": "Devil's Dune",
         "ele": "1548.994",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -16530,7 +16980,12 @@
       "tags": {
         "name": "Dike Mountain",
         "ele": "3051",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -16589,7 +17044,12 @@
         "name": "Dinwoody Peak",
         "ele": "4115",
         "wikidata": "Q49024944",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -16764,7 +17224,12 @@
       "tags": {
         "name": "Divide Peak",
         "ele": "3058",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -16882,7 +17347,12 @@
         "name": "Dollar Mountain",
         "ele": "3617",
         "wikidata": "Q49025306",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17025,7 +17495,12 @@
       ],
       "tags": {
         "name": "Double Diamiond X Ranch",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17055,7 +17530,12 @@
         "name": "Double Mountain",
         "ele": "3307",
         "wikidata": "Q49025607",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17086,7 +17566,12 @@
         "ele": "4143",
         "wikipedia": "en:Doublet Peak",
         "wikidata": "Q5300155",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17204,7 +17689,12 @@
       "tags": {
         "name": "Drinking Horse Mountain",
         "ele": "1683",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "USFWS",
+          "class": "5",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -17235,7 +17725,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 135
+        "ebird_species": 135,
+        "publicLand": {
+          "name": "USFWS",
+          "class": "5",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -17390,7 +17885,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 33
+        "ebird_species": 33,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17480,7 +17980,12 @@
         "name": "Dubois Badlands Wilderness Study Area",
         "operator": "BLM",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Dubois Badlands Wilderness Study Area",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -17508,7 +18013,12 @@
         "name": "Dubois KOA",
         "website": "https://koa.com/campgrounds/dubois/",
         "operator": "KOA",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17678,7 +18188,12 @@
       ],
       "tags": {
         "name": "Dunbar Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17795,7 +18310,12 @@
         "name": "Dunrud Peak",
         "ele": "3647",
         "wikidata": "Q49026285",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -17910,7 +18430,12 @@
         "name": "E A Mountain",
         "ele": "2589",
         "wikidata": "Q49026429",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -18006,7 +18531,12 @@
       "tags": {
         "ebird_species": 60,
         "name": "Eagle Creek Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -18062,7 +18592,12 @@
       ],
       "tags": {
         "name": "Eagle Pass",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -18093,7 +18628,12 @@
         "ele": "3460",
         "wikipedia": "en:Eagle Peak (Wyoming)",
         "wikidata": "Q1276808",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -18152,7 +18692,12 @@
       "tags": {
         "name": "Eaglehead Mountain",
         "ele": "2979",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -18181,7 +18726,12 @@
       "tags": {
         "name": "Eaglehead Mountain",
         "ele": "3032",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -18482,7 +19032,12 @@
         "name": "East Sentinel",
         "ele": "3897",
         "wikidata": "Q49027083",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -18685,7 +19240,12 @@
       "tags": {
         "name": "Elephant Mountain",
         "ele": "3054",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -18715,7 +19275,12 @@
         "name": "Elephanthead Mountain",
         "ele": "2872",
         "wikidata": "Q49027660",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19008,7 +19573,12 @@
         "name": "Elkhorn Peak",
         "ele": "3210",
         "wikidata": "Q49027893",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19039,7 +19609,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 47
+        "ebird_species": 47,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19164,7 +19739,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 29
+        "ebird_species": 29,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19597,7 +20177,12 @@
       ],
       "tags": {
         "highway": "trailhead",
-        "name": "Face Trail Trailhead"
+        "name": "Face Trail Trailhead",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19782,7 +20367,12 @@
         "website": "https://www.fs.usda.gov/recarea/custergallatin/recarea/?recid=5592",
         "fee": "no",
         "operator": "Custer Gallatin National Forest",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19808,7 +20398,12 @@
       ],
       "tags": {
         "name": "Fairy Lake Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19839,7 +20434,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 74
+        "ebird_species": 74,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -19899,7 +20499,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -20530,7 +21135,12 @@
         "name": "Fish Lake Mountain",
         "ele": "3065",
         "wikidata": "Q49029029",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -20739,7 +21349,12 @@
         "name": "Flagstone Peak",
         "ele": "4079",
         "wikidata": "Q13391553",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -20825,7 +21440,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 19
+        "ebird_species": 19,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -20911,7 +21531,12 @@
       "tags": {
         "name": "Flanders Mountain",
         "ele": "3006",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -20942,7 +21567,12 @@
       "tags": {
         "name": "Flat Creek Overlook",
         "description": "View overlooking Flat Creek.",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -21030,7 +21660,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 190
+        "ebird_species": 190,
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -21178,7 +21813,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 48
+        "ebird_species": 48,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -21209,7 +21849,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 91
+        "ebird_species": 91,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -21427,7 +22072,12 @@
         "ele": "2961",
         "wikipedia": "en:Forellen Peak",
         "wikidata": "Q5468637",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -21458,7 +22108,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 40
+        "ebird_species": 40,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -21712,7 +22367,12 @@
       "tags": {
         "name": "Fortress Mountain",
         "ele": "2930",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -21883,7 +22543,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -22087,7 +22752,12 @@
       "tags": {
         "name": "Francham Mountain",
         "ele": "2172",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -22356,7 +23026,12 @@
         "ele": "4177",
         "wikipedia": "en:Fremont Peak (Wyoming)",
         "wikidata": "Q3382302",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -22385,7 +23060,12 @@
       "tags": {
         "name": "Fridley Peak",
         "ele": "3073",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -22639,7 +23319,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 95
+        "ebird_species": 95,
+        "publicLand": {
+          "name": "Gallatin Forks fishing access",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -22728,7 +23413,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 74
+        "ebird_species": 74,
+        "publicLand": {
+          "name": "Gallatin Wildlife Management Area",
+          "class": "5",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -22876,7 +23566,12 @@
       "tags": {
         "name": "Gallatin State Wildlife Management Area",
         "ele": "2199",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Gallatin Wildlife Management Area",
+          "class": "5",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -23060,7 +23755,12 @@
         "ele": "4206",
         "wikipedia": "en:Gannett Peak",
         "wikidata": "Q1493617",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -23091,7 +23791,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 150
+        "ebird_species": 150,
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -23287,7 +23992,12 @@
       "tags": {
         "name": "Garnet Mountain",
         "ele": "2500",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -23346,7 +24056,12 @@
         "name": "Geers Point",
         "ele": "3401",
         "wikidata": "Q49031243",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -23436,7 +24151,12 @@
         "name": "Giant Castle Mountain",
         "ele": "3056",
         "wikidata": "Q49031357",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -24057,7 +24777,12 @@
         "name": "Goodwin Mountain",
         "ele": "2467",
         "description": "Summit of Goodwin Mountain",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -24088,7 +24813,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 57
+        "ebird_species": 57,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -24359,7 +25089,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 74
+        "ebird_species": 74,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -24607,7 +25342,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 27
+        "ebird_species": 27,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -24638,7 +25378,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 10
+        "ebird_species": 10,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -24948,7 +25693,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 76
+        "ebird_species": 76,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -25134,7 +25884,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 106
+        "ebird_species": 106,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -25382,7 +26137,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 115
+        "ebird_species": 115,
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -25506,7 +26266,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 169
+        "ebird_species": 169,
+        "publicLand": {
+          "name": "Jackson Lake Lodge",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -26095,7 +26860,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 118
+        "ebird_species": 118,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -26250,7 +27020,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 123
+        "ebird_species": 123,
+        "publicLand": {
+          "name": "Murie Ranch Historic District",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -26374,7 +27149,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 87
+        "ebird_species": 87,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -26777,7 +27557,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 123
+        "ebird_species": 123,
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -26808,7 +27593,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 86
+        "ebird_species": 86,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -27149,7 +27939,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 131
+        "ebird_species": 131,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -27273,7 +28068,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 78
+        "ebird_species": 78,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -27655,7 +28455,12 @@
       "tags": {
         "name": "Granite Peak",
         "ele": "3079",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -27806,7 +28611,12 @@
       "tags": {
         "name": "Grassy Mountain",
         "ele": "2318",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28250,7 +29060,12 @@
         "name": "Green Lakes Mountain",
         "ele": "3092",
         "wikidata": "Q5602764",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28281,7 +29096,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 75
+        "ebird_species": 75,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28341,7 +29161,12 @@
         "name": "Green Mountain",
         "ele": "2927",
         "wikidata": "Q49033711",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28598,7 +29423,12 @@
       "tags": {
         "name": "Gros Peak",
         "ele": "3408",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28752,7 +29582,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 60
+        "ebird_species": 60,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28778,7 +29613,12 @@
       ],
       "tags": {
         "name": "Group Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28978,7 +29818,12 @@
       "tags": {
         "name": "Grouse Mountain",
         "ele": "2563",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -29007,7 +29852,12 @@
       "tags": {
         "name": "Grouse Mountain",
         "ele": "2274",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29152,7 +30002,12 @@
         "name": "Hague Mountain",
         "ele": "3137",
         "wikidata": "Q49034495",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29298,7 +30153,12 @@
       "tags": {
         "name": "Hardscrabble Peak",
         "ele": "2904",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29385,7 +30245,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 73
+        "ebird_species": 73,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29416,7 +30281,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 84
+        "ebird_species": 84,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29447,7 +30317,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 153
+        "ebird_species": 153,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29478,7 +30353,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 86
+        "ebird_species": 86,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29509,7 +30389,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 86
+        "ebird_species": 86,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29540,7 +30425,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 163
+        "ebird_species": 163,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29571,7 +30461,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 214
+        "ebird_species": 214,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29598,7 +30493,12 @@
       "tags": {
         "name": "Harriman State Park",
         "ele": "1867",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29759,7 +30659,12 @@
         "name": "Hat Butte",
         "ele": "2547",
         "wikidata": "Q49035216",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29844,7 +30749,12 @@
       "tags": {
         "name": "Hatfield Mountain",
         "ele": "2325",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -30045,7 +30955,12 @@
         "name": "Heap Steep Peak",
         "ele": "3917",
         "wikidata": "Q49035749",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -30804,7 +31719,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 54
+        "ebird_species": 54,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -30866,7 +31786,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 123
+        "ebird_species": 123,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -30897,7 +31822,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 77
+        "ebird_species": 77,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -30928,7 +31858,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 117
+        "ebird_species": 117,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -30959,7 +31894,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 131
+        "ebird_species": 131,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -30990,7 +31930,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 146
+        "ebird_species": 146,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31021,7 +31966,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 117
+        "ebird_species": 117,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31052,7 +32002,12 @@
         "website": "https://parksandrecreation.idaho.gov/parks/henrys-lake",
         "fee": "yes",
         "tourism": "camp_site",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31113,7 +32068,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 200
+        "ebird_species": 200,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31139,7 +32099,12 @@
       ],
       "tags": {
         "name": "Heritage Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31197,7 +32162,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 56
+        "ebird_species": 56,
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31223,7 +32193,12 @@
       ],
       "tags": {
         "name": "Hicks Park Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31462,7 +32437,12 @@
         "name": "High Mountain",
         "ele": "2661",
         "wikidata": "Q49036315",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31492,7 +32472,12 @@
         "name": "High Point",
         "ele": "2217",
         "wikidata": "Q49036365",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31691,7 +32676,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 72
+        "ebird_species": 72,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31718,7 +32708,12 @@
       "tags": {
         "name": "History Rock",
         "wheelchair": "no",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31969,7 +32964,12 @@
         "name": "Hominy Peak",
         "ele": "2544",
         "wikidata": "Q49036925",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31997,7 +32997,12 @@
       ],
       "tags": {
         "name": "Honoring Veterans",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32025,7 +33030,12 @@
         "name": "Hood Creek Campground",
         "fee": "yes",
         "operator": "USFS",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32377,7 +33387,12 @@
       "tags": {
         "name": "Horsethief Mountain",
         "ele": "2121",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32442,7 +33457,12 @@
       "tags": {
         "name": "Howard Spring Wayside",
         "ele": "2142",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32531,7 +33551,12 @@
         "name": "Hoyt Peak",
         "ele": "3154",
         "wikidata": "Q18153216",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32734,7 +33759,12 @@
         "name": "Hurricane Mesa",
         "ele": "3191",
         "wikidata": "Q49038134",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32765,7 +33795,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 57
+        "ebird_species": 57,
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -32796,7 +33831,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -32825,7 +33865,12 @@
       "tags": {
         "name": "Hyalite Peak",
         "ele": "3138",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32855,7 +33900,12 @@
         "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
         "operator": "US Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -32886,7 +33936,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 180
+        "ebird_species": 180,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -33175,7 +34230,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 79
+        "ebird_species": 79,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -33204,7 +34264,12 @@
       "tags": {
         "name": "Iddings Peak",
         "ele": "3334",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -33409,7 +34474,12 @@
         "name": "Indian Peak",
         "ele": "3329",
         "wikidata": "Q49038710",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -33693,7 +34763,12 @@
         "name": "Ishawooa Cone",
         "ele": "3576",
         "wikidata": "Q49039202",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -33873,7 +34948,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 95
+        "ebird_species": 95,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -33930,7 +35010,12 @@
       ],
       "tags": {
         "name": "Jack's Trail Access",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -34050,7 +35135,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 153
+        "ebird_species": 153,
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -34291,7 +35381,12 @@
         "ele": "4114",
         "wikipedia": "en:Jackson Peak (Fremont County, Wyoming)",
         "wikidata": "Q6117316",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -34413,7 +35508,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 109
+        "ebird_species": 109,
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -34557,7 +35657,12 @@
         "wikidata": "Q1686139",
         "operator": "United States Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -35188,7 +36293,12 @@
       "tags": {
         "name": "Jumbo Mountain",
         "ele": "3175",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -35546,7 +36656,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 12
+        "ebird_species": 12,
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -35718,7 +36833,12 @@
       "tags": {
         "name": "Kinor Peak",
         "ele": "2736",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -35858,7 +36978,12 @@
         "name": "Knife Point Mountain",
         "ele": "3891",
         "wikidata": "Q16893544",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -35918,7 +37043,12 @@
         "name": "Kuchunteka’a Toyavi",
         "ele": "3051",
         "wikidata": "Q49077350",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -36113,7 +37243,12 @@
       ],
       "tags": {
         "name": "Lamar Mountain",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -36394,7 +37529,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 93
+        "ebird_species": 93,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -36681,7 +37821,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 84
+        "ebird_species": 84,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -36711,7 +37856,12 @@
         "name": "Lava Mountain",
         "ele": "3176",
         "wikidata": "Q49043697",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -36990,7 +38140,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 97
+        "ebird_species": 97,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -37359,7 +38514,12 @@
         "name": "Lion Mountain",
         "ele": "2424",
         "wikidata": "Q49044429",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -37396,7 +38556,12 @@
       "tags": {
         "name": "Lionhead",
         "ele": "2904",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -37654,7 +38819,12 @@
       ],
       "tags": {
         "name": "Little Horsethief Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -37713,7 +38883,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -37921,7 +39096,12 @@
         "ele": "2833",
         "wikipedia": "en:Livingston Peak",
         "wikidata": "Q6659675",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -38162,7 +39342,12 @@
       "tags": {
         "name": "Lone Indian Peak",
         "ele": "2622",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Gallatin Wildlife Management Area",
+          "class": "5",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -38767,7 +39952,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -39337,7 +40527,12 @@
         "ele": "1692",
         "description": "Christian hospitality camp with cabins, retreats, youth camps, and outdoor lodging.",
         "wikidata": "Q49520060",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -39452,7 +40647,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 132
+        "ebird_species": 132,
+        "publicLand": {
+          "name": "USFWS",
+          "class": "5",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -39483,7 +40683,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 113
+        "ebird_species": 113,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -39540,7 +40745,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 113
+        "ebird_species": 113,
+        "publicLand": {
+          "name": "Madison Buffalo Jump State Park",
+          "class": "2",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -39567,7 +40777,12 @@
       "tags": {
         "name": "Madison Buffalo Jump State Monument",
         "ele": "1388",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Madison Buffalo Jump State Park",
+          "class": "2",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -39598,7 +40813,12 @@
         "website": "https://fwp.mt.gov/stateparks/madison-buffalo-jump",
         "operator": "Montana Department of Fish, Wildlife and Parks",
         "leisure": "park",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Madison Buffalo Jump State Park",
+          "class": "2",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -39687,7 +40907,12 @@
       "tags": {
         "name": "Maid of the Mist Mountain",
         "ele": "2917",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -39717,7 +40942,12 @@
         "name": "Maidenform Peak",
         "ele": "3390",
         "wikidata": "Q8535811",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -40477,7 +41707,12 @@
       ],
       "tags": {
         "name": "May Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -40693,7 +41928,12 @@
         "name": "McCullough Peaks Wilderness Study Area",
         "operator": "BLM",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "McCullough Peaks Wilderness Study Area",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -41130,7 +42370,12 @@
         "name": "Meridian Peak",
         "ele": "3190",
         "wikidata": "Q17107888",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -41334,7 +42579,12 @@
       ],
       "tags": {
         "name": "Middle Bowl",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -41391,7 +42641,12 @@
       ],
       "tags": {
         "name": "Middle Cottonwood Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -41417,7 +42672,12 @@
       ],
       "tags": {
         "name": "Middle Fork/South Fork",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -41669,7 +42929,12 @@
       ],
       "tags": {
         "name": "Mike Yokel Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -41728,7 +42993,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 59
+        "ebird_species": 59,
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -41759,7 +43029,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 101
+        "ebird_species": 101,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -42056,7 +43331,12 @@
         "name": "Mineral Mountain",
         "ele": "3131",
         "wikidata": "Q49050513",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -42202,7 +43482,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 155
+        "ebird_species": 155,
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -42233,7 +43518,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 154
+        "ebird_species": 154,
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -42264,7 +43554,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 151
+        "ebird_species": 151,
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -42295,7 +43590,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 210
+        "ebird_species": 210,
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -42328,7 +43628,12 @@
         "operator": "State of Montana",
         "historic": "yes",
         "leisure": "park",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -42416,7 +43721,12 @@
         "name": "Monitor Peak",
         "ele": "3168",
         "wikidata": "Q49050974",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -42618,7 +43928,12 @@
       "tags": {
         "name": "Monument Mountain",
         "ele": "3065",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -42881,7 +44196,12 @@
       ],
       "tags": {
         "name": "Moose Creek Flat Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -42999,7 +44319,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 59
+        "ebird_species": 59,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -43062,7 +44387,12 @@
         "name": "Moose Mountain",
         "ele": "3050",
         "wikidata": "Q6908627",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -43357,7 +44687,12 @@
         "name": "Mount Bannon",
         "ele": "3339",
         "wikidata": "Q6919610",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -43418,7 +44753,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 77
+        "ebird_species": 77,
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -43449,7 +44789,12 @@
         "ele": "3105",
         "wikipedia": "en:Mount Blackmore",
         "wikidata": "Q6919753",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -43478,7 +44823,12 @@
       "tags": {
         "name": "Mount Bole",
         "ele": "3148",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -43566,7 +44916,12 @@
       "tags": {
         "name": "Mount Chisholm",
         "ele": "2970",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -43596,7 +44951,12 @@
         "name": "Mount Chittenden",
         "ele": "3075",
         "wikidata": "Q6920137",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -43746,7 +45106,12 @@
       "tags": {
         "name": "Mount Ellis",
         "ele": "2542",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -43896,7 +45261,12 @@
         "name": "Mount Glory",
         "ele": "3063",
         "wikidata": "Q8536101",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -44135,7 +45505,12 @@
         "name": "Mount Humphreys",
         "ele": "3358.5",
         "wikidata": "Q49053129",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -44284,7 +45659,12 @@
         "name": "Mount Koven",
         "ele": "3975",
         "wikidata": "Q16893648",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -44524,7 +45904,12 @@
         "name": "Mount Nord",
         "ele": "2957",
         "wikidata": "Q49053800",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -44675,7 +46060,12 @@
         "name": "Mount Rae",
         "ele": "2802",
         "wikidata": "Q49054259",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -44705,7 +46095,12 @@
         "name": "Mount Randolph",
         "ele": "2774",
         "wikidata": "Q49054265",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -44734,7 +46129,12 @@
       "tags": {
         "name": "Mount Reid",
         "ele": "2371",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -44795,7 +46195,12 @@
         "ele": "4119",
         "wikipedia": "en:Mount Sacagawea",
         "wikidata": "Q8525765",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -45068,7 +46473,12 @@
         "ele": "4093",
         "wikipedia": "en:Mount Warren",
         "wikidata": "Q6924488",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -45440,7 +46850,12 @@
         "name": "MT University",
         "operator": "Montana University System",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "MT University",
+          "class": "5",
+          "operator": "Montana University System"
+        }
       }
     },
     {
@@ -45470,7 +46885,12 @@
         "name": "Mud Peak",
         "ele": "2893",
         "wikidata": "Q49055536",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -45616,7 +47036,12 @@
       "tags": {
         "name": "The Mummy",
         "ele": "2851",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -45672,7 +47097,12 @@
       ],
       "tags": {
         "name": "Murie Family Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -45884,7 +47314,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 69
+        "ebird_species": 69,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -46035,7 +47470,12 @@
       "tags": {
         "name": "National BigHorn Sheep Center",
         "wikidata": "Q6970971",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -46066,7 +47506,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 156
+        "ebird_species": 156,
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -46128,7 +47573,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 185
+        "ebird_species": 185,
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -46306,7 +47756,12 @@
       "tags": {
         "name": "Naya Nuki Peak",
         "ele": "2880",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -46734,7 +48189,13 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
+      }
     },
     {
       "id": "ninth-street-park@c817sn",
@@ -46821,7 +48282,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 137
+        "ebird_species": 137,
+        "publicLand": {
+          "name": "Gallatin Forks fishing access",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -46881,7 +48347,12 @@
       "tags": {
         "name": "Nixon Peak",
         "ele": "2083",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -46939,7 +48410,12 @@
       "tags": {
         "name": "Noon Mark",
         "ele": "2282",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -47157,7 +48633,12 @@
         "wikidata": "Q7053649",
         "operator": "United States Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -47243,7 +48724,12 @@
       ],
       "tags": {
         "name": "North Fork Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -47274,7 +48760,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 54
+        "ebird_species": 54,
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -47305,7 +48796,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 56
+        "ebird_species": 56,
+        "publicLand": {
+          "name": "Palisades Wilderness Study Area",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -47361,7 +48857,12 @@
       ],
       "tags": {
         "name": "North Fork Shoshone River Access",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -47614,7 +49115,12 @@
       ],
       "tags": {
         "name": "Northridge Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Madison Buffalo Jump State Park",
+          "class": "2",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -48028,7 +49534,12 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -48284,7 +49795,12 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -48896,7 +50412,12 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "publicLand": {
+          "name": "Story Mill Nature Reserve",
+          "class": "nature_reserve",
+          "operator": "City of Bozeman"
+        }
       }
     },
     {
@@ -48924,7 +50445,12 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "publicLand": {
+          "name": "Story Mill Nature Reserve",
+          "class": "nature_reserve",
+          "operator": "City of Bozeman"
+        }
       }
     },
     {
@@ -49298,7 +50824,12 @@
       "tags": {
         "name": "The Open Door",
         "ele": "2805",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoal Creek Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -49623,7 +51154,12 @@
       ],
       "tags": {
         "name": "Ouzel Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -49743,7 +51279,12 @@
         "name": "Overlook Mountain",
         "ele": "3549",
         "wikidata": "Q49059112",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -49772,7 +51313,12 @@
       "tags": {
         "name": "Overlook Mountain",
         "ele": "3122",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -49979,7 +51525,12 @@
       "tags": {
         "name": "Packsaddle Peak",
         "ele": "2951",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -50093,7 +51644,12 @@
       "tags": {
         "name": "Palace Butte",
         "ele": "3017",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -50124,7 +51680,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 88
+        "ebird_species": 88,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -50150,7 +51711,12 @@
       ],
       "tags": {
         "name": "Palisade Falls Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -50181,7 +51747,12 @@
       ],
       "tags": {
         "name": "Palisade Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -50211,7 +51782,12 @@
         "name": "Palisade Mountain",
         "ele": "2823",
         "wikidata": "Q49059497",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -50414,7 +51990,12 @@
         "name": "Parker Peak",
         "ele": "3077",
         "wikidata": "Q49059986",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -50505,7 +52086,12 @@
       ],
       "tags": {
         "name": "Passage Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -50565,7 +52151,12 @@
         "name": "Pat O'Hara Peak",
         "ele": "3026",
         "wikidata": "Q49060141",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -50806,7 +52397,12 @@
         "name": "Pedestal Peak",
         "ele": "4064",
         "wikidata": "Q49060491",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -51264,7 +52860,12 @@
       "tags": {
         "name": "Phil Baux Park",
         "operator": "Teton County",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -51529,7 +53130,12 @@
         "name": "Pilot Peak",
         "ele": "3512",
         "wikidata": "Q23018423",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -51802,7 +53408,12 @@
       ],
       "tags": {
         "name": "Pine Dr. Trail Access",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -51828,7 +53439,12 @@
       ],
       "tags": {
         "name": "Pine Glades Trail Access",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -51977,7 +53593,12 @@
         "name": "Pinnacle Peak",
         "ele": "3260",
         "wikidata": "Q49062176",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -52293,7 +53914,12 @@
       ],
       "tags": {
         "name": "Point Stupid",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -52355,7 +53981,12 @@
       ],
       "tags": {
         "name": "Polar Bear",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -52385,7 +54016,12 @@
         "name": "Pollux Peak",
         "ele": "3348",
         "wikidata": "Q49063098",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -52414,7 +54050,12 @@
       "tags": {
         "name": "Pomp Peak",
         "ele": "2911",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -52581,7 +54222,12 @@
       ],
       "tags": {
         "name": "Porcupine Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -52988,7 +54634,12 @@
         "name": "Ptarmigan Mountain",
         "ele": "3665",
         "wikidata": "Q49064345",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -53018,7 +54669,12 @@
         "name": "Public Land",
         "operator": "Public Land",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Public Land",
+          "class": "5",
+          "operator": "Public Land"
+        }
       }
     },
     {
@@ -53048,7 +54704,12 @@
         "name": "Public Land",
         "operator": "Public Land",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Public Land",
+          "class": "5",
+          "operator": "Public Land"
+        }
       }
     },
     {
@@ -53436,7 +55097,12 @@
         "name": "Quintuple Peaks",
         "ele": "3057",
         "wikidata": "Q49066220",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "High Lakes Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -53498,7 +55164,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 112
+        "ebird_species": 112,
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -53708,7 +55379,12 @@
         "name": "Rammell Mountain",
         "ele": "3085",
         "wikidata": "Q7289739",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -53738,7 +55414,12 @@
         "name": "Ramshorn Peak",
         "ele": "3509",
         "wikidata": "Q49066555",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -53797,7 +55478,12 @@
         "name": "The Ramshorn",
         "ele": "3625",
         "wikidata": "Q49082894",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -54055,7 +55741,12 @@
       ],
       "tags": {
         "name": "Recreation Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -54315,7 +56006,12 @@
       "tags": {
         "name": "Red Mountain",
         "ele": "3041",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -54345,7 +56041,12 @@
         "name": "Red Mountain",
         "ele": "3103",
         "wikidata": "Q7304634",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -54465,7 +56166,12 @@
       "tags": {
         "name": "Red Rock Mountain",
         "ele": "2222",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -54641,7 +56347,12 @@
       "tags": {
         "name": "Redstreak Peak",
         "ele": "3151",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -54729,7 +56440,12 @@
       ],
       "tags": {
         "name": "rendevous mtn trail",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -54760,7 +56476,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 88
+        "ebird_species": 88,
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -54791,7 +56512,12 @@
         "ele": "3185",
         "wikipedia": "en:Rendezvous Mountain",
         "wikidata": "Q7312826",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -54862,7 +56588,12 @@
         "name": "Rendezvous Peak",
         "ele": "3328",
         "wikidata": "Q7312830",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -54948,7 +56679,12 @@
       "tags": {
         "name": "Republic Pass Trailhead",
         "operator": "National Park Service",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -55070,7 +56806,12 @@
       "tags": {
         "name": "Reservation Peak",
         "ele": "3236",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -55206,7 +56947,12 @@
       ],
       "tags": {
         "name": "The Rim Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Madison Buffalo Jump State Park",
+          "class": "2",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -55491,7 +57237,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -55874,7 +57625,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 45
+        "ebird_species": 45,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -55903,7 +57659,12 @@
       "tags": {
         "name": "Ross Peak",
         "ele": "2747",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -56347,7 +58108,12 @@
       "tags": {
         "name": "Sacagawea Peak",
         "ele": "2925",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -56473,7 +58239,12 @@
         "name": "Saddle Mountain",
         "ele": "3168",
         "wikidata": "Q49070708",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -56502,7 +58273,12 @@
       "tags": {
         "name": "Saddle Peak",
         "ele": "2784",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -56558,7 +58334,12 @@
       "tags": {
         "name": "Sage Peak",
         "ele": "3189",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -56589,7 +58370,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 85
+        "ebird_species": 85,
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -56677,7 +58463,12 @@
         "name": "Sand Butte",
         "ele": "2584",
         "wikidata": "Q49071157",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -56799,7 +58590,12 @@
         "name": "Sand Mountain Wilderness Study Area",
         "operator": "Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -57309,7 +59105,12 @@
       "tags": {
         "name": "The Sentinel",
         "ele": "2933",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -57603,7 +59404,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 51
+        "ebird_species": 51,
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -57724,7 +59530,12 @@
         "name": "Sheep Mountain",
         "ele": "2256",
         "wikidata": "Q49073008",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -57784,7 +59595,12 @@
         "name": "Sheep Mountain",
         "ele": "3189",
         "wikidata": "Q49072950",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -58022,7 +59838,12 @@
         "name": "Sheffield Campground",
         "website": "https://www.fs.usda.gov/recarea/btnf/recreation/camping-cabins/recarea/?recid=71503&actid=29",
         "operator": "USDA",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -58165,7 +59986,12 @@
       ],
       "tags": {
         "name": "Sherman Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -58196,7 +60022,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 34
+        "ebird_species": 34,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -58222,7 +60053,12 @@
       ],
       "tags": {
         "name": "Shields River Dispersed Site",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -58316,7 +60152,12 @@
       ],
       "tags": {
         "name": "Shields Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -58346,7 +60187,12 @@
         "name": "Shoal Creek Wilderness Study Area",
         "operator": "US Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Shoal Creek Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -59107,7 +60953,12 @@
         "name": "Silvertip Peak",
         "ele": "3235",
         "wikidata": "Q49074012",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -59374,7 +61225,12 @@
       "tags": {
         "name": "Sleeping Giant Mountain",
         "ele": "2718",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -59404,7 +61260,12 @@
         "name": "Slide Mountain",
         "ele": "2931",
         "wikidata": "Q49074603",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Washakie Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -59434,7 +61295,12 @@
         "name": "Sliding Mountain",
         "ele": "2860",
         "wikidata": "Q49074632",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -59697,7 +61563,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 121
+        "ebird_species": 121,
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -60006,7 +61877,12 @@
       ],
       "tags": {
         "name": "Snow King Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -60062,7 +61938,12 @@
       "tags": {
         "name": "Snowslide Mountain",
         "ele": "3054",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -60589,7 +62470,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 102
+        "ebird_species": 102,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -60677,7 +62563,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 201
+        "ebird_species": 201,
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61230,7 +63121,12 @@
         "name": "The Sphinx",
         "ele": "4024",
         "wikidata": "Q16901550",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61288,7 +63184,12 @@
         "name": "Spire Rock Campground",
         "website": "https://www.fs.usda.gov/recarea/custergallatin/recarea/?recid=5626",
         "operator": "USFS",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61317,7 +63218,12 @@
       "tags": {
         "name": "Spire Rock",
         "ele": "1944",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61575,7 +63481,12 @@
       ],
       "tags": {
         "name": "Spring Mountain",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61632,7 +63543,12 @@
       ],
       "tags": {
         "name": "Spruce Dr. Trail Access",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61715,7 +63631,12 @@
       "tags": {
         "name": "St Thomas Episcopal Church",
         "website": "https://www.warmshowers.org/user/129037",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61743,7 +63664,12 @@
       ],
       "tags": {
         "name": "Staircase",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -61860,7 +63786,12 @@
       ],
       "tags": {
         "name": "State Historic Marker - Trappers Guide",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -61920,7 +63851,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -61950,7 +63886,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -61980,7 +63921,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -62010,7 +63956,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -62040,7 +63991,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -62070,7 +64026,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -62100,7 +64061,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -62130,7 +64096,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -62160,7 +64131,12 @@
         "name": "State Trust",
         "operator": "Montana State Trust Lands",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "State Trust",
+          "class": "5",
+          "operator": "Montana State Trust Lands"
+        }
       }
     },
     {
@@ -62318,7 +64294,12 @@
         "name": "Steamboat Mountain",
         "ele": "2391",
         "wikidata": "Q49077840",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "John D. Rockefeller, Jr. Memorial Parkway",
+          "class": "national_park",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -62523,7 +64504,12 @@
         "name": "Stinkingwater Peak",
         "ele": "3127",
         "wikidata": "Q49078216",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -62584,7 +64570,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 50
+        "ebird_species": 50,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -62615,7 +64606,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 85
+        "ebird_species": 85,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -62644,7 +64640,12 @@
       "tags": {
         "name": "Storm Castle",
         "ele": "2184",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -62970,7 +64971,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 98
+        "ebird_species": 98,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -62999,7 +65005,12 @@
       "tags": {
         "name": "Sugar Loaf Mountain",
         "ele": "2610",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63089,7 +65100,12 @@
         "name": "Sugarloaf Mountain",
         "ele": "2903",
         "wikidata": "Q49079567",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63263,7 +65279,12 @@
         "name": "Sunbeam Peak",
         "ele": "4092",
         "wikidata": "Q14714846",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63446,7 +65467,12 @@
       ],
       "tags": {
         "name": "Sunlight Creek Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63476,7 +65502,12 @@
         "name": "Sunlight Peak",
         "ele": "3286",
         "wikidata": "Q49080128",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "North Absaroka Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63505,7 +65536,12 @@
       "tags": {
         "name": "Sunlight Peak",
         "ele": "3074",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63624,7 +65660,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 36
+        "ebird_species": 36,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63683,7 +65724,12 @@
       "tags": {
         "name": "Sunshine Point",
         "ele": "2502",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -63768,7 +65814,12 @@
         "name": "Survey Peak",
         "ele": "2824",
         "wikidata": "Q7647066",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -63860,7 +65911,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 66
+        "ebird_species": 66,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -64100,7 +66156,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 40
+        "ebird_species": 40,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -64368,7 +66429,12 @@
       "tags": {
         "name": "Table Mountain",
         "ele": "2997",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -64481,7 +66547,12 @@
       ],
       "tags": {
         "name": "Tanager Trail Access",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -64543,7 +66614,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 99
+        "ebird_species": 99,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -64844,7 +66920,12 @@
       ],
       "tags": {
         "name": "Teepee Creek TH",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Gallatin Wildlife Management Area",
+          "class": "5",
+          "operator": "Montana Department of Fish, Wildlife and Parks"
+        }
       }
     },
     {
@@ -65205,7 +67286,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 64
+        "ebird_species": 64,
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -65234,7 +67320,12 @@
       "tags": {
         "name": "Teton Crest Highpoint",
         "ele": "3414",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -65290,7 +67381,12 @@
         "name": "Teton Game Management Area",
         "ele": "2136",
         "wikidata": "Q49569745",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -65500,7 +67596,12 @@
         "name": "Thorofare Buttes",
         "ele": "3304",
         "wikidata": "Q49083299",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -65530,7 +67631,12 @@
         "name": "Thorofare Mountain",
         "ele": "3663",
         "wikidata": "Q49083304",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -65795,7 +67901,12 @@
       ],
       "tags": {
         "name": "Thunder Mountain",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -65944,7 +68055,12 @@
       "tags": {
         "name": "Timber Butte",
         "ele": "2226",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66082,7 +68198,12 @@
       ],
       "tags": {
         "name": "Tom Minor Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -66496,7 +68617,12 @@
       ],
       "tags": {
         "name": "Trail Lake Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66580,7 +68706,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Palisades Wilderness Study Area",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66755,7 +68886,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66830,7 +68966,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66855,7 +68996,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66880,7 +69026,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66905,7 +69056,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -66930,7 +69086,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -67046,7 +69207,12 @@
       "tags": {
         "name": "Treasure Mountain",
         "ele": "2981",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -67308,7 +69474,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 68
+        "ebird_species": 68,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -67395,7 +69566,12 @@
       "tags": {
         "name": "Turpin Meadow Campground",
         "website": "https://publiclands.org/explore/site.php?id=1695",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -67455,7 +69631,12 @@
         "name": "Turret Peak",
         "ele": "4147",
         "wikidata": "Q8525757",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -67838,7 +70019,12 @@
         "name": "Uhl Hill",
         "ele": "2229",
         "wikidata": "Q49086511",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -68025,7 +70211,12 @@
       ],
       "tags": {
         "name": "Union Pacific Pylon",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -68316,7 +70507,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -68386,7 +70582,12 @@
       ],
       "tags": {
         "name": "Upper Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -68587,7 +70788,12 @@
         "website": "https://www.nps.gov/yell/planyourvisit/backcountryhiking.htm",
         "fee": "yes",
         "operator": "National Park Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -68979,7 +71185,12 @@
         "name": "USFWS",
         "operator": "United States Fish and Wildlife Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "USFWS",
+          "class": "5",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -69459,7 +71670,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "National Elk Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -69519,7 +71735,12 @@
         }
       ],
       "tags": {
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -69549,7 +71770,12 @@
         }
       ],
       "tags": {
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -69579,7 +71805,12 @@
         }
       ],
       "tags": {
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Gros Ventre Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -69814,7 +72045,12 @@
       ],
       "tags": {
         "direction": "305",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -69931,7 +72167,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Grand Teton National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -70257,7 +72498,12 @@
       ],
       "tags": {
         "direction": "270",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -70316,7 +72562,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -70821,7 +73072,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -70850,7 +73106,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -72596,7 +74857,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -72802,7 +75068,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -72831,7 +75102,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -72860,7 +75136,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -72889,7 +75170,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -72918,7 +75204,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Missouri Headwaters State Park",
+          "class": "2",
+          "operator": "State of Montana"
+        }
       }
     },
     {
@@ -73005,7 +75296,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -73092,7 +75388,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Yellowstone National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -73387,7 +75688,12 @@
         }
       ],
       "tags": {
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -73416,7 +75722,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -73581,7 +75892,12 @@
       ],
       "tags": {
         "name": "W.O.W. cottage 3Bed 2Bath",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -73931,7 +76247,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 121
+        "ebird_species": 121,
+        "publicLand": {
+          "name": "Caribou-Targhee National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -74193,7 +76514,12 @@
         "name": "West Butte",
         "ele": "1889",
         "wikidata": "Q49088244",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sand Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -74388,7 +76714,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 46
+        "ebird_species": 46,
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -74418,7 +76749,12 @@
         "name": "West Sentinel",
         "ele": "3829",
         "wikidata": "Q49088725",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -74553,7 +76889,12 @@
         "ebird_species": 147,
         "name": "West Yellowstone Town Park",
         "ele": "2032",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -74722,7 +77063,12 @@
       "tags": {
         "name": "Wheeler Mountain",
         "ele": "2621",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -74750,7 +77096,12 @@
         "name": "Wheels of Wonderment Motorcycle Campground",
         "website": "https://wowmccg.com/",
         "operator": "Pete Pleban",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -74840,7 +77191,12 @@
         "name": "Whiskey Mountain Wilderness Study Area",
         "operator": "BLM",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Whiskey Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -75074,7 +77430,12 @@
       "tags": {
         "name": "The Wigwams North",
         "ele": "3304",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -75420,7 +77781,12 @@
         "name": "Willow Park",
         "ele": "2131",
         "wikidata": "Q49581528",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Absaroka–Beartooth Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -75474,7 +77840,12 @@
       ],
       "tags": {
         "name": "Wilsall Peak",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -75562,7 +77933,12 @@
       ],
       "tags": {
         "name": "Wilson Canyon Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -75591,7 +77967,12 @@
       "tags": {
         "name": "Wilson Peak",
         "ele": "3199",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lee Metcalf Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service;Bureau of Land Management"
+        }
       }
     },
     {
@@ -75681,7 +78062,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 12
+        "ebird_species": 12,
+        "publicLand": {
+          "name": "Shoshone National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -75711,7 +78097,12 @@
         "name": "Window Peak",
         "ele": "3198",
         "wikidata": "Q8024350",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Jedediah Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -76061,7 +78452,12 @@
       ],
       "tags": {
         "name": "Wister Dr. Trail Access",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Bridger-Teton National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -76446,7 +78842,12 @@
         "name": "Yellow Mountain",
         "ele": "3461",
         "wikidata": "Q49091293",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -81410,7 +83811,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 34
+        "ebird_species": 34,
+        "publicLand": {
+          "name": "Hyalite-Porcupine-Buffalo Horn Wilderness Study Area",
+          "class": "1b",
+          "operator": "US Forest Service"
+        }
       }
     },
     {
@@ -82919,7 +85325,12 @@
         "name": "Yellowstone River Island Wilderness Study Area",
         "operator": "BLM",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Yellowstone River Island Wilderness Study Area",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -83095,7 +85506,12 @@
         "ele": "3691",
         "wikipedia": "en:Younts Peak",
         "wikidata": "Q8528647",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Teton Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -83125,7 +85541,12 @@
         "name": "Yukon Peak",
         "ele": "3884",
         "wikidata": "Q49091407",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Fitzpatrick Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -83180,7 +85601,12 @@
       "tags": {
         "name": "Zade Mountain",
         "ele": "2464",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Custer Gallatin National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     }
   ]
