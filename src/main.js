@@ -7,6 +7,7 @@ import { loadRegions, pickRegion } from './model/region.js';
 import { userPins, activeFilters, setActiveFilters, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
 import { topSpotsPanel } from './ui/synthesis.js';
+import { maybeShowWelcome, openWelcome } from './ui/install.js';
 
 applyTheme(currentTheme());
 
@@ -160,6 +161,10 @@ function openDataDialog() {
       el('li', {}, 'Map tiles: © OpenStreetMap contributors · Imagery © Esri'),
       el('li', {}, `Region data built ${dataBuiltAt ?? '—'}`),
     ]),
+    el('h2', {}, 'This app'),
+    el('button', {
+      onClick: (e) => { e.target.closest('dialog').close(); openWelcome({ onShowAll: () => applyVisible(allCategories()) }); },
+    }, 'Welcome & install help'),
     el('button', { class: 'dialog-close', onClick: (e) => e.target.closest('dialog').close() }, 'Close'),
   ]);
   document.body.append(dlg);
@@ -226,10 +231,12 @@ async function boot() {
   // Opening frame: geolocate on the home region, fit-bounds on the others.
   mapView.setRegion(region, { locate: region.id === regionsDoc.default });
 
-  // The map opens with every category off, so on first sight it's empty. Greet a
-  // new arrival with a popup explaining they need to turn on a pin type. (The
-  // header keeps a quieter standing tip too, for after this is dismissed.)
-  if (currentVisible().size === 0) showStartTip();
+  // First visit → a welcome pop-up (what the app is + how to install it, with a
+  // one-tap "Show all pins"). On later visits, if the map is empty, a smaller
+  // "turn on a pin type" nudge instead. Never both. (The header keeps a quiet
+  // standing tip too, for after either is dismissed.)
+  const welcomed = maybeShowWelcome({ onShowAll: () => applyVisible(allCategories()) });
+  if (!welcomed && currentVisible().size === 0) showStartTip();
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});

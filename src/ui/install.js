@@ -1,0 +1,143 @@
+// =============================================================================
+// WELCOME + INSTALL — the first-open greeting and how to add photo-pointer to
+// your home screen (a real PWA install: full-screen, offline, no browser chrome).
+// =============================================================================
+// A new arrival sees a welcome pop-up that says what the app is and — because
+// on iPhone/iPad the OS hides installing behind the Share sheet — spells out the
+// platform-specific steps (or fires the native install sheet where the browser
+// offers one). It shows once (remembered), and stays reachable afterwards from
+// the Backup dialog. Nothing about installing shows once already installed.
+// =============================================================================
+import { el } from './dom.js';
+
+const WELCOMED_KEY = 'pointer.welcomed';
+
+// Chrome/Edge (Android + desktop) fire `beforeinstallprompt`; stash it so a
+// button can open the real OS install sheet. iOS Safari never fires it — there
+// the only route is Share → Add to Home Screen, which we spell out.
+let deferredPrompt = null;
+let justInstalled = false;
+if (typeof window !== 'undefined') {
+  window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferredPrompt = e; });
+  window.addEventListener('appinstalled', () => { justInstalled = true; deferredPrompt = null; });
+}
+
+export function isStandalone() {
+  if (typeof window === 'undefined') return false;
+  return window.matchMedia?.('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+
+// iPadOS Safari reports as "MacIntel" with touch — treat it as iOS.
+export function platform() {
+  const ua = navigator.userAgent || '';
+  const iOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  if (iOS) return 'ios';
+  if (/Android/.test(ua)) return 'android';
+  return 'desktop';
+}
+
+function welcomed() { try { return localStorage.getItem(WELCOMED_KEY) === '1'; } catch { return false; } }
+function rememberWelcomed() { try { localStorage.setItem(WELCOMED_KEY, '1'); } catch { /* private mode — reappears */ } }
+
+function canPrompt() { return !!deferredPrompt; }
+async function promptInstall() {
+  if (!deferredPrompt) return false;
+  deferredPrompt.prompt();
+  const { outcome } = await deferredPrompt.userChoice;
+  deferredPrompt = null;
+  return outcome === 'accepted';
+}
+
+// iOS Share glyph (square with an up arrow) so step 1 matches what's on screen.
+const SHARE_GLYPH = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V4"/><path d="M8.5 7.5 12 4l3.5 3.5"/><path d="M6 11H5a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1h-1"/></svg>';
+
+// el() has no innerHTML path; wrap raw SVG in a span so it can be a child.
+function glyph(markup) {
+  const s = document.createElement('span');
+  s.className = 'inline-ico';
+  s.setAttribute('aria-hidden', 'true');
+  s.innerHTML = markup;
+  return s;
+}
+
+// Platform-specific steps, shared by the welcome pop-up and the Backup entry.
+function stepsFor(p) {
+  if (p === 'ios') {
+    return [
+      el('p', {}, 'On iPhone or iPad, in Safari:'),
+      el('ol', { class: 'install-steps' }, [
+        el('li', {}, ['Tap the ', el('strong', {}, 'Share'), ' button ', glyph(SHARE_GLYPH), ' (bottom of the screen).']),
+        el('li', {}, ['Scroll down and tap ', el('strong', {}, 'Add to Home Screen'), '.']),
+        el('li', {}, ['Tap ', el('strong', {}, 'Add'), '. photo-pointer lands on your home screen, opens full-screen, and works offline in the field.']),
+      ]),
+      el('p', { class: 'dim' }, '“Add to Home Screen” is a Safari feature. If you’re in Chrome or another browser, open this page in Safari first.'),
+    ];
+  }
+  if (p === 'android') {
+    return [
+      el('p', {}, 'On Android, in Chrome:'),
+      el('ol', { class: 'install-steps' }, [
+        el('li', {}, ['Tap ', el('strong', {}, 'Install app'), ' above, or open the ', el('strong', {}, '⋮'), ' menu and choose ', el('strong', {}, 'Install app'), ' (or ', el('strong', {}, 'Add to Home screen'), ').']),
+        el('li', {}, 'Confirm. photo-pointer installs and opens full-screen — offline-ready.'),
+      ]),
+    ];
+  }
+  return [
+    el('p', {}, 'On a computer, in Chrome or Edge:'),
+    el('ol', { class: 'install-steps' }, [
+      el('li', {}, ['Click ', el('strong', {}, 'Install app'), ' above, or the install icon in the address bar (a monitor with a ↓).']),
+      el('li', {}, 'Confirm. photo-pointer opens in its own window.'),
+    ]),
+  ];
+}
+
+// A native Install button when the browser offers one, then the written steps.
+function installBody() {
+  if (isStandalone()) return [el('p', { class: 'install-done' }, '✓ photo-pointer is installed — you’re running the home-screen app.')];
+  if (justInstalled) return [el('p', { class: 'install-done' }, '✓ Installed. Open photo-pointer from your home screen.')];
+  const kids = [];
+  if (canPrompt()) {
+    const btn = el('button', {
+      class: 'tip-primary',
+      onClick: async () => {
+        const ok = await promptInstall();
+        if (ok) btn.replaceWith(el('p', { class: 'install-done' }, '✓ Installing — look for photo-pointer on your home screen.'));
+      },
+    }, 'Install app');
+    kids.push(btn);
+  }
+  kids.push(...stepsFor(platform()));
+  return kids;
+}
+
+// The welcome pop-up: what the app is, a one-tap "Show all pins" so the empty
+// map isn't a dead end, and how to install it. `onShowAll` is optional.
+export function openWelcome({ onShowAll } = {}) {
+  const dlg = el('dialog', { class: 'welcome-dialog' }, [
+    el('button', { class: 'welcome-x', 'aria-label': 'Close', onClick: () => dlg.close() }, '×'),
+    el('h2', {}, 'Welcome to photo-pointer'),
+    el('p', {}, 'One map of every photo-worthy place in your region — viewpoints, historic markers, oddities, parks, trails, wildlife spots and dark skies. Free, offline, and no account.'),
+    el('p', { class: 'dim' }, 'The map opens with every pin type switched off, so it starts empty. Turn on a category up top — or tap here — to see places near you.'),
+    onShowAll
+      ? el('button', { class: 'tip-primary', onClick: () => { onShowAll(); dlg.close(); } }, 'Show all pins')
+      : null,
+    el('h3', { class: 'welcome-sub' }, 'Add it to your home screen'),
+    el('p', { class: 'dim' }, 'photo-pointer runs best installed: full-screen, and offline in the field with no signal.'),
+    ...installBody(),
+    el('div', { class: 'dialog-row welcome-foot' }, [
+      el('button', { class: 'dialog-close', onClick: () => dlg.close() }, 'Start exploring'),
+    ]),
+  ]);
+  dlg.addEventListener('close', () => dlg.remove());
+  document.body.append(dlg);
+  dlg.showModal();
+  rememberWelcomed();
+}
+
+// Show the welcome pop-up on a first visit only. Returns true if it opened, so
+// the caller can skip any other first-open prompt. Never shows once installed.
+export function maybeShowWelcome(opts) {
+  if (welcomed() || isStandalone()) return false;
+  openWelcome(opts);
+  return true;
+}

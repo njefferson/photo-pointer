@@ -360,6 +360,49 @@ body {
 .tip-primary { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
 .tip-dialog::backdrop { background: rgba(0, 0, 0, 0.4); }
 
+/* Welcome + install pop-up (first open, and re-openable from Backup). Reuses the
+   dialog look; the "Show all pins" / "Install app" buttons lead with weight +
+   border (not hue), on the gated ink/bg pair. */
+.welcome-dialog {
+  position: relative;
+  max-width: 440px;
+  width: calc(100vw - 40px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--ink);
+  padding: 20px;
+}
+.welcome-dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
+.welcome-dialog h2 { font-size: 19px; margin: 0 6px 8px 0; }
+.welcome-dialog h3.welcome-sub { font-size: 15px; margin: 16px 0 4px; }
+.welcome-dialog p { font-size: 14px; line-height: 1.45; margin: 0 0 8px; }
+.welcome-dialog p.dim { color: var(--dim); }
+.welcome-dialog button {
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 14px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.welcome-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  min-height: 34px !important;
+  padding: 4px 10px !important;
+  font-size: 18px;
+  line-height: 1;
+}
+.install-steps { margin: 4px 0 8px; padding-left: 20px; }
+.install-steps li { font-size: 14px; line-height: 1.5; margin: 0 0 6px; }
+.install-done { font-weight: 600; }
+.inline-ico { display: inline-flex; vertical-align: -3px; }
+.welcome-foot { margin-top: 12px; }
+
 .toast {
   position: fixed;
   bottom: calc(16px + env(safe-area-inset-bottom));
