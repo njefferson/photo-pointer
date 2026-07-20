@@ -1521,7 +1521,12 @@
         "name": "Pine Log State Forest",
         "ele": "16",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Pine Log State Forest",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -1882,7 +1887,12 @@
       "tags": {
         "name": "Shell Island",
         "operator": "United States Fish and Wildlife Service",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "Shell Island",
+          "class": "nature_reserve",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {

@@ -1,0 +1,57 @@
+{
+  "source": {
+    "source": "public_lands",
+    "name": "Public-land boundaries (OpenStreetMap)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "builtAt": "2026-07-20",
+  "count": 4,
+  "areas": [
+    {
+      "name": "Apalachicola National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 29.9038599,
+        "west": -86.9671683,
+        "north": 30.7073478,
+        "east": -84.254051
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 30.1183758,
+        "west": -85.7247334,
+        "north": 30.1239455,
+        "east": -85.7194615
+      }
+    },
+    {
+      "name": "Shell Island",
+      "class": "nature_reserve",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 30.062859,
+        "west": -85.6792271,
+        "north": 30.0913841,
+        "east": -85.6183038
+      }
+    },
+    {
+      "name": "Pine Log State Forest",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 30.3814142,
+        "west": -85.8923124,
+        "north": 30.4407161,
+        "east": -85.8417331
+      }
+    }
+  ]
+}
