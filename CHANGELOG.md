@@ -2,6 +2,17 @@
 
 Written for the person using the app. Newest first.
 
+## 0.12.0 — 2026-07-20
+
+**Opens where you are, and starts from a clean map.**
+
+- The map now **opens zoomed in on your location** instead of the whole region.
+  A new **◎ button** (by the zoom controls) re-centers on you any time.
+- If you're **outside the covered area**, it drops you in **Cameron Park** so
+  you're always looking at somewhere with spots — and tells you it did.
+- The category filters now start with **everything off**, so you choose what to
+  see. A new **Show all / Hide all** button flips them all at once.
+
 ## 0.11.0 — 2026-07-19
 
 **Is the air clear enough to shoot?**

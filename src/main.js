@@ -19,30 +19,40 @@ function allCategories() {
   return new Set(Object.keys(CATEGORY_META));
 }
 
+// The visible set is exactly what's stored — default empty (all categories off,
+// Noah's call). Turning a category on adds it; the master toggle sets all/none.
 function currentVisible() {
-  const saved = activeFilters();
-  return saved.size ? saved : allCategories();
+  return activeFilters();
+}
+
+function applyVisible(v) {
+  setActiveFilters(v);
+  mapView?.setVisible(v);
+  renderHeader();
 }
 
 function renderHeader() {
   const visible = currentVisible();
+  const allOn = visible.size === allCategories().size;
+  const allToggle = el('button', {
+    class: 'chip chip-all',
+    onClick: () => applyVisible(allOn ? new Set() : allCategories()),
+  }, allOn ? 'Hide all' : 'Show all');
   const chips = Object.entries(CATEGORY_META).map(([cat, meta]) =>
     el('button', {
       class: `chip chip-${cat}${visible.has(cat) ? ' on' : ''}`,
       'aria-pressed': String(visible.has(cat)),
       onClick: () => {
-        const v = currentVisible();
+        const v = new Set(currentVisible());
         if (v.has(cat)) v.delete(cat);
         else v.add(cat);
-        setActiveFilters(v.size === allCategories().size ? new Set() : v);
-        mapView?.setVisible(v.size ? v : allCategories());
-        renderHeader();
+        applyVisible(v);
       },
     }, [el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter), ` ${meta.label}`])
   );
   const header = el('header', { class: 'bar' }, [
     el('h1', {}, region?.name ?? 'photo-pointer'),
-    el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, chips),
+    el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
     el('div', { class: 'bar-actions' }, [
       el('button', { class: 'data-btn top-btn', onClick: openTopSpots }, '★ Top spots'),
       el('button', { class: 'data-btn', onClick: openDataDialog }, 'Backup'),

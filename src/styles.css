@@ -84,6 +84,30 @@ body {
 /* Off = excluded: struck through + dimmed (decoration + luminance, not hue). */
 .chip[aria-pressed="false"] { opacity: 0.55; text-decoration: line-through; }
 
+/* Master show-all / hide-all toggle — an action button, not a category, so it
+   never carries the struck-through "off" look. */
+.chip-all {
+  font-weight: 650;
+  border-color: color-mix(in srgb, var(--ink) 45%, var(--line));
+  text-decoration: none;
+  opacity: 1;
+}
+
+/* "Center on my location" map control (a bare Leaflet control button). */
+.map-center-btn {
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+.map-center-btn:hover { background: var(--bg); }
+
 .theme-toggle, .data-btn {
   font: inherit;
   color: var(--ink);

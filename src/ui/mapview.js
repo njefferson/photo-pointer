@@ -10,6 +10,11 @@ import { cloudTonight } from '../model/weather.js';
 import { airToday } from '../model/airquality.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
+import { inBBox } from '../model/geo.js';
+
+// If a GPS fix lands outside the covered region, drop the user in the middle of
+// the map's world instead — Cameron Park, in El Dorado County (Noah's call).
+export const FALLBACK_CENTER = { lat: 38.6785, lng: -120.9872, name: 'Cameron Park, CA' };
 
 export const CATEGORY_META = {
   viewpoint: { label: 'Viewpoint', letter: 'V' },
@@ -50,7 +55,60 @@ function pinIcon(category) {
 export function createMapView(container, { region, onChange }) {
   const map = L.map(container, { zoomControl: true });
   const b = region.bbox;
-  map.fitBounds([[b.south, b.west], [b.north, b.east]]);
+  // Open zoomed in, not at the whole-region overview: start on Cameron Park,
+  // then refine to the user's real spot once geolocation answers.
+  map.setView([FALLBACK_CENTER.lat, FALLBACK_CENTER.lng], 12);
+
+  // Where should "center on me" put the view? The GPS fix if it's inside the
+  // covered region; otherwise the in-region fallback (Cameron Park). Returns
+  // { lat, lng, inArea }.
+  function resolveCenter(coords) {
+    if (coords && inBBox(coords.lat, coords.lng, region.bbox)) {
+      return { lat: coords.lat, lng: coords.lng, inArea: true };
+    }
+    return { lat: FALLBACK_CENTER.lat, lng: FALLBACK_CENTER.lng, inArea: false };
+  }
+
+  // Ask the browser for a fix and center on it (or the fallback). Fails soft —
+  // a denied/blocked/timed-out fix just leaves the Cameron Park view. `onDone`
+  // reports the resolved center so the caller can toast when out of area.
+  function centerOnLocation(onDone) {
+    if (!navigator.geolocation) { onDone?.(resolveCenter(null)); return; }
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        const c = resolveCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        map.setView([c.lat, c.lng], c.inArea ? 14 : 12);
+        onDone?.(c);
+      },
+      () => { map.setView([FALLBACK_CENTER.lat, FALLBACK_CENTER.lng], 12); onDone?.(resolveCenter(null)); },
+      { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
+    );
+  }
+
+  // A crosshair "center on me" button, next to the zoom control.
+  const CenterControl = L.Control.extend({
+    options: { position: 'topleft' },
+    onAdd() {
+      const btn = L.DomUtil.create('button', 'map-center-btn');
+      btn.type = 'button';
+      btn.textContent = '◎';
+      btn.title = 'Center on my location';
+      btn.setAttribute('aria-label', 'Center on my location');
+      L.DomEvent.on(btn, 'click', (e) => {
+        L.DomEvent.stop(e);
+        centerOnLocation((c) => {
+          if (!c.inArea) toast(`You're outside the map — centered on ${FALLBACK_CENTER.name}`);
+        });
+      });
+      return btn;
+    },
+  });
+  new CenterControl().addTo(map);
+
+  // On open, try to zoom to the user right away.
+  centerOnLocation((c) => {
+    if (!c.inArea) toast(`You're outside the covered area — centered on ${FALLBACK_CENTER.name}`);
+  });
 
   const bases = BASE_LAYERS();
   bases.Map.addTo(map);

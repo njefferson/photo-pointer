@@ -65,6 +65,29 @@ doing anything.
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 0.12.0 "Opens where you are" BUILT on staging (awaiting on-device
+  pass — needs Noah's HANDS: real iPad GPS + the Safari location-permission
+  prompt, only Chromium-verified here). Noah's asks, all four done: (1) MASTER
+  TOGGLE — main.js renderHeader adds a `.chip-all` button first in the chips row,
+  label "Show all" when not-all-on / "Hide all" when all-on, sets
+  applyVisible(all|none). (2) DEFAULT ALL-OFF — filter semantics CHANGED: the
+  stored set is now the EXACT visible set (empty = nothing shown), dropping the
+  old "empty means all" convention; store.js K_FILTERS bumped to
+  'pointer.filters.v2' so a returning device starts all-off cleanly.
+  currentVisible()=activeFilters() raw. (3) GEO START + CENTER BUTTON —
+  mapview.js opens at map.setView(Cameron Park, 12) NOT fitBounds, then
+  centerOnLocation() runs on boot: navigator.geolocation.getCurrentPosition →
+  resolveCenter(coords) uses the fix if inBBox(region) (setView zoom 14) else the
+  fallback; fails soft (denied/timeout → stays Cameron Park). A Leaflet
+  CenterControl (◎, .map-center-btn, topleft by zoom) re-runs it. (4) OUT-OF-AREA
+  → CAMERON PARK — FALLBACK_CENTER = {38.6785,-120.9872} (El Dorado County); any
+  GPS fix outside region.bbox (or no fix) centers there + toast "You're outside
+  the covered area — centered on Cameron Park, CA". sw CACHE pointer-0.12.0.
+  VERIFIED headless (Playwright geolocation): all-off start = 0 pins in DOM (the
+  groups aren't mounted), Show all → 2409 pins → Hide all → 0; center button
+  present; in-area (Auburn fix) = no toast (centers on user), out-of-area (NYC
+  fix) = Cameron Park toast; zero pageerrors in all three geo scenarios; 88
+  tests, contrast green (added .chip-all/.map-center-btn — ink-on-card, gated).
 - 2026-07-19 PROMOTED 0.5.0→0.11.0 to main in one fast-forward (Noah's "Promote
   to main" after his on-device pass on staging): production == 0.11.0
   (photo-pointer.pages.dev, Deploy run #41 on main). Seven releases went live at

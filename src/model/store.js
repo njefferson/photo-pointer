@@ -7,7 +7,10 @@ import { makeSpot, validateSpot } from './spot.js';
 import { dedupKey } from './dedup.js';
 
 const K_PINS = 'pointer.userPins';
-const K_FILTERS = 'pointer.filters';
+// v2: filters now store the EXACT set of visible categories, defaulting to
+// none (all off). The v1 key used empty to mean "all on" — bumping avoids that
+// stale meaning flipping a returning user's view.
+const K_FILTERS = 'pointer.filters.v2';
 
 function read(key, fallback) {
   try {
