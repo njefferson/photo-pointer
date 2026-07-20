@@ -1,7 +1,8 @@
 // In-app changelog — newest first. CHANGELOG[0].v is the current version and
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
-// Written for the end user: what changed for them, not how.
+// Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
+  { v: '1.0.0', t: 'photo-pointer 1.0', n: 'The first full release. Three regions (Sacramento, Humboldt Coast, Yellowstone) with every open-data layer — light and golden hour, dark skies, open horizon, wildlife, photographed spots, public land, air and weather. Save favorites, a list view sorted by distance, verified-only historical markers, and a map that reads cleanly at any zoom, light or dark.' },
   { v: '0.16.2', t: 'Humboldt opens on Arcata', n: 'Switching to the Humboldt Coast region now opens centered on Arcata, instead of zoomed out to the whole coast.' },
   { v: '0.16.1', t: 'A cleaner zoomed-out map', n: 'Zoomed out, the map now thins overlapping pins to a clean spread — keeping the most worthwhile pin in each patch — so a dense region is readable instead of a pile, and lighter to draw, not heavier. The pin-type buttons stay simple on/off toggles.' },
   { v: '0.15.2', t: 'Fewer junk markers', n: 'Only verified historical markers (a Wikipedia article, a real Historical Marker Database entry, a California Historical Landmark, a heritage listing, or an actual plaque) now get a marker pin. Random community-tagged “monuments” are hidden — unless the spot is worthwhile for another reason, like being photographed or a wildlife spot.' },

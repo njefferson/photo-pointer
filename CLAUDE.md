@@ -64,7 +64,30 @@ doing anything.
 ##   stale the moment it's committed; Open-Meteo AQI is live at view time (same
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
+## Versioning (Noah, 2026-07-20): version.capability.iteration (same as the
+## sibling apps). sw.js CACHE = `pointer-<x.y.z>` and src/data/changelog.js
+## CHANGELOG[0].v carry the SAME triplet — bump both together; the ⓘ panel's
+## "Version" stamp renders CHANGELOG[0].v. Major (x) is Noah's call. 1.0.0 was
+## declared at the first full release (2026-07-20).
+
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 1.0.0 to main (Noah's "Promote to main as version 1.0.0")
+  — the FIRST MAJOR release, declared by Noah. Production == origin/staging
+  (clean fast-forward from 0.14.0). Rolls up everything since 0.14.0: 0.15.0
+  notability badges + source/data link-outs + tri-state Top-spots chips; 0.15.1
+  dark-map-via-CSS-filter (dropped external CARTO tiles — they didn't load /
+  weren't offline) + scrollable popups (Leaflet maxHeight) + backdrop-dismiss on
+  every dialog (closeOnBackdrop in dom.js) + un-clipped Map/List toggle; 0.15.2
+  verified-only historical markers (model/notability.js keepSpot — drops
+  unverified OSM `historic=*` junk unless it has commons/wildlife data; ~41 junk
+  dropped in Sacramento, 70 verified kept); 0.16.1 zoomed-out pin declutter (one
+  pin per ~40px grid cell in cull(), highest synthesis score wins, user pins
+  always kept — FEWER mounted nodes, no lag); 0.16.2 per-region opening `center`
+  (config/regions.json) — Humboldt opens on Arcata. NOTE: category buttons are
+  ON/OFF TOGGLES, not tri-state (Noah corrected a mis-build: only the Top-spots
+  LAYER chips are tri-state require/exclude; the pin-type buttons stay simple
+  show/hide, all-off default). sw CACHE pointer-1.0.0. All gates green (91 tests,
+  contrast), each change headless-smoked.
 - 2026-07-20 PROMOTED 0.13.6 to main — SECOND promotion, completes Yellowstone +
   ships the welcome/ⓘ UI batch (Noah's "Promote when it's done"). Production ==
   origin/staging (clean FF). YELLOWSTONE NOW FULLY DONE: 2789 spots, all 5
