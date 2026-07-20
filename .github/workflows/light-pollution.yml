@@ -19,7 +19,7 @@ on:
         default: '14fJT5hLJ8chU3xOSfHBo36SbF1NIN1pL'
 
 concurrency:
-  group: lp-${{ github.ref }}
+  group: lp-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
   cancel-in-progress: false
 
 jobs:

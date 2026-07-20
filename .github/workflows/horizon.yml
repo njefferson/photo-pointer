@@ -19,7 +19,7 @@ on:
         description: Region id (see config/regions.json)
         default: sac-eldorado-placer
 concurrency:
-  group: horizon-${{ github.ref }}
+  group: horizon-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
   cancel-in-progress: false
 
 jobs:

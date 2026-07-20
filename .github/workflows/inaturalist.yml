@@ -16,7 +16,7 @@ on:
         description: Region id (see config/regions.json)
         default: sac-eldorado-placer
 concurrency:
-  group: inat-${{ github.ref }}
+  group: inat-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
   cancel-in-progress: false
 
 jobs:
