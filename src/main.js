@@ -7,7 +7,7 @@ import { loadRegions, pickRegion } from './model/region.js';
 import { userPins, activeFilters, setActiveFilters, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
 import { topSpotsPanel } from './ui/synthesis.js';
-import { maybeShowWelcome, openAbout } from './ui/install.js';
+import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 
 applyTheme(currentTheme());
 
@@ -236,12 +236,15 @@ async function boot() {
   // Opening frame: geolocate on the home region, fit-bounds on the others.
   mapView.setRegion(region, { locate: region.id === regionsDoc.default });
 
-  // First visit → a welcome pop-up (what the app is + how to install it, with a
-  // one-tap "Show all pins"). On later visits, if the map is empty, a smaller
-  // "turn on a pin type" nudge instead. Never both. (The header keeps a quiet
-  // standing tip too, for after either is dismissed.)
+  // First open → welcome (what the app is + install, with a one-tap "Show all").
+  // Otherwise, after an update → "What's new"; else, if the map is empty, the
+  // small "turn on a pin type" nudge. At most one of these. (The header keeps a
+  // quiet standing tip too, for after any is dismissed.)
   const welcomed = maybeShowWelcome({ onShowAll: () => applyVisible(allCategories()) });
-  if (!welcomed && currentVisible().size === 0) showStartTip();
+  if (!welcomed) {
+    const shownNew = maybeShowWhatsNew();
+    if (!shownNew && currentVisible().size === 0) showStartTip();
+  }
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});

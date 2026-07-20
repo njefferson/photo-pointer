@@ -12,6 +12,17 @@ import { el } from './dom.js';
 import { CHANGELOG, VERSION } from '../data/changelog.js';
 
 const WELCOMED_KEY = 'pointer.welcomed';
+const SEEN_VERSION_KEY = 'pointer.seenVersion';
+
+// Compare x.y.z versions: >0 if a is newer than b.
+function cmpVer(a, b) {
+  const pa = String(a).split('.').map(Number);
+  const pb = String(b).split('.').map(Number);
+  for (let i = 0; i < 3; i++) { const d = (pa[i] || 0) - (pb[i] || 0); if (d) return d; }
+  return 0;
+}
+function seenVersion() { try { return localStorage.getItem(SEEN_VERSION_KEY); } catch { return null; } }
+function markVersionSeen() { try { localStorage.setItem(SEEN_VERSION_KEY, VERSION); } catch { /* private mode */ } }
 
 // Chrome/Edge (Android + desktop) fire `beforeinstallprompt`; stash it so a
 // button can open the real OS install sheet. iOS Safari never fires it — there
@@ -160,7 +171,7 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
   dlg.addEventListener('close', () => dlg.remove());
   document.body.append(dlg);
   dlg.showModal();
-  if (welcome) rememberWelcomed();
+  if (welcome) { rememberWelcomed(); markVersionSeen(); }
 }
 
 // Show the welcome pop-up on a first visit only. Returns true if it opened, so
@@ -168,5 +179,44 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
 export function maybeShowWelcome(opts) {
   if (welcomed() || isStandalone()) return false;
   openAbout({ welcome: true, ...opts });
+  return true;
+}
+
+// "What's new" — the changelog entries added since this device last opened the
+// app. Shown after an update (not on a first visit — the welcome covers that,
+// and it seeds the seen version). Newest-first, just the fresh entries.
+export function openWhatsNew(entries) {
+  const dlg = el('dialog', { class: 'welcome-dialog whatsnew-dialog' }, [
+    el('button', { class: 'welcome-x', 'aria-label': 'Close', onClick: () => dlg.close() }, '×'),
+    el('h2', {}, 'What’s new'),
+    el('p', { class: 'dim' }, `You’re now on version ${VERSION}.`),
+    el('ul', { class: 'changelog-list' }, entries.map((c) =>
+      el('li', {}, [
+        el('span', { class: 'cl-v' }, c.v),
+        el('span', { class: 'cl-t' }, c.t),
+        el('span', { class: 'cl-n' }, c.n),
+      ])
+    )),
+    el('div', { class: 'dialog-row welcome-foot' }, [
+      el('button', { class: 'dialog-close', onClick: () => dlg.close() }, 'Got it'),
+    ]),
+  ]);
+  dlg.addEventListener('close', () => dlg.remove());
+  document.body.append(dlg);
+  dlg.showModal();
+}
+
+// Show "What's new" when the app has updated since this device last saw it.
+// Returns true if it opened. First-ever run (no baseline) shows just the current
+// entry, so the very first rollout of this feature still surfaces once; after
+// that it's the exact delta. A brand-new user never reaches here (the welcome
+// runs first and seeds the version).
+export function maybeShowWhatsNew() {
+  const seen = seenVersion();
+  if (seen === VERSION) return false;
+  markVersionSeen();
+  const fresh = seen ? CHANGELOG.filter((c) => cmpVer(c.v, seen) > 0) : CHANGELOG.slice(0, 1);
+  if (!fresh.length) return false;
+  openWhatsNew(fresh);
   return true;
 }
