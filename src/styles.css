@@ -111,11 +111,14 @@ body {
   min-height: 30px;
 }
 
-/* Off = excluded: struck through + dimmed (decoration + luminance, not hue). */
-.chip[aria-pressed="false"] { opacity: 0.55; text-decoration: line-through; }
+/* Tri-state category chips (match the Top-spots chips). Neutral = shown (plain).
+   include = ✓ show-only (bold + firm border); exclude = ✕ hidden (struck + dim).
+   Non-hue channels carry the state; the ✓/✕ come from the .chip-mark span. */
+.chip.include { font-weight: 700; border-color: var(--ink); border-width: 2px; }
+.chip.exclude { opacity: 0.5; text-decoration: line-through; border-style: dashed; }
+.chip-mark { font-weight: 700; }
 
-/* Master show-all / hide-all toggle — an action button, not a category, so it
-   never carries the struck-through "off" look. */
+/* Master "Show all" reset — an action button, not a category. */
 .chip-all {
   font-weight: 650;
   border-color: color-mix(in srgb, var(--ink) 45%, var(--line));

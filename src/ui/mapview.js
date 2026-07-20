@@ -189,14 +189,37 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   let visible = new Set(Object.keys(CATEGORY_META));
 
   const padded = () => map.getBounds().pad(0.35);
+  const CELL_PX = 40; // declutter grid: at most one pin per ~40px cell in view
   function cull() {
     const b = padded();
+    // 1) Gather the in-view, visible-category candidates; unmount everything else.
+    const cands = [];
     for (const rec of markerById.values()) {
-      const show = visible.has(rec.category) && b.contains([rec.lat, rec.lng]);
-      if (show && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
-      else if (!show && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
+      const inView = visible.has(rec.category) && b.contains([rec.lat, rec.lng]);
+      if (inView) cands.push(rec);
+      else if (rec.mounted) { rec.marker.remove(); rec.mounted = false; }
+    }
+    // 2) Declutter: keep the best pin per screen-grid cell. The grid is in PIXELS,
+    //    so zoomed out a cell covers lots of ground (few pins) and zoomed in each
+    //    pin gets its own cell (all show). Fewer mounted nodes than before → no
+    //    lag. User pins always survive; otherwise the higher-scoring pin wins.
+    cands.sort((a, c) => scoreOf(c) - scoreOf(a));
+    const taken = new Set();
+    for (const rec of cands) {
+      let keep;
+      if (rec.category === 'user_pin') {
+        keep = true;
+      } else {
+        const pt = map.latLngToContainerPoint([rec.lat, rec.lng]);
+        const key = `${Math.floor(pt.x / CELL_PX)}:${Math.floor(pt.y / CELL_PX)}`;
+        keep = !taken.has(key);
+        if (keep) taken.add(key);
+      }
+      if (keep && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
+      else if (!keep && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
     }
   }
+  function scoreOf(rec) { return synthesisFor(rec.id)?.score ?? 0; }
   let cullPending = false;
   function scheduleCull() {
     if (cullPending) return;
