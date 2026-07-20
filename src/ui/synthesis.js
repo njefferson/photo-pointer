@@ -47,8 +47,12 @@ export function topSpotsPanel(ranked, onGo) {
 
   // Cross-layer require chips: tap to demand a layer contribute.
   const requireKeys = new Set();
+  // NOTE: 'layered' is deliberately NOT a require chip. It's the meta-signal the
+  // whole panel already ranks by (how many layers line up), not a concrete layer
+  // you can demand like the rest — offering it as a chip that looks identical but
+  // behaves differently is confusing. It still scores spots and shows "A layered
+  // place" in each row; it just isn't a filter.
   const LAYER_CHIPS = [
-    ['layered', 'Layered'],
     ['wildlife', 'Wildlife'],
     ['iNatWildlife', 'Wild subjects'],
     ['view', 'Open view'],

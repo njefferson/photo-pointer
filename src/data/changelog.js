@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Written for the end user: what changed for them, not how.
 export const CHANGELOG = [
+  { v: '0.13.7', t: 'Clearer Top-spots filters', n: 'Dropped the confusing “Layered” filter — it’s already how Top spots are ranked, not a layer you require. The filters are now just the real layers.' },
   { v: '0.13.6', t: 'Welcome, install & this ⓘ', n: 'A first-open welcome that explains why photo-pointer exists and how to add it to your home screen — all here under ⓘ, with the changelog.' },
   { v: '0.13.4', t: 'Empty-map tip', n: 'A gentle nudge when every pin type is switched off, so a blank map never looks broken.' },
   { v: '0.13.3', t: 'Lands where you are', n: 'Opening near Humboldt or Yellowstone switches to that map; anywhere outside the covered areas centers on Cameron Park.' },
