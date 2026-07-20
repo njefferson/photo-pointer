@@ -8,6 +8,7 @@ import { userPins, activeFilters, setActiveFilters, activeRegionId, setActiveReg
 import { rankSpots } from './model/synthesis.js';
 import { topSpotsPanel } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
+import { renderListInto } from './ui/listview.js';
 
 applyTheme(currentTheme());
 
@@ -16,6 +17,24 @@ let mapView = null;
 let dataSpots = [];
 let regionsDoc = null;
 let region = null;
+let viewMode = 'map';
+let listEl = null;
+
+function onFocusSpot(spot) {
+  setViewMode('map');
+  mapView?.focusSpot(spot);
+}
+
+// Switch between the map and the list (two views of the same region's spots).
+function setViewMode(mode) {
+  viewMode = mode;
+  const mapRoot = app.querySelector('.map-root');
+  if (mapRoot) mapRoot.style.display = mode === 'map' ? '' : 'none';
+  if (listEl) listEl.style.display = mode === 'list' ? '' : 'none';
+  if (mode === 'list') renderListInto(listEl, { spots: spotsForMap(), onFocusSpot, onChange: refresh });
+  else mapView?.map.invalidateSize();
+  renderHeader();
+}
 
 function allCategories() {
   return new Set(Object.keys(CATEGORY_META));
@@ -70,6 +89,10 @@ function renderHeader() {
           'Turn on at least one pin type above to see places on the map.')
       : null,
     el('div', { class: 'bar-actions' }, [
+      el('div', { class: 'view-toggle', role: 'group', 'aria-label': 'Map or list view' }, [
+        el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
+        el('button', { class: `vt-btn${viewMode === 'list' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'list'), onClick: () => setViewMode('list') }, 'List'),
+      ]),
       el('button', { class: 'data-btn top-btn', onClick: openTopSpots }, '★ Top spots'),
       el('button', { class: 'data-btn', onClick: openDataDialog }, 'Backup'),
       el('button', {
@@ -77,7 +100,7 @@ function renderHeader() {
         'aria-label': 'About photo-pointer, install help and changelog',
         onClick: () => openAbout({ onShowAll: () => applyVisible(allCategories()) }),
       }, 'ⓘ'),
-      themeToggle(),
+      themeToggle((theme) => mapView?.syncThemeBasemap(theme)),
     ]),
   ]);
   const old = app.querySelector('header');
@@ -133,7 +156,7 @@ function showStartTip() {
 function openDataDialog() {
   const dlg = el('dialog', { class: 'data-dialog' }, [
     el('h2', {}, 'Backup & data'),
-    el('p', {}, 'Your pins live on this device. Copy this bundle somewhere safe to back them up, or paste one to restore.'),
+    el('p', {}, 'Your dropped pins and saved favorites live only on this device. Copy this bundle somewhere safe to back them up, or paste one to restore them on another device.'),
     el('textarea', { rows: 6, 'aria-label': 'Backup bundle JSON' }),
     el('div', { class: 'dialog-row' }, [
       el('button', {
@@ -141,9 +164,9 @@ function openDataDialog() {
           const ta = e.target.closest('dialog').querySelector('textarea');
           ta.value = JSON.stringify(exportBundle());
           ta.select();
-          toast('Bundle ready — copy it somewhere safe');
+          toast('Backup ready — copy it somewhere safe');
         },
-      }, 'Export my pins'),
+      }, 'Export pins & favorites'),
       el('button', {
         onClick: (e) => {
           const ta = e.target.closest('dialog').querySelector('textarea');
@@ -155,7 +178,7 @@ function openDataDialog() {
             return;
           }
           const res = importBundle(bundle);
-          toast(res.ok ? `Restored ${res.imported} pin(s)` : `Import failed: ${res.error}`);
+          toast(res.ok ? `Restored ${res.imported} pin(s) and ${res.favorites ?? 0} favorite(s)` : `Import failed: ${res.error}`);
           if (res.ok) refresh();
         },
       }, 'Import'),
@@ -182,6 +205,7 @@ function refresh() {
   mapView?.setVisible(currentVisible());
   const byId = new Map(ranking().map((r) => [r.spot.id, r]));
   mapView?.setSynthesis(byId);
+  if (viewMode === 'list' && listEl) renderListInto(listEl, { spots: spotsForMap(), onFocusSpot, onChange: refresh });
 }
 
 let dataBuiltAt = null;
@@ -224,6 +248,9 @@ async function boot() {
 
   const mapEl = el('main', { class: 'map-root', 'aria-label': 'Map of photo spots' });
   app.append(mapEl);
+  listEl = el('div', { class: 'list-root', 'aria-label': 'List of photo spots in this region' });
+  listEl.style.display = 'none';
+  app.append(listEl);
   mapView = createMapView(mapEl, {
     region,
     regions: regionsDoc.regions ?? [],

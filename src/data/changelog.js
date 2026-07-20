@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Written for the end user: what changed for them, not how.
 export const CHANGELOG = [
+  { v: '0.14.0', t: 'Favorites, a list view & a dark map', n: 'Save any place as a favorite (★). New List view of every place in the region, sortable by distance from you, name or type, with a favorites-only filter. The map now goes dark with the theme, and the map-type button shows a proper icon.' },
   { v: '0.13.8', t: 'What’s new on update', n: 'After the app updates, a short “What’s new” pop-up shows what changed since you last opened it.' },
   { v: '0.13.7', t: 'Clearer Top-spots filters', n: 'Dropped the confusing “Layered” filter — it’s already how Top spots are ranked, not a layer you require. The filters are now just the real layers.' },
   { v: '0.13.6', t: 'Welcome, install & this ⓘ', n: 'A first-open welcome that explains why photo-pointer exists and how to add it to your home screen — all here under ⓘ, with the changelog.' },

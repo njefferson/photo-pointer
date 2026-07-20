@@ -23,7 +23,7 @@ export function applyTheme(theme) {
   }
 }
 
-export function themeToggle() {
+export function themeToggle(onChange) {
   const btn = el('button', {
     class: 'theme-toggle',
     'aria-label': 'Switch between light and dark theme',
@@ -34,6 +34,7 @@ export function themeToggle() {
       } catch { /* private mode */ }
       applyTheme(next);
       btn.textContent = next === 'dark' ? '☀' : '☾';
+      onChange?.(next);
     },
   }, currentTheme() === 'dark' ? '☀' : '☾');
   return btn;

@@ -3,7 +3,7 @@
 
 import * as L from '../vendor/leaflet.js';
 import { el, toast } from './dom.js';
-import { addUserPin, removeUserPin, restoreUserPin } from '../model/store.js';
+import { addUserPin, removeUserPin, restoreUserPin, isFavorite, toggleFavorite } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
 import { moonTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
@@ -11,6 +11,7 @@ import { airToday } from '../model/airquality.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
 import { inBBox, bboxCenter } from '../model/geo.js';
+import { currentTheme } from './theme.js';
 
 // If a GPS fix lands outside the covered region, drop the user in the middle of
 // the map's world instead — Cameron Park, in El Dorado County (Noah's call).
@@ -34,6 +35,12 @@ const BASE_LAYERS = () => ({
   Map: L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }),
+  // Keyless dark basemap (CARTO), so the map itself goes dark with the theme.
+  Night: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 19,
+    subdomains: 'abcd',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
   }),
   Satellite: L.tileLayer(
     'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
@@ -149,8 +156,22 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // driven by main.js via setRegion once data is ready.
 
   const bases = BASE_LAYERS();
-  bases.Map.addTo(map);
+  // Start the basemap matching the theme so a dark app has a dark map.
+  let currentBaseName = currentTheme() === 'dark' ? 'Night' : 'Map';
+  bases[currentBaseName].addTo(map);
   const layerControl = L.control.layers(bases, {}, { position: 'topright' }).addTo(map);
+  map.on('baselayerchange', (e) => { currentBaseName = e.name; });
+
+  // Follow the theme: swap Map<->Night when it flips, unless the user has
+  // deliberately chosen Satellite (leave their choice alone).
+  function syncThemeBasemap(theme) {
+    if (currentBaseName === 'Satellite') return;
+    const want = theme === 'dark' ? 'Night' : 'Map';
+    if (want === currentBaseName) return;
+    map.removeLayer(bases[currentBaseName]);
+    bases[want].addTo(map);
+    currentBaseName = want;
+  }
 
   // Dark-sky overlay — per region, so it swaps when you switch regions. Loaded
   // async; a region without the layer simply gets none. Its legend shows only
@@ -370,10 +391,33 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     ]);
   }
 
+  // Star toggle to save/unsave a spot as a favorite. Text label carries the
+  // state (Saved / Save) so it's not hue-only; the star reinforces it.
+  function favButton(spot) {
+    const btn = el('button', { class: 'popup-fav', 'aria-pressed': String(isFavorite(spot.id)) });
+    const paint = () => {
+      const on = isFavorite(spot.id);
+      btn.classList.toggle('on', on);
+      btn.setAttribute('aria-pressed', String(on));
+      btn.textContent = on ? '★ Saved' : '☆ Save';
+    };
+    btn.addEventListener('click', () => {
+      const on = toggleFavorite(spot.id);
+      paint();
+      toast(on ? 'Saved to favorites' : 'Removed from favorites');
+      onChange?.();
+    });
+    paint();
+    return btn;
+  }
+
   function popupFor(spot) {
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
-      el('h3', {}, spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
+      el('div', { class: 'popup-head' }, [
+        el('h3', {}, spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
+        favButton(spot),
+      ]),
       el('p', { class: 'popup-cat' }, [
         `${meta.label}`,
         spot.subject_type?.length ? ` · ${spot.subject_type.join(', ')}` : null,
@@ -495,5 +539,5 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     L.popup().setLatLng(e.latlng).setContent(form).openOn(map);
   });
 
-  return { map, setSpots, setVisible, setSynthesis, focusSpot, setRegion };
+  return { map, setSpots, setVisible, setSynthesis, focusSpot, setRegion, syncThemeBasemap };
 }

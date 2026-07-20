@@ -12,6 +12,7 @@ const K_PINS = 'pointer.userPins';
 // stale meaning flipping a returning user's view.
 const K_FILTERS = 'pointer.filters.v2';
 const K_REGION = 'pointer.region';
+const K_FAV = 'pointer.favorites';
 
 function read(key, fallback) {
   try {
@@ -92,6 +93,30 @@ export function setActiveFilters(set) {
   write(K_FILTERS, [...set]);
 }
 
+// ---- favorites: spot ids the user has starred (data spots OR their own pins) ----
+
+export function favorites() {
+  return new Set(read(K_FAV, []));
+}
+
+export function isFavorite(id) {
+  return favorites().has(id);
+}
+
+// Toggle and return the new state (true = now a favorite).
+export function toggleFavorite(id) {
+  const favs = favorites();
+  const on = !favs.has(id);
+  if (on) favs.add(id); else favs.delete(id);
+  write(K_FAV, [...favs]);
+  if (on) requestPersistence();
+  return on;
+}
+
+export function setFavorites(ids) {
+  write(K_FAV, [...new Set(ids)]);
+}
+
 // ---- durable backup bundle ----
 
 export const BUNDLE_APP = 'photo-pointer';
@@ -103,6 +128,7 @@ export function exportBundle() {
     version: BUNDLE_VERSION,
     exportedAt: new Date().toISOString(),
     userPins: userPins(),
+    favorites: [...favorites()],
   };
 }
 
@@ -124,6 +150,13 @@ export function importBundle(bundle) {
   const byId = new Map(existing.map((p) => [p.id, p]));
   for (const p of clean) byId.set(p.id, p);
   write(K_PINS, [...byId.values()]);
+  // Favorites are just ids — merge the union (older bundles may not have them).
+  let favImported = 0;
+  if (Array.isArray(bundle.favorites)) {
+    const merged = favorites();
+    for (const id of bundle.favorites) if (typeof id === 'string') { merged.add(id); favImported++; }
+    write(K_FAV, [...merged]);
+  }
   requestPersistence();
-  return { ok: true, imported: clean.length };
+  return { ok: true, imported: clean.length, favorites: favImported };
 }

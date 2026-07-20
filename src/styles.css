@@ -153,6 +153,25 @@ body {
 }
 .map-center-btn:hover { background: var(--bg); }
 
+/* The Leaflet layers ("map type") control ships its icon as a background sprite
+   image we don't vendor, so it rendered BLANK. Draw it ourselves as a themed
+   mask glyph (a stack of sheets), and match the map controls to the theme. */
+.leaflet-control-layers,
+.leaflet-bar a,
+.leaflet-bar a:hover {
+  background: var(--card);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.leaflet-control-layers-toggle {
+  background-image: none !important;
+  background-color: var(--ink);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3 3 8l9 5 9-5-9-5z'/%3E%3Cpath d='M3 13l9 5 9-5'/%3E%3Cpath d='M3 17l9 5 9-5'/%3E%3C/svg%3E") center / 20px 20px no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3 3 8l9 5 9-5-9-5z'/%3E%3Cpath d='M3 13l9 5 9-5'/%3E%3Cpath d='M3 17l9 5 9-5'/%3E%3C/svg%3E") center / 20px 20px no-repeat;
+}
+.leaflet-control-layers-expanded { color: var(--ink); padding: 8px 10px 8px 8px; }
+.leaflet-control-layers-list { font-size: 13px; }
+
 .theme-toggle, .data-btn {
   font: inherit;
   color: var(--ink);
@@ -168,6 +187,47 @@ body {
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 
 .map-root { flex: 1; min-height: 0; }
+
+/* Map / List view toggle (in the header). Active tab inverts (fill), not hue. */
+.view-toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.vt-btn { font: inherit; font-size: 13px; padding: 6px 12px; min-height: 34px; background: var(--card); color: var(--ink); border: none; cursor: pointer; }
+.vt-btn + .vt-btn { border-left: 1px solid var(--line); }
+.vt-btn.on { background: var(--ink); color: var(--bg); font-weight: 650; }
+
+/* List view: the text counterpart to the map. */
+.list-root { flex: 1; min-height: 0; overflow-y: auto; background: var(--bg); padding: 10px 12px 24px; }
+.list-controls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; position: sticky; top: 0; background: var(--bg); padding-bottom: 8px; z-index: 1; }
+.list-sortlabel { font-size: 13px; color: var(--dim); }
+.list-sort, .list-favonly {
+  font: inherit; font-size: 13px; padding: 5px 10px; min-height: 32px;
+  background: var(--card); color: var(--ink); border: 1px solid var(--line);
+  border-radius: 14px; cursor: pointer;
+}
+.list-sort.on, .list-favonly.on { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 55%, var(--line)); }
+.list-favonly.on { color: var(--accent); }
+.list-note { font-size: 12px; color: var(--dim); margin: 4px 0 8px; }
+.list-rows { display: flex; flex-direction: column; }
+.list-row { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; padding: 9px 6px; border-bottom: 1px solid var(--line); }
+.list-row-main { min-width: 0; }
+.list-name {
+  display: block; font: inherit; font-size: 15px; font-weight: 600; color: var(--ink);
+  background: none; border: none; padding: 0; text-align: left; cursor: pointer;
+}
+.list-name:hover { text-decoration: underline; }
+.list-meta { font-size: 12px; color: var(--dim); margin-top: 2px; }
+.list-star { font-size: 20px; line-height: 1; width: 40px; min-height: 40px; background: none; border: none; color: var(--dim); cursor: pointer; }
+.list-star.on { color: var(--accent); }
+.list-empty { font-size: 14px; color: var(--dim); padding: 20px 4px; }
+
+/* Favorite toggle in a spot popup — text label carries the state, star reinforces. */
+.popup-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.popup-head h3 { margin: 0; }
+.popup-fav {
+  font: inherit; font-size: 13px; font-weight: 600; white-space: nowrap;
+  padding: 4px 8px; min-height: 32px; background: var(--bg); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px; cursor: pointer;
+}
+.popup-fav.on { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); font-weight: 700; }
 
 /* Category pins: letter glyph on a filled disc with a white ring so they
    read on both light tiles and imagery. */
