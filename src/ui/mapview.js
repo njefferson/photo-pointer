@@ -275,7 +275,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
 
     if (t.polar) {
       return el('div', { class: 'light-box' }, [
-        el('h4', {}, 'Light today'),
+        el('h3', {}, 'Light today'),
         el('p', { class: 'light-polar' }, 'The sun stays up (or down) all day at this latitude today.'),
       ]);
     }
@@ -312,7 +312,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       : null;
 
     return el('div', { class: 'light-box' }, [
-      el('h4', {}, 'Light today'),
+      el('h3', {}, 'Light today'),
       el('table', { class: 'light-table' }, [
         el('tbody', {}, rows.filter(Boolean)),
       ]),
@@ -351,7 +351,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     }).catch(() => { sky.textContent = 'forecast unavailable'; });
 
     return el('div', { class: 'light-box tonight-box' }, [
-      el('h4', {}, 'Tonight'),
+      el('h3', {}, 'Tonight'),
       el('table', { class: 'light-table' }, [el('tbody', {}, rows)]),
     ]);
   }
@@ -493,7 +493,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
       el('div', { class: 'popup-head' }, [
-        el('h3', {}, spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
+        el('h2', {}, spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
         favButton(spot),
       ]),
       el('p', { class: 'popup-cat' }, [
@@ -606,7 +606,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   map.on('contextmenu', (e) => {
     const { lat, lng } = e.latlng;
     const form = el('div', { class: 'popup' }, [
-      el('h3', {}, 'Add a pin here?'),
+      el('h2', {}, 'Add a pin here?'),
       el('input', { type: 'text', placeholder: 'Name (optional)', 'aria-label': 'Pin name' }),
       el('button', {
         class: 'popup-add',

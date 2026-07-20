@@ -252,11 +252,14 @@ async function boot() {
   setActiveRegionId(region.id);
   renderHeader();
 
-  const mapEl = el('main', { class: 'map-root', 'aria-label': 'Map of photo spots' });
-  app.append(mapEl);
+  // One persistent <main> landmark holds both views (map + list), so whichever
+  // is shown, all content sits inside exactly one main landmark (a11y).
+  const viewMain = el('main', { class: 'view-root', 'aria-label': 'Photo spots' });
+  const mapEl = el('div', { class: 'map-root', 'aria-label': 'Map of photo spots' });
   listEl = el('div', { class: 'list-root', 'aria-label': 'List of photo spots in this region' });
   listEl.style.display = 'none';
-  app.append(listEl);
+  viewMain.append(mapEl, listEl);
+  app.append(viewMain);
   mapView = createMapView(mapEl, {
     region,
     regions: regionsDoc.regions ?? [],
