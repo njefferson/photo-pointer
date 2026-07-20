@@ -56,8 +56,10 @@ jobs:
       - name: Crop to region + build Bortle layer
         run: |
           mkdir -p "data/layers/$REGION"
-          # region bbox from config/region.json: W N E S
-          gdal_translate -q -projwin -121.95 39.4 -119.85 38.0 "$TIF" region.tif
+          # region bbox → projwin (ulx uly lrx lry = W N E S) from config/regions.json
+          read W N E S < <(python3 -c "import json,os; b=next(r for r in json.load(open('config/regions.json'))['regions'] if r['id']==os.environ['REGION'])['bbox']; print(b['west'],b['north'],b['east'],b['south'])")
+          echo "cropping $REGION to W=$W N=$N E=$E S=$S"
+          gdal_translate -q -projwin "$W" "$N" "$E" "$S" "$TIF" region.tif
           gdalinfo -mm region.tif | grep -iE 'Size is|Computed Min/Max' | head
           python3 scripts/build-light-pollution.py region.tif "data/regions/$REGION.json" "data/layers/$REGION/light-pollution.png" "data/layers/$REGION/light-pollution.json" "$(date -u +%F)"
           ls -la data/layers/
