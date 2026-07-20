@@ -71,6 +71,15 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 1.4.1 to main (Noah's "Promote"). Production ==
+  origin/staging == 6e84e35 (clean 12-commit fast-forward from 1.4.0). Ships all
+  5 enrichment layers for both new regions (hahira + panama-city-beach:
+  bortle/horizon on every spot, public-land/iNaturalist/Commons on the subset
+  with data) + the empty-public-lands robustness fix. staging == main. The ONLY
+  remaining layer for these two areas is eBird bird hotspots (needs the live API +
+  an EBIRD_API_TOKEN repo secret — a Noah manual step, still not done). No new
+  GitHub metadata step (regions aren't repo metadata; description/website/topics
+  unchanged).
 - 2026-07-20 1.4.1 "Full data layers for Hahira & Panama City Beach" BUILT on
   staging (awaiting on-device pass — NEEDS NOAH'S HANDS: how the two areas feel
   with the full layer set + the dark-sky overlay on each). ALL 5 ENRICHMENT
