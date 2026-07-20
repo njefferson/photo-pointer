@@ -181,6 +181,9 @@
           "observations": 4,
           "species": 3,
           "topGuild": "reptiles"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -215,6 +218,9 @@
           "s": 0.1,
           "w": 0.3,
           "site_m": 3
+        },
+        "commons": {
+          "photos": 57
         }
       }
     },
@@ -333,6 +339,9 @@
           "observations": 10,
           "species": 8,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -367,6 +376,9 @@
           "s": 0.4,
           "w": 0.1,
           "site_m": 0
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -1309,6 +1321,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 22
         }
       }
     },
@@ -1382,6 +1397,9 @@
           "observations": 3,
           "species": 3,
           "topGuild": "wildlife"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -1703,6 +1721,9 @@
           "s": 0,
           "w": 0,
           "site_m": 2
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -1849,6 +1870,9 @@
           "s": 0,
           "w": 0,
           "site_m": 3
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -2184,6 +2208,9 @@
           "s": -0.2,
           "w": -0.1,
           "site_m": 3
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -2295,6 +2322,9 @@
           "observations": 5,
           "species": 4,
           "topGuild": "mammals"
+        },
+        "commons": {
+          "photos": 39
         }
       }
     },
@@ -2404,6 +2434,9 @@
           "s": 0,
           "w": 0,
           "site_m": 2
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
