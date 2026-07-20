@@ -4,7 +4,7 @@ import { el, clear, toast, closeOnBackdrop } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
 import { createMapView, CATEGORY_META } from './ui/mapview.js';
 import { loadRegions, pickRegion } from './model/region.js';
-import { userPins, categoryFilter, setCategoryFilter, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
+import { userPins, activeFilters, setActiveFilters, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
 import { topSpotsPanel } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
@@ -41,67 +41,38 @@ function allCategories() {
   return new Set(Object.keys(CATEGORY_META));
 }
 
-// Which categories are visible, from the tri-state filter. No filters → all show;
-// any 'include' → only those; 'exclude' → hide those.
+// The visible set is exactly what's stored — the category buttons are simple
+// on/off toggles (NOT tri-state; those are the Top-spots layer filters). Default
+// empty = all off, Noah's call; turning a button on adds its category.
 function currentVisible() {
-  const st = categoryFilter();
-  const inc = [], exc = new Set();
-  for (const [k, v] of Object.entries(st)) (v === 'include' ? inc.push(k) : exc.add(k));
-  const base = inc.length ? new Set(inc) : allCategories();
-  for (const e of exc) base.delete(e);
-  return base;
+  return activeFilters();
 }
 
-// Cycle one category chip: any → include (✓) → exclude (✕) → any.
-function cycleCategory(cat) {
-  const st = { ...categoryFilter() };
-  const cur = st[cat];
-  if (!cur) st[cat] = 'include';
-  else if (cur === 'include') st[cat] = 'exclude';
-  else delete st[cat];
-  setCategoryFilter(st);
-  syncVisible();
-}
-
-// Set an exact visible set (used by "Show all" / the welcome + empty-map tip).
-// All → clear filters (all shown); none → exclude everything; else include those.
 function applyVisible(v) {
-  const set = v instanceof Set ? v : new Set(v);
-  if (set.size >= allCategories().size) setCategoryFilter({});
-  else if (set.size === 0) { const st = {}; for (const c of allCategories()) st[c] = 'exclude'; setCategoryFilter(st); }
-  else { const st = {}; for (const c of set) st[c] = 'include'; setCategoryFilter(st); }
-  syncVisible();
-}
-
-function syncVisible() {
-  mapView?.setVisible(currentVisible());
+  setActiveFilters(v);
+  mapView?.setVisible(v);
   renderHeader();
-  if (viewMode === 'list' && listEl) renderListInto(listEl, { spots: spotsForMap(), onFocusSpot, onChange: refresh });
 }
 
 function renderHeader() {
   const visible = currentVisible();
-  const st = categoryFilter();
-  const filtered = Object.keys(st).length > 0;
+  const allOn = visible.size === allCategories().size;
   const allToggle = el('button', {
     class: 'chip chip-all',
-    onClick: () => applyVisible(allCategories()),
-  }, filtered ? 'Show all' : 'All shown');
-  const chips = Object.entries(CATEGORY_META).map(([cat, meta]) => {
-    const state = st[cat]; // undefined | 'include' | 'exclude'
-    const mark = state === 'include' ? '✓' : state === 'exclude' ? '✕' : '';
-    const word = state === 'include' ? 'show only these' : state === 'exclude' ? 'hidden' : 'shown';
-    return el('button', {
-      class: `chip chip-${cat}${state ? ' ' + state : ''}`,
-      'aria-pressed': state === 'include' ? 'true' : 'false',
-      'aria-label': `${meta.label}: ${word}. Tap to change.`,
-      onClick: () => cycleCategory(cat),
-    }, [
-      el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
-      ` ${meta.label}`,
-      mark ? el('span', { class: 'chip-mark', 'aria-hidden': 'true' }, ` ${mark}`) : null,
-    ]);
-  });
+    onClick: () => applyVisible(allOn ? new Set() : allCategories()),
+  }, allOn ? 'Hide all' : 'Show all');
+  const chips = Object.entries(CATEGORY_META).map(([cat, meta]) =>
+    el('button', {
+      class: `chip chip-${cat}${visible.has(cat) ? ' on' : ''}`,
+      'aria-pressed': String(visible.has(cat)),
+      onClick: () => {
+        const v = new Set(currentVisible());
+        if (v.has(cat)) v.delete(cat);
+        else v.add(cat);
+        applyVisible(v);
+      },
+    }, [el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter), ` ${meta.label}`])
+  );
   const regionPills = (regionsDoc?.regions ?? []).map((r) =>
     el('button', {
       class: `region-pill${r.id === region?.id ? ' active' : ''}`,
@@ -117,7 +88,7 @@ function renderHeader() {
     el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
     visible.size === 0
       ? el('p', { class: 'filter-tip', role: 'status' },
-          'Every pin type is hidden — tap “Show all”, or set a type to ✓ to show it.')
+          'Turn on at least one pin type above to see places on the map.')
       : null,
     el('div', { class: 'bar-actions' }, [
       el('div', { class: 'view-toggle', role: 'group', 'aria-label': 'Map or list view' }, [

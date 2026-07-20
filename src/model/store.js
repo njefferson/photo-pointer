@@ -13,7 +13,6 @@ const K_PINS = 'pointer.userPins';
 const K_FILTERS = 'pointer.filters.v2';
 const K_REGION = 'pointer.region';
 const K_FAV = 'pointer.favorites';
-const K_CATFILTER = 'pointer.catfilter.v1';
 
 function read(key, fallback) {
   try {
@@ -92,18 +91,6 @@ export function activeFilters() {
 
 export function setActiveFilters(set) {
   write(K_FILTERS, [...set]);
-}
-
-// Tri-state category filter: { <category>: 'include' | 'exclude' }. Absent = any.
-// No entries → every type shows (neutral default). Any 'include' → show ONLY those;
-// 'exclude' → hide those. Mirrors the Top-spots chips so all filters behave alike.
-export function categoryFilter() {
-  const o = read(K_CATFILTER, {});
-  return o && typeof o === 'object' && !Array.isArray(o) ? o : {};
-}
-
-export function setCategoryFilter(obj) {
-  write(K_CATFILTER, obj);
 }
 
 // ---- favorites: spot ids the user has starred (data spots OR their own pins) ----
