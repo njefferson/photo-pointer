@@ -294,6 +294,37 @@ export function createMapView(container, { region, onChange }) {
     return p;
   }
 
+  // The clearest reference page for a marker: an HMdb page (from a Wikidata
+  // HMdb id, or a URL in the OSM `note`/`website`), else any URL we have.
+  function markerRef(spot) {
+    const t = spot.tags ?? {};
+    const urlIn = (v) => (typeof v === 'string' ? (v.match(/https?:\/\/[^\s)]+/)?.[0] ?? null) : null);
+    const clean = (u) => (u ? u.replace(/[.,;)]+$/, '') : null);
+    if (t.hmdb) return { url: `https://www.hmdb.org/m.asp?m=${t.hmdb}`, label: 'Read the full marker on HMdb' };
+    const note = clean(urlIn(t.note));
+    if (note) return { url: note, label: /hmdb\.org/.test(note) ? 'Read the full marker on HMdb' : 'Reference page' };
+    const site = clean(urlIn(t.website));
+    if (site) return { url: site, label: 'Reference page' };
+    return null;
+  }
+
+  // Historic-marker detail on the card: what it is, the plaque inscription
+  // (OSM, ODbL), and a clear link to the reference page.
+  function markerSection(spot) {
+    const t = spot.tags ?? {};
+    const insc = typeof t.inscription === 'string' && t.inscription.trim() ? t.inscription.trim() : null;
+    const ref = markerRef(spot);
+    const kind = t.california_landmark ? 'California Historical Landmark' : null;
+    if (!insc && !ref && !kind) return null;
+    return el('div', { class: 'marker-box' }, [
+      kind ? el('p', { class: 'marker-kind' }, kind) : null,
+      insc ? el('p', { class: 'marker-inscription' }, `“${insc}”`) : null,
+      ref ? el('p', { class: 'marker-ref' }, [
+        el('a', { href: ref.url, target: '_blank', rel: 'noopener' }, `${ref.label} →`),
+      ]) : null,
+    ]);
+  }
+
   function popupFor(spot) {
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
@@ -302,6 +333,7 @@ export function createMapView(container, { region, onChange }) {
         `${meta.label}`,
         spot.subject_type?.length ? ` · ${spot.subject_type.join(', ')}` : null,
       ]),
+      markerSection(spot),
       spot.best_light?.length
         ? el('p', {}, `Best light: ${spot.best_light.join(', ')}`)
         : null,
@@ -319,14 +351,6 @@ export function createMapView(container, { region, onChange }) {
             `Wildlife photographed nearby: ${spot.tags.inaturalist.species} ` +
             `non-bird species (${spot.tags.inaturalist.observations} iNaturalist records)`)
         : null,
-      spot.tags?.hmdb
-        ? el('p', { class: 'popup-marker' }, [
-            'Historical marker — ',
-            el('a', { href: `https://www.hmdb.org/m.asp?m=${spot.tags.hmdb}`, target: '_blank', rel: 'noopener' }, 'read it on HMdb'),
-          ])
-        : spot.tags?.california_landmark
-          ? el('p', { class: 'popup-marker' }, 'California Historical Landmark')
-          : null,
       spot.tags?.commons?.photos
         ? el('p', { class: 'popup-photos' },
             `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here (Wikimedia Commons)`)

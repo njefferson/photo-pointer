@@ -160,6 +160,9 @@ const KEPT_TAGS = [
   'opening_hours', 'fee', 'access', 'operator', 'sac_scale', 'wheelchair',
   'direction', 'artwork_type', 'historic', 'tourism', 'natural', 'leisure',
   'waterway', 'highway', 'boundary',
+  // Historical-marker detail (ODbL, from OSM contributors) — the plaque text
+  // and a reference link (often an HMdb page). Shown on the marker card.
+  'inscription', 'memorial', 'note', 'heritage', 'wikimedia_commons',
 ];
 
 function keepTags(tags) {

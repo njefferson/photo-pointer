@@ -217,6 +217,14 @@ body {
 .light-polar { font-size: 12px; margin: 2px 0; }
 .light-horizon { font-size: 11px; margin: 3px 0 0; color: #555555; }
 
+/* Historic-marker detail on a popup card: kind, plaque inscription (OSM/ODbL),
+   and a clear link to the reference page. Popup-local dark-on-cream. */
+.marker-box { margin: 7px 0; padding: 7px 10px; background: #f7f1e4; border-left: 3px solid #a34a00; border-radius: 4px; }
+.marker-kind { font-size: 12px; font-weight: 700; color: #8a2f2b; margin: 0 0 3px; }
+.marker-inscription { font-size: 12px; font-style: italic; color: #322a1c; margin: 0 0 6px; line-height: 1.36; }
+.marker-ref { margin: 0; }
+.marker-ref a { font-size: 13px; font-weight: 700; color: #a34a00; text-decoration: underline; }
+
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
    consistent with .light-table; meaning is in the layer labels, not color. */
 .synth-box { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 5px; }
