@@ -22,7 +22,10 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # Large regions (Yellowstone ~700 tiles) take longer than the ~195-tile
+    # home region; the harvest is I/O-bound waiting on Wikimedia's throttle, so
+    # a generous ceiling is safe.
+    timeout-minutes: 55
     permissions:
       contents: write
     env:
