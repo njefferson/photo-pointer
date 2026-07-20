@@ -1,0 +1,838 @@
+{
+  "source": {
+    "source": "public_lands",
+    "name": "Public-land boundaries (OpenStreetMap)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "builtAt": "2026-07-20",
+  "count": 75,
+  "areas": [
+    {
+      "name": "Eureka Marsh",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 40.7823213,
+        "west": -124.1899953,
+        "north": 40.7906173,
+        "east": -124.1807301
+      }
+    },
+    {
+      "name": "Grizzly Creek Redwoods State Park",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 40.4786708,
+        "west": -123.9138046,
+        "north": 40.4891192,
+        "east": -123.8914914
+      }
+    },
+    {
+      "name": "Eel River Wildlife Area",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.5949751,
+        "west": -124.3159257,
+        "north": 40.6967248,
+        "east": -124.2261887
+      }
+    },
+    {
+      "name": "Klamath National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 40.9921574,
+        "west": -123.7191653,
+        "north": 42.0863862,
+        "east": -121.6049527
+      }
+    },
+    {
+      "name": "Big Flat State Marine Conservation Area",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.125,
+        "west": -124.322765,
+        "north": 40.1566667,
+        "east": -124.1726246
+      }
+    },
+    {
+      "name": "Sea Lion Gulch State Marine Reserve",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.2133333,
+        "west": -124.4323896,
+        "north": 40.24,
+        "east": -124.3027382
+      }
+    },
+    {
+      "name": "Steamboat Rock Special Closure",
+      "class": "1a",
+      "operator": null,
+      "bbox": {
+        "south": 40.4142071,
+        "west": -124.4055168,
+        "north": 40.4164737,
+        "east": -124.4025473
+      }
+    },
+    {
+      "name": "Sugarloaf Island Special Closure",
+      "class": "1a",
+      "operator": null,
+      "bbox": {
+        "south": 40.4371192,
+        "west": -124.4162251,
+        "north": 40.4403551,
+        "east": -124.4115432
+      }
+    },
+    {
+      "name": "South Cape Mendocino State Marine Reserve",
+      "class": "4",
+      "operator": null,
+      "bbox": {
+        "south": 40.415,
+        "west": -124.5326333,
+        "north": 40.435,
+        "east": -124.3968833
+      }
+    },
+    {
+      "name": "Elk River Wildlife Area",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.7446794,
+        "west": -124.1956452,
+        "north": 40.7551636,
+        "east": -124.1873584
+      }
+    },
+    {
+      "name": "Mad River Slough Wildlife Area",
+      "class": "4",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 40.8524313,
+        "west": -124.1580503,
+        "north": 40.8679699,
+        "east": -124.1000141
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge - Lanphere Dunes Unit",
+      "class": "4",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 40.8828216,
+        "west": -124.1556888,
+        "north": 40.9158496,
+        "east": -124.1336398
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge - Ma-le'l Dunes Unit",
+      "class": "4",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 40.8629456,
+        "west": -124.1591811,
+        "north": 40.882826,
+        "east": -124.1401299
+      }
+    },
+    {
+      "name": "McKay Community Forest",
+      "class": "6",
+      "operator": "Humboldt County",
+      "bbox": {
+        "south": 40.7230673,
+        "west": -124.1459262,
+        "north": 40.795137,
+        "east": -124.1165775
+      }
+    },
+    {
+      "name": "Arcata Community Forest",
+      "class": "6",
+      "operator": "Arcata Recreation Division",
+      "bbox": {
+        "south": 40.8667223,
+        "west": -124.0802282,
+        "north": 40.8929562,
+        "east": -124.0433693
+      }
+    },
+    {
+      "name": "Harry A. Merlo State Recreation Area",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 41.1513187,
+        "west": -124.1303407,
+        "north": 41.2132566,
+        "east": -124.098289
+      }
+    },
+    {
+      "name": "Grizzly Creek Redwoods State Park",
+      "class": "protected_area",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 40.4759484,
+        "west": -123.9693775,
+        "north": 40.4853921,
+        "east": -123.9498715
+      }
+    },
+    {
+      "name": "Richardson Grove State Park",
+      "class": "protected_area",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 40.0081824,
+        "west": -123.8316061,
+        "north": 40.0350467,
+        "east": -123.7759557
+      }
+    },
+    {
+      "name": "Lacks Creek Management Area",
+      "class": "4",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 40.9783024,
+        "west": -123.8652921,
+        "north": 41.0715302,
+        "east": -123.7727666
+      }
+    },
+    {
+      "name": "Humboldt Redwoods State Park",
+      "class": "4",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 40.1726813,
+        "west": -124.082828,
+        "north": 40.4538842,
+        "east": -123.768863
+      }
+    },
+    {
+      "name": "Prairie Creek Redwoods State Park",
+      "class": "2",
+      "operator": "California Department of Parks and Recreation;National Park Service",
+      "bbox": {
+        "south": 41.3467174,
+        "west": -124.0780878,
+        "north": 41.472227,
+        "east": -123.9949551
+      }
+    },
+    {
+      "name": "Redwood National Park",
+      "class": "2",
+      "operator": "National Park Service",
+      "bbox": {
+        "south": 41.081427,
+        "west": -124.1597755,
+        "north": 41.8145254,
+        "east": -123.8487887
+      }
+    },
+    {
+      "name": "Six Rivers National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 40.017384,
+        "west": -124.0886349,
+        "north": 41.9965825,
+        "east": -123.1265257
+      }
+    },
+    {
+      "name": "Fay Slough Wildlife Area",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.8002209,
+        "west": -124.1139896,
+        "north": 40.8182867,
+        "east": -124.0927289
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge",
+      "class": "4",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 40.6706638,
+        "west": -124.2748235,
+        "north": 40.8495551,
+        "east": -124.0824408
+      }
+    },
+    {
+      "name": "Trinity Alps Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 40.7438771,
+        "west": -123.5523458,
+        "north": 41.2637828,
+        "east": -122.6517742
+      }
+    },
+    {
+      "name": "Mount Lassic Wilderness",
+      "class": "1b",
+      "operator": "US Forest Service",
+      "bbox": {
+        "south": 40.2945121,
+        "west": -123.6064512,
+        "north": 40.3772059,
+        "east": -123.5444335
+      }
+    },
+    {
+      "name": "Siskiyou Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 41.3944779,
+        "west": -123.851907,
+        "north": 41.9400724,
+        "east": -123.5102307
+      }
+    },
+    {
+      "name": "Arcata Marsh and Wildlife Sanctuary",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 40.8486161,
+        "west": -124.1034678,
+        "north": 40.8678457,
+        "east": -124.0826623
+      }
+    },
+    {
+      "name": "Headwaters Forest Reserve",
+      "class": "4",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 40.6078036,
+        "west": -124.1474173,
+        "north": 40.6934712,
+        "east": -124.0201208
+      }
+    },
+    {
+      "name": "Sinkyone Wilderness State Park",
+      "class": "protected_area",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 39.827632,
+        "west": -124.0072497,
+        "north": 40.1435097,
+        "east": -123.8418216
+      }
+    },
+    {
+      "name": "King Range Wilderness",
+      "class": "1b",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 39.9737834,
+        "west": -124.3577924,
+        "north": 40.2958851,
+        "east": -123.9807702
+      }
+    },
+    {
+      "name": "Rocks and Islands Wilderness",
+      "class": "1b",
+      "operator": "BLM",
+      "bbox": {
+        "south": 39.9571256,
+        "west": -124.4152044,
+        "north": 40.2958791,
+        "east": -123.978966
+      }
+    },
+    {
+      "name": "Humboldt Lagoons State Park",
+      "class": "protected_area",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 41.165112,
+        "west": -124.1330404,
+        "north": 41.2623635,
+        "east": -124.0769781
+      }
+    },
+    {
+      "name": "John B. Dewitt Redwoods State Natural Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 40.1064779,
+        "west": -123.8549242,
+        "north": 40.1295738,
+        "east": -123.8250612
+      }
+    },
+    {
+      "name": "King Range National Conservation Area",
+      "class": "5",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 39.9684056,
+        "west": -124.3641652,
+        "north": 40.2958791,
+        "east": -123.9653007
+      }
+    },
+    {
+      "name": "Shasta-Trinity National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 40.0753368,
+        "west": -123.5862771,
+        "north": 41.583202,
+        "east": -121.5237548
+      }
+    },
+    {
+      "name": "Elk River Wildlife Sanctuary",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 40.7592564,
+        "west": -124.1978612,
+        "north": 40.7680181,
+        "east": -124.194361
+      }
+    },
+    {
+      "name": "Redwood National and State Parks",
+      "class": "2",
+      "operator": "National Park Service;California Department of Parks and Recreation",
+      "bbox": {
+        "south": 41.081427,
+        "west": -124.1597755,
+        "north": 41.8402391,
+        "east": -123.8487887
+      }
+    },
+    {
+      "name": "Redwood National and State Parks",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 41.081427,
+        "west": -124.1597755,
+        "north": 41.8299341,
+        "east": -123.8782105
+      }
+    },
+    {
+      "name": "California Coastal National Monument",
+      "class": "5",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 41.2622267,
+        "west": -124.1126229,
+        "north": 41.5946362,
+        "east": -124.0660413
+      }
+    },
+    {
+      "name": "Ma-le'l Dunes South",
+      "class": "4",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 40.8612089,
+        "west": -124.1669635,
+        "north": 40.8758394,
+        "east": -124.1545612
+      }
+    },
+    {
+      "name": "Samuels Conservation Easement",
+      "class": "6",
+      "operator": null,
+      "bbox": {
+        "south": 40.8828743,
+        "west": -124.0707815,
+        "north": 40.8901175,
+        "east": -124.0573597
+      }
+    },
+    {
+      "name": "McKinleyville Community Forest",
+      "class": "6",
+      "operator": "McKinleyville Community Services District",
+      "bbox": {
+        "south": 40.9197776,
+        "west": -124.0913862,
+        "north": 40.956804,
+        "east": -124.0576226
+      }
+    },
+    {
+      "name": "Humboldt Coastal Nature Center",
+      "class": "4",
+      "operator": "Friends of the Dunes",
+      "bbox": {
+        "south": 40.8539829,
+        "west": -124.1712248,
+        "north": 40.8613185,
+        "east": -124.1593319
+      }
+    },
+    {
+      "name": "Manila Dunes Recreation Area",
+      "class": "4",
+      "operator": "Manila Community Services District",
+      "bbox": {
+        "south": 40.8367605,
+        "west": -124.1800439,
+        "north": 40.853995,
+        "east": -124.1675341
+      }
+    },
+    {
+      "name": "Digawututklh",
+      "class": "4",
+      "operator": "Dishgamu Humboldt",
+      "bbox": {
+        "south": 40.8217176,
+        "west": -124.1893458,
+        "north": 40.8387776,
+        "east": -124.1706562
+      }
+    },
+    {
+      "name": "Chah-GAH-Cho",
+      "class": "4",
+      "operator": "McKinleyville Land Trust",
+      "bbox": {
+        "south": 40.9305759,
+        "west": -124.1057645,
+        "north": 40.9327705,
+        "east": -124.1010364
+      }
+    },
+    {
+      "name": "Mad River Bluffs",
+      "class": "4",
+      "operator": "McKinleyville Land Trust",
+      "bbox": {
+        "south": 40.9424064,
+        "west": -124.1277301,
+        "north": 40.9494324,
+        "east": -124.1242674
+      }
+    },
+    {
+      "name": "Bracut Tidelands Public Access",
+      "class": "5",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 40.8234697,
+        "west": -124.1005974,
+        "north": 40.8307449,
+        "east": -124.0864327
+      }
+    },
+    {
+      "name": "Mike Thompson Wildlife Area",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.6974226,
+        "west": -124.2760845,
+        "north": 40.754587,
+        "east": -124.2248985
+      }
+    },
+    {
+      "name": "Table Bluff Ecological Reserve",
+      "class": "5",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.6868614,
+        "west": -124.2736594,
+        "north": 40.6974048,
+        "east": -124.2643631
+      }
+    },
+    {
+      "name": "Owl Creek Ecological Reserve",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 40.5326584,
+        "west": -123.9516951,
+        "north": 40.5752787,
+        "east": -123.9170163
+      }
+    },
+    {
+      "name": "Grizzly Creek",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 40.474195,
+        "west": -123.9470236,
+        "north": 40.4904171,
+        "east": -123.897843
+      }
+    },
+    {
+      "name": "Big Lagoon Wildlife Area",
+      "class": "4",
+      "operator": null,
+      "bbox": {
+        "south": 41.1555203,
+        "west": -124.1309942,
+        "north": 41.2025499,
+        "east": -124.1024169
+      }
+    },
+    {
+      "name": "Richardson Grove State Park",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 40.035792,
+        "west": -123.780574,
+        "north": 40.041013,
+        "east": -123.776248
+      }
+    },
+    {
+      "name": "Sue-meg State Park",
+      "class": "4",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 41.1248218,
+        "west": -124.1655191,
+        "north": 41.1596055,
+        "east": -124.1348437
+      }
+    },
+    {
+      "name": null,
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 40.0160307,
+        "west": -123.9379783,
+        "north": 40.022906,
+        "east": -123.93158
+      }
+    },
+    {
+      "name": null,
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 40.141351,
+        "west": -124.0072497,
+        "north": 40.1435097,
+        "east": -124.0043669
+      }
+    },
+    {
+      "name": null,
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 40.0052737,
+        "west": -123.9394638,
+        "north": 40.0218393,
+        "east": -123.9255166
+      }
+    },
+    {
+      "name": "Murrelet State Wilderness",
+      "class": "1b",
+      "operator": null,
+      "bbox": {
+        "south": 41.3490157,
+        "west": -124.0744653,
+        "north": 41.4434235,
+        "east": -124.0144784
+      }
+    },
+    {
+      "name": "Bull Creek State Wilderness",
+      "class": "1b",
+      "operator": null,
+      "bbox": {
+        "south": 40.2552213,
+        "west": -123.980788,
+        "north": 40.3114643,
+        "east": -123.8836997
+      }
+    },
+    {
+      "name": "Bull Creek State Wilderness",
+      "class": "1b",
+      "operator": null,
+      "bbox": {
+        "south": 40.3124123,
+        "west": -124.0087956,
+        "north": 40.3506611,
+        "east": -123.9311993
+      }
+    },
+    {
+      "name": "John B. Dewitt Redwoods State Natural Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 40.1271683,
+        "west": -123.8212302,
+        "north": 40.141217,
+        "east": -123.8064459
+      }
+    },
+    {
+      "name": "Azalea State Natural Reserve",
+      "class": "4",
+      "operator": null,
+      "bbox": {
+        "south": 40.9159298,
+        "west": -124.082422,
+        "north": 40.9196512,
+        "east": -124.0767903
+      }
+    },
+    {
+      "name": "Carl \"A\" Anderson Redwoods Natural Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 40.3424562,
+        "west": -123.9901382,
+        "north": 40.3807394,
+        "east": -123.9203326
+      }
+    },
+    {
+      "name": "Big Lagoon Forest, South Natural Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 41.1675058,
+        "west": -124.1054823,
+        "north": 41.1845531,
+        "east": -124.0992048
+      }
+    },
+    {
+      "name": "Big Lagoon Forest, East Natural Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 41.1777889,
+        "west": -124.1104482,
+        "north": 41.1925409,
+        "east": -124.1048994
+      }
+    },
+    {
+      "name": "Big Lagoon Forest, West Natural Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 41.1743475,
+        "west": -124.1110427,
+        "north": 41.1924816,
+        "east": -124.1026298
+      }
+    },
+    {
+      "name": "Little River State Beach",
+      "class": "4",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 41.0069453,
+        "west": -124.11632,
+        "north": 41.0290364,
+        "east": -124.1065552
+      }
+    },
+    {
+      "name": "Trinidad State Beach",
+      "class": "4",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 41.0586252,
+        "west": -124.1594619,
+        "north": 41.0723633,
+        "east": -124.142719
+      }
+    },
+    {
+      "name": "Clam Beach County Park",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 40.9876409,
+        "west": -124.1204989,
+        "north": 41.0073663,
+        "east": -124.1114277
+      }
+    },
+    {
+      "name": "Moonstone County Park",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 41.0285599,
+        "west": -124.1141517,
+        "north": 41.0319308,
+        "east": -124.110947
+      }
+    },
+    {
+      "name": "Arcata Community Forest - Sunny Brae Tract",
+      "class": "6",
+      "operator": "Arcata Recreation Division",
+      "bbox": {
+        "south": 40.853569,
+        "west": -124.0627778,
+        "north": 40.8685154,
+        "east": -124.043262
+      }
+    },
+    {
+      "name": "Mattole Canyon State Marine Reserve",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 40.2833333,
+        "west": -124.431711,
+        "north": 40.3333333,
+        "east": -124.375
+      }
+    }
+  ]
+}

@@ -146,7 +146,12 @@
       ],
       "tags": {
         "name": "Abalone Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -172,7 +177,12 @@
       ],
       "tags": {
         "name": "Agate Beach Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -289,7 +299,12 @@
         "website": "https://www.parks.ca.gov/?page_id=30998",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -1898,7 +1913,12 @@
         "name": "Arcata Community Forest - Sunny Brae Tract",
         "operator": "Arcata Recreation Division",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Arcata Community Forest - Sunny Brae Tract",
+          "class": "6",
+          "operator": "Arcata Recreation Division"
+        }
       }
     },
     {
@@ -1929,7 +1949,12 @@
         "website": "https://www.cityofarcata.org/190/City-Forests",
         "operator": "Arcata Recreation Division",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Arcata Community Forest",
+          "class": "6",
+          "operator": "Arcata Recreation Division"
+        }
       }
     },
     {
@@ -1960,7 +1985,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 108
+        "ebird_species": 108,
+        "publicLand": {
+          "name": "Arcata Community Forest",
+          "class": "6",
+          "operator": "Arcata Recreation Division"
+        }
       }
     },
     {
@@ -2034,7 +2064,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 199
+        "ebird_species": 199,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2065,7 +2100,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 197
+        "ebird_species": 197,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2096,7 +2136,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 240
+        "ebird_species": 240,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2127,7 +2172,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 161
+        "ebird_species": 161,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2158,7 +2208,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 185
+        "ebird_species": 185,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2189,7 +2244,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 157
+        "ebird_species": 157,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2228,7 +2288,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 222
+        "ebird_species": 222,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2259,7 +2324,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 181
+        "ebird_species": 181,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2290,7 +2360,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 244
+        "ebird_species": 244,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2321,7 +2396,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 142
+        "ebird_species": 142,
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2363,7 +2443,12 @@
         "ebird_species": 184,
         "name": "Arcata Marsh and Wildlife Sanctuary",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -2571,7 +2656,12 @@
         "wikidata": "Q4832137",
         "website": "https://www.parks.ca.gov/?page_id=420",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Azalea State Natural Reserve",
+          "class": "4",
+          "operator": null
+        }
       }
     },
     {
@@ -2693,7 +2783,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 130
+        "ebird_species": 130,
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -2872,7 +2967,12 @@
       "tags": {
         "name": "Barksdale Table",
         "ele": "400",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -2957,7 +3057,12 @@
         "name": "Baxter Environmental Camp",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -2988,7 +3093,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 45
+        "ebird_species": 45,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -3138,7 +3248,12 @@
       ],
       "tags": {
         "name": "Beach Creek Group Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -3470,7 +3585,12 @@
       "tags": {
         "name": "Beaver Butte",
         "ele": "788",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Lacks Creek Management Area",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -3759,7 +3879,12 @@
       ],
       "tags": {
         "name": "Big Creek Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -3785,7 +3910,12 @@
       ],
       "tags": {
         "name": "Big Creek (sites with tree coverage)",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -3816,7 +3946,12 @@
         "website": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=90269&inline",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Big Flat State Marine Conservation Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -3842,7 +3977,12 @@
       ],
       "tags": {
         "name": "Big Flat",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -3873,7 +4013,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 58
+        "ebird_species": 58,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -3902,7 +4047,12 @@
       "tags": {
         "name": "Big Hill",
         "ele": "929",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -4035,7 +4185,12 @@
       ],
       "tags": {
         "name": "Big Lagoon Forest, East Natural Preserve",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "Big Lagoon Forest, East Natural Preserve",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -4063,7 +4218,12 @@
       ],
       "tags": {
         "name": "Big Lagoon Forest, South Natural Preserve",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "Big Lagoon Forest, South Natural Preserve",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -4094,7 +4254,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 208
+        "ebird_species": 208,
+        "publicLand": {
+          "name": "Humboldt Lagoons State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -4125,7 +4290,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 215
+        "ebird_species": 215,
+        "publicLand": {
+          "name": "Big Lagoon Wildlife Area",
+          "class": "4",
+          "operator": null
+        }
       }
     },
     {
@@ -4213,7 +4383,12 @@
         "name": "Big Tree",
         "description": "Notable very large specimen of California Redwood. 6.6m base trunk diameter. Estimated age 1500 years.",
         "tourism": "attraction",
-        "natural": "tree"
+        "natural": "tree",
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -4242,7 +4417,12 @@
         "website": "https://bigfootflat.com/",
         "opening_hours": "24/7",
         "operator": "Private Property owners",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -4486,7 +4666,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 6
+        "ebird_species": 6,
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -4517,7 +4702,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 76
+        "ebird_species": 76,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -4546,7 +4736,12 @@
       "tags": {
         "name": "Blake Mountain",
         "ele": "1784",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -4840,7 +5035,12 @@
       "tags": {
         "name": "Board Camp Butte",
         "ele": "1541",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -4869,7 +5069,12 @@
       "tags": {
         "name": "Board Camp Mountain",
         "ele": "1567",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -4900,7 +5105,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 55
+        "ebird_species": 55,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5018,7 +5228,12 @@
         "access": "yes",
         "operator": "United States Fish and Wildlife Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Bracut Tidelands Public Access",
+          "class": "5",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -5320,7 +5535,12 @@
       "tags": {
         "name": "Buck Mountain",
         "ele": "1567",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5423,7 +5643,12 @@
       "tags": {
         "name": "Bug Creek Butte",
         "ele": "1603",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -5452,7 +5677,12 @@
       "tags": {
         "name": "Bull Creek State Wilderness",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Bull Creek State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -5481,7 +5711,12 @@
       "tags": {
         "name": "Bull Creek State Wilderness",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Bull Creek State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -5510,7 +5745,12 @@
         "website": "https://humboldtredwoods.org/trail-camps",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -5567,7 +5807,12 @@
       ],
       "tags": {
         "name": "Bureau of Land Management Lands",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -5596,7 +5841,12 @@
         "website": "https://www.parks.ca.gov/?page_id=30998",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -5625,7 +5875,12 @@
       "tags": {
         "name": "Burrill Peak",
         "ele": "1287",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -6024,7 +6279,12 @@
       ],
       "tags": {
         "name": "Camp Wolfman",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -6168,7 +6428,12 @@
         "wikipedia": "en:Cape Mendocino Light",
         "wikidata": "Q5034946",
         "historic": "lighthouse",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -6196,7 +6461,12 @@
       ],
       "tags": {
         "name": "Cape Mendocino Lighthouse",
-        "historic": "monument"
+        "historic": "monument",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -6284,7 +6554,12 @@
       ],
       "tags": {
         "name": "Carl \"A\" Anderson Redwoods Natural Preserve",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "Carl \"A\" Anderson Redwoods Natural Preserve",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -6589,7 +6864,12 @@
         "name": "Ceremonial Rock",
         "ele": "88.3",
         "tourism": "viewpoint",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -6662,7 +6942,12 @@
       "tags": {
         "name": "Chaparral Mountain",
         "ele": "1548",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -6745,7 +7030,12 @@
       ],
       "tags": {
         "name": "Childrens Forest Plaque",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -6806,7 +7096,12 @@
         "fee": "yes",
         "access": "yes",
         "operator": "Humboldt County",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Clam Beach County Park",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -6834,7 +7129,12 @@
       ],
       "tags": {
         "name": "Clam Beach County Park",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "Clam Beach County Park",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -6861,7 +7161,12 @@
       "tags": {
         "name": "Clam Beach County Park",
         "ele": "4",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Clam Beach County Park",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -6892,7 +7197,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 239
+        "ebird_species": 239,
+        "publicLand": {
+          "name": "Clam Beach County Park",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -7009,7 +7319,12 @@
       ],
       "tags": {
         "name": "Coast Guard Helicopter 6541",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -7097,7 +7412,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 198
+        "ebird_species": 198,
+        "publicLand": {
+          "name": "Eel River Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -7344,7 +7664,12 @@
       ],
       "tags": {
         "name": "Cooskie Creek",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -7431,7 +7756,12 @@
       "tags": {
         "name": "Corkscrew Tree",
         "tourism": "attraction",
-        "natural": "tree"
+        "natural": "tree",
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -7461,7 +7791,12 @@
         "name": "Coyote Peak",
         "ele": "951",
         "wikidata": "Q29019892",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Redwood National Park",
+          "class": "2",
+          "operator": "National Park Service"
+        }
       }
     },
     {
@@ -7622,7 +7957,12 @@
         "website": "https://humboldtredwoods.org/cuneo-creek-horse-camp",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -7771,7 +8111,12 @@
       ],
       "tags": {
         "name": "Dawn Redwood Group Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -7802,7 +8147,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 176
+        "ebird_species": 176,
+        "publicLand": {
+          "name": "McKay Community Forest",
+          "class": "6",
+          "operator": "Humboldt County"
+        }
       }
     },
     {
@@ -7918,7 +8268,12 @@
         "website": "https://www.friendsofthedunes.org/property",
         "operator": "Dishgamu Humboldt",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Digawututklh",
+          "class": "4",
+          "operator": "Dishgamu Humboldt"
+        }
       }
     },
     {
@@ -7949,7 +8304,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 129
+        "ebird_species": 129,
+        "publicLand": {
+          "name": "Digawututklh",
+          "class": "4",
+          "operator": "Dishgamu Humboldt"
+        }
       }
     },
     {
@@ -8154,7 +8514,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 188
+        "ebird_species": 188,
+        "publicLand": {
+          "name": "Humboldt Lagoons State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -8185,7 +8550,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 116
+        "ebird_species": 116,
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -8245,7 +8615,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 111
+        "ebird_species": 111,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -8272,7 +8647,12 @@
       "tags": {
         "name": "Dyerville Giant",
         "tourism": "attraction",
-        "natural": "tree"
+        "natural": "tree",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -8629,7 +9009,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 226
+        "ebird_species": 226,
+        "publicLand": {
+          "name": "Eel River Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -8807,7 +9192,12 @@
       "tags": {
         "name": "Elk Prairie Campground",
         "website": "https://www.nps.gov/redw/planyourvisit/elk-prairie-campground.htm",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -8871,7 +9261,12 @@
         "access": "yes",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Elk River Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -8902,7 +9297,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 137
+        "ebird_species": 137,
+        "publicLand": {
+          "name": "Elk River Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -8933,7 +9333,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 224
+        "ebird_species": 224,
+        "publicLand": {
+          "name": "Elk River Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -8962,7 +9367,12 @@
       "tags": {
         "name": "Elk River Wildlife Sanctuary",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Elk River Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -8988,7 +9398,12 @@
       ],
       "tags": {
         "name": "Elk Viewing",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -9141,7 +9556,12 @@
       ],
       "tags": {
         "name": "Estuary Overlook",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Mad River Bluffs",
+          "class": "4",
+          "operator": "McKinleyville Land Trust"
+        }
       }
     },
     {
@@ -9244,7 +9664,12 @@
         "wikidata": "Q5411195",
         "natural": "wetland",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Eureka Marsh",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -9754,7 +10179,12 @@
         "website": "https://www.wildlife.ca.gov/Lands/Places-to-Visit/Fay-Slough-WA",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Fay Slough Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -9780,7 +10210,12 @@
       ],
       "tags": {
         "name": "Fern Canyon",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -10397,7 +10832,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 196
+        "ebird_species": 196,
+        "publicLand": {
+          "name": "Eel River Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -10428,7 +10868,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 139
+        "ebird_species": 139,
+        "publicLand": {
+          "name": "Eel River Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -11149,7 +11594,12 @@
       ],
       "tags": {
         "name": "Flat Iron Tree",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -11302,7 +11752,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 40
+        "ebird_species": 40,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11364,7 +11819,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 90
+        "ebird_species": 90,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11395,7 +11855,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 97
+        "ebird_species": 97,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11426,7 +11891,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 72
+        "ebird_species": 72,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11457,7 +11927,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 65
+        "ebird_species": 65,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11488,7 +11963,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 50
+        "ebird_species": 50,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11550,7 +12030,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 38
+        "ebird_species": 38,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11576,7 +12061,12 @@
       ],
       "tags": {
         "name": "Fork Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -11764,7 +12254,12 @@
         "name": "Founders Tree",
         "description": "Large California Redwood. Base trunk diameter 3.9m. Dedicated to the founders of the \"Save-the-Redwoods League\"",
         "tourism": "attraction",
-        "natural": "tree"
+        "natural": "tree",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -12127,7 +12622,12 @@
       ],
       "tags": {
         "name": "Giant Trees",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -12380,7 +12880,12 @@
       "tags": {
         "name": "Gorda 2",
         "ele": "725",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -12467,7 +12972,12 @@
       "tags": {
         "name": "Grasshopper Mountain",
         "ele": "1028",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -12496,7 +13006,12 @@
         "website": "https://humboldtredwoods.org/trail-camps",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -12672,7 +13187,12 @@
       "tags": {
         "name": "Gregs Peak",
         "ele": "732",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -12698,7 +13218,12 @@
       ],
       "tags": {
         "name": "Grizzly Camp Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Trinity Alps Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -12729,7 +13254,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 44
+        "ebird_species": 44,
+        "publicLand": {
+          "name": "Grizzly Creek Redwoods State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -12760,7 +13290,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 88
+        "ebird_species": 88,
+        "publicLand": {
+          "name": "Grizzly Creek Redwoods State Park",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -12791,7 +13326,12 @@
         "website": "https://www.parks.ca.gov/?page_id=421",
         "operator": "California Department of Parks and Recreation",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Grizzly Creek Redwoods State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -12818,7 +13358,12 @@
       "tags": {
         "name": "Grizzly Creek Redwoods State Park",
         "ele": "109",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Grizzly Creek Redwoods State Park",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -12847,7 +13392,12 @@
       "tags": {
         "name": "Grouse Mountain",
         "ele": "1642",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -12878,7 +13428,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 75
+        "ebird_species": 75,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -13051,7 +13606,12 @@
         "name": "Hamilton Barn Environmental Camp",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -13260,7 +13820,12 @@
         "website": "https://humboldtredwoods.org/trail-camps",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -13290,7 +13855,12 @@
         "name": "Harry A. Merlo State Recreation Area",
         "website": "https://www.parks.ca.gov/?page_id=431",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Big Lagoon Wildlife Area",
+          "class": "4",
+          "operator": null
+        }
       }
     },
     {
@@ -13352,7 +13922,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 86
+        "ebird_species": 86,
+        "publicLand": {
+          "name": "Headwaters Forest Reserve",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -13386,7 +13961,12 @@
         "access": "yes",
         "operator": "Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Headwaters Forest Reserve",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -13417,7 +13997,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 79
+        "ebird_species": 79,
+        "publicLand": {
+          "name": "Headwaters Forest Reserve",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -13446,7 +14031,12 @@
         "website": "https://www.parks.ca.gov/?page_id=30998",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -13472,7 +14062,12 @@
       ],
       "tags": {
         "name": "Hidden Valley Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -13545,7 +14140,12 @@
         "fee": "yes",
         "access": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -13572,7 +14172,12 @@
       "tags": {
         "name": "Hike and Bike Campsite",
         "fee": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -13599,7 +14204,12 @@
       "tags": {
         "name": "Hike and Bike Campsite",
         "fee": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Grizzly Creek Redwoods State Park",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -13627,7 +14237,12 @@
         "name": "Hike and Bike Campsites",
         "fee": "yes",
         "operator": "Sue-meg State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -13655,7 +14270,12 @@
         "name": "Hike and Bike Campsites",
         "fee": "yes",
         "operator": "Elk Prairie Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -13891,7 +14511,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 115
+        "ebird_species": 115,
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -14044,7 +14669,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 139
+        "ebird_species": 139,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -14075,7 +14705,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 75
+        "ebird_species": 75,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -14157,7 +14792,12 @@
         "name": "Horse Mountain Mine",
         "ele": "1296",
         "wikidata": "Q49419211",
-        "historic": "mine"
+        "historic": "mine",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -14230,7 +14870,12 @@
         "name": "Horse Mountain",
         "ele": "1506",
         "wikidata": "Q49037291",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -14312,7 +14957,12 @@
       ],
       "tags": {
         "name": "Huckleberry Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -14343,7 +14993,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 191
+        "ebird_species": 191,
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -14692,7 +15347,12 @@
         "access": "permit",
         "operator": "United States Fish and Wildlife Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge - Lanphere Dunes Unit",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -14752,7 +15412,12 @@
       ],
       "tags": {
         "name": "Humboldt Bay National Wildlife Refuge",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -14939,7 +15604,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 212
+        "ebird_species": 212,
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -14970,7 +15640,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 200
+        "ebird_species": 200,
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge - Lanphere Dunes Unit",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -15001,7 +15676,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 199
+        "ebird_species": 199,
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge - Ma-le'l Dunes Unit",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -15032,7 +15712,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 247
+        "ebird_species": 247,
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -15063,7 +15748,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 121
+        "ebird_species": 121,
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -15200,7 +15890,12 @@
         "website": "https://www.friendsofthedunes.org/",
         "operator": "Friends of the Dunes",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Humboldt Coastal Nature Center",
+          "class": "4",
+          "operator": "Friends of the Dunes"
+        }
       }
     },
     {
@@ -15343,7 +16038,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 29
+        "ebird_species": 29,
+        "publicLand": {
+          "name": "Humboldt Lagoons State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15374,7 +16074,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 257
+        "ebird_species": 257,
+        "publicLand": {
+          "name": "Humboldt Lagoons State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15407,7 +16112,12 @@
         "website": "https://www.parks.ca.gov/?page_id=416",
         "operator": "California Department of Parks and Recreation",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Humboldt Lagoons State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15500,7 +16210,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 90
+        "ebird_species": 90,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15531,7 +16246,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 85
+        "ebird_species": 85,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15562,7 +16282,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 80
+        "ebird_species": 80,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15593,7 +16318,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 22
+        "ebird_species": 22,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15624,7 +16354,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 62
+        "ebird_species": 62,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15655,7 +16390,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 72
+        "ebird_species": 72,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15686,7 +16426,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 61
+        "ebird_species": 61,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15717,7 +16462,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 5
+        "ebird_species": 5,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15748,7 +16498,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 57
+        "ebird_species": 57,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15779,7 +16534,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 17
+        "ebird_species": 17,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15810,7 +16570,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 75
+        "ebird_species": 75,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15841,7 +16606,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 66
+        "ebird_species": 66,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -15872,7 +16642,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 145
+        "ebird_species": 145,
+        "publicLand": {
+          "name": "Bull Creek State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -15905,7 +16680,12 @@
         "website": "https://www.parks.ca.gov/?page_id=425",
         "operator": "California Department of Parks and Recreation",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -16057,7 +16837,12 @@
       ],
       "tags": {
         "name": "The Immortal Tree",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -16086,7 +16871,12 @@
       "tags": {
         "name": "Indian Butte",
         "ele": "1373",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -16458,7 +17248,12 @@
       ],
       "tags": {
         "name": "John B. Dewitt Redwoods State Natural Reserve",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "John B. Dewitt Redwoods State Natural Reserve",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -16486,7 +17281,12 @@
       ],
       "tags": {
         "name": "John B. Dewitt Redwoods State Natural Reserve",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "publicLand": {
+          "name": "John B. Dewitt Redwoods State Natural Reserve",
+          "class": "nature_reserve",
+          "operator": null
+        }
       }
     },
     {
@@ -16515,7 +17315,12 @@
         "website": "https://humboldtredwoods.org/trail-camps",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -16629,7 +17434,12 @@
       "tags": {
         "name": "Kerr Peak",
         "ele": "787",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -16748,7 +17558,12 @@
         "website": "https://www.blm.gov/programs/national-conservation-lands/california/king-range-national-conservation-area",
         "operator": "Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -16779,7 +17594,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 70
+        "ebird_species": 70,
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -16934,7 +17754,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 73
+        "ebird_species": 73,
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -16965,7 +17790,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 39
+        "ebird_species": 39,
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -16996,7 +17826,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 48
+        "ebird_species": 48,
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -17058,7 +17893,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 48
+        "ebird_species": 48,
+        "publicLand": {
+          "name": "Sea Lion Gulch State Marine Reserve",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -17089,7 +17929,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 81
+        "ebird_species": 81,
+        "publicLand": {
+          "name": "Big Flat State Marine Conservation Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -17120,7 +17965,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 68
+        "ebird_species": 68,
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -17151,7 +18001,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 128
+        "ebird_species": 128,
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17182,7 +18037,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 105
+        "ebird_species": 105,
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17213,7 +18073,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 39
+        "ebird_species": 39,
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17244,7 +18109,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 63
+        "ebird_species": 63,
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -17275,7 +18145,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 22
+        "ebird_species": 22,
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17368,7 +18243,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 43
+        "ebird_species": 43,
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -17430,7 +18310,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 32
+        "ebird_species": 32,
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17519,7 +18404,12 @@
       ],
       "tags": {
         "name": "Kinsey Creek",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -17545,7 +18435,12 @@
       ],
       "tags": {
         "name": "Kinsey Ridge Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17917,7 +18812,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 42
+        "ebird_species": 42,
+        "publicLand": {
+          "name": "Lacks Creek Management Area",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17948,7 +18848,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 81
+        "ebird_species": 81,
+        "publicLand": {
+          "name": "Lacks Creek Management Area",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -17979,7 +18884,12 @@
         "website": "https://www.blm.gov/visit/lacks-creek-management-area",
         "operator": "Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Lacks Creek Management Area",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -18150,7 +19060,12 @@
       ],
       "tags": {
         "name": "Laura Perrott Mahan, James P. Mahan",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -18310,7 +19225,12 @@
       ],
       "tags": {
         "name": "Lightning Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -18519,7 +19439,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 159
+        "ebird_species": 159,
+        "publicLand": {
+          "name": "Little River State Beach",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -18552,7 +19477,12 @@
         "website": "https://www.parks.ca.gov/?page_id=419",
         "operator": "California Department of Parks and Recreation",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Little River State Beach",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -18823,7 +19753,12 @@
       ],
       "tags": {
         "name": "Lookout Point",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -18879,7 +19814,12 @@
       "tags": {
         "name": "Lookout Rock Camp Site",
         "fee": "no",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -18905,7 +19845,12 @@
       ],
       "tags": {
         "name": "Lookout Rock Group Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -18936,7 +19881,12 @@
       "tags": {
         "name": "Lookout Rock",
         "tourism": "viewpoint",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -19113,7 +20063,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 120
+        "ebird_species": 120,
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -19144,7 +20099,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 176
+        "ebird_species": 176,
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -19341,7 +20301,12 @@
         "name": "Ma-le'l Dunes South",
         "operator": "Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Ma-le'l Dunes South",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -19372,7 +20337,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 166
+        "ebird_species": 166,
+        "publicLand": {
+          "name": "Ma-le'l Dunes South",
+          "class": "4",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -19403,7 +20373,12 @@
         "website": "https://mckinleyvillelandtrust.org/mrb",
         "operator": "McKinleyville Land Trust",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Mad River Bluffs",
+          "class": "4",
+          "operator": "McKinleyville Land Trust"
+        }
       }
     },
     {
@@ -19769,7 +20744,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 121
+        "ebird_species": 121,
+        "publicLand": {
+          "name": "Mad River Slough Wildlife Area",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -19800,7 +20780,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 176
+        "ebird_species": 176,
+        "publicLand": {
+          "name": "Mad River Slough Wildlife Area",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -19921,7 +20906,12 @@
       ],
       "tags": {
         "name": "Madrone Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -19962,7 +20952,12 @@
       "tags": {
         "ebird_species": 131,
         "name": "Mal Coombs Park",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -20033,7 +21028,12 @@
         "name": "Manila Dunes Recreation Area",
         "operator": "Manila Community Services District",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Manila Dunes Recreation Area",
+          "class": "4",
+          "operator": "Manila Community Services District"
+        }
       }
     },
     {
@@ -20064,7 +21064,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 125
+        "ebird_species": 125,
+        "publicLand": {
+          "name": "Manila Dunes Recreation Area",
+          "class": "4",
+          "operator": "Manila Community Services District"
+        }
       }
     },
     {
@@ -20430,7 +21435,12 @@
         "description": "Open Memorial Day to Labor Day. Lies in a lovely redwood grove on the north end of the old town site of Weott. Toilets, fire rings, grills, tables provided. Hot pay showers at nearby Burlington.",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -20459,7 +21469,12 @@
       "tags": {
         "name": "Mario Machi",
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -20486,7 +21501,12 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -20513,7 +21533,12 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -20595,7 +21620,12 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -20649,7 +21679,12 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Bay National Wildlife Refuge - Ma-le'l Dunes Unit",
+          "class": "4",
+          "operator": "United States Fish and Wildlife Service"
+        }
       }
     },
     {
@@ -20769,7 +21804,12 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -20796,7 +21836,12 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -20823,7 +21868,12 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Arcata Marsh and Wildlife Sanctuary",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -20984,7 +22034,12 @@
         "website": "https://www.blm.gov/visit/mattole-campground",
         "fee": "yes",
         "operator": "Bureau of Land Management",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -21015,7 +22070,12 @@
         "website": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=90267&inline",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Mattole Canyon State Marine Reserve",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -21077,7 +22137,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 97
+        "ebird_species": 97,
+        "publicLand": {
+          "name": "South Cape Mendocino State Marine Reserve",
+          "class": "4",
+          "operator": null
+        }
       }
     },
     {
@@ -21263,7 +22328,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 196
+        "ebird_species": 196,
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -21383,7 +22453,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 95
+        "ebird_species": 95,
+        "publicLand": {
+          "name": "McKay Community Forest",
+          "class": "6",
+          "operator": "Humboldt County"
+        }
       }
     },
     {
@@ -21487,7 +22562,12 @@
         "ebird_species": 62,
         "name": "McKinleyville Community Forest East Access",
         "operator": "McKinleyville Community Services District",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "McKinleyville Community Forest",
+          "class": "6",
+          "operator": "McKinleyville Community Services District"
+        }
       }
     },
     {
@@ -21514,7 +22594,12 @@
       "tags": {
         "name": "McKinleyville Community Forest West Access",
         "operator": "McKinleyville Community Services District",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "McKinleyville Community Forest",
+          "class": "6",
+          "operator": "McKinleyville Community Services District"
+        }
       }
     },
     {
@@ -21544,7 +22629,12 @@
         "name": "McKinleyville Community Forest",
         "operator": "McKinleyville Community Services District",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "McKinleyville Community Forest",
+          "class": "6",
+          "operator": "McKinleyville Community Services District"
+        }
       }
     },
     {
@@ -21724,7 +22814,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 168
+        "ebird_species": 168,
+        "publicLand": {
+          "name": "Mike Thompson Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -21755,7 +22850,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 234
+        "ebird_species": 234,
+        "publicLand": {
+          "name": "Mike Thompson Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -21814,7 +22914,12 @@
       ],
       "tags": {
         "name": "Mill Creek Lake Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Trinity Alps Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -21870,7 +22975,12 @@
         "wikidata": "Q20714804",
         "website": "https://www.redwoods.info/showrecord.asp?id=1725",
         "leisure": "park",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Moonstone County Park",
+          "class": "protected_area",
+          "operator": null
+        }
       }
     },
     {
@@ -22226,7 +23336,12 @@
       "tags": {
         "name": "Murrelet State Wilderness",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -22283,7 +23398,12 @@
       ],
       "tags": {
         "name": "Myers Plaque",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -22458,7 +23578,12 @@
       ],
       "tags": {
         "name": "North Slide Peak Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -22549,7 +23674,12 @@
       ],
       "tags": {
         "name": "North Stairs Overlook",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Mad River Bluffs",
+          "class": "4",
+          "operator": "McKinleyville Land Trust"
+        }
       }
     },
     {
@@ -22703,7 +23833,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -22760,7 +23895,12 @@
       ],
       "tags": {
         "name": "Oak Flat Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -22876,7 +24016,12 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "publicLand": {
+          "name": "Sea Lion Gulch State Marine Reserve",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -23846,7 +24991,12 @@
       "tags": {
         "name": "Orick Hill",
         "ele": "263",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -23877,7 +25027,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 151
+        "ebird_species": 151,
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -23908,7 +25063,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 98
+        "ebird_species": 98,
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -23937,7 +25097,12 @@
       "tags": {
         "name": "Orleans Mountain",
         "ele": "1874",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -24019,7 +25184,12 @@
       ],
       "tags": {
         "name": "Palmer's Point",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -24049,7 +25219,12 @@
       ],
       "tags": {
         "name": "Panorama Point",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -24165,7 +25340,12 @@
       ],
       "tags": {
         "name": "Patrick's Point",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -24314,7 +25494,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -24371,7 +25556,12 @@
       ],
       "tags": {
         "name": "Penn Creek Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -24681,7 +25871,12 @@
       "tags": {
         "name": "Pine Mountain",
         "ele": "1443",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -25008,7 +26203,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 100
+        "ebird_species": 100,
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -25039,7 +26239,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 50
+        "ebird_species": 50,
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -25070,7 +26275,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 171
+        "ebird_species": 171,
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -25256,7 +26466,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 77
+        "ebird_species": 77,
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -25287,7 +26502,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 41
+        "ebird_species": 41,
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -25349,7 +26569,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 73
+        "ebird_species": 73,
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -25380,7 +26605,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 99
+        "ebird_species": 99,
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -25413,7 +26643,12 @@
         "website": "http://www.parks.ca.gov/default.asp?page_id=415",
         "operator": "California Department of Parks and Recreation;National Park Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -25440,7 +26675,12 @@
       "tags": {
         "name": "Prairie Creek Visitor Center",
         "opening_hours": "Mo-Su 09:00-17:00",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -25529,7 +26769,12 @@
       "tags": {
         "name": "Punta",
         "ele": "157",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -25644,7 +26889,12 @@
       ],
       "tags": {
         "name": "Randall Creek",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -25699,7 +26949,12 @@
       ],
       "tags": {
         "name": "Red Adler Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26671,7 +27926,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 98
+        "ebird_species": 98,
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26702,7 +27962,12 @@
         "website": "https://www.parks.ca.gov/?page_id=422",
         "operator": "California Department of Parks and Recreation",
         "leisure": "park",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26729,7 +27994,12 @@
       "tags": {
         "name": "Richardson Grove State Park",
         "ele": "184",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26755,7 +28025,12 @@
       ],
       "tags": {
         "name": "Richardson Grove State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Richardson Grove State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26813,7 +28088,12 @@
       ],
       "tags": {
         "name": "Rim Trail Overlook",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26841,7 +28121,12 @@
       ],
       "tags": {
         "name": "Rockefeller Redwood Forest",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26871,7 +28156,12 @@
         "name": "Rocks and Islands Wilderness",
         "operator": "BLM",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Big Flat State Marine Conservation Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -26901,7 +28191,12 @@
       ],
       "tags": {
         "name": "Rocky Point",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -26930,7 +28225,12 @@
       "tags": {
         "name": "Rodgers Peak",
         "ele": "847",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -27056,7 +28356,12 @@
       ],
       "tags": {
         "name": "Rotary Memorial Grove",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Prairie Creek Redwoods State Park",
+          "class": "2",
+          "operator": "California Department of Parks and Recreation;National Park Service"
+        }
       }
     },
     {
@@ -27924,7 +29229,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 25
+        "ebird_species": 25,
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -28101,7 +29411,12 @@
         "website": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=90268&inline",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Sea Lion Gulch State Marine Reserve",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -28127,7 +29442,12 @@
       ],
       "tags": {
         "name": "Sea Lion Gulch",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -28335,7 +29655,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 199
+        "ebird_species": 199,
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -28451,7 +29776,12 @@
       ],
       "tags": {
         "name": "Shore Pine Overlook",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Mad River Bluffs",
+          "class": "4",
+          "operator": "McKinleyville Land Trust"
+        }
       }
     },
     {
@@ -28539,7 +29869,12 @@
         "name": "Shrine Drive Thru Tree",
         "website": "http://redwoods.info",
         "opening_hours": "Mo-Su 06:00-20:00",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -28718,7 +30053,12 @@
       "tags": {
         "name": "Singleton Butte",
         "ele": "1324",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -28813,7 +30153,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 53
+        "ebird_species": 53,
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29148,7 +30493,12 @@
       "tags": {
         "name": "Snow Mountain",
         "ele": "1122",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29207,7 +30557,12 @@
         "name": "Somes Mountain",
         "ele": "1615",
         "wikidata": "Q49075601",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29236,7 +30591,12 @@
       "tags": {
         "name": "South Cape Mendocino State Marine Reserve",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "South Cape Mendocino State Marine Reserve",
+          "class": "4",
+          "operator": null
+        }
       }
     },
     {
@@ -29435,7 +30795,12 @@
       ],
       "tags": {
         "name": "South Stairs Overlook",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Mad River Bluffs",
+          "class": "4",
+          "operator": "McKinleyville Land Trust"
+        }
       }
     },
     {
@@ -29518,7 +30883,12 @@
       ],
       "tags": {
         "name": "Spanish Creek",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -29544,7 +30914,12 @@
       ],
       "tags": {
         "name": "Spanish Flats",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -29570,7 +30945,12 @@
       ],
       "tags": {
         "name": "Spanish Ridge Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "King Range Wilderness",
+          "class": "1b",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -29599,7 +30979,12 @@
       "tags": {
         "name": "Spike Buck Mountain",
         "ele": "1661",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -29630,7 +31015,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 85
+        "ebird_species": 85,
+        "publicLand": {
+          "name": "Trinidad State Beach",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30218,7 +31608,12 @@
         "name": "Steamboat Rock Special Closure",
         "website": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=89907&inline",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Steamboat Rock Special Closure",
+          "class": "1a",
+          "operator": null
+        }
       }
     },
     {
@@ -30246,7 +31641,12 @@
       ],
       "tags": {
         "name": "Stephen Tyng Mather",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30301,7 +31701,12 @@
         "name": "Stone Lagoon Boat-In Campground",
         "fee": "yes",
         "operator": "California State Parks",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Lagoons State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30363,7 +31768,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 84
+        "ebird_species": 84,
+        "publicLand": {
+          "name": "Humboldt Lagoons State Park",
+          "class": "protected_area",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30454,7 +31864,12 @@
       "tags": {
         "name": "Strawberry Rock",
         "ele": "268",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -30514,7 +31929,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 5
+        "ebird_species": 5,
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30545,7 +31965,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 122
+        "ebird_species": 122,
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30576,7 +32001,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 91
+        "ebird_species": 91,
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30607,7 +32037,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 172
+        "ebird_species": 172,
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30638,7 +32073,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 223
+        "ebird_species": 223,
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30727,7 +32167,12 @@
       "tags": {
         "name": "Sugarloaf Island Special Closure",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "publicLand": {
+          "name": "Sugarloaf Island Special Closure",
+          "class": "1a",
+          "operator": null
+        }
       }
     },
     {
@@ -30811,7 +32256,12 @@
       ],
       "tags": {
         "name": "Sumêg Village",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -30941,7 +32391,12 @@
       "tags": {
         "name": "Table Bluff County Park",
         "ele": "50",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Table Bluff Ecological Reserve",
+          "class": "5",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -30999,7 +32454,12 @@
       "tags": {
         "name": "Telescope Peak",
         "ele": "1253",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31159,7 +32619,12 @@
         "ebird_species": 95,
         "name": "Tish Tang Campground & River Access",
         "operator": "Hoopa Valley Tribe",
-        "leisure": "park"
+        "leisure": "park",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31190,7 +32655,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 18
+        "ebird_species": 18,
+        "publicLand": {
+          "name": "Trinity Alps Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31216,7 +32686,12 @@
       ],
       "tags": {
         "name": "Tish Tang Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "Trinity Alps Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31276,7 +32751,12 @@
       "tags": {
         "name": "Titlow Hill",
         "ele": "1518",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Six Rivers National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
+        }
       }
     },
     {
@@ -31305,7 +32785,12 @@
       "tags": {
         "name": "Titus",
         "ele": "194",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "Rocks and Islands Wilderness",
+          "class": "1b",
+          "operator": "BLM"
+        }
       }
     },
     {
@@ -31513,7 +32998,12 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -31817,7 +33307,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 194
+        "ebird_species": 194,
+        "publicLand": {
+          "name": "Trinidad State Beach",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -31848,7 +33343,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 154
+        "ebird_species": 154,
+        "publicLand": {
+          "name": "Trinidad State Beach",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -32213,7 +33713,12 @@
       ],
       "tags": {
         "name": "United States Veterans",
-        "historic": "memorial"
+        "historic": "memorial",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -32646,7 +34151,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
@@ -32675,7 +34185,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -32735,7 +34250,12 @@
       ],
       "tags": {
         "direction": "NW",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Humboldt Coastal Nature Center",
+          "class": "4",
+          "operator": "Friends of the Dunes"
+        }
       }
     },
     {
@@ -32941,7 +34461,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -32970,7 +34495,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -33057,7 +34587,12 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Redwood National and State Parks",
+          "class": "5",
+          "operator": null
+        }
       }
     },
     {
@@ -33087,7 +34622,12 @@
         }
       ],
       "tags": {
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "publicLand": {
+          "name": "Murrelet State Wilderness",
+          "class": "1b",
+          "operator": null
+        }
       }
     },
     {
@@ -33395,7 +34935,12 @@
         }
       ],
       "tags": {
-        "ebird_species": 156
+        "ebird_species": 156,
+        "publicLand": {
+          "name": "Eel River Wildlife Area",
+          "class": "4",
+          "operator": "California Department of Fish and Wildlife"
+        }
       }
     },
     {
@@ -33465,7 +35010,12 @@
       "tags": {
         "name": "Wedding Rock",
         "natural": "peak",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "publicLand": {
+          "name": "Sue-meg State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -33614,7 +35164,12 @@
         "website": "https://humboldtredwoods.org/trail-camps",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -33820,7 +35375,12 @@
         "description": "Open Memorial Day to Labor Day. In old-growth redwoods. Toilets, fire rings, grills, tables provided. Hot pay showers at nearby Burlington or Hidden Springs campgrounds. A nearby summer bridge provides access to miles of backcountry trails.",
         "fee": "yes",
         "operator": "Humboldt Redwoods State Park",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "publicLand": {
+          "name": "Humboldt Redwoods State Park",
+          "class": "4",
+          "operator": "California Department of Parks and Recreation"
+        }
       }
     },
     {
@@ -33937,7 +35497,12 @@
       "tags": {
         "name": "Windy Point Peak",
         "ele": "250",
-        "natural": "peak"
+        "natural": "peak",
+        "publicLand": {
+          "name": "King Range National Conservation Area",
+          "class": "5",
+          "operator": "Bureau of Land Management"
+        }
       }
     },
     {
