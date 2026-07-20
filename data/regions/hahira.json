@@ -1,0 +1,3884 @@
+{
+  "region": "hahira",
+  "builtAt": "2026-07-20",
+  "spots": [
+    {
+      "id": "american-alligator@djkwzb",
+      "name": "American Alligator",
+      "lat": 30.7193103,
+      "lng": -83.3210903,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648111582",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648111582",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "American Alligator",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "attainable@djkz2u",
+      "name": "Attainable",
+      "lat": 30.8316455,
+      "lng": -83.2784507,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512513481",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512513481",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Attainable",
+        "website": "https://www.valdostamainstreet.com/plain-sight",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "aviator@djkwzb",
+      "name": "Aviator",
+      "lat": 30.7207503,
+      "lng": -83.3224435,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647768870",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647768870",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Aviator",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "azalea-mural@djkz2u",
+      "name": "Azalea Mural",
+      "lat": 30.8321192,
+      "lng": -83.2788323,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12549173886",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12549173886",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Azalea Mural",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "barber-park@djkz2k",
+      "name": "Barber Park",
+      "lat": 30.8293682,
+      "lng": -83.303208,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358752783",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358752783",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Barber Park",
+        "ele": "55",
+        "wikidata": "Q34831309",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "birth@djkz35",
+      "name": "Birth",
+      "lat": 30.8267197,
+      "lng": -83.2751616,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446739",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446739",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Birth",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "Michael Luther King Jr. was born in Atlanta, Georgia on January 15, 1929, to Mrs. Alberta King and Baptist minister Michael L. King Sr.",
+        "memorial": "stone",
+        "wikimedia_commons": "File:Birth Memorial at the MLK Memorial Park.jpg"
+      }
+    },
+    {
+      "id": "black-bear@djkyb0",
+      "name": "Black Bear",
+      "lat": 30.7186277,
+      "lng": -83.3192933,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648111584",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648111584",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Black Bear",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "black-buck@djkwzb",
+      "name": "Black Buck",
+      "lat": 30.7188422,
+      "lng": -83.3258459,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992867",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992867",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Black Buck",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "bland-park@djkz80",
+      "name": "Bland Park",
+      "lat": 30.8527066,
+      "lng": -83.3140687,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/549827998",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/549827998",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Bland Park",
+        "website": "https://vlpra.com/207/Bland-Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "blazer-field@djkz8d",
+      "name": "Blazer Field",
+      "lat": 30.8657567,
+      "lng": -83.2884859,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358752786",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358752786",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Blazer Field",
+        "ele": "58",
+        "wikidata": "Q34900926",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "bonzai-pipelines@djky8p",
+      "name": "Bonzai Pipelines",
+      "lat": 30.7170566,
+      "lng": -83.3202458,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647925376",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647925376",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Bonzai Pipelines",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "boomerang@djkwzb",
+      "name": "Boomerang",
+      "lat": 30.7210615,
+      "lng": -83.322874,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646271021",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646271021",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Boomerang",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "brookwood-park@djkz2z",
+      "name": "Brookwood Park",
+      "lat": 30.8457718,
+      "lng": -83.2852682,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/545034091",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/545034091",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Brookwood Park",
+        "ele": "56",
+        "wikidata": "Q34908020",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "butterfly-garden@djkwzb",
+      "name": "Butterfly Garden",
+      "lat": 30.7208379,
+      "lng": -83.3218172,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647768850",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647768850",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Butterfly Garden",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "butterfly-wings@djs8qc",
+      "name": "Butterfly Wings",
+      "lat": 30.9908301,
+      "lng": -83.3742187,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/13026667485",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026667485",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Butterfly Wings",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "capybura@djkwzb",
+      "name": "Capybura",
+      "lat": 30.7205785,
+      "lng": -83.3253792,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992827",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992827",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Capybura",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "caracal@djkwzb",
+      "name": "Caracal",
+      "lat": 30.7200504,
+      "lng": -83.3212003,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648111581",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648111581",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Caracal",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "catchawave-bay@djkwxz",
+      "name": "Catchawave bay",
+      "lat": 30.7173837,
+      "lng": -83.3214873,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647891942",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647891942",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Catchawave bay",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "century-wheel@djkwzb",
+      "name": "Century Wheel",
+      "lat": 30.7212622,
+      "lng": -83.3210488,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646258301",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646258301",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Century Wheel",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "civil-rights-movement@djkz35",
+      "name": "Civil Rights Movement",
+      "lat": 30.8269312,
+      "lng": -83.2752105,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446707",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446707",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12568446710",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446710",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12568446734",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446734",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12568446748",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446748",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12568446750",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446750",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12568446771",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446771",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Civil Rights Movement",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "When Rosa Parks was arrested in Montgomery for refusing to surrender her bus seat to a white passenger, community activists asked if they could meet at church to play in a bus boycott.",
+        "memorial": "stone",
+        "wikimedia_commons": "File:Civil Rights Movement Memorial at the MLK Memorial Park - 1.jpg"
+      }
+    },
+    {
+      "id": "civil-rights-mural@djkz2u",
+      "name": "Civil Rights Mural",
+      "lat": 30.8318687,
+      "lng": -83.2776467,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512525906",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512525906",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Civil Rights Mural",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "coca-cola-alley@djkz2u",
+      "name": "Coca-Cola Alley",
+      "lat": 30.8306295,
+      "lng": -83.2775904,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12549081592",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12549081592",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Coca-Cola Alley",
+        "historic": "memorial",
+        "memorial": "plaque"
+      }
+    },
+    {
+      "id": "coffee-drip@djkz2u",
+      "name": "Coffee Drip",
+      "lat": 30.831849,
+      "lng": -83.2791726,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12552463652",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12552463652",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Coffee Drip",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "cold-springs-pocket-park@djkz8k",
+      "name": "Cold Springs Pocket Park",
+      "lat": 30.8730579,
+      "lng": -83.3078594,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/491026437",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/491026437",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Cold Springs Pocket Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "college-education-spiritual-growth@djkz35",
+      "name": "College Education and Spiritual Growth",
+      "lat": 30.8269289,
+      "lng": -83.275094,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446728",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446728",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "College Education and Spiritual Growth",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "King enrolled at Morehouse College, where he majored in sociology. Drawn to the ministry, King Jr. was ordained by his father as the Baptist minister in February 1948.",
+        "memorial": "stone",
+        "wikimedia_commons": "File:College Education and Spiritual Growth Memorial at the MLK Memorial Park.jpg"
+      }
+    },
+    {
+      "id": "cranford-park@djkz89",
+      "name": "Cranford Park",
+      "lat": 30.8557569,
+      "lng": -83.290708,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358752839",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358752839",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Cranford Park",
+        "ele": "70",
+        "wikidata": "Q49480860",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "crescent@djkz2y",
+      "name": "The Crescent",
+      "lat": 30.8394737,
+      "lng": -83.2840445,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/753795583",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/753795583",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "The Crescent",
+        "description": "http://thecrescentatvaldosta.com/",
+        "wikidata": "Q16901515",
+        "historic": "manor",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "critter-crawl@djkwzb",
+      "name": "Critter Crawl",
+      "lat": 30.7205047,
+      "lng": -83.3208168,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241862",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241862",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/5646241865",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241865",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Critter Crawl",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "critter-kitchen@djkwzb",
+      "name": "Critter Kitchen",
+      "lat": 30.7204897,
+      "lng": -83.3206585,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241861",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241861",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Critter Kitchen",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "dizzy-dragons@djkwzb",
+      "name": "Dizzy Dragons",
+      "lat": 30.7205012,
+      "lng": -83.3205365,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241863",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241863",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Dizzy Dragons",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "dockside-games@djkwzb",
+      "name": "Dockside Games",
+      "lat": 30.7195489,
+      "lng": -83.3229907,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647785199",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647785199",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Dockside Games",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "doors-freedom@djkz2u",
+      "name": "Doors to Freedom",
+      "lat": 30.832828,
+      "lng": -83.2777399,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12549162991",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12549162991",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Doors to Freedom",
+        "artwork_type": "installation",
+        "tourism": "artwork",
+        "inscription": "Inspired by those that bravely went in search of freedom and to those who opened their doors to welcome them"
+      }
+    },
+    {
+      "id": "drexel-park@djkz2z",
+      "name": "Drexel Park",
+      "lat": 30.8467741,
+      "lng": -83.28517,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/372222905",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/372222905",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Drexel Park",
+        "ele": "55",
+        "wikidata": "Q49484259",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "early-life@djkz35",
+      "name": "Early Life",
+      "lat": 30.8268225,
+      "lng": -83.2751122,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446721",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446721",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Early Life",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "King spent his early years at 501 Auburn Avenue, about a block from Ebrnezer Baptist Church where his father was pastor.",
+        "memorial": "stone",
+        "wikimedia_commons": "File:Early Life Memorial at the MLK Memorial Park.jpg"
+      }
+    },
+    {
+      "id": "elephant@djkwzb",
+      "name": "Elephant",
+      "lat": 30.7208045,
+      "lng": -83.3243921,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992828",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992828",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Elephant",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "f-16-model@djkzce",
+      "name": "F-16 Model",
+      "lat": 30.9143483,
+      "lng": -83.2479131,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12546495780",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12546495780",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "F-16 Model",
+        "description": "Airplane at the front of Freedom Park",
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "falcon-flyer@djkwzb",
+      "name": "Falcon Flyer",
+      "lat": 30.7196458,
+      "lng": -83.3234145,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648006244",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648006244",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Falcon Flyer",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "fellowship-park@djkz3h",
+      "name": "Fellowship Park",
+      "lat": 30.8308092,
+      "lng": -83.2715471,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1358127930",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1358127930",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Fellowship Park",
+        "access": "yes",
+        "operator": "Valdosta-Lowndes County Parks & Recreation Authority",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "fenris@djkz2x",
+      "name": "Fenris",
+      "lat": 30.8478016,
+      "lng": -83.289403,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/13011852075",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13011852075",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Fenris",
+        "website": "https://www.valdosta.edu/blazer-wellness/vsu-walking-trail/fenris.php",
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "flame-freedom@djkz2u",
+      "name": "Flame of Freedom",
+      "lat": 30.8326315,
+      "lng": -83.279623,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512444936",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512444936",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Flame of Freedom",
+        "description": "Brick pillar with a lamp on top. The lamp has an eagle, wings open, on its top.",
+        "historic": "memorial",
+        "inscription": "Flame of Freedom // American Legion Valdosta Post No. 13 // A gift to Valdosta and Lowndes County in memory of the veterans of all wars // Robert H. Haze, commander // Dedicated Veterans Day November 11, 1969",
+        "memorial": "war_memorial"
+      }
+    },
+    {
+      "id": "freedom-park@djkzcd",
+      "name": "Freedom Park",
+      "lat": 30.9096423,
+      "lng": -83.2472963,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/754804976",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/754804976",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Freedom Park",
+        "website": "https://vlpra.com/199/Freedom-Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "frogtown-cellars-hahira-tasting-room@djs8qm",
+      "name": "Frogtown Cellars Hahira Tasting Room",
+      "lat": 31.0090939,
+      "lng": -83.391989,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/4362122222",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/4362122222",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Frogtown Cellars Hahira Tasting Room",
+        "website": "http://frogtown.us/",
+        "opening_hours": "Mo-Th 12:00-18:00; Fr 12:00-22:00; Sa 12:00-18:00; Su 12:30-18:00",
+        "operator": "Frogtown Cellars",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "geronimo@djkwzb",
+      "name": "Geronimo",
+      "lat": 30.7191904,
+      "lng": -83.324258,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992978",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992978",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Geronimo",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "giraffe@djkwzb",
+      "name": "Giraffe",
+      "lat": 30.7201127,
+      "lng": -83.325465,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992829",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992829",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Giraffe",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "go-bananas@djkwzb",
+      "name": "Go Bananas",
+      "lat": 30.7208932,
+      "lng": -83.3207805,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646258303",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646258303",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Go Bananas",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "go-karts@djkwzb",
+      "name": "Go Karts/",
+      "lat": 30.7215688,
+      "lng": -83.3212513,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646257700",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646257700",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Go Karts/",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "grand-bay-public-hunting-area@djsbh1",
+      "name": "Grand Bay Public Hunting Area",
+      "lat": 30.9460875,
+      "lng": -83.1442976,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358752869",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358752869",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Grand Bay Public Hunting Area",
+        "ele": "60",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "green-monkey@djkyb0",
+      "name": "Green Monkey",
+      "lat": 30.7195224,
+      "lng": -83.3198458,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648111586",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648111586",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Green Monkey",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "greetings-from-downtown-valdosta@djkz2u",
+      "name": "Greetings From Downtown Valdosta",
+      "lat": 30.8318153,
+      "lng": -83.2795939,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512540853",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512540853",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Greetings From Downtown Valdosta",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "grove-point-park@djkxzs",
+      "name": "Grove Point Park",
+      "lat": 30.917749,
+      "lng": -83.3355173,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/545983607",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/545983607",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Grove Point Park",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "hakini-rapids@djkwzb",
+      "name": "Hakini Rapids",
+      "lat": 30.7185136,
+      "lng": -83.3217971,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647892000",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647892000",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Hakini Rapids",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "historical-perspective@djkz35",
+      "name": "Historical Perspective",
+      "lat": 30.8268874,
+      "lng": -83.2753984,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446726",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446726",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Historical Perspective",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "The Valdosta / Lowndes County Martin Luther King Jr. Commemorative Committee",
+        "memorial": "plaque",
+        "wikimedia_commons": "File:Historical Perspective Sign at the MLK Memorial Park.jpg"
+      }
+    },
+    {
+      "id": "hyta-s-park@djkz2r",
+      "name": "Hyta's Park",
+      "lat": 30.8472104,
+      "lng": -83.3041785,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12519321510",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12519321510",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "way/1353023780",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1353023780",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Hyta's Park",
+        "website": "https://www.vlpra.com/215/Hytas-Park",
+        "opening_hours": "sunrise-sunset",
+        "fee": "no",
+        "access": "yes",
+        "operator": "Valdosta-Lowndes County Parks & Recreation Authority",
+        "leisure": "park",
+        "artwork_type": "sculpture",
+        "tourism": "artwork",
+        "inscription": "A Valdosta city park maintained in perpetuity by the Town & Country Garden Club of Valdosta, Inc."
+      }
+    },
+    {
+      "id": "indian-crested-porcupine@djkyb0",
+      "name": "Indian Crested Porcupine",
+      "lat": 30.7190428,
+      "lng": -83.3197546,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648111585",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648111585",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Indian Crested Porcupine",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "island-falls@djkwzb",
+      "name": "Island Falls",
+      "lat": 30.7178783,
+      "lng": -83.3232951,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647930935",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647930935",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Island Falls",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "j-l-newbern-sr-park@djkz89",
+      "name": "J. L. Newbern Sr. Park",
+      "lat": 30.8580876,
+      "lng": -83.2968733,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/570561945",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/570561945",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "J. L. Newbern Sr. Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "jungle-rumble@djkwzb",
+      "name": "Jungle Rumble",
+      "lat": 30.7197968,
+      "lng": -83.3222236,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647785191",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647785191",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Jungle Rumble",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "jungle-twirl@djkwzb",
+      "name": "Jungle Twirl",
+      "lat": 30.7205716,
+      "lng": -83.3205016,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241864",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241864",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Jungle Twirl",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "junior-base-camp-rides@djkwzb",
+      "name": "Junior Base Camp Rides",
+      "lat": 30.7201704,
+      "lng": -83.3209898,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241828",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241828",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Junior Base Camp Rides",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "kalani-blsaters@djkwxz",
+      "name": "Kalani Blsaters",
+      "lat": 30.7173065,
+      "lng": -83.3208489,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647925399",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647925399",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Kalani Blsaters",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "kite-flyer@djkwzb",
+      "name": "Kite Flyer",
+      "lat": 30.7211273,
+      "lng": -83.3215141,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646268846",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646268846",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Kite Flyer",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "l-m-stanfill@djs8qc",
+      "name": "L.M.Stanfill",
+      "lat": 30.9907874,
+      "lng": -83.3746044,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/13026721823",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026721823",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/13026721825",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026721825",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/13026721826",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026721826",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/13026721828",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026721828",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/13026721831",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026721831",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "historic": "memorial",
+        "inscription": "L.M. STANFILL // A.D. 1911",
+        "memorial": "stone",
+        "wikimedia_commons": "File:CPL John E. McDonald Memorial Bench in Hahira, GA.jpg",
+        "name": "L.M.Stanfill"
+      }
+    },
+    {
+      "id": "langdale-park@djkxxy",
+      "name": "Langdale Park",
+      "lat": 30.8839518,
+      "lng": -83.3207265,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/754806353",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/754806353",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Langdale Park",
+        "website": "https://vlpra.com/217/Langdale-Park",
+        "opening_hours": "sunrise-sunset",
+        "access": "yes",
+        "operator": "Valdosta-Lowndes County Parks & Recreation Authority",
+        "leisure": "park",
+        "note": "All trails are closed until further notice due to Hurricane Hellene damage."
+      }
+    },
+    {
+      "id": "legacy@djkz35",
+      "name": "Legacy",
+      "lat": 30.8269765,
+      "lng": -83.2754479,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446724",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446724",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12568446773",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446773",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Legacy",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "Coretta Scott King founded the King Center in Atlanta in 1968. The center is dedicated to advancing King’s philosophies of non-violence and justice through its programs, exhibits, and tours.",
+        "memorial": "stone",
+        "wikimedia_commons": "File:Legacy Memorial at the MLK Memorial Park - 1.jpg"
+      }
+    },
+    {
+      "id": "little-criiters-playzone@djkwzb",
+      "name": "Little Criiters Playzone",
+      "lat": 30.7204609,
+      "lng": -83.3209308,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241841",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241841",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Little Criiters Playzone",
+        "tourism": "attraction",
+        "leisure": "playground"
+      }
+    },
+    {
+      "id": "low-poly-heart@djkz2u",
+      "name": "Low-Poly Heart",
+      "lat": 30.8329514,
+      "lng": -83.2773684,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12549162986",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12549162986",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Low-Poly Heart",
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "lowndes-county-sherriff-s-office-memorial@djkz2u",
+      "name": "Lowndes County Sherriff’s Office Memorial",
+      "lat": 30.8328214,
+      "lng": -83.2790402,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/10995818186",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/10995818186",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Lowndes County Sherriff’s Office Memorial",
+        "access": "yes",
+        "historic": "monument",
+        "inscription": "This monument is in remembrance of those who have given their lives while serving with the Lowndes County Sheriff’s Office since its inception in 1826. // May the Lord always be with them and their families."
+      }
+    },
+    {
+      "id": "mack-s-park@djkz2u",
+      "name": "Mack's Park",
+      "lat": 30.8318716,
+      "lng": -83.277737,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1352388975",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1352388975",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Mack's Park",
+        "opening_hours": "24/7",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "maddie-s-tree@djkzce",
+      "name": "Maddie's Tree",
+      "lat": 30.9133206,
+      "lng": -83.2492842,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/13067728700",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13067728700",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Maddie's Tree",
+        "historic": "memorial",
+        "natural": "tree",
+        "inscription": "Maddie’s Tree // Madeline Pitts // “Don’t Count Me Out”"
+      }
+    },
+    {
+      "id": "madison-heights-drive-park@djkz36",
+      "name": "Madison Heights Drive Park",
+      "lat": 30.816851,
+      "lng": -83.2627241,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/544984667",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/544984667",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Madison Heights Drive Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "marker@djkz2ut",
+      "name": null,
+      "lat": 30.8313189,
+      "lng": -83.2791941,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512513485",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512513485",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12512650295",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512650295",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "historic": "memorial",
+        "inscription": "In Loving Memory D. Stewart DeMersseman 1979-2018",
+        "memorial": "bench",
+        "access": "yes"
+      }
+    },
+    {
+      "id": "marker@djkz2uw",
+      "name": null,
+      "lat": 30.8316413,
+      "lng": -83.2783611,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512525915",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512525915",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "historic": "memorial",
+        "inscription": "In Loving Memory David G. DeMersseman // 1955-2010",
+        "memorial": "bench"
+      }
+    },
+    {
+      "id": "marker@djkz2vj",
+      "name": null,
+      "lat": 30.8332505,
+      "lng": -83.2799365,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512444929",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512444929",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12512444932",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512444932",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "description": "Small urn on top of a staircase side, with a plaque with inscription in front of the urn",
+        "historic": "memorial",
+        "inscription": "This urn is presented to the Valdosta Junior Service League in memory of Miss Vallie Ferrell by Clarence W. & Vallie Dalton Staten and family",
+        "memorial": "urn"
+      }
+    },
+    {
+      "id": "marker@djs8qc8",
+      "name": null,
+      "lat": 30.9909589,
+      "lng": -83.3740056,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/13026721827",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026721827",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/13026721830",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13026721830",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Beloved Brother // TSGT Derry Howell // Forever In Our Hearts",
+        "memorial": "bench"
+      }
+    },
+    {
+      "id": "marriage@djkz35",
+      "name": "Marriage",
+      "lat": 30.8270381,
+      "lng": -83.2751066,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446776",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446776",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Marriage",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "In September 1951, King enrolled in Boston University’s PhD program in systematic theology. King met Coretta Scott while at Boston University and they were married on June 18, 1953, in Perry County, Alabama.",
+        "memorial": "stone",
+        "wikimedia_commons": "File:Marriage Memorial at the MLK Memorial Park.jpg"
+      }
+    },
+    {
+      "id": "martin-luther-king-jr-memorial-park@djkz35",
+      "name": "Martin Luther King, Jr. Memorial Park",
+      "lat": 30.8268097,
+      "lng": -83.2752687,
+      "category": "park",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12218876253",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12218876253",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "way/1320405535",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1320405535",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Martin Luther King, Jr. Memorial Park",
+        "description": "Large obelisk with 4 sides of inscriptions quoting some of MLK Jr.’s most memorable quotes.",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "wikimedia_commons": "File:MLK Memorial Park Obelisk Inscription - 1.jpg;File:MLK Memorial Park Obelisk Inscription - 2.jpg;File:MLK Memorial Park Obelisk Inscription - 3.jpg;File:MLK Memorial Park Obelisk Inscription - 4.jpg",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "mary-turner-lynching-site@djs8kg",
+      "name": "Mary Turner Lynching Site",
+      "lat": 31.0004784,
+      "lng": -83.4543579,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/2317178197",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/2317178197",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Mary Turner Lynching Site",
+        "historic": "memorial"
+      }
+    },
+    {
+      "id": "mckey-park@djkz8d",
+      "name": "McKey Park",
+      "lat": 30.8641054,
+      "lng": -83.2906521,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/372827849",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/372827849",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "McKey Park",
+        "ele": "55",
+        "wikidata": "Q49523767",
+        "website": "https://vlpra.com/201/McKey-Park-HBA-Tennis-Center",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "memory-rev-dr-martin-luther-king-jr@djkz35",
+      "name": "In Memory of Rev. Dr. Martin Luther King Jr.",
+      "lat": 30.826954,
+      "lng": -83.2755886,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12568446745",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446745",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12568446749",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12568446749",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "In Memory of Rev. Dr. Martin Luther King Jr.",
+        "operator": "Valdosta",
+        "historic": "memorial",
+        "inscription": "In Memory of Rev. Dr. Martin Luther King Jr. // 1929-1968 // The dream lives on…",
+        "memorial": "plaque",
+        "note": "This is the start of the story of MLK Jr.’s life that the commemorative stones tell. Follow in a winding pattern from the “Birth” stone.",
+        "wikimedia_commons": "File:In-ground plaque memorial at the MLK Memorial Park.jpg"
+      }
+    },
+    {
+      "id": "monkey-around@djkwzb",
+      "name": "Monkey Around",
+      "lat": 30.7203514,
+      "lng": -83.3211614,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646240011",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646240011",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Monkey Around",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "north-patterson-street-historic-district@djkz2y",
+      "name": "North Patterson Street Historic District",
+      "lat": 30.8418685,
+      "lng": -83.2845965,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358752939",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358752939",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "North Patterson Street Historic District",
+        "ele": "64",
+        "wikidata": "Q30627065",
+        "historic": "district",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "oddity@djkz2vn",
+      "name": null,
+      "lat": 30.8331404,
+      "lng": -83.278879,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12553911963",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12553911963",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "artwork_type": "graffiti",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "oddity@djkz8wn",
+      "name": null,
+      "lat": 30.8835251,
+      "lng": -83.2896341,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12422983869",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12422983869",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "old-city-hall@djkz2u",
+      "name": "Old City Hall",
+      "lat": 30.8310424,
+      "lng": -83.2778599,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12549081589",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12549081589",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Old City Hall",
+        "historic": "memorial",
+        "memorial": "plaque"
+      }
+    },
+    {
+      "id": "olympic-park@djkz2u",
+      "name": "Olympic Park",
+      "lat": 30.8279798,
+      "lng": -83.2782246,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/953032093",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/953032093",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Olympic Park",
+        "website": "https://vlpra.com/221/Olympic-Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "oris-blackburn-memorial-park@djky2n",
+      "name": "Oris Blackburn Memorial Park",
+      "lat": 30.6655495,
+      "lng": -83.3190901,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/754141221",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/754141221",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Oris Blackburn Memorial Park",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "our-confederate-dead@djkz2u",
+      "name": "Our Confederate Dead",
+      "lat": 30.8321846,
+      "lng": -83.2793866,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/10995818185",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/10995818185",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Our Confederate Dead",
+        "description": "Large pedestal with multiple inscriptions and confederate symbols, atop which is a statue of a confederate soldier.",
+        "historic": "memorial",
+        "inscription": "1861-1865 // Erected by Valdosta chapter, U.D.C. No. 471. // 1911. // “Lest we forget.” // Comrades // Our Confederate Dead // The principles for which they fought live eternally. // CSA",
+        "memorial": "statue"
+      }
+    },
+    {
+      "id": "outpost-express@djkwzb",
+      "name": "Outpost Express",
+      "lat": 30.7208137,
+      "lng": -83.32057,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241866",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241866",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Outpost Express",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "paradise-river@djkwxz",
+      "name": "Paradise River",
+      "lat": 30.7172373,
+      "lng": -83.322241,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647891952",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647891952",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Paradise River",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "pendleton-park@djkz8c",
+      "name": "Pendleton Park",
+      "lat": 30.8603659,
+      "lng": -83.2835492,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/638887374",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/638887374",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Pendleton Park",
+        "wikidata": "Q49541068",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "pharao-s-fury@djkwzb",
+      "name": "Pharao's Fury",
+      "lat": 30.7193609,
+      "lng": -83.3239544,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646258302",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646258302",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Pharao's Fury",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "playhouse@djkwzb",
+      "name": "The Playhouse",
+      "lat": 30.720364,
+      "lng": -83.3214377,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646268888",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646268888",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "The Playhouse",
+        "tourism": "attraction",
+        "leisure": "playground"
+      }
+    },
+    {
+      "id": "pop-jets@djkwzb",
+      "name": "Pop Jets",
+      "lat": 30.7206223,
+      "lng": -83.321321,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646268882",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646268882",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Pop Jets",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "president-george-w-bush-heritage-park@djsb4w",
+      "name": "President George W. Bush Heritage Park",
+      "lat": 30.9750544,
+      "lng": -83.2040732,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/311827369",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/311827369",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "President George W. Bush Heritage Park",
+        "operator": "United States Air Force",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "rhinoceros@djkwzb",
+      "name": "Rhinoceros",
+      "lat": 30.7184444,
+      "lng": -83.3256072,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992868",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992868",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Rhinoceros",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "rise-agriculture-industry-valdosta-georgia@djkz2u",
+      "name": "The Rise of Agriculture and Industry in Valdosta, Georgia",
+      "lat": 30.8313013,
+      "lng": -83.2793224,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512513483",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512513483",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "The Rise of Agriculture and Industry in Valdosta, Georgia",
+        "website": "https://www.valdostamainstreet.com/plain-sight",
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "river-life-azalea-city@djkz2u",
+      "name": "River of Life in the Azalea City",
+      "lat": 30.831619,
+      "lng": -83.2784358,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512513484",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512513484",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "River of Life in the Azalea City",
+        "website": "https://www.valdostamainstreet.com/plain-sight",
+        "artwork_type": "mosaic",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "safari-jeeps@djkwzb",
+      "name": "Safari Jeeps",
+      "lat": 30.7193921,
+      "lng": -83.3245678,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647998462",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647998462",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Safari Jeeps",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "safari-train@djkwzb",
+      "name": "Safari Train",
+      "lat": 30.7204471,
+      "lng": -83.3242004,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992886",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992886",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Safari Train",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "scott-park@djkz37",
+      "name": "Scott Park",
+      "lat": 30.8235895,
+      "lng": -83.2554712,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/31491561",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/31491561",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Scott Park",
+        "ele": "64",
+        "wikidata": "Q49558917",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "september-11-rememberance@djkz2u",
+      "name": "September 11 Rememberance",
+      "lat": 30.8324489,
+      "lng": -83.2790637,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512444925",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512444925",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "September 11 Rememberance",
+        "historic": "memorial",
+        "inscription": "In remembrance of the courage, honor and sacrifice shown by those brave men and women who fought to defend the spirit of America on September 11, 2001. // Lowndes County Board of Commissioners",
+        "memorial": "stone"
+      }
+    },
+    {
+      "id": "smash-attack@djkwzb",
+      "name": "Smash Attack",
+      "lat": 30.7201323,
+      "lng": -83.3214967,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646268887",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646268887",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Smash Attack",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "smith-park@djkz3j",
+      "name": "Smith Park",
+      "lat": 30.8331987,
+      "lng": -83.2728618,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1356408512",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1356408512",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Smith Park",
+        "website": "https://vlpra.com/225/Smith-Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "smith-park@djs8qb",
+      "name": "Smith Park",
+      "lat": 30.9851702,
+      "lng": -83.3691953,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/473420558",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/473420558",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Smith Park",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "southern-trees-bear-strange-fruit@djkz2u",
+      "name": "Southern Trees Bear Strange Fruit",
+      "lat": 30.8318417,
+      "lng": -83.2776936,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512525907",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512525907",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Southern Trees Bear Strange Fruit",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "spanish-american-war-memorial@djkz2u",
+      "name": "Spanish-American War Memorial",
+      "lat": 30.8326715,
+      "lng": -83.2789796,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512444940",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512444940",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Spanish-American War Memorial",
+        "historic": "memorial",
+        "inscription": "Erected AD. 1949 by J.O. Varnedoe camp no. 14 U.S. W.V. and their friends in memory of Spanish American war veterans // Sixteen million world war veterans wonder when wars will cease",
+        "memorial": "obelisk"
+      }
+    },
+    {
+      "id": "splatter-swamp-paintball-range@djsb4m",
+      "name": "Splatter Swamp Paintball Range",
+      "lat": 30.9667039,
+      "lng": -83.2106687,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/311846384",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/311846384",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Splatter Swamp Paintball Range",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "sunflowers@djkxry",
+      "name": "Sunflowers",
+      "lat": 30.8436362,
+      "lng": -83.3204219,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12613345380",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12613345380",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Sunflowers",
+        "access": "customers",
+        "wheelchair": "yes",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "swamp-thing@djkwzb",
+      "name": "Swamp Thing",
+      "lat": 30.7199386,
+      "lng": -83.3217461,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646294434",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646294434",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Swamp Thing",
+        "wikidata": "Q7653346",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "swinging-safari@djkwzb",
+      "name": "Swinging Safari",
+      "lat": 30.7209716,
+      "lng": -83.3220828,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647768869",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647768869",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Swinging Safari",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "tabellain-memoriam@djkz2u",
+      "name": "Tabellain Memoriam",
+      "lat": 30.8308454,
+      "lng": -83.2781768,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12549073103",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12549073103",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Tabellain Memoriam",
+        "historic": "memorial",
+        "inscription": "This building is dedicated to the memory of Daniel Cornelius Ashley, Jr. 1894-1925",
+        "memorial": "plaque"
+      }
+    },
+    {
+      "id": "tail-spin@djkwzb",
+      "name": "Tail Spin",
+      "lat": 30.7204286,
+      "lng": -83.3222397,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647768848",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647768848",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Tail Spin",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "tasmanian-river-rapids@djkwzb",
+      "name": "Tasmanian River Rapids",
+      "lat": 30.7216157,
+      "lng": -83.3229289,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5657254815",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5657254815",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Tasmanian River Rapids",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "taylor-cowart-memorial-park@djkz8g",
+      "name": "Taylor-Cowart Memorial Park",
+      "lat": 30.8692405,
+      "lng": -83.2782277,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/800564986",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/800564986",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Taylor-Cowart Memorial Park",
+        "website": "https://vlpra.com/227/Taylor-Cowart-Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "thomson-s-gazelle@djkwzb",
+      "name": "Thomson's Gazelle",
+      "lat": 30.7209958,
+      "lng": -83.3253175,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647992826",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647992826",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Thomson's Gazelle",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "tiger@djkwzb",
+      "name": "Tiger",
+      "lat": 30.7208217,
+      "lng": -83.3239308,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648017164",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648017164",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Tiger",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "toucan-alley@djkwzb",
+      "name": "Toucan Alley",
+      "lat": 30.7204839,
+      "lng": -83.3209991,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646241842",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646241842",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Toucan Alley",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "turtle-race@djkwzb",
+      "name": "Turtle Race",
+      "lat": 30.7209947,
+      "lng": -83.3215611,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5646268847",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5646268847",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Turtle Race",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "twisted-typhoon@djkwzb",
+      "name": "Twisted Typhoon",
+      "lat": 30.7184663,
+      "lng": -83.3242071,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647993053",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647993053",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Twisted Typhoon",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "two-toed-sloth@djkyb0",
+      "name": "Two Toed Sloth",
+      "lat": 30.7195731,
+      "lng": -83.3189178,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648111583",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648111583",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Two Toed Sloth",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "unarranged-flowers-where-is-mack-now-that-we-need-him@djkz2u",
+      "name": "Unarranged Flowers: Where is Mack Now That We Need Him?",
+      "lat": 30.8319108,
+      "lng": -83.277741,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512525903",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512525903",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Unarranged Flowers: Where is Mack Now That We Need Him?",
+        "website": "https://www.valdostamainstreet.com/plain-sight",
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "unity-park@djkz2u",
+      "name": "Unity Park",
+      "lat": 30.8325404,
+      "lng": -83.2766342,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1355970917",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1355970917",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Unity Park",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "valdosta-commercial-historic-district@djkz2u",
+      "name": "Valdosta Commercial Historic District",
+      "lat": 30.8310355,
+      "lng": -83.2790407,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/358753047",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/358753047",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Valdosta Commercial Historic District",
+        "ele": "66",
+        "wikidata": "Q29094031",
+        "historic": "district",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "valdosta-runs-circles@djkz2u",
+      "name": "Valdosta Runs Circles",
+      "lat": 30.8312139,
+      "lng": -83.2794683,
+      "category": "oddity",
+      "subject_type": [
+        "art"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12512513479",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12512513479",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Valdosta Runs Circles",
+        "website": "https://www.valdostamainstreet.com/plain-sight",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "id": "vallotton-park@djkz2z",
+      "name": "Vallotton Park",
+      "lat": 30.8485291,
+      "lng": -83.2767792,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/475111420",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/475111420",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Vallotton Park",
+        "ele": "58",
+        "wikidata": "Q49574022",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "vallotton-youth-complex@djkz90",
+      "name": "Vallotton Youth Complex",
+      "lat": 30.8524406,
+      "lng": -83.2729366,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/475102296",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/475102296",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Vallotton Youth Complex",
+        "ele": "60",
+        "wikidata": "Q49582841",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "viewpoint@djkzfxq",
+      "name": null,
+      "lat": 30.9337777,
+      "lng": -83.2021261,
+      "category": "viewpoint",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5904944837",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5904944837",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "description": "Lookout Tower",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "id": "wacky-wheels@djkwzb",
+      "name": "Wacky Wheels",
+      "lat": 30.7205082,
+      "lng": -83.3221163,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647768847",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647768847",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Wacky Wheels",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "wahee-cyclone@djkwxz",
+      "name": "Wahee Cyclone",
+      "lat": 30.7166516,
+      "lng": -83.3210407,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647925371",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647925371",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Wahee Cyclone",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "whirling-wildcats@djkwzb",
+      "name": "Whirling Wildcats",
+      "lat": 30.7196216,
+      "lng": -83.3240569,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5648006245",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5648006245",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Whirling Wildcats",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "white-park@djkz2g",
+      "name": "White Park",
+      "lat": 30.8245046,
+      "lng": -83.2800635,
+      "category": "park",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/1320405260",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/1320405260",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "White Park",
+        "ele": "58",
+        "wikidata": "Q49579977",
+        "access": "yes",
+        "leisure": "park"
+      }
+    },
+    {
+      "id": "yo-yo@djkwzb",
+      "name": "Yo Yo",
+      "lat": 30.718509,
+      "lng": -83.3232656,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647945054",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647945054",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Yo Yo",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "zebra@djkwzb",
+      "name": "Zebra",
+      "lat": 30.7202833,
+      "lng": -83.3266747,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647998485",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647998485",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Zebra",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "id": "zebu@djkwzb",
+      "name": "Zebu",
+      "lat": 30.7212656,
+      "lng": -83.3262885,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5647998484",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5647998484",
+          "first_seen": "2026-07-20",
+          "last_seen": "2026-07-20"
+        }
+      ],
+      "tags": {
+        "name": "Zebu",
+        "tourism": "attraction"
+      }
+    }
+  ]
+}
