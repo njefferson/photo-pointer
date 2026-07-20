@@ -186,8 +186,17 @@ async function cmdPublicLands(id) {
   const P = regionPaths(region.id);
   const areas = await publicLands.ingest(region, { log });
   if (areas.length === 0) {
-    console.error('public-lands: 0 areas — refusing to wipe tags');
-    process.exit(1);
+    // Protect an existing layer from a transient empty fetch on re-run. On a
+    // brand-new region with no prior layer, 0 just means no OSM-mapped public
+    // land here (e.g. rural Lowndes County, GA) — record an empty layer and
+    // skip, don't fail the enrichment.
+    if (await readJsonIfExists(path.join(P.layersDir, 'public-lands.json'))) {
+      console.error('public-lands: 0 areas — refusing to wipe tags');
+      process.exit(1);
+    }
+    log(`[${region.id}] no OSM-mapped protected areas — writing an empty public-lands layer`);
+    await writeLayer(P, 'public-lands.json', { source: publicLands.meta, builtAt: today, count: 0, areas: [] });
+    return;
   }
   const doc = await requireSpots(P, 'public-lands');
   const areaSize = (a) => (a.bbox.north - a.bbox.south) * (a.bbox.east - a.bbox.west);
