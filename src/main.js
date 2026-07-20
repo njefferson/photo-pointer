@@ -10,6 +10,7 @@ import { topSpotsPanel } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 import { renderListInto } from './ui/listview.js';
 import { keepSpot } from './model/notability.js';
+import { VERSION } from './data/changelog.js';
 
 applyTheme(currentTheme());
 
@@ -95,11 +96,12 @@ function renderHeader() {
         el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
         el('button', { class: `vt-btn${viewMode === 'list' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'list'), onClick: () => setViewMode('list') }, 'List'),
       ]),
-      el('button', { class: 'data-btn top-btn', onClick: openTopSpots }, '★ Top spots'),
-      el('button', { class: 'data-btn', onClick: openDataDialog }, 'Backup'),
+      el('button', { class: 'data-btn icon-btn top-btn', 'aria-label': 'Top spots', title: 'Top spots', onClick: openTopSpots }, '★'),
+      el('button', { class: 'data-btn icon-btn', 'aria-label': 'Backup & data', title: 'Backup', onClick: openDataDialog }, '⤓'),
       el('button', {
-        class: 'data-btn info-btn',
+        class: 'data-btn icon-btn info-btn',
         'aria-label': 'About photo-pointer, install help and changelog',
+        title: 'About & help',
         onClick: () => openAbout({ onShowAll: () => applyVisible(allCategories()) }),
       }, 'ⓘ'),
       themeToggle((theme) => mapView?.syncThemeBasemap(theme)),
@@ -158,6 +160,7 @@ function showStartTip() {
 
 function openDataDialog() {
   const dlg = el('dialog', { class: 'data-dialog' }, [
+    el('button', { class: 'dialog-x', 'aria-label': 'Close', onClick: () => dlg.close() }, '×'),
     el('h2', {}, 'Backup & data'),
     el('p', {}, 'Your dropped pins and saved favorites live only on this device. Copy this bundle somewhere safe to back them up, or paste one to restore them on another device.'),
     el('textarea', { rows: 6, 'aria-label': 'Backup bundle JSON' }),
@@ -260,6 +263,8 @@ async function boot() {
   listEl.style.display = 'none';
   viewMain.append(mapEl, listEl);
   app.append(viewMain);
+  // Discrete version stamp, always on screen for screenshot debugging.
+  document.body.append(el('div', { class: 'ver-tag', 'aria-hidden': 'true' }, `v${VERSION}`));
   mapView = createMapView(mapEl, {
     region,
     regions: regionsDoc.regions ?? [],

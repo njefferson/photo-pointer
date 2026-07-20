@@ -93,6 +93,7 @@ export function topSpotsPanel(ranked, onGo) {
   }
 
   dlg.replaceChildren(
+    el('button', { class: 'dialog-x', 'aria-label': 'Close', onClick: () => dlg.close() }, '×'),
     el('h2', {}, 'Top spots'),
     el('p', { class: 'top-sub' }, 'Ranked by how many layers line up — the thing one map can do that separate apps can’t.'),
     el('p', { class: 'top-hint' }, 'Optional filters, all off to start. Tap a layer once to require it (✓ must have), again to exclude it (✕), again to clear.'),

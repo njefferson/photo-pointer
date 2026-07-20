@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
+  { v: '1.0.3', t: 'Tidier toolbar, always-there close button', n: 'Every pop-up now has a close ✕ pinned to the top corner, so a tall card can never trap you. The top toolbar’s buttons are tidier on a phone, and there’s a small version number in the corner for support.' },
   { v: '1.0.2', t: 'Accessibility pass', n: 'A full accessibility review (axe-core, light and dark): fixed the heading order in place cards and made the list view a proper page landmark, so screen readers and keyboard navigation work cleanly throughout. Zero automated violations.' },
   { v: '1.0.1', t: 'The map snaps back after a pop-up', n: 'Opening a place’s pop-up used to leave the map shifted after you closed it. Now it returns to where you were, so you’re not constantly nudging it back.' },
   { v: '1.0.0', t: 'photo-pointer 1.0', n: 'The first full release. Three regions (Sacramento, Humboldt Coast, Yellowstone) with every open-data layer — light and golden hour, dark skies, open horizon, wildlife, photographed spots, public land, air and weather. Save favorites, a list view sorted by distance, verified-only historical markers, and a map that reads cleanly at any zoom, light or dark.' },

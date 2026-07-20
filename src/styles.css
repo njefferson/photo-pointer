@@ -185,6 +185,20 @@ body {
   cursor: pointer;
 }
 
+/* Uniform compact icon buttons in the header actions (Top spots / Backup / ⓘ /
+   theme), so the row reads as a tidy set of icons rather than mixed labels. */
+.icon-btn { min-width: 44px; padding: 6px 8px; font-size: 17px; line-height: 1; text-align: center; }
+
+/* Discrete version stamp — always on screen for screenshot debugging. A solid
+   card chip so --dim on --card keeps ≥4.5:1 whatever's underneath (a11y). */
+.ver-tag {
+  position: fixed; left: 6px; bottom: 4px; z-index: 500;
+  font-family: ui-monospace, monospace; font-size: 10px;
+  color: var(--dim); background: var(--card);
+  border: 1px solid var(--line); border-radius: 4px;
+  padding: 0 4px; pointer-events: none;
+}
+
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 
 .view-root { flex: 1; min-height: 0; display: flex; flex-direction: column; }
@@ -410,7 +424,20 @@ body {
 
 /* Never let a modal grow taller than the screen with its Close out of reach —
    cap to the viewport and scroll inside. Backdrop-tap also closes them (JS). */
-.data-dialog, .welcome-dialog, .tip-dialog { max-height: 88vh; overflow-y: auto; overscroll-behavior: contain; }
+.data-dialog, .welcome-dialog, .tip-dialog {
+  max-height: 88vh; overflow-y: auto; overscroll-behavior: contain;
+  display: flex; flex-direction: column;
+}
+
+/* A close × pinned to the top-right of a scrollable dialog — always reachable
+   even when the card fills the screen (so no window ever traps you). */
+.dialog-x, .welcome-x {
+  position: sticky; top: -2px; z-index: 3; align-self: flex-end;
+  min-width: 40px; min-height: 36px; margin: -6px -6px 2px 0; padding: 2px 8px;
+  font: inherit; font-size: 22px; line-height: 1;
+  color: var(--ink); background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px; cursor: pointer;
+}
 .data-dialog h2 { font-size: 16px; margin: 0 0 6px; }
 .data-dialog p, .data-dialog li { font-size: 13px; }
 .data-dialog textarea {
@@ -489,15 +516,6 @@ body {
   padding: 9px 14px;
   min-height: 44px;
   cursor: pointer;
-}
-.welcome-x {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  min-height: 34px !important;
-  padding: 4px 10px !important;
-  font-size: 18px;
-  line-height: 1;
 }
 .install-steps { margin: 4px 0 8px; padding-left: 20px; }
 .install-steps li { font-size: 14px; line-height: 1.5; margin: 0 0 6px; }
