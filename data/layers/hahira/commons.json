@@ -1,0 +1,12 @@
+{
+  "source": {
+    "source": "wikimedia_commons",
+    "name": "Wikimedia Commons geotagged photo density",
+    "license": "CC/public-domain media (Commons); derived counts only",
+    "attribution": "Photo locations from Wikimedia Commons",
+    "status": "working"
+  },
+  "builtAt": "2026-07-20",
+  "photosHarvested": 3162,
+  "spotsTagged": 70
+}
