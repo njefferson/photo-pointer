@@ -9,6 +9,7 @@ import { rankSpots } from './model/synthesis.js';
 import { topSpotsPanel } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 import { renderListInto } from './ui/listview.js';
+import { keepSpot } from './model/notability.js';
 
 applyTheme(currentTheme());
 
@@ -221,7 +222,9 @@ async function loadRegionData(id) {
     const res = await fetch(`./data/regions/${id}.json`, { cache: 'no-cache' });
     if (res.ok) {
       const doc = await res.json();
-      dataSpots = doc.spots ?? [];
+      // Drop unverified OSM "historical marker" junk (see model/notability.js):
+      // keep verified landmarks and any marker that carries other worthwhile data.
+      dataSpots = (doc.spots ?? []).filter(keepSpot);
       dataBuiltAt = doc.builtAt ?? null;
     } else {
       toast('No spot data for this region yet');

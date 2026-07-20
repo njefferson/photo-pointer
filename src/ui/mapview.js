@@ -11,6 +11,7 @@ import { airToday } from '../model/airquality.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
 import { inBBox, bboxCenter } from '../model/geo.js';
+import { notableReasons } from '../model/notability.js';
 
 // If a GPS fix lands outside the covered region, drop the user in the middle of
 // the map's world instead — Cameron Park, in El Dorado County (Noah's call).
@@ -399,21 +400,6 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
 
   // Friendly names for the raw source ids, so links read plainly.
   const SOURCE_LABELS = { osm: 'OpenStreetMap', ebird: 'eBird', wikidata: 'Wikidata' };
-
-  // What (if anything) makes this a genuinely notable place — the corroborating
-  // signals that separate a real landmark from a community-tagged "monument"
-  // that's actually a baseball diamond.
-  function notableReasons(spot) {
-    const t = spot.tags ?? {};
-    const reasons = [];
-    if (t.california_landmark) reasons.push('California Historical Landmark');
-    if (t.hmdb) reasons.push('in the Historical Marker Database');
-    if (t.heritage) reasons.push('heritage-listed');
-    if (t.wikipedia || t.wikidata) reasons.push('has a Wikipedia article');
-    else if ((spot.sources ?? []).some((s) => s.source === 'wikidata')) reasons.push('verified in Wikidata');
-    if (!reasons.length && t.inscription) reasons.push('has a plaque inscription');
-    return reasons;
-  }
 
   // A clear "is there anything worthwhile here?" line: a badge when notable, an
   // honest caveat for the junk-prone marker category when nothing corroborates it.
