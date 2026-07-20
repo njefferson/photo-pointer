@@ -71,6 +71,35 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.3.0 "Updates arrive on their own" BUILT on staging (Noah: "I don't
+  like having to force close my app twice every time to see new updates. My kids
+  will never get them" + asked for a "force update" button). ROOT CAUSE of the
+  double-close: sw.js skipWaiting()+clients.claim() so a new SW ACTIVATES on the
+  first relaunch, but nothing told the already-loaded PAGE to reload and the code
+  modules are cache-first (SWR) — so launch#1 ran old code while caching new,
+  launch#2 finally served it. FIX (main.js setupServiceWorker): a
+  `controllerchange` listener reloads the page ONCE when a new worker takes
+  control, guarded by `hadController` (no reload on the first-ever install/claim)
+  and a `reloading` flag (no loop). reg.update() on every open so a new SW is
+  discovered at launch. Net: a SINGLE relaunch (or the button) lands the new
+  version. MANUAL BUTTON (install.js checkForUpdates + updateButton, rendered in
+  openAbout under a new "Updates" h3): calls reg.update(); on `updatefound` →
+  "Updating…" + the controllerchange reload takes over; else after 2s a "You're
+  on the latest version (vX)" toast; offline/unsupported fail soft with a toast.
+  CSS .update-btn (weight + firmer border, gated ink/bg). sw CACHE pointer-1.3.0;
+  changelog[0] 1.3.0. IMPORTANT HONESTY: the auto-reload + button live in the
+  NEW page/SW, so getting TO 1.3.0 from 1.2.1 may STILL need the old dance once
+  (the 1.2.1 page has no controllerchange handler); every update 1.3.0→onward is
+  seamless. VERIFIED (smoke49, REAL service workers over a mutable local server
+  that flips the advertised version = a simulated deploy): first visit installs
+  v1.3.0, relaunch stays controlled at v1.3.0 (no spurious reload), then after
+  the server flips to v1.4.0 a SINGLE relaunch auto-updated the ver-stamp to
+  v1.4.0 + fired the "What's new" dialog, and the manual button reports "You're
+  on the latest version (v1.4.0)"; zero pageerrors. 91 tests + contrast + axe
+  (zero across 16 surface×theme, incl. the About "Updates" button) green;
+  smoke48 still green. GITHUB METADATA CONFIRMED (read via API, Noah did it):
+  description + website (photo-pointer.pages.dev) + all 6 topics set correctly;
+  the social-preview IMAGE is the one field the API can't expose to verify.
 - 2026-07-20 PROMOTED 1.2.0 + 1.2.1 to main (Noah's "Promote to main" after he
   caught the blue-on-blue button on his phone and it was fixed). Production ==
   origin/staging == a7e0a88 (clean fast-forward from 1.1.1). Ships the 7-item

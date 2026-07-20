@@ -8,8 +8,49 @@
 // offers one). It shows once (remembered), and stays reachable afterwards from
 // the Backup dialog. Nothing about installing shows once already installed.
 // =============================================================================
-import { el, closeOnBackdrop } from './dom.js';
+import { el, closeOnBackdrop, toast } from './dom.js';
 import { CHANGELOG, VERSION } from '../data/changelog.js';
+
+// Manual "Check for updates" — asks the browser to re-fetch the service worker
+// now. If a newer version exists it installs and takes control, and main.js's
+// controllerchange handler reloads the page to it (so this button can end in an
+// automatic refresh). Reports each step so the button label + a toast stay
+// honest. Fails soft offline.
+async function checkForUpdates(setStatus) {
+  if (!('serviceWorker' in navigator)) { setStatus('unavailable'); return; }
+  let reg = null;
+  try { reg = await navigator.serviceWorker.getRegistration(); } catch { /* blocked */ }
+  if (!reg) { setStatus('unavailable'); return; }
+  setStatus('checking');
+  let found = false;
+  const onFound = () => { found = true; setStatus('updating'); };
+  reg.addEventListener('updatefound', onFound);
+  try {
+    await reg.update();
+  } catch {
+    reg.removeEventListener('updatefound', onFound);
+    setStatus('offline');
+    return;
+  }
+  // No new worker turned up within a moment → we're already current.
+  setTimeout(() => { reg.removeEventListener('updatefound', onFound); if (!found) setStatus('current'); }, 2000);
+}
+
+// The About-panel button that drives checkForUpdates and narrates the result.
+function updateButton() {
+  const btn = el('button', { class: 'update-btn', type: 'button' }, 'Check for updates');
+  btn.addEventListener('click', () => {
+    checkForUpdates((s) => {
+      if (s === 'checking') { btn.disabled = true; btn.textContent = 'Checking…'; return; }
+      if (s === 'updating') { btn.textContent = 'Updating…'; toast('New version found — updating…'); return; }
+      btn.disabled = false; btn.textContent = 'Check for updates';
+      if (s === 'current') toast(`You’re on the latest version (v${VERSION})`);
+      else if (s === 'offline') toast('Can’t check for updates while offline');
+      else if (s === 'unavailable') toast('Updates aren’t available in this browser');
+    });
+  });
+  return btn;
+}
 
 const WELCOMED_KEY = 'pointer.welcomed';
 const SEEN_VERSION_KEY = 'pointer.seenVersion';
@@ -171,6 +212,9 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
     el('h3', { class: 'welcome-sub' }, 'Add it to your home screen'),
     el('p', { class: 'dim' }, 'photo-pointer runs best installed: full-screen, and offline in the field with no signal.'),
     ...installBody(),
+    el('h3', { class: 'welcome-sub' }, 'Updates'),
+    el('p', { class: 'dim' }, 'photo-pointer updates itself the next time you open it — no need to reinstall. To pull the newest version right now:'),
+    updateButton(),
     changelogSection(),
     el('div', { class: 'dialog-row welcome-foot' }, [
       el('button', { class: 'dialog-close', onClick: () => dlg.close() }, welcome ? 'Start exploring' : 'Close'),

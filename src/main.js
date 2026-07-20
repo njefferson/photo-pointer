@@ -294,9 +294,29 @@ async function boot() {
     if (!shownNew && currentVisible().size === 0) showStartTip();
   }
 
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
-  }
+  setupServiceWorker();
+}
+
+// Service worker + SEAMLESS UPDATES. Before, a new version took TWO force-closes
+// to appear: a relaunch got fresh index.html but the cached code modules updated
+// only in the background, so it took a SECOND relaunch to actually run them.
+// Now: the SW skips waiting + claims (sw.js), and when the new worker takes
+// control we reload the page ONCE — so a single relaunch (or the "Check for
+// updates" button) lands the new version. No more double-close.
+function setupServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  // Was this page already controlled? If not, this is a first install — don't
+  // reload on that initial claim (there's no "new version" to jump to).
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (reloading || !hadController) return;
+    reloading = true;
+    window.location.reload();
+  });
+  navigator.serviceWorker.register('./sw.js')
+    .then((reg) => { reg.update().catch(() => {}); }) // check for a new SW on every open
+    .catch(() => {});
 }
 
 boot().catch((e) => {
