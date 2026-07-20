@@ -345,7 +345,9 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "In Loving Memory of Scott Davies.....",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -371,7 +373,9 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "In Loving Memory of Steven Lee Shepherd, Stephen Douglas McGeary",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -397,7 +401,9 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "In Loving Memory of David Riley Anderson",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -423,7 +429,9 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "Lanphere and Ma-Le'l Dunes have been designated a National Natural Landmark",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -831,7 +839,8 @@
       "notes": null,
       "tags": {
         "name": "Stephen Tyng Mather",
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -858,7 +867,8 @@
       "notes": null,
       "tags": {
         "name": "Childrens Forest Plaque",
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -884,7 +894,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "bench"
       },
       "sources": [
         {
@@ -911,7 +922,8 @@
       "notes": null,
       "tags": {
         "name": "Myers Plaque",
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1360,7 +1372,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1581,7 +1594,9 @@
       "notes": null,
       "tags": {
         "name": "Shay Park Plaque",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "City of Arcata Shay Park EST. 1981 FOREST MANAGEMENT & PARKLAND INITIATIVE - PARKLAND BOND 1979",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1661,7 +1676,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1715,7 +1731,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1792,7 +1809,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1818,7 +1836,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1844,7 +1863,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -1870,7 +1890,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -2105,7 +2126,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -3027,7 +3049,8 @@
       "notes": null,
       "tags": {
         "name": "Big Flat",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "note": "First come, first served"
       },
       "sources": [
         {
@@ -3224,7 +3247,9 @@
       "notes": null,
       "tags": {
         "name": "Lady Bird Grove",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "Dedicated in Honor of Mrs. Johnson by Richard Nixon...",
+        "memorial": "stele"
       },
       "sources": [
         {
@@ -7305,7 +7330,8 @@
       "tags": {
         "name": "Pidgeon Point",
         "ele": "63",
-        "natural": "peak"
+        "natural": "peak",
+        "note": "USGS GNIS name is correctly spelled with a \"d\""
       },
       "sources": [
         {
@@ -8475,7 +8501,9 @@
         "description": "A stone cross erected to King Carlos of Spain.",
         "wikipedia": "en:Trinidad, California",
         "wikidata": "Q2051249",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "Carolus III. Dei G. Hyspaniarum Rex / June 9. 1775 / Replaced by Club Women of Humboldt Co. Sept 9. 1913",
+        "memorial": "cross"
       },
       "sources": [
         {
@@ -8502,7 +8530,8 @@
       "notes": null,
       "tags": {
         "description": "A memorial to those lost at sea.",
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "stone"
       },
       "sources": [
         {
@@ -8529,7 +8558,8 @@
       "notes": null,
       "tags": {
         "description": "A memorial to those buried at sea.",
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -8667,7 +8697,9 @@
       "notes": null,
       "tags": {
         "name": "Laura Perrott Mahan, James P. Mahan",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "Pioneers in the Save-the Redwoods League...",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -8720,7 +8752,9 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "Erected by the California Federation of Women's Clubs 1932",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -8776,7 +8810,8 @@
       "notes": null,
       "tags": {
         "name": "Rockefeller Redwood Forest",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "The preservation of this forest was made possible by a gift from John D Rockefeller Jr."
       },
       "sources": [
         {
@@ -9454,7 +9489,9 @@
       "notes": null,
       "tags": {
         "name": "Donor Rock",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "The Trinidad Coastal Land Trust Commemorates",
+        "memorial": "stone"
       },
       "sources": [
         {
@@ -9562,7 +9599,9 @@
       "notes": null,
       "tags": {
         "name": "Rotary Memorial Grove",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "Dedicated 1952 By Rotary Clubs of California",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -10282,7 +10321,8 @@
       "notes": null,
       "tags": {
         "name": "Coast Guard Helicopter 6541",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "In memory of our shipmates and friends. On July 12, 1994, Coast Guard Helicopter 6541 responded to a mayday from a sailing vessel in distress south of Shelter Cove, CA."
       },
       "sources": [
         {
@@ -11057,7 +11097,8 @@
       "tags": {
         "name": "Mario Machi",
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "inscription": "1914–1998. A founder of Shelter Cove with brothers Tony and Babe Machi."
       },
       "sources": [
         {
@@ -11084,7 +11125,9 @@
       "notes": null,
       "tags": {
         "name": "United States Veterans",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "With gratitude to all United States Veterans\nShelter Cove Pioneers\n1991",
+        "memorial": "veterans"
       },
       "sources": [
         {
@@ -11111,7 +11154,9 @@
       "notes": null,
       "tags": {
         "name": "Cape Mendocino Lighthouse",
-        "historic": "monument"
+        "historic": "monument",
+        "inscription": "Lit Dec. 1, 1868, the light from its first order Fresnel lens swept 30 miles to sea. Decommissioned in 1951...",
+        "memorial": "stone"
       },
       "sources": [
         {
@@ -11167,7 +11212,9 @@
       "tags": {
         "name": "Samoa Cookhouse Circa 1893",
         "direction": "290",
-        "historic": "memorial"
+        "historic": "memorial",
+        "inscription": "This is the last lumber camp style cookhouse in operation in North America. This cookhouse was originally opened as part of Samoa, one of the last company owned towns in the United States...",
+        "memorial": "plaque"
       },
       "sources": [
         {
@@ -11577,7 +11624,8 @@
         "access": "yes",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "note": "Unclear what protect_class should be used"
       },
       "sources": [
         {
@@ -11882,7 +11930,8 @@
         "website": "https://www.fws.gov/refuge/humboldt-bay",
         "operator": "United States Fish and Wildlife Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "note": "Part of the Ma-le'l Dunes Cooperative Management Area. The other part, Ma-le'l Dunes South is managed by the U.S. Bureau of Land Management"
       },
       "sources": [
         {
@@ -12878,7 +12927,8 @@
         "name": "Ma-le'l Dunes South",
         "operator": "Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "note": "Part of the Ma-le'l Dunes Cooperative Management Area. The other part, Ma-le'l Dunes North, is managed by the U.S. Fish and Wildlife Servicet"
       },
       "sources": [
         {
@@ -13466,7 +13516,8 @@
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "memorial": "war_memorial;veterans"
       },
       "sources": [
         {
@@ -14129,7 +14180,8 @@
         "access": "yes",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "note": "Unclear what protect_class should be used. Also: apparently, CADFW have not changed the name of the WA in their records (See NAME= for old name)"
       },
       "sources": [
         {
@@ -14680,7 +14732,8 @@
       "notes": null,
       "tags": {
         "name": "Samoa Penninsula Public Access",
-        "leisure": "park"
+        "leisure": "park",
+        "note": "swapped out tag for the CDFW layer that didn't match up with the APN"
       },
       "sources": [
         {
