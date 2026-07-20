@@ -1,0 +1,12 @@
+{
+  "source": {
+    "source": "inaturalist",
+    "name": "iNaturalist",
+    "license": "per-record CC licensing — fetched to CC0/CC-BY/CC-BY-SA only",
+    "attribution": "Observation data from iNaturalist (per-record open licenses)",
+    "status": "working"
+  },
+  "builtAt": "2026-07-20",
+  "observations": 6000,
+  "spotsTagged": 297
+}
