@@ -71,6 +71,12 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 1.2.0 + 1.2.1 to main (Noah's "Promote to main" after he
+  caught the blue-on-blue button on his phone and it was fixed). Production ==
+  origin/staging == a7e0a88 (clean fast-forward from 1.1.1). Ships the 7-item
+  feedback batch (collapsible legend, prominent photo/wildlife buttons, focusSpot
+  first-tap + stay-centred, 🏆 Top-spots icon, "My pins", add-pin help, Top-spots
+  filter narrows the map) AND the 1.2.1 contrast fix. staging == main after this.
 - 2026-07-20 1.2.1 "Photo button is readable" BUILT on staging (Noah caught it
   on his phone from a screenshot: the new Commons/iNaturalist link BUTTONS
   rendered BLUE TEXT ON BLUE — #0078A8 on #1663a8, ~1.3:1). ROOT CAUSE + DURABLE
