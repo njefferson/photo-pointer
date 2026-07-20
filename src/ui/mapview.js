@@ -411,6 +411,63 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     return btn;
   }
 
+  // Friendly names for the raw source ids, so links read plainly.
+  const SOURCE_LABELS = { osm: 'OpenStreetMap', ebird: 'eBird', wikidata: 'Wikidata' };
+
+  // What (if anything) makes this a genuinely notable place — the corroborating
+  // signals that separate a real landmark from a community-tagged "monument"
+  // that's actually a baseball diamond.
+  function notableReasons(spot) {
+    const t = spot.tags ?? {};
+    const reasons = [];
+    if (t.california_landmark) reasons.push('California Historical Landmark');
+    if (t.hmdb) reasons.push('in the Historical Marker Database');
+    if (t.heritage) reasons.push('heritage-listed');
+    if (t.wikipedia || t.wikidata) reasons.push('has a Wikipedia article');
+    else if ((spot.sources ?? []).some((s) => s.source === 'wikidata')) reasons.push('verified in Wikidata');
+    if (!reasons.length && t.inscription) reasons.push('has a plaque inscription');
+    return reasons;
+  }
+
+  // A clear "is there anything worthwhile here?" line: a badge when notable, an
+  // honest caveat for the junk-prone marker category when nothing corroborates it.
+  function notabilitySection(spot) {
+    const reasons = notableReasons(spot);
+    if (reasons.length) {
+      return el('p', { class: 'popup-notable' }, `★ Notable — ${reasons.join(' · ')}`);
+    }
+    if (spot.category === 'marker') {
+      return el('p', { class: 'popup-minor' }, 'Community-tagged in OpenStreetMap — may be a minor or unverified marker.');
+    }
+    return null;
+  }
+
+  function commonsNearUrl(spot) {
+    return `https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(`nearcoord:1km,${spot.lat},${spot.lng}`)}&title=Special:MediaSearch&type=image`;
+  }
+  function inatNearUrl(spot) {
+    return `https://www.inaturalist.org/observations?lat=${spot.lat}&lng=${spot.lng}&radius=1&subview=grid&verifiable=true`;
+  }
+
+  // Clear, labeled links to each source ("View on OpenStreetMap →"), with the
+  // license attribution kept as quiet secondary text beneath.
+  function sourceLinks(spot) {
+    const srcs = spot.sources ?? [];
+    const linked = srcs.filter((s) => s.source_url);
+    const row = [];
+    linked.forEach((s, i) => {
+      if (i) row.push(' · ');
+      const label = SOURCE_LABELS[s.source] ?? s.source;
+      row.push(el('a', { class: 'popup-srclink', href: s.source_url, target: '_blank', rel: 'noopener' }, `View on ${label} →`));
+    });
+    if (!row.length) row.push(el('span', {}, srcs.map((s) => s.source).join(' · ')));
+    const lic = srcs.map((s) => `${SOURCE_LABELS[s.source] ?? s.source}: ${s.source_license}`).join(' · ');
+    return el('div', { class: 'popup-src' }, [
+      el('p', { class: 'popup-srcrow' }, row),
+      el('p', { class: 'popup-lic' }, lic),
+    ]);
+  }
+
   function popupFor(spot) {
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
@@ -422,6 +479,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         `${meta.label}`,
         spot.subject_type?.length ? ` · ${spot.subject_type.join(', ')}` : null,
       ]),
+      notabilitySection(spot),
       markerSection(spot),
       spot.best_light?.length
         ? el('p', {}, `Best light: ${spot.best_light.join(', ')}`)
@@ -436,13 +494,16 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
             ' — check access hours')
         : null,
       spot.tags?.inaturalist?.observations
-        ? el('p', { class: 'popup-wild' },
-            `Wildlife photographed nearby: ${spot.tags.inaturalist.species} ` +
-            `non-bird species (${spot.tags.inaturalist.observations} iNaturalist records)`)
+        ? el('p', { class: 'popup-wild' }, [
+            `Wildlife photographed nearby: ${spot.tags.inaturalist.species} non-bird species — `,
+            el('a', { href: inatNearUrl(spot), target: '_blank', rel: 'noopener' }, 'see them on iNaturalist →'),
+          ])
         : null,
       spot.tags?.commons?.photos
-        ? el('p', { class: 'popup-photos' },
-            `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here (Wikimedia Commons)`)
+        ? el('p', { class: 'popup-photos' }, [
+            `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here — `,
+            el('a', { href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'see them on Commons →'),
+          ])
         : null,
       wikiLine(spot),
       spot.notes ? el('p', {}, spot.notes) : null,
@@ -459,14 +520,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
           href: `https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`,
         }, 'Google Maps'),
       ]),
-      el('p', { class: 'popup-src' },
-        (spot.sources ?? []).map((s) =>
-          s.source_url
-            ? el('a', { href: s.source_url, target: '_blank', rel: 'noopener' },
-                `${s.source} (${s.source_license})`)
-            : el('span', {}, `${s.source}`)
-        ).flatMap((n, i) => (i ? [' · ', n] : [n]))
-      ),
+      sourceLinks(spot),
       spot.category === 'user_pin'
         ? el('button', {
             class: 'popup-del',

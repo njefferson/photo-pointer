@@ -305,6 +305,21 @@ body {
 .popup-wiki { margin: 6px 0 0; }
 .popup-wiki a { font-size: 13px; color: #a34a00; text-decoration: underline; }
 
+/* "Is there anything worthwhile here?" — a verified-notable badge vs an honest
+   caveat for community-tagged markers. Popup-local (fixed light) colors. */
+.popup-notable {
+  display: inline-block; margin: 6px 0 2px; padding: 3px 9px;
+  font-size: 13px; font-weight: 700; color: #2f5320;
+  background: #e7f0dd; border: 1px solid #b9cfa6; border-radius: 6px;
+}
+.popup-minor { margin: 6px 0 2px; font-size: 12px; font-style: italic; color: #6d5f49; }
+
+/* Make source + data links obvious (a kid should see they're tappable). */
+.popup-srclink { font-weight: 700; }
+.popup-photos a, .popup-wild a, .popup-srclink { color: #1663a8; text-decoration: underline; }
+.popup-srcrow { margin: 2px 0 0; }
+.popup-lic { margin: 3px 0 0; font-size: 11px; color: #8a7d64; }
+
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
    consistent with .light-table; meaning is in the layer labels, not color. */
 .synth-box { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 5px; }
@@ -324,9 +339,13 @@ body {
   border: 1px solid var(--line); border-radius: 14px; padding: 4px 10px;
   min-height: 32px; cursor: pointer;
 }
-/* On = required. Non-hue: a ✓ prefix + bold + firm border (survives grayscale). */
-.top-req[aria-pressed="true"] { font-weight: 700; border-color: var(--ink); border-width: 2px; }
-.top-req[aria-pressed="true"]::before { content: "✓ "; }
+/* Tri-state. Non-hue channels carry the meaning (survive grayscale):
+   require = ✓ mark + bold + firm border; exclude = ✕ mark + strike-through + dim.
+   Colour only reinforces. The ✓/✕ come from the button's .req-mark span. */
+.top-req.require { font-weight: 700; border-color: var(--ink); border-width: 2px; color: var(--accent); }
+.top-req.exclude { text-decoration: line-through; opacity: 0.72; border-color: var(--ink); border-style: dashed; }
+.req-mark { font-weight: 700; }
+.top-hint { color: var(--dim); font-size: 12px; margin: 0 0 8px; }
 .top-list { display: flex; flex-direction: column; gap: 4px; max-height: 60vh; overflow-y: auto; }
 .top-row {
   display: flex; align-items: center; gap: 8px; width: 100%; text-align: left;

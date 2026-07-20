@@ -34,24 +34,11 @@ function scoreBadge(score) {
 // the map on a chosen spot. `filters` lets the viewer require cross-layer
 // combinations (e.g. dark + view).
 export function topSpotsPanel(ranked, onGo) {
-  const dlg = el('dialog', { class: 'data-dialog top-dialog' });
+  const dlg = el('dialog', { class: 'data-dialog top-dialog', tabindex: '-1' });
 
-  const list = el('div', { class: 'top-list' });
-  function paint(rows) {
-    list.replaceChildren(
-      ...(rows.length
-        ? rows.slice(0, 30).map((r, i) => topRow(r, i, () => { dlg.close(); onGo(r.spot); }))
-        : [el('p', { class: 'top-empty' }, 'No spots match that combination in this region.')])
-    );
-  }
-
-  // Cross-layer require chips: tap to demand a layer contribute.
-  const requireKeys = new Set();
-  // NOTE: 'layered' is deliberately NOT a require chip. It's the meta-signal the
-  // whole panel already ranks by (how many layers line up), not a concrete layer
-  // you can demand like the rest — offering it as a chip that looks identical but
-  // behaves differently is confusing. It still scores spots and shows "A layered
-  // place" in each row; it just isn't a filter.
+  // Each chip is tri-state: neutral (any) → require (✓) → exclude (✕) → neutral.
+  // 'layered' is deliberately NOT a chip — it's the meta-quality the panel ranks
+  // by, not a concrete layer you can demand. Spots still show "A layered place".
   const LAYER_CHIPS = [
     ['wildlife', 'Wildlife'],
     ['iNatWildlife', 'Wild subjects'],
@@ -62,35 +49,65 @@ export function topSpotsPanel(ranked, onGo) {
     ['darkSky', 'Dark sky'],
     ['publicLand', 'Public land'],
   ];
-  const chips = LAYER_CHIPS.map(([key, label]) =>
-    el('button', {
-      class: 'top-req',
-      'aria-pressed': 'false',
-      onClick: (e) => {
-        const on = requireKeys.has(key);
-        if (on) requireKeys.delete(key); else requireKeys.add(key);
-        e.target.setAttribute('aria-pressed', String(!on));
-        paint(applyRequire(ranked, requireKeys));
-      },
-    }, label)
-  );
+  const chipState = new Map(); // key -> 'require' | 'exclude' (absent = any)
+
+  const list = el('div', { class: 'top-list' });
+  const reqs = el('div', { class: 'top-reqs', role: 'group', 'aria-label': 'Filter Top spots by layer' });
+
+  function apply() {
+    const req = [], exc = [];
+    for (const [k, v] of chipState) (v === 'require' ? req : exc).push(k);
+    let rows = ranked;
+    if (req.length || exc.length) {
+      rows = ranked.filter((r) => {
+        const has = (k) => r.parts.some((p) => p.key === k);
+        return req.every(has) && !exc.some(has);
+      });
+    }
+    list.replaceChildren(
+      ...(rows.length
+        ? rows.slice(0, 30).map((r, i) => topRow(r, i, () => { dlg.close(); onGo(r.spot); }))
+        : [el('p', { class: 'top-empty' }, 'No spots match those filters in this region.')])
+    );
+  }
+
+  function renderChips() {
+    reqs.replaceChildren(...LAYER_CHIPS.map(([key, label]) => {
+      const state = chipState.get(key);
+      const mark = state === 'require' ? '✓ ' : state === 'exclude' ? '✕ ' : '';
+      const word = state === 'require' ? 'must have' : state === 'exclude' ? 'excluded' : 'any';
+      return el('button', {
+        class: `top-req${state ? ' ' + state : ''}`,
+        'aria-pressed': state === 'require' ? 'true' : 'false',
+        'aria-label': `${label}: ${word}. Tap to change.`,
+        onClick: () => {
+          const s = chipState.get(key);
+          if (!s) chipState.set(key, 'require');
+          else if (s === 'require') chipState.set(key, 'exclude');
+          else chipState.delete(key);
+          renderChips();
+          apply();
+        },
+      }, [el('span', { class: 'req-mark', 'aria-hidden': 'true' }, mark), label]);
+    }));
+  }
 
   dlg.replaceChildren(
     el('h2', {}, 'Top spots'),
-    el('p', { class: 'top-sub' }, 'Ranked by how many layers line up — the thing one map can do that separate apps can’t. Require a layer:'),
-    el('div', { class: 'top-reqs', role: 'group', 'aria-label': 'Require these layers' }, chips),
+    el('p', { class: 'top-sub' }, 'Ranked by how many layers line up — the thing one map can do that separate apps can’t.'),
+    el('p', { class: 'top-hint' }, 'Optional filters, all off to start. Tap a layer once to require it (✓ must have), again to exclude it (✕), again to clear.'),
+    reqs,
     list,
     el('button', { class: 'dialog-close', onClick: () => dlg.close() }, 'Close')
   );
-  paint(ranked);
+  renderChips();
+  apply();
   document.body.append(dlg);
   dlg.addEventListener('close', () => dlg.remove());
   dlg.showModal();
-}
-
-function applyRequire(ranked, requireKeys) {
-  if (!requireKeys.size) return ranked;
-  return ranked.filter((r) => [...requireKeys].every((k) => r.parts.some((p) => p.key === k)));
+  // Focus the dialog itself so no chip is left focus-ringed (which read as
+  // "already selected"). The user taps a chip to activate it.
+  dlg.focus();
 }
 
 function topRow(r, i, onClick) {

@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Written for the end user: what changed for them, not how.
 export const CHANGELOG = [
+  { v: '0.15.0', t: 'Know what’s worthwhile, and follow the links', n: 'Places now show whether they’re genuinely notable (a landmark, Wikipedia, a real historical marker) or just community-tagged. Clear “View on OpenStreetMap →” links, and the photo/wildlife counts link out to see them. Top-spots filters are now three-state — tap to require a layer (✓), again to exclude it (✕) — and no longer look pre-selected.' },
   { v: '0.14.0', t: 'Favorites, a list view & a dark map', n: 'Save any place as a favorite (★). New List view of every place in the region, sortable by distance from you, name or type, with a favorites-only filter. The map now goes dark with the theme, and the map-type button shows a proper icon.' },
   { v: '0.13.8', t: 'What’s new on update', n: 'After the app updates, a short “What’s new” pop-up shows what changed since you last opened it.' },
   { v: '0.13.7', t: 'Clearer Top-spots filters', n: 'Dropped the confusing “Layered” filter — it’s already how Top spots are ranked, not a layer you require. The filters are now just the real layers.' },
