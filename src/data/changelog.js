@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
+  { v: '1.4.0', t: 'Two new areas: Hahira, GA & Panama City Beach', n: 'Two new regions join the map — the Hahira / Valdosta area of south Georgia and the Panama City Beach coast of the Florida panhandle. Switch to either from the region buttons up top to browse its parks, viewpoints, trailheads, campsites, oddities and historical markers. More layers for these two areas are on the way.' },
   { v: '1.3.1', t: 'A brand-new icon', n: 'photo-pointer has a fresh home-screen icon — the camera-lens map pin standing in a bright golden-hour valley, mountains and river behind it.' },
   { v: '1.3.0', t: 'Updates arrive on their own', n: 'photo-pointer now refreshes itself to the newest version the next time you open it — no more closing the app twice to see changes. There’s also a “Check for updates” button under ⓘ to pull the latest right away.' },
   { v: '1.2.1', t: 'Photo button is readable', n: 'Fixed the “View the photos on Commons” and “See the wildlife on iNaturalist” buttons, whose label was rendering the same blue as the button — now clear white text on blue, legible at a glance.' },
