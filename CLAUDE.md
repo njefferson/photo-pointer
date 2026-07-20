@@ -71,6 +71,28 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.2.1 "Photo button is readable" BUILT on staging (Noah caught it
+  on his phone from a screenshot: the new Commons/iNaturalist link BUTTONS
+  rendered BLUE TEXT ON BLUE — #0078A8 on #1663a8, ~1.3:1). ROOT CAUSE + DURABLE
+  LESSON: leaflet.css has `.leaflet-container a { color:#0078A8 }` (specificity
+  0,1,1) which BEATS a bare `.popup-linkbtn` class (0,1,0), so my white was
+  silently overridden. FIX: every popup link colour MUST out-specify it — qualify
+  with `.leaflet-container a.<class>` (e.g. `.leaflet-container a.popup-linkbtn`,
+  `.leaflet-container a.popup-srclink`). WHY THE AXE AUDIT MISSED IT (the second
+  bug): Leaflet popups use CSS transforms, so axe's color-contrast rule can't
+  resolve the background and drops the check into `incomplete` — NOT
+  `violations` — and the audit only read `violations`. GUARD ADDED: the a11y
+  harness now runs a `popupContrast()` walker that computes WCAG ratio directly
+  for every popup link/button/badge vs its first opaque ancestor bg (proven to
+  FIRE on the bug: flagged both buttons at 1.26:1, then clean after the fix).
+  NOTE the token-based scripts/check-contrast.mjs gate CANNOT catch popup-local
+  fixed hex (#1663a8/#0078A8/#a34a00 etc. aren't :root tokens) — popup contrast
+  is guarded ONLY by that headless walker; run the a11y audit on any popup CSS
+  change. sw CACHE pointer-1.2.1 (bumped so the fixed styles.css re-precaches on
+  device, not lingering behind the 1.2.0 cache); changelog[0] 1.2.1. VERIFIED:
+  linkbtn computed color now rgb(255,255,255) on #1663a8 (~6.2:1); axe zero
+  violations + popupContrast clean across 16 surface×theme combos; smoke48 +
+  91 tests + token contrast still green.
 - 2026-07-20 1.2.0 "A map legend, clearer links & pin help" BUILT on staging
   (awaiting on-device pass — NEEDS NOAH'S HANDS on real iPad/iPhone: legend
   collapse/expand feel, the 🏆 Top-spots glyph read, and the map-filter banner

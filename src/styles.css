@@ -409,8 +409,12 @@ body {
 }
 .popup-minor { margin: 6px 0 2px; font-size: 12px; font-style: italic; color: #6d5f49; }
 
-/* Make source + data links obvious (a kid should see they're tappable). */
-.popup-srclink { font-weight: 700; color: #1663a8; text-decoration: underline; }
+/* Make source + data links obvious (a kid should see they're tappable).
+   NOTE: leaflet.css sets `.leaflet-container a { color:#0078A8 }` (specificity
+   0,1,1), which beats a bare `.popup-*` class (0,1,0). Every popup link colour
+   MUST out-specify it — qualify with `.leaflet-container` — or it silently
+   renders Leaflet blue (that's how the Commons button shipped blue-on-blue). */
+.leaflet-container a.popup-srclink { font-weight: 700; color: #1663a8; text-decoration: underline; }
 .popup-srcrow { margin: 2px 0 0; }
 
 /* Photo / wildlife link-outs used to hide as a word inside a sentence. Give the
@@ -418,12 +422,12 @@ body {
    on #1663a8 ≈ 5.2:1. Popup-local (Leaflet popups are always light). */
 .popup-linkrow { margin: 6px 0; }
 .popup-linktext { margin: 0 0 4px; font-size: 13px; }
-.popup-linkbtn {
+.leaflet-container a.popup-linkbtn {
   display: inline-block; font-size: 13px; font-weight: 700; text-decoration: none;
   color: #ffffff; background: #1663a8; padding: 6px 11px; border-radius: 8px;
   min-height: 32px; line-height: 20px;
 }
-.popup-linkbtn:hover { background: #12517f; }
+.leaflet-container a.popup-linkbtn:hover { background: #12517f; color: #ffffff; }
 .popup-lic { margin: 3px 0 0; font-size: 11px; color: #8a7d64; }
 
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
