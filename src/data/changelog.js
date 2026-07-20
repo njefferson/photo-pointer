@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
+  { v: '1.1.1', t: 'Neutral cluster count', n: 'Where the zoomed-out map groups pins, it now shows a plain neutral circle with the number of places underneath — no category colour, just the count — so a cluster is unmistakable and doesn’t look like one type of place.' },
   { v: '1.1.0', t: 'Photo pins & “more here” markers', n: 'Places with freely-licensed photos nearby now wear a gold ring, so you can spot them at a glance. And where the zoomed-out map hides overlapping pins, the one shown carries a “+N” badge — so you know there’s more to find by zooming in.' },
   { v: '1.0.3', t: 'Tidier toolbar, always-there close button', n: 'Every pop-up now has a close ✕ pinned to the top corner, so a tall card can never trap you. The top toolbar’s buttons are tidier on a phone, and there’s a small version number in the corner for support.' },
   { v: '1.0.2', t: 'Accessibility pass', n: 'A full accessibility review (axe-core, light and dark): fixed the heading order in place cards and made the list view a proper page landmark, so screen readers and keyboard navigation work cleanly throughout. Zero automated violations.' },

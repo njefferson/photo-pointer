@@ -230,15 +230,25 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       if (keep && key) taken.add(key);
       if (keep && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
       else if (!keep && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
-      if (keep) setClusterBadge(rec, key ? cellCount.get(key) - 1 : 0);
+      if (keep) setClusterState(rec, key ? cellCount.get(key) : 1);
     }
   }
-  // Stamp/clear the "+N others in this spot" badge on a mounted pin.
-  function setClusterBadge(rec, extra) {
+  // When a pin stands in for several under it, turn it into a COMPLETELY NEUTRAL
+  // circle showing the count; otherwise restore the category pin. The number
+  // carries the meaning (not colour), and the marker announces the count.
+  function setClusterState(rec, total) {
     const pin = rec.marker._icon?.querySelector?.('.pin');
     if (!pin) return;
-    if (extra > 0) pin.setAttribute('data-more', extra > 9 ? '9+' : String(extra));
-    else pin.removeAttribute('data-more');
+    if (total > 1) {
+      pin.classList.add('is-cluster');
+      const txt = total > 99 ? '99+' : String(total);
+      if (pin.textContent !== txt) pin.textContent = txt;
+      pin.setAttribute('aria-label', `${total} places here — zoom in to separate`);
+    } else if (pin.classList.contains('is-cluster')) {
+      pin.classList.remove('is-cluster');
+      pin.textContent = rec.letter;
+      pin.setAttribute('aria-label', rec.label);
+    }
   }
   function scoreOf(rec) { return synthesisFor(rec.id)?.score ?? 0; }
   let cullPending = false;
@@ -590,7 +600,8 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
           maxHeight: Math.max(240, Math.round((typeof window !== 'undefined' ? window.innerHeight : 700) * 0.6)),
           autoPanPadding: [12, 76],
         });
-      markerById.set(spot.id, { marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false });
+      const cm = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
+      markerById.set(spot.id, { marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false, letter: cm.letter, label: cm.label });
     }
     cull();
   }

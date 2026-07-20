@@ -285,15 +285,13 @@ body {
    "photos available" so it's not sight-only. */
 .pin.has-photos { box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #e8a300, 0 1px 5px rgba(0, 0, 0, 0.55); }
 
-/* "+N others clustered here" badge on a decluttered pin, so a sparse zoomed-out
-   map clearly signals there's more to zoom into. Text carries the meaning. */
-.pin[data-more]::after {
-  content: '+' attr(data-more);
-  position: absolute; top: -7px; right: -11px;
-  min-width: 15px; height: 15px; padding: 0 3px;
-  font-size: 9px; font-weight: 700; line-height: 15px; text-align: center;
-  color: #ffffff; background: #2e2618; border: 1.5px solid #ffffff;
-  border-radius: 9px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+/* Clustered pins collapse to a COMPLETELY NEUTRAL circle showing how many places
+   are under it — no category colour, no photo ring; the number is the meaning. */
+.pin.is-cluster {
+  background: #55504a;
+  color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  font-size: 12px;
 }
 
 .pin-inline { width: 18px; height: 18px; font-size: 10px; border-width: 1px; box-shadow: none; }
