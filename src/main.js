@@ -64,6 +64,10 @@ function renderHeader() {
       ? el('div', { class: 'regions', role: 'group', 'aria-label': 'Region' }, regionPills)
       : null,
     el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
+    visible.size === 0
+      ? el('p', { class: 'filter-tip', role: 'status' },
+          'Turn on at least one pin type above to see places on the map.')
+      : null,
     el('div', { class: 'bar-actions' }, [
       el('button', { class: 'data-btn top-btn', onClick: openTopSpots }, '★ Top spots'),
       el('button', { class: 'data-btn', onClick: openDataDialog }, 'Backup'),

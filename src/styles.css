@@ -123,6 +123,21 @@ body {
   opacity: 1;
 }
 
+/* Shown only when every category is off (nothing on the map): tells the user
+   how to get results back. The words carry the meaning; the accent left-edge is
+   a position cue, never the sole signal. --ink on --card is the gated text pair. */
+.filter-tip {
+  width: 100%;
+  margin: 2px 0 0;
+  padding: 6px 10px;
+  font-size: 13px;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+}
+
 /* "Center on my location" map control (a bare Leaflet control button). */
 .map-center-btn {
   width: 34px;
