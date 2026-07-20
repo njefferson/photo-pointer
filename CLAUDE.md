@@ -65,6 +65,23 @@ doing anything.
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 0.13.0→0.13.3 to main (Noah's "Promote now" — he chose to
+  ship before Yellowstone fully finished). Production == 7a654f3 (SW cache
+  pointer-0.13.3, Deploy on main green). Clean 24-commit fast-forward, main was
+  0.12.0. WHAT'S LIVE: the whole multi-region app (3 region pills, viewport
+  culling, region-aware GPS landing) + these 0.13.x iterations — 0.13.1 marker
+  inscription + clear reference link (Sacramento 22 + Humboldt 17 markers) and
+  the all-off filter tip; 0.13.2 Wikipedia link-out from OSM wikipedia/wikidata
+  tags (fetch-free/link-only — Wikipedia idea option (a); option (b) geosearch
+  source NOT built); 0.13.3 region-aware GPS (a fix in Humboldt/Yellowstone
+  switches to that region + centers, else Cameron Park). Data live: Sacramento
+  (5 layers + 22 insc, 2409 spots), Humboldt (5 layers + 17 insc, 1130 spots),
+  Yellowstone (4/5 layers — publicLand485/horizon2789/inat297/bortle2789, NO
+  commons yet, 0 marker inscriptions, 2789 spots). PENDING → NEEDS A 2ND
+  PROMOTION: Yellowstone commons (run 29718802870, ~700-tile harvest, 55-min
+  ceiling — commons.yml timeout bumped 25→55) then its OSM re-run (inscriptions),
+  both landing on staging; when done, staging re-diverges and Noah promotes again
+  to complete Yellowstone in production. Everything else: staging == main.
 - 2026-07-20 0.13.0 "Three regions + map trimming" BUILT on staging (awaiting
   on-device pass): Noah's "all the map trimming and Humboldt + Yellowstone
   regions, like Frame". FULL MULTI-REGION REFACTOR. config/regions.json = {
