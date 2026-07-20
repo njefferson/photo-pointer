@@ -71,6 +71,34 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.4.1 "Full data layers for Hahira & Panama City Beach" BUILT on
+  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: how the two areas feel
+  with the full layer set + the dark-sky overlay on each). ALL 5 ENRICHMENT
+  LAYERS run for both new regions (Noah's "Do the 5"), each a per-region
+  workflow_dispatch on staging (MCP actions_run_trigger), landed one enrichment
+  type per round with both regions in parallel (different data/regions/<id>.json
+  files → clean rebase; NEVER two enrichments on the SAME region at once — they'd
+  race the same file). COVERAGE: hahira (134 spots) bortle 134, horizon 134,
+  publicLand 0, inaturalist 7, commons 70; panama-city-beach (83) bortle 83,
+  horizon 83, publicLand 2, inaturalist 9, commons 11 (bortle+horizon tag every
+  spot from the raster/DEM; the point layers tag subsets — all honest). ONE MORE
+  PIPELINE ROBUSTNESS FIX (same shape as the markers one): cmdPublicLands now
+  records an EMPTY public-lands layer + skips when a brand-new region has 0
+  OSM-mapped protected areas, instead of exit(1). WHY: hahira's first public-lands
+  run FAILED — Overpass returned 0 protected areas for Lowndes County GA (rural,
+  none mapped) and the 0-guard aborted; after the fix, re-ran → empty layer
+  recorded. PCB had 2 and succeeded first try. light-pollution used the baked-in
+  Drive zip_id default (Falchi World Atlas 2015); horizon pulled SRTM tiles from
+  AWS elevation-tiles-prod; all keyless. NO eBird bird hotspots for these two
+  still (Frame doesn't cover GA/FL — the live-API + EBIRD_API_TOKEN follow-up is
+  the ONLY remaining layer). sw CACHE pointer-1.4.1; changelog[0] 1.4.1. VERIFIED
+  headless (playwright, TZ=LA, tiles blocked): both regions load + switch, Hahira
+  19 / PCB 55 pins after Show all, titles right, switch home clean, ZERO
+  pageerrors; both validate clean; 91 tests + contrast green. GIT HYGIENE NOTE:
+  after promoting 1.4.0 I was left on local `main`; caught it, reset local main
+  to origin/main and moved the enrichment work onto local `staging` before any
+  push — production main never received enrichment WIP. Landed on staging per the
+  standing rule (task harness's claude/* branch ignored, as with 1.4.0).
 - 2026-07-20 PROMOTED 1.4.0 to main (Noah's "Promote"). Production ==
   origin/staging == c29df83 (clean 6-commit fast-forward from 1.3.1). Ships the
   two new regions — Hahira / Lowndes County, GA and Panama City Beach / Bay
