@@ -71,6 +71,44 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.2.0 "A map legend, clearer links & pin help" BUILT on staging
+  (awaiting on-device pass — NEEDS NOAH'S HANDS on real iPad/iPhone: legend
+  collapse/expand feel, the 🏆 Top-spots glyph read, and the map-filter banner
+  ergonomics). A batch of 7 feedback items, all in src/. (1) COLLAPSIBLE LEGEND
+  (mapview.js LegendControl, bottom-left; CSS .map-legend/.legend-*): a "Legend ▸"
+  button expands a themed card listing every category letter+colour, plus a gold-
+  ring swatch (photos nearby) and a neutral "3" circle (cluster). Default
+  collapsed; aria-expanded/aria-controls; a footer tip on drop-a-pin. (2) PHOTO/
+  WILDLIFE LINK-OUTS are now solid buttons (.popup-linkbtn, white on #1663a8 ≈
+  5.2:1) under a plain caption instead of a word buried in a sentence (popupFor).
+  (3) focusSpot REWRITE: a `forcedId` keeps the chosen spot MOUNTED + UNCLUSTERED
+  in cull() (so it's there on the FIRST tap even inside a decluttered patch), and
+  a `focusCenter` recenters the map on the spot when its popup closes instead of
+  the popup-restore panning back to the old view. ALSO fixed a latent declutter
+  bug: markerById recs never carried `id`, so scoreOf(rec.id)→undefined→0 made
+  "highest score wins" a no-op (insertion-order instead); recs now store id.
+  (4) Top-spots header button glyph ★→🏆 (★ read as favourites). (5) CATEGORY_META
+  user_pin label 'My pin'→'My pins'. (6) ADD/MANAGE PINS help in openAbout
+  (install.js): long-press/right-click to drop, tap→Remove pin (undo), ⤓ to back
+  up. (7) TOP-SPOTS FILTER NOW NARROWS THE MAP: topSpotsPanel takes onFilter;
+  each require/exclude apply() calls mapView.setSpotFilter(idSet|null). cull()'s
+  candidate test honours spotFilter (OVERRIDING the category toggles) so requiring
+  a layer from an all-off map still populates it; a standing .map-filter-banner
+  ("Map filtered to N top spots" + "Show all") announces the mode and exits it.
+  setSpotFilter(null) is also called from main.applyVisible (driving categories
+  clears the filter) and on region switch (stale ids). .map-root got
+  position:relative so the banner anchors to the map, not the page. sw CACHE
+  pointer-1.2.0; changelog[0] 1.2.0. VERIFIED headless (smoke48): My pins label,
+  🏆 icon, legend collapse→expand (11 rows, gold+cluster swatches, aria), gold
+  ring + neutral cluster on the map, focus PhotoPeak0 → popup on first click +
+  Commons button in it + map stays on the spot after close (nearest marker 63px
+  from centre), require Photographed → 6 rows + banner "Map filtered to 6 top
+  spots" + only those 6 pins on the map + banner clears; zero pageerrors. 91
+  tests + contrast green; axe-core across 16 surface×theme combos (incl. the new
+  legend + filter banner) = ZERO violations. Prior smokes 44/45/46/47 still green.
+- 2026-07-20 PROMOTED 1.1.1 to main (rolled up 1.0.1→1.1.1: popup snaps back,
+  accessibility pass, tidy toolbar + always-there close + version stamp, photo-
+  ring + "+N" cluster badge, neutral cluster count). Production == origin/staging.
 - 2026-07-20 PROMOTED 1.0.0 to main (Noah's "Promote to main as version 1.0.0")
   — the FIRST MAJOR release, declared by Noah. Production == origin/staging
   (clean fast-forward from 0.14.0). Rolls up everything since 0.14.0: 0.15.0
