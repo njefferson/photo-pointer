@@ -71,6 +71,12 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 1.3.1 to main (Noah's "Promote"). Production ==
+  origin/staging == a8c6564 (clean fast-forward from 1.3.0). New app icon +
+  matching social-preview.png. Noah CONFIRMED he uploaded the new
+  social-preview.png to GitHub Settings → Social preview (the one manual step
+  the API can't do); repo description/website/topics already confirmed set.
+  staging == main.
 - 2026-07-20 1.3.1 "A brand-new icon" BUILT on staging (Noah: the old dark-brown
   #2e2618 pin-on-square icon was "poop brown"; he generated a new one with
   another AI — the camera-aperture map pin over a bright golden-hour valley
