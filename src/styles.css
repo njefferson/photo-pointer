@@ -401,7 +401,20 @@ body {
 .install-steps li { font-size: 14px; line-height: 1.5; margin: 0 0 6px; }
 .install-done { font-weight: 600; }
 .inline-ico { display: inline-flex; vertical-align: -3px; }
-.welcome-foot { margin-top: 12px; }
+.welcome-foot { margin-top: 12px; align-items: center; }
+.cl-stamp { font-size: 12px; color: var(--dim); margin-left: auto; }
+
+/* Changelog, collapsed behind a disclosure. */
+.changelog { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 10px; }
+.changelog > summary { font-size: 14px; font-weight: 650; cursor: pointer; min-height: 32px; }
+.changelog-list { list-style: none; margin: 8px 0 0; padding: 0; max-height: 240px; overflow-y: auto; }
+.changelog-list li { display: grid; grid-template-columns: auto 1fr; gap: 1px 8px; margin: 0 0 10px; }
+.cl-v { font-family: ui-monospace, monospace; font-size: 12px; color: var(--dim); }
+.cl-t { font-size: 13px; font-weight: 650; }
+.cl-n { grid-column: 2; font-size: 13px; color: var(--dim); line-height: 1.4; }
+
+/* Header ⓘ button — same size as the other bar buttons. */
+.info-btn { font-size: 15px; line-height: 1; }
 
 .toast {
   position: fixed;

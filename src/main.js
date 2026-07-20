@@ -7,7 +7,7 @@ import { loadRegions, pickRegion } from './model/region.js';
 import { userPins, activeFilters, setActiveFilters, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
 import { topSpotsPanel } from './ui/synthesis.js';
-import { maybeShowWelcome, openWelcome } from './ui/install.js';
+import { maybeShowWelcome, openAbout } from './ui/install.js';
 
 applyTheme(currentTheme());
 
@@ -72,6 +72,11 @@ function renderHeader() {
     el('div', { class: 'bar-actions' }, [
       el('button', { class: 'data-btn top-btn', onClick: openTopSpots }, '★ Top spots'),
       el('button', { class: 'data-btn', onClick: openDataDialog }, 'Backup'),
+      el('button', {
+        class: 'data-btn info-btn',
+        'aria-label': 'About photo-pointer, install help and changelog',
+        onClick: () => openAbout({ onShowAll: () => applyVisible(allCategories()) }),
+      }, 'ⓘ'),
       themeToggle(),
     ]),
   ]);
@@ -163,8 +168,8 @@ function openDataDialog() {
     ]),
     el('h2', {}, 'This app'),
     el('button', {
-      onClick: (e) => { e.target.closest('dialog').close(); openWelcome({ onShowAll: () => applyVisible(allCategories()) }); },
-    }, 'Welcome & install help'),
+      onClick: (e) => { e.target.closest('dialog').close(); openAbout({ onShowAll: () => applyVisible(allCategories()) }); },
+    }, 'About, install & changelog'),
     el('button', { class: 'dialog-close', onClick: (e) => e.target.closest('dialog').close() }, 'Close'),
   ]);
   document.body.append(dlg);

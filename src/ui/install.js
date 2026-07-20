@@ -9,6 +9,7 @@
 // the Backup dialog. Nothing about installing shows once already installed.
 // =============================================================================
 import { el } from './dom.js';
+import { CHANGELOG, VERSION } from '../data/changelog.js';
 
 const WELCOMED_KEY = 'pointer.welcomed';
 
@@ -110,34 +111,62 @@ function installBody() {
   return kids;
 }
 
-// The welcome pop-up: what the app is, a one-tap "Show all pins" so the empty
-// map isn't a dead end, and how to install it. `onShowAll` is optional.
-export function openWelcome({ onShowAll } = {}) {
+// WHY the app exists — the product thesis, in the user's terms.
+function whySection() {
+  return [
+    el('p', {}, 'Photo scouting is scattered across a dozen apps that don’t talk to each other — viewpoints in one, historic markers in another, campsites, trailheads, bird hotspots and dark-sky maps all separate.'),
+    el('p', {}, 'photo-pointer pulls them onto one region map, built only on free, license-clean open data, and puts a photographer’s questions first: what’s the subject, when’s the light, how hard is the access. It’s a personal tool — free, on your device, works offline, no account.'),
+  ];
+}
+
+// The changelog, collapsed behind a native disclosure so it's there when wanted
+// and out of the way otherwise.
+function changelogSection() {
+  return el('details', { class: 'changelog' }, [
+    el('summary', {}, 'What’s new'),
+    el('ul', { class: 'changelog-list' }, CHANGELOG.map((c) =>
+      el('li', {}, [
+        el('span', { class: 'cl-v' }, c.v),
+        el('span', { class: 'cl-t' }, c.t),
+        el('span', { class: 'cl-n' }, c.n),
+      ])
+    )),
+  ]);
+}
+
+// The ⓘ panel: why the app exists, how to install it, and the changelog — all
+// in one place. `welcome` frames it as a greeting on first open; `onShowAll`
+// (optional) adds a one-tap way out of the empty map.
+export function openAbout({ welcome = false, onShowAll } = {}) {
   const dlg = el('dialog', { class: 'welcome-dialog' }, [
     el('button', { class: 'welcome-x', 'aria-label': 'Close', onClick: () => dlg.close() }, '×'),
-    el('h2', {}, 'Welcome to photo-pointer'),
-    el('p', {}, 'One map of every photo-worthy place in your region — viewpoints, historic markers, oddities, parks, trails, wildlife spots and dark skies. Free, offline, and no account.'),
-    el('p', { class: 'dim' }, 'The map opens with every pin type switched off, so it starts empty. Turn on a category up top — or tap here — to see places near you.'),
+    el('h2', {}, welcome ? 'Welcome to photo-pointer' : 'About photo-pointer'),
+    ...whySection(),
+    onShowAll
+      ? el('p', { class: 'dim' }, 'The map opens with every pin type off, so it starts empty — turn on a category up top, or:')
+      : null,
     onShowAll
       ? el('button', { class: 'tip-primary', onClick: () => { onShowAll(); dlg.close(); } }, 'Show all pins')
       : null,
     el('h3', { class: 'welcome-sub' }, 'Add it to your home screen'),
     el('p', { class: 'dim' }, 'photo-pointer runs best installed: full-screen, and offline in the field with no signal.'),
     ...installBody(),
+    changelogSection(),
     el('div', { class: 'dialog-row welcome-foot' }, [
-      el('button', { class: 'dialog-close', onClick: () => dlg.close() }, 'Start exploring'),
+      el('button', { class: 'dialog-close', onClick: () => dlg.close() }, welcome ? 'Start exploring' : 'Close'),
+      el('span', { class: 'cl-stamp' }, `Version ${VERSION}`),
     ]),
   ]);
   dlg.addEventListener('close', () => dlg.remove());
   document.body.append(dlg);
   dlg.showModal();
-  rememberWelcomed();
+  if (welcome) rememberWelcomed();
 }
 
 // Show the welcome pop-up on a first visit only. Returns true if it opened, so
 // the caller can skip any other first-open prompt. Never shows once installed.
 export function maybeShowWelcome(opts) {
   if (welcomed() || isStandalone()) return false;
-  openWelcome(opts);
+  openAbout({ welcome: true, ...opts });
   return true;
 }
