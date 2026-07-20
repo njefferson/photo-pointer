@@ -65,6 +65,11 @@ doing anything.
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 PROMOTED 0.12.0 to main (Noah's "Promote to main" after his device
+  pass): production == 0.12.0 (photo-pointer.pages.dev, Deploy run #45 on main,
+  green). Clean 1-commit fast-forward. staging == main after this. "Opens where
+  you are" (geo start + center button + Cameron Park fallback + all-off default +
+  Show all/Hide all) is live.
 - 2026-07-20 0.12.0 "Opens where you are" BUILT on staging (awaiting on-device
   pass — needs Noah's HANDS: real iPad GPS + the Safari location-permission
   prompt, only Chromium-verified here). Noah's asks, all four done: (1) MASTER
