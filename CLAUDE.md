@@ -71,6 +71,28 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-20 1.4.3 "Tap a cluster to zoom in" BUILT on staging (awaiting
+  on-device pass — NEEDS NOAH'S HANDS: the tap-to-zoom feel on a real touch
+  screen). Noah's ask: the neutral numbered summary pins should, when tapped,
+  zoom in until the pins beneath them become visible. IMPLEMENTED in
+  ui/mapview.js: cull() now records each kept cluster's members (cellMembers by
+  40px grid cell) onto the rec (rec.clusterCount, rec.clusterMembers). New
+  zoomToCluster(rec) fitBounds()es the members' bounds (padding 50); the
+  resulting moveend re-runs cull() which drops them into their own cells and they
+  separate. If getBoundsZoom(bounds) <= current zoom (members too tight to split
+  even at max, e.g. near-coincident), it falls back to opening the top place's
+  card so the tap still does something. WIRING GOTCHA (cost a debug cycle):
+  Leaflet's bindPopup registers `click:this._openPopup` capturing the FUNCTION
+  REFERENCE at bind time, so reassigning marker._openPopup does NOT intercept —
+  the popup still opens. Correct fix: `marker.off({click:marker._openPopup,
+  keypress:marker._onKeyPress})` to detach Leaflet's exact handlers, then add our
+  own click+keypress(Enter) `activate()` that zooms for a cluster else
+  rememberViewForPopup()+openPopup(). Covers mouse AND keyboard. Legend + cluster
+  aria-label reworded to "tap to zoom in" / "activate to zoom in". sw CACHE
+  pointer-1.4.3; changelog[0] 1.4.3. VERIFIED headless (playwright): zoomed out to
+  z8 (48 clusters), tapped the "99+" cluster → zoomed to z11, NO popup, pins
+  declustered (48→245 finer pins); regression — a single non-cluster pin still
+  opens its card; zero pageerrors. 91 tests + contrast green.
 - 2026-07-20 PROMOTED 1.4.2 to main (Noah's "Promote"). Production ==
   origin/staging == 6b5f4f2 (clean 1-commit fast-forward from 1.4.1). Ships the
   basemap fix: Referrer-Policy no-referrer → strict-origin-when-cross-origin so

@@ -193,7 +193,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       ));
       panel.append(row(
         el('span', { class: 'pin is-cluster legend-swatch', 'aria-hidden': 'true' }, '3'),
-        'Number: several places here — zoom in to separate'
+        'Number: several places here — tap to zoom in'
       ));
       panel.append(el('p', { class: 'legend-hint' }, 'Tip: press and hold the map (right-click on a computer) to drop your own pin.'));
       wrap.append(btn, panel);
@@ -291,12 +291,14 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     // rest, so a decluttered map clearly signals there's more to zoom into.
     const keyOf = new Map();
     const cellCount = new Map();
+    const cellMembers = new Map(); // key → the recs in that cell, so a tap can frame them
     for (const rec of cands) {
       if (rec.category === 'user_pin' || rec.id === forcedId) continue;
       const pt = map.latLngToContainerPoint([rec.lat, rec.lng]);
       const key = `${Math.floor(pt.x / CELL_PX)}:${Math.floor(pt.y / CELL_PX)}`;
       keyOf.set(rec, key);
       cellCount.set(key, (cellCount.get(key) || 0) + 1);
+      (cellMembers.get(key) ?? cellMembers.set(key, []).get(key)).push(rec);
     }
     const taken = new Set();
     for (const rec of cands) {
@@ -305,7 +307,13 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       if (keep && key) taken.add(key);
       if (keep && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
       else if (!keep && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
-      if (keep) setClusterState(rec, key ? cellCount.get(key) : 1);
+      if (keep) {
+        const cnt = key ? cellCount.get(key) : 1;
+        setClusterState(rec, cnt);
+        // Remember what this pin stands for, so tapping it can zoom to reveal them.
+        rec.clusterCount = cnt;
+        rec.clusterMembers = cnt > 1 ? cellMembers.get(key) : null;
+      }
     }
   }
   // When a pin stands in for several under it, turn it into a COMPLETELY NEUTRAL
@@ -318,12 +326,28 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       pin.classList.add('is-cluster');
       const txt = total > 99 ? '99+' : String(total);
       if (pin.textContent !== txt) pin.textContent = txt;
-      pin.setAttribute('aria-label', `${total} places here — zoom in to separate`);
+      pin.setAttribute('aria-label', `${total} places here — activate to zoom in`);
     } else if (pin.classList.contains('is-cluster')) {
       pin.classList.remove('is-cluster');
       pin.textContent = rec.letter;
       pin.setAttribute('aria-label', rec.label);
     }
+  }
+  // Tap a summary (cluster) pin → zoom the map in until the places under it
+  // spread apart. Frames the cluster's members; the resulting moveend re-runs
+  // cull(), which drops them into their own grid cells so they separate. If
+  // they're too close to split even at the tightest fit, fall back to opening the
+  // top place's card so the tap still does something.
+  function zoomToCluster(rec) {
+    const members = rec.clusterMembers || [];
+    if (members.length < 2) { rememberViewForPopup(); rec.marker.openPopup(); return; }
+    const bounds = L.latLngBounds(members.map((m) => [m.lat, m.lng]));
+    if (map.getBoundsZoom(bounds, false, L.point(50, 50)) <= map.getZoom()) {
+      rememberViewForPopup();
+      rec.marker.openPopup();
+      return;
+    }
+    map.fitBounds(bounds, { padding: [50, 50], animate: true });
   }
   function scoreOf(rec) { return synthesisFor(rec.id)?.score ?? 0; }
   let cullPending = false;
@@ -681,7 +705,6 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     markerById.clear();
     for (const spot of spots) {
       const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category, !!spot.tags?.commons?.photos) })
-        .on('click', rememberViewForPopup)
         .bindPopup(() => popupFor(spot), {
           maxWidth: 320,
           // Cap the popup to the viewport so a long card scrolls INSIDE the popup
@@ -690,6 +713,20 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
           maxHeight: Math.max(240, Math.round((typeof window !== 'undefined' ? window.innerHeight : 700) * 0.6)),
           autoPanPadding: [12, 76],
         });
+      // Take over click / keyboard-Enter from Leaflet's default popup opener (it
+      // captured the handler refs at bindPopup time, so we detach those exact ones
+      // and add our own): when this pin is currently a summary (cluster) pin, zoom
+      // in to reveal the places under it instead of opening a card; otherwise save
+      // the view (so it restores when the popup closes) and open the card.
+      marker.off({ click: marker._openPopup, keypress: marker._onKeyPress });
+      const activate = () => {
+        const rec = markerById.get(spot.id);
+        if (rec && rec.clusterCount > 1) { zoomToCluster(rec); return; }
+        rememberViewForPopup();
+        marker.openPopup();
+      };
+      marker.on('click', activate);
+      marker.on('keypress', (e) => { if (e.originalEvent?.keyCode === 13) activate(); });
       const cm = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
       // id is needed for the score-based declutter (scoreOf reads it) and to
       // hold a deliberately-focused spot unclustered.
