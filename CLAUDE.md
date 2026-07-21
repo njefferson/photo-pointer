@@ -71,6 +71,19 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-21 PROMOTED 1.5.1 to main (Noah's "promote all"). Production ==
+  origin/staging == 482356b (clean 1-commit fast-forward from 1.5.0). "Find
+  Noah's other free tools" (an ITERATION) — the ⓘ panel (openAbout, src/ui/
+  install.js) now ends with a link to the personal hub noahjefferson.pages.dev's
+  sibling apps: a `<p class="dim">` with an `<a style="color:inherit;text-
+  decoration:underline">More free tools by Noah Jefferson ↗</a>` (inherits the
+  gated --dim colour so no new contrast pair; underline is the non-colour
+  affordance). Part of a cross-app initiative (the hub links OUT to each app;
+  this adds the RETURN path). sw CACHE pointer-1.5.1; changelog[0] 1.5.1.
+  VERIFIED headless: ⓘ/welcome dialog shows the link, 6.1:1 contrast, zero
+  pageerrors; check-contrast.mjs green. The SAME back-link shipped the same day
+  to Frame (3.1.1), Clear Horizons (2.16.7) and Jefferson-Photography-Studio.
+  NEEDS NOAH'S HANDS: real tap on the link on iOS Safari (taste, not regression).
 - 2026-07-21 PROMOTED 1.4.3 + 1.5.0 to main (Noah's "promote"). Production ==
   origin/staging == 2f4a410 (clean 2-commit fast-forward from 1.4.2). Ships the
   tap-a-cluster-to-zoom-in gesture (1.4.3) AND the eBird bird hotspots for
