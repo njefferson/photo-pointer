@@ -216,6 +216,12 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
     el('p', { class: 'dim' }, 'photo-pointer updates itself the next time you open it — no need to reinstall. To pull the newest version right now:'),
     updateButton(),
     changelogSection(),
+    el('p', { class: 'dim' }, [
+      el('a', {
+        href: 'https://noahjefferson.pages.dev', target: '_blank', rel: 'noopener',
+        style: 'color:inherit;text-decoration:underline',
+      }, 'More free tools by Noah Jefferson ↗'),
+    ]),
     el('div', { class: 'dialog-row welcome-foot' }, [
       el('button', { class: 'dialog-close', onClick: () => dlg.close() }, welcome ? 'Start exploring' : 'Close'),
       el('span', { class: 'cl-stamp' }, `Version ${VERSION}`),
