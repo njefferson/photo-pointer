@@ -110,9 +110,9 @@
       "id": "hahira",
       "name": "Hahira, GA",
       "bbox": {
-        "south": 30.5,
-        "west": -83.65,
-        "north": 31.1,
+        "south": 30.45,
+        "west": -83.72,
+        "north": 31.22,
         "east": -82.95
       },
       "counties": [
@@ -122,6 +122,27 @@
           "fips": "13185",
           "osm_area_name": "Lowndes County",
           "ebird_region": "US-GA-185"
+        },
+        {
+          "name": "Lanier County",
+          "state": "GA",
+          "fips": "13173",
+          "osm_area_name": "Lanier County",
+          "ebird_region": "US-GA-173"
+        },
+        {
+          "name": "Brooks County",
+          "state": "GA",
+          "fips": "13027",
+          "osm_area_name": "Brooks County",
+          "ebird_region": "US-GA-027"
+        },
+        {
+          "name": "Cook County",
+          "state": "GA",
+          "fips": "13075",
+          "osm_area_name": "Cook County",
+          "ebird_region": "US-GA-075"
         }
       ],
       "center": {
@@ -134,10 +155,10 @@
       "id": "panama-city-beach",
       "name": "Panama City Beach, FL",
       "bbox": {
-        "south": 29.9,
-        "west": -86.05,
-        "north": 30.65,
-        "east": -85.3
+        "south": 29.6,
+        "west": -86.45,
+        "north": 31.05,
+        "east": -85.0
       },
       "counties": [
         {
@@ -146,6 +167,20 @@
           "fips": "12005",
           "osm_area_name": "Bay County",
           "ebird_region": "US-FL-005"
+        },
+        {
+          "name": "Gulf County",
+          "state": "FL",
+          "fips": "12045",
+          "osm_area_name": "Gulf County",
+          "ebird_region": "US-FL-045"
+        },
+        {
+          "name": "Walton County",
+          "state": "FL",
+          "fips": "12131",
+          "osm_area_name": "Walton County",
+          "ebird_region": "US-FL-131"
         }
       ],
       "center": {

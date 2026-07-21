@@ -1,0 +1,5053 @@
+{
+  "source": {
+    "source": "ebird",
+    "name": "eBird hotspots (Cornell Lab of Ornithology)",
+    "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+    "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-21",
+  "records": [
+    {
+      "name": "Under the Oaks Park",
+      "lat": 30.1191,
+      "lng": -85.5948,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 84
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1024018",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1024018",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lake Caroline",
+      "lat": 30.1638,
+      "lng": -85.6824,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 104
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1027045",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1027045",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Walk Trail near Baldwin Road",
+      "lat": 30.2077,
+      "lng": -85.6694,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 40
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1027048",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1027048",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Marina",
+      "lat": 30.151,
+      "lng": -85.6659,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 54
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1027050",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1027050",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cowford Boat Ramp",
+      "lat": 30.4509,
+      "lng": -85.8993,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 57
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1037687",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1037687",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St . Andrews Marina",
+      "lat": 30.1673,
+      "lng": -85.7049,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 57
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1041508",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1041508",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Tyndall AFB--Golf Course",
+      "lat": 30.1129,
+      "lng": -85.6782,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 68
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1044258",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1044258",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Gulf Coast Community College",
+      "lat": 30.1876,
+      "lng": -85.7248,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 130
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1047540",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1047540",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Seaside - Public Beach Tower",
+      "lat": 30.3189,
+      "lng": -86.1385,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 95
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1049640",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1049640",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrews SP",
+      "lat": 30.1351,
+      "lng": -85.7413,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 300
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1049642",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1049642",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrews SP--Old Cracker Turpentine Still",
+      "lat": 30.1325,
+      "lng": -85.7299,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 222
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1050200",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1050200",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Carl Gray Park",
+      "lat": 30.1882,
+      "lng": -85.7282,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 90
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1051857",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1051857",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Berrian Landing",
+      "lat": 30.7008,
+      "lng": -85.8605,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 68
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1053171",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1053171",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lynn Haven City Walk Trail",
+      "lat": 30.2274,
+      "lng": -85.6128,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 141
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1053355",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1053355",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Live Oak Point",
+      "lat": 30.4283,
+      "lng": -86.2481,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 35
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L10654237",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L10654237",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cessna Landing",
+      "lat": 30.3988,
+      "lng": -86.2293,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 42
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L10654275",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L10654275",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lake Martin",
+      "lat": 30.1358,
+      "lng": -85.6084,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 32
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1071939",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1071939",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Beach -- Grand Lagoon Bridge ",
+      "lat": 30.1476,
+      "lng": -85.7485,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 88
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1077585",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1077585",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Bay Flats Recreation Area",
+      "lat": 30.4842,
+      "lng": -86.2665,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 86
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L10798836",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L10798836",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Choctaw Beach Park",
+      "lat": 30.4767,
+      "lng": -86.3312,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 51
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L10798846",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L10798846",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Dolphin Boat Ramp",
+      "lat": 30.151,
+      "lng": -85.7576,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 26
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L10894942",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L10894942",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Deer Point Lake--North Bayhead Landing",
+      "lat": 30.3174,
+      "lng": -85.5777,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 179
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1138023",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1138023",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Eden Gardens SP & Point Washington",
+      "lat": 30.3714,
+      "lng": -86.1203,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 138
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1140207",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1140207",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Pine Log SF (Bay Co.)",
+      "lat": 30.411,
+      "lng": -85.8685,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 97
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1141847",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1141847",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Parker Environmental Park",
+      "lat": 30.1348,
+      "lng": -85.6066,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 82
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1150576",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1150576",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "McCall-Everitt Boat Ramp",
+      "lat": 30.2703,
+      "lng": -85.609,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 64
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1150580",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1150580",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Laguna Beach",
+      "lat": 30.2371,
+      "lng": -85.9207,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 91
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L11569269",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L11569269",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Rosemary Beach",
+      "lat": 30.2775,
+      "lng": -86.0169,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 87
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L11716736",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L11716736",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Constitution Convention Museum SP",
+      "lat": 29.7935,
+      "lng": -85.296,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 49
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L11903190",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L11903190",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "North Deerpoint/Econfina Trail",
+      "lat": 30.3429,
+      "lng": -85.5724,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 19
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L12116098",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L12116098",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cape San Blas",
+      "lat": 29.6664,
+      "lng": -85.3489,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 215
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L126170",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L126170",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Conservation Park Trails",
+      "lat": 30.2587,
+      "lng": -85.8969,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 191
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1266983",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1266983",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrew State Recreation Area",
+      "lat": 30.1151,
+      "lng": -85.7198,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 141
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L127246",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L127246",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Shell Island",
+      "lat": 30.0958,
+      "lng": -85.6924,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 202
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L127247",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L127247",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph Peninsula SP",
+      "lat": 29.7999,
+      "lng": -85.411,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 266
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L127249",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L127249",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cow Lake Landing",
+      "lat": 30.6752,
+      "lng": -85.8794,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 30
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L13012671",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L13012671",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Majette Park",
+      "lat": 30.2473,
+      "lng": -85.5146,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 95
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L13229629",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L13229629",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "McGill Road",
+      "lat": 30.3456,
+      "lng": -85.4009,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 17
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L13273260",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L13273260",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Beacon Hill Park",
+      "lat": 29.9176,
+      "lng": -85.3794,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 99
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L13273434",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L13273434",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Alaqua Creek Park",
+      "lat": 30.5125,
+      "lng": -86.1867,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 15
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L13730842",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L13730842",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Alligator Point",
+      "lat": 30.1351,
+      "lng": -85.7238,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 99
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L14440533",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L14440533",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Grayton Beach SP",
+      "lat": 30.3269,
+      "lng": -86.1545,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 208
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L148723",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L148723",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Topsail Hill Preserve SP",
+      "lat": 30.3701,
+      "lng": -86.2967,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 222
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L148724",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L148724",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Camp Helen SP",
+      "lat": 30.2726,
+      "lng": -85.9924,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 231
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L148725",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L148725",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "White City Park",
+      "lat": 29.8807,
+      "lng": -85.221,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 32
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15447734",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15447734",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Honeyville Park",
+      "lat": 30.0623,
+      "lng": -85.1925,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 28
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15447762",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15447762",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lake Jackson Public Landing",
+      "lat": 30.9918,
+      "lng": -86.3331,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 31
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15497942",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15497942",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrews SP--Pier",
+      "lat": 30.1317,
+      "lng": -85.7427,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 51
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15629365",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15629365",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Mexico Beach Canal Park",
+      "lat": 29.9517,
+      "lng": -85.4304,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 73
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15629541",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15629541",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lake Alice Park",
+      "lat": 30.1166,
+      "lng": -85.2005,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 68
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15706382",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15706382",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Rick Seltzer Park",
+      "lat": 30.1593,
+      "lng": -85.7774,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 62
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L16051422",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L16051422",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joe Beach",
+      "lat": 29.896,
+      "lng": -85.3615,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 76
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L16066802",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L16066802",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "EO Wilson Biophilia Center",
+      "lat": 30.4758,
+      "lng": -86.0545,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 50
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L16632435",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L16632435",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lakewood Park",
+      "lat": 30.9862,
+      "lng": -86.2818,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 61
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L16635279",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L16635279",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lynn Haven Bayou Park & Preserve",
+      "lat": 30.2584,
+      "lng": -85.6028,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 95
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L16886843",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L16886843",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Kritter, Inc Wildlife Sanctuary",
+      "lat": 30.1889,
+      "lng": -85.8051,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 16
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1820730",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1820730",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Hogtown Bayou marsh",
+      "lat": 30.4047,
+      "lng": -86.2404,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 116
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1825403",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1825403",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lands Landing Park",
+      "lat": 30.0884,
+      "lng": -85.1793,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 30
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L189981",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L189981",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Bruce Creek",
+      "lat": 30.6171,
+      "lng": -85.9195,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 57
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1900074",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1900074",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lafayette Creek WMA",
+      "lat": 30.5268,
+      "lng": -86.0486,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 67
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L19188513",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L19188513",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Tilley Landing Wildlife Management Area",
+      "lat": 30.559,
+      "lng": -85.8976,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 49
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1932253",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1932253",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Apalachicola River WEA - Saul's Creek",
+      "lat": 29.839,
+      "lng": -85.0627,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 47
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L20080849",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L20080849",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "McCall Sod Farm",
+      "lat": 30.3208,
+      "lng": -85.6307,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 102
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L20676872",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L20676872",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Hombre Golf Course",
+      "lat": 30.1887,
+      "lng": -85.7989,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 50
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L208471",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L208471",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St Andrews State Park— Campground",
+      "lat": 30.1366,
+      "lng": -85.7353,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 111
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L21025452",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L21025452",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Dan Russell-Fields Pier AKA PCB City Pier",
+      "lat": 30.2152,
+      "lng": -85.8774,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 68
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2114918",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2114918",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Pier Park",
+      "lat": 30.2189,
+      "lng": -85.8718,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 57
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2115048",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2115048",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Frank Brown Park",
+      "lat": 30.2322,
+      "lng": -85.8778,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 152
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2117308",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2117308",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Miramar Beach - Dolphin Stone Reef",
+      "lat": 30.3778,
+      "lng": -86.3874,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 74
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L21663038",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L21663038",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Grayton Beach",
+      "lat": 30.3267,
+      "lng": -86.1639,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 138
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2309169",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2309169",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cape Palms Park",
+      "lat": 29.7166,
+      "lng": -85.3861,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 87
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2445846",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2445846",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Salinas Park",
+      "lat": 29.6857,
+      "lng": -85.3115,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 204
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2445852",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2445852",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lake Jackson",
+      "lat": 30.9883,
+      "lng": -86.3338,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 99
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2570450",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2570450",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Bay Walk",
+      "lat": 29.8119,
+      "lng": -85.306,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 136
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2651850",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2651850",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Indian Pass Campgrounds & Peninsula",
+      "lat": 29.6833,
+      "lng": -85.2238,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 160
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2657092",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2657092",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Dune Allen Beach Access",
+      "lat": 30.3525,
+      "lng": -86.2541,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 136
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L26943275",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L26943275",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Ed Walline Beach Access",
+      "lat": 30.3466,
+      "lng": -86.23,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 64
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L26957751",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L26957751",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Spooky Lane Beach Access",
+      "lat": 30.3454,
+      "lng": -86.227,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 29
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L27010604",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L27010604",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Grady Brown Park",
+      "lat": 30.4327,
+      "lng": -86.1538,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 56
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L27074941",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L27074941",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Sunset Park",
+      "lat": 29.9428,
+      "lng": -85.4108,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 48
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L27075149",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L27075149",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Pilcher Park",
+      "lat": 30.3979,
+      "lng": -86.1697,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 28
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L27178950",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L27178950",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Tyndall AFB",
+      "lat": 30.0841,
+      "lng": -85.6333,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 239
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L276015",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L276015",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Padgett Park",
+      "lat": 30.3791,
+      "lng": -86.1852,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 16
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L27799492",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L27799492",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "SR-77 Pond 13",
+      "lat": 30.302,
+      "lng": -85.6473,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 5
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L28169575",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L28169575",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Simmons Park and Kingswood sod farm",
+      "lat": 30.3073,
+      "lng": -85.6166,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 26
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L28169598",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L28169598",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Eastern Lake, Seagrove Beach, Florida",
+      "lat": 30.3071,
+      "lng": -86.0958,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 86
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L29864101",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L29864101",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Tyndall AFB -- Buck Beach",
+      "lat": 30.0061,
+      "lng": -85.5256,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 142
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3011577",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3011577",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Harry A. Laird Sr. City Park",
+      "lat": 30.5016,
+      "lng": -86.1459,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 44
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3060934",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3060934",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Massalina Bayou",
+      "lat": 30.1537,
+      "lng": -85.654,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 41
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3236491",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3236491",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Iola St. overlook, Port St. Joe",
+      "lat": 29.7896,
+      "lng": -85.302,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 90
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3242917",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3242917",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cape San Blas Rd. seawatch",
+      "lat": 29.6769,
+      "lng": -85.3636,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 81
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3243670",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3243670",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Port St Joe - 5th St. Fishing Pier",
+      "lat": 29.81,
+      "lng": -85.306,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 123
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L367119",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L367119",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cypress Dunes",
+      "lat": 30.3635,
+      "lng": -86.2699,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 79
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3711048",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3711048",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Morrison Spring",
+      "lat": 30.6575,
+      "lng": -85.9049,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 76
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3798630",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3798630",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Jolee Island, Sandestin",
+      "lat": 30.3836,
+      "lng": -86.3265,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 129
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L3806174",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L3806174",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lake Rd Laurel Hill, FL",
+      "lat": 30.9886,
+      "lng": -86.3346,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 40
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L38416831",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L38416831",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Inlet Beach Regional Access",
+      "lat": 30.2742,
+      "lng": -86.0037,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 30
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L40925369",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L40925369",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Earl Gilbert Park",
+      "lat": 30.1051,
+      "lng": -85.6033,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 86
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4170020",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4170020",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Northwest Florida Beaches International Airport",
+      "lat": 30.3357,
+      "lng": -85.8075,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 50
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4175582",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4175582",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "HG Harders Recreational complex",
+      "lat": 30.2453,
+      "lng": -85.5088,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 92
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4189478",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4189478",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Crooked Creek",
+      "lat": 30.2916,
+      "lng": -85.808,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 13
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4191657",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4191657",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Kenneth R Hammons Park",
+      "lat": 30.1726,
+      "lng": -85.6823,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 38
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4195881",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4195881",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Joe Moody Harris Park",
+      "lat": 30.1615,
+      "lng": -85.6287,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 39
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4195909",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4195909",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Millville Waterfront Park",
+      "lat": 30.1533,
+      "lng": -85.6369,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 42
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4251190",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4251190",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Tyndall AFB--Raptor Ranch/Pearl Bayou",
+      "lat": 30.096,
+      "lng": -85.6142,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 93
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4266439",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4266439",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Port St. Joe (Town)",
+      "lat": 29.8128,
+      "lng": -85.299,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 38
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L43164666",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L43164666",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Callaway Recreational complex",
+      "lat": 30.1599,
+      "lng": -85.5475,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 41
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4335635",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4335635",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Odena Boat Landing",
+      "lat": 29.7434,
+      "lng": -85.1876,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 22
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L43420911",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L43420911",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Holly Hill Cemetery",
+      "lat": 29.7918,
+      "lng": -85.2745,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 6
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L43421280",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L43421280",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cherry Street boat ramp",
+      "lat": 30.1458,
+      "lng": -85.6082,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 48
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4356739",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4356739",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Aaron Bessant Park",
+      "lat": 30.2218,
+      "lng": -85.876,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 125
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4376806",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4376806",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph Bay State Buffer Preserve--Deal Track",
+      "lat": 29.6859,
+      "lng": -85.3654,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 145
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4417740",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4417740",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Deer Point Lake",
+      "lat": 30.2878,
+      "lng": -85.5914,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 181
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L444391",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L444391",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Topsail-Scrub Near Beach Access",
+      "lat": 30.361,
+      "lng": -86.28,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 89
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L49717882",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L49717882",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Econfina Creek WMA--Cat Creek portion",
+      "lat": 30.4094,
+      "lng": -85.5852,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 48
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L5008314",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L5008314",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Gulf Innercostal Waterway",
+      "lat": 29.8316,
+      "lng": -85.3137,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 60
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L5231997",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L5231997",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "George Core Park (Lighthouse Park)",
+      "lat": 29.8139,
+      "lng": -85.3066,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 115
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L5374561",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L5374561",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Griffin Street",
+      "lat": 30.2444,
+      "lng": -85.9021,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 22
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L5398303",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L5398303",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "A. L. Kinsaul Park, Lynn Haven",
+      "lat": 30.2508,
+      "lng": -85.6613,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 43
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L54206915",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L54206915",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "7 Pines Native Plants Nursery",
+      "lat": 30.8079,
+      "lng": -86.1393,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 35
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L5512899",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L5512899",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Blue Mountain Beach",
+      "lat": 30.338,
+      "lng": -86.2009,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 34
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L56123544",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L56123544",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Publix Sports Park",
+      "lat": 30.201,
+      "lng": -85.7721,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 21
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L57337435",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L57337435",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Dead Lakes--CR 22 Bridge",
+      "lat": 30.1274,
+      "lng": -85.1772,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 59
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L576362",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L576362",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Dead Lakes County Park",
+      "lat": 30.1367,
+      "lng": -85.1995,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 80
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L577707",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L577707",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joe Peninsula SP--Maritime Hammock Trail",
+      "lat": 29.7459,
+      "lng": -85.3948,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 185
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L578824",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L578824",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joe Peninsula SP--Bayview Trail",
+      "lat": 29.7775,
+      "lng": -85.4016,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 173
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L578829",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L578829",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Hathaway Bridge",
+      "lat": 30.1877,
+      "lng": -85.7478,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 44
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L583930",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L583930",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Dead River Landing",
+      "lat": 30.5378,
+      "lng": -85.8952,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 121
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L588021",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L588021",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Longleaf Pine Trailhead",
+      "lat": 30.3532,
+      "lng": -86.2213,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 26
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L59175727",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L59175727",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Origins Golf Course",
+      "lat": 30.2964,
+      "lng": -86.0105,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 36
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L5996075",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L5996075",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Leslie Porter Wayside Park",
+      "lat": 30.2539,
+      "lng": -85.6458,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 74
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L6127642",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L6127642",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Crooked Island",
+      "lat": 29.9707,
+      "lng": -85.5062,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 176
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L616749",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L616749",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Mexico Beach--S 37th Street Pier",
+      "lat": 29.9483,
+      "lng": -85.4252,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 79
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L633137",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L633137",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joe Peninsula SP--beach",
+      "lat": 29.7645,
+      "lng": -85.405,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 188
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L633170",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L633170",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph Bay State Buffer Preserve",
+      "lat": 29.7174,
+      "lng": -85.3019,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 199
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L633176",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L633176",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Oaks By The Bay Park",
+      "lat": 30.1658,
+      "lng": -85.7012,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 89
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L639261",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L639261",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Baytown Warf Dock",
+      "lat": 30.39,
+      "lng": -86.3269,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 100
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L6481895",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L6481895",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Shell Island Inlet West (FLDB)",
+      "lat": 30.1196,
+      "lng": -85.7238,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 72
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L663261",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L663261",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrews SP--Jetty Beach",
+      "lat": 30.1238,
+      "lng": -85.7336,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 180
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L677963",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L677963",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrews SP--Gator Lake",
+      "lat": 30.1285,
+      "lng": -85.7329,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 236
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L677968",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L677968",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrews SP--Buttonbush Marsh",
+      "lat": 30.1324,
+      "lng": -85.7346,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 168
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L677972",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L677972",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Panama City--Beach Drive (east)",
+      "lat": 30.1479,
+      "lng": -85.6588,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 86
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L694774",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L694774",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "FLp - Panama City (Pier Park Dr)",
+      "lat": 30.2157,
+      "lng": -85.8772,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 56
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L725031",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L725031",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Chipley Park /Lake DeFuniak",
+      "lat": 30.719,
+      "lng": -86.112,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 117
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L737062",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L737062",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Point Washington SF",
+      "lat": 30.3368,
+      "lng": -86.1297,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 134
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L737064",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L737064",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cat Island Park ",
+      "lat": 30.7744,
+      "lng": -86.1336,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 75
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L737087",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L737087",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "MB Miller County Pier",
+      "lat": 30.1866,
+      "lng": -85.8339,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 66
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L7485129",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L7485129",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Deer Lake SP",
+      "lat": 30.3029,
+      "lng": -86.0749,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 164
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L758189",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L758189",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Youngstown-Fountain Recreation Complex",
+      "lat": 30.4376,
+      "lng": -85.4176,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 26
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L7660358",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L7660358",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Frank Nelson Park",
+      "lat": 30.1886,
+      "lng": -85.7145,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 24
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L7660369",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L7660369",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Wind Magic - Public beach access",
+      "lat": 29.8886,
+      "lng": -85.3545,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 86
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L771272",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L771272",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Port St. Joe - Jetty Park",
+      "lat": 29.8153,
+      "lng": -85.3117,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 150
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L771274",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L771274",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Pitt & Sylvan Spring Recreation Area",
+      "lat": 30.4322,
+      "lng": -85.5449,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 87
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L771281",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L771281",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Eglin Air Force Base--Indigo Pond",
+      "lat": 30.6974,
+      "lng": -86.3307,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 98
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L7763006",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L7763006",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Western Lake Park",
+      "lat": 30.324,
+      "lng": -86.1385,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 106
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L7918950",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L7918950",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Wind mark Park",
+      "lat": 29.8545,
+      "lng": -85.3391,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 75
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8011021",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8011021",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Econfina Creek WMA--Scott Rd.",
+      "lat": 30.5553,
+      "lng": -85.4352,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 36
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8149515",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8149515",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Russell Pier Parking Lot Pond",
+      "lat": 30.1914,
+      "lng": -85.8305,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 62
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8155301",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8155301",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Bass Haven Fish Camp & Vicinity",
+      "lat": 30.7643,
+      "lng": -86.1167,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 39
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8162987",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8162987",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Paradise Island Drive King's Lake",
+      "lat": 30.7896,
+      "lng": -86.195,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 56
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8167924",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8167924",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph Bay State Buffer Preserve--boat ramp",
+      "lat": 29.679,
+      "lng": -85.3643,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 105
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L823507",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L823507",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Tiki Tract (Restricted Access)",
+      "lat": 30.2116,
+      "lng": -85.7725,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 78
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8262023",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8262023",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "McQuage Bayou, Point Washington",
+      "lat": 30.3741,
+      "lng": -86.1445,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 41
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8509092",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8509092",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Camp House Landing Road",
+      "lat": 30.6217,
+      "lng": -85.9248,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 46
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8853395",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8853395",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Peach Creek",
+      "lat": 30.3624,
+      "lng": -86.1078,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 19
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L8888769",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L8888769",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Holiday Golf Course",
+      "lat": 30.2092,
+      "lng": -85.8409,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 18
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L9121046",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L9121046",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Beach Access 41",
+      "lat": 30.1834,
+      "lng": -85.8199,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 74
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L9447140",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L9447140",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Tyndall Beach",
+      "lat": 30.052,
+      "lng": -85.6001,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 144
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L9967179",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L9967179",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    }
+  ]
+}

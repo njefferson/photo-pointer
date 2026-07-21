@@ -1,0 +1,199 @@
+{
+  "source": "ebird",
+  "region": "hahira",
+  "note": "Hotspot identity + location only, imported from Bird-location-scouting county data. Observation frequencies omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
+  "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+  "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+  "countyBuilt": {
+    "US-GA-185": "2026-07-21",
+    "US-GA-173": "2026-07-21",
+    "US-GA-027": "2026-07-21",
+    "US-GA-075": "2026-07-21"
+  },
+  "hotspots": [
+    {
+      "locId": "L1025562",
+      "name": "Banks Lake NWR",
+      "lat": 31.0347,
+      "lng": -83.0975,
+      "nSpecies": 128,
+      "county": "US-GA-173"
+    },
+    {
+      "locId": "L109167",
+      "name": "Grand Bay WMA",
+      "lat": 30.9327,
+      "lng": -83.1942,
+      "nSpecies": 168,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L11558810",
+      "name": "Flatlanders Recreation Park",
+      "lat": 31.0335,
+      "lng": -83.0702,
+      "nSpecies": 28,
+      "county": "US-GA-173"
+    },
+    {
+      "locId": "L132589",
+      "name": "Carters Pond",
+      "lat": 30.967,
+      "lng": -83.0816,
+      "nSpecies": 105,
+      "county": "US-GA-173"
+    },
+    {
+      "locId": "L1482155",
+      "name": "Ramsey Rd. (Brooks Co.)",
+      "lat": 30.6782,
+      "lng": -83.6552,
+      "nSpecies": 103,
+      "county": "US-GA-027"
+    },
+    {
+      "locId": "L15406504",
+      "name": "Lake Sheri",
+      "lat": 30.8504,
+      "lng": -83.3293,
+      "nSpecies": 110,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L15406538",
+      "name": "Lola Tract VPA",
+      "lat": 30.9282,
+      "lng": -83.0296,
+      "nSpecies": 54,
+      "county": "US-GA-173"
+    },
+    {
+      "locId": "L18650588",
+      "name": "Jumping Gully Pond",
+      "lat": 30.6564,
+      "lng": -83.2921,
+      "nSpecies": 85,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L19304712",
+      "name": "Georgia Visitor Information Center",
+      "lat": 30.6656,
+      "lng": -83.209,
+      "nSpecies": 76,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L21100820",
+      "name": "Cardinal Tract VPA",
+      "lat": 31.1281,
+      "lng": -83.4489,
+      "nSpecies": 33,
+      "county": "US-GA-075"
+    },
+    {
+      "locId": "L21102590",
+      "name": "Sparks Cutoff VPA",
+      "lat": 31.1518,
+      "lng": -83.4608,
+      "nSpecies": 7,
+      "county": "US-GA-075"
+    },
+    {
+      "locId": "L22023659",
+      "name": "Route 129 Pond",
+      "lat": 31.0468,
+      "lng": -83.0261,
+      "nSpecies": 15,
+      "county": "US-GA-173"
+    },
+    {
+      "locId": "L22660999",
+      "name": "Freedom Park",
+      "lat": 30.9125,
+      "lng": -83.2483,
+      "nSpecies": 54,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L2616477",
+      "name": "Brad Bergstrom home",
+      "lat": 30.8555,
+      "lng": -83.2943,
+      "nSpecies": 125,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L4261773",
+      "name": "Drexel Park",
+      "lat": 30.847,
+      "lng": -83.2851,
+      "nSpecies": 119,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L4342624",
+      "name": "Grassy Pond Recreation Area",
+      "lat": 30.6553,
+      "lng": -83.2374,
+      "nSpecies": 171,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L4435066",
+      "name": "Valdosta Multi-Use Trail along One-Mile Branch",
+      "lat": 30.8427,
+      "lng": -83.3,
+      "nSpecies": 94,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L5512352",
+      "name": "Crevasse Pond",
+      "lat": 30.9012,
+      "lng": -83.584,
+      "nSpecies": 116,
+      "county": "US-GA-027"
+    },
+    {
+      "locId": "L630354",
+      "name": "Langdale Park, Valdosta",
+      "lat": 30.887,
+      "lng": -83.3236,
+      "nSpecies": 123,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L638112",
+      "name": "Mediherer Woods, Valdosta",
+      "lat": 30.864,
+      "lng": -83.3042,
+      "nSpecies": 33,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L63939730",
+      "name": "JayBoy's Travel Center",
+      "lat": 30.7469,
+      "lng": -83.275,
+      "nSpecies": 14,
+      "county": "US-GA-185"
+    },
+    {
+      "locId": "L686602",
+      "name": "Reed Bingham SP (Cook Co.)",
+      "lat": 31.1613,
+      "lng": -83.5389,
+      "nSpecies": 187,
+      "county": "US-GA-075"
+    },
+    {
+      "locId": "L845115",
+      "name": "Okapilco Floodplain and Pasture (Brooks Co.)",
+      "lat": 30.7996,
+      "lng": -83.543,
+      "nSpecies": 127,
+      "county": "US-GA-027"
+    }
+  ]
+}

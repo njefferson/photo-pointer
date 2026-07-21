@@ -71,6 +71,57 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-21 1.5.0 "Bird hotspots for Hahira & Panama City Beach" (a CAPABILITY)
+  BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: how the two
+  areas feel now that the bird-hotspot pins are on them, and the wider region
+  frame on region-switch). Fills the ONE remaining data layer for these two
+  regions (the eBird bird hotspots that 1.4.0/1.4.1 documented as pending —
+  Frame didn't cover GA/FL then; it now does, built 2026-07-21 via Frame's
+  cookie-gated pipeline). NO eBird API / cookie touched — pure data REUSE from
+  the sibling Bird-location-scouting repo, exactly the Humboldt/Yellowstone
+  pattern (import-ebird-from-frame.mjs → ebird → merge → validate, all local,
+  no network). MECHANISM: the two regions already existed (1.4.0) but each
+  listed only ONE county (Lowndes / Bay). To land ALL the data Frame captured
+  I EXPANDED each region's `counties` in config/regions.json to Frame's full
+  scope and WIDENED the bboxes to cover the added counties' hotspots:
+  * hahira: +Lanier (US-GA-173, 13173), +Brooks (US-GA-027, 13027), +Cook
+    (US-GA-075, 13075) → 4 counties. bbox widened to
+    S30.45/W-83.72/N31.22/E-82.95 (was S30.5/W-83.65/N31.1/E-82.95 — hotspots
+    reached lat 31.16 / lng -83.655, would've been dropped). 23 hotspots
+    imported (Lowndes 12/Lanier 5/Brooks 3/Cook 3).
+  * panama-city-beach: +Gulf (US-FL-045, 12045), +Walton (US-FL-131, 12131) →
+    3 counties. bbox widened to S29.6/W-86.45/N31.05/E-85.0 (was
+    S29.9/W-86.05/N30.65/E-85.3 — the Gulf/Walton hotspots span lat 29.67..30.99
+    / lng -86.39..-85.06, mostly OUTSIDE the Bay-only box). 168 hotspots
+    imported (Bay 81/Gulf 33/Walton 54). NOTE this is a real GEOGRAPHIC
+    EXPANSION of PCB — St. Joseph Peninsula (Gulf) is ~50 km SE, Grayton Beach
+    (Walton) is to the NW; matches Frame's own PCB region definition. If Noah
+    wants PCB kept tight to the beach, narrow the counties/bbox back.
+  SCHEMA TRANSFORM (the only real adaptation): Frame's county files carry
+  per-species freqByMonth + checklistsByMonth; Photo-Pointer DELIBERATELY does
+  NOT store those (eBird terms — no bulk redistribution). import-ebird-from-frame
+  .mjs already strips to hotspot IDENTITY only {locId,name,lat,lng,nSpecies} →
+  wildlife_hotspot spots (category), popup links to ebird.org/hotspot/<locId>.
+  So NO frequency data was copied — same license-honoring subset as the CA
+  regions. RESULT (merged, enrichment tags preserved across the merge):
+  hahira 134→156 spots (all 23 hotspots present; 22 as wildlife_hotspot, 1
+  deduped into a colocated OSM park, SOURCE_PRIORITY osm>ebird); PCB 83→239
+  spots (all 168 present; 156 wildlife_hotspot, 12 deduped into OSM parks).
+  0 dropped outside bbox (widening worked); 134/83 OSM spots kept their
+  bortle/horizon/inat/commons tags. NEW eBird hotspot spots have no enrichment
+  tags yet (dormant, honest — a future OSM/enrichment run over the widened
+  counties would add them; OSM still only covers Lowndes/Bay). Files: config
+  /regions.json, ingest/inputs/{hahira,panama-city-beach}-ebird-hotspots.json
+  (committed snapshots), data/sources/<id>/ebird.json, data/regions/<id>.json;
+  sw CACHE pointer-1.5.0 (config/regions.json is precached → bump needed);
+  changelog[0] 1.5.0. VERIFIED headless (playwright, tiles blocked): all 5
+  region pills incl. both new; switch Hahira → h1 "photo-pointer — Hahira, GA"
+  + 10 wildlife_hotspot pins in the town viewport (47 pins total, rest culled);
+  switch PCB → h1 correct + 32 hotspot pins (105 total); ZERO pageerrors. Data
+  counts verified from the region JSON (156/239 spots, all 23/168 imported
+  hotspots carry an eBird source). 91 tests + contrast green. BRANCH NOTE:
+  web-task harness designated a claude/* branch; landed on `staging` per the
+  standing staging-only rule (as with 1.4.0/1.4.1).
 - 2026-07-20 1.4.3 "Tap a cluster to zoom in" BUILT on staging (awaiting
   on-device pass — NEEDS NOAH'S HANDS: the tap-to-zoom feel on a real touch
   screen). Noah's ask: the neutral numbered summary pins should, when tapped,

@@ -1,0 +1,1358 @@
+{
+  "source": "ebird",
+  "region": "panama-city-beach",
+  "note": "Hotspot identity + location only, imported from Bird-location-scouting county data. Observation frequencies omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
+  "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+  "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+  "countyBuilt": {
+    "US-FL-005": "2026-07-21",
+    "US-FL-045": "2026-07-21",
+    "US-FL-131": "2026-07-21"
+  },
+  "hotspots": [
+    {
+      "locId": "L1024018",
+      "name": "Under the Oaks Park",
+      "lat": 30.1191,
+      "lng": -85.5948,
+      "nSpecies": 84,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1027045",
+      "name": "Lake Caroline",
+      "lat": 30.1638,
+      "lng": -85.6824,
+      "nSpecies": 104,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1027048",
+      "name": "Walk Trail near Baldwin Road",
+      "lat": 30.2077,
+      "lng": -85.6694,
+      "nSpecies": 40,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1027050",
+      "name": "Panama City Marina",
+      "lat": 30.151,
+      "lng": -85.6659,
+      "nSpecies": 54,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1037687",
+      "name": "Cowford Boat Ramp",
+      "lat": 30.4509,
+      "lng": -85.8993,
+      "nSpecies": 57,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L1041508",
+      "name": "St . Andrews Marina",
+      "lat": 30.1673,
+      "lng": -85.7049,
+      "nSpecies": 57,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1044258",
+      "name": "Tyndall AFB--Golf Course",
+      "lat": 30.1129,
+      "lng": -85.6782,
+      "nSpecies": 68,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1047540",
+      "name": "Gulf Coast Community College",
+      "lat": 30.1876,
+      "lng": -85.7248,
+      "nSpecies": 130,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1049640",
+      "name": "Seaside - Public Beach Tower",
+      "lat": 30.3189,
+      "lng": -86.1385,
+      "nSpecies": 95,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L1049642",
+      "name": "St. Andrews SP",
+      "lat": 30.1351,
+      "lng": -85.7413,
+      "nSpecies": 300,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1050200",
+      "name": "St. Andrews SP--Old Cracker Turpentine Still",
+      "lat": 30.1325,
+      "lng": -85.7299,
+      "nSpecies": 222,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1051857",
+      "name": "Carl Gray Park",
+      "lat": 30.1882,
+      "lng": -85.7282,
+      "nSpecies": 90,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1053171",
+      "name": "Berrian Landing",
+      "lat": 30.7008,
+      "lng": -85.8605,
+      "nSpecies": 68,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L1053355",
+      "name": "Lynn Haven City Walk Trail",
+      "lat": 30.2274,
+      "lng": -85.6128,
+      "nSpecies": 141,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L10654237",
+      "name": "Live Oak Point",
+      "lat": 30.4283,
+      "lng": -86.2481,
+      "nSpecies": 35,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L10654275",
+      "name": "Cessna Landing",
+      "lat": 30.3988,
+      "lng": -86.2293,
+      "nSpecies": 42,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L1071939",
+      "name": "Lake Martin",
+      "lat": 30.1358,
+      "lng": -85.6084,
+      "nSpecies": 32,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1077585",
+      "name": "Panama City Beach -- Grand Lagoon Bridge ",
+      "lat": 30.1476,
+      "lng": -85.7485,
+      "nSpecies": 88,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L10798836",
+      "name": "Bay Flats Recreation Area",
+      "lat": 30.4842,
+      "lng": -86.2665,
+      "nSpecies": 86,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L10798846",
+      "name": "Choctaw Beach Park",
+      "lat": 30.4767,
+      "lng": -86.3312,
+      "nSpecies": 51,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L10894942",
+      "name": "Dolphin Boat Ramp",
+      "lat": 30.151,
+      "lng": -85.7576,
+      "nSpecies": 26,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1138023",
+      "name": "Deer Point Lake--North Bayhead Landing",
+      "lat": 30.3174,
+      "lng": -85.5777,
+      "nSpecies": 179,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1140207",
+      "name": "Eden Gardens SP & Point Washington",
+      "lat": 30.3714,
+      "lng": -86.1203,
+      "nSpecies": 138,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L1141847",
+      "name": "Pine Log SF (Bay Co.)",
+      "lat": 30.411,
+      "lng": -85.8685,
+      "nSpecies": 97,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1150576",
+      "name": "Parker Environmental Park",
+      "lat": 30.1348,
+      "lng": -85.6066,
+      "nSpecies": 82,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1150580",
+      "name": "McCall-Everitt Boat Ramp",
+      "lat": 30.2703,
+      "lng": -85.609,
+      "nSpecies": 64,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L11569269",
+      "name": "Laguna Beach",
+      "lat": 30.2371,
+      "lng": -85.9207,
+      "nSpecies": 91,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L11716736",
+      "name": "Rosemary Beach",
+      "lat": 30.2775,
+      "lng": -86.0169,
+      "nSpecies": 87,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L11903190",
+      "name": "Constitution Convention Museum SP",
+      "lat": 29.7935,
+      "lng": -85.296,
+      "nSpecies": 49,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L12116098",
+      "name": "North Deerpoint/Econfina Trail",
+      "lat": 30.3429,
+      "lng": -85.5724,
+      "nSpecies": 19,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L126170",
+      "name": "Cape San Blas",
+      "lat": 29.6664,
+      "lng": -85.3489,
+      "nSpecies": 215,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L1266983",
+      "name": "Conservation Park Trails",
+      "lat": 30.2587,
+      "lng": -85.8969,
+      "nSpecies": 191,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L127246",
+      "name": "St. Andrew State Recreation Area",
+      "lat": 30.1151,
+      "lng": -85.7198,
+      "nSpecies": 141,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L127247",
+      "name": "Shell Island",
+      "lat": 30.0958,
+      "lng": -85.6924,
+      "nSpecies": 202,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L127249",
+      "name": "St. Joseph Peninsula SP",
+      "lat": 29.7999,
+      "lng": -85.411,
+      "nSpecies": 266,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L13012671",
+      "name": "Cow Lake Landing",
+      "lat": 30.6752,
+      "lng": -85.8794,
+      "nSpecies": 30,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L13229629",
+      "name": "Majette Park",
+      "lat": 30.2473,
+      "lng": -85.5146,
+      "nSpecies": 95,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L13273260",
+      "name": "McGill Road",
+      "lat": 30.3456,
+      "lng": -85.4009,
+      "nSpecies": 17,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L13273434",
+      "name": "Beacon Hill Park",
+      "lat": 29.9176,
+      "lng": -85.3794,
+      "nSpecies": 99,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L13730842",
+      "name": "Alaqua Creek Park",
+      "lat": 30.5125,
+      "lng": -86.1867,
+      "nSpecies": 15,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L14440533",
+      "name": "Alligator Point",
+      "lat": 30.1351,
+      "lng": -85.7238,
+      "nSpecies": 99,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L148723",
+      "name": "Grayton Beach SP",
+      "lat": 30.3269,
+      "lng": -86.1545,
+      "nSpecies": 208,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L148724",
+      "name": "Topsail Hill Preserve SP",
+      "lat": 30.3701,
+      "lng": -86.2967,
+      "nSpecies": 222,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L148725",
+      "name": "Camp Helen SP",
+      "lat": 30.2726,
+      "lng": -85.9924,
+      "nSpecies": 231,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L15447734",
+      "name": "White City Park",
+      "lat": 29.8807,
+      "lng": -85.221,
+      "nSpecies": 32,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L15447762",
+      "name": "Honeyville Park",
+      "lat": 30.0623,
+      "lng": -85.1925,
+      "nSpecies": 28,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L15497942",
+      "name": "Lake Jackson Public Landing",
+      "lat": 30.9918,
+      "lng": -86.3331,
+      "nSpecies": 31,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L15629365",
+      "name": "St. Andrews SP--Pier",
+      "lat": 30.1317,
+      "lng": -85.7427,
+      "nSpecies": 51,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L15629541",
+      "name": "Mexico Beach Canal Park",
+      "lat": 29.9517,
+      "lng": -85.4304,
+      "nSpecies": 73,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L15706382",
+      "name": "Lake Alice Park",
+      "lat": 30.1166,
+      "lng": -85.2005,
+      "nSpecies": 68,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L16051422",
+      "name": "Rick Seltzer Park",
+      "lat": 30.1593,
+      "lng": -85.7774,
+      "nSpecies": 62,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L16066802",
+      "name": "St. Joe Beach",
+      "lat": 29.896,
+      "lng": -85.3615,
+      "nSpecies": 76,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L16632435",
+      "name": "EO Wilson Biophilia Center",
+      "lat": 30.4758,
+      "lng": -86.0545,
+      "nSpecies": 50,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L16635279",
+      "name": "Lakewood Park",
+      "lat": 30.9862,
+      "lng": -86.2818,
+      "nSpecies": 61,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L16886843",
+      "name": "Lynn Haven Bayou Park & Preserve",
+      "lat": 30.2584,
+      "lng": -85.6028,
+      "nSpecies": 95,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1820730",
+      "name": "Kritter, Inc Wildlife Sanctuary",
+      "lat": 30.1889,
+      "lng": -85.8051,
+      "nSpecies": 16,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L1825403",
+      "name": "Hogtown Bayou marsh",
+      "lat": 30.4047,
+      "lng": -86.2404,
+      "nSpecies": 116,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L189981",
+      "name": "Lands Landing Park",
+      "lat": 30.0884,
+      "lng": -85.1793,
+      "nSpecies": 30,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L1900074",
+      "name": "Bruce Creek",
+      "lat": 30.6171,
+      "lng": -85.9195,
+      "nSpecies": 57,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L19188513",
+      "name": "Lafayette Creek WMA",
+      "lat": 30.5268,
+      "lng": -86.0486,
+      "nSpecies": 67,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L1932253",
+      "name": "Tilley Landing Wildlife Management Area",
+      "lat": 30.559,
+      "lng": -85.8976,
+      "nSpecies": 49,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L20080849",
+      "name": "Apalachicola River WEA - Saul's Creek",
+      "lat": 29.839,
+      "lng": -85.0627,
+      "nSpecies": 47,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L20676872",
+      "name": "McCall Sod Farm",
+      "lat": 30.3208,
+      "lng": -85.6307,
+      "nSpecies": 102,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L208471",
+      "name": "Hombre Golf Course",
+      "lat": 30.1887,
+      "lng": -85.7989,
+      "nSpecies": 50,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L21025452",
+      "name": "St Andrews State Park— Campground",
+      "lat": 30.1366,
+      "lng": -85.7353,
+      "nSpecies": 111,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L2114918",
+      "name": "Dan Russell-Fields Pier AKA PCB City Pier",
+      "lat": 30.2152,
+      "lng": -85.8774,
+      "nSpecies": 68,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L2115048",
+      "name": "Pier Park",
+      "lat": 30.2189,
+      "lng": -85.8718,
+      "nSpecies": 57,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L2117308",
+      "name": "Frank Brown Park",
+      "lat": 30.2322,
+      "lng": -85.8778,
+      "nSpecies": 152,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L21663038",
+      "name": "Miramar Beach - Dolphin Stone Reef",
+      "lat": 30.3778,
+      "lng": -86.3874,
+      "nSpecies": 74,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L2309169",
+      "name": "Grayton Beach",
+      "lat": 30.3267,
+      "lng": -86.1639,
+      "nSpecies": 138,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L2445846",
+      "name": "Cape Palms Park",
+      "lat": 29.7166,
+      "lng": -85.3861,
+      "nSpecies": 87,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L2445852",
+      "name": "Salinas Park",
+      "lat": 29.6857,
+      "lng": -85.3115,
+      "nSpecies": 204,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L2570450",
+      "name": "Lake Jackson",
+      "lat": 30.9883,
+      "lng": -86.3338,
+      "nSpecies": 99,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L2651850",
+      "name": "Bay Walk",
+      "lat": 29.8119,
+      "lng": -85.306,
+      "nSpecies": 136,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L2657092",
+      "name": "Indian Pass Campgrounds & Peninsula",
+      "lat": 29.6833,
+      "lng": -85.2238,
+      "nSpecies": 160,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L26943275",
+      "name": "Dune Allen Beach Access",
+      "lat": 30.3525,
+      "lng": -86.2541,
+      "nSpecies": 136,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L26957751",
+      "name": "Ed Walline Beach Access",
+      "lat": 30.3466,
+      "lng": -86.23,
+      "nSpecies": 64,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L27010604",
+      "name": "Spooky Lane Beach Access",
+      "lat": 30.3454,
+      "lng": -86.227,
+      "nSpecies": 29,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L27074941",
+      "name": "Grady Brown Park",
+      "lat": 30.4327,
+      "lng": -86.1538,
+      "nSpecies": 56,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L27075149",
+      "name": "Sunset Park",
+      "lat": 29.9428,
+      "lng": -85.4108,
+      "nSpecies": 48,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L27178950",
+      "name": "Thomas Pilcher Park",
+      "lat": 30.3979,
+      "lng": -86.1697,
+      "nSpecies": 28,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L276015",
+      "name": "Tyndall AFB",
+      "lat": 30.0841,
+      "lng": -85.6333,
+      "nSpecies": 239,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L27799492",
+      "name": "Padgett Park",
+      "lat": 30.3791,
+      "lng": -86.1852,
+      "nSpecies": 16,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L28169575",
+      "name": "SR-77 Pond 13",
+      "lat": 30.302,
+      "lng": -85.6473,
+      "nSpecies": 5,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L28169598",
+      "name": "Simmons Park and Kingswood sod farm",
+      "lat": 30.3073,
+      "lng": -85.6166,
+      "nSpecies": 26,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L29864101",
+      "name": "Eastern Lake, Seagrove Beach, Florida",
+      "lat": 30.3071,
+      "lng": -86.0958,
+      "nSpecies": 86,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L3011577",
+      "name": "Tyndall AFB -- Buck Beach",
+      "lat": 30.0061,
+      "lng": -85.5256,
+      "nSpecies": 142,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L3060934",
+      "name": "Harry A. Laird Sr. City Park",
+      "lat": 30.5016,
+      "lng": -86.1459,
+      "nSpecies": 44,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L3236491",
+      "name": "Massalina Bayou",
+      "lat": 30.1537,
+      "lng": -85.654,
+      "nSpecies": 41,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L3242917",
+      "name": "Iola St. overlook, Port St. Joe",
+      "lat": 29.7896,
+      "lng": -85.302,
+      "nSpecies": 90,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L3243670",
+      "name": "Cape San Blas Rd. seawatch",
+      "lat": 29.6769,
+      "lng": -85.3636,
+      "nSpecies": 81,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L367119",
+      "name": "Port St Joe - 5th St. Fishing Pier",
+      "lat": 29.81,
+      "lng": -85.306,
+      "nSpecies": 123,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L3711048",
+      "name": "Cypress Dunes",
+      "lat": 30.3635,
+      "lng": -86.2699,
+      "nSpecies": 79,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L3798630",
+      "name": "Morrison Spring",
+      "lat": 30.6575,
+      "lng": -85.9049,
+      "nSpecies": 76,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L3806174",
+      "name": "Jolee Island, Sandestin",
+      "lat": 30.3836,
+      "lng": -86.3265,
+      "nSpecies": 129,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L38416831",
+      "name": "Lake Rd Laurel Hill, FL",
+      "lat": 30.9886,
+      "lng": -86.3346,
+      "nSpecies": 40,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L40925369",
+      "name": "Inlet Beach Regional Access",
+      "lat": 30.2742,
+      "lng": -86.0037,
+      "nSpecies": 30,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L4170020",
+      "name": "Earl Gilbert Park",
+      "lat": 30.1051,
+      "lng": -85.6033,
+      "nSpecies": 86,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4175582",
+      "name": "Northwest Florida Beaches International Airport",
+      "lat": 30.3357,
+      "lng": -85.8075,
+      "nSpecies": 50,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4189478",
+      "name": "HG Harders Recreational complex",
+      "lat": 30.2453,
+      "lng": -85.5088,
+      "nSpecies": 92,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4191657",
+      "name": "Crooked Creek",
+      "lat": 30.2916,
+      "lng": -85.808,
+      "nSpecies": 13,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4195881",
+      "name": "Kenneth R Hammons Park",
+      "lat": 30.1726,
+      "lng": -85.6823,
+      "nSpecies": 38,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4195909",
+      "name": "Joe Moody Harris Park",
+      "lat": 30.1615,
+      "lng": -85.6287,
+      "nSpecies": 39,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4251190",
+      "name": "Millville Waterfront Park",
+      "lat": 30.1533,
+      "lng": -85.6369,
+      "nSpecies": 42,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4266439",
+      "name": "Tyndall AFB--Raptor Ranch/Pearl Bayou",
+      "lat": 30.096,
+      "lng": -85.6142,
+      "nSpecies": 93,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L43164666",
+      "name": "Port St. Joe (Town)",
+      "lat": 29.8128,
+      "lng": -85.299,
+      "nSpecies": 38,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L4335635",
+      "name": "Callaway Recreational complex",
+      "lat": 30.1599,
+      "lng": -85.5475,
+      "nSpecies": 41,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L43420911",
+      "name": "Odena Boat Landing",
+      "lat": 29.7434,
+      "lng": -85.1876,
+      "nSpecies": 22,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L43421280",
+      "name": "Holly Hill Cemetery",
+      "lat": 29.7918,
+      "lng": -85.2745,
+      "nSpecies": 6,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L4356739",
+      "name": "Cherry Street boat ramp",
+      "lat": 30.1458,
+      "lng": -85.6082,
+      "nSpecies": 48,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4376806",
+      "name": "Aaron Bessant Park",
+      "lat": 30.2218,
+      "lng": -85.876,
+      "nSpecies": 125,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L4417740",
+      "name": "St. Joseph Bay State Buffer Preserve--Deal Track",
+      "lat": 29.6859,
+      "lng": -85.3654,
+      "nSpecies": 145,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L444391",
+      "name": "Deer Point Lake",
+      "lat": 30.2878,
+      "lng": -85.5914,
+      "nSpecies": 181,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L49717882",
+      "name": "Topsail-Scrub Near Beach Access",
+      "lat": 30.361,
+      "lng": -86.28,
+      "nSpecies": 89,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L5008314",
+      "name": "Econfina Creek WMA--Cat Creek portion",
+      "lat": 30.4094,
+      "lng": -85.5852,
+      "nSpecies": 48,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L5231997",
+      "name": "Gulf Innercostal Waterway",
+      "lat": 29.8316,
+      "lng": -85.3137,
+      "nSpecies": 60,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L5374561",
+      "name": "George Core Park (Lighthouse Park)",
+      "lat": 29.8139,
+      "lng": -85.3066,
+      "nSpecies": 115,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L5398303",
+      "name": "Griffin Street",
+      "lat": 30.2444,
+      "lng": -85.9021,
+      "nSpecies": 22,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L54206915",
+      "name": "A. L. Kinsaul Park, Lynn Haven",
+      "lat": 30.2508,
+      "lng": -85.6613,
+      "nSpecies": 43,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L5512899",
+      "name": "7 Pines Native Plants Nursery",
+      "lat": 30.8079,
+      "lng": -86.1393,
+      "nSpecies": 35,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L56123544",
+      "name": "Blue Mountain Beach",
+      "lat": 30.338,
+      "lng": -86.2009,
+      "nSpecies": 34,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L57337435",
+      "name": "Publix Sports Park",
+      "lat": 30.201,
+      "lng": -85.7721,
+      "nSpecies": 21,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L576362",
+      "name": "Dead Lakes--CR 22 Bridge",
+      "lat": 30.1274,
+      "lng": -85.1772,
+      "nSpecies": 59,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L577707",
+      "name": "Dead Lakes County Park",
+      "lat": 30.1367,
+      "lng": -85.1995,
+      "nSpecies": 80,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L578824",
+      "name": "St. Joe Peninsula SP--Maritime Hammock Trail",
+      "lat": 29.7459,
+      "lng": -85.3948,
+      "nSpecies": 185,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L578829",
+      "name": "St. Joe Peninsula SP--Bayview Trail",
+      "lat": 29.7775,
+      "lng": -85.4016,
+      "nSpecies": 173,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L583930",
+      "name": "Hathaway Bridge",
+      "lat": 30.1877,
+      "lng": -85.7478,
+      "nSpecies": 44,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L588021",
+      "name": "Dead River Landing",
+      "lat": 30.5378,
+      "lng": -85.8952,
+      "nSpecies": 121,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L59175727",
+      "name": "Longleaf Pine Trailhead",
+      "lat": 30.3532,
+      "lng": -86.2213,
+      "nSpecies": 26,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L5996075",
+      "name": "Origins Golf Course",
+      "lat": 30.2964,
+      "lng": -86.0105,
+      "nSpecies": 36,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L6127642",
+      "name": "Leslie Porter Wayside Park",
+      "lat": 30.2539,
+      "lng": -85.6458,
+      "nSpecies": 74,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L616749",
+      "name": "Crooked Island",
+      "lat": 29.9707,
+      "lng": -85.5062,
+      "nSpecies": 176,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L633137",
+      "name": "Mexico Beach--S 37th Street Pier",
+      "lat": 29.9483,
+      "lng": -85.4252,
+      "nSpecies": 79,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L633170",
+      "name": "St. Joe Peninsula SP--beach",
+      "lat": 29.7645,
+      "lng": -85.405,
+      "nSpecies": 188,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L633176",
+      "name": "St. Joseph Bay State Buffer Preserve",
+      "lat": 29.7174,
+      "lng": -85.3019,
+      "nSpecies": 199,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L639261",
+      "name": "Oaks By The Bay Park",
+      "lat": 30.1658,
+      "lng": -85.7012,
+      "nSpecies": 89,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L6481895",
+      "name": "Baytown Warf Dock",
+      "lat": 30.39,
+      "lng": -86.3269,
+      "nSpecies": 100,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L663261",
+      "name": "Shell Island Inlet West (FLDB)",
+      "lat": 30.1196,
+      "lng": -85.7238,
+      "nSpecies": 72,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L677963",
+      "name": "St. Andrews SP--Jetty Beach",
+      "lat": 30.1238,
+      "lng": -85.7336,
+      "nSpecies": 180,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L677968",
+      "name": "St. Andrews SP--Gator Lake",
+      "lat": 30.1285,
+      "lng": -85.7329,
+      "nSpecies": 236,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L677972",
+      "name": "St. Andrews SP--Buttonbush Marsh",
+      "lat": 30.1324,
+      "lng": -85.7346,
+      "nSpecies": 168,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L694774",
+      "name": "Panama City--Beach Drive (east)",
+      "lat": 30.1479,
+      "lng": -85.6588,
+      "nSpecies": 86,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L725031",
+      "name": "FLp - Panama City (Pier Park Dr)",
+      "lat": 30.2157,
+      "lng": -85.8772,
+      "nSpecies": 56,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L737062",
+      "name": "Chipley Park /Lake DeFuniak",
+      "lat": 30.719,
+      "lng": -86.112,
+      "nSpecies": 117,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L737064",
+      "name": "Point Washington SF",
+      "lat": 30.3368,
+      "lng": -86.1297,
+      "nSpecies": 134,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L737087",
+      "name": "Cat Island Park ",
+      "lat": 30.7744,
+      "lng": -86.1336,
+      "nSpecies": 75,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L7485129",
+      "name": "MB Miller County Pier",
+      "lat": 30.1866,
+      "lng": -85.8339,
+      "nSpecies": 66,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L758189",
+      "name": "Deer Lake SP",
+      "lat": 30.3029,
+      "lng": -86.0749,
+      "nSpecies": 164,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L7660358",
+      "name": "Youngstown-Fountain Recreation Complex",
+      "lat": 30.4376,
+      "lng": -85.4176,
+      "nSpecies": 26,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L7660369",
+      "name": "Frank Nelson Park",
+      "lat": 30.1886,
+      "lng": -85.7145,
+      "nSpecies": 24,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L771272",
+      "name": "Wind Magic - Public beach access",
+      "lat": 29.8886,
+      "lng": -85.3545,
+      "nSpecies": 86,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L771274",
+      "name": "Port St. Joe - Jetty Park",
+      "lat": 29.8153,
+      "lng": -85.3117,
+      "nSpecies": 150,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L771281",
+      "name": "Pitt & Sylvan Spring Recreation Area",
+      "lat": 30.4322,
+      "lng": -85.5449,
+      "nSpecies": 87,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L7763006",
+      "name": "Eglin Air Force Base--Indigo Pond",
+      "lat": 30.6974,
+      "lng": -86.3307,
+      "nSpecies": 98,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L7918950",
+      "name": "Western Lake Park",
+      "lat": 30.324,
+      "lng": -86.1385,
+      "nSpecies": 106,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L8011021",
+      "name": "Wind mark Park",
+      "lat": 29.8545,
+      "lng": -85.3391,
+      "nSpecies": 75,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L8149515",
+      "name": "Econfina Creek WMA--Scott Rd.",
+      "lat": 30.5553,
+      "lng": -85.4352,
+      "nSpecies": 36,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L8155301",
+      "name": "Russell Pier Parking Lot Pond",
+      "lat": 30.1914,
+      "lng": -85.8305,
+      "nSpecies": 62,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L8162987",
+      "name": "Bass Haven Fish Camp & Vicinity",
+      "lat": 30.7643,
+      "lng": -86.1167,
+      "nSpecies": 39,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L8167924",
+      "name": "Paradise Island Drive King's Lake",
+      "lat": 30.7896,
+      "lng": -86.195,
+      "nSpecies": 56,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L823507",
+      "name": "St. Joseph Bay State Buffer Preserve--boat ramp",
+      "lat": 29.679,
+      "lng": -85.3643,
+      "nSpecies": 105,
+      "county": "US-FL-045"
+    },
+    {
+      "locId": "L8262023",
+      "name": "Tiki Tract (Restricted Access)",
+      "lat": 30.2116,
+      "lng": -85.7725,
+      "nSpecies": 78,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L8509092",
+      "name": "McQuage Bayou, Point Washington",
+      "lat": 30.3741,
+      "lng": -86.1445,
+      "nSpecies": 41,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L8853395",
+      "name": "Camp House Landing Road",
+      "lat": 30.6217,
+      "lng": -85.9248,
+      "nSpecies": 46,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L8888769",
+      "name": "Peach Creek",
+      "lat": 30.3624,
+      "lng": -86.1078,
+      "nSpecies": 19,
+      "county": "US-FL-131"
+    },
+    {
+      "locId": "L9121046",
+      "name": "Holiday Golf Course",
+      "lat": 30.2092,
+      "lng": -85.8409,
+      "nSpecies": 18,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L9447140",
+      "name": "Panama City Beach Access 41",
+      "lat": 30.1834,
+      "lng": -85.8199,
+      "nSpecies": 74,
+      "county": "US-FL-005"
+    },
+    {
+      "locId": "L9967179",
+      "name": "Tyndall Beach",
+      "lat": 30.052,
+      "lng": -85.6001,
+      "nSpecies": 144,
+      "county": "US-FL-005"
+    }
+  ]
+}

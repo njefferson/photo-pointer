@@ -1,0 +1,703 @@
+{
+  "source": {
+    "source": "ebird",
+    "name": "eBird hotspots (Cornell Lab of Ornithology)",
+    "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+    "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+    "status": "working"
+  },
+  "region": "hahira",
+  "builtAt": "2026-07-21",
+  "records": [
+    {
+      "name": "Banks Lake NWR",
+      "lat": 31.0347,
+      "lng": -83.0975,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 128
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1025562",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1025562",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Grand Bay WMA",
+      "lat": 30.9327,
+      "lng": -83.1942,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 168
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L109167",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L109167",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Flatlanders Recreation Park",
+      "lat": 31.0335,
+      "lng": -83.0702,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 28
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L11558810",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L11558810",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Carters Pond",
+      "lat": 30.967,
+      "lng": -83.0816,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 105
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L132589",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L132589",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Ramsey Rd. (Brooks Co.)",
+      "lat": 30.6782,
+      "lng": -83.6552,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 103
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L1482155",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L1482155",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lake Sheri",
+      "lat": 30.8504,
+      "lng": -83.3293,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 110
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15406504",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15406504",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Lola Tract VPA",
+      "lat": 30.9282,
+      "lng": -83.0296,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 54
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L15406538",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L15406538",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Jumping Gully Pond",
+      "lat": 30.6564,
+      "lng": -83.2921,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 85
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L18650588",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L18650588",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Georgia Visitor Information Center",
+      "lat": 30.6656,
+      "lng": -83.209,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 76
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L19304712",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L19304712",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Cardinal Tract VPA",
+      "lat": 31.1281,
+      "lng": -83.4489,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 33
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L21100820",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L21100820",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Sparks Cutoff VPA",
+      "lat": 31.1518,
+      "lng": -83.4608,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 7
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L21102590",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L21102590",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Route 129 Pond",
+      "lat": 31.0468,
+      "lng": -83.0261,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 15
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L22023659",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L22023659",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Freedom Park",
+      "lat": 30.9125,
+      "lng": -83.2483,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 54
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L22660999",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L22660999",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Brad Bergstrom home",
+      "lat": 30.8555,
+      "lng": -83.2943,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 125
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L2616477",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L2616477",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Drexel Park",
+      "lat": 30.847,
+      "lng": -83.2851,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 119
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4261773",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4261773",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Grassy Pond Recreation Area",
+      "lat": 30.6553,
+      "lng": -83.2374,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 171
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4342624",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4342624",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Valdosta Multi-Use Trail along One-Mile Branch",
+      "lat": 30.8427,
+      "lng": -83.3,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 94
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L4435066",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L4435066",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Crevasse Pond",
+      "lat": 30.9012,
+      "lng": -83.584,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 116
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L5512352",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L5512352",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Langdale Park, Valdosta",
+      "lat": 30.887,
+      "lng": -83.3236,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 123
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L630354",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L630354",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Mediherer Woods, Valdosta",
+      "lat": 30.864,
+      "lng": -83.3042,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 33
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L638112",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L638112",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "JayBoy's Travel Center",
+      "lat": 30.7469,
+      "lng": -83.275,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 14
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L63939730",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L63939730",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Reed Bingham SP (Cook Co.)",
+      "lat": 31.1613,
+      "lng": -83.5389,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 187
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L686602",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L686602",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "name": "Okapilco Floodplain and Pasture (Brooks Co.)",
+      "lat": 30.7996,
+      "lng": -83.543,
+      "category": "wildlife_hotspot",
+      "subject_type": [
+        "birds",
+        "wildlife"
+      ],
+      "best_light": [
+        "sunrise",
+        "golden_hour"
+      ],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "ebird_species": 127
+      },
+      "sources": [
+        {
+          "source": "ebird",
+          "source_id": "L845115",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+          "source_url": "https://ebird.org/hotspot/L845115",
+          "first_seen": "2026-07-21",
+          "last_seen": "2026-07-21"
+        }
+      ]
+    }
+  ]
+}
