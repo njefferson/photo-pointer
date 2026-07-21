@@ -71,6 +71,14 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-21 PROMOTED 1.4.3 + 1.5.0 to main (Noah's "promote"). Production ==
+  origin/staging == 2f4a410 (clean 2-commit fast-forward from 1.4.2). Ships the
+  tap-a-cluster-to-zoom-in gesture (1.4.3) AND the eBird bird hotspots for
+  Hahira (23) & Panama City Beach (168), reused from Frame with no API/cookie
+  (1.5.0). staging == main after this. NOTE 1.5.0 widened PCB's geographic
+  scope (added Gulf + Walton counties, St. Joseph Peninsula ~50 km SE and
+  Grayton Beach NW) to match Frame's PCB region — if Noah later wants PCB kept
+  tight to the beach, narrow its counties/bbox back.
 - 2026-07-21 1.5.0 "Bird hotspots for Hahira & Panama City Beach" (a CAPABILITY)
   BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: how the two
   areas feel now that the bird-hotspot pins are on them, and the wider region
