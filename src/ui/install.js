@@ -221,6 +221,11 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
         href: 'https://noahjefferson.pages.dev', target: '_blank', rel: 'noopener',
         style: 'color:inherit;text-decoration:underline',
       }, 'More free tools by Noah Jefferson ↗'),
+      ' · ',
+      el('a', {
+        href: 'https://noahjefferson.pages.dev/accessibility', target: '_blank', rel: 'noopener',
+        style: 'color:inherit;text-decoration:underline',
+      }, 'Accessibility'),
     ]),
     el('div', { class: 'dialog-row welcome-foot' }, [
       el('button', { class: 'dialog-close', onClick: () => dlg.close() }, welcome ? 'Start exploring' : 'Close'),

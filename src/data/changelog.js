@@ -2,6 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
+  { v: '1.5.2', t: 'An accessibility statement', n: 'The ⓘ panel now links to an accessibility statement — what these apps do to be usable by everyone, an honest note on what still needs work, and a direct way to report anything that got in your way.' },
   { v: '1.5.1', t: 'Find Noah’s other free tools', n: 'The ⓘ panel now has a link to Noah Jefferson’s other free tools — the bird-scouting app, the astronomy planner, and the photo studio. All free, no account, and they work offline.' },
   { v: '1.5.0', t: 'Bird hotspots for Hahira & Panama City Beach', n: 'The Hahira, GA and Panama City Beach, FL maps now show eBird bird-watching hotspots — 23 around Hahira (including Grand Bay WMA, Banks Lake and Reed Bingham State Park) and 168 along the Panama City Beach coast (including St. Andrews, St. Joseph Peninsula and Grayton Beach). Each pin links straight to its eBird hotspot page. The hotspot places came from the sibling Frame bird app’s open data — no new bird data was fetched.' },
   { v: '1.4.3', t: 'Tap a cluster to zoom in', n: 'The neutral numbered circles that stand in for several places are now tappable — tap one and the map zooms in until those places spread apart into their own pins. A single pin still opens its card as before.' },
