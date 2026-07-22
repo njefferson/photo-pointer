@@ -1,8 +1,20 @@
+# CLAUDE.md — photo-pointer
+
+> **Inherits the [Universal App Doctrine](https://github.com/njefferson/noahjefferson/blob/main/DOCTRINE.md)**
+> (canonical copy: `DOCTRINE.md` in the noahjefferson hub). Single source of truth
+> for the rules shared across all of Noah's apps — product values, taste,
+> accessibility, honesty, verification, release discipline & taxonomy, licensing
+> (PolyForm Noncommercial), privacy, the permanent **AskUserQuestion ban** (§0),
+> and the **repo-metadata confirm rule** (§10). **Where anything below overlaps
+> the Doctrine, the Doctrine wins.** The rest of this file is repo-specific.
+
+---
+
 # Standing rules for Claude sessions on this repo
 
-Read `LESSONS.md` (the conventions contract derived from the sibling repos)
-and `NOTES.md` (source of truth: thesis, roadmap, settled decisions) before
-doing anything.
+Read `NOTES.md` (source of truth: thesis, roadmap, settled decisions) and
+`LESSONS.md` (the technical stack contract — build/deploy/vendor conventions,
+kept because it is more granular than the Doctrine) before doing anything.
 
 ## 0. NEVER use the AskUserQuestion / choice-popup tool (Noah, 2026-07-17,
 ## absolute and permanent, applies to every repo). Present choices as plain
