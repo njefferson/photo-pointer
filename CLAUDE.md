@@ -71,6 +71,17 @@ doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-22 PROMOTED 1.5.2 to main (Noah's "promote all"). Production ==
+  origin/staging == 7d3d4b7 (clean 1-commit fast-forward from 1.5.1). "An
+  accessibility statement" (an ITERATION) — the ⓘ panel's hub line (openAbout,
+  src/ui/install.js) gained a second link ` · Accessibility` →
+  https://noahjefferson.pages.dev/accessibility (same inherited --dim colour +
+  underline, no new contrast pair). Second half of the cross-app initiative: the
+  hub now hosts a shared accessibility statement (honest WCAG 2.2 AA framing +
+  mailto:noah.jefferson@icloud.com), and every sibling app links to it. sw CACHE
+  pointer-1.5.2; changelog[0] 1.5.2. VERIFIED headless: link present, 6.1:1
+  contrast, zero pageerrors; check-contrast.mjs green. Shipped the same day to
+  Frame (3.1.2), Clear Horizons (2.16.8) and Studio.
 - 2026-07-21 PROMOTED 1.5.1 to main (Noah's "promote all"). Production ==
   origin/staging == 482356b (clean 1-commit fast-forward from 1.5.0). "Find
   Noah's other free tools" (an ITERATION) — the ⓘ panel (openAbout, src/ui/
