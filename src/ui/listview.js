@@ -14,6 +14,10 @@ let sortMode = null; // 'distance' | 'name' | 'category'
 let favOnly = false;
 let userLoc = null;
 let locating = false;
+// Once a location fix fails (e.g. permission denied), don't auto-retry it on
+// every re-render — that spins a tight getCurrentPosition→error→re-render loop.
+// Tapping the Distance sort button clears this so the user can retry on demand.
+let geoFailed = false;
 
 const CAP = 300; // guard against rendering thousands of rows at once
 
@@ -80,11 +84,11 @@ export function renderListInto(container, { spots, onFocusSpot, onChange }) {
   const rerender = () => renderListInto(container, { spots, onFocusSpot, onChange });
 
   // Distance needs a fix; request it once, re-render when it lands (fail soft).
-  if (sortMode === 'distance' && !userLoc && !locating && navigator.geolocation) {
+  if (sortMode === 'distance' && !userLoc && !locating && !geoFailed && navigator.geolocation) {
     locating = true;
     navigator.geolocation.getCurrentPosition(
       (pos) => { userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude }; locating = false; rerender(); },
-      () => { locating = false; rerender(); },
+      () => { locating = false; geoFailed = true; rerender(); },
       { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
     );
   }
@@ -104,7 +108,8 @@ export function renderListInto(container, { spots, onFocusSpot, onChange }) {
   const sortBtn = (mode, label) => el('button', {
     class: `list-sort${sortMode === mode ? ' on' : ''}`,
     'aria-pressed': String(sortMode === mode),
-    onClick: () => { sortMode = mode; rerender(); },
+    // Tapping Distance clears a prior failure so the location fix is retried.
+    onClick: () => { sortMode = mode; if (mode === 'distance') geoFailed = false; rerender(); },
   }, label);
   const favBtn = el('button', {
     class: `list-favonly${favOnly ? ' on' : ''}`,

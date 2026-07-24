@@ -33,7 +33,7 @@ function setViewMode(mode) {
   const mapRoot = app.querySelector('.map-root');
   if (mapRoot) mapRoot.style.display = mode === 'map' ? '' : 'none';
   if (listEl) listEl.style.display = mode === 'list' ? '' : 'none';
-  if (mode === 'list') renderListInto(listEl, { spots: spotsForMap(), onFocusSpot, onChange: refresh });
+  if (mode === 'list') renderListView();
   else mapView?.map.invalidateSize();
   renderHeader();
 }
@@ -55,6 +55,9 @@ function applyVisible(v) {
   // drop any Top-spots layer filter that was narrowing the map.
   mapView?.setSpotFilter(null);
   mapView?.setVisible(v);
+  // The list is the text counterpart to the map, so the same category toggles
+  // must narrow it too — re-render it when it's the visible view.
+  renderListView();
   renderHeader();
 }
 
@@ -117,6 +120,22 @@ function renderHeader() {
 
 function spotsForMap() {
   return [...dataSpots, ...userPins()];
+}
+
+// The spots the LIST should show: the same set the map shows — narrowed by the
+// header's category toggles (user pins carry category 'user_pin', so they follow
+// the 'My pins' toggle just like on the map). With every category off, this is
+// empty and the list shows its "turn on a pin type" note, matching the map.
+function spotsForList() {
+  const visible = currentVisible();
+  return spotsForMap().filter((s) => visible.has(s.category));
+}
+
+// Re-render the list (only when it's the visible view) from the current filters.
+function renderListView() {
+  if (viewMode === 'list' && listEl) {
+    renderListInto(listEl, { spots: spotsForList(), onFocusSpot, onChange: refresh });
+  }
 }
 
 let rankingCache = null;
@@ -219,7 +238,7 @@ function refresh() {
   mapView?.setVisible(currentVisible());
   const byId = new Map(ranking().map((r) => [r.spot.id, r]));
   mapView?.setSynthesis(byId);
-  if (viewMode === 'list' && listEl) renderListInto(listEl, { spots: spotsForMap(), onFocusSpot, onChange: refresh });
+  renderListView();
 }
 
 let dataBuiltAt = null;
