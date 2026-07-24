@@ -83,6 +83,37 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-24 1.5.3 "Filters work in the list too" (an ITERATION, a BUG FIX)
+  BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the List view
+  filtering + sort feel on a real device). BUG (Noah: "Filter buttons do not
+  work in list view"): the header category chips (viewpoint/park/marker/…) had
+  ZERO effect on the List view — it always showed every place in the region.
+  ROOT CAUSE (main.js): both setViewMode('list') and refresh() fed the list
+  `spotsForMap()` (the FULL set) filtered only by favourites, never by
+  `currentVisible()`; and applyVisible() (the chip-toggle handler) didn't
+  re-render the list at all. The list-empty message "…Turn on a pin type at the
+  top." already proved the list was DESIGNED to honour the chips — only the
+  wiring was missing. FIX: new `spotsForList()` = spotsForMap filtered by
+  currentVisible() (user pins carry category 'user_pin', so they follow the
+  'My pins' toggle like on the map); new `renderListView()` helper called from
+  setViewMode, refresh AND applyVisible so a chip toggle re-renders the list
+  live. All-off → empty list with the same guidance the map shows. SECOND BUG
+  found+fixed (listview.js): with location DENIED, distance sort spun a tight
+  getCurrentPosition→error→re-render LOOP (the error cb reset locating=false and
+  re-rendered, immediately re-firing the request) — the sort/filter buttons
+  flickered and were hard to tap. FIX: a module `geoFailed` flag stops the
+  auto-retry after one failure (falls back to name order, note "Location
+  unavailable — sorted by name. Tap Distance to retry."); tapping the Distance
+  sort button clears the flag so the fix is retried on demand (making that note
+  truthful). sw CACHE pointer-1.5.3; changelog[0] 1.5.3. VERIFIED headless
+  (playwright, Sacramento): GRANTED location — List "Show all" 300 rows/"2368
+  places — showing the closest 300", Hide all → empty note, viewpoint-only →
+  300 rows ALL pin-viewpoint (nonVp 0), +park still 300 (capped); DENIED
+  location — controls stable (no loop), marker-only → 83 rows ALL pin-marker,
+  toggle off → empty note, correct fallback note; ZERO pageerrors both runs.
+  91 tests + check-contrast green (no new fg/bg pairs — logic-only). BRANCH
+  NOTE: web-task harness designated a claude/* branch; landed on `staging` per
+  the standing staging-only rule (as with 1.4.x/1.5.0). NO GitHub metadata step.
 - 2026-07-22 PROMOTED 1.5.2 to main (Noah's "promote all"). Production ==
   origin/staging == 7d3d4b7 (clean 1-commit fast-forward from 1.5.1). "An
   accessibility statement" (an ITERATION) — the ⓘ panel's hub line (openAbout,
