@@ -1,6 +1,6 @@
 // Service worker — offline-first, per the house pattern.
 // CACHE bumps with every release (keep in sync with NOTES.md release log).
-const CACHE = 'pointer-1.7.0';
+const CACHE = 'pointer-1.8.0';
 
 const ASSETS = [
   './',
@@ -29,6 +29,7 @@ const ASSETS = [
   './src/model/synthesis.js',
   './src/model/notability.js',
   './src/model/events.js',
+  './src/model/tides.js',
   './src/ui/dom.js',
   './src/ui/theme.js',
   './src/ui/mapview.js',

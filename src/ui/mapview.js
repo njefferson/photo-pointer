@@ -8,6 +8,7 @@ import { sunTimesFor, compass, clock } from '../model/light.js';
 import { moonTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
 import { airToday } from '../model/airquality.js';
+import { tidesToday, formatTides } from '../model/tides.js';
 import { nextOccurrence, formatEventWhen } from '../model/events.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
@@ -531,6 +532,22 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     return p;
   }
 
+  // Today's high/low tides (NOAA, US public domain). Coastal spots only: when the
+  // nearest tide station is too far to describe this water, the line REMOVES
+  // itself so inland spots stay uncluttered. Fails soft.
+  function tideLine(spot) {
+    const p = el('p', { class: 'popup-tides' }, 'Tides today: checking…');
+    tidesToday(spot.lat, spot.lng).then((t) => {
+      if (!t) { p.remove(); return; } // inland, or unavailable — say nothing
+      p.replaceChildren(
+        el('strong', {}, 'Tides today: '),
+        formatTides(t),
+        el('span', { class: 'dim' }, ` — ${t.station}`)
+      );
+    }).catch(() => { p.remove(); });
+    return p;
+  }
+
   // The clearest reference page for a marker: an HMdb page (from a Wikidata
   // HMdb id, or a URL in the OSM `note`/`website`), else any URL we have.
   function markerRef(spot) {
@@ -705,6 +722,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       el('details', { class: 'popup-more' }, [
         el('summary', {}, 'Tonight & light ▾'),
         lightSection(spot),
+        tideLine(spot),
         airLine(spot),
         tonightSection(spot),
       ]),
