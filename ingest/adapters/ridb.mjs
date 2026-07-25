@@ -69,21 +69,25 @@ export function plainText(html, max = 400) {
   return s;
 }
 
-// A radius (miles) that covers the whole region bbox from its centre, so one
-// paged sweep reaches every facility; results are bbox-filtered afterwards.
-export function regionQuery(region) {
-  const b = region.bbox;
-  const lat = (b.south + b.north) / 2;
-  const lng = (b.west + b.east) / 2;
-  const latMi = ((b.north - b.south) / 2) * 69.0;
-  const lngMi = ((b.east - b.west) / 2) * 69.0 * Math.cos((lat * Math.PI) / 180);
-  const radius = Math.ceil(Math.sqrt(latMi * latMi + lngMi * lngMi)) + 5; // + margin
-  return { lat, lng, radius };
+// Sweep by STATE, not by a lat/lng radius. A radius search proved unreliable —
+// RIDB's radius semantics are undocumented at the sizes our regions need, and it
+// returns SHORT pages while more results remain, so a radius sweep silently
+// under-returned (the first Sacramento run found 7 facilities instead of
+// hundreds). Every region already declares its counties' states, so we page each
+// state to its reported TOTAL_COUNT and bbox-filter afterwards: deterministic,
+// complete, and independent of any distance semantics.
+export function statesFor(region) {
+  const set = new Set();
+  for (const c of region.counties ?? []) {
+    const st = (c.state || '').trim().toUpperCase();
+    if (/^[A-Z]{2}$/.test(st)) set.add(st);
+  }
+  return [...set];
 }
 
-export function buildUrl({ lat, lng, radius }, offset) {
-  return `${BASE_URL}/facilities?latitude=${lat.toFixed(5)}&longitude=${lng.toFixed(5)}`
-    + `&radius=${radius}&limit=${PAGE_SIZE}&offset=${offset}`;
+export function buildUrl(state, offset) {
+  return `${BASE_URL}/facilities?state=${encodeURIComponent(state)}`
+    + `&limit=${PAGE_SIZE}&offset=${offset}`;
 }
 
 // One RIDB facility -> a Spot-shaped record, or null (unusable / not a kind we map).
@@ -153,28 +157,43 @@ async function getJson(url, apiKey, fetchFn, wait) {
 export async function ingest(region, { fetchFn = fetch, today, log = () => {}, sleep, apiKey = process.env.RIDB_API_KEY } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
   if (!apiKey) throw new Error('ridb: no API key — set the RIDB_API_KEY repo secret');
-  const q = regionQuery(region);
-  log(`ridb: sweeping ${q.radius} mi around ${q.lat.toFixed(3)},${q.lng.toFixed(3)}`);
+  const states = statesFor(region);
+  if (!states.length) throw new Error(`ridb: region ${region.id} declares no county states`);
+  log(`ridb: sweeping ${states.join(', ')}`);
   const records = [];
   const seen = new Set();
   let outside = 0;
   let skipped = 0;
-  for (let offset = 0; ; offset += PAGE_SIZE) {
-    const json = await getJson(buildUrl(q, offset), apiKey, fetchFn, wait);
-    const rows = json?.RECDATA ?? [];
-    const total = Number(json?.METADATA?.RESULTS?.TOTAL_COUNT ?? 0);
-    for (const f of rows) {
-      const rec = normalizeFacility(f, today);
-      if (!rec) { skipped++; continue; }
-      if (!inBBox(rec.lat, rec.lng, region.bbox)) { outside++; continue; }
-      const id = rec.sources[0].source_id;
-      if (seen.has(id)) continue;
-      seen.add(id);
-      records.push(rec);
+  let fetched = 0;
+  for (const state of states) {
+    let total = Infinity;
+    // Page strictly to the reported TOTAL_COUNT — RIDB returns SHORT pages while
+    // more rows remain, so "a short page means the end" is wrong and silently
+    // truncates. MAX_PAGES is a runaway guard, and it's logged if ever hit.
+    const MAX_PAGES = 400;
+    for (let page = 0; page < MAX_PAGES; page++) {
+      const offset = page * PAGE_SIZE;
+      if (offset >= total) break;
+      const json = await getJson(buildUrl(state, offset), apiKey, fetchFn, wait);
+      const rows = json?.RECDATA ?? [];
+      const reported = Number(json?.METADATA?.RESULTS?.TOTAL_COUNT);
+      if (isFinite(reported) && reported > 0) total = reported;
+      fetched += rows.length;
+      for (const f of rows) {
+        const rec = normalizeFacility(f, today);
+        if (!rec) { skipped++; continue; }
+        if (!inBBox(rec.lat, rec.lng, region.bbox)) { outside++; continue; }
+        const id = rec.sources[0].source_id;
+        if (seen.has(id)) continue;
+        seen.add(id);
+        records.push(rec);
+      }
+      if (!rows.length) break; // nothing more is coming
+      if (page === MAX_PAGES - 1) log(`ridb: ${state} hit the ${MAX_PAGES}-page cap — results may be incomplete`);
+      await wait(200);
     }
-    if (rows.length < PAGE_SIZE || offset + PAGE_SIZE >= total) break;
-    await wait(250);
   }
+  log(`ridb: fetched ${fetched} facility rows across ${states.length} state(s)`);
   const byCat = {};
   for (const r of records) byCat[r.category] = (byCat[r.category] || 0) + 1;
   const described = records.filter((r) => r.notes).length;

@@ -1,12 +1,13 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  categoryForType, plainText, regionQuery, buildUrl, normalizeFacility, ingest, meta, PAGE_SIZE,
+  categoryForType, plainText, statesFor, buildUrl, normalizeFacility, ingest, meta, PAGE_SIZE,
 } from '../ingest/adapters/ridb.mjs';
 import { makeSpot, validateSpot } from '../src/model/spot.js';
 
 const TODAY = '2026-07-25';
-const REGION = { id: 't', bbox: { south: 38.5, west: -121.5, north: 39.5, east: -120.5 } };
+const REGION = { id: 't', bbox: { south: 38.5, west: -121.5, north: 39.5, east: -120.5 },
+  counties: [{ osm_area_name: 'A County', fips: '06017', state: 'CA' }, { osm_area_name: 'B County', fips: '06061', state: 'CA' }] };
 
 test('categoryForType maps the useful facility kinds and skips the rest', () => {
   assert.equal(categoryForType('Campground'), 'campsite');
@@ -30,15 +31,13 @@ test('plainText strips HTML, decodes entities and trims at a word boundary', () 
   assert.equal(plainText(null), null);
 });
 
-test('regionQuery covers the whole bbox from its centre', () => {
-  const q = regionQuery(REGION);
-  assert.ok(Math.abs(q.lat - 39.0) < 1e-9);
-  assert.ok(Math.abs(q.lng - -121.0) < 1e-9);
-  // Half-diagonal of this bbox is ~44 mi; the radius must exceed it.
-  assert.ok(q.radius > 44, `radius too small: ${q.radius}`);
-  assert.ok(q.radius < 100, `radius implausibly large: ${q.radius}`);
-  assert.match(buildUrl(q, 50), /offset=50/);
-  assert.match(buildUrl(q, 0), new RegExp(`limit=${PAGE_SIZE}`));
+test('statesFor dedups the region counties down to state codes', () => {
+  assert.deepEqual(statesFor(REGION), ['CA']);
+  assert.deepEqual(statesFor({ counties: [{ state: 'WY' }, { state: 'MT' }, { state: 'wy' }] }), ['WY', 'MT']);
+  assert.deepEqual(statesFor({ counties: [{ state: '' }] }), []);
+  assert.match(buildUrl('CA', 50), /state=CA/);
+  assert.match(buildUrl('CA', 50), /offset=50/);
+  assert.match(buildUrl('CA', 0), new RegExp(`limit=${PAGE_SIZE}`));
 });
 
 test('normalizeFacility builds a valid spot with description and official link', () => {
@@ -69,7 +68,25 @@ test('normalizeFacility rejects unusable rows', () => {
   assert.equal(normalizeFacility({ ...base, FacilityTypeDescription: 'Permit' }, TODAY), null); // unmapped kind
 });
 
-test('ingest pages, sends the key as a header, and drops facilities outside the bbox', async () => {
+test('ingest keeps paging through SHORT pages until TOTAL_COUNT is reached', async () => {
+  // RIDB returns fewer rows than `limit` while more remain — the original code
+  // treated a short page as the end and silently found 7 of hundreds.
+  const mk = (i) => ({ FacilityID: i, FacilityName: `Camp ${i}`, FacilityTypeDescription: 'Campground',
+    FacilityLatitude: 39.0, FacilityLongitude: -121.0, Enabled: true });
+  let pages = 0;
+  const fetchFn = async (url) => {
+    pages++;
+    const offset = Number(new URL(url).searchParams.get('offset'));
+    // Every page is SHORT (10 rows) but TOTAL_COUNT says 120.
+    const RECDATA = offset < 120 ? Array.from({ length: 10 }, (_, i) => mk(offset + i)) : [];
+    return { ok: true, status: 200, json: async () => ({ METADATA: { RESULTS: { TOTAL_COUNT: 120 } }, RECDATA }) };
+  };
+  const recs = await ingest(REGION, { fetchFn, today: TODAY, sleep: async () => {}, apiKey: 'k' });
+  assert.equal(pages, 3, 'should page to TOTAL_COUNT (120/50), not stop at the first short page');
+  assert.equal(recs.length, 30);
+});
+
+test('ingest sends the key as a header, dedups, and drops facilities outside the bbox', async () => {
   const inside = (i) => ({
     FacilityID: i, FacilityName: `Camp ${i}`, FacilityTypeDescription: 'Campground',
     FacilityLatitude: 39.0, FacilityLongitude: -121.0, Enabled: true,
