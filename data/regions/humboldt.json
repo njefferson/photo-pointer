@@ -297,6 +297,34 @@
       }
     },
     {
+      "id": "aikens-creek-west-campground@9r24d1",
+      "name": "Aikens Creek West Campground",
+      "lat": 41.228918,
+      "lng": -123.654428,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Trailer spaces available.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "271900",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/271900",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "271900",
+        "ridb_type": "Campground"
+      }
+    },
+    {
       "id": "airport-business-park@9pr9pc",
       "name": "Airport Business Park",
       "lat": 40.9673,
@@ -3588,6 +3616,34 @@
       }
     },
     {
+      "id": "bailey-canyon-campground@9r0jrz",
+      "name": "Bailey Canyon Campground",
+      "lat": 40.339723,
+      "lng": -123.400669,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "There is a 14-day limit for occupying a campground, and pets on leashes are permitted.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239638",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239638",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "239638",
+        "ridb_type": "Campground"
+      }
+    },
+    {
       "id": "bair-stokes-house-area@9prb82",
       "name": "Bair-Stokes House area",
       "lat": 40.8728,
@@ -5921,6 +5977,34 @@
       }
     },
     {
+      "id": "big-slide-campground@9r0pmd",
+      "name": "Big Slide Campground",
+      "lat": 40.66458438,
+      "lng": -123.4974892,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This facility has 8 (tent only) camping units and offers access to swimming, fishing and hiking. No potable water. Beach.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "238340",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/238340",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "238340",
+        "ridb_type": "Campground"
+      }
+    },
+    {
       "id": "big-tree@9prg3g",
       "name": "Big Tree",
       "lat": 41.3736055,
@@ -6990,6 +7074,35 @@
           "species": 6,
           "topGuild": "insects"
         }
+      }
+    },
+    {
+      "id": "boise-creek@9r20fj",
+      "name": "BOISE CREEK",
+      "lat": 40.9447222,
+      "lng": -123.6583333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Boise Creek Campground is nestled between Brush Mountain and Brannan Mountain in northern California's vast Six Rivers National Forest. The campground sits under a canopy of large Pacific madrone evergreen, Douglas fir and California bay trees, less than two miles from the small mountain town of Willow Creek, known as the Bigfoot capital of the world. Fishing, swimming and whitewater…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233142",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233142",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "233142",
+        "ridb_type": "Campground",
+        "reservable": true
       }
     },
     {
@@ -11924,11 +12037,13 @@
       "lat": 41.2350004,
       "lng": -123.659395,
       "category": "campsite",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "A popular spot for fishing enthusiasts alike, this small campground offers 10 campsites for those desiring to stay at a prime location to get their catch. It is conveniently located by some of the best fishing holes on the Klamath River and nearby streams. It offers potable water, one vault toilet and a variety visitors to chat and swap fishing stories with in the later part of summer and fall.",
       "sources": [
         {
           "source": "osm",
@@ -11937,9 +12052,19 @@
           "source_url": "https://www.openstreetmap.org/node/9469342492",
           "first_seen": "2026-07-20",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "239647",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239647",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "239647",
+        "ridb_type": "Campground",
         "name": "E-Ne-Nuck Campground",
         "fee": "yes",
         "access": "yes",
@@ -15683,6 +15808,35 @@
           "w": 0,
           "site_m": 1
         }
+      }
+    },
+    {
+      "id": "fir-cove-campground@9r0jxb",
+      "name": "FIR COVE CAMPGROUND",
+      "lat": 40.3441667,
+      "lng": -123.4030556,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Fir Cove Campground is located on beautiful eastern shore of Ruth Lake, a 13,800-acre jewel situated in the thickly forested mountains of northern California. A variety of recreational opportunities abound. Fir Cove is one of three Forest Service campgrounds in the area, and one of two on the lake. Bailey Canyon Campground is the companion to Fir Cove. It is located east of Fir Cove and…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233218",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233218",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "233218",
+        "ridb_type": "Campground",
+        "reservable": true
       }
     },
     {
@@ -19932,6 +20086,34 @@
       ],
       "tags": {
         "nrhp": "80004608"
+      }
+    },
+    {
+      "id": "honeydew-campground@9ppsze",
+      "name": "Honeydew Campground",
+      "lat": 40.231497,
+      "lng": -124.114619,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Facilities: 5 tent/trailer campsites with picnic tables, fire rings, vault toilets. No water. (campground is near creek; treat water before drinking), no hookups. Wheelchair accessible.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "262781",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/262781",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "262781",
+        "ridb_type": "Campground"
       }
     },
     {
@@ -28143,6 +28325,35 @@
       }
     },
     {
+      "id": "mad-river-campground@9r0jy7",
+      "name": "MAD RIVER CAMPGROUND",
+      "lat": 40.4036111,
+      "lng": -123.4672222,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Mad River Campground is located on banks of its namesake river, about two miles south of Ruth Lake in the thickly forested mountains of northern California.Recreation Fishing is a popular activity and anglers can expect to catch a variety of trout in the Mad River. Nearby Ruth Lake is open for boating, swimming and other water-related activities. A marina and boat ramp are available for…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234650",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234650",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "234650",
+        "ridb_type": "Campground",
+        "reservable": true
+      }
+    },
+    {
       "id": "mad-river-county-park@9pr8z6",
       "name": "Mad River County Park",
       "lat": 40.9295,
@@ -30311,11 +30522,13 @@
       "lat": 40.2897494,
       "lng": -124.3556966,
       "category": "campsite",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "The Mattole Campground sits at the mouth of the Mattole River within the King Range National Conservation Area, offering one of the only low-cost coastal camping opportunities on California's north coast. The campground provides direct access to the Mattole River estuary and a short 600-foot trail through sand dunes leads to the beach. Wildlife viewing opportunities are excellent — elephant seals…",
       "sources": [
         {
           "source": "osm",
@@ -30324,9 +30537,19 @@
           "source_url": "https://www.openstreetmap.org/way/714978812",
           "first_seen": "2026-07-20",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "262790",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/262790",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "262790",
+        "ridb_type": "Campground",
         "name": "Mattole Campground",
         "website": "https://www.blm.gov/visit/mattole-campground",
         "fee": "yes",
@@ -32882,6 +33105,35 @@
       }
     },
     {
+      "id": "oak-bottom-campground@9r25qu",
+      "name": "OAK BOTTOM CAMPGROUND",
+      "lat": 41.3772222,
+      "lng": -123.4513889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview PLEASE NOTE THIS IS NOT OAK BOTTOM CAMPGROUND AT WHISKEYTOWN LAKE. FOR THAT SITE NEAR REDDING, CALL 530-359-2269 Open from mid-May through mid-October, this Oak Bottom Campground is on the Salmon River at Somes Bar, California. It is situated on a shaded and gently sloping hillside in the expansive Six Rivers and Klamath National Forests, far from highway noise and city distractions…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234608",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234608",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "234608",
+        "ridb_type": "Campground",
+        "reservable": true
+      }
+    },
+    {
       "id": "oak-flat-campground@9ppgxh",
       "name": "Oak Flat Campground",
       "lat": 40.0154939,
@@ -35076,11 +35328,13 @@
       "lat": 41.3091852,
       "lng": -123.5206735,
       "category": "campsite",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Overview Open mid-May through mid-October. Campsite List calendar is for the next reservable dates. Pearch Creek Campground lies just north of the small town of Orleans in the Klamath river valley of the Six Rivers National Forest. Lush foliage provides welcome shade and relative privacy for each of the campground's sites. Recreation Salmon and steelhead fishing in the nearby Klamath River is…",
       "sources": [
         {
           "source": "osm",
@@ -35089,9 +35343,20 @@
           "source_url": "https://www.openstreetmap.org/node/12918369500",
           "first_seen": "2026-07-20",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "234598",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234598",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "234598",
+        "ridb_type": "Campground",
+        "reservable": true,
         "name": "Pearch Creek Campground",
         "website": "https://www.recreation.gov/camping/campgrounds/234598",
         "tourism": "camp_site",
@@ -41893,6 +42158,34 @@
       }
     },
     {
+      "id": "slide-creek-campground@9r0pme",
+      "name": "Slide Creek Campground",
+      "lat": 40.6686,
+      "lng": -123.5035,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Slide Creek Campground is has 5 tent only camp units. There is no water system.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "238350",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/238350",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "238350",
+        "ridb_type": "Campground"
+      }
+    },
+    {
       "id": "snow-camp-lake@9ppzzc",
       "name": "Snow Camp Lake",
       "lat": 40.7482,
@@ -45365,11 +45658,13 @@
       "lat": 40.082728,
       "lng": -124.0570808,
       "category": "campsite",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "4 tent sites and 5 trailer campsites Wheelchair accessible sites Fire rings, picnic tables, bear-proof trash cans, vault toilets Trailhead for the Tolkan Terrain Park Trailhead for Paradise Royale Mountain Bike loop $15.00 per night for campsites First come-first served No day use fee No OHV access. NO POTABLE WATER A quick drive to the town of Shelter Cove, this campground is located 15 minutes…",
       "sources": [
         {
           "source": "osm",
@@ -45378,9 +45673,19 @@
           "source_url": "https://www.openstreetmap.org/way/714995772",
           "first_seen": "2026-07-20",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "262792",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/262792",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "262792",
+        "ridb_type": "Campground",
         "name": "Tolkan Campground",
         "website": "https://www.blm.gov/visit/tolkan-campground",
         "fee": "yes",
