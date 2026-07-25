@@ -11,6 +11,7 @@ const K_PINS = 'pointer.userPins';
 // none (all off). The v1 key used empty to mean "all on" — bumping avoids that
 // stale meaning flipping a returning user's view.
 const K_FILTERS = 'pointer.filters.v2';
+const K_LAYERS = 'pointer.layers.v1';
 const K_REGION = 'pointer.region';
 const K_FAV = 'pointer.favorites';
 
@@ -91,6 +92,17 @@ export function activeFilters() {
 
 export function setActiveFilters(set) {
   write(K_FILTERS, [...set]);
+}
+
+// ---- required data-layers (the "Must have" filter row): a spot must carry ALL
+// of these to pass. Same shape as filters, persisted alongside them so map and
+// list stay in lock-step across a reload. ----
+export function activeLayers() {
+  return new Set(read(K_LAYERS, []));
+}
+
+export function setActiveLayers(set) {
+  write(K_LAYERS, [...set]);
 }
 
 // ---- favorites: spot ids the user has starred (data spots OR their own pins) ----

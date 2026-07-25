@@ -83,69 +83,54 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
-- 2026-07-25 1.5.6 "Clearer Top spots" (an ITERATION, UX clarity + a SCORING
-  recalibration) BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS:
-  the Top-spots button label + the Strong/Good/Basic strength words on a real
-  device). ADDS to the 1.5.5 work below (Noah: "Update scoring and put comments
-  by numbers when used"): (A) RECALIBRATED THE TIERS to the real distribution.
-  MEASURED every region's score spread (script, all 5 regions, keepSpot-filtered):
-  each region's #1 lands 48–60 (Humboldt 60, Yellowstone 59, Sac 56, PCB 51,
-  Hahira 49), median spot ~30. The OLD scoreTier cut-offs (strong≥66/good≥33)
-  were UNREACHABLE — nothing ever read "strong", the app's best all read "good"
-  and ~half "basic". NEW cut-offs STRONG_MIN=48 / GOOD_MIN=30 (named consts, ui/
-  synthesis.js) → every region's #1 now reads "strong"; verified top-30 tiers:
-  Humboldt/Yellowstone 30 strong, Sac 22 strong/8 good, Hahira & PCB 1 strong/29
-  good, 0 basic in any top-30. The raw NUMBER is unchanged (still honest, not
-  inflated) — only the word mapping moved. (B) SURFACED THE STRENGTH WORD in the
-  Top-spots list: each row's `.score-cap` now shows the tier (Strong/Good/Basic,
-  capitalized in CSS) instead of the literal "score", anchoring the number so it
-  doesn't read as a grade; aria-label "Photo score N — <tier>, higher is better".
-  The popup "Why this spot" badge (scoreBadge) picks up the same recalibrated
-  tiers automatically (single source). (C) COMMENTED THE NUMBERS (Noah's ask):
-  every magic literal in the scoring path now has a trailing/adjacent comment —
-  the tier cut-offs (with the distribution behind them), a WEIGHT SCALE block
-  above SIGNALS, and per-signal constants (layered 0.4/0.2, wildlife /300 + 3 km
-  + ×0.8, view 0.7/0.5/+0.3, openHorizon 0.75/0.45, access map, publicLand
-  0.9/0.6, darkSky /8, the ×100 display). sw CACHE pointer-1.5.6; changelog[0]
-  1.5.6 (folded — 1.5.5 never promoted). VERIFIED headless (playwright, Sac):
-  rows read "56 Strong / 54 Strong / …"; 91 tests + check-contrast green (no new
-  fg/bg pairs); ZERO pageerrors; screenshot eyeballed. This RESOLVES the deferred
-  tier-recalibration note from 1.5.5. BRANCH NOTE: on `staging` per the standing
-  rule. NO GitHub metadata step.
-  ---- 1.5.5 (folded into 1.5.6 above; kept for the reasoning trail) ----
-  1.5.5 "Clearer Top spots" SUPERSEDES the same-day
-  1.5.4 build (never promoted): 1.5.4 first labeled the number "N / 100", but
-  Noah flagged "it looks like a failing grade in use" — the region's BEST spots
-  top out ~mid-50s (the score is Σ(value·weight)/Σ(weights of ALL live signals),
-  so no place hits 100), so "56/100" read as a D. Folded 1.5.4 into 1.5.5 rather
-  than leave a shipped-then-removed "/100" in the changelog. ORIGIN: Noah's
-  screenshot feedback — the 🏆 trophy "hides too much that is not intuitive" +
-  "what do those numbers to the right of the names mean?" (the numbers = the
-  composite cross-layer score ×100, shown UNLABELED; the panel blurb said "how
-  many layers line up" which sounds like a COUNT). CHANGES (ui/synthesis.js +
-  main.js + styles.css): (1) LABEL THE NUMBER — new `.top-legend` above the list
-  ("…ranks each spot by how well its data layers line up — higher is better.
-  It's a relative score across the region, not a grade out of 100."); each row's
-  score is a stacked badge `.score-num` + `.score-cap` caption reading "score"
-  (NOT "/100" — deliberately no denominator so it doesn't read as a grade) +
-  aria-label "Photo score N — higher is better". (2) BLURB now says "Ranked by
-  an overall photo score — how well each spot's data layers line up…" (matches a
-  SCORE, not a count — Noah's "match the score" call; the count option was NOT
-  taken). (3) SURFACE THE TROPHY (main.js) — header button is a labeled `.top-btn`
-  "🏆 Top spots" (glyph aria-hidden + text), not a lone icon-btn; .bar-actions
-  gained flex-wrap for narrow phones. `scoreTier()` factored out + still used by
-  the popup's scoreBadge ("N · strong/good/basic"), which was left as-is (not a
-  /100 grade). sw CACHE pointer-1.5.5; changelog[0] 1.5.5. VERIFIED headless
-  (playwright, Sacramento): button "🏆 Top spots"; blurb + legend as above; first
-  row score-num 56 + cap "score" + aria "Photo score 56 — higher is better";
-  ZERO pageerrors; screenshot eyeballed (toolbar fits, "56 / score" reads as a
-  ranking, not a grade). 91 tests + check-contrast green (no new fg/bg pairs —
-  score-num accent-on-bg, cap/legend dim, all already-rendered pairs). BRANCH
-  NOTE: landed on `staging` per the standing rule. NO GitHub metadata step.
-  NOTE the popup "Why this spot" badge still shows "N · <tier>" with tiers
-  strong≥66/good≥33 — since top real scores are ~mid-50s, the region's best read
-  as "good"; if that ever bugs Noah, recalibrate the tier thresholds to the real
-  distribution (a separate, deferred call).
+- 2026-07-25 1.5.7 "One filter bar, and Best in the list" (an ITERATION, a UX
+  REDESIGN) BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the
+  whole filter/sort/list flow on a real device). SUPERSEDES the unpromoted
+  1.5.4/1.5.5/1.5.6 Top-spots-clarity arc (see trail at the bottom of this
+  entry). Noah, blunt: "the trophy icon needs to leave, entirely… integrate them
+  with the other filters in a way that makes sense. They are also NOT applying to
+  the list after the pop-up closes, making them a second filter in a second
+  place… I want to see miles from me for each in the list, with a cardinal
+  direction/degrees… show me a commonly used standard of design." ROOT PROBLEM:
+  TWO disjoint filter systems — the header category chips (map+list) AND the
+  trophy popup's tri-state layer requires (map only, via setSpotFilter, never the
+  list, and lost on close). REDESIGN to the conventional filterable/sortable-list
+  pattern (AllTrails/Yelp): (1) TROPHY GONE — deleted the 🏆 button + openTopSpots
+  + topSpotsPanel/LAYER_CHIPS/topRow (ui/synthesis.js now only exports
+  synthesisBreakdown + LAYER_FILTERS + scorePct/scoreTier). (2) RANKING IS A SORT
+  — listview.js gains a 'best' sort (Sort: Best | Distance | Name | Type); each
+  row shows the score+strength badge (.list-score reuses .score-num/.score-cap),
+  so the list IS the old Top-spots list. (3) ONE FILTER BAR — the 8 data layers
+  (LAYER_FILTERS, keys = signal keys) are now a "Must have:" chip row in the
+  header (simple on/off, ✓ when on), persisted in store K_LAYERS alongside
+  K_FILTERS. A spot passes when its category is on AND it carries EVERY required
+  layer. Applied to BOTH views: spotsForList filters by cats+layers; syncMapFilter
+  sets setVisible(cats) + setSpotFilter(cats∩layers ids). Layer membership +
+  score come from rankMaps() (id→score, id→Set(partKeys)), memoized off the
+  ranking. (4) DISTANCE + BEARING — each list row shows "N mi · <compass> <deg>°"
+  via new geo.bearingDeg(a,b) + light.compass(); one-time geofix, fails soft
+  (geoFailed guard kept). Map "Must have" banner reworded ("N places match your
+  Must have filters", Clear → onClearFilter clears the layer chips at source).
+  sw CACHE pointer-1.5.7; changelog[0] 1.5.7 (folded the 1.5.4/5/6 entries — none
+  promoted). VERIFIED headless (playwright, Sac, geo granted): 0 trophy buttons/
+  glyphs; "Must have:" + 8 layer chips; Sort has Best/Distance/Name/Type; first
+  row meta "Park · 75 m · SE 146° · Bortle 7" (distance+bearing ✓); Best sort
+  desc [56,54,54]; toggling "Dark sky" narrows map to 2321/2368 + all list rows
+  carry the layer; filter PERSISTS across Map↔List; ZERO pageerrors. 91 tests +
+  check-contrast green. BRANCH NOTE: on `staging` per the standing rule. NO
+  GitHub metadata step.
+  ---- FOLDED, UNPROMOTED (reasoning trail for the Top-spots arc) ----
+  1.5.4 labeled the score "N / 100" → Noah: "looks like a failing grade" (top
+  real scores ~mid-50s, score = Σ(value·weight)/Σ(all live weights), never 100).
+  1.5.5 dropped the "/100", called it a relative "score", reworded the blurb to
+  match a score not a layer count ("match the score"), and made the trophy a
+  labeled "🏆 Top spots" button. 1.5.6 RECALIBRATED the strength tiers to the
+  measured distribution — STRONG_MIN=48 / GOOD_MIN=30 (was strong≥66/good≥33,
+  UNREACHABLE) so every region's #1 reads "strong" — and COMMENTED every magic
+  number in the scoring path (tier cut-offs + a WEIGHT SCALE block above SIGNALS
+  + per-signal constants). All THREE of those survive in 1.5.7 (the score, the
+  strength words at 48/30, and the number-comments) — only their HOME changed
+  from the trophy popup to the list. The 🏆 button 1.5.5 added is now removed.
 - 2026-07-25 PROMOTED 1.5.3 to main (Noah's "Merge"). Production ==
   origin/staging == origin/main == bfd6ae9 (clean 2-commit fast-forward from
   1.5.2 / 9e5b52e). Ships the List-view fix: the header category buttons now

@@ -59,7 +59,7 @@ function pinIcon(category, hasPhotos) {
   });
 }
 
-export function createMapView(container, { region, regions = [], onSwitchRegion, onChange }) {
+export function createMapView(container, { region, regions = [], onSwitchRegion, onChange, onClearFilter }) {
   const map = L.map(container, { zoomControl: true });
   let activeRegion = region;
 
@@ -215,11 +215,13 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     const n = spotFilter.size;
     filterBanner.hidden = false;
     filterBanner.replaceChildren(
-      el('span', { class: 'mfb-text' }, `Map filtered to ${n} top spot${n === 1 ? '' : 's'}`),
+      el('span', { class: 'mfb-text' }, `${n} place${n === 1 ? '' : 's'} match your “Must have” filters`),
       el('button', {
         class: 'map-filter-clear',
-        onClick: () => { setSpotFilter(null); onChange?.(); },
-      }, 'Show all')
+        // Clear the layer filters at the source (the header chips) so the map and
+        // the filter bar stay in sync; fall back to just dropping the map filter.
+        onClick: () => { if (onClearFilter) onClearFilter(); else { setSpotFilter(null); onChange?.(); } },
+      }, 'Clear')
     );
   }
 

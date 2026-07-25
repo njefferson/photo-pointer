@@ -15,6 +15,17 @@ export function distanceM(a, b) {
   return 2 * EARTH_R * Math.asin(Math.min(1, Math.sqrt(s)));
 }
 
+// Initial great-circle bearing from a → b, in degrees clockwise from north
+// (0 = due north, 90 = east). Used for the "which way is this spot" arrow in
+// the list. Pairs with compass() in light.js for an N/NE/E… label.
+export function bearingDeg(a, b) {
+  const φ1 = a.lat * RAD, φ2 = b.lat * RAD;
+  const dλ = (b.lng - a.lng) * RAD;
+  const y = Math.sin(dλ) * Math.cos(φ2);
+  const x = Math.cos(φ1) * Math.sin(φ2) - Math.sin(φ1) * Math.cos(φ2) * Math.cos(dλ);
+  return (Math.atan2(y, x) / RAD + 360) % 360; // normalize to 0..360
+}
+
 const B32 = '0123456789bcdefghjkmnpqrstuvwxyz';
 
 // Standard geohash encode. Precision 6 ≈ 1.2 km × 0.6 km cell — used only to

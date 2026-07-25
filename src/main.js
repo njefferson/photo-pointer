@@ -4,9 +4,9 @@ import { el, clear, toast, closeOnBackdrop } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
 import { createMapView, CATEGORY_META } from './ui/mapview.js';
 import { loadRegions, pickRegion } from './model/region.js';
-import { userPins, activeFilters, setActiveFilters, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
+import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
-import { topSpotsPanel } from './ui/synthesis.js';
+import { LAYER_FILTERS } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 import { renderListInto } from './ui/listview.js';
 import { keepSpot } from './model/notability.js';
@@ -42,27 +42,58 @@ function allCategories() {
   return new Set(Object.keys(CATEGORY_META));
 }
 
-// The visible set is exactly what's stored — the category buttons are simple
-// on/off toggles (NOT tri-state; those are the Top-spots layer filters). Default
-// empty = all off, Noah's call; turning a button on adds its category.
+// TWO filter dimensions, both persisted and both applied to the map AND the list
+// (one filter, one place — not a separate popup):
+//   currentVisible() = the pin-type toggles (viewpoint/park/…); default empty.
+//   currentLayers()  = the "Must have" data-layer toggles (dark sky, public
+//                      land, …); a spot must carry ALL of them to pass.
 function currentVisible() {
   return activeFilters();
 }
+function currentLayers() {
+  return activeLayers();
+}
 
+// Category toggle → persist + re-apply everywhere.
 function applyVisible(v) {
   setActiveFilters(v);
-  // Driving the category toggles means the user is browsing categories again —
-  // drop any Top-spots layer filter that was narrowing the map.
-  mapView?.setSpotFilter(null);
-  mapView?.setVisible(v);
-  // The list is the text counterpart to the map, so the same category toggles
-  // must narrow it too — re-render it when it's the visible view.
+  applyFilters();
+}
+
+// "Must have" layer toggle → persist + re-apply everywhere.
+function applyLayers(v) {
+  setActiveLayers(v);
+  applyFilters();
+}
+
+// Push the current category + layer filters to both views. The map keeps its
+// category toggles (setVisible) and, when layers are required, is further
+// narrowed to the spots that pass BOTH (setSpotFilter); the list re-renders from
+// the same filtered set. Called on every filter change and after data loads.
+function syncMapFilter() {
+  const cats = currentVisible();
+  const layers = currentLayers();
+  mapView?.setVisible(cats);
+  if (layers.size) {
+    const lm = layersById();
+    const ids = new Set(spotsForMap()
+      .filter((s) => cats.has(s.category) && [...layers].every((k) => lm.get(s.id)?.has(k)))
+      .map((s) => s.id));
+    mapView?.setSpotFilter(ids);
+  } else {
+    mapView?.setSpotFilter(null);
+  }
+}
+
+function applyFilters() {
+  syncMapFilter();
   renderListView();
   renderHeader();
 }
 
 function renderHeader() {
   const visible = currentVisible();
+  const layers = currentLayers();
   const allOn = visible.size === allCategories().size;
   const allToggle = el('button', {
     class: 'chip chip-all',
@@ -80,6 +111,20 @@ function renderHeader() {
       },
     }, [el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter), ` ${meta.label}`])
   );
+  // "Must have" data-layer filters — same filter bar as the categories, applied
+  // to both map and list. Simple on/off (a spot must carry every one turned on).
+  const layerChips = LAYER_FILTERS.map(([key, label]) =>
+    el('button', {
+      class: `chip layer-chip${layers.has(key) ? ' on' : ''}`,
+      'aria-pressed': String(layers.has(key)),
+      onClick: () => {
+        const v = new Set(currentLayers());
+        if (v.has(key)) v.delete(key);
+        else v.add(key);
+        applyLayers(v);
+      },
+    }, label)
+  );
   const regionPills = (regionsDoc?.regions ?? []).map((r) =>
     el('button', {
       class: `region-pill${r.id === region?.id ? ' active' : ''}`,
@@ -93,18 +138,18 @@ function renderHeader() {
       ? el('div', { class: 'regions', role: 'group', 'aria-label': 'Region' }, regionPills)
       : null,
     el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
+    el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Filter to places that have a data layer' }, [
+      el('span', { class: 'layer-label' }, 'Must have:'),
+      ...layerChips,
+    ]),
     visible.size === 0
       ? el('p', { class: 'filter-tip', role: 'status' },
-          'Turn on at least one pin type above to see places on the map.')
+          'Turn on at least one pin type above to see places. Sort the list by “Best” to see the top-scoring spots.')
       : null,
     el('div', { class: 'bar-actions' }, [
       el('div', { class: 'view-toggle', role: 'group', 'aria-label': 'Map or list view' }, [
         el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
         el('button', { class: `vt-btn${viewMode === 'list' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'list'), onClick: () => setViewMode('list') }, 'List'),
-      ]),
-      el('button', { class: 'data-btn top-btn', 'aria-label': 'Top spots', title: 'Top spots', onClick: openTopSpots }, [
-        el('span', { class: 'top-btn-glyph', 'aria-hidden': 'true' }, '🏆'),
-        el('span', { class: 'top-btn-label' }, 'Top spots'),
       ]),
       el('button', { class: 'data-btn icon-btn', 'aria-label': 'Backup & data', title: 'Backup', onClick: openDataDialog }, '⤓'),
       el('button', {
@@ -125,19 +170,24 @@ function spotsForMap() {
   return [...dataSpots, ...userPins()];
 }
 
-// The spots the LIST should show: the same set the map shows — narrowed by the
-// header's category toggles (user pins carry category 'user_pin', so they follow
-// the 'My pins' toggle just like on the map). With every category off, this is
-// empty and the list shows its "turn on a pin type" note, matching the map.
+// The spots the LIST should show: the same set the map shows — narrowed by BOTH
+// the category toggles and the "Must have" layer toggles (user pins carry
+// category 'user_pin', so they follow the 'My pins' toggle just like on the
+// map). With every category off, this is empty and the list shows its "turn on a
+// pin type" note, matching the map.
 function spotsForList() {
-  const visible = currentVisible();
-  return spotsForMap().filter((s) => visible.has(s.category));
+  const cats = currentVisible();
+  const layers = currentLayers();
+  const lm = layers.size ? layersById() : null;
+  return spotsForMap().filter((s) =>
+    cats.has(s.category) && (!lm || [...layers].every((k) => lm.get(s.id)?.has(k))));
 }
 
 // Re-render the list (only when it's the visible view) from the current filters.
+// scoreById feeds both the "Best" sort and each row's score badge.
 function renderListView() {
   if (viewMode === 'list' && listEl) {
-    renderListInto(listEl, { spots: spotsForList(), onFocusSpot, onChange: refresh });
+    renderListInto(listEl, { spots: spotsForList(), scoreById: scoreById(), onFocusSpot, onChange: refresh });
   }
 }
 
@@ -156,13 +206,25 @@ function ranking() {
   return rankingCache;
 }
 
-function openTopSpots() {
-  topSpotsPanel(ranking(), (spot) => mapView?.focusSpot(spot), {
-    // The panel's require/exclude layer chips narrow the map too, not just the
-    // list. null = no filter (chips all neutral).
-    onFilter: (ids) => mapView?.setSpotFilter(ids),
-  });
+// Derived from the ranking, memoized alongside it: id → score (for the Best sort
+// + row badge) and id → Set of layer keys the spot has (for the "Must have"
+// filter). One scan, reused by the map filter and the list.
+let rankMapsCache = null, rankMapsKey = null;
+function rankMaps() {
+  const ranked = ranking();
+  if (rankMapsKey !== rankingKey) {
+    const score = new Map(), layers = new Map();
+    for (const r of ranked) {
+      score.set(r.spot.id, r.score);
+      layers.set(r.spot.id, new Set(r.parts.map((p) => p.key)));
+    }
+    rankMapsCache = { score, layers };
+    rankMapsKey = rankingKey;
+  }
+  return rankMapsCache;
 }
+function scoreById() { return rankMaps().score; }
+function layersById() { return rankMaps().layers; }
 
 // The pop-up shown on open when nothing is selected: says why the map is empty
 // and offers a one-tap "Show all" so a new arrival is never staring at a blank.
@@ -238,9 +300,9 @@ function openDataDialog() {
 
 function refresh() {
   mapView?.setSpots(spotsForMap());
-  mapView?.setVisible(currentVisible());
   const byId = new Map(ranking().map((r) => [r.spot.id, r]));
   mapView?.setSynthesis(byId);
+  syncMapFilter(); // setVisible + any "Must have" narrowing, from fresh ranking maps
   renderListView();
 }
 
@@ -299,6 +361,8 @@ async function boot() {
     regions: regionsDoc.regions ?? [],
     onSwitchRegion: (id, center) => switchRegion(id, { center }),
     onChange: refresh,
+    // The map's "Clear" on the Must-have banner clears the layer chips at source.
+    onClearFilter: () => applyLayers(new Set()),
   });
 
   await loadRegionData(region.id);
