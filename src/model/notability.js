@@ -84,8 +84,10 @@ export function refineCategory(spot) {
   // still filters as a Waterfall.
   const byKind = CURIOSITY_CATEGORY[t.curiosity];
   if (byKind) return byKind === spot.category ? spot : { ...spot, category: byKind };
-  // OSM ruins/mines: only split out of the broad `oddity` catch-all.
-  if (spot.category === 'oddity' && (t.historic === 'ruins' || t.historic === 'mine')) {
+  // OSM ruins / mines / archaeological sites: split out of the broad `oddity`
+  // catch-all into the Ruins pin type.
+  if (spot.category === 'oddity' &&
+      (t.historic === 'ruins' || t.historic === 'mine' || t.historic === 'archaeological_site')) {
     return { ...spot, category: 'ruins' };
   }
   return spot;

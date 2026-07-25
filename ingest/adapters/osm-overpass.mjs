@@ -23,8 +23,21 @@ export const meta = {
 // photographer-intent seeds. Kept as data so curation is a table edit.
 export const TAG_RULES = [
   { k: 'tourism', v: 'viewpoint', category: 'viewpoint', subject_type: ['landscape'], best_light: ['golden_hour'] },
-  { k: 'waterway', v: 'waterfall', category: 'viewpoint', subject_type: ['water', 'landscape'], best_season: ['spring'] },
   { k: 'natural', v: 'peak', category: 'viewpoint', subject_type: ['landscape'], namedOnly: true },
+  // --- SOURCE #2: specific OSM feature tags for Atlas-Obscura-type curiosities
+  // (ODbL). Each carries a `curiosity` kind (the same field the Wikidata adapter
+  // sets), so refineCategory + the popups treat them uniformly — Waterfall/Hot
+  // spring/Lighthouse become their own pin type; the rest show their kind under
+  // Oddity. namedOnly so unnamed natural nodes don't become map cruft. ---
+  { k: 'waterway', v: 'waterfall', category: 'oddity', curiosity: 'Waterfall', subject_type: ['water', 'landscape'], best_season: ['spring'], namedOnly: true },
+  { k: 'natural', v: 'waterfall', category: 'oddity', curiosity: 'Waterfall', subject_type: ['water', 'landscape'], best_season: ['spring'], namedOnly: true },
+  { k: 'natural', v: 'hot_spring', category: 'oddity', curiosity: 'Hot spring', subject_type: ['landscape'], namedOnly: true },
+  { k: 'natural', v: 'geyser', category: 'oddity', curiosity: 'Hot spring', subject_type: ['landscape'], namedOnly: true },
+  { k: 'natural', v: 'arch', category: 'oddity', curiosity: 'Natural arch', subject_type: ['landscape'], namedOnly: true },
+  { k: 'natural', v: 'cave_entrance', category: 'oddity', curiosity: 'Cave', namedOnly: true },
+  { k: 'man_made', v: 'lighthouse', category: 'oddity', curiosity: 'Lighthouse', namedOnly: true },
+  { k: 'historic', v: 'archaeological_site', category: 'oddity', curiosity: 'Archaeological site', subject_type: ['historic'], namedOnly: true },
+  { k: 'historic', v: 'wreck', category: 'oddity', curiosity: 'Shipwreck', subject_type: ['historic'], namedOnly: true },
   { k: 'historic', v: 'memorial', category: 'marker', subject_type: ['historic'] },
   { k: 'historic', v: 'monument', category: 'marker', subject_type: ['historic'] },
   { k: 'historic', v: 'wayside_shrine', category: 'marker', subject_type: ['historic'] },
@@ -122,6 +135,10 @@ export function normalizeElement(el, today) {
   const lat = el.lat ?? el.center?.lat;
   const lng = el.lon ?? el.center?.lon;
   if (typeof lat !== 'number' || typeof lng !== 'number') return null;
+  const outTags = keepTags(tags);
+  // A curiosity feature (source #2) carries its kind so refineCategory + the
+  // popup treat it like a Wikidata curiosity.
+  if (rule.curiosity) outTags.curiosity = rule.curiosity;
   return {
     name: tags.name ?? null,
     lat,
@@ -132,7 +149,7 @@ export function normalizeElement(el, today) {
     best_season: rule.best_season ?? [],
     access_difficulty: accessFromTags(tags),
     notes: null,
-    tags: keepTags(tags),
+    tags: outTags,
     sources: [
       {
         source: meta.source,
@@ -159,7 +176,7 @@ const KEPT_TAGS = [
   'name', 'ele', 'description', 'wikipedia', 'wikidata', 'website',
   'opening_hours', 'fee', 'access', 'operator', 'sac_scale', 'wheelchair',
   'direction', 'artwork_type', 'historic', 'tourism', 'natural', 'leisure',
-  'waterway', 'highway', 'boundary',
+  'waterway', 'highway', 'boundary', 'man_made',
   // Historical-marker detail (ODbL, from OSM contributors) — the plaque text
   // and a reference link (often an HMdb page). Shown on the marker card.
   'inscription', 'memorial', 'note', 'heritage', 'wikimedia_commons',

@@ -48,3 +48,30 @@ test('unknown class falls back to a generic kind', () => {
   const row = { item: { value: '.../Q9' }, itemLabel: { value: 'Thing' }, coord: { value: 'Point(-120 39)' }, cls: { value: '.../Q999999' } };
   assert.equal(normalizeBinding(row, '2026-07-25').tags.curiosity, 'Curiosity');
 });
+
+// ---- Source #2: OSM feature tags carry a curiosity kind (osm-overpass adapter) ----
+import { normalizeElement } from '../ingest/adapters/osm-overpass.mjs';
+import { refineCategory } from '../src/model/notability.js';
+
+test('OSM feature tags produce a curiosity kind that refineCategory reclassifies', () => {
+  const falls = normalizeElement({ type: 'node', id: 1, lat: 39, lon: -120, tags: { natural: 'waterfall', name: 'Hidden Falls' } }, '2026-07-25');
+  assert.equal(falls.tags.curiosity, 'Waterfall');
+  assert.equal(refineCategory(falls).category, 'waterfall');
+
+  const spring = normalizeElement({ type: 'node', id: 2, lat: 44, lon: -110, tags: { natural: 'hot_spring', name: 'Boiling Spring' } }, '2026-07-25');
+  assert.equal(refineCategory(spring).category, 'hot_spring');
+
+  const geyser = normalizeElement({ type: 'node', id: 3, lat: 44, lon: -110, tags: { natural: 'geyser', name: 'Old Faithful' } }, '2026-07-25');
+  assert.equal(refineCategory(geyser).category, 'hot_spring'); // geysers filter as hot springs
+
+  const arch = normalizeElement({ type: 'node', id: 4, lat: 37, lon: -111, tags: { natural: 'arch', name: 'Stone Arch' } }, '2026-07-25');
+  assert.equal(arch.tags.curiosity, 'Natural arch');
+  assert.equal(refineCategory(arch).category, 'oddity'); // catch-all, shows kind
+
+  const dig = normalizeElement({ type: 'node', id: 5, lat: 37, lon: -111, tags: { historic: 'archaeological_site', name: 'Old Village' } }, '2026-07-25');
+  assert.equal(refineCategory(dig).category, 'ruins');
+});
+
+test('unnamed OSM feature nodes are skipped (namedOnly)', () => {
+  assert.equal(normalizeElement({ type: 'node', id: 6, lat: 39, lon: -120, tags: { natural: 'waterfall' } }, '2026-07-25'), null);
+});
