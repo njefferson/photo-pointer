@@ -83,6 +83,39 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.11 "Atlas-Obscura finds (source #1: Wikidata curiosities)"
+  (a CAPABILITY) BUILT on staging (awaiting on-device pass). Noah: "run the three
+  suggested sources in order" — this is SOURCE #1 of 3. NEW adapter ingest/
+  adapters/wikidata-curiosities.mjs (CC0) + `curiosities` command + workflow
+  wikidata-curiosities.yml: queries the region bbox (wikibase:box) for P31/P279*
+  of curiosity CLASSES → 'oddity' spots tagged {curiosity: kind, wikidata,
+  wikipedia}, link out to Wikipedia. Popup leads with the kind ("Ghost town");
+  list detailBits shows it. GOTCHA (exactly as LESSONS warns — WDQS unreachable
+  from sandbox, QIDs must be verified): FIRST runner pass returned only 8 (6
+  waterfall Q34038 + 2 lighthouse Q39715 — those IDs were right); ghost town +3
+  others silently returned 0 because MY QIDS WERE WRONG. Verified via WebSearch +
+  fixed: ghost town Q5153359→**Q74047**, natural arch Q771035→Q954501, obs tower
+  Q1440476→Q1440300, roadside attraction Q2380335→Q14915208, land art
+  Q338786→Q326478; dropped unverified "folly". FINAL VERIFIED (8 classes) rolled
+  to ALL 5 regions via actions_run_trigger on staging: Sac 26 (17 ghost towns
+  incl. Mormon Island/North Bloomfield/Carson Hill/Ophir/Red Dog, 6 waterfalls,
+  2 lighthouses, 1 lookout), Yellowstone 253 (200 hot springs, 34 waterfalls, 16
+  ghost towns, 2 arches, 5 lookouts), Humboldt 5 (coastal lighthouses), PCB 6,
+  Hahira 2. All pass keepSpot (carry wikidata/wikipedia). BRANCH NOTE: the INGEST
+  TOOLING (adapter, ingest.mjs `curiosities`, workflow, test) is on BOTH main
+  (required for workflow_dispatch discoverability — like every other ingest
+  workflow) and staging; the user-facing DISPLAY (popup/list kind) is on staging
+  only, rides the promote. Runner commits DATA to staging (ref=staging). sw CACHE
+  pointer-1.5.11; changelog[0] 1.5.11. 96 tests (+5 adapter) + contrast green.
+  NOTE Bodie is NOT in any current region (Mono County, out of bbox) — comes with
+  the statewide ghost-town region. NEXT (still owed): SOURCE #2 (specific OSM
+  feature tags: natural=arch/cave_entrance/hot_spring/geyser/rock, man_made=
+  lighthouse/obelisk/tower, historic=archaeological_site/wreck — ODbL); SOURCE #3
+  (USGS GNIS named natural features, US public domain); the STATEWIDE "California
+  Ghost Towns" region (CA + nearby NV, ghost-town-only) for Bodie + whole-state
+  coverage; the Great Reno Balloon Race curated pin. Noah leaning to statewide
+  region over an Eastern-Sierra local region (recommendation given, not yet
+  confirmed).
 - 2026-07-25 1.5.9 "Tri-state layers, cleaner oddities, faster opens" (an
   ITERATION: design fix + data quality + perf/UX) BUILT on staging (awaiting
   on-device pass — NEEDS NOAH'S HANDS: the tri-state feel + real return-visit
