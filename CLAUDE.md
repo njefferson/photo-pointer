@@ -83,6 +83,52 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.16 "Filters that make sense: simple 'must also have'" (an
+  ITERATION, a UX FIX) BUILT on staging (awaiting on-device pass). Noah: "The
+  layers and filters really don't make any sense when I start using them?" I
+  named 4 real inconsistencies I'd introduced (two look-alike chip rows with
+  DIFFERENT tap rules; a layer does nothing until a pin type is also on;
+  strike-through meant BOTH "off" and "exclude"; "Dark sky" existed twice) and
+  offered (a) simplify layers to on/off vs (b) keep tri-state but distinguish it.
+  Noah answered "a" (confirmed: "the 'a' was me answering your question"). FIX
+  (option a): (1) LAYERS ARE NOW SIMPLE ON/OFF "must have" — store K_LAYERS
+  bumped v2→v3, activeLayers() is a plain Set of required keys (was a tri-state
+  Map); passesLayers requires EVERY layer, no exclude state. main renderHeader
+  layerChips are on/off (aria-pressed + leading ✓), matching the pin-type chips —
+  so strike-through now means ONE thing everywhere: off. (2) TWO LABELED GROUPS
+  in the filters panel: `.filter-group` + `.filter-group-label` "Show these place
+  types" and "Only show places that also have…" (was one flat "Layers:" row).
+  (3) REMOVED the duplicate `dark_sky` PIN TYPE (CATEGORY_META, --cat-dark_sky
+  token, .pin-dark_sky, check-contrast CATS, synthesis openCats) — ZERO spots
+  ever used the category; the darkSky LAYER stays. (4) HINT when a layer is on
+  but every pin type is off ("Turn on a place type above too — a layer only
+  narrows what's already showing"), the invisible AND-logic made visible. Map
+  banner reworded ("N places match your filters"). Deleted the tri-state CSS
+  (.layer-chip.require/.exclude, the neutral-override) — layer chips inherit the
+  pin-type on/off look. sw CACHE pointer-1.5.16; changelog[0] 1.5.16. VERIFIED
+  headless (new scripts/smoke-filters.mjs, 390×844): two group headings; NO "Dark
+  sky" pin chip, present as 1 of 8 layers; layer tap→on (aria-pressed+✓); hint
+  shows when layer-on/type-off then clears when a type turns on; Viewpoint+Dark
+  sky → 300 rows all Bortle-tagged; layer off widens; ZERO pageerrors. 103 tests
+  + contrast green. NO GitHub metadata step.
+- 2026-07-25 SOURCE #2 (OSM curiosity features) — rollout + a correctness fix,
+  on staging. COMMITTED so far: Sacramento (6: 3 caves→oddity, 3 archaeological
+  sites→ruins) and Yellowstone (714: 701 hot springs, 3 caves, 1 shipwreck, 1
+  arch, + 8 famous geysers). BUG FOUND + FIXED: features carrying BOTH a specific
+  natural/man_made tag AND tourism=attraction (Old Faithful, Steamboat Geyser,
+  Morning Glory Pool) matched the generic oddity TAG_RULE first in normalizeElement
+  and never got a curiosity kind. FIX (two layers): (a) refineCategory now also
+  reads OSM-native feature tags (natural=hot_spring/geyser/waterfall, man_made=
+  lighthouse) so those resolve to the finer pin type at LOAD — fixes the already-
+  committed Yellowstone data with NO re-ingest (8 geysers incl. Old Faithful →
+  Hot spring, verified); (b) ALL_RULES reordered FEATURE_RULES-first so future
+  ingests set the kind at the source. +2 tests (105 total). REMAINING: re-
+  dispatched osm-features.yml on staging for humboldt/reno/panama-city-beach/
+  hahira (their first-round runs were incomplete — 2 had cancelled; per-region
+  concurrency groups, cancel-in-progress:false, so this batch queues safely).
+  california-ghost-towns correctly has NO osm-features (OSM isn't run there —
+  curiosity-only). STILL OWED after this: SOURCE #3 (USGS GNIS, US public domain,
+  independent of Overpass).
 - 2026-07-25 PROMOTED 1.5.13 + 1.5.14 to main (Noah's "Promote"). Production ==
   origin/staging == origin/main == 5c132c0 (clean 2-commit fast-forward from
   1.5.12 / bd74f03). Ships: 1.5.13 (oddity split into Ghost town/Waterfall/Hot
