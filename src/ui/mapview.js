@@ -20,23 +20,43 @@ import { notableReasons } from '../model/notability.js';
 // the map's world instead — Cameron Park, in El Dorado County (Noah's call).
 export const FALLBACK_CENTER = { lat: 38.6785, lng: -120.9872, name: 'Cameron Park, CA' };
 
+// Every pin type, its label, its letter/glyph (the NON-HUE channel — with this
+// many types the colours can't stay perceptually distinct, so the glyph carries
+// the meaning and colour only reinforces), and the filter group it lives under.
 export const CATEGORY_META = {
-  viewpoint: { label: 'Viewpoint', letter: 'V' },
-  marker: { label: 'Historical marker', letter: 'M' },
-  oddity: { label: 'Oddity', letter: 'O' },
-  ghost_town: { label: 'Ghost town', letter: 'G' },
-  waterfall: { label: 'Waterfall', letter: 'F' },
-  hot_spring: { label: 'Hot spring', letter: 'S' },
-  lighthouse: { label: 'Lighthouse', letter: 'L' },
-  ruins: { label: 'Ruins & mines', letter: 'R' },
-  park: { label: 'Park', letter: 'P' },
-  trailhead: { label: 'Trailhead', letter: 'T' },
-  campsite: { label: 'Campsite', letter: 'C' },
-  wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W' },
-  event: { label: 'Event', letter: 'E' },
-  historic_site: { label: 'Historic site', letter: 'H' },
-  user_pin: { label: 'My pins', letter: '★' },
+  // — Landscape & water —
+  viewpoint: { label: 'Viewpoint', letter: 'V', group: 'Landscape & water' },
+  summit: { label: 'Peak / summit', letter: '▲', group: 'Landscape & water' },
+  waterfall: { label: 'Waterfall', letter: 'F', group: 'Landscape & water' },
+  hot_spring: { label: 'Hot spring', letter: 'S', group: 'Landscape & water' },
+  cave: { label: 'Cave', letter: 'K', group: 'Landscape & water' },
+  arch: { label: 'Natural arch', letter: '∩', group: 'Landscape & water' },
+  notable_tree: { label: 'Notable tree', letter: 'Y', group: 'Landscape & water' },
+  // — Historic —
+  historic_site: { label: 'Historic site', letter: 'H', group: 'Historic' },
+  marker: { label: 'Historical marker', letter: 'M', group: 'Historic' },
+  archaeological: { label: 'Archaeological site', letter: '◆', group: 'Historic' },
+  ghost_town: { label: 'Ghost town', letter: 'G', group: 'Historic' },
+  ruins: { label: 'Ruins', letter: 'R', group: 'Historic' },
+  mine: { label: 'Mine', letter: 'X', group: 'Historic' },
+  shipwreck: { label: 'Shipwreck', letter: '≈', group: 'Historic' },
+  lighthouse: { label: 'Lighthouse', letter: 'L', group: 'Historic' },
+  lookout_tower: { label: 'Lookout tower', letter: 'I', group: 'Historic' },
+  // — Parks & access —
+  park: { label: 'Park', letter: 'P', group: 'Parks & access' },
+  nature_reserve: { label: 'Nature reserve', letter: 'N', group: 'Parks & access' },
+  trailhead: { label: 'Trailhead', letter: 'T', group: 'Parks & access' },
+  campsite: { label: 'Campsite', letter: 'C', group: 'Parks & access' },
+  // — Wildlife, art & events —
+  wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W', group: 'Wildlife, art & events' },
+  public_art: { label: 'Art & murals', letter: 'A', group: 'Wildlife, art & events' },
+  oddity: { label: 'Oddity', letter: 'O', group: 'Wildlife, art & events' },
+  event: { label: 'Event', letter: 'E', group: 'Wildlife, art & events' },
+  user_pin: { label: 'My pins', letter: '★', group: 'Wildlife, art & events' },
 };
+
+// The filter groups, in display order.
+export const CATEGORY_GROUPS = ['Landscape & water', 'Historic', 'Parks & access', 'Wildlife, art & events'];
 
 // A display name for a spot. Unnamed spots survive the notability filter only
 // when people photograph them (Commons photos nearby), so say THAT plainly

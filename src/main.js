@@ -2,7 +2,7 @@
 
 import { el, clear, toast, closeOnBackdrop } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
-import { createMapView, CATEGORY_META, spotDisplayName } from './ui/mapview.js';
+import { createMapView, CATEGORY_META, CATEGORY_GROUPS, spotDisplayName } from './ui/mapview.js';
 import { distanceM } from './model/geo.js';
 import { loadRegions, pickRegion } from './model/region.js';
 import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle, hiddenSpots, hideSpot, unhideSpot, clearHidden, loadRankCache, saveRankCache } from './model/store.js';
@@ -158,7 +158,7 @@ function renderHeader() {
     class: 'chip chip-all',
     onClick: () => applyVisible(allOn ? new Set() : allCategories()),
   }, allOn ? 'Hide all' : 'Show all');
-  const chips = Object.entries(CATEGORY_META).map(([cat, meta]) =>
+  const chipFor = (cat, meta) =>
     el('button', {
       class: `chip chip-${cat}${visible.has(cat) ? ' on' : ''}`,
       'aria-pressed': String(visible.has(cat)),
@@ -172,8 +172,18 @@ function renderHeader() {
       el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
       ` ${meta.label}`,
       visible.has(cat) ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null,
-    ])
-  );
+    ]);
+  // There are many pin types now, so they're sub-grouped (Landscape & water /
+  // Historic / Parks & access / …) instead of one undifferentiated wall of chips.
+  const entries = Object.entries(CATEGORY_META);
+  const chipGroups = CATEGORY_GROUPS.map((g) => {
+    const inGroup = entries.filter(([, m]) => m.group === g);
+    if (!inGroup.length) return null;
+    return el('div', { class: 'chip-subgroup' }, [
+      el('span', { class: 'chip-subgroup-label' }, g),
+      el('div', { class: 'chips', role: 'group', 'aria-label': g }, inGroup.map(([c, m]) => chipFor(c, m))),
+    ]);
+  }).filter(Boolean);
   // Data-layer filters — simple on/off "must have", the same behavior as the
   // pin-type chips (tap on, tap off). A spot passes only if it carries EVERY one
   // turned on. Kept in their own labeled row so it's clear they narrow the
@@ -253,7 +263,8 @@ function renderHeader() {
     ? el('div', { class: 'filters-panel', id: 'filters-panel' }, [
         el('div', { class: 'filter-group' }, [
           el('span', { class: 'filter-group-label' }, 'Show these place types'),
-          el('div', { class: 'chips', role: 'group', 'aria-label': 'Show these place types' }, [allToggle, ...chips]),
+          el('div', { class: 'chips' }, [allToggle]),
+          ...chipGroups,
         ]),
         el('div', { class: 'filter-group' }, [
           el('span', { class: 'filter-group-label' }, 'Only show places that also have…'),

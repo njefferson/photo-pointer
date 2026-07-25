@@ -76,31 +76,58 @@ const CURIOSITY_CATEGORY = {
   'Waterfall': 'waterfall',
   'Hot spring': 'hot_spring',
   'Lighthouse': 'lighthouse',
+  'Cave': 'cave',
+  'Natural arch': 'arch',
+  'Observation tower': 'lookout_tower',
+  'Shipwreck': 'shipwreck',
+  'Archaeological site': 'archaeological',
+  'Land art': 'public_art',
+  // 'Roadside attraction' deliberately stays `oddity` — that IS the quirky bucket.
 };
-// OSM-native feature tags → the same finer pin types. This is a backstop for
-// features that carry the raw tag but no `curiosity` kind — e.g. a geyser also
-// tagged tourism=attraction (Old Faithful) matched the generic oddity rule at
-// ingest and never got a kind; here it still becomes a Hot spring at load.
+// OSM-native tags → the same finer pin types. This is both a backstop for
+// features that carry the raw tag but no `curiosity` kind (a geyser also tagged
+// tourism=attraction matched the generic oddity rule at ingest), and the way the
+// big over-collapsed buckets get split: a named PEAK is a summit, not a generic
+// "viewpoint"; a nature reserve is not a city park; a mural is not an "oddity".
 const FEATURE_TAG_CATEGORY = {
   'natural=hot_spring': 'hot_spring',
   'natural=geyser': 'hot_spring',
   'natural=waterfall': 'waterfall',
+  'natural=peak': 'summit',
+  'natural=cave_entrance': 'cave',
+  'natural=arch': 'arch',
+  'natural=tree': 'notable_tree',
   'man_made=lighthouse': 'lighthouse',
+  'historic=archaeological_site': 'archaeological',
+  'historic=wreck': 'shipwreck',
+  'historic=mine': 'mine',
+  'historic=ruins': 'ruins',
+  'tourism=artwork': 'public_art',
+  'leisure=nature_reserve': 'nature_reserve',
 };
+// Categories that are never reclassified: an event and a user's own pin mean
+// what they say regardless of any tags that rode along through a merge.
+const PROTECTED = new Set(['event', 'user_pin']);
+// The BROAD buckets a raw OSM tag is allowed to refine. Anything else is already
+// a specific claim, so a stray tag picked up in a dedup merge must not hijack it
+// (a historical marker that merged with a ruins node stays a marker).
+const REFINABLE = new Set(['oddity', 'viewpoint', 'park']);
+
 export function refineCategory(spot) {
   const t = spot.tags ?? {};
-  // A known curiosity kind is a strong, specific signal — use it WHATEVER the
-  // spot's current category, so a waterfall that deduped into an OSM viewpoint
-  // still filters as a Waterfall.
-  const byKind = CURIOSITY_CATEGORY[t.curiosity]
-    ?? FEATURE_TAG_CATEGORY[`natural=${t.natural}`]
-    ?? FEATURE_TAG_CATEGORY[`man_made=${t.man_made}`];
-  if (byKind) return byKind === spot.category ? spot : { ...spot, category: byKind };
-  // OSM ruins / mines / archaeological sites: split out of the broad `oddity`
-  // catch-all into the Ruins pin type.
-  if (spot.category === 'oddity' &&
-      (t.historic === 'ruins' || t.historic === 'mine' || t.historic === 'archaeological_site')) {
-    return { ...spot, category: 'ruins' };
+  if (PROTECTED.has(spot.category)) return spot;
+  // A curiosity KIND is our own adapters' explicit claim about what this place
+  // is, so it wins from ANY category — a waterfall that deduped into an OSM
+  // viewpoint still filters as a Waterfall.
+  let next = CURIOSITY_CATEGORY[t.curiosity];
+  // Raw OSM tags only refine the broad buckets, most specific tag first.
+  if (!next && REFINABLE.has(spot.category)) {
+    next = FEATURE_TAG_CATEGORY[`historic=${t.historic}`]
+      ?? FEATURE_TAG_CATEGORY[`natural=${t.natural}`]
+      ?? FEATURE_TAG_CATEGORY[`man_made=${t.man_made}`]
+      ?? FEATURE_TAG_CATEGORY[`tourism=${t.tourism}`]
+      ?? FEATURE_TAG_CATEGORY[`leisure=${t.leisure}`];
   }
+  if (next) return next === spot.category ? spot : { ...spot, category: next };
   return spot;
 }

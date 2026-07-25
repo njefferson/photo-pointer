@@ -39,6 +39,8 @@ const CATS = [
   'cat-viewpoint', 'cat-marker', 'cat-oddity', 'cat-park', 'cat-trailhead',
   'cat-campsite', 'cat-wildlife_hotspot', 'cat-event', 'cat-historic_site', 'cat-user_pin',
   'cat-ghost_town', 'cat-waterfall', 'cat-hot_spring', 'cat-lighthouse', 'cat-ruins',
+  'cat-summit', 'cat-cave', 'cat-arch', 'cat-notable_tree', 'cat-archaeological',
+  'cat-mine', 'cat-shipwreck', 'cat-lookout_tower', 'cat-nature_reserve', 'cat-public_art',
 ];
 
 let failed = 0;

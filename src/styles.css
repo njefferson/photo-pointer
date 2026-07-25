@@ -28,6 +28,16 @@
   --cat-wildlife_hotspot: #365f8a;
   --cat-event: #9b3b6a;
   --cat-historic_site: #4d6b2f;
+  --cat-summit: #4f5b66;
+  --cat-cave: #3f4756;
+  --cat-arch: #7a5c2e;
+  --cat-notable_tree: #3f7040;
+  --cat-archaeological: #5a4636;
+  --cat-mine: #4a4038;
+  --cat-shipwreck: #2f5d63;
+  --cat-lookout_tower: #5b5b8a;
+  --cat-nature_reserve: #2f6b4a;
+  --cat-public_art: #7a3f8c;
   --cat-user_pin: #6d5200;
 }
 
@@ -147,6 +157,11 @@ body {
 }
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+
+/* With ~25 pin types, the chips are sub-grouped by theme so the panel stays
+   scannable. The sub-label is quieter than the group heading above it. */
+.chip-subgroup { display: flex; flex-direction: column; gap: 4px; width: 100%; margin-top: 2px; }
+.chip-subgroup-label { font-size: 11px; font-weight: 600; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
 
 /* Data-layer filters are simple on/off "must have", the SAME look as the
    pin-type chips (the standard filter-chip pattern). */
@@ -427,6 +442,16 @@ body {
 .pin-wildlife_hotspot { background: var(--cat-wildlife_hotspot); }
 .pin-event { background: var(--cat-event); }
 .pin-historic_site { background: var(--cat-historic_site); }
+.pin-summit { background: var(--cat-summit); }
+.pin-cave { background: var(--cat-cave); }
+.pin-arch { background: var(--cat-arch); }
+.pin-notable_tree { background: var(--cat-notable_tree); }
+.pin-archaeological { background: var(--cat-archaeological); }
+.pin-mine { background: var(--cat-mine); }
+.pin-shipwreck { background: var(--cat-shipwreck); }
+.pin-lookout_tower { background: var(--cat-lookout_tower); }
+.pin-nature_reserve { background: var(--cat-nature_reserve); }
+.pin-public_art { background: var(--cat-public_art); }
 .pin-user_pin { background: var(--cat-user_pin); }
 
 .popup-event { margin: 4px 0; font-size: 13px; }

@@ -85,8 +85,8 @@ export const SIGNALS = [
     label: 'Open view for golden hour',
     weight: 0.8,
     evaluate(spot, ctx) {
-      const openCats = new Set(['viewpoint', 'park', 'oddity',
-        'ghost_town', 'waterfall', 'hot_spring', 'lighthouse', 'ruins']);
+      const openCats = new Set(['viewpoint', 'summit', 'park', 'nature_reserve', 'oddity',
+        'ghost_town', 'waterfall', 'hot_spring', 'lighthouse', 'ruins', 'arch']);
       const landscapey = (spot.subject_type ?? []).some((s) => ['landscape', 'water', 'night_sky'].includes(s));
       if (!openCats.has(spot.category) && !landscapey) return null;
       // A named viewpoint starts at 0.7, any other open place at 0.5; a known

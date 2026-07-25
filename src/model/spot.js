@@ -16,6 +16,10 @@ export const CATEGORIES = [
   'dark_sky',
   'event',
   'historic_site',
+  // Finer kinds split out of the broad buckets (see notability.refineCategory):
+  'summit', 'cave', 'arch', 'notable_tree',
+  'archaeological', 'mine', 'shipwreck', 'lookout_tower',
+  'nature_reserve', 'public_art',
   'user_pin',
 ];
 

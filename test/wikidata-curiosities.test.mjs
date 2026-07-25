@@ -66,10 +66,10 @@ test('OSM feature tags produce a curiosity kind that refineCategory reclassifies
 
   const arch = normalizeElement({ type: 'node', id: 4, lat: 37, lon: -111, tags: { natural: 'arch', name: 'Stone Arch' } }, '2026-07-25');
   assert.equal(arch.tags.curiosity, 'Natural arch');
-  assert.equal(refineCategory(arch).category, 'oddity'); // catch-all, shows kind
+  assert.equal(refineCategory(arch).category, 'arch'); // now its own pin type
 
   const dig = normalizeElement({ type: 'node', id: 5, lat: 37, lon: -111, tags: { historic: 'archaeological_site', name: 'Old Village' } }, '2026-07-25');
-  assert.equal(refineCategory(dig).category, 'ruins');
+  assert.equal(refineCategory(dig).category, 'archaeological'); // NOT "ruins & mines"
 });
 
 test('unnamed OSM feature nodes are skipped (namedOnly)', () => {
