@@ -79,17 +79,17 @@ async function getJson(url, fetchFn, wait) {
   }
 }
 
-// Find the "Landforms" feature layer id from the service's /layers listing. Falls
-// back to any point layer carrying a `gaz_featureclass` field that isn't a
-// populated-places layer, so a rename to e.g. "Physical Features" still resolves.
-export function pickLayer(layersDoc) {
+// EVERY GNIS point layer that carries a `gaz_featureclass` field. The geonames
+// service partitions features across many category layers (Water Features,
+// Landforms, …), so our classes (Falls/Arch/Cave/Spring) can live in more than
+// one — we query them all and dedup by gaz_id, rather than guess a single layer
+// (a wrong guess returns almost nothing). Sub-layers of a group are skipped only
+// if they have no queryable class field.
+export function pickLayers(layersDoc) {
   const layers = layersDoc?.layers ?? [];
-  const hasClassField = (l) => (l.fields ?? []).some((f) => f.name === 'gaz_featureclass');
-  const byName = layers.find((l) => /landform/i.test(l.name || '') && hasClassField(l));
-  if (byName) return byName.id;
-  const physical = layers.find((l) => hasClassField(l) && !/place|civil|island|area|region/i.test(l.name || ''));
-  if (physical) return physical.id;
-  return null;
+  return layers
+    .filter((l) => (l.fields ?? []).some((f) => f.name === 'gaz_featureclass'))
+    .map((l) => ({ id: l.id, name: l.name }));
 }
 
 // One ArcGIS feature -> a Spot-shaped record, or null (unnamed / non-curiosity).
@@ -127,13 +127,8 @@ export function normalizeFeature(f, today) {
   };
 }
 
-// Query the discovered layer by the region bbox, paging past the 2000-row cap.
-export async function ingest(region, { fetchFn = fetch, today, log = () => {}, sleep, baseUrl = BASE_URL } = {}) {
-  const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
-  const layers = await getJson(`${baseUrl}/layers?f=json`, fetchFn, wait);
-  const layerId = pickLayer(layers);
-  if (layerId == null) throw new Error('gnis: could not find a Landforms/physical-features layer in the geonames service');
-  log(`gnis: querying layer ${layerId}`);
+// Query one layer by the region bbox, paging past the per-request row cap.
+async function queryLayer(baseUrl, layerId, region, fetchFn, wait) {
   const b = region.bbox;
   const envelope = encodeURIComponent(`${b.west},${b.south},${b.east},${b.north}`);
   const where = encodeURIComponent(buildWhere());
@@ -149,18 +144,39 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
     raw.push(...feats);
     if (feats.length < PAGE && !page?.exceededTransferLimit) break;
     if (feats.length === 0) break;
-    await wait(500);
+    await wait(300);
   }
-  log(`gnis: ${raw.length} raw features in bbox`);
+  return raw;
+}
+
+// Query EVERY class-bearing layer by the region bbox and dedup across them.
+export async function ingest(region, { fetchFn = fetch, today, log = () => {}, sleep, baseUrl = BASE_URL } = {}) {
+  const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
+  const layersDoc = await getJson(`${baseUrl}/layers?f=json`, fetchFn, wait);
+  const layers = pickLayers(layersDoc);
+  if (layers.length === 0) throw new Error('gnis: no gaz_featureclass layers found in the geonames service');
+  log(`gnis: ${layers.length} class-bearing layers: ${layers.map((l) => `${l.id}:${l.name}`).join(', ')}`);
   const records = [];
   const seen = new Set();
-  for (const f of raw) {
-    const rec = normalizeFeature(f, today);
-    if (!rec) continue;
-    const id = rec.sources[0].source_id;
-    if (seen.has(id)) continue;
-    seen.add(id);
-    records.push(rec);
+  for (const layer of layers) {
+    let raw;
+    try {
+      raw = await queryLayer(baseUrl, layer.id, region, fetchFn, wait);
+    } catch (e) {
+      log(`gnis: layer ${layer.id} (${layer.name}) query failed: ${e.message} — skipping`);
+      continue;
+    }
+    let kept = 0;
+    for (const f of raw) {
+      const rec = normalizeFeature(f, today);
+      if (!rec) continue;
+      const id = rec.sources[0].source_id;
+      if (seen.has(id)) continue; // same feature can appear in multiple scale layers
+      seen.add(id);
+      records.push(rec);
+      kept++;
+    }
+    if (raw.length) log(`gnis: layer ${layer.id} (${layer.name}) → ${raw.length} raw, ${kept} kept`);
   }
   const byKind = {};
   for (const r of records) byKind[r.tags.curiosity] = (byKind[r.tags.curiosity] || 0) + 1;

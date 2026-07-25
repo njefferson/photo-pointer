@@ -1,26 +1,18 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { pickLayer, mapFeature, normalizeFeature, buildWhere, ingest, meta } from '../ingest/adapters/gnis.mjs';
+import { pickLayers, mapFeature, normalizeFeature, buildWhere, ingest, meta } from '../ingest/adapters/gnis.mjs';
 import { makeSpot, validateSpot } from '../src/model/spot.js';
 
 const TODAY = '2026-07-25';
 
-test('pickLayer finds the Landforms feature layer by name', () => {
+test('pickLayers returns every class-bearing layer, skipping ones without the field', () => {
   const doc = { layers: [
-    { id: 0, name: 'Antarctica Physical Features', fields: [{ name: 'gaz_featureclass' }] },
-    { id: 1, name: 'Incorporated Places (Civil)', fields: [{ name: 'gaz_featureclass' }] },
-    { id: 4, name: 'Landforms', fields: [{ name: 'gaz_id' }, { name: 'gaz_name' }, { name: 'gaz_featureclass' }] },
+    { id: 0, name: 'Group Layer', fields: [] },
+    { id: 1, name: 'Water Features', fields: [{ name: 'gaz_id' }, { name: 'gaz_featureclass' }] },
+    { id: 4, name: 'Landforms', fields: [{ name: 'gaz_name' }, { name: 'gaz_featureclass' }] },
   ] };
-  assert.equal(pickLayer(doc), 4);
-});
-
-test('pickLayer falls back to a physical layer with the class field, skipping Places', () => {
-  const doc = { layers: [
-    { id: 1, name: 'Incorporated Places (Civil)', fields: [{ name: 'gaz_featureclass' }] },
-    { id: 5, name: 'Physical Features', fields: [{ name: 'gaz_featureclass' }] },
-  ] };
-  assert.equal(pickLayer(doc), 5);
-  assert.equal(pickLayer({ layers: [] }), null);
+  assert.deepEqual(pickLayers(doc), [{ id: 1, name: 'Water Features' }, { id: 4, name: 'Landforms' }]);
+  assert.deepEqual(pickLayers({ layers: [] }), []);
 });
 
 test('buildWhere lists the GNIS classes', () => {
@@ -55,29 +47,35 @@ test('normalizeFeature drops unnamed rows, non-curiosity classes and bad geometr
   assert.equal(normalizeFeature({ attributes: { gaz_id: 3, gaz_name: 'X Falls', gaz_featureclass: 'Falls' }, geometry: {} }, TODAY), null);
 });
 
-test('ingest discovers the layer, pages, and dedups by gaz_id', async () => {
+test('ingest queries every class-bearing layer, pages, and dedups by gaz_id across layers', async () => {
   const region = { id: 't', bbox: { south: 39, west: -122, north: 40, east: -121 } };
-  const layersDoc = { layers: [{ id: 4, name: 'Landforms', fields: [{ name: 'gaz_featureclass' }] }] };
-  const page0 = { exceededTransferLimit: true, features: Array.from({ length: 1000 }, (_, i) => (
+  // Two class-bearing layers: 1 = Water (Falls + a hot Spring), 4 = Landforms (an Arch + a dup of the hot Spring).
+  const layersDoc = { layers: [
+    { id: 1, name: 'Water Features', fields: [{ name: 'gaz_featureclass' }] },
+    { id: 4, name: 'Landforms', fields: [{ name: 'gaz_featureclass' }] },
+  ] };
+  const layer1page0 = { exceededTransferLimit: true, features: Array.from({ length: 1000 }, (_, i) => (
     { attributes: { gaz_id: i, gaz_name: `Falls ${i}`, gaz_featureclass: 'Falls' }, geometry: { x: -121.5, y: 39.5 } })) };
-  const page1 = { features: [
+  const layer1page1 = { features: [
     { attributes: { gaz_id: 1000, gaz_name: 'Grover Hot Springs', gaz_featureclass: 'Spring' }, geometry: { x: -121.4, y: 39.4 } },
-    { attributes: { gaz_id: 1000, gaz_name: 'Grover Hot Springs', gaz_featureclass: 'Spring' }, geometry: { x: -121.4, y: 39.4 } }, // dup id
     { attributes: { gaz_id: 1001, gaz_name: 'Cold Spring', gaz_featureclass: 'Spring' }, geometry: { x: -121.3, y: 39.3 } }, // skipped
   ] };
-  const calls = [];
+  const layer4 = { features: [
+    { attributes: { gaz_id: 2000, gaz_name: 'Rainbow Arch', gaz_featureclass: 'Arch' }, geometry: { x: -121.2, y: 39.2 } },
+    { attributes: { gaz_id: 1000, gaz_name: 'Grover Hot Springs', gaz_featureclass: 'Spring' }, geometry: { x: -121.4, y: 39.4 } }, // dup of layer1
+  ] };
   const fetchFn = async (url) => {
-    calls.push(url);
     let body;
     if (url.includes('/layers')) body = layersDoc;
-    else if (url.includes('resultOffset=0')) body = page0;
-    else body = page1;
+    else if (url.includes('/1/query')) body = url.includes('resultOffset=0') ? layer1page0 : layer1page1;
+    else if (url.includes('/4/query')) body = layer4;
+    else body = { features: [] };
     return { ok: true, status: 200, json: async () => body };
   };
   const recs = await ingest(region, { fetchFn, today: TODAY, sleep: async () => {} });
-  // 1000 falls + 1 hot spring (dup dropped, cold spring skipped)
-  assert.equal(recs.length, 1001);
-  assert.ok(calls[0].includes('/layers'));
-  assert.ok(recs.some((r) => r.tags.curiosity === 'Hot spring'));
+  // 1000 falls + 1 hot spring + 1 arch (cross-layer dup dropped, cold spring skipped)
+  assert.equal(recs.length, 1002);
+  assert.equal(recs.filter((r) => r.tags.curiosity === 'Hot spring').length, 1);
+  assert.equal(recs.filter((r) => r.tags.curiosity === 'Natural arch').length, 1);
   assert.equal(meta.source, 'gnis');
 });
