@@ -83,6 +83,25 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 SOURCE #2 COMPLETE across all OSM regions (on staging). Final
+  osm-features counts: Sacramento 6 (3 caves→oddity, 3 archaeological→ruins),
+  Yellowstone 714 (701 hot springs + caves/shipwreck/arch), Humboldt 7 (4
+  lighthouses — Cape Mendocino/Humboldt Harbor/Memorial + 2 natural arches
+  Elephant Rock/The Portal + 1 shipwreck), panama-city-beach 1 (San Carlos
+  Chacatos archaeological site; its 2 lighthouses Cape San Blas/St Joseph Point
+  come via source #1 Wikidata), Reno 0, Hahira 0 (both CONFIRMED genuine 0 via
+  logs — "osm-features: none, skipping"). california-ghost-towns EXCLUDED by
+  design (curiosity-only region, OSM not run). GOTCHA: Humboldt + PCB's FIRST two
+  dispatches TIMED OUT (20-min timeout-minutes → GitHub shows conclusion
+  "cancelled", NOT a real 0) — Overpass mirrors were overloaded; a re-dispatch
+  ~30 min later went through fine. So a "cancelled" osm-features run = Overpass
+  timeout, re-dispatch it; only a "success" with "osm-features: none" in the log
+  is a true 0. Sac + Yellowstone features are already LIVE on main (promoted);
+  Humboldt + PCB feature DATA is STAGING-ONLY (2 runner commits ahead of main,
+  5ee7228 + f509fcd) — a data-only PROMOTE CANDIDATE awaiting Noah's call (the
+  display code, refineCategory feature-first, is already on main). NEXT: source
+  #3 (USGS GNIS, US public domain, independent of Overpass) — the last of the
+  "three sources".
 - 2026-07-25 PROMOTED 1.5.15 + 1.5.16 + 1.5.17 to main (Noah's "promote what is
   there now to main"). Production == origin/staging == origin/main == cc8af8d.
   NOTE this was a MERGE, not a fast-forward (same shape as the 1.5.9→1.5.12
