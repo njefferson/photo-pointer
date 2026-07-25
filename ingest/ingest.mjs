@@ -31,6 +31,7 @@ import * as publicLands from './adapters/public-lands.mjs';
 import * as inaturalist from './adapters/inaturalist.mjs';
 import * as markers from './adapters/wikidata-markers.mjs';
 import * as curiosities from './adapters/wikidata-curiosities.mjs';
+import * as gnis from './adapters/gnis.mjs';
 import * as commons from './adapters/commons-photos.mjs';
 import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
@@ -203,6 +204,26 @@ async function cmdCuriosities(id) {
     return;
   }
   await writeSource(P.sourcesDir, 'wikidata-curiosities.json', curiosities.meta, region, records);
+}
+
+// SOURCE #3: USGS GNIS named natural features (waterfalls, arches, caves, hot
+// springs) via The National Map geonames REST service — US public domain,
+// independent of Overpass/Wikidata. Its own source file the merge folds in.
+async function cmdGnis(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const records = await gnis.ingest(region, { today, log });
+  if (records.length === 0) {
+    // 0-guard: don't clobber a good existing file with a transient empty fetch;
+    // a region with no named natural features just skips (doesn't abort `all`).
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'gnis.json'))) {
+      console.error('gnis: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`gnis: none for ${region.id} — skipping`);
+    return;
+  }
+  await writeSource(P.sourcesDir, 'gnis.json', gnis.meta, region, records);
 }
 
 async function requireSpots(P, cmdName) {
@@ -452,9 +473,10 @@ const commands = {
   commons: cmdCommons,
   markers: cmdMarkers,
   curiosities: cmdCuriosities,
+  gnis: cmdGnis,
   merge: cmdMerge,
   validate: cmdValidate,
-  all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdMerge(id); await cmdValidate(id); },
+  all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdGnis(id); await cmdMerge(id); await cmdValidate(id); },
 };
 if (!commands[cmd]) {
   console.error(`usage: node ingest/ingest.mjs <${Object.keys(commands).join('|')}> [regionId]`);
