@@ -83,6 +83,38 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.12 "Two new areas: California Ghost Towns & Reno" (a CAPABILITY)
+  BUILT on staging (awaiting on-device pass). Noah: "I like the ghost town region
+  but they also load in other regions? I need a new region around the balloon
+  race." TWO new regions in config/regions.json: (1) `california-ghost-towns` —
+  a STATEWIDE theme region (bbox 32.4/-124.6/42.1/-117.0 = all CA + nearby NV),
+  GHOST-TOWN-ONLY via a new region field `curiosityClasses:['Q74047']` that the
+  curiosities adapter honors (classesFor(region) filters the VALUES list) so a
+  statewide query doesn't pull every CA waterfall. county is a placeholder
+  {osm_area_name:'California', fips:'06000'} — OSM is NOT run here; only the
+  `curiosities` workflow (dispatched via wikidata-curiosities.yml). RESULT: 205
+  ghost towns statewide, **Bodie included**, all pass keepSpot (named + wiki).
+  (2) `reno` — Reno, NV (Washoe County US-NV-031), bbox 39.35/-119.95/39.68/
+  -119.65, center on the balloon-race venue (Rancho San Rafael 39.5528,
+  -119.8213, zoom 12). Ran the FULL `all` pipeline via ingest-osm.yml (osm+ebird
+  [Frame has no NV → graceful skip]+markers+curiosities+merge): 329 spots (208
+  parks, 85 oddities, 19 viewpoints, 12 markers, 5 trailheads; 307 kept). The
+  GREAT RENO BALLOON RACE is a CURATED pin — hand-authored data/sources/reno/
+  curated.json (source 'curated', license 'own'), category oddity, tags.curiosity
+  'Balloon festival', links to Wikipedia; the merge folds it in like any source.
+  (GOTCHA: best_light must be from the spot.js LIGHT enum — 'dawn' failed
+  validateSpot, used 'sunrise'.) Ghost towns ALSO still load in the normal
+  regions as curiosities (1.5.11) — intended (local browse vs the dedicated
+  statewide view); minor overlap accepted. sw CACHE pointer-1.5.12 (config/
+  regions.json is precached → bump so the 2 new pills reach devices); changelog[0]
+  1.5.12. region.test.mjs region list updated to 7. VERIFIED headless: 7 region
+  pills; California Ghost Towns → 205 rows incl. Bodie; Reno → balloon race in the
+  list, popup "Balloon festival · landscape"; ZERO pageerrors. 96 tests + contrast
+  green; both regions validate clean. BRANCH: the 2 regions + curated pin + the
+  adapter's classesFor are on staging; the adapter tooling (with correct QIDs +
+  classesFor) is also synced to main for workflow_dispatch. STILL OWED from the
+  "three sources" ask: SOURCE #2 (specific OSM feature tags) and SOURCE #3 (USGS
+  GNIS) — source #1 (Wikidata curiosities) is done across all 7 regions.
 - 2026-07-25 1.5.11 "Atlas-Obscura finds (source #1: Wikidata curiosities)"
   (a CAPABILITY) BUILT on staging (awaiting on-device pass). Noah: "run the three
   suggested sources in order" — this is SOURCE #1 of 3. NEW adapter ingest/
