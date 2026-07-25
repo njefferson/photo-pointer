@@ -2865,7 +2865,7 @@
       "name": "Great Reno Balloon Race",
       "lat": 39.5528,
       "lng": -119.8213,
-      "category": "oddity",
+      "category": "event",
       "subject_type": [
         "landscape"
       ],
@@ -2889,6 +2889,13 @@
       ],
       "tags": {
         "curiosity": "Balloon festival",
+        "event": {
+          "month": 9,
+          "day": 11,
+          "days": 3,
+          "when": "Second weekend of September",
+          "recurs": "annual"
+        },
         "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Reno_Balloon_Race"
       }
     },

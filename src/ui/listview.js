@@ -10,6 +10,7 @@ import { CATEGORY_META, spotDisplayName } from './mapview.js';
 import { favorites, isFavorite, toggleFavorite } from '../model/store.js';
 import { distanceM, bearingDeg } from '../model/geo.js';
 import { compass } from '../model/light.js';
+import { nextOccurrence, formatEventWhen, upcomingKey } from '../model/events.js';
 import { scorePct, scoreTier } from './synthesis.js';
 
 // Module-level so the chosen sort / filter survive re-renders within a session.
@@ -44,7 +45,8 @@ function fmtDistBearing(spot) {
 function detailBits(spot) {
   const t = spot.tags ?? {};
   const bits = [];
-  if (t.curiosity) bits.push(t.curiosity); // "Ghost town", "Waterfall", …
+  if (t.event) { const w = formatEventWhen(nextOccurrence(t.event)); if (w) bits.push(w); } // "Sep 11–13 · in 12 days"
+  if (t.curiosity) bits.push(t.curiosity); // "Ghost town", "Waterfall", "Balloon festival"…
   if (spot.subject_type?.length) bits.push(spot.subject_type.join(', '));
   if (t.bortle != null) bits.push(`Bortle ${t.bortle}`);
   if (t.publicLand) bits.push('public land');
@@ -131,6 +133,7 @@ export function renderListInto(container, opts) {
 
   const byDistance = sortMode === 'distance' && userLoc;
   if (sortMode === 'best') rows.sort((a, b) => (scoreOf(b) ?? 0) - (scoreOf(a) ?? 0) || cmpName(a, b));
+  else if (sortMode === 'upcoming') rows.sort((a, b) => upcomingKey(a) - upcomingKey(b) || cmpName(a, b));
   else if (byDistance) rows.sort((a, b) => (a._dist ?? Infinity) - (b._dist ?? Infinity));
   else if (sortMode === 'category') rows.sort((a, b) => (a.category > b.category ? 1 : a.category < b.category ? -1 : 0) || cmpName(a, b));
   else rows.sort(cmpName);
@@ -153,6 +156,7 @@ export function renderListInto(container, opts) {
   const controls = el('div', { class: 'list-controls', role: 'group', 'aria-label': 'Sort and filter the list' }, [
     el('span', { class: 'list-sortlabel' }, 'Sort:'),
     sortBtn('best', 'Best'),
+    sortBtn('upcoming', 'Upcoming'),
     sortBtn('distance', 'Distance'),
     sortBtn('name', 'Name'),
     sortBtn('category', 'Type'),
@@ -170,6 +174,14 @@ export function renderListInto(container, opts) {
     noteText = `${total} place${total === 1 ? '' : 's'}${total > CAP ? ` — showing the ${order} ${CAP}` : ''}`;
   }
 
+  // The Events view is honest about what it is: a hand-picked curated list plus
+  // computed sky events — NOT a complete festival feed (no open, license-clean
+  // database of every event exists), and annual dates are approximate.
+  const eventsNote = sortMode === 'upcoming'
+    ? el('p', { class: 'list-eventsnote', role: 'note' },
+        'Events are hand-picked — the festivals we’ve added, plus computed meteor-shower peaks. This isn’t a complete listing (there’s no open database of every event), and dates for annual events are approximate — confirm with the official source before you go.')
+    : null;
+
   const list = el('div', { class: 'list-rows' }, shown.length
     ? shown.map((s) => listRow(s, scoreOf(s), onFocusSpot, onChange, onHide, rerender))
     : [el('p', { class: 'list-empty' }, searchQuery
@@ -179,5 +191,7 @@ export function renderListInto(container, opts) {
           : 'No places to list. Turn on a pin type at the top.')]);
 
   clear(container);
-  container.append(controls, el('p', { class: 'list-note' }, noteText), list);
+  container.append(controls);
+  if (eventsNote) container.append(eventsNote);
+  container.append(el('p', { class: 'list-note' }, noteText), list);
 }

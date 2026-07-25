@@ -209,6 +209,15 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
       'To remove one, tap a pin you dropped and choose ', el('strong', {}, 'Remove pin'), ' (you get an undo). ',
       'Back up your pins and saved favorites, or move them to another device, from the ', el('strong', {}, '⤓'), ' button in the top bar.',
     ]),
+    el('h3', { class: 'welcome-sub' }, 'Events'),
+    el('p', {}, [
+      'Sort the list by ', el('strong', {}, 'Upcoming'), ' to see dated happenings — festivals like the Great Reno Balloon Race, plus meteor-shower peaks computed on your device.',
+    ]),
+    el('p', { class: 'dim' }, [
+      'Be aware of the limits: events are ', el('strong', {}, 'hand-picked'), ', not a complete listing — there’s no open, freely-licensed database of every event to draw on, so only festivals that have been added show up. ',
+      'Annual dates are approximate (many festivals move by a weekend each year) and meteor peaks can shift a night. ',
+      'Always confirm dates and times with the official source before making the trip.',
+    ]),
     el('h3', { class: 'welcome-sub' }, 'Add it to your home screen'),
     el('p', { class: 'dim' }, 'photo-pointer runs best installed: full-screen, and offline in the field with no signal.'),
     ...installBody(),

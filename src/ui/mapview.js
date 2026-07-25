@@ -8,6 +8,7 @@ import { sunTimesFor, compass, clock } from '../model/light.js';
 import { moonTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
 import { airToday } from '../model/airquality.js';
+import { nextOccurrence, formatEventWhen } from '../model/events.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
 import { inBBox, bboxCenter } from '../model/geo.js';
@@ -30,6 +31,7 @@ export const CATEGORY_META = {
   trailhead: { label: 'Trailhead', letter: 'T' },
   campsite: { label: 'Campsite', letter: 'C' },
   wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W' },
+  event: { label: 'Event', letter: 'E' },
   user_pin: { label: 'My pins', letter: '★' },
 };
 
@@ -663,6 +665,12 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         spot.tags?.curiosity ? spot.tags.curiosity : `${meta.label}`,
         spot.subject_type?.length ? ` · ${spot.subject_type.join(', ')}` : null,
       ]),
+      spot.tags?.event
+        ? el('p', { class: 'popup-event' }, [
+            el('strong', {}, formatEventWhen(nextOccurrence(spot.tags.event)) ?? 'Upcoming'),
+            spot.tags.event.skywide ? ' — visible region-wide' : null,
+          ])
+        : null,
       notabilitySection(spot),
       markerSection(spot),
       spot.best_light?.length

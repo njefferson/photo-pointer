@@ -37,7 +37,7 @@ const TEXT = 4.5;
 const UI = 3.0;
 const CATS = [
   'cat-viewpoint', 'cat-marker', 'cat-oddity', 'cat-park', 'cat-trailhead',
-  'cat-campsite', 'cat-wildlife_hotspot', 'cat-user_pin',
+  'cat-campsite', 'cat-wildlife_hotspot', 'cat-event', 'cat-user_pin',
   'cat-ghost_town', 'cat-waterfall', 'cat-hot_spring', 'cat-lighthouse', 'cat-ruins',
 ];
 

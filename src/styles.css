@@ -26,6 +26,7 @@
   --cat-trailhead: #2a5f6d;
   --cat-campsite: #6d5424;
   --cat-wildlife_hotspot: #365f8a;
+  --cat-event: #9b3b6a;
   --cat-user_pin: #6d5200;
 }
 
@@ -423,8 +424,12 @@ body {
 .pin-trailhead { background: var(--cat-trailhead); }
 .pin-campsite { background: var(--cat-campsite); }
 .pin-wildlife_hotspot { background: var(--cat-wildlife_hotspot); }
+.pin-event { background: var(--cat-event); }
 .pin-user_pin { background: var(--cat-user_pin); }
 
+.popup-event { margin: 4px 0; font-size: 13px; }
+/* Events view honesty note — --dim on --bg is the gated dim-text pair. */
+.list-eventsnote { margin: 6px 0 2px; font-size: 12px; line-height: 1.4; color: var(--dim); }
 .popup h3 { margin: 0 0 4px; font-size: 15px; }
 .popup p { margin: 4px 0; font-size: 13px; }
 .popup-cat { color: #555555; }

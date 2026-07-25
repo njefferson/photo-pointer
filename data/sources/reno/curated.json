@@ -13,7 +13,7 @@
       "name": "Great Reno Balloon Race",
       "lat": 39.5528,
       "lng": -119.8213,
-      "category": "oddity",
+      "category": "event",
       "subject_type": ["landscape"],
       "best_light": ["sunrise"],
       "best_season": ["fall"],
@@ -21,6 +21,7 @@
       "notes": "The largest free hot-air balloon event in the world, held each September at Rancho San Rafael Regional Park. The pre-dawn Glow Show and the mass ascension at sunrise are the classic shoots.",
       "tags": {
         "curiosity": "Balloon festival",
+        "event": { "month": 9, "day": 11, "days": 3, "when": "Second weekend of September", "recurs": "annual" },
         "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Reno_Balloon_Race"
       },
       "sources": [

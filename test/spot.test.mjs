@@ -50,9 +50,9 @@ test('out-of-range coordinates are rejected', () => {
   assert.ok(errs.some((e) => e.includes('bad lng')));
 });
 
-test('category vocabulary is exactly the nine agreed kinds', () => {
+test('category vocabulary is exactly the agreed kinds', () => {
   assert.deepEqual(CATEGORIES, [
     'viewpoint', 'marker', 'oddity', 'park', 'trailhead',
-    'campsite', 'wildlife_hotspot', 'dark_sky', 'user_pin',
+    'campsite', 'wildlife_hotspot', 'dark_sky', 'event', 'user_pin',
   ]);
 });

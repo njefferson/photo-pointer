@@ -11,6 +11,7 @@ import { LAYER_FILTERS } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 import { renderListInto } from './ui/listview.js';
 import { keepSpot, refineCategory } from './model/notability.js';
+import { buildCelestialEvents } from './model/events.js';
 import { VERSION } from './data/changelog.js';
 
 applyTheme(currentTheme());
@@ -540,6 +541,9 @@ async function loadRegionData(id) {
   } catch {
     toast('Region data unavailable offline — showing your pins only');
   }
+  // Computed sky events (meteor-shower peaks) — on-device, always current, no data
+  // refresh needed. Added regardless of the fetch so they work offline too.
+  if (region) dataSpots = dataSpots.concat(buildCelestialEvents(region));
 }
 
 async function switchRegion(id, { center = null } = {}) {
