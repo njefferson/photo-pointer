@@ -165,6 +165,7 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
   let outside = 0;
   let skipped = 0;
   let fetched = 0;
+  const unmappedTypes = new Map();
   for (const state of states) {
     let total = Infinity;
     // Page strictly to the reported TOTAL_COUNT — RIDB returns SHORT pages while
@@ -181,7 +182,16 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
       fetched += rows.length;
       for (const f of rows) {
         const rec = normalizeFacility(f, today);
-        if (!rec) { skipped++; continue; }
+        if (!rec) {
+          skipped++;
+          // Record WHY, so a whole facility kind can't be silently left on the
+          // table — the log names the unmapped types and how many of each.
+          if (f?.FacilityName && categoryForType(f.FacilityTypeDescription) === null) {
+            const t = String(f.FacilityTypeDescription ?? '(none)');
+            unmappedTypes.set(t, (unmappedTypes.get(t) ?? 0) + 1);
+          }
+          continue;
+        }
         if (!inBBox(rec.lat, rec.lng, region.bbox)) { outside++; continue; }
         const id = rec.sources[0].source_id;
         if (seen.has(id)) continue;
@@ -199,5 +209,10 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
   const described = records.filter((r) => r.notes).length;
   log(`ridb: ${records.length} facilities ${JSON.stringify(byCat)} — ${described} with a description `
     + `(${outside} outside bbox, ${skipped} unmapped/unusable)`);
+  if (unmappedTypes.size) {
+    const top = [...unmappedTypes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12)
+      .map(([t, n]) => `${t}=${n}`).join(', ');
+    log(`ridb: unmapped facility types (statewide, pre-bbox): ${top}`);
+  }
   return records;
 }
