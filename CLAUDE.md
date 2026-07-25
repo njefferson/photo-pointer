@@ -83,6 +83,19 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 PROMOTED 1.5.9→1.5.12 to main (Noah's "Promote"). Production ==
+  origin/staging == origin/main == bd74f03. NOTE this promote was a MERGE, not a
+  fast-forward: main had 2 tooling-only commits (the curiosities adapter/workflow
+  added to main so workflow_dispatch could find it) that staging didn't carry as
+  commits, so the branches diverged; merged staging into main (trees identical
+  after — verified `git diff` empty), then re-synced staging to the merge commit.
+  Ships: 1.5.9 (tri-state layer filters restored, unnamed-oddity drop, ranking
+  cache + loading splash), 1.5.10 (neutral-chip line-through fix), 1.5.11
+  (Wikidata curiosities source #1 across all 5 original regions), 1.5.12 (new
+  California Ghost Towns + Reno regions w/ the balloon-race curated pin). staging
+  == main after this. NO GitHub metadata step (description/website/topics
+  unchanged; regions/data aren't repo metadata). STILL OWED: source #2 (specific
+  OSM feature tags) + source #3 (USGS GNIS) from the "three sources" ask.
 - 2026-07-25 1.5.12 "Two new areas: California Ghost Towns & Reno" (a CAPABILITY)
   BUILT on staging (awaiting on-device pass). Noah: "I like the ghost town region
   but they also load in other regions? I need a new region around the balloon
