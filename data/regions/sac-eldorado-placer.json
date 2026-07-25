@@ -10309,11 +10309,13 @@
       "lat": 38.9031342,
       "lng": -120.585604,
       "category": "campsite",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Overview Black Oak Campground is group camping destination near Stumpy Meadows Lake on the Eldorado National Forest. The forest boasts over 400 miles of hiking trails and an abundance of lakes and rivers for fishing and swimming.Recreation Stumpy Meadows Lake, with its clear waters and 5-mph speed limit, offers plenty of swimming, kayaking and canoeing opportunities. The lake is regularly stocked…",
       "sources": [
         {
           "source": "osm",
@@ -10322,9 +10324,20 @@
           "source_url": "https://www.openstreetmap.org/node/3437860463",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "232021",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232021",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "232021",
+        "ridb_type": "Campground",
+        "reservable": true,
         "name": "Black Oak Campground",
         "tourism": "camp_site",
         "bortle": 1,
@@ -12151,15 +12164,16 @@
       "category": "wildlife_hotspot",
       "subject_type": [
         "birds",
-        "wildlife"
+        "wildlife",
+        "landscape"
       ],
       "best_light": [
         "sunrise",
         "golden_hour"
       ],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Overview Bridal Veil Group Campsite and Picnic Area is located on the South Fork of the American River. It offers picnicking sites, a group overnight area, beautiful swimming holes, and close access to fishing. Recreation This site provides two large swimming holes in the river that are popular with the local residents. Fishing is also a popular activity, mainly rainbow and brown trout.Facilities…",
       "sources": [
         {
           "source": "ebird",
@@ -12168,9 +12182,20 @@
           "source_url": "https://ebird.org/hotspot/L10733292",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "251615",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/251615",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "251615",
+        "ridb_type": "Campground",
+        "reservable": true,
         "ebird_species": 53,
         "bortle": 1,
         "horizon": {
@@ -24940,11 +24965,13 @@
       "lat": 38.9424461,
       "lng": -120.7652753,
       "category": "campsite",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Overview Dru Barner Campground offers 48 campsites that are nestled in the forest just 6 miles from Georgetown, CA. The campground offers access to trails, creeks and is a short drive from some nearby reservoirs. This campground was designed for equestrians, but it can also be used by tent, camper, trailer and recreational vehicles. Common wildlife to the area includes turkeys, deer, bears…",
       "sources": [
         {
           "source": "osm",
@@ -24953,9 +24980,28 @@
           "source_url": "https://www.openstreetmap.org/way/1093672887",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "10077451",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/10077451",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
+          "source": "ridb",
+          "source_id": "236544",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/236544",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "10077451",
+        "ridb_type": "Campground",
+        "reservable": true,
         "name": "Dru Barner Campground",
         "operator": "USFS Eldorado National Forest",
         "tourism": "camp_site",
@@ -70567,6 +70613,35 @@
       }
     },
     {
+      "id": "ponderosa-cove-campground@9qfjps",
+      "name": "PONDEROSA COVE CAMPGROUND",
+      "lat": 38.8741667,
+      "lng": -120.6027778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Ponderosa Cove greets group campers with shaded campsites close to scenic Stumpy Meadows Reservoir. The campground provides a pleasant destination for bird watching and nature viewing, in addition to activities at the lake.Recreation Enjoy a picnic in the campground, or head to another picnic area at Stumpy Meadows Boat Ramp. The reservoir is great for swimming and fishing for brown and…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233285",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233285",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "233285",
+        "ridb_type": "Campground",
+        "reservable": true
+      }
+    },
+    {
       "id": "ponderosa-farm-community-park@9qcs7b",
       "name": "Ponderosa Farm Community Park",
       "lat": 38.7193464,
@@ -82953,6 +83028,35 @@
       }
     },
     {
+      "id": "sly-guard-cabin@9qfhpy",
+      "name": "SLY GUARD CABIN",
+      "lat": 38.7086111,
+      "lng": -120.5952778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Sly Guard Cabin is less remote than other cabins on the Eldorado National forest and is a great choice for families with children. Sly Guard provides the cabin in the woods experience with the convenience of modern amenities. The cabin is near Sly Park Reservoir, also called Jenkinson Lake, the tourist area of Apple Hill, a variety of wineries, a number of hiking trails, and the…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234654",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234654",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "ridb": "234654",
+        "ridb_type": "Campground",
+        "reservable": true
+      }
+    },
+    {
       "id": "sly-park-rec-area@9qfk28",
       "name": "Sly Park Rec Area",
       "lat": 38.721,
@@ -86735,11 +86839,13 @@
       "lat": 38.9045024,
       "lng": -120.5925864,
       "category": "campsite",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Overview Stumpy Meadows, on the Stumpy Meadows Reservoir, provides an enjoyable setting in a heavy conifer forest with easy access to an array of water activities. Campers come here to while away warm summer days on the lake and enjoy the sights and sounds of the great outdoors. The campground provides easy access to both hiking and biking trails. The historic town of Georgetown is 15 miles away…",
       "sources": [
         {
           "source": "osm",
@@ -86748,9 +86854,20 @@
           "source_url": "https://www.openstreetmap.org/node/3437860464",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "232107",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232107",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
+        "ridb": "232107",
+        "ridb_type": "Campground",
+        "reservable": true,
         "name": "Stumpy Meadows Campground",
         "tourism": "camp_site",
         "bortle": 1,

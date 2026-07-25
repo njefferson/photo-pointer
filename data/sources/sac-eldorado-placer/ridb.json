@@ -1,0 +1,208 @@
+{
+  "source": {
+    "source": "ridb",
+    "name": "Recreation.gov (RIDB) — federal recreation facilities",
+    "license": "public-domain",
+    "attribution": "Recreation Information Database (RIDB), U.S. federal recreation agencies",
+    "status": "working"
+  },
+  "region": "sac-eldorado-placer",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Dru Barner Campground",
+      "lat": 38.942886,
+      "lng": -120.764012,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Dru Barner Campground offers 48 campsites that are nestled in the forest just 6 miles from Georgetown, CA. The campground offers access to trails, creeks and is a short drive from some nearby reservoirs. This campground was designed for equestrians, but it can also be used by tent, camper, trailer and recreational vehicles. Common wildlife to the area includes turkeys, deer, bears…",
+      "tags": {
+        "ridb": "10077451",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "10077451",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/10077451",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BLACK OAK",
+      "lat": 38.9041667,
+      "lng": -120.5875,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Black Oak Campground is group camping destination near Stumpy Meadows Lake on the Eldorado National Forest. The forest boasts over 400 miles of hiking trails and an abundance of lakes and rivers for fishing and swimming.Recreation Stumpy Meadows Lake, with its clear waters and 5-mph speed limit, offers plenty of swimming, kayaking and canoeing opportunities. The lake is regularly stocked…",
+      "tags": {
+        "ridb": "232021",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232021",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232021",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "STUMPY MEADOWS",
+      "lat": 38.9041667,
+      "lng": -120.5916667,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Stumpy Meadows, on the Stumpy Meadows Reservoir, provides an enjoyable setting in a heavy conifer forest with easy access to an array of water activities. Campers come here to while away warm summer days on the lake and enjoy the sights and sounds of the great outdoors. The campground provides easy access to both hiking and biking trails. The historic town of Georgetown is 15 miles away…",
+      "tags": {
+        "ridb": "232107",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232107",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232107",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "PONDEROSA COVE CAMPGROUND",
+      "lat": 38.8741667,
+      "lng": -120.6027778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Ponderosa Cove greets group campers with shaded campsites close to scenic Stumpy Meadows Reservoir. The campground provides a pleasant destination for bird watching and nature viewing, in addition to activities at the lake.Recreation Enjoy a picnic in the campground, or head to another picnic area at Stumpy Meadows Boat Ramp. The reservoir is great for swimming and fishing for brown and…",
+      "tags": {
+        "ridb": "233285",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233285",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233285",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "SLY GUARD CABIN",
+      "lat": 38.7086111,
+      "lng": -120.5952778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Sly Guard Cabin is less remote than other cabins on the Eldorado National forest and is a great choice for families with children. Sly Guard provides the cabin in the woods experience with the convenience of modern amenities. The cabin is near Sly Park Reservoir, also called Jenkinson Lake, the tourist area of Apple Hill, a variety of wineries, a number of hiking trails, and the…",
+      "tags": {
+        "ridb": "234654",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234654",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234654",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Dru Barner Campground",
+      "lat": 38.94293,
+      "lng": -120.764091,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The campground is ideal for equestrian use, with four water troughs, several pull through spaces, and access to trails. The park provides day-use facilities for staging nonmotorized trails recreation. Location: 7.5 miles east of Georgetown on Wentworth Springs Road (Forest Road 1), then 1 mile north east on Forest Road 13N16 and 0.5 miles northwest on Forest Road 13N58. Dru Barner Recreation…",
+      "tags": {
+        "ridb": "236544",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236544",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/236544",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BRIDAL VEIL GROUP AREA AND PICNIC GROUND",
+      "lat": 38.7663889,
+      "lng": -120.4825,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Bridal Veil Group Campsite and Picnic Area is located on the South Fork of the American River. It offers picnicking sites, a group overnight area, beautiful swimming holes, and close access to fishing. Recreation This site provides two large swimming holes in the river that are popular with the local residents. Fishing is also a popular activity, mainly rainbow and brown trout.Facilities…",
+      "tags": {
+        "ridb": "251615",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251615",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/251615",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
