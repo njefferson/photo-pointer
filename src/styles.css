@@ -487,6 +487,13 @@ body {
 
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
    consistent with .light-table; meaning is in the layer labels, not color. */
+/* Collapsible "Tonight & light" details in the popup — keeps the card short so
+   it opens at the top. Fixed dark ink on the light popup card (~15:1). */
+.popup-more { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 4px; }
+.popup-more > summary { cursor: pointer; font-size: 13px; font-weight: 700; color: #1e1e1e; padding: 3px 0; list-style: none; }
+.popup-more > summary::-webkit-details-marker { display: none; }
+.popup-more[open] > summary { margin-bottom: 4px; }
+
 .synth-box { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 5px; }
 .synth-head { display: flex; justify-content: space-between; align-items: baseline; }
 .synth-why { font-size: 13px; font-weight: 700; color: #1e1e1e; }

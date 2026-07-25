@@ -34,6 +34,17 @@ export const CATEGORY_META = {
   user_pin: { label: 'My pins', letter: '★' },
 };
 
+// A display name for a spot. Unnamed spots survive the notability filter only
+// when people photograph them (Commons photos nearby), so say THAT plainly
+// instead of "(unnamed oddity)" — they're a cluster of photos, not a named
+// curiosity. Falls back to a plain "Unnamed <type>" otherwise.
+export function spotDisplayName(spot) {
+  if (spot.name) return spot.name;
+  if (spot.tags?.commons?.photos) return 'A photographed spot';
+  const meta = CATEGORY_META[spot.category];
+  return meta ? `Unnamed ${meta.label.toLowerCase()}` : 'Unnamed spot';
+}
+
 // Tile hosts MUST also be listed in sw.js TILE_HOSTS (SW bypasses them —
 // opaque cross-origin tiles through a SW break on iOS WebKit).
 const BASE_LAYERS = () => ({
@@ -381,7 +392,12 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     focusCenter = null;
     forcedId = null;
   }
-  map.on('popupopen', () => { openPopups += 1; });
+  map.on('popupopen', (e) => {
+    openPopups += 1;
+    // Open scrolled to the TOP (name/why first), not wherever a tall card landed.
+    const c = e.popup.getElement()?.querySelector('.leaflet-popup-content');
+    if (c) c.scrollTop = 0;
+  });
   map.on('dragstart', () => { popupSavedCenter = null; focusCenter = null; });
   map.on('popupclose', () => {
     openPopups = Math.max(0, openPopups - 1);
@@ -639,7 +655,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     const meta = CATEGORY_META[spot.category] ?? { label: spot.category };
     const root = el('div', { class: 'popup' }, [
       el('div', { class: 'popup-head' }, [
-        el('h2', {}, spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
+        el('h2', {}, spotDisplayName(spot)),
         favButton(spot),
       ]),
       el('p', { class: 'popup-cat' }, [
@@ -677,9 +693,14 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       wikiLine(spot),
       spot.notes ? el('p', {}, spot.notes) : null,
       synthesisBreakdown(synthesisFor(spot.id)),
-      lightSection(spot),
-      airLine(spot),
-      tonightSection(spot),
+      // The astro/weather readout is long — collapse it so the card is short and
+      // opens at the top (no manual scroll-up). Tap to expand when planning.
+      el('details', { class: 'popup-more' }, [
+        el('summary', {}, 'Tonight & light ▾'),
+        lightSection(spot),
+        airLine(spot),
+        tonightSection(spot),
+      ]),
       el('p', { class: 'popup-nav' }, [
         el('a', {
           href: `https://maps.apple.com/?ll=${spot.lat},${spot.lng}&q=${encodeURIComponent(spot.name ?? 'Spot')}`,
