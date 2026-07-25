@@ -456,6 +456,15 @@ body {
 
 .popup-event { margin: 4px 0; font-size: 13px; }
 
+/* "What we can tell you" — shown only on a card whose SOURCE is bare, so the
+   space carries computed facts (sky, horizon, sun) instead of nothing.
+   --dim and --ink on --card are the gated pairs. */
+.popup-glance { margin: 6px 0; padding: 5px 8px; background: color-mix(in srgb, var(--ink) 5%, var(--card)); border-radius: 6px; }
+.popup-glance-label { margin: 0 0 1px; font-size: 11px; font-weight: 700; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
+.popup-glance-text { margin: 0; font-size: 13px; }
+/* The upstream-fix link. Quiet, below the note box. */
+.popup-improve { margin: 6px 0 2px; font-size: 12px; }
+
 /* YOUR OWN NOTE on a place — the one thing no dataset supplies. Set off from the
    sourced facts above it by a rule, so it's never mistaken for open data.
    --ink on --card and --dim on --card are the gated pairs. */

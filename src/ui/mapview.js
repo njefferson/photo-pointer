@@ -656,6 +656,64 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // gate is locked, or that the light only works in October — but you know. Stored
   // on this device, carried in the backup bundle, never sent anywhere. This is the
   // honest answer to a card that's bare because its source is bare.
+  // Is this card THIN — nothing but a name and a type? A place can be bare
+  // because its SOURCE is bare (OSM node/5618093482 carries two tags), and an
+  // empty card is a dead end. For those, lead with what we can actually compute
+  // or already hold, instead of leaving the space empty.
+  function isThinCard(spot) {
+    const t = spot.tags ?? {};
+    return !spot.notes
+      && !t.wikipedia && !t.wikidata && !t.hmdb && !t.inscription && !t.nrhp
+      && !t.commons?.photos && !t.inaturalist?.observations && !t.ebird_species
+      && !t.publicLand && !t.event
+      && !(spot.best_light ?? []).length;
+  }
+
+  // What we CAN tell you about a place with no write-up: the sky, the horizon
+  // and where the sun goes. All computed on-device or already measured — no
+  // network, no guessing, nothing asserted that we don't hold.
+  function glanceSection(spot) {
+    const t = spot.tags ?? {};
+    const bits = [];
+    if (t.bortle != null) bits.push(`Bortle ${t.bortle} sky`);
+    const h = t.horizon;
+    if (h && h.open != null) {
+      const word = h.open >= 0.75 ? 'wide-open horizon' : h.open >= 0.45 ? 'fairly open horizon' : 'ridged horizon';
+      // Name the LOWEST compass direction — that's where low sun can reach you.
+      const dirs = [['N', h.n], ['E', h.e], ['S', h.s], ['W', h.w]].filter(([, v]) => typeof v === 'number');
+      const lowest = dirs.length ? dirs.reduce((a, b) => (b[1] < a[1] ? b : a)) : null;
+      bits.push(lowest ? `${word} (lowest ${lowest[0]} ${lowest[1]}°)` : word);
+      if (h.site_m != null) bits.push(`${Math.round(h.site_m)} m up`);
+    }
+    try {
+      const st = sunTimesFor(spot.lat, spot.lng);
+      if (!st.polar && st.sunset) {
+        const dir = compass(st.sunsetAzimuth);
+        bits.push(`sun sets ${dir ? dir + ' ' : ''}${clock(st.sunset)}`);
+      }
+    } catch { /* astronomy unavailable — just omit */ }
+    if (!bits.length) return null;
+    return el('div', { class: 'popup-glance' }, [
+      el('p', { class: 'popup-glance-label' }, 'What we can tell you'),
+      el('p', { class: 'popup-glance-text' }, bits.join(' · ')),
+    ]);
+  }
+
+  // Fix it at the SOURCE. When a spot came from OpenStreetMap, offer a one-tap
+  // deep link into the OSM editor for that exact element — a thin card improves
+  // for every OSM user, not just this app, and flows back on the next ingest.
+  function osmEditLink(spot) {
+    const src = (spot.sources ?? []).find((x) => x.source === 'osm' && /^(node|way|relation)\/\d+$/.test(x.source_id ?? ''));
+    if (!src) return null;
+    const [type, id] = src.source_id.split('/');
+    return el('p', { class: 'popup-improve' }, [
+      el('a', {
+        class: 'popup-srclink', target: '_blank', rel: 'noopener',
+        href: `https://www.openstreetmap.org/edit?editor=id&${type}=${id}`,
+      }, 'Improve this in OpenStreetMap →'),
+    ]);
+  }
+
   function noteSection(spot) {
     const box = el('div', { class: 'popup-note' });
     const render = () => {
@@ -781,6 +839,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
             spot.tags.event.skywide ? ' — visible region-wide' : null,
           ])
         : null,
+      isThinCard(spot) ? glanceSection(spot) : null,
       notabilitySection(spot),
       markerSection(spot),
       spot.best_light?.length
@@ -810,6 +869,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       wikiLine(spot),
       spot.notes ? el('p', {}, spot.notes) : null,
       noteSection(spot),
+      osmEditLink(spot),
       synthesisBreakdown(synthesisFor(spot.id)),
       // The astro/weather readout is long — collapse it so the card is short and
       // opens at the top (no manual scroll-up). Tap to expand when planning.
