@@ -83,6 +83,11 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 PROMOTED 1.5.3 to main (Noah's "Merge"). Production ==
+  origin/staging == origin/main == bfd6ae9 (clean 2-commit fast-forward from
+  1.5.2 / 9e5b52e). Ships the List-view fix: the header category buttons now
+  filter the list like they filter the map, plus the denied-location distance-
+  sort re-render-loop fix. staging == main after this. No GitHub metadata step.
 - 2026-07-24 1.5.3 "Filters work in the list too" (an ITERATION, a BUG FIX)
   BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the List view
   filtering + sort feel on a real device). BUG (Noah: "Filter buttons do not
