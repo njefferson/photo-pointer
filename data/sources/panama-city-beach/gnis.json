@@ -1,0 +1,44 @@
+{
+  "source": {
+    "source": "gnis",
+    "name": "USGS GNIS (The National Map geonames — named natural features)",
+    "license": "public-domain",
+    "attribution": "U.S. Geological Survey, Geographic Names Information System (public domain)",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Falling Water",
+      "lat": 30.72436583111683,
+      "lng": -85.52965568429737,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "282368"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "282368",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/282368",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
