@@ -104,10 +104,10 @@ export function topSpotsPanel(ranked, onGo, { onFilter } = {}) {
   dlg.replaceChildren(
     el('button', { class: 'dialog-x', 'aria-label': 'Close', onClick: () => dlg.close() }, '×'),
     el('h2', {}, 'Top spots'),
-    el('p', { class: 'top-sub' }, 'Ranked by how many layers line up — the thing one map can do that separate apps can’t.'),
+    el('p', { class: 'top-sub' }, 'Ranked by an overall photo score — how well each spot’s data layers line up, the thing one map can do that separate apps can’t.'),
     el('p', { class: 'top-hint' }, 'Optional filters, all off to start. Tap a layer once to require it (✓ must have), again to exclude it (✕), again to clear.'),
     reqs,
-    el('p', { class: 'top-legend' }, 'The number on the right is each spot’s overall photo score out of 100 — higher means more of these layers line up strongly.'),
+    el('p', { class: 'top-legend' }, 'The number on the right ranks each spot by how well its data layers line up — higher is better. It’s a relative score across the region, not a grade out of 100.'),
     list,
     el('button', { class: 'dialog-close', onClick: () => dlg.close() }, 'Close')
   );
@@ -131,11 +131,12 @@ function topRow(r, i, onClick) {
       el('span', { class: 'top-row-name' }, r.spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
       el('span', { class: 'top-row-why' }, r.parts.map((p) => p.label).join(' · ')),
     ]),
-    // Labeled score, not a bare number: the "/100" caption + the aria-label make
-    // it read as a photo score (0–100), not a rank or a count of layers.
-    el('span', { class: 'top-row-score', 'aria-label': `Photo score ${pct} out of 100 — ${scoreTier(pct)}` }, [
+    // Labeled score, not a bare number. Deliberately NO "/100" denominator: the
+    // score is relative (top spots top out ~mid-50s), so a "56/100" reads like a
+    // failing grade. A "score" caption + "higher is better" aria say what it is.
+    el('span', { class: 'top-row-score', 'aria-label': `Photo score ${pct} — higher is better` }, [
       el('span', { class: 'score-num', 'aria-hidden': 'true' }, `${pct}`),
-      el('span', { class: 'score-cap', 'aria-hidden': 'true' }, '/ 100'),
+      el('span', { class: 'score-cap', 'aria-hidden': 'true' }, 'score'),
     ]),
   ]);
 }

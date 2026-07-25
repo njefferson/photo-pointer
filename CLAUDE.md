@@ -83,34 +83,41 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
-- 2026-07-25 1.5.4 "Clearer Top spots" (an ITERATION, UX clarity) BUILT on
+- 2026-07-25 1.5.5 "Clearer Top spots" (an ITERATION, UX clarity) BUILT on
   staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the Top-spots button
-  label + score legend feel on a real device). Noah's feedback (screenshot):
-  the 🏆 trophy icon "hides too much that is not intuitive" and "what do those
-  numbers to the right of the names mean?" The bare number was `Math.round(
-  score*100)` — the composite cross-layer score — shown with NO label, and the
-  panel's own blurb said "how many layers line up" (sounds like a COUNT, but
-  it's a weighted 0–100 score). Built 1+3 of the three options offered (2, the
-  count-vs-score wording change, deferred to Noah). CHANGES: (1) LABEL THE NUMBER
-  (ui/synthesis.js): new `.top-legend` line above the list ("The number on the
-  right is each spot's overall photo score out of 100 — higher means more of
-  these layers line up strongly."); each row's score is now a stacked badge —
-  `.score-num` (the number) + `.score-cap` "/ 100" caption + an aria-label
-  "Photo score N out of 100 — <tier>" (tier = strong≥66/good≥33/basic, factored
-  into a shared `scoreTier()` reused by the popup's scoreBadge). (3) SURFACE THE
-  TROPHY (main.js): the header button is no longer a lone 🏆 icon-btn — it's a
-  labeled `.top-btn` reading "🏆 Top spots" (glyph aria-hidden + text label),
-  like the Map/List toggle. .bar-actions gained flex-wrap so the wider toolbar
-  degrades gracefully on a narrow phone. sw CACHE pointer-1.5.4; changelog[0]
-  1.5.4. VERIFIED headless (playwright, Sacramento): button text "🏆 Top spots";
-  panel legend present; first row score-num 56 + cap "/ 100" + aria "Photo score
-  56 out of 100 — good"; 30 rows; screenshot eyeballed (toolbar fits, badges
-  read clean); ZERO pageerrors. 91 tests + check-contrast green (no new fg/bg
-  pairs — score-num is accent-on-bg and score-cap/legend are dim, both already
-  rendered pairs). BRANCH NOTE: landed on `staging` per the standing rule. NO
-  GitHub metadata step. DEFERRED (Noah's call): option 2 — whether the number
-  should stay a 0–100 score or become an actual layer COUNT, and/or reword the
-  "how many layers line up" blurb to match the score.
+  label + score legend/caption feel on a real device). SUPERSEDES the same-day
+  1.5.4 build (never promoted): 1.5.4 first labeled the number "N / 100", but
+  Noah flagged "it looks like a failing grade in use" — the region's BEST spots
+  top out ~mid-50s (the score is Σ(value·weight)/Σ(weights of ALL live signals),
+  so no place hits 100), so "56/100" read as a D. Folded 1.5.4 into 1.5.5 rather
+  than leave a shipped-then-removed "/100" in the changelog. ORIGIN: Noah's
+  screenshot feedback — the 🏆 trophy "hides too much that is not intuitive" +
+  "what do those numbers to the right of the names mean?" (the numbers = the
+  composite cross-layer score ×100, shown UNLABELED; the panel blurb said "how
+  many layers line up" which sounds like a COUNT). CHANGES (ui/synthesis.js +
+  main.js + styles.css): (1) LABEL THE NUMBER — new `.top-legend` above the list
+  ("…ranks each spot by how well its data layers line up — higher is better.
+  It's a relative score across the region, not a grade out of 100."); each row's
+  score is a stacked badge `.score-num` + `.score-cap` caption reading "score"
+  (NOT "/100" — deliberately no denominator so it doesn't read as a grade) +
+  aria-label "Photo score N — higher is better". (2) BLURB now says "Ranked by
+  an overall photo score — how well each spot's data layers line up…" (matches a
+  SCORE, not a count — Noah's "match the score" call; the count option was NOT
+  taken). (3) SURFACE THE TROPHY (main.js) — header button is a labeled `.top-btn`
+  "🏆 Top spots" (glyph aria-hidden + text), not a lone icon-btn; .bar-actions
+  gained flex-wrap for narrow phones. `scoreTier()` factored out + still used by
+  the popup's scoreBadge ("N · strong/good/basic"), which was left as-is (not a
+  /100 grade). sw CACHE pointer-1.5.5; changelog[0] 1.5.5. VERIFIED headless
+  (playwright, Sacramento): button "🏆 Top spots"; blurb + legend as above; first
+  row score-num 56 + cap "score" + aria "Photo score 56 — higher is better";
+  ZERO pageerrors; screenshot eyeballed (toolbar fits, "56 / score" reads as a
+  ranking, not a grade). 91 tests + check-contrast green (no new fg/bg pairs —
+  score-num accent-on-bg, cap/legend dim, all already-rendered pairs). BRANCH
+  NOTE: landed on `staging` per the standing rule. NO GitHub metadata step.
+  NOTE the popup "Why this spot" badge still shows "N · <tier>" with tiers
+  strong≥66/good≥33 — since top real scores are ~mid-50s, the region's best read
+  as "good"; if that ever bugs Noah, recalibrate the tier thresholds to the real
+  distribution (a separate, deferred call).
 - 2026-07-25 PROMOTED 1.5.3 to main (Noah's "Merge"). Production ==
   origin/staging == origin/main == bfd6ae9 (clean 2-commit fast-forward from
   1.5.2 / 9e5b52e). Ships the List-view fix: the header category buttons now

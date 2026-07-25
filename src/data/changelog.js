@@ -2,7 +2,7 @@
 // must match sw.js CACHE ('pointer-<v>'); bump both together on every release.
 // Versioning is version.capability.iteration. Written for the end user.
 export const CHANGELOG = [
-  { v: '1.5.4', t: 'Clearer Top spots', n: 'The Top spots button now says “Top spots” instead of just a trophy, so it’s easy to find. And inside, the number beside each place is now labeled as a photo score out of 100 — how well that spot’s layers line up — instead of an unexplained number.' },
+  { v: '1.5.5', t: 'Clearer Top spots', n: 'The Top spots button now says “Top spots” instead of just a trophy, so it’s easy to find. And the number beside each place is now labeled as its photo score — how well that spot’s data layers line up, higher is better — instead of an unexplained number. It’s a ranking score across the region, not a grade out of 100.' },
   { v: '1.5.3', t: 'Filters work in the list too', n: 'The category buttons up top now filter the List view just like they filter the map. Turn a pin type off and it leaves the list; turn everything off and the list is empty with a reminder to switch a type back on. Before, the list always showed every place regardless of what you had toggled.' },
   { v: '1.5.2', t: 'An accessibility statement', n: 'The ⓘ panel now links to an accessibility statement — what these apps do to be usable by everyone, an honest note on what still needs work, and a direct way to report anything that got in your way.' },
   { v: '1.5.1', t: 'Find Noah’s other free tools', n: 'The ⓘ panel now has a link to Noah Jefferson’s other free tools — the bird-scouting app, the astronomy planner, and the photo studio. All free, no account, and they work offline.' },
