@@ -1,0 +1,2625 @@
+{
+  "source": {
+    "source": "ridb",
+    "name": "Recreation.gov (RIDB) — federal recreation facilities",
+    "license": "public-domain",
+    "attribution": "Recreation Information Database (RIDB), U.S. federal recreation agencies",
+    "status": "working"
+  },
+  "region": "yellowstone",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Graves Creek Campground",
+      "lat": 43.04361111,
+      "lng": -111.9111111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This BLM managed site located along the Blackfoot River that has opportunities for fishing, camping, and non-motorized boating. Campground rules and regulations are posted at the site. Visitors are asked to follow to the “Leave No Trace” principles; pack in - pack out. Campsites: 5 developed sites--- At this time, there is not a reservation system in place for the campsites. Campsites are on a…",
+      "tags": {
+        "ridb": "15021",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "15021",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/15021",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "New Fork Lake Group Campground",
+      "lat": 43.083056,
+      "lng": -109.965556,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Located just 24 miles north of Pinedale, New Fork Group Campground includes large picnic tables, BBQ stands, a fire ring, and a double vault toilet for your large party needs. Just a short hike away is New Fork Lake, which offers great boating, canoeing and swimming. Anglers fish for kokanee salmon, brook, lake and rainbow trout. A boat ramp is located approximately one mile from the…",
+      "tags": {
+        "ridb": "231913",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "231913",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/231913",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "FLAT ROCK (IDAHO)",
+      "lat": 44.4969444,
+      "lng": -111.34,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Flat Rock Campground is located 22 miles south of West Yellowstone, Montana and 30 miles north of Ashton, Idaho in beautiful Island Park, Idaho. Flat Rock is adjacent to U.S. Highway 20 and the Henry's Fork of the Snake River at an elevation of 6,400 feet. Recreation Henry's Fork has great fly-fishing for rainbow and brook trout. The river's headwaters are at Big Springs, one of the…",
+      "tags": {
+        "ridb": "231925",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "231925",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/231925",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "REUNION FLAT",
+      "lat": 43.7575,
+      "lng": -110.9513889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Reunion Flat Campground is located in beautiful Teton Canyon in the Caribou-Targhee National Forest. Hiking, backpacking and horseback riding are popular activities in this scenic region.Recreation The towering Teton Range and Jedediah Smith Wilderness are adjacent to the canyon, offering excellent hiking, backpacking and horseback riding opportunities. Trails begin just up-canyon at…",
+      "tags": {
+        "ridb": "231927",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "231927",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/231927",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "TETON CANYON",
+      "lat": 43.7566667,
+      "lng": -110.9188889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Teton Canyon Campground is located in beautiful Teton Canyon at an elevation of approximately 6,500 feet. Driggs, Idaho is just 11 miles away. Hiking, backpacking and horseback riding are popular activities in this scenic region.Recreation The towering Teton Range and Jedediah Smith Wilderness are adjacent to the canyon. Excellent hiking, backpacking and horseback riding opportunities…",
+      "tags": {
+        "ridb": "231928",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "231928",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/231928",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "ALPINE NORTH LOOP",
+      "lat": 43.1963889,
+      "lng": -111.0411111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Alpine North Loop Campground is located in beautiful Star Valley, Wyoming at an elevation of 5,640 feet. The cozy town of Alpine is just 2 miles west. Visitors enjoy boating and fishing on Palisades Reservoir, and day-tripping to Jackson and Grand Teton National Park.Recreation Palisades Reservoir is very close, with excellent boating, water skiing, swimming and canoeing. Lake and shore…",
+      "tags": {
+        "ridb": "232210",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232210",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232210",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BIG ELK",
+      "lat": 43.3225,
+      "lng": -111.1161111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Big Elk Campground is situated along Big Elk Creek on a quiet arm of the beautiful Palisades Reservoir, just 55 miles east of Idaho Falls, Idaho. Visitors enjoy boating, fishing and exploring the scenic Big Elk Creek Trail.Recreation Big Elk Creek has great fishing for cutthroat trout and the occasional Kokanee salmon. Canoeing and swimming are popular activities on the reservoir. A…",
+      "tags": {
+        "ridb": "232211",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232211",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232211",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "FALLS CAMPGROUND",
+      "lat": 43.4325,
+      "lng": -111.3625,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Falls Campground is located next to the Snake River in beautiful Swan Valley at an elevation of 5,100 feet. Idaho Falls, Idaho is just 45 miles west. Visitors enjoy fishing and canoeing on the Snake and viewing local wildlife.Recreation The Snake River offers excellent cutthroat trout fishing, canoeing, floating, rafting and kayaking. Conant Boat Ramp is nearby and open to the…",
+      "tags": {
+        "ridb": "232212",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232212",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232212",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BUFFALO (IDAHO)",
+      "lat": 44.4263889,
+      "lng": -111.3688889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Buffalo Campground is located 26 miles south of West Yellowstone, Montana and 25 miles north of Ashton, Idaho in beautiful Island Park, Idaho. Buffalo is a large campground just off U.S. Highway 20 on the banks of the Buffalo River at an elevation of 6,200 feet. Visitors love Island Park for its world-class fishing and outstanding scenery and wildlife viewing opportunities.Recreation The…",
+      "tags": {
+        "ridb": "232219",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232219",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232219",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "RIVERSIDE (ID - TARGHEE)",
+      "lat": 44.2663889,
+      "lng": -111.4580556,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Riverside Campground is on the banks of the Henry's Fork of the Snake River, just 15 miles north of Ashton, Idaho. Beautiful Island Park is nearby, where visitors enjoy boating, fishing and exploring local trails. Please click here for further information about the facility and recreation opportunities in the area.Recreation Henry's Fork has great fly-fishing for rainbow and brook trout…",
+      "tags": {
+        "ridb": "232222",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232222",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232222",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WARM RIVER",
+      "lat": 44.12,
+      "lng": -111.3136111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Warm River Campground is located on its namesake in the Caribou-Targhee National Forest of southwestern Idaho. Visitors love the campground for its river tubing opportunities. Fishing and hiking are popular as well. Recreation Warm River is a popular location for tubing and fishing. Anglers cast for whitefish, brook, rainbow and cutthroat trout. Numerous hiking, mountain biking and…",
+      "tags": {
+        "ridb": "232223",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232223",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232223",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "CALAMITY",
+      "lat": 43.3277778,
+      "lng": -111.215,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Calamity Campground is located along the Snake River drainage at the north end of beautiful Palisades Reservoir at an elevation of 5,700 feet, just 55 miles east of Idaho Falls, Idaho. Visitors enjoy boating, water skiing, fishing and canoeing.Recreation Palisades Reservoir offers excellent boating, water skiing, swimming and canoeing. Lake and shore fishing are very popular here as…",
+      "tags": {
+        "ridb": "232277",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232277",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232277",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "TABLE ROCK",
+      "lat": 43.6308333,
+      "lng": -111.5897222,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Table Rock Campground is located in a small but scenic canyon near Kelly Canyon Ski Resort, approximately 30 miles from Idaho Falls, Idaho. Hiking, mountain biking and ATV riding are popular activities.Recreation Hawley Gulch Trail begins at the campground, offering great opportunities for ATV enthusiasts, hikers and mountain bikers. Numerous forest roads and trails in the area allow ATV…",
+      "tags": {
+        "ridb": "232378",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232378",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232378",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "STATION CREEK CAMPGROUND",
+      "lat": 43.2044444,
+      "lng": -110.8333333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Station Creek Campground is located in beautiful Snake River Canyon, just 27 miles southwest of Jackson, in western Wyoming. It sits at an elevation of 5,800 feet. Visitors enjoy fishing and whitewater rafting on the Snake River.Recreation Fly-fishing for cutthroat, rainbow and brown trout is a popular activity on the Snake, as is whitewater rafting and kayaking. A boat ramp is…",
+      "tags": {
+        "ridb": "232382",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232382",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232382",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "LITTLE COTTONWOOD GROUP",
+      "lat": 43.1913889,
+      "lng": -110.9355556,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Little Cottonwood Group Campground is located in beautiful Snake River Canyon, just 30 miles southwest of Jackson, in western Wyoming. It sits at an elevation of 5,700 feet. Visitors enjoy fishing and whitewater rafting on the adjacent Snake River.Recreation Fly-fishing for cutthroat, rainbow and brown trout is a popular activity on the Snake, as is whitewater rafting and kayaking. A…",
+      "tags": {
+        "ridb": "232383",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232383",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232383",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "NARROWS CAMPGROUND",
+      "lat": 43.1030556,
+      "lng": -109.9411111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Narrows Campground is located next to scenic New Fork Lake, at the edge of the Wind River Range in northwestern Wyoming. Visitors enjoy hiking and horseback riding into the adjacent Bridger Wilderness, as well as boating and fishing on the lake.Recreation New Fork Lake offers great boating, canoeing and swimming. Anglers fish for kokanee salmon, brook, lake and rainbow trout. A large…",
+      "tags": {
+        "ridb": "232899",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "232899",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/232899",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WOODBINE CAMPGROUND",
+      "lat": 45.3522222,
+      "lng": -109.8963889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Woodbine Campground is remotely located adjacent to the Absaroka-Beartooth Wilderness in southwestern Montana, about three hours from Yellowstone National Park via the scenic Beartooth Highway. Red Lodge, Montana is 57 miles east; Nye is 7 miles north. Recreation The Stillwater River and nearby streams and lakes offer great fishing opportunities for rainbow, brown and cutthroat trout…",
+      "tags": {
+        "ridb": "233238",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233238",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233238",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "CLEARWATER CAMPGROUND",
+      "lat": 44.4622222,
+      "lng": -109.6683333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Clearwater Campground is located along the Buffalo Bill Scenic Byway, about 32 miles west of Cody, in northwestern Wyoming. It is 20 miles east of the east entrance to Yellowstone National Park. The surrounding area offers many outdoor recreational opportunities, including fishing, hiking and viewing local wildlife.Recreation Great opportunities for hiking, fishing, scenic driving and…",
+      "tags": {
+        "ridb": "233292",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233292",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233292",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "THREEMILE CAMPGROUND",
+      "lat": 44.4961111,
+      "lng": -109.9511111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Threemile Campground is located just three miles from the east entrance of Yellowstone National Park, and 50 miles from the full service gateway community of Cody, in northwestern Wyoming. The area is an ideal destination for a family getaway, with many opportunities for outdoor recreation. Hard-sided camp trailers and RVs are required.Recreation Great opportunities for hiking, fishing…",
+      "tags": {
+        "ridb": "233293",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233293",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233293",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grandview Campground (Idaho)",
+      "lat": 44.175,
+      "lng": -111.3138889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Grand View Campground is located on the Mesa Falls Scenic Byway, adjacent to the Lower Mesa Falls Overlook, approximately 13 miles northeast of Ashton, Idaho. Upper Mesa Falls is within a mile. Visitors enjoy exploring the trails at the falls, viewing wildlife and hiking.Recreation Mesa Falls Recreation Area offers walkways and overlooks for all to enjoy. Upper Falls has an accessible…",
+      "tags": {
+        "ridb": "233391",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233391",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233391",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "CASCADE",
+      "lat": 45.1733333,
+      "lng": -109.4508333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Cascade Campground is located 11 miles west of Red Lodge, in southern Montana. It conveniently sits along Forest Road 2071, which is paved for most of the route. The area is a popular location for hiking, backpacking and fishing. Recreation Fishing is a popular activity along the West Fork of Rock Creek and at nearby Wild Bill Lake. The small lake is open to kayaking and canoeing, and an…",
+      "tags": {
+        "ridb": "233771",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233771",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233771",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BIG SPRINGS WARMING HUT",
+      "lat": 44.485,
+      "lng": -111.2997222,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Big Springs Warming Hut is located 22 miles south of West Yellowstone, Montana in beautiful Island Park, Idaho at an approximate elevation of 6,300 feet. Visitors love Island Park for its world-class fishing and outstanding scenery and wildlife viewing opportunities.Recreation Big Springs is the headwaters of Henry's Fork and is one of the largest springs in the country. Henry's Fork is…",
+      "tags": {
+        "ridb": "233825",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233825",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233825",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BUTTERMILK",
+      "lat": 44.4325,
+      "lng": -111.4261111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Buttermilk Campground is located approximately 30 miles southwest of West Yellowstone, Montana and 32 miles north of Ashton, Idaho in beautiful Island Park, Idaho. Buttermilk sits next to Island Park Reservoir at an elevation of 6,200 feet. Visitors love Island Park for its world-class fishing and outstanding scenery and wildlife viewing opportunities.Recreation The Island Park area is…",
+      "tags": {
+        "ridb": "233826",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233826",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233826",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "TRAIL CREEK",
+      "lat": 43.54,
+      "lng": -111.0391667,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Trail Creek Campground is located along Trail Creek on scenic Teton Pass, just 7 miles from Victor, Idaho at an elevation of 6,600 feet. Visitors enjoy fishing, exploring local trails and sightseeing in this beautiful region.Recreation Trail Creek offers fishing for Yellowstone cutthroat and brook trout. Hiking, mountain biking and horseback riding are popular activities on the nearby…",
+      "tags": {
+        "ridb": "233844",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233844",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233844",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Green River Lakes - Bridger-Teton NF (WY)",
+      "lat": 43.3113889,
+      "lng": -109.8611111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Green River Lakes Campground is located near the shores of beautiful Lower Green River Lake, at an elevation of 8,000 feet. The lake sits on the western edge of the rugged Wind River Range in Wyoming. Visitors enjoy hiking and backpacking into the adjacent Bridger Wilderness, as well as fishing and canoeing on the lake.Recreation The lake is open to small watercraft only, making it an…",
+      "tags": {
+        "ridb": "233874",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233874",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233874",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "REX HALE",
+      "lat": 44.4566667,
+      "lng": -109.7258333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Rex Hale Campground is located along the Buffalo Bill Scenic Byway about 36 miles west of Cody, in northwestern Wyoming. It is just over 16 miles east of Yellowstone National Park's east entrance. The surrounding area offers many outdoor recreational opportunities, including fishing, hiking and viewing local wildlife. The campground is named after Rex Hale, one of 15 firefighters who…",
+      "tags": {
+        "ridb": "233934",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233934",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233934",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "UPPER COFFEE POT",
+      "lat": 44.4911111,
+      "lng": -111.3661111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Upper Coffee Pot Campground is located in Island Park, Idaho on a beautiful, floatable stretch of the Henry's Fork of the Snake River at an elevation of 6,300 feet. Visitors love Island Park for its world-class fishing and outstanding scenery and wildlife viewing opportunities.Recreation Henry's Fork has great fly-fishing for rainbow and brook trout. Tubing, canoeing, kayaking and…",
+      "tags": {
+        "ridb": "234107",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234107",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234107",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "MIKE HARRIS",
+      "lat": 43.5563889,
+      "lng": -111.0688889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Mike Harris Campground is located along scenic Teton Pass, just 5 miles from Victor, Idaho at an elevation of 6,200 feet. Visitors enjoy fishing, exploring local trails and sightseeing in this beautiful region.Recreation Hiking, mountain biking and horseback riding are popular activities on the Mikesell Canyon Trail, which begins at the site. Trail Creek offers fishing for Yellowstone…",
+      "tags": {
+        "ridb": "234153",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234153",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234153",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "IBEX CABIN",
+      "lat": 46.0030556,
+      "lng": -110.4413889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Ibex Cabin was constructed in 1939 as a shelter for Forest Service rangers working within the Shields Ranger District of the Gallatin National Forest of south-central Montana. It is available for summer and winter recreational use, and provides a peaceful, remote mountain retreat. Guests can drive to the cabin from June until the snow flies. The cabin is closed April and May due to road…",
+      "tags": {
+        "ridb": "234298",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234298",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234298",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BIG CREEK CABIN",
+      "lat": 45.3077778,
+      "lng": -110.9233333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The original Big Creek Cabin was built in 1907 and it still stands on this site. The current cabin, a former guard station, was completed in 1925 and sits right next to the original. Big Creek Cabin is the largest cabin in the Yellowstone District, a 28-by-40 log structure with five rooms and two porches. It offers rustic accommodations with limited amenities. Guests will need to bring…",
+      "tags": {
+        "ridb": "234299",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234299",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234299",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "PORCUPINE CABIN",
+      "lat": 46.1130556,
+      "lng": -110.4713889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Porcupine Cabin sits in the foothills of the Crazy Mountains at an elevation of 6,400 feet. It was built in 1914 after a previous structure burned down, and was remodeled by the Civilian Conservation Corps in 1934. Since its construction, the cabin has been used as temporary housing by Forest Service rangers while they were patrolling for timber poachers, watching for fires and…",
+      "tags": {
+        "ridb": "234300",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234300",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234300",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "SQUIRREL MEADOWS CABIN",
+      "lat": 44.0630556,
+      "lng": -111.0222222,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Squirrel Meadows Cabin is located 24 miles east of Ashton, Idaho, just off the Ashton-Flagg Ranch Road. The current cabin was built in 1934, but the site has been used for administrative purposes since 1907. It's listed on the National Register of Historic Places. Only one other cabin in Wyoming was constructed with the same building plan. The 2-room cabin is made of lodgepole pine and…",
+      "tags": {
+        "ridb": "234303",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234303",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234303",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WARM RIVER CABIN",
+      "lat": 44.2058333,
+      "lng": -111.2513889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Warm River Cabin is located less than 20 miles from Ashton, Idaho, at Warm River Springs. An Idaho fish and game hatchery operated here from the 1930s to the 1950s. The cabin was formerly the hatchery manager's house. It was constructed by the Civilian Conservation Corps (CCC) in 1938. The cabin is open year-round and can be accessed by car in the warmer months. Snowmobiles and…",
+      "tags": {
+        "ridb": "234305",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234305",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234305",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "MILL CREEK CABIN",
+      "lat": 45.2894444,
+      "lng": -110.5452778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Mill Creek Cabin was built in 1927 as a temporary lodging for traveling Forest Service personnel. The cabin can be accessed by vehicle year-round, though a four-wheel drive vehicle is recommended. Guests are responsible for their own travel arrangements and safety. This cabin offers rustic accommodations with limited amenities, so guests need to bring most of their own supplies and gear…",
+      "tags": {
+        "ridb": "234307",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234307",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234307",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "TRAIL CREEK CABIN",
+      "lat": 45.5693583,
+      "lng": -110.8355694,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Trail Creek Cabin, built in 1924, was the original ranger station for the Bozeman Ranger District. It is available year round, offering guests the chance to enjoy summer or winter recreation. The cabin is located in a remote area that is not accessible by car or truck. Guests must travel on foot, horseback, motorized vehicle (under 50”) or mountain bike. In winter, skis, snowshoes or…",
+      "tags": {
+        "ridb": "234309",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234309",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234309",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "MEYERS CREEK CABIN",
+      "lat": 45.4914198,
+      "lng": -109.9573458,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Meyers Creek Cabin is located within the Meyers Creek Work Center in Custer National Forest at an altitude of 5,646 feet. The cabin offers opportunities to enjoy relaxation and recreation in beautiful surroundings. It is reservable from May through November. The cabin is accessible by vehicle. 4-wheel drive is recommended during wet weather. Recreation Trails crisscross the area…",
+      "tags": {
+        "ridb": "234314",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234314",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234314",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bear Creek Bunkhouse (Beaverhead-Deerlodge National Forest, MT)",
+      "lat": 45.1562194,
+      "lng": -111.5539,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Bear Creek Bunkhouse allows visitors to experience southwestern Montana's vast wilderness areas, including wide open hills and the Lee Metcalf Widerness in the Madison mountain range . Situated on the Trail Fork of Bear Creek, the cabin offers a scenic location to enjoy nature. The cabin was constructed in 1934 by the Civilian Conservation Corps as crew quarters and a garage. A…",
+      "tags": {
+        "ridb": "234319",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234319",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234319",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bear Creek Cabin (Beaverhead-Deerlodge National Forest, MT)",
+      "lat": 45.1560306,
+      "lng": -111.5534,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Bear Creek Cabin, located at the base of the west slope of the Madison Range, allows visitors to experience southwestern Montana's vast wilderness areas, including wide open fields and a variety of nearby mountain ranges. Situated on the Trail Fork of Bear Creek, the cabin offers a scenic location to enjoy activities such as hunting, skiing, snowshoeing, as well as hiking and…",
+      "tags": {
+        "ridb": "234320",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234320",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234320",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "NOTCH CABIN",
+      "lat": 44.8822111,
+      "lng": -112.1372306,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Notch Cabin is located in a remote part of southwestern Montana, within proposed wilderness, and is open from July 1 through November. It is somewhat difficult to access, but worth the trouble for outdoor enthusiasts. The surrounding landscape is thick with sage and grasslands, transitioning to timbered slopes that are home to a full variety of wildlife. The original cabin burned to the…",
+      "tags": {
+        "ridb": "234321",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234321",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234321",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WALL CREEK CABIN",
+      "lat": 45.0111306,
+      "lng": -111.7071306,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Located at the east base of the Gravelly Range, Wall Creek Cabin is a small dwelling that gives guests access to prime elk and deer viewing, as access is through a state Wildlife Management Area. It is typically open to the public from mid-May through November, offering ample opportunity to explore southwestern Montana. Built in about 1930, the rental cabin was originally a crew…",
+      "tags": {
+        "ridb": "234322",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234322",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234322",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "YELLOW MULE CABIN",
+      "lat": 45.1847222,
+      "lng": -111.4163889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Yellow Mule Cabin was built in 1920 and was once used as a ranger station. This cabin is unique because it was constructed according to the builder's preference instead of being built with a standard Forest Service design. It is eligible for nomination to the National Register of Historic Places. The cabin provides a rustic, backcountry retreat year-round. A few basic amenities are…",
+      "tags": {
+        "ridb": "234326",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234326",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234326",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WINDY PASS CABIN",
+      "lat": 45.2652778,
+      "lng": -111.1013889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Windy Pass Cabin was built in 1934. It provides a rustic mountain retreat with few amenities, so guests need to bring most of their own supplies and gear to make their experience comfortable and enjoyable. The cabin is available from June 16th through October 14th each year. It is accessible via a 2.5-mile hike or horseback ride up the Windy Pass Trail with an elevation gain of 1,300…",
+      "tags": {
+        "ridb": "234327",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234327",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234327",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WINDOW ROCK CABIN",
+      "lat": 45.4622222,
+      "lng": -110.9586111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Window Rock Cabin was built in 1940 and now offers a year-round retreat for outdoor enthusiasts. It is ideally located in one of Gallatin National Forest's most popular recreation areas. The cabin is accessible by car in the summer. During the spring (from March 31st through May 15th) the road to the cabin is closed to motorized vehicle traffic every year. Guest should be prepared to…",
+      "tags": {
+        "ridb": "234328",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234328",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234328",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "SPANISH CREEK CABIN",
+      "lat": 45.4511111,
+      "lng": -111.3736111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Spanish Creek Cabin was constructed in 1934 and retains much of its rustic character from that time. The cabin is available year-round and offers an excellent base camp for a variety of summer and winter recreation opportunities. It is adjacent to a popular trailhead and a campground. Guests may drive to the cabin during summer months. During the winter (December 2nd through May 15th)…",
+      "tags": {
+        "ridb": "234331",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234331",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234331",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "MYSTIC LAKE CABIN",
+      "lat": 45.5411111,
+      "lng": -110.9194444,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Mystic Lake Cabin was built in 1930 and is currently open year-round. It provides access to a variety of recreational activities, including fishing, hunting and exploration of numerous trails. The cabin is located in a non-motorized area. Guests must be prepared to hike, horseback ride or mountain bike to get there in the summer, and winter access is by cross-country skis or snowshoes…",
+      "tags": {
+        "ridb": "234332",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234332",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234332",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "LITTLE BEAR CABIN",
+      "lat": 45.4963889,
+      "lng": -111.1488889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Little Bear Cabin was built in 1938 and still looks much the same as it did back then. It is available year-round for recreationists, as well as for those who seek a quiet mountain retreat. The cabin can be accessed by vehicle during the summer and fall (June 16th - December 31st) weather and snow conditions permitting, but winter access requires snowmobiling or skiing 10 miles from the…",
+      "tags": {
+        "ridb": "234333",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234333",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234333",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "GARNET MOUNTAIN FIRE LOOKOUT",
+      "lat": 45.4266667,
+      "lng": -111.2063889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Garnet Mountain Fire Lookout sits on the apex of Garnet Mountain, at an elevation of 8,245 feet. The lookout provides a panoramic view of the surrounding peaks and valleys. Highlights include the Spanish Peaks to the west, the Gallatin Range to the south, the Hyalite Ridge to the east and the Gallatin River Valley to the north. The structure can be accessed by hiking, horseback or…",
+      "tags": {
+        "ridb": "234334",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234334",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234334",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "FOX CREEK CABIN (MT)",
+      "lat": 45.48,
+      "lng": -111.0441667,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Fox Creek Cabin is a former ranger station located in a remote area. It is very small and offers only basic amenities. Guests will need to bring most of the gear and supplies they need to have a comfortable and enjoyable stay. The cabin is located in a non-motorized area and can only be accessed by a 2.5-mile hike during the summer months, from the end of Langohr Road. A four-wheel drive…",
+      "tags": {
+        "ridb": "234335",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234335",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234335",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BATTLE RIDGE CABIN",
+      "lat": 45.8747222,
+      "lng": -110.8919444,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Battle Ridge Cabin is a rustic dwelling located north of Bozeman, in southwestern Montana. The cabin was built in 1938 and is open year-round. It can be reached by vehicle in the summer, but guests visiting during winter must hike or ski a quarter-mile from the highway to reach the cabin. Guests are responsible for their own travel arrangements and safety, and must bring several of their…",
+      "tags": {
+        "ridb": "234336",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234336",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234336",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "VIGILANTE CABIN",
+      "lat": 45.0175194,
+      "lng": -111.9626611,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Vigilante Cabin, also known as the Vigilante Middle House, offers a comfortable place to stay deep in the mountains of southwestern Montana along the Ruby River between the Snowcrest and Gravelly Ranges. The house boasts two bedrooms, a kitchen, living room and has electricity and seasonal water. A bathroom, with a toilet and shower,is usually available from May - September. It is…",
+      "tags": {
+        "ridb": "234361",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234361",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234361",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BLACK BUTTE CABIN",
+      "lat": 44.9181389,
+      "lng": -111.8256694,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Black Butte Cabin is a snug log cabin that sits high in the Gravelly Mountains. Originally part of the old Madison National Forest, the cabin was built in 1919 as an intermediate summer station for inspections of sheep allotments. It sleeps four people and has a beautiful view of Lion Mountain and the headwaters of Standard Creek. The area is home to a variety of wildlife and provides…",
+      "tags": {
+        "ridb": "234364",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234364",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234364",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BASIN STATION CABIN",
+      "lat": 44.7097222,
+      "lng": -111.2352778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Basin Station Cabin is a primitive, rustic, two-room structure located in the Hebgen Lake Ranger District of the Custer Gallatin National Forest. The cabin is open year-round. The adjacent road is heavily traveled. Snow conditions in the fall, winter, and spring may limit access by vehicle. Guests can snowshoe, ski, or snowmobile to the cabin up to three miles from the nearest available…",
+      "tags": {
+        "ridb": "234365",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234365",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234365",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WAPITI CABIN",
+      "lat": 45.04073,
+      "lng": -111.28621,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Wapiti Cabin is a primitive, rustic, log structure open year-round for recreational enjoyment. It provides access to several trails for summer hiking and biking, and winter skiing and snowmobiling. The cabin can be accessed by vehicle from July 1 through December 1 (weather and snow permitting), but winter access requires a trek of up to six miles on skis, snowshoes, or by snowmobile…",
+      "tags": {
+        "ridb": "234366",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234366",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234366",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BEAVER CREEK CABIN (MT)",
+      "lat": 44.9158333,
+      "lng": -111.3558333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Beaver Creek Cabin is a primitive, rustic cabin located within the Custer Gallatin National Forest, in an area that offers a variety of recreational activities. The cabin is situated 3.5 miles down Forest Service Road 985. The cabin is accessible by vehicle when there is no snow, but it is only by snowmobile, skis, or snowshoes when there is snow. Guests are responsible for their own…",
+      "tags": {
+        "ridb": "234367",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234367",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234367",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "CABIN CREEK CABIN",
+      "lat": 44.88621,
+      "lng": -111.19913,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Cabin Creek Cabin is a primitive, rustic, single-room structure that was built by the Civilian Conservation Corps in the 1930s. It offers a few basic amenities, so guests will need to bring most of their own supplies and gear to ensure an enjoyable experience. Cabin Creek Cabin is closed during the spring season due to weather and trail conditions. The cabin is open during the summer…",
+      "tags": {
+        "ridb": "234368",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234368",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234368",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WEST FORK CABIN (S OF ENNIS)",
+      "lat": 44.8038889,
+      "lng": -111.8890306,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview West Fork Cabin is a small, secluded cabin in the mountains of southwestern Montana, located high in the Gravelly Range. The cabin was built in 1928 as an intermediate station for patrolling grazing allotments. The area is home to a variety of wildlife and offers numerous trails for hikers, equestrians and off-road vehicle riders during warmer months and snowmobilers in the winter. The…",
+      "tags": {
+        "ridb": "234372",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234372",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234372",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "STEEL CREEK GROUP CAMPGROUND",
+      "lat": 44.4655556,
+      "lng": -112.0211111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Steel Creek Group Campground is located 35 miles northeast of the town of Dubois, Idaho, and 9 miles northwest of Kilgore. Visitors come to the area to enjoy the abundance of trails, wildlife viewing opportunities and scenic beauty.Recreation Hiking, hunting, fishing, mountain biking and ATV riding are popular activities in area.Facilities The campground contains one large accessible…",
+      "tags": {
+        "ridb": "234380",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234380",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234380",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WEST BOULDER CABIN",
+      "lat": 45.5475,
+      "lng": -110.3077778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview West Boulder Cabin is open year-round, offering a variety of recreational opportunities as well as relaxation. Guests can drive to the cabin in warmer weather but should be prepared to snowshoe, ski or snowmobile up to a mile on county roads in the winter. The cabin has electric lights and an electric cook stove. A refrigerator is also provided. Rental camping equipment, such as ice…",
+      "tags": {
+        "ridb": "234410",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234410",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234410",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WEST BRIDGER CABIN",
+      "lat": 45.6272222,
+      "lng": -109.8275,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview West Bridger Cabin is open-year round for the enjoyment of outdoor enthusiasts. Guests have access to a variety of recreational activities in a beautiful, peaceful mountain setting. The cabin in generally accessible by car, but spring and winter road conditions may limit access. Snow conditions can preclude wheeled vehicles for up to the last mile to the cabin in the winter. The cabin…",
+      "tags": {
+        "ridb": "234413",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234413",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234413",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "FOURMILE CABIN",
+      "lat": 45.3422222,
+      "lng": -110.2322222,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Fourmile Cabin is open year-round and offers guests a rustic mountain retreat surrounded by majestic scenery. The cabin offers an electric cooking stove, lights, and a refrigerator. Guests will need to bring most of their own gear and supplies to ensure a comfortable stay. The cabin is accessible by vehicle during warmer months, along a gravel county road. Late-season ice may require…",
+      "tags": {
+        "ridb": "234414",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234414",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234414",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "DEER CREEK CABIN (MT)",
+      "lat": 45.6013889,
+      "lng": -109.8980556,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Todd Family began building Deer Creek Cabin in 1953 and finished it in 1960. They used it as a retreat while they grazed cattle on federal lands in the summer and hunted in the fall. The cabin has survived two forest fires. Gallatin National Forest assumed ownership of the cabin in 1993. The cabin is open year-round, but access is challenging. There are three routes to the cabin that…",
+      "tags": {
+        "ridb": "234415",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234415",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234415",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "MCCAIN CABIN",
+      "lat": 43.12,
+      "lng": -110.7166667,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview McCain Guard Station is a rustic cabin that is popular year-round. In summer, hikers and horseback riders frequent the cabin, and snowmobile enthusiasts make use of the cabin throughout the winter. Several trails are nearby, and the open meadows offer gentle sledding for younger riders. Winter access in by snowmobile only on a groomed trail. Constructed in 1933 by the Civilian…",
+      "tags": {
+        "ridb": "234521",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234521",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234521",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "DEER CREEK CABIN (WY)",
+      "lat": 43.0705556,
+      "lng": -110.8333333,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Deer Creek Cabin is a historic Forest Service guard station located 13 miles from Alpine, Wyoming. The quaint, rustic structure offers a backcountry experience with conveniences like a propane stove and a heater. The cabin compound is a free graze area for Forest Service horses to roam during the summer months. Winter access is by snowmobile only on a groomed trail. Recreation Greys…",
+      "tags": {
+        "ridb": "234522",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234522",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234522",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BIG SPRINGS GRP. AREA - ISLAND PARK",
+      "lat": 44.4977778,
+      "lng": -111.2555556,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Big Springs Group Area is located 22 miles south of West Yellowstone, Montana in beautiful Island Park, Idaho at an approximate elevation of 6,300 feet. Visitors love Island Park for its world-class fishing and outstanding scenery and wildlife viewing opportunities.Recreation Big Springs is the headwaters of Henry's Fork and is one of the largest springs in the country. Henry's Fork is…",
+      "tags": {
+        "ridb": "234576",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234576",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234576",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "BIG GAME CAMPGROUND",
+      "lat": 44.4616667,
+      "lng": -109.605,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Big Game Campground is located along the Buffalo Bill Scenic Byway about 29 miles west of Cody, in northwestern Wyoming. It is 23 miles east of the east entrance to Yellowstone National Park. The surrounding area offers many outdoor recreational opportunities, including fishing, hiking and viewing local wildlife.Recreation Great opportunities for hiking, fishing, scenic driving and…",
+      "tags": {
+        "ridb": "234594",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234594",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234594",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "HUNTER PEAK",
+      "lat": 44.8847222,
+      "lng": -109.6544444,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Hunter Peak Campground is located on the Chief Joseph Scenic Highway/State Highway 296, approximately four miles south of the junction with scenic Beartooth Highway/U.S. Highway 12. The campground is about 60 miles northeast of Cody, in northwestern Wyoming.Recreation The Clarks Fork offers outstanding fishing opportunities for rainbow and cutthroat trout. Many hiking trails are located…",
+      "tags": {
+        "ridb": "234595",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234595",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234595",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "WAPITI CAMPGROUND",
+      "lat": 44.4661111,
+      "lng": -109.6236111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Wapiti Campground is located is located along the Buffalo Bill Scenic Byway about 30 miles west of Cody, in northwestern Wyoming. It is 22 miles east of the east entrance to Yellowstone National Park. The surrounding area offers many outdoor recreational opportunities, including fishing, hiking and viewing local wildlife.Recreation Great opportunities for hiking, fishing, scenic driving…",
+      "tags": {
+        "ridb": "234606",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234606",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234606",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "MAXEY CABIN",
+      "lat": 45.4783333,
+      "lng": -110.9516667,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Maxey Cabin offers a quaint mountain retreat that is ideally located in one of Gallatin National Forest's most popular recreation areas. Guests can expect a few creature comforts at the cabin, but they will need to bring some of their own supplies and gear. The cabin is accessible by car in the summer. During the spring (from March 31st through May 16th) the road to the cabin is closed…",
+      "tags": {
+        "ridb": "234607",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234607",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234607",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "SUNLIGHT RANGERS CABIN",
+      "lat": 44.7269444,
+      "lng": -109.5541667,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Sunlight Rangers Cabin lies within the Sunlight Ranger Station, located approximately 40 miles northwest of Cody, Wyoming, in the Shoshone National Forest. Guests enjoy the area for its abundant trails for hiking, biking and off-road riding.Recreation Sunlight Creek is a popular fly-fishing stream. Anglers cast for cutthroat, rainbow and brook trout. Fishing is good in July, after the…",
+      "tags": {
+        "ridb": "234611",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234611",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234611",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "CRANDALL CREEK CABIN",
+      "lat": 46.1855556,
+      "lng": -110.4052778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview A historic cabin known as Bennett Creek Cabin was located over a mile from this site, but it was recently replaced with the current Crandall Creek Cabin, a traditional log structure. This cabin offers rustic accommodations with limited amenities, so guests should be prepared to bring most of the supplies and gear they need for a comfortable stay. Access to the cabin is via a…",
+      "tags": {
+        "ridb": "234659",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234659",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234659",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Halfmoon Campground",
+      "lat": 46.04105,
+      "lng": -110.23813,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A campground in the east crazy mountains on the Yellowstone District. Camp sites: 12 Maps: Halfmoon Campground Map (527 KB) Accessible Facilities: Toilet 6 Sites Trash Pickup: No Firewood: No No Reservations: This campground does not use a reservation system, it is managed on a first-come, first-served basis. Be aware the campground may fill up on weekends & holidays during the summer months and…",
+      "tags": {
+        "ridb": "236090",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236090",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/236090",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Soda Butte Campground",
+      "lat": 45.02419,
+      "lng": -109.91201,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "THIS CAMPGROUND IS HARD SIDED CAMPING ONLY Open late June - Labor Day, weather dependent. A campground in Beartooth Country on the Gardiner District. Maps: Soda Butte Campground Map Camp sites: 27 Accessible Facilities: Fire Grates Food Boxes Tables Tent Pads Toilets Trash Cans Water Trash Pickup: No Firewood: No No Reservations: This campground does not use a reservation system, it is managed on…",
+      "tags": {
+        "ridb": "236105",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236105",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/236105",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tom Miner Campground",
+      "lat": 45.12938,
+      "lng": -111.06253,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A campground in the Gallatin Mountains on the Gardiner District. Camp sites: 16 + 2 Group Accessible Facilities: Food Boxes Toilet Trash Pickup: No Firewood: No Stock Facilities: Corral adjacent to the trailhead No Reservations: This campground does not use a reservation system, it is managed on a first-come, first-served basis. Be aware the campground may fill up on weekends & holidays during…",
+      "tags": {
+        "ridb": "236111",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236111",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/236111",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Blowout Campground",
+      "lat": 43.17134,
+      "lng": -111.07291,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Blowout Campground is located on Highwy 26, approxiametly 58 miles southeast of Idaho Falls, ID. Aspens and tall lodgepole pines partially shade the campground. Blowout Boat Ramp is located down the hill from the campgroud and is on the Palisades Reservoir. Fishing for Yellowstone Cutthroat Trout, Brown Trout, Lake Trout and Kokanee, motorized and non-motorized boating activities are all popular…",
+      "tags": {
+        "ridb": "238999",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "238999",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/238999",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Box Canyon Campground",
+      "lat": 44.3912,
+      "lng": -111.3989,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Box Canyon Campground is situated on the canyon rim above the Henry's Fork of the Snake River. There are 16 single and 2 double units, each having tent and camper pads, fire rings, grills and picnic tables. Two of the single campsites are pull throughs. Campsites near the canyon rim are shaded by lodgepole pine and Douglas-fir. There are 2 vault toilets, water hydrants, and a bear-proof…",
+      "tags": {
+        "ridb": "239002",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239002",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239002",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cave Falls Campground",
+      "lat": 44.12922313,
+      "lng": -111.0150756,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This campgrond is situated on the banks of Fall River in Wyoming along the south border of Yellowstone National Park. Cave Falls Campground has 23 single site units and a terrific area for fishing. Each campsite has fire rings, grills and picnic tables. Located throughout the campground are vault toilets, water faucets, bear proof storage boxes, and a dumpster. The campground is located in…",
+      "tags": {
+        "ridb": "239007",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239007",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239007",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "McCoy Creek Campground",
+      "lat": 43.1849,
+      "lng": -111.1003,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The McCoy Creek Campground is located on the south end of the Palisades Reservoir. From Alpine, WY, take Highway 89 south to Salt River - McCoy Road #087 go west approximately 6 miles the campground. There is a primitive boat ramp at the campground and it is possible to launch small watercraft; rafts, kayaks and canoes. McCoy Creek and Palisades Reservoir offers great fishing. There is very…",
+      "tags": {
+        "ridb": "239049",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239049",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239049",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pine Creek Campground",
+      "lat": 43.57278356,
+      "lng": -111.2053835,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Pine Creek Campground has 10 single units and restrooms No Host; No Services; Dispersed Camping allowed in off season",
+      "tags": {
+        "ridb": "239072",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239072",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239072",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "M-K Campground",
+      "lat": 45.038032,
+      "lng": -109.429744,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "M-K is a free campground located 2.6 miles up the Main Fork Rock Creek Road #2421, not far from the Beartooth Highway. Mount Maurice Trail (#6) Corral Creek Trail (#9), Beartrack Trail (#8), Lake Fork Trail (#2), Parkside National Recreation Trail (#103), Hellroaring Plateau Trail (#11), Glacier Lake Trail (#3), Sheridan Campground, Rattin Campground, Parkside Campground, Limber Pine Campground…",
+      "tags": {
+        "ridb": "239845",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239845",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239845",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Palisades Campground",
+      "lat": 45.171504,
+      "lng": -109.308559,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Palisades Campground is a free campground, located at the end of Palisades Road #2010 near Red Lodge, just below Red Lodge Mountain Ski Resort and the palisades geological formation. The Willow Creek Trail (# 105) and the Palisades Trail (# 109) both leave from the western end of the campground. Camp sites: 6 Max Trailer Length: 16ft Host: No Accessible Facilities:Vault toilets Trash Pickup: No…",
+      "tags": {
+        "ridb": "239846",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239846",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239846",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Emerald Lake Campground",
+      "lat": 45.253398,
+      "lng": -109.700292,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Emerald Lake is in the West Rosebud drainage and is nestled in the trees between Emerald Lake and West Rosebud Lake. West Rosebud Trail (#19), Pine Grove Campground, Emerald Lake Fishing Access and West Rosebud Lake Fishing Access are also located in the West Rosebud drainage. There is a 16 day maximum stay in all Beartooth Ranger District campgrounds. For a road map of the area, with locations…",
+      "tags": {
+        "ridb": "239847",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239847",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239847",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pine Grove Campground",
+      "lat": 45.275863,
+      "lng": -109.645533,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Pine Grove Campground is located in the West Rosebud drainage. It is in the trees, along the banks of West Rosebud Creek. Emerald Lake Campground, West Rosebud Trail (#19), Emerald Lake Fishing Access and West Rosebud Lake Fishing Access are also located in the West Rosebud drainage. There is a 16 day maximum stay in all Beartooth Ranger District campgrounds. For a road map of the area, with…",
+      "tags": {
+        "ridb": "239848",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239848",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239848",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "East Rosebud Campground",
+      "lat": 45.199442,
+      "lng": -109.634267,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "East Rosebud Campground is nestled in the trees, not far from East Rosebud Lake. East Rosebud is considered one of the more scenic drainages in the Beartooths and the campground is a short distance from the East Rosebud Trail (#15), Spread Creek Trail (#13), and Phantom Creek Trail (#17). Jimmy Joe Campground and Sand Dunes Picnic Ground also located in the East Rosebud drainage. *Please be…",
+      "tags": {
+        "ridb": "239849",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239849",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239849",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jimmy Joe Campground",
+      "lat": 45.231418,
+      "lng": -109.602893,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Jimmy Joe Campground is a free campground on the banks of East Rosebud Creek in the East Rosebud drainage. East Rosebud is considered one of the more scenic drainages in the Beartooths . East Rosebud Trail (#15), Spread Creek Trail (#13), and Phantom Creek Trail (#17). East Rosebud Lake Campground and Sand Dunes Picnic Ground also located in the East Rosebud drainage. Camp sites: 12 Host: No Max…",
+      "tags": {
+        "ridb": "239850",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239850",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239850",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sage Creek Campground",
+      "lat": 45.213877,
+      "lng": -108.554629,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Sage Creek Campground is the only campground in the Pryor Mountains. It is located along the banks of Sage Creek. Big Ice Cave Picnic Ground, and the Bureau of Land Management Pryor Mountain Wild Horse Range are also located in the Pryor Mountains. Numerous motorized trails are located in the Pryor Mountains. See the current year's edition of motor vehicle use map (and legend) for the area and…",
+      "tags": {
+        "ridb": "239851",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239851",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239851",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Initial Creek Campground",
+      "lat": 45.403817,
+      "lng": -109.954952,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This free campground is located on the West Fork Stillwater Road and is near the West Fork Stillwater Trail (#90). The campground is maintained from Memorial Day to Labor Day, but is opened the rest of the year without services. There is a 16 day stay limit for all Beartooth Ranger District campgrounds. For a road map of the area, which shows campground locations, please see our Motor Vehicle Use…",
+      "tags": {
+        "ridb": "239852",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239852",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/239852",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Island Lake Campground",
+      "lat": 44.94074,
+      "lng": -109.53995,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This beautiful high mountain lake campground has 21 newly remodeled sites. There is always plenty to do at this campground; hiking, fishing, wildlife viewing, and beautiful wildflowers galore. 16-day stay limit Water: Available This site is not accessible to persons with mobility impairments. No cell service Notes: Maximum spur 32 feet. Boat ramp closed until winter ice clears. Fish Your National…",
+      "tags": {
+        "ridb": "240400",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "240400",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/240400",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Newton Creek Campground",
+      "lat": 44.45333,
+      "lng": -109.75963,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This campground hosts 31 sites near the Shoshone River. Nearby points of interest include Mummy Cave and a memorial to firefighters who died in the 1937 Blackwater Fire. There are two trails, one leading to a natural bridge and the other leading to the Firefighters Memorial. 16-day stay limit Water: Available This site is not accessible to persons with mobility impairments No cell service Notes…",
+      "tags": {
+        "ridb": "240420",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "240420",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/240420",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "AL TAYLOR CABIN",
+      "lat": 44.4636944,
+      "lng": -112.0258833,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Al Taylor Cabin is located adjacent to Steel Creek near the Continental Divide, at an elevation of 6,300 feet. Visitors come to this area for its beautiful scenery and solitude. Guests can drive to the cabin from mid-May through mid-November with the majority of the trip on gravel roads. These roads are only accessible by snowmobile the remainder of the year. The cabin provides several…",
+      "tags": {
+        "ridb": "250038",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "250038",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/250038",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Axolotl Cabin",
+      "lat": 45.2405556,
+      "lng": -111.8713889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Dillon Field Office is unable to make reservations for you. Please call Recreation.gov (877-444-6777) to book a reservation or book online. Axolotl Cabin is located approximately 14 miles southwest of Ennis, Montana, in the foothills of the Gravelly Range. The cabin provides access to a variety of outdoor recreational activities and breathtaking views as it peers over the Madison…",
+      "tags": {
+        "ridb": "251354",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251354",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/251354",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Trapper Springs (MT)",
+      "lat": 45.606848,
+      "lng": -111.568147,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Dillon Field Office is unable to make reservations for you. Please call Recreation.gov (877-444-6777) to book a reservation or book online. Campsites are available for reservation for the Peak-Season times of May 1st through September 15th. All sites are first-come-first-serve from September 16th through April 30th. Trapper Springs Campground is adjacent to the lower Madison River…",
+      "tags": {
+        "ridb": "261802",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261802",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/261802",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Red Mountain (MT)",
+      "lat": 45.609394,
+      "lng": -111.569723,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Dillon Field Office is unable to make reservations for you. Please call Recreation.gov (877-444-6777) to book a reservation or book online. Campsites are available for reservation for the Peak-Season times of May 1st through September 15th. From September 16th through April 30th, all sites are first-come-first-serve. Red Mountain Campground is adjacent to the lower Madison River and…",
+      "tags": {
+        "ridb": "261804",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261804",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/261804",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Green River Lake Lodge",
+      "lat": 43.312133,
+      "lng": -109.858197,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview The Green River Lakes Lodge is located 50 miles north of Pinedale, Wyoming. The lodge is available as a rental for day use events such as weddings, family reunions, or meetings for up to 50 guests, or as an overnight rental for smaller groups of up to 12 guests. Recreation During the summer months, hiking and horseback riding into the Bridger Wilderness and Wind River Range are popular…",
+      "tags": {
+        "ridb": "264411",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "264411",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/264411",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pinnacles Campground",
+      "lat": 43.75418,
+      "lng": -109.99631,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This campground hosts 21 campsites with dramatic views near Brooks Lake. Angling and flyfishing opportunities are nearby, with a boat ramp at Brooks Lake. Fantastic geologic formations at Pinnacle Butte can be seen on the drive in to the campground. Maximum spur 32 feet. Picnic tables, fire rings, bear boxes, and garbage collection are available. This site is not accessible to those with mobility…",
+      "tags": {
+        "ridb": "270777",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "270777",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/270777",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
