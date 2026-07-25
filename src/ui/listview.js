@@ -7,7 +7,7 @@
 // =============================================================================
 import { el, clear } from './dom.js';
 import { CATEGORY_META, spotDisplayName } from './mapview.js';
-import { favorites, isFavorite, toggleFavorite } from '../model/store.js';
+import { favorites, isFavorite, toggleFavorite, noteFor } from '../model/store.js';
 import { distanceM, bearingDeg } from '../model/geo.js';
 import { compass } from '../model/light.js';
 import { nextOccurrence, formatEventWhen, upcomingKey } from '../model/events.js';
@@ -98,8 +98,10 @@ function listRow(spot, score, onFocusSpot, onChange, onHide, rerender) {
   return el('div', { class: 'list-row' }, [
     el('span', { class: `pin pin-${spot.category} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
     el('div', { class: 'list-row-main' }, [
-      el('button', { class: 'list-name', onClick: () => onFocusSpot(spot) },
-        spotDisplayName(spot)),
+      el('button', { class: 'list-name', onClick: () => onFocusSpot(spot) }, [
+        spotDisplayName(spot),
+        noteFor(spot.id) ? el('span', { class: 'list-note-mark', title: 'You wrote a note here' }, ' ✎') : null,
+      ]),
       metaLine ? el('div', { class: 'list-meta' }, metaLine) : null,
     ]),
     scoreCell(score),

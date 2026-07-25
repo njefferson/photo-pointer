@@ -15,6 +15,7 @@ const K_LAYERS = 'pointer.layers.v3'; // v3: simple "must have" set of layer key
 const K_REGION = 'pointer.region';
 const K_FAV = 'pointer.favorites';
 const K_HIDDEN = 'pointer.hidden';
+const K_NOTES = 'pointer.notes'; // spot id → the user's own note about that place
 
 function read(key, fallback) {
   try {
@@ -189,6 +190,37 @@ export function clearHidden() {
   write(K_HIDDEN, []);
 }
 
+// ---- personal notes: the user's OWN words about a place, per device. The one
+// thing no open dataset can supply — a card can be bare because OSM is bare, but
+// the person standing there knows what the light does and where to park. Stored
+// as { [spotId]: text }, included in the backup bundle, and never sent anywhere.
+const NOTE_MAX = 2000;
+
+export function spotNotes() {
+  const raw = read(K_NOTES, {});
+  return raw && typeof raw === 'object' && !Array.isArray(raw) ? raw : {};
+}
+
+export function noteFor(id) {
+  const n = spotNotes()[id];
+  return typeof n === 'string' && n.trim() ? n : null;
+}
+
+// Save (or, with empty text, clear) the note for one spot. Returns the stored text.
+export function setNote(id, text) {
+  const notes = spotNotes();
+  const clean = String(text ?? '').trim().slice(0, NOTE_MAX);
+  if (clean) notes[id] = clean;
+  else delete notes[id];
+  write(K_NOTES, notes);
+  if (clean) requestPersistence();
+  return clean || null;
+}
+
+export function noteCount() {
+  return Object.keys(spotNotes()).length;
+}
+
 // ---- durable backup bundle ----
 
 export const BUNDLE_APP = 'photo-pointer';
@@ -202,6 +234,7 @@ export function exportBundle() {
     userPins: userPins(),
     favorites: [...favorites()],
     hidden: [...hiddenSpots()],
+    notes: spotNotes(),
   };
 }
 
@@ -236,6 +269,19 @@ export function importBundle(bundle) {
     for (const id of bundle.hidden) if (typeof id === 'string') merged.add(id);
     write(K_HIDDEN, [...merged]);
   }
+  // Personal notes — merge by spot id. A note already on THIS device wins, so an
+  // import can never silently overwrite something the user wrote here.
+  let notesImported = 0;
+  if (bundle.notes && typeof bundle.notes === 'object' && !Array.isArray(bundle.notes)) {
+    const merged = spotNotes();
+    for (const [id, text] of Object.entries(bundle.notes)) {
+      if (typeof id === 'string' && typeof text === 'string' && text.trim() && !merged[id]) {
+        merged[id] = text.trim().slice(0, NOTE_MAX);
+        notesImported++;
+      }
+    }
+    write(K_NOTES, merged);
+  }
   requestPersistence();
-  return { ok: true, imported: clean.length, favorites: favImported };
+  return { ok: true, imported: clean.length, favorites: favImported, notes: notesImported };
 }

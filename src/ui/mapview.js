@@ -3,7 +3,7 @@
 
 import * as L from '../vendor/leaflet.js';
 import { el, toast } from './dom.js';
-import { addUserPin, removeUserPin, restoreUserPin, isFavorite, toggleFavorite } from '../model/store.js';
+import { addUserPin, removeUserPin, restoreUserPin, isFavorite, toggleFavorite, noteFor, setNote } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
 import { moonTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
@@ -652,6 +652,49 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
 
   // Star toggle to save/unsave a spot as a favorite. Text label carries the
   // state (Saved / Save) so it's not hue-only; the star reinforces it.
+  // YOUR OWN NOTE on a place. No open dataset can tell you where to park, which
+  // gate is locked, or that the light only works in October — but you know. Stored
+  // on this device, carried in the backup bundle, never sent anywhere. This is the
+  // honest answer to a card that's bare because its source is bare.
+  function noteSection(spot) {
+    const box = el('div', { class: 'popup-note' });
+    const render = () => {
+      const existing = noteFor(spot.id);
+      box.replaceChildren();
+      if (existing) {
+        box.append(
+          el('p', { class: 'popup-note-label' }, 'Your note'),
+          el('p', { class: 'popup-note-text' }, existing),
+          el('button', { class: 'popup-note-btn', onClick: () => edit(existing) }, 'Edit note')
+        );
+      } else {
+        box.append(el('button', { class: 'popup-note-btn', onClick: () => edit('') }, '✎ Add your own note'));
+      }
+    };
+    const edit = (start) => {
+      const field = el('textarea', {
+        class: 'popup-note-input', rows: '3', value: start,
+        'aria-label': `Your note about ${spot.name ?? 'this place'}`,
+        placeholder: 'Where to park, the gate, when the light works…',
+      });
+      const save = el('button', { class: 'popup-note-btn save', onClick: () => {
+        setNote(spot.id, field.value);
+        render();
+        toast(field.value.trim() ? 'Note saved' : 'Note cleared');
+        onChange?.();
+      } }, 'Save');
+      const cancel = el('button', { class: 'popup-note-btn', onClick: render }, 'Cancel');
+      box.replaceChildren(
+        el('p', { class: 'popup-note-label' }, 'Your note'),
+        field,
+        el('div', { class: 'popup-note-actions' }, [save, cancel])
+      );
+      field.focus();
+    };
+    render();
+    return box;
+  }
+
   function favButton(spot) {
     const btn = el('button', { class: 'popup-fav', 'aria-pressed': String(isFavorite(spot.id)) });
     const paint = () => {
@@ -766,6 +809,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         : null,
       wikiLine(spot),
       spot.notes ? el('p', {}, spot.notes) : null,
+      noteSection(spot),
       synthesisBreakdown(synthesisFor(spot.id)),
       // The astro/weather readout is long — collapse it so the card is short and
       // opens at the top (no manual scroll-up). Tap to expand when planning.
