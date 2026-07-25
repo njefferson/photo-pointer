@@ -27,6 +27,7 @@
   --cat-campsite: #6d5424;
   --cat-wildlife_hotspot: #365f8a;
   --cat-event: #9b3b6a;
+  --cat-historic_site: #4d6b2f;
   --cat-user_pin: #6d5200;
 }
 
@@ -425,6 +426,7 @@ body {
 .pin-campsite { background: var(--cat-campsite); }
 .pin-wildlife_hotspot { background: var(--cat-wildlife_hotspot); }
 .pin-event { background: var(--cat-event); }
+.pin-historic_site { background: var(--cat-historic_site); }
 .pin-user_pin { background: var(--cat-user_pin); }
 
 .popup-event { margin: 4px 0; font-size: 13px; }

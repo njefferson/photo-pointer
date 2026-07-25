@@ -15,6 +15,7 @@ export const CATEGORIES = [
   'wildlife_hotspot',
   'dark_sky',
   'event',
+  'historic_site',
   'user_pin',
 ];
 

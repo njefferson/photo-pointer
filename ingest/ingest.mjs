@@ -32,6 +32,7 @@ import * as inaturalist from './adapters/inaturalist.mjs';
 import * as markers from './adapters/wikidata-markers.mjs';
 import * as curiosities from './adapters/wikidata-curiosities.mjs';
 import * as gnis from './adapters/gnis.mjs';
+import * as nrhp from './adapters/nrhp.mjs';
 import * as commons from './adapters/commons-photos.mjs';
 import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
@@ -224,6 +225,23 @@ async function cmdGnis(id) {
     return;
   }
   await writeSource(P.sourcesDir, 'gnis.json', gnis.meta, region, records);
+}
+
+// The National Register of Historic Places (NPS, US public domain) — the deep
+// historic layer beyond OSM/Wikidata plaques. Its own source file the merge folds in.
+async function cmdNrhp(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const records = await nrhp.ingest(region, { today, log });
+  if (records.length === 0) {
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'nrhp.json'))) {
+      console.error('nrhp: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`nrhp: none for ${region.id} — skipping`);
+    return;
+  }
+  await writeSource(P.sourcesDir, 'nrhp.json', nrhp.meta, region, records);
 }
 
 async function requireSpots(P, cmdName) {
@@ -474,9 +492,10 @@ const commands = {
   markers: cmdMarkers,
   curiosities: cmdCuriosities,
   gnis: cmdGnis,
+  nrhp: cmdNrhp,
   merge: cmdMerge,
   validate: cmdValidate,
-  all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdGnis(id); await cmdMerge(id); await cmdValidate(id); },
+  all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdGnis(id); await cmdNrhp(id); await cmdMerge(id); await cmdValidate(id); },
 };
 if (!commands[cmd]) {
   console.error(`usage: node ingest/ingest.mjs <${Object.keys(commands).join('|')}> [regionId]`);

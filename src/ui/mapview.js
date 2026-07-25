@@ -34,6 +34,7 @@ export const CATEGORY_META = {
   campsite: { label: 'Campsite', letter: 'C' },
   wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W' },
   event: { label: 'Event', letter: 'E' },
+  historic_site: { label: 'Historic site', letter: 'H' },
   user_pin: { label: 'My pins', letter: '★' },
 };
 
@@ -704,6 +705,13 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         spot.tags?.curiosity ? spot.tags.curiosity : `${meta.label}`,
         spot.subject_type?.length ? ` · ${spot.subject_type.join(', ')}` : null,
       ]),
+      spot.tags?.nrhp
+        ? el('p', { class: 'popup-marker' }, [
+            spot.tags.nrhp_listed
+              ? `On the National Register of Historic Places — listed ${spot.tags.nrhp_listed}`
+              : 'On the National Register of Historic Places',
+          ])
+        : null,
       spot.tags?.event
         ? el('p', { class: 'popup-event' }, [
             el('strong', {}, formatEventWhen(nextOccurrence(spot.tags.event)) ?? 'Upcoming'),

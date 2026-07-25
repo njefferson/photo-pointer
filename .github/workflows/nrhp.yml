@@ -1,0 +1,48 @@
+name: NRHP ingest (National Register of Historic Places)
+
+# The National Register of Historic Places (NPS map service, US public domain,
+# no key): every listed historic building, district, site and structure in the
+# region — the deep historic layer beyond OSM/Wikidata plaques. Re-merges
+# (tag-preserving), validates and commits. Dispatch via actions_run_trigger.
+# NPS publishes only public, NON-SENSITIVE listings; restricted archaeological
+# locations are withheld at the source.
+#
+# Unreachable from the sandbox (egress 403s the CONNECT), so this runs on a runner.
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
+concurrency:
+  group: nrhp-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Fetch National Register listings (NPS, public domain)
+        run: node ingest/ingest.mjs nrhp "$REGION"
+      - name: Re-merge (tag-preserving) + validate
+        run: |
+          node ingest/ingest.mjs merge "$REGION"
+          node ingest/ingest.mjs validate "$REGION"
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add National Register historic places" -m "Listed historic buildings, districts, sites and structures from the National Register of Historic Places (National Park Service, US public domain) — each linking to its National Register record."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done
