@@ -23,21 +23,8 @@ export const meta = {
 // photographer-intent seeds. Kept as data so curation is a table edit.
 export const TAG_RULES = [
   { k: 'tourism', v: 'viewpoint', category: 'viewpoint', subject_type: ['landscape'], best_light: ['golden_hour'] },
+  { k: 'waterway', v: 'waterfall', category: 'viewpoint', subject_type: ['water', 'landscape'], best_season: ['spring'] },
   { k: 'natural', v: 'peak', category: 'viewpoint', subject_type: ['landscape'], namedOnly: true },
-  // --- SOURCE #2: specific OSM feature tags for Atlas-Obscura-type curiosities
-  // (ODbL). Each carries a `curiosity` kind (the same field the Wikidata adapter
-  // sets), so refineCategory + the popups treat them uniformly — Waterfall/Hot
-  // spring/Lighthouse become their own pin type; the rest show their kind under
-  // Oddity. namedOnly so unnamed natural nodes don't become map cruft. ---
-  { k: 'waterway', v: 'waterfall', category: 'oddity', curiosity: 'Waterfall', subject_type: ['water', 'landscape'], best_season: ['spring'], namedOnly: true },
-  { k: 'natural', v: 'waterfall', category: 'oddity', curiosity: 'Waterfall', subject_type: ['water', 'landscape'], best_season: ['spring'], namedOnly: true },
-  { k: 'natural', v: 'hot_spring', category: 'oddity', curiosity: 'Hot spring', subject_type: ['landscape'], namedOnly: true },
-  { k: 'natural', v: 'geyser', category: 'oddity', curiosity: 'Hot spring', subject_type: ['landscape'], namedOnly: true },
-  { k: 'natural', v: 'arch', category: 'oddity', curiosity: 'Natural arch', subject_type: ['landscape'], namedOnly: true },
-  { k: 'natural', v: 'cave_entrance', category: 'oddity', curiosity: 'Cave', namedOnly: true },
-  { k: 'man_made', v: 'lighthouse', category: 'oddity', curiosity: 'Lighthouse', namedOnly: true },
-  { k: 'historic', v: 'archaeological_site', category: 'oddity', curiosity: 'Archaeological site', subject_type: ['historic'], namedOnly: true },
-  { k: 'historic', v: 'wreck', category: 'oddity', curiosity: 'Shipwreck', subject_type: ['historic'], namedOnly: true },
   { k: 'historic', v: 'memorial', category: 'marker', subject_type: ['historic'] },
   { k: 'historic', v: 'monument', category: 'marker', subject_type: ['historic'] },
   { k: 'historic', v: 'wayside_shrine', category: 'marker', subject_type: ['historic'] },
@@ -52,9 +39,31 @@ export const TAG_RULES = [
   { k: 'tourism', v: 'camp_site', category: 'campsite', namedOnly: true },
 ];
 
+// SOURCE #2: specific OSM feature tags for Atlas-Obscura-type curiosities (ODbL).
+// Run as a SEPARATE, lighter query (the `osm-features` command) — folding these
+// into the main TAG_RULES query made it too heavy for Overpass's 300s server
+// limit (it timed out). Each carries a `curiosity` kind (the same field the
+// Wikidata adapter sets) so refineCategory + the popup treat them uniformly —
+// Waterfall/Hot spring/Lighthouse become their own pin type; the rest show their
+// kind under Oddity. namedOnly so unnamed natural nodes don't become map cruft.
+export const FEATURE_RULES = [
+  { k: 'natural', v: 'waterfall', category: 'oddity', curiosity: 'Waterfall', subject_type: ['water', 'landscape'], best_season: ['spring'], namedOnly: true },
+  { k: 'natural', v: 'hot_spring', category: 'oddity', curiosity: 'Hot spring', subject_type: ['landscape'], namedOnly: true },
+  { k: 'natural', v: 'geyser', category: 'oddity', curiosity: 'Hot spring', subject_type: ['landscape'], namedOnly: true },
+  { k: 'natural', v: 'arch', category: 'oddity', curiosity: 'Natural arch', subject_type: ['landscape'], namedOnly: true },
+  { k: 'natural', v: 'cave_entrance', category: 'oddity', curiosity: 'Cave', namedOnly: true },
+  { k: 'man_made', v: 'lighthouse', category: 'oddity', curiosity: 'Lighthouse', namedOnly: true },
+  { k: 'historic', v: 'archaeological_site', category: 'oddity', curiosity: 'Archaeological site', subject_type: ['historic'], namedOnly: true },
+  { k: 'historic', v: 'wreck', category: 'oddity', curiosity: 'Shipwreck', subject_type: ['historic'], namedOnly: true },
+];
+
+// normalizeElement matches against BOTH rule sets (an element from either query
+// finds its rule); the queries themselves fetch only their own selector set.
+export const ALL_RULES = [...TAG_RULES, ...FEATURE_RULES];
+
 // One Overpass query for the whole region: union of the counties' admin
 // areas, belt-and-braces bounded by the region bbox.
-export function buildQuery(region) {
+export function buildQuery(region, rules = TAG_RULES) {
   const b = region.bbox;
   const areas = region.counties
     .map(
@@ -62,7 +71,7 @@ export function buildQuery(region) {
         `  area["boundary"="administrative"]["admin_level"="6"]["name"="${c.osm_area_name}"];`
     )
     .join('\n');
-  const selectors = TAG_RULES.map((r) => {
+  const selectors = rules.map((r) => {
     const named = r.namedOnly ? '["name"]' : '';
     return `  nwr["${r.k}"="${r.v}"]${named}(area.region);`;
   }).join('\n');
@@ -130,7 +139,7 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
 // entry; ids assigned later by the merge step).
 export function normalizeElement(el, today) {
   const tags = el.tags ?? {};
-  const rule = TAG_RULES.find((r) => tags[r.k] === r.v && (!r.namedOnly || tags.name));
+  const rule = ALL_RULES.find((r) => tags[r.k] === r.v && (!r.namedOnly || tags.name));
   if (!rule) return null;
   const lat = el.lat ?? el.center?.lat;
   const lng = el.lon ?? el.center?.lon;
@@ -188,9 +197,9 @@ function keepTags(tags) {
   return out;
 }
 
-export async function ingest(region, { fetchFn, today, log = () => {} } = {}) {
-  const query = buildQuery(region);
-  log(`overpass query: ${query.length} chars, ${TAG_RULES.length} selectors`);
+export async function ingest(region, { fetchFn, today, log = () => {}, rules = TAG_RULES } = {}) {
+  const query = buildQuery(region, rules);
+  log(`overpass query: ${query.length} chars, ${rules.length} selectors`);
   const json = await fetchOverpass(query, { fetchFn });
   log(`overpass returned ${json.elements.length} elements`);
   const records = [];

@@ -130,6 +130,26 @@ async function cmdOsm(id) {
   await writeSource(P.sourcesDir, 'osm.json', osm.meta, region, records);
 }
 
+// SOURCE #2: a SEPARATE light Overpass query for just the curiosity feature tags
+// (natural=waterfall/hot_spring/…, man_made=lighthouse, historic=archaeological_
+// site/wreck) → its own source file the merge folds in. Kept out of the main osm
+// query, which got too heavy for Overpass's 300s limit when they were combined.
+async function cmdOsmFeatures(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const records = await osm.ingest(region, { today, log, rules: osm.FEATURE_RULES });
+  if (records.length === 0) {
+    // No feature nodes here — skip without clobbering a good existing file.
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'osm-features.json'))) {
+      console.error('osm-features: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`osm-features: none for ${region.id} — skipping`);
+    return;
+  }
+  await writeSource(P.sourcesDir, 'osm-features.json', osm.meta, region, records);
+}
+
 async function cmdEbird(id) {
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
@@ -425,6 +445,7 @@ const regionId = process.argv[3]; // optional — defaults to the config default
 const commands = {
   probe: cmdProbe,
   osm: cmdOsm,
+  'osm-features': cmdOsmFeatures,
   ebird: cmdEbird,
   'public-lands': cmdPublicLands,
   inaturalist: cmdINaturalist,
@@ -433,7 +454,7 @@ const commands = {
   curiosities: cmdCuriosities,
   merge: cmdMerge,
   validate: cmdValidate,
-  all: async (id) => { await cmdOsm(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdMerge(id); await cmdValidate(id); },
+  all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdMerge(id); await cmdValidate(id); },
 };
 if (!commands[cmd]) {
   console.error(`usage: node ingest/ingest.mjs <${Object.keys(commands).join('|')}> [regionId]`);
