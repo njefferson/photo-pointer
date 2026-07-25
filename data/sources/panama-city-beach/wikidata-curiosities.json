@@ -1,0 +1,180 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
+    "license": "CC0-1.0",
+    "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Tilton",
+      "lat": 29.73914379,
+      "lng": -85.082265463,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q133882512"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q133882512",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q133882512",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bay Harbor",
+      "lat": 30.142,
+      "lng": -85.616,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q24191713",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bay_Harbor,_Florida"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q24191713",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bay_Harbor,_Florida",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cape San Blas Light",
+      "lat": 29.813217,
+      "lng": -85.306517,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q5035030",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cape_San_Blas_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5035030",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Cape_San_Blas_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Vicksburg",
+      "lat": 30.3256,
+      "lng": -85.6647,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5860365",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vicksburg,_Florida"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5860365",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Vicksburg,_Florida",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph",
+      "lat": 29.853,
+      "lng": -85.3324,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7589245",
+        "wikipedia": "https://en.wikipedia.org/wiki/St._Joseph,_Florida"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7589245",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/St._Joseph,_Florida",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph Point Light",
+      "lat": 29.9182,
+      "lng": -85.3805,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7589355",
+        "wikipedia": "https://en.wikipedia.org/wiki/St._Joseph_Point_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7589355",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/St._Joseph_Point_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
