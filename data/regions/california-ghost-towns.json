@@ -1,0 +1,5935 @@
+{
+  "region": "california-ghost-towns",
+  "builtAt": "2026-07-25",
+  "spots": [
+    {
+      "id": "acelanus@9q9rf4",
+      "name": "Acelanus",
+      "lat": 37.94,
+      "lng": -121.9,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4673074",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Acelanus,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4673074",
+        "wikipedia": "https://en.wikipedia.org/wiki/Acelanus,_California"
+      }
+    },
+    {
+      "id": "agua-fria@9qdthz",
+      "name": "Agua Fria",
+      "lat": 37.485,
+      "lng": -120.020277777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4694440",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Agua_Fria,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4694440",
+        "wikipedia": "https://en.wikipedia.org/wiki/Agua_Fria,_California"
+      }
+    },
+    {
+      "id": "alkali@9qsx1v",
+      "name": "Alkali",
+      "lat": 37.82583333,
+      "lng": -117.3375,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q55887205",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Alkali,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q55887205",
+        "wikipedia": "https://en.wikipedia.org/wiki/Alkali,_Nevada"
+      }
+    },
+    {
+      "id": "alma@9q9782",
+      "name": "Alma",
+      "lat": 37.18,
+      "lng": -121.98,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4733495",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Alma,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4733495",
+        "wikipedia": "https://en.wikipedia.org/wiki/Alma,_California"
+      }
+    },
+    {
+      "id": "ambrose@9qc22u",
+      "name": "Ambrose",
+      "lat": 38.03527778,
+      "lng": -121.95,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4741743",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ambrose,_Contra_Costa_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4741743",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ambrose,_Contra_Costa_County,_California"
+      }
+    },
+    {
+      "id": "archer@9qu8mm",
+      "name": "Archer",
+      "lat": 38.04472222,
+      "lng": -117.18944444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q24191690",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Archer,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q24191690",
+        "wikipedia": "https://en.wikipedia.org/wiki/Archer,_Nevada"
+      }
+    },
+    {
+      "id": "arlemont@9qsp1j",
+      "name": "Arlemont",
+      "lat": 37.82444444,
+      "lng": -118.07888889,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959626",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Arlemont,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959626",
+        "wikipedia": "https://en.wikipedia.org/wiki/Arlemont,_Nevada"
+      }
+    },
+    {
+      "id": "athens@9qu5wt",
+      "name": "Athens",
+      "lat": 38.615,
+      "lng": -117.83333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25022033",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Athens,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q25022033",
+        "wikipedia": "https://en.wikipedia.org/wiki/Athens,_Nevada"
+      }
+    },
+    {
+      "id": "atolia@9qk2gs",
+      "name": "Atolia",
+      "lat": 35.3147,
+      "lng": -117.609,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4817180",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Atolia,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4817180",
+        "wikipedia": "https://en.wikipedia.org/wiki/Atolia,_California"
+      }
+    },
+    {
+      "id": "atwood@9quhqj",
+      "name": "Atwood",
+      "lat": 38.74796389,
+      "lng": -117.856225,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q27997535",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Atwood,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q27997535",
+        "wikipedia": "https://en.wikipedia.org/wiki/Atwood,_Nevada"
+      }
+    },
+    {
+      "id": "aurora@9qg3y6",
+      "name": "Aurora",
+      "lat": 38.289167,
+      "lng": -118.899167,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4822450",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Aurora,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4822450",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aurora,_Nevada"
+      }
+    },
+    {
+      "id": "ballarat@9qkthd",
+      "name": "Ballarat",
+      "lat": 36.047777777,
+      "lng": -117.223333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1804706",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ballarat,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q1804706",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ballarat,_California"
+      }
+    },
+    {
+      "id": "basalt@9qgbhx",
+      "name": "Basalt",
+      "lat": 38.0075,
+      "lng": -118.27305556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q22060796",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Basalt,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q22060796",
+        "wikipedia": "https://en.wikipedia.org/wiki/Basalt,_Nevada"
+      }
+    },
+    {
+      "id": "belleville@9qgcqt",
+      "name": "Belleville",
+      "lat": 38.2192,
+      "lng": -118.18,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4883844",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Belleville,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4883844",
+        "wikipedia": "https://en.wikipedia.org/wiki/Belleville,_Nevada"
+      }
+    },
+    {
+      "id": "bend-city@9qecry",
+      "name": "Bend City",
+      "lat": 36.819166666,
+      "lng": -118.130555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3637982",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bend_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3637982",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bend_City,_California"
+      }
+    },
+    {
+      "id": "bennettville@9qepy4",
+      "name": "Bennettville",
+      "lat": 37.9375,
+      "lng": -119.260555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3638283",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bennettville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3638283",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bennettville,_California"
+      }
+    },
+    {
+      "id": "bernice@9rh4pv",
+      "name": "Bernice",
+      "lat": 39.758333333,
+      "lng": -117.781388888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959594",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bernice,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959594",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bernice,_Nevada"
+      }
+    },
+    {
+      "id": "betteravia@9q4q9s",
+      "name": "Betteravia",
+      "lat": 34.9178,
+      "lng": -120.515,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4898583",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Betteravia,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4898583",
+        "wikipedia": "https://en.wikipedia.org/wiki/Betteravia,_California"
+      }
+    },
+    {
+      "id": "bidwell-s-bar@9r19h9",
+      "name": "Bidwell's Bar",
+      "lat": 39.55666667,
+      "lng": -121.44138889,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4904286",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bidwell%27s_Bar,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4904286",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bidwell%27s_Bar,_California"
+      }
+    },
+    {
+      "id": "blair-junction@9qu0pz",
+      "name": "Blair Junction",
+      "lat": 38.00833333,
+      "lng": -117.77361111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959628",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Blair_Junction,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959628",
+        "wikipedia": "https://en.wikipedia.org/wiki/Blair_Junction,_Nevada"
+      }
+    },
+    {
+      "id": "blair@9qsr4b",
+      "name": "Blair",
+      "lat": 37.793055555,
+      "lng": -117.649166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4924035",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Blair,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4924035",
+        "wikipedia": "https://en.wikipedia.org/wiki/Blair,_Nevada"
+      }
+    },
+    {
+      "id": "bloomer@9r197m",
+      "name": "Bloomer",
+      "lat": 39.62444444,
+      "lng": -121.49138889,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4928194",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q4928194",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4928194"
+      }
+    },
+    {
+      "id": "bodie@9qg37u",
+      "name": "Bodie",
+      "lat": 38.212222222,
+      "lng": -119.012222222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q832945",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bodie,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q832945",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bodie,_California"
+      }
+    },
+    {
+      "id": "bolivia@9rh5sb",
+      "name": "Bolivia",
+      "lat": 39.9925,
+      "lng": -117.912222222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q138572992",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q138572992",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q138572992"
+      }
+    },
+    {
+      "id": "bonnie-claire@9qseyb",
+      "name": "Bonnie Claire",
+      "lat": 37.22666667,
+      "lng": -117.12111111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q892812",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bonnie_Claire,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q892812",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bonnie_Claire,_Nevada"
+      }
+    },
+    {
+      "id": "boyer@9rh5mf",
+      "name": "Boyer",
+      "lat": 39.95833333,
+      "lng": -117.8675,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959597",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Boyer,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959597",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boyer,_Nevada"
+      }
+    },
+    {
+      "id": "broken-hills@9qun4s",
+      "name": "Broken Hills",
+      "lat": 39.0497,
+      "lng": -118.01,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4973409",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Broken_Hills,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4973409",
+        "wikipedia": "https://en.wikipedia.org/wiki/Broken_Hills,_Nevada"
+      }
+    },
+    {
+      "id": "brush@9r19v6",
+      "name": "Brush",
+      "lat": 39.69638889,
+      "lng": -121.40583333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4979626",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q4979626",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4979626"
+      }
+    },
+    {
+      "id": "buckeye@9qc792",
+      "name": "Buckeye",
+      "lat": 38.5867,
+      "lng": -121.9288,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4983054",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Buckeye,_Yolo_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4983054",
+        "wikipedia": "https://en.wikipedia.org/wiki/Buckeye,_Yolo_County,_California"
+      }
+    },
+    {
+      "id": "burrell@9q971m",
+      "name": "Burrell",
+      "lat": 37.121666666,
+      "lng": -121.929722222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5000396",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Burrell,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5000396",
+        "wikipedia": "https://en.wikipedia.org/wiki/Burrell,_California"
+      }
+    },
+    {
+      "id": "candelaria@9qu10f",
+      "name": "Candelaria",
+      "lat": 38.1589,
+      "lng": -118.089,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5031643",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Candelaria,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5031643",
+        "wikipedia": "https://en.wikipedia.org/wiki/Candelaria,_Nevada"
+      }
+    },
+    {
+      "id": "canon-city@9r22rc",
+      "name": "Canon City",
+      "lat": 40.831388888,
+      "lng": -123.052777777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q105123350",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ca%C3%B1on_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q105123350",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ca%C3%B1on_City,_California"
+      }
+    },
+    {
+      "id": "caribou@9r1u4b",
+      "name": "Caribou",
+      "lat": 40.08,
+      "lng": -121.1575,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2200793",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Caribou,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q2200793",
+        "wikipedia": "https://en.wikipedia.org/wiki/Caribou,_California"
+      }
+    },
+    {
+      "id": "carson-hill@9qf23f",
+      "name": "Carson Hill",
+      "lat": 38.02833333,
+      "lng": -120.50666667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5046939",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Carson_Hill,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5046939",
+        "wikipedia": "https://en.wikipedia.org/wiki/Carson_Hill,_California"
+      }
+    },
+    {
+      "id": "casa-diablo@9qety3",
+      "name": "Casa Diablo",
+      "lat": 37.5831,
+      "lng": -118.553,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5047811",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Casa_Diablo,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5047811",
+        "wikipedia": "https://en.wikipedia.org/wiki/Casa_Diablo,_California"
+      }
+    },
+    {
+      "id": "cat-town@9qdw5k",
+      "name": "Cat Town",
+      "lat": 37.644444,
+      "lng": -120.089444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q138333438",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q138333438",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q138333438"
+      }
+    },
+    {
+      "id": "cement@9qc1zs",
+      "name": "Cement",
+      "lat": 38.298362,
+      "lng": -122.006609,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q116762769",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Cement,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q116762769",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cement,_California"
+      }
+    },
+    {
+      "id": "cerro-gordo-california-united-states@9qkpze",
+      "name": "Cerro Gordo,California, United States",
+      "lat": 36.537777777,
+      "lng": -117.795,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q111937258",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Cerro_Gordo,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q111937258",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cerro_Gordo,_California"
+      }
+    },
+    {
+      "id": "cerro-gordo-mines@9qkpze",
+      "name": "Cerro Gordo Mines",
+      "lat": 36.537777777,
+      "lng": -117.795,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3665157",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Cerro_Gordo_Mines",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3665157",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cerro_Gordo_Mines"
+      }
+    },
+    {
+      "id": "chandon@9qcrxs",
+      "name": "Chandon",
+      "lat": 39.31444444,
+      "lng": -121.66222222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5071238",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5071238",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5071238"
+      }
+    },
+    {
+      "id": "chinese-camp@9qdr7q",
+      "name": "Chinese Camp",
+      "lat": 37.87028,
+      "lng": -120.43333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q582753",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Chinese_Camp,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q582753",
+        "wikipedia": "https://en.wikipedia.org/wiki/Chinese_Camp,_California"
+      }
+    },
+    {
+      "id": "clems@9q95pc",
+      "name": "Clems",
+      "lat": 37.0981,
+      "lng": -121.996,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5131539",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Clems,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5131539",
+        "wikipedia": "https://en.wikipedia.org/wiki/Clems,_California"
+      }
+    },
+    {
+      "id": "clifton@9rh8xy",
+      "name": "Clifton",
+      "lat": 39.498333333,
+      "lng": -117.079444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q65120795",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Clifton,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q65120795",
+        "wikipedia": "https://en.wikipedia.org/wiki/Clifton,_Nevada"
+      }
+    },
+    {
+      "id": "coaldale@9qu0md",
+      "name": "Coaldale",
+      "lat": 38.0275,
+      "lng": -117.883055555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5137861",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Coaldale,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5137861",
+        "wikipedia": "https://en.wikipedia.org/wiki/Coaldale,_Nevada"
+      }
+    },
+    {
+      "id": "columbus@9qu0f3",
+      "name": "Columbus",
+      "lat": 38.110277777,
+      "lng": -118.019166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5149979",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Columbus,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5149979",
+        "wikipedia": "https://en.wikipedia.org/wiki/Columbus,_Nevada"
+      }
+    },
+    {
+      "id": "como@9qgnc5",
+      "name": "Como",
+      "lat": 39.1725,
+      "lng": -119.477,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14705079",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Como,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14705079",
+        "wikipedia": "https://en.wikipedia.org/wiki/Como,_Nevada"
+      }
+    },
+    {
+      "id": "copper@9r2rjd",
+      "name": "Copper",
+      "lat": 42.026388888,
+      "lng": -123.146666666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5168677",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Copper,_Jackson_County,_Oregon",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5168677",
+        "wikipedia": "https://en.wikipedia.org/wiki/Copper,_Jackson_County,_Oregon"
+      }
+    },
+    {
+      "id": "coso@9qkmfc",
+      "name": "Coso",
+      "lat": 36.1778,
+      "lng": -117.646,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5174658",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Coso_(former_settlement),_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5174658",
+        "wikipedia": "https://en.wikipedia.org/wiki/Coso_(former_settlement),_California"
+      }
+    },
+    {
+      "id": "cottonwood@9qc7bm",
+      "name": "Cottonwood",
+      "lat": 38.65833333,
+      "lng": -121.97111111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5175785",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Cottonwood,_Yolo_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5175785",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cottonwood,_Yolo_County,_California"
+      }
+    },
+    {
+      "id": "darwin@9qkqk4",
+      "name": "Darwin",
+      "lat": 36.268055555,
+      "lng": -117.591666666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2740723",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Darwin,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q2740723",
+        "wikipedia": "https://en.wikipedia.org/wiki/Darwin,_California"
+      }
+    },
+    {
+      "id": "daveytown@9rk4vj",
+      "name": "Daveytown",
+      "lat": 41.295,
+      "lng": -117.90305556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q29075354",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Daveytown,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q29075354",
+        "wikipedia": "https://en.wikipedia.org/wiki/Daveytown,_Nevada"
+      }
+    },
+    {
+      "id": "davis-s-ferry@9qdnnu",
+      "name": "Davis's Ferry",
+      "lat": 37.6408,
+      "lng": -120.63,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5241805",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5241805",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5241805"
+      }
+    },
+    {
+      "id": "deadwood@9qfnmd",
+      "name": "Deadwood",
+      "lat": 39.0806,
+      "lng": -120.689,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5245735",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Deadwood,_Placer_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5245735",
+        "wikipedia": "https://en.wikipedia.org/wiki/Deadwood,_Placer_County,_California"
+      }
+    },
+    {
+      "id": "deadwood@9r0xxh",
+      "name": "Deadwood",
+      "lat": 40.71944444,
+      "lng": -122.7336111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q16954828",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Deadwood,_Trinity_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q16954828",
+        "wikipedia": "https://en.wikipedia.org/wiki/Deadwood,_Trinity_County,_California"
+      }
+    },
+    {
+      "id": "dedrick@9r282n",
+      "name": "Dedrick",
+      "lat": 40.86277778,
+      "lng": -123.0366667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q16954970",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Dedrick,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q16954970",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dedrick,_California"
+      }
+    },
+    {
+      "id": "deep-hole@9r5p9h",
+      "name": "Deep Hole",
+      "lat": 40.71916667,
+      "lng": -119.48333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25021790",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Deep_Hole,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q25021790",
+        "wikipedia": "https://en.wikipedia.org/wiki/Deep_Hole,_Nevada"
+      }
+    },
+    {
+      "id": "dixie-valley@9rh1cp",
+      "name": "Dixie Valley",
+      "lat": 39.723055555,
+      "lng": -118.080277777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3472710",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Dixie_Valley,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3472710",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dixie_Valley,_Nevada"
+      }
+    },
+    {
+      "id": "dog-town@9qg1ps",
+      "name": "Dog Town",
+      "lat": 38.1703,
+      "lng": -119.198,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3712528",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Dog_Town,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3712528",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dog_Town,_California"
+      }
+    },
+    {
+      "id": "drawbridge@9q9m0k",
+      "name": "Drawbridge",
+      "lat": 37.465,
+      "lng": -121.974444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5306017",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Drawbridge,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5306017",
+        "wikipedia": "https://en.wikipedia.org/wiki/Drawbridge,_California"
+      }
+    },
+    {
+      "id": "dun-glen@9rhxz8",
+      "name": "Dun Glen",
+      "lat": 40.741944444,
+      "lng": -117.088611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5314023",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Dun_Glen,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5314023",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dun_Glen,_Nevada"
+      }
+    },
+    {
+      "id": "dunderberg-mill@9qg0y2",
+      "name": "Dunderberg Mill",
+      "lat": 38.103888888,
+      "lng": -119.250555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3716258",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q3716258",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3716258"
+      }
+    },
+    {
+      "id": "eagleville@9qgyez",
+      "name": "Eagleville",
+      "lat": 39.1499244,
+      "lng": -118.3009643,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959599",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Eagleville,_Churchill_County,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959599",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eagleville,_Churchill_County,_Nevada"
+      }
+    },
+    {
+      "id": "eagleville@9qgyj0",
+      "name": "Eagleville",
+      "lat": 39.02611111,
+      "lng": -118.25277778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q43081567",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Eagleville,_Mineral_County,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q43081567",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eagleville,_Mineral_County,_Nevada"
+      }
+    },
+    {
+      "id": "eccles@9q94yw",
+      "name": "Eccles",
+      "lat": 37.0819,
+      "lng": -122.05,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5332191",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Eccles,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5332191",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eccles,_California"
+      }
+    },
+    {
+      "id": "eckley@9qc07p",
+      "name": "Eckley",
+      "lat": 38.05388889,
+      "lng": -122.20277778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1281875",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Eckley,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q1281875",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eckley,_California"
+      }
+    },
+    {
+      "id": "etna@9r5vet",
+      "name": "Etna",
+      "lat": 40.3711,
+      "lng": -118.321,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5404699",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Etna,_Pershing_County,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5404699",
+        "wikipedia": "https://en.wikipedia.org/wiki/Etna,_Pershing_County,_Nevada"
+      }
+    },
+    {
+      "id": "fairview@9qgzqk",
+      "name": "Fairview",
+      "lat": 39.2664,
+      "lng": -118.198,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7925841",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fairview,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7925841",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fairview,_Nevada"
+      }
+    },
+    {
+      "id": "farrell@9r5w16",
+      "name": "Farrell",
+      "lat": 40.44388889,
+      "lng": -118.77166667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959694",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Farrell,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959694",
+        "wikipedia": "https://en.wikipedia.org/wiki/Farrell,_Nevada"
+      }
+    },
+    {
+      "id": "fish-lake-valley@9qsn3n",
+      "name": "Fish Lake Valley",
+      "lat": 37.6947,
+      "lng": -118.078,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q177361",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fish_Lake_Valley,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q177361",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fish_Lake_Valley,_Nevada"
+      }
+    },
+    {
+      "id": "flanigan@9r4sxb",
+      "name": "Flanigan",
+      "lat": 40.17083333,
+      "lng": -119.88666667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q21188212",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Flanigan,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q21188212",
+        "wikipedia": "https://en.wikipedia.org/wiki/Flanigan,_Nevada"
+      }
+    },
+    {
+      "id": "forest@9r409v",
+      "name": "Forest",
+      "lat": 39.491388888,
+      "lng": -120.853055555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5468767",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Forest,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5468767",
+        "wikipedia": "https://en.wikipedia.org/wiki/Forest,_California"
+      }
+    },
+    {
+      "id": "fountain-springs@9q7knj",
+      "name": "Fountain Springs",
+      "lat": 35.8911,
+      "lng": -118.916,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5474759",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fountain_Springs,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5474759",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fountain_Springs,_California"
+      }
+    },
+    {
+      "id": "freeman-junction@9qk4t1",
+      "name": "Freeman Junction",
+      "lat": 35.601661111,
+      "lng": -117.90295,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5501018",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Freeman_Junction,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5501018",
+        "wikipedia": "https://en.wikipedia.org/wiki/Freeman_Junction,_California"
+      }
+    },
+    {
+      "id": "fremont-landing@9qcs8k",
+      "name": "Fremont Landing",
+      "lat": 38.78277778,
+      "lng": -121.61888889,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5501595",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fremont_Landing,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5501595",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fremont_Landing,_California"
+      }
+    },
+    {
+      "id": "french-flat@9qf248",
+      "name": "French Flat",
+      "lat": 37.972222222,
+      "lng": -120.471388888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q65119751",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/French_Flat",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q65119751",
+        "wikipedia": "https://en.wikipedia.org/wiki/French_Flat"
+      }
+    },
+    {
+      "id": "galena@9qfzf5",
+      "name": "Galena",
+      "lat": 39.349722222,
+      "lng": -119.788611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q10748348",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Galena,_Washoe_County,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q10748348",
+        "wikipedia": "https://en.wikipedia.org/wiki/Galena,_Washoe_County,_Nevada"
+      }
+    },
+    {
+      "id": "galena@9rhwy8",
+      "name": "Galena",
+      "lat": 40.564444444,
+      "lng": -117.13,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q19880524",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Galena,_Lander_County,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q19880524",
+        "wikipedia": "https://en.wikipedia.org/wiki/Galena,_Lander_County,_Nevada"
+      }
+    },
+    {
+      "id": "garlock@9qk1rs",
+      "name": "Garlock",
+      "lat": 35.4025,
+      "lng": -117.79,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5523485",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Garlock,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5523485",
+        "wikipedia": "https://en.wikipedia.org/wiki/Garlock,_California"
+      }
+    },
+    {
+      "id": "gas-point@9r0vgt",
+      "name": "Gas Point",
+      "lat": 40.415555555,
+      "lng": -122.534444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q56276356",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Gas_Point,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q56276356",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gas_Point,_California"
+      }
+    },
+    {
+      "id": "gilbert@9qu339",
+      "name": "Gilbert",
+      "lat": 38.19611111,
+      "lng": -117.69666667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959631",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Gilbert,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959631",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gilbert,_Nevada"
+      }
+    },
+    {
+      "id": "glenwood@9q9705",
+      "name": "Glenwood",
+      "lat": 37.1081,
+      "lng": -121.986,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5569425",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Glenwood,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5569425",
+        "wikipedia": "https://en.wikipedia.org/wiki/Glenwood,_California"
+      }
+    },
+    {
+      "id": "gold-point@9qss92",
+      "name": "Gold Point",
+      "lat": 37.354722222,
+      "lng": -117.365,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2887117",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Gold_Point,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q2887117",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gold_Point,_Nevada"
+      }
+    },
+    {
+      "id": "grantsville@9qukux",
+      "name": "Grantsville",
+      "lat": 38.845555555,
+      "lng": -117.573333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q96418497",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Grantsville,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q96418497",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grantsville,_Nevada"
+      }
+    },
+    {
+      "id": "hamilton@9r182n",
+      "name": "Hamilton",
+      "lat": 39.4545,
+      "lng": -121.6398,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5644748",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Hamilton,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5644748",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hamilton,_California"
+      }
+    },
+    {
+      "id": "hardin-city@9r73uh",
+      "name": "Hardin City",
+      "lat": 41.11472222,
+      "lng": -119.0025,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25021730",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Hardin_City,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q25021730",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hardin_City,_Nevada"
+      }
+    },
+    {
+      "id": "hardluck@9qsegz",
+      "name": "Hardluck",
+      "lat": 37.265,
+      "lng": -117.25694444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5656236",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5656236",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5656236"
+      }
+    },
+    {
+      "id": "holy-city@9q972k",
+      "name": "Holy City",
+      "lat": 37.1569,
+      "lng": -121.979,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q11026941",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Holy_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q11026941",
+        "wikipedia": "https://en.wikipedia.org/wiki/Holy_City,_California"
+      }
+    },
+    {
+      "id": "horseshoe-bend@9qdw24",
+      "name": "Horseshoe Bend",
+      "lat": 37.676,
+      "lng": -120.2316,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14946651",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Horseshoe_Bend,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14946651",
+        "wikipedia": "https://en.wikipedia.org/wiki/Horseshoe_Bend,_California"
+      }
+    },
+    {
+      "id": "ione@9qums4",
+      "name": "Ione",
+      "lat": 38.9483,
+      "lng": -117.5875,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3311529",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ione,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3311529",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ione,_Nevada"
+      }
+    },
+    {
+      "id": "jacksonville@9qdrk9",
+      "name": "Jacksonville",
+      "lat": 37.844,
+      "lng": -120.38218,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q91783675",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Jacksonville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q91783675",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jacksonville,_California"
+      }
+    },
+    {
+      "id": "jacobsville@9rh8tq",
+      "name": "Jacobsville",
+      "lat": 39.501111111,
+      "lng": -117.181111111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q65121347",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Jacobsville,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q65121347",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jacobsville,_Nevada"
+      }
+    },
+    {
+      "id": "jamison@9r44mc",
+      "name": "Jamison",
+      "lat": 39.776111111,
+      "lng": -120.682222222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6147843",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Jamison,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6147843",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jamison,_California"
+      }
+    },
+    {
+      "id": "jessup@9r57pj",
+      "name": "Jessup",
+      "lat": 39.93333333,
+      "lng": -118.86666667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q48791271",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Jessup,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q48791271",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jessup,_Nevada"
+      }
+    },
+    {
+      "id": "judsonville@9q9run",
+      "name": "Judsonville",
+      "lat": 37.9597,
+      "lng": -121.813,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6304285",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Judsonville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6304285",
+        "wikipedia": "https://en.wikipedia.org/wiki/Judsonville,_California"
+      }
+    },
+    {
+      "id": "jungo@9r7bf0",
+      "name": "Jungo",
+      "lat": 40.91666667,
+      "lng": -118.38194444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25021816",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Jungo,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q25021816",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jungo,_Nevada"
+      }
+    },
+    {
+      "id": "juniper-springs@9qu5wt",
+      "name": "Juniper Springs",
+      "lat": 38.61666667,
+      "lng": -117.83333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25022070",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Juniper_Springs,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q25022070",
+        "wikipedia": "https://en.wikipedia.org/wiki/Juniper_Springs,_Nevada"
+      }
+    },
+    {
+      "id": "kearsarge@9qec7m",
+      "name": "Kearsarge",
+      "lat": 36.81,
+      "lng": -118.325,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6382246",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Kearsarge,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6382246",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kearsarge,_California"
+      }
+    },
+    {
+      "id": "keeler@9qkptd",
+      "name": "Keeler",
+      "lat": 36.487222222,
+      "lng": -117.873888888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3301599",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Keeler,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3301599",
+        "wikipedia": "https://en.wikipedia.org/wiki/Keeler,_California"
+      }
+    },
+    {
+      "id": "kinkaid@9qgg3b",
+      "name": "Kinkaid",
+      "lat": 38.545,
+      "lng": -118.39472222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q22060820",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Kinkaid,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q22060820",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kinkaid,_Nevada"
+      }
+    },
+    {
+      "id": "la-placita@9qh999",
+      "name": "La Placita",
+      "lat": 34.0192,
+      "lng": -117.35,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6464450",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/La_Placita,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6464450",
+        "wikipedia": "https://en.wikipedia.org/wiki/La_Placita,_California"
+      }
+    },
+    {
+      "id": "lane-s-crossing@9qhsdn",
+      "name": "Lane's Crossing",
+      "lat": 34.575,
+      "lng": -117.33222222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q22032553",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lane%27s_Crossing",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q22032553",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lane%27s_Crossing"
+      }
+    },
+    {
+      "id": "laurel@9q970s",
+      "name": "Laurel",
+      "lat": 37.116666666,
+      "lng": -121.965277777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6499714",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Laurel,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6499714",
+        "wikipedia": "https://en.wikipedia.org/wiki/Laurel,_California"
+      }
+    },
+    {
+      "id": "leadfield@9qsc87",
+      "name": "Leadfield",
+      "lat": 36.846666666,
+      "lng": -117.059166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q643197",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Leadfield,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q643197",
+        "wikipedia": "https://en.wikipedia.org/wiki/Leadfield,_California"
+      }
+    },
+    {
+      "id": "leete@9r564f",
+      "name": "Leete",
+      "lat": 39.741111111,
+      "lng": -119.055555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959600",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Leete,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959600",
+        "wikipedia": "https://en.wikipedia.org/wiki/Leete,_Nevada"
+      }
+    },
+    {
+      "id": "leon@9muxrh",
+      "name": "Leon",
+      "lat": 33.6414,
+      "lng": -117.114,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683078",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Leon,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683078",
+        "wikipedia": "https://en.wikipedia.org/wiki/Leon,_California"
+      }
+    },
+    {
+      "id": "lexington@9q9785",
+      "name": "Lexington",
+      "lat": 37.19638889,
+      "lng": -121.98833333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14946652",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lexington,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14946652",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lexington,_California"
+      }
+    },
+    {
+      "id": "liberty@9qc9xc",
+      "name": "Liberty",
+      "lat": 38.2402,
+      "lng": -121.29,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q21593076",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Liberty,_San_Joaquin_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q21593076",
+        "wikipedia": "https://en.wikipedia.org/wiki/Liberty,_San_Joaquin_County,_California"
+      }
+    },
+    {
+      "id": "lida@9qsmn7",
+      "name": "Lida",
+      "lat": 37.458333333,
+      "lng": -117.498055555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q984778",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lida,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q984778",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lida,_Nevada"
+      }
+    },
+    {
+      "id": "llano-del-rio@9qhhqc",
+      "name": "Llano Del Rio",
+      "lat": 34.5065,
+      "lng": -117.827,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6661658",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Llano_del_Rio",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6661658",
+        "wikipedia": "https://en.wikipedia.org/wiki/Llano_del_Rio"
+      }
+    },
+    {
+      "id": "lodi@9qujvd",
+      "name": "Lodi",
+      "lat": 38.99388889,
+      "lng": -117.87833333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959671",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lodi,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959671",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lodi,_Nevada"
+      }
+    },
+    {
+      "id": "logtown@9qf5cb",
+      "name": "Logtown",
+      "lat": 38.6333,
+      "lng": -120.8522,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6667892",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Logtown,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6667892",
+        "wikipedia": "https://en.wikipedia.org/wiki/Logtown,_California"
+      }
+    },
+    {
+      "id": "ludwig@9qgjte",
+      "name": "Ludwig",
+      "lat": 38.955555555,
+      "lng": -119.279166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q124739914",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ludwig,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q124739914",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ludwig,_Nevada"
+      }
+    },
+    {
+      "id": "lynn@9q9p49",
+      "name": "Lynn",
+      "lat": 37.8011,
+      "lng": -122.2331,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q16920578",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lynn,_Oakland,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q16920578",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lynn,_Oakland,_California"
+      }
+    },
+    {
+      "id": "marietta@9qgce1",
+      "name": "Marietta",
+      "lat": 38.2433,
+      "lng": -118.339,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6763210",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Marietta,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6763210",
+        "wikipedia": "https://en.wikipedia.org/wiki/Marietta,_Nevada"
+      }
+    },
+    {
+      "id": "masonic@9qg61x",
+      "name": "Masonic",
+      "lat": 38.3625,
+      "lng": -119.1125,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3850838",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Masonic,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3850838",
+        "wikipedia": "https://en.wikipedia.org/wiki/Masonic,_California"
+      }
+    },
+    {
+      "id": "mcleans@9qu26y",
+      "name": "McLeans",
+      "lat": 38.04777778,
+      "lng": -117.65194444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q55757644",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/McLeans,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q55757644",
+        "wikipedia": "https://en.wikipedia.org/wiki/McLeans,_Nevada"
+      }
+    },
+    {
+      "id": "mentryville@9q5esf",
+      "name": "Mentryville",
+      "lat": 34.379158333,
+      "lng": -118.611005555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6817616",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mentryville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6817616",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mentryville,_California"
+      }
+    },
+    {
+      "id": "michigan-bar@9qcgj8",
+      "name": "Michigan Bar",
+      "lat": 38.4999,
+      "lng": -121.0453,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6837457",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Michigan_Bar,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6837457",
+        "wikipedia": "https://en.wikipedia.org/wiki/Michigan_Bar,_California"
+      }
+    },
+    {
+      "id": "middle-bar@9qf1u7",
+      "name": "Middle Bar",
+      "lat": 38.2976,
+      "lng": -120.75,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6841217",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Middle_Bar,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6841217",
+        "wikipedia": "https://en.wikipedia.org/wiki/Middle_Bar,_California"
+      }
+    },
+    {
+      "id": "miller-s@9qu2zn",
+      "name": "Miller's",
+      "lat": 38.1367,
+      "lng": -117.457,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6858990",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Millers,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6858990",
+        "wikipedia": "https://en.wikipedia.org/wiki/Millers,_Nevada"
+      }
+    },
+    {
+      "id": "millett@9qutvq",
+      "name": "Millett",
+      "lat": 39.01527778,
+      "lng": -117.18083333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959675",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Millett,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959675",
+        "wikipedia": "https://en.wikipedia.org/wiki/Millett,_Nevada"
+      }
+    },
+    {
+      "id": "minersville@9r28qh",
+      "name": "Minersville",
+      "lat": 40.8514,
+      "lng": -122.783,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683363",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Minersville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683363",
+        "wikipedia": "https://en.wikipedia.org/wiki/Minersville,_California"
+      }
+    },
+    {
+      "id": "mokelumne-city@9qc9se",
+      "name": "Mokelumne City",
+      "lat": 38.2531,
+      "lng": -121.439,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683382",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mokelumne_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683382",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mokelumne_City,_California"
+      }
+    },
+    {
+      "id": "mono-mills@9qert1",
+      "name": "Mono Mills",
+      "lat": 37.8875,
+      "lng": -118.959444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3321090",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mono_Mills,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3321090",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mono_Mills,_California"
+      }
+    },
+    {
+      "id": "monroeville@9r138r",
+      "name": "Monroeville",
+      "lat": 39.67777778,
+      "lng": -121.9775,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683388",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Monroeville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683388",
+        "wikipedia": "https://en.wikipedia.org/wiki/Monroeville,_California"
+      }
+    },
+    {
+      "id": "mormon-island@9qcu5v",
+      "name": "Mormon Island",
+      "lat": 38.7035,
+      "lng": -121.1174,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6912636",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mormon_Island,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6912636",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mormon_Island,_California"
+      }
+    },
+    {
+      "id": "mount-ophir@9qdt7v",
+      "name": "Mount Ophir",
+      "lat": 37.5147,
+      "lng": -120.065,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683429",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mount_Ophir,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683429",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mount_Ophir,_California"
+      }
+    },
+    {
+      "id": "national@9rkmuq",
+      "name": "National",
+      "lat": 41.828333333,
+      "lng": -117.586111111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959642",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/National,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959642",
+        "wikipedia": "https://en.wikipedia.org/wiki/National,_Nevada"
+      }
+    },
+    {
+      "id": "negro-flat@9r26de",
+      "name": "Negro Flat",
+      "lat": 41.2419,
+      "lng": -123.281,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6987594",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Negro_Flat,_Siskiyou_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6987594",
+        "wikipedia": "https://en.wikipedia.org/wiki/Negro_Flat,_Siskiyou_County,_California"
+      }
+    },
+    {
+      "id": "nevada-city@9r587e",
+      "name": "Nevada City",
+      "lat": 39.4375,
+      "lng": -118.671388888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7408434",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Nevada_City,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7408434",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nevada_City,_Nevada"
+      }
+    },
+    {
+      "id": "new-idria-mercury-mine@9q6pnj",
+      "name": "New Idria Mercury Mine",
+      "lat": 36.41694444,
+      "lng": -120.67333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683479",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/New_Idria_Mercury_Mine",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683479",
+        "wikipedia": "https://en.wikipedia.org/wiki/New_Idria_Mercury_Mine"
+      }
+    },
+    {
+      "id": "new-idria@9q6pnj",
+      "name": "New Idria",
+      "lat": 36.41694444,
+      "lng": -120.67333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3475543",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/New_Idria,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3475543",
+        "wikipedia": "https://en.wikipedia.org/wiki/New_Idria,_California"
+      }
+    },
+    {
+      "id": "north-bloomfield@9qfpby",
+      "name": "North Bloomfield",
+      "lat": 39.368333333,
+      "lng": -120.899444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7054205",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/North_Bloomfield,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7054205",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_Bloomfield,_California"
+      }
+    },
+    {
+      "id": "nortonville@9q9rfw",
+      "name": "Nortonville",
+      "lat": 37.95777778,
+      "lng": -121.88055556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7060713",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Nortonville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7060713",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nortonville,_California"
+      }
+    },
+    {
+      "id": "oak-grove@9qcxz6",
+      "name": "Oak Grove",
+      "lat": 39.34222222,
+      "lng": -121.32055556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7073493",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7073493",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7073493"
+      }
+    },
+    {
+      "id": "oakhurst@9qe141",
+      "name": "Oakhurst",
+      "lat": 36.74916667,
+      "lng": -119.43805556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7073909",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7073909",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7073909"
+      }
+    },
+    {
+      "id": "omco@9qu5tk",
+      "name": "Omco",
+      "lat": 38.60805556,
+      "lng": -117.89305556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959667",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Omco,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959667",
+        "wikipedia": "https://en.wikipedia.org/wiki/Omco,_Nevada"
+      }
+    },
+    {
+      "id": "ophir@9qcv5z",
+      "name": "Ophir",
+      "lat": 38.891111111,
+      "lng": -121.123611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7097975",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ophir,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7097975",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ophir,_California"
+      }
+    },
+    {
+      "id": "oreana@9r5v66",
+      "name": "Oreana",
+      "lat": 40.310833333,
+      "lng": -118.370555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q96419104",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Oreana,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q96419104",
+        "wikipedia": "https://en.wikipedia.org/wiki/Oreana,_Nevada"
+      }
+    },
+    {
+      "id": "palmetto@9qsm1b",
+      "name": "Palmetto",
+      "lat": 37.4444,
+      "lng": -117.695,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7128353",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Palmetto,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7128353",
+        "wikipedia": "https://en.wikipedia.org/wiki/Palmetto,_Nevada"
+      }
+    },
+    {
+      "id": "panamint-city@9qktrr",
+      "name": "Panamint City",
+      "lat": 36.1183,
+      "lng": -117.095,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3361881",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Panamint_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3361881",
+        "wikipedia": "https://en.wikipedia.org/wiki/Panamint_City,_California"
+      }
+    },
+    {
+      "id": "patchen@9q9726",
+      "name": "Patchen",
+      "lat": 37.148333333,
+      "lng": -121.974444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7144355",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Patchen,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7144355",
+        "wikipedia": "https://en.wikipedia.org/wiki/Patchen,_California"
+      }
+    },
+    {
+      "id": "peavine-ranch@9r49rn",
+      "name": "Peavine Ranch",
+      "lat": 39.62944444,
+      "lng": -119.92027778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14944996",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Peavine_Ranch",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14944996",
+        "wikipedia": "https://en.wikipedia.org/wiki/Peavine_Ranch"
+      }
+    },
+    {
+      "id": "pinacate@9qh8h3",
+      "name": "Pinacate",
+      "lat": 33.76,
+      "lng": -117.233,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7194781",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Pinacate,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7194781",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pinacate,_California"
+      }
+    },
+    {
+      "id": "pine-grove@9qgk13",
+      "name": "Pine Grove",
+      "lat": 38.67833333,
+      "lng": -119.12416667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q48975947",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Pine_Grove,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q48975947",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pine_Grove,_Nevada"
+      }
+    },
+    {
+      "id": "poeville@9r49pr",
+      "name": "Poeville",
+      "lat": 39.5912,
+      "lng": -119.906,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7207556",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Poeville,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7207556",
+        "wikipedia": "https://en.wikipedia.org/wiki/Poeville,_Nevada"
+      }
+    },
+    {
+      "id": "politana@9qh9fs",
+      "name": "Politana",
+      "lat": 34.081389,
+      "lng": -117.305,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7210122",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Politana,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7210122",
+        "wikipedia": "https://en.wikipedia.org/wiki/Politana,_California"
+      }
+    },
+    {
+      "id": "purissima@9q8uy3",
+      "name": "Purissima",
+      "lat": 37.403055555,
+      "lng": -122.416944444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7261270",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Purissima,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7261270",
+        "wikipedia": "https://en.wikipedia.org/wiki/Purissima,_California"
+      }
+    },
+    {
+      "id": "pyramid-city@9r4fy1",
+      "name": "Pyramid City",
+      "lat": 39.864166666,
+      "lng": -119.618611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q96400528",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Pyramid_City,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q96400528",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pyramid_City,_Nevada"
+      }
+    },
+    {
+      "id": "quartz-mountain@9qun5s",
+      "name": "Quartz Mountain",
+      "lat": 39.045833333,
+      "lng": -117.966388888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q107570727",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Quartz_Mountain,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q107570727",
+        "wikipedia": "https://en.wikipedia.org/wiki/Quartz_Mountain,_Nevada"
+      }
+    },
+    {
+      "id": "ragtown@9r52tz",
+      "name": "Ragtown",
+      "lat": 39.5039,
+      "lng": -118.917,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7283250",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ragtown,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7283250",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ragtown,_Nevada"
+      }
+    },
+    {
+      "id": "rancho-temescal@9qh2n7",
+      "name": "Rancho Temescal",
+      "lat": 33.7691,
+      "lng": -117.49,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7291349",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rancho_Temescal_(Serrano)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7291349",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rancho_Temescal_(Serrano)"
+      }
+    },
+    {
+      "id": "rand@9qgsed",
+      "name": "Rand",
+      "lat": 38.775833333,
+      "lng": -118.674166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959567",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rand,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959567",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rand,_Nevada"
+      }
+    },
+    {
+      "id": "rawhide@9qgvcy",
+      "name": "Rawhide",
+      "lat": 39.0167,
+      "lng": -118.391,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14705260",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rawhide,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14705260",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rawhide,_Nevada"
+      }
+    },
+    {
+      "id": "red-dog@9qfp0g",
+      "name": "Red Dog",
+      "lat": 39.216666666,
+      "lng": -120.899444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7304043",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Red_Dog,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7304043",
+        "wikipedia": "https://en.wikipedia.org/wiki/Red_Dog,_California"
+      }
+    },
+    {
+      "id": "rhodes@9qu1b8",
+      "name": "Rhodes",
+      "lat": 38.27833333,
+      "lng": -118.09694444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q56063020",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q56063020",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rhodes,_Nevada"
+      }
+    },
+    {
+      "id": "rio-bravo@9q72fc",
+      "name": "Rio Bravo",
+      "lat": 35.2968,
+      "lng": -119.057,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7335162",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rio_Bravo_(former_settlement),_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7335162",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rio_Bravo_(former_settlement),_California"
+      }
+    },
+    {
+      "id": "rochester@9r5vny",
+      "name": "Rochester",
+      "lat": 40.288888888,
+      "lng": -118.170277777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7353923",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rochester,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7353923",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rochester,_Nevada"
+      }
+    },
+    {
+      "id": "rockland@9qg7cu",
+      "name": "Rockland",
+      "lat": 38.652222222,
+      "lng": -119.094444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14034467",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rockland,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14034467",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rockland,_Nevada"
+      }
+    },
+    {
+      "id": "russell-city@9q9nhy",
+      "name": "Russell City",
+      "lat": 37.6528,
+      "lng": -122.134,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7381418",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Russell_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7381418",
+        "wikipedia": "https://en.wikipedia.org/wiki/Russell_City,_California"
+      }
+    },
+    {
+      "id": "salmon-falls@9qcumr",
+      "name": "Salmon Falls",
+      "lat": 38.7581,
+      "lng": -121.058,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7405504",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Salmon_Falls,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7405504",
+        "wikipedia": "https://en.wikipedia.org/wiki/Salmon_Falls,_California"
+      }
+    },
+    {
+      "id": "salt-wells@9qgxvx",
+      "name": "Salt Wells",
+      "lat": 39.3744,
+      "lng": -118.584,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6117496",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Salt_Wells,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6117496",
+        "wikipedia": "https://en.wikipedia.org/wiki/Salt_Wells,_Nevada"
+      }
+    },
+    {
+      "id": "san-carlos@9qecrg",
+      "name": "San Carlos",
+      "lat": 36.804,
+      "lng": -118.126,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3946876",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/San_Carlos,_Inyo_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3946876",
+        "wikipedia": "https://en.wikipedia.org/wiki/San_Carlos,_Inyo_County,_California"
+      }
+    },
+    {
+      "id": "san-joaquin-city@9q9y29",
+      "name": "San Joaquin City",
+      "lat": 37.66801,
+      "lng": -121.25882,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683880",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/San_Joaquin_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683880",
+        "wikipedia": "https://en.wikipedia.org/wiki/San_Joaquin_City,_California"
+      }
+    },
+    {
+      "id": "san-juan@9quwkp",
+      "name": "San Juan",
+      "lat": 39.106111,
+      "lng": -117.243889,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q21010219",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/San_Juan,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q21010219",
+        "wikipedia": "https://en.wikipedia.org/wiki/San_Juan,_Nevada"
+      }
+    },
+    {
+      "id": "searsville-california@9q9hf3",
+      "name": "Searsville, California",
+      "lat": 37.40694444,
+      "lng": -122.23777778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q35768343",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Searsville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q35768343",
+        "wikipedia": "https://en.wikipedia.org/wiki/Searsville,_California"
+      }
+    },
+    {
+      "id": "shasta-state-historic-park@9r0yuw",
+      "name": "Shasta State Historic Park",
+      "lat": 40.59851,
+      "lng": -122.491532,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49560476",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49560476",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q49560476"
+      }
+    },
+    {
+      "id": "shasta@9r0yuv",
+      "name": "Shasta",
+      "lat": 40.592222222,
+      "lng": -122.477777777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3116391",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Shasta,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q3116391",
+        "wikipedia": "https://en.wikipedia.org/wiki/Shasta,_California"
+      }
+    },
+    {
+      "id": "skidoo@9qkxq0",
+      "name": "Skidoo",
+      "lat": 36.435555555,
+      "lng": -117.1475,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7535090",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Skidoo,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7535090",
+        "wikipedia": "https://en.wikipedia.org/wiki/Skidoo,_California"
+      }
+    },
+    {
+      "id": "somersville@9q9rfv",
+      "name": "Somersville",
+      "lat": 37.9569,
+      "lng": -121.864,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7559935",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Somersville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7559935",
+        "wikipedia": "https://en.wikipedia.org/wiki/Somersville,_California"
+      }
+    },
+    {
+      "id": "soto@9r14z7",
+      "name": "Soto",
+      "lat": 39.8769,
+      "lng": -122.021,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7564010",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7564010",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7564010"
+      }
+    },
+    {
+      "id": "star-city@9r5yxs",
+      "name": "Star City",
+      "lat": 40.5444,
+      "lng": -118.142,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7600664",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Star_City,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7600664",
+        "wikipedia": "https://en.wikipedia.org/wiki/Star_City,_Nevada"
+      }
+    },
+    {
+      "id": "state-line@9qez0h",
+      "name": "State Line",
+      "lat": 37.819166666,
+      "lng": -118.476388888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1109522",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q1109522",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q1109522"
+      }
+    },
+    {
+      "id": "stewartville@9q9rg7",
+      "name": "Stewartville",
+      "lat": 37.9464,
+      "lng": -121.849,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7616027",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Stewartville,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7616027",
+        "wikipedia": "https://en.wikipedia.org/wiki/Stewartville,_California"
+      }
+    },
+    {
+      "id": "stickneys-ferry@9q77tx",
+      "name": "Stickneys Ferry",
+      "lat": 35.8147,
+      "lng": -118.9283,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7616288",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Stickneys_Ferry",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7616288",
+        "wikipedia": "https://en.wikipedia.org/wiki/Stickneys_Ferry"
+      }
+    },
+    {
+      "id": "stillwater@9r58y6",
+      "name": "Stillwater",
+      "lat": 39.5217,
+      "lng": -118.547,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7408465",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Stillwater,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7408465",
+        "wikipedia": "https://en.wikipedia.org/wiki/Stillwater,_Nevada"
+      }
+    },
+    {
+      "id": "stokes-landing@9q9ju7",
+      "name": "Stokes Landing",
+      "lat": 37.5944,
+      "lng": -122.147,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7618533",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Stokes_Landing,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7618533",
+        "wikipedia": "https://en.wikipedia.org/wiki/Stokes_Landing,_California"
+      }
+    },
+    {
+      "id": "stone-cabin@9qgncv",
+      "name": "Stone Cabin",
+      "lat": 39.1857483,
+      "lng": -119.4487771,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q87293253",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q87293253",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q87293253"
+      }
+    },
+    {
+      "id": "sulphur@9r78d1",
+      "name": "Sulphur",
+      "lat": 40.8747,
+      "lng": -118.737,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7636504",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sulphur,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7636504",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sulphur,_Nevada"
+      }
+    },
+    {
+      "id": "sutro@9qfzqy",
+      "name": "Sutro",
+      "lat": 39.28,
+      "lng": -119.584166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q13605055",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sutro,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q13605055",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sutro,_Nevada"
+      }
+    },
+    {
+      "id": "swansea@9qkpv1",
+      "name": "Swansea",
+      "lat": 36.524722222,
+      "lng": -117.903888888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7653650",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Swansea,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7653650",
+        "wikipedia": "https://en.wikipedia.org/wiki/Swansea,_California"
+      }
+    },
+    {
+      "id": "sweetwater@9qg6b1",
+      "name": "Sweetwater",
+      "lat": 38.4625,
+      "lng": -119.175,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959665",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sweetwater,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959665",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sweetwater,_Nevada"
+      }
+    },
+    {
+      "id": "telluride@9rhwtr",
+      "name": "Telluride",
+      "lat": 40.5608,
+      "lng": -117.187,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q17377045",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Telluride,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q17377045",
+        "wikipedia": "https://en.wikipedia.org/wiki/Telluride,_Nevada"
+      }
+    },
+    {
+      "id": "terra-cotta@9mux9p",
+      "name": "Terra Cotta",
+      "lat": 33.703055555,
+      "lng": -117.374722222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7703072",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Terra_Cotta,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7703072",
+        "wikipedia": "https://en.wikipedia.org/wiki/Terra_Cotta,_California"
+      }
+    },
+    {
+      "id": "thorne@9qget7",
+      "name": "Thorne",
+      "lat": 38.60194444,
+      "lng": -118.59138889,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q22060844",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Thorne,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q22060844",
+        "wikipedia": "https://en.wikipedia.org/wiki/Thorne,_Nevada"
+      }
+    },
+    {
+      "id": "trinity@9r5e1z",
+      "name": "Trinity",
+      "lat": 39.9449109,
+      "lng": -118.7479315,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q140611016",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q140611016",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q140611016"
+      }
+    },
+    {
+      "id": "tunnel-camp@9r5w16",
+      "name": "Tunnel Camp",
+      "lat": 40.443793,
+      "lng": -118.7715497,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959693",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Tunnel_Camp,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959693",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tunnel_Camp,_Nevada"
+      }
+    },
+    {
+      "id": "tuolumne-city@9q9vgt",
+      "name": "Tuolumne City",
+      "lat": 37.6042,
+      "lng": -121.131,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7853424",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Tuolumne_City,_Stanislaus_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7853424",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tuolumne_City,_Stanislaus_County,_California"
+      }
+    },
+    {
+      "id": "unionville@9rhn04",
+      "name": "Unionville",
+      "lat": 40.4458,
+      "lng": -118.122,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14705293",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Unionville,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14705293",
+        "wikipedia": "https://en.wikipedia.org/wiki/Unionville,_Nevada"
+      }
+    },
+    {
+      "id": "valley-wells@9qkef4",
+      "name": "Valley Wells",
+      "lat": 35.828333333,
+      "lng": -117.331666666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2883098",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Valley_Wells,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q2883098",
+        "wikipedia": "https://en.wikipedia.org/wiki/Valley_Wells,_California"
+      }
+    },
+    {
+      "id": "vernon@9r5tbz",
+      "name": "Vernon",
+      "lat": 40.4261,
+      "lng": -118.79,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7922038",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Vernon,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7922038",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vernon,_Nevada"
+      }
+    },
+    {
+      "id": "vya@9r6u8e",
+      "name": "Vya",
+      "lat": 41.592222222,
+      "lng": -119.860555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7943764",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Vya,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7943764",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vya,_Nevada"
+      }
+    },
+    {
+      "id": "waldo@9r2p62",
+      "name": "Waldo",
+      "lat": 42.061111111,
+      "lng": -123.646944444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7961544",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Waldo,_Oregon",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7961544",
+        "wikipedia": "https://en.wikipedia.org/wiki/Waldo,_Oregon"
+      }
+    },
+    {
+      "id": "washoe-city@9qfzdq",
+      "name": "Washoe City",
+      "lat": 39.3203,
+      "lng": -119.78,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q13583154",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Washoe_City,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q13583154",
+        "wikipedia": "https://en.wikipedia.org/wiki/Washoe_City,_Nevada"
+      }
+    },
+    {
+      "id": "west-hartley@9q9ru4",
+      "name": "West Hartley",
+      "lat": 37.9406,
+      "lng": -121.813,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7985318",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/West_Hartley,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7985318",
+        "wikipedia": "https://en.wikipedia.org/wiki/West_Hartley,_California"
+      }
+    },
+    {
+      "id": "whiskeytown@9r0z5j",
+      "name": "Whiskeytown",
+      "lat": 40.6348,
+      "lng": -122.561,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7993903",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Whiskeytown,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7993903",
+        "wikipedia": "https://en.wikipedia.org/wiki/Whiskeytown,_California"
+      }
+    },
+    {
+      "id": "white-cloud-city@9r5fty",
+      "name": "White Cloud City",
+      "lat": 39.848888888,
+      "lng": -118.218888888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1779442",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Coppereid,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q1779442",
+        "wikipedia": "https://en.wikipedia.org/wiki/Coppereid,_Nevada"
+      }
+    },
+    {
+      "id": "white-mountain-city@9qshff",
+      "name": "White Mountain City",
+      "lat": 37.4117,
+      "lng": -117.998,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7995077",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/White_Mountain_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7995077",
+        "wikipedia": "https://en.wikipedia.org/wiki/White_Mountain_City,_California"
+      }
+    },
+    {
+      "id": "white-plains@9r5e00",
+      "name": "White Plains",
+      "lat": 39.90694444,
+      "lng": -118.81777778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959604",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/White_Plains,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959604",
+        "wikipedia": "https://en.wikipedia.org/wiki/White_Plains,_Nevada"
+      }
+    },
+    {
+      "id": "willard@9mux2z",
+      "name": "Willard",
+      "lat": 33.6614,
+      "lng": -117.379,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q8003347",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q8003347",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q8003347"
+      }
+    },
+    {
+      "id": "willow-point@9rk6ew",
+      "name": "Willow Point",
+      "lat": 41.255833333,
+      "lng": -117.609722222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q54959644",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Willow_Point,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q54959644",
+        "wikipedia": "https://en.wikipedia.org/wiki/Willow_Point,_Nevada"
+      }
+    },
+    {
+      "id": "winehaven@9q8zyk",
+      "name": "Winehaven",
+      "lat": 37.951306,
+      "lng": -122.417444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q8024966",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Winehaven,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q8024966",
+        "wikipedia": "https://en.wikipedia.org/wiki/Winehaven,_California"
+      }
+    },
+    {
+      "id": "wingo@9qbcmz",
+      "name": "Wingo",
+      "lat": 38.2294,
+      "lng": -122.44,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q8025243",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Wingo,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q8025243",
+        "wikipedia": "https://en.wikipedia.org/wiki/Wingo,_California"
+      }
+    },
+    {
+      "id": "wonder@9rh03e",
+      "name": "Wonder",
+      "lat": 39.4394,
+      "lng": -118.053,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q8031711",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Wonder,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q8031711",
+        "wikipedia": "https://en.wikipedia.org/wiki/Wonder,_Nevada"
+      }
+    },
+    {
+      "id": "wrights@9q9730",
+      "name": "Wrights",
+      "lat": 37.139166666,
+      "lng": -121.946944444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q8038293",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Wrights,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q8038293",
+        "wikipedia": "https://en.wikipedia.org/wiki/Wrights,_California"
+      }
+    }
+  ]
+}

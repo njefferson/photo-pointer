@@ -1,6 +1,6 @@
 {
   "region": "hahira",
-  "builtAt": "2026-07-21",
+  "builtAt": "2026-07-25",
   "spots": [
     {
       "id": "american-alligator@djkwzb",
@@ -1806,6 +1806,35 @@
       ],
       "tags": {
         "ebird_species": 28
+      }
+    },
+    {
+      "id": "franklinville@djsb2b",
+      "name": "Franklinville",
+      "lat": 30.982222222,
+      "lng": -83.283333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q60789135",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Franklinville,_Georgia",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q60789135",
+        "wikipedia": "https://en.wikipedia.org/wiki/Franklinville,_Georgia"
       }
     },
     {
@@ -3958,6 +3987,35 @@
           "w": 0,
           "site_m": 66
         }
+      }
+    },
+    {
+      "id": "olympia@djkwrk",
+      "name": "Olympia",
+      "lat": 30.65465,
+      "lng": -83.345705555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q65087571",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Olympia,_Georgia",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q65087571",
+        "wikipedia": "https://en.wikipedia.org/wiki/Olympia,_Georgia"
       }
     },
     {

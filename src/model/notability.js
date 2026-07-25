@@ -43,9 +43,17 @@ export function markerHasWorthwhileData(spot) {
 // ruins, mines — are trusted and kept as-is.
 export function keepOddity(spot) {
   const t = spot.tags ?? {};
+  const documented = !!(t.wikipedia || t.wikidata || (t.commons?.photos >= 3));
+  // An oddity with NO name gives the user nothing to identify — it reads as map
+  // cruft (an unnamed art node looks like a roundabout). Keep an unnamed one only
+  // if it's genuinely documented: a Wikipedia/Wikidata entry or freely-licensed
+  // photos taken of it.
+  if (!spot.name) return documented;
+  // Named: the self-applied `tourism=attraction` tag is junk unless the place is
+  // a real natural/historic feature or is corroborated.
   if (t.tourism !== 'attraction') return true;
   if (t.natural || t.historic || t.geological) return true;
-  return !!(t.wikipedia || t.wikidata || (t.commons?.photos >= 3) || (spot.sources ?? []).length > 1);
+  return documented || (spot.sources ?? []).length > 1;
 }
 
 // Whether to keep a spot on the map at all. Filters the two categories where OSM

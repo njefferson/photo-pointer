@@ -95,18 +95,37 @@ body {
   white-space: nowrap; border: 0;
 }
 
+/* First-paint loading splash (static in index.html, painted before the JS even
+   runs, removed by boot once the map + ranking are ready). A full-screen overlay
+   so it covers the half-built UI. Theme-token colours, gated. */
+.app-loading {
+  position: fixed; inset: 0; z-index: 3000;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+  background: var(--bg); color: var(--ink); text-align: center; padding: 24px;
+}
+.app-loading-title { font-size: 17px; font-weight: 650; }
+.app-loading-sub { font-size: 13px; color: var(--dim); }
+
 .bar-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
 
-/* "Must have" data-layer filters — same filter bar as the category chips, one
-   place, applied to both map and list. A leading label names the group. */
+/* Tri-state data-layer filters — same filter bar as the category chips, one
+   place, applied to both map and list. A leading label + hint name the group. */
 .layer-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; width: 100%; }
 .layer-label { font-size: 12px; font-weight: 600; color: var(--dim); }
-/* Attribute filters read as pill toggles (no category letter/hue); the ✓ on the
-   "on" state is the non-colour affordance, matching the struck-through "off". */
-.layer-chip.on { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
-.layer-chip.on::before { content: "✓ "; }
+.layer-hint { font-size: 11px; color: var(--dim); }
+/* A NEUTRAL layer chip means "any" (no filter), NOT "off" — so it must not get
+   the category chips' struck-through/dimmed off-look. Target neutral only (not
+   require/exclude) with 3-class specificity so it wins over .chip[aria-pressed]
+   regardless of source order (that rule appears later in the file). */
+.layer-chip:not(.require):not(.exclude) { opacity: 1; text-decoration: none; }
+/* Non-hue channels carry the meaning (survive grayscale): require = ✓ mark +
+   bold + firm border; exclude = ✕ mark + strike-through + dashed border. The
+   ✓/✕ come from the button's .req-mark span; colour only reinforces. */
+.layer-chip.require { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
+.layer-chip.exclude { text-decoration: line-through; opacity: 0.72; border-style: dashed; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
+.req-mark { font-weight: 700; }
 
 .chip {
   font: inherit;

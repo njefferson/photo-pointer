@@ -83,6 +83,110 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.12 "Two new areas: California Ghost Towns & Reno" (a CAPABILITY)
+  BUILT on staging (awaiting on-device pass). Noah: "I like the ghost town region
+  but they also load in other regions? I need a new region around the balloon
+  race." TWO new regions in config/regions.json: (1) `california-ghost-towns` —
+  a STATEWIDE theme region (bbox 32.4/-124.6/42.1/-117.0 = all CA + nearby NV),
+  GHOST-TOWN-ONLY via a new region field `curiosityClasses:['Q74047']` that the
+  curiosities adapter honors (classesFor(region) filters the VALUES list) so a
+  statewide query doesn't pull every CA waterfall. county is a placeholder
+  {osm_area_name:'California', fips:'06000'} — OSM is NOT run here; only the
+  `curiosities` workflow (dispatched via wikidata-curiosities.yml). RESULT: 205
+  ghost towns statewide, **Bodie included**, all pass keepSpot (named + wiki).
+  (2) `reno` — Reno, NV (Washoe County US-NV-031), bbox 39.35/-119.95/39.68/
+  -119.65, center on the balloon-race venue (Rancho San Rafael 39.5528,
+  -119.8213, zoom 12). Ran the FULL `all` pipeline via ingest-osm.yml (osm+ebird
+  [Frame has no NV → graceful skip]+markers+curiosities+merge): 329 spots (208
+  parks, 85 oddities, 19 viewpoints, 12 markers, 5 trailheads; 307 kept). The
+  GREAT RENO BALLOON RACE is a CURATED pin — hand-authored data/sources/reno/
+  curated.json (source 'curated', license 'own'), category oddity, tags.curiosity
+  'Balloon festival', links to Wikipedia; the merge folds it in like any source.
+  (GOTCHA: best_light must be from the spot.js LIGHT enum — 'dawn' failed
+  validateSpot, used 'sunrise'.) Ghost towns ALSO still load in the normal
+  regions as curiosities (1.5.11) — intended (local browse vs the dedicated
+  statewide view); minor overlap accepted. sw CACHE pointer-1.5.12 (config/
+  regions.json is precached → bump so the 2 new pills reach devices); changelog[0]
+  1.5.12. region.test.mjs region list updated to 7. VERIFIED headless: 7 region
+  pills; California Ghost Towns → 205 rows incl. Bodie; Reno → balloon race in the
+  list, popup "Balloon festival · landscape"; ZERO pageerrors. 96 tests + contrast
+  green; both regions validate clean. BRANCH: the 2 regions + curated pin + the
+  adapter's classesFor are on staging; the adapter tooling (with correct QIDs +
+  classesFor) is also synced to main for workflow_dispatch. STILL OWED from the
+  "three sources" ask: SOURCE #2 (specific OSM feature tags) and SOURCE #3 (USGS
+  GNIS) — source #1 (Wikidata curiosities) is done across all 7 regions.
+- 2026-07-25 1.5.11 "Atlas-Obscura finds (source #1: Wikidata curiosities)"
+  (a CAPABILITY) BUILT on staging (awaiting on-device pass). Noah: "run the three
+  suggested sources in order" — this is SOURCE #1 of 3. NEW adapter ingest/
+  adapters/wikidata-curiosities.mjs (CC0) + `curiosities` command + workflow
+  wikidata-curiosities.yml: queries the region bbox (wikibase:box) for P31/P279*
+  of curiosity CLASSES → 'oddity' spots tagged {curiosity: kind, wikidata,
+  wikipedia}, link out to Wikipedia. Popup leads with the kind ("Ghost town");
+  list detailBits shows it. GOTCHA (exactly as LESSONS warns — WDQS unreachable
+  from sandbox, QIDs must be verified): FIRST runner pass returned only 8 (6
+  waterfall Q34038 + 2 lighthouse Q39715 — those IDs were right); ghost town +3
+  others silently returned 0 because MY QIDS WERE WRONG. Verified via WebSearch +
+  fixed: ghost town Q5153359→**Q74047**, natural arch Q771035→Q954501, obs tower
+  Q1440476→Q1440300, roadside attraction Q2380335→Q14915208, land art
+  Q338786→Q326478; dropped unverified "folly". FINAL VERIFIED (8 classes) rolled
+  to ALL 5 regions via actions_run_trigger on staging: Sac 26 (17 ghost towns
+  incl. Mormon Island/North Bloomfield/Carson Hill/Ophir/Red Dog, 6 waterfalls,
+  2 lighthouses, 1 lookout), Yellowstone 253 (200 hot springs, 34 waterfalls, 16
+  ghost towns, 2 arches, 5 lookouts), Humboldt 5 (coastal lighthouses), PCB 6,
+  Hahira 2. All pass keepSpot (carry wikidata/wikipedia). BRANCH NOTE: the INGEST
+  TOOLING (adapter, ingest.mjs `curiosities`, workflow, test) is on BOTH main
+  (required for workflow_dispatch discoverability — like every other ingest
+  workflow) and staging; the user-facing DISPLAY (popup/list kind) is on staging
+  only, rides the promote. Runner commits DATA to staging (ref=staging). sw CACHE
+  pointer-1.5.11; changelog[0] 1.5.11. 96 tests (+5 adapter) + contrast green.
+  NOTE Bodie is NOT in any current region (Mono County, out of bbox) — comes with
+  the statewide ghost-town region. NEXT (still owed): SOURCE #2 (specific OSM
+  feature tags: natural=arch/cave_entrance/hot_spring/geyser/rock, man_made=
+  lighthouse/obelisk/tower, historic=archaeological_site/wreck — ODbL); SOURCE #3
+  (USGS GNIS named natural features, US public domain); the STATEWIDE "California
+  Ghost Towns" region (CA + nearby NV, ghost-town-only) for Bodie + whole-state
+  coverage; the Great Reno Balloon Race curated pin. Noah leaning to statewide
+  region over an Eastern-Sierra local region (recommendation given, not yet
+  confirmed).
+- 2026-07-25 1.5.9 "Tri-state layers, cleaner oddities, faster opens" (an
+  ITERATION: design fix + data quality + perf/UX) BUILT on staging (awaiting
+  on-device pass — NEEDS NOAH'S HANDS: the tri-state feel + real return-visit
+  speed on the iPad). Noah, three asks across the turn: "the must-have row
+  conflicts with my tri-state filter design", "'unnamed oddity' looks like
+  roundabouts", and "make it say something while it's loading… every return page
+  visit makes it resort and look retarded in how long it takes." FOUR changes:
+  (A) TRI-STATE LAYERS RESTORED — 1.5.7 collapsed the layer chips to binary
+  "Must have"; that broke Noah's long-standing design (layer chips are tri-state
+  require/exclude, ONLY pin-type chips are on/off — see the 1.0.0 note). store
+  K_LAYERS bumped v1→v2: activeLayers() is now a Map(key→'require'|'exclude')
+  (was a Set). Header "Layers:" row cycles neutral→require(✓)→exclude(✕)→clear
+  with a `.req-mark` span; `.layer-chip.require/.exclude` CSS (bold+firm border /
+  strike+dashed) + a `.layer-chip[aria-pressed=false]` override so a NEUTRAL chip
+  doesn't inherit the category chips' struck-through off-look. passesLayers()
+  (require every ✓, exclude every ✕) drives BOTH spotsForList and syncMapFilter.
+  (B) UNNAMED-ODDITY DROP (notability.keepOddity): an oddity with NO name now
+  must be documented (wikipedia/wikidata or commons≥3) — drops the unnamed
+  tourism=artwork / historic=ruins nodes that read as map cruft. Measured drop 88
+  across regions (Sac 27, Yellowstone 34, Humboldt 22, PCB 4, Hahira 1); keeps 20
+  photographed ones (an unnamed mural w/64 commons, ruins w/15). Sac oddities
+  94→67. (C) RANKING CACHE (store loadRankCache/saveRankCache, key pointer.rank.
+  <id>) — the score is deterministic per region build, so ranking() persists its
+  result keyed by rankSig() = VERSION:builtAt:dataCount:pinCount and reuses it,
+  skipping the ~1s re-rank on every load. Quota-safe (drops other regions' caches
+  + retries, then fails soft). VERSION in the sig → any app update re-ranks once.
+  MEASURED cold boot ~1.3s → cached reload 377ms; cache-hit Best order identical
+  (56,54,54,53,52). (D) LOADING SPLASH — a static `.app-loading` overlay in
+  index.html (painted before JS runs), removed in boot() after setRegion; covers
+  the first-computation wait so it's never a blank stall. sw CACHE pointer-1.5.9;
+  changelog[0] 1.5.9. VERIFIED headless (playwright, Sac): splash seen→gone;
+  layer chip cycles neutral/require/exclude/neutral; require Dark sky→all rows
+  Bortle, exclude→zero Bortle (tri-state on the LIST, the 1.5.7 gap); oddity list
+  94→67 with 5 corroborated unnamed kept; rank cache written + reused; ZERO
+  pageerrors. 91 tests + check-contrast green. BRANCH NOTE: on `staging` per the
+  standing rule. NO GitHub metadata step. DEFERRED still: async first-rank (the
+  cache makes it moot for RETURN visits; only the very first visit per build
+  still pays the rank, now behind the splash); adding MORE atlas-obscura sources
+  (Wikidata curiosity classes / OSM natural tags / USGS GNIS — see prior entry).
 - 2026-07-25 PROMOTED 1.5.4→1.5.8 to main (Noah's "merge."). Production ==
   origin/staging == origin/main == 2dfa70f (clean 5-commit fast-forward from
   1.5.3 / bfd6ae9). Ships the whole Top-spots redesign arc + curation + perf:

@@ -17,7 +17,7 @@ test('committed regions config is valid (unique ids, valid default, each region)
 test('all regions are present', () => {
   assert.deepEqual(
     doc.regions.map((r) => r.id).sort(),
-    ['hahira', 'humboldt', 'panama-city-beach', 'sac-eldorado-placer', 'yellowstone']
+    ['california-ghost-towns', 'hahira', 'humboldt', 'panama-city-beach', 'reno', 'sac-eldorado-placer', 'yellowstone']
   );
 });
 

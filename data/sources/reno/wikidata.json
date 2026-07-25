@@ -1,0 +1,37 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Historical markers (Wikidata, CC0 — links out to HMdb)",
+    "license": "CC0-1.0",
+    "attribution": "Marker facts from Wikidata (CC0); marker pages via HMdb.org",
+    "status": "working"
+  },
+  "region": "reno",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Plaza Fountain",
+      "lat": 39.52946572,
+      "lng": -119.814474046,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q107621885",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q107621885",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}

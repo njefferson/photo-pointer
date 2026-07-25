@@ -638,7 +638,9 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         favButton(spot),
       ]),
       el('p', { class: 'popup-cat' }, [
-        `${meta.label}`,
+        // For a Wikidata curiosity, lead with its kind ("Ghost town") — it's more
+        // telling than the generic "Oddity" category.
+        spot.tags?.curiosity ? spot.tags.curiosity : `${meta.label}`,
         spot.subject_type?.length ? ` · ${spot.subject_type.join(', ')}` : null,
       ]),
       notabilitySection(spot),

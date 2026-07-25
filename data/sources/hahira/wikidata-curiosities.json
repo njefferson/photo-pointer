@@ -1,0 +1,69 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
+    "license": "CC0-1.0",
+    "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
+    "status": "working"
+  },
+  "region": "hahira",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Franklinville",
+      "lat": 30.982222222,
+      "lng": -83.283333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q60789135",
+        "wikipedia": "https://en.wikipedia.org/wiki/Franklinville,_Georgia"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q60789135",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Franklinville,_Georgia",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Olympia",
+      "lat": 30.65465,
+      "lng": -83.345705555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q65087571",
+        "wikipedia": "https://en.wikipedia.org/wiki/Olympia,_Georgia"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q65087571",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Olympia,_Georgia",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
