@@ -2,7 +2,8 @@
 
 import { el, clear, toast, closeOnBackdrop } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
-import { createMapView, CATEGORY_META } from './ui/mapview.js';
+import { createMapView, CATEGORY_META, spotDisplayName } from './ui/mapview.js';
+import { distanceM } from './model/geo.js';
 import { loadRegions, pickRegion } from './model/region.js';
 import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle, hiddenSpots, hideSpot, unhideSpot, clearHidden, loadRankCache, saveRankCache } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
@@ -22,6 +23,38 @@ let region = null;
 let viewMode = 'map';
 let listEl = null;
 let filtersOpen = false; // the filter chips are collapsed by default (mobile room)
+let searchQuery = '';    // global name search — overrides the category/layer filters
+let distanceMi = 0;      // 0 = any distance; else "within N miles of me"
+let userLoc = null;      // ONE shared geolocation fix (distance filter + list sort)
+let geoStatus = 'idle';  // 'idle' | 'locating' | 'ok' | 'denied'
+
+// One geolocation fix, shared so the user is prompted at most once. Fails soft.
+function ensureLocation(then) {
+  if (userLoc) { then?.(); return; }
+  if (geoStatus === 'locating') return;
+  if (!navigator.geolocation) { geoStatus = 'denied'; then?.(); return; }
+  geoStatus = 'locating';
+  navigator.geolocation.getCurrentPosition(
+    (pos) => { userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude }; geoStatus = 'ok'; then?.(); },
+    () => { geoStatus = 'denied'; then?.(); },
+    { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
+  );
+}
+
+function matchesSearch(spot) {
+  const q = searchQuery.trim().toLowerCase();
+  if (!q) return true;
+  const name = (spot.name || spotDisplayName(spot) || '').toLowerCase();
+  return name.includes(q);
+}
+
+// Within the chosen radius of the user. If no location yet, this is inert (shows
+// everything) — the distance chips trigger a fix and re-apply; a denied fix keeps
+// it inert with a note rather than hiding the whole map.
+function withinDistance(spot) {
+  if (!distanceMi || !userLoc) return true;
+  return distanceM(userLoc, { lat: spot.lat, lng: spot.lng }) <= distanceMi * 1609.344;
+}
 
 function onFocusSpot(spot) {
   setViewMode('map');
@@ -81,13 +114,20 @@ function passesLayers(spot, layers, lm) {
 }
 
 function syncMapFilter() {
+  // Search overrides the pin-type/layer/distance filters — a name match shows on
+  // the map whatever its category (setSpotFilter overrides the category toggles).
+  if (searchQuery.trim()) {
+    const ids = new Set(spotsForMap().filter(matchesSearch).map((s) => s.id));
+    mapView?.setSpotFilter(ids);
+    return;
+  }
   const cats = currentVisible();
   const layers = currentLayers();
   mapView?.setVisible(cats);
-  if (layers.size) {
-    const lm = layersById();
+  if (layers.size || distanceMi) {
+    const lm = layers.size ? layersById() : null;
     const ids = new Set(spotsForMap()
-      .filter((s) => cats.has(s.category) && passesLayers(s, layers, lm))
+      .filter((s) => cats.has(s.category) && (!lm || passesLayers(s, layers, lm)) && withinDistance(s))
       .map((s) => s.id));
     mapView?.setSpotFilter(ids);
   } else {
@@ -99,6 +139,14 @@ function applyFilters() {
   syncMapFilter();
   renderListView();
   renderHeader();
+}
+
+// Update the two views WITHOUT re-rendering the header — so the search box keeps
+// focus + caret while the user types. Header (counts, chips) refreshes on the
+// next real filter change.
+function refreshViews() {
+  syncMapFilter();
+  renderListView();
 }
 
 function renderHeader() {
@@ -149,10 +197,46 @@ function renderHeader() {
       onClick: () => { if (r.id !== region?.id) switchRegion(r.id); },
     }, r.name)
   );
+  // Global name search — filters map + list by name, overriding the pin-type /
+  // layer / distance filters (so you find a place even with its category off).
+  // Typing does NOT re-render the header (refreshViews only), so focus is kept.
+  const searchInput = el('input', {
+    type: 'search', class: 'search-input', placeholder: 'Search places by name…',
+    'aria-label': 'Search places by name', value: searchQuery, enterkeyhint: 'search',
+  });
+  const searchClear = el('button', {
+    class: 'search-clear', type: 'button', 'aria-label': 'Clear search', hidden: !searchQuery,
+  }, '×');
+  searchInput.addEventListener('input', () => {
+    searchQuery = searchInput.value;
+    searchClear.hidden = !searchQuery;
+    refreshViews();
+  });
+  searchClear.addEventListener('click', () => { searchQuery = ''; searchInput.value = ''; applyFilters(); });
+  const searchRow = el('div', { class: 'search-row' }, [
+    el('span', { class: 'search-icon', 'aria-hidden': 'true' }, '🔍'),
+    searchInput,
+    searchClear,
+  ]);
+
+  // "Within N miles of me" — narrows both views by distance, using the ONE shared
+  // location fix. Tapping a radius triggers the fix and re-applies.
+  const DISTANCES = [[0, 'Any distance'], [5, '5 mi'], [10, '10 mi'], [25, '25 mi'], [50, '50 mi']];
+  const distChips = DISTANCES.map(([mi, label]) => el('button', {
+    class: `chip dist-chip${distanceMi === mi ? ' on' : ''}`,
+    'aria-pressed': String(distanceMi === mi),
+    onClick: () => { distanceMi = mi; if (mi) ensureLocation(() => applyFilters()); applyFilters(); },
+  }, [label, distanceMi === mi ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null]));
+  const distHint = distanceMi && geoStatus === 'denied'
+    ? el('span', { class: 'layer-hint', role: 'status' }, 'Location is off — turn it on to filter by distance.')
+    : distanceMi && geoStatus === 'locating'
+      ? el('span', { class: 'layer-hint', role: 'status' }, 'Finding your location…')
+      : null;
+
   // The filter chips (categories + layers) are MANY, so they'd eat half a phone
   // screen. Keep them behind a labeled "Filters" toggle, collapsed by default, so
   // the map/list gets the room; a count shows how many filters are active.
-  const activeCount = visible.size + layers.size;
+  const activeCount = visible.size + layers.size + (distanceMi ? 1 : 0);
   const filtersToggle = el('button', {
     class: `data-btn filters-toggle${filtersOpen ? ' on' : ''}`,
     'aria-expanded': String(filtersOpen),
@@ -177,6 +261,11 @@ function renderHeader() {
             ? el('span', { class: 'layer-hint', role: 'status' }, 'Turn on a place type above too — a layer only narrows what’s already showing.')
             : null,
         ]),
+        el('div', { class: 'filter-group' }, [
+          el('span', { class: 'filter-group-label' }, 'Within distance of me'),
+          el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Show only places within this distance of you' }, distChips),
+          distHint,
+        ]),
       ])
     : null;
 
@@ -185,6 +274,7 @@ function renderHeader() {
     regionPills.length > 1
       ? el('div', { class: 'regions', role: 'group', 'aria-label': 'Region' }, regionPills)
       : null,
+    searchRow,
     el('div', { class: 'bar-actions' }, [
       filtersToggle,
       el('div', { class: 'view-toggle', role: 'group', 'aria-label': 'Map or list view' }, [
@@ -201,11 +291,11 @@ function renderHeader() {
       themeToggle((theme) => mapView?.syncThemeBasemap(theme)),
     ]),
     filtersPanel,
-    visible.size === 0
+    visible.size === 0 && !searchQuery.trim()
       ? el('p', { class: 'filter-tip', role: 'status' },
           filtersOpen
             ? 'Turn on at least one pin type above to see places. Sort the list by “Best” to see the top-scoring spots.'
-            : 'Nothing is showing — tap Filters to choose what to see.')
+            : 'Nothing is showing — tap Filters to choose what to see, or search by name above.')
       : null,
   ]);
   const old = app.querySelector('header');
@@ -242,18 +332,27 @@ function hideAndRefresh(spot) {
 // map). With every category off, this is empty and the list shows its "turn on a
 // pin type" note, matching the map.
 function spotsForList() {
+  const all = spotsForMap();
+  if (searchQuery.trim()) return all.filter(matchesSearch); // global by name
   const cats = currentVisible();
   const layers = currentLayers();
   const lm = layers.size ? layersById() : null;
-  return spotsForMap().filter((s) =>
-    cats.has(s.category) && (!lm || passesLayers(s, layers, lm)));
+  return all.filter((s) =>
+    cats.has(s.category) && (!lm || passesLayers(s, layers, lm)) && withinDistance(s));
 }
 
 // Re-render the list (only when it's the visible view) from the current filters.
 // scoreById feeds both the "Best" sort and each row's score badge.
 function renderListView() {
   if (viewMode === 'list' && listEl) {
-    renderListInto(listEl, { spots: spotsForList(), scoreById: scoreById(), onFocusSpot, onChange: refresh, onHide: hideAndRefresh });
+    renderListInto(listEl, {
+      spots: spotsForList(), scoreById: scoreById(), onFocusSpot, onChange: refresh, onHide: hideAndRefresh,
+      // Share the ONE geolocation fix so the list's Distance sort and the header's
+      // distance filter never prompt twice.
+      userLoc, geoStatus,
+      onRequestLocation: () => ensureLocation(() => { renderListView(); renderHeader(); }),
+      searchQuery: searchQuery.trim(),
+    });
   }
 }
 

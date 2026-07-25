@@ -31,7 +31,11 @@ if (!executablePath && glob) {
   for await (const p of glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome')) { executablePath = p; break; }
 }
 const browser = await chromium.launch(executablePath ? { executablePath } : {});
-const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+const ctx = await browser.newContext({
+  viewport: { width: 390, height: 844 },
+  geolocation: { latitude: 38.68, longitude: -121.0 }, // in the Sacramento region
+  permissions: ['geolocation'],
+});
 const page = await ctx.newPage();
 const errors = [];
 page.on('pageerror', (e) => errors.push(String(e)));
@@ -126,6 +130,41 @@ await page.waitForTimeout(300);
 const rowCount2 = await page.$$eval('.list-row', (r) => r.length);
 if (rowCount2 >= rowCount) ok(`layer off → list widened ${rowCount}→${rowCount2}`);
 else fail(`layer off did not widen list: ${rowCount}→${rowCount2}`);
+
+// 7) SEARCH — global by name, overrides the category filters. Turn every pin type
+// OFF first, then search "Falls" → matches still appear (search ignores toggles).
+await page.locator('.chips .chip', { hasText: 'Show all' }).first().click().catch(() => {});
+await page.waitForTimeout(150);
+// Hide all (so nothing is on), then search.
+const hideAll = page.locator('.chips .chip', { hasText: 'Hide all' });
+if (await hideAll.count()) { await hideAll.first().click(); await page.waitForTimeout(150); }
+await page.fill('.search-input', 'Falls');
+await page.waitForTimeout(350);
+const searchRows = await page.$$eval('.list-row .list-name', (n) => n.map((e) => e.textContent));
+const allFalls = searchRows.length > 0 && searchRows.every((t) => /falls/i.test(t));
+if (allFalls) ok(`search "Falls" → ${searchRows.length} results, all match (e.g. ${searchRows[0]})`);
+else fail(`search results wrong: ${JSON.stringify(searchRows.slice(0, 5))}`);
+const noteSearch = await page.$eval('.list-note', (e) => e.textContent).catch(() => '');
+if (/results for/i.test(noteSearch)) ok(`search note: "${noteSearch}"`);
+else fail(`search note wrong: "${noteSearch}"`);
+// Clear search restores the empty (all-off) state.
+await page.click('.search-clear');
+await page.waitForTimeout(200);
+const afterClear = await page.$eval('.search-input', (e) => e.value);
+if (afterClear === '') ok('search cleared');
+else fail(`search not cleared: "${afterClear}"`);
+
+// 8) DISTANCE filter — grant geolocation; "5 mi" should yield fewer rows than Any.
+await page.locator('.chips .chip', { hasText: 'Show all' }).first().click();
+await page.waitForTimeout(200);
+const anyRows = await page.$$eval('.list-row', (r) => r.length);
+if ((await page.$('.dist-chip')) === null) { await page.click('.filters-toggle'); await page.waitForTimeout(150); }
+await page.locator('.dist-chip', { hasText: '5 mi' }).first().click();
+await page.waitForTimeout(500);
+const nearRows = await page.$$eval('.list-row', (r) => r.length);
+const nearOn = await page.locator('.dist-chip', { hasText: '5 mi' }).first().getAttribute('aria-pressed');
+if (nearOn === 'true' && nearRows < anyRows) ok(`distance 5 mi → ${nearRows} rows (was ${anyRows} at any distance)`);
+else fail(`distance filter wrong: nearOn=${nearOn} near=${nearRows} any=${anyRows}`);
 
 if (errors.length) fail('pageerrors: ' + JSON.stringify(errors.slice(0, 4)));
 else ok('zero pageerrors');

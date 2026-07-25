@@ -125,6 +125,25 @@ body {
 .filter-group { display: flex; flex-direction: column; gap: 5px; width: 100%; }
 .filter-group-label { font-size: 12px; font-weight: 600; color: var(--dim); }
 
+/* Global name search — a full-width field under the region row. Text is --ink on
+   --card (the gated body pair); the search-row is the visible control surface. */
+.search-row {
+  display: flex; align-items: center; gap: 6px; width: 100%;
+  background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 3px 8px;
+}
+.search-row:focus-within { border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
+.search-icon { font-size: 13px; opacity: 0.7; }
+.search-input {
+  flex: 1 1 auto; min-width: 0; font: inherit; font-size: 14px;
+  color: var(--ink); background: transparent; border: 0; padding: 5px 2px;
+}
+.search-input::placeholder { color: var(--dim); }
+.search-input:focus { outline: none; }
+.search-clear {
+  font: inherit; font-size: 18px; line-height: 1; color: var(--dim);
+  background: transparent; border: 0; cursor: pointer; padding: 0 4px; min-height: 30px;
+}
+
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
 
 /* Data-layer filters are simple on/off "must have", the SAME look as the

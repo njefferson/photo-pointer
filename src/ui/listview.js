@@ -15,12 +15,6 @@ import { scorePct, scoreTier } from './synthesis.js';
 // Module-level so the chosen sort / filter survive re-renders within a session.
 let sortMode = null; // 'best' | 'distance' | 'name' | 'category'
 let favOnly = false;
-let userLoc = null;
-let locating = false;
-// Once a location fix fails (e.g. permission denied), don't auto-retry it on
-// every re-render — that spins a tight getCurrentPosition→error→re-render loop.
-// Tapping the Distance sort button clears this so the user can retry on demand.
-let geoFailed = false;
 
 const CAP = 300; // guard against rendering thousands of rows at once
 
@@ -115,20 +109,18 @@ function listRow(spot, score, onFocusSpot, onChange, onHide, rerender) {
 // Render the list into `container`. `spots` = the already-filtered spots for the
 // active region; `scoreById` maps spot id → composite score (0..1) for the Best
 // sort + the per-row badge; `onFocusSpot(spot)` switches to the map + focuses it.
-export function renderListInto(container, { spots, scoreById, onFocusSpot, onChange, onHide }) {
+export function renderListInto(container, opts) {
+  const { spots, scoreById, onFocusSpot, onChange, onHide,
+    userLoc = null, geoStatus = 'idle', onRequestLocation, searchQuery = '' } = opts;
   if (sortMode == null) sortMode = 'distance';
-  const rerender = () => renderListInto(container, { spots, scoreById, onFocusSpot, onChange, onHide });
+  const rerender = () => renderListInto(container, opts);
   const scoreOf = (s) => scoreById?.get(s.id) ?? null;
 
-  // Distance/bearing need a fix; request it once, re-render when it lands (fail soft).
-  if (sortMode === 'distance' && !userLoc && !locating && !geoFailed && navigator.geolocation) {
-    locating = true;
-    navigator.geolocation.getCurrentPosition(
-      (pos) => { userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude }; locating = false; rerender(); },
-      () => { locating = false; geoFailed = true; rerender(); },
-      { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
-    );
-  }
+  // Distance/bearing use the ONE shared location fix owned by main.js (so the list
+  // sort and the header distance filter never prompt twice). Request it once when
+  // the Distance sort is active and we don't have a fix yet (only from 'idle', so
+  // a denied fix doesn't re-prompt on every render).
+  if (sortMode === 'distance' && !userLoc && geoStatus === 'idle') onRequestLocation?.();
 
   let rows = spots.slice();
   if (favOnly) { const f = favorites(); rows = rows.filter((s) => f.has(s.id)); }
@@ -149,8 +141,8 @@ export function renderListInto(container, { spots, scoreById, onFocusSpot, onCha
   const sortBtn = (mode, label) => el('button', {
     class: `list-sort${sortMode === mode ? ' on' : ''}`,
     'aria-pressed': String(sortMode === mode),
-    // Tapping Distance clears a prior failure so the location fix is retried.
-    onClick: () => { sortMode = mode; if (mode === 'distance') geoFailed = false; rerender(); },
+    // Tapping Distance (re)requests the shared location fix on demand.
+    onClick: () => { sortMode = mode; if (mode === 'distance' && !userLoc) onRequestLocation?.(); rerender(); },
   }, label);
   const favBtn = el('button', {
     class: `list-favonly${favOnly ? ' on' : ''}`,
@@ -168,8 +160,10 @@ export function renderListInto(container, { spots, scoreById, onFocusSpot, onCha
   ]);
 
   let noteText;
-  if (sortMode === 'distance' && !userLoc) {
-    noteText = locating ? 'Finding your location for distance…'
+  if (searchQuery) {
+    noteText = `${total} result${total === 1 ? '' : 's'} for “${searchQuery}”${total > CAP ? ` — showing the first ${CAP}` : ''}`;
+  } else if (sortMode === 'distance' && !userLoc) {
+    noteText = geoStatus === 'locating' ? 'Finding your location for distance…'
       : 'Location unavailable — sorted by name. Tap Distance to retry.';
   } else {
     const order = sortMode === 'best' ? 'highest-scoring' : byDistance ? 'closest' : 'first';
@@ -178,9 +172,11 @@ export function renderListInto(container, { spots, scoreById, onFocusSpot, onCha
 
   const list = el('div', { class: 'list-rows' }, shown.length
     ? shown.map((s) => listRow(s, scoreOf(s), onFocusSpot, onChange, onHide, rerender))
-    : [el('p', { class: 'list-empty' }, favOnly
-        ? 'No favorites yet — open a place and tap “☆ Save”.'
-        : 'No places to list. Turn on a pin type at the top.')]);
+    : [el('p', { class: 'list-empty' }, searchQuery
+        ? `No places match “${searchQuery}”.`
+        : favOnly
+          ? 'No favorites yet — open a place and tap “☆ Save”.'
+          : 'No places to list. Turn on a pin type at the top.')]);
 
   clear(container);
   container.append(controls, el('p', { class: 'list-note' }, noteText), list);
