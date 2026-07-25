@@ -1,0 +1,7084 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
+    "license": "CC0-1.0",
+    "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
+    "status": "working"
+  },
+  "region": "yellowstone",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Mammoth Hot Springs",
+      "lat": 44.97062,
+      "lng": -110.7056397,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1013311",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mammoth_Hot_Springs"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1013311",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mammoth_Hot_Springs",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Yellowstone Falls",
+      "lat": 44.717994444,
+      "lng": -110.496036111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q1030911",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yellowstone_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1030911",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Yellowstone_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Castle Geyser",
+      "lat": 44.4636631,
+      "lng": -110.8364719,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1049360",
+        "wikipedia": "https://en.wikipedia.org/wiki/Castle_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1049360",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Castle_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lower Falls of the Yellowstone River",
+      "lat": 44.7179755,
+      "lng": -110.4964252,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q105337493"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q105337493",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q105337493",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Colter's Hell",
+      "lat": 44.514722,
+      "lng": -109.117222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1112127",
+        "wikipedia": "https://en.wikipedia.org/wiki/Colter%27s_Hell"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1112127",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Colter%27s_Hell",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Riverside Geyser",
+      "lat": 44.4734686,
+      "lng": -110.8409182,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1128808",
+        "wikipedia": "https://en.wikipedia.org/wiki/Riverside_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1128808",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Riverside_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Giant Geyser",
+      "lat": 44.4706415,
+      "lng": -110.8405486,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1129264",
+        "wikipedia": "https://en.wikipedia.org/wiki/Giant_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1129264",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Giant_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Falls",
+      "lat": 44.71656,
+      "lng": -110.50145,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q1142356"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1142356",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q1142356",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Morning Glory Pool",
+      "lat": 44.4750622,
+      "lng": -110.8435287,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1153990",
+        "wikipedia": "https://en.wikipedia.org/wiki/Morning_Glory_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1153990",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Morning_Glory_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mushroom Spring",
+      "lat": 44.5387,
+      "lng": -110.798,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q117220544"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q117220544",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q117220544",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Veteran Geyser",
+      "lat": 44.7230074,
+      "lng": -110.7056902,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121826441"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121826441",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121826441",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Blood Geyser",
+      "lat": 44.6921958,
+      "lng": -110.7374038,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121849569"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121849569",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121849569",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Silex Spring",
+      "lat": 44.5501968,
+      "lng": -110.8059033,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121849619"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121849619",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121849619",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Leather Pool",
+      "lat": 44.5512111,
+      "lng": -110.8059795,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121863551"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121863551",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121863551",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Red Spouter",
+      "lat": 44.5510504,
+      "lng": -110.8062276,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121863602"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121863602",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121863602",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Twig Geyser",
+      "lat": 44.5511399,
+      "lng": -110.8078133,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121863675"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121863675",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121863675",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jelly Geyser",
+      "lat": 44.5509453,
+      "lng": -110.8088354,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121863755"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121863755",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121863755",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sulphide Spring",
+      "lat": 44.4627514,
+      "lng": -110.8281093,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121872752"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121872752",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121872752",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mimulus Pool",
+      "lat": 44.4162674,
+      "lng": -110.5722064,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q121872931"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q121872931",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q121872931",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Black Pearl Geyser",
+      "lat": 44.485661247,
+      "lng": -110.855961249,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q123271313"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123271313",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123271313",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wall Pool",
+      "lat": 44.485343706,
+      "lng": -110.854178802,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q123271628"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123271628",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123271628",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Black Opal Spring",
+      "lat": 44.485135798,
+      "lng": -110.853616134,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q123271664"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123271664",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123271664",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sunset Lake",
+      "lat": 44.462788495,
+      "lng": -110.854689739,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q123271733"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123271733",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123271733",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Green Spring",
+      "lat": 44.461703875,
+      "lng": -110.854074855,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q123271884"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123271884",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123271884",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lemon Spring",
+      "lat": 44.5357114,
+      "lng": -110.8047829,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q125378612"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q125378612",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q125378612",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Variable Spring",
+      "lat": 44.4716208,
+      "lng": -110.8413573,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q125518760"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q125518760",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q125518760",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Norris Pool",
+      "lat": 44.4745287,
+      "lng": -110.8424583,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q125550434"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q125550434",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q125550434",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Square Spring",
+      "lat": 44.4728522,
+      "lng": -110.842348,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q125576485"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q125576485",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q125576485",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pendant Spring",
+      "lat": 44.4647466,
+      "lng": -110.8301673,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q125660078"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q125660078",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q125660078",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rustic Falls",
+      "lat": 44.934522,
+      "lng": -110.724015,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q134533028"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134533028",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134533028",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cascades of the Firehole",
+      "lat": 44.616388,
+      "lng": -110.855253,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q134533182"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134533182",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134533182",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Limekiln Spring",
+      "lat": 44.466381,
+      "lng": -110.840973,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134533274"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134533274",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134533274",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Undine Falls",
+      "lat": 44.944081,
+      "lng": -110.638638,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q134533459"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134533459",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134533459",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Perforated Pool",
+      "lat": 44.41668,
+      "lng": -110.5718,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134553276"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134553276",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134553276",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Vandalized Pool",
+      "lat": 44.41706,
+      "lng": -110.5703,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134567278"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134567278",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134567278",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ledge Spring",
+      "lat": 44.41649,
+      "lng": -110.5715,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134567383"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134567383",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134567383",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Oil Slick Pool",
+      "lat": 44.41661,
+      "lng": -110.5717,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134567470"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134567470",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134567470",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Surging Spring",
+      "lat": 44.41633,
+      "lng": -110.5715,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134567485"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134567485",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134567485",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Thumb Geyser",
+      "lat": 44.4166,
+      "lng": -110.5718,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134567499"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134567499",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134567499",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lakeshore Geyser",
+      "lat": 44.41676,
+      "lng": -110.5699,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134567963"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134567963",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134567963",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lakeshore Spring",
+      "lat": 44.41594,
+      "lng": -110.5697,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134568747"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134568747",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134568747",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Blue Funnel Spring",
+      "lat": 44.41676,
+      "lng": -110.572,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134568964"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134568964",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134568964",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bluebell Pool",
+      "lat": 44.41578,
+      "lng": -110.571,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134568995"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134568995",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134568995",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Seismograph Pool",
+      "lat": 44.41587,
+      "lng": -110.571,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134569014"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134569014",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134569014",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Percolating Spring",
+      "lat": 44.41656,
+      "lng": -110.5716,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134569039"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134569039",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134569039",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Collapsing Pool",
+      "lat": 44.41644,
+      "lng": -110.5716,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134569045"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134569045",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134569045",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Silver Globe Slit Geyser",
+      "lat": 44.48511,
+      "lng": -110.8575,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134589509"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134589509",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134589509",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shield Spring",
+      "lat": 44.4634966,
+      "lng": -110.8371498,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134591664"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134591664",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134591664",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Copper Kettle",
+      "lat": 44.46284,
+      "lng": -110.8301,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134695356"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134695356",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134695356",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Maiden's Grave Spring",
+      "lat": 44.5713902,
+      "lng": -110.8335147,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134695986"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134695986",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134695986",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Marathon Pool",
+      "lat": 44.47276,
+      "lng": -110.8414,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134696048"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134696048",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134696048",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "South Scalloped Spring",
+      "lat": 44.4651206,
+      "lng": -110.8370393,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134696060"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134696060",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134696060",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Topaz Spring",
+      "lat": 44.46379,
+      "lng": -110.8293,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134696071"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134696071",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134696071",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Topsoil Spring",
+      "lat": 44.4672733,
+      "lng": -110.8375901,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134696086"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134696086",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134696086",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "White Sand Spring",
+      "lat": 44.461394,
+      "lng": -110.854931,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134696164"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134696164",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134696164",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Opalescent Pool",
+      "lat": 44.46318,
+      "lng": -110.8534,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134713667"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134713667",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134713667",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sprite Pool",
+      "lat": 44.47979,
+      "lng": -110.849,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134713845"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134713845",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134713845",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pinto Spring",
+      "lat": 44.47959,
+      "lng": -110.8489,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134713887"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134713887",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134713887",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cascade Geyser",
+      "lat": 44.46247,
+      "lng": -110.829,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134714416"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134714416",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134714416",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cinnamon Spouter",
+      "lat": 44.46202,
+      "lng": -110.8548,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134721328"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134721328",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134721328",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jagged Spring",
+      "lat": 44.46212,
+      "lng": -110.8537,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134721803"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134721803",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134721803",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ragged Spring",
+      "lat": 44.4621,
+      "lng": -110.8537,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134721816"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134721816",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134721816",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spa Geyser",
+      "lat": 44.47244,
+      "lng": -110.8419,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134722180"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134722180",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134722180",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wave Spring",
+      "lat": 44.468048,
+      "lng": -110.837926,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134722678"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134722678",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134722678",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Deleted Teakettle Geyser",
+      "lat": 44.46516,
+      "lng": -110.837253,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134739039"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134739039",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134739039",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Coral Geyser",
+      "lat": 44.48571,
+      "lng": -110.8558,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134739150"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134739150",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134739150",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Depression Geyser",
+      "lat": 44.46299,
+      "lng": -110.8306,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134822060"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134822060",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134822060",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bronze Spring",
+      "lat": 44.46267,
+      "lng": -110.8284,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134822319"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134822319",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134822319",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Blue Mud Steam Vent",
+      "lat": 44.72065,
+      "lng": -110.7073,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134977996"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134977996",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134977996",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "East Chinaman Spring",
+      "lat": 44.4620457,
+      "lng": -110.8289716,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q134978729"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q134978729",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q134978729",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Blue Star Spring",
+      "lat": 44.461944444,
+      "lng": -110.828611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q137127508",
+        "wikipedia": "https://en.wikipedia.org/wiki/Blue_Star_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q137127508",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Blue_Star_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "White Dome Geyser",
+      "lat": 44.5393,
+      "lng": -110.803,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q138064",
+        "wikipedia": "https://en.wikipedia.org/wiki/White_Dome_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q138064",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/White_Dome_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Nevada City",
+      "lat": 45.3074,
+      "lng": -111.968,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14226602",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nevada_City,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14226602",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Nevada_City,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grand Prismatic Spring",
+      "lat": 44.525,
+      "lng": -110.838055555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1422831",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grand_Prismatic_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1422831",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Grand_Prismatic_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Steamboat Geyser",
+      "lat": 44.7234984,
+      "lng": -110.7030252,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1438568",
+        "wikipedia": "https://en.wikipedia.org/wiki/Steamboat_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1438568",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Steamboat_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Blackwater Natural Bridge",
+      "lat": 44.3656,
+      "lng": -109.764,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Natural arch",
+        "wikidata": "Q14714674",
+        "wikipedia": "https://en.wikipedia.org/wiki/Blackwater_Natural_Bridge"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14714674",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Blackwater_Natural_Bridge",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Colonnade Falls",
+      "lat": 44.23889,
+      "lng": -110.94733,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q14714687",
+        "wikipedia": "https://en.wikipedia.org/wiki/Colonnade_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14714687",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Colonnade_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Falls",
+      "lat": 43.7666,
+      "lng": -110.756,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q14714730",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hidden_Falls_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14714730",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Hidden_Falls_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Morning Geyser",
+      "lat": 44.5514482,
+      "lng": -110.8082806,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q14714804",
+        "wikipedia": "https://en.wikipedia.org/wiki/Morning_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14714804",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Morning_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Terraced Falls",
+      "lat": 44.1476774,
+      "lng": -110.8661157,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q14714850",
+        "wikipedia": "https://en.wikipedia.org/wiki/Terraced_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14714850",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Terraced_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Great Fountain Geyser",
+      "lat": 44.5365692,
+      "lng": -110.8000493,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1544194",
+        "wikipedia": "https://en.wikipedia.org/wiki/Great_Fountain_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1544194",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Great_Fountain_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spindle Geyser",
+      "lat": 44.5316008,
+      "lng": -110.7954883,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1881913",
+        "wikipedia": "https://en.wikipedia.org/wiki/Spindle_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1881913",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Spindle_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Narcissus Geyser",
+      "lat": 44.5443082,
+      "lng": -110.797035,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q1926253",
+        "wikipedia": "https://en.wikipedia.org/wiki/Narcissus_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q1926253",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Narcissus_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Opal Pool",
+      "lat": 44.5266688,
+      "lng": -110.8387171,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2009174",
+        "wikipedia": "https://en.wikipedia.org/wiki/Opal_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2009174",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Opal_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lion Geyser",
+      "lat": 44.464058,
+      "lng": -110.8309642,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2029172",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lion_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2029172",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lion_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Labial Geyser",
+      "lat": 44.5436644,
+      "lng": -110.7953074,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2086791",
+        "wikipedia": "https://en.wikipedia.org/wiki/Labial_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2086791",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Labial_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Chinese Spring",
+      "lat": 44.4619964,
+      "lng": -110.8290835,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q21196893",
+        "wikipedia": "https://en.wikipedia.org/wiki/Chinese_Spring_(Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q21196893",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Chinese_Spring_(Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Big Cub Geyser",
+      "lat": 44.463964,
+      "lng": -110.8310308,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2189157",
+        "wikipedia": "https://en.wikipedia.org/wiki/Big_Cub_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2189157",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Big_Cub_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Clepsydra Geyser",
+      "lat": 44.5511379,
+      "lng": -110.8089361,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2213524",
+        "wikipedia": "https://en.wikipedia.org/wiki/Clepsydra_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2213524",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Clepsydra_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grotto Geyser",
+      "lat": 44.4717963,
+      "lng": -110.841791,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2276235",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grotto_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2276235",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Grotto_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Solitary Geyser",
+      "lat": 44.4685868,
+      "lng": -110.8293113,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2279547",
+        "wikipedia": "https://en.wikipedia.org/wiki/Solitary_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2279547",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Solitary_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spasmodic Geyser",
+      "lat": 44.4657311,
+      "lng": -110.8361315,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2309349",
+        "wikipedia": "https://en.wikipedia.org/wiki/Spasmodic_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2309349",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Spasmodic_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Giantess Geyser",
+      "lat": 44.463518,
+      "lng": -110.8290218,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2311916",
+        "wikipedia": "https://en.wikipedia.org/wiki/Giantess_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2311916",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Giantess_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Splendid Geyser",
+      "lat": 44.4701944,
+      "lng": -110.8446736,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2376138",
+        "wikipedia": "https://en.wikipedia.org/wiki/Splendid_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2376138",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Splendid_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bijou Geyser",
+      "lat": 44.4708262,
+      "lng": -110.840442,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2459857",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bijou_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2459857",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bijou_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Upper Falls of the Yellowstone River",
+      "lat": 44.712716,
+      "lng": -110.49937,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q2499729"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2499729",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q2499729",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sapphire Pool",
+      "lat": 44.485,
+      "lng": -110.855277777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q25929159"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25929159",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q25929159",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Little Cub Geyser",
+      "lat": 44.4640268,
+      "lng": -110.8311074,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q25933938"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25933938",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q25933938",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "North Goggles Geyser",
+      "lat": 44.464166666,
+      "lng": -110.830833333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q25983660"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q25983660",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q25983660",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fountain Geyser",
+      "lat": 44.5511925,
+      "lng": -110.8083299,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2657752",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fountain_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2657752",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fountain_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Daisy Geyser",
+      "lat": 44.4701828,
+      "lng": -110.8441869,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2664688",
+        "wikipedia": "https://en.wikipedia.org/wiki/Daisy_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2664688",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Daisy_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pump Geyser",
+      "lat": 44.463802,
+      "lng": -110.8295241,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2675935",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pump_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2675935",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Pump_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Anemone Geyser",
+      "lat": 44.4627475,
+      "lng": -110.829019,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2685107",
+        "wikipedia": "https://en.wikipedia.org/wiki/Anemone_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2685107",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Anemone_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Artemisia Geyser",
+      "lat": 44.4782815,
+      "lng": -110.8485255,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2689679",
+        "wikipedia": "https://en.wikipedia.org/wiki/Artemisia_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2689679",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Artemisia_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jet Geyser",
+      "lat": 44.5508954,
+      "lng": -110.8082124,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2700834",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jet_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2700834",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Jet_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Excelsior Geyser",
+      "lat": 44.5263605,
+      "lng": -110.83653,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2703843",
+        "wikipedia": "https://en.wikipedia.org/wiki/Excelsior_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2703843",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Excelsior_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Comet Geyser",
+      "lat": 44.4701944,
+      "lng": -110.8444339,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2736302",
+        "wikipedia": "https://en.wikipedia.org/wiki/Comet_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2736302",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Comet_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Economic Geyser",
+      "lat": 44.4677822,
+      "lng": -110.8378978,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2738252",
+        "wikipedia": "https://en.wikipedia.org/wiki/Economic_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2738252",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Economic_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "A-0 Geyser",
+      "lat": 44.5430901,
+      "lng": -110.7964185,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2778623",
+        "wikipedia": "https://en.wikipedia.org/wiki/A-0_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2778623",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/A-0_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Osprey Falls",
+      "lat": 44.928611111,
+      "lng": -110.681111111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q27927956",
+        "wikipedia": "https://en.wikipedia.org/wiki/Osprey_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q27927956",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Osprey_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pink Geyser",
+      "lat": 44.5433952,
+      "lng": -110.7963948,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2845858",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pink_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2845858",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Pink_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Baby Daisy Geyser",
+      "lat": 44.4818127,
+      "lng": -110.8506984,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2915913",
+        "wikipedia": "https://en.wikipedia.org/wiki/Baby_Daisy_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2915913",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Baby_Daisy_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Clay Butte Lookout",
+      "lat": 44.944392,
+      "lng": -109.626579,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Observation tower",
+        "wikidata": "Q29641909",
+        "wikipedia": "https://en.wikipedia.org/wiki/Clay_Butte_Lookout"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q29641909",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Clay_Butte_Lookout",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cliff Geyser",
+      "lat": 44.4622585,
+      "lng": -110.8539754,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q2979048"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2979048",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q2979048",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bishop Mountain Lookout",
+      "lat": 44.333396037,
+      "lng": -111.553473439,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Observation tower",
+        "wikidata": "Q30624103",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bishop_Mountain_Lookout"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q30624103",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bishop_Mountain_Lookout",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Vent Geyser",
+      "lat": 44.466777777,
+      "lng": -110.837131944,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q3136183",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vent_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3136183",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Vent_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Atomizer Geyser",
+      "lat": 44.4781226,
+      "lng": -110.8491425,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q3181260",
+        "wikipedia": "https://en.wikipedia.org/wiki/Atomizer_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3181260",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Atomizer_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lioness Geyser",
+      "lat": 44.4639942,
+      "lng": -110.8311155,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q36698486"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q36698486",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q36698486",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bechler Falls",
+      "lat": 44.1492,
+      "lng": -111.01,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q37359",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bechler_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q37359",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bechler_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kepler Cascades",
+      "lat": 44.4455355,
+      "lng": -110.8058705,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q37418",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kepler_Cascades"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q37418",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Kepler_Cascades",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lewis Falls",
+      "lat": 44.2674,
+      "lng": -110.6357,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q37689",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lewis_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q37689",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lewis_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tower Fall",
+      "lat": 44.8938315,
+      "lng": -110.3871827,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q377832",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tower_Fall"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q377832",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Tower_Fall",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Upper Mesa Falls",
+      "lat": 44.187777777,
+      "lng": -111.33,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q37966",
+        "wikipedia": "https://en.wikipedia.org/wiki/Upper_Mesa_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q37966",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Upper_Mesa_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Union Falls",
+      "lat": 44.1924143,
+      "lng": -110.8706514,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q38037",
+        "wikipedia": "https://en.wikipedia.org/wiki/Union_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q38037",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Union_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Firehole Falls",
+      "lat": 44.6288122,
+      "lng": -110.8633325,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q38067",
+        "wikipedia": "https://en.wikipedia.org/wiki/Firehole_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q38067",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Firehole_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Virginia Cascades",
+      "lat": 44.7130779,
+      "lng": -110.6477583,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q38247",
+        "wikipedia": "https://en.wikipedia.org/wiki/Virginia_Cascades"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q38247",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Virginia_Cascades",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kirwin",
+      "lat": 43.87638889,
+      "lng": -109.29805556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q38249752",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kirwin,_Wyoming"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q38249752",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Kirwin,_Wyoming",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mystic Falls",
+      "lat": 44.4839486,
+      "lng": -110.8735018,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q38400",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mystic_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q38400",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mystic_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Gibbon Falls",
+      "lat": 44.6540194,
+      "lng": -110.770746,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q38522",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gibbon_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q38522",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Gibbon_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Young Hopeful Geyser",
+      "lat": 44.543967222,
+      "lng": -110.784505555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q385340",
+        "wikipedia": "https://en.wikipedia.org/wiki/Young_Hopeful_and_Grey_Bulger_Geysers"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q385340",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Young_Hopeful_and_Grey_Bulger_Geysers",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Artesia Geyser",
+      "lat": 44.5441319,
+      "lng": -110.784192,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q3999597",
+        "wikipedia": "https://en.wikipedia.org/wiki/Artesia_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q3999597",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Artesia_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Steady Geyser",
+      "lat": 44.5442705,
+      "lng": -110.7866639,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q41800230"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q41800230",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q41800230",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Gray Bulger Geyser",
+      "lat": 44.5439648,
+      "lng": -110.7845921,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q41801011"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q41801011",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q41801011",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bead Geyser",
+      "lat": 44.5432767,
+      "lng": -110.7952922,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4399546",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bead_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4399546",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bead_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Abyss Pool",
+      "lat": 44.4182333,
+      "lng": -110.5724365,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4670739",
+        "wikipedia": "https://en.wikipedia.org/wiki/Abyss_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4670739",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Abyss_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Aldridge",
+      "lat": 45.087222222,
+      "lng": -110.755,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4713995",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aldridge,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4713995",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Aldridge,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Aline",
+      "lat": 43.7891,
+      "lng": -111.1786,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4726744",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aline,_Idaho"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4726744",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Aline,_Idaho",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Azure Spring",
+      "lat": 44.5623184,
+      "lng": -110.8296849,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4833105",
+        "wikipedia": "https://en.wikipedia.org/wiki/Azure_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4833105",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Azure_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bannock Falls",
+      "lat": 43.7201,
+      "lng": -110.767,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q4856999",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bannock_Falls_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4856999",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bannock_Falls_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Beauty Pool",
+      "lat": 44.4684011,
+      "lng": -110.8387865,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4877892",
+        "wikipedia": "https://en.wikipedia.org/wiki/Beauty_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4877892",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Beauty_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Haden",
+      "lat": 43.825,
+      "lng": -111.179722222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q48815548",
+        "wikipedia": "https://en.wikipedia.org/wiki/Haden,_Idaho"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q48815548",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Haden,_Idaho",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Belgian Pool",
+      "lat": 44.4660519,
+      "lng": -110.8366925,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4882481",
+        "wikipedia": "https://en.wikipedia.org/wiki/Belgian_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4882481",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Belgian_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Beryl Spring",
+      "lat": 44.6786863,
+      "lng": -110.746541,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4896090",
+        "wikipedia": "https://en.wikipedia.org/wiki/Beryl_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4896090",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Beryl_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Big Alcove Spring",
+      "lat": 44.719505,
+      "lng": -110.7088802,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4904924",
+        "wikipedia": "https://en.wikipedia.org/wiki/Big_Alcove_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4904924",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Big_Alcove_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Big Cone",
+      "lat": 44.4176121,
+      "lng": -110.5706086,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4905474",
+        "wikipedia": "https://en.wikipedia.org/wiki/Big_Cone"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4905474",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Big_Cone",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fan Geyser",
+      "lat": 44.47442,
+      "lng": -110.84277,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49126873"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49126873",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49126873",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Oblong Geyser",
+      "lat": 44.46931,
+      "lng": -110.84031,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49126885"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49126885",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49126885",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Black Pool",
+      "lat": 44.4182052,
+      "lng": -110.571902,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4921486",
+        "wikipedia": "https://en.wikipedia.org/wiki/Black_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4921486",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Black_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Botryoidal Spring",
+      "lat": 44.5348083,
+      "lng": -110.7994821,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4948823",
+        "wikipedia": "https://en.wikipedia.org/wiki/Botryoidal_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4948823",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Botryoidal_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Box Spring",
+      "lat": 44.5434,
+      "lng": -110.795,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4951561",
+        "wikipedia": "https://en.wikipedia.org/wiki/Box_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4951561",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Box_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Brilliant Pool",
+      "lat": 44.4701076,
+      "lng": -110.8444179,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4968060",
+        "wikipedia": "https://en.wikipedia.org/wiki/Brilliant_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4968060",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Brilliant_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Biscuit Basin Geyser",
+      "lat": 44.481666666,
+      "lng": -110.850555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49707954"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49707954",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49707954",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Black Dragon's Caldron",
+      "lat": 44.620277777,
+      "lng": -110.435555555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49708033"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49708033",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49708033",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Black Sand Pool",
+      "lat": 44.467222222,
+      "lng": -110.851944444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49708105"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49708105",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49708105",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Calcite Springs",
+      "lat": 44.9066047,
+      "lng": -110.3949211,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49710411"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49710411",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49710411",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cascade Group",
+      "lat": 44.48,
+      "lng": -110.850833333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49710909"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49710909",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49710909",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Catfish Geyser",
+      "lat": 44.4707799,
+      "lng": -110.840545,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49711009"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49711009",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49711009",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Chimney Cone",
+      "lat": 44.465029,
+      "lng": -110.83688,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49711840"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49711840",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49711840",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cistern Spring",
+      "lat": 44.7230331,
+      "lng": -110.7051579,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49712192"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49712192",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49712192",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Columbia Spring",
+      "lat": 44.281526,
+      "lng": -110.506067,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49713178"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49713178",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49713178",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Daisy Group",
+      "lat": 44.470277777,
+      "lng": -110.843611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49715074"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49715074",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49715074",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Deluge Geyser",
+      "lat": 44.306111111,
+      "lng": -110.527222222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49715721"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49715721",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49715721",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ear Spring",
+      "lat": 44.463888888,
+      "lng": -110.830833333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49717507",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ear_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49717507",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ear_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Emerald Pool",
+      "lat": 44.461027777,
+      "lng": -110.855194444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49718702",
+        "wikipedia": "https://en.wikipedia.org/wiki/Emerald_Pool_(Yellowstone_National_Park)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49718702",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Emerald_Pool_(Yellowstone_National_Park)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ephedra Spring",
+      "lat": 44.416765,
+      "lng": -110.571827,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49718880"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49718880",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49718880",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Flood Geyser",
+      "lat": 44.529166666,
+      "lng": -110.828611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49719783"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49719783",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49719783",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fountain Group",
+      "lat": 44.554166666,
+      "lng": -110.813611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49719983"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49719983",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49719983",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Gem Pool",
+      "lat": 44.479444444,
+      "lng": -110.849027777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49720578"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49720578",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49720578",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Giant Group",
+      "lat": 44.470555555,
+      "lng": -110.840833333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49720658"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49720658",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49720658",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grand Group",
+      "lat": 44.466666666,
+      "lng": -110.836111111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49721181"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49721181",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49721181",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Heart Lake Geyser Basin - Rustic Group",
+      "lat": 44.281944444,
+      "lng": -110.506388888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49722490"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49722490",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49722490",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kidney Geyser",
+      "lat": 44.558611111,
+      "lng": -110.8075,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49725559"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49725559",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49725559",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "King Geyser",
+      "lat": 44.41894,
+      "lng": -110.572,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49725588"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49725588",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49725588",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lakeside Spring",
+      "lat": 44.41627,
+      "lng": -110.5698,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49725856"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49725856",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49725856",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Little Giant Geyser",
+      "lat": 44.356388888,
+      "lng": -110.7975,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49726444"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49726444",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49726444",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Minute Geyser",
+      "lat": 44.729444444,
+      "lng": -110.703055555,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49728745"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49728745",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49728745",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mirror Pool",
+      "lat": 44.483111111,
+      "lng": -110.850333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49728750"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49728750",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49728750",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mud Geyser",
+      "lat": 44.623055555,
+      "lng": -110.431944444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49729198"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49729198",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49729198",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mustard Spring",
+      "lat": 44.485944444,
+      "lng": -110.856166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49729853"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49729853",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49729853",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Occasional Geyser",
+      "lat": 44.42184,
+      "lng": -110.5738,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49730526"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49730526",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49730526",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pearl Geyser",
+      "lat": 44.733333333,
+      "lng": -110.700833333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49731286"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49731286",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49731286",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Porkchop Geyser",
+      "lat": 44.705555555,
+      "lng": -110.7075,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49732103"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49732103",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49732103",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Punch Bowl Spring",
+      "lat": 44.469388888,
+      "lng": -110.848694444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49732364"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49732364",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49732364",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Pool",
+      "lat": 44.470833333,
+      "lng": -110.859166666,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49732638"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49732638",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49732638",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Broken Falls",
+      "lat": 43.744655555,
+      "lng": -110.754936111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q4973374",
+        "wikipedia": "https://en.wikipedia.org/wiki/Broken_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4973374",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Broken_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rustic Geyser",
+      "lat": 44.282222222,
+      "lng": -110.506388888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49734075"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49734075",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49734075",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rusty Geyser",
+      "lat": 44.484611111,
+      "lng": -110.851722222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49734082"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49734082",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49734082",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Scalloped Spring",
+      "lat": 44.465277777,
+      "lng": -110.837083333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49734706"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49734706",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49734706",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spouter Geyser",
+      "lat": 44.46268,
+      "lng": -110.8533,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49736276"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49736276",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49736276",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Steamboat Geyser",
+      "lat": 43.268333333,
+      "lng": -108.895277777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49736521"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49736521",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49736521",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sulphur Caldron",
+      "lat": 44.627777777,
+      "lng": -110.432777777,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49736868"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49736868",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49736868",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tardy Geyser",
+      "lat": 44.4653843,
+      "lng": -110.8364686,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49737449"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49737449",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49737449",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Thumb Paintpots",
+      "lat": 44.41602,
+      "lng": -110.5713,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49737873"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49737873",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49737873",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tortoise Shell Spring",
+      "lat": 44.463777777,
+      "lng": -110.836611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49738175"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49738175",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49738175",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Turbulent Pool",
+      "lat": 44.628333333,
+      "lng": -110.433611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49738587"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49738587",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49738587",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Twin Geysers",
+      "lat": 44.41726,
+      "lng": -110.5727,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49738716"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49738716",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49738716",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Avoca Spring",
+      "lat": 44.48535,
+      "lng": -110.8573,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741888"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741888",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741888",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Churning Caldron",
+      "lat": 44.62128,
+      "lng": -110.43461,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741898"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741898",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741898",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Mouth Spring",
+      "lat": 44.62523,
+      "lng": -110.43505,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741903"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741903",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741903",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Excelsior Geyser Crater",
+      "lat": 44.5263,
+      "lng": -110.83679,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741909"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741909",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741909",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grizzly Fumarole",
+      "lat": 44.62329,
+      "lng": -110.43571,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741914"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741914",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741914",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mud Caldron",
+      "lat": 44.62394,
+      "lng": -110.4333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741962"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741962",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741962",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mud Volcano",
+      "lat": 44.62436,
+      "lng": -110.43462,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741963"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741963",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741963",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sizzling Basin",
+      "lat": 44.62176,
+      "lng": -110.4339,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q49741987"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49741987",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49741987",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bulger Geyser",
+      "lat": 44.4660388,
+      "lng": -110.8369156,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q4996382",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bulger_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4996382",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bulger_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Chromatic Spring",
+      "lat": 44.4685728,
+      "lng": -110.8393119,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5113728",
+        "wikipedia": "https://en.wikipedia.org/wiki/Chromatic_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5113728",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Chromatic_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cleft Falls",
+      "lat": 43.724,
+      "lng": -110.778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q5131077",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cleft_Falls_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5131077",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Cleft_Falls_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Columbine Cascade",
+      "lat": 43.9166,
+      "lng": -110.749,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q5149963",
+        "wikipedia": "https://en.wikipedia.org/wiki/Columbine_Cascade_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5149963",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Columbine_Cascade_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Crested Pool",
+      "lat": 44.4640659,
+      "lng": -110.8364891,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5184578",
+        "wikipedia": "https://en.wikipedia.org/wiki/Crested_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5184578",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Crested_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Dilemma Geyser",
+      "lat": 44.543121,
+      "lng": -110.7963778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5276752",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dilemma_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5276752",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Dilemma_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Doublet Pool",
+      "lat": 44.464317,
+      "lng": -110.8297155,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5300156",
+        "wikipedia": "https://en.wikipedia.org/wiki/Doublet_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5300156",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Doublet_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Iris Falls",
+      "lat": 44.241506,
+      "lng": -110.9432381,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q5306929",
+        "wikipedia": "https://en.wikipedia.org/wiki/Iris_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5306929",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Iris_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Echinus Geyser",
+      "lat": 44.7220083,
+      "lng": -110.7020492,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5332600",
+        "wikipedia": "https://en.wikipedia.org/wiki/Echinus_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5332600",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Echinus_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Emerald Spring",
+      "lat": 44.7256516,
+      "lng": -110.7042701,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5370483",
+        "wikipedia": "https://en.wikipedia.org/wiki/Emerald_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5370483",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Emerald_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grand Geyser",
+      "lat": 44.4666823,
+      "lng": -110.8369805,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q543451",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grand_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q543451",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Grand_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fishing Cone",
+      "lat": 44.4172895,
+      "lng": -110.5702606,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5455004",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fishing_Cone"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5455004",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fishing_Cone",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fox",
+      "lat": 45.2769,
+      "lng": -109.217,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5476514",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fox,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5476514",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fox,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Orange Spring Mound",
+      "lat": 44.9664,
+      "lng": -110.7148,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q55627811",
+        "wikipedia": "https://en.wikipedia.org/wiki/Orange_Mound_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q55627811",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Orange_Mound_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Glacier Falls",
+      "lat": 43.7291,
+      "lng": -110.759,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q5566135",
+        "wikipedia": "https://en.wikipedia.org/wiki/Glacier_Falls_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5566135",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Glacier_Falls_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Granite Hot Springs, Wyoming",
+      "lat": 43.3695,
+      "lng": -110.446,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q5595878",
+        "wikipedia": "https://en.wikipedia.org/wiki/Granite_Hot_Springs,_Wyoming"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5595878",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Granite_Hot_Springs,_Wyoming",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Huckleberry Mountain Fire Lookout",
+      "lat": 44.082752945,
+      "lng": -110.597750009,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Observation tower",
+        "wikidata": "Q5928126",
+        "wikipedia": "https://en.wikipedia.org/wiki/Huckleberry_Mountain_Fire_Lookout"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5928126",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Huckleberry_Mountain_Fire_Lookout",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jewel Geyser",
+      "lat": 44.4849036,
+      "lng": -110.8561941,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q6189460",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jewel_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6189460",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Jewel_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Turban Geyser",
+      "lat": 44.466740277,
+      "lng": -110.836985833,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q661687",
+        "wikipedia": "https://en.wikipedia.org/wiki/Turban_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q661687",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Turban_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lombard",
+      "lat": 46.1075,
+      "lng": -111.398888888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6669346",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lombard,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6669346",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lombard,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lone Star Geyser",
+      "lat": 44.4183692,
+      "lng": -110.806739,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q6671433",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lone_Star_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6671433",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lone_Star_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lower Mesa Falls",
+      "lat": 44.168055555,
+      "lng": -111.319722222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q6693611",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lower_Mesa_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6693611",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Lower_Mesa_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Maudlow",
+      "lat": 46.1078,
+      "lng": -111.173,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6792335",
+        "wikipedia": "https://en.wikipedia.org/wiki/Maudlow,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6792335",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Maudlow,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Moose Falls",
+      "lat": 44.1522,
+      "lng": -110.672,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q6908578",
+        "wikipedia": "https://en.wikipedia.org/wiki/Moose_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6908578",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Moose_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mossmain",
+      "lat": 45.6847,
+      "lng": -108.711,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6916682",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mossmain,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6916682",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mossmain,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ojo Caliente Spring",
+      "lat": 44.56293,
+      "lng": -110.83878,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7081641",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ojo_Caliente_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7081641",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ojo_Caliente_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Penta Geyser",
+      "lat": 44.4657295,
+      "lng": -110.8363198,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7164913",
+        "wikipedia": "https://en.wikipedia.org/wiki/Penta_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7164913",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Penta_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pink Cone Geyser",
+      "lat": 44.543055555,
+      "lng": -110.796111111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7195981",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pink_Cone_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7195981",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Pink_Cone_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pony",
+      "lat": 45.658611111,
+      "lng": -111.894444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7228437",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pony,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7228437",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Pony,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ribbon Cascade",
+      "lat": 43.7747,
+      "lng": -110.748,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q7322256",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ribbon_Cascade_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7322256",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ribbon_Cascade_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rimrock",
+      "lat": 45.802,
+      "lng": -108.703,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7334496",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rimrock,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7334496",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rimrock,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sawmill Geyser",
+      "lat": 44.4655086,
+      "lng": -110.8366304,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7428663",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sawmill_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7428663",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sawmill_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shoshoko Falls",
+      "lat": 43.7081,
+      "lng": -110.802,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q7502349",
+        "wikipedia": "https://en.wikipedia.org/wiki/Shoshoko_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7502349",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Shoshoko_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Silver Cord Cascade",
+      "lat": 44.7261,
+      "lng": -110.452,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q7515928",
+        "wikipedia": "https://en.wikipedia.org/wiki/Silver_Cord_Cascade"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7515928",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Silver_Cord_Cascade",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sixteen",
+      "lat": 46.2153,
+      "lng": -110.998,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7533028",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sixteen,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7533028",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sixteen,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spalding Falls",
+      "lat": 43.7285,
+      "lng": -110.797,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q7572976",
+        "wikipedia": "https://en.wikipedia.org/wiki/Spalding_Falls_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7572976",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Spalding_Falls_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spasm Geyser",
+      "lat": 44.5510597,
+      "lng": -110.8086866,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7573979",
+        "wikipedia": "https://en.wikipedia.org/wiki/Spasm_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7573979",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Spasm_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sulphur Spring",
+      "lat": 44.6547446,
+      "lng": -110.4817849,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7636532",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sulphur_Spring"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7636532",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sulphur_Spring",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Surprise Pool",
+      "lat": 44.5357692,
+      "lng": -110.8004315,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7646601",
+        "wikipedia": "https://en.wikipedia.org/wiki/Surprise_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7646601",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Surprise_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Aurum Geyser",
+      "lat": 44.4645813,
+      "lng": -110.8294993,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q777439",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aurum_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q777439",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Aurum_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Turquoise Pool",
+      "lat": 44.52667,
+      "lng": -110.83768,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7856203",
+        "wikipedia": "https://en.wikipedia.org/wiki/Turquoise_Pool"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7856203",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Turquoise_Pool",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Union City",
+      "lat": 45.208333,
+      "lng": -111.9425,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7885538",
+        "wikipedia": "https://en.wikipedia.org/wiki/Union_City,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7885538",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Union_City,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Washoe",
+      "lat": 45.1639,
+      "lng": -109.213,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7972614",
+        "wikipedia": "https://en.wikipedia.org/wiki/Washoe,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7972614",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Washoe,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "West Triplet Geyser",
+      "lat": 44.466602222,
+      "lng": -110.837204166,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q7986703",
+        "wikipedia": "https://en.wikipedia.org/wiki/West_Triplet_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7986703",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/West_Triplet_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wheat Basin",
+      "lat": 45.9375,
+      "lng": -109.063,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7991809",
+        "wikipedia": "https://en.wikipedia.org/wiki/Wheat_Basin,_Montana"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7991809",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Wheat_Basin,_Montana",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wilderness Falls",
+      "lat": 43.9162,
+      "lng": -110.759,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q8001137",
+        "wikipedia": "https://en.wikipedia.org/wiki/Wilderness_Falls_(Teton_County,_Wyoming)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q8001137",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Wilderness_Falls_(Teton_County,_Wyoming)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Beehive Geyser",
+      "lat": 44.4626023,
+      "lng": -110.83,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q814039",
+        "wikipedia": "https://en.wikipedia.org/wiki/Beehive_Geyser"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q814039",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Beehive_Geyser",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fountain Paint Pot",
+      "lat": 44.5506104,
+      "lng": -110.80624,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q8565025",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fountain_Paint_Pot"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q8565025",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fountain_Paint_Pot",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Yellowstone Natural Bridge",
+      "lat": 44.526296944,
+      "lng": -110.455820833,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Natural arch",
+        "wikidata": "Q85816680",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yellowstone_Natural_Bridge"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q85816680",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Yellowstone_Natural_Bridge",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Old Faithful",
+      "lat": 44.460472222,
+      "lng": -110.828138888,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q858794",
+        "wikipedia": "https://en.wikipedia.org/wiki/Old_Faithful"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q858794",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Old_Faithful",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mount Holmes Lookout",
+      "lat": 44.81887,
+      "lng": -110.855614,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Observation tower",
+        "wikidata": "Q86927071"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q86927071",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q86927071",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mount Washburn Lookout",
+      "lat": 44.79743881,
+      "lng": -110.433849343,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Observation tower",
+        "wikidata": "Q86927094"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q86927094",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q86927094",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ozone",
+      "lat": 43.411666666,
+      "lng": -111.835,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q96397951",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ozone,_Idaho"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q96397951",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ozone,_Idaho",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
