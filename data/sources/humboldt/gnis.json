@@ -1,0 +1,168 @@
+{
+  "source": {
+    "source": "gnis",
+    "name": "USGS GNIS (The National Map geonames — named natural features)",
+    "license": "public-domain",
+    "attribution": "U.S. Geological Survey, Geographic Names Information System (public domain)",
+    "status": "working"
+  },
+  "region": "humboldt",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Gray Falls",
+      "lat": 40.8546722954568,
+      "lng": -123.48375729751906,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1665358"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1665358",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1665358",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mill Creek Falls",
+      "lat": 39.8812826077101,
+      "lng": -123.74526986187367,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "228705"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "228705",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/228705",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pepperwood Falls",
+      "lat": 40.46403313383756,
+      "lng": -123.85588867545474,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "230515"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "230515",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/230515",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ishi Pishi Falls",
+      "lat": 41.38179762729425,
+      "lng": -123.49979526074793,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "254825"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "254825",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/254825",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Burnt Ranch Falls",
+      "lat": 40.82625369123333,
+      "lng": -123.47616737329304,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "257730"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "257730",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/257730",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}

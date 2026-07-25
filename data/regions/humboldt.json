@@ -7732,6 +7732,38 @@
       }
     },
     {
+      "id": "burnt-ranch-falls@9r20q0",
+      "name": "Burnt Ranch Falls",
+      "lat": 40.82625369123333,
+      "lng": -123.47616737329304,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "257730",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/257730",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "257730"
+      }
+    },
+    {
       "id": "burrill-peak@9r248f",
       "name": "Burrill Peak",
       "lat": 41.2367921,
@@ -17443,6 +17475,38 @@
       }
     },
     {
+      "id": "gray-falls@9r20qj",
+      "name": "Gray Falls",
+      "lat": 40.8546722954568,
+      "lng": -123.48375729751906,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1665358",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1665358",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1665358"
+      }
+    },
+    {
       "id": "great-butte@9r0j2d",
       "name": "Great Butte",
       "lat": 40.3104199,
@@ -22686,6 +22750,38 @@
         "commons": {
           "photos": 4
         }
+      }
+    },
+    {
+      "id": "ishi-pishi-falls@9r25mt",
+      "name": "Ishi Pishi Falls",
+      "lat": 41.38179762729425,
+      "lng": -123.49979526074793,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "254825",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/254825",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "254825"
       }
     },
     {
@@ -30661,6 +30757,38 @@
       }
     },
     {
+      "id": "mill-creek-falls@9r04bh",
+      "name": "Mill Creek Falls",
+      "lat": 39.8812826077101,
+      "lng": -123.74526986187367,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "228705",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/228705",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "228705"
+      }
+    },
+    {
       "id": "mill-creek-lake-trailhead@9r21vd",
       "name": "Mill Creek Lake Trailhead",
       "lat": 41.1005549,
@@ -34275,6 +34403,14 @@
       "notes": null,
       "sources": [
         {
+          "source": "gnis",
+          "source_id": "230515",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/230515",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
           "source": "osm",
           "source_id": "node/1062947020",
           "source_license": "ODbL-1.0",
@@ -34284,6 +34420,9 @@
         }
       ],
       "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "230515",
         "name": "Pepperwood Falls",
         "waterway": "waterfall",
         "bortle": 1,
