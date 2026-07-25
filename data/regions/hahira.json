@@ -224,6 +224,118 @@
       }
     },
     {
+      "id": "barber-pittman-house@djkz2v",
+      "name": "Barber-Pittman House",
+      "lat": 30.83554521800005,
+      "lng": -83.27963639699999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "80001108",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/80001108",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "80001108"
+      }
+    },
+    {
+      "id": "berrien-county-courthouse@djsc99",
+      "name": "Berrien County Courthouse",
+      "lat": 31.207331301000067,
+      "lng": -83.25257263999998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "77000409",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/77000409",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "77000409"
+      }
+    },
+    {
+      "id": "berrien-county-jail@djsc99",
+      "name": "Berrien County Jail",
+      "lat": 31.207936671000027,
+      "lng": -83.24891406199998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "82002384",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/82002384",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "82002384"
+      }
+    },
+    {
+      "id": "bethlehem-primitive-baptist-church-cemetery@djkx19",
+      "name": "Bethlehem Primitive Baptist Church and Cemetery",
+      "lat": 30.76780493600006,
+      "lng": -83.59845289999998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "04001239",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/04001239",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "04001239"
+      }
+    },
+    {
       "id": "birth@djkz35",
       "name": "Birth",
       "lat": 30.8267197,
@@ -262,6 +374,34 @@
           "w": 0.1,
           "site_m": 60
         }
+      }
+    },
+    {
+      "id": "bishop-andrews-hotel@djkt2f",
+      "name": "Bishop--Andrews Hotel",
+      "lat": 30.46907564600008,
+      "lng": -83.63003200299994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "90001002",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/90001002",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "90001002"
       }
     },
     {
@@ -522,6 +662,62 @@
       }
     },
     {
+      "id": "brooks-county-courthouse@djkx4s",
+      "name": "Brooks County Courthouse",
+      "lat": 30.78569684400003,
+      "lng": -83.56006292599994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "80000976",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/80000976",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "80000976"
+      }
+    },
+    {
+      "id": "brooks-county-jail@djkx4s",
+      "name": "Brooks County Jail",
+      "lat": 30.783957249000025,
+      "lng": -83.56137481199994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "82002387",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/82002387",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "82002387"
+      }
+    },
+    {
       "id": "brookwood-park@djkz2z",
       "name": "Brookwood Park",
       "lat": 30.8457718,
@@ -753,6 +949,34 @@
       ],
       "tags": {
         "ebird_species": 33
+      }
+    },
+    {
+      "id": "carnegie-library-valdosta@djkz2u",
+      "name": "Carnegie Library of Valdosta",
+      "lat": 30.83066521300003,
+      "lng": -83.28270898799997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "84001120",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/84001120",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "84001120"
       }
     },
     {
@@ -1135,6 +1359,62 @@
       }
     },
     {
+      "id": "converse-dalton-house@djkz2v",
+      "name": "Converse-Dalton House",
+      "lat": 30.833419915000036,
+      "lng": -83.27995196299997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "83000233",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/83000233",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "83000233"
+      }
+    },
+    {
+      "id": "cook-county-courthouse@djs9js",
+      "name": "Cook County Courthouse",
+      "lat": 31.13915759200006,
+      "lng": -83.42502972599993,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "95000714",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/95000714",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "95000714"
+      }
+    },
+    {
       "id": "cranford-park@djkz89",
       "name": "Cranford Park",
       "lat": 30.8557569,
@@ -1177,12 +1457,23 @@
       "lat": 30.8394737,
       "lng": -83.2840445,
       "category": "oddity",
-      "subject_type": [],
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
       "notes": null,
       "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "80001109",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/80001109",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
         {
           "source": "osm",
           "source_id": "way/753795583",
@@ -1193,6 +1484,7 @@
         }
       ],
       "tags": {
+        "nrhp": "80001109",
         "name": "The Crescent",
         "description": "http://thecrescentatvaldosta.com/",
         "wikidata": "Q16901515",
@@ -1322,6 +1614,90 @@
         "commons": {
           "photos": 310
         }
+      }
+    },
+    {
+      "id": "dasher-high-school@djkz34",
+      "name": "Dasher High School",
+      "lat": 30.820236843000032,
+      "lng": -83.26919489599999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "85000849",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/85000849",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "85000849"
+      }
+    },
+    {
+      "id": "davis-w-t-building@djktmf",
+      "name": "Davis, W.T., Building",
+      "lat": 30.467940025000075,
+      "lng": -83.41322041199999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "15000074",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/15000074",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "15000074"
+      }
+    },
+    {
+      "id": "dial-goza-house@djktmf",
+      "name": "Dial-Goza House",
+      "lat": 30.470397469000034,
+      "lng": -83.41264504999998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "73000585",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/73000585",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "73000585"
       }
     },
     {
@@ -1577,6 +1953,34 @@
       }
     },
     {
+      "id": "ewell-brown-general-store@djkye1",
+      "name": "Ewell Brown General Store",
+      "lat": 30.683476080000048,
+      "lng": -83.18144028499995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "97000099",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/97000099",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "97000099"
+      }
+    },
+    {
       "id": "f-16-model@djkzce",
       "name": "F-16 Model",
       "lat": 30.9143483,
@@ -1616,6 +2020,34 @@
         "commons": {
           "photos": 23
         }
+      }
+    },
+    {
+      "id": "fairview-historic-district@djkz2u",
+      "name": "Fairview Historic District",
+      "lat": 30.830893248000052,
+      "lng": -83.28511849599994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "84001149",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/84001149",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "84001149"
       }
     },
     {
@@ -1735,6 +2167,62 @@
           "species": 13,
           "topGuild": "insects"
         }
+      }
+    },
+    {
+      "id": "first-baptist-church@djktmf",
+      "name": "First Baptist Church",
+      "lat": 30.468674199000077,
+      "lng": -83.41801735499996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "78000953",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/78000953",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "78000953"
+      }
+    },
+    {
+      "id": "first-presbyterian-church@djkz3j",
+      "name": "First Presbyterian Church",
+      "lat": 30.83432877300004,
+      "lng": -83.26931136999997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "87001912",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/87001912",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "87001912"
       }
     },
     {
@@ -2054,6 +2542,34 @@
         "commons": {
           "photos": 308
         }
+      }
+    },
+    {
+      "id": "girardeau-house@djktfc",
+      "name": "Girardeau House",
+      "lat": 30.552012626000078,
+      "lng": -83.55056457399996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "11000382",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/11000382",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "11000382"
       }
     },
     {
@@ -2380,6 +2896,62 @@
       }
     },
     {
+      "id": "harris-ramsey-norris-house@djkx4k",
+      "name": "Harris--Ramsey--Norris House",
+      "lat": 30.78891123300008,
+      "lng": -83.56762825399994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "08000832",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/08000832",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "08000832"
+      }
+    },
+    {
+      "id": "harrison-william-g-house@djsc98",
+      "name": "Harrison, William G., House",
+      "lat": 31.20428238200003,
+      "lng": -83.25155588799998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "94001636",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/94001636",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "94001636"
+      }
+    },
+    {
       "id": "historical-perspective@djkz35",
       "name": "Historical Perspective",
       "lat": 30.8268874,
@@ -2619,6 +3191,62 @@
       ],
       "tags": {
         "ebird_species": 14
+      }
+    },
+    {
+      "id": "jennings-high-school@djkyj5",
+      "name": "Jennings High School",
+      "lat": 30.603309377000073,
+      "lng": -83.09266424999998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "07001357",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/07001357",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "07001357"
+      }
+    },
+    {
+      "id": "jordan-beggs-house@djktmg",
+      "name": "Jordan--Beggs House",
+      "lat": 30.470888267000078,
+      "lng": -83.41536464499995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "97000557",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/97000557",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "97000557"
       }
     },
     {
@@ -3025,6 +3653,34 @@
       }
     },
     {
+      "id": "lanier-county-auditorium-grammar-school@djsbte",
+      "name": "Lanier County Auditorium and Grammar School",
+      "lat": 31.042949855000074,
+      "lng": -83.07216433999997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "86000743",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/86000743",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "86000743"
+      }
+    },
+    {
       "id": "legacy@djkz35",
       "name": "Legacy",
       "lat": 30.8269765,
@@ -3179,6 +3835,34 @@
           "w": -0.1,
           "site_m": 67
         }
+      }
+    },
+    {
+      "id": "lowndes-county-courthouse@djkz2u",
+      "name": "Lowndes County Courthouse",
+      "lat": 30.83262318000004,
+      "lng": -83.27909688299997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "80001110",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/80001110",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "80001110"
       }
     },
     {
@@ -3811,12 +4495,23 @@
       "lat": 30.8418685,
       "lng": -83.2845965,
       "category": "park",
-      "subject_type": [],
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
       "notes": null,
       "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "84001151",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/84001151",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
         {
           "source": "osm",
           "source_id": "node/358752939",
@@ -3827,6 +4522,7 @@
         }
       ],
       "tags": {
+        "nrhp": "84001151",
         "name": "North Patterson Street Historic District",
         "ele": "64",
         "wikidata": "Q30627065",
@@ -4798,6 +5494,34 @@
       }
     },
     {
+      "id": "smith-dr-chandler-holmes-house@djktmf",
+      "name": "Smith, Dr. Chandler Holmes, House",
+      "lat": 30.470570076000058,
+      "lng": -83.41306584499995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "98000263",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/98000263",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "98000263"
+      }
+    },
+    {
       "id": "smith-park@djkz3j",
       "name": "Smith Park",
       "lat": 30.8331987,
@@ -4911,6 +5635,34 @@
       }
     },
     {
+      "id": "sowega-building@djs9js",
+      "name": "SOWEGA Building",
+      "lat": 31.136751204000063,
+      "lng": -83.42350045199998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "90000546",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/90000546",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "90000546"
+      }
+    },
+    {
       "id": "spanish-american-war-memorial@djkz2u",
       "name": "Spanish-American War Memorial",
       "lat": 30.8326715,
@@ -5013,6 +5765,62 @@
           "w": 0.1,
           "site_m": 67
         }
+      }
+    },
+    {
+      "id": "st-mary-s-episcopal-church@djktmf",
+      "name": "St. Mary's Episcopal Church",
+      "lat": 30.46992737900007,
+      "lng": -83.41367477599994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "97000351",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/97000351",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "97000351"
+      }
+    },
+    {
+      "id": "statenville-consolidated-school@djkywt",
+      "name": "Statenville Consolidated School",
+      "lat": 30.70289940300006,
+      "lng": -83.02455481499999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "88000606",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/88000606",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "88000606"
       }
     },
     {
@@ -5555,6 +6363,34 @@
       }
     },
     {
+      "id": "united-states-post-office-adel-georgia@djs9js",
+      "name": "United States Post Office-Adel, Georgia",
+      "lat": 31.13705728000008,
+      "lng": -83.42257501399996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "08001319",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/08001319",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "08001319"
+      }
+    },
+    {
       "id": "unity-park@djkz2u",
       "name": "Unity Park",
       "lat": 30.8325404,
@@ -5894,6 +6730,34 @@
         "commons": {
           "photos": 307
         }
+      }
+    },
+    {
+      "id": "wardlaw-smith-house@djktmf",
+      "name": "Wardlaw-Smith House",
+      "lat": 30.470082614000034,
+      "lng": -83.41503233899994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "72000339",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/72000339",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "nrhp": "72000339"
       }
     },
     {
