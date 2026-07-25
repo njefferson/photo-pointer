@@ -1,0 +1,41 @@
+{
+  "source": {
+    "source": "ridb",
+    "name": "Recreation.gov (RIDB) — federal recreation facilities",
+    "license": "public-domain",
+    "attribution": "Recreation Information Database (RIDB), U.S. federal recreation agencies",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "WRIGHT LAKE CAMPGROUND",
+      "lat": 29.9994306,
+      "lng": -85.0018028,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Wright Lake is located approximately 25 miles from the Gulf of Mexico in an area known as the Forgotten Coast. Wright Lake and nearby Hickory Landing provide easy access to the Apalachicola River, known for its sport fishing, boating and paddling. You will never run out of things to do!Recreation Wright Lake is a quiet scenic lakefront recreation area that offers a host of amenities and…",
+      "tags": {
+        "ridb": "251908",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251908",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/251908",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
