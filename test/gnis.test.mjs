@@ -5,18 +5,24 @@ import { makeSpot, validateSpot } from '../src/model/spot.js';
 
 const TODAY = '2026-07-25';
 
-test('pickLayers returns every class-bearing layer, skipping ones without the field', () => {
+test('pickLayers returns natural-feature layers, skipping no-field and non-natural ones', () => {
   const doc = { layers: [
-    { id: 0, name: 'Group Layer', fields: [] },
-    { id: 1, name: 'Water Features', fields: [{ name: 'gaz_id' }, { name: 'gaz_featureclass' }] },
-    { id: 4, name: 'Landforms', fields: [{ name: 'gaz_name' }, { name: 'gaz_featureclass' }] },
+    { id: 0, name: 'Group Layer', fields: [] }, // no class field
+    { id: 1, name: 'Incorporated Places (Civil)', fields: [{ name: 'gaz_featureclass' }] }, // skipped
+    { id: 3, name: 'Populated Places', fields: [{ name: 'gaz_featureclass' }] }, // skipped
+    { id: 5, name: 'Landforms', fields: [{ name: 'gaz_name' }, { name: 'gaz_featureclass' }] },
+    { id: 7, name: 'Other Hydrographic Features', fields: [{ name: 'gaz_featureclass' }] },
+    { id: 8, name: 'Antarctica', fields: [{ name: 'gaz_featureclass' }] }, // skipped (also 400s)
   ] };
-  assert.deepEqual(pickLayers(doc), [{ id: 1, name: 'Water Features' }, { id: 4, name: 'Landforms' }]);
+  assert.deepEqual(pickLayers(doc), [
+    { id: 5, name: 'Landforms' },
+    { id: 7, name: 'Other Hydrographic Features' },
+  ]);
   assert.deepEqual(pickLayers({ layers: [] }), []);
 });
 
 test('buildWhere lists the GNIS classes', () => {
-  assert.equal(buildWhere(), "gaz_featureclass IN ('Falls','Arch','Cave','Spring')");
+  assert.equal(buildWhere(), "gaz_featureclass IN ('Falls','Arch','Cave','Spring','Geyser')");
 });
 
 test('mapFeature maps classes; a plain Spring is skipped, a hot one kept', () => {

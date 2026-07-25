@@ -37,19 +37,20 @@ export const USER_AGENT =
 // (a plain cold spring isn't a photo draw and there are thousands), detected from
 // the name. Each carries a synthetic OSM-style `natural` tag so the popup + the
 // notability keep-rules treat it like any other natural feature.
-export const FEATURE_CLASSES = ['Falls', 'Arch', 'Cave', 'Spring'];
+export const FEATURE_CLASSES = ['Falls', 'Arch', 'Cave', 'Spring', 'Geyser'];
 const HOT_RE = /\b(hot|warm|thermal|geyser)\b/i;
 
 // featureclass (+ name) -> curiosity mapping, or null to skip.
 export function mapFeature(featureclass, name) {
   switch (featureclass) {
-    case 'Falls': return { curiosity: 'Waterfall', natural: 'waterfall', subject_type: ['water', 'landscape'], best_season: ['spring'] };
-    case 'Arch':  return { curiosity: 'Natural arch', natural: 'arch', subject_type: ['landscape'] };
-    case 'Cave':  return { curiosity: 'Cave', natural: 'cave_entrance', subject_type: [] };
+    case 'Falls':  return { curiosity: 'Waterfall', natural: 'waterfall', subject_type: ['water', 'landscape'], best_season: ['spring'] };
+    case 'Arch':   return { curiosity: 'Natural arch', natural: 'arch', subject_type: ['landscape'] };
+    case 'Cave':   return { curiosity: 'Cave', natural: 'cave_entrance', subject_type: [] };
+    case 'Geyser': return { curiosity: 'Hot spring', natural: 'geyser', subject_type: ['landscape'] };
     case 'Spring':
       return HOT_RE.test(name || '')
         ? { curiosity: 'Hot spring', natural: 'hot_spring', subject_type: ['landscape'] }
-        : null; // a plain spring isn't a curiosity — skip
+        : null; // a plain (cold) spring isn't a curiosity — skip
     default: return null;
   }
 }
@@ -67,13 +68,16 @@ async function getJson(url, fetchFn, wait) {
         signal: AbortSignal.timeout(90000),
       });
       if (res.status === 429 || res.status === 503) { await wait(10000); continue; }
+      // 4xx (other than 429) is a permanent client error — fail fast, don't retry
+      // (e.g. the Antarctica layer 400s a US-bbox query; retrying just wastes time).
+      if (res.status >= 400 && res.status < 500) { const e = new Error(`HTTP ${res.status}`); e.fatal = true; throw e; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
-      // ArcGIS returns 200 with an {error:{...}} body on a bad query.
-      if (json && json.error) throw new Error(`ArcGIS error ${json.error.code}: ${json.error.message}`);
+      // ArcGIS returns 200 with an {error:{...}} body on a bad query — permanent.
+      if (json && json.error) { const e = new Error(`ArcGIS error ${json.error.code}: ${json.error.message}`); e.fatal = true; throw e; }
       return json;
     } catch (e) {
-      if (attempt === 2) throw e;
+      if (e.fatal || attempt === 2) throw e;
       await wait(3000 * (attempt + 1));
     }
   }
@@ -85,10 +89,15 @@ async function getJson(url, fetchFn, wait) {
 // one — we query them all and dedup by gaz_id, rather than guess a single layer
 // (a wrong guess returns almost nothing). Sub-layers of a group are skipped only
 // if they have no queryable class field.
+// Layers that definitionally hold no natural features — populated places, civil/
+// political boundaries, road crossings, Antarctica (which also 400s a US-bbox
+// query). Skipped so we only query the landform/hydrographic/physical layers.
+const SKIP_LAYER = /place|civil|census|crossing|antarctic|political|boundary/i;
 export function pickLayers(layersDoc) {
   const layers = layersDoc?.layers ?? [];
   return layers
     .filter((l) => (l.fields ?? []).some((f) => f.name === 'gaz_featureclass'))
+    .filter((l) => !SKIP_LAYER.test(l.name || ''))
     .map((l) => ({ id: l.id, name: l.name }));
 }
 
