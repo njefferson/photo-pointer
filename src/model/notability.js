@@ -65,12 +65,20 @@ export function keepSpot(spot) {
   return true;
 }
 
-// Split the broad `oddity` bucket into finer pin types so each gets its own
-// filter button (ghost towns, waterfalls, hot springs, lighthouses, ruins). Uses
-// the curiosity KIND the Wikidata adapter tagged, or the OSM historic tag. The
-// remaining kinds (roadside attractions, land art, arches, lookouts, the balloon
-// race, OSM artwork) stay 'oddity' — the quirky catch-all. Run AFTER keepSpot
-// (which keys on the original 'oddity' category). Returns a copy when it changes.
+// Give every place the most specific pin type the data supports. Runs AFTER
+// keepSpot (which keys on the ORIGINAL 'oddity'/'marker' categories).
+//
+// WHAT'S LEFT IN THE BROAD BUCKETS after this (measured, all regions):
+//   viewpoint (331) — 271 are an explicit OSM tourism=viewpoint; a real claim,
+//                     now meaning a designated viewpoint as distinct from a summit.
+//   park     (1555) — 1550 are an explicit leisure=park. A real claim.
+//   marker    (170) — explicit historic=memorial/monument, plus Wikidata/HMdb
+//                     markers that carry no OSM tag at all.
+//   oddity     (95) — ALL of them are OSM tourism=attraction and nothing more.
+// So these are no longer dumping grounds: each is backed by a specific source
+// claim. `oddity` is labelled "Attraction" in the UI because that is exactly and
+// only what it now holds — calling it an "Oddity" would assert a judgement the
+// data doesn't make.
 const CURIOSITY_CATEGORY = {
   'Ghost town': 'ghost_town',
   'Waterfall': 'waterfall',
@@ -103,6 +111,8 @@ const FEATURE_TAG_CATEGORY = {
   'historic=mine': 'mine',
   'historic=ruins': 'ruins',
   'tourism=artwork': 'public_art',
+  'tourism=camp_site': 'campsite',
+  'historic=district': 'historic_site',
   'leisure=nature_reserve': 'nature_reserve',
 };
 // Categories that are never reclassified: an event and a user's own pin mean

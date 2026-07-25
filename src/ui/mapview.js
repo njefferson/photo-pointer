@@ -50,7 +50,7 @@ export const CATEGORY_META = {
   // — Wildlife, art & events —
   wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W', group: 'Wildlife, art & events' },
   public_art: { label: 'Art & murals', letter: 'A', group: 'Wildlife, art & events' },
-  oddity: { label: 'Oddity', letter: 'O', group: 'Wildlife, art & events' },
+  oddity: { label: 'Attraction', letter: 'O', group: 'Wildlife, art & events' },
   event: { label: 'Event', letter: 'E', group: 'Wildlife, art & events' },
   user_pin: { label: 'My pins', letter: '★', group: 'Wildlife, art & events' },
 };
