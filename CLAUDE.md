@@ -83,6 +83,32 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.8.0 "Tides for the coast" (a CAPABILITY) BUILT on staging
+  (awaiting on-device pass — NEEDS NOAH'S HANDS: real NOAA data on a coastal
+  spot). Step #3 (last) of Noah's three-part plan. NEW src/model/tides.js —
+  NOAA CO-OPS, US PUBLIC DOMAIN, no key, CORS. TWO keyless calls: the
+  tide-predictions STATION list (mdapi .../stations.json?type=tidepredictions,
+  fetched ONCE per session, cached in a module var) then today's hilo
+  predictions (datagetter, product=predictions&interval=hilo&datum=MLLW&
+  units=english&time_zone=lst_ldt) for the nearest station. nearestStation()
+  returns null past MAX_STATION_KM=40 → an INLAND spot makes NO predictions call
+  at all (unit-tested). mapview tideLine() renders inside the collapsed "Tonight
+  & light" details (same live per-spot pattern as weather/AQI): "Tides today: Low
+  6:12am (0.4 ft) · High 12:40pm (5.1 ft) — <station>", and REMOVES ITSELF when
+  there's no nearby station so inland popups stay clean; fails soft. _headers CSP
+  connect-src += api.tidesandcurrents.noaa.gov. sw CACHE pointer-1.8.0 +
+  tides.js precached; changelog[0] 1.8.0. VERIFICATION LESSON: the sandbox 403s
+  NOAA (like Overpass/WDQS/USGS), AND clicking a Leaflet marker in headless is
+  unreliable (the list→focusSpot popup path didn't open a popup in this harness
+  either — cost a debug cycle). WORKING PATTERN, now in scripts/smoke-tides.mjs:
+  intercept the NOAA routes with ctx.route(), then (a) `await page.evaluate(() =>
+  import('./src/model/tides.js'))` and call tidesToday IN THE BROWSER (proves
+  fetch+CSP+parse+format for real), and (b) build a map view in a detached host
+  and call view.focusSpot(spot) inside the SAME evaluate to render + read the
+  actual popup DOM. Both coastal (line + station present) and inland (element
+  removed) verified. 125 tests (+8 tides) + contrast + all three smokes green.
+  ALL THREE of Noah's asks are now built: 1.6.0 search+distance, 1.7.0 events,
+  1.8.0 tides — all UNPROMOTED on staging awaiting his device pass.
 - 2026-07-25 1.7.0 "Events" (a CAPABILITY) BUILT on staging (awaiting on-device
   pass). Step #2 of Noah's three ("do them in that order"). Noah mid-build: "make
   sure the events tab explains it's limitations" — so the honesty note is a
