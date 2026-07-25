@@ -31,3 +31,14 @@ test('refineCategory leaves non-oddity spots without a curiosity kind alone', ()
   // OSM ruins mapping only fires from the oddity bucket, not from markers.
   assert.equal(refineCategory({ category: 'marker', tags: { historic: 'ruins' } }).category, 'marker');
 });
+
+test('refineCategory maps OSM-native feature tags even without a curiosity kind', () => {
+  // Old Faithful: natural=geyser + tourism=attraction → matched the generic
+  // oddity rule at ingest (no curiosity kind), but still becomes a Hot spring.
+  assert.equal(refineCategory({ category: 'oddity', tags: { natural: 'geyser', tourism: 'attraction' } }).category, 'hot_spring');
+  assert.equal(refineCategory({ category: 'oddity', tags: { natural: 'hot_spring' } }).category, 'hot_spring');
+  assert.equal(refineCategory({ category: 'viewpoint', tags: { natural: 'waterfall' } }).category, 'waterfall');
+  assert.equal(refineCategory({ category: 'oddity', tags: { man_made: 'lighthouse' } }).category, 'lighthouse');
+  // A curiosity kind still takes precedence over the raw tag.
+  assert.equal(refineCategory({ category: 'oddity', tags: { curiosity: 'Ghost town', natural: 'hot_spring' } }).category, 'ghost_town');
+});

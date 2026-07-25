@@ -77,15 +77,29 @@ const CURIOSITY_CATEGORY = {
   'Hot spring': 'hot_spring',
   'Lighthouse': 'lighthouse',
 };
+// OSM-native feature tags → the same finer pin types. This is a backstop for
+// features that carry the raw tag but no `curiosity` kind — e.g. a geyser also
+// tagged tourism=attraction (Old Faithful) matched the generic oddity rule at
+// ingest and never got a kind; here it still becomes a Hot spring at load.
+const FEATURE_TAG_CATEGORY = {
+  'natural=hot_spring': 'hot_spring',
+  'natural=geyser': 'hot_spring',
+  'natural=waterfall': 'waterfall',
+  'man_made=lighthouse': 'lighthouse',
+};
 export function refineCategory(spot) {
   const t = spot.tags ?? {};
   // A known curiosity kind is a strong, specific signal — use it WHATEVER the
   // spot's current category, so a waterfall that deduped into an OSM viewpoint
   // still filters as a Waterfall.
-  const byKind = CURIOSITY_CATEGORY[t.curiosity];
+  const byKind = CURIOSITY_CATEGORY[t.curiosity]
+    ?? FEATURE_TAG_CATEGORY[`natural=${t.natural}`]
+    ?? FEATURE_TAG_CATEGORY[`man_made=${t.man_made}`];
   if (byKind) return byKind === spot.category ? spot : { ...spot, category: byKind };
-  // OSM ruins/mines: only split out of the broad `oddity` catch-all.
-  if (spot.category === 'oddity' && (t.historic === 'ruins' || t.historic === 'mine')) {
+  // OSM ruins / mines / archaeological sites: split out of the broad `oddity`
+  // catch-all into the Ruins pin type.
+  if (spot.category === 'oddity' &&
+      (t.historic === 'ruins' || t.historic === 'mine' || t.historic === 'archaeological_site')) {
     return { ...spot, category: 'ruins' };
   }
   return spot;

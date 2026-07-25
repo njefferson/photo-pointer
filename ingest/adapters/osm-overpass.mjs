@@ -59,7 +59,12 @@ export const FEATURE_RULES = [
 
 // normalizeElement matches against BOTH rule sets (an element from either query
 // finds its rule); the queries themselves fetch only their own selector set.
-export const ALL_RULES = [...TAG_RULES, ...FEATURE_RULES];
+// FEATURE_RULES come FIRST so a specific natural/man_made feature wins over the
+// generic tourism=attraction oddity rule when an element carries both — e.g.
+// Old Faithful (natural=geyser + tourism=attraction) resolves to a Hot spring
+// with its curiosity kind, not a bare oddity. (Feature rules are namedOnly, so
+// an unnamed feature still falls through to the generic rule.)
+export const ALL_RULES = [...FEATURE_RULES, ...TAG_RULES];
 
 // One Overpass query for the whole region: union of the counties' admin
 // areas, belt-and-braces bounded by the region bbox.

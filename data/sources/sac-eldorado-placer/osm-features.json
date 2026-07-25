@@ -1,0 +1,179 @@
+{
+  "source": {
+    "source": "osm",
+    "name": "OpenStreetMap (Overpass API)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "region": "sac-eldorado-placer",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Scandia Fun Center Entrance",
+      "lat": 38.6585311,
+      "lng": -121.3641807,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Scandia Fun Center Entrance",
+        "fee": "yes",
+        "access": "customers",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/13375201593",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13375201593",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hawver Cave Gate A",
+      "lat": 38.9162285,
+      "lng": -121.0146542,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Hawver Cave Gate A",
+        "wheelchair": "no",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/429169349",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/429169349",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hawver Cave Gate B",
+      "lat": 38.9137774,
+      "lng": -121.0154114,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Hawver Cave Gate B",
+        "wheelchair": "no",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/429169399",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/429169399",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fairchild Park Indian Grinding Rocks",
+      "lat": 38.7023321,
+      "lng": -121.0772474,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Fairchild Park Indian Grinding Rocks",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5618093482",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5618093482",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Gold Digging Tailings",
+      "lat": 38.6706317,
+      "lng": -121.1831368,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Gold Digging Tailings",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/761689572",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/761689572",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Maidu Museum & Historic Site",
+      "lat": 38.7375061,
+      "lng": -121.2448284,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Maidu Museum & Historic Site",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/302181531",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/302181531",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}

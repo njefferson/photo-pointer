@@ -71,13 +71,11 @@ function applyLayers(v) {
 // category toggles (setVisible) and, when layers are required, is further
 // narrowed to the spots that pass BOTH (setSpotFilter); the list re-renders from
 // the same filtered set. Called on every filter change and after data loads.
-// Does a spot satisfy the tri-state layer filters? Requires every 'require'
-// layer and none of the 'exclude' layers. (lm = id → Set of the spot's layers.)
+// Does a spot carry every "must have" layer the user turned on? (layers = a Set
+// of required layer keys; lm = id → Set of the layers a spot actually has.)
 function passesLayers(spot, layers, lm) {
-  for (const [k, state] of layers) {
-    const has = lm.get(spot.id)?.has(k);
-    if (state === 'require' && !has) return false;
-    if (state === 'exclude' && has) return false;
+  for (const k of layers) {
+    if (!lm.get(spot.id)?.has(k)) return false;
   }
   return true;
 }
@@ -121,28 +119,28 @@ function renderHeader() {
         else v.add(cat);
         applyVisible(v);
       },
-    }, [el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter), ` ${meta.label}`])
+    }, [
+      el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
+      ` ${meta.label}`,
+      visible.has(cat) ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null,
+    ])
   );
-  // Tri-state data-layer filters — same filter bar as the categories, applied to
-  // both map and list. Tap once to REQUIRE (✓ must have), again to EXCLUDE
-  // (✕ must not have), again to clear. (The pin-type chips stay simple on/off.)
+  // Data-layer filters — simple on/off "must have", the same behavior as the
+  // pin-type chips (tap on, tap off). A spot passes only if it carries EVERY one
+  // turned on. Kept in their own labeled row so it's clear they narrow the
+  // pin types, not replace them.
   const layerChips = LAYER_FILTERS.map(([key, label]) => {
-    const state = layers.get(key); // 'require' | 'exclude' | undefined
-    const mark = state === 'require' ? '✓ ' : state === 'exclude' ? '✕ ' : '';
-    const word = state === 'require' ? 'must have' : state === 'exclude' ? 'excluded' : 'any';
+    const on = layers.has(key);
     return el('button', {
-      class: `chip layer-chip${state ? ' ' + state : ''}`,
-      'aria-pressed': state === 'require' ? 'true' : 'false',
-      'aria-label': `${label}: ${word}. Tap to change.`,
+      class: `chip layer-chip${on ? ' on' : ''}`,
+      'aria-pressed': String(on),
+      'aria-label': `Only show places that also have ${label}`,
       onClick: () => {
-        const m = new Map(currentLayers());
-        const s = m.get(key);
-        if (!s) m.set(key, 'require');
-        else if (s === 'require') m.set(key, 'exclude');
-        else m.delete(key);
-        applyLayers(m);
+        const s = new Set(currentLayers());
+        if (s.has(key)) s.delete(key); else s.add(key);
+        applyLayers(s);
       },
-    }, [el('span', { class: 'req-mark', 'aria-hidden': 'true' }, mark), label]);
+    }, [label, on ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null]);
   });
   const regionPills = (regionsDoc?.regions ?? []).map((r) =>
     el('button', {
@@ -162,13 +160,22 @@ function renderHeader() {
     onClick: () => { filtersOpen = !filtersOpen; renderHeader(); },
   }, `Filters${activeCount ? ` (${activeCount})` : ''} ${filtersOpen ? '▲' : '▾'}`);
 
+  // A layer only ever narrows the pin types that are showing, so if a layer is on
+  // while every pin type is off, nothing can match — call that out instead of
+  // leaving an empty map that looks broken.
+  const layerButNoType = layers.size > 0 && visible.size === 0;
   const filtersPanel = filtersOpen
     ? el('div', { class: 'filters-panel', id: 'filters-panel' }, [
-        el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
-        el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Filter by data layer: tap once to require, twice to exclude' }, [
-          el('span', { class: 'layer-label' }, 'Layers:'),
-          ...layerChips,
-          el('span', { class: 'layer-hint' }, 'tap: ✓ must have · ✕ exclude'),
+        el('div', { class: 'filter-group' }, [
+          el('span', { class: 'filter-group-label' }, 'Show these place types'),
+          el('div', { class: 'chips', role: 'group', 'aria-label': 'Show these place types' }, [allToggle, ...chips]),
+        ]),
+        el('div', { class: 'filter-group' }, [
+          el('span', { class: 'filter-group-label' }, 'Only show places that also have…'),
+          el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Only show places that also have these data layers' }, layerChips),
+          layerButNoType
+            ? el('span', { class: 'layer-hint', role: 'status' }, 'Turn on a place type above too — a layer only narrows what’s already showing.')
+            : null,
         ]),
       ])
     : null;
@@ -469,7 +476,7 @@ async function boot() {
     onSwitchRegion: (id, center) => switchRegion(id, { center }),
     onChange: refresh,
     // The map's "Clear" on the layer-filter banner clears the layer chips at source.
-    onClearFilter: () => applyLayers(new Map()),
+    onClearFilter: () => applyLayers(new Set()),
     // "Hide this place" in a popup → block it everywhere, with an undo toast.
     onHideSpot: hideAndRefresh,
   });

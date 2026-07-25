@@ -6,7 +6,7 @@
 // name order). It honours the SAME category + "must have" filters as the map.
 // =============================================================================
 import { el, clear } from './dom.js';
-import { CATEGORY_META } from './mapview.js';
+import { CATEGORY_META, spotDisplayName } from './mapview.js';
 import { favorites, isFavorite, toggleFavorite } from '../model/store.js';
 import { distanceM, bearingDeg } from '../model/geo.js';
 import { compass } from '../model/light.js';
@@ -103,7 +103,7 @@ function listRow(spot, score, onFocusSpot, onChange, onHide, rerender) {
     el('span', { class: `pin pin-${spot.category} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
     el('div', { class: 'list-row-main' }, [
       el('button', { class: 'list-name', onClick: () => onFocusSpot(spot) },
-        spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
+        spotDisplayName(spot)),
       metaLine ? el('div', { class: 'list-meta' }, metaLine) : null,
     ]),
     scoreCell(score),

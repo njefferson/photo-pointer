@@ -26,7 +26,6 @@
   --cat-trailhead: #2a5f6d;
   --cat-campsite: #6d5424;
   --cat-wildlife_hotspot: #365f8a;
-  --cat-dark_sky: #3a3670;
   --cat-user_pin: #6d5200;
 }
 
@@ -120,27 +119,21 @@ body {
    The count (active filters) is part of the label, not a colour-only badge. */
 .filters-toggle { font-size: 13px; font-weight: 650; padding: 6px 12px; min-height: 34px; white-space: nowrap; }
 .filters-toggle.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-/* The expanded panel holds the category + layer chip rows, full width. */
-.filters-panel { width: 100%; display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
+/* The expanded panel holds two clearly-separated groups: the pin-type chips and
+   the "must have" layer chips, each under its own heading, full width. */
+.filters-panel { width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: 2px; }
+.filter-group { display: flex; flex-direction: column; gap: 5px; width: 100%; }
+.filter-group-label { font-size: 12px; font-weight: 600; color: var(--dim); }
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
 
-/* Tri-state data-layer filters — same filter bar as the category chips, one
-   place, applied to both map and list. A leading label + hint name the group. */
+/* Data-layer filters are simple on/off "must have", the SAME look as the
+   pin-type chips (the standard filter-chip pattern). */
 .layer-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; width: 100%; }
-.layer-label { font-size: 12px; font-weight: 600; color: var(--dim); }
 .layer-hint { font-size: 11px; color: var(--dim); }
-/* A NEUTRAL layer chip means "any" (no filter), NOT "off" — so it must not get
-   the category chips' struck-through/dimmed off-look. Target neutral only (not
-   require/exclude) with 3-class specificity so it wins over .chip[aria-pressed]
-   regardless of source order (that rule appears later in the file). */
-.layer-chip:not(.require):not(.exclude) { opacity: 1; text-decoration: none; }
-/* Non-hue channels carry the meaning (survive grayscale): require = ✓ mark +
-   bold + firm border; exclude = ✕ mark + strike-through + dashed border. The
-   ✓/✕ come from the button's .req-mark span; colour only reinforces. */
-.layer-chip.require { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
-.layer-chip.exclude { text-decoration: line-through; opacity: 0.72; border-style: dashed; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
-.req-mark { font-weight: 700; }
+/* The trailing ✓ that marks a selected chip (a shape cue on top of the fill, so
+   the on-state survives grayscale — never colour alone). */
+.chip-check { font-weight: 700; margin-left: 5px; }
 
 .chip {
   font: inherit;
@@ -154,17 +147,23 @@ body {
   min-height: 30px;
 }
 
-/* Category buttons are on/off toggles. Off = struck through + dimmed
-   (decoration + luminance, not hue). */
-.chip[aria-pressed="false"] { opacity: 0.55; text-decoration: line-through; }
+/* Filter chips are standard on/off toggles (Material/iOS filter-pill pattern):
+   SELECTED = a solid filled pill (ink fill, bg text) + a ✓; UNSELECTED = a plain
+   outlined pill. The on-state is carried by TWO non-hue channels — the fill's
+   luminance inversion and the ✓ shape — so it survives grayscale. No
+   strike-through, no dimming (that read as "disabled/deleted", not "off").
+   bg-on-ink is the gated toast pair; ink-on-card is the gated body pair. */
+.chip[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+  font-weight: 600;
+}
 
-/* Master show-all / hide-all toggle — an action button, not a category, so it
-   never carries the struck-through "off" look. */
+/* Master show-all / hide-all toggle — an action button, not a category. */
 .chip-all {
   font-weight: 650;
   border-color: color-mix(in srgb, var(--ink) 45%, var(--line));
-  text-decoration: none;
-  opacity: 1;
 }
 
 /* Shown only when every category is off (nothing on the map): tells the user
@@ -405,7 +404,6 @@ body {
 .pin-trailhead { background: var(--cat-trailhead); }
 .pin-campsite { background: var(--cat-campsite); }
 .pin-wildlife_hotspot { background: var(--cat-wildlife_hotspot); }
-.pin-dark_sky { background: var(--cat-dark_sky); }
 .pin-user_pin { background: var(--cat-user_pin); }
 
 .popup h3 { margin: 0 0 4px; font-size: 15px; }
@@ -487,6 +485,13 @@ body {
 
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
    consistent with .light-table; meaning is in the layer labels, not color. */
+/* Collapsible "Tonight & light" details in the popup — keeps the card short so
+   it opens at the top. Fixed dark ink on the light popup card (~15:1). */
+.popup-more { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 4px; }
+.popup-more > summary { cursor: pointer; font-size: 13px; font-weight: 700; color: #1e1e1e; padding: 3px 0; list-style: none; }
+.popup-more > summary::-webkit-details-marker { display: none; }
+.popup-more[open] > summary { margin-bottom: 4px; }
+
 .synth-box { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 5px; }
 .synth-head { display: flex; justify-content: space-between; align-items: baseline; }
 .synth-why { font-size: 13px; font-weight: 700; color: #1e1e1e; }
