@@ -1,0 +1,153 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
+    "license": "CC0-1.0",
+    "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
+    "status": "working"
+  },
+  "region": "humboldt",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Humboldt Harbor Light",
+      "lat": 40.76863889,
+      "lng": -124.22102778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q14682414",
+        "wikipedia": "https://en.wikipedia.org/wiki/Humboldt_Harbor_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14682414",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Humboldt_Harbor_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cape Mendocino Light",
+      "lat": 40.4399,
+      "lng": -124.406,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q5034946",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cape_Mendocino_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5034946",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Cape_Mendocino_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Punta Gorda Light",
+      "lat": 40.2493,
+      "lng": -124.35,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7260532",
+        "wikipedia": "https://en.wikipedia.org/wiki/Punta_Gorda_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7260532",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Punta_Gorda_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Table Bluff Light",
+      "lat": 40.6958,
+      "lng": -124.274,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7673128",
+        "wikipedia": "https://en.wikipedia.org/wiki/Table_Bluff_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7673128",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Table_Bluff_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Trinidad Head Light",
+      "lat": 41.0519,
+      "lng": -124.151,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7842389",
+        "wikipedia": "https://en.wikipedia.org/wiki/Trinidad_Head_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7842389",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Trinidad_Head_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
