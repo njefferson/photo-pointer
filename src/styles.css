@@ -71,8 +71,10 @@ body {
 .bar h1 { font-size: 17px; margin: 0; flex: 1 1 auto; }
 
 /* Region switcher (Frame-style pills). Active reads by weight + fill + accent
-   underline, never hue alone. */
-.regions { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+   underline, never hue alone. Single scrolling row so 7 regions don't stack
+   into 3 rows on a phone. */
+.regions { display: flex; flex-wrap: nowrap; gap: 6px; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+.region-pill { flex: 0 0 auto; }
 .region-pill {
   font: inherit;
   font-size: 13px;
@@ -111,7 +113,15 @@ body {
 .app-loading-title { font-size: 17px; font-weight: 650; }
 .app-loading-sub { font-size: 13px; color: var(--dim); }
 
-.bar-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.bar-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+
+/* The "Filters" disclosure — collapses the many category + layer chips so they
+   don't eat half a phone screen. Reads as a labeled button; "on" when expanded.
+   The count (active filters) is part of the label, not a colour-only badge. */
+.filters-toggle { font-size: 13px; font-weight: 650; padding: 6px 12px; min-height: 34px; white-space: nowrap; }
+.filters-toggle.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+/* The expanded panel holds the category + layer chip rows, full width. */
+.filters-panel { width: 100%; display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
 

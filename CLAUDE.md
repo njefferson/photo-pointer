@@ -83,6 +83,26 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.14 "Collapsible filters (map fills the screen)" (an ITERATION,
+  mobile BUG FIX) BUILT on staging (awaiting on-device pass). Noah (phone
+  screenshot, v1.5.12): "Half the screen is covered and tiles won't open now
+  because of it." ROOT CAUSE: the filter header had grown unbounded — 7 region
+  pills (wrapping to 3 rows) + 10→15 category chips + 8 layer chips + hint + view
+  toggle ≈ 10+ rows ≈ HALF a phone screen; the map was squished so pin popups had
+  no room ("tiles won't open"). 1.5.13's 5 new category chips made it worse. FIX
+  (main.renderHeader + styles.css): (1) the category + layer chip rows are now
+  behind a labeled `.filters-toggle` ("Filters (N) ▾", N = active count, aria-
+  expanded/controls) — COLLAPSED BY DEFAULT (module `filtersOpen=false`); tapping
+  it reveals `.filters-panel`. (2) `.regions` is now a single nowrap horizontal-
+  scroll row (region-pill flex:0 0 auto) instead of wrapping to 3 rows. (3) the
+  empty-state tip adapts: collapsed → "Nothing is showing — tap Filters to choose
+  what to see." MEASURED headless (390×844 iPhone viewport): header 147px
+  collapsed (was ~420px+), map-root 709px = 84% of screen (was ~half); expands to
+  477px only when the user opens Filters; popup opens fine via list-focus
+  (Bonanza Park). `.filters-toggle.on` = bg-on-ink (existing gated pair). sw CACHE
+  pointer-1.5.14; changelog[0] 1.5.14. 101 tests + contrast green; ZERO
+  pageerrors. NOTE this is a PRODUCTION UX regression (1.5.12 is live) — worth
+  promoting soon.
 - 2026-07-25 1.5.13 "Split 'oddity' into finer pin types" (an ITERATION) BUILT on
   staging (awaiting on-device pass). Noah: "I feel like 'oddities' should be split
   to more filter buttons?" The oddity bucket had become a grab-bag (curiosities +

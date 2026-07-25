@@ -21,6 +21,7 @@ let regionsDoc = null;
 let region = null;
 let viewMode = 'map';
 let listEl = null;
+let filtersOpen = false; // the filter chips are collapsed by default (mobile room)
 
 function onFocusSpot(spot) {
   setViewMode('map');
@@ -150,22 +151,35 @@ function renderHeader() {
       onClick: () => { if (r.id !== region?.id) switchRegion(r.id); },
     }, r.name)
   );
+  // The filter chips (categories + layers) are MANY, so they'd eat half a phone
+  // screen. Keep them behind a labeled "Filters" toggle, collapsed by default, so
+  // the map/list gets the room; a count shows how many filters are active.
+  const activeCount = visible.size + layers.size;
+  const filtersToggle = el('button', {
+    class: `data-btn filters-toggle${filtersOpen ? ' on' : ''}`,
+    'aria-expanded': String(filtersOpen),
+    'aria-controls': 'filters-panel',
+    onClick: () => { filtersOpen = !filtersOpen; renderHeader(); },
+  }, `Filters${activeCount ? ` (${activeCount})` : ''} ${filtersOpen ? '▲' : '▾'}`);
+
+  const filtersPanel = filtersOpen
+    ? el('div', { class: 'filters-panel', id: 'filters-panel' }, [
+        el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
+        el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Filter by data layer: tap once to require, twice to exclude' }, [
+          el('span', { class: 'layer-label' }, 'Layers:'),
+          ...layerChips,
+          el('span', { class: 'layer-hint' }, 'tap: ✓ must have · ✕ exclude'),
+        ]),
+      ])
+    : null;
+
   const header = el('header', { class: 'bar' }, [
     el('h1', { class: 'sr-only' }, `photo-pointer — ${region?.name ?? ''}`),
     regionPills.length > 1
       ? el('div', { class: 'regions', role: 'group', 'aria-label': 'Region' }, regionPills)
       : null,
-    el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
-    el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Filter by data layer: tap once to require, twice to exclude' }, [
-      el('span', { class: 'layer-label' }, 'Layers:'),
-      ...layerChips,
-      el('span', { class: 'layer-hint' }, 'tap: ✓ must have · ✕ exclude'),
-    ]),
-    visible.size === 0
-      ? el('p', { class: 'filter-tip', role: 'status' },
-          'Turn on at least one pin type above to see places. Sort the list by “Best” to see the top-scoring spots.')
-      : null,
     el('div', { class: 'bar-actions' }, [
+      filtersToggle,
       el('div', { class: 'view-toggle', role: 'group', 'aria-label': 'Map or list view' }, [
         el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
         el('button', { class: `vt-btn${viewMode === 'list' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'list'), onClick: () => setViewMode('list') }, 'List'),
@@ -179,6 +193,13 @@ function renderHeader() {
       }, 'ⓘ'),
       themeToggle((theme) => mapView?.syncThemeBasemap(theme)),
     ]),
+    filtersPanel,
+    visible.size === 0
+      ? el('p', { class: 'filter-tip', role: 'status' },
+          filtersOpen
+            ? 'Turn on at least one pin type above to see places. Sort the list by “Best” to see the top-scoring spots.'
+            : 'Nothing is showing — tap Filters to choose what to see.')
+      : null,
   ]);
   const old = app.querySelector('header');
   if (old) old.replaceWith(header);
