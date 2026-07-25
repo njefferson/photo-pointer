@@ -83,6 +83,45 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.9 "Tri-state layers, cleaner oddities, faster opens" (an
+  ITERATION: design fix + data quality + perf/UX) BUILT on staging (awaiting
+  on-device pass — NEEDS NOAH'S HANDS: the tri-state feel + real return-visit
+  speed on the iPad). Noah, three asks across the turn: "the must-have row
+  conflicts with my tri-state filter design", "'unnamed oddity' looks like
+  roundabouts", and "make it say something while it's loading… every return page
+  visit makes it resort and look retarded in how long it takes." FOUR changes:
+  (A) TRI-STATE LAYERS RESTORED — 1.5.7 collapsed the layer chips to binary
+  "Must have"; that broke Noah's long-standing design (layer chips are tri-state
+  require/exclude, ONLY pin-type chips are on/off — see the 1.0.0 note). store
+  K_LAYERS bumped v1→v2: activeLayers() is now a Map(key→'require'|'exclude')
+  (was a Set). Header "Layers:" row cycles neutral→require(✓)→exclude(✕)→clear
+  with a `.req-mark` span; `.layer-chip.require/.exclude` CSS (bold+firm border /
+  strike+dashed) + a `.layer-chip[aria-pressed=false]` override so a NEUTRAL chip
+  doesn't inherit the category chips' struck-through off-look. passesLayers()
+  (require every ✓, exclude every ✕) drives BOTH spotsForList and syncMapFilter.
+  (B) UNNAMED-ODDITY DROP (notability.keepOddity): an oddity with NO name now
+  must be documented (wikipedia/wikidata or commons≥3) — drops the unnamed
+  tourism=artwork / historic=ruins nodes that read as map cruft. Measured drop 88
+  across regions (Sac 27, Yellowstone 34, Humboldt 22, PCB 4, Hahira 1); keeps 20
+  photographed ones (an unnamed mural w/64 commons, ruins w/15). Sac oddities
+  94→67. (C) RANKING CACHE (store loadRankCache/saveRankCache, key pointer.rank.
+  <id>) — the score is deterministic per region build, so ranking() persists its
+  result keyed by rankSig() = VERSION:builtAt:dataCount:pinCount and reuses it,
+  skipping the ~1s re-rank on every load. Quota-safe (drops other regions' caches
+  + retries, then fails soft). VERSION in the sig → any app update re-ranks once.
+  MEASURED cold boot ~1.3s → cached reload 377ms; cache-hit Best order identical
+  (56,54,54,53,52). (D) LOADING SPLASH — a static `.app-loading` overlay in
+  index.html (painted before JS runs), removed in boot() after setRegion; covers
+  the first-computation wait so it's never a blank stall. sw CACHE pointer-1.5.9;
+  changelog[0] 1.5.9. VERIFIED headless (playwright, Sac): splash seen→gone;
+  layer chip cycles neutral/require/exclude/neutral; require Dark sky→all rows
+  Bortle, exclude→zero Bortle (tri-state on the LIST, the 1.5.7 gap); oddity list
+  94→67 with 5 corroborated unnamed kept; rank cache written + reused; ZERO
+  pageerrors. 91 tests + check-contrast green. BRANCH NOTE: on `staging` per the
+  standing rule. NO GitHub metadata step. DEFERRED still: async first-rank (the
+  cache makes it moot for RETURN visits; only the very first visit per build
+  still pays the rank, now behind the splash); adding MORE atlas-obscura sources
+  (Wikidata curiosity classes / OSM natural tags / USGS GNIS — see prior entry).
 - 2026-07-25 PROMOTED 1.5.4→1.5.8 to main (Noah's "merge."). Production ==
   origin/staging == origin/main == 2dfa70f (clean 5-commit fast-forward from
   1.5.3 / bfd6ae9). Ships the whole Top-spots redesign arc + curation + perf:

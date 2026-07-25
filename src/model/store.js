@@ -11,7 +11,7 @@ const K_PINS = 'pointer.userPins';
 // none (all off). The v1 key used empty to mean "all on" — bumping avoids that
 // stale meaning flipping a returning user's view.
 const K_FILTERS = 'pointer.filters.v2';
-const K_LAYERS = 'pointer.layers.v1';
+const K_LAYERS = 'pointer.layers.v2'; // v2: tri-state map (key→require|exclude), was a binary id list
 const K_REGION = 'pointer.region';
 const K_FAV = 'pointer.favorites';
 const K_HIDDEN = 'pointer.hidden';
@@ -35,6 +35,35 @@ export function requestPersistence() {
   try {
     navigator.storage?.persist?.();
   } catch { /* unsupported */ }
+}
+
+// ---- ranking cache: the cross-layer score is deterministic for a given region
+// build, so we persist it and skip the (~1s) re-rank on every page load. Keyed by
+// a `sig` the caller controls (region id + data build stamp + user-pin count). ----
+const K_RANK_PREFIX = 'pointer.rank.';
+
+export function loadRankCache(regionId, sig) {
+  if (!regionId) return null;
+  const c = read(K_RANK_PREFIX + regionId, null);
+  return c && c.sig === sig && Array.isArray(c.items) ? c.items : null;
+}
+
+export function saveRankCache(regionId, sig, items) {
+  if (!regionId) return;
+  const key = K_RANK_PREFIX + regionId;
+  try {
+    localStorage.setItem(key, JSON.stringify({ sig, items }));
+  } catch {
+    // Quota: drop OTHER regions' rank caches (this one is what we need now) and
+    // retry once; if it still won't fit, give up — the app just re-ranks next time.
+    try {
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(K_RANK_PREFIX) && k !== key) localStorage.removeItem(k);
+      }
+      localStorage.setItem(key, JSON.stringify({ sig, items }));
+    } catch { /* still won't fit — skip caching */ }
+  }
 }
 
 export function userPins() {
@@ -95,15 +124,15 @@ export function setActiveFilters(set) {
   write(K_FILTERS, [...set]);
 }
 
-// ---- required data-layers (the "Must have" filter row): a spot must carry ALL
-// of these to pass. Same shape as filters, persisted alongside them so map and
-// list stay in lock-step across a reload. ----
+// ---- data-layer filters (the tri-state layer row): a Map of layer key →
+// 'require' (spot must have it) | 'exclude' (spot must NOT have it). Absent = any.
+// Persisted as [key,state] pairs so map and list stay in lock-step across a reload.
 export function activeLayers() {
-  return new Set(read(K_LAYERS, []));
+  return new Map(read(K_LAYERS, []));
 }
 
-export function setActiveLayers(set) {
-  write(K_LAYERS, [...set]);
+export function setActiveLayers(map) {
+  write(K_LAYERS, [...map]);
 }
 
 // ---- favorites: spot ids the user has starred (data spots OR their own pins) ----

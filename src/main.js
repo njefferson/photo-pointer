@@ -4,7 +4,7 @@ import { el, clear, toast, closeOnBackdrop } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
 import { createMapView, CATEGORY_META } from './ui/mapview.js';
 import { loadRegions, pickRegion } from './model/region.js';
-import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle, hiddenSpots, hideSpot, unhideSpot, clearHidden } from './model/store.js';
+import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle, hiddenSpots, hideSpot, unhideSpot, clearHidden, loadRankCache, saveRankCache } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
 import { LAYER_FILTERS } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
@@ -70,6 +70,17 @@ function applyLayers(v) {
 // category toggles (setVisible) and, when layers are required, is further
 // narrowed to the spots that pass BOTH (setSpotFilter); the list re-renders from
 // the same filtered set. Called on every filter change and after data loads.
+// Does a spot satisfy the tri-state layer filters? Requires every 'require'
+// layer and none of the 'exclude' layers. (lm = id → Set of the spot's layers.)
+function passesLayers(spot, layers, lm) {
+  for (const [k, state] of layers) {
+    const has = lm.get(spot.id)?.has(k);
+    if (state === 'require' && !has) return false;
+    if (state === 'exclude' && has) return false;
+  }
+  return true;
+}
+
 function syncMapFilter() {
   const cats = currentVisible();
   const layers = currentLayers();
@@ -77,7 +88,7 @@ function syncMapFilter() {
   if (layers.size) {
     const lm = layersById();
     const ids = new Set(spotsForMap()
-      .filter((s) => cats.has(s.category) && [...layers].every((k) => lm.get(s.id)?.has(k)))
+      .filter((s) => cats.has(s.category) && passesLayers(s, layers, lm))
       .map((s) => s.id));
     mapView?.setSpotFilter(ids);
   } else {
@@ -111,20 +122,27 @@ function renderHeader() {
       },
     }, [el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter), ` ${meta.label}`])
   );
-  // "Must have" data-layer filters — same filter bar as the categories, applied
-  // to both map and list. Simple on/off (a spot must carry every one turned on).
-  const layerChips = LAYER_FILTERS.map(([key, label]) =>
-    el('button', {
-      class: `chip layer-chip${layers.has(key) ? ' on' : ''}`,
-      'aria-pressed': String(layers.has(key)),
+  // Tri-state data-layer filters — same filter bar as the categories, applied to
+  // both map and list. Tap once to REQUIRE (✓ must have), again to EXCLUDE
+  // (✕ must not have), again to clear. (The pin-type chips stay simple on/off.)
+  const layerChips = LAYER_FILTERS.map(([key, label]) => {
+    const state = layers.get(key); // 'require' | 'exclude' | undefined
+    const mark = state === 'require' ? '✓ ' : state === 'exclude' ? '✕ ' : '';
+    const word = state === 'require' ? 'must have' : state === 'exclude' ? 'excluded' : 'any';
+    return el('button', {
+      class: `chip layer-chip${state ? ' ' + state : ''}`,
+      'aria-pressed': state === 'require' ? 'true' : 'false',
+      'aria-label': `${label}: ${word}. Tap to change.`,
       onClick: () => {
-        const v = new Set(currentLayers());
-        if (v.has(key)) v.delete(key);
-        else v.add(key);
-        applyLayers(v);
+        const m = new Map(currentLayers());
+        const s = m.get(key);
+        if (!s) m.set(key, 'require');
+        else if (s === 'require') m.set(key, 'exclude');
+        else m.delete(key);
+        applyLayers(m);
       },
-    }, label)
-  );
+    }, [el('span', { class: 'req-mark', 'aria-hidden': 'true' }, mark), label]);
+  });
   const regionPills = (regionsDoc?.regions ?? []).map((r) =>
     el('button', {
       class: `region-pill${r.id === region?.id ? ' active' : ''}`,
@@ -138,9 +156,10 @@ function renderHeader() {
       ? el('div', { class: 'regions', role: 'group', 'aria-label': 'Region' }, regionPills)
       : null,
     el('div', { class: 'chips', role: 'group', 'aria-label': 'Filter by category' }, [allToggle, ...chips]),
-    el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Filter to places that have a data layer' }, [
-      el('span', { class: 'layer-label' }, 'Must have:'),
+    el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Filter by data layer: tap once to require, twice to exclude' }, [
+      el('span', { class: 'layer-label' }, 'Layers:'),
       ...layerChips,
+      el('span', { class: 'layer-hint' }, 'tap: ✓ must have · ✕ exclude'),
     ]),
     visible.size === 0
       ? el('p', { class: 'filter-tip', role: 'status' },
@@ -199,7 +218,7 @@ function spotsForList() {
   const layers = currentLayers();
   const lm = layers.size ? layersById() : null;
   return spotsForMap().filter((s) =>
-    cats.has(s.category) && (!lm || [...layers].every((k) => lm.get(s.id)?.has(k))));
+    cats.has(s.category) && (!lm || passesLayers(s, layers, lm)));
 }
 
 // Re-render the list (only when it's the visible view) from the current filters.
@@ -215,15 +234,31 @@ let rankingKey = null;
 
 // Cross-layer ranking over the current spot set. Recomputed only when the set
 // changes (data + user pins), since it scans all spots.
+// A signature that changes whenever the ranking would: the data build stamp, the
+// spot counts, and the app version (so scoring-logic changes re-rank once).
+function rankSig() {
+  return `${VERSION}:${dataBuiltAt ?? ''}:${dataSpots.length}:${userPins().length}`;
+}
+
 function ranking() {
   const spots = allSpots(); // rank the FULL set — hiding a spot must not re-rank
   // Keyed on the loaded data, not the hidden-filtered set, so a hide/unhide
   // leaves the cache valid (hidden spots are dropped at display time instead).
   const key = `${region?.id}:${dataSpots.length}:${userPins().length}`;
-  if (rankingKey !== key) {
-    rankingCache = rankSpots(spots);
+  if (rankingKey === key) return rankingCache;
+  const sig = rankSig();
+  // The score is deterministic for a region build — reuse the persisted result so
+  // a return visit doesn't re-rank (and re-sort) from scratch every time.
+  const cached = loadRankCache(region?.id, sig);
+  if (cached) {
+    const byId = new Map(spots.map((s) => [s.id, s]));
+    rankingCache = cached.map((c) => ({ spot: byId.get(c.id), score: c.score, parts: c.parts })).filter((r) => r.spot);
     rankingKey = key;
+    return rankingCache;
   }
+  rankingCache = rankSpots(spots);
+  rankingKey = key;
+  saveRankCache(region?.id, sig, rankingCache.map((r) => ({ id: r.spot.id, score: r.score, parts: r.parts })));
   return rankingCache;
 }
 
@@ -410,8 +445,8 @@ async function boot() {
     regions: regionsDoc.regions ?? [],
     onSwitchRegion: (id, center) => switchRegion(id, { center }),
     onChange: refresh,
-    // The map's "Clear" on the Must-have banner clears the layer chips at source.
-    onClearFilter: () => applyLayers(new Set()),
+    // The map's "Clear" on the layer-filter banner clears the layer chips at source.
+    onClearFilter: () => applyLayers(new Map()),
     // "Hide this place" in a popup → block it everywhere, with an undo toast.
     onHideSpot: hideAndRefresh,
   });
@@ -420,6 +455,8 @@ async function boot() {
   refresh();
   // Opening frame: geolocate on the home region, fit-bounds on the others.
   mapView.setRegion(region, { locate: region.id === regionsDoc.default });
+  // Map + data are ready — drop the loading splash (geolocation refines after).
+  app.querySelector('.app-loading')?.remove();
 
   // First open → welcome (what the app is + install, with a one-tap "Show all").
   // Otherwise, after an update → "What's new"; else, if the map is empty, the
