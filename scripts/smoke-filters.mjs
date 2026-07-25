@@ -81,6 +81,21 @@ let hasCheck = (await darkBtn.textContent()).includes('✓');
 if (pressed === 'true' && hasCheck) ok('layer tap → on (aria-pressed true, ✓ shown)');
 else fail(`layer on-state wrong: pressed=${pressed} check=${hasCheck}`);
 
+// 3b) The toggle LOOK: no chip is ever struck-through, and a selected chip is a
+// filled pill (its background differs from an unselected one). Standard filter
+// chips, not the old amateur strike-through.
+const struck = await page.$$eval('.chips .chip, .layer-row .layer-chip',
+  (els) => els.filter((e) => getComputedStyle(e).textDecorationLine.includes('line-through')).length);
+if (struck === 0) ok('no chip uses strike-through (real toggle look)');
+else fail(`${struck} chip(s) still struck through`);
+const [selBg, unselBg] = await page.evaluate(() => {
+  const sel = document.querySelector('.layer-row .layer-chip[aria-pressed="true"]');
+  const unsel = document.querySelector('.layer-row .layer-chip[aria-pressed="false"]');
+  return [sel && getComputedStyle(sel).backgroundColor, unsel && getComputedStyle(unsel).backgroundColor];
+});
+if (selBg && unselBg && selBg !== unselBg) ok(`selected chip is filled (${selBg}) vs unselected (${unselBg})`);
+else fail(`selected/unselected fill not distinct: ${selBg} vs ${unselBg}`);
+
 // 4) Layer on while all pin types off → the "turn on a place type" hint shows.
 const hint = await page.$('.layer-hint');
 const hintText = hint ? (await hint.textContent()) : '';

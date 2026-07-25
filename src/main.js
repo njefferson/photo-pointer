@@ -119,7 +119,11 @@ function renderHeader() {
         else v.add(cat);
         applyVisible(v);
       },
-    }, [el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter), ` ${meta.label}`])
+    }, [
+      el('span', { class: `pin pin-${cat} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
+      ` ${meta.label}`,
+      visible.has(cat) ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null,
+    ])
   );
   // Data-layer filters — simple on/off "must have", the same behavior as the
   // pin-type chips (tap on, tap off). A spot passes only if it carries EVERY one
@@ -136,7 +140,7 @@ function renderHeader() {
         if (s.has(key)) s.delete(key); else s.add(key);
         applyLayers(s);
       },
-    }, [el('span', { class: 'req-mark', 'aria-hidden': 'true' }, on ? '✓ ' : ''), label]);
+    }, [label, on ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null]);
   });
   const regionPills = (regionsDoc?.regions ?? []).map((r) =>
     el('button', {

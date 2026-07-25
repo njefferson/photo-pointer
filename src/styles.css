@@ -127,13 +127,13 @@ body {
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
 
-/* Data-layer filters are simple on/off "must have", the SAME behavior AND look
-   as the pin-type chips: off = struck through + dimmed (via .chip[aria-pressed],
-   below), on = a leading ✓ (non-hue on-affordance). One meaning for strike-
-   through across the whole bar — off — with no separate "exclude" state. */
+/* Data-layer filters are simple on/off "must have", the SAME look as the
+   pin-type chips (the standard filter-chip pattern). */
 .layer-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; width: 100%; }
 .layer-hint { font-size: 11px; color: var(--dim); }
-.req-mark { font-weight: 700; }
+/* The trailing ✓ that marks a selected chip (a shape cue on top of the fill, so
+   the on-state survives grayscale — never colour alone). */
+.chip-check { font-weight: 700; margin-left: 5px; }
 
 .chip {
   font: inherit;
@@ -147,17 +147,23 @@ body {
   min-height: 30px;
 }
 
-/* Category buttons are on/off toggles. Off = struck through + dimmed
-   (decoration + luminance, not hue). */
-.chip[aria-pressed="false"] { opacity: 0.55; text-decoration: line-through; }
+/* Filter chips are standard on/off toggles (Material/iOS filter-pill pattern):
+   SELECTED = a solid filled pill (ink fill, bg text) + a ✓; UNSELECTED = a plain
+   outlined pill. The on-state is carried by TWO non-hue channels — the fill's
+   luminance inversion and the ✓ shape — so it survives grayscale. No
+   strike-through, no dimming (that read as "disabled/deleted", not "off").
+   bg-on-ink is the gated toast pair; ink-on-card is the gated body pair. */
+.chip[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+  font-weight: 600;
+}
 
-/* Master show-all / hide-all toggle — an action button, not a category, so it
-   never carries the struck-through "off" look. */
+/* Master show-all / hide-all toggle — an action button, not a category. */
 .chip-all {
   font-weight: 650;
   border-color: color-mix(in srgb, var(--ink) 45%, var(--line));
-  text-decoration: none;
-  opacity: 1;
 }
 
 /* Shown only when every category is off (nothing on the map): tells the user
