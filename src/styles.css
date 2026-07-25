@@ -26,7 +26,6 @@
   --cat-trailhead: #2a5f6d;
   --cat-campsite: #6d5424;
   --cat-wildlife_hotspot: #365f8a;
-  --cat-dark_sky: #3a3670;
   --cat-user_pin: #6d5200;
 }
 
@@ -120,26 +119,20 @@ body {
    The count (active filters) is part of the label, not a colour-only badge. */
 .filters-toggle { font-size: 13px; font-weight: 650; padding: 6px 12px; min-height: 34px; white-space: nowrap; }
 .filters-toggle.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-/* The expanded panel holds the category + layer chip rows, full width. */
-.filters-panel { width: 100%; display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
+/* The expanded panel holds two clearly-separated groups: the pin-type chips and
+   the "must have" layer chips, each under its own heading, full width. */
+.filters-panel { width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: 2px; }
+.filter-group { display: flex; flex-direction: column; gap: 5px; width: 100%; }
+.filter-group-label { font-size: 12px; font-weight: 600; color: var(--dim); }
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
 
-/* Tri-state data-layer filters — same filter bar as the category chips, one
-   place, applied to both map and list. A leading label + hint name the group. */
+/* Data-layer filters are simple on/off "must have", the SAME behavior AND look
+   as the pin-type chips: off = struck through + dimmed (via .chip[aria-pressed],
+   below), on = a leading ✓ (non-hue on-affordance). One meaning for strike-
+   through across the whole bar — off — with no separate "exclude" state. */
 .layer-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; width: 100%; }
-.layer-label { font-size: 12px; font-weight: 600; color: var(--dim); }
 .layer-hint { font-size: 11px; color: var(--dim); }
-/* A NEUTRAL layer chip means "any" (no filter), NOT "off" — so it must not get
-   the category chips' struck-through/dimmed off-look. Target neutral only (not
-   require/exclude) with 3-class specificity so it wins over .chip[aria-pressed]
-   regardless of source order (that rule appears later in the file). */
-.layer-chip:not(.require):not(.exclude) { opacity: 1; text-decoration: none; }
-/* Non-hue channels carry the meaning (survive grayscale): require = ✓ mark +
-   bold + firm border; exclude = ✕ mark + strike-through + dashed border. The
-   ✓/✕ come from the button's .req-mark span; colour only reinforces. */
-.layer-chip.require { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
-.layer-chip.exclude { text-decoration: line-through; opacity: 0.72; border-style: dashed; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
 .req-mark { font-weight: 700; }
 
 .chip {
@@ -405,7 +398,6 @@ body {
 .pin-trailhead { background: var(--cat-trailhead); }
 .pin-campsite { background: var(--cat-campsite); }
 .pin-wildlife_hotspot { background: var(--cat-wildlife_hotspot); }
-.pin-dark_sky { background: var(--cat-dark_sky); }
 .pin-user_pin { background: var(--cat-user_pin); }
 
 .popup h3 { margin: 0 0 4px; font-size: 15px; }

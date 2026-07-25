@@ -30,7 +30,6 @@ export const CATEGORY_META = {
   trailhead: { label: 'Trailhead', letter: 'T' },
   campsite: { label: 'Campsite', letter: 'C' },
   wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W' },
-  dark_sky: { label: 'Dark sky', letter: 'D' },
   user_pin: { label: 'My pins', letter: '★' },
 };
 
@@ -231,7 +230,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     const n = spotFilter.size;
     filterBanner.hidden = false;
     filterBanner.replaceChildren(
-      el('span', { class: 'mfb-text' }, `${n} place${n === 1 ? '' : 's'} match your “Must have” filters`),
+      el('span', { class: 'mfb-text' }, `${n} place${n === 1 ? '' : 's'} match your filters`),
       el('button', {
         class: 'map-filter-clear',
         // Clear the layer filters at the source (the header chips) so the map and
