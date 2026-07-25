@@ -83,6 +83,43 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.12.0 "Write your own notes on a place" (a CAPABILITY) BUILT on
+  staging (awaiting on-device pass). The half of Noah's bare-card frustration
+  (OSM node/5618093482, Fairchild Park) that NO dataset can fix: OSM is bare, the
+  El Dorado Hills CSD page is copyrighted prose (LINK ok, COPY not), and Facebook
+  is out twice over (standing no-social-scraping rule + their ToS). So: let the
+  person who was there write it down. store.js K_NOTES {spotId:text} +
+  noteFor/setNote/spotNotes/noteCount; 2000-char cap; empty clears; corrupt JSON
+  degrades to {}. In the backup bundle, and ON IMPORT A LOCAL NOTE WINS so an old
+  backup can never overwrite what you wrote on this device. mapview noteSection()
+  = "✎ Add your own note" on every card, under a rule so a personal note is never
+  mistaken for sourced data; listview marks annotated rows with ✎. Nothing leaves
+  the device. VERIFIED: 7 unit tests + NEW scripts/smoke-notes.mjs which writes a
+  note through the REAL popup UI on a real region spot, then proves it renders,
+  survives a reload, lands in the bundle, and marks its list row. sw CACHE
+  pointer-1.12.0. 161 tests + contrast + all smokes green.
+  STILL OPEN from that same conversation: an "Improve this in OpenStreetMap" deep
+  link (fix it upstream for everyone), making THIN CARDS LEAD with what we already
+  compute (Bortle/horizon/sun compass) instead of showing empty sections, a
+  curated enrichment file keyed by spot id, and PAD-US for park manager/
+  designation/access.
+- 2026-07-25 PROMOTED 1.9.0 + 1.10.0 + 1.11.0 + RIDB to main (Noah's "Promote to
+  main and continue"). Production == origin/staging == origin/main == 044d8cc
+  (clean 5-commit fast-forward). Ships: streamflow, National Register (692
+  historic_site pins), the 25-pin-type granular relabel, and Recreation.gov
+  facilities WITH descriptions. RIDB counts: Sac 101, Yellowstone 94, Humboldt 13,
+  PCB 1 — reno + hahira dispatched twice and still show no ridb.json (either a
+  genuine 0 for those bboxes or the runs didn't commit; CHECK THE LOG before
+  assuming 0). GENERIC-BUCKET AUDIT (Noah: "do the generic buckets still serve a
+  purpose"): MEASURED what remains — viewpoint 331 (271 explicit
+  tourism=viewpoint), park 1555 (1550 explicit leisure=park), marker 170
+  (explicit memorial/monument + Wikidata/HMdb markers with no OSM tag), oddity 95
+  (100% tourism=attraction). Conclusion: the first three are real claims, not
+  fallbacks — KEEP. The fourth was misnamed, so `oddity`'s LABEL is now
+  "Attraction" (the key stays `oddity` to avoid data churn) because that is
+  exactly and only what it holds; "Oddity" asserted a judgement the data doesn't
+  make. Also swept 12 historic=district → historic_site and 6 tourism=camp_site →
+  campsite out of "Park".
 - 2026-07-25 RIDB (Recreation.gov) BUILT + rolling out — the LAST parked source,
   unblocked when Noah added the key. ingest/adapters/ridb.mjs; key read from the
   RIDB_API_KEY repo secret, sent as the `apikey` HEADER, never logged and never
