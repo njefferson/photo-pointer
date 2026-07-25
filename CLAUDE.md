@@ -83,6 +83,58 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 RIDB (Recreation.gov) BUILT + rolling out — the LAST parked source,
+  unblocked when Noah added the key. ingest/adapters/ridb.mjs; key read from the
+  RIDB_API_KEY repo secret, sent as the `apikey` HEADER, never logged and never
+  written to a data file (ingest-time only — a key can't ship in a client-side
+  app). Carries DESCRIPTIONS: RIDB is federal public domain, so unlike a city/
+  district website we may include the text (HTML stripped, trimmed to ~400 chars)
+  — this is the direct fix for Noah's bare-card complaint. Counts so far: Sac 101,
+  Yellowstone 94, Humboldt 13, PCB 1 (reno + hahira still running), ALL with a
+  description. TWO BUGS FOUND ON THE FIRST RUN (both mine, fixed): (1) I broke
+  pagination on a SHORT page — RIDB returns fewer rows than `limit` while more
+  remain, so the first Sac run got 7 of ~101 and the fetch step ran in ONE second;
+  (2) a lat/lng RADIUS sweep was the wrong shape (undocumented semantics at our
+  region sizes). NOW: sweep by STATE (every region declares its counties' states
+  via counties[].state), page strictly to METADATA.RESULTS.TOTAL_COUNT with a
+  logged 400-page runaway cap, bbox-filter after. KNOWN GAP, diagnostic added:
+  every mapped facility so far is type "Campground" — 0 trailheads/day-use/visitor
+  centers. Rather than guess, the adapter now LOGS the unmapped
+  FacilityTypeDescription values (top 12 with counts) on each run; read that log
+  line on the next dispatch and extend TYPE_CATEGORY accordingly (suspect a
+  generic "Facility" type is carrying trailheads). SKIPPED by design: /media
+  (third-party image licensing), /campsites (individual numbered sites),
+  /permits, /tours. dedup SOURCE_PRIORITY gains 'ridb' (below osm/wikidata,
+  above nrhp/gnis). 8 adapter tests incl. one pinning the short-page paging bug.
+- 2026-07-25 1.11.0 "Places called what they actually are" (a CAPABILITY) BUILT
+  on staging (awaiting on-device pass). Noah pointed at OSM node/5618093482
+  (Fairchild Park Indian Grinding Rocks): bare card AND mislabeled "Ruins &
+  mines". He asked to "separate things out granularly… suggest as many labels as
+  are necessary and useful". A SURVEY of the real data showed the mislabeling was
+  systemic: 1283 natural=peak were "Viewpoint", 251 tourism=artwork were "Oddity",
+  171 leisure=nature_reserve were "Park". TEN new pin types (15 → 25): summit ▲,
+  public_art A, nature_reserve N, archaeological ◆, mine X, cave K, arch ∩,
+  notable_tree Y, lookout_tower I, shipwreck ≈. MEASURED effect across all
+  regions: oddity 1359 → 96, viewpoint 1678 → 331, park 1746 → 1572.
+  refineCategory rules: a curiosity KIND (our adapters' explicit claim) wins from
+  ANY category; a RAW OSM TAG only refines the BROAD buckets (REFINABLE =
+  oddity/viewpoint/park) so a stray tag from a dedup merge can't hijack a
+  specific category; PROTECTED = event/user_pin are never reclassified.
+  ARCHAEOLOGICAL SITES got their own type — filing Native cultural sites under
+  "Ruins & mines" was inaccurate and a poor label. CATEGORY_META entries now
+  carry a `group`; the filter panel renders 4 labeled sub-groups (Landscape &
+  water / Historic / Parks & access / Wildlife, art & events) so 25 chips stay
+  scannable. At this many types the HUES can't stay perceptually distinct — the
+  glyph is the real non-hue channel (accessibility mandate); all 25 pass 4.5:1.
+  3 OLD TESTS had encoded the mislabeling and were updated. sw CACHE
+  pointer-1.11.0; changelog[0] 1.11.0. 146 tests + contrast + smoke green.
+  STILL OPEN from that conversation (offered, not yet built): per-spot USER NOTES
+  (his own words, per-device, in the backup bundle), an "Improve this in
+  OpenStreetMap" deep link, making thin cards lead with what we compute
+  (Bortle/horizon/light), a curated enrichment file keyed by spot id, and PAD-US
+  for park manager/designation/access. FACEBOOK IS OUT (settled: no social
+  scraping + ToS); a CSD/city website may be LINKED but its prose is copyrighted
+  — only federal sources (RIDB/NRHP/GNIS/USGS/NOAA) may have their text carried.
 - 2026-07-25 1.10.0 "Historic places, properly" (a CAPABILITY) BUILT + DATA ROLLED
   OUT on staging (awaiting on-device pass). Noah, sharply — I had stopped to ask
   about RIDB when NRHP needed nothing from him: "Well?? What are you doing??"
