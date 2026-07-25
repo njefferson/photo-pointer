@@ -83,6 +83,25 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 PROMOTED 1.5.15 + 1.5.16 + 1.5.17 to main (Noah's "promote what is
+  there now to main"). Production == origin/staging == origin/main == cc8af8d.
+  NOTE this was a MERGE, not a fast-forward (same shape as the 1.5.9→1.5.12
+  promote): main carried a tooling-only commit (834e375 "osm-features
+  dispatchable on main") that staging didn't have as a commit, so the branches
+  diverged; ONE conflict — the ALL_RULES ordering in osm-overpass.mjs (main had
+  the old TAG-first order, staging the feature-first Old-Faithful fix) — resolved
+  to staging's side; merged tree VERIFIED byte-identical to origin/staging (git
+  diff empty), then re-synced staging to the merge commit (staging == main).
+  Ships: 1.5.15 (place cards open at top + collapsed Tonight&light + "A
+  photographed spot"), 1.5.16 (simple on/off "must have" layers, two labeled
+  filter groups, dropped duplicate dark_sky pin type, layer-on/type-off hint),
+  1.5.17 (filter chips are standard filled/outlined toggles + ✓, no strike-
+  through) AND source #2 OSM curiosity features for Sacramento (6) + Yellowstone
+  (714) + the refineCategory/normalizeElement feature-first fix. 105 tests +
+  contrast + smoke green on the merge. NO GitHub metadata step. STILL OWED:
+  finish source #2 for Humboldt + panama-city-beach (runners were mid-flight at
+  promote time — a future promote if they land features; Reno + Hahira confirmed
+  0), then source #3 (USGS GNIS).
 - 2026-07-25 1.5.17 "Filter buttons look like real toggles" (an ITERATION, a
   design FIX) BUILT on staging (awaiting on-device pass). Noah, on the 1.5.16
   bar: "'only show places...' is a good explanation. Those should not be crossed
