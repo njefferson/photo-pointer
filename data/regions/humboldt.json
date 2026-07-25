@@ -8498,7 +8498,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/940995632",
           "first_seen": "2026-07-20",
-          "last_seen": "2026-07-20"
+          "last_seen": "2026-07-25"
         }
       ],
       "tags": {
@@ -8507,6 +8507,8 @@
         "wikidata": "Q5034946",
         "historic": "lighthouse",
         "tourism": "attraction",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse",
         "bortle": 1,
         "publicLand": {
           "name": "King Range National Conservation Area",
@@ -12157,6 +12159,35 @@
           "species": 3,
           "topGuild": "wildlife"
         }
+      }
+    },
+    {
+      "id": "elephant-rock@9ppw98",
+      "name": "Elephant Rock",
+      "lat": 40.5229975,
+      "lng": -124.3778331,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11386231513",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11386231513",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "name": "Elephant Rock",
+        "natural": "arch",
+        "curiosity": "Natural arch"
       }
     },
     {
@@ -30315,6 +30346,34 @@
       }
     },
     {
+      "id": "memorial-lighthouse@9pr9wf",
+      "name": "Memorial Lighthouse",
+      "lat": 41.0572606,
+      "lng": -124.1486894,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/368174433",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/368174433",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "name": "Memorial Lighthouse",
+        "ele": "30",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse"
+      }
+    },
+    {
       "id": "memorial-park@9ppwru",
       "name": "Memorial Park",
       "lat": 40.4986333,
@@ -34799,6 +34858,35 @@
       }
     },
     {
+      "id": "portal@9pr9wg",
+      "name": "The Portal",
+      "lat": 41.0640325,
+      "lng": -124.1508843,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11386231509",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11386231509",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "name": "The Portal",
+        "natural": "arch",
+        "curiosity": "Natural arch"
+      }
+    },
+    {
       "id": "potato-hill@9r0p76",
       "name": "Potato Hill",
       "lat": 40.6656948,
@@ -35797,10 +35885,10 @@
       }
     },
     {
-      "id": "punta-gorda-light@9ppsfr",
-      "name": "Punta Gorda Light",
-      "lat": 40.2493,
-      "lng": -124.35,
+      "id": "punta-gorda-light-house@9ppsfr",
+      "name": "Punta Gorda Light House",
+      "lat": 40.2493943,
+      "lng": -124.3502142,
       "category": "oddity",
       "subject_type": [
         "historic"
@@ -35810,6 +35898,14 @@
       "access_difficulty": "unknown",
       "notes": null,
       "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/492004161",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/492004161",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
         {
           "source": "wikidata",
           "source_id": "Q7260532",
@@ -35822,7 +35918,9 @@
       "tags": {
         "curiosity": "Lighthouse",
         "wikidata": "Q7260532",
-        "wikipedia": "https://en.wikipedia.org/wiki/Punta_Gorda_Light"
+        "wikipedia": "en:Punta Gorda Light",
+        "name": "Punta Gorda Light House",
+        "man_made": "lighthouse"
       }
     },
     {
@@ -43450,6 +43548,35 @@
       }
     },
     {
+      "id": "table-bluff-lighthouse@9pr8ns",
+      "name": "Table Bluff Lighthouse",
+      "lat": 40.8081272,
+      "lng": -124.1654162,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/474490580",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/474490580",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "name": "Table Bluff Lighthouse",
+        "website": "https://www.us-lighthouses.com/table-bluff-lighthouse",
+        "historic": "maritime",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse"
+      }
+    },
+    {
       "id": "taylor-peak@9ppttq",
       "name": "Taylor Peak",
       "lat": 40.3773572,
@@ -45291,6 +45418,38 @@
           "w": 0.7,
           "site_m": 514
         }
+      }
+    },
+    {
+      "id": "uss-milwaukee-c-21@9pr8jv",
+      "name": "USS Milwaukee (C-21)",
+      "lat": 40.8122474,
+      "lng": -124.1985356,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12625177353",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12625177353",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "name": "USS Milwaukee (C-21)",
+        "wikipedia": "en:USS Milwaukee (C-21)",
+        "wikidata": "Q7871814",
+        "access": "yes",
+        "historic": "wreck",
+        "curiosity": "Shipwreck"
       }
     },
     {

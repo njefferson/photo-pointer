@@ -1,0 +1,213 @@
+{
+  "source": {
+    "source": "osm",
+    "name": "OpenStreetMap (Overpass API)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "region": "humboldt",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "The Portal",
+      "lat": 41.0640325,
+      "lng": -124.1508843,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "The Portal",
+        "natural": "arch",
+        "curiosity": "Natural arch"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11386231509",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11386231509",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Elephant Rock",
+      "lat": 40.5229975,
+      "lng": -124.3778331,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Elephant Rock",
+        "natural": "arch",
+        "curiosity": "Natural arch"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11386231513",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11386231513",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "USS Milwaukee (C-21)",
+      "lat": 40.8122474,
+      "lng": -124.1985356,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "USS Milwaukee (C-21)",
+        "wikipedia": "en:USS Milwaukee (C-21)",
+        "wikidata": "Q7871814",
+        "access": "yes",
+        "historic": "wreck",
+        "curiosity": "Shipwreck"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12625177353",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12625177353",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Memorial Lighthouse",
+      "lat": 41.0572606,
+      "lng": -124.1486894,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Memorial Lighthouse",
+        "ele": "30",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/368174433",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/368174433",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Punta Gorda Light House",
+      "lat": 40.2493943,
+      "lng": -124.3502142,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Punta Gorda Light House",
+        "wikipedia": "en:Punta Gorda Light",
+        "wikidata": "Q7260532",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/492004161",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/492004161",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Table Bluff Lighthouse",
+      "lat": 40.8081272,
+      "lng": -124.1654162,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Table Bluff Lighthouse",
+        "website": "https://www.us-lighthouses.com/table-bluff-lighthouse",
+        "historic": "maritime",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/474490580",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/474490580",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cape Mendocino Light",
+      "lat": 40.0223675,
+      "lng": -124.0694661,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Cape Mendocino Light",
+        "wikipedia": "en:Cape Mendocino Light",
+        "wikidata": "Q5034946",
+        "historic": "lighthouse",
+        "tourism": "attraction",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/940995632",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/940995632",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
