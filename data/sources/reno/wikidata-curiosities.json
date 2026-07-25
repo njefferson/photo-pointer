@@ -1,0 +1,69 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
+    "license": "CC0-1.0",
+    "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
+    "status": "working"
+  },
+  "region": "reno",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Peavine Ranch",
+      "lat": 39.62944444,
+      "lng": -119.92027778,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14944996",
+        "wikipedia": "https://en.wikipedia.org/wiki/Peavine_Ranch"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14944996",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Peavine_Ranch",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Poeville",
+      "lat": 39.5912,
+      "lng": -119.906,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7207556",
+        "wikipedia": "https://en.wikipedia.org/wiki/Poeville,_Nevada"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7207556",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Poeville,_Nevada",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
