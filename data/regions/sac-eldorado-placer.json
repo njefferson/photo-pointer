@@ -7624,6 +7624,14 @@
       "notes": null,
       "sources": [
         {
+          "source": "gnis",
+          "source_id": "256584",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/256584",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
           "source": "osm",
           "source_id": "node/7157906108",
           "source_license": "ODbL-1.0",
@@ -7642,6 +7650,8 @@
       ],
       "tags": {
         "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "256584",
         "wikidata": "Q4868133",
         "wikipedia": "https://en.wikipedia.org/wiki/Bassi_Falls",
         "name": "Bassi Falls",
@@ -17176,6 +17186,14 @@
       "notes": null,
       "sources": [
         {
+          "source": "gnis",
+          "source_id": "258504",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/258504",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
           "source": "osm",
           "source_id": "node/11386146347",
           "source_license": "ODbL-1.0",
@@ -17185,6 +17203,9 @@
         }
       ],
       "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "258504",
         "name": "Codfish Falls",
         "waterway": "waterfall",
         "bortle": 2,
@@ -23863,6 +23884,14 @@
       "notes": null,
       "sources": [
         {
+          "source": "gnis",
+          "source_id": "259656",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/259656",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
           "source": "osm",
           "source_id": "node/2919834084",
           "source_license": "ODbL-1.0",
@@ -23888,6 +23917,9 @@
         }
       ],
       "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "259656",
         "name": "Eagle Falls",
         "tourism": "viewpoint",
         "waterway": "waterfall",
@@ -27333,6 +27365,38 @@
           "w": 5.7,
           "site_m": 1954
         }
+      }
+    },
+    {
+      "id": "falls@9qcr5t",
+      "name": "The Falls",
+      "lat": 39.228228506947545,
+      "lng": -121.83276330455061,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "236166",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/236166",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "236166"
       }
     },
     {
@@ -35865,6 +35929,14 @@
       "notes": null,
       "sources": [
         {
+          "source": "gnis",
+          "source_id": "2742287",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2742287",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
           "source": "osm",
           "source_id": "node/2625539159",
           "source_license": "ODbL-1.0",
@@ -35882,6 +35954,9 @@
         }
       ],
       "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "2742287",
         "tourism": "viewpoint",
         "name": "Hidden Falls",
         "waterway": "waterfall",
@@ -36842,6 +36917,14 @@
       "notes": null,
       "sources": [
         {
+          "source": "gnis",
+          "source_id": "261537",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/261537",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
           "source": "osm",
           "source_id": "node/4242043950",
           "source_license": "ODbL-1.0",
@@ -36860,6 +36943,8 @@
       ],
       "tags": {
         "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "261537",
         "wikidata": "Q2967728",
         "wikipedia": "https://en.wikipedia.org/wiki/Horsetail_Falls_(California)",
         "name": "Horsetail Falls",
@@ -39807,6 +39892,38 @@
           "w": -0.2,
           "site_m": 55
         }
+      }
+    },
+    {
+      "id": "jawbone-falls@9qf8jz",
+      "name": "Jawbone Falls",
+      "lat": 38.008259543008016,
+      "lng": -119.9718617613995,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "261904",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/261904",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "261904"
       }
     },
     {
@@ -74542,6 +74659,38 @@
           "w": 6.3,
           "site_m": 1931
         }
+      }
+    },
+    {
+      "id": "sawyier-falls@9qft5m",
+      "name": "Sawyier Falls",
+      "lat": 38.87744921253062,
+      "lng": -120.0910759853007,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "2830596",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2830596",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "2830596"
       }
     },
     {
