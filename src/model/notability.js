@@ -64,3 +64,29 @@ export function keepSpot(spot) {
   if (spot.category === 'oddity') return keepOddity(spot);
   return true;
 }
+
+// Split the broad `oddity` bucket into finer pin types so each gets its own
+// filter button (ghost towns, waterfalls, hot springs, lighthouses, ruins). Uses
+// the curiosity KIND the Wikidata adapter tagged, or the OSM historic tag. The
+// remaining kinds (roadside attractions, land art, arches, lookouts, the balloon
+// race, OSM artwork) stay 'oddity' — the quirky catch-all. Run AFTER keepSpot
+// (which keys on the original 'oddity' category). Returns a copy when it changes.
+const CURIOSITY_CATEGORY = {
+  'Ghost town': 'ghost_town',
+  'Waterfall': 'waterfall',
+  'Hot spring': 'hot_spring',
+  'Lighthouse': 'lighthouse',
+};
+export function refineCategory(spot) {
+  const t = spot.tags ?? {};
+  // A known curiosity kind is a strong, specific signal — use it WHATEVER the
+  // spot's current category, so a waterfall that deduped into an OSM viewpoint
+  // still filters as a Waterfall.
+  const byKind = CURIOSITY_CATEGORY[t.curiosity];
+  if (byKind) return byKind === spot.category ? spot : { ...spot, category: byKind };
+  // OSM ruins/mines: only split out of the broad `oddity` catch-all.
+  if (spot.category === 'oddity' && (t.historic === 'ruins' || t.historic === 'mine')) {
+    return { ...spot, category: 'ruins' };
+  }
+  return spot;
+}

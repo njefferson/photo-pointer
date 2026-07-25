@@ -83,6 +83,30 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.13 "Split 'oddity' into finer pin types" (an ITERATION) BUILT on
+  staging (awaiting on-device pass). Noah: "I feel like 'oddities' should be split
+  to more filter buttons?" The oddity bucket had become a grab-bag (curiosities +
+  OSM art/ruins). SPLIT into 5 new CATEGORIES + kept oddity as the catch-all:
+  ghost_town (G), waterfall (F), hot_spring (S), lighthouse (L), ruins (R, historic
+  ruins/mines). Reclassified at LOAD (no re-ingest): main.loadRegionData now does
+  .filter(keepSpot).map(refineCategory). notability.refineCategory: a curiosity
+  KIND (tags.curiosity) wins WHATEVER the current category — important because
+  waterfalls/etc. often DEDUP into an OSM viewpoint (SOURCE_PRIORITY osm>wikidata)
+  and keep category 'viewpoint' while carrying curiosity='Waterfall'; keying only
+  on 'oddity' missed them (Sac: 2/6 waterfalls caught → fixed to 6/6). OSM ruins/
+  mine only split out of the oddity catch-all. Roadside attraction, land art,
+  natural arch, observation tower, balloon festival, OSM artwork STAY 'oddity'.
+  Added CATEGORY_META entries + --cat-* tokens (ghost_town #565049, waterfall
+  #16697a, hot_spring #9c4f2c, lighthouse #4a4a86, ruins #7a4a35 — all ≥5.9:1 with
+  white letter) + .pin-* rules + the 5 to check-contrast CATS + synthesis openCats
+  (so the new landscape cats keep the 'view' signal). Chips + legend auto-render
+  from CATEGORY_META. sw CACHE pointer-1.5.13; changelog[0] 1.5.13. VERIFIED
+  headless: 5 new chips present; CA Ghost Towns → Ghost town filter 205 rows all
+  pin-ghost_town incl. Bodie; Sac → Waterfall filter 6 rows all pin-waterfall
+  (incl. the 4 that had deduped into viewpoints/hotspot); ZERO pageerrors. 101
+  tests (+4 refineCategory) + contrast green. NOTE the "Waterfall/etc." filters
+  only catch what Wikidata tagged as that kind; OSM-native natural=waterfall etc.
+  come with SOURCE #2 (still owed, + source #3 GNIS).
 - 2026-07-25 PROMOTED 1.5.9→1.5.12 to main (Noah's "Promote"). Production ==
   origin/staging == origin/main == bd74f03. NOTE this promote was a MERGE, not a
   fast-forward: main had 2 tooling-only commits (the curiosities adapter/workflow

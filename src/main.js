@@ -9,7 +9,7 @@ import { rankSpots } from './model/synthesis.js';
 import { LAYER_FILTERS } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 import { renderListInto } from './ui/listview.js';
-import { keepSpot } from './model/notability.js';
+import { keepSpot, refineCategory } from './model/notability.js';
 import { VERSION } from './data/changelog.js';
 
 applyTheme(currentTheme());
@@ -403,7 +403,9 @@ async function loadRegionData(id) {
       const doc = await res.json();
       // Drop unverified OSM "historical marker" junk (see model/notability.js):
       // keep verified landmarks and any marker that carries other worthwhile data.
-      dataSpots = (doc.spots ?? []).filter(keepSpot);
+      // Keep the worthwhile spots, then split the broad 'oddity' bucket into
+      // finer categories (ghost town / waterfall / hot spring / …) for filtering.
+      dataSpots = (doc.spots ?? []).filter(keepSpot).map(refineCategory);
       dataBuiltAt = doc.builtAt ?? null;
     } else {
       toast('No spot data for this region yet');

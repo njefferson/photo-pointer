@@ -17,6 +17,11 @@
   --cat-viewpoint: #a34a00;
   --cat-marker: #8a2f2b;
   --cat-oddity: #7b3f8f;
+  --cat-ghost_town: #565049;
+  --cat-waterfall: #16697a;
+  --cat-hot_spring: #9c4f2c;
+  --cat-lighthouse: #4a4a86;
+  --cat-ruins: #7a4a35;
   --cat-park: #3f6d2a;
   --cat-trailhead: #2a5f6d;
   --cat-campsite: #6d5424;
@@ -381,6 +386,11 @@ body {
 .pin-viewpoint { background: var(--cat-viewpoint); }
 .pin-marker { background: var(--cat-marker); }
 .pin-oddity { background: var(--cat-oddity); }
+.pin-ghost_town { background: var(--cat-ghost_town); }
+.pin-waterfall { background: var(--cat-waterfall); }
+.pin-hot_spring { background: var(--cat-hot_spring); }
+.pin-lighthouse { background: var(--cat-lighthouse); }
+.pin-ruins { background: var(--cat-ruins); }
 .pin-park { background: var(--cat-park); }
 .pin-trailhead { background: var(--cat-trailhead); }
 .pin-campsite { background: var(--cat-campsite); }
