@@ -1,0 +1,235 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
+    "license": "CC0-1.0",
+    "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
+    "status": "working"
+  },
+  "region": "sac-eldorado-placer",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Horsetail Falls",
+      "lat": 38.8279,
+      "lng": -120.123,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q2967728",
+        "wikipedia": "https://en.wikipedia.org/wiki/Horsetail_Falls_(California)"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2967728",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Horsetail_Falls_(California)",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Glen Alpine Falls",
+      "lat": 38.87919,
+      "lng": -120.07384,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q46228077"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q46228077",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q46228077",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bassi Falls",
+      "lat": 38.89305,
+      "lng": -120.329919444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q4868133",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bassi_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4868133",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Bassi_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bridal Veil Falls",
+      "lat": 38.76588,
+      "lng": -120.49035,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q49091589"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49091589",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49091589",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "East Snow Mountain Falls",
+      "lat": 39.241389,
+      "lng": -120.4475,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q5329404",
+        "wikipedia": "https://en.wikipedia.org/wiki/East_Snow_Mountain_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5329404",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/East_Snow_Mountain_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "New York Canyon Falls",
+      "lat": 39.201944,
+      "lng": -120.510278,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q60749382",
+        "wikipedia": "https://en.wikipedia.org/wiki/New_York_Canyon_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q60749382",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/New_York_Canyon_Falls",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rubicon Point Light",
+      "lat": 38.995886,
+      "lng": -120.094648,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7376081",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rubicon_Point_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7376081",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Rubicon_Point_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sugar Pine Point Light",
+      "lat": 39.061266,
+      "lng": -120.113971,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7634886",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sugar_Pine_Point_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7634886",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sugar_Pine_Point_Light",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
