@@ -46,10 +46,21 @@ export const CURIOSITY_CLASSES = [
   { qid: 'Q177380',   kind: 'Hot spring' },          // verified id (sparse in the Sac bbox)
 ];
 
+// The classes to query for a region: all of them by default, or a restricted
+// set when the region config names `curiosityClasses` (e.g. the statewide
+// ghost-town region asks for just Q74047 so it doesn't pull every CA waterfall).
+export function classesFor(region) {
+  const only = region.curiosityClasses;
+  if (Array.isArray(only) && only.length) {
+    return CURIOSITY_CLASSES.filter((c) => only.includes(c.qid));
+  }
+  return CURIOSITY_CLASSES;
+}
+
 export function buildQuery(region) {
   const b = region.bbox;
   // One VALUES list of classes; ?item is an instance (P31) or subclass* of one.
-  const values = CURIOSITY_CLASSES.map((c) => `wd:${c.qid}`).join(' ');
+  const values = classesFor(region).map((c) => `wd:${c.qid}`).join(' ');
   return `SELECT DISTINCT ?item ?itemLabel ?coord ?cls ?article WHERE {
   SERVICE wikibase:box {
     ?item wdt:P625 ?coord .

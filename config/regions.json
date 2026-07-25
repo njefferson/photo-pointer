@@ -4,9 +4,9 @@
   "regions": [
     {
       "id": "sac-eldorado-placer",
-      "name": "Sacramento \u00b7 El Dorado \u00b7 Placer",
+      "name": "Sacramento · El Dorado · Placer",
       "bbox": {
-        "south": 38.0,
+        "south": 38,
         "west": -121.95,
         "north": 39.4,
         "east": -119.85
@@ -63,7 +63,7 @@
       "id": "yellowstone",
       "name": "Yellowstone",
       "bbox": {
-        "south": 43.0,
+        "south": 43,
         "west": -112.2,
         "north": 46.25,
         "east": -108.55
@@ -158,7 +158,7 @@
         "south": 29.6,
         "west": -86.45,
         "north": 31.05,
-        "east": -85.0
+        "east": -85
       },
       "counties": [
         {
@@ -186,6 +186,56 @@
       "center": {
         "lat": 30.1766,
         "lng": -85.8055,
+        "zoom": 12
+      }
+    },
+    {
+      "id": "california-ghost-towns",
+      "name": "California Ghost Towns",
+      "bbox": {
+        "south": 32.4,
+        "west": -124.6,
+        "north": 42.1,
+        "east": -117
+      },
+      "counties": [
+        {
+          "name": "California & nearby Nevada",
+          "state": "CA",
+          "osm_area_name": "California",
+          "fips": "06000"
+        }
+      ],
+      "center": {
+        "lat": 37.6,
+        "lng": -120.5,
+        "zoom": 6
+      },
+      "curiosityClasses": [
+        "Q74047"
+      ]
+    },
+    {
+      "id": "reno",
+      "name": "Reno, NV",
+      "bbox": {
+        "south": 39.35,
+        "west": -119.95,
+        "north": 39.68,
+        "east": -119.65
+      },
+      "counties": [
+        {
+          "name": "Washoe County",
+          "state": "NV",
+          "fips": "32031",
+          "osm_area_name": "Washoe County",
+          "ebird_region": "US-NV-031"
+        }
+      ],
+      "center": {
+        "lat": 39.5528,
+        "lng": -119.8213,
         "zoom": 12
       }
     }
