@@ -1,6 +1,6 @@
 // Service worker — offline-first, per the house pattern.
 // CACHE bumps with every release (keep in sync with NOTES.md release log).
-const CACHE = 'pointer-1.5.9';
+const CACHE = 'pointer-1.5.10';
 
 const ASSETS = [
   './',

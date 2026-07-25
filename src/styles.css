@@ -115,9 +115,11 @@ body {
 .layer-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; width: 100%; }
 .layer-label { font-size: 12px; font-weight: 600; color: var(--dim); }
 .layer-hint { font-size: 11px; color: var(--dim); }
-/* A neutral layer chip means "any" (no filter), NOT "off" — so it must not get
-   the category chips' struck-through/dimmed off-look. Exclude re-adds it below. */
-.layer-chip[aria-pressed="false"] { opacity: 1; text-decoration: none; }
+/* A NEUTRAL layer chip means "any" (no filter), NOT "off" — so it must not get
+   the category chips' struck-through/dimmed off-look. Target neutral only (not
+   require/exclude) with 3-class specificity so it wins over .chip[aria-pressed]
+   regardless of source order (that rule appears later in the file). */
+.layer-chip:not(.require):not(.exclude) { opacity: 1; text-decoration: none; }
 /* Non-hue channels carry the meaning (survive grayscale): require = ✓ mark +
    bold + firm border; exclude = ✕ mark + strike-through + dashed border. The
    ✓/✕ come from the button's .req-mark span; colour only reinforces. */
