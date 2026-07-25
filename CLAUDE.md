@@ -83,6 +83,24 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 PROMOTED 1.5.4→1.5.8 to main (Noah's "merge."). Production ==
+  origin/staging == origin/main == 2dfa70f (clean 5-commit fast-forward from
+  1.5.3 / bfd6ae9). Ships the whole Top-spots redesign arc + curation + perf:
+  1.5.4/5/6 score labeling→recalibration (never shown alone), 1.5.7 (trophy gone,
+  one filter bar with "Must have" layers, "Best" sort + distance/bearing in the
+  list), 1.5.8 (hide/block places + blocklist manager, oddity junk filter,
+  ranking/marker perf fix — hide 1.18s→~155ms). staging == main after this. NO
+  GitHub metadata step. OPEN FOLLOW-UPS (Noah asked "what more points to atlas-
+  obscura locations?"): candidate license-clean sources to ADD curiosities —
+  (1) EXPAND wikidata-markers to curiosity CLASSES (folly Q170980, land art,
+  roadside attraction Q2380335, ghost town, lighthouse, observation tower,
+  natural arch/waterfall/hot spring, sculpture) CC0 + Wikipedia link-out; (2)
+  specific OSM selectors (natural=arch/cave_entrance/hot_spring/geyser/rock,
+  man_made=lighthouse/obelisk/tower, historic=archaeological_site/wreck) ODbL;
+  (3) USGS GNIS named natural features (waterfalls/arches/caves/hot springs),
+  US public domain. Atlas Obscura itself has NO open/redistributable API — can
+  only link-search, not ingest. Also DEFERRED: async first-rank for instant map
+  interactivity.
 - 2026-07-25 1.5.8 "Hide places, fewer junk oddities, snappier" (an ITERATION:
   feature + data-quality + perf) BUILT on staging (awaiting on-device pass —
   NEEDS NOAH'S HANDS: the hide flow + real load/zoom feel on the iPad). Noah:
