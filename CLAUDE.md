@@ -83,6 +83,45 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.9.0 "Is the waterfall actually running?" (a CAPABILITY) BUILT on
+  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: real USGS numbers on a
+  real waterfall). Chosen as the next source after the three-part plan shipped
+  (Noah: "please continue") — it was my top recommendation after tides, and it
+  pays off the GNIS/OSM waterfall data directly: a named fall is a year-round
+  pin, the SHOT isn't. NEW src/model/streamflow.js — USGS Water Services, US
+  PUBLIC DOMAIN, no key. TWO keyless calls, SAME SHAPE AS TIDES: (1) the
+  instantaneous-values service over the region bbox (`/nwis/iv/?format=json&
+  bBox=w,s,e,n&parameterCd=00060,00065&siteStatus=active`) returns every active
+  gauge WITH its latest reading in ONE call — cached per region in a module Map;
+  (2) `/nwis/stat/?format=rdb&sites=<id>&statReportType=daily&statTypeCd=median`
+  for the NEAREST gauge only, giving the long-term median for today's calendar
+  day so the reading has context. parseGauges folds the per-(site,parameter)
+  timeSeries into one row per site and DROPS the USGS -999999 "no reading"
+  sentinel. parseMedianRdb handles RDB (# comments, header row, `5s 15s` format
+  row, then tab-separated data). relativeFlow() bands cfs/median into coarse
+  words (<0.4 much lower / <0.75 lower / <=1.5 about normal / <=3 higher / else
+  much higher) — deliberately coarse, the ratio is the honest signal.
+  isWaterSpot() gates it (category waterfall, tags.curiosity Waterfall,
+  natural=waterfall/spring/hot_spring, or subject_type includes 'water') so dry
+  spots never call out; nearestGauge() returns null past MAX_GAUGE_KM=25.
+  mapview flowLine() renders in the collapsed "Tonight & light" details and
+  REMOVES ITSELF with no nearby gauge; links to waterdata.usgs.gov via the
+  already-gated .popup-srclink (NO new contrast pairs). _headers CSP connect-src
+  += waterservices.usgs.gov; sw CACHE pointer-1.9.0 + streamflow.js precached;
+  changelog[0] 1.9.0. VERIFICATION: sandbox 403s USGS (like NOAA/Overpass/WDQS)
+  → scripts/smoke-flow.mjs mocks the USGS routes with ctx.route() then calls
+  flowNow IN THE BROWSER (proves fetch+CSP+parse+format for real) and reads the
+  popup DOM. TWO HARNESS LESSONS (cost two debug cycles, both test-only): (a)
+  calling view.focusSpot() for a second spot while the first popup's pan is
+  still in flight makes LEAFLET'S OWN reveal handler throw
+  ("Cannot read properties of null (reading 'hasLayer')") — give each spot a
+  FRESH map+host instead; (b) querying `.popup-flow` globally can match a STALE
+  popup left in the DOM, which made the "removes itself" check pass spuriously —
+  wipe the host (document.body.replaceChildren) per read, and POLL to a deadline
+  rather than fixed sleeps. Smoke is stable over 3 consecutive runs. 134 tests
+  (+9 streamflow) + contrast + ALL FOUR smokes (filters/events/tides/flow) green.
+  STILL OPEN from the sources list: National Register of Historic Places (NPS,
+  public domain) and Recreation.gov RIDB (needs a free API key = a Noah step).
 - 2026-07-25 1.8.0 "Tides for the coast" (a CAPABILITY) BUILT on staging
   (awaiting on-device pass — NEEDS NOAH'S HANDS: real NOAA data on a coastal
   spot). Step #3 (last) of Noah's three-part plan. NEW src/model/tides.js —
