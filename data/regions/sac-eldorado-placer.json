@@ -1786,6 +1786,35 @@
       }
     },
     {
+      "id": "ambrose@9qc22u",
+      "name": "Ambrose",
+      "lat": 38.03527778,
+      "lng": -121.95,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4741743",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ambrose,_Contra_Costa_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4741743",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ambrose,_Contra_Costa_County,_California"
+      }
+    },
+    {
       "id": "american-canyon-trail@9qfj2j",
       "name": "American Canyon Trail",
       "lat": 38.9216,
@@ -12112,6 +12141,35 @@
       }
     },
     {
+      "id": "buckeye@9qc792",
+      "name": "Buckeye",
+      "lat": 38.5867,
+      "lng": -121.9288,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4983054",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Buckeye,_Yolo_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4983054",
+        "wikipedia": "https://en.wikipedia.org/wiki/Buckeye,_Yolo_County,_California"
+      }
+    },
+    {
       "id": "bud-artie-davies-park@9qcu4n",
       "name": "Bud and Artie Davies Park",
       "lat": 38.7064908,
@@ -14767,6 +14825,35 @@
       }
     },
     {
+      "id": "carson-hill@9qf23f",
+      "name": "Carson Hill",
+      "lat": 38.02833333,
+      "lng": -120.50666667,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5046939",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Carson_Hill,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5046939",
+        "wikipedia": "https://en.wikipedia.org/wiki/Carson_Hill,_California"
+      }
+    },
+    {
       "id": "cascade-falls@9qft7p",
       "name": "Cascade Falls",
       "lat": 38.9348541,
@@ -15435,6 +15522,34 @@
           "w": -0.1,
           "site_m": 39
         }
+      }
+    },
+    {
+      "id": "chandon@9qcrxs",
+      "name": "Chandon",
+      "lat": 39.31444444,
+      "lng": -121.66222222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5071238",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q5071238",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5071238"
       }
     },
     {
@@ -20601,6 +20716,35 @@
           "w": -0.1,
           "site_m": 7
         }
+      }
+    },
+    {
+      "id": "deadwood@9qfnmd",
+      "name": "Deadwood",
+      "lat": 39.0806,
+      "lng": -120.689,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5245735",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Deadwood,_Placer_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5245735",
+        "wikipedia": "https://en.wikipedia.org/wiki/Deadwood,_Placer_County,_California"
       }
     },
     {
@@ -30327,6 +30471,35 @@
           "w": 0,
           "site_m": 5
         }
+      }
+    },
+    {
+      "id": "fremont-landing@9qcs8k",
+      "name": "Fremont Landing",
+      "lat": 38.78277778,
+      "lng": -121.61888889,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q5501595",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Fremont_Landing,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q5501595",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fremont_Landing,_California"
       }
     },
     {
@@ -45893,6 +46066,35 @@
       }
     },
     {
+      "id": "liberty@9qc9xc",
+      "name": "Liberty",
+      "lat": 38.2402,
+      "lng": -121.29,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q21593076",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Liberty,_San_Joaquin_County,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q21593076",
+        "wikipedia": "https://en.wikipedia.org/wiki/Liberty,_San_Joaquin_County,_California"
+      }
+    },
+    {
       "id": "lighthouse-rubicon-trail@9qftg5",
       "name": "Lighthouse / Rubicon Trail",
       "lat": 38.998589,
@@ -47551,6 +47753,35 @@
           "w": 0,
           "site_m": 5
         }
+      }
+    },
+    {
+      "id": "logtown@9qf5cb",
+      "name": "Logtown",
+      "lat": 38.6333,
+      "lng": -120.8522,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6667892",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Logtown,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6667892",
+        "wikipedia": "https://en.wikipedia.org/wiki/Logtown,_California"
       }
     },
     {
@@ -53767,6 +53998,35 @@
       }
     },
     {
+      "id": "michigan-bar@9qcgj8",
+      "name": "Michigan Bar",
+      "lat": 38.4999,
+      "lng": -121.0453,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6837457",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Michigan_Bar,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6837457",
+        "wikipedia": "https://en.wikipedia.org/wiki/Michigan_Bar,_California"
+      }
+    },
+    {
       "id": "michigan-bar@9qcgj9",
       "name": "Michigan Bar",
       "lat": 38.5023,
@@ -53804,6 +54064,35 @@
           "w": 1.8,
           "site_m": 64
         }
+      }
+    },
+    {
+      "id": "middle-bar@9qf1u7",
+      "name": "Middle Bar",
+      "lat": 38.2976,
+      "lng": -120.75,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6841217",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Middle_Bar,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6841217",
+        "wikipedia": "https://en.wikipedia.org/wiki/Middle_Bar,_California"
       }
     },
     {
@@ -54631,6 +54920,35 @@
       }
     },
     {
+      "id": "mokelumne-city@9qc9se",
+      "name": "Mokelumne City",
+      "lat": 38.2531,
+      "lng": -121.439,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q14683382",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mokelumne_City,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q14683382",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mokelumne_City,_California"
+      }
+    },
+    {
       "id": "monte-verde-park@9qcu9s",
       "name": "Monte Verde Park",
       "lat": 38.7864117,
@@ -55222,6 +55540,35 @@
           "w": 2.2,
           "site_m": 115
         }
+      }
+    },
+    {
+      "id": "mormon-island@9qcu5v",
+      "name": "Mormon Island",
+      "lat": 38.7035,
+      "lng": -121.1174,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6912636",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Mormon_Island,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q6912636",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mormon_Island,_California"
       }
     },
     {
@@ -58294,6 +58641,35 @@
       }
     },
     {
+      "id": "north-bloomfield@9qfpby",
+      "name": "North Bloomfield",
+      "lat": 39.368333333,
+      "lng": -120.899444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7054205",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/North_Bloomfield,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7054205",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_Bloomfield,_California"
+      }
+    },
+    {
       "id": "north-del-rio-school-park@9qcesn",
       "name": "North del Rio School Park",
       "lat": 38.621571,
@@ -59297,6 +59673,34 @@
           "w": 0.5,
           "site_m": 33
         }
+      }
+    },
+    {
+      "id": "oak-grove@9qcxz6",
+      "name": "Oak Grove",
+      "lat": 39.34222222,
+      "lng": -121.32055556,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7073493",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q7073493",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7073493"
       }
     },
     {
@@ -61744,6 +62148,35 @@
           "w": 12.7,
           "site_m": 1833
         }
+      }
+    },
+    {
+      "id": "ophir@9qcv5z",
+      "name": "Ophir",
+      "lat": 38.891111111,
+      "lng": -121.123611111,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7097975",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Ophir,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7097975",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ophir,_California"
       }
     },
     {
@@ -68060,6 +68493,35 @@
       }
     },
     {
+      "id": "red-dog@9qfp0g",
+      "name": "Red Dog",
+      "lat": 39.216666666,
+      "lng": -120.899444444,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7304043",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Red_Dog,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7304043",
+        "wikipedia": "https://en.wikipedia.org/wiki/Red_Dog,_California"
+      }
+    },
+    {
       "id": "red-fir-group-campground@9qfmyh",
       "name": "Red Fir Group Campground",
       "lat": 39.0021562,
@@ -68130,6 +68592,34 @@
           "w": 0.3,
           "site_m": 877
         }
+      }
+    },
+    {
+      "id": "red-mountain-lookout@9qfrc0",
+      "name": "Red Mountain Lookout",
+      "lat": 39.335925,
+      "lng": -120.54037,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q97011267",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q97011267",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Observation tower",
+        "wikidata": "Q97011267"
       }
     },
     {
@@ -73178,6 +73668,35 @@
           "w": 2.4,
           "site_m": 239
         }
+      }
+    },
+    {
+      "id": "salmon-falls@9qcumr",
+      "name": "Salmon Falls",
+      "lat": 38.7581,
+      "lng": -121.058,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7405504",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Salmon_Falls,_California",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q7405504",
+        "wikipedia": "https://en.wikipedia.org/wiki/Salmon_Falls,_California"
       }
     },
     {
