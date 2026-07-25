@@ -83,6 +83,27 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.17 "Filter buttons look like real toggles" (an ITERATION, a
+  design FIX) BUILT on staging (awaiting on-device pass). Noah, on the 1.5.16
+  bar: "'only show places...' is a good explanation. Those should not be crossed
+  out though. That is very amateur. They should be toggles or on/off radio
+  buttons or lights or something like that. Use actual accepted design principles
+  instead of making shit up." The off-state strike-through (a long-standing
+  choice as the "non-hue off channel") read as deleted/disabled, not "off". FIX:
+  replaced it with the STANDARD FILTER-CHIP pattern (Material/iOS filter pills),
+  applied to BOTH the place-type chips AND the layer chips: SELECTED = solid
+  filled pill (`.chip[aria-pressed="true"]` → --ink fill / --bg text) + a trailing
+  ✓ (`.chip-check` span); UNSELECTED = plain outlined pill (base .chip, no strike,
+  no dim). Deleted `.chip[aria-pressed="false"]{opacity:.55;line-through}` and the
+  `.req-mark` leading mark. On-state = TWO non-hue channels (fill luminance
+  inversion + ✓ shape), grayscale-safe. Reuses the already-gated bg-on-ink
+  (selected) + ink-on-card (unselected) pairs — NO new contrast pairs. main
+  renderHeader: both chip builders append `chip-check` ✓ when on. sw CACHE
+  pointer-1.5.17; changelog[0] 1.5.17. VERIFIED headless (smoke-filters.mjs +
+  a light/dark screenshot review): ZERO chips struck through; selected bg
+  (rgb 46,38,24 light) distinct from unselected (card); ✓ present on selected;
+  looks professional in both themes. 105 tests + contrast green. NO GitHub
+  metadata step.
 - 2026-07-25 1.5.16 "Filters that make sense: simple 'must also have'" (an
   ITERATION, a UX FIX) BUILT on staging (awaiting on-device pass). Noah: "The
   layers and filters really don't make any sense when I start using them?" I
