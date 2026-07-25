@@ -3812,6 +3812,35 @@
       }
     },
     {
+      "id": "lawtons-hot-springs@9r48z8",
+      "name": "Lawtons Hot Springs",
+      "lat": 39.50963768214887,
+      "lng": -119.90409793633845,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "856810",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/856810",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "856810"
+      }
+    },
+    {
       "id": "lazy-5-regional-park@9r4c7s",
       "name": "Lazy 5 Regional Park",
       "lat": 39.6197752,
@@ -4506,6 +4535,35 @@
       "tags": {
         "name": "In the Mist of Downtown",
         "tourism": "artwork"
+      }
+    },
+    {
+      "id": "moana-hot-springs@9r4b9v",
+      "name": "Moana Hot Springs",
+      "lat": 39.49047198842755,
+      "lng": -119.79937011538885,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "857125",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/857125",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "857125"
       }
     },
     {
@@ -6431,6 +6489,35 @@
         "operator": "City of Reno",
         "tourism": "attraction",
         "inscription": "Reno The Biggest Little City in the World"
+      }
+    },
+    {
+      "id": "reno-hot-springs@9r4b50",
+      "name": "Reno Hot Springs",
+      "lat": 39.38047208373595,
+      "lng": -119.7410313927292,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "857098",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/857098",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "857098"
       }
     },
     {

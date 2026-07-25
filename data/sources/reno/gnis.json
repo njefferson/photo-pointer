@@ -1,0 +1,97 @@
+{
+  "source": {
+    "source": "gnis",
+    "name": "USGS GNIS (The National Map geonames — named natural features)",
+    "license": "public-domain",
+    "attribution": "U.S. Geological Survey, Geographic Names Information System (public domain)",
+    "status": "working"
+  },
+  "region": "reno",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Lawtons Hot Springs",
+      "lat": 39.50963768214887,
+      "lng": -119.90409793633845,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "856810"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "856810",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/856810",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Reno Hot Springs",
+      "lat": 39.38047208373595,
+      "lng": -119.7410313927292,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "857098"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "857098",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/857098",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Moana Hot Springs",
+      "lat": 39.49047198842755,
+      "lng": -119.79937011538885,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "857125"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "857125",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/857125",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
