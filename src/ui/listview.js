@@ -50,6 +50,7 @@ function fmtDistBearing(spot) {
 function detailBits(spot) {
   const t = spot.tags ?? {};
   const bits = [];
+  if (t.curiosity) bits.push(t.curiosity); // "Ghost town", "Waterfall", …
   if (spot.subject_type?.length) bits.push(spot.subject_type.join(', '));
   if (t.bortle != null) bits.push(`Bortle ${t.bortle}`);
   if (t.publicLand) bits.push('public land');
