@@ -296,7 +296,7 @@ body {
 .list-favonly.on { color: var(--accent); }
 .list-note { font-size: 12px; color: var(--dim); margin: 4px 0 8px; }
 .list-rows { display: flex; flex-direction: column; }
-.list-row { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 10px; padding: 9px 6px; border-bottom: 1px solid var(--line); }
+.list-row { display: grid; grid-template-columns: auto 1fr auto auto auto; align-items: center; gap: 8px; padding: 9px 6px; border-bottom: 1px solid var(--line); }
 /* The photo-score badge on each row (number + strength word), shared look with
    the old Top-spots rows: the number reads as a rating, the word anchors it. */
 .list-score { display: flex; flex-direction: column; align-items: center; line-height: 1.05; flex: none; }
@@ -309,6 +309,10 @@ body {
 .list-meta { font-size: 12px; color: var(--dim); margin-top: 2px; }
 .list-star { font-size: 20px; line-height: 1; width: 40px; min-height: 40px; background: none; border: none; color: var(--dim); cursor: pointer; }
 .list-star.on { color: var(--accent); }
+/* Quiet ✕ to hide/block a place; a hair smaller than the star so it doesn't
+   compete. Colour reinforces; the ✕ glyph is the affordance. */
+.list-hide { font-size: 15px; line-height: 1; width: 34px; min-height: 40px; background: none; border: none; color: var(--dim); cursor: pointer; }
+.list-hide:hover, .list-hide:focus-visible { color: var(--ink); }
 .list-empty { font-size: 14px; color: var(--dim); padding: 20px 4px; }
 
 /* Favorite toggle in a spot popup — text label carries the state, star reinforces. */
@@ -528,6 +532,22 @@ body {
 .dialog-row { display: flex; gap: 8px; margin: 8px 0; }
 .dialog-close { margin-top: 8px; }
 .src-list { padding-left: 18px; margin: 4px 0; }
+
+/* "Hide this place" — a low-key secondary action in the popup (not a link-out,
+   not the primary CTA). --ink on --card, gated. */
+.leaflet-container a.popup-hide, .popup-hide {
+  display: inline-block; margin-top: 8px; font: inherit; font-size: 12px;
+  color: var(--ink); background: var(--card); border: 1px solid var(--line);
+  border-radius: 8px; padding: 5px 10px; cursor: pointer; text-decoration: none;
+}
+
+/* Hidden-places manager in the Backup dialog. */
+.data-dialog .dim { color: var(--dim); }
+.hidden-box { margin: 2px 0 4px; }
+.hidden-list { list-style: none; margin: 6px 0; padding: 0; display: flex; flex-direction: column; gap: 4px; max-height: 34vh; overflow-y: auto; }
+.hidden-list li { display: flex; align-items: center; gap: 8px; }
+.hidden-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hidden-unhide { font: inherit; font-size: 12px; color: var(--ink); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
 
 /* First-open pop-up: "turn on a pin type". Reuses the dialog look; the primary
    button leads with weight + a firmer border (not hue), on the gated ink/bg. */

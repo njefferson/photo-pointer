@@ -72,7 +72,7 @@ function scoreCell(score) {
   ]);
 }
 
-function listRow(spot, score, onFocusSpot, onChange, rerender) {
+function listRow(spot, score, onFocusSpot, onChange, onHide, rerender) {
   const meta = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
   const on = isFavorite(spot.id);
   const star = el('button', {
@@ -89,6 +89,14 @@ function listRow(spot, score, onFocusSpot, onChange, rerender) {
     onChange?.();
     if (favOnly && !now) rerender();
   });
+  // Hide/block: drops the place from the map, the list and the ranking (undo via
+  // the toast main.js shows). A quiet ✕ so it doesn't compete with the star.
+  const hide = el('button', {
+    class: 'list-hide',
+    'aria-label': `Hide ${spot.name ?? 'this place'}`,
+    title: 'Hide this place',
+  }, '✕');
+  hide.addEventListener('click', (e) => { e.stopPropagation(); onHide?.(spot); });
   const metaLine = [meta.label, fmtDistBearing(spot), detailBits(spot)].filter(Boolean).join(' · ');
   return el('div', { class: 'list-row' }, [
     el('span', { class: `pin pin-${spot.category} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
@@ -99,15 +107,16 @@ function listRow(spot, score, onFocusSpot, onChange, rerender) {
     ]),
     scoreCell(score),
     star,
+    hide,
   ]);
 }
 
 // Render the list into `container`. `spots` = the already-filtered spots for the
 // active region; `scoreById` maps spot id → composite score (0..1) for the Best
 // sort + the per-row badge; `onFocusSpot(spot)` switches to the map + focuses it.
-export function renderListInto(container, { spots, scoreById, onFocusSpot, onChange }) {
+export function renderListInto(container, { spots, scoreById, onFocusSpot, onChange, onHide }) {
   if (sortMode == null) sortMode = 'distance';
-  const rerender = () => renderListInto(container, { spots, scoreById, onFocusSpot, onChange });
+  const rerender = () => renderListInto(container, { spots, scoreById, onFocusSpot, onChange, onHide });
   const scoreOf = (s) => scoreById?.get(s.id) ?? null;
 
   // Distance/bearing need a fix; request it once, re-render when it lands (fail soft).
@@ -167,7 +176,7 @@ export function renderListInto(container, { spots, scoreById, onFocusSpot, onCha
   }
 
   const list = el('div', { class: 'list-rows' }, shown.length
-    ? shown.map((s) => listRow(s, scoreOf(s), onFocusSpot, onChange, rerender))
+    ? shown.map((s) => listRow(s, scoreOf(s), onFocusSpot, onChange, onHide, rerender))
     : [el('p', { class: 'list-empty' }, favOnly
         ? 'No favorites yet — open a place and tap “☆ Save”.'
         : 'No places to list. Turn on a pin type at the top.')]);

@@ -14,6 +14,7 @@ const K_FILTERS = 'pointer.filters.v2';
 const K_LAYERS = 'pointer.layers.v1';
 const K_REGION = 'pointer.region';
 const K_FAV = 'pointer.favorites';
+const K_HIDDEN = 'pointer.hidden';
 
 function read(key, fallback) {
   try {
@@ -129,6 +130,35 @@ export function setFavorites(ids) {
   write(K_FAV, [...new Set(ids)]);
 }
 
+// ---- hidden spots: ids the user has blocked. A hidden spot is removed from the
+// map, the list AND the ranking (it's dropped from the working set at the
+// source), everywhere, on this device. Reversible — unhide any, or restore all.
+export function hiddenSpots() {
+  return new Set(read(K_HIDDEN, []));
+}
+
+export function isHidden(id) {
+  return hiddenSpots().has(id);
+}
+
+export function hideSpot(id) {
+  const h = hiddenSpots();
+  if (h.has(id)) return;
+  h.add(id);
+  write(K_HIDDEN, [...h]);
+  requestPersistence();
+}
+
+export function unhideSpot(id) {
+  const h = hiddenSpots();
+  if (!h.delete(id)) return;
+  write(K_HIDDEN, [...h]);
+}
+
+export function clearHidden() {
+  write(K_HIDDEN, []);
+}
+
 // ---- durable backup bundle ----
 
 export const BUNDLE_APP = 'photo-pointer';
@@ -141,6 +171,7 @@ export function exportBundle() {
     exportedAt: new Date().toISOString(),
     userPins: userPins(),
     favorites: [...favorites()],
+    hidden: [...hiddenSpots()],
   };
 }
 
@@ -168,6 +199,12 @@ export function importBundle(bundle) {
     const merged = favorites();
     for (const id of bundle.favorites) if (typeof id === 'string') { merged.add(id); favImported++; }
     write(K_FAV, [...merged]);
+  }
+  // Hidden spots — same id-union merge (older bundles won't carry them).
+  if (Array.isArray(bundle.hidden)) {
+    const merged = hiddenSpots();
+    for (const id of bundle.hidden) if (typeof id === 'string') merged.add(id);
+    write(K_HIDDEN, [...merged]);
   }
   requestPersistence();
   return { ok: true, imported: clean.length, favorites: favImported };

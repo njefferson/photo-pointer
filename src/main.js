@@ -4,7 +4,7 @@ import { el, clear, toast, closeOnBackdrop } from './ui/dom.js';
 import { applyTheme, currentTheme, themeToggle } from './ui/theme.js';
 import { createMapView, CATEGORY_META } from './ui/mapview.js';
 import { loadRegions, pickRegion } from './model/region.js';
-import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle } from './model/store.js';
+import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle, hiddenSpots, hideSpot, unhideSpot, clearHidden } from './model/store.js';
 import { rankSpots } from './model/synthesis.js';
 import { LAYER_FILTERS } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
@@ -166,8 +166,27 @@ function renderHeader() {
   else app.prepend(header);
 }
 
-function spotsForMap() {
+// Everything loaded for the region (data + user pins), hidden or not. The
+// RANKING runs over this full set so hiding a spot never triggers a re-rank
+// (an expensive full-region scan) — the score of other places doesn't change.
+function allSpots() {
   return [...dataSpots, ...userPins()];
+}
+
+// The working set for the map + list: the loaded spots minus the user's hidden/
+// blocked ones, so they're gone from every view.
+function spotsForMap() {
+  const hidden = hiddenSpots();
+  return allSpots().filter((s) => !hidden.has(s.id));
+}
+
+// Block a place: it leaves every view. Undo via the toast, within its window.
+function hideAndRefresh(spot) {
+  hideSpot(spot.id);
+  refresh();
+  toast(`Hidden “${spot.name ?? 'this place'}” — tap to undo`);
+  const t = document.querySelector('.toast');
+  if (t) t.onclick = () => { unhideSpot(spot.id); t.onclick = null; t.classList.remove('show'); refresh(); };
 }
 
 // The spots the LIST should show: the same set the map shows — narrowed by BOTH
@@ -187,7 +206,7 @@ function spotsForList() {
 // scoreById feeds both the "Best" sort and each row's score badge.
 function renderListView() {
   if (viewMode === 'list' && listEl) {
-    renderListInto(listEl, { spots: spotsForList(), scoreById: scoreById(), onFocusSpot, onChange: refresh });
+    renderListInto(listEl, { spots: spotsForList(), scoreById: scoreById(), onFocusSpot, onChange: refresh, onHide: hideAndRefresh });
   }
 }
 
@@ -197,8 +216,10 @@ let rankingKey = null;
 // Cross-layer ranking over the current spot set. Recomputed only when the set
 // changes (data + user pins), since it scans all spots.
 function ranking() {
-  const spots = spotsForMap();
-  const key = `${region?.id}:${spots.length}:${userPins().length}`;
+  const spots = allSpots(); // rank the FULL set — hiding a spot must not re-rank
+  // Keyed on the loaded data, not the hidden-filtered set, so a hide/unhide
+  // leaves the cache valid (hidden spots are dropped at display time instead).
+  const key = `${region?.id}:${dataSpots.length}:${userPins().length}`;
   if (rankingKey !== key) {
     rankingCache = rankSpots(spots);
     rankingKey = key;
@@ -250,6 +271,32 @@ function showStartTip() {
 }
 
 function openDataDialog() {
+  // "Hidden places" manager: list the blocked spots (names resolved from the
+  // current region where possible), unhide one, or restore them all.
+  const hiddenBox = el('div', { class: 'hidden-box' });
+  const nameById = new Map(dataSpots.map((s) => [s.id, s.name]));
+  function renderHidden() {
+    // Most-recently hidden first (the block set preserves insertion order, so a
+    // reverse gives newest → oldest), each recoverable with Unhide.
+    const ids = [...hiddenSpots()].reverse();
+    if (!ids.length) {
+      hiddenBox.replaceChildren(el('p', { class: 'dim' },
+        'Nothing hidden. Use “Hide this place” on any spot — on the map or in the list — to block it on this device.'));
+      return;
+    }
+    hiddenBox.replaceChildren(
+      el('p', {}, `${ids.length} place${ids.length === 1 ? '' : 's'} hidden on this device.`),
+      el('ul', { class: 'hidden-list' }, ids.map((id) =>
+        el('li', {}, [
+          el('span', { class: 'hidden-name' }, nameById.get(id) ?? id),
+          el('button', { class: 'hidden-unhide', onClick: () => { unhideSpot(id); refresh(); renderHidden(); } }, 'Unhide'),
+        ])
+      )),
+      el('button', { class: 'dialog-close', onClick: () => { clearHidden(); refresh(); renderHidden(); toast('All hidden places restored'); } }, 'Restore all'),
+    );
+  }
+  renderHidden();
+
   const dlg = el('dialog', { class: 'data-dialog' }, [
     el('button', { class: 'dialog-x', 'aria-label': 'Close', onClick: () => dlg.close() }, '×'),
     el('h2', {}, 'Backup & data'),
@@ -280,6 +327,8 @@ function openDataDialog() {
         },
       }, 'Import'),
     ]),
+    el('h2', {}, 'Hidden places'),
+    hiddenBox,
     el('h2', {}, 'Data sources'),
     el('ul', { class: 'src-list' }, [
       el('li', {}, 'Places: © OpenStreetMap contributors (ODbL)'),
@@ -363,6 +412,8 @@ async function boot() {
     onChange: refresh,
     // The map's "Clear" on the Must-have banner clears the layer chips at source.
     onClearFilter: () => applyLayers(new Set()),
+    // "Hide this place" in a popup → block it everywhere, with an undo toast.
+    onHideSpot: hideAndRefresh,
   });
 
   await loadRegionData(region.id);

@@ -83,6 +83,45 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.8 "Hide places, fewer junk oddities, snappier" (an ITERATION:
+  feature + data-quality + perf) BUILT on staging (awaiting on-device pass —
+  NEEDS NOAH'S HANDS: the hide flow + real load/zoom feel on the iPad). Noah:
+  "a way to permanently delete, or at least block… certain locations" (Southwind
+  Labradors), "a LOT of oddities are just garbage… NOT atlas obscura type
+  wonders", "a blocked-list… sorted by most recent, and recovered", and load/
+  zoom/reset "take a long time… seems wrong". THREE things: (A) HIDE/BLOCK — a
+  per-device blocklist (store.js K_HIDDEN + hiddenSpots/hideSpot/unhideSpot/
+  clearHidden, in the export bundle). Hidden ids are dropped at the SOURCE
+  (spotsForMap filters them) so they leave map + list + ranking. UI: "Hide this
+  place" in the map popup (onHideSpot) and a quiet ✕ per list row (onHide); undo
+  toast (main hideAndRefresh); manager in ⤓ Backup → "Hidden places" — MOST-
+  RECENT FIRST ([...hidden].reverse()), per-item Unhide + Restore all. (B) ODDITY
+  CLEANUP (notability.js keepSpot now also filters `oddity`): OSM `tourism=
+  attraction` is self-applied garbage (dog breeder, CSD pool, Fairytale Town
+  kiddie rides). keepOddity drops an attraction-sourced oddity UNLESS it's a real
+  feature (tags.natural/historic/geological) or corroborated (wikipedia/wikidata,
+  commons≥3, or >1 source). Oddity drops measured: Sac 38, Yellowstone 20,
+  Humboldt 8, PCB 2, Hahira 0. KEEPS Balancing Rock (natural=stone), cave
+  (historic=mine), China Wall (23 commons). Load-time, no re-ingest; ingest
+  adapter left as-is (documented). (C) PERF — hiding a spot took ~1.18 s. ROOT
+  CAUSE: refresh() → ranking() keyed on the hidden-FILTERED spot count, so every
+  hide invalidated the cache and re-ran rankSpots over ~2.3k spots (per-spot
+  astronomy + spatial queries). FIX: ranking() now runs over allSpots() (full
+  set, hidden included as spatial neighbours) keyed on dataSpots.length —
+  hide/unhide never re-ranks; hidden are dropped at display time. ALSO made
+  mapview setSpots INCREMENTAL (createMarkerRec extracted; diff by id — add new,
+  remove gone, keep the rest) instead of tearing down + rebuilding all ~2.3k
+  L.markers each refresh. MEASURED hide 1180 ms → ~155 ms (7–8×). Initial load
+  (~1.3 s headless) is one-time module load + a single rank; better on-device
+  once the SW caches assets. DEFERRED (offered): making the FIRST rank async so
+  the map is instantly interactive — a bigger change, left for a follow-up if it
+  still drags on his iPad; also "add MORE Atlas-Obscura-type sources" (this pass
+  only REMOVES junk). sw CACHE pointer-1.5.8; changelog[0] 1.5.8. VERIFIED
+  headless (playwright, Sac): hide Southwind from list → 132→131, gone, persists
+  across reload, manager lists it, undo + Restore all work; oddity list 132→94
+  (Southwind & Cinderella's Coach filtered, Balancing Rock kept); 3 hides ~155 ms
+  each; ZERO pageerrors. 91 tests + check-contrast green. BRANCH NOTE: on
+  `staging` per the standing rule. NO GitHub metadata step.
 - 2026-07-25 1.5.7 "One filter bar, and Best in the list" (an ITERATION, a UX
   REDESIGN) BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the
   whole filter/sort/list flow on a real device). SUPERSEDES the unpromoted

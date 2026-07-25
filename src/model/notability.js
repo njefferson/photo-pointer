@@ -33,9 +33,26 @@ export function markerHasWorthwhileData(spot) {
   return !!(t.commons?.photos || t.inaturalist?.observations || t.ebird_species);
 }
 
-// Whether to keep a spot on the map at all. Only the marker category is filtered
-// (that's where the OSM junk lives); everything else is kept as-is.
+// The `oddity` pin is meant for Atlas-Obscura-type curiosities (public art,
+// ruins, mines, odd natural features). But OSM's `tourism=attraction` tag is
+// self-applied and sweeps in businesses, community pools and theme-park rides
+// (a dog breeder, "Cinderella's Coach"). Keep an attraction-sourced oddity only
+// when it's actually a curiosity: a real natural/historic/geological feature, or
+// something corroborates it (a Wikipedia/Wikidata entry, freely-licensed photos
+// of it, or a second independent source). The other oddity sources — artwork,
+// ruins, mines — are trusted and kept as-is.
+export function keepOddity(spot) {
+  const t = spot.tags ?? {};
+  if (t.tourism !== 'attraction') return true;
+  if (t.natural || t.historic || t.geological) return true;
+  return !!(t.wikipedia || t.wikidata || (t.commons?.photos >= 3) || (spot.sources ?? []).length > 1);
+}
+
+// Whether to keep a spot on the map at all. Filters the two categories where OSM
+// junk collects — markers (mistagged historic points) and oddities (self-applied
+// tourism=attraction) — and keeps everything else as-is.
 export function keepSpot(spot) {
-  if (spot.category !== 'marker') return true;
-  return isVerified(spot) || markerHasWorthwhileData(spot);
+  if (spot.category === 'marker') return isVerified(spot) || markerHasWorthwhileData(spot);
+  if (spot.category === 'oddity') return keepOddity(spot);
+  return true;
 }

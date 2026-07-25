@@ -59,7 +59,7 @@ function pinIcon(category, hasPhotos) {
   });
 }
 
-export function createMapView(container, { region, regions = [], onSwitchRegion, onChange, onClearFilter }) {
+export function createMapView(container, { region, regions = [], onSwitchRegion, onChange, onClearFilter, onHideSpot }) {
   const map = L.map(container, { zoomControl: true });
   let activeRegion = region;
 
@@ -697,42 +697,59 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
               }
             },
           }, 'Remove pin')
-        : null,
+        : el('button', {
+            // Block a place you don't want to see — it leaves the map, the list
+            // and the ranking on this device. main.js handles the undo toast.
+            class: 'popup-hide',
+            onClick: () => { map.closePopup(); onHideSpot?.(spot); },
+          }, 'Hide this place'),
     ]);
     return root;
   }
 
+  // Build one marker record (heavy: an L.marker + bound popup). Kept out of
+  // setSpots so we only pay it for spots that are actually new.
+  function createMarkerRec(spot) {
+    const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category, !!spot.tags?.commons?.photos) })
+      .bindPopup(() => popupFor(spot), {
+        maxWidth: 320,
+        // Cap the popup to the viewport so a long card scrolls INSIDE the popup
+        // (Leaflet makes a scroll container) and the × close stays reachable —
+        // instead of overflowing off a phone screen with no way to dismiss it.
+        maxHeight: Math.max(240, Math.round((typeof window !== 'undefined' ? window.innerHeight : 700) * 0.6)),
+        autoPanPadding: [12, 76],
+      });
+    // Take over click / keyboard-Enter from Leaflet's default popup opener (it
+    // captured the handler refs at bindPopup time, so we detach those exact ones
+    // and add our own): when this pin is currently a summary (cluster) pin, zoom
+    // in to reveal the places under it instead of opening a card; otherwise save
+    // the view (so it restores when the popup closes) and open the card.
+    marker.off({ click: marker._openPopup, keypress: marker._onKeyPress });
+    const activate = () => {
+      const rec = markerById.get(spot.id);
+      if (rec && rec.clusterCount > 1) { zoomToCluster(rec); return; }
+      rememberViewForPopup();
+      marker.openPopup();
+    };
+    marker.on('click', activate);
+    marker.on('keypress', (e) => { if (e.originalEvent?.keyCode === 13) activate(); });
+    const cm = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
+    // id is needed for the score-based declutter (scoreOf reads it) and to
+    // hold a deliberately-focused spot unclustered.
+    return { id: spot.id, marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false, letter: cm.letter, label: cm.label };
+  }
+
+  // INCREMENTAL: keep the markers for spots that are still present, drop the ones
+  // that left, and only build markers for genuinely new spots. Before, every call
+  // tore down and rebuilt all ~2.4k markers — so hiding one spot (or any refresh)
+  // stalled ~1s. Now a one-spot change touches one marker.
   function setSpots(spots) {
-    for (const rec of markerById.values()) rec.marker.remove();
-    markerById.clear();
+    const next = new Set(spots.map((s) => s.id));
+    for (const [id, rec] of markerById) {
+      if (!next.has(id)) { if (rec.mounted) rec.marker.remove(); markerById.delete(id); }
+    }
     for (const spot of spots) {
-      const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category, !!spot.tags?.commons?.photos) })
-        .bindPopup(() => popupFor(spot), {
-          maxWidth: 320,
-          // Cap the popup to the viewport so a long card scrolls INSIDE the popup
-          // (Leaflet makes a scroll container) and the × close stays reachable —
-          // instead of overflowing off a phone screen with no way to dismiss it.
-          maxHeight: Math.max(240, Math.round((typeof window !== 'undefined' ? window.innerHeight : 700) * 0.6)),
-          autoPanPadding: [12, 76],
-        });
-      // Take over click / keyboard-Enter from Leaflet's default popup opener (it
-      // captured the handler refs at bindPopup time, so we detach those exact ones
-      // and add our own): when this pin is currently a summary (cluster) pin, zoom
-      // in to reveal the places under it instead of opening a card; otherwise save
-      // the view (so it restores when the popup closes) and open the card.
-      marker.off({ click: marker._openPopup, keypress: marker._onKeyPress });
-      const activate = () => {
-        const rec = markerById.get(spot.id);
-        if (rec && rec.clusterCount > 1) { zoomToCluster(rec); return; }
-        rememberViewForPopup();
-        marker.openPopup();
-      };
-      marker.on('click', activate);
-      marker.on('keypress', (e) => { if (e.originalEvent?.keyCode === 13) activate(); });
-      const cm = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
-      // id is needed for the score-based declutter (scoreOf reads it) and to
-      // hold a deliberately-focused spot unclustered.
-      markerById.set(spot.id, { id: spot.id, marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false, letter: cm.letter, label: cm.label });
+      if (!markerById.has(spot.id)) markerById.set(spot.id, createMarkerRec(spot));
     }
     cull();
   }
