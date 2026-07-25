@@ -23,7 +23,7 @@ test('normalizeBinding builds an oddity spot with kind + wikipedia link', () => 
     item: { value: 'http://www.wikidata.org/entity/Q808558' },   // Bodie
     itemLabel: { value: 'Bodie' },
     coord: { value: 'Point(-119.0125 38.2121)' },
-    cls: { value: 'http://www.wikidata.org/entity/Q5153359' },   // ghost town
+    cls: { value: 'http://www.wikidata.org/entity/Q74047' },   // ghost town
     article: { value: 'https://en.wikipedia.org/wiki/Bodie,_California' },
   };
   const rec = normalizeBinding(row, '2026-07-25');
