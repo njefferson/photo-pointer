@@ -83,6 +83,42 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.10.0 "Historic places, properly" (a CAPABILITY) BUILT + DATA ROLLED
+  OUT on staging (awaiting on-device pass). Noah, sharply — I had stopped to ask
+  about RIDB when NRHP needed nothing from him: "Well?? What are you doing??"
+  Correct call; NRHP is keyless, so it should have been built without asking.
+  NEW SOURCE ingest/adapters/nrhp.mjs — National Register of Historic Places via
+  the NPS ArcGIS MapServer (cultural_resources/nrhp_locations), US PUBLIC DOMAIN,
+  NO KEY. Discovers its layers AND FIELD NAMES at runtime, case-insensitively
+  (the GNIS lesson); POINT layers only (skips the polygon districts — a boundary
+  isn't a place to stand, and its point record is already in the points layer);
+  fails fast on 4xx. NEW CATEGORY `historic_site` (letter H, --cat-historic_site
+  #4d6b2f = 6.07:1 with white) so it filters separately from the plaque-oriented
+  `marker` pin. dedup SOURCE_PRIORITY gains 'nrhp' BELOW osm/wikidata and above
+  gnis — so a coincident OSM/Wikidata spot KEEPS its category and just gains
+  tags.nrhp (measured: 18 existing pins enriched that way across the regions).
+  COUNTS (all 6 OSM regions, california-ghost-towns excluded by design):
+  Yellowstone 315, Sacramento 218, Reno 64, Humboldt 45, panama-city-beach 37,
+  Hahira 32 → 692 new historic_site pins live. sw CACHE pointer-1.10.0;
+  changelog[0] 1.10.0. 142 tests (+8 nrhp) + contrast + smoke green.
+  DATA LIMITATION, accepted + documented (NOT a bug): the NPS SPATIAL service
+  carries deliberately minimal attributes — there is NO listing-date field (dates
+  live in the separate NRIS database), so `nrhp_listed` is never set and the popup
+  reads "On the National Register of Historic Places" with no year, linking to the
+  record. listedYear() still exists + is tested for if a date field ever appears.
+  202/218 Sac records had a real 8-digit reference number → NPGallery deep link;
+  the rest cite the dataset rather than guess a URL.
+  PRIVACY: NPS publishes only public, non-sensitive listings (restricted
+  archaeological locations withheld at source); we add no precision of our own.
+  RIDB (Recreation.gov) REMAINS PARKED: it needs a free API key from
+  ridb.recreation.gov/profile → to be stored as the repo secret RIDB_API_KEY (a
+  key can NEVER ship in this client-side app, so RIDB must be an INGEST-time
+  source like eBird/GNIS, not a live per-spot call like NOAA/USGS). The Swagger
+  "Authorize" dialog on the RIDB docs page is NOT where a key is issued — it only
+  accepts a key you already hold. Endpoints we'd use when it lands: /facilities
+  (campgrounds/trailheads — the real prize) and /recareas; /events worth checking
+  for the 1.7.0 events layer; SKIP /campsites, /permits, /tours, /media (media =
+  third-party image licensing risk).
 - 2026-07-25 1.9.0 "Is the waterfall actually running?" (a CAPABILITY) BUILT on
   staging (awaiting on-device pass — NEEDS NOAH'S HANDS: real USGS numbers on a
   real waterfall). Chosen as the next source after the three-part plan shipped
