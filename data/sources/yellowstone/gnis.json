@@ -1,0 +1,7381 @@
+{
+  "source": {
+    "source": "gnis",
+    "name": "USGS GNIS (The National Map geonames — named natural features)",
+    "license": "public-domain",
+    "attribution": "U.S. Geological Survey, Geographic Names Information System (public domain)",
+    "status": "working"
+  },
+  "region": "yellowstone",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Bechler Falls",
+      "lat": 44.14909787281917,
+      "lng": -111.00995227016166,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1585335"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1585335",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1585335",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Big Creek Falls",
+      "lat": 44.58292803946898,
+      "lng": -109.59950724763118,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1585440"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1585440",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1585440",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bull Lake Falls",
+      "lat": 43.17675139083397,
+      "lng": -109.20205419529765,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1586107"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1586107",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1586107",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cascades of the Firehole",
+      "lat": 44.616327932760946,
+      "lng": -110.85550191849838,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1586417"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1586417",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1586417",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cave Falls",
+      "lat": 44.14465377346039,
+      "lng": -110.9971740667234,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1586468"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1586468",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1586468",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Coffee Pot Hot Springs",
+      "lat": 44.755730597332416,
+      "lng": -110.30789602517638,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1586866"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1586866",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1586866",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Colonnade Falls",
+      "lat": 44.238545387206514,
+      "lng": -110.94800537163691,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1586906"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1586906",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1586906",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Columbine Cascade",
+      "lat": 43.916607971796395,
+      "lng": -110.74939177537945,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1586911"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1586911",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1586911",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Falls",
+      "lat": 44.718000275743734,
+      "lng": -110.50077146007999,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1587274"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1587274",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1587274",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Dunanda Falls",
+      "lat": 44.24770938179505,
+      "lng": -111.02411849018984,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1587915"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1587915",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1587915",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Echinus Geyser",
+      "lat": 44.72190855825194,
+      "lng": -110.70188110350779,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1588160"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1588160",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1588160",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fairy Falls",
+      "lat": 44.52438302318978,
+      "lng": -110.87105720524698,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1588372"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1588372",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1588372",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fern Cascades",
+      "lat": 44.44605021755708,
+      "lng": -110.84411248623485,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1588425"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1588425",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1588425",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Firehole Falls",
+      "lat": 44.63077213539931,
+      "lng": -110.8643910222209,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1588482"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1588482",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1588482",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Geyser Springs Group",
+      "lat": 44.68883045253002,
+      "lng": -110.72827700398362,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1588871"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1588871",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1588871",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Gibbon Falls",
+      "lat": 44.65438534500236,
+      "lng": -110.77077800687435,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1588881"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1588881",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1588881",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Gibbon Hill Geyser",
+      "lat": 44.69671655347366,
+      "lng": -110.72535510416462,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1588884"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1588884",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1588884",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Great Fountain Geyser",
+      "lat": 44.53647653086174,
+      "lng": -110.79985709245886,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1589105"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1589105",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1589105",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Gwinna Falls",
+      "lat": 44.28188139759821,
+      "lng": -110.88022566525994,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1589202"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1589202",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1589202",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Highland Hot Springs",
+      "lat": 44.61565155426329,
+      "lng": -110.61613606701883,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1589545"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1589545",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1589545",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Imperial Geyser",
+      "lat": 44.53159752328882,
+      "lng": -110.87620210750912,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1589864"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1589864",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1589864",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Iris Falls",
+      "lat": 44.24160108806132,
+      "lng": -110.94356087142876,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1589943"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1589943",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1589943",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kepler Cascades",
+      "lat": 44.44577352095685,
+      "lng": -110.80716747803643,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1590331"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1590331",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1590331",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lewis Falls",
+      "lat": 44.2675225557505,
+      "lng": -110.63685784254585,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1590661"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1590661",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1590661",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lost Creek Falls",
+      "lat": 44.90915013274979,
+      "lng": -110.42006714822965,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1591034"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1591034",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1591034",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "North Fork Falls",
+      "lat": 43.980232933139504,
+      "lng": -110.11992125138893,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1592177"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1592177",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1592177",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Old Faithful Geyser",
+      "lat": 44.46048652064646,
+      "lng": -110.82828808488836,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1592386"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1592386",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1592386",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ouzel Falls",
+      "lat": 44.234933184407986,
+      "lng": -110.97578387725136,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1592510"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1592510",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1592510",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Quiver Cascade",
+      "lat": 44.304937100308024,
+      "lng": -110.88133666926399,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1593107"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1593107",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1593107",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ragged Falls",
+      "lat": 44.287992297478,
+      "lng": -110.88994806779958,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1593124"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1593124",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1593124",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Falls",
+      "lat": 44.14215868324426,
+      "lng": -110.88022694086766,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1593131"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1593131",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1593131",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ribbon Cascade",
+      "lat": 43.77466165687417,
+      "lng": -110.74828035096384,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1593420"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1593420",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1593420",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rustic Geyser",
+      "lat": 44.282170330939955,
+      "lng": -110.50632758502802,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1593715"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1593715",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1593715",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Semi-Centennial Geyser",
+      "lat": 44.7861553584051,
+      "lng": -110.73987512836237,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1594093"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1594093",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1594093",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shoal Falls",
+      "lat": 43.34077774550262,
+      "lng": -110.34825029528656,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1594271"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1594271",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1594271",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Silver Scarf Falls",
+      "lat": 44.246320581327346,
+      "lng": -111.02217408945228,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1594346"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1594346",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1594346",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sluiceway Falls",
+      "lat": 44.279103697463704,
+      "lng": -110.87967016415624,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1594462"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1594462",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1594462",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Smoke Jumper Hot Springs",
+      "lat": 44.41625550447353,
+      "lng": -110.9548661046007,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1594495"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1594495",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1594495",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spray Geyser",
+      "lat": 44.53170452369146,
+      "lng": -110.8735201072783,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1594810"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1594810",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1594810",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tendoy Falls",
+      "lat": 44.28465929824221,
+      "lng": -110.87855896521776,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1595355"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1595355",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1595355",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tower Fall",
+      "lat": 44.89367093394598,
+      "lng": -110.38723067301807,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1595650"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1595650",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1595650",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Twister Falls",
+      "lat": 44.29743770099616,
+      "lng": -110.8618917635734,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1595814"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1595814",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1595814",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Upper Falls",
+      "lat": 43.42383666276155,
+      "lng": -110.25380528817165,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1595858"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1595858",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1595858",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Upper Falls of the Yellowstone River",
+      "lat": 44.71281483319879,
+      "lng": -110.49985861095288,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1595859"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1595859",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1595859",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Warm Springs",
+      "lat": 43.56069073174063,
+      "lng": -108.82111870684174,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1596039"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1596039",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1596039",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Washakie Mineral Hot Springs",
+      "lat": 43.00829733614538,
+      "lng": -108.8348560145594,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1596055"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1596055",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1596055",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Washburn Hot Springs",
+      "lat": 44.7667005874543,
+      "lng": -110.42975405294251,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1596061"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1596061",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1596061",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "West Dell Falls",
+      "lat": 43.33105624780603,
+      "lng": -110.31352648661247,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1596167"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1596167",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1596167",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "White Dome Geyser",
+      "lat": 44.53918353054586,
+      "lng": -110.8028170934223,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1596303"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1596303",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1596303",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wraith Falls",
+      "lat": 44.93716488669869,
+      "lng": -110.62355262537818,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1596631"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1596631",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1596631",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Albright Falls",
+      "lat": 44.27771399516308,
+      "lng": -110.90355956915664,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1597088"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597088",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597088",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Riverside Geyser",
+      "lat": 44.4735645206053,
+      "lng": -110.840733089713,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597109"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597109",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597109",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jet Geyser",
+      "lat": 44.71660644706396,
+      "lng": -110.81744602756847,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597110"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597110",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597110",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Castle Geyser",
+      "lat": 44.463641519965336,
+      "lng": -110.83657008737895,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597119"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597119",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597119",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Artemisia Geyser",
+      "lat": 44.478264520644714,
+      "lng": -110.84854409202539,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597120"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597120",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597120",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jewel Geyser",
+      "lat": 44.48444952025798,
+      "lng": -110.85635409541118,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597121"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597121",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597121",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Solitary Geyser",
+      "lat": 44.46854152152925,
+      "lng": -110.82931808690492,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597122"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597122",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597122",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Giantess Geyser",
+      "lat": 44.46322752088243,
+      "lng": -110.82854308515648,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597123"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597123",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597123",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grand Geyser",
+      "lat": 44.46662752043476,
+      "lng": -110.83697808780794,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597131"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597131",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597131",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spouter Geyser",
+      "lat": 44.463105518632084,
+      "lng": -110.85463409113667,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597134"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597134",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597134",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Falls",
+      "lat": 43.76660575583461,
+      "lng": -110.75633615137767,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1597141"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597141",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597141",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bellefontaine Geyser",
+      "lat": 44.55129553130618,
+      "lng": -110.80946909654165,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597146"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597146",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597146",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fountain Geyser",
+      "lat": 44.553283531609594,
+      "lng": -110.81110009753444,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597147"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597147",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597147",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bead Geyser",
+      "lat": 44.54331253209232,
+      "lng": -110.79539309252084,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597149"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597149",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597149",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Slide Falls",
+      "lat": 43.28328778392605,
+      "lng": -109.81739227232146,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1597153"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597153",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597153",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Clear Creek Falls",
+      "lat": 43.29472868598386,
+      "lng": -109.82917837635993,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1597154"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597154",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597154",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Monarch Geyser",
+      "lat": 44.7261625583976,
+      "lng": -110.7045211048041,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1597161"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597161",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597161",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bannock Falls",
+      "lat": 43.7200769815255,
+      "lng": -110.76732821836686,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1597912"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1597912",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1597912",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Beartooth Falls",
+      "lat": 44.93713900869909,
+      "lng": -109.60329437688408,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598036"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598036",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598036",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bomber Falls",
+      "lat": 43.381009512730586,
+      "lng": -109.59881651414462,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598287"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598287",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598287",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bridal Veil Falls",
+      "lat": 44.844818622993955,
+      "lng": -109.34126550312497,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598367"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598367",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598367",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Broken Falls",
+      "lat": 43.74466105335006,
+      "lng": -110.75494704782628,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598383"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598383",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598383",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Brooks Lake Creek Falls",
+      "lat": 43.70367564938084,
+      "lng": -109.96762404557899,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598390"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598390",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598390",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cascade Acres",
+      "lat": 44.144937485869704,
+      "lng": -110.85633753676555,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598648"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598648",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598648",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cleft Falls",
+      "lat": 43.72403558145844,
+      "lng": -110.77808202159994,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598797"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598797",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598797",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cliff Creek Falls",
+      "lat": 43.111320334038695,
+      "lng": -110.58178728072137,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1598803"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1598803",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1598803",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Glacier Falls",
+      "lat": 43.72911425051099,
+      "lng": -110.75930995136221,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1599945"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1599945",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1599945",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Granite Falls",
+      "lat": 43.36522024014499,
+      "lng": -110.4435327199942,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1600027"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1600027",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1600027",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hot Spring",
+      "lat": 43.36994244030556,
+      "lng": -110.44519952064765,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1600435"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1600435",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1600435",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kelly Warm Spring",
+      "lat": 43.63939065054952,
+      "lng": -110.61579707606826,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1600690"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1600690",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1600690",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lake Fork Falls",
+      "lat": 43.93190114223372,
+      "lng": -109.96269190929192,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1600798"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1600798",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1600798",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Moose Falls",
+      "lat": 44.15183583380072,
+      "lng": -110.67270427044059,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1601539"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1601539",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1601539",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ouzel Falls",
+      "lat": 43.41383736506338,
+      "lng": -110.2132472783584,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1601956"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1601956",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1601956",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Plateau Falls",
+      "lat": 44.15912527323382,
+      "lng": -110.2360507791821,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1602205"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1602205",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1602205",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Porcupine Creek Falls",
+      "lat": 43.27634288141999,
+      "lng": -109.83850407568359,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1602269"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1602269",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1602269",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shoshoko Falls",
+      "lat": 43.70815464454597,
+      "lng": -110.80250675693269,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1602905"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1602905",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1602905",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Slide Creek Falls",
+      "lat": 43.288843686794415,
+      "lng": -109.80794747076416,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1602981"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1602981",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1602981",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Snake Hot Springs",
+      "lat": 44.16930264352716,
+      "lng": -110.58093385425201,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1603016"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603016",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603016",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "South Fork Falls",
+      "lat": 43.86134482588422,
+      "lng": -110.06436181920031,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1603136"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603136",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603136",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spalding Falls",
+      "lat": 43.728548147803444,
+      "lng": -110.79689215435458,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1603215"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603215",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603215",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sweetwater Creek Falls",
+      "lat": 44.59215442720343,
+      "lng": -109.74527708078767,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1603482"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603482",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603482",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Terraced Falls",
+      "lat": 44.14715938556334,
+      "lng": -110.86411543885467,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1603577"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603577",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603577",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Twilight Falls",
+      "lat": 43.78198568349581,
+      "lng": -109.66432872631906,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1603820"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603820",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603820",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Union Falls",
+      "lat": 44.19271478956285,
+      "lng": -110.8707818473579,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1603858"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603858",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603858",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Warm Spring",
+      "lat": 43.282172666301406,
+      "lng": -110.01990071571582,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1603982"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1603982",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1603982",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wilderness Falls",
+      "lat": 43.916226202691014,
+      "lng": -110.75871324902799,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1604178"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1604178",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1604178",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Huckleberry Hot Springs",
+      "lat": 44.11482729558981,
+      "lng": -110.6875996673579,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1605121"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1605121",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1605121",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Astoria Minerial Hot Springs",
+      "lat": 43.30021140526055,
+      "lng": -110.77437927918653,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609066"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609066",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609066",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lower Falls of the Yellowstone River",
+      "lat": 44.71798203437053,
+      "lng": -110.4964373008365,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609116"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609116",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609116",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grotto Geyser",
+      "lat": 44.47189552071312,
+      "lng": -110.84187009006307,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609257"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609257",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609257",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lone Star Geyser",
+      "lat": 44.41836861803922,
+      "lng": -110.80676007319046,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609270"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609270",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609270",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mammoth Hot Springs",
+      "lat": 44.967858305431434,
+      "lng": -110.70877187343973,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609273"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609273",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609273",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mud Geyser",
+      "lat": 44.62325757144102,
+      "lng": -110.43177202839676,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609275"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609275",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609275",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mystic Falls",
+      "lat": 44.484105219102915,
+      "lng": -110.87383499912474,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609277"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609277",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609277",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rustic Falls",
+      "lat": 44.93410847726033,
+      "lng": -110.72577844692036,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609294"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609294",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609294",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Silver Cord Cascade",
+      "lat": 44.726056181379654,
+      "lng": -110.45160275062042,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609299"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609299",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609299",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tempe Cascade",
+      "lat": 44.30160420057102,
+      "lng": -110.87050306598924,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609309"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609309",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609309",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Undine Falls",
+      "lat": 44.943990516422396,
+      "lng": -110.63860020229451,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609318"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609318",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609318",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Virginia Cascade",
+      "lat": 44.712998262662204,
+      "lng": -110.64605279028328,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609319"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609319",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609319",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wahhi Falls",
+      "lat": 44.27521489732873,
+      "lng": -110.87772566370569,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609320"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609320",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609320",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Whistler Geyser",
+      "lat": 44.73994259319172,
+      "lng": -110.33141502693738,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609322"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609322",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609322",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Osprey Falls",
+      "lat": 44.92856951090532,
+      "lng": -110.68100800856777,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "1609327"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609327",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609327",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Monument Geyser",
+      "lat": 44.68327454955339,
+      "lng": -110.75355540833084,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609335"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609335",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609335",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Narcissus Geyser",
+      "lat": 44.543848531491044,
+      "lng": -110.79717409330146,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609343"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609343",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609343",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Steady Geyser",
+      "lat": 44.54574453296162,
+      "lng": -110.78537209087906,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609345"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609345",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609345",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Economic Geyser Crater",
+      "lat": 44.467668520170214,
+      "lng": -110.83783608849873,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609375"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609375",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609375",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fan Geyser",
+      "lat": 44.474383720769495,
+      "lng": -110.84244569007294,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609376"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609376",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609376",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Daisy Geyser",
+      "lat": 44.46993922004753,
+      "lng": -110.84494568983054,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609377"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609377",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609377",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mortar Geyser",
+      "lat": 44.474268520479754,
+      "lng": -110.84225709057566,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609380"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609380",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609380",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bulger Geyser",
+      "lat": 44.46601552014087,
+      "lng": -110.8364630872488,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609381"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609381",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609381",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Turban Geyser",
+      "lat": 44.466734520249354,
+      "lng": -110.8371930878931,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609388"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609388",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609388",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lioness Geyser",
+      "lat": 44.463626520886116,
+      "lng": -110.83111908598038,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609390"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609390",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609390",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lion Geyser",
+      "lat": 44.463779520289485,
+      "lng": -110.83109808606399,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609391"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609391",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609391",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spasmodic Geyser",
+      "lat": 44.46549502003499,
+      "lng": -110.83605668761766,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609392"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609392",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609392",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Little Cub Geyser",
+      "lat": 44.46361052036801,
+      "lng": -110.83129108640783,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609393"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609393",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609393",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Beehive Geyser",
+      "lat": 44.4626005208624,
+      "lng": -110.82991808605622,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609398"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609398",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609398",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bijou Geyser",
+      "lat": 44.47181852047347,
+      "lng": -110.8417200893769,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609399"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609399",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609399",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sawmill Geyser",
+      "lat": 44.46550952049739,
+      "lng": -110.83665608759266,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609400"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609400",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609400",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Mastiff Geyser",
+      "lat": 44.47116052034288,
+      "lng": -110.84107908931941,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609401"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609401",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609401",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sponge Geyser",
+      "lat": 44.46279952037934,
+      "lng": -110.8298740856753,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609402"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609402",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609402",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Oblong Geyser",
+      "lat": 44.46930752005785,
+      "lng": -110.8403040893676,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609403"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609403",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609403",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Clepsydra Geyser",
+      "lat": 44.55410693139774,
+      "lng": -110.8105006975594,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609409"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609409",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609409",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Big Cub Geyser",
+      "lat": 44.463748520765435,
+      "lng": -110.83107608632268,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609412"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609412",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609412",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Giant Geyser",
+      "lat": 44.47077262024462,
+      "lng": -110.84077898913245,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609413"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609413",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609413",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cliff Geyser",
+      "lat": 44.46191051807315,
+      "lng": -110.85502409112402,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609414"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609414",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609414",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fearless Geyser",
+      "lat": 44.725003558262706,
+      "lng": -110.70606510485993,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609416"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609416",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609416",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Corporal Geyser",
+      "lat": 44.725628558141345,
+      "lng": -110.70417710484752,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609417"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609417",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609417",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Constant Geyser",
+      "lat": 44.73270255857269,
+      "lng": -110.7089621069725,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609418"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609418",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609418",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pearl Geyser",
+      "lat": 44.72277755768684,
+      "lng": -110.70679610532913,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609419"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609419",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609419",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "New Crater Geyser",
+      "lat": 44.72494355798036,
+      "lng": -110.70606610558316,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609421"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609421",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609421",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Whirligig Geyser",
+      "lat": 44.729973558305936,
+      "lng": -110.70816910657905,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609422"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609422",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609422",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Vixen Geyser",
+      "lat": 44.72591855804828,
+      "lng": -110.70838410576589,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609423"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609423",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609423",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Valentine Geyser",
+      "lat": 44.72788555878532,
+      "lng": -110.70119410431784,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1609424"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1609424",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1609424",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hunters Hot Springs",
+      "lat": 45.757326097632294,
+      "lng": -110.25792767048519,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1743302"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1743302",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1743302",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Little Warm Spring",
+      "lat": 43.51995972302347,
+      "lng": -109.66961297794298,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794812"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794812",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794812",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Jackson Lake Hot Springs",
+      "lat": 43.957999481924965,
+      "lng": -110.69689027130005,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794814"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794814",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794814",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Abercrombie Warm Springs",
+      "lat": 43.54299243322485,
+      "lng": -110.74188551215416,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794816"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794816",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794816",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Granite Falls Hot Springs",
+      "lat": 43.36494244019227,
+      "lng": -110.44381051950423,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794818"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794818",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794818",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kendall Warm Spring",
+      "lat": 43.28207863840096,
+      "lng": -110.01960413153488,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794819"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794819",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794819",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shoshone Hot Springs",
+      "lat": 44.51301487652987,
+      "lng": -109.12960182471527,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794822"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794822",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794822",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Needle Hot Springs",
+      "lat": 44.511057471698734,
+      "lng": -109.15683633844144,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794823"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794823",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794823",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Secret Valley Hot Springs",
+      "lat": 44.67105164558418,
+      "lng": -110.78688951337891,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794833"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794833",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794833",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Summit Lake Hot Springs",
+      "lat": 44.410752035112225,
+      "lng": -110.9529815083049,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794849"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794849",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794849",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shoshone Geyser",
+      "lat": 44.35441051236398,
+      "lng": -110.80090806025584,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794850"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794850",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794850",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Heart Lake Geyser",
+      "lat": 44.28994813183166,
+      "lng": -110.50466088588415,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794851"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794851",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794851",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bechler River Hot Springs",
+      "lat": 44.28342149574726,
+      "lng": -110.90283207032043,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794852"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794852",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794852",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Crawfish Creek Hot Springs",
+      "lat": 44.15875450163193,
+      "lng": -110.6964100049997,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794855"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794855",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794855",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "South Entrance Hot Springs",
+      "lat": 44.1416955030201,
+      "lng": -110.65724899313255,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794857"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794857",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794857",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Boundary Creek Hot Springs",
+      "lat": 44.24366987913545,
+      "lng": -111.0211423590771,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794859"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794859",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794859",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Heart Lake Geyser Basin - Middle Group",
+      "lat": 44.29676953122515,
+      "lng": -110.51633598959455,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1794923"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1794923",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1794923",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Old Tardy Geyser",
+      "lat": 44.46573952012142,
+      "lng": -110.83650608780484,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829153"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829153",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829153",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Penta Geyser",
+      "lat": 44.465601520583995,
+      "lng": -110.83661308793495,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829155"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829155",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829155",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Percolator Geyser",
+      "lat": 44.46641352021723,
+      "lng": -110.83702108746564,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829156"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829156",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829156",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rift Geyser",
+      "lat": 44.465953520245485,
+      "lng": -110.83654908746253,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829157"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829157",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829157",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Uncertain Geyser",
+      "lat": 44.465402520360676,
+      "lng": -110.83654908746253,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829158"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829158",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829158",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Vent Geyser",
+      "lat": 44.46688382012476,
+      "lng": -110.83716778774144,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829159"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829159",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829159",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "West Triplet Geyser",
+      "lat": 44.466321520128204,
+      "lng": -110.8368710876778,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829160"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829160",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829160",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "East Triplet Geyser",
+      "lat": 44.46629052003074,
+      "lng": -110.83672108788997,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829162"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829162",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829162",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Link Geyser",
+      "lat": 44.47425352092606,
+      "lng": -110.84219209027836,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829163"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829163",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829163",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Churn Geyser",
+      "lat": 44.46577272012496,
+      "lng": -110.83688998733308,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1829164"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1829164",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1829164",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Young Hopeful Geyser",
+      "lat": 44.544230533026834,
+      "lng": -110.78603809015262,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848370"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848370",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848370",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Anemone Geyser",
+      "lat": 44.46264552080289,
+      "lng": -110.82878108570617,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848494"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848494",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848494",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bronze Geyser",
+      "lat": 44.35355121204317,
+      "lng": -110.79911225973092,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848504"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848504",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848504",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Deluge Geyser",
+      "lat": 44.30621353143625,
+      "lng": -110.52738699415121,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848520"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848520",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848520",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Flood Geyser",
+      "lat": 44.529106427400066,
+      "lng": -110.82855649700367,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848529"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848529",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848529",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Little Bulger Geyser",
+      "lat": 44.35520751246739,
+      "lng": -110.79766705998328,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848548"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848548",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848548",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Little Giant Geyser",
+      "lat": 44.35632911300305,
+      "lng": -110.79744566030003,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848549"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848549",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848549",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Minute Geyser",
+      "lat": 44.72776355886306,
+      "lng": -110.70095710449138,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848553"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848553",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848553",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Minute Man Geyser",
+      "lat": 44.35421071209993,
+      "lng": -110.80043566050242,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848554"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848554",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848554",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Occasional Geyser",
+      "lat": 44.42227853938925,
+      "lng": -110.57420702416445,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848563"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848563",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848563",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pump Geyser",
+      "lat": 44.46380952093006,
+      "lng": -110.82955408600814,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848575"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848575",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848575",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shell Geyser",
+      "lat": 44.484661120213595,
+      "lng": -110.85661239519136,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848586"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848586",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848586",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shield Geyser",
+      "lat": 44.35460951225912,
+      "lng": -110.79852606049899,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848587"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848587",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848587",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Steamboat Geyser",
+      "lat": 43.268336560399746,
+      "lng": -108.89529146887254,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848598"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848598",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848598",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Tardy Geyser",
+      "lat": 43.01778653621667,
+      "lng": -108.85251142050849,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848603"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848603",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848603",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Union Geyser",
+      "lat": 44.35233851188029,
+      "lng": -110.79912706037352,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848609"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848609",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848609",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "White Geyser",
+      "lat": 44.459108519596924,
+      "lng": -110.83444608646664,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1848614"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1848614",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1848614",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kidney Geyser",
+      "lat": 44.55843653243156,
+      "lng": -110.80745209755611,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953347"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953347",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953347",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Spindle Geyser",
+      "lat": 44.53161253050896,
+      "lng": -110.7953290902518,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953352"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953352",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953352",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Catfish Geyser",
+      "lat": 44.518930526438695,
+      "lng": -110.82777309510901,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953353"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953353",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953353",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "River Geyser",
+      "lat": 44.517339525817306,
+      "lng": -110.831764095219,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953354"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953354",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953354",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Till Geyser",
+      "lat": 44.513223525474274,
+      "lng": -110.83116409516938,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953355"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953355",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953355",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "West Trail Geyser",
+      "lat": 44.459106119686375,
+      "lng": -110.83661228663772,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953365"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953365",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953365",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Biscuit Basin Geyser",
+      "lat": 44.481724520634884,
+      "lng": -110.8506470930213,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953378"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953378",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953378",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Beach Geyser",
+      "lat": 44.41522413897683,
+      "lng": -110.56910762157148,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953383"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953383",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953383",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Overhanging Geyser",
+      "lat": 44.423964539135966,
+      "lng": -110.5743150241195,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953384"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953384",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953384",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Heart Lake Geyser Basin - Rustic Group",
+      "lat": 44.28189253057981,
+      "lng": -110.50632758502802,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953427"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953427",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953427",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Heart Lake Geyser Basin - Upper Group",
+      "lat": 44.30966953099273,
+      "lng": -110.53410619574537,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953428"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953428",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953428",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Rusty Geyser",
+      "lat": 44.48438352089018,
+      "lng": -110.85216789408489,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953435"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953435",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953435",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Porcupine Hill Geyser",
+      "lat": 44.57124653303993,
+      "lng": -110.81150710083348,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953438"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953438",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953438",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Terrace Hot Spring",
+      "lat": 44.649666763336874,
+      "lng": -110.56605136163375,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953457"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953457",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953457",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Porkchop Geyser",
+      "lat": 44.72274755767563,
+      "lng": -110.71009910552596,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953488"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953488",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953488",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Steamboat Geyser",
+      "lat": 44.724592558145496,
+      "lng": -110.70351210450056,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953490"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953490",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953490",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Crater Hills Geyser",
+      "lat": 44.653641571509915,
+      "lng": -110.48063104456044,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "1953494"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "1953494",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1953494",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Elkhorn Warm Spring",
+      "lat": 43.659526360923,
+      "lng": -111.71627113525614,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "372610"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "372610",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/372610",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hawley Warm Spring",
+      "lat": 43.65346676036167,
+      "lng": -111.70176920133157,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "373020"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "373020",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/373020",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hot Springs",
+      "lat": 43.64408676179845,
+      "lng": -111.6871953267258,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "373166"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "373166",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/373166",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Warm River Spring",
+      "lat": 44.205244787764244,
+      "lng": -111.25049800127469,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "375733"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "375733",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/375733",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Warm Spring",
+      "lat": 43.03717427197174,
+      "lng": -112.00414709364972,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "375740"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "375740",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/375740",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fall Creek Falls",
+      "lat": 43.441311967897505,
+      "lng": -111.37718382870263,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "381561"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "381561",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/381561",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lower Mesa Falls",
+      "lat": 44.17547804793069,
+      "lng": -111.3196853398541,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "386232"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "386232",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/386232",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sheep Falls",
+      "lat": 44.08103855821581,
+      "lng": -111.09189987641635,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "390228"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "390228",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/390228",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sheep Falls",
+      "lat": 44.19992204375608,
+      "lng": -111.39385475925374,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "390229"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "390229",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/390229",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Upper Mesa Falls",
+      "lat": 44.18797814829685,
+      "lng": -111.32996354443307,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "392638"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "392638",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/392638",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Warm Springs",
+      "lat": 43.598317175191816,
+      "lng": -111.46546474455994,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "392872"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "392872",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/392872",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pincock Hot Springs",
+      "lat": 43.79130969840896,
+      "lng": -111.43635399964988,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "397992"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "397992",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/397992",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Heise Hot Springs",
+      "lat": 43.64353116199335,
+      "lng": -111.68552862668362,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "399070"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "399070",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/399070",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Alpine Hot Springs",
+      "lat": 43.23687126935201,
+      "lng": -111.10911563967886,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "399566"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "399566",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/399566",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bozeman Hot Springs",
+      "lat": 45.659935806095035,
+      "lng": -111.18524267942375,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "769174"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "769174",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/769174",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bear Trap Hot Springs",
+      "lat": 45.57437497491532,
+      "lng": -111.68466688181472,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "774670"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "774670",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/774670",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Puller Hot Springs",
+      "lat": 45.17103936956569,
+      "lng": -112.15388789268873,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "775487"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "775487",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/775487",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Warm Springs",
+      "lat": 45.23513867322147,
+      "lng": -112.1359257039853,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "778113"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "778113",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/778113",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Alpine Falls",
+      "lat": 45.39271660197234,
+      "lng": -110.95301087962143,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "778978"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "778978",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/778978",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Apex Falls",
+      "lat": 45.39716090173734,
+      "lng": -110.95606658080705,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "779095"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "779095",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/779095",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Arch Falls",
+      "lat": 45.427160704338796,
+      "lng": -110.96106678783309,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "779116"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "779116",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/779116",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Calamity Falls",
+      "lat": 45.16159630662125,
+      "lng": -109.52101619958798,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "780770"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "780770",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/780770",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cascade Falls",
+      "lat": 45.469665745509616,
+      "lng": -110.56021730871657,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "781000"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "781000",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/781000",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cedar Falls",
+      "lat": 45.23854583460548,
+      "lng": -111.51719957157864,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "781106"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "781106",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/781106",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Champagne Falls",
+      "lat": 45.407716402986665,
+      "lng": -110.95828888346254,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "781153"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "781153",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/781153",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Grotto Falls",
+      "lat": 45.43577170528078,
+      "lng": -110.96384468950869,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "784366"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "784366",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/784366",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Hoodoo Cascade",
+      "lat": 45.382990873825264,
+      "lng": -111.24524373990656,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "784983"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "784983",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/784983",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Horsetail Falls",
+      "lat": 45.44077251002554,
+      "lng": -110.91634308073992,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "785080"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "785080",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/785080",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ousel Falls",
+      "lat": 45.239101751330494,
+      "lng": -111.34163623437028,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "788521"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "788521",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/788521",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Palisades Falls",
+      "lat": 45.47077211158995,
+      "lng": -110.92856568875135,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "788603"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "788603",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/788603",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Potosi Hot Springs",
+      "lat": 45.58965543256775,
+      "lng": -111.89971751786602,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "789140"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "789140",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/789140",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sentinel Falls",
+      "lat": 45.15646890511339,
+      "lng": -109.52851093293658,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "790228"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "790228",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/790228",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Shower Falls",
+      "lat": 45.39938310189408,
+      "lng": -110.9568998814208,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "790463"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "790463",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/790463",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Silken Skein Falls",
+      "lat": 45.419938604734455,
+      "lng": -110.95245538480593,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "790490"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "790490",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/790490",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Specimen Falls",
+      "lat": 45.05740000883404,
+      "lng": -110.48047072223167,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "791142"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "791142",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/791142",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Taylor Falls",
+      "lat": 45.03660092534879,
+      "lng": -111.40747131093933,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "791918"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "791918",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/791918",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Twin Falls",
+      "lat": 45.43021600352849,
+      "lng": -110.97662279143731,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "792510"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "792510",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/792510",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Upper Big Timber Falls",
+      "lat": 46.04022523053148,
+      "lng": -110.24770684938825,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "792610"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "792610",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/792610",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Warm Springs",
+      "lat": 45.6015999331341,
+      "lng": -111.9016620210115,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "792827"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "792827",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/792827",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Wolf Creek Hot Spring",
+      "lat": 44.9840992011397,
+      "lng": -111.61692384556599,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "793455"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "793455",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/793455",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pioneer Falls",
+      "lat": 45.41493506215935,
+      "lng": -111.40525108069718,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "793717"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "793717",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/793717",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Impasse Falls",
+      "lat": 45.117727484806736,
+      "lng": -109.742408667559,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "794084"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "794084",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/794084",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Charlie Falls",
+      "lat": 45.12217188719617,
+      "lng": -109.72435226265023,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "794085"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "794085",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/794085",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Palisade Falls",
+      "lat": 45.47160531129495,
+      "lng": -110.93634379026645,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "794539"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "794539",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/794539",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Knowles Falls",
+      "lat": 45.01201940735249,
+      "lng": -110.59461408481314,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "801019"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "801019",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/801019",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Woodbine Falls",
+      "lat": 45.353558195934376,
+      "lng": -109.8854690407831,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "806098"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "806098",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/806098",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "S'il Vous Plait Falls",
+      "lat": 45.39382770163805,
+      "lng": -110.95328868002979,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "806833"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "806833",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/806833",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Passage Falls",
+      "lat": 45.24216652883627,
+      "lng": -110.49715875311254,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "806997"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "806997",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/806997",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
