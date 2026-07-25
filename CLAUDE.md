@@ -83,6 +83,16 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 PROMOTED 1.5.13 + 1.5.14 to main (Noah's "Promote"). Production ==
+  origin/staging == origin/main == 5c132c0 (clean 2-commit fast-forward from
+  1.5.12 / bd74f03). Ships: 1.5.13 (oddity split into Ghost town/Waterfall/Hot
+  spring/Lighthouse/Ruins pin types + filter buttons, refineCategory at load) and
+  1.5.14 (collapsible "Filters" header so the chips don't eat half a phone screen
+  — fixes the "half the screen is covered, tiles won't open" regression). Noah's
+  trigger: "no way to turn on ghost towns on a normal layer" — the dedicated
+  Ghost town button existed only on staging until this promote. staging == main
+  after this. NO GitHub metadata step. STILL OWED: source #2 (specific OSM feature
+  tags) + source #3 (USGS GNIS) from the "three sources" ask.
 - 2026-07-25 1.5.14 "Collapsible filters (map fills the screen)" (an ITERATION,
   mobile BUG FIX) BUILT on staging (awaiting on-device pass). Noah (phone
   screenshot, v1.5.12): "Half the screen is covered and tiles won't open now
