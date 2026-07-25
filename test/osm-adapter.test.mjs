@@ -61,3 +61,14 @@ test('adapter declares its license', () => {
   assert.equal(meta.license, 'ODbL-1.0');
   assert.match(meta.attribution, /OpenStreetMap/);
 });
+
+test('a specific feature tag wins over the generic oddity rule (feature-first)', () => {
+  // Old Faithful carries BOTH natural=geyser and tourism=attraction. The feature
+  // rule must win so it gets a Hot spring curiosity kind, not a bare oddity.
+  const el = {
+    type: 'node', id: 99, lat: 44.46, lon: -110.83,
+    tags: { name: 'Old Faithful', natural: 'geyser', tourism: 'attraction' },
+  };
+  const rec = normalizeElement(el, '2026-07-19');
+  assert.equal(rec.tags.curiosity, 'Hot spring');
+});
