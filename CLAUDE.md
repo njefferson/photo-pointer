@@ -83,6 +83,30 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.6.0 "Search and near-me" (a CAPABILITY) BUILT on staging (awaiting
+  on-device pass). Noah asked for search + a distance filter as the groundwork
+  under an events layer ("do them in that order": #1 search+distance, #2 events,
+  #3 NOAA tides). (A) SEARCH — a full-width `.search-row` name box under the
+  region pills (main.renderHeader), module `searchQuery`. Filters BOTH views by
+  name, OVERRIDING the pin-type/layer/distance filters: spotsForList returns
+  spotsForMap().filter(matchesSearch) when a query is set; syncMapFilter sets
+  setSpotFilter(matchIds) which overrides category visibility in cull() — so a
+  name match shows even with its type off. Typing calls a NEW refreshViews()
+  (syncMapFilter + renderListView, NO renderHeader) so the input keeps focus.
+  (B) DISTANCE — a "Within distance of me" filter group (Any/5/10/25/50 mi,
+  module `distanceMi`), withinDistance() via geo.distanceM; composes with the
+  category+layer filters on both views. (C) ONE SHARED GEO FIX — new
+  main.ensureLocation(then)/userLoc/geoStatus serves BOTH the distance filter and
+  the list's Distance sort; listview.js NO LONGER runs its own getCurrentPosition
+  (took its userLoc/locating/geoFailed OUT) — it takes userLoc + geoStatus +
+  onRequestLocation + searchQuery as props, so the user is prompted at most once.
+  List note shows "N results for '<q>'"; empty search → "No places match '<q>'".
+  Search suppresses the all-off filter-tip. sw CACHE pointer-1.6.0; changelog[0]
+  1.6.0. VERIFIED headless (smoke-filters.mjs, geo granted 38.68/-121.0): search
+  "Falls" → 29 results across categories with ALL pin types off (Pecker Falls…);
+  5 mi narrows 300→70; dist chips use the standard toggle look; ZERO pageerrors.
+  111 tests + contrast green. NEXT (in order): #2 events layer (schedule model +
+  Upcoming view, curated + computed celestial events), then #3 NOAA tides.
 - 2026-07-25 PROMOTED source #3 (GNIS) to main (Noah's "promote"). Production ==
   origin/staging == origin/main == 2b563ad (clean 4-commit fast-forward). ALL
   THREE curiosity sources are now COMPLETE and live: #1 Wikidata curiosities, #2
