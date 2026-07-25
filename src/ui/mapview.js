@@ -9,6 +9,7 @@ import { moonTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
 import { airToday } from '../model/airquality.js';
 import { tidesToday, formatTides } from '../model/tides.js';
+import { flowNow, formatFlow } from '../model/streamflow.js';
 import { nextOccurrence, formatEventWhen } from '../model/events.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
@@ -548,6 +549,27 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     return p;
   }
 
+  // Live river flow near a WATER spot (USGS, US public domain) — "is the fall
+  // actually running, and is that high or low for the date?". Non-water spots and
+  // spots with no gauge nearby REMOVE the line rather than show a meaningless
+  // number. Fails soft.
+  function flowLine(spot) {
+    const p = el('p', { class: 'popup-flow' }, 'Water now: checking…');
+    flowNow(spot, activeRegion).then((f) => {
+      const text = formatFlow(f);
+      if (!text) { p.remove(); return; }
+      p.replaceChildren(
+        el('strong', {}, 'Water now: '),
+        text.replace(/^Water now: /, ''),
+        el('a', {
+          class: 'popup-srclink', href: `https://waterdata.usgs.gov/monitoring-location/${f.siteId}/`,
+          target: '_blank', rel: 'noopener',
+        }, ' USGS gauge →')
+      );
+    }).catch(() => { p.remove(); });
+    return p;
+  }
+
   // The clearest reference page for a marker: an HMdb page (from a Wikidata
   // HMdb id, or a URL in the OSM `note`/`website`), else any URL we have.
   function markerRef(spot) {
@@ -723,6 +745,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         el('summary', {}, 'Tonight & light ▾'),
         lightSection(spot),
         tideLine(spot),
+        flowLine(spot),
         airLine(spot),
         tonightSection(spot),
       ]),
