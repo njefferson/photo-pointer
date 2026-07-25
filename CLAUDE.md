@@ -83,6 +83,39 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 PROMOTED source #3 (GNIS) to main (Noah's "promote"). Production ==
+  origin/staging == origin/main == 2b563ad (clean 4-commit fast-forward). ALL
+  THREE curiosity sources are now COMPLETE and live: #1 Wikidata curiosities, #2
+  OSM feature tags, #3 USGS GNIS. GNIS counts by region: Yellowstone 252 (104
+  waterfalls + 148 hot springs — the `Geyser` GNIS class addition lit it up),
+  Sacramento 8 (waterfalls: Eagle/Bassi/Codfish Falls), Humboldt 5 (waterfalls),
+  Reno 3 (hot springs), panama-city-beach 1 (waterfall), Hahira 0 (genuine —
+  flat GA, no named falls/caves/hot springs, same as its source #2). All 7 gnis
+  runs succeeded. california-ghost-towns excluded by design (curiosity-only).
+  GNIS features are `oddity` spots carrying tags.curiosity → refineCategory
+  splits Waterfall/Hot spring pins at load; dedup source_priority puts gnis last
+  so a coincident OSM/Wikidata point keeps its category while the curiosity tag
+  survives the merge. This is the LAST of the "three sources" ask — nothing owed
+  after this. NO app version bump (pure data + the display path already exists);
+  NO GitHub metadata step.
+- 2026-07-25 SOURCE #3 (USGS GNIS) TOOLING built + verified (before the promote
+  above). ingest/adapters/gnis.mjs queries The National Map geonames ArcGIS REST
+  MapServer (US public domain, no key) — bbox + `gaz_featureclass IN (Falls,Arch,
+  Cave,Spring,Geyser)`. KEY LESSONS from the runner (sandbox 403s the service, so
+  verified on Actions like WDQS/Overpass): (1) the service SPLITS features across
+  ~11 category layers (Landforms, Other Hydrographic Features [waterfalls live
+  HERE, not Landforms], Historical Physical/Hydrographic, Populated Places, …) —
+  a single-layer query got 2/region; FIX = pickLayers queries EVERY layer with a
+  gaz_featureclass field, dedup by gaz_id across them, SKIP the non-natural ones
+  (/place|civil|census|crossing|antarctic|political|boundary/). (2) the Antarctica
+  layer 400s a US-bbox query — getJson now FAILS FAST on 4xx (err.fatal, no retry)
+  instead of wasting ~10s. (3) Added the `Geyser` class (→ Hot spring) or
+  Yellowstone's geysers are missed. (4) plain (cold) Spring is skipped unless the
+  name matches /hot|warm|thermal|geyser/. Falls→Waterfall, Arch→Natural arch,
+  Cave→Cave, all as category 'oddity' + tags.curiosity (refineCategory reclassifies
+  at load, same as #1/#2). `gnis` command + gnis.yml workflow (on main for
+  dispatchability) + `all` includes it; dedup SOURCE_PRIORITY gains 'gnis' (last);
+  6 adapter tests (111 total). Runner-only.
 - 2026-07-25 SOURCE #2 COMPLETE across all OSM regions (on staging). Final
   osm-features counts: Sacramento 6 (3 caves→oddity, 3 archaeological→ruins),
   Yellowstone 714 (701 hot springs + caves/shipwreck/arch), Humboldt 7 (4
