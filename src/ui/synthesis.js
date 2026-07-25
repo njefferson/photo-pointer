@@ -23,11 +23,16 @@ export function synthesisBreakdown(result) {
   ]);
 }
 
+// 0–100 score → a plain word tier (survives grayscale, and gives the bare
+// number a meaning). Shared by the popup badge and the Top-spots rows.
+function scoreTier(pct) {
+  return pct >= 66 ? 'strong' : pct >= 33 ? 'good' : 'basic';
+}
+
 function scoreBadge(score) {
   // Text, not color: a 0–100 number + a word tier (survives grayscale).
   const pct = Math.round(score * 100);
-  const tier = pct >= 66 ? 'strong' : pct >= 33 ? 'good' : 'basic';
-  return `${pct} · ${tier}`;
+  return `${pct} · ${scoreTier(pct)}`;
 }
 
 // The Top-spots dialog. `ranked` = [{spot, score, parts}]; onGo(spot) focuses
@@ -102,6 +107,7 @@ export function topSpotsPanel(ranked, onGo, { onFilter } = {}) {
     el('p', { class: 'top-sub' }, 'Ranked by how many layers line up — the thing one map can do that separate apps can’t.'),
     el('p', { class: 'top-hint' }, 'Optional filters, all off to start. Tap a layer once to require it (✓ must have), again to exclude it (✕), again to clear.'),
     reqs,
+    el('p', { class: 'top-legend' }, 'The number on the right is each spot’s overall photo score out of 100 — higher means more of these layers line up strongly.'),
     list,
     el('button', { class: 'dialog-close', onClick: () => dlg.close() }, 'Close')
   );
@@ -118,12 +124,18 @@ export function topSpotsPanel(ranked, onGo, { onFilter } = {}) {
 
 function topRow(r, i, onClick) {
   const meta = CATEGORY_META[r.spot.category] ?? { label: r.spot.category, letter: '?' };
+  const pct = Math.round(r.score * 100);
   return el('button', { class: 'top-row', onClick }, [
     el('span', { class: `pin pin-${r.spot.category} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
     el('span', { class: 'top-row-main' }, [
       el('span', { class: 'top-row-name' }, r.spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
       el('span', { class: 'top-row-why' }, r.parts.map((p) => p.label).join(' · ')),
     ]),
-    el('span', { class: 'top-row-score' }, `${Math.round(r.score * 100)}`),
+    // Labeled score, not a bare number: the "/100" caption + the aria-label make
+    // it read as a photo score (0–100), not a rank or a count of layers.
+    el('span', { class: 'top-row-score', 'aria-label': `Photo score ${pct} out of 100 — ${scoreTier(pct)}` }, [
+      el('span', { class: 'score-num', 'aria-hidden': 'true' }, `${pct}`),
+      el('span', { class: 'score-cap', 'aria-hidden': 'true' }, '/ 100'),
+    ]),
   ]);
 }

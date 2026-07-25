@@ -102,7 +102,10 @@ function renderHeader() {
         el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
         el('button', { class: `vt-btn${viewMode === 'list' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'list'), onClick: () => setViewMode('list') }, 'List'),
       ]),
-      el('button', { class: 'data-btn icon-btn top-btn', 'aria-label': 'Top spots', title: 'Top spots', onClick: openTopSpots }, '🏆'),
+      el('button', { class: 'data-btn top-btn', 'aria-label': 'Top spots', title: 'Top spots', onClick: openTopSpots }, [
+        el('span', { class: 'top-btn-glyph', 'aria-hidden': 'true' }, '🏆'),
+        el('span', { class: 'top-btn-label' }, 'Top spots'),
+      ]),
       el('button', { class: 'data-btn icon-btn', 'aria-label': 'Backup & data', title: 'Backup', onClick: openDataDialog }, '⤓'),
       el('button', {
         class: 'data-btn icon-btn info-btn',

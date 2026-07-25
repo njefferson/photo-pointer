@@ -83,6 +83,34 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.5.4 "Clearer Top spots" (an ITERATION, UX clarity) BUILT on
+  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the Top-spots button
+  label + score legend feel on a real device). Noah's feedback (screenshot):
+  the 🏆 trophy icon "hides too much that is not intuitive" and "what do those
+  numbers to the right of the names mean?" The bare number was `Math.round(
+  score*100)` — the composite cross-layer score — shown with NO label, and the
+  panel's own blurb said "how many layers line up" (sounds like a COUNT, but
+  it's a weighted 0–100 score). Built 1+3 of the three options offered (2, the
+  count-vs-score wording change, deferred to Noah). CHANGES: (1) LABEL THE NUMBER
+  (ui/synthesis.js): new `.top-legend` line above the list ("The number on the
+  right is each spot's overall photo score out of 100 — higher means more of
+  these layers line up strongly."); each row's score is now a stacked badge —
+  `.score-num` (the number) + `.score-cap` "/ 100" caption + an aria-label
+  "Photo score N out of 100 — <tier>" (tier = strong≥66/good≥33/basic, factored
+  into a shared `scoreTier()` reused by the popup's scoreBadge). (3) SURFACE THE
+  TROPHY (main.js): the header button is no longer a lone 🏆 icon-btn — it's a
+  labeled `.top-btn` reading "🏆 Top spots" (glyph aria-hidden + text label),
+  like the Map/List toggle. .bar-actions gained flex-wrap so the wider toolbar
+  degrades gracefully on a narrow phone. sw CACHE pointer-1.5.4; changelog[0]
+  1.5.4. VERIFIED headless (playwright, Sacramento): button text "🏆 Top spots";
+  panel legend present; first row score-num 56 + cap "/ 100" + aria "Photo score
+  56 out of 100 — good"; 30 rows; screenshot eyeballed (toolbar fits, badges
+  read clean); ZERO pageerrors. 91 tests + check-contrast green (no new fg/bg
+  pairs — score-num is accent-on-bg and score-cap/legend are dim, both already
+  rendered pairs). BRANCH NOTE: landed on `staging` per the standing rule. NO
+  GitHub metadata step. DEFERRED (Noah's call): option 2 — whether the number
+  should stay a 0–100 score or become an actual layer COUNT, and/or reword the
+  "how many layers line up" blurb to match the score.
 - 2026-07-25 PROMOTED 1.5.3 to main (Noah's "Merge"). Production ==
   origin/staging == origin/main == bfd6ae9 (clean 2-commit fast-forward from
   1.5.2 / 9e5b52e). Ships the List-view fix: the header category buttons now
