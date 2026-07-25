@@ -474,7 +474,7 @@ body {
 .top-row-why { font-size: 11px; color: var(--dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .top-row-score { display: flex; flex-direction: column; align-items: center; line-height: 1.05; flex: none; }
 .score-num { font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent); }
-.score-cap { font-size: 9px; font-weight: 600; color: var(--dim); letter-spacing: 0.02em; }
+.score-cap { font-size: 9px; font-weight: 600; color: var(--dim); letter-spacing: 0.02em; text-transform: capitalize; }
 .top-empty { color: var(--dim); font-size: 13px; }
 
 /* Dark-sky overlay legend (a Leaflet control). Solid card bg + dark text so

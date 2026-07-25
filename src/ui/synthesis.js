@@ -23,15 +23,25 @@ export function synthesisBreakdown(result) {
   ]);
 }
 
-// 0–100 score → a plain word tier (survives grayscale, and gives the bare
-// number a meaning). Shared by the popup badge and the Top-spots rows.
+// Score → a plain strength word (survives grayscale, and anchors the bare
+// number so it reads as quality, not a grade). Shared by the popup badge and
+// the Top-spots rows.
+//
+// Thresholds are calibrated to the REAL score distribution, NOT a 0–100 grade
+// curve. The composite score is relative — a spot's share of EVERY layer the
+// app tracks — and no place fires every layer, so it's structurally low-topped.
+// Measured across all five regions (2026-07-25): each region's #1 lands 48–60,
+// the median spot ~30. So the old 66/33 cut-offs were unreachable (nothing ever
+// read "strong"). Grounded cut-offs instead:
+const STRONG_MIN = 48; // ≥48 → "strong": the region's very best (every region's #1 clears it)
+const GOOD_MIN = 30;   // ≥30 → "good": solidly above the ~30 median; below → "basic"
 function scoreTier(pct) {
-  return pct >= 66 ? 'strong' : pct >= 33 ? 'good' : 'basic';
+  return pct >= STRONG_MIN ? 'strong' : pct >= GOOD_MIN ? 'good' : 'basic';
 }
 
 function scoreBadge(score) {
-  // Text, not color: a 0–100 number + a word tier (survives grayscale).
-  const pct = Math.round(score * 100);
+  // Text, not color: the number + a strength word (survives grayscale).
+  const pct = Math.round(score * 100); // 0..1 composite → a friendlier whole number
   return `${pct} · ${scoreTier(pct)}`;
 }
 
@@ -124,19 +134,21 @@ export function topSpotsPanel(ranked, onGo, { onFilter } = {}) {
 
 function topRow(r, i, onClick) {
   const meta = CATEGORY_META[r.spot.category] ?? { label: r.spot.category, letter: '?' };
-  const pct = Math.round(r.score * 100);
+  const pct = Math.round(r.score * 100); // 0..1 composite → a friendlier whole number
+  const tier = scoreTier(pct); // strong / good / basic — anchors the number
   return el('button', { class: 'top-row', onClick }, [
     el('span', { class: `pin pin-${r.spot.category} pin-inline`, 'aria-hidden': 'true' }, meta.letter),
     el('span', { class: 'top-row-main' }, [
       el('span', { class: 'top-row-name' }, r.spot.name ?? `(unnamed ${meta.label.toLowerCase()})`),
       el('span', { class: 'top-row-why' }, r.parts.map((p) => p.label).join(' · ')),
     ]),
-    // Labeled score, not a bare number. Deliberately NO "/100" denominator: the
-    // score is relative (top spots top out ~mid-50s), so a "56/100" reads like a
-    // failing grade. A "score" caption + "higher is better" aria say what it is.
-    el('span', { class: 'top-row-score', 'aria-label': `Photo score ${pct} — higher is better` }, [
+    // The number + its strength word. Deliberately NO "/100" denominator: the
+    // score is relative (top spots top out ~mid-50s), so "56/100" read like a
+    // failing grade. The strength word (.score-cap, capitalized in CSS) tells
+    // the user what the number means; the aria-label spells it out.
+    el('span', { class: 'top-row-score', 'aria-label': `Photo score ${pct} — ${tier}, higher is better` }, [
       el('span', { class: 'score-num', 'aria-hidden': 'true' }, `${pct}`),
-      el('span', { class: 'score-cap', 'aria-hidden': 'true' }, 'score'),
+      el('span', { class: 'score-cap', 'aria-hidden': 'true' }, tier),
     ]),
   ]);
 }

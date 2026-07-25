@@ -83,9 +83,37 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
-- 2026-07-25 1.5.5 "Clearer Top spots" (an ITERATION, UX clarity) BUILT on
-  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the Top-spots button
-  label + score legend/caption feel on a real device). SUPERSEDES the same-day
+- 2026-07-25 1.5.6 "Clearer Top spots" (an ITERATION, UX clarity + a SCORING
+  recalibration) BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS:
+  the Top-spots button label + the Strong/Good/Basic strength words on a real
+  device). ADDS to the 1.5.5 work below (Noah: "Update scoring and put comments
+  by numbers when used"): (A) RECALIBRATED THE TIERS to the real distribution.
+  MEASURED every region's score spread (script, all 5 regions, keepSpot-filtered):
+  each region's #1 lands 48–60 (Humboldt 60, Yellowstone 59, Sac 56, PCB 51,
+  Hahira 49), median spot ~30. The OLD scoreTier cut-offs (strong≥66/good≥33)
+  were UNREACHABLE — nothing ever read "strong", the app's best all read "good"
+  and ~half "basic". NEW cut-offs STRONG_MIN=48 / GOOD_MIN=30 (named consts, ui/
+  synthesis.js) → every region's #1 now reads "strong"; verified top-30 tiers:
+  Humboldt/Yellowstone 30 strong, Sac 22 strong/8 good, Hahira & PCB 1 strong/29
+  good, 0 basic in any top-30. The raw NUMBER is unchanged (still honest, not
+  inflated) — only the word mapping moved. (B) SURFACED THE STRENGTH WORD in the
+  Top-spots list: each row's `.score-cap` now shows the tier (Strong/Good/Basic,
+  capitalized in CSS) instead of the literal "score", anchoring the number so it
+  doesn't read as a grade; aria-label "Photo score N — <tier>, higher is better".
+  The popup "Why this spot" badge (scoreBadge) picks up the same recalibrated
+  tiers automatically (single source). (C) COMMENTED THE NUMBERS (Noah's ask):
+  every magic literal in the scoring path now has a trailing/adjacent comment —
+  the tier cut-offs (with the distribution behind them), a WEIGHT SCALE block
+  above SIGNALS, and per-signal constants (layered 0.4/0.2, wildlife /300 + 3 km
+  + ×0.8, view 0.7/0.5/+0.3, openHorizon 0.75/0.45, access map, publicLand
+  0.9/0.6, darkSky /8, the ×100 display). sw CACHE pointer-1.5.6; changelog[0]
+  1.5.6 (folded — 1.5.5 never promoted). VERIFIED headless (playwright, Sac):
+  rows read "56 Strong / 54 Strong / …"; 91 tests + check-contrast green (no new
+  fg/bg pairs); ZERO pageerrors; screenshot eyeballed. This RESOLVES the deferred
+  tier-recalibration note from 1.5.5. BRANCH NOTE: on `staging` per the standing
+  rule. NO GitHub metadata step.
+  ---- 1.5.5 (folded into 1.5.6 above; kept for the reasoning trail) ----
+  1.5.5 "Clearer Top spots" SUPERSEDES the same-day
   1.5.4 build (never promoted): 1.5.4 first labeled the number "N / 100", but
   Noah flagged "it looks like a failing grade in use" — the region's BEST spots
   top out ~mid-50s (the score is Σ(value·weight)/Σ(weights of ALL live signals),

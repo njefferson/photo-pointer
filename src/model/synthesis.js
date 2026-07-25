@@ -18,6 +18,12 @@ import { sunTimesFor, compass } from './light.js';
 //   value: 0..1 contribution   note: short human explanation
 //   return null when the signal doesn't apply to this spot (excluded from the
 //   score's denominator — absence never penalizes).
+//
+// WEIGHT SCALE (relative importance in the composite; 1.0 = baseline):
+//   1.2 darkSky   — the rarest/most decisive layer for photographers, weighted up
+//   1.0 layered, wildlife — the core "this place has more than one thing" signals
+//   0.8 view, openHorizon — strong but common; 0.7 iNatWildlife; 0.6 commons,
+//   publicLand; 0.5 access — supporting layers. Tuning these re-ranks Top spots.
 export const SIGNALS = [
   {
     key: 'layered',
@@ -28,6 +34,9 @@ export const SIGNALS = [
     evaluate(spot) {
       const sources = new Set((spot.sources ?? []).map((s) => s.source)).size;
       const subjects = new Set(spot.subject_type ?? []).size;
+      // Each EXTRA source counts 0.4, each extra subject 0.2 (sources — OSM +
+      // eBird + Wikidata — are stronger evidence of overlap than subject tags);
+      // clamp 0..1 so ~3 sources or a source+2 subjects saturates.
       const value = clamp((sources - 1) * 0.4 + Math.max(0, subjects - 1) * 0.2, 0, 1);
       if (value <= 0) return null;
       const bits = [];
@@ -43,11 +52,15 @@ export const SIGNALS = [
     evaluate(spot, ctx) {
       if (spot.category === 'wildlife_hotspot') {
         const n = spot.tags?.ebird_species ?? null;
+        // Species richness saturates at 300 (a very birdy hotspot); floor 0.3 so
+        // any hotspot counts, 0.5 when the count is unknown.
         return { value: n ? clamp(n / 300, 0.3, 1) : 0.5, note: n ? `${n} species reported` : 'birding hotspot' };
       }
-      const near = ctx.nearest(spot, 'wildlife_hotspot', 3000);
+      const near = ctx.nearest(spot, 'wildlife_hotspot', 3000); // look within 3 km
       if (!near) return null;
       const km = near.distM / 1000;
+      // Fades linearly over 3 km, then ×0.8 since "hotspot nearby" is weaker
+      // evidence than "this IS a hotspot" above.
       return { value: clamp(1 - km / 3, 0, 1) * 0.8, note: `hotspot ${km.toFixed(1)} km away` };
     },
   },
@@ -75,6 +88,8 @@ export const SIGNALS = [
       const openCats = new Set(['viewpoint', 'park', 'oddity', 'dark_sky']);
       const landscapey = (spot.subject_type ?? []).some((s) => ['landscape', 'water', 'night_sky'].includes(s));
       if (!openCats.has(spot.category) && !landscapey) return null;
+      // A named viewpoint starts at 0.7, any other open place at 0.5; a known
+      // facing direction adds 0.3 (OSM tells us which way it looks). Clamp 0..1.
       let value = spot.category === 'viewpoint' ? 0.7 : 0.5;
       if (spot.tags?.direction != null) value += 0.3; // OSM knows which way it faces
       value = clamp(value, 0, 1);
@@ -97,6 +112,7 @@ export const SIGNALS = [
       const parts = [];
       if (h.e != null) parts.push(`E ${h.e}°`);
       if (h.w != null) parts.push(`W ${h.w}°`);
+      // open is 0..1 (share of sky clear of terrain): ≥0.75 wide open, ≥0.45 fairly open.
       const desc = h.open >= 0.75 ? 'wide open' : h.open >= 0.45 ? 'fairly open' : 'ridged';
       return { value: clamp(h.open, 0, 1), note: parts.length ? `${desc} (${parts.join(', ')})` : desc };
     },
@@ -122,6 +138,8 @@ export const SIGNALS = [
     label: 'Easy to reach',
     weight: 0.5,
     evaluate(spot) {
+      // Easier access scores higher: drive-up = 1, short walk 0.8, hike 0.5,
+      // strenuous 0.2 (still worthwhile, just harder to reach).
       const map = { roadside: 1, short_walk: 0.8, hike: 0.5, strenuous: 0.2 };
       const v = map[spot.access_difficulty];
       if (v == null) return null; // 'unknown' doesn't penalize
@@ -139,6 +157,7 @@ export const SIGNALS = [
       const pl = spot.tags?.publicLand;
       if (!pl) return null;
       const openish = /national_park|nature_reserve|park|forest|1[abc]?|2|3|4|5/.test(String(pl.class ?? ''));
+      // Open-access public land 0.9; other protected classes 0.6 (access varies).
       return { value: openish ? 0.9 : 0.6, note: pl.name || pl.class || 'public land' };
     },
   },
@@ -152,6 +171,7 @@ export const SIGNALS = [
     evaluate(spot) {
       const b = spot.tags?.bortle;
       if (b == null) return null;
+      // Bortle 1 (darkest) → 1.0, Bortle 9 (inner city) → 0.0; /8 spans the scale.
       return { value: clamp((9 - b) / 8, 0, 1), note: `Bortle ${b}` };
     },
   },
