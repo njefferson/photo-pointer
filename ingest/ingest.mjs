@@ -30,6 +30,7 @@ import * as ebird from './adapters/ebird-hotspots.mjs';
 import * as publicLands from './adapters/public-lands.mjs';
 import * as inaturalist from './adapters/inaturalist.mjs';
 import * as markers from './adapters/wikidata-markers.mjs';
+import * as curiosities from './adapters/wikidata-curiosities.mjs';
 import * as commons from './adapters/commons-photos.mjs';
 import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
@@ -163,6 +164,25 @@ async function cmdMarkers(id) {
     return;
   }
   await writeSource(P.sourcesDir, 'wikidata.json', markers.meta, region, records);
+}
+
+// Atlas-Obscura-type curiosities from Wikidata (CC0) → oddity spots. Its own
+// source file (wikidata-curiosities.json) that cmdMerge folds in like the rest.
+async function cmdCuriosities(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const records = await curiosities.ingest(region, { today, log });
+  if (records.length === 0) {
+    // 0-guard: don't clobber a good existing file with a transient empty fetch;
+    // a brand-new region with no curiosities just skips (doesn't abort `all`).
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'wikidata-curiosities.json'))) {
+      console.error('curiosities: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`curiosities: none for ${region.id} — skipping`);
+    return;
+  }
+  await writeSource(P.sourcesDir, 'wikidata-curiosities.json', curiosities.meta, region, records);
 }
 
 async function requireSpots(P, cmdName) {
@@ -410,9 +430,10 @@ const commands = {
   inaturalist: cmdINaturalist,
   commons: cmdCommons,
   markers: cmdMarkers,
+  curiosities: cmdCuriosities,
   merge: cmdMerge,
   validate: cmdValidate,
-  all: async (id) => { await cmdOsm(id); await cmdEbird(id); await cmdMarkers(id); await cmdMerge(id); await cmdValidate(id); },
+  all: async (id) => { await cmdOsm(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdMerge(id); await cmdValidate(id); },
 };
 if (!commands[cmd]) {
   console.error(`usage: node ingest/ingest.mjs <${Object.keys(commands).join('|')}> [regionId]`);

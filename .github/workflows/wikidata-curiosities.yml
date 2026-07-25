@@ -1,0 +1,48 @@
+name: Curiosities ingest (Wikidata)
+
+# Fetches Atlas-Obscura-type curiosities (Wikidata, CC0 — ghost towns, follies,
+# land art, roadside attractions, lighthouses, observation towers, natural
+# arches, waterfalls, hot springs) in the region, re-merges into the region's
+# spots (the merge is TAG-PRESERVING so existing enrichment survives), validates,
+# and commits. Dispatch via actions_run_trigger.
+#
+# No API key. The Wikidata Query Service needs a descriptive User-Agent (set in
+# the adapter) and is unreachable from the sandbox, so this runs on a runner.
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
+concurrency:
+  group: curiosities-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Fetch curiosities (Wikidata CC0)
+        run: node ingest/ingest.mjs curiosities "$REGION"
+      - name: Re-merge (tag-preserving) + validate
+        run: |
+          node ingest/ingest.mjs merge "$REGION"
+          node ingest/ingest.mjs validate "$REGION"
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add curiosities: ghost towns, arches, waterfalls and more" -m "Atlas-Obscura-type places in the region — ghost towns, follies, land art, roadside attractions, lighthouses, natural arches, waterfalls and hot springs — now show as oddity pins, each linking to Wikipedia. Facts from Wikidata (CC0)."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done
