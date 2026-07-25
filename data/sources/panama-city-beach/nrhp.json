@@ -1,0 +1,1012 @@
+{
+  "source": {
+    "source": "nrhp",
+    "name": "National Register of Historic Places (NPS)",
+    "license": "public-domain",
+    "attribution": "National Park Service — National Register of Historic Places",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "Keith Cabin",
+      "lat": 30.93705431400008,
+      "lng": -85.82380888499995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "00001281"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "00001281",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/00001281",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "SS Tarpon (Shipwreck)",
+      "lat": 30.123400693000065,
+      "lng": -85.94572814599996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "01000527"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "01000527",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/01000527",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "St. Luke Baptist Church",
+      "lat": 30.77327187900005,
+      "lng": -85.22313969299995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "03000008"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "03000008",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/03000008",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Port Theatre",
+      "lat": 29.81364083300008,
+      "lng": -85.30346174499994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "03000508"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "03000508",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/03000508",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sapp House",
+      "lat": 30.153764316000036,
+      "lng": -85.65815186799995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "03000991"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "03000991",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/03000991",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Latimer Cabin",
+      "lat": 30.279421307000064,
+      "lng": -85.98580762699999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "04000972"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "04000972",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/04000972",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Chipley City Hall",
+      "lat": 30.78155928700005,
+      "lng": -85.54021794399995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "05000216"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "05000216",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/05000216",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Vamar Shipwreck Site",
+      "lat": 29.89833623100003,
+      "lng": -85.46295590799997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "06000243"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "06000243",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/06000243",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Payne, A.A.--Christo, John Sr., House",
+      "lat": 30.161506958000075,
+      "lng": -85.67507656699996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "08000671"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "08000671",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/08000671",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Longwood House",
+      "lat": 30.87038588200005,
+      "lng": -85.16774029299995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100001735"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100001735",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bellamy Bridge",
+      "lat": 30.86582314700007,
+      "lng": -85.25135413099997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100004517"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100004517",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Panama Grammar School",
+      "lat": 30.161095636000027,
+      "lng": -85.65954846999995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100004888"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100004888",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Craven, Dr. James B. and Virginia, House",
+      "lat": 30.765633910000076,
+      "lng": -85.56957188699994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100004889"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100004889",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Herman Lodge No. 108 Free & Accepted Masons of Florida",
+      "lat": 30.493492779000064,
+      "lng": -86.13690599299997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100006121"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100006121",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Eden Mansion",
+      "lat": 30.37139670600004,
+      "lng": -86.11814533599994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100006749"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100006749",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lakeside Hospital",
+      "lat": 30.718827330000067,
+      "lng": -86.11623200699995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100006750"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100006750",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Panama City Publishing Company Building",
+      "lat": 30.169167539000057,
+      "lng": -85.70133072499993,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100006752"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100006752",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Cape San Blas Lighthouse at Port St. Joe",
+      "lat": 29.812888830000077,
+      "lng": -85.30667843799995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "15000208"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "15000208",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/15000208",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Fort Gadsden Historic Memorial",
+      "lat": 29.941593452000063,
+      "lng": -85.01241943599996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "72000318"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "72000318",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/72000318",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Great Oaks",
+      "lat": 30.870162236000056,
+      "lng": -85.16184837199995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "72000325"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "72000325",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/72000325",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Ely-Criglar House",
+      "lat": 30.776298177000058,
+      "lng": -85.23466066799995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "72000326"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "72000326",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/72000326",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "West, Theophilus, House",
+      "lat": 30.778850876000035,
+      "lng": -85.22538810099996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "72000328"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "72000328",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/72000328",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Chautauqua Hall of Brotherhood",
+      "lat": 30.716856105000033,
+      "lng": -86.11578229999998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "72000358"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "72000358",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/72000358",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Erwin House",
+      "lat": 30.87024888700006,
+      "lng": -85.16477500399998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "74000642"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "74000642",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/74000642",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Pender's Store",
+      "lat": 30.870572536000054,
+      "lng": -85.16215429099998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "74000643"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "74000643",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/74000643",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sun Bright",
+      "lat": 30.719846141000062,
+      "lng": -86.12159321899998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "79000693"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "79000693",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/79000693",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Old Calhoun County Courthouse",
+      "lat": 30.442387472000064,
+      "lng": -85.04601454899995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "80000943"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "80000943",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/80000943",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Russ, Joseph W., Jr., House",
+      "lat": 30.777324263000025,
+      "lng": -85.23581214999996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "83001425"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "83001425",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/83001425",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Moss Hill Church",
+      "lat": 30.58417193300005,
+      "lng": -85.67760461599994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "83003554"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "83003554",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/83003554",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "McKenzie, Robert L., House",
+      "lat": 30.154500407000057,
+      "lng": -85.66042618799997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "86001728"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "86001728",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/86001728",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Biddle, Perry L., House",
+      "lat": 30.720466401000067,
+      "lng": -86.11991654599996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "92001049"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "92001049",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/92001049",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Centennial Building",
+      "lat": 29.79350512700006,
+      "lng": -85.29531902999997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "96000230"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "96000230",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/96000230",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Norton, Robert Lee, House",
+      "lat": 30.713939485000026,
+      "lng": -85.07356065999994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "96000914"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "96000914",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/96000914",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "St. Andrew School",
+      "lat": 30.174955499000077,
+      "lng": -85.70252164999994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "97000839"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "97000839",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/97000839",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Woman's Club of Chipley",
+      "lat": 30.785525947000053,
+      "lng": -85.53994908899995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "97001514"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "97001514",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/97001514",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph Catholic Mission Church",
+      "lat": 29.808562507000033,
+      "lng": -85.30147825899996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "98000924"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "98000924",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/98000924",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sherman Arcade",
+      "lat": 30.154685089000054,
+      "lng": -85.66083901699994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "98001155"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "98001155",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/98001155",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
