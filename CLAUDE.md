@@ -83,6 +83,36 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.7.0 "Events" (a CAPABILITY) BUILT on staging (awaiting on-device
+  pass). Step #2 of Noah's three ("do them in that order"). Noah mid-build: "make
+  sure the events tab explains it's limitations" — so the honesty note is a
+  REQUIREMENT, in TWO places. NEW src/model/events.js: an event is an ordinary
+  Spot, category 'event', carrying tags.event {month,day,days,when,recurs:
+  'annual',skywide}. nextOccurrence() rolls a FINISHED annual event to next year
+  but keeps a multi-day run current through its last day; formatEventWhen() →
+  "Sep 11–13 · in 12 days"; upcomingKey() drives a new list sort. COMPUTED SKY
+  EVENTS: buildCelestialEvents(region) makes the 7 annual meteor-shower peaks at
+  the region centre (skywide:true), appended in loadRegionData AFTER the fetch so
+  they work OFFLINE and never go stale — no external calendar API exists that's
+  license-clean. The GREAT RENO BALLOON RACE became a real dated event (category
+  'event' + tags.event Sep 11, 3 days) in data/sources/reno/curated.json; re-
+  merged reno LOCALLY (332 spots). 'event' added to spot.CATEGORIES (test/
+  spot.test.mjs vocabulary list updated), CATEGORY_META (letter E), --cat-event
+  #9b3b6a (6.51:1 white, added to check-contrast CATS) + .pin-event — so it
+  filters like any pin type. listview: "Upcoming" sort button + the date in
+  detailBits; mapview popupFor: a .popup-event line (+ "visible region-wide" for
+  skywide). LIMITATIONS STATED (Noah's ask): a `.list-eventsnote` at the top of
+  the Upcoming view — hand-picked, NOT a complete listing (no open/licence-clean
+  events database exists), annual dates approximate, confirm with the official
+  source — AND a matching "Events" section in the ⓘ panel (install.js openAbout).
+  sw CACHE pointer-1.7.0 + events.js PRECACHED; changelog[0] 1.7.0. VERIFIED
+  headless (new scripts/smoke-events.mjs, Reno): note present; Upcoming puts
+  dated events first (Perseids "in 18 days"); balloon race pin-event "Sep 11–Sep
+  13 · in 48 days"; 7 meteor showers; Event-only filter → all pin-event rows;
+  ZERO pageerrors. 117 tests (+6 events) + contrast + both smokes green. NEXT:
+  #3 NOAA tides (coastal Humboldt/PCB, public domain, live per-spot).
+- 2026-07-25 1.6.0 "Search and near-me" — see the entry below; step #1 of the
+  same three-part plan.
 - 2026-07-25 1.6.0 "Search and near-me" (a CAPABILITY) BUILT on staging (awaiting
   on-device pass). Noah asked for search + a distance filter as the groundwork
   under an events layer ("do them in that order": #1 search+distance, #2 events,
