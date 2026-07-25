@@ -1,0 +1,46 @@
+name: RIDB ingest (Recreation.gov federal facilities)
+
+# Federal recreation facilities (campgrounds, trailheads, day-use areas, visitor
+# centers) from the Recreation Information Database. US public domain, but the
+# ONLY source that needs an API key — read from the RIDB_API_KEY repo secret.
+# Re-merges (tag-preserving), validates and commits.
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
+concurrency:
+  group: ridb-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Fetch Recreation.gov facilities (RIDB, public domain)
+        env:
+          RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
+        run: node ingest/ingest.mjs ridb "$REGION"
+      - name: Re-merge (tag-preserving) + validate
+        run: |
+          node ingest/ingest.mjs merge "$REGION"
+          node ingest/ingest.mjs validate "$REGION"
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add Recreation.gov campgrounds, trailheads and day-use areas" -m "Federal campgrounds, trailheads, day-use areas and visitor centers from Recreation.gov (RIDB, US public domain), each with its official description and link."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

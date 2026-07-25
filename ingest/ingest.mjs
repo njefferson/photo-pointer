@@ -33,6 +33,7 @@ import * as markers from './adapters/wikidata-markers.mjs';
 import * as curiosities from './adapters/wikidata-curiosities.mjs';
 import * as gnis from './adapters/gnis.mjs';
 import * as nrhp from './adapters/nrhp.mjs';
+import * as ridb from './adapters/ridb.mjs';
 import * as commons from './adapters/commons-photos.mjs';
 import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
@@ -242,6 +243,24 @@ async function cmdNrhp(id) {
     return;
   }
   await writeSource(P.sourcesDir, 'nrhp.json', nrhp.meta, region, records);
+}
+
+// Recreation.gov / RIDB federal facilities (campgrounds, trailheads, day-use,
+// visitor centers) — US public domain, but the ONLY source needing an API key,
+// read from the RIDB_API_KEY repo secret on the runner. Never logged.
+async function cmdRidb(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const records = await ridb.ingest(region, { today, log });
+  if (records.length === 0) {
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'ridb.json'))) {
+      console.error('ridb: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`ridb: none for ${region.id} — skipping`);
+    return;
+  }
+  await writeSource(P.sourcesDir, 'ridb.json', ridb.meta, region, records);
 }
 
 async function requireSpots(P, cmdName) {
@@ -493,9 +512,10 @@ const commands = {
   curiosities: cmdCuriosities,
   gnis: cmdGnis,
   nrhp: cmdNrhp,
+  ridb: cmdRidb,
   merge: cmdMerge,
   validate: cmdValidate,
-  all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdGnis(id); await cmdNrhp(id); await cmdMerge(id); await cmdValidate(id); },
+  all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdGnis(id); await cmdNrhp(id); await cmdRidb(id); await cmdMerge(id); await cmdValidate(id); },
 };
 if (!commands[cmd]) {
   console.error(`usage: node ingest/ingest.mjs <${Object.keys(commands).join('|')}> [regionId]`);
