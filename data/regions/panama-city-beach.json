@@ -6269,6 +6269,35 @@
       }
     },
     {
+      "id": "san-carlos-chacatos@dj7hdj",
+      "name": "San Carlos Chacatos",
+      "lat": 30.3501964,
+      "lng": -85.6832863,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11145378612",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11145378612",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ],
+      "tags": {
+        "name": "San Carlos Chacatos",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      }
+    },
+    {
       "id": "scott-field-park@dj6gvx",
       "name": "Scott Field Park",
       "lat": 30.2335375,

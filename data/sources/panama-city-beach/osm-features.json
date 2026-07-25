@@ -1,0 +1,41 @@
+{
+  "source": {
+    "source": "osm",
+    "name": "OpenStreetMap (Overpass API)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "region": "panama-city-beach",
+  "builtAt": "2026-07-25",
+  "records": [
+    {
+      "name": "San Carlos Chacatos",
+      "lat": 30.3501964,
+      "lng": -85.6832863,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "San Carlos Chacatos",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11145378612",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11145378612",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}
