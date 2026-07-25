@@ -83,6 +83,37 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-25 1.13.0 "Thin cards now tell you something" (a CAPABILITY) BUILT on
+  staging. The OTHER half of the bare-card problem (1.12.0 was the user's own
+  words; this is what the app already knows but wasn't showing). mapview
+  isThinCard() = no sourced notes/wiki/HMdb/NRHP/commons/inat/ebird/publicLand/
+  event/best_light — nothing but a name and a type. For those cards ONLY,
+  glanceSection() renders "What we can tell you" high on the card: Bortle,
+  horizon openness NAMING THE LOWEST compass direction (where low sun can
+  actually reach), site elevation, and sunset time + bearing. All on-device
+  (works offline); a missing layer is simply omitted, never padded. ALSO
+  osmEditLink(): any osm-sourced spot gets "Improve this in OpenStreetMap →"
+  deep-linked to that exact node/way in the iD editor — the honest open-data
+  answer to a thin card (fix once, every OSM consumer benefits, flows back here
+  next ingest). VERIFIED headless on Noah's two spots, TZ=America/Los_Angeles:
+  Fairchild Park → "Bortle 5 sky · fairly open horizon (lowest N 0.4°) · 201 m up
+  · sun sets NW 8:21 PM" + way/588194789 link; the Grinding Rocks node carries no
+  bortle/horizon so it shows ONLY "sun sets NW 8:21 PM" + node/5618093482 link —
+  honest rather than padded. GOTCHA: headless runs in UTC, so verify time-of-day
+  output with TZ=America/Los_Angeles or sunset reads as 3:21 AM. sw CACHE
+  pointer-1.13.0. 161 tests + contrast + all smokes green.
+- 2026-07-25 RIDB reno + hahira = GENUINE ZERO (resolved, was flagged unknown).
+  ALL NINE ridb.yml runs completed with conclusion `success`, including the
+  re-dispatches for reno and hahira. The ONLY code path that completes without
+  writing a file is cmdRidb's 0-guard ("ridb: none for <region> — skipping"), so
+  those two regions genuinely have no Recreation.gov facility inside their bbox
+  (reno's bbox is a tight urban box; hahira is rural south-GA farmland). FINAL
+  RIDB coverage: Sac 101, Yellowstone 94, Humboldt 13, PCB 1, Reno 0, Hahira 0 —
+  every one carrying a federal public-domain description. STILL OPEN: every
+  mapped facility is FacilityTypeDescription "Campground"; the unmapped-type
+  diagnostic is in the adapter but its log line has not yet been read (the
+  get_job_logs tail window kept cutting above it) — read it on the next dispatch
+  and extend TYPE_CATEGORY if trailheads/day-use hide under another type name.
 - 2026-07-25 1.12.0 "Write your own notes on a place" (a CAPABILITY) BUILT on
   staging (awaiting on-device pass). The half of Noah's bare-card frustration
   (OSM node/5618093482, Fairchild Park) that NO dataset can fix: OSM is bare, the
