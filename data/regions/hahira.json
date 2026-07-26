@@ -186,7 +186,7 @@
         "ebird_species": 128,
         "padus": {
           "name": "Banks Lake National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
+          "manager": "U.S. Fish and Wildlife Service",
           "designation": "National Wildlife Refuge",
           "access": "restricted"
         }
@@ -229,7 +229,7 @@
         },
         "padus": {
           "name": "Barber Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -701,7 +701,7 @@
         "nrhp": "80000976",
         "padus": {
           "name": "Court House Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -773,7 +773,7 @@
         },
         "padus": {
           "name": "Brookwood Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -1897,7 +1897,7 @@
         },
         "padus": {
           "name": "Drexel Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2155,7 +2155,7 @@
         },
         "padus": {
           "name": "Fellowship Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2401,7 +2401,7 @@
         },
         "padus": {
           "name": "Freedom Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2438,7 +2438,7 @@
         "ebird_species": 54,
         "padus": {
           "name": "Freedom Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2732,7 +2732,7 @@
         },
         "padus": {
           "name": "Grand Bay Wildlife Management Area",
-          "manager": "State natural resources",
+          "manager": "State Department of Natural Resources",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -2769,7 +2769,7 @@
         "ebird_species": 168,
         "padus": {
           "name": "Grand Bay Wildlife Management Area",
-          "manager": "State natural resources",
+          "manager": "State Department of Natural Resources",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -3110,7 +3110,7 @@
         },
         "padus": {
           "name": "Hyta Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3678,7 +3678,7 @@
         "ebird_species": 123,
         "padus": {
           "name": "Langdale Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3724,7 +3724,7 @@
         },
         "padus": {
           "name": "Langdale Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4061,7 +4061,7 @@
         },
         "padus": {
           "name": "Freedom Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4103,7 +4103,7 @@
         },
         "padus": {
           "name": "Payton Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4460,7 +4460,7 @@
         },
         "padus": {
           "name": "McKey Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4847,7 +4847,7 @@
         },
         "padus": {
           "name": "Olympic Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4891,7 +4891,7 @@
         },
         "padus": {
           "name": "Oris Blackburn Memorial Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5050,7 +5050,7 @@
         },
         "padus": {
           "name": "Mathis Audit/Pendelton Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5536,7 +5536,7 @@
         },
         "padus": {
           "name": "Scott Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5684,7 +5684,7 @@
         },
         "padus": {
           "name": "Smith Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5728,7 +5728,7 @@
         },
         "padus": {
           "name": "Smith Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -6239,7 +6239,7 @@
         },
         "padus": {
           "name": "Taylor-Cowart Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -6722,7 +6722,7 @@
         },
         "padus": {
           "name": "Vallotton Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -6765,8 +6765,8 @@
         },
         "padus": {
           "name": "Vallotton Youth Complex",
-          "manager": "County",
-          "designation": "LOTH",
+          "manager": "County Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -6818,7 +6818,7 @@
         },
         "padus": {
           "name": "Grand Bay Wildlife Management Area",
-          "manager": "State natural resources",
+          "manager": "State Department of Natural Resources",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -7004,7 +7004,7 @@
         },
         "padus": {
           "name": "White Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
