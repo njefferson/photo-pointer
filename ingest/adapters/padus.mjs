@@ -120,6 +120,8 @@ const MANAGER_DECODE = {
   SDC: 'State conservation agency', SDOL: 'State land agency', SFW: 'State fish & wildlife',
   SDFW: 'State fish & wildlife', OTHS: 'Other state agency',
   CITY: 'City', CNTY: 'County', DIST: 'Regional agency or district', JNT: 'Jointly managed',
+  // REG surfaced on a real run (Fairchild Park) via the raw-code fallback.
+  REG: 'Regional agency', RWD: 'Regional water district', OTHR: 'Other',
   NGO: 'Non-profit conservation group', PVT: 'Private', UNK: null, UNKL: null,
 };
 const DESIGNATION_DECODE = {

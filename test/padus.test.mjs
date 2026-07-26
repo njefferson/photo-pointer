@@ -150,6 +150,14 @@ test('PAD-US domain codes are decoded into words a person can read', () => {
   assert.equal(local.access, 'closed');
 });
 
+test('REG (seen on a real run) decodes rather than showing a bare code', () => {
+  const layer = pickLayers(LAYERS)[0];
+  const a = normalizeArea({ attributes: { Unit_Nm: 'Fairchild Park', d_Mang_Nam: 'REG', d_Des_Tp: 'LP', d_Pub_Access: 'OA' },
+    geometry: { rings: square(-121, 39, 0.01) } }, layer);
+  assert.equal(a.manager, 'Regional agency');
+  assert.equal(a.designation, 'Local Park');
+});
+
 test('an unknown code falls back to the raw value, but access is never guessed', () => {
   const layer = pickLayers(LAYERS)[0];
   const a = normalizeArea({
