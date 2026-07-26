@@ -94,9 +94,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   small district park finally gets an authoritative manager instead of nothing.
   An ENRICHMENT (tags.padus, already in ENRICH_TAGS so a re-merge preserves it);
   polygons fetched generalised, point-in-polygon locally, NO ring geometry ships
-  to the browser. sac-eldorado-placer: 3501 areas, 1643 of 2723 spots tagged
-  (U.S. Forest Service 516, City 435, Regional agency 290, State parks 127,
-  County 106…; access open 1489 / restricted 88 / closed 63).
+  to the browser. ROLLED OUT to all 6 OSM regions — 5906 spots tagged: sac
+  1673/2755, yellowstone 3304/3995, humboldt 616/1198, reno 181/397, PCB 103/285,
+  hahira 29/188. (california-ghost-towns EXCLUDED by design, same as OSM — a
+  statewide bbox would pull every protected area in California.) Sample values:
+  Fairchild Park → "Regional Agency Land · Local Park — public access: open";
+  Eldorado NF → "Forest Service · National Forest — public access: open".
   THREE RUNNER LESSONS, each one a real failure: (1) I GUESSED A SERVICE URL and
   got `ArcGIS error 500: 9017$SITE_NOT_INITIALIZED` — now BASE_CANDIDATES are
   probed in order, SITE_NOT_INITIALIZED is treated as "this site is down, try the
@@ -114,7 +117,13 @@ kept because it is more granular than the Doctrine) before doing anything.
   follows PAD-US forward to v5. ACCESS is the exception — it's a CONTROLLED
   vocabulary, so a published label is expanded and THEN normalised to one word,
   and an unknown access code still yields null (an access claim is never
-  invented).
+  invented). A FOURTH pass caught decoded SHRUGS — the domain spells LOTH out as
+  "Local Other or Unknown" and UNKE as "Unknown Easement"; those are dropped once
+  decoded, the same way a bare "Unknown" was already dropped before decoding
+  ("Other Easement" stays — it still says it IS an easement). VERIFIED: after the
+  final roll-out, ZERO raw codes and ZERO shrugs remain across all 6 regions, and
+  a headless popup read shows the line rendering on a real card AND removing
+  itself on a spot with no PAD-US data, 0 pageerrors.
   (B) SHARED CURATED ENRICHMENT (src/model/enrichment.js + data/curated/
   enrichment.json). 1.12.0's notes fix a thin card for ONE device; this is the
   version that SHIPS to everyone. Keyed by spot id; FILLS GAPS ONLY, so a future
@@ -128,7 +137,8 @@ kept because it is more granular than the Doctrine) before doing anything.
   Indian Grinding Rocks — the exact node Noah pointed at — which now reads
   archaeological, with real notes, golden_hour, short_walk and a link to the CSD
   page it was written FROM but not copied from.
-  sw CACHE pointer-1.14.0; changelog[0] 1.14.0. 191 tests + contrast green.
+  sw CACHE pointer-1.14.0; changelog[0] 1.14.0. 192 tests + contrast + all five
+  smokes (filters/events/tides/flow/notes) green.
 - 2026-07-26 RIDB, the generic-"Facility" fix. The unmapped-type diagnostic added
   on 2026-07-25 finally got READ (the get_job_logs tail window kept cutting above
   it; the line is in the FETCH step, so ask for that job and a short tail). It
@@ -144,6 +154,19 @@ kept because it is more granular than the Doctrine) before doing anything.
   gets NO pin (the 1.11.0 rule holds — a wrong label is worse than no pin). The
   diagnostic now also samples the NAMES it left behind, so the next tail is
   readable evidence rather than another guess. +5 tests.
+  MEASURED EFFECT (all regions re-run): sac 101 → 137 (98 campsite, 20 park, 10
+  trailhead, 2 viewpoint, 2 historic_site, 1 lookout_tower, 4 deduped into eBird
+  hotspots), yellowstone 94 → 140 (16 trailheads, 25 parks), humboldt 13 → 15,
+  PCB 1, hahira 0 (genuine), and RENO 0 → 3 trailheads — which also SETTLES the
+  open "reno + hahira show no ridb.json" question from 2026-07-25: it was never a
+  lost commit, the generic-type gap was hiding everything Reno had.
+  STILL LEFT BEHIND, and deliberately (the new name-sample log, CA run): things
+  whose names genuinely don't say what they are — "Inyo Mountains", "Dick Smith
+  Wilderness", "Muslatt Lake", "Trinity River" are wilderness/permit AREAS whose
+  coordinate is a centroid, not a place to stand, and "Girard - 4E17" /
+  "Ozena - 23W42" are Forest Service trail designators. Pinning those would be
+  guessing at a label, so they stay unmapped. Nearly all of them are outside our
+  bboxes anyway (the sweep is statewide, then bbox-filtered).
 - 2026-07-25 1.13.0 "Thin cards now tell you something" (a CAPABILITY) BUILT on
   staging. The OTHER half of the bare-card problem (1.12.0 was the user's own
   words; this is what the app already knows but wasn't showing). mapview
