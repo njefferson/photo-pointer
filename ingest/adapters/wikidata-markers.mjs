@@ -33,6 +33,14 @@ export const meta = {
   license: 'CC0-1.0',
   attribution: 'Marker facts from Wikidata (CC0); marker pages via HMdb.org',
   status: 'working',
+  // WDQS is a Wikimedia service, so the same etiquette applies. One SPARQL
+  // query per region — serial by construction.
+  policy: {
+    url: 'https://www.mediawiki.org/wiki/API:Etiquette',
+    maxConcurrency: 1,
+    minGapMs: 1000,
+  },
+  pacing: { concurrency: 1, gapMs: 1000 },
 };
 
 export const ENDPOINT = 'https://query.wikidata.org/sparql';

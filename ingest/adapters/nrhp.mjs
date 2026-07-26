@@ -17,12 +17,21 @@
 // Field names are DISCOVERED at runtime rather than hard-coded — the GNIS lesson
 // (a guessed layer/field returned almost nothing and cost a debug cycle).
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const meta = {
   source: 'nrhp',
   name: 'National Register of Historic Places (NPS)',
   license: 'public-domain',
   attribution: 'National Park Service — National Register of Historic Places',
   status: 'working',
+  // An NPS ArcGIS service. No published per-client rate limit; serial with a gap.
+  policy: {
+    url: 'https://www.nps.gov/aboutus/disclaimer.htm',
+    maxConcurrency: 1,
+    minGapMs: 0,
+  },
+  pacing: { concurrency: 1, gapMs: 300 },
 };
 
 export const BASE_URL =
@@ -67,7 +76,8 @@ async function getJson(url, fetchFn, wait) {
         headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
         signal: AbortSignal.timeout(90000),
       });
-      if (res.status === 429 || res.status === 503) { await wait(10000); continue; }
+      // Wait as long as the service asks, not as long as we guess.
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 10000 })); continue; }
       // 4xx is permanent — fail fast rather than burn retries (the GNIS lesson).
       if (res.status >= 400 && res.status < 500) { const e = new Error(`HTTP ${res.status}`); e.fatal = true; throw e; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);

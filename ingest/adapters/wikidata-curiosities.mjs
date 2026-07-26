@@ -29,6 +29,14 @@ export const meta = {
   license: 'CC0-1.0',
   attribution: 'Facts from Wikidata (CC0); details via Wikipedia',
   status: 'working',
+  // WDQS is a Wikimedia service, so the same etiquette applies. We issue ONE
+  // SPARQL query per region, so serial is the shape by construction.
+  policy: {
+    url: 'https://www.mediawiki.org/wiki/API:Etiquette',
+    maxConcurrency: 1,
+    minGapMs: 1000,
+  },
+  pacing: { concurrency: 1, gapMs: 1000 },
 };
 
 export const ENDPOINT = 'https://query.wikidata.org/sparql';

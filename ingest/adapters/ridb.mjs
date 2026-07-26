@@ -23,6 +23,14 @@ export const meta = {
   license: 'public-domain',
   attribution: 'Recreation Information Database (RIDB), U.S. federal recreation agencies',
   status: 'working',
+  // Recreation.gov's RIDB. Key-authenticated and federally run, with no
+  // published per-client rate limit; we page serially with a gap.
+  policy: {
+    url: 'https://ridb.recreation.gov/docs',
+    maxConcurrency: 1,
+    minGapMs: 0,
+  },
+  pacing: { concurrency: 1, gapMs: 200 },
 };
 
 import { backoffMs } from './http-etiquette.mjs';

@@ -19,12 +19,22 @@
 // dense wildlife area far from any spot is therefore not surfaced; in a region
 // this densely spotted by OSM+eBird that is a rare gap (documented, honest).
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const meta = {
   source: 'inaturalist',
   name: 'iNaturalist',
   license: 'per-record CC licensing — fetched to CC0/CC-BY/CC-BY-SA only',
   attribution: 'Observation data from iNaturalist (per-record open licenses)',
   status: 'working',
+  // iNaturalist asks for roughly 1 request/second and under 10k/day. We page
+  // serially with a 1.1 s gap and cap at MAX_PAGES, so we sit inside both.
+  policy: {
+    url: 'https://www.inaturalist.org/pages/api+recommended+practices',
+    maxConcurrency: 1,
+    minGapMs: 1000,
+  },
+  pacing: { concurrency: 1, gapMs: 1100 },
 };
 
 export const API = 'https://api.inaturalist.org/v1/observations';
@@ -84,7 +94,8 @@ export async function ingest(region, { fetchFn = fetch, log = () => {}, sleep } 
           headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
           signal: AbortSignal.timeout(60000),
         });
-        if (res.status === 429) { await wait(5000); continue; }
+        // Wait as long as the service asks, not as long as we guess.
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 5000 })); continue; }
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         json = await res.json();
         break;

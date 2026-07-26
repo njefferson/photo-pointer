@@ -23,6 +23,14 @@ export const meta = {
   license: 'CC/public-domain media (Commons); derived counts only',
   attribution: 'Photo locations from Wikimedia Commons',
   status: 'working',
+  // The published terms this adapter operates under. Read them before changing
+  // any pacing here; scripts/check-etiquette.mjs fails if we drift outside them.
+  policy: {
+    url: 'https://www.mediawiki.org/wiki/API:Etiquette',
+    maxConcurrency: 1,   // "a total concurrency of at most 1"
+    minGapMs: 1000,      // "a delay between requests of at least 1 second"
+  },
+  pacing: { concurrency: 1, gapMs: 1000 },
 };
 
 import { backoffMs } from './http-etiquette.mjs';
@@ -36,8 +44,11 @@ export const USER_AGENT =
 // been running 4 concurrent with a 120 ms gap, which is why we got throttled:
 // we were outside their stated terms, and the throttle was the service asking
 // us to stop. https://www.mediawiki.org/wiki/API:Etiquette
-export const WIKIMEDIA_CONCURRENCY = 1;
-export const WIKIMEDIA_MIN_GAP_MS = 1000;
+// Read back OUT of meta.pacing, so what the etiquette gate checks is literally
+// what the harvester uses — a declaration that can drift from the behaviour is
+// worse than none, because it reads as a guarantee.
+export const WIKIMEDIA_CONCURRENCY = meta.pacing.concurrency;
+export const WIKIMEDIA_MIN_GAP_MS = meta.pacing.gapMs;
 export const MAXLAG_SECONDS = 5;
 
 export const RADIUS_M = 800;      // "near this spot" (used by the ingest counter)

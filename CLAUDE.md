@@ -29,6 +29,19 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## `staging` is ahead of `main` — that candidate is already waiting on his
 ## test; surface it, never rebuild it (it's also logged in Project facts).
 
+## Service etiquette is a GATE, not an intention (Noah, 2026-07-26). Every
+## networked ingest adapter DECLARES the published policy it operates under
+## (`meta.policy.url` + maxConcurrency/minGapMs) and what it actually does
+## (`meta.pacing`); `node scripts/check-etiquette.mjs` FAILS the build if the
+## pacing is looser than the cited policy, if no policy is cited, if requests go
+## out without a User-Agent, or if a 429 is handled without honouring
+## Retry-After. It runs in CI beside check-contrast. Adding a source now REQUIRES
+## reading its terms, the same way adding a colour requires passing contrast.
+## VERIFIED to bite: reinstating the old 4-concurrent/120 ms Wikimedia config
+## fails the gate by name. THE POINT: prose in a file loses to whoever is in a
+## hurry — that is exactly how we drifted to four concurrent requests against a
+## service asking for one.
+
 ## Accessibility is a top priority (owner mandate). Hue-only encoding is a
 ## fail state. Every new visual encoding states its non-hue channel at design
 ## time; `node scripts/check-contrast.mjs` is a gate (add new fg/bg pairs in

@@ -18,5 +18,7 @@ jobs:
         run: node --test
       - name: Contrast gate (WCAG, both themes)
         run: node scripts/check-contrast.mjs
+      - name: Service etiquette (every networked adapter cites a policy and stays inside it)
+        run: node scripts/check-etiquette.mjs
       - name: Validate committed spot data
         run: node ingest/ingest.mjs validate

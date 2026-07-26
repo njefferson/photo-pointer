@@ -20,12 +20,21 @@
 // runtime, case-insensitively — PAD-US renames fields between versions (v3 → v4)
 // and a hard-coded guess is exactly what cost a debug cycle on GNIS and NRHP.
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const meta = {
   source: 'padus',
   name: 'Protected Areas Database of the United States (USGS)',
   license: 'public-domain',
   attribution: 'USGS Gap Analysis Project — PAD-US',
   status: 'working',
+  // A USGS ArcGIS service. No published per-client rate limit; serial with a gap.
+  policy: {
+    url: 'https://www.usgs.gov/information-policies-and-instructions',
+    maxConcurrency: 1,
+    minGapMs: 0,
+  },
+  pacing: { concurrency: 1, gapMs: 300 },
 };
 
 // PAD-US is published in several places and the USGS-hosted site has been seen
@@ -114,7 +123,8 @@ async function getJson(url, fetchFn, wait) {
         headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
         signal: AbortSignal.timeout(120000),
       });
-      if (res.status === 429 || res.status === 503) { await wait(10000); continue; }
+      // Wait as long as the service asks, not as long as we guess.
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 10000 })); continue; }
       if (res.status >= 400 && res.status < 500) { const e = new Error(`HTTP ${res.status}`); e.fatal = true; throw e; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();

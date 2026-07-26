@@ -19,12 +19,23 @@
 // silently break the query. Fields (confirmed via the service metadata):
 // gaz_id, gaz_name, gaz_featureclass, plus point geometry.
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const meta = {
   source: 'gnis',
   name: 'USGS GNIS (The National Map geonames — named natural features)',
   license: 'public-domain',
   attribution: 'U.S. Geological Survey, Geographic Names Information System (public domain)',
   status: 'working',
+  // A USGS ArcGIS service. No published per-client rate limit, so the standard
+  // we hold ourselves to is our own: serial, with a gap, and never a bulk pull
+  // where a targeted query fits.
+  policy: {
+    url: 'https://www.usgs.gov/information-policies-and-instructions',
+    maxConcurrency: 1,
+    minGapMs: 0,
+  },
+  pacing: { concurrency: 1, gapMs: 300 },
 };
 
 export const BASE_URL =
@@ -67,7 +78,8 @@ async function getJson(url, fetchFn, wait) {
         headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
         signal: AbortSignal.timeout(90000),
       });
-      if (res.status === 429 || res.status === 503) { await wait(10000); continue; }
+      // Wait as long as the service asks, not as long as we guess.
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 10000 })); continue; }
       // 4xx (other than 429) is a permanent client error — fail fast, don't retry
       // (e.g. the Antarctica layer 400s a US-bbox query; retrying just wastes time).
       if (res.status >= 400 && res.status < 500) { const e = new Error(`HTTP ${res.status}`); e.fatal = true; throw e; }

@@ -17,6 +17,18 @@ export const meta = {
   license: 'ODbL-1.0',
   attribution: '© OpenStreetMap contributors',
   status: 'working',
+  // Overpass publishes a daily budget (~10k requests, <1 GB) rather than a rate:
+  // we send a handful of large queries per region, run rarely, one at a time.
+  // Heavy users are load-shed first, so keeping the footprint small IS the
+  // etiquette. If our usage ever approaches those numbers the answer is to run
+  // our own instance, not to spread across more mirrors.
+  policy: {
+    url: 'https://dev.overpass-api.de/overpass-doc/en/preface/commons.html',
+    maxConcurrency: 1,
+    minGapMs: 0,          // no stated per-request rate; the budget is daily
+    dailyRequestBudget: 10000,
+  },
+  pacing: { concurrency: 1, gapMs: 0 },
 };
 
 // Ordered rules: first match wins. Each rule = OSM tag selector → category +
