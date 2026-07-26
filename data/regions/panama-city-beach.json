@@ -80,6 +80,12 @@
           "s": -0.2,
           "w": -0.1,
           "site_m": 5
+        },
+        "padus": {
+          "name": "Veterans Memorial Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -215,7 +221,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 47
+        "ebird_species": 47,
+        "padus": {
+          "name": "Apalachicola River Wildlife and Environmental Area",
+          "manager": "State fish & wildlife",
+          "designation": "State Conservation Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -250,6 +262,12 @@
           "s": 0.1,
           "w": 0,
           "site_m": 2
+        },
+        "padus": {
+          "name": "Asbell Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -285,6 +303,12 @@
           "s": -0.2,
           "w": -0.1,
           "site_m": 7
+        },
+        "padus": {
+          "name": "Recreation Complex",
+          "manager": "Other federal agency",
+          "designation": "Local Recreation Area",
+          "access": "restricted"
         }
       }
     },
@@ -347,7 +371,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 86
+        "ebird_species": 86,
+        "padus": {
+          "name": "Eglin Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -419,6 +449,12 @@
         },
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Bay Memorial Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -450,7 +486,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 136
+        "ebird_species": 136,
+        "padus": {
+          "name": "Bay Walk Park And Gulf County Welcome Center",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -699,7 +741,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 57
+        "ebird_species": 57,
+        "padus": {
+          "name": "Choctawhatchee River Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -777,6 +825,12 @@
           "s": 0.1,
           "w": -0.1,
           "site_m": 6
+        },
+        "padus": {
+          "name": "Cain Griffin Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -808,7 +862,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 41
+        "ebird_species": 41,
+        "padus": {
+          "name": "Callaway Recreational Complex",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -839,7 +899,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 231
+        "ebird_species": 231,
+        "padus": {
+          "name": "Camp Helen State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -885,6 +951,12 @@
         },
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Camp Helen State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
         }
       }
     },
@@ -916,7 +988,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 46
+        "ebird_species": 46,
+        "padus": {
+          "name": "Choctawhatchee River Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -976,7 +1054,13 @@
       "tags": {
         "curiosity": "Lighthouse",
         "wikidata": "Q5035030",
-        "wikipedia": "https://en.wikipedia.org/wiki/Cape_San_Blas_Light"
+        "wikipedia": "https://en.wikipedia.org/wiki/Cape_San_Blas_Light",
+        "padus": {
+          "name": "Sand Hills Pond Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1004,7 +1088,13 @@
         }
       ],
       "tags": {
-        "nrhp": "15000208"
+        "nrhp": "15000208",
+        "padus": {
+          "name": "Shipyard Cove/ Maddox Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1477,7 +1567,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 191
+        "ebird_species": 191,
+        "padus": {
+          "name": "Panama City Beach Conservation Park",
+          "manager": "City",
+          "designation": "LCA",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1508,7 +1604,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "padus": {
+          "name": "Constitution Convention Museum State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1544,6 +1646,12 @@
           "s": 0,
           "w": -0.1,
           "site_m": 6
+        },
+        "padus": {
+          "name": "Harry Edwards Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -1575,7 +1683,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 30
+        "ebird_species": 30,
+        "padus": {
+          "name": "Choctawhatchee River Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -1696,7 +1810,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 176
+        "ebird_species": 176,
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -1789,7 +1909,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 80
+        "ebird_species": 80,
+        "padus": {
+          "name": "Dead Lakes Park",
+          "manager": "County",
+          "designation": "LOTH",
+          "access": "open"
+        }
       }
     },
     {
@@ -1851,7 +1977,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 121
+        "ebird_species": 121,
+        "padus": {
+          "name": "Nokuse Plantation Conservation Easements",
+          "manager": "Other state agency",
+          "designation": "UNKE",
+          "access": "closed"
+        }
       }
     },
     {
@@ -1886,6 +2018,12 @@
           "s": 0.2,
           "w": 0,
           "site_m": 54
+        },
+        "padus": {
+          "name": "Deep Springs Park",
+          "manager": "County",
+          "designation": "LOTH",
+          "access": "open"
         }
       }
     },
@@ -1917,7 +2055,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 164
+        "ebird_species": 164,
+        "padus": {
+          "name": "Deer Lake State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2260,7 +2404,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 48
+        "ebird_species": 48,
+        "padus": {
+          "name": "Econfina Creek Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -2291,7 +2441,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 36
+        "ebird_species": 36,
+        "padus": {
+          "name": "Econfina Creek Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -2353,7 +2509,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 138
+        "ebird_species": 138,
+        "padus": {
+          "name": "Eden Gardens State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2381,7 +2543,13 @@
         }
       ],
       "tags": {
-        "nrhp": "100006749"
+        "nrhp": "100006749",
+        "padus": {
+          "name": "Eden Gardens State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2412,7 +2580,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 98
+        "ebird_species": 98,
+        "padus": {
+          "name": "Eglin Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -2531,7 +2705,13 @@
       "tags": {
         "curiosity": "Waterfall",
         "natural": "waterfall",
-        "gnis": "282368"
+        "gnis": "282368",
+        "padus": {
+          "name": "Falling Waters State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2566,6 +2746,12 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 5
+        },
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -2661,6 +2847,12 @@
           "s": -0.2,
           "w": 0.1,
           "site_m": 8
+        },
+        "padus": {
+          "name": "Frank Brown Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -2692,7 +2884,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 152
+        "ebird_species": 152,
+        "padus": {
+          "name": "Frank Brown Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2742,6 +2940,12 @@
           "s": 0,
           "w": 0,
           "site_m": 3
+        },
+        "padus": {
+          "name": "Frank Nelson Jr. Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -2773,7 +2977,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 115
+        "ebird_species": 115,
+        "padus": {
+          "name": "Sand Hills Pond Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2871,7 +3081,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 208
+        "ebird_species": 208,
+        "padus": {
+          "name": "Grayton Beach State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -2902,7 +3118,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 138
+        "ebird_species": 138,
+        "padus": {
+          "name": "Grayton Dunes Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3124,6 +3346,12 @@
           "s": 0.2,
           "w": -0.1,
           "site_m": 6
+        },
+        "padus": {
+          "name": "Harvey Dee Mathis Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -3225,6 +3453,12 @@
           "s": 0.6,
           "w": -0.1,
           "site_m": 2
+        },
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -3602,6 +3836,12 @@
           "s": 0.2,
           "w": -0.1,
           "site_m": 5
+        },
+        "padus": {
+          "name": "James E Rogers Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -3652,6 +3892,12 @@
           "s": 0.1,
           "w": 0.1,
           "site_m": 7
+        },
+        "padus": {
+          "name": "Joe Moody Harris Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -3843,6 +4089,12 @@
           "s": 0.1,
           "w": 0,
           "site_m": 1
+        },
+        "padus": {
+          "name": "A.L. Kinsaul Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -3874,7 +4126,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 67
+        "ebird_species": 67,
+        "padus": {
+          "name": "Choctawhatchee River Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -3967,7 +4225,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 104
+        "ebird_species": 104,
+        "padus": {
+          "name": "Asbell Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4095,6 +4359,12 @@
           "s": -0.2,
           "w": -0.2,
           "site_m": 4
+        },
+        "padus": {
+          "name": "Lake Powell Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -4325,7 +4595,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 35
+        "ebird_species": 35,
+        "padus": {
+          "name": "Choctawhatchee River Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -4356,7 +4632,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 26
+        "ebird_species": 26,
+        "padus": {
+          "name": "Point Washington State Forest",
+          "manager": "Other state agency",
+          "designation": "SRMA",
+          "access": "open"
+        }
       }
     },
     {
@@ -4481,6 +4763,12 @@
           "s": 0,
           "w": -0.1,
           "site_m": 12
+        },
+        "padus": {
+          "name": "Lynn Haven Sports Complex",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -4613,6 +4901,12 @@
           "s": -0.2,
           "w": -0.2,
           "site_m": 9
+        },
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -4775,6 +5069,12 @@
         },
         "commons": {
           "photos": 22
+        },
+        "padus": {
+          "name": "Mckenzie Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5088,7 +5388,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 76
+        "ebird_species": 76,
+        "padus": {
+          "name": "Morrison Springs Recreational Facility",
+          "manager": "County",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -5147,7 +5453,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 19
+        "ebird_species": 19,
+        "padus": {
+          "name": "Econfina Creek Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -5243,6 +5555,12 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 11
+        },
+        "padus": {
+          "name": "Oakland Terrace Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5293,6 +5611,12 @@
           "s": -0.1,
           "w": 0,
           "site_m": 4
+        },
+        "padus": {
+          "name": "Oaks By The Bay",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5330,6 +5654,12 @@
           "s": 0,
           "w": 0,
           "site_m": 3
+        },
+        "padus": {
+          "name": "Naval Support Activity Panama City",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -5367,6 +5697,12 @@
           "s": 0.1,
           "w": 0.4,
           "site_m": 4
+        },
+        "padus": {
+          "name": "Whittington Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5638,6 +5974,12 @@
         },
         "commons": {
           "photos": 11
+        },
+        "padus": {
+          "name": "City Marina",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5704,6 +6046,12 @@
           "s": -0.1,
           "w": 0,
           "site_m": 11
+        },
+        "padus": {
+          "name": "Panama City Beach Conservation Park",
+          "manager": "City",
+          "designation": "LCA",
+          "access": "restricted"
         }
       }
     },
@@ -6143,6 +6491,12 @@
           "s": 0,
           "w": -0.1,
           "site_m": 7
+        },
+        "padus": {
+          "name": "Parker Sports Complex",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -6292,7 +6646,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 97
+        "ebird_species": 97,
+        "padus": {
+          "name": "Pine Log State Forest",
+          "manager": "Other state agency",
+          "designation": "SRMA",
+          "access": "open"
+        }
       }
     },
     {
@@ -6341,6 +6701,12 @@
           "observations": 15,
           "species": 12,
           "topGuild": "insects"
+        },
+        "padus": {
+          "name": "Pine Log State Forest",
+          "manager": "Other state agency",
+          "designation": "SRMA",
+          "access": "open"
         }
       }
     },
@@ -6415,7 +6781,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 87
+        "ebird_species": 87,
+        "padus": {
+          "name": "Econfina Creek Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -6544,7 +6916,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 150
+        "ebird_species": 150,
+        "padus": {
+          "name": "Jetty Park / Port St Joe Marina",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6743,6 +7121,12 @@
         },
         "commons": {
           "photos": 10
+        },
+        "padus": {
+          "name": "Richard Seltzer Park",
+          "manager": "Regional agency",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -6774,7 +7158,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 62
+        "ebird_species": 62,
+        "padus": {
+          "name": "Richard Seltzer Park",
+          "manager": "Regional agency",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6981,6 +7371,12 @@
         },
         "commons": {
           "photos": 39
+        },
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
         }
       }
     },
@@ -7022,6 +7418,12 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 1
+        },
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
         }
       }
     },
@@ -7053,7 +7455,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 204
+        "ebird_species": 204,
+        "padus": {
+          "name": "Salinas Park",
+          "manager": "County",
+          "designation": "LOTH",
+          "access": "open"
+        }
       }
     },
     {
@@ -7145,6 +7553,12 @@
           "s": 0,
           "w": 0,
           "site_m": 9
+        },
+        "padus": {
+          "name": "Scott Field Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -7255,6 +7669,12 @@
           "observations": 8,
           "species": 8,
           "topGuild": "amphibians"
+        },
+        "padus": {
+          "name": "Sharron J Sheffield Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -7286,7 +7706,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 72
+        "ebird_species": 72,
+        "padus": {
+          "name": "St. Andrews State Park Aquatic Preserve",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -7360,6 +7786,12 @@
           "s": -0.2,
           "w": -0.2,
           "site_m": 3
+        },
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -7591,6 +8023,12 @@
           "s": -0.1,
           "w": 0.5,
           "site_m": 7
+        },
+        "padus": {
+          "name": "Springfield Gardens Walking Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -7709,7 +8147,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 141
+        "ebird_species": 141,
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -7771,7 +8215,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 168
+        "ebird_species": 168,
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -7802,7 +8252,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 236
+        "ebird_species": 236,
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -7833,7 +8289,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 180
+        "ebird_species": 180,
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -7895,7 +8357,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 51
+        "ebird_species": 51,
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -7926,7 +8394,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 300
+        "ebird_species": 300,
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -7957,7 +8431,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 111
+        "ebird_species": 111,
+        "padus": {
+          "name": "St. Andrews State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -8019,7 +8499,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 173
+        "ebird_species": 173,
+        "padus": {
+          "name": "T. H. Stone Memorial St. Joseph Peninsula State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8050,7 +8536,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 188
+        "ebird_species": 188,
+        "padus": {
+          "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -8081,7 +8573,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 185
+        "ebird_species": 185,
+        "padus": {
+          "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -8143,7 +8641,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 145
+        "ebird_species": 145,
+        "padus": {
+          "name": "St. Joseph Bay State Buffer Preserve",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -8174,7 +8678,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 199
+        "ebird_species": 199,
+        "padus": {
+          "name": "St. Joseph Bay State Buffer Preserve",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -8233,7 +8743,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 266
+        "ebird_species": 266,
+        "padus": {
+          "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
+          "manager": "State conservation agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -8471,7 +8987,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 49
+        "ebird_species": 49,
+        "padus": {
+          "name": "Choctawhatchee River Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
+        }
       }
     },
     {
@@ -8530,7 +9052,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 222
+        "ebird_species": 222,
+        "padus": {
+          "name": "Topsail Hill Preserve State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Conservation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -8561,7 +9089,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 89
+        "ebird_species": 89,
+        "padus": {
+          "name": "Topsail Hill Preserve State Park",
+          "manager": "State parks & recreation",
+          "designation": "State Conservation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -8595,6 +9129,12 @@
           "s": 0,
           "w": 0,
           "site_m": 64
+        },
+        "padus": {
+          "name": "Econfina Creek Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
         }
       }
     },
@@ -8630,6 +9170,12 @@
           "s": 0,
           "w": 0.5,
           "site_m": 44
+        },
+        "padus": {
+          "name": "Econfina Creek Water Management Area",
+          "manager": "Regional water district",
+          "designation": "WPA",
+          "access": "closed"
         }
       }
     },
@@ -8666,6 +9212,12 @@
           "s": -0.1,
           "w": 0.2,
           "site_m": 4
+        },
+        "padus": {
+          "name": "Truesdell Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -8728,7 +9280,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 68
+        "ebird_species": 68,
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -8759,7 +9317,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 93
+        "ebird_species": 93,
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -8790,7 +9354,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 239
+        "ebird_species": 239,
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -8827,6 +9397,12 @@
           "s": -0.2,
           "w": -0.1,
           "site_m": 10
+        },
+        "padus": {
+          "name": "Tyndall Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -8908,6 +9484,12 @@
           "s": 0.4,
           "w": 0.1,
           "site_m": 3
+        },
+        "padus": {
+          "name": "Under The Oaks Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -8936,7 +9518,13 @@
         }
       ],
       "tags": {
-        "nrhp": "06000243"
+        "nrhp": "06000243",
+        "padus": {
+          "name": "Vamar Underwater Archaeological Preserve",
+          "manager": "Other state agency",
+          "designation": "MPA",
+          "access": "open"
+        }
       }
     },
     {
@@ -8973,6 +9561,12 @@
           "s": -0.2,
           "w": -0.1,
           "site_m": 5
+        },
+        "padus": {
+          "name": "Veterans Memorial Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -9033,7 +9627,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 40
+        "ebird_species": 40,
+        "padus": {
+          "name": "Harvey Dee Mathis Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9163,6 +9763,12 @@
           "observations": 9,
           "species": 7,
           "topGuild": "reptiles"
+        },
+        "padus": {
+          "name": "Whittington Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -9229,7 +9835,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 86
+        "ebird_species": 86,
+        "padus": {
+          "name": "Windmark Beach Access Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9317,7 +9929,13 @@
       "tags": {
         "ridb": "251908",
         "ridb_type": "Campground",
-        "reservable": true
+        "reservable": true,
+        "padus": {
+          "name": "Wright Lake Recreation Area",
+          "manager": "U.S. Forest Service",
+          "designation": "Recreation Management Area",
+          "access": "open"
+        }
       }
     },
     {
