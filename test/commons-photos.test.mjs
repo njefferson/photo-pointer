@@ -64,18 +64,23 @@ test('harvestAroundSpots probes each spot at the counting radius and dedups', as
   };
   const spots = [{ lat: 37.9, lng: -118.2 }, { lat: 37.901, lng: -118.201 }];
   const out = await harvestAroundSpots(spots, { fetchFn, sleep: async () => {} });
-  assert.equal(out.length, 1, 'the shared photo is deduped by pageid');
+  assert.equal(out.images.length, 1, 'the shared photo is deduped by pageid');
+  assert.deepEqual(out.failed, []);
   assert.equal(urls.length, 2, 'one geosearch per spot');
   assert.ok(urls.every((u) => u.includes(`gsradius=${RADIUS_M}`)),
     'uses the 800 m counting radius, not the 10 km tile radius');
 });
 
-test('a failing spot probe does not lose the whole harvest', async () => {
-  let n = 0;
-  const fetchFn = async () => {
-    if (n++ === 0) throw new Error('network');
-    return { ok: true, status: 200, json: async () => ({ query: { geosearch: [{ pageid: 1, lat: 1, lon: 2 }] } }) };
+test('a failing spot probe is REPORTED, not silently treated as "no photos"', async () => {
+  // geosearchTile retries, so the failing spot has to fail every attempt —
+  // which is what a throttled runner IP actually looks like.
+  const fetchFn = async (url) => {
+    if (url.includes('gscoord=1%7C2')) throw new Error('network');
+    return { ok: true, status: 200, json: async () => ({ query: { geosearch: [{ pageid: 1, lat: 3, lon: 4 }] } }) };
   };
-  const out = await harvestAroundSpots([{ lat: 1, lng: 2 }, { lat: 3, lng: 4 }], { fetchFn, sleep: async () => {} });
-  assert.equal(out.length, 1);
+  const out = await harvestAroundSpots([{ lat: 1, lng: 2, name: 'Bodie' }, { lat: 3, lng: 4 }], { fetchFn, sleep: async () => {} });
+  assert.equal(out.images.length, 1);
+  // The whole point: a place whose probe failed must be named, not quietly
+  // reported as having no photos near it.
+  assert.deepEqual(out.failed, ['Bodie']);
 });

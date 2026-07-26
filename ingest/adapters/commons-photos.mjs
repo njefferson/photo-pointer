@@ -75,6 +75,7 @@ export function tileCenters(bbox, stepLat = 0.12, stepLng = 0.15) {
 export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {}, sleep, pool = 4 } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
   const images = new Map(); // pageid → {lat,lng}, deduped across overlapping spots
+  const failed = [];        // spots whose probe never answered — see below
   let idx = 0, done = 0;
   async function worker() {
     while (idx < spots.length) {
@@ -83,15 +84,23 @@ export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {
         // Only the counting radius is needed here, not the 10 km tile radius.
         const hits = await geosearchTile(s.lat, s.lng, { fetchFn, sleep, radius: RADIUS_M, limit: TILE_LIMIT });
         for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng });
-      } catch { /* one spot failing must not lose the run */ }
+      } catch {
+        // A failed probe here is NOT harmless: unlike the tile sweep, where
+        // neighbouring tiles overlap and cover each other, one spot = one probe.
+        // Swallowing it silently means that place simply reports "no photos",
+        // which is a WRONG ANSWER dressed up as a real one. Wikimedia throttles
+        // runner IPs hard, so this happens. Record them and let the caller decide.
+        failed.push(s.name ?? `${s.lat},${s.lng}`);
+      }
       done++;
       if (done % 25 === 0) log(`  commons: ${done}/${spots.length} spots probed, ${images.size} photos found`);
       await wait(120);
     }
   }
   await Promise.all(Array.from({ length: pool }, worker));
-  log(`  commons: probed ${spots.length} spots → ${images.size} unique photos`);
-  return [...images.values()];
+  log(`  commons: probed ${spots.length} spots → ${images.size} unique photos, ${failed.length} probes failed`);
+  if (failed.length) log(`  commons: FAILED probes (sample): ${failed.slice(0, 10).join(' | ')}`);
+  return { images: [...images.values()], failed };
 }
 
 // Harvest every unique geotagged Commons file in the region bbox → [{lat,lng}].

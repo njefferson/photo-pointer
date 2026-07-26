@@ -428,11 +428,24 @@ async function cmdCommons(id) {
   // Pick the cheaper sweep. Tiling a county beats probing its thousands of
   // spots; probing a sparse statewide region beats tiling all of California.
   const tiles = commons.tileCenters(region.bbox).length;
-  const images = doc.spots.length < tiles
-    ? (log(`commons: ${doc.spots.length} spots vs ${tiles} tiles — probing per spot`),
-       await commons.harvestAroundSpots(doc.spots, { log }))
-    : (log(`commons: ${tiles} tiles vs ${doc.spots.length} spots — sweeping by tile`),
-       await commons.harvestBBox(region.bbox, { log }));
+  let images;
+  if (doc.spots.length < tiles) {
+    log(`commons: ${doc.spots.length} spots vs ${tiles} tiles — probing per spot`);
+    const res = await commons.harvestAroundSpots(doc.spots, { log });
+    images = res.images;
+    // REFUSE a holed result. Each failed probe becomes a place that silently
+    // reports "no photos nearby", and committing that is worse than committing
+    // nothing — it looks like an answer. Wikimedia throttles runner IPs, so this
+    // is a re-run, not a bug.
+    const limit = Math.max(2, Math.floor(doc.spots.length * 0.02));
+    if (res.failed.length > limit) {
+      console.error(`commons: ${res.failed.length}/${doc.spots.length} probes failed (limit ${limit}) — refusing to commit a partial harvest; re-run`);
+      process.exit(1);
+    }
+  } else {
+    log(`commons: ${tiles} tiles vs ${doc.spots.length} spots — sweeping by tile`);
+    images = await commons.harvestBBox(region.bbox, { log });
+  }
   if (images.length === 0) {
     console.error('commons: 0 photos harvested — refusing to wipe (likely a fetch problem)');
     process.exit(1);
