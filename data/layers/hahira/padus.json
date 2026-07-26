@@ -1,0 +1,2125 @@
+{
+  "source": {
+    "source": "padus",
+    "name": "Protected Areas Database of the United States (USGS)",
+    "license": "public-domain",
+    "attribution": "USGS Gap Analysis Project — PAD-US",
+    "status": "working"
+  },
+  "builtAt": "2026-07-26",
+  "count": 176,
+  "areas": [
+    {
+      "name": "Moody Air Force Base",
+      "manager": "Department of Defense",
+      "designation": "Military Land",
+      "access": "closed",
+      "bbox": {
+        "south": 30.93525,
+        "west": -83.21907,
+        "north": 31.01448,
+        "east": -83.12885
+      }
+    },
+    {
+      "name": "Osceola National Forest",
+      "manager": "U.S. Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 29.82759,
+        "west": -83.13173,
+        "north": 30.45048,
+        "east": -82.06074
+      }
+    },
+    {
+      "name": "Banks Lake National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "National Wildlife Refuge",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.0134,
+        "west": -83.16355,
+        "north": 31.03668,
+        "east": -83.0719
+      }
+    },
+    {
+      "name": "Hixtown Swamp Conservation Area",
+      "manager": "Regional water district",
+      "designation": "LCA",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.43168,
+        "west": -83.62056,
+        "north": 30.45696,
+        "east": -83.57009
+      }
+    },
+    {
+      "name": "Lower Alapaha Conservation Area",
+      "manager": "Regional water district",
+      "designation": "LCA",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.43569,
+        "west": -83.1024,
+        "north": 30.48164,
+        "east": -83.06267
+      }
+    },
+    {
+      "name": "Upper Alapaha Conservation Area",
+      "manager": "Regional water district",
+      "designation": "LCA",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.49496,
+        "west": -83.11797,
+        "north": 30.62117,
+        "east": -82.93489
+      }
+    },
+    {
+      "name": "Upper Aucilla Conservation Area",
+      "manager": "Regional water district",
+      "designation": "LCA",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.43507,
+        "west": -83.7504,
+        "north": 30.59615,
+        "east": -83.63719
+      }
+    },
+    {
+      "name": "Withlacoochee East Conservation Area",
+      "manager": "Regional water district",
+      "designation": "LCA",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.41222,
+        "west": -83.30951,
+        "north": 30.6344,
+        "east": -83.20247
+      }
+    },
+    {
+      "name": "Withlacoochee West Conservation Area",
+      "manager": "Regional water district",
+      "designation": "LCA",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.45003,
+        "west": -83.27894,
+        "north": 30.55238,
+        "east": -83.21895
+      }
+    },
+    {
+      "name": "Twin Rivers State Forest",
+      "manager": "Other state agency",
+      "designation": "SRMA",
+      "access": "open",
+      "bbox": {
+        "south": 30.26059,
+        "west": -83.27473,
+        "north": 30.61083,
+        "east": -83.17453
+      }
+    },
+    {
+      "name": "Suwannee Ridge Mitigation Park Wildlife and Environmental Area",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.44097,
+        "west": -83.06639,
+        "north": 30.46182,
+        "east": -83.03084
+      }
+    },
+    {
+      "name": "Madison Blue Spring",
+      "manager": "State parks & recreation",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.47502,
+        "west": -83.24838,
+        "north": 30.48197,
+        "east": -83.24231
+      }
+    },
+    {
+      "name": "City Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.13133,
+        "west": -83.42054,
+        "north": 31.13209,
+        "east": -83.41991
+      }
+    },
+    {
+      "name": "Jim Battle Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.14196,
+        "west": -83.43388,
+        "north": 31.14322,
+        "east": -83.43178
+      }
+    },
+    {
+      "name": "Rob Lovett Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.1384,
+        "west": -83.42049,
+        "north": 31.14433,
+        "east": -83.4163
+      }
+    },
+    {
+      "name": "Heritage Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.19901,
+        "west": -83.24966,
+        "north": 31.19996,
+        "east": -83.24556
+      }
+    },
+    {
+      "name": "Echols Statenville Ballfields",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.70396,
+        "west": -83.02346,
+        "north": 30.70622,
+        "east": -83.02156
+      }
+    },
+    {
+      "name": "Lakeland Lanier Rec Facility",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 31.03032,
+        "west": -83.0728,
+        "north": 31.03472,
+        "east": -83.06777
+      }
+    },
+    {
+      "name": "City of Morven Park",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.93496,
+        "west": -83.5276,
+        "north": 30.93603,
+        "east": -83.5256
+      }
+    },
+    {
+      "name": "Beetree Recreation Area",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.2097,
+        "west": -83.24178,
+        "north": 31.21038,
+        "east": -83.24101
+      }
+    },
+    {
+      "name": "Carter Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.19972,
+        "west": -83.23926,
+        "north": 31.20155,
+        "east": -83.23655
+      }
+    },
+    {
+      "name": "Connie's Childrens Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.20725,
+        "west": -83.24972,
+        "north": 31.20755,
+        "east": -83.24935
+      }
+    },
+    {
+      "name": "Memorial Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.19373,
+        "west": -83.26698,
+        "north": 31.19649,
+        "east": -83.2607
+      }
+    },
+    {
+      "name": "Tygart Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.20112,
+        "west": -83.25872,
+        "north": 31.20242,
+        "east": -83.25725
+      }
+    },
+    {
+      "name": "West End Cemetery",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.78309,
+        "west": -83.56712,
+        "north": 30.78515,
+        "east": -83.56641
+      }
+    },
+    {
+      "name": "Quitman City Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.78898,
+        "west": -83.56766,
+        "north": 30.79019,
+        "east": -83.56623
+      }
+    },
+    {
+      "name": "Brooks County Recreation Complex",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.81547,
+        "west": -83.56782,
+        "north": 30.81904,
+        "east": -83.56523
+      }
+    },
+    {
+      "name": "Batterbee Branch Park",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 31.07435,
+        "west": -83.20562,
+        "north": 31.07832,
+        "east": -83.20184
+      }
+    },
+    {
+      "name": "Berrien County Rec Complex",
+      "manager": "County",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 31.19268,
+        "west": -83.27052,
+        "north": 31.19611,
+        "east": -83.26702
+      }
+    },
+    {
+      "name": "School Number 2",
+      "manager": "County",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.78769,
+        "west": -83.56975,
+        "north": 30.78895,
+        "east": -83.56703
+      }
+    },
+    {
+      "name": "Massee Post Rd. Complex",
+      "manager": "County",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 31.15161,
+        "west": -83.41345,
+        "north": 31.15687,
+        "east": -83.40892
+      }
+    },
+    {
+      "name": "Craig Center",
+      "manager": "County",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.83915,
+        "west": -83.30477,
+        "north": 30.84031,
+        "east": -83.30369
+      }
+    },
+    {
+      "name": "M. Hunter Community Center",
+      "manager": "County",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.8276,
+        "west": -83.26764,
+        "north": 30.82822,
+        "east": -83.26656
+      }
+    },
+    {
+      "name": "Pinevale Youth Center",
+      "manager": "County",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.82306,
+        "west": -83.26831,
+        "north": 30.82435,
+        "east": -83.26673
+      }
+    },
+    {
+      "name": "Senior Citizens Center",
+      "manager": "County",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.85658,
+        "west": -83.27109,
+        "north": 30.85714,
+        "east": -83.27069
+      }
+    },
+    {
+      "name": "South Lowndes Complex/Comm Ctr",
+      "manager": "County",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.67119,
+        "west": -83.18872,
+        "north": 30.67728,
+        "east": -83.18363
+      }
+    },
+    {
+      "name": "Vallotton Youth Complex",
+      "manager": "County",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 30.85069,
+        "west": -83.27469,
+        "north": 30.85413,
+        "east": -83.2696
+      }
+    },
+    {
+      "name": "Lowndes County Greenspace",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.89749,
+        "west": -83.31888,
+        "north": 30.91528,
+        "east": -83.26273
+      }
+    },
+    {
+      "name": "Lowndes County Greenspace",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.63563,
+        "west": -83.40924,
+        "north": 30.89918,
+        "east": -83.25853
+      }
+    },
+    {
+      "name": "Barber Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.82534,
+        "west": -83.30402,
+        "north": 30.82977,
+        "east": -83.29884
+      }
+    },
+    {
+      "name": "Bland Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.85241,
+        "west": -83.31485,
+        "north": 30.85315,
+        "east": -83.31409
+      }
+    },
+    {
+      "name": "Chitty Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.80225,
+        "west": -83.27261,
+        "north": 30.80304,
+        "east": -83.27131
+      }
+    },
+    {
+      "name": "Clyattville Community Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.69569,
+        "west": -83.32013,
+        "north": 30.69755,
+        "east": -83.31794
+      }
+    },
+    {
+      "name": "Drexel Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.84578,
+        "west": -83.28692,
+        "north": 30.84749,
+        "east": -83.28338
+      }
+    },
+    {
+      "name": "Eastwind Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.87807,
+        "west": -83.25996,
+        "north": 30.87868,
+        "east": -83.25832
+      }
+    },
+    {
+      "name": "Fellowship Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.83071,
+        "west": -83.27223,
+        "north": 30.83121,
+        "east": -83.2708
+      }
+    },
+    {
+      "name": "Freedom Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.90576,
+        "west": -83.25793,
+        "north": 30.91452,
+        "east": -83.24151
+      }
+    },
+    {
+      "name": "Greer Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.82091,
+        "west": -83.29634,
+        "north": 30.8224,
+        "east": -83.29506
+      }
+    },
+    {
+      "name": "Hightower Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.83365,
+        "west": -83.30114,
+        "north": 30.83419,
+        "east": -83.29855
+      }
+    },
+    {
+      "name": "Hyta Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.84684,
+        "west": -83.30433,
+        "north": 30.84757,
+        "east": -83.30394
+      }
+    },
+    {
+      "name": "J. L. Lomax",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.83209,
+        "west": -83.2878,
+        "north": 30.83265,
+        "east": -83.28749
+      }
+    },
+    {
+      "name": "Jaycee Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.87069,
+        "west": -83.25398,
+        "north": 30.8722,
+        "east": -83.25233
+      }
+    },
+    {
+      "name": "Lake Park Library Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.68327,
+        "west": -83.21331,
+        "north": 30.68367,
+        "east": -83.21127
+      }
+    },
+    {
+      "name": "Langdale Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.87515,
+        "west": -83.32691,
+        "north": 30.89233,
+        "east": -83.31764
+      }
+    },
+    {
+      "name": "Lovett Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.7945,
+        "west": -83.24156,
+        "north": 30.79721,
+        "east": -83.23906
+      }
+    },
+    {
+      "name": "Mathis Audit/Pendelton Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.8597,
+        "west": -83.28558,
+        "north": 30.86239,
+        "east": -83.28238
+      }
+    },
+    {
+      "name": "McKey Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.86311,
+        "west": -83.29231,
+        "north": 30.86506,
+        "east": -83.28898
+      }
+    },
+    {
+      "name": "Naylor Community Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.90775,
+        "west": -83.07971,
+        "north": 30.90876,
+        "east": -83.07839
+      }
+    },
+    {
+      "name": "Olympic Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.8274,
+        "west": -83.27901,
+        "north": 30.82851,
+        "east": -83.27742
+      }
+    },
+    {
+      "name": "Oris Blackburn Memorial Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.66335,
+        "west": -83.32366,
+        "north": 30.6706,
+        "east": -83.31704
+      }
+    },
+    {
+      "name": "Payton Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.81531,
+        "west": -83.26388,
+        "north": 30.81835,
+        "east": -83.26155
+      }
+    },
+    {
+      "name": "R. K. Harrington Park & Pool",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.82849,
+        "west": -83.26798,
+        "north": 30.82912,
+        "east": -83.26688
+      }
+    },
+    {
+      "name": "Scott Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.8218,
+        "west": -83.2568,
+        "north": 30.82655,
+        "east": -83.25423
+      }
+    },
+    {
+      "name": "Shannon Hill Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.85239,
+        "west": -83.2997,
+        "north": 30.85292,
+        "east": -83.2988
+      }
+    },
+    {
+      "name": "Smith Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.83288,
+        "west": -83.27378,
+        "north": 30.83347,
+        "east": -83.27186
+      }
+    },
+    {
+      "name": "Snake Nation Community Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.90621,
+        "west": -83.4144,
+        "north": 30.90667,
+        "east": -83.41395
+      }
+    },
+    {
+      "name": "Taylor-Cowart Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.86897,
+        "west": -83.27862,
+        "north": 30.86992,
+        "east": -83.27756
+      }
+    },
+    {
+      "name": "Tom's Corner Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.84382,
+        "west": -83.27694,
+        "north": 30.8443,
+        "east": -83.27621
+      }
+    },
+    {
+      "name": "Vallotton Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.84753,
+        "west": -83.27803,
+        "north": 30.84951,
+        "east": -83.27535
+      }
+    },
+    {
+      "name": "014-001",
+      "manager": "Other state agency",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.93473,
+        "west": -83.71776,
+        "north": 30.95396,
+        "east": -83.69545
+      }
+    },
+    {
+      "name": "Grand Bay Wildlife Management Area",
+      "manager": "State natural resources",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.92053,
+        "west": -83.2323,
+        "north": 30.95277,
+        "east": -83.16509
+      }
+    },
+    {
+      "name": "Reed Bingham State Park",
+      "manager": "State natural resources",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.16016,
+        "west": -83.5506,
+        "north": 31.19453,
+        "east": -83.51751
+      }
+    },
+    {
+      "name": "Grand Bay Wildlife Management Area",
+      "manager": "State natural resources",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.93534,
+        "west": -83.17443,
+        "north": 31.01467,
+        "east": -83.12929
+      }
+    },
+    {
+      "name": "Morris Pond Mitigation Bank",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 31.16806,
+        "west": -83.2633,
+        "north": 31.17483,
+        "east": -83.25418
+      }
+    },
+    {
+      "name": "Brooks County Farm",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 30.73964,
+        "west": -83.55774,
+        "north": 30.75158,
+        "east": -83.54335
+      }
+    },
+    {
+      "name": "Inner Perimeter Road Mitigation",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 30.76934,
+        "west": -83.26394,
+        "north": 30.83925,
+        "east": -83.22836
+      }
+    },
+    {
+      "name": "Inner Perimeter Road Mitigation",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 30.83725,
+        "west": -83.22891,
+        "north": 30.83919,
+        "east": -83.22836
+      }
+    },
+    {
+      "name": "Inner Perimeter Road Mitigation",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 30.88339,
+        "west": -83.28438,
+        "north": 30.88395,
+        "east": -83.28278
+      }
+    },
+    {
+      "name": "Inner Perimeter Road Mitigation - Dennis Tract",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 30.81917,
+        "west": -83.2341,
+        "north": 30.82491,
+        "east": -83.22961
+      }
+    },
+    {
+      "name": "Shiner Pond Road Mitigation",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 31.00689,
+        "west": -83.17039,
+        "north": 31.01175,
+        "east": -83.16042
+      }
+    },
+    {
+      "name": "Banks Lake Wetland Preserve Tract",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 31.0249,
+        "west": -83.16844,
+        "north": 31.03805,
+        "east": -83.1187
+      }
+    },
+    {
+      "name": "Bowen Mill Pond Mitigation Bank",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 30.78636,
+        "west": -83.632,
+        "north": 30.79988,
+        "east": -83.61529
+      }
+    },
+    {
+      "name": "Indian Creek Mitigation Bank",
+      "manager": "Army Corps of Engineers",
+      "designation": "NCA",
+      "access": "closed",
+      "bbox": {
+        "south": 31.12248,
+        "west": -83.67358,
+        "north": 31.13632,
+        "east": -83.651
+      }
+    },
+    {
+      "name": "Ball Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.99171,
+        "west": -83.36788,
+        "north": 30.99305,
+        "east": -83.3659
+      }
+    },
+    {
+      "name": "Withlacoochee East Conservation Area",
+      "manager": "Regional water district",
+      "designation": "SRMA",
+      "access": "open",
+      "bbox": {
+        "south": 30.63301,
+        "west": -83.3088,
+        "north": 30.63478,
+        "east": -83.28491
+      }
+    },
+    {
+      "name": "Lowndes CMC",
+      "manager": "Army Corps of Engineers",
+      "designation": "PCON",
+      "access": "closed",
+      "bbox": {
+        "south": 30.74967,
+        "west": -83.28292,
+        "north": 30.75951,
+        "east": -83.27486
+      }
+    },
+    {
+      "name": "Banks Lake Preserve",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "closed",
+      "bbox": {
+        "south": 31.02152,
+        "west": -83.08208,
+        "north": 31.02552,
+        "east": -83.07195
+      }
+    },
+    {
+      "name": "Greenville Wellfield 3183",
+      "manager": null,
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 30.47553,
+        "west": -83.64718,
+        "north": 30.47915,
+        "east": -83.64189
+      }
+    },
+    {
+      "name": "Greenville Wellfield 3184",
+      "manager": null,
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 30.4752,
+        "west": -83.64503,
+        "north": 30.47917,
+        "east": -83.64183
+      }
+    },
+    {
+      "name": "Brookwood Park",
+      "manager": "Regional agency",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.84536,
+        "west": -83.2858,
+        "north": 30.84593,
+        "east": -83.28473
+      }
+    },
+    {
+      "name": "Blazer Field (Billy Grant Baseball Field)",
+      "manager": "Regional agency",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.86341,
+        "west": -83.28938,
+        "north": 30.86783,
+        "east": -83.2846
+      }
+    },
+    {
+      "name": "Smith Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.98474,
+        "west": -83.36946,
+        "north": 30.98551,
+        "east": -83.36883
+      }
+    },
+    {
+      "name": "Buddy Parker Recreation Center",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.51785,
+        "west": -82.95476,
+        "north": 30.51846,
+        "east": -82.95409
+      }
+    },
+    {
+      "name": "Cypress Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.52297,
+        "west": -82.95153,
+        "north": 30.52355,
+        "east": -82.95084
+      }
+    },
+    {
+      "name": "Lake Irma Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.0421,
+        "west": -83.0792,
+        "north": 31.04419,
+        "east": -83.07394
+      }
+    },
+    {
+      "name": "Roquemore Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 31.03731,
+        "west": -83.07387,
+        "north": 31.03869,
+        "east": -83.07199
+      }
+    },
+    {
+      "name": "Four Freedoms Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.46957,
+        "west": -83.41277,
+        "north": 30.47012,
+        "east": -83.41213
+      }
+    },
+    {
+      "name": "Jesse Solomon Recreation Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.46059,
+        "west": -83.42524,
+        "north": 30.46536,
+        "east": -83.42165
+      }
+    },
+    {
+      "name": "Lake Francis Recreation Area Park & Boat Ramp",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.46621,
+        "west": -83.40915,
+        "north": 30.46728,
+        "east": -83.40849
+      }
+    },
+    {
+      "name": "Lanier Field Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.47038,
+        "west": -83.42152,
+        "north": 30.47286,
+        "east": -83.41996
+      }
+    },
+    {
+      "name": "Rev James C Miller Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.46173,
+        "west": -83.41681,
+        "north": 30.46308,
+        "east": -83.41508
+      }
+    },
+    {
+      "name": "Sumpter A James Jr Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.46468,
+        "west": -83.42063,
+        "north": 30.46529,
+        "east": -83.42
+      }
+    },
+    {
+      "name": "Court House Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.78506,
+        "west": -83.56093,
+        "north": 30.78574,
+        "east": -83.55917
+      }
+    },
+    {
+      "name": "Sonny Rogers Memorial Park",
+      "manager": "County",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 31.00168,
+        "west": -83.39484,
+        "north": 31.00497,
+        "east": -83.39277
+      }
+    },
+    {
+      "name": "Hamilton County Arena",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.51741,
+        "west": -82.96225,
+        "north": 30.51873,
+        "east": -82.96093
+      }
+    },
+    {
+      "name": "Hamilton County Recreation Complex",
+      "manager": "County",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 30.50516,
+        "west": -82.95547,
+        "north": 30.50982,
+        "east": -82.94855
+      }
+    },
+    {
+      "name": "Bland Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.85258,
+        "west": -83.31411,
+        "north": 30.85304,
+        "east": -83.31349
+      }
+    },
+    {
+      "name": "White Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.82386,
+        "west": -83.28123,
+        "north": 30.82535,
+        "east": -83.27892
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "Private",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 30.99584,
+        "west": -83.37215,
+        "north": 30.99618,
+        "east": -83.37188
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Fl",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.49816,
+        "west": -83.59324,
+        "north": 30.50906,
+        "east": -83.5703
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 31.19272,
+        "west": -83.62853,
+        "north": 31.19562,
+        "east": -83.62634
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 31.18807,
+        "west": -83.63163,
+        "north": 31.19512,
+        "east": -83.62637
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.67792,
+        "west": -83.15123,
+        "north": 30.68143,
+        "east": -83.14791
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.72332,
+        "west": -83.52083,
+        "north": 30.73753,
+        "east": -83.50576
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 31.20935,
+        "west": -83.72425,
+        "north": 31.216,
+        "east": -83.71685
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.6812,
+        "west": -83.1497,
+        "north": 30.68378,
+        "east": -83.14793
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.98455,
+        "west": -83.49085,
+        "north": 30.99049,
+        "east": -83.48224
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 31.04439,
+        "west": -83.5981,
+        "north": 31.05341,
+        "east": -83.58711
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.68138,
+        "west": -83.54156,
+        "north": 30.68525,
+        "east": -83.53224
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Ga",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.67353,
+        "west": -83.16148,
+        "north": 30.68635,
+        "east": -83.1524
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Fl",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.55103,
+        "west": -83.48153,
+        "north": 30.5542,
+        "east": -83.47774
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Fl",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.54765,
+        "west": -83.48153,
+        "north": 30.5539,
+        "east": -83.4759
+      }
+    },
+    {
+      "name": "Farm Service Agency Interest Of Fl",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.53451,
+        "west": -83.47889,
+        "north": 30.55155,
+        "east": -83.46915
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Jefferson, FL",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.6361,
+        "west": -83.64231,
+        "north": 30.65289,
+        "east": -83.60479
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Jefferson, FL",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.6521,
+        "west": -83.64206,
+        "north": 30.65943,
+        "east": -83.6285
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Brooks, GA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.65223,
+        "west": -83.63913,
+        "north": 30.67654,
+        "east": -83.61313
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Brooks, GA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 30.75347,
+        "west": -83.66068,
+        "north": 30.76074,
+        "east": -83.65241
+      }
+    },
+    {
+      "name": "Lowndes CMC",
+      "manager": "Army Corps of Engineers",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.74967,
+        "west": -83.28292,
+        "north": 30.75951,
+        "east": -83.27485
+      }
+    },
+    {
+      "name": "Lowndes Tillman",
+      "manager": "Army Corps of Engineers",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.90635,
+        "west": -83.37451,
+        "north": 30.92478,
+        "east": -83.36331
+      }
+    },
+    {
+      "name": "Lowndes Tillman",
+      "manager": "Army Corps of Engineers",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.91183,
+        "west": -83.36312,
+        "north": 30.91665,
+        "east": -83.35961
+      }
+    },
+    {
+      "name": "Lowndes CMC",
+      "manager": "Army Corps of Engineers",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.7538,
+        "west": -83.27811,
+        "north": 30.75535,
+        "east": -83.27735
+      }
+    },
+    {
+      "name": "Adel",
+      "manager": "Army Corps of Engineers",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 31.14137,
+        "west": -83.43881,
+        "north": 31.14333,
+        "east": -83.43634
+      }
+    },
+    {
+      "name": "Bowens Millpond",
+      "manager": "Army Corps of Engineers",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.78665,
+        "west": -83.63173,
+        "north": 30.80024,
+        "east": -83.61522
+      }
+    },
+    {
+      "name": "Giddens Pond",
+      "manager": "Army Corps of Engineers",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 31.15307,
+        "west": -83.48881,
+        "north": 31.16985,
+        "east": -83.46949
+      }
+    },
+    {
+      "name": "Eufaula National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 31.20927,
+        "west": -83.72432,
+        "north": 31.21604,
+        "east": -83.71711
+      }
+    },
+    {
+      "name": "St. Mark's National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.98447,
+        "west": -83.4907,
+        "north": 30.9909,
+        "east": -83.48177
+      }
+    },
+    {
+      "name": "St. Mark's National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.68137,
+        "west": -83.54177,
+        "north": 30.68481,
+        "east": -83.53246
+      }
+    },
+    {
+      "name": "Eufaula National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 31.18847,
+        "west": -83.64785,
+        "north": 31.19543,
+        "east": -83.6424
+      }
+    },
+    {
+      "name": "Eufaula National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 31.19137,
+        "west": -83.64462,
+        "north": 31.19426,
+        "east": -83.64242
+      }
+    },
+    {
+      "name": "Eufaula National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 31.04419,
+        "west": -83.598,
+        "north": 31.05333,
+        "east": -83.58683
+      }
+    },
+    {
+      "name": "St. Mark's National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.72348,
+        "west": -83.52078,
+        "north": 30.7376,
+        "east": -83.50516
+      }
+    },
+    {
+      "name": "Hickory Head",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.64137,
+        "west": -83.66928,
+        "north": 30.68971,
+        "east": -83.62923
+      }
+    },
+    {
+      "name": "Petway Farms",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.67594,
+        "west": -83.59495,
+        "north": 30.70208,
+        "east": -83.56584
+      }
+    },
+    {
+      "name": "Pinion Point",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.65451,
+        "west": -83.74299,
+        "north": 30.70717,
+        "east": -83.66886
+      }
+    },
+    {
+      "name": "McGriff Farm",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.6808,
+        "west": -83.58119,
+        "north": 30.68823,
+        "east": -83.56564
+      }
+    },
+    {
+      "name": "McGriff Farm",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": null,
+      "bbox": {
+        "south": 30.6807,
+        "west": -83.56532,
+        "north": 30.68806,
+        "east": -83.56132
+      }
+    },
+    {
+      "name": "Geraldine Livingston Foundation Conservation Easement",
+      "manager": "Regional water district",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 30.59631,
+        "west": -83.7364,
+        "north": 30.65801,
+        "east": -83.64421
+      }
+    },
+    {
+      "name": "Hickory Head Plantation Conservation Easement",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 30.6414,
+        "west": -83.66928,
+        "north": 30.65464,
+        "east": -83.64215
+      }
+    },
+    {
+      "name": "Upper Alapaha Conservation Easements",
+      "manager": "Regional water district",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 30.55253,
+        "west": -83.0657,
+        "north": 30.61722,
+        "east": -83.01894
+      }
+    },
+    {
+      "name": "Cecil Bay Mitigation Bank",
+      "manager": null,
+      "designation": "Conservation Easement",
+      "access": null,
+      "bbox": {
+        "south": 31.04786,
+        "west": -83.4195,
+        "north": 31.08279,
+        "east": -83.39738
+      }
+    },
+    {
+      "name": "Cherry Creek Mitigation Bank",
+      "manager": null,
+      "designation": "Conservation Easement",
+      "access": null,
+      "bbox": {
+        "south": 30.89733,
+        "west": -83.31453,
+        "north": 30.92682,
+        "east": -83.29608
+      }
+    },
+    {
+      "name": "Indian Creek Mitigation Bank",
+      "manager": null,
+      "designation": "Conservation Easement",
+      "access": null,
+      "bbox": {
+        "south": 31.12253,
+        "west": -83.67357,
+        "north": 31.13631,
+        "east": -83.651
+      }
+    },
+    {
+      "name": "GALT easement",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": null,
+      "bbox": {
+        "south": 31.02652,
+        "west": -83.28856,
+        "north": 31.02699,
+        "east": -83.28782
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #257",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.68031,
+        "west": -83.47598,
+        "north": 30.69552,
+        "east": -83.44357
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #817",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.04468,
+        "west": -83.08359,
+        "north": 31.05482,
+        "east": -83.07704
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #834 (River Tract and Nurserry)",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.05042,
+        "west": -83.28518,
+        "north": 31.06504,
+        "east": -83.25781
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #829",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.04218,
+        "west": -83.54937,
+        "north": 31.0538,
+        "east": -83.52779
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #830",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.84754,
+        "west": -83.55244,
+        "north": 30.86276,
+        "east": -83.53836
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #816",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.04941,
+        "west": -83.12899,
+        "north": 31.0624,
+        "east": -83.11425
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #818",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.09158,
+        "west": -83.20086,
+        "north": 31.09885,
+        "east": -83.193
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #831 (Four Rock Farm)",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.07143,
+        "west": -83.25468,
+        "north": 31.08654,
+        "east": -83.24194
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #375",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.8251,
+        "west": -83.63177,
+        "north": 30.84395,
+        "east": -83.60677
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #815",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.80316,
+        "west": -83.74083,
+        "north": 30.81974,
+        "east": -83.71764
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #811",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.88956,
+        "west": -83.6797,
+        "north": 30.90843,
+        "east": -83.66473
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #668",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.75832,
+        "west": -83.66216,
+        "north": 30.76795,
+        "east": -83.65188
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #457",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.90666,
+        "west": -83.60315,
+        "north": 30.91928,
+        "east": -83.59476
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #865",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.02256,
+        "west": -83.29658,
+        "north": 31.03891,
+        "east": -83.27583
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #459",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.03321,
+        "west": -83.55783,
+        "north": 31.04212,
+        "east": -83.54145
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #456",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.91942,
+        "west": -83.62357,
+        "north": 30.93032,
+        "east": -83.60977
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #757",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.08665,
+        "west": -83.25492,
+        "north": 31.11073,
+        "east": -83.23269
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #663",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.12697,
+        "west": -83.64811,
+        "north": 31.14168,
+        "east": -83.63218
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #458",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.95752,
+        "west": -83.53714,
+        "north": 30.96633,
+        "east": -83.52926
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #866",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.06241,
+        "west": -83.25788,
+        "north": 31.07461,
+        "east": -83.24934
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #743",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 31.057,
+        "west": -83.11428,
+        "north": 31.06756,
+        "east": -83.0904
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #455",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.80136,
+        "west": -83.66637,
+        "north": 30.80545,
+        "east": -83.65929
+      }
+    },
+    {
+      "name": "Georgia-Alabama Land Trust Easement #462",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "restricted",
+      "bbox": {
+        "south": 30.71451,
+        "west": -83.60101,
+        "north": 30.74493,
+        "east": -83.56149
+      }
+    }
+  ]
+}

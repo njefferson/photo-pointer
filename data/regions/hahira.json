@@ -183,7 +183,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 128
+        "ebird_species": 128,
+        "padus": {
+          "name": "Banks Lake National Wildlife Refuge",
+          "manager": "U.S. Fish & Wildlife Service",
+          "designation": "National Wildlife Refuge",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -220,6 +226,12 @@
           "s": 0.3,
           "w": 0.2,
           "site_m": 56
+        },
+        "padus": {
+          "name": "Barber Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -686,7 +698,13 @@
         }
       ],
       "tags": {
-        "nrhp": "80000976"
+        "nrhp": "80000976",
+        "padus": {
+          "name": "Court House Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -752,6 +770,12 @@
           "s": 1.1,
           "w": 0.1,
           "site_m": 57
+        },
+        "padus": {
+          "name": "Brookwood Park",
+          "manager": "Regional agency",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -1870,6 +1894,12 @@
           "observations": 3,
           "species": 3,
           "topGuild": "reptiles"
+        },
+        "padus": {
+          "name": "Drexel Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -2122,6 +2152,12 @@
           "s": -0.1,
           "w": 0.1,
           "site_m": 63
+        },
+        "padus": {
+          "name": "Fellowship Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -2362,6 +2398,12 @@
         },
         "commons": {
           "photos": 23
+        },
+        "padus": {
+          "name": "Freedom Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -2393,7 +2435,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 54
+        "ebird_species": 54,
+        "padus": {
+          "name": "Freedom Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2681,6 +2729,12 @@
           "s": 0,
           "w": 0,
           "site_m": 61
+        },
+        "padus": {
+          "name": "Grand Bay Wildlife Management Area",
+          "manager": "State natural resources",
+          "designation": "State Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -2712,7 +2766,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 168
+        "ebird_species": 168,
+        "padus": {
+          "name": "Grand Bay Wildlife Management Area",
+          "manager": "State natural resources",
+          "designation": "State Conservation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -3047,6 +3107,12 @@
           "observations": 14,
           "species": 9,
           "topGuild": "insects"
+        },
+        "padus": {
+          "name": "Hyta Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -3609,7 +3675,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 123
+        "ebird_species": 123,
+        "padus": {
+          "name": "Langdale Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3649,6 +3721,12 @@
           "s": 0.4,
           "w": 0.5,
           "site_m": 38
+        },
+        "padus": {
+          "name": "Langdale Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -3980,6 +4058,12 @@
         },
         "commons": {
           "photos": 24
+        },
+        "padus": {
+          "name": "Freedom Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -4016,6 +4100,12 @@
           "s": -0.1,
           "w": 0.1,
           "site_m": 60
+        },
+        "padus": {
+          "name": "Payton Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -4367,6 +4457,12 @@
           "s": 1.2,
           "w": 0,
           "site_m": 54
+        },
+        "padus": {
+          "name": "McKey Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -4748,6 +4844,12 @@
           "s": -0.1,
           "w": 0,
           "site_m": 62
+        },
+        "padus": {
+          "name": "Olympic Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -4786,6 +4888,12 @@
         },
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Oris Blackburn Memorial Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -4939,6 +5047,12 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 70
+        },
+        "padus": {
+          "name": "Mathis Audit/Pendelton Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5090,6 +5204,12 @@
           "s": -0.1,
           "w": 0.1,
           "site_m": 70
+        },
+        "padus": {
+          "name": "Moody Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -5413,6 +5533,12 @@
           "s": -0.1,
           "w": 0,
           "site_m": 64
+        },
+        "padus": {
+          "name": "Scott Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5555,6 +5681,12 @@
           "s": -0.1,
           "w": 0,
           "site_m": 66
+        },
+        "padus": {
+          "name": "Smith Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5593,6 +5725,12 @@
         },
         "commons": {
           "photos": 49
+        },
+        "padus": {
+          "name": "Smith Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5764,6 +5902,12 @@
           "s": -0.1,
           "w": 0.1,
           "site_m": 67
+        },
+        "padus": {
+          "name": "Moody Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -6092,6 +6236,12 @@
         },
         "commons": {
           "photos": 30
+        },
+        "padus": {
+          "name": "Taylor-Cowart Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -6569,6 +6719,12 @@
           "s": 0.3,
           "w": 0.1,
           "site_m": 59
+        },
+        "padus": {
+          "name": "Vallotton Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -6606,6 +6762,12 @@
           "s": 0.3,
           "w": 0.1,
           "site_m": 60
+        },
+        "padus": {
+          "name": "Vallotton Youth Complex",
+          "manager": "County",
+          "designation": "LOTH",
+          "access": "open"
         }
       }
     },
@@ -6653,6 +6815,12 @@
         },
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Grand Bay Wildlife Management Area",
+          "manager": "State natural resources",
+          "designation": "State Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -6833,6 +7001,12 @@
           "s": 0.3,
           "w": 0.1,
           "site_m": 58
+        },
+        "padus": {
+          "name": "White Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
