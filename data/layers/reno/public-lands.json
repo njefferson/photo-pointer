@@ -1,0 +1,145 @@
+{
+  "source": {
+    "source": "public_lands",
+    "name": "Public-land boundaries (OpenStreetMap)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "builtAt": "2026-07-26",
+  "count": 12,
+  "areas": [
+    {
+      "name": "Plateau/Aspen Glen",
+      "class": "nature_reserve",
+      "operator": "Washoe County",
+      "bbox": {
+        "south": 39.5007458,
+        "west": -119.8934713,
+        "north": 39.5046799,
+        "east": -119.8884603
+      }
+    },
+    {
+      "name": "Keystone Canyon Non-Motorized Recreation Area",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 39.5508844,
+        "west": -119.8676835,
+        "north": 39.5731232,
+        "east": -119.8302682
+      }
+    },
+    {
+      "name": "Humboldt–Toiyabe National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 35.9120821,
+        "west": -120.1471765,
+        "north": 41.9992568,
+        "east": -114.0788038
+      }
+    },
+    {
+      "name": "Mount Rose Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 39.2629119,
+        "west": -120.0034909,
+        "north": 39.4905026,
+        "east": -119.8611086
+      }
+    },
+    {
+      "name": "Arrowcreek Open Space",
+      "class": "nature_reserve",
+      "operator": "Washoe County",
+      "bbox": {
+        "south": 39.3893072,
+        "west": -119.8452187,
+        "north": 39.4528712,
+        "east": -119.7985753
+      }
+    },
+    {
+      "name": "Huffaker Hills Open Space",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 39.4548117,
+        "west": -119.761426,
+        "north": 39.4731767,
+        "east": -119.7427607
+      }
+    },
+    {
+      "name": "Sugarloaf Peak Open Space",
+      "class": "nature_reserve",
+      "operator": "Washoe County",
+      "bbox": {
+        "south": 39.670665,
+        "west": -119.6997678,
+        "north": 39.6799723,
+        "east": -119.6729618
+      }
+    },
+    {
+      "name": "Rancho San Rafael",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 39.5502419,
+        "west": -119.8498435,
+        "north": 39.563732,
+        "east": -119.8238336
+      }
+    },
+    {
+      "name": "Galena Creek Regional Park",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 39.3460495,
+        "west": -119.8638869,
+        "north": 39.3648452,
+        "east": -119.8485547
+      }
+    },
+    {
+      "name": "Ballardini Open Space",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 39.446695,
+        "west": -119.8374939,
+        "north": 39.4524073,
+        "east": -119.8183778
+      }
+    },
+    {
+      "name": "Galena Terrace",
+      "class": "nature_reserve",
+      "operator": "Washoe County",
+      "bbox": {
+        "south": 39.3750138,
+        "west": -119.7894822,
+        "north": 39.3895067,
+        "east": -119.771238
+      }
+    },
+    {
+      "name": "Mogul Open Space",
+      "class": "nature_reserve",
+      "operator": "Washoe County",
+      "bbox": {
+        "south": 39.5193453,
+        "west": -119.9232597,
+        "north": 39.5230944,
+        "east": -119.9172843
+      }
+    }
+  ]
+}

@@ -464,6 +464,11 @@
           "s": 3.1,
           "w": 8.7,
           "site_m": 2726
+        },
+        "publicLand": {
+          "name": "Mount Rose Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -1010,6 +1015,11 @@
           "s": 3.4,
           "w": 8.8,
           "site_m": 1511
+        },
+        "publicLand": {
+          "name": "Ballardini Open Space",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -1300,6 +1310,11 @@
           "observations": 8,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Rancho San Rafael",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -2314,6 +2329,11 @@
           "s": -0.5,
           "w": 7.7,
           "site_m": 2864
+        },
+        "publicLand": {
+          "name": "Mount Rose Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -3599,6 +3619,11 @@
           "observations": 4,
           "species": 3,
           "topGuild": "reptiles"
+        },
+        "publicLand": {
+          "name": "Rancho San Rafael",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -4450,6 +4475,11 @@
           "observations": 5,
           "species": 4,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Galena Creek Regional Park",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -4539,6 +4569,11 @@
           "s": 23.7,
           "w": 5.9,
           "site_m": 1633
+        },
+        "publicLand": {
+          "name": "Galena Terrace",
+          "class": "nature_reserve",
+          "operator": "Washoe County"
         }
       }
     },
@@ -6085,6 +6120,11 @@
           "observations": 8,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Huffaker Hills Open Space",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -8259,6 +8299,11 @@
           "s": 1.9,
           "w": 6.8,
           "site_m": 1516
+        },
+        "publicLand": {
+          "name": "Keystone Canyon Non-Motorized Recreation Area",
+          "class": "5",
+          "operator": null
         }
       }
     },
@@ -8551,6 +8596,11 @@
           "s": 6.1,
           "w": 2.5,
           "site_m": 1469
+        },
+        "publicLand": {
+          "name": "Mogul Open Space",
+          "class": "nature_reserve",
+          "operator": "Washoe County"
         }
       }
     },
@@ -8718,6 +8768,11 @@
           "s": 19,
           "w": 13.8,
           "site_m": 2971
+        },
+        "publicLand": {
+          "name": "Mount Rose Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -8798,6 +8853,11 @@
           "s": 1.3,
           "w": 14,
           "site_m": 1557
+        },
+        "publicLand": {
+          "name": "Rancho San Rafael",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -10799,6 +10859,11 @@
           "s": 9.9,
           "w": 3.3,
           "site_m": 1450
+        },
+        "publicLand": {
+          "name": "Plateau/Aspen Glen",
+          "class": "nature_reserve",
+          "operator": "Washoe County"
         }
       }
     },
@@ -10925,6 +10990,11 @@
           "s": 13.1,
           "w": 16.8,
           "site_m": 1887
+        },
+        "publicLand": {
+          "name": "Humboldt–Toiyabe National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -11458,6 +11528,11 @@
           "s": 5.1,
           "w": 8,
           "site_m": 1619
+        },
+        "publicLand": {
+          "name": "Humboldt–Toiyabe National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -11547,6 +11622,11 @@
           "s": 1,
           "w": 8.2,
           "site_m": 1472
+        },
+        "publicLand": {
+          "name": "Keystone Canyon Non-Motorized Recreation Area",
+          "class": "5",
+          "operator": null
         }
       }
     },
@@ -13143,6 +13223,11 @@
           "s": 0.2,
           "w": -1.3,
           "site_m": 3095
+        },
+        "publicLand": {
+          "name": "Mount Rose Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -13312,6 +13397,11 @@
           "s": 0.9,
           "w": 0,
           "site_m": 2441
+        },
+        "publicLand": {
+          "name": "Humboldt–Toiyabe National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -13805,6 +13895,11 @@
           "s": 0.4,
           "w": 0.6,
           "site_m": 1603
+        },
+        "publicLand": {
+          "name": "Sugarloaf Peak Open Space",
+          "class": "nature_reserve",
+          "operator": "Washoe County"
         }
       }
     },
@@ -15817,6 +15912,11 @@
           "s": 1.9,
           "w": 5,
           "site_m": 1537
+        },
+        "publicLand": {
+          "name": "Humboldt–Toiyabe National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
