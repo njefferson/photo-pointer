@@ -219,7 +219,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -270,7 +270,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -314,7 +314,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -348,8 +348,8 @@
         "ridb_type": "Campground",
         "padus": {
           "name": "Klamath, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -493,7 +493,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -539,8 +539,8 @@
         },
         "padus": {
           "name": "Aldergrove Marsh",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -1411,7 +1411,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -1554,7 +1554,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -1678,8 +1678,8 @@
         },
         "padus": {
           "name": "Jacoby Creek-Gannon Slough Wildlife Area",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -1724,8 +1724,8 @@
         },
         "padus": {
           "name": "Jacoby Creek-Gannon Slough Wildlife Area",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -2560,7 +2560,7 @@
         },
         "padus": {
           "name": "Mad River Slough Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -2703,7 +2703,7 @@
         },
         "padus": {
           "name": "Sunnybrae",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Conservation Easement",
           "access": "closed"
         }
@@ -2759,8 +2759,8 @@
         },
         "padus": {
           "name": "Arcata Community Forest",
-          "manager": "City",
-          "designation": "LRMA",
+          "manager": "City Land",
+          "designation": "Local Resource Management Area",
           "access": "open"
         }
       }
@@ -2810,8 +2810,8 @@
         },
         "padus": {
           "name": "Arcata Community Forest",
-          "manager": "City",
-          "designation": "LRMA",
+          "manager": "City Land",
+          "designation": "Local Resource Management Area",
           "access": "open"
         }
       }
@@ -2873,7 +2873,7 @@
         },
         "padus": {
           "name": "Arcata Community Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2929,8 +2929,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -2985,8 +2985,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3041,8 +3041,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3092,8 +3092,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3148,8 +3148,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3204,8 +3204,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3268,8 +3268,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3324,8 +3324,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3380,8 +3380,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3436,8 +3436,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3503,8 +3503,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -3561,7 +3561,7 @@
         },
         "padus": {
           "name": "Arcata Plaza",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3681,7 +3681,7 @@
         },
         "padus": {
           "name": "Arthur W. Way Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3789,7 +3789,7 @@
         },
         "padus": {
           "name": "Azalea State Natural Reserve",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -3823,7 +3823,7 @@
         "ridb_type": "Campground",
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -3907,8 +3907,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -4003,8 +4003,8 @@
         },
         "padus": {
           "name": "Orick Mill Site",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON"
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation"
         }
       }
     },
@@ -4317,7 +4317,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -4397,7 +4397,7 @@
         },
         "padus": {
           "name": "Newburg Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4448,7 +4448,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -4502,7 +4502,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -4593,8 +4593,8 @@
         },
         "padus": {
           "name": "Jacoby Creek-Gannon Slough Wildlife Area",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -4642,8 +4642,8 @@
         },
         "padus": {
           "name": "Palco Marsh",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -4733,7 +4733,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -5190,7 +5190,7 @@
         "padus": {
           "name": "Arcata Field Office",
           "manager": "Bureau of Land Management",
-          "designation": "PUB",
+          "designation": "National Public Lands",
           "access": "open"
         }
       }
@@ -5336,7 +5336,7 @@
         },
         "padus": {
           "name": "Benbow State Recreation Area",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -5441,7 +5441,7 @@
         },
         "padus": {
           "name": "Benbow State Recreation Area",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -5483,7 +5483,7 @@
         },
         "padus": {
           "name": "Benbow State Recreation Area",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -5527,7 +5527,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -5650,7 +5650,7 @@
         "padus": {
           "name": "Big Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -5696,7 +5696,7 @@
         "padus": {
           "name": "Big Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -5746,8 +5746,8 @@
         },
         "padus": {
           "name": "Big Flat State Marine Conservation Area",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -5794,7 +5794,7 @@
         "padus": {
           "name": "Big Flat Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -5844,8 +5844,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -5892,7 +5892,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -5936,8 +5936,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -6037,7 +6037,7 @@
         },
         "padus": {
           "name": "Big Lagoon Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -6093,7 +6093,7 @@
         },
         "padus": {
           "name": "Harry A. Merlo State Recreation Area",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -6141,7 +6141,7 @@
         },
         "padus": {
           "name": "Harry A. Merlo State Recreation Area",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -6197,7 +6197,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -6248,7 +6248,7 @@
         },
         "padus": {
           "name": "Big Lagoon Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -6323,7 +6323,13 @@
       ],
       "tags": {
         "ridb": "239677",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Trinity, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -6366,8 +6372,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -6400,8 +6406,8 @@
         "ridb_type": "Campground",
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -6456,7 +6462,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -6545,7 +6551,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -6597,7 +6603,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -6755,7 +6761,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -6799,7 +6805,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -6854,7 +6860,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -6904,8 +6910,8 @@
         },
         "padus": {
           "name": "Pilot Creek Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -6953,7 +6959,7 @@
         },
         "padus": {
           "name": "Trinity National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -6997,7 +7003,7 @@
         },
         "padus": {
           "name": "Bloomfield Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -7284,7 +7290,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -7325,7 +7331,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -7374,7 +7380,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -7423,8 +7429,8 @@
         },
         "padus": {
           "name": "Board Camp Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -7477,7 +7483,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -7562,7 +7568,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -7597,7 +7603,7 @@
         "reservable": true,
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -7688,8 +7694,8 @@
         },
         "padus": {
           "name": "Bracut Tidelands",
-          "manager": "State fish & wildlife",
-          "designation": "SRMA",
+          "manager": "State Fish and Wildlife",
+          "designation": "State Resource Management Area",
           "access": "open"
         }
       }
@@ -7772,8 +7778,8 @@
         },
         "padus": {
           "name": "Unnamed site - Other State",
-          "manager": "Other state agency",
-          "designation": "SOTH",
+          "manager": "Other or Unknown State Land",
+          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -7861,8 +7867,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -7916,7 +7922,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -7961,7 +7967,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -8005,7 +8011,7 @@
         "padus": {
           "name": "Arcata Field Office",
           "manager": "Bureau of Land Management",
-          "designation": "PUB",
+          "designation": "National Public Lands",
           "access": "open"
         }
       }
@@ -8132,7 +8138,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -8273,8 +8279,8 @@
         },
         "padus": {
           "name": "Board Camp Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -8322,7 +8328,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -8376,7 +8382,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -8425,7 +8431,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -8515,7 +8521,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -8571,7 +8577,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -8609,8 +8615,8 @@
         "gnis": "257730",
         "padus": {
           "name": "Cow Creek Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -8658,7 +8664,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -8845,7 +8851,7 @@
         },
         "padus": {
           "name": "Cahill Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9106,7 +9112,7 @@
         "padus": {
           "name": "Arcata Field Office",
           "manager": "Bureau of Land Management",
-          "designation": "PUB",
+          "designation": "National Public Lands",
           "access": "open"
         }
       }
@@ -9310,8 +9316,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -9448,7 +9454,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -9535,7 +9541,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -9618,8 +9624,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -9665,7 +9671,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -9750,7 +9756,7 @@
         },
         "padus": {
           "name": "Carlson Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9829,7 +9835,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -9912,7 +9918,7 @@
         },
         "padus": {
           "name": "Carson Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -10085,8 +10091,8 @@
         },
         "padus": {
           "name": "Eel River Estuary Preserve",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
           "access": "open"
         }
       }
@@ -10182,7 +10188,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -10287,8 +10293,8 @@
         },
         "padus": {
           "name": "Board Camp Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -10321,8 +10327,8 @@
         "nrhp": "11000713",
         "padus": {
           "name": "United Indian Health Services Conservation Easement",
-          "manager": "City",
-          "designation": "UNKE",
+          "manager": "City Land",
+          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -10365,8 +10371,8 @@
         },
         "padus": {
           "name": "Charles Mountain Ranch Conservation Easement, Phase II",
-          "manager": "Non-profit conservation group",
-          "designation": "RANE",
+          "manager": "Non-Governmental Organization",
+          "designation": "Ranch Easement",
           "access": "closed"
         }
       }
@@ -10411,7 +10417,7 @@
         },
         "padus": {
           "name": "Chevret-Vaissade Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -10460,7 +10466,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -10555,7 +10561,7 @@
         },
         "padus": {
           "name": "Clam Beach County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -10611,7 +10617,7 @@
         },
         "padus": {
           "name": "Clam Beach County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -10666,7 +10672,7 @@
         },
         "padus": {
           "name": "Clam Beach County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -10924,7 +10930,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -11052,7 +11058,7 @@
         },
         "padus": {
           "name": "Eel River Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -11215,7 +11221,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -11319,7 +11325,7 @@
         },
         "padus": {
           "name": "Cooper Gulch Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -11368,8 +11374,8 @@
         },
         "padus": {
           "name": "City of Eureka lot",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -11459,7 +11465,7 @@
         "padus": {
           "name": "Arcata Field Office",
           "manager": "Bureau of Land Management",
-          "designation": "PUB",
+          "designation": "National Public Lands",
           "access": "open"
         }
       }
@@ -11553,7 +11559,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -11732,7 +11738,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -11776,7 +11782,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -11870,7 +11876,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -11964,7 +11970,7 @@
         },
         "padus": {
           "name": "D Street Linear Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -12009,7 +12015,7 @@
         },
         "padus": {
           "name": "20-30 Park and Playground",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -12104,7 +12110,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -12191,7 +12197,7 @@
         },
         "padus": {
           "name": "Del Norte Street Picnic Area",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -12545,8 +12551,8 @@
         },
         "padus": {
           "name": "Saunders Park",
-          "manager": "Non-profit conservation group",
-          "designation": "PREC",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
           "access": "open"
         }
       }
@@ -12639,7 +12645,7 @@
         "padus": {
           "name": "Redwood National Park",
           "manager": "National Park Service",
-          "designation": "MPA",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -12689,7 +12695,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -12786,8 +12792,8 @@
         },
         "padus": {
           "name": "Stansberry Ranch",
-          "manager": "Non-profit conservation group",
-          "designation": "UNKE",
+          "manager": "Non-Governmental Organization",
+          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -12845,7 +12851,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -12900,7 +12906,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -12955,7 +12961,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -13043,7 +13049,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -13087,7 +13093,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -13206,8 +13212,8 @@
         "bortle": 1,
         "padus": {
           "name": "Eureka",
-          "manager": "BOEM",
-          "designation": "OCS",
+          "manager": "Bureau of Ocean Energy Management",
+          "designation": "Outer Continental Shelf Area",
           "access": "open"
         }
       }
@@ -13335,8 +13341,8 @@
         },
         "padus": {
           "name": "Eel River Estuary Preserve",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
           "access": "open"
         }
       }
@@ -13426,7 +13432,7 @@
         },
         "padus": {
           "name": "Eel River Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -13734,7 +13740,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -13827,7 +13833,7 @@
         },
         "padus": {
           "name": "Elk River Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -13878,7 +13884,7 @@
         },
         "padus": {
           "name": "Elk River Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -14022,7 +14028,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -14155,7 +14161,7 @@
         },
         "padus": {
           "name": "Ennes Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -14245,8 +14251,8 @@
         },
         "padus": {
           "name": "Mad River Bluffs",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
           "access": "open"
         }
       }
@@ -14328,7 +14334,7 @@
         },
         "padus": {
           "name": "Eureka Dog Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -14423,8 +14429,8 @@
         },
         "padus": {
           "name": "Palco Marsh",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -14469,7 +14475,7 @@
         },
         "padus": {
           "name": "Eureka Municipal Golf Course",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "restricted"
         }
@@ -14709,7 +14715,7 @@
         },
         "padus": {
           "name": "Halvorsen Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -14934,8 +14940,8 @@
         },
         "padus": {
           "name": "Palco Marsh",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -15023,8 +15029,8 @@
         },
         "padus": {
           "name": "City of Eureka lot",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -15168,7 +15174,7 @@
         },
         "padus": {
           "name": "Fay Slough Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -15222,7 +15228,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -15376,7 +15382,7 @@
         },
         "padus": {
           "name": "Emergency Watershed Protection Program - Floodplain Easement (EWPP-FPE), Humboldt, CA",
-          "manager": "NRCS",
+          "manager": "Natural Resources Conservation Service",
           "designation": "Conservation Easement",
           "access": "closed"
         }
@@ -16121,7 +16127,7 @@
         },
         "padus": {
           "name": "Eel River Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -16170,7 +16176,7 @@
         },
         "padus": {
           "name": "Eel River Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -16724,7 +16730,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -16806,8 +16812,8 @@
         },
         "padus": {
           "name": "Samuels Conservation Easement",
-          "manager": "City",
-          "designation": "UNKE",
+          "manager": "City Land",
+          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -16876,7 +16882,7 @@
         "reservable": true,
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -16961,7 +16967,7 @@
         },
         "padus": {
           "name": "Scotia Ballpark",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -17002,7 +17008,7 @@
         },
         "padus": {
           "name": "Firemans Park and Picnic Area",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -17067,8 +17073,8 @@
         },
         "padus": {
           "name": "Fortuna Holding 1",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -17138,7 +17144,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17268,7 +17274,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -17488,7 +17494,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17534,7 +17540,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17585,7 +17591,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17641,7 +17647,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17692,7 +17698,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17743,7 +17749,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17794,7 +17800,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -17930,8 +17936,8 @@
         },
         "padus": {
           "name": "Board Camp Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -17984,7 +17990,7 @@
         },
         "padus": {
           "name": "Fort Humboldt State Historic Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
         }
@@ -18047,7 +18053,7 @@
         },
         "padus": {
           "name": "Fort Humboldt State Historic Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
         }
@@ -18092,7 +18098,7 @@
         },
         "padus": {
           "name": "Fort Humboldt State Historic Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
         }
@@ -18226,7 +18232,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -18313,8 +18319,8 @@
         },
         "padus": {
           "name": "Freshwater Farms Reserve",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON"
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation"
         }
       }
     },
@@ -18412,7 +18418,7 @@
         },
         "padus": {
           "name": "Freshwater Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -18498,7 +18504,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -18547,7 +18553,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -18591,7 +18597,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -18749,7 +18755,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -18878,7 +18884,7 @@
         "padus": {
           "name": "Gitchell Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -18921,7 +18927,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -18972,7 +18978,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19016,7 +19022,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -19060,7 +19066,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19104,7 +19110,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -19278,7 +19284,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19327,7 +19333,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19365,8 +19371,8 @@
         "gnis": "1665358",
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -19483,7 +19489,7 @@
         },
         "padus": {
           "name": "Greeniview Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -19612,7 +19618,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19686,7 +19692,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -19737,7 +19743,7 @@
         },
         "padus": {
           "name": "Grizzly Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19788,7 +19794,7 @@
         },
         "padus": {
           "name": "Grizzly Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19839,7 +19845,7 @@
         },
         "padus": {
           "name": "Grizzly Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -19886,7 +19892,7 @@
         },
         "padus": {
           "name": "Grizzly Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -20020,7 +20026,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -20090,7 +20096,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -20232,7 +20238,7 @@
         },
         "padus": {
           "name": "Halvorsen Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -20280,7 +20286,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -20325,7 +20331,7 @@
         },
         "padus": {
           "name": "Hammond Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -20499,8 +20505,8 @@
         },
         "padus": {
           "name": "Unnamed site - California Department of Parks and Recreation",
-          "manager": "State parks & recreation",
-          "designation": "SOTH",
+          "manager": "State Park and Recreation",
+          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -20586,7 +20592,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -20636,7 +20642,7 @@
         },
         "padus": {
           "name": "Big Lagoon Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -20733,7 +20739,7 @@
         "padus": {
           "name": "Headwaters Forest Reserve",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -20787,7 +20793,7 @@
         "padus": {
           "name": "Little South Fork Elk Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -20841,7 +20847,7 @@
         "padus": {
           "name": "Little South Fork Elk Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -20897,7 +20903,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -20947,7 +20953,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -21007,7 +21013,7 @@
         },
         "padus": {
           "name": "Highland Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -21065,7 +21071,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -21117,7 +21123,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -21164,7 +21170,7 @@
         },
         "padus": {
           "name": "Grizzly Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -21217,7 +21223,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -21270,7 +21276,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -21356,7 +21362,7 @@
         },
         "padus": {
           "name": "Hiller Park Playground and Picnic Area",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -21400,7 +21406,7 @@
         },
         "padus": {
           "name": "Hiller Park Playground and Picnic Area",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -21448,7 +21454,7 @@
         },
         "padus": {
           "name": "Hiller Park Playground and Picnic Area",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -21492,7 +21498,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -21555,7 +21561,7 @@
         "padus": {
           "name": "Honeydew Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -21603,7 +21609,7 @@
         "padus": {
           "name": "Honeydew Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -21691,7 +21697,7 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
+          "manager": "U.S. Fish and Wildlife Service",
           "designation": "National Wildlife Refuge",
           "access": "restricted"
         }
@@ -21740,8 +21746,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -21773,8 +21779,8 @@
         "nrhp": "10000893",
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -21818,8 +21824,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -21906,7 +21912,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -21957,7 +21963,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -22013,7 +22019,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -22060,7 +22066,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -22150,7 +22156,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -22258,7 +22264,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -22302,8 +22308,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -22414,7 +22420,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -22934,8 +22940,8 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
-          "designation": "MPA",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -23029,8 +23035,8 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
-          "designation": "MPA",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -23286,8 +23292,8 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
-          "designation": "MPA",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -23392,8 +23398,8 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
-          "designation": "MPA",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -23448,8 +23454,8 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
-          "designation": "MPA",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -23499,8 +23505,8 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
-          "designation": "MPA",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -23731,8 +23737,8 @@
         },
         "padus": {
           "name": "Humboldt Coastal Nature Center",
-          "manager": "Non-profit conservation group",
-          "designation": "PREC",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
           "access": "restricted"
         }
       }
@@ -23772,7 +23778,7 @@
         },
         "padus": {
           "name": "Samoa Boat Ramp County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -23923,7 +23929,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -23974,7 +23980,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24030,7 +24036,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24083,7 +24089,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24219,7 +24225,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24273,7 +24279,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24327,7 +24333,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24381,7 +24387,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24432,7 +24438,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24483,7 +24489,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24542,7 +24548,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24596,7 +24602,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24652,7 +24658,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24708,7 +24714,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24759,7 +24765,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24810,7 +24816,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24861,7 +24867,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -24914,7 +24920,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -25128,7 +25134,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -25177,7 +25183,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -25222,7 +25228,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -25303,7 +25309,7 @@
         "gnis": "254825",
         "padus": {
           "name": "Klamath National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -25455,8 +25461,8 @@
         },
         "padus": {
           "name": "Jacoby Creek Forest",
-          "manager": "City",
-          "designation": "LRMA",
+          "manager": "City Land",
+          "designation": "Local Resource Management Area",
           "access": "open"
         }
       }
@@ -25586,7 +25592,7 @@
         },
         "padus": {
           "name": "Westwood Manor Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -25647,7 +25653,7 @@
         },
         "padus": {
           "name": "Janes Creek Meadows Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -25765,7 +25771,7 @@
         },
         "padus": {
           "name": "Jefferson Community Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -25813,7 +25819,7 @@
         },
         "padus": {
           "name": "John B. Dewitt Redwoods State Natural Reserve",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Conservation Area",
           "access": "restricted"
         }
@@ -25861,7 +25867,7 @@
         },
         "padus": {
           "name": "John B. Dewitt Redwoods State Natural Reserve",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Conservation Area",
           "access": "restricted"
         }
@@ -25910,7 +25916,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -26077,7 +26083,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -26118,8 +26124,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -26164,8 +26170,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -26408,7 +26414,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -26500,7 +26506,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -26554,7 +26560,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -26666,7 +26672,7 @@
         "padus": {
           "name": "Big Flat Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -26818,8 +26824,8 @@
         },
         "padus": {
           "name": "Big Flat State Marine Conservation Area",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -26929,7 +26935,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -27383,7 +27389,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -27476,7 +27482,7 @@
         "padus": {
           "name": "Big Flat Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -27568,7 +27574,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -27613,8 +27619,8 @@
         },
         "padus": {
           "name": "Klamath, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -27659,8 +27665,8 @@
         },
         "padus": {
           "name": "Klamath, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -27705,7 +27711,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -28019,8 +28025,8 @@
         },
         "padus": {
           "name": "Jacoby Creek Land Trust CE",
-          "manager": "Non-profit conservation group",
-          "designation": "UNKE",
+          "manager": "Non-Governmental Organization",
+          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -28260,8 +28266,8 @@
         },
         "padus": {
           "name": "Orleans Mtn. C Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -28433,7 +28439,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -28486,7 +28492,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -28575,7 +28581,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -28722,7 +28728,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -28965,7 +28971,7 @@
         },
         "padus": {
           "name": "Little River State Beach",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -29091,7 +29097,13 @@
       ],
       "tags": {
         "ridb": "238345",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Trinity, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -29416,8 +29428,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -29468,7 +29480,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -29512,8 +29524,8 @@
         },
         "padus": {
           "name": "Slide Creek Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -29559,7 +29571,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -29610,7 +29622,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -29661,7 +29673,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -29748,7 +29760,7 @@
         "padus": {
           "name": "Arcata Field Office",
           "manager": "Bureau of Land Management",
-          "designation": "PUB",
+          "designation": "National Public Lands",
           "access": "open"
         }
       }
@@ -29885,7 +29897,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -29967,7 +29979,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -30425,8 +30437,8 @@
         },
         "padus": {
           "name": "Mad River Bluffs",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
           "access": "open"
         }
       }
@@ -30498,7 +30510,7 @@
         "reservable": true,
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -30549,7 +30561,7 @@
         },
         "padus": {
           "name": "Mad River County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -30596,7 +30608,7 @@
         },
         "padus": {
           "name": "Mad River County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -30733,8 +30745,8 @@
         },
         "padus": {
           "name": "Mad River Bluffs",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
           "access": "open"
         }
       }
@@ -30779,7 +30791,7 @@
         },
         "padus": {
           "name": "Clam Beach County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -30830,8 +30842,8 @@
         },
         "padus": {
           "name": "Mad River Fish Hatchery",
-          "manager": "State fish & wildlife",
-          "designation": "SOTH",
+          "manager": "State Fish and Wildlife",
+          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -30916,7 +30928,7 @@
         },
         "padus": {
           "name": "Clam Beach County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -31007,7 +31019,7 @@
         },
         "padus": {
           "name": "Mad River Slough Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -31063,7 +31075,7 @@
         },
         "padus": {
           "name": "Mad River Slough Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -31231,7 +31243,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -31296,7 +31308,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -31351,7 +31363,7 @@
         },
         "padus": {
           "name": "Manila Community Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -31401,7 +31413,7 @@
         },
         "padus": {
           "name": "Manila Dunes Recreation Area",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -31452,7 +31464,7 @@
         },
         "padus": {
           "name": "Manila Dunes Recreation Area",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -31540,7 +31552,7 @@
         "padus": {
           "name": "Honeydew Creek",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -31948,7 +31960,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -32002,7 +32014,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -32055,7 +32067,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -32108,7 +32120,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -32235,7 +32247,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -32323,8 +32335,8 @@
         },
         "padus": {
           "name": "Humboldt Bay National Wildlife Refuge",
-          "manager": "U.S. Fish & Wildlife Service",
-          "designation": "MPA",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -32519,8 +32531,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -32573,8 +32585,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -32627,8 +32639,8 @@
         },
         "padus": {
           "name": "Arcata Marsh & Wildlife Sanctuary",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "open"
         }
       }
@@ -32869,7 +32881,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -32919,8 +32931,8 @@
         },
         "padus": {
           "name": "Mattole Canyon State Marine Reserve",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -33269,7 +33281,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -33766,7 +33778,7 @@
         },
         "padus": {
           "name": "Riverfront Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "restricted"
         }
@@ -33835,7 +33847,7 @@
         },
         "padus": {
           "name": "Memorial Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -34005,7 +34017,7 @@
         },
         "padus": {
           "name": "South Spit Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -34056,7 +34068,7 @@
         },
         "padus": {
           "name": "South Spit Wildlife Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -34137,7 +34149,7 @@
         "gnis": "228705",
         "padus": {
           "name": "Standish-Hickey State Recreation Area",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -34183,7 +34195,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -34287,7 +34299,7 @@
         },
         "padus": {
           "name": "Moonstone Beach County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -34447,8 +34459,8 @@
         },
         "padus": {
           "name": "Mt. Lassic Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -34492,8 +34504,8 @@
         },
         "padus": {
           "name": "Mt. Lassic Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -34571,7 +34583,7 @@
         },
         "padus": {
           "name": "Mountain View Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -34785,7 +34797,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -34829,7 +34841,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -34878,7 +34890,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -34924,7 +34936,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -35004,7 +35016,7 @@
         },
         "padus": {
           "name": "Newburg Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -35136,7 +35148,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -35315,7 +35327,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -35360,7 +35372,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -35491,8 +35503,8 @@
         },
         "padus": {
           "name": "Orick Mill Site",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON"
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation"
         }
       }
     },
@@ -35565,7 +35577,7 @@
         "reservable": true,
         "padus": {
           "name": "Klamath National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -35614,7 +35626,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -35658,7 +35670,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -35907,7 +35919,7 @@
         },
         "padus": {
           "name": "Sequoia Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -36979,7 +36991,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -37017,8 +37029,8 @@
         "bortle": 1,
         "padus": {
           "name": "Eureka",
-          "manager": "BOEM",
-          "designation": "OCS",
+          "manager": "Bureau of Ocean Energy Management",
+          "designation": "Outer Continental Shelf Area",
           "access": "open"
         }
       }
@@ -37171,7 +37183,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -37221,7 +37233,7 @@
         "padus": {
           "name": "Redwood National Park",
           "manager": "National Park Service",
-          "designation": "MPA",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -37370,8 +37382,8 @@
         },
         "padus": {
           "name": "Orleans Mtn. Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -37415,7 +37427,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -37455,8 +37467,8 @@
         },
         "padus": {
           "name": "Orleans Mtn. B Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -37510,7 +37522,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -37560,7 +37572,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -37640,7 +37652,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -37732,7 +37744,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -37778,7 +37790,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -37824,7 +37836,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -37917,7 +37929,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -37968,7 +37980,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -38059,7 +38071,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -38166,8 +38178,8 @@
         },
         "padus": {
           "name": "Blue Lake Holding 1",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -38292,8 +38304,8 @@
         },
         "padus": {
           "name": "Table Bluff Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -38325,7 +38337,7 @@
         "nrhp": "85003373",
         "padus": {
           "name": "Arcata Community Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -38409,7 +38421,7 @@
         },
         "padus": {
           "name": "Pierson Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -38536,7 +38548,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -38699,8 +38711,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -38773,7 +38785,7 @@
         "curiosity": "Natural arch",
         "padus": {
           "name": "Trinidad State Beach",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -38817,8 +38829,8 @@
         },
         "padus": {
           "name": "Pilot Creek Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -39022,7 +39034,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39081,7 +39093,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39140,7 +39152,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39196,7 +39208,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39250,7 +39262,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39304,7 +39316,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39353,7 +39365,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39404,7 +39416,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39458,7 +39470,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39509,7 +39521,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39560,7 +39572,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39606,7 +39618,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39662,7 +39674,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39721,7 +39733,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39777,7 +39789,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -39829,7 +39841,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -40005,7 +40017,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -40077,7 +40089,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -40244,8 +40256,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -40322,7 +40334,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -40363,7 +40375,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -40404,7 +40416,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -40608,7 +40620,7 @@
         "padus": {
           "name": "Redwood National Park",
           "manager": "National Park Service",
-          "designation": "MPA",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -40940,7 +40952,7 @@
         "padus": {
           "name": "Redwood National Park",
           "manager": "National Park Service",
-          "designation": "MPA",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -41139,8 +41151,8 @@
         },
         "padus": {
           "name": "Reading Rock State Marine Conservation Area",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -41638,7 +41650,7 @@
         },
         "padus": {
           "name": "Redwood Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -41686,7 +41698,7 @@
         },
         "padus": {
           "name": "Redwood Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -41737,8 +41749,8 @@
         },
         "padus": {
           "name": "Jacoby Creek Land Trust CE",
-          "manager": "Non-profit conservation group",
-          "designation": "UNKE",
+          "manager": "Non-Governmental Organization",
+          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -41831,7 +41843,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -41882,7 +41894,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -41929,7 +41941,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -41975,7 +41987,7 @@
         },
         "padus": {
           "name": "Richardson Grove State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -42018,8 +42030,8 @@
         },
         "padus": {
           "name": "Unnamed site - California Department of Parks and Recreation",
-          "manager": "State parks & recreation",
-          "designation": "SOTH",
+          "manager": "State Park and Recreation",
+          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -42101,7 +42113,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -42155,7 +42167,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -42205,8 +42217,8 @@
         },
         "padus": {
           "name": "Big Flat State Marine Conservation Area",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -42255,7 +42267,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -42363,7 +42375,7 @@
         },
         "padus": {
           "name": "Rohner Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -42447,7 +42459,7 @@
         },
         "padus": {
           "name": "Ross Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -42505,7 +42517,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -42595,7 +42607,7 @@
         },
         "padus": {
           "name": "Russ Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -42649,7 +42661,7 @@
         },
         "padus": {
           "name": "Russ Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -42703,7 +42715,7 @@
         },
         "padus": {
           "name": "Agricultural Conservation Easement Program - Wetland Reserve Easements (ACEP-WRE), Humboldt, CA",
-          "manager": "NRCS",
+          "manager": "Natural Resources Conservation Service",
           "designation": "Conservation Easement",
           "access": "closed"
         }
@@ -42790,7 +42802,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -42918,7 +42930,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -42964,7 +42976,7 @@
         },
         "padus": {
           "name": "Trinity Alps Wilderness",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
         }
@@ -43006,7 +43018,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -43131,7 +43143,7 @@
         },
         "padus": {
           "name": "Samoa Boat Ramp County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -43177,8 +43189,8 @@
         },
         "padus": {
           "name": "Unnamed site - California State University",
-          "manager": "Other state agency",
-          "designation": "SOTH",
+          "manager": "Other or Unknown State Land",
+          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -43517,8 +43529,8 @@
         },
         "padus": {
           "name": "City of Eureka lot",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -43567,7 +43579,7 @@
         },
         "padus": {
           "name": "Samoa Boat Ramp County Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -43613,7 +43625,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -43659,8 +43671,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -43743,7 +43755,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -43800,7 +43812,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -44075,8 +44087,8 @@
         },
         "padus": {
           "name": "Sea Lion Gulch State Marine Reserve",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -44315,7 +44327,7 @@
         },
         "padus": {
           "name": "Sequoia Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -44417,7 +44429,7 @@
         },
         "padus": {
           "name": "Shay Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -44472,7 +44484,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -44515,7 +44527,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -44605,8 +44617,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -44654,8 +44666,8 @@
         },
         "padus": {
           "name": "Mad River Bluffs",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
           "access": "open"
         }
       }
@@ -44780,7 +44792,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -44869,8 +44881,8 @@
         },
         "padus": {
           "name": "Mt. Lassic Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -44984,7 +44996,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -45078,7 +45090,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -45166,8 +45178,8 @@
         },
         "padus": {
           "name": "Klamath, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -45217,7 +45229,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -45263,7 +45275,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -45309,7 +45321,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -45353,7 +45365,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -45387,8 +45399,8 @@
         "ridb_type": "Campground",
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -45717,8 +45729,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -45760,8 +45772,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -45809,8 +45821,8 @@
         },
         "padus": {
           "name": "Orleans Mtn. B Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -45858,8 +45870,8 @@
         },
         "padus": {
           "name": "South Cape Mendocino State Marine Reserve",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -45939,7 +45951,7 @@
         },
         "padus": {
           "name": "South Fork Eel River Fishing Access",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -45980,7 +45992,7 @@
         },
         "padus": {
           "name": "South Fork Eel River Fishing Access",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -46021,7 +46033,7 @@
         },
         "padus": {
           "name": "South Fork Eel River Fishing Access",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -46152,8 +46164,8 @@
         },
         "padus": {
           "name": "Mad River Bluffs",
-          "manager": "Non-profit conservation group",
-          "designation": "PCON",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
           "access": "open"
         }
       }
@@ -46470,7 +46482,7 @@
         },
         "padus": {
           "name": "Trinidad State Beach",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -46885,8 +46897,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -47260,8 +47272,8 @@
         },
         "padus": {
           "name": "Steamboat Rock Special Closure",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "closed"
         }
       }
@@ -47312,7 +47324,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -47354,7 +47366,7 @@
         },
         "padus": {
           "name": "Stewart Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -47430,7 +47442,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -47526,7 +47538,7 @@
         },
         "padus": {
           "name": "Humboldt Lagoons State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -47659,7 +47671,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -47752,7 +47764,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -47808,7 +47820,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -47859,7 +47871,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -47910,7 +47922,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -47966,7 +47978,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -48050,8 +48062,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -48106,8 +48118,8 @@
         },
         "padus": {
           "name": "Sugarloaf Island Special Closure",
-          "manager": "State fish & wildlife",
-          "designation": "MPA",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
           "access": "closed"
         }
       }
@@ -48188,7 +48200,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -48239,7 +48251,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -48454,7 +48466,7 @@
         },
         "padus": {
           "name": "Table Bluff Ecological Reserve",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "restricted"
         }
@@ -48489,7 +48501,7 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Table_Bluff_Light",
         "padus": {
           "name": "Table Bluff Ecological Reserve",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "restricted"
         }
@@ -48605,8 +48617,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -48653,7 +48665,7 @@
         },
         "padus": {
           "name": "Luffenholtz Creek Fishing Access",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -48735,7 +48747,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -48779,7 +48791,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -48841,8 +48853,8 @@
         },
         "padus": {
           "name": "Hoopa Valley Reservation",
-          "manager": "Tribal land",
-          "designation": "TRIBL"
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -48891,7 +48903,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -48937,7 +48949,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -49026,7 +49038,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -49140,7 +49152,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -49181,7 +49193,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -49299,7 +49311,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -49356,7 +49368,7 @@
         },
         "padus": {
           "name": "Tooby Memorial Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -49410,7 +49422,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -49457,7 +49469,7 @@
         },
         "padus": {
           "name": "Russ Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -49657,8 +49669,8 @@
         },
         "padus": {
           "name": "Saunders Park",
-          "manager": "Non-profit conservation group",
-          "designation": "PREC",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
           "access": "open"
         }
       }
@@ -49783,8 +49795,8 @@
         },
         "padus": {
           "name": "Crescent City",
-          "manager": "BOEM",
-          "designation": "OCS",
+          "manager": "Bureau of Ocean Energy Management",
+          "designation": "Outer Continental Shelf Area",
           "access": "open"
         }
       }
@@ -49885,7 +49897,7 @@
         },
         "padus": {
           "name": "Trinidad State Beach",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -49944,7 +49956,7 @@
         },
         "padus": {
           "name": "Trinidad State Beach",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -50176,8 +50188,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -50222,8 +50234,8 @@
         },
         "padus": {
           "name": "City of Eureka lot",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -50414,7 +50426,7 @@
         "padus": {
           "name": "Arcata Field Office",
           "manager": "Bureau of Land Management",
-          "designation": "PUB",
+          "designation": "National Public Lands",
           "access": "open"
         }
       }
@@ -50517,7 +50529,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -50928,7 +50940,7 @@
         },
         "padus": {
           "name": "Veterans Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -51006,7 +51018,7 @@
         },
         "padus": {
           "name": "Veterans Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -51161,7 +51173,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -51212,7 +51224,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -51306,8 +51318,8 @@
         },
         "padus": {
           "name": "Humboldt Coastal Nature Center",
-          "manager": "Non-profit conservation group",
-          "designation": "PREC",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
           "access": "restricted"
         }
       }
@@ -51436,8 +51448,8 @@
         },
         "padus": {
           "name": "Trinidad Holding 1",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -51489,8 +51501,8 @@
         },
         "padus": {
           "name": "Trinidad Holding 1",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -51542,8 +51554,8 @@
         },
         "padus": {
           "name": "Trinidad Holding 1",
-          "manager": "City",
-          "designation": "LOTH",
+          "manager": "City Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -51637,7 +51649,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -51691,7 +51703,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -51883,7 +51895,7 @@
         },
         "padus": {
           "name": "Prairie Creek Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -51927,8 +51939,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -51973,8 +51985,8 @@
         },
         "padus": {
           "name": "Trinity, California Wild and Scenic River",
-          "manager": "U.S. Forest Service",
-          "designation": "WSR",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -52020,7 +52032,7 @@
         },
         "padus": {
           "name": "Vinum Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -52103,8 +52115,8 @@
         "bortle": 1,
         "padus": {
           "name": "Noyo Canyon",
-          "manager": "BOEM",
-          "designation": "OCS",
+          "manager": "Bureau of Ocean Energy Management",
+          "designation": "Outer Continental Shelf Area",
           "access": "open"
         }
       }
@@ -52192,7 +52204,7 @@
         "padus": {
           "name": "South Fork Bear Creak",
           "manager": "Bureau of Land Management",
-          "designation": "WSR",
+          "designation": "Wild and Scenic River",
           "access": "open"
         }
       }
@@ -52460,7 +52472,7 @@
         },
         "padus": {
           "name": "Patrick's Point State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -52693,7 +52705,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -52818,8 +52830,8 @@
         },
         "padus": {
           "name": "Orleans Mtn. B Roadless Area",
-          "manager": "U.S. Forest Service",
-          "designation": "IRA",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
           "access": "open"
         }
       }
@@ -52990,7 +53002,7 @@
         },
         "padus": {
           "name": "Humboldt Redwoods State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -53036,7 +53048,7 @@
         },
         "padus": {
           "name": "Six Rivers National Forest",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
         }
@@ -53117,7 +53129,7 @@
         },
         "padus": {
           "name": "Windsong Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -53170,7 +53182,7 @@
         "padus": {
           "name": "King Range National Conservation Area",
           "manager": "Bureau of Land Management",
-          "designation": "NCA",
+          "designation": "Conservation Area",
           "access": "open"
         }
       }
@@ -53216,7 +53228,7 @@
         },
         "padus": {
           "name": "Woodland Heights Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
