@@ -81,6 +81,24 @@ offline-first, no account. No Instagram, no social scraping, ever.
       tags.bortle per spot, auto-activating the darkSky synthesis signal.
       (Rejected: djlorenz = permission-required; lightpollutionmap = not
       redistributable; NASA VIIRS = CC0 but radiance, not sky-brightness.)
+- [ ] ACCESSIBILITY: convert type sizing from px to rem so the app honours the
+      reader's DEFAULT FONT SIZE, not just page zoom. Noah's call, 2026-07-26,
+      after 1.15.1 fixed the place cards. MEASURED: styles.css carries 90
+      `font-size: <n>px` declarations and ZERO rem/em. Page zoom scales px, so
+      1.15.1 covers that path — but a reader who raises only their default font
+      size (iOS Settings, or a desktop browser's minimum font size) gets NO
+      change at all. WCAG 2.2 AA 1.4.4 is arguably met via zoom; the preference
+      path is not, and that is the one a low-vision reader is most likely to
+      have set.
+      SHAPE OF THE WORK: set a root size, convert the 90 declarations to rem,
+      and re-check every surface — the header, the filter chips, the list rows,
+      the place cards and the dialogs — because the layouts were tuned against
+      fixed sizes. scripts/smoke-cardfits.mjs already gates the cards across
+      five viewports and would catch the worst regressions; the chips and list
+      rows have no such gate yet and would need eyes.
+      WHY IT IS NOT DONE YET: it touches every component at once, so it wants to
+      be its own release with a full visual pass, not a change smuggled into a
+      bug fix.
 - [ ] Further candidates: public-lands (CPAD), HMdb markers, Flickr CC,
       "near me" geolocation.
 
