@@ -107,8 +107,8 @@ kept because it is more granular than the Doctrine) before doing anything.
   would steal focus from the search box (the 1.6.0 reason refreshViews exists).
   sw CACHE pointer-1.14.2; changelog[0] 1.14.2. 192 tests + contrast + all six
   smokes green.
-- 2026-07-26 "Card opens, pushes down, then closes" — DIAGNOSED (quantified),
-  guard shipped, AWAITING NOAH'S DEVICE to confirm. Three screenshots + his two
+- 2026-07-26 "Card opens, pushes down, then closes" — FIXED, CONFIRMED ON DEVICE
+  by Noah ("It works now") and promoted. Three screenshots + his two
   clarifications cracked it; the first pass at this had the wrong theory.
   WHAT HE SAID, and each detail matters: "only zoomed out like this, not zoomed
   in", then "they are NOT one pin when I click. It opens, PUSHES DOWN, and then
@@ -133,10 +133,14 @@ kept because it is more granular than the Doctrine) before doing anything.
   makes catOk unconditional, `continue`s the rec OUT of the cell competition,
   and forces `keep` true — so the unmount branch is UNREACHABLE for a pin whose
   card is open. That is a code-level guarantee, not a hope.
-  STILL NOT REPRODUCED HEADLESSLY, and that is the honest caveat: the failure
-  needs the grid boundary to start BETWEEN the two pins and the auto-pan to move
-  it, and no synthetic tap arranged that. Do not mark this closed until Noah
-  confirms on the iPad. WHAT WAS RULED OUT along the way: setClusterState
+  NEVER REPRODUCED HEADLESSLY — the failure needs the grid boundary to start
+  BETWEEN the two pins and the auto-pan to move it, and no synthetic tap arranged
+  that. THE LESSON: the diagnosis was earned from the SCREENSHOTS plus two exact
+  words from Noah ("not one pin", "pushes down") and from MEASURING the data (353
+  m apart; scores 0.258 vs 0.126), NOT from the harness. When a headless repro
+  won't come, measure the data and read the user's wording literally — an earlier
+  pass guessed "cluster tap" from the same screenshots and was wrong.
+  WHAT WAS RULED OUT along the way: setClusterState
   mutates the icon in place (no setIcon, so no popup detach); bindPopup runs
   BEFORE `marker.off({click: marker._openPopup})`, so Leaflet's own opener is
   genuinely detached; and 20 cards left completely alone never closed by
