@@ -384,7 +384,7 @@
     {
       "name": "USBR",
       "manager": "Bureau of Reclamation",
-      "designation": "Federal Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 41.57735,
@@ -864,7 +864,7 @@
     {
       "name": "Bozeman Fish Technology Center",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Federal Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 45.7034,
@@ -876,7 +876,7 @@
     {
       "name": "Ennis National Fish Hatchery",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Federal Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 45.2144,
@@ -948,7 +948,7 @@
     {
       "name": "Jackson National Fish Hatchery",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Federal Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 43.53106,
@@ -1092,7 +1092,7 @@
     {
       "name": "Split",
       "manager": "Joint",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.52078,
@@ -1103,8 +1103,8 @@
     },
     {
       "name": "Idaho Department of Corrections",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 42.83989,
@@ -1115,8 +1115,8 @@
     },
     {
       "name": "Idaho Department of Education",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.48231,
@@ -1127,8 +1127,8 @@
     },
     {
       "name": "Idaho Department of Health and Welfare",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 42.92044,
@@ -1139,8 +1139,8 @@
     },
     {
       "name": "Idaho Department of Labor",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.51138,
@@ -1151,8 +1151,8 @@
     },
     {
       "name": "Idaho Department of Transportation",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 42.21572,
@@ -1163,8 +1163,8 @@
     },
     {
       "name": "Idaho Military Division",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 42.10583,
@@ -1668,7 +1668,7 @@
     {
       "name": "Henrys Lake Hatchery",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 44.6652,
@@ -1680,7 +1680,7 @@
     {
       "name": "Henrys Lake Hatchery",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 44.66436,
@@ -1692,7 +1692,7 @@
     {
       "name": "Island Park Patrol Cabin and Conservation Officer Residence",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 44.49609,
@@ -1704,7 +1704,7 @@
     {
       "name": "Palisades Creek Weir",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.37968,
@@ -1716,7 +1716,7 @@
     {
       "name": "Region 6 Office Lot",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 43.53402,
@@ -1884,7 +1884,7 @@
     {
       "name": "Sands Sikes Act",
       "manager": "State Fish and Wildlife",
-      "designation": "Federal Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 43.77852,
@@ -2004,7 +2004,7 @@
     {
       "name": "Pit Tag Right Of Way",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.49076,
@@ -2052,7 +2052,7 @@
     {
       "name": "Region 6 Office",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 43.53461,
@@ -2076,7 +2076,7 @@
     {
       "name": "Henrys Lake Hatchery",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 44.6647,
@@ -2088,7 +2088,7 @@
     {
       "name": "Palisades Creek Fish Screen",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.37689,
@@ -2100,7 +2100,7 @@
     {
       "name": "Rexburg Ditch Easement",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.85647,
@@ -2243,7 +2243,7 @@
     },
     {
       "name": "Montana Department of Corrections",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Not Designated",
       "access": "closed",
       "bbox": {
@@ -2255,7 +2255,7 @@
     },
     {
       "name": "Montana Department of Transportation",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Not Designated",
       "access": null,
       "bbox": {
@@ -2279,7 +2279,7 @@
     },
     {
       "name": "Montana University System",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Not Designated",
       "access": null,
       "bbox": {
@@ -2291,7 +2291,7 @@
     },
     {
       "name": "Montana University System",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Not Designated",
       "access": null,
       "bbox": {
@@ -2303,7 +2303,7 @@
     },
     {
       "name": "State of Montana",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Not Designated",
       "access": null,
       "bbox": {
@@ -3743,7 +3743,7 @@
     },
     {
       "name": "Community/TCSD Athletic Fields",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -3840,7 +3840,7 @@
     {
       "name": "Teton Village Mall",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 43.58601,
@@ -4343,8 +4343,8 @@
     },
     {
       "name": "Powell Research & Extension Center",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.77543,
@@ -24059,7 +24059,7 @@
     },
     {
       "name": "Unknown Park",
-      "manager": "Other or Unknown Local Government",
+      "manager": null,
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -26556,7 +26556,7 @@
     {
       "name": "Montanapolis  Public Service Site Protection Of Public Interest",
       "manager": "Forest Service",
-      "designation": "Federal Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.28251,
@@ -27852,7 +27852,7 @@
     {
       "name": "Ryan Peak Radio Repeater",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.70617,
@@ -29844,7 +29844,7 @@
     {
       "name": "Grays Lake National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.11492,
@@ -29856,7 +29856,7 @@
     {
       "name": "Grays Lake National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.115,
@@ -29868,7 +29868,7 @@
     {
       "name": "Grays Lake National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.00657,
@@ -29880,7 +29880,7 @@
     {
       "name": "Grays Lake National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.06128,
@@ -29892,7 +29892,7 @@
     {
       "name": "Grays Lake National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.03216,
@@ -29904,7 +29904,7 @@
     {
       "name": "Grays Lake National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.11124,
@@ -29916,7 +29916,7 @@
     {
       "name": "Grays Lake National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.06134,
@@ -29928,7 +29928,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge 13",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.6791,
@@ -30324,7 +30324,7 @@
     {
       "name": "Idaho Foundation for Parks and Lands Easement # Unknown",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.59431,
@@ -30396,7 +30396,7 @@
     {
       "name": "Idaho Foundation for Parks and Lands Easement # Unknown",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.59649,
@@ -30408,7 +30408,7 @@
     {
       "name": "Idaho Foundation for Parks and Lands Easement # Unknown",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.59451,
@@ -30516,7 +30516,7 @@
     {
       "name": "Idaho Foundation for Parks and Lands Easement # Unknown",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.59942,
@@ -30960,7 +30960,7 @@
     {
       "name": "Idaho Foundation for Parks and Lands Easement # Unknown",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.59275,
@@ -30972,7 +30972,7 @@
     {
       "name": "Idaho Foundation for Parks and Lands Easement # Unknown",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.595,
@@ -31068,7 +31068,7 @@
     {
       "name": "Idaho Foundation for Parks and Lands Easement # Unknown",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.59836,
@@ -31176,7 +31176,7 @@
     {
       "name": "O Bar Y Ranch",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.12587,
@@ -31188,7 +31188,7 @@
     {
       "name": "Bar Cross Ranch 2",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 42.98231,
@@ -31200,7 +31200,7 @@
     {
       "name": "Davich Property",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.11862,
@@ -31212,7 +31212,7 @@
     {
       "name": "Carney Ranch 3",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.16947,
@@ -31224,7 +31224,7 @@
     {
       "name": "Carney Ranch 2",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.15855,
@@ -31284,7 +31284,7 @@
     {
       "name": "Miller Land & Livestock",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.05766,
@@ -31296,7 +31296,7 @@
     {
       "name": "Bar Cross Ranch 3",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 42.96459,
@@ -31308,7 +31308,7 @@
     {
       "name": "Carney Ranch 4",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.14967,
@@ -31320,7 +31320,7 @@
     {
       "name": "Carney Ranch 1",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.15861,
@@ -31332,7 +31332,7 @@
     {
       "name": "New Fork Cattle Co.",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.03302,
@@ -31356,7 +31356,7 @@
     {
       "name": "Bar Cross Ranch 1",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.01139,
@@ -31367,7 +31367,7 @@
     },
     {
       "name": "B06",
-      "manager": "Other or Unknown Local Government",
+      "manager": null,
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -31379,7 +31379,7 @@
     },
     {
       "name": "B02",
-      "manager": "Other or Unknown Local Government",
+      "manager": null,
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -31391,7 +31391,7 @@
     },
     {
       "name": "B08",
-      "manager": "Other or Unknown Local Government",
+      "manager": null,
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -31428,7 +31428,7 @@
     {
       "name": "Three Forks Teton River",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.73796,
@@ -31440,7 +31440,7 @@
     {
       "name": "Carney",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.14634,
@@ -32207,8 +32207,8 @@
     },
     {
       "name": "Unknown - transferred from The Nature Conservancy Easement # 10046817",
-      "manager": "Other or Unknown Local Government",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 43.15855,
@@ -32231,8 +32231,8 @@
     },
     {
       "name": "Ashton Wetland Preservation Easement",
-      "manager": "Other or Unknown Local Government",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.07221,
@@ -32243,7 +32243,7 @@
     },
     {
       "name": "Singleton Kilgore",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Forest Stewardship Easement",
       "access": "open",
       "bbox": {
@@ -32364,7 +32364,7 @@
     {
       "name": "Wyoming Stock Growers Land Trust Easement",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.03945,
@@ -32376,7 +32376,7 @@
     {
       "name": "Wyoming Stock Growers Land Trust Easement",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.05423,
@@ -32388,7 +32388,7 @@
     {
       "name": "Wyoming Stock Growers Land Trust Easement",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.07218,
@@ -32400,7 +32400,7 @@
     {
       "name": "Wyoming Stock Growers Land Trust Easement",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.03947,
@@ -32412,7 +32412,7 @@
     {
       "name": "Wyoming Stock Growers Land Trust Easement",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 43.01057,
@@ -32460,7 +32460,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1384",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.70522,
@@ -32484,7 +32484,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.647",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.71077,
@@ -32496,7 +32496,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.2548",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.52804,
@@ -32508,7 +32508,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1032",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.87494,
@@ -32520,7 +32520,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1170",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.75566,
@@ -32556,7 +32556,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2378",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.79956,
@@ -32580,7 +32580,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.290",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.70298,
@@ -32592,7 +32592,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1341",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.67104,
@@ -32616,7 +32616,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.879",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.86804,
@@ -32628,7 +32628,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1825",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27631,
@@ -32640,7 +32640,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.190",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.43677,
@@ -32652,7 +32652,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.829",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.86208,
@@ -32664,7 +32664,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.2858",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.85376,
@@ -32676,7 +32676,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1664",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.56705,
@@ -32688,7 +32688,7 @@
     {
       "name": "Storey Ranch CE",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.20323,
@@ -32700,7 +32700,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1665",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.20247,
@@ -32712,7 +32712,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.200",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.313,
@@ -32724,7 +32724,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge 4",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.54286,
@@ -32736,7 +32736,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.663",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.64275,
@@ -32748,7 +32748,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1162",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.54037,
@@ -32760,7 +32760,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1240",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35663,
@@ -32772,7 +32772,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.6",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88706,
@@ -32784,7 +32784,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.969",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.14466,
@@ -32796,7 +32796,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.631",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.17421,
@@ -32808,7 +32808,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.280",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24699,
@@ -32820,7 +32820,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1403",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.45886,
@@ -32832,7 +32832,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.1765",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.21717,
@@ -32856,7 +32856,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1102",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.82293,
@@ -32868,7 +32868,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1239",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.0296,
@@ -32880,7 +32880,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.226",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.9327,
@@ -32892,7 +32892,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1305",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.83162,
@@ -32904,7 +32904,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1985",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65634,
@@ -32916,7 +32916,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.808",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.38607,
@@ -32928,7 +32928,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.478",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.7435,
@@ -32940,7 +32940,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.482",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.08673,
@@ -32952,7 +32952,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.558",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.01418,
@@ -32964,7 +32964,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.314",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.07846,
@@ -32976,7 +32976,7 @@
     {
       "name": "Murphy's Ox Yoke Ranch # 306101002.EAS.149",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.50762,
@@ -32988,7 +32988,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.750",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.62746,
@@ -33000,7 +33000,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1748",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24279,
@@ -33012,7 +33012,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1343",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58409,
@@ -33024,7 +33024,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1761",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.32214,
@@ -33036,7 +33036,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.566",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.37508,
@@ -33048,7 +33048,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.923",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.89616,
@@ -33060,7 +33060,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1227",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.01432,
@@ -33084,7 +33084,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.214",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.79487,
@@ -33096,7 +33096,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1656",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.89628,
@@ -33132,7 +33132,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.255",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60564,
@@ -33144,7 +33144,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1163",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.93073,
@@ -33156,7 +33156,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.353",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.48786,
@@ -33168,7 +33168,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1944",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.44434,
@@ -33180,7 +33180,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1100",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.86801,
@@ -33192,7 +33192,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1983",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.62014,
@@ -33204,7 +33204,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.256",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58578,
@@ -33216,7 +33216,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.244",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.69928,
@@ -33228,7 +33228,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.65249,
@@ -33240,7 +33240,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1661",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.01793,
@@ -33252,7 +33252,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.703",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.81697,
@@ -33264,7 +33264,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.619",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.85875,
@@ -33276,7 +33276,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1023",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.26189,
@@ -33288,7 +33288,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.638",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.86763,
@@ -33300,7 +33300,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.282",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.06818,
@@ -33312,7 +33312,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.1831",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.66628,
@@ -33324,7 +33324,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1981",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.5683,
@@ -33336,7 +33336,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.777",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.48281,
@@ -33348,7 +33348,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.316",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.26189,
@@ -33360,7 +33360,7 @@
     {
       "name": "Sourdough Creek CE",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.59129,
@@ -33372,7 +33372,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1457",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.38228,
@@ -33396,7 +33396,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.636",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.92996,
@@ -33420,7 +33420,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2135",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.15962,
@@ -33432,7 +33432,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.392",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88227,
@@ -33444,7 +33444,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1986",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58448,
@@ -33456,7 +33456,7 @@
     {
       "name": "The Bighorn Institute Easement # 306101002.EAS.1562",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.21691,
@@ -33480,7 +33480,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1409",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.20769,
@@ -33492,7 +33492,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.496",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.875,
@@ -33504,7 +33504,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1525",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.44368,
@@ -33516,7 +33516,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.3010",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3801,
@@ -33528,7 +33528,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1297",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.18362,
@@ -33540,7 +33540,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.479",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.41346,
@@ -33552,7 +33552,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.198",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34962,
@@ -33564,7 +33564,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.485",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34576,
@@ -33576,7 +33576,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.57",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65594,
@@ -33588,7 +33588,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1345",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.28993,
@@ -33600,7 +33600,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1652",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.64411,
@@ -33612,7 +33612,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.176",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34931,
@@ -33624,7 +33624,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge 1 # 306101002.Eas.949",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.57822,
@@ -33636,7 +33636,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.313",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8421,
@@ -33648,7 +33648,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.973",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24712,
@@ -33660,7 +33660,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1865",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88732,
@@ -33672,7 +33672,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.562",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.78844,
@@ -33684,7 +33684,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.869",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.31417,
@@ -33696,7 +33696,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1732",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65293,
@@ -33708,7 +33708,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1117",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.55478,
@@ -33720,7 +33720,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.420",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.30938,
@@ -33732,7 +33732,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge 5",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.58701,
@@ -33744,7 +33744,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1024",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.2618,
@@ -33768,7 +33768,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.890",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.87972,
@@ -33780,7 +33780,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.211",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.02064,
@@ -33792,7 +33792,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.483",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.48051,
@@ -33804,7 +33804,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.370",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.49152,
@@ -33816,7 +33816,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1063",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.36397,
@@ -33840,7 +33840,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.678",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.36025,
@@ -33852,7 +33852,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.692",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.2909,
@@ -33864,7 +33864,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.938",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.66027,
@@ -33876,7 +33876,7 @@
     {
       "name": "Keogh CE",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.01328,
@@ -33888,7 +33888,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1611",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.53659,
@@ -33900,7 +33900,7 @@
     {
       "name": "United States Fish And Wildlife Service Easement # 306101002.Eas.1991",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.69488,
@@ -33912,7 +33912,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1782",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.85687,
@@ -33924,7 +33924,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge 9 # 306101002.Eas.401",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.5737,
@@ -33936,7 +33936,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.691",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.506,
@@ -33948,7 +33948,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.870",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.39347,
@@ -33960,7 +33960,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1317",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.16323,
@@ -33984,7 +33984,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.71294,
@@ -33996,7 +33996,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1982",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.67101,
@@ -34008,7 +34008,7 @@
     {
       "name": "State Easement",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.17424,
@@ -34020,7 +34020,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1654",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.56927,
@@ -34044,7 +34044,7 @@
     {
       "name": "The Bighorn Institute Easement # 306101002.EAS.1271",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24587,
@@ -34056,7 +34056,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.2890",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34732,
@@ -34068,7 +34068,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1651",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.66492,
@@ -34080,7 +34080,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.840",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88227,
@@ -34092,7 +34092,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.918",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.28984,
@@ -34104,7 +34104,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.881",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.69248,
@@ -34116,7 +34116,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.968",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.23262,
@@ -34128,7 +34128,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2549",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.18882,
@@ -34140,7 +34140,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.564",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.4292,
@@ -34152,7 +34152,7 @@
     {
       "name": "The Bighorn Institute Easement # 306101002.EAS.1564",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.25675,
@@ -34176,7 +34176,7 @@
     {
       "name": "United States Department of Agriculture Easement # 306101002.EAS.19",
       "manager": "Agricultural Research Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.19999,
@@ -34188,7 +34188,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1358",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.87497,
@@ -34200,7 +34200,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.477",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.50961,
@@ -34212,7 +34212,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1975",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.67411,
@@ -34224,7 +34224,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1116",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.6923,
@@ -34236,7 +34236,7 @@
     {
       "name": "United States Fish And Wildlife Service Easement # 306101002.Eas.1990",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.69496,
@@ -34248,7 +34248,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1414",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.07125,
@@ -34260,7 +34260,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1374",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.61627,
@@ -34272,7 +34272,7 @@
     {
       "name": "Montana Fish, Wildlife, and Parks 306101002.EAS.933",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.02808,
@@ -34284,7 +34284,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1560",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.06453,
@@ -34296,7 +34296,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1083",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.59931,
@@ -34308,7 +34308,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.484",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27627,
@@ -34320,7 +34320,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1753",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.37875,
@@ -34332,7 +34332,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1052",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.67826,
@@ -34344,7 +34344,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1649",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.71426,
@@ -34356,7 +34356,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.59",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60714,
@@ -34368,7 +34368,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.291",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.80917,
@@ -34380,7 +34380,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.565",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27632,
@@ -34392,7 +34392,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.113",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.79453,
@@ -34404,7 +34404,7 @@
     {
       "name": "United States Fish And Wildlife Service Easement # 306101002.Eas.1987",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.67966,
@@ -34416,7 +34416,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1832",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.29474,
@@ -34428,7 +34428,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.754",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.81698,
@@ -34440,7 +34440,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1097",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35249,
@@ -34452,7 +34452,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.852",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.68192,
@@ -34464,7 +34464,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.281",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.49514,
@@ -34476,7 +34476,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2550",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.14504,
@@ -34488,7 +34488,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1680",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.1995,
@@ -34500,7 +34500,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.99",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.25133,
@@ -34512,7 +34512,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.835",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.15811,
@@ -34524,7 +34524,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2646",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.50276,
@@ -34536,7 +34536,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.2891",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34219,
@@ -34548,7 +34548,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1951",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.95184,
@@ -34560,7 +34560,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.2137",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.36388,
@@ -34572,7 +34572,7 @@
     {
       "name": "Montana Fish, Wildlife, and Parks 306101002.EAS.1061",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.13017,
@@ -34584,7 +34584,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.195",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35775,
@@ -34596,7 +34596,7 @@
     {
       "name": "The Bighorn Institute Easement # 306101002.EAS.1096",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.26091,
@@ -34608,7 +34608,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1574",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3559,
@@ -34620,7 +34620,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1436",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88718,
@@ -34644,7 +34644,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1131",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35495,
@@ -34656,7 +34656,7 @@
     {
       "name": "Montana Fish, Wildlife, and Parks 306101002.EAS.283",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.1741,
@@ -34680,7 +34680,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.706",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.86051,
@@ -34692,7 +34692,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.550",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88962,
@@ -34704,7 +34704,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1612",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.53269,
@@ -34716,7 +34716,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.2994",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.99281,
@@ -34728,7 +34728,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.116",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.01803,
@@ -34740,7 +34740,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1377",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.31814,
@@ -34764,7 +34764,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1980",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.7211,
@@ -34776,7 +34776,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1867",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.87936,
@@ -34788,7 +34788,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.2098",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.75554,
@@ -34800,7 +34800,7 @@
     {
       "name": "Montana Fish, Wildlife, and Parks 306101002.EAS.227",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.02037,
@@ -34812,7 +34812,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1169",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.49479,
@@ -34824,7 +34824,7 @@
     {
       "name": "United States Department of Agriculture Easement # 306101002.EAS.1621",
       "manager": "Agricultural Research Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.20277,
@@ -34836,7 +34836,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1877",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.08292,
@@ -34848,7 +34848,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.880",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.86061,
@@ -34860,7 +34860,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.2023",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.48787,
@@ -34872,7 +34872,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.480",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3859,
@@ -34884,7 +34884,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1472",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.2654,
@@ -34896,7 +34896,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.54",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.68515,
@@ -34908,7 +34908,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1731",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.54047,
@@ -34920,7 +34920,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.966",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.4905,
@@ -34944,7 +34944,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.210",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88715,
@@ -34956,7 +34956,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1733",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.63836,
@@ -34968,7 +34968,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.859",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.5829,
@@ -34992,7 +34992,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1876",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.5464,
@@ -35004,7 +35004,7 @@
     {
       "name": "Montana Fish, Wildlife, and Parks 306101002.EAS.560",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.15974,
@@ -35016,7 +35016,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.381",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.5097,
@@ -35040,7 +35040,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1561",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.09446,
@@ -35052,7 +35052,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1376",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.59977,
@@ -35064,7 +35064,7 @@
     {
       "name": "Humane Society Wildlife Land Trust 306101002.EAS.2089",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.59188,
@@ -35076,7 +35076,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1618",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35664,
@@ -35088,7 +35088,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.322",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.9328,
@@ -35100,7 +35100,7 @@
     {
       "name": "Bear Creek Angus CE",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.1305,
@@ -35112,7 +35112,7 @@
     {
       "name": "The Bighorn Institute Easement # 306101002.EAS.962",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.20243,
@@ -35124,7 +35124,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1866",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.06144,
@@ -35136,7 +35136,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1380",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.82417,
@@ -35148,7 +35148,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.487",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.94112,
@@ -35160,7 +35160,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1228",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.62746,
@@ -35172,7 +35172,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1741",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.23927,
@@ -35184,7 +35184,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1243",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.01076,
@@ -35196,7 +35196,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1406",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3644,
@@ -35208,7 +35208,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.486",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3201,
@@ -35220,7 +35220,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.59822,
@@ -35232,7 +35232,7 @@
     {
       "name": "Montana Fish, Wildlife, and Parks 306101002.EAS.287",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.06477,
@@ -35244,7 +35244,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.707",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.87492,
@@ -35256,7 +35256,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.321",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.76501,
@@ -35268,7 +35268,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.69629,
@@ -35292,7 +35292,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.74",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.77383,
@@ -35304,7 +35304,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.145",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65594,
@@ -35328,7 +35328,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2632",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.99151,
@@ -35340,7 +35340,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge 10",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.71453,
@@ -35352,7 +35352,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1650",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60386,
@@ -35364,7 +35364,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.285",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.94567,
@@ -35376,7 +35376,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1660",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.05678,
@@ -35388,7 +35388,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1282",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.84567,
@@ -35400,7 +35400,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1190",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60567,
@@ -35412,7 +35412,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1822",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.19619,
@@ -35424,7 +35424,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.355",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.50961,
@@ -35436,7 +35436,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1478",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3347,
@@ -35448,7 +35448,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.2097",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.67089,
@@ -35460,7 +35460,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1130",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.80961,
@@ -35472,7 +35472,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1573",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.01798,
@@ -35484,7 +35484,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1371",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.26122,
@@ -35496,7 +35496,7 @@
     {
       "name": "Maher CE",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88272,
@@ -35508,7 +35508,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1762",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.87239,
@@ -35520,7 +35520,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.246",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65657,
@@ -35532,7 +35532,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1132",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.36422,
@@ -35544,7 +35544,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.1743",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.7262,
@@ -35568,7 +35568,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2326",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8579,
@@ -35580,7 +35580,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1728",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.76554,
@@ -35592,7 +35592,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.791",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.95449,
@@ -35604,7 +35604,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.872",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.40778,
@@ -35616,7 +35616,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1174",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.69602,
@@ -35628,7 +35628,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1236",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.30575,
@@ -35640,7 +35640,7 @@
     {
       "name": "US Fish And Wildlife Service Easement # 306101002.Eas.2723",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.70921,
@@ -35652,7 +35652,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1648",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.72317,
@@ -35664,7 +35664,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1907",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.97446,
@@ -35676,7 +35676,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.948",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.64146,
@@ -35688,7 +35688,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.197",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.82123,
@@ -35700,7 +35700,7 @@
     {
       "name": "The Bighorn Institute Easement # 306101002.EAS.1563",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.23137,
@@ -35712,7 +35712,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.847",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.29219,
@@ -35724,7 +35724,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1786",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.70002,
@@ -35736,7 +35736,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.481",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.87732,
@@ -35748,7 +35748,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.919",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.07906,
@@ -35760,7 +35760,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1302",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3492,
@@ -35772,7 +35772,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.561",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.49875,
@@ -35784,7 +35784,7 @@
     {
       "name": "United States Department of Agriculture Easement # 306101002.EAS.1622",
       "manager": "Agricultural Research Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.19714,
@@ -35796,7 +35796,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.635",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.86072,
@@ -35820,7 +35820,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.871",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.50241,
@@ -35844,7 +35844,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.199",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.9703,
@@ -35856,7 +35856,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.861",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.25443,
@@ -35868,7 +35868,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1126",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.39469,
@@ -35880,7 +35880,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1266",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.26398,
@@ -35892,7 +35892,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1640",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.47508,
@@ -35903,8 +35903,8 @@
     },
     {
       "name": "Montana Department of Transportation Easement # 306101002.EAS.1895",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.50862,
@@ -35916,7 +35916,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1426",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.5525,
@@ -35928,7 +35928,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.272",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27906,
@@ -35940,7 +35940,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.909",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.63415,
@@ -35952,7 +35952,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.273",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.90135,
@@ -35964,7 +35964,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1551",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.64507,
@@ -35976,7 +35976,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1303",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.84778,
@@ -35988,7 +35988,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.384",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24847,
@@ -36000,7 +36000,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.489",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.66133,
@@ -36012,7 +36012,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.867",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27018,
@@ -36024,7 +36024,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.542",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.32238,
@@ -36036,7 +36036,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1007",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.84272,
@@ -36048,7 +36048,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.253",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27572,
@@ -36060,7 +36060,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.960",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.85708,
@@ -36071,8 +36071,8 @@
     },
     {
       "name": "Montana Department of Transportation Easement # 306101002.EAS.1769",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.05503,
@@ -36084,7 +36084,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.575",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.63512,
@@ -36096,7 +36096,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1057",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.83219,
@@ -36108,7 +36108,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1204",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24674,
@@ -36120,7 +36120,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.304",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.22149,
@@ -36132,7 +36132,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.860",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.21085,
@@ -36144,7 +36144,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.770",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.30235,
@@ -36156,7 +36156,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1945",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.1081,
@@ -36168,7 +36168,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.171",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.56703,
@@ -36180,7 +36180,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1672",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.74067,
@@ -36192,7 +36192,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1281",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58223,
@@ -36204,7 +36204,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.758",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.57064,
@@ -36216,7 +36216,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1546",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.78559,
@@ -36228,7 +36228,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1231",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.85713,
@@ -36240,7 +36240,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1347",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.66699,
@@ -36252,7 +36252,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1091",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.85821,
@@ -36264,7 +36264,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.606",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.54532,
@@ -36276,7 +36276,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.491",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.77608,
@@ -36288,7 +36288,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1191",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.40299,
@@ -36300,7 +36300,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.539",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.21431,
@@ -36312,7 +36312,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.738",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.10059,
@@ -36324,7 +36324,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1614",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.53968,
@@ -36336,7 +36336,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1135",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.44328,
@@ -36348,7 +36348,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1557",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.609,
@@ -36360,7 +36360,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.170",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.93295,
@@ -36372,7 +36372,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1161",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.56709,
@@ -36384,7 +36384,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.4",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58496,
@@ -36396,7 +36396,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.260",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.4845,
@@ -36408,7 +36408,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1434",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.62557,
@@ -36420,7 +36420,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.350",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.30765,
@@ -36432,7 +36432,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1031",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.0094,
@@ -36444,7 +36444,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1178",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.77968,
@@ -36456,7 +36456,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.954",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.45003,
@@ -36468,7 +36468,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.812",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.51851,
@@ -36480,7 +36480,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.80",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60681,
@@ -36492,7 +36492,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1643",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.6629,
@@ -36504,7 +36504,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.408",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.29652,
@@ -36516,7 +36516,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1558",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.64599,
@@ -36528,7 +36528,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.821",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.32837,
@@ -36540,7 +36540,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1548",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.75343,
@@ -36552,7 +36552,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1552",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.66785,
@@ -36564,7 +36564,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1549",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.75177,
@@ -36576,7 +36576,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1049",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.32403,
@@ -36588,7 +36588,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1397",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58612,
@@ -36600,7 +36600,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.700",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.63864,
@@ -36612,7 +36612,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.771",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.30477,
@@ -36624,7 +36624,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.670",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.45998,
@@ -36636,7 +36636,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1123",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.61158,
@@ -36648,7 +36648,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.114",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.90514,
@@ -36660,7 +36660,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.312",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.00328,
@@ -36672,7 +36672,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1781",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.66753,
@@ -36684,7 +36684,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.682",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35862,
@@ -36696,7 +36696,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.383",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.15851,
@@ -36708,7 +36708,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1873",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.97388,
@@ -36720,7 +36720,7 @@
     {
       "name": "Hailstone National Wildlife Refuge # 306101002.Eas.1553",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.01451,
@@ -36732,7 +36732,7 @@
     {
       "name": "Dome Mountain CE",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.22595,
@@ -36744,7 +36744,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.878",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.70602,
@@ -36756,7 +36756,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.540",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.14402,
@@ -36768,7 +36768,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1547",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.56712,
@@ -36780,7 +36780,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1056",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.55988,
@@ -36792,7 +36792,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.111",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.1183,
@@ -36804,7 +36804,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1657",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.10801,
@@ -36816,7 +36816,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1106",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8129,
@@ -36828,7 +36828,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1129",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.24729,
@@ -36840,7 +36840,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2463",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34106,
@@ -36852,7 +36852,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2172",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60382,
@@ -36864,7 +36864,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.372",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.80057,
@@ -36876,7 +36876,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.573",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.55331,
@@ -36888,7 +36888,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.52713,
@@ -36900,7 +36900,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1642",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.52945,
@@ -36912,7 +36912,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2439",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.04951,
@@ -36924,7 +36924,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1639",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.53664,
@@ -36936,7 +36936,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.76",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.26293,
@@ -36948,7 +36948,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.541",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65424,
@@ -36960,7 +36960,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.305",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.3294,
@@ -36972,7 +36972,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.854",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.90402,
@@ -36984,7 +36984,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1917",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.48593,
@@ -36996,7 +36996,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1955",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.30445,
@@ -37008,7 +37008,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.961",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.15125,
@@ -37020,7 +37020,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.922",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.67167,
@@ -37032,7 +37032,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.813",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.29036,
@@ -37044,7 +37044,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.409",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8579,
@@ -37056,7 +37056,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.1260",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.47868,
@@ -37068,7 +37068,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1952",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.73677,
@@ -37080,7 +37080,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.768",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.24271,
@@ -37092,7 +37092,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.543",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.90136,
@@ -37104,7 +37104,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.153",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.43345,
@@ -37116,7 +37116,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.699",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.74281,
@@ -37128,7 +37128,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.2731",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.37771,
@@ -37140,7 +37140,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.1605",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24671,
@@ -37152,7 +37152,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.762",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.0447,
@@ -37164,7 +37164,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.958",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.24857,
@@ -37176,7 +37176,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1349",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.17026,
@@ -37188,7 +37188,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.819",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.92927,
@@ -37200,7 +37200,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2464",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.38822,
@@ -37212,7 +37212,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1766",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.9019,
@@ -37224,7 +37224,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1872",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65126,
@@ -37236,7 +37236,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1008",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.54902,
@@ -37248,7 +37248,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.772",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.40996,
@@ -37260,7 +37260,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1058",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.95907,
@@ -37272,7 +37272,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1447",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.48591,
@@ -37284,7 +37284,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1679",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.28726,
@@ -37296,7 +37296,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1280",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.9608,
@@ -37308,7 +37308,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1324",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.42391,
@@ -37320,7 +37320,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1259",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.40661,
@@ -37332,7 +37332,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.206",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.38823,
@@ -37344,7 +37344,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1641",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.47873,
@@ -37356,7 +37356,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.2734",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.39486,
@@ -37368,7 +37368,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.613",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.79254,
@@ -37380,7 +37380,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.373",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.52567,
@@ -37392,7 +37392,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.306",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.31933,
@@ -37404,7 +37404,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.697",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.83407,
@@ -37416,7 +37416,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1067",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.28315,
@@ -37428,7 +37428,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1768",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.40418,
@@ -37440,7 +37440,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.660",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.54037,
@@ -37452,7 +37452,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1326",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.43249,
@@ -37464,7 +37464,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.75",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27732,
@@ -37476,7 +37476,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1754",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.81749,
@@ -37488,7 +37488,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1233",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.55257,
@@ -37500,7 +37500,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.681",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60924,
@@ -37512,7 +37512,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1984",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.46047,
@@ -37524,7 +37524,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.271",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.63415,
@@ -37536,7 +37536,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.761",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.89719,
@@ -37548,7 +37548,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1671",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.89966,
@@ -37560,7 +37560,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.368",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.23606,
@@ -37572,7 +37572,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.115",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.63296,
@@ -37584,7 +37584,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.702",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.62884,
@@ -37596,7 +37596,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1606",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35561,
@@ -37608,7 +37608,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1192",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.44269,
@@ -37620,7 +37620,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1615",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.55503,
@@ -37632,7 +37632,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.374",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.43853,
@@ -37644,7 +37644,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.338",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.29042,
@@ -37656,7 +37656,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.834",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.70862,
@@ -37668,7 +37668,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1127",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.79963,
@@ -37680,7 +37680,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1010",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.60975,
@@ -37692,7 +37692,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.167",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.77254,
@@ -37704,7 +37704,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1453",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.46755,
@@ -37716,7 +37716,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.782",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8888,
@@ -37728,7 +37728,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1268",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.23413,
@@ -37740,7 +37740,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.669",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.29325,
@@ -37752,7 +37752,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1746",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.00574,
@@ -37764,7 +37764,7 @@
     {
       "name": "Mill Creek CE",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.4093,
@@ -37776,7 +37776,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.2082",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.36558,
@@ -37788,7 +37788,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1362",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.562,
@@ -37800,7 +37800,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.490",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.88522,
@@ -37812,7 +37812,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2484",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.98806,
@@ -37824,7 +37824,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.930",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.82731,
@@ -37836,7 +37836,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.721",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.99244,
@@ -37848,7 +37848,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.424",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27926,
@@ -37860,7 +37860,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1659",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.15529,
@@ -37872,7 +37872,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.807",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.28459,
@@ -37884,7 +37884,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.759",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.84275,
@@ -37896,7 +37896,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.320",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65328,
@@ -37908,7 +37908,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1212",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.28675,
@@ -37920,7 +37920,7 @@
     {
       "name": "Hailstone National Wildlife Refuge # 306101002.Eas.1554",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.00188,
@@ -37932,7 +37932,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1053",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65338,
@@ -37944,7 +37944,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.891",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.46061,
@@ -37956,7 +37956,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.390",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58182,
@@ -37968,7 +37968,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1213",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.59546,
@@ -37980,7 +37980,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1638",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.39543,
@@ -37992,7 +37992,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.574",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.73707,
@@ -38004,7 +38004,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.634",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.72893,
@@ -38016,7 +38016,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.683",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8164,
@@ -38028,7 +38028,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1908",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.51511,
@@ -38040,7 +38040,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1361",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.62886,
@@ -38052,7 +38052,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.952",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.52044,
@@ -38064,7 +38064,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.208",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.5243,
@@ -38076,7 +38076,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1666",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.58444,
@@ -38088,7 +38088,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1829",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.23394,
@@ -38100,7 +38100,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.173",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8152,
@@ -38112,7 +38112,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1446",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.84023,
@@ -38124,7 +38124,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1256",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.81297,
@@ -38136,7 +38136,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1522",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.81282,
@@ -38148,7 +38148,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.1375",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.95501,
@@ -38160,7 +38160,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.955",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.48226,
@@ -38172,7 +38172,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1205",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.65444,
@@ -38184,7 +38184,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.877",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.25404,
@@ -38196,7 +38196,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.680",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.54753,
@@ -38208,7 +38208,7 @@
     {
       "name": "Gallatin Valley Land Trust Easement # 306101002.EAS.1090",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.15585,
@@ -38220,7 +38220,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.965",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.10402,
@@ -38232,7 +38232,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1946",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.12935,
@@ -38244,7 +38244,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1265",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.56705,
@@ -38256,7 +38256,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1089",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.2921,
@@ -38268,7 +38268,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.620",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.8436,
@@ -38280,7 +38280,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1954",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.1963,
@@ -38292,7 +38292,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.662",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.35953,
@@ -38303,8 +38303,8 @@
     },
     {
       "name": "Montana Department of Transportation Easement # 306101002.EAS.2032",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.30922,
@@ -38316,7 +38316,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1101",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.81294,
@@ -38328,7 +38328,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.349",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.59606,
@@ -38340,7 +38340,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.760",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.94369,
@@ -38352,7 +38352,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1329",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.67312,
@@ -38364,7 +38364,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.571",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.91142,
@@ -38376,7 +38376,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1953",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.352,
@@ -38388,7 +38388,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1524",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.51125,
@@ -38400,7 +38400,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1658",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 46.13703,
@@ -38412,7 +38412,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.614",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.774,
@@ -38424,7 +38424,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.315",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.25553,
@@ -38436,7 +38436,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.2479",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.36649,
@@ -38448,7 +38448,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.549",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.2422,
@@ -38460,7 +38460,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1458",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34994,
@@ -38472,7 +38472,7 @@
     {
       "name": "Alderman",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.79832,
@@ -38484,7 +38484,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1322",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.38095,
@@ -38496,7 +38496,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.3490",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.74366,
@@ -38508,7 +38508,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1619",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34992,
@@ -38520,7 +38520,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.2598",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.62016,
@@ -38532,7 +38532,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1617",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34189,
@@ -38544,7 +38544,7 @@
     {
       "name": "Hailstone National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.98722,
@@ -38556,7 +38556,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.3489",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.90367,
@@ -38568,7 +38568,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.559",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34245,
@@ -38580,7 +38580,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.2599",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.39905,
@@ -38592,7 +38592,7 @@
     {
       "name": "Red Rock Lakes National Wildlife Refuge",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 44.71592,
@@ -38604,7 +38604,7 @@
     {
       "name": "Jarvis",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.7142,
@@ -38616,7 +38616,7 @@
     {
       "name": "B3 Farms Homeplace West",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.7365,
@@ -38628,7 +38628,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1173",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34188,
@@ -38640,7 +38640,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.3491",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.78378,
@@ -38652,7 +38652,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1407",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.27636,
@@ -38664,7 +38664,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1620",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34967,
@@ -38676,7 +38676,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.142",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.38094,
@@ -38688,7 +38688,7 @@
     {
       "name": "Montana Land Reliance Easement #306101002.EAS.3488",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.32653,
@@ -38712,7 +38712,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.2684",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.7584,
@@ -38724,7 +38724,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.2680",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.70308,
@@ -38736,7 +38736,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1104",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.85266,
@@ -38748,7 +38748,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1172",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34285,
@@ -38760,7 +38760,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.2685",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.75844,
@@ -38772,7 +38772,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.3492",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.82385,
@@ -38796,7 +38796,7 @@
     {
       "name": "United States Fish And Wildlife Service Easement # 306101002.Eas.402",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.96823,
@@ -38808,7 +38808,7 @@
     {
       "name": "Gallatin Valley Land Trust 306101002.EAS.2701",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.76572,
@@ -38820,7 +38820,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.2696",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.34554,
@@ -38832,7 +38832,7 @@
     {
       "name": "Montana Land Reliance Easement # 306101002.EAS.1277",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.31878,
@@ -38844,7 +38844,7 @@
     {
       "name": "United States Fish And Wildlife Service Easement # 306101002.Eas.1466",
       "manager": "U.S. Fish and Wildlife Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.94472,
@@ -38856,7 +38856,7 @@
     {
       "name": "Montana Land Reliance 306101002.EAS.549",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 45.31875,
