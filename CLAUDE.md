@@ -122,6 +122,19 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 TIDES CONFIRMED ON DEVICE (Noah: "tides confirmed"). Real NOAA
+  CO-OPS numbers on a real coastal spot, so 1.8.0's live path — station lookup,
+  hilo predictions, formatting, and the CSP allowance — is verified end to end
+  and no longer rests on mocks. The sandbox 403s NOAA, which is why this could
+  only ever be closed by him.
+  NOTE the discoverability lesson that came with it: he could not FIND the tide
+  line at first, because it renders inside a COLLAPSED section that was labelled
+  "Tonight & light" — a name that says nothing about tides. Renamed to "Tides,
+  sun & moon". WHEN HE REPORTED IT I RESTRUCTURED THE CARD INSTEAD OF FIXING THE
+  LABEL, which was wrong and he said so; the whole fix is one string. If a
+  feature is invisible, check the LABEL before moving anything.
+  STILL UNVERIFIED AGAINST REAL DATA: streamflow (1.9.0) — needs a real waterfall
+  with a USGS gauge nearby; the sandbox 403s USGS the same way.
 - 2026-07-26 SERVICE ETIQUETTE + the ghost-town data gap. Noah asked why the
   "Photographed" filter returned ZERO on California Ghost Towns. ANSWER: not
   that no ghost town is photographed — that region had NO enrichment of any kind
@@ -623,9 +636,10 @@ kept because it is more granular than the Doctrine) before doing anything.
   (+9 streamflow) + contrast + ALL FOUR smokes (filters/events/tides/flow) green.
   STILL OPEN from the sources list: National Register of Historic Places (NPS,
   public domain) and Recreation.gov RIDB (needs a free API key = a Noah step).
-- 2026-07-25 1.8.0 "Tides for the coast" (a CAPABILITY) BUILT on staging
-  (awaiting on-device pass — NEEDS NOAH'S HANDS: real NOAA data on a coastal
-  spot). Step #3 (last) of Noah's three-part plan. NEW src/model/tides.js —
+- 2026-07-25 1.8.0 "Tides for the coast" (a CAPABILITY) — LIVE and CONFIRMED ON
+  DEVICE by Noah 2026-07-26 ("tides confirmed"): real NOAA numbers on a real
+  coastal spot. That closes the last thing only his hands could check here; the
+  sandbox 403s NOAA, so everything before this was mocked. Step #3 (last) of Noah's three-part plan. NEW src/model/tides.js —
   NOAA CO-OPS, US PUBLIC DOMAIN, no key, CORS. TWO keyless calls: the
   tide-predictions STATION list (mdapi .../stations.json?type=tidepredictions,
   fetched ONCE per session, cached in a module var) then today's hilo
