@@ -1,6 +1,6 @@
 {
   "region": "reno",
-  "builtAt": "2026-07-25",
+  "builtAt": "2026-07-26",
   "spots": [
     {
       "id": "101-e-pueblo-st@9r4bcb",
@@ -4287,6 +4287,34 @@
       }
     },
     {
+      "id": "horizon-hills-trailhead@9r4c22",
+      "name": "Horizon Hills Trailhead",
+      "lat": 39.59773611,
+      "lng": -119.866475,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Horizon Hills Trail is located at 41645 Sec 17 on the Northeast side of Peavine Mountain. A variety of OHV opportunities are availiable in the area: including OHV and 4x4. Open routes are marked with a route number and type of vehicles the route is open to.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "243942",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "243942",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "horizon-view-park@9r4b7k",
       "name": "Horizon View Park",
       "lat": 39.443396,
@@ -8311,6 +8339,34 @@
       }
     },
     {
+      "id": "raleigh-heights-trailhead@9r4c0z",
+      "name": "Raleigh Heights Trailhead",
+      "lat": 39.590724,
+      "lng": -119.846612,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Raleigh Heights Trailhead is located at 41664 sec. 21 on the East side of peavine Mountain. A variety of OHV opportunities are available in the area: including OHV and 4x4. Open routes are marked with a route number and type of vehicles.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "243954",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "243954",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "rancho-san-rafael-regional-park@9r4bcp",
       "name": "Rancho San Rafael Regional Park",
       "lat": 39.5471282,
@@ -11477,6 +11533,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "west-keystone-trailhead@9r4bbz",
+      "name": "West Keystone Trailhead",
+      "lat": 39.55061543,
+      "lng": -119.8480981,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The West Keystone Trailhead is located at 41653 sec. 32. on the south side of Peavine Mountain. A variety of opportunities are available in the area: including , Mt. Biking, OHV and 4x4. Open routes are marked with a route number and type of vehicles are authorized.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "243956",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "243956",
+        "ridb_type": "Facility"
       }
     },
     {
