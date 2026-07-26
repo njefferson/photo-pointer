@@ -35,7 +35,13 @@
       ],
       "tags": {
         "name": "101 E Pueblo St",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -229,7 +235,13 @@
       "tags": {
         "name": "Aimone Park",
         "ele": "1353",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Aimone Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -315,7 +327,13 @@
       "tags": {
         "name": "Alpine Walk Peak",
         "ele": "2730",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mt. Rose Wilderness",
+          "manager": "U.S. Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -343,7 +361,13 @@
       ],
       "tags": {
         "name": "Alterations Connection",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -369,7 +393,13 @@
       ],
       "tags": {
         "name": "Ambrose Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Ambrose Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -395,7 +425,13 @@
       ],
       "tags": {
         "name": "Anderson Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Anderson Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -421,7 +457,13 @@
       ],
       "tags": {
         "name": "Antelope Ridge Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Antelope Ridge Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -447,7 +489,13 @@
       ],
       "tags": {
         "name": "Ardmore Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Ardmore Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -503,7 +551,13 @@
       ],
       "tags": {
         "name": "Arrowcreek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Arrowcreek Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -587,7 +641,13 @@
       "tags": {
         "name": "Audrey Harris Park",
         "ele": "1419",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Audrey Harris Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -641,7 +701,13 @@
       ],
       "tags": {
         "name": "Bailey Creek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Bailey Creek Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -669,7 +735,13 @@
       ],
       "tags": {
         "name": "Ballardini Open Space",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "padus": {
+          "name": "Ballardini",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -830,7 +902,13 @@
       ],
       "tags": {
         "name": "Bartley Ranch Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Bartley Ranch Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -861,7 +939,13 @@
         "description": "The monument was designed to represent the sheepherder and his descendants in the American West, as well as all Basques throughout the world. ",
         "artwork_type": "sculpture",
         "historic": "monument",
-        "inscription": "Nestor Basterretxea’s poem, “Solitude.”"
+        "inscription": "Nestor Basterretxea’s poem, “Solitude.”",
+        "padus": {
+          "name": "Rancho San Rafael Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -945,7 +1029,13 @@
       ],
       "tags": {
         "name": "Beefy’s Inc",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1079,7 +1169,13 @@
       ],
       "tags": {
         "name": "Bitterbrush Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Bitterbrush Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1133,7 +1229,13 @@
       ],
       "tags": {
         "name": "Bodega Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Bodega Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1215,7 +1317,13 @@
       ],
       "tags": {
         "name": "Brodhead Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Brodhead Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1269,7 +1377,13 @@
       ],
       "tags": {
         "name": "Burgess Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Burgess Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1353,7 +1467,13 @@
         }
       ],
       "tags": {
-        "nrhp": "92001257"
+        "nrhp": "92001257",
+        "padus": {
+          "name": "Idlewild Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1379,7 +1499,13 @@
       ],
       "tags": {
         "name": "Canyon Creek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Canyon Creek Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1405,7 +1531,13 @@
       ],
       "tags": {
         "name": "Canyon Hills Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Canyon Hills Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1514,7 +1646,13 @@
       ],
       "tags": {
         "name": "Center Creek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Center Creek Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1543,7 +1681,13 @@
       "tags": {
         "name": "Chocolate Peak",
         "ele": "2867",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mt. Rose Wilderness",
+          "manager": "U.S. Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1598,7 +1742,13 @@
       "tags": {
         "name": "Chrissie Caughlin Park",
         "ele": "1391",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Schiappacasse Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1625,7 +1775,13 @@
       "tags": {
         "name": "Church Park",
         "ele": "1345",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Church Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1654,7 +1810,13 @@
       "tags": {
         "name": "Church Peak",
         "ele": "3235",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mt. Rose Wilderness",
+          "manager": "U.S. Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1707,7 +1869,13 @@
       ],
       "tags": {
         "name": "Comstock Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Comstock Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1759,7 +1927,13 @@
       ],
       "tags": {
         "name": "Coyote Springs Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Bodega Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1841,7 +2015,13 @@
       ],
       "tags": {
         "name": "Crystal Lakes Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Crystal Lakes Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1894,7 +2074,13 @@
       ],
       "tags": {
         "name": "Cyan Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Cyan Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1920,7 +2106,13 @@
       ],
       "tags": {
         "name": "Damonte Ranch Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Damonte Ranch Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1947,7 +2139,13 @@
       "tags": {
         "name": "Deer Park",
         "ele": "1351",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Deer Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1973,7 +2171,13 @@
       ],
       "tags": {
         "name": "Del Cobre Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Del Cobre Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1999,7 +2203,13 @@
       ],
       "tags": {
         "name": "Desert Winds Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Desert Winds Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2025,7 +2235,13 @@
       ],
       "tags": {
         "name": "Dick Taylor Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Dick Taylor Memorial Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2132,7 +2348,13 @@
       ],
       "tags": {
         "name": "Dorothy McAlinden/Mayor's Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Dorothy Macalinden Park/Mayors Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2158,7 +2380,13 @@
       ],
       "tags": {
         "name": "Double Diamond Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Double Diamond Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2184,7 +2412,13 @@
       ],
       "tags": {
         "name": "Eagle Canyon Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Eagle Canyon Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2262,7 +2496,13 @@
       ],
       "tags": {
         "name": "Eighth Street Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Eighth Street Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2344,7 +2584,13 @@
       ],
       "tags": {
         "name": "Ellen's Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Ellens Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2370,7 +2616,13 @@
       ],
       "tags": {
         "name": "Evans Canyon Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "padus": {
+          "name": "Rancho San Rafael Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2422,7 +2674,13 @@
       ],
       "tags": {
         "name": "Evergreen Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Evergreen Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2562,7 +2820,12 @@
         }
       ],
       "tags": {
-        "nrhp": "03000416"
+        "nrhp": "03000416",
+        "padus": {
+          "name": "Reno-Sparks Indian Colony",
+          "manager": "Tribal land",
+          "designation": "TRIBL"
+        }
       }
     },
     {
@@ -2670,7 +2933,13 @@
       ],
       "tags": {
         "name": "Fisherman's Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Fisherman's Park #1",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2864,7 +3133,13 @@
       "tags": {
         "name": "Frog Sculpture",
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Damonte Ranch Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2981,7 +3256,13 @@
         }
       ],
       "tags": {
-        "nrhp": "11000255"
+        "nrhp": "11000255",
+        "padus": {
+          "name": "Phillip & Annie Callahan Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3009,7 +3290,13 @@
       ],
       "tags": {
         "name": "The Galena \"G\"",
-        "historic": "monument"
+        "historic": "monument",
+        "padus": {
+          "name": "Rolling Hills (Galena Terrace)",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -3065,7 +3352,13 @@
       "tags": {
         "name": "Gandolfo Rodeo Arena",
         "ele": "1382",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Gandolfo Rodeo Arena",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3147,7 +3440,13 @@
       ],
       "tags": {
         "name": "Gateway Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Gateway Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3173,7 +3472,13 @@
       ],
       "tags": {
         "name": "Gator Swamp Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Gator Swamp Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3226,7 +3531,12 @@
       ],
       "tags": {
         "name": "Gepford Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Gepford Park",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3309,7 +3619,13 @@
       ],
       "tags": {
         "name": "Glendale Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Glendale Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3363,7 +3679,13 @@
       ],
       "tags": {
         "name": "Gojack Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Mary Gojack Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3389,7 +3711,13 @@
       ],
       "tags": {
         "name": "Golden Eagle Regional Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Golden Eagle Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3415,7 +3743,13 @@
       ],
       "tags": {
         "name": "Golden Valley Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Golden Valley Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3472,7 +3806,13 @@
       "tags": {
         "name": "Granite Hills",
         "ele": "1799",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Sierra Front Field Office",
+          "manager": "Bureau of Land Management",
+          "designation": "PUB",
+          "access": "open"
+        }
       }
     },
     {
@@ -3501,7 +3841,13 @@
       "tags": {
         "name": "Granite Peak",
         "ele": "1734",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Sierra Front Field Office",
+          "manager": "Bureau of Land Management",
+          "designation": "PUB",
+          "access": "open"
+        }
       }
     },
     {
@@ -3594,7 +3940,13 @@
       ],
       "tags": {
         "name": "Green Village Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Village Green Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3704,7 +4056,13 @@
       ],
       "tags": {
         "name": "Harrahs/Diloreto Pathway",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Harrahs/Diloreto Pathway",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3761,7 +4119,13 @@
         "ele": "1460",
         "opening_hours": "08:00-17:00",
         "operator": "Washoe County",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Hidden Valley Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3787,7 +4151,13 @@
       ],
       "tags": {
         "name": "Highland Ditch Greenbelt",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Highland Ditch Greenbelt",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -3813,7 +4183,13 @@
       ],
       "tags": {
         "name": "Highland Ranch Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Highland Ranch Park",
+          "manager": "Regional agency",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3839,7 +4215,13 @@
       ],
       "tags": {
         "name": "Hilltop Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Hilltop Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3895,7 +4277,13 @@
       ],
       "tags": {
         "name": "The Holland Project",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3921,7 +4309,13 @@
       ],
       "tags": {
         "name": "Horizon View Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Horizon View Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3947,7 +4341,13 @@
       ],
       "tags": {
         "name": "Horseman's Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Horseman's Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4057,7 +4457,13 @@
       ],
       "tags": {
         "name": "Huffaker Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Huffaker Mountain",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4112,7 +4518,13 @@
       "tags": {
         "name": "Idlewild Park",
         "operator": "City of Reno",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Idlewild Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4167,7 +4579,13 @@
       "tags": {
         "name": "Irving Circle Park",
         "ele": "1409",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Irving Circle Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4220,7 +4638,13 @@
       ],
       "tags": {
         "name": "Ivan Sack Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Ivan Sack Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4246,7 +4670,13 @@
       ],
       "tags": {
         "name": "Jacinto Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Jacinto Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4298,7 +4728,13 @@
       ],
       "tags": {
         "name": "Jamaica Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Jamaica Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4350,7 +4786,13 @@
       ],
       "tags": {
         "name": "John Champion Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "John Champion Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4434,7 +4876,13 @@
       ],
       "tags": {
         "name": "Kestrel Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Kestrel Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4463,7 +4911,13 @@
       "tags": {
         "name": "Keystone Canyon Non-Motorized Recreation Area",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Toiyabe National Forest",
+          "manager": "U.S. Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -4601,7 +5055,13 @@
       ],
       "tags": {
         "name": "Lake Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4629,7 +5089,13 @@
         }
       ],
       "tags": {
-        "nrhp": "98001303"
+        "nrhp": "98001303",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4655,7 +5121,13 @@
       ],
       "tags": {
         "name": "Las Brisas Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Las Brisas Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4712,7 +5184,13 @@
       "tags": {
         "curiosity": "Hot spring",
         "natural": "hot_spring",
-        "gnis": "856810"
+        "gnis": "856810",
+        "padus": {
+          "name": "Highland Ditch Greenbelt",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -4739,7 +5217,13 @@
       "tags": {
         "name": "Lazy 5 Regional Park",
         "operator": "Washoe County Regional Parks and Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lazy 5 Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4765,7 +5249,13 @@
       ],
       "tags": {
         "name": "Lemmon Valley Horseman's Arena",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lemmon Valley Horsemans Arena",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -4792,7 +5282,13 @@
       "tags": {
         "name": "Lemmon Valley Open Space",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lemmon Valley Open Space",
+          "manager": "County",
+          "designation": "LCA",
+          "access": "open"
+        }
       }
     },
     {
@@ -4818,7 +5314,13 @@
       ],
       "tags": {
         "name": "Lemmon Valley Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lemmon Valley Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4844,7 +5346,13 @@
       ],
       "tags": {
         "name": "Les Hicks Jr. Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Les Hicks Jr Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4926,7 +5434,13 @@
       ],
       "tags": {
         "name": "Liston Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Liston Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4982,7 +5496,13 @@
       "tags": {
         "name": "Longford Park",
         "ele": "1344",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Longford Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5008,7 +5528,13 @@
       ],
       "tags": {
         "name": "Lundsford Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lunsford Triangle Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5062,7 +5588,13 @@
       ],
       "tags": {
         "name": "Maldonado Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Maldonado Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5088,7 +5620,13 @@
       ],
       "tags": {
         "name": "Manzanita Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Manzanita Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5198,7 +5736,13 @@
       ],
       "tags": {
         "name": "Martin Luther King Jr. Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Martin Luther King Jr Memorial Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5290,7 +5834,13 @@
       "tags": {
         "nrhp": "85002406",
         "name": "McKinley Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Mckinley Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5316,7 +5866,13 @@
       ],
       "tags": {
         "name": "Melody Lane Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Melody Lane Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5372,7 +5928,13 @@
       ],
       "tags": {
         "name": "Micano Home",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5451,7 +6013,13 @@
       ],
       "tags": {
         "name": "Miguel Ribera Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Miguel Ribera Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5505,7 +6073,13 @@
       ],
       "tags": {
         "name": "Mira Loma Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Mira Loma Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5562,7 +6136,13 @@
       "tags": {
         "curiosity": "Hot spring",
         "natural": "hot_spring",
-        "gnis": "857125"
+        "gnis": "857125",
+        "padus": {
+          "name": "Moana Springs Recreation Center",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -5589,7 +6169,13 @@
       "tags": {
         "name": "Moana Municipal Pool",
         "ele": "1361",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Moana Springs Recreation Center",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -5618,7 +6204,13 @@
       "tags": {
         "name": "Mogul Open Space",
         "operator": "Washoe County",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "padus": {
+          "name": "Mogul Open Space",
+          "manager": "County",
+          "designation": "LCA",
+          "access": "open"
+        }
       }
     },
     {
@@ -5644,7 +6236,13 @@
       ],
       "tags": {
         "name": "Mogul Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Mogul Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5731,7 +6329,13 @@
         "wikidata": "Q14705230",
         "operator": "United States Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Mt. Rose Wilderness",
+          "manager": "U.S. Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -5787,7 +6391,13 @@
       ],
       "tags": {
         "name": "The N",
-        "historic": "monument"
+        "historic": "monument",
+        "padus": {
+          "name": "Rancho San Rafael Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5982,7 +6592,13 @@
       ],
       "tags": {
         "name": "Newlands Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Newlands Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6065,7 +6681,13 @@
       ],
       "tags": {
         "name": "North Valleys Regional Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "North Valleys Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6094,7 +6716,13 @@
         "website": "https://www.cityofreno.com/res/com_service/parks/",
         "access": "yes",
         "operator": "City of Reno",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Northgate Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6121,7 +6749,13 @@
       "tags": {
         "name": "Northwest Park",
         "ele": "1458",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Northwest Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6379,7 +7013,13 @@
         }
       ],
       "tags": {
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Evans Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6567,7 +7207,13 @@
       ],
       "tags": {
         "name": "Oppio Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Oppio Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6619,7 +7265,13 @@
       ],
       "tags": {
         "name": "Pagni Ranch Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Pagni Ranch Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6645,7 +7297,13 @@
       ],
       "tags": {
         "name": "Pah Rah Mountain Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Pah Rah Mountain Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6699,7 +7357,13 @@
       ],
       "tags": {
         "name": "Panther Valley Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Panther Valley Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6725,7 +7389,13 @@
       ],
       "tags": {
         "name": "Pat Baker Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Pat Baker Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6808,7 +7478,13 @@
       ],
       "tags": {
         "name": "Peavine Fields",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Peavine Fields",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6905,7 +7581,13 @@
         "nrhp": "00000337",
         "curiosity": "Ghost town",
         "wikidata": "Q14944996",
-        "wikipedia": "https://en.wikipedia.org/wiki/Peavine_Ranch"
+        "wikipedia": "https://en.wikipedia.org/wiki/Peavine_Ranch",
+        "padus": {
+          "name": "Sierra Front Field Office",
+          "manager": "Bureau of Land Management",
+          "designation": "PUB",
+          "access": "open"
+        }
       }
     },
     {
@@ -6959,7 +7641,13 @@
       ],
       "tags": {
         "name": "Pelican Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Pelican Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6988,7 +7676,13 @@
       "tags": {
         "name": "Pelican Sculpture",
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Damonte Ranch Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7014,7 +7708,13 @@
       ],
       "tags": {
         "name": "Phillip & Annie Callahan Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Phillip & Annie Callahan Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7151,7 +7851,13 @@
       "tags": {
         "name": "Plateau/Aspen Glen",
         "operator": "Washoe County",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "padus": {
+          "name": "Hunter Creek Open Space",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -7202,7 +7908,13 @@
       ],
       "tags": {
         "name": "Plumas Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Plumas Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7231,7 +7943,13 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q7207556",
-        "wikipedia": "https://en.wikipedia.org/wiki/Poeville,_Nevada"
+        "wikipedia": "https://en.wikipedia.org/wiki/Poeville,_Nevada",
+        "padus": {
+          "name": "Toiyabe National Forest",
+          "manager": "U.S. Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -7315,7 +8033,13 @@
       ],
       "tags": {
         "name": "Portal of Evolution",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Bicentennial Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7369,7 +8093,13 @@
       ],
       "tags": {
         "name": "Poulakidas Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Poulakidas Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7477,7 +8207,13 @@
       "tags": {
         "name": "Rainbow Ridge Park",
         "operator": "City of Reno",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rainbow Ridge Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7533,7 +8269,13 @@
       ],
       "tags": {
         "name": "Rainshadow Community Charter High",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7559,7 +8301,13 @@
       ],
       "tags": {
         "name": "Raleigh Heights Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Raleigh Heights Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7585,7 +8333,13 @@
       ],
       "tags": {
         "name": "Rancho San Rafael Regional Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rancho San Rafael Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7696,7 +8450,13 @@
       ],
       "tags": {
         "name": "Recreation Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "City Recreation Center",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -7945,7 +8705,13 @@
       ],
       "tags": {
         "name": "Rivermount Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rivermount Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8025,7 +8791,13 @@
       ],
       "tags": {
         "name": "Robinhood Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Robinhood Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8081,7 +8853,13 @@
         "name": "Rock Park",
         "website": "https://www.cityofsparks.us/business_detail_T71_R49.php",
         "operator": "City of Sparks",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rock Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8159,7 +8937,13 @@
       ],
       "tags": {
         "name": "Rotary Centennial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rotary Centennial Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8211,7 +8995,13 @@
       ],
       "tags": {
         "name": "Sage Canyon Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sage Canyon Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8237,7 +9027,13 @@
       ],
       "tags": {
         "name": "Sage Street Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sage Street Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8291,7 +9087,13 @@
       ],
       "tags": {
         "name": "Schiappacasse Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Schiappacasse Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8399,7 +9201,13 @@
       ],
       "tags": {
         "name": "Shadow Mountain Sports Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Shadow Mountain Sports Complex",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -8426,7 +9234,13 @@
       "tags": {
         "name": "Shelly Park",
         "ele": "1345",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Shelly Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8483,7 +9297,13 @@
       ],
       "tags": {
         "name": "Sierra Nevada Chocolate",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8512,7 +9332,13 @@
         "description": "Previously a city golf course (closed in 2009. 18 hole Par 72).",
         "website": "http://www.northgategc.com/",
         "leisure": "park",
-        "note": "http://www.golf.com/ap-news/rscva-closes-northgate-golf-coursehttp://www.worldgolf.com/courses/usa/nevada/reno/northgate-golf-club-public.html"
+        "note": "http://www.golf.com/ap-news/rscva-closes-northgate-golf-coursehttp://www.worldgolf.com/courses/usa/nevada/reno/northgate-golf-club-public.html",
+        "padus": {
+          "name": "Northgate Golf Course",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -8539,7 +9365,13 @@
       "tags": {
         "name": "Silver Knolls Park",
         "ele": "1567",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Silver Knolls Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8565,7 +9397,13 @@
       ],
       "tags": {
         "name": "Silver Lake Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Silver Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8592,7 +9430,13 @@
       "tags": {
         "name": "Silver Sage RV Park",
         "website": "https://www.silversagervparkreno.com/",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Moana Pool, Park And Stadium",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -8645,7 +9489,13 @@
       "tags": {
         "name": "Sky Country Park",
         "natural": "heath",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sky Country Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8674,7 +9524,13 @@
       "tags": {
         "name": "Snowflower Mountain",
         "ele": "3115",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mt. Rose Wilderness",
+          "manager": "U.S. Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -8708,7 +9564,13 @@
       ],
       "tags": {
         "name": "Somersett East Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Somersett East Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8792,7 +9654,13 @@
       "tags": {
         "name": "South Mountain",
         "ele": "2442",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Toiyabe National Forest",
+          "manager": "U.S. Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -8818,7 +9686,13 @@
       ],
       "tags": {
         "name": "South Valleys Regional Sports Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "South Valleys Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9040,7 +9914,13 @@
       ],
       "tags": {
         "name": "Sterling Village Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sterling Village Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9125,7 +10005,13 @@
       "tags": {
         "name": "Sugarloaf Peak",
         "ele": "1582",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Sugarloaf Peak",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -9151,7 +10037,13 @@
       ],
       "tags": {
         "name": "Summit Ridge Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Summit Ridge Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9177,7 +10069,12 @@
       ],
       "tags": {
         "name": "Sun Mesa Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sun Mesa Park",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9203,7 +10100,12 @@
       ],
       "tags": {
         "name": "Sun Valley Community Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sun Valley Community Park",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9229,7 +10131,13 @@
       ],
       "tags": {
         "name": "Sun Valley Regional Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sun Valley Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9257,7 +10165,13 @@
         "name": "Swan Lake Nature Study Area",
         "website": "https://www.washoecounty.gov/parks/parks/park_directory_pages/north_region/swan_lake_nature_study_area.php",
         "leisure": "park",
-        "note": "Lahontan Audubon Society P.O. Box 2304 Reno, NV 89505"
+        "note": "Lahontan Audubon Society P.O. Box 2304 Reno, NV 89505",
+        "padus": {
+          "name": "Swan Lake Nature Study Area",
+          "manager": "County",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -9283,7 +10197,13 @@
       ],
       "tags": {
         "name": "Teglia's Paradise Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Teglias Paradise Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9309,7 +10229,13 @@
       ],
       "tags": {
         "name": "Terrace Sports Complex",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Terrace Open Space",
+          "manager": "City",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -9391,7 +10317,13 @@
       ],
       "tags": {
         "name": "Thomas Creek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Thomas Creek Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9681,7 +10613,13 @@
       ],
       "tags": {
         "name": "Tumbleweed Trails Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Tumbleweed Trails Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9763,7 +10701,13 @@
       ],
       "tags": {
         "name": "University Ridge Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "University Ridge Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9903,7 +10847,13 @@
         "name": "Valley Wood Park",
         "website": "https://www.cityofreno.com/res/com_service/parks/",
         "operator": "City of Reno",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Valley Wood Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9931,7 +10881,13 @@
       ],
       "tags": {
         "name": "Valor Tatoo Parlor",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9957,7 +10913,13 @@
       ],
       "tags": {
         "name": "Van Meter Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Van Meter Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10072,7 +11034,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Hidden Valley Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10101,7 +11069,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Hidden Valley Regional Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10161,7 +11135,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Sierra Front Field Office",
+          "manager": "Bureau of Land Management",
+          "designation": "PUB",
+          "access": "open"
+        }
       }
     },
     {
@@ -10213,7 +11193,13 @@
       ],
       "tags": {
         "name": "Virginia Foothills Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Virginia Foothills Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10239,7 +11225,13 @@
       ],
       "tags": {
         "name": "Virginia Lake Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Virginia Lake Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10293,7 +11285,13 @@
       ],
       "tags": {
         "name": "Vista View Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Vista View Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10323,7 +11321,13 @@
         "name": "Wa-Pai-Shone",
         "artwork_type": "sculpture",
         "tourism": "artwork",
-        "inscription": "Wa-Pai-Shone a tribute to the washoe, paiute and shoshone of nevada the 53rd whispering giant by sculptor peter wolf toff june 8, 1986"
+        "inscription": "Wa-Pai-Shone a tribute to the washoe, paiute and shoshone of nevada the 53rd whispering giant by sculptor peter wolf toff june 8, 1986",
+        "padus": {
+          "name": "Idlewild Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10433,7 +11437,13 @@
       ],
       "tags": {
         "name": "Wedekind Regional Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sierra Front Field Office",
+          "manager": "Bureau of Land Management",
+          "designation": "PUB",
+          "access": "open"
+        }
       }
     },
     {
@@ -10460,7 +11470,13 @@
       "tags": {
         "name": "West Keystone Trailhead",
         "access": "yes",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "padus": {
+          "name": "Toiyabe National Forest",
+          "manager": "U.S. Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -10486,7 +11502,13 @@
       ],
       "tags": {
         "name": "West Street Plaza",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "West Street Plaza",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10512,7 +11534,13 @@
       ],
       "tags": {
         "name": "Wheatland Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Wheatland Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10538,7 +11566,13 @@
       ],
       "tags": {
         "name": "Whitaker Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Whitaker Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10564,7 +11598,13 @@
       ],
       "tags": {
         "name": "Whites Creek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Whites Creek Park",
+          "manager": "County",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10590,7 +11630,13 @@
       ],
       "tags": {
         "name": "Whites Creek Stream Zone",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Whites Creek Stream Zone",
+          "manager": "County",
+          "designation": "LCA",
+          "access": "open"
+        }
       }
     },
     {
@@ -10697,7 +11743,13 @@
       "tags": {
         "name": "Wilkinson Park",
         "ele": "1358",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Wilkinson Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10723,7 +11775,13 @@
       ],
       "tags": {
         "name": "Willowcreek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Willowcreek Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10805,7 +11863,13 @@
       ],
       "tags": {
         "name": "Woodtrail Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Woodtrail Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10832,7 +11896,13 @@
       "tags": {
         "name": "Yori Park",
         "ele": "1352",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Yori Park",
+          "manager": "City",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     }
   ]
