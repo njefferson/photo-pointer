@@ -195,19 +195,42 @@ function renderHeader() {
   // pin-type chips (tap on, tap off). A spot passes only if it carries EVERY one
   // turned on. Kept in their own labeled row so it's clear they narrow the
   // pin types, not replace them.
+  const counts = dataSpots.length ? layerCounts() : null;
   const layerChips = LAYER_FILTERS.map(([key, label]) => {
     const on = layers.has(key);
+    // Coverage is per REGION: the ghost-town region has no Commons photo data at
+    // all, so "Photographed" there can only ever return nothing. Say that on the
+    // chip, in words, rather than letting it silently empty the map.
+    const none = counts ? counts.get(key) === 0 : false;
     return el('button', {
       class: `chip layer-chip${on ? ' on' : ''}`,
       'aria-pressed': String(on),
-      'aria-label': `Only show places that also have ${label}`,
+      'aria-label': none
+        ? `${label} — this region has no ${label} data yet`
+        : `Only show places that also have ${label}`,
       onClick: () => {
         const s = new Set(currentLayers());
         if (s.has(key)) s.delete(key); else s.add(key);
         applyLayers(s);
       },
-    }, [label, on ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null]);
+    }, [
+      none ? `${label} · none here` : label,
+      on ? el('span', { class: 'chip-check', 'aria-hidden': 'true' }, '✓') : null,
+    ]);
   });
+  // An active layer with no coverage here is THE reason the view is empty. Name
+  // it, and give a one-tap way out — otherwise switching region silently wipes
+  // everything and the app looks broken.
+  const deadLayers = counts ? [...layers].filter((k) => counts.get(k) === 0) : [];
+  const deadNote = deadLayers.length
+    ? el('span', { class: 'layer-hint', role: 'status' }, [
+        `This region has no ${deadLayers.map((k) => (LAYER_FILTERS.find(([x]) => x === k) ?? [, k])[1]).join(' or ')} data yet — nothing can match while that's on. `,
+        el('button', {
+          class: 'link-btn',
+          onClick: () => applyLayers(new Set([...layers].filter((k) => !deadLayers.includes(k)))),
+        }, 'Turn it off'),
+      ])
+    : null;
   const regionPills = (regionsDoc?.regions ?? []).map((r) =>
     el('button', {
       class: `region-pill${r.id === region?.id ? ' active' : ''}`,
@@ -278,7 +301,7 @@ function renderHeader() {
           el('div', { class: 'layer-row', role: 'group', 'aria-label': 'Only show places that also have these data layers' }, layerChips),
           layerButNoType
             ? el('span', { class: 'layer-hint', role: 'status' }, 'Turn on a place type above too — a layer only narrows what’s already showing.')
-            : null,
+            : deadNote,
         ]),
         el('div', { class: 'filter-group' }, [
           el('span', { class: 'filter-group-label' }, 'Within distance of me'),
@@ -433,6 +456,18 @@ function rankMaps() {
   }
   return rankMapsCache;
 }
+// How many spots in THIS region actually carry each data layer. A layer with
+// zero coverage here is not a filter that finds nothing — it is a filter that
+// CANNOT find anything, and the two must not look the same to the user.
+function layerCounts() {
+  const lm = rankMaps().layers;
+  const counts = new Map(LAYER_FILTERS.map(([k]) => [k, 0]));
+  for (const set of lm.values()) {
+    for (const k of set) if (counts.has(k)) counts.set(k, counts.get(k) + 1);
+  }
+  return counts;
+}
+
 function scoreById() { return rankMaps().score; }
 function layersById() { return rankMaps().layers; }
 
@@ -589,6 +624,11 @@ async function switchRegion(id, { center = null } = {}) {
   // A manual pill tap fits the region; a GPS fix from another region centers there.
   mapView?.setRegion(region, { locate: false, center });
   refresh();
+  // The chips were built BEFORE this region's spots arrived, so their per-layer
+  // coverage was the previous region's. Rebuild them now that the data is here,
+  // or "Dark sky · none here" never appears on a region that has no dark-sky
+  // data — which is exactly the silent-empty-map case this is meant to catch.
+  renderHeader();
   if (center) toast(`You're in the ${region.name} area — switched to that map`);
 }
 
@@ -619,6 +659,7 @@ async function boot() {
 
   await loadRegionData(region.id);
   refresh();
+  renderHeader(); // same reason as in switchRegion: coverage needs the data
   // Opening frame: geolocate on the home region, fit-bounds on the others.
   mapView.setRegion(region, { locate: region.id === regionsDoc.default });
   // Map + data are ready — drop the loading splash (geolocation refines after).
