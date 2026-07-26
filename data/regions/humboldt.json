@@ -540,7 +540,6 @@
         "padus": {
           "name": "Aldergrove Marsh",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -4643,7 +4642,6 @@
         "padus": {
           "name": "Palco Marsh",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -7778,8 +7776,6 @@
         },
         "padus": {
           "name": "Unnamed site - Other State",
-          "manager": "Other or Unknown State Land",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -10328,7 +10324,6 @@
         "padus": {
           "name": "United Indian Health Services Conservation Easement",
           "manager": "City Land",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -11375,7 +11370,6 @@
         "padus": {
           "name": "City of Eureka lot",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -12793,7 +12787,6 @@
         "padus": {
           "name": "Stansberry Ranch",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -14430,7 +14423,6 @@
         "padus": {
           "name": "Palco Marsh",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -14941,7 +14933,6 @@
         "padus": {
           "name": "Palco Marsh",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -15030,7 +15021,6 @@
         "padus": {
           "name": "City of Eureka lot",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -16813,7 +16803,6 @@
         "padus": {
           "name": "Samuels Conservation Easement",
           "manager": "City Land",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -17074,7 +17063,6 @@
         "padus": {
           "name": "Fortuna Holding 1",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -20506,7 +20494,6 @@
         "padus": {
           "name": "Unnamed site - California Department of Parks and Recreation",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -28026,7 +28013,6 @@
         "padus": {
           "name": "Jacoby Creek Land Trust CE",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -30843,7 +30829,6 @@
         "padus": {
           "name": "Mad River Fish Hatchery",
           "manager": "State Fish and Wildlife",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -38179,7 +38164,6 @@
         "padus": {
           "name": "Blue Lake Holding 1",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -41750,7 +41734,6 @@
         "padus": {
           "name": "Jacoby Creek Land Trust CE",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -42031,7 +42014,6 @@
         "padus": {
           "name": "Unnamed site - California Department of Parks and Recreation",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -43189,8 +43171,6 @@
         },
         "padus": {
           "name": "Unnamed site - California State University",
-          "manager": "Other or Unknown State Land",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -43530,7 +43510,6 @@
         "padus": {
           "name": "City of Eureka lot",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -50235,7 +50214,6 @@
         "padus": {
           "name": "City of Eureka lot",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -51449,7 +51427,6 @@
         "padus": {
           "name": "Trinidad Holding 1",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -51502,7 +51479,6 @@
         "padus": {
           "name": "Trinidad Holding 1",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -51555,7 +51531,6 @@
         "padus": {
           "name": "Trinidad Holding 1",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }

@@ -768,7 +768,7 @@
     {
       "name": "Aldergrove Marsh",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.90125,
@@ -780,7 +780,7 @@
     {
       "name": "City of Arcata Openspace",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.87204,
@@ -792,7 +792,7 @@
     {
       "name": "City of Arcata Openspace",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.86728,
@@ -804,7 +804,7 @@
     {
       "name": "Janes Creek Meadows Openspace",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.88537,
@@ -816,7 +816,7 @@
     {
       "name": "Janes Creek Openspace",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.88379,
@@ -828,7 +828,7 @@
     {
       "name": "Stewart Court Openspace",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.88211,
@@ -1212,7 +1212,7 @@
     {
       "name": "Blue Lake Holding 1",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.88144,
@@ -1260,7 +1260,7 @@
     {
       "name": "City of Eureka lot",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.75181,
@@ -1272,7 +1272,7 @@
     {
       "name": "Eureka Public Marina",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.80209,
@@ -1284,7 +1284,7 @@
     {
       "name": "Jacob-Haney Ballfield",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.78401,
@@ -1296,7 +1296,7 @@
     {
       "name": "Palco Marsh",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.77792,
@@ -1560,7 +1560,7 @@
     {
       "name": "Fortuna Holding 1",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.57245,
@@ -1572,7 +1572,7 @@
     {
       "name": "Fortuna Holding 2",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.57023,
@@ -1608,7 +1608,7 @@
     {
       "name": "Rio Dell City Hall Grounds",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.49827,
@@ -1620,7 +1620,7 @@
     {
       "name": "Unnamed site - Rio Dell, City of",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 40.4928,
@@ -1632,7 +1632,7 @@
     {
       "name": "Unnamed site - Rio Dell, City of",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.50672,
@@ -1680,7 +1680,7 @@
     {
       "name": "Tsurai Village",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 41.05731,
@@ -1692,7 +1692,7 @@
     {
       "name": "Trinidad Holding 1",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 41.05221,
@@ -1716,7 +1716,7 @@
     {
       "name": "Unnamed site - Humboldt, County of",
       "manager": "County Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "restricted",
       "bbox": {
         "south": 40.47602,
@@ -2052,7 +2052,7 @@
     {
       "name": "Unnamed site - Save the Redwoods League",
       "manager": "Non-Governmental Organization",
-      "designation": "Private Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 36.26233,
@@ -2172,7 +2172,7 @@
     {
       "name": "Unnamed site - Jacoby Creek Land Trust",
       "manager": "Private",
-      "designation": "Private Other or Unknown",
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 40.80815,
@@ -2183,8 +2183,8 @@
     },
     {
       "name": "Unnamed site - California Department of Transportation",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.07503,
@@ -2195,8 +2195,8 @@
     },
     {
       "name": "Unnamed site - California State University",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.86571,
@@ -2207,8 +2207,8 @@
     },
     {
       "name": "Clam Beach Ponds",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 40.99977,
@@ -2219,8 +2219,8 @@
     },
     {
       "name": "Other State 11",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.14413,
@@ -2231,8 +2231,8 @@
     },
     {
       "name": "Other State 14",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.14089,
@@ -2243,8 +2243,8 @@
     },
     {
       "name": "Other State 18",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.48823,
@@ -2255,8 +2255,8 @@
     },
     {
       "name": "Other State 37",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.46142,
@@ -2267,8 +2267,8 @@
     },
     {
       "name": "Other State 4",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.46368,
@@ -2279,8 +2279,8 @@
     },
     {
       "name": "Other State 43",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.47861,
@@ -2291,8 +2291,8 @@
     },
     {
       "name": "Other State 5",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.4623,
@@ -2303,8 +2303,8 @@
     },
     {
       "name": "Unnamed site - Other State",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 34.69001,
@@ -2316,7 +2316,7 @@
     {
       "name": "Del Norte Street Pier",
       "manager": "State Department of Conservation",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.79066,
@@ -2340,7 +2340,7 @@
     {
       "name": "Unnamed site - California State Lands Commission",
       "manager": "State Department of Land",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.69168,
@@ -2496,7 +2496,7 @@
     {
       "name": "Mad River Fish Hatchery",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 40.85205,
@@ -2508,7 +2508,7 @@
     {
       "name": "Unnamed site - California Department of Fish and Wildlife",
       "manager": "State Fish and Wildlife",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.49284,
@@ -2616,7 +2616,7 @@
     {
       "name": "Unnamed site - California Department of Parks and Recreation",
       "manager": "State Park and Recreation",
-      "designation": "State Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 34.06712,
@@ -3900,7 +3900,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.83497,
@@ -3912,7 +3912,7 @@
     {
       "name": "United Indian Health Services Conservation Easement",
       "manager": "City Land",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.89333,
@@ -3924,7 +3924,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.8335,
@@ -3936,7 +3936,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.80814,
@@ -3948,7 +3948,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.81711,
@@ -3960,7 +3960,7 @@
     {
       "name": "Freshwater Creek Conservation Easement",
       "manager": "State Fish and Wildlife",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.78419,
@@ -3972,7 +3972,7 @@
     {
       "name": "Samuels Conservation Easement",
       "manager": "City Land",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.88284,
@@ -3984,7 +3984,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.81002,
@@ -3996,7 +3996,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.81134,
@@ -4008,7 +4008,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.8347,
@@ -4020,7 +4020,7 @@
     {
       "name": "Jacoby Creek Land Trust CE",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.83315,
@@ -4032,7 +4032,7 @@
     {
       "name": "ERS - Mello",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.22983,
@@ -4044,7 +4044,7 @@
     {
       "name": "ERS - Barkdull-Wright",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.24234,
@@ -4056,7 +4056,7 @@
     {
       "name": "Wotkyns",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 41.05456,
@@ -4068,7 +4068,7 @@
     {
       "name": "Baker Beach",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 41.05372,
@@ -4080,7 +4080,7 @@
     {
       "name": "Nash",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 41.05691,
@@ -4092,7 +4092,7 @@
     {
       "name": "Moonstone Beach",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 41.02852,
@@ -4104,7 +4104,7 @@
     {
       "name": "Martin Creek Trail",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 41.07516,
@@ -4116,7 +4116,7 @@
     {
       "name": "Baker Beach",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 41.05193,
@@ -4128,7 +4128,7 @@
     {
       "name": "ERS - Holmgren",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.20838,
@@ -4152,7 +4152,7 @@
     {
       "name": "Agricultural Conservation Easement Program - Wetland Reserve Easement",
       "manager": "Natural Resources Conservation Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.64668,
@@ -4164,7 +4164,7 @@
     {
       "name": "Agricultural Conservation Easement Program - Wetland Reserve Easement",
       "manager": "Natural Resources Conservation Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.62881,
@@ -4224,7 +4224,7 @@
     {
       "name": "Stansberry Ranch",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.17615,
@@ -4236,7 +4236,7 @@
     {
       "name": "ERS - Barnum aka Goshawk",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 39.99151,
@@ -4248,7 +4248,7 @@
     {
       "name": "Panther Gap 1",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.25752,
@@ -4260,7 +4260,7 @@
     {
       "name": "Bell-Phillips",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.11763,
@@ -4272,7 +4272,7 @@
     {
       "name": "Four Mile",
       "manager": "Non-Governmental Organization",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.18723,
@@ -4596,7 +4596,7 @@
     {
       "name": "Wetlands Reserve Program (WRP)",
       "manager": "Natural Resources Conservation Service",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 40.64313,
