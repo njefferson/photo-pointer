@@ -306,7 +306,6 @@
         },
         "padus": {
           "name": "Recreation Complex",
-          "manager": "Other or Unknown Federal Land",
           "designation": "Local Recreation Area",
           "access": "restricted"
         }
@@ -1913,7 +1912,6 @@
         "padus": {
           "name": "Dead Lakes Park",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -1980,8 +1978,6 @@
         "ebird_species": 121,
         "padus": {
           "name": "Nokuse Plantation Conservation Easements",
-          "manager": "Other or Unknown State Land",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -2022,7 +2018,6 @@
         "padus": {
           "name": "Deep Springs Park",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -4635,7 +4630,6 @@
         "ebird_species": 26,
         "padus": {
           "name": "Point Washington State Forest",
-          "manager": "Other or Unknown State Land",
           "designation": "State Resource Management Area",
           "access": "open"
         }
@@ -6649,7 +6643,6 @@
         "ebird_species": 97,
         "padus": {
           "name": "Pine Log State Forest",
-          "manager": "Other or Unknown State Land",
           "designation": "State Resource Management Area",
           "access": "open"
         }
@@ -6704,7 +6697,6 @@
         },
         "padus": {
           "name": "Pine Log State Forest",
-          "manager": "Other or Unknown State Land",
           "designation": "State Resource Management Area",
           "access": "open"
         }
@@ -7459,7 +7451,6 @@
         "padus": {
           "name": "Salinas Park",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -9521,7 +9512,6 @@
         "nrhp": "06000243",
         "padus": {
           "name": "Vamar Underwater Archaeological Preserve",
-          "manager": "Other or Unknown State Land",
           "designation": "Marine Protected Area",
           "access": "open"
         }

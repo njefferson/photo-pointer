@@ -119,7 +119,7 @@
     },
     {
       "name": "SS Tarpon Underwater Archaeological Preserve",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
@@ -131,7 +131,7 @@
     },
     {
       "name": "Vamar Underwater Archaeological Preserve",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
@@ -468,7 +468,7 @@
     {
       "name": "Deep Springs Park",
       "manager": "County Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 30.51455,
@@ -480,7 +480,7 @@
     {
       "name": "Dead Lakes Park",
       "manager": "County Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 30.1348,
@@ -492,7 +492,7 @@
     {
       "name": "Salinas Park",
       "manager": "County Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 29.68248,
@@ -504,7 +504,7 @@
     {
       "name": "Eastshore Property",
       "manager": "County Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 30.77797,
@@ -719,7 +719,7 @@
     },
     {
       "name": "Pine Log State Forest",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "State Resource Management Area",
       "access": "open",
       "bbox": {
@@ -731,7 +731,7 @@
     },
     {
       "name": "Point Washington State Forest",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "State Resource Management Area",
       "access": "open",
       "bbox": {
@@ -743,8 +743,8 @@
     },
     {
       "name": "Bruner Bay Tract",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.6402,
@@ -755,8 +755,8 @@
     },
     {
       "name": "Choctawhatchee River Tract",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.63095,
@@ -767,8 +767,8 @@
     },
     {
       "name": "Holmes Creek Tract",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.70732,
@@ -779,8 +779,8 @@
     },
     {
       "name": "Loblolly Tract",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.68591,
@@ -791,8 +791,8 @@
     },
     {
       "name": "Tupelo Tract",
-      "manager": "Other or Unknown State Land",
-      "designation": "State Other or Unknown",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.697,
@@ -803,7 +803,7 @@
     },
     {
       "name": "Porter Pond Tract",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "State Recreation Area",
       "access": "closed",
       "bbox": {
@@ -1175,8 +1175,8 @@
     },
     {
       "name": "Drp/Middle Chipola River 2503",
-      "manager": "Unknown",
-      "designation": "Unknown",
+      "manager": null,
+      "designation": null,
       "access": null,
       "bbox": {
         "south": 30.50589,
@@ -1199,7 +1199,7 @@
     },
     {
       "name": "Tyndall Afb Heritage Park",
-      "manager": "Other or Unknown Federal Land",
+      "manager": null,
       "designation": "Local Park",
       "access": "restricted",
       "bbox": {
@@ -1211,7 +1211,7 @@
     },
     {
       "name": "Unknown Park",
-      "manager": "Other or Unknown Federal Land",
+      "manager": null,
       "designation": "Local Park",
       "access": "restricted",
       "bbox": {
@@ -1223,7 +1223,7 @@
     },
     {
       "name": "Unknown Playground",
-      "manager": "Other or Unknown Federal Land",
+      "manager": null,
       "designation": "Local Park",
       "access": "restricted",
       "bbox": {
@@ -1235,7 +1235,7 @@
     },
     {
       "name": "Recreation Complex",
-      "manager": "Other or Unknown Federal Land",
+      "manager": null,
       "designation": "Local Recreation Area",
       "access": "restricted",
       "bbox": {
@@ -1260,7 +1260,7 @@
     {
       "name": "Sutton Creek Trail Head",
       "manager": "City Land",
-      "designation": "Local Other or Unknown",
+      "designation": null,
       "access": "open",
       "bbox": {
         "south": 30.44813,
@@ -2855,7 +2855,7 @@
     },
     {
       "name": "Hinson Conservation And Recreation Area Boat Launch",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "State Recreation Area",
       "access": "open",
       "bbox": {
@@ -3203,8 +3203,8 @@
     },
     {
       "name": "M. C. Davis - Seven Runs Creek Conservation Easement",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.49984,
@@ -5171,8 +5171,8 @@
     },
     {
       "name": "Nokuse Plantation Conservation Easements",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.42013,
@@ -5183,8 +5183,8 @@
     },
     {
       "name": "Corbin-Tucker Conservation Easement",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.29873,
@@ -5196,7 +5196,7 @@
     {
       "name": "Trammell Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.51979,
@@ -5208,7 +5208,7 @@
     {
       "name": "Gaskin et al. Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.13523,
@@ -5220,7 +5220,7 @@
     {
       "name": "Patronis Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.4086,
@@ -5232,7 +5232,7 @@
     {
       "name": "Syfrett Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.43866,
@@ -5244,7 +5244,7 @@
     {
       "name": "Haddock Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.68571,
@@ -5256,7 +5256,7 @@
     {
       "name": "Glover Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.60756,
@@ -5268,7 +5268,7 @@
     {
       "name": "Walton Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.53022,
@@ -5279,8 +5279,8 @@
     },
     {
       "name": "Intrawest Sandestin Company Conservation Easement",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.47834,
@@ -5291,8 +5291,8 @@
     },
     {
       "name": "Panama City Airport Conservation Easement",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.23409,
@@ -5303,8 +5303,8 @@
     },
     {
       "name": "Seven Runs Creek Conservation Easement",
-      "manager": "Other or Unknown State Land",
-      "designation": "Unknown Easement",
+      "manager": null,
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.52898,
@@ -5316,7 +5316,7 @@
     {
       "name": "Urquhart/Perry Conservation Easement",
       "manager": "Regional Water Districts",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.46664,
@@ -5328,7 +5328,7 @@
     {
       "name": "Sandhill Lakes Conservation Easement",
       "manager": "Private",
-      "designation": "Unknown Easement",
+      "designation": null,
       "access": "closed",
       "bbox": {
         "south": 30.42631,
@@ -5339,7 +5339,7 @@
     },
     {
       "name": "TPL Seven Runs Creek Conservation Easement",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -5351,7 +5351,7 @@
     },
     {
       "name": "Flatwoods Salamander Critical Habitat Conservation Easement",
-      "manager": "Other or Unknown State Land",
+      "manager": null,
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
