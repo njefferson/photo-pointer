@@ -83,6 +83,30 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 1.14.2 "A readable build stamp" (an ITERATION, a diagnostics FIX)
+  BUILT on staging. Noah: "Put a discrete version identifier for screenshot
+  troubleshooting." One ALREADY EXISTED and was useless — 0.13.x put a `.ver-tag`
+  at `position:fixed; left:6px; bottom:4px` at 10px in `--dim` on `--card`. On
+  his iPad the map LEGEND control sits in that exact corner and the screen edge
+  clipped it, so it photographed as a smudge (visible bottom-left in his
+  2026-07-26 popup screenshot). It also used an UNGATED pair: check-contrast
+  covers dim-on-BG, not dim-on-CARD.
+  FIX: moved into the header's `.bar-actions` row (background `--bg`, so
+  `--dim` is the already-gated pair), 12px monospace, `margin-left:auto`.
+  MEASURED 5.51:1 light / 7.12:1 dark, unoccluded, on-screen, and present in the
+  LIST view too (the map corner was map-only).
+  CONTENT is the two things a screenshot CANNOT otherwise tell me:
+  `v<app> · data <region builtAt>` — the app build (a stale service worker
+  reports the OLD version here, which is exactly the signal wanted) and the
+  region data's build date (a data-only ingest changes the map without moving
+  the app version). Region is NOT repeated — the highlighted pill already says it.
+  GOTCHA that would have shipped a dash: both loadRegionData callers run
+  renderHeader BEFORE the fetch resolves, so the stamp read "data —" until some
+  later interaction re-rendered the header. refresh() now calls a tiny
+  updateVerTag() that patches textContent IN PLACE — a full renderHeader there
+  would steal focus from the search box (the 1.6.0 reason refreshViews exists).
+  sw CACHE pointer-1.14.2; changelog[0] 1.14.2. 192 tests + contrast + all six
+  smokes green.
 - 2026-07-26 "Card opens and immediately collapses" — REPORTED, CAUSE NOT FOUND,
   a guard shipped but NOT a confirmed fix. Noah, iPad screenshot: a Ghost town
   card on the Sacramento region caught MID-FADE (Leaflet's popup fade-out), with

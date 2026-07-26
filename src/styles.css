@@ -324,12 +324,16 @@ body {
 
 /* Discrete version stamp — always on screen for screenshot debugging. A solid
    card chip so --dim on --card keeps ≥4.5:1 whatever's underneath (a11y). */
+/* Build stamp. It lives in the header rather than floating over the map corner:
+   down there the Legend control sat on top of it and the screen edge clipped it,
+   so it photographed as an illegible smudge — useless for the one job it has.
+   10px also became mush once a screenshot is scaled or recompressed, hence 12px
+   monospace. Colour is --dim on the bar's --bg, a pair the contrast gate already
+   covers; the old rule put --dim on --card, which nothing gated. */
 .ver-tag {
-  position: fixed; left: 6px; bottom: 4px; z-index: 500;
-  font-family: ui-monospace, monospace; font-size: 10px;
-  color: var(--dim); background: var(--card);
-  border: 1px solid var(--line); border-radius: 4px;
-  padding: 0 4px; pointer-events: none;
+  margin-left: auto; align-self: center; white-space: nowrap;
+  font-family: ui-monospace, monospace; font-size: 12px; letter-spacing: 0.02em;
+  color: var(--dim);
 }
 
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }

@@ -308,6 +308,14 @@ function renderHeader() {
         onClick: () => openAbout({ onShowAll: () => applyVisible(allCategories()) }),
       }, 'ⓘ'),
       themeToggle((theme) => mapView?.syncThemeBasemap(theme)),
+      // BUILD STAMP, for screenshot troubleshooting. It carries the two things a
+      // screenshot can't otherwise tell me: which app build is actually running
+      // (a stale service worker will report the OLD version here, which is the
+      // point), and how fresh the region's data is — a data-only ingest changes
+      // what's on the map without moving the app version. The region itself is
+      // already legible from the highlighted pill, so it isn't repeated.
+      el('span', { class: 'ver-tag', title: 'App build · region data build' },
+        `v${VERSION} · data ${dataBuiltAt ?? '—'}`),
     ]),
     filtersPanel,
     visible.size === 0 && !searchQuery.trim()
@@ -528,7 +536,16 @@ function openDataDialog() {
   dlg.showModal();
 }
 
+// The stamp's data date only becomes known after the region JSON lands, and the
+// header is rendered BEFORE that — so patch the text in place rather than
+// re-rendering the header, which would steal focus from the search box.
+function updateVerTag() {
+  const tag = app.querySelector('.ver-tag');
+  if (tag) tag.textContent = `v${VERSION} · data ${dataBuiltAt ?? '—'}`;
+}
+
 function refresh() {
+  updateVerTag();
   mapView?.setSpots(spotsForMap());
   const byId = new Map(ranking().map((r) => [r.spot.id, r]));
   mapView?.setSynthesis(byId);
@@ -589,8 +606,6 @@ async function boot() {
   listEl.style.display = 'none';
   viewMain.append(mapEl, listEl);
   app.append(viewMain);
-  // Discrete version stamp, always on screen for screenshot debugging.
-  document.body.append(el('div', { class: 'ver-tag', 'aria-hidden': 'true' }, `v${VERSION}`));
   mapView = createMapView(mapEl, {
     region,
     regions: regionsDoc.regions ?? [],
