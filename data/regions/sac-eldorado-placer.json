@@ -441,7 +441,6 @@
         "padus": {
           "name": "Acorn Recreation Area",
           "manager": "Army Corps of Engineers",
-          "designation": "Private Other or Unknown",
           "access": "open"
         }
       }
@@ -6631,7 +6630,6 @@
         "padus": {
           "name": "Auburn Ravine",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -6691,7 +6689,6 @@
         "padus": {
           "name": "Auburn Ravine",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -8774,7 +8771,6 @@
         "padus": {
           "name": "Bass Lake",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -8820,7 +8816,6 @@
         "padus": {
           "name": "Bass Lake",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -9807,7 +9802,6 @@
         "padus": {
           "name": "Bell Cooledge Park (south)",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -10582,7 +10576,6 @@
         "padus": {
           "name": "Placer Land Trust Easement",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "open"
         }
       }
@@ -14563,7 +14556,6 @@
         "padus": {
           "name": "Sacramento Regional County Sanitation District",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "restricted"
         }
       }
@@ -14614,7 +14606,6 @@
         "padus": {
           "name": "Sacramento Regional County Sanitation District",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "restricted"
         }
       }
@@ -17720,7 +17711,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -19168,7 +19158,6 @@
         "padus": {
           "name": "Jenkinson Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -25130,7 +25119,6 @@
         "padus": {
           "name": "Observation Point & Playground",
           "manager": "Army Corps of Engineers",
-          "designation": "Private Other or Unknown",
           "access": "open"
         }
       }
@@ -25612,7 +25600,6 @@
         "padus": {
           "name": "Delta Meadows Park Property",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -25660,7 +25647,6 @@
         },
         "padus": {
           "name": "Cosumnes River Preserve",
-          "manager": "Other or Unknown State Land",
           "designation": "State Conservation Area",
           "access": "restricted"
         }
@@ -25720,7 +25706,6 @@
         "padus": {
           "name": "Delta Meadows Park Property",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -25768,7 +25753,6 @@
         "padus": {
           "name": "Delta Meadows Park Property",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -26903,7 +26887,6 @@
         "padus": {
           "name": "Dixon Holding 1",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -27034,7 +27017,6 @@
         "padus": {
           "name": "TSRA Outliers - Skylandia",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -27250,7 +27232,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -27750,7 +27731,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -28930,7 +28910,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -34250,7 +34229,6 @@
         "padus": {
           "name": "Folsom City Zoo/Park",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -34365,7 +34343,6 @@
         "padus": {
           "name": "Folsom Kids Play",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -39323,7 +39300,6 @@
         "padus": {
           "name": "Gold Bug",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -41896,7 +41872,6 @@
         "padus": {
           "name": "Sacramento Valley Conservancy Easement",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -41945,7 +41920,6 @@
         "padus": {
           "name": "Sacramento Valley Conservancy Easement",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -42789,7 +42763,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -42894,7 +42867,6 @@
         "padus": {
           "name": "Heilbron Mansion",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -44059,7 +44031,6 @@
         "padus": {
           "name": "Jenkinson Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -45482,7 +45453,6 @@
         "padus": {
           "name": "City Of Folsom",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -45733,7 +45703,6 @@
         "padus": {
           "name": "City Of Folsom",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -46742,7 +46711,6 @@
         "padus": {
           "name": "Indian Stone Corral",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -48186,7 +48154,6 @@
         "padus": {
           "name": "James W. Wanish Park",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -48563,7 +48530,6 @@
         "padus": {
           "name": "Jenkinson Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -49152,7 +49118,6 @@
         "padus": {
           "name": "John Mackey Park At Kenwood Oaks",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -52288,7 +52253,6 @@
         "padus": {
           "name": "Southgate Recreation/Park District",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -52971,7 +52935,6 @@
         "padus": {
           "name": "TSRA Outliers - Skylandia",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -56461,7 +56424,6 @@
         "padus": {
           "name": "Roseville Holding 19",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -58271,7 +58233,6 @@
         "padus": {
           "name": "Loomis Basin Community Park - North",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -61745,7 +61706,6 @@
         "padus": {
           "name": "Folsom City Zoo/Park",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -62863,7 +62823,6 @@
         "padus": {
           "name": "SPI_Martis",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -64394,7 +64353,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -64578,7 +64536,6 @@
         "padus": {
           "name": "Upper Cosumnes River",
           "manager": "State Fish and Wildlife",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -64707,7 +64664,6 @@
         "padus": {
           "name": "Silva Et Al",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "restricted"
         }
       }
@@ -64793,7 +64749,6 @@
         "padus": {
           "name": "Upper Cosumnes River",
           "manager": "State Fish and Wildlife",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -69531,7 +69486,6 @@
         "padus": {
           "name": "Park 5-A",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -70951,7 +70905,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -71738,7 +71691,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -71792,7 +71744,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -72172,7 +72123,6 @@
         "padus": {
           "name": "Vail_CE",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -72922,7 +72872,6 @@
         "padus": {
           "name": "Observation Point & Playground",
           "manager": "Army Corps of Engineers",
-          "designation": "Private Other or Unknown",
           "access": "open"
         }
       }
@@ -73266,7 +73215,6 @@
         "padus": {
           "name": "Del Rio Bike Trail",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -73951,7 +73899,6 @@
         "padus": {
           "name": "Folsom City Zoo/Park",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -74199,7 +74146,6 @@
         "padus": {
           "name": "Rocklin Holding 9",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "closed"
         }
       }
@@ -78400,7 +78346,6 @@
         "padus": {
           "name": "SPI_Martis",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -78678,7 +78623,6 @@
         "padus": {
           "name": "Jenkinson Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -81272,7 +81216,6 @@
         "padus": {
           "name": "Placer Land Trust Easement",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "open"
         }
       }
@@ -81313,7 +81256,6 @@
         "padus": {
           "name": "Unknown Park - Roseville, City of",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -83996,7 +83938,6 @@
         "padus": {
           "name": "Park 5-A",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -84799,7 +84740,6 @@
         "padus": {
           "name": "Burton Creek State Park",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -89380,7 +89320,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -90569,7 +90508,6 @@
         "padus": {
           "name": "Bass Lake",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -91464,8 +91402,6 @@
         },
         "padus": {
           "name": "Sherman Island",
-          "manager": "Other or Unknown State Land",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -92214,7 +92150,6 @@
         "padus": {
           "name": "Jenkinson Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -93526,7 +93461,6 @@
         "padus": {
           "name": "TSRA Outliers - Skylandia",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -93726,7 +93660,6 @@
         "padus": {
           "name": "Sacramento Valley Conservancy Easement",
           "manager": "Non-Governmental Organization",
-          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -93807,7 +93740,6 @@
         "padus": {
           "name": "Jenkinson Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -96665,7 +96597,6 @@
         },
         "padus": {
           "name": "Stephen Harris Memorial Park",
-          "manager": "Other or Unknown Local Government",
           "designation": "Local Park",
           "access": "open"
         }
@@ -97219,7 +97150,6 @@
         "padus": {
           "name": "Stone Lakes",
           "manager": "County Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -97631,7 +97561,6 @@
         "padus": {
           "name": "Jenkinson Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -100663,7 +100592,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -100988,7 +100916,6 @@
         "padus": {
           "name": "Ward Creek Property",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -101569,7 +101496,6 @@
         "padus": {
           "name": "Tanzanite Community Park (Basin 6A)",
           "manager": "City Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -103376,7 +103302,6 @@
         "padus": {
           "name": "Green Valley Trail",
           "manager": "County Land",
-          "designation": "Unknown Easement",
           "access": "open"
         }
       }
@@ -105072,7 +104997,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -105967,7 +105891,6 @@
         "padus": {
           "name": "Echo Lake",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -106168,7 +106091,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -106222,7 +106144,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -106643,7 +106564,6 @@
         "padus": {
           "name": "Valley View Sports Park",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "restricted"
         }
       }
@@ -106700,7 +106620,6 @@
         "padus": {
           "name": "Valley View Sports Park",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "restricted"
         }
       }
@@ -106881,7 +106800,6 @@
         "padus": {
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
-          "designation": "State Other or Unknown",
           "access": "closed"
         }
       }
@@ -111418,7 +111336,6 @@
         "padus": {
           "name": "Ward Creek Property",
           "manager": "State Park and Recreation",
-          "designation": "State Other or Unknown",
           "access": "open"
         }
       }
@@ -116440,7 +116357,6 @@
         "padus": {
           "name": "Youth Center, & Kids Korner Buildings",
           "manager": "Regional Agency Land",
-          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
