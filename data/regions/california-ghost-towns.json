@@ -617,7 +617,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q4924035",
-        "wikipedia": "https://en.wikipedia.org/wiki/Blair,_Nevada"
+        "wikipedia": "https://en.wikipedia.org/wiki/Blair,_Nevada",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -674,7 +677,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q832945",
-        "wikipedia": "https://en.wikipedia.org/wiki/Bodie,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Bodie,_California",
+        "commons": {
+          "photos": 313
+        }
       }
     },
     {
@@ -817,7 +823,10 @@
       ],
       "tags": {
         "curiosity": "Ghost town",
-        "wikidata": "Q4979626"
+        "wikidata": "Q4979626",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -1207,7 +1216,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q582753",
-        "wikipedia": "https://en.wikipedia.org/wiki/Chinese_Camp,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Chinese_Camp,_California",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -1236,7 +1248,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q5131539",
-        "wikipedia": "https://en.wikipedia.org/wiki/Clems,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Clems,_California",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -1734,7 +1749,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q5306017",
-        "wikipedia": "https://en.wikipedia.org/wiki/Drawbridge,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Drawbridge,_California",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -2145,7 +2163,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q5501018",
-        "wikipedia": "https://en.wikipedia.org/wiki/Freeman_Junction,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Freeman_Junction,_California",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -2203,7 +2224,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q65119751",
-        "wikipedia": "https://en.wikipedia.org/wiki/French_Flat"
+        "wikipedia": "https://en.wikipedia.org/wiki/French_Flat",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -2232,7 +2256,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q10748348",
-        "wikipedia": "https://en.wikipedia.org/wiki/Galena,_Washoe_County,_Nevada"
+        "wikipedia": "https://en.wikipedia.org/wiki/Galena,_Washoe_County,_Nevada",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -2608,7 +2635,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q3311529",
-        "wikipedia": "https://en.wikipedia.org/wiki/Ione,_Nevada"
+        "wikipedia": "https://en.wikipedia.org/wiki/Ione,_Nevada",
+        "commons": {
+          "photos": 27
+        }
       }
     },
     {
@@ -2753,7 +2783,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q6304285",
-        "wikipedia": "https://en.wikipedia.org/wiki/Judsonville,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Judsonville,_California",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -3165,7 +3198,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q984778",
-        "wikipedia": "https://en.wikipedia.org/wiki/Lida,_Nevada"
+        "wikipedia": "https://en.wikipedia.org/wiki/Lida,_Nevada",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -3310,7 +3346,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q16920578",
-        "wikipedia": "https://en.wikipedia.org/wiki/Lynn,_Oakland,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Lynn,_Oakland,_California",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -3339,7 +3378,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q6763210",
-        "wikipedia": "https://en.wikipedia.org/wiki/Marietta,_Nevada"
+        "wikipedia": "https://en.wikipedia.org/wiki/Marietta,_Nevada",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -3693,7 +3735,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q6912636",
-        "wikipedia": "https://en.wikipedia.org/wiki/Mormon_Island,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Mormon_Island,_California",
+        "commons": {
+          "photos": 28
+        }
       }
     },
     {
@@ -4219,7 +4264,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q7194781",
-        "wikipedia": "https://en.wikipedia.org/wiki/Pinacate,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Pinacate,_California",
+        "commons": {
+          "photos": 52
+        }
       }
     },
     {
@@ -4805,7 +4853,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q14683880",
-        "wikipedia": "https://en.wikipedia.org/wiki/San_Joaquin_City,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/San_Joaquin_City,_California",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -5309,7 +5360,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q7653650",
-        "wikipedia": "https://en.wikipedia.org/wiki/Swansea,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Swansea,_California",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -5665,7 +5719,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q7961544",
-        "wikipedia": "https://en.wikipedia.org/wiki/Waldo,_Oregon"
+        "wikipedia": "https://en.wikipedia.org/wiki/Waldo,_Oregon",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
