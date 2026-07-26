@@ -1,7 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  categoryForType, plainText, statesFor, buildUrl, normalizeFacility, ingest, meta, PAGE_SIZE,
+  categoryForType, categoryForName, categoryForFacility, isGenericType,
+  plainText, statesFor, buildUrl, normalizeFacility, ingest, meta, PAGE_SIZE,
 } from '../ingest/adapters/ridb.mjs';
 import { makeSpot, validateSpot } from '../src/model/spot.js';
 
@@ -120,4 +121,50 @@ test('ingest fails clearly on a missing or rejected key', async () => {
     () => ingest(REGION, { fetchFn: denies, today: TODAY, sleep: async () => {}, apiKey: 'bad' }),
     /rejected the API key/);
   assert.equal(calls, 1, 'a rejected key must fail fast, not retry');
+});
+
+// MEASURED on the first full runs: the non-campground facilities almost all come
+// back typed only "Facility" (Georgia: Facility=85 of 87 unmapped), which is why
+// every mapped facility was a campground.
+test('a generic "Facility" type falls back to the name, which is the only evidence left', () => {
+  assert.equal(isGenericType('Facility'), true);
+  assert.equal(isGenericType(''), true);
+  assert.equal(isGenericType('Campground'), false);
+
+  const gen = (FacilityName) => categoryForFacility({ FacilityTypeDescription: 'Facility', FacilityName });
+  assert.equal(gen('Pacific Crest Trailhead'), 'trailhead');
+  assert.equal(gen('Mono Basin Scenic Area Visitor Center'), 'historic_site');
+  assert.equal(gen('Devils Postpile Overlook'), 'viewpoint');
+  assert.equal(gen('Black Butte Lookout'), 'lookout_tower');
+  assert.equal(gen('Loon Lake Day Use Area'), 'park');
+  assert.equal(gen('Wrights Lake Campground'), 'campsite');
+});
+
+test('a specific type we do not want is still refused outright, name or not', () => {
+  // "Library" and "Ticket Facility" are named accurately — the answer is no, and
+  // the name must not be allowed to talk us back into a pin.
+  assert.equal(categoryForFacility({ FacilityTypeDescription: 'Library', FacilityName: 'Ranger Trailhead Library' }), null);
+  assert.equal(categoryForFacility({ FacilityTypeDescription: 'Ticket Facility', FacilityName: 'Cave Tour Overlook Tickets' }), null);
+});
+
+test('the declared type outranks the name when both speak', () => {
+  assert.equal(categoryForFacility({ FacilityTypeDescription: 'Campground', FacilityName: 'Eagle Overlook' }), 'campsite');
+});
+
+test('a generic facility whose name says nothing gets no pin at all', () => {
+  assert.equal(categoryForName('Sierra National Forest'), null);
+  assert.equal(categoryForFacility({ FacilityTypeDescription: 'Facility', FacilityName: 'Region 5 Office' }), null);
+  assert.equal(categoryForName(undefined), null);
+});
+
+test('the name fallback survives into a real, valid spot', () => {
+  const rec = normalizeFacility({
+    FacilityID: 251, FacilityName: 'Loon Lake Trailhead', FacilityTypeDescription: 'Facility',
+    FacilityLatitude: 38.98, FacilityLongitude: -120.32,
+    FacilityDescription: '<p>Access to the Desolation Wilderness.</p>',
+  }, '2026-07-26');
+  assert.equal(rec.category, 'trailhead');
+  assert.equal(rec.tags.ridb_type, 'Facility');
+  assert.equal(rec.notes, 'Access to the Desolation Wilderness.');
+  assert.doesNotThrow(() => validateSpot(makeSpot(rec)));
 });

@@ -44,6 +44,43 @@ export function categoryForType(typeDesc) {
   return null;
 }
 
+// MEASURED on the first full runs: almost every non-campground facility comes
+// back with the GENERIC type "Facility" (Georgia: Facility=85 of 87 unmapped),
+// so a type-only rule finds campgrounds and nothing else. For those rows — and
+// ONLY those — the facility NAME is the next-best evidence. A specific type we
+// simply don't want (Library, Ticket Facility) is still skipped outright: it is
+// named accurately and the answer is no.
+const GENERIC_TYPE = /^(facility|site|other)?$/i;
+
+export function isGenericType(typeDesc) {
+  return GENERIC_TYPE.test(String(typeDesc ?? '').trim());
+}
+
+// Name → pin type. Deliberately conservative: a name that says what the place
+// IS gets that pin, and a name that doesn't gets NO pin. The 1.11.0 rule holds —
+// a wrong label is worse than no pin — so there is no "probably a park" bucket.
+const NAME_CATEGORY = [
+  [/\btrail\s?heads?\b/i, 'trailhead'],
+  [/\bvisitor (cent(er|re)|station)\b|\binterpretive\b|\bmuseum\b/i, 'historic_site'],
+  [/\b(fire )?lookout\b|\bfire tower\b/i, 'lookout_tower'],
+  [/\boverlooks?\b|\bviewpoints?\b|\bvista\b/i, 'viewpoint'],
+  [/\bcampgrounds?\b|\bcamping\b|\bcampsites?\b/i, 'campsite'],
+  [/\bday\s?use\b|\bpicnic\b|\bboat (launch|ramp)\b|\bswim(ming)? (area|beach)\b/i, 'park'],
+];
+
+export function categoryForName(name) {
+  const s = String(name ?? '');
+  for (const [re, cat] of NAME_CATEGORY) if (re.test(s)) return cat;
+  return null;
+}
+
+// The full decision: the declared TYPE is the strongest claim and wins; the name
+// only speaks when the type said nothing useful.
+export function categoryForFacility(f) {
+  return categoryForType(f?.FacilityTypeDescription)
+    ?? (isGenericType(f?.FacilityTypeDescription) ? categoryForName(f?.FacilityName) : null);
+}
+
 // RIDB descriptions are HTML. Strip to plain text, collapse whitespace and trim
 // to a card-sized excerpt at a word boundary (the full text is a tap away).
 export function plainText(html, max = 400) {
@@ -100,7 +137,7 @@ export function normalizeFacility(f, today) {
   const lng = Number(f.FacilityLongitude);
   // RIDB uses 0,0 for "no coordinate on file" — never a real US facility.
   if (!isFinite(lat) || !isFinite(lng) || (lat === 0 && lng === 0)) return null;
-  const category = categoryForType(f.FacilityTypeDescription);
+  const category = categoryForFacility(f);
   if (!category) return null;
   const notes = plainText(f.FacilityDescription);
   const url = f.FacilityReservationURL
@@ -166,6 +203,7 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
   let skipped = 0;
   let fetched = 0;
   const unmappedTypes = new Map();
+  const unmappedNames = [];
   for (const state of states) {
     let total = Infinity;
     // Page strictly to the reported TOTAL_COUNT — RIDB returns SHORT pages while
@@ -186,9 +224,12 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
           skipped++;
           // Record WHY, so a whole facility kind can't be silently left on the
           // table — the log names the unmapped types and how many of each.
-          if (f?.FacilityName && categoryForType(f.FacilityTypeDescription) === null) {
+          if (f?.FacilityName && categoryForFacility(f) === null) {
             const t = String(f.FacilityTypeDescription ?? '(none)');
             unmappedTypes.set(t, (unmappedTypes.get(t) ?? 0) + 1);
+            // For the generic bucket the type says nothing, so the NAME is the
+            // only evidence about what was left behind — sample a few verbatim.
+            if (isGenericType(t) && unmappedNames.length < 15) unmappedNames.push(f.FacilityName);
           }
           continue;
         }
@@ -213,6 +254,9 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
     const top = [...unmappedTypes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12)
       .map(([t, n]) => `${t}=${n}`).join(', ');
     log(`ridb: unmapped facility types (statewide, pre-bbox): ${top}`);
+  }
+  if (unmappedNames.length) {
+    log(`ridb: sample generic-type names still unmapped: ${unmappedNames.join(' | ')}`);
   }
   return records;
 }
