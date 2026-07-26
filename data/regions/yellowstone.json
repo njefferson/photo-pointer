@@ -1,6 +1,6 @@
 {
   "region": "yellowstone",
-  "builtAt": "2026-07-25",
+  "builtAt": "2026-07-26",
   "spots": [
     {
       "id": "0-geyser@9xcjqe",
@@ -1570,7 +1570,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/250038",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -2139,7 +2139,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232210",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -5107,7 +5107,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/251354",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -5486,6 +5486,34 @@
           "designation": "National Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "bacon-rind-trailhead@9xcp8x",
+      "name": "Bacon Rind Trailhead",
+      "lat": 44.955519,
+      "lng": -111.070411,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Bacon Rind trail takes off from Yellowstone National Park off Hwy 191 and heads into the Forest in the Lee Metcalf Wilderness - Monument Mountain Wilderness. Hikers should be aware of park regulations prior to starting on the trail. The trail access Monument Mountain and Snowslide Mountain with access to other trail connectors.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251330",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251330",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -6963,7 +6991,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234365",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -7033,7 +7061,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234336",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -7760,7 +7788,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234319",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         },
         {
           "source": "ridb",
@@ -7768,7 +7796,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234320",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -8589,7 +8617,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234367",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -9997,7 +10025,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234299",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -10177,7 +10205,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232211",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -10254,7 +10282,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234594",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -10642,7 +10670,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234576",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -10728,7 +10756,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233825",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -11685,7 +11713,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234364",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -12849,6 +12877,34 @@
       }
     },
     {
+      "id": "blackmore-picnic-area@c814f8",
+      "name": "Blackmore Picnic Area",
+      "lat": 45.48569,
+      "lng": -110.9797,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A picnic area in the Hyalite Canyon on the Bozeman District. Picnic sites: 6 Accessible Facilities: Toilet 3 Sites Trash Pickup: No Firewood: No Information: Bozeman Office 3710 fallon Street Bozeman, MT 59718 (406) 522-2520",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236079",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "236079",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "blacks-knoll@9xb7zr",
       "name": "Blacks Knoll",
       "lat": 44.2921351,
@@ -13672,7 +13728,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/238999",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -15354,7 +15410,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239002",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -15422,6 +15478,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "box-canyon-trailhead@9xbu9j",
+      "name": "Box Canyon Trailhead",
+      "lat": 44.414354,
+      "lng": -111.39167,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Various species of tress and wildflowers can be seen on the trail, as well as songbirds, waterfowl and occasional wildlife. The trail is open for the following uses: Motorcycle Trail Riding, Off Highway Vehicles (OHV) less than or equal to 50 inches wide.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239004",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239004",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -16278,6 +16362,34 @@
           "w": 2.5,
           "site_m": 1565
         }
+      }
+    },
+    {
+      "id": "brackett-creek-trailhead@c81huu",
+      "name": "Brackett Creek Trailhead",
+      "lat": 45.85835,
+      "lng": -110.879658,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Trailhead and jumping off point to multiple trail options and recreational opportunties on the east side of the Bridgers and in the Bangtails. Upper and Lower South Fork Brackett Creek Trailheads can be accessed seasonally. Refer to Forest Map and Motor Vehicle Use Map for seasonal designations.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251337",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251337",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -19340,6 +19452,34 @@
       }
     },
     {
+      "id": "buffalo-horn-trailhead@c80bte",
+      "name": "Buffalo Horn Trailhead",
+      "lat": 45.105801,
+      "lng": -111.198477,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Trail provides access to many other trail in the drainage, good opportunities exist for a looped day hike. Trailhead has horse ramp and toilet.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251058",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251058",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "buffalo-idaho@9xbu9x",
       "name": "BUFFALO (IDAHO)",
       "lat": 44.4263889,
@@ -19359,7 +19499,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232219",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -20325,6 +20465,34 @@
       }
     },
     {
+      "id": "buttermilk-boat-ramp@9xbu8r",
+      "name": "Buttermilk Boat Ramp",
+      "lat": 44.42830223,
+      "lng": -111.4238414,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Boating, motorized and non-motorized",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239005",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239005",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "buttermilk@9xbub2",
       "name": "Buttermilk",
       "lat": 44.430402,
@@ -20352,7 +20520,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233826",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -20427,7 +20595,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234368",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -20440,6 +20608,34 @@
           "designation": "IRA",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "cabin-creek-trailhead@9x9nnc",
+      "name": "Cabin Creek Trailhead",
+      "lat": 43.249085,
+      "lng": -110.787385,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This trailhead is located in the Snake River Canyon, off of Highway 89 south of Hoback Junction. The trailhead itself is a few hundred feet down a very rough dirt road that requires 4 wheel drive and high clearance. The actual trailhead is in a small opening next to Cabin Creek surrounded by large trees and willows. This is the main access to the Cabin Creek Trail #4064, a non-motorized trail…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "264462",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "264462",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -20924,7 +21120,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232277",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -21644,6 +21840,34 @@
           "designation": "Wilderness Study Area",
           "access": "restricted"
         }
+      }
+    },
+    {
+      "id": "canaday-boat-launch@c80emn",
+      "name": "Canaday Boat Launch",
+      "lat": 45.60778,
+      "lng": -111.57545,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This day-use area located on the Madison River offers opportunities for picnicking, floating, boating, and fishing, and includes an interpretive board and trail. The banks around the boat launch have recently been revegetated so please stay on the trails provided.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261803",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "261803",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -23001,7 +23225,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233771",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -23881,7 +24105,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239007",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -25980,6 +26204,34 @@
       }
     },
     {
+      "id": "cinnamon-mountain-trailhead@9xcp8x",
+      "name": "Cinnamon Mountain Trailhead",
+      "lat": 44.955519,
+      "lng": -111.070411,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A drainage to the north of the Taylor Fork Area, Cinnamon Mountain is popular for day hiking and accessing Cinnamon Mountain Lookout and vantage point. Trails #6 and #73 offer multiple opportunities for hiking. Continuing on Trail #6 Cinnamon - Buck Trail will connect to #63 and multiple motorized and non-motorized opportunities. Refer to the Forest Map and Motor Vehicle Use map for seasonal…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251278",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251278",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "cinnamon-mountain@c80bsp",
       "name": "Cinnamon Mountain",
       "lat": 45.1302061,
@@ -26474,6 +26726,34 @@
       }
     },
     {
+      "id": "clarks-fork-boat-launch@9xfr17",
+      "name": "Clarks Fork Boat Launch",
+      "lat": 44.843251,
+      "lng": -109.280776,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The boat launch is a primitive boat ramp available to launch boats. The access route to the ramp is very rugged, so use high-clearance vehicles to access the site. Parking is available, and adequate space is available for comfortably navigating a truck/trailer.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "269390",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "269390",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "clastic@9xchyn",
       "name": "Clastic",
       "lat": 44.4632245,
@@ -26785,7 +27065,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233292",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -30417,7 +30697,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234659",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -33961,7 +34241,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234415",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -33996,7 +34276,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234522",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -38833,7 +39113,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239849",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -39077,6 +39357,34 @@
           "designation": "National Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "eastern-idaho-visitor-center@9x8r6m",
+      "name": "Eastern Idaho Visitor Center",
+      "lat": 43.49354,
+      "lng": -112.04243,
+      "category": "historic_site",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Visitor Center",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "271806",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "271806",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -39391,6 +39699,34 @@
           "designation": "National Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "eldridge-trailhead@c80b7h",
+      "name": "Eldridge Trailhead",
+      "lat": 45.071158,
+      "lng": -111.307698,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Smaller trailhead with multiple trail options to the north and south connecting other trails. Trails include #172 and #223 to Albino Lake which is a popular horse route to the Lake.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251279",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251279",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -40164,7 +40500,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239847",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -41831,6 +42167,34 @@
       }
     },
     {
+      "id": "fall-creek-day-use-area@c80dey",
+      "name": "Fall Creek Day Use Area",
+      "lat": 45.47603,
+      "lng": -111.62547,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Fall Creek is a popular fishing spot and parking area for day float trips through the Bear Trap Canyon Wilderness. During the early spring run-off, floaters can launch at the hand launch site to float the double drop rapid.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261799",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "261799",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "fall-creek-falls@9x8z1s",
       "name": "Fall Creek Falls",
       "lat": 43.441311967897505,
@@ -41928,7 +42292,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232212",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -44789,7 +45153,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/231925",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -45201,6 +45565,34 @@
           "designation": "Wilderness Study Area",
           "access": "restricted"
         }
+      }
+    },
+    {
+      "id": "forest-lake-camping-area@c81rnf",
+      "name": "Forest Lake Camping Area",
+      "lat": 46.24441956,
+      "lng": -110.4375271,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Developed Dispersed sites. Bears may frequent the area; keep all food out of sight in approved containers and remove all food from area after eating. Mandatory food storage is required.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "242537",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/242537",
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "242537",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -46243,7 +46635,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234414",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -46363,7 +46755,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234335",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -48858,7 +49250,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234334",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -56605,7 +56997,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233391",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -57454,7 +57846,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/15021",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -58370,7 +58762,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/264411",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -58405,7 +58797,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233874",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -58418,6 +58810,34 @@
           "designation": "IRA",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "green-river-snowmobile-trailhead@9x9vbs",
+      "name": "Green River Snowmobile Trailhead",
+      "lat": 43.221516,
+      "lng": -110.008234,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This is a wintertime trailhead, with a large plowed parking area and a toilet for your convenience. If you are planning a snowmobile tour on the Pinedale Ranger District, this is the main access to groomed trails. This trailhead provides access to over 75 miles of State groomed trails, including the Continental Divide Snowmobile Trail",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "271395",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "271395",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -60002,7 +60422,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236090",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -60014,6 +60434,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "halfmoon-picnic-area@c81tgm",
+      "name": "Halfmoon Picnic Area",
+      "lat": 46.04143,
+      "lng": -110.23935,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A picnic area in the east crazy mountains on the Yellowstone District. Picnic sites: 3 Accessible Facilities: Fire grates Tables Toilets Trash Pickup: No Firewood: No Information: Livingston Office 5242 Hwy 89. Livingston, MT 59047 (406) 222-1892",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236091",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "236091",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -66701,6 +67149,34 @@
       }
     },
     {
+      "id": "howard-springs-picnic-site@9xby5e",
+      "name": "Howard Springs Picnic Site",
+      "lat": 44.67007254,
+      "lng": -111.2866251,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Howard Springs Picnic Site",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "271425",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "271425",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "howell-creek@9xcgb6",
       "name": "Howell Creek",
       "lat": 44.2670856,
@@ -67230,7 +67706,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234595",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -67449,6 +67925,34 @@
           "designation": "RNA",
           "access": "restricted"
         }
+      }
+    },
+    {
+      "id": "hyalite-day-use-area-hyalite-pavilion@c814f8",
+      "name": "Hyalite Day Use area and Hyalite Pavilion",
+      "lat": 45.4857,
+      "lng": -110.9797,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Large, developed parking area and pavillion adjacent to Hyalite Reservoir. Parking, accessible vault toilets and drinking water available. Several fishing, hiking, picnic and family opportunities available.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251066",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251066",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -67754,7 +68258,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234298",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -68977,7 +69481,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239852",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -69595,7 +70099,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/240400",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -71857,7 +72361,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239850",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -74216,15 +74720,16 @@
       "category": "wildlife_hotspot",
       "subject_type": [
         "birds",
-        "wildlife"
+        "wildlife",
+        "landscape"
       ],
       "best_light": [
         "sunrise",
         "golden_hour"
       ],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "A picnic area along the Yellowstone River on Gardiner District. Picnic sites:3 Accessible Facilities: Toilet Trash Pickup: No Firewood:No Information: Gardiner Office P.O. Box 5; 805 Scott St. Gardiner, MT 59030 (406) 848-7375",
       "sources": [
         {
           "source": "ebird",
@@ -74233,9 +74738,19 @@
           "source_url": "https://ebird.org/hotspot/L16659327",
           "first_seen": "2026-07-20",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "236094",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
+        "ridb": "236094",
+        "ridb_type": "Facility",
         "ebird_species": 48,
         "bortle": 1,
         "horizon": {
@@ -77540,7 +78055,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234333",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -77847,7 +78362,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232383",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -79265,6 +79780,34 @@
       }
     },
     {
+      "id": "lonesomehurst-boat-launch@9xbykz",
+      "name": "Lonesomehurst Boat Launch",
+      "lat": 44.733833,
+      "lng": -111.231168,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Boat Launch on the south side of Hebgen Lake",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251293",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251293",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "lonesomehurst-cabin@9xbysb",
       "name": "Lonesomehurst Cabin",
       "lat": 44.741255754000065,
@@ -79390,6 +79933,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "long-lake-trailhead@9x9utz",
+      "name": "Long Lake Trailhead",
+      "lat": 43.021547,
+      "lng": -109.775928,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Long Lake Trailhead is only accessible via boat and the trail is not maintained, but provides access to Long Lake and the Bridger Wilderness. It is located on the far Northern shores of Fremont Lake, approximately an 11-mile boat ride in. There is no established mooring location for your boat, so plan accordingly.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "264453",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "264453",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -81047,6 +81618,34 @@
       }
     },
     {
+      "id": "lunch-counter-kahuna-overlook@9x9jsp",
+      "name": "Lunch Counter/Kahuna Overlook",
+      "lat": 43.195103,
+      "lng": -110.914689,
+      "category": "viewpoint",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Lunch Counter/Kahuna Overlook day use area provides parking for those who wish to watch and photograph river floaters going through the famous Lunch Counter and Big Kahuna rapids, as well as direct river access for boating, fishing, and wildlife viewing. It is located in the Snake River Canyon, off of Highway 89 south of Hoback Junction. Three trails leave from the parking area. The first…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "264378",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "264378",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "lunch-tree-hill@9xc3es",
       "name": "Lunch Tree Hill",
       "lat": 43.8804961,
@@ -81192,7 +81791,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239845",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -83399,7 +83998,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234607",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -83602,7 +84201,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234521",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -83753,7 +84352,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239049",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -83765,6 +84364,34 @@
           "designation": "RMA",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "mccrea-bridge-boat-ramp@9xbubv",
+      "name": "McCrea Bridge Boat Ramp",
+      "lat": 44.46147733,
+      "lng": -111.4013705,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Non-motorized boating",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239051",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239051",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -84723,6 +85350,34 @@
       }
     },
     {
+      "id": "mesa-falls-visitor-center@9xbg6s",
+      "name": "Mesa Falls Visitor Center",
+      "lat": 44.18777369,
+      "lng": -111.327827,
+      "category": "historic_site",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Mesa Falls Visitor Center occupies the historic Big Falls Inn, built around 1915 by the Snake River Electric Light and Power Company. With its spectacular setting, the Inn was a popular spot for social gatherings in its past lives. It had its day as a hotel, a cafe, and a dance hall. Later it became a way station on the Yellowstone Highway for ranchers, sportsmen, and tourists. After…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "270916",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "270916",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "mesa-falls@9xbg6s",
       "name": "Mesa Falls",
       "lat": 44.1876508,
@@ -85020,7 +85675,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234314",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -85213,11 +85868,13 @@
       "lat": 45.764866,
       "lng": -110.988319,
       "category": "trailhead",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Popular hiking trail providing access to the southwestern portion of the Bridger Foothills National Recreation Trail. Parking area at end of access road.",
       "sources": [
         {
           "source": "osm",
@@ -85226,9 +85883,19 @@
           "source_url": "https://www.openstreetmap.org/node/11114556721",
           "first_seen": "2026-07-20",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "251063",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
+        "ridb": "251063",
+        "ridb_type": "Facility",
         "name": "Middle Cottonwood Trailhead",
         "highway": "trailhead",
         "bortle": 2,
@@ -85701,7 +86368,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234153",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -85814,6 +86481,34 @@
       }
     },
     {
+      "id": "mill-creek-boat-ramp@9xbub7",
+      "name": "Mill Creek Boat Ramp",
+      "lat": 44.448,
+      "lng": -111.4255,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Non-motorized boating",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239054",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239054",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "mill-creek-cabin@c813sk",
       "name": "MILL CREEK CABIN",
       "lat": 45.2894444,
@@ -85833,7 +86528,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234307",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -87894,6 +88589,34 @@
           "designation": "IRA",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "monument-ridge-trailhead@9x9mz6",
+      "name": "Monument Ridge Trailhead",
+      "lat": 43.212636,
+      "lng": -110.41761,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Monument Ridge Trailhead is right off Highway 189/191 just south of the Hoback Guard Station. From the Trailhead users can hike to the Monument Ridge Lookout or connect with the Little Cliff Creek Trail.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "264334",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "264334",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -93748,7 +94471,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234332",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -93996,7 +94719,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232899",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -94983,7 +95706,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/231913",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -95166,7 +95889,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/240420",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -97466,7 +98189,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234321",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -100097,6 +100820,34 @@
       }
     },
     {
+      "id": "old-nye-picnic-area-fishing-access@c81fk1",
+      "name": "Old Nye Picnic Area and Fishing Access",
+      "lat": 45.401523,
+      "lng": -109.860413,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Old Nye Picnic Area and Fishing Access is located in the Stillwater drainage. The picnic area and fishing access sites have separate entrances but are next to each other. These areas are for day use only. The picnic area has 6 sites (no group sites). The fishing access site has a boat ramp and parking area, two vault toilets, no water, and no garbage service. Please pack out all trash…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239875",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239875",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "old-railway-station@9xbvhj",
       "name": "Old Railway Station",
       "lat": 44.5024555,
@@ -102343,11 +103094,13 @@
       "lat": 45.4685833,
       "lng": -110.938711,
       "category": "trailhead",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Popular 1/2 mile nature trail, fully accessible and paved, providing views to Palisade Falls. Picnic area and accessible vault toilet at trailhead. No drinking water available.",
       "sources": [
         {
           "source": "osm",
@@ -102356,9 +103109,19 @@
           "source_url": "https://www.openstreetmap.org/node/9505890308",
           "first_seen": "2026-07-20",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "251062",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
+        "ridb": "251062",
+        "ridb_type": "Facility",
         "name": "Palisade Falls Trailhead",
         "highway": "trailhead",
         "bortle": 1,
@@ -102547,7 +103310,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239846",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -102559,6 +103322,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "palisades-day-use@9xbxgj",
+      "name": "Palisades Day Use",
+      "lat": 44.98837,
+      "lng": -111.65743,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Palisades Recreation Area is located on the Upper Madison River, 5 river miles upstream of Ruby Creek Recreation Area and 25 miles south of Ennis. The campground has 10 camping sites with 2 accessible vault toilets and a campground host pad. A separate day use site with a paved boat launch and parking area is located near the campground.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261794",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "261794",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -105605,7 +106396,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239072",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -105706,6 +106497,34 @@
           "designation": "Wilderness Area",
           "access": "restricted"
         }
+      }
+    },
+    {
+      "id": "pine-creek-picnic-area@c816v4",
+      "name": "Pine Creek Picnic Area",
+      "lat": 45.49819,
+      "lng": -110.51923,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A picnic area in the West Absaroka Mountains on the Yellowstone District. Picnic sites: 7 +1 Group +1 Picnic Shelter Accessible Facilities: Tables Toilet Water Trash Pickup: Yes Firewood: $4.50 / bundle Reservations: Recreation.gov 1-877-444-6777 Information: Livingston Office 5242 Hwy 89. Livingston, MT 59047 (406) 222-1892",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236099",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "236099",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -105951,7 +106770,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239848",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -106306,7 +107125,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/270777",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -107553,7 +108372,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234300",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -109436,6 +110255,34 @@
       }
     },
     {
+      "id": "quake-lake-boat-launch@9xbz1m",
+      "name": "Quake Lake Boat Launch",
+      "lat": 44.854714,
+      "lng": -111.387555,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Boat launch accessing Earthquake Lake between Earthquake Lake Visitor Center and Refuge Point Interpretive Site.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251328",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251328",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "quaw-thomas-house@c80uqj",
       "name": "Quaw, Thomas, House",
       "lat": 45.77649623900004,
@@ -110031,6 +110878,34 @@
           "designation": "National Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "rainbow-point-boat-launch@9xbywp",
+      "name": "Rainbow Point Boat Launch",
+      "lat": 44.779674,
+      "lng": -111.174892,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Boat Launch on the north side of Hebgen Lake",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251287",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251287",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -111338,7 +112213,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/261804",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -112814,7 +113689,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/231927",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -112901,7 +113776,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233934",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -113720,7 +114595,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232222",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -116341,7 +117216,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239851",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -116791,6 +117666,34 @@
           "designation": "State Conservation Area",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "sand-dunes-picnic-site@c8416h",
+      "name": "Sand Dunes Picnic Site",
+      "lat": 45.244641,
+      "lng": -109.58989,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Sand Dunes Picnic Area is day-use only site, located in the East Rosebud drainage. This picnic area is open year-round, but is maintained from Memorial Day to Labor Day. Number of sites: 10 Group sites: No Garbage service: No. Please pack out all trash. Toilet: Yes. Vault toilet. Water: No For a road map of the area showing the location of recreation sites, please see our Motor Vehicle Use Map…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239863",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239863",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -120307,6 +121210,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "shipping-corrals-picnic-area@c81dkw",
+      "name": "Shipping Corrals Picnic Area",
+      "lat": 45.43349,
+      "lng": -110.1901,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A picnic area in the main boulder area on Yellowstone District. Picnic sites: 2 Accessible Facilities: Toilet Trash Pickup: No Firewood: No Information: Big Timber Office P.O. Box 1130; 225 Big Timber Loop Rd. Big Timber, MT 59011-1130 (406) 932-5155",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236104",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "236104",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -124027,7 +124958,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236105",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -125763,7 +126694,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234331",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -128024,7 +128955,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234303",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -129164,7 +130095,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232382",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -129643,7 +130574,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234380",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -129988,6 +130919,34 @@
           "designation": "National Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "storey-ditch-boat-launch@c808fc",
+      "name": "Storey Ditch Boat Launch",
+      "lat": 45.13733,
+      "lng": -111.67303,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This boat launch is located on the Upper Madison River and offers opportunities for floating, waterfowl hunting and fishing.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261771",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "261771",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -130740,6 +131699,34 @@
           "designation": "IRA",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "suce-creek-picnic-area@c817m0",
+      "name": "Suce Creek Picnic Area",
+      "lat": 45.5748,
+      "lng": -110.51249,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A picnic area in the West Absaroka Mountains on the Yellowstone District. Picnic sites:3 Trash Pickup: No Firewood:No Information: Livingston Office 5242 Hwy 89. Livingston, MT 59047 (406) 222-1892",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236109",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "236109",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -131686,6 +132673,34 @@
       }
     },
     {
+      "id": "sunlight-creek-picnic-site@9xfntu",
+      "name": "Sunlight Creek Picnic Site",
+      "lat": 44.76283,
+      "lng": -109.43291,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Sunlight Creek Picnic Site is located along State Highway 296, the Chief Joseph Scenic Highway. The site has picnic tables, fire rings, and a vault toilet. Water is not available.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "240405",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "240405",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "sunlight-creek-trailhead@c81qrp",
       "name": "Sunlight Creek Trailhead",
       "lat": 46.141812,
@@ -131850,7 +132865,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234611",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -133600,7 +134615,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232378",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -133891,6 +134906,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "targhee-creek-trailhead@9xby4g",
+      "name": "Targhee Creek Trailhead",
+      "lat": 44.67,
+      "lng": -111.314,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Special attractions along the trail include five alpine lakes amid the mountains, abundant wildlife, wildflowers, and great scenic views of the mountains and valley floor. The Targhee Creek Trail is located in Grizzly Bear habitat and if camping overnight along the trail, use the bear proof storage containers provided or hang your food appropriately.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "271427",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "271427",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -135181,7 +136224,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/231928",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -136341,7 +137384,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233293",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -137086,7 +138129,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236111",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -137888,7 +138931,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234309",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -137901,6 +138944,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "trail-creek-picnic-area@c80de6",
+      "name": "Trail Creek Picnic Area",
+      "lat": 45.45392,
+      "lng": -111.64962,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Trail Creek offers a wheelchair accessible trail with accessible fishing platforms and picnic areas. Trail Creek parking lot is the trailhead for the Pot Trail. The Pot Trail offers access to the Lee Metcalf Wilderness and to the Cowboy Heaven area.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261798",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "261798",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -138003,7 +139074,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233844",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -138914,7 +139985,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/261802",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -140399,6 +141470,34 @@
           "designation": "National Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "twin-cabin-trailhead@c80chg",
+      "name": "Twin Cabin Trailhead",
+      "lat": 45.195948,
+      "lng": -111.234758,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Developed trailhead with horse ramp, picnic table, and toilet. Twin Cabin trail ties into the Porcupine Trail after about two miles. Trail is closed to all motorized use.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251069",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251069",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -145203,7 +146302,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234107",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -146314,6 +147413,34 @@
           "manager": "Tribal land",
           "designation": "TRIBL"
         }
+      }
+    },
+    {
+      "id": "upper-wapiti-trailhead@c80b5x",
+      "name": "Upper Wapiti Trailhead",
+      "lat": 45.03973,
+      "lng": -111.280807,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Multiple Trail opportunties that take off from this trailhead in the Taylor Fork drainage. Trail #68 - Oil Well Trail follows an old road and is an ATV trail. Trail #35 known as Little Wapiti is a horse, mountain bike and hiking and motorcycle friendly trail that leads into the backcountry with multiple trail junctions and provides access to Sunlight, Carrot, and Cabin Creek Areas. Refer to…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251281",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251281",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -153892,7 +155019,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234361",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -154088,6 +155215,34 @@
           "w": 5.7,
           "site_m": 1746
         }
+      }
+    },
+    {
+      "id": "vista-point-observation-site@c840nr",
+      "name": "Vista Point Observation Site",
+      "lat": 45.043063,
+      "lng": -109.407169,
+      "category": "viewpoint",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Vista Point is a popular stopping point along the Beartooth Scenic Highway. From Red Lodge, MT drive south on US Hwy 212 (Beartooth Scenic Highway) for 18.9 miles to the Vista Point parking area. A short hard surface trail leads to a platform overlooking Rock Creek Valley, where you can enjoy spectacular views and various interpretive displays. There is a large parking lot and restroom facilities…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239861",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239861",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -154370,7 +155525,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234322",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -154583,7 +155738,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234366",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -154626,7 +155781,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234606",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -155003,7 +156158,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234305",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -155051,7 +156206,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232223",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -155149,6 +156304,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "warm-spgs-day-use-area@c80ekd",
+      "name": "Warm Spgs Day Use Area",
+      "lat": 45.5857,
+      "lng": -111.59267,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This day-use area located on the Madison River offers opportunities for floating, boating, and fishing. It is the take-out for the Bear Trap Canyon Wilderness whitewater float. This site is often heavily used, making proper vehicle parking a must. Vehicles will be ticketed or towed if not in between white lines. Please do not park along entrance road or highway. Overflow parking and additional…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261801",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "261801",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -155642,6 +156825,34 @@
       }
     },
     {
+      "id": "watkins-creek-trailhead@9xbyg7",
+      "name": "Watkins Creek Trailhead",
+      "lat": 44.798494,
+      "lng": -111.29731,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Watkins Creek Trailhead starts off with Trail #215, it is a trailhead that connects to three trail opportunites including: Trail #215 to #209 - Coffin Lake - A rountrip 10 mile out and back hike - Coffin Lake gains 1800 feet elevation beginning in an open meadow and gain elevation to the alpine lake. Trail #215 continues on and connects to the Continental Divide Trail A third choice is #215 to…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251292",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251292",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "wave-spring@9xchvz",
       "name": "Wave Spring",
       "lat": 44.4680458,
@@ -155829,7 +157040,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234410",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -155864,7 +157075,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234413",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -155965,6 +157176,34 @@
           "designation": "Wilderness Area",
           "access": "restricted"
         }
+      }
+    },
+    {
+      "id": "west-end-boat-ramp@9xbsqn",
+      "name": "West End Boat Ramp",
+      "lat": 44.3756,
+      "lng": -111.5311,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Motorized and non-motorized use.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239101",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239101",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -156082,7 +157321,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234372",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -159053,7 +160292,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234328",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -159178,7 +160417,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234327",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -159235,6 +160474,34 @@
           "manager": "Tribal land",
           "designation": "TRIBL"
         }
+      }
+    },
+    {
+      "id": "windy-point-boat-launch@9xbxgd",
+      "name": "Windy Point Boat Launch",
+      "lat": 44.9679,
+      "lng": -111.6406,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "This boat launch located on the Upper Madison River offers opportunities for floating and fishing.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "261806",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "261806",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -160046,7 +161313,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233238",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -160494,7 +161761,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234326",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
