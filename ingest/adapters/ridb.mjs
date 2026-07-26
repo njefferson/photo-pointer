@@ -31,7 +31,7 @@ export const BASE_URL = 'https://ridb.recreation.gov/api/v1';
 // Identify ourselves to every service we call, so an operator seeing this
 // traffic can tell what it is and who to contact.
 export const USER_AGENT =
-  'photo-pointer/1.15 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
 export const PAGE_SIZE = 50; // RIDB's per-request maximum
 
 // FacilityTypeDescription → our pin type. Anything not listed is skipped rather

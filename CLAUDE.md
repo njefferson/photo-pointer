@@ -38,21 +38,31 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## (Noah, 2026-07-19 — corrected from an earlier wrong "no LICENSE" reading).
 ## Keep the header scope current when third-party material changes.
 
-## How we treat the services we depend on (Noah, 2026-07-26: "what we do must
-## be measured... I do not want to be disrespectful"). Every source is
-## volunteer-run (Overpass), donation-funded (Wikimedia, Wikidata, iNaturalist)
-## or tax-funded (USGS, NPS, NOAA, RIDB). None owes a free personal map
-## anything. The rules, in ingest/adapters/http-etiquette.mjs:
-## 1. IDENTIFY OURSELVES on every request — a real User-Agent naming the project.
-## 2. A 429 IS AN INSTRUCTION, NOT AN OBSTACLE. Wait longer; never retry harder,
-##    widen concurrency, or route around to another mirror to evade it.
-## 3. IF IT STATES Retry-After, WAIT THAT LONG. Our guess doesn't override it.
-## 4. NEVER ASK TWICE FOR WHAT WE ALREADY HAVE. Committed data is the cache;
-##    per-spot sweeps record what they probed and skip it for 30 days.
-## 5. NO BULK SWEEP where a targeted query exists (see PAD-US below).
-## MEASURED, and the reason this is not just etiquette: the GENTLER Commons run
-## returned a BETTER answer than the aggressive one — 51 spots and Bodie at 313
-## photos, vs 32 and Bodie missing entirely. Backing off cost nothing.
+## How we treat the services we depend on. READ THE PUBLISHED POLICY BEFORE
+## CHANGING ANY PACING — it is the authority, not our inference from whatever
+## error codes we happened to get back. Noah, 2026-07-26, and he was right:
+## "we have not been following industry standard and have instead, as an
+## amateur, bumbled through good faith actors' work with disregard."
+## WHAT WE HAD BEEN DOING vs WIKIMEDIA'S PUBLISHED API:Etiquette:
+##   concurrency 4 (then 2)   vs  their stated MAXIMUM OF 1
+##   120 ms between requests  vs  their stated MINIMUM OF 1 SECOND
+##   no maxlag                vs  requested for non-interactive jobs
+##   UA without contact info  vs  must carry a full URL or email
+##   Retry-After ignored      vs  must be respected on 429
+## We were outside their terms, which is WHY they throttled us; the throttle was
+## the service asking us to stop, and the instinct to "retry harder" was wrong.
+## Now at the published numbers (commons-photos.mjs WIKIMEDIA_CONCURRENCY=1,
+## WIKIMEDIA_MIN_GAP_MS=1000, maxlag=5), pinned by tests.
+## The policies, all cited in ingest/adapters/http-etiquette.mjs:
+##   Wikimedia  mediawiki.org/wiki/API:Etiquette + the WMF User-Agent Policy
+##   OSM/Overpass  operations.osmfoundation.org/policies/api/ (~10k req/day,
+##     <1 GB/day — we are far under; heavy users get load-shed first)
+## STANDING RULES: identify ourselves with contact info; a 429 is an instruction,
+## never route around it; honour Retry-After; never ask twice for what we already
+## have (probed-record + 30-day skip); no bulk sweep where a targeted query fits.
+## MEASURED: the GENTLER Commons run returned a BETTER answer than the aggressive
+## one — 51 spots, Bodie 313 photos, vs 32 and Bodie missing. Backing off cost
+## nothing.
 
 ## Licensing is load-bearing. Every ingest adapter declares its source's
 ## license in its header and honors it structurally (HMdb: links only;

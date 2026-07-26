@@ -25,6 +25,8 @@
 // KEY: none. The Wikidata Query Service is keyless but REQUIRES a descriptive
 // User-Agent (a bare/absent UA gets 403). Runs on a runner (sandbox blocked).
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const meta = {
   source: 'wikidata',
   name: 'Historical markers (Wikidata, CC0 — links out to HMdb)',
@@ -35,7 +37,7 @@ export const meta = {
 
 export const ENDPOINT = 'https://query.wikidata.org/sparql';
 export const USER_AGENT =
-  'photo-pointer/0.9 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
 
 export function buildQuery(region) {
   const b = region.bbox;
@@ -115,7 +117,8 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
         headers: { 'User-Agent': USER_AGENT, Accept: 'application/sparql-results+json' },
         signal: AbortSignal.timeout(90000),
       });
-      if (res.status === 429) { await wait(10000); continue; }
+      // Wikimedia service: wait as long as it asks, not as long as we guess.
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 10000 })); continue; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       json = await res.json();
       break;

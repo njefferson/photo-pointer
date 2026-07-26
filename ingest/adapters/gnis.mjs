@@ -30,7 +30,7 @@ export const meta = {
 export const BASE_URL =
   'https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer';
 export const USER_AGENT =
-  'photo-pointer/1.5 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
 
 // GNIS feature classes we surface, and how each maps to a curiosity. Falls / Arch
 // / Cave map straight through; "Spring" is only a curiosity when it's a HOT one

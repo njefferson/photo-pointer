@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -125,4 +125,22 @@ test('a stated Retry-After is honoured over our own guess', () => {
   assert.equal(backoffMs(res(null), 0, { base: 5000 }), 5000);
   assert.equal(backoffMs(res(null), 2, { base: 5000 }), 15000);
   assert.equal(backoffMs(res('7'), 2, { base: 5000 }), 7000, 'the service wins');
+});
+
+// These are Wikimedia's published numbers (API:Etiquette), not our preference,
+// so they are pinned: serial, one request per second, maxlag on non-interactive
+// jobs. Running 4-wide at 120 ms is what got us throttled in the first place.
+test('the Wikimedia clients default to the published limits', () => {
+  assert.equal(WIKIMEDIA_CONCURRENCY, 1, 'API:Etiquette asks for a total concurrency of at most 1');
+  assert.equal(WIKIMEDIA_MIN_GAP_MS, 1000, 'and a delay of at least 1 second between requests');
+});
+
+test('every geosearch sends maxlag so we step aside when their databases lag', async () => {
+  const urls = [];
+  const fetchFn = async (url) => {
+    urls.push(url);
+    return { ok: true, status: 200, json: async () => ({ query: { geosearch: [] } }) };
+  };
+  await geosearchTile(1, 2, { fetchFn, sleep: async () => {} });
+  assert.ok(urls[0].includes(`maxlag=${MAXLAG_SECONDS}`), urls[0]);
 });

@@ -29,7 +29,7 @@ export const meta = {
 
 export const API = 'https://api.inaturalist.org/v1/observations';
 export const USER_AGENT =
-  'photo-pointer/0.8 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
 
 // Animals a photographer shoots that eBird does NOT cover. Aves excluded.
 export const ICONIC = ['Mammalia', 'Reptilia', 'Amphibia', 'Insecta', 'Arachnida', 'Mollusca'];

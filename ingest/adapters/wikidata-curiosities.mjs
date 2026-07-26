@@ -21,6 +21,8 @@
 // so class QIDs are confirmed by a runner pass, not locally — if a class returns
 // nothing across regions, verify its QID via WebSearch and correct it here.
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const meta = {
   source: 'wikidata',
   name: 'Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)',
@@ -31,7 +33,7 @@ export const meta = {
 
 export const ENDPOINT = 'https://query.wikidata.org/sparql';
 export const USER_AGENT =
-  'photo-pointer/1.5 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
 
 // key = a Wikidata class; label = the human "kind" shown in the popup. Matched by
 // P31 (instance of) OR P279* (subclass chain) so subtypes are caught too.
@@ -127,7 +129,8 @@ export async function ingest(region, { fetchFn = fetch, today, log = () => {}, s
         headers: { 'User-Agent': USER_AGENT, Accept: 'application/sparql-results+json' },
         signal: AbortSignal.timeout(90000),
       });
-      if (res.status === 429) { await wait(10000); continue; }
+      // Wikimedia service: wait as long as it asks, not as long as we guess.
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 10000 })); continue; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       json = await res.json();
       break;

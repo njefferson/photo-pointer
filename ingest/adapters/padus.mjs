@@ -43,7 +43,7 @@ export const BASE_CANDIDATES = [
 export const BASE_URL = BASE_CANDIDATES[0];
 
 export const USER_AGENT =
-  'photo-pointer/1.13 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
 
 // Field candidates, lowest-common-denominator first. PAD-US ships both coded
 // fields (Mang_Name) and decoded "domain" versions (d_Mang_Nam); prefer decoded,

@@ -29,7 +29,7 @@ export const BASE_URL =
   'https://mapservices.nps.gov/arcgis/rest/services/cultural_resources/nrhp_locations/MapServer';
 
 export const USER_AGENT =
-  'photo-pointer/1.9 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
 
 // The service's attributes are deliberately sparse, and capitalisation has moved
 // between releases — so match candidates CASE-INSENSITIVELY and take what exists.

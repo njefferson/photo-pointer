@@ -29,7 +29,17 @@ import { backoffMs } from './http-etiquette.mjs';
 
 export const API = 'https://commons.wikimedia.org/w/api.php';
 export const USER_AGENT =
-  'photo-pointer/0.10 (personal open-data map; github.com/njefferson/photo-pointer)';
+  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// WIKIMEDIA'S PUBLISHED LIMITS, not our own invention. API:Etiquette asks for
+// serial requests — "a total concurrency of at most 1, and a delay between
+// requests of at least 1 second" — and maxlag on non-interactive jobs. We had
+// been running 4 concurrent with a 120 ms gap, which is why we got throttled:
+// we were outside their stated terms, and the throttle was the service asking
+// us to stop. https://www.mediawiki.org/wiki/API:Etiquette
+export const WIKIMEDIA_CONCURRENCY = 1;
+export const WIKIMEDIA_MIN_GAP_MS = 1000;
+export const MAXLAG_SECONDS = 5;
+
 export const RADIUS_M = 800;      // "near this spot" (used by the ingest counter)
 export const TILE_RADIUS_M = 10000; // geosearch max radius, for harvesting
 export const TILE_LIMIT = 500;      // geosearch max results per call
@@ -39,7 +49,12 @@ export async function geosearchTile(lat, lng, { fetchFn = fetch, sleep, radius =
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
   const url =
     `${API}?action=query&format=json&list=geosearch&gsnamespace=6` +
-    `&gscoord=${lat}%7C${lng}&gsradius=${radius}&gslimit=${limit}`;
+    `&gscoord=${lat}%7C${lng}&gsradius=${radius}&gslimit=${limit}` +
+    // maxlag: Wikimedia's Action API etiquette asks non-interactive jobs to send
+    // it, so our reads step aside when their databases are lagging instead of
+    // adding to the problem. A lagged reply comes back 503 with Retry-After,
+    // which we honour.
+    `&maxlag=${MAXLAG_SECONDS}`;
   for (let attempt = 0; attempt < 4; attempt++) {
     try {
       const res = await fetchFn(url, {
@@ -75,7 +90,7 @@ export function tileCenters(bbox, stepLat = 0.12, stepLng = 0.15) {
 // tiles), badly false for a sparse statewide theme region like California Ghost
 // Towns (205 spots vs 4,264 tiles, ~3 hours, past the workflow timeout). There
 // the spots ARE the cheap index: one small geosearch each.
-export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {}, sleep, pool = 2, gap = 250 } = {}) {
+export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {}, sleep, pool = WIKIMEDIA_CONCURRENCY, gap = WIKIMEDIA_MIN_GAP_MS } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
   const images = new Map(); // pageid → {lat,lng}, deduped across overlapping spots
   let failed = [];          // the SPOTS whose probe never answered
@@ -111,7 +126,7 @@ export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {
     log(`  commons: retry pass ${round} for ${retry.length} throttled spots`);
     for (const s of retry) {
       try { await probe(s); } catch { failed.push(s); }
-      await wait(1200);
+      await wait(Math.max(gap, WIKIMEDIA_MIN_GAP_MS));
     }
   }
 
@@ -123,7 +138,7 @@ export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {
 }
 
 // Harvest every unique geotagged Commons file in the region bbox → [{lat,lng}].
-export async function harvestBBox(bbox, { fetchFn = fetch, log = () => {}, sleep, pool = 4 } = {}) {
+export async function harvestBBox(bbox, { fetchFn = fetch, log = () => {}, sleep, pool = WIKIMEDIA_CONCURRENCY, gap = WIKIMEDIA_MIN_GAP_MS } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
   const centers = tileCenters(bbox);
   const images = new Map(); // pageid -> {lat,lng} (dedups across overlapping tiles)
@@ -137,7 +152,7 @@ export async function harvestBBox(bbox, { fetchFn = fetch, log = () => {}, sleep
       } catch { /* skip a bad tile; others cover the overlap */ }
       done++;
       if (done % 20 === 0) log(`  commons: ${done}/${centers.length} tiles, ${images.size} photos harvested`);
-      await wait(120);
+      await wait(gap);
     }
   }
   await Promise.all(Array.from({ length: pool }, worker));
