@@ -107,6 +107,53 @@ async function getJson(url, fetchFn, wait) {
   }
 }
 
+// PAD-US stores DOMAIN CODES ("USFS", "NF", "OA"). The Esri-hosted service
+// carries only the coded fields, so decode here — "NF — public access: oa" is
+// jargon, not information. An unrecognised code falls back to the raw value
+// (honest, and visible enough to be reported) rather than being dropped.
+const MANAGER_DECODE = {
+  USFS: 'U.S. Forest Service', NPS: 'National Park Service', BLM: 'Bureau of Land Management',
+  FWS: 'U.S. Fish & Wildlife Service', USBR: 'Bureau of Reclamation', DOD: 'Department of Defense',
+  USACE: 'Army Corps of Engineers', ACE: 'Army Corps of Engineers', TVA: 'Tennessee Valley Authority',
+  DOE: 'Department of Energy', OTHF: 'Other federal agency', TRIB: 'Tribal land',
+  STAT: 'State agency', SPR: 'State parks & recreation', SDNR: 'State natural resources',
+  SDC: 'State conservation agency', SDOL: 'State land agency', SFW: 'State fish & wildlife',
+  SDFW: 'State fish & wildlife', OTHS: 'Other state agency',
+  CITY: 'City', CNTY: 'County', DIST: 'Regional agency or district', JNT: 'Jointly managed',
+  NGO: 'Non-profit conservation group', PVT: 'Private', UNK: null, UNKL: null,
+};
+const DESIGNATION_DECODE = {
+  NF: 'National Forest', NP: 'National Park', NM: 'National Monument',
+  NWR: 'National Wildlife Refuge', NRA: 'National Recreation Area', NST: 'National Scenic Trail',
+  WA: 'Wilderness Area', WSA: 'Wilderness Study Area', ACEC: 'Area of Critical Environmental Concern',
+  SP: 'State Park', SREC: 'State Recreation Area', SF: 'State Forest', SW: 'State Wilderness',
+  SHCA: 'State Historic or Cultural Area', SCA: 'State Conservation Area',
+  LP: 'Local Park', LREC: 'Local Recreation Area', LCONS: 'Local Conservation Area',
+  LHCA: 'Local Historic or Cultural Area', REC: 'Recreation Management Area',
+  HCA: 'Historic or Cultural Area', CONE: 'Conservation Easement', RECE: 'Recreation Easement',
+  MIL: 'Military Land', PROC: 'Proclamation Boundary', OTHER: null, UNK: null, UNKL: null,
+};
+// Access is a claim about whether you may legally be there — only the four
+// documented codes are mapped; anything else is omitted rather than guessed.
+const ACCESS_DECODE = {
+  OA: 'open', RA: 'restricted', XA: 'closed', UK: null,
+  // The decoded d_Pub_Access spellings, so either field shape lands on one word.
+  OPEN: 'open', 'OPEN ACCESS': 'open',
+  RESTRICTED: 'restricted', 'RESTRICTED ACCESS': 'restricted',
+  CLOSED: 'closed', 'CLOSED ACCESS': 'closed', UNKNOWN: null,
+};
+
+function decode(table, v, { fallback = true } = {}) {
+  if (v == null) return null;
+  const raw = String(v).trim();
+  if (!raw) return null;
+  const key = raw.toUpperCase();
+  if (Object.prototype.hasOwnProperty.call(table, key)) return table[key];
+  // Already-decoded text (a d_* field) passes through unchanged.
+  if (raw.length > 5 || /\s/.test(raw)) return raw;
+  return fallback ? raw : null;
+}
+
 // "Unknown"/"Not designated" style placeholders carry no information — treat
 // them as absent rather than showing the user a shrug.
 const EMPTY_RE = /^\s*(|unknown|not\s+designated|n\/?a|none|other)\s*$/i;
@@ -133,9 +180,9 @@ export function normalizeArea(f, layer) {
   if (!isFinite(south) || !isFinite(west)) return null;
   return {
     name,
-    manager: layer.managerField ? clean(a[layer.managerField]) : null,
-    designation: layer.designationField ? clean(a[layer.designationField]) : null,
-    access: layer.accessField ? clean(a[layer.accessField]) : null,
+    manager: layer.managerField ? decode(MANAGER_DECODE, clean(a[layer.managerField])) : null,
+    designation: layer.designationField ? decode(DESIGNATION_DECODE, clean(a[layer.designationField])) : null,
+    access: layer.accessField ? decode(ACCESS_DECODE, clean(a[layer.accessField]), { fallback: false }) : null,
     bbox: { south, west, north, east },
     // geo.pointInRing expects [lat,lng] pairs; ArcGIS gives [x,y] = [lng,lat].
     rings: rings.map((r) => r.map(([x, y]) => [y, x])),

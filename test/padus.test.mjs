@@ -49,7 +49,7 @@ test('normalizeArea converts rings to [lat,lng], derives a bbox, and is point-te
   const a = normalizeArea(f, layer);
   assert.equal(a.name, 'Folsom Lake SRA');
   assert.equal(a.manager, 'State Parks');
-  assert.equal(a.access, 'Open');
+  assert.equal(a.access, 'open'); // normalised to one word, whichever field shape
   assert.deepEqual(a.bbox, { south: 38.9, west: -121.1, north: 39.1, east: -120.9 });
   // The whole point of the geometry: does a spot fall inside it?
   assert.equal(pointInArea(39.0, -121.0, a), true);
@@ -129,4 +129,44 @@ test('resolveService reports every candidate it tried when none answer', async (
   await assert.rejects(
     () => resolveService(fetchFn, async () => {}, () => {}, ['https://a.example/x', 'https://b.example/y']),
     (e) => /a\.example/.test(e.message) && /b\.example/.test(e.message));
+});
+
+test('PAD-US domain codes are decoded into words a person can read', () => {
+  const layer = pickLayers(LAYERS)[0];
+  const a = normalizeArea({
+    attributes: { Unit_Nm: 'Eldorado National Forest', d_Mang_Nam: 'USFS', d_Des_Tp: 'NF', d_Pub_Access: 'OA' },
+    geometry: { rings: square(-121, 39, 0.1) },
+  }, layer);
+  assert.equal(a.manager, 'U.S. Forest Service');
+  assert.equal(a.designation, 'National Forest');
+  assert.equal(a.access, 'open');
+
+  const local = normalizeArea({
+    attributes: { Unit_Nm: '24th Street Bypass Park', d_Mang_Nam: 'CITY', d_Des_Tp: 'LP', d_Pub_Access: 'XA' },
+    geometry: { rings: square(-121, 39, 0.01) },
+  }, layer);
+  assert.equal(local.manager, 'City');
+  assert.equal(local.designation, 'Local Park');
+  assert.equal(local.access, 'closed');
+});
+
+test('an unknown code falls back to the raw value, but access is never guessed', () => {
+  const layer = pickLayers(LAYERS)[0];
+  const a = normalizeArea({
+    attributes: { Unit_Nm: 'X', d_Mang_Nam: 'ZZZ', d_Des_Tp: 'QQ', d_Pub_Access: 'ZZ' },
+    geometry: { rings: square(-121, 39, 0.01) },
+  }, layer);
+  assert.equal(a.manager, 'ZZZ');       // visible, so it can be reported and mapped
+  assert.equal(a.designation, 'QQ');
+  assert.equal(a.access, null);          // an access claim is never invented
+});
+
+test('an already-decoded d_* value passes through untouched', () => {
+  const layer = pickLayers(LAYERS)[0];
+  const a = normalizeArea({
+    attributes: { Unit_Nm: 'X', d_Mang_Nam: 'California State Parks', d_Des_Tp: 'State Recreation Area' },
+    geometry: { rings: square(-121, 39, 0.01) },
+  }, layer);
+  assert.equal(a.manager, 'California State Parks');
+  assert.equal(a.designation, 'State Recreation Area');
 });
