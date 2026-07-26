@@ -1,0 +1,4609 @@
+{
+  "source": {
+    "source": "padus",
+    "name": "Protected Areas Database of the United States (USGS)",
+    "license": "public-domain",
+    "attribution": "USGS Gap Analysis Project — PAD-US",
+    "status": "working"
+  },
+  "builtAt": "2026-07-26",
+  "count": 383,
+  "areas": [
+    {
+      "name": "Big Lagoon Rancheria",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 41.16379,
+        "west": -124.12199,
+        "north": 41.16495,
+        "east": -124.11914
+      }
+    },
+    {
+      "name": "Hoopa Valley Reservation",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 40.99158,
+        "west": -123.81338,
+        "north": 41.20786,
+        "east": -123.53446
+      }
+    },
+    {
+      "name": "Table Bluff Reservation",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 40.68688,
+        "west": -124.25428,
+        "north": 40.69531,
+        "east": -124.24991
+      }
+    },
+    {
+      "name": "Yurok Reservation",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 41.17703,
+        "west": -124.09318,
+        "north": 41.5612,
+        "east": -123.66426
+      }
+    },
+    {
+      "name": "Rohnerville (Rancheria) Trust Land",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 40.62256,
+        "west": -124.21626,
+        "north": 40.63172,
+        "east": -124.20223
+      }
+    },
+    {
+      "name": "Blue Lake Off-Reservation Trust Land",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 40.88291,
+        "west": -124.00436,
+        "north": 40.88916,
+        "east": -123.99502
+      }
+    },
+    {
+      "name": "Karuk Off-Reservation Trust Land",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 41.27277,
+        "west": -123.5504,
+        "north": 41.81072,
+        "east": -122.61267
+      }
+    },
+    {
+      "name": "Round Valley Off-Reservation Trust Land",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 39.79004,
+        "west": -123.47512,
+        "north": 39.95489,
+        "east": -123.15802
+      }
+    },
+    {
+      "name": "Trinidad Off-Reservation Trust Land",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 40.97926,
+        "west": -124.12832,
+        "north": 41.05656,
+        "east": -124.08816
+      }
+    },
+    {
+      "name": "Blue Lake Rancheria",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 40.88002,
+        "west": -124.00025,
+        "north": 40.88634,
+        "east": -123.99505
+      }
+    },
+    {
+      "name": "Karuk Reservation",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 41.30438,
+        "west": -123.52903,
+        "north": 41.80288,
+        "east": -123.37494
+      }
+    },
+    {
+      "name": "Round Valley Reservation",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 39.80168,
+        "west": -123.47258,
+        "north": 40.00431,
+        "east": -123.11993
+      }
+    },
+    {
+      "name": "Trinidad Rancheria",
+      "manager": "Tribal land",
+      "designation": "TRIBL",
+      "access": null,
+      "bbox": {
+        "south": 41.04992,
+        "west": -124.1331,
+        "north": 41.05728,
+        "east": -124.12829
+      }
+    },
+    {
+      "name": "Crescent City",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 41.12151,
+        "west": -124.41675,
+        "north": 41.96239,
+        "east": -124.14818
+      }
+    },
+    {
+      "name": "Crescent City",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 40.93612,
+        "west": -126.00001,
+        "north": 41.96239,
+        "east": -124.1482
+      }
+    },
+    {
+      "name": "Eureka",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 40.5862,
+        "west": -124.41627,
+        "north": 40.94606,
+        "east": -124.19938
+      }
+    },
+    {
+      "name": "Eureka",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 39.94173,
+        "west": -126.00001,
+        "north": 40.969,
+        "east": -124.12425
+      }
+    },
+    {
+      "name": "Noyo Canyon",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 38.94722,
+        "west": -126.00001,
+        "north": 39.97512,
+        "east": -124.10835
+      }
+    },
+    {
+      "name": "Redding",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 39.9782,
+        "west": -124.11906,
+        "north": 39.98562,
+        "east": -124.10651
+      }
+    },
+    {
+      "name": "Redding",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 39.97512,
+        "west": -124.12448,
+        "north": 39.98956,
+        "east": -124.10025
+      }
+    },
+    {
+      "name": "Ukiah",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 38.9996,
+        "west": -124.04938,
+        "north": 39.94326,
+        "east": -123.75943
+      }
+    },
+    {
+      "name": "Ukiah",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 38.98053,
+        "west": -124.12425,
+        "north": 39.97535,
+        "east": -123.76094
+      }
+    },
+    {
+      "name": "Weed",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 41.3798,
+        "west": -124.15027,
+        "north": 41.50315,
+        "east": -124.13149
+      }
+    },
+    {
+      "name": "Weed",
+      "manager": "BOEM",
+      "designation": "OCS",
+      "access": "open",
+      "bbox": {
+        "south": 41.38183,
+        "west": -124.15018,
+        "north": 41.49789,
+        "east": -124.13324
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 40.67086,
+        "west": -124.2748,
+        "north": 40.91595,
+        "east": -124.08246
+      }
+    },
+    {
+      "name": "Redwood National Park",
+      "manager": "National Park Service",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 41.08063,
+        "west": -124.16017,
+        "north": 41.83982,
+        "east": -123.84952
+      }
+    },
+    {
+      "name": "Steamboat Rock Special Closure",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "closed",
+      "bbox": {
+        "south": 40.4144,
+        "west": -124.40543,
+        "north": 40.41629,
+        "east": -124.40294
+      }
+    },
+    {
+      "name": "Sugarloaf Island Special Closure",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "closed",
+      "bbox": {
+        "south": 40.43715,
+        "west": -124.41613,
+        "north": 40.44017,
+        "east": -124.41156
+      }
+    },
+    {
+      "name": "Big Flat State Marine Conservation Area",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 40.125,
+        "west": -124.32278,
+        "north": 40.15667,
+        "east": -124.17199
+      }
+    },
+    {
+      "name": "Reading Rock State Marine Conservation Area",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 41.29334,
+        "west": -124.16668,
+        "north": 41.33501,
+        "east": -124.08186
+      }
+    },
+    {
+      "name": "Samoa State Marine Conservation Area",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 40.86667,
+        "west": -124.23709,
+        "north": 40.91667,
+        "east": -124.14055
+      }
+    },
+    {
+      "name": "South Humboldt Bay State Marine Recreational Management Area",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 40.70001,
+        "west": -124.26904,
+        "north": 40.71667,
+        "east": -124.25001
+      }
+    },
+    {
+      "name": "Mattole Canyon State Marine Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 40.28334,
+        "west": -124.43172,
+        "north": 40.33334,
+        "east": -124.37501
+      }
+    },
+    {
+      "name": "Reading Rock State Marine Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 41.29334,
+        "west": -124.24426,
+        "north": 41.33501,
+        "east": -124.16668
+      }
+    },
+    {
+      "name": "Sea Lion Gulch State Marine Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 40.21334,
+        "west": -124.4324,
+        "north": 40.24,
+        "east": -124.30294
+      }
+    },
+    {
+      "name": "South Cape Mendocino State Marine Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "MPA",
+      "access": "open",
+      "bbox": {
+        "south": 40.415,
+        "west": -124.53264,
+        "north": 40.435,
+        "east": -124.39705
+      }
+    },
+    {
+      "name": "Arcata Field Office",
+      "manager": "Bureau of Land Management",
+      "designation": "PUB",
+      "access": "open",
+      "bbox": {
+        "south": 39.43088,
+        "west": -124.39862,
+        "north": 41.20649,
+        "east": -123.0161
+      }
+    },
+    {
+      "name": "Redding Field Office",
+      "manager": "Bureau of Land Management",
+      "designation": "PUB",
+      "access": "open",
+      "bbox": {
+        "south": 39.46841,
+        "west": -123.50279,
+        "north": 42.00102,
+        "east": -121.27668
+      }
+    },
+    {
+      "name": "Klamath National Forest",
+      "manager": "U.S. Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 40.9922,
+        "west": -123.70381,
+        "north": 42.00634,
+        "east": -121.60463
+      }
+    },
+    {
+      "name": "Klamath National Forest",
+      "manager": "U.S. Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 41.28357,
+        "west": -123.71925,
+        "north": 41.63575,
+        "east": -123.26186
+      }
+    },
+    {
+      "name": "Six Rivers National Forest",
+      "manager": "U.S. Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 40.01735,
+        "west": -124.09563,
+        "north": 41.99657,
+        "east": -123.12655
+      }
+    },
+    {
+      "name": "Trinity National Forest",
+      "manager": "U.S. Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 40.07534,
+        "west": -123.58543,
+        "north": 41.25227,
+        "east": -122.12879
+      }
+    },
+    {
+      "name": "Redwood National Park",
+      "manager": "National Park Service",
+      "designation": "National Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.08086,
+        "west": -124.15491,
+        "north": 41.81219,
+        "east": -123.84882
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "National Wildlife Refuge",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.67067,
+        "west": -124.27484,
+        "north": 40.91589,
+        "east": -124.08246
+      }
+    },
+    {
+      "name": "Redwood Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.86831,
+        "west": -124.07517,
+        "north": 40.87118,
+        "east": -124.07082
+      }
+    },
+    {
+      "name": "Jefferson Community Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.79663,
+        "west": -124.17068,
+        "north": 40.79781,
+        "east": -124.1702
+      }
+    },
+    {
+      "name": "Scotia Ballpark",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.47502,
+        "west": -124.10902,
+        "north": 40.47902,
+        "east": -124.10612
+      }
+    },
+    {
+      "name": "Redwood Fields",
+      "manager": "Private",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.76865,
+        "west": -124.13923,
+        "north": 40.77103,
+        "east": -124.13715
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge",
+      "manager": "Private",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 40.71636,
+        "west": -124.22137,
+        "north": 40.72239,
+        "east": -124.21588
+      }
+    },
+    {
+      "name": "Samoa Park",
+      "manager": "Private",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.81886,
+        "west": -124.18641,
+        "north": 40.82017,
+        "east": -124.18529
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.78056,
+        "west": -124.12961,
+        "north": 40.78169,
+        "east": -124.12559
+      }
+    },
+    {
+      "name": "Manila Community Park",
+      "manager": "Regional agency",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.85012,
+        "west": -124.16249,
+        "north": 40.85318,
+        "east": -124.15861
+      }
+    },
+    {
+      "name": "Manila Dunes Recreation Area",
+      "manager": "Regional agency",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.83876,
+        "west": -124.17984,
+        "north": 40.854,
+        "east": -124.16798
+      }
+    },
+    {
+      "name": "Larissa Park",
+      "manager": "Regional agency",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.95492,
+        "west": -124.10339,
+        "north": 40.95518,
+        "east": -124.10287
+      }
+    },
+    {
+      "name": "Pierson Park",
+      "manager": "Regional agency",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.94308,
+        "west": -124.09945,
+        "north": 40.94436,
+        "east": -124.09763
+      }
+    },
+    {
+      "name": "Riverfront Park",
+      "manager": "Regional agency",
+      "designation": "Local Park",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.9122,
+        "west": -124.08425,
+        "north": 40.91665,
+        "east": -124.07918
+      }
+    },
+    {
+      "name": "Hiller Park Playground and Picnic Area",
+      "manager": "Regional agency",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.9423,
+        "west": -124.12554,
+        "north": 40.94902,
+        "east": -124.11649
+      }
+    },
+    {
+      "name": "Scotia Fireman's Park",
+      "manager": "Regional agency",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.47502,
+        "west": -124.10902,
+        "north": 40.47902,
+        "east": -124.10612
+      }
+    },
+    {
+      "name": "Veterans Park",
+      "manager": "Regional agency",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.94301,
+        "west": -123.6191,
+        "north": 40.94722,
+        "east": -123.61675
+      }
+    },
+    {
+      "name": "Headwaters Forest Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.60593,
+        "west": -124.14743,
+        "north": 40.69348,
+        "east": -124.02013
+      }
+    },
+    {
+      "name": "Arcata Marsh & Wildlife Sanctuary",
+      "manager": "City",
+      "designation": "LCA",
+      "access": "open",
+      "bbox": {
+        "south": 40.84847,
+        "west": -124.10338,
+        "north": 40.86746,
+        "east": -124.08308
+      }
+    },
+    {
+      "name": "Dellanina Nature Preserve",
+      "manager": "City",
+      "designation": "LCA",
+      "access": "open",
+      "bbox": {
+        "south": 40.87428,
+        "west": -124.09104,
+        "north": 40.87657,
+        "east": -124.09036
+      }
+    },
+    {
+      "name": "Jacoby Creek-Gannon Slough Wildlife Area",
+      "manager": "City",
+      "designation": "LCA",
+      "access": "open",
+      "bbox": {
+        "south": 40.83503,
+        "west": -124.08209,
+        "north": 40.86184,
+        "east": -124.06498
+      }
+    },
+    {
+      "name": "Aldergrove Marsh",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.90125,
+        "west": -124.06932,
+        "north": 40.90706,
+        "east": -124.06564
+      }
+    },
+    {
+      "name": "City of Arcata Openspace",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.87204,
+        "west": -124.09679,
+        "north": 40.89287,
+        "east": -124.07221
+      }
+    },
+    {
+      "name": "City of Arcata Openspace",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "closed",
+      "bbox": {
+        "south": 40.86728,
+        "west": -124.09775,
+        "north": 40.87291,
+        "east": -124.08824
+      }
+    },
+    {
+      "name": "Janes Creek Meadows Openspace",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.88537,
+        "west": -124.08512,
+        "north": 40.889,
+        "east": -124.08149
+      }
+    },
+    {
+      "name": "Janes Creek Openspace",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "closed",
+      "bbox": {
+        "south": 40.88379,
+        "west": -124.0888,
+        "north": 40.88604,
+        "east": -124.08554
+      }
+    },
+    {
+      "name": "Stewart Court Openspace",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.88211,
+        "west": -124.09034,
+        "north": 40.88306,
+        "east": -124.08883
+      }
+    },
+    {
+      "name": "Arcata Community Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.86205,
+        "west": -124.08265,
+        "north": 40.86607,
+        "east": -124.07725
+      }
+    },
+    {
+      "name": "Arcata Plaza",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.86834,
+        "west": -124.08693,
+        "north": 40.86889,
+        "east": -124.08599
+      }
+    },
+    {
+      "name": "Bayside Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.85435,
+        "west": -124.07015,
+        "north": 40.8556,
+        "east": -124.06814
+      }
+    },
+    {
+      "name": "Bloomfield Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87515,
+        "west": -124.09817,
+        "north": 40.87541,
+        "east": -124.09773
+      }
+    },
+    {
+      "name": "Cahill Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.88368,
+        "west": -124.08622,
+        "north": 40.884,
+        "east": -124.08492
+      }
+    },
+    {
+      "name": "Carlson Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.90609,
+        "west": -124.08117,
+        "north": 40.90862,
+        "east": -124.07677
+      }
+    },
+    {
+      "name": "Chevret-Vaissade Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.89296,
+        "west": -124.08865,
+        "north": 40.8939,
+        "east": -124.08787
+      }
+    },
+    {
+      "name": "D Street Linear Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.86822,
+        "west": -124.08274,
+        "north": 40.87207,
+        "east": -124.08118
+      }
+    },
+    {
+      "name": "Ennes Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.88393,
+        "west": -124.09818,
+        "north": 40.88547,
+        "east": -124.09577
+      }
+    },
+    {
+      "name": "Greeniview Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87431,
+        "west": -124.10198,
+        "north": 40.87507,
+        "east": -124.10163
+      }
+    },
+    {
+      "name": "Janes Creek Linear Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.86873,
+        "west": -124.10117,
+        "north": 40.87217,
+        "east": -124.09914
+      }
+    },
+    {
+      "name": "Janes Creek Meadows Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.88805,
+        "west": -124.08301,
+        "north": 40.88855,
+        "east": -124.08228
+      }
+    },
+    {
+      "name": "Larson Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.8797,
+        "west": -124.08409,
+        "north": 40.88098,
+        "east": -124.08281
+      }
+    },
+    {
+      "name": "Mountain View Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87388,
+        "west": -124.10403,
+        "north": 40.87419,
+        "east": -124.10341
+      }
+    },
+    {
+      "name": "Pacific Union Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.89366,
+        "west": -124.09142,
+        "north": 40.8951,
+        "east": -124.08917
+      }
+    },
+    {
+      "name": "Redwood Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87058,
+        "west": -124.07705,
+        "north": 40.8714,
+        "east": -124.07466
+      }
+    },
+    {
+      "name": "Rotary Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.86235,
+        "west": -124.08809,
+        "north": 40.86253,
+        "east": -124.0872
+      }
+    },
+    {
+      "name": "Shay Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87728,
+        "west": -124.09164,
+        "north": 40.87927,
+        "east": -124.08901
+      }
+    },
+    {
+      "name": "Stewart Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87391,
+        "west": -124.08835,
+        "north": 40.87491,
+        "east": -124.08716
+      }
+    },
+    {
+      "name": "Sunny Brae Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.85937,
+        "west": -124.06736,
+        "north": 40.86067,
+        "east": -124.06421
+      }
+    },
+    {
+      "name": "Valley West Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.89951,
+        "west": -124.08446,
+        "north": 40.90156,
+        "east": -124.08032
+      }
+    },
+    {
+      "name": "Vinum Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87279,
+        "west": -124.08307,
+        "north": 40.87326,
+        "east": -124.08286
+      }
+    },
+    {
+      "name": "Westwood Manor Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87951,
+        "west": -124.09422,
+        "north": 40.88162,
+        "east": -124.09246
+      }
+    },
+    {
+      "name": "Windsong Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.87047,
+        "west": -124.10357,
+        "north": 40.87196,
+        "east": -124.10269
+      }
+    },
+    {
+      "name": "Woodland Heights Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.89,
+        "west": -124.07619,
+        "north": 40.89096,
+        "east": -124.07556
+      }
+    },
+    {
+      "name": "Arcata Ball Park",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.86692,
+        "west": -124.08494,
+        "north": 40.86851,
+        "east": -124.08348
+      }
+    },
+    {
+      "name": "Arcata Ridge Trail",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": null,
+      "bbox": {
+        "south": 40.86229,
+        "west": -124.06847,
+        "north": 40.86467,
+        "east": -124.06674
+      }
+    },
+    {
+      "name": "Arcata Skateboard Park",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.87914,
+        "west": -124.0845,
+        "north": 40.87975,
+        "east": -124.08363
+      }
+    },
+    {
+      "name": "Arcata Community Forest",
+      "manager": "City",
+      "designation": "LRMA",
+      "access": "open",
+      "bbox": {
+        "south": 40.86674,
+        "west": -124.07493,
+        "north": 40.88302,
+        "east": -124.04321
+      }
+    },
+    {
+      "name": "Jacoby Creek Forest",
+      "manager": "City",
+      "designation": "LRMA",
+      "access": "open",
+      "bbox": {
+        "south": 40.76595,
+        "west": -124.02577,
+        "north": 40.80436,
+        "east": -123.95935
+      }
+    },
+    {
+      "name": "Sunny Brae Forest",
+      "manager": "City",
+      "designation": "LRMA",
+      "access": "open",
+      "bbox": {
+        "south": 40.85359,
+        "west": -124.06295,
+        "north": 40.86827,
+        "east": -124.0433
+      }
+    },
+    {
+      "name": "Blue Lake Holding 1",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.88144,
+        "west": -123.99522,
+        "north": 40.88307,
+        "east": -123.99198
+      }
+    },
+    {
+      "name": "City of Blue Lake Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.88007,
+        "west": -123.99074,
+        "north": 40.88021,
+        "east": -123.99021
+      }
+    },
+    {
+      "name": "City of Blue Lake Tot Lot",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.88184,
+        "west": -123.98551,
+        "north": 40.88196,
+        "east": -123.98527
+      }
+    },
+    {
+      "name": "Myrtle Grove Cemetery",
+      "manager": "City",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.79816,
+        "west": -124.15134,
+        "north": 40.80094,
+        "east": -124.14904
+      }
+    },
+    {
+      "name": "City of Eureka lot",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.75181,
+        "west": -124.21289,
+        "north": 40.83248,
+        "east": -124.09976
+      }
+    },
+    {
+      "name": "Eureka Public Marina",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.80209,
+        "west": -124.17999,
+        "north": 40.80445,
+        "east": -124.17561
+      }
+    },
+    {
+      "name": "Jacob-Haney Ballfield",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.78401,
+        "west": -124.17492,
+        "north": 40.78457,
+        "east": -124.17401
+      }
+    },
+    {
+      "name": "Palco Marsh",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.77792,
+        "west": -124.19472,
+        "north": 40.79066,
+        "east": -124.18072
+      }
+    },
+    {
+      "name": "Carson Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.78458,
+        "west": -124.16117,
+        "north": 40.78606,
+        "east": -124.16027
+      }
+    },
+    {
+      "name": "Clark Plaza",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.80355,
+        "west": -124.16745,
+        "north": 40.80385,
+        "east": -124.16724
+      }
+    },
+    {
+      "name": "Cooper Gulch Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.79615,
+        "west": -124.15515,
+        "north": 40.80142,
+        "east": -124.15093
+      }
+    },
+    {
+      "name": "Eureka Dog Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.78825,
+        "west": -124.1432,
+        "north": 40.78963,
+        "east": -124.14223
+      }
+    },
+    {
+      "name": "Halvorsen Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.80646,
+        "west": -124.1592,
+        "north": 40.80941,
+        "east": -124.15207
+      }
+    },
+    {
+      "name": "Hammond Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.79366,
+        "west": -124.165,
+        "north": 40.79443,
+        "east": -124.16414
+      }
+    },
+    {
+      "name": "Highland Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.77577,
+        "west": -124.18465,
+        "north": 40.77717,
+        "east": -124.18326
+      }
+    },
+    {
+      "name": "Lundbar Hills Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.75813,
+        "west": -124.16355,
+        "north": 40.7589,
+        "east": -124.16275
+      }
+    },
+    {
+      "name": "Neighborhood Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.79265,
+        "west": -124.15357,
+        "north": 40.79286,
+        "east": -124.15315
+      }
+    },
+    {
+      "name": "Old Town Gazebo Plaza",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.80442,
+        "west": -124.16718,
+        "north": 40.80478,
+        "east": -124.16672
+      }
+    },
+    {
+      "name": "Ross Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.79739,
+        "west": -124.15707,
+        "north": 40.79816,
+        "east": -124.15606
+      }
+    },
+    {
+      "name": "Sacco Amphitheater Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.8061,
+        "west": -124.15959,
+        "north": 40.80655,
+        "east": -124.15878
+      }
+    },
+    {
+      "name": "Sequoia Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.77425,
+        "west": -124.15341,
+        "north": 40.77875,
+        "east": -124.14456
+      }
+    },
+    {
+      "name": "20-30 Park and Playground",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.78401,
+        "west": -124.17402,
+        "north": 40.78457,
+        "east": -124.172
+      }
+    },
+    {
+      "name": "Clara May Berry Park & Playground",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.80564,
+        "west": -124.15716,
+        "north": 40.80631,
+        "east": -124.15677
+      }
+    },
+    {
+      "name": "Del Norte Street Picnic Area",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.79004,
+        "west": -124.18673,
+        "north": 40.79064,
+        "east": -124.18536
+      }
+    },
+    {
+      "name": "Eureka Municipal Golf Course",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.7517,
+        "west": -124.17332,
+        "north": 40.76582,
+        "east": -124.16433
+      }
+    },
+    {
+      "name": "Hartman Ball Field",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.77532,
+        "west": -124.14436,
+        "north": 40.77623,
+        "east": -124.14317
+      }
+    },
+    {
+      "name": "John Ryan Youth Center",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.79266,
+        "west": -124.15929,
+        "north": 40.79363,
+        "east": -124.15865
+      }
+    },
+    {
+      "name": "Kennedy Ball Field",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.77464,
+        "west": -124.1434,
+        "north": 40.7755,
+        "east": -124.1422
+      }
+    },
+    {
+      "name": "Russ Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.5625,
+        "west": -124.25978,
+        "north": 40.5727,
+        "east": -124.25467
+      }
+    },
+    {
+      "name": "Fortuna Holding 1",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.57245,
+        "west": -124.26654,
+        "north": 40.57397,
+        "east": -124.26399
+      }
+    },
+    {
+      "name": "Fortuna Holding 2",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.57023,
+        "west": -124.14763,
+        "north": 40.57318,
+        "east": -124.14529
+      }
+    },
+    {
+      "name": "Newburg Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.59061,
+        "west": -124.13907,
+        "north": 40.59391,
+        "east": -124.13377
+      }
+    },
+    {
+      "name": "Rohner Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.59796,
+        "west": -124.15628,
+        "north": 40.60657,
+        "east": -124.14498
+      }
+    },
+    {
+      "name": "Rio Dell City Hall Grounds",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.49827,
+        "west": -124.10672,
+        "north": 40.49916,
+        "east": -124.10612
+      }
+    },
+    {
+      "name": "Unnamed site - Rio Dell, City of",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": null,
+      "bbox": {
+        "south": 40.4928,
+        "west": -124.10346,
+        "north": 40.49314,
+        "east": -124.10298
+      }
+    },
+    {
+      "name": "Unnamed site - Rio Dell, City of",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.50672,
+        "west": -124.10655,
+        "north": 40.50719,
+        "east": -124.10589
+      }
+    },
+    {
+      "name": "Memorial Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.4983,
+        "west": -124.10602,
+        "north": 40.49915,
+        "east": -124.10556
+      }
+    },
+    {
+      "name": "Side Street Park",
+      "manager": "City",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.49743,
+        "west": -124.10652,
+        "north": 40.49815,
+        "east": -124.10582
+      }
+    },
+    {
+      "name": "Firemans Park and Picnic Area",
+      "manager": "City",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.49984,
+        "west": -124.10801,
+        "north": 40.50114,
+        "east": -124.10644
+      }
+    },
+    {
+      "name": "Tsurai Village",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 41.05731,
+        "west": -124.14481,
+        "north": 41.05909,
+        "east": -124.13894
+      }
+    },
+    {
+      "name": "Trinidad Holding 1",
+      "manager": "City",
+      "designation": "LOTH",
+      "access": "open",
+      "bbox": {
+        "south": 41.05221,
+        "west": -124.15322,
+        "north": 41.05709,
+        "east": -124.14732
+      }
+    },
+    {
+      "name": "McKay Community Forest",
+      "manager": "County",
+      "designation": "LRMA",
+      "access": "open",
+      "bbox": {
+        "south": 40.72313,
+        "west": -124.14583,
+        "north": 40.7951,
+        "east": -124.11975
+      }
+    },
+    {
+      "name": "Unnamed site - Humboldt, County of",
+      "manager": "County",
+      "designation": "LOTH",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.47602,
+        "west": -123.96183,
+        "north": 40.48001,
+        "east": -123.95667
+      }
+    },
+    {
+      "name": "Arthur W. Way Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.26651,
+        "west": -124.23232,
+        "north": 40.26964,
+        "east": -124.22654
+      }
+    },
+    {
+      "name": "Big Lagoon Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.16256,
+        "west": -124.13355,
+        "north": 41.16385,
+        "east": -124.1306
+      }
+    },
+    {
+      "name": "Centerville Beach",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.57313,
+        "west": -124.35149,
+        "north": 40.57383,
+        "east": -124.34942
+      }
+    },
+    {
+      "name": "Clam Beach County Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.95633,
+        "west": -124.12801,
+        "north": 41.0068,
+        "east": -124.11011
+      }
+    },
+    {
+      "name": "Freshwater Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.75546,
+        "west": -124.05118,
+        "north": 40.75812,
+        "east": -124.04895
+      }
+    },
+    {
+      "name": "Mad River County Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.91655,
+        "west": -124.14051,
+        "north": 40.93449,
+        "east": -124.12976
+      }
+    },
+    {
+      "name": "Moonstone Beach County Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.02921,
+        "west": -124.11353,
+        "north": 41.03155,
+        "east": -124.11111
+      }
+    },
+    {
+      "name": "Samoa Boat Ramp County Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.77046,
+        "west": -124.21446,
+        "north": 40.77335,
+        "east": -124.21023
+      }
+    },
+    {
+      "name": "Tooby Memorial Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.08913,
+        "west": -123.799,
+        "north": 40.09114,
+        "east": -123.79545
+      }
+    },
+    {
+      "name": "Van Duzen Park",
+      "manager": "County",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.48068,
+        "west": -123.98648,
+        "north": 40.49964,
+        "east": -123.96426
+      }
+    },
+    {
+      "name": "Gymkhana Field",
+      "manager": "County",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.87998,
+        "west": -123.99352,
+        "north": 40.88117,
+        "east": -123.99174
+      }
+    },
+    {
+      "name": "Humboldt Coastal Nature Center",
+      "manager": "Non-profit conservation group",
+      "designation": "PREC",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.85398,
+        "west": -124.17117,
+        "north": 40.86133,
+        "east": -124.15928
+      }
+    },
+    {
+      "name": "Mad River Bluffs",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 40.94243,
+        "west": -124.12972,
+        "north": 40.94904,
+        "east": -124.12431
+      }
+    },
+    {
+      "name": "Freshwater Farms Reserve",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": null,
+      "bbox": {
+        "south": 40.78367,
+        "west": -124.10153,
+        "north": 40.78736,
+        "east": -124.08812
+      }
+    },
+    {
+      "name": "Martin Slough",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": null,
+      "bbox": {
+        "south": 40.75019,
+        "west": -124.18308,
+        "north": 40.75483,
+        "east": -124.17329
+      }
+    },
+    {
+      "name": "McNamara Dairy",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": null,
+      "bbox": {
+        "south": 41.29217,
+        "west": -124.08071,
+        "north": 41.29969,
+        "east": -124.06776
+      }
+    },
+    {
+      "name": "Ancestor Grove",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "restricted",
+      "bbox": {
+        "south": 39.9742,
+        "west": -123.95572,
+        "north": 39.97498,
+        "east": -123.95424
+      }
+    },
+    {
+      "name": "Anderson Creek",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.02754,
+        "west": -123.96978,
+        "north": 40.03601,
+        "east": -123.95435
+      }
+    },
+    {
+      "name": "Estes",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "closed",
+      "bbox": {
+        "south": 40.02916,
+        "west": -123.97735,
+        "north": 40.03298,
+        "east": -123.97463
+      }
+    },
+    {
+      "name": "Junction Property",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.06117,
+        "west": -123.96426,
+        "north": 40.06291,
+        "east": -123.96068
+      }
+    },
+    {
+      "name": "Lost River",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "restricted",
+      "bbox": {
+        "south": 39.9799,
+        "west": -123.92444,
+        "north": 39.99174,
+        "east": -123.90998
+      }
+    },
+    {
+      "name": "McKee Creek",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.06821,
+        "west": -123.95896,
+        "north": 40.08216,
+        "east": -123.94537
+      }
+    },
+    {
+      "name": "Ransom",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "closed",
+      "bbox": {
+        "south": 39.97978,
+        "west": -123.93319,
+        "north": 39.98358,
+        "east": -123.93015
+      }
+    },
+    {
+      "name": "Robbins",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "closed",
+      "bbox": {
+        "south": 39.97982,
+        "west": -123.93057,
+        "north": 39.98365,
+        "east": -123.92888
+      }
+    },
+    {
+      "name": "Whitethorn Grove",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.02364,
+        "west": -123.94933,
+        "north": 40.02736,
+        "east": -123.94445
+      }
+    },
+    {
+      "name": "Berry Glen Trail Connection",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": null,
+      "bbox": {
+        "south": 41.31741,
+        "west": -124.04066,
+        "north": 41.32125,
+        "east": -124.03853
+      }
+    },
+    {
+      "name": "Orick Mill Site",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": null,
+      "bbox": {
+        "south": 41.30009,
+        "west": -124.04762,
+        "north": 41.31625,
+        "east": -124.03954
+      }
+    },
+    {
+      "name": "Unnamed site - Save the Redwoods League",
+      "manager": "Non-profit conservation group",
+      "designation": "POTH",
+      "access": null,
+      "bbox": {
+        "south": 36.26233,
+        "west": -124.14998,
+        "north": 41.79307,
+        "east": -120.2352
+      }
+    },
+    {
+      "name": "Eel River Estuary Preserve",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 40.58758,
+        "west": -124.34453,
+        "north": 40.63243,
+        "east": -124.31051
+      }
+    },
+    {
+      "name": "Sounding Seas Dunes Reserve",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 40.59165,
+        "west": -124.33994,
+        "north": 40.6244,
+        "east": -124.32122
+      }
+    },
+    {
+      "name": "Spyrock Reserve",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 39.83568,
+        "west": -123.44707,
+        "north": 39.9245,
+        "east": -123.39171
+      }
+    },
+    {
+      "name": "Baker Beach",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 41.04672,
+        "west": -124.12856,
+        "north": 41.05212,
+        "east": -124.12393
+      }
+    },
+    {
+      "name": "Bruno Groth Grove",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 41.05823,
+        "west": -124.13918,
+        "north": 41.06106,
+        "east": -124.13855
+      }
+    },
+    {
+      "name": "North Luffenholtz Beach",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "open",
+      "bbox": {
+        "south": 41.04316,
+        "west": -124.12253,
+        "north": 41.04463,
+        "east": -124.12028
+      }
+    },
+    {
+      "name": "Pilot Point Nature Reserve",
+      "manager": "Non-profit conservation group",
+      "designation": "PCON",
+      "access": "closed",
+      "bbox": {
+        "south": 41.03216,
+        "west": -124.11627,
+        "north": 41.03421,
+        "east": -124.11099
+      }
+    },
+    {
+      "name": "Houda Point/Camel Rock Beach Park",
+      "manager": "Non-profit conservation group",
+      "designation": "PREC",
+      "access": "open",
+      "bbox": {
+        "south": 41.03607,
+        "west": -124.11967,
+        "north": 41.0388,
+        "east": -124.11804
+      }
+    },
+    {
+      "name": "Saunders Park",
+      "manager": "Non-profit conservation group",
+      "designation": "PREC",
+      "access": "open",
+      "bbox": {
+        "south": 41.06118,
+        "west": -124.14213,
+        "north": 41.06253,
+        "east": -124.14073
+      }
+    },
+    {
+      "name": "Unnamed site - Jacoby Creek Land Trust",
+      "manager": "Private",
+      "designation": "POTH",
+      "access": null,
+      "bbox": {
+        "south": 40.80815,
+        "west": -124.0701,
+        "north": 40.83952,
+        "east": -124.02347
+      }
+    },
+    {
+      "name": "Unnamed site - California Department of Transportation",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.07503,
+        "west": -124.15908,
+        "north": 40.92258,
+        "east": -123.7889
+      }
+    },
+    {
+      "name": "Unnamed site - California State University",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.86571,
+        "west": -124.15054,
+        "north": 40.8685,
+        "east": -124.13652
+      }
+    },
+    {
+      "name": "Clam Beach Ponds",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": null,
+      "bbox": {
+        "south": 40.99977,
+        "west": -124.1124,
+        "north": 41.00673,
+        "east": -124.10993
+      }
+    },
+    {
+      "name": "Other State 11",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.14413,
+        "west": -123.67236,
+        "north": 40.14486,
+        "east": -123.67138
+      }
+    },
+    {
+      "name": "Other State 14",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.14089,
+        "west": -123.67239,
+        "north": 40.14151,
+        "east": -123.67149
+      }
+    },
+    {
+      "name": "Other State 18",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.48823,
+        "west": -123.62867,
+        "north": 40.48946,
+        "east": -123.62629
+      }
+    },
+    {
+      "name": "Other State 37",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.46142,
+        "west": -123.84304,
+        "north": 40.46273,
+        "east": -123.84124
+      }
+    },
+    {
+      "name": "Other State 4",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.46368,
+        "west": -123.83903,
+        "north": 40.46793,
+        "east": -123.83422
+      }
+    },
+    {
+      "name": "Other State 43",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.47861,
+        "west": -123.78185,
+        "north": 40.47987,
+        "east": -123.78065
+      }
+    },
+    {
+      "name": "Other State 5",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.4623,
+        "west": -123.8447,
+        "north": 40.4632,
+        "east": -123.84303
+      }
+    },
+    {
+      "name": "Unnamed site - Other State",
+      "manager": "Other state agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 34.69001,
+        "west": -124.2689,
+        "north": 41.27719,
+        "east": -120.34384
+      }
+    },
+    {
+      "name": "Del Norte Street Pier",
+      "manager": "State conservation agency",
+      "designation": "SOTH",
+      "access": "closed",
+      "bbox": {
+        "south": 40.79066,
+        "west": -124.18904,
+        "north": 40.79083,
+        "east": -124.18515
+      }
+    },
+    {
+      "name": "McClellan Mountain Peatland",
+      "manager": "State fish & wildlife",
+      "designation": "SRMA",
+      "access": "closed",
+      "bbox": {
+        "south": 40.4736,
+        "west": -123.68415,
+        "north": 40.48271,
+        "east": -123.66994
+      }
+    },
+    {
+      "name": "Unnamed site - California State Lands Commission",
+      "manager": "State land agency",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.69168,
+        "west": -124.24509,
+        "north": 40.73822,
+        "east": -124.2356
+      }
+    },
+    {
+      "name": "California State Lands Commission",
+      "manager": "State land agency",
+      "designation": "SRMA",
+      "access": "open",
+      "bbox": {
+        "south": 32.68288,
+        "west": -124.16262,
+        "north": 41.99738,
+        "east": -114.24526
+      }
+    },
+    {
+      "name": "Big Lagoon Wildlife Area",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 41.15806,
+        "west": -124.13145,
+        "north": 41.20257,
+        "east": -124.10289
+      }
+    },
+    {
+      "name": "Eel River Wildlife Area",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.59523,
+        "west": -124.31584,
+        "north": 40.69642,
+        "east": -124.22611
+      }
+    },
+    {
+      "name": "Elk River Wildlife Area",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.74485,
+        "west": -124.19548,
+        "north": 40.75517,
+        "east": -124.18721
+      }
+    },
+    {
+      "name": "Fay Slough Wildlife Area",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.80023,
+        "west": -124.1171,
+        "north": 40.8184,
+        "east": -124.09271
+      }
+    },
+    {
+      "name": "Little Butte Ecological Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 39.95973,
+        "west": -123.67211,
+        "north": 39.9778,
+        "east": -123.65821
+      }
+    },
+    {
+      "name": "Little Red Mountain Ecological Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 39.84453,
+        "west": -123.67587,
+        "north": 39.89445,
+        "east": -123.61592
+      }
+    },
+    {
+      "name": "Mad River Slough Wildlife Area",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.85275,
+        "west": -124.1579,
+        "north": 40.86838,
+        "east": -124.10042
+      }
+    },
+    {
+      "name": "Mattole River Ecological Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 39.96903,
+        "west": -123.96261,
+        "north": 39.99865,
+        "east": -123.91401
+      }
+    },
+    {
+      "name": "Owl Creek Ecological Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.53266,
+        "west": -123.95169,
+        "north": 40.57532,
+        "east": -123.91365
+      }
+    },
+    {
+      "name": "South Spit Wildlife Area",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.69783,
+        "west": -124.27611,
+        "north": 40.75636,
+        "east": -124.22589
+      }
+    },
+    {
+      "name": "Table Bluff Ecological Reserve",
+      "manager": "State fish & wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.68723,
+        "west": -124.27424,
+        "north": 40.69725,
+        "east": -124.26429
+      }
+    },
+    {
+      "name": "Mad River Fish Hatchery",
+      "manager": "State fish & wildlife",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 40.85205,
+        "west": -123.99442,
+        "north": 40.8573,
+        "east": -123.98794
+      }
+    },
+    {
+      "name": "Unnamed site - California Department of Fish and Wildlife",
+      "manager": "State fish & wildlife",
+      "designation": "SOTH",
+      "access": "closed",
+      "bbox": {
+        "south": 40.49284,
+        "west": -124.09933,
+        "north": 40.49371,
+        "east": -124.09818
+      }
+    },
+    {
+      "name": "Luffenholtz Creek Fishing Access",
+      "manager": "State fish & wildlife",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 41.03884,
+        "west": -124.12176,
+        "north": 41.04199,
+        "east": -124.1185
+      }
+    },
+    {
+      "name": "South Fork Eel River Fishing Access",
+      "manager": "State fish & wildlife",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.1718,
+        "west": -123.78268,
+        "north": 40.19445,
+        "east": -123.76897
+      }
+    },
+    {
+      "name": "Bracut Tidelands",
+      "manager": "State fish & wildlife",
+      "designation": "SRMA",
+      "access": "open",
+      "bbox": {
+        "south": 40.82305,
+        "west": -124.10366,
+        "north": 40.83153,
+        "east": -124.08607
+      }
+    },
+    {
+      "name": "Grizzly Creek",
+      "manager": "State fish & wildlife",
+      "designation": "SRMA",
+      "access": "closed",
+      "bbox": {
+        "south": 40.4742,
+        "west": -123.94704,
+        "north": 40.49785,
+        "east": -123.8915
+      }
+    },
+    {
+      "name": "Azalea State Natural Reserve",
+      "manager": "State parks & recreation",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.91594,
+        "west": -124.08244,
+        "north": 40.91965,
+        "east": -124.0768
+      }
+    },
+    {
+      "name": "John B. Dewitt Redwoods State Natural Reserve",
+      "manager": "State parks & recreation",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.10649,
+        "west": -123.85494,
+        "north": 40.14122,
+        "east": -123.80646
+      }
+    },
+    {
+      "name": "Smithe Redwoods State Natural Reserve",
+      "manager": "State parks & recreation",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 39.89142,
+        "west": -123.76008,
+        "north": 39.90595,
+        "east": -123.73208
+      }
+    },
+    {
+      "name": "Fort Humboldt State Historic Park",
+      "manager": "State parks & recreation",
+      "designation": "State Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.77569,
+        "west": -124.19011,
+        "north": 40.7789,
+        "east": -124.18631
+      }
+    },
+    {
+      "name": "Unnamed site - California Department of Parks and Recreation",
+      "manager": "State parks & recreation",
+      "designation": "SOTH",
+      "access": "open",
+      "bbox": {
+        "south": 34.06712,
+        "west": -124.1789,
+        "north": 40.59879,
+        "east": -118.7365
+      }
+    },
+    {
+      "name": "Grizzly Creek Redwoods State Park",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.47595,
+        "west": -123.96939,
+        "north": 40.48912,
+        "east": -123.89848
+      }
+    },
+    {
+      "name": "Humboldt Lagoons State Park",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.16348,
+        "west": -124.13456,
+        "north": 41.27983,
+        "east": -124.07707
+      }
+    },
+    {
+      "name": "Humboldt Redwoods State Park",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.17269,
+        "west": -124.08284,
+        "north": 40.45376,
+        "east": -123.76888
+      }
+    },
+    {
+      "name": "Little River State Beach",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.00694,
+        "west": -124.11589,
+        "north": 41.02495,
+        "east": -124.10607
+      }
+    },
+    {
+      "name": "Patrick's Point State Park",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.12483,
+        "west": -124.16553,
+        "north": 41.15888,
+        "east": -124.13544
+      }
+    },
+    {
+      "name": "Prairie Creek Redwoods State Park",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.34623,
+        "west": -124.07727,
+        "north": 41.47223,
+        "east": -123.99634
+      }
+    },
+    {
+      "name": "Richardson Grove State Park",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 40.00809,
+        "west": -123.83162,
+        "north": 40.03505,
+        "east": -123.77597
+      }
+    },
+    {
+      "name": "Trinidad State Beach",
+      "manager": "State parks & recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 41.05863,
+        "west": -124.15948,
+        "north": 41.07235,
+        "east": -124.14274
+      }
+    },
+    {
+      "name": "Benbow State Recreation Area",
+      "manager": "State parks & recreation",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 40.04969,
+        "west": -123.82853,
+        "north": 40.07673,
+        "east": -123.77877
+      }
+    },
+    {
+      "name": "Harry A. Merlo State Recreation Area",
+      "manager": "State parks & recreation",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 41.15132,
+        "west": -124.13239,
+        "north": 41.21322,
+        "east": -124.0983
+      }
+    },
+    {
+      "name": "Reynolds Wayside Campgrounds",
+      "manager": "State parks & recreation",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 39.93669,
+        "west": -123.78442,
+        "north": 39.94858,
+        "east": -123.77822
+      }
+    },
+    {
+      "name": "Standish-Hickey State Recreation Area",
+      "manager": "State parks & recreation",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 39.86693,
+        "west": -123.75502,
+        "north": 39.89133,
+        "east": -123.71205
+      }
+    },
+    {
+      "name": "Sinkyone Wilderness State Park",
+      "manager": "State parks & recreation",
+      "designation": "State Wilderness",
+      "access": "open",
+      "bbox": {
+        "south": 39.82764,
+        "west": -124.00726,
+        "north": 40.14351,
+        "east": -123.84184
+      }
+    },
+    {
+      "name": "Butte Creek Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 40.39812,
+        "west": -123.75446,
+        "north": 40.45988,
+        "east": -123.68075
+      }
+    },
+    {
+      "name": "Gilham Buttes Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 40.17635,
+        "west": -124.02262,
+        "north": 40.24731,
+        "east": -123.93526
+      }
+    },
+    {
+      "name": "Iaqua Buttes Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 40.66326,
+        "west": -123.92694,
+        "north": 40.69697,
+        "east": -123.87208
+      }
+    },
+    {
+      "name": "Lacks Creek - Old Growth 1 Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 41.0474,
+        "west": -123.83125,
+        "north": 41.07153,
+        "east": -123.8038
+      }
+    },
+    {
+      "name": "Lacks Creek - Old Growth 2 Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 41.03061,
+        "west": -123.81595,
+        "north": 41.0503,
+        "east": -123.78672
+      }
+    },
+    {
+      "name": "Lacks Creek Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 40.9863,
+        "west": -123.86544,
+        "north": 41.061,
+        "east": -123.78241
+      }
+    },
+    {
+      "name": "Manila Dunes Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 40.86381,
+        "west": -124.16532,
+        "north": 40.87702,
+        "east": -124.15416
+      }
+    },
+    {
+      "name": "Mattole Beach Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 40.23952,
+        "west": -124.36676,
+        "north": 40.30565,
+        "east": -124.31899
+      }
+    },
+    {
+      "name": "Mill Creek Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 40.27001,
+        "west": -124.30991,
+        "north": 40.2961,
+        "east": -124.27652
+      }
+    },
+    {
+      "name": "Red Mountain Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 39.86238,
+        "west": -123.70419,
+        "north": 39.92699,
+        "east": -123.61128
+      }
+    },
+    {
+      "name": "Headwaters Forest Reserve",
+      "manager": "Bureau of Land Management",
+      "designation": "NCA",
+      "access": "open",
+      "bbox": {
+        "south": 40.60564,
+        "west": -124.14574,
+        "north": 40.69347,
+        "east": -124.0208
+      }
+    },
+    {
+      "name": "King Range National Conservation Area",
+      "manager": "Bureau of Land Management",
+      "designation": "NCA",
+      "access": "open",
+      "bbox": {
+        "south": 39.95924,
+        "west": -124.36411,
+        "north": 40.29589,
+        "east": -123.96409
+      }
+    },
+    {
+      "name": "California Coastal National Monument",
+      "manager": "Bureau of Land Management",
+      "designation": "National Monument",
+      "access": "open",
+      "bbox": {
+        "south": 32.66511,
+        "west": -124.41811,
+        "north": 41.99579,
+        "east": -117.24007
+      }
+    },
+    {
+      "name": "Orleans Mtn. Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 41.06113,
+        "west": -123.49054,
+        "north": 41.38011,
+        "east": -122.72692
+      }
+    },
+    {
+      "name": "Portuguese Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 41.27291,
+        "west": -123.41518,
+        "north": 41.377,
+        "east": -123.19349
+      }
+    },
+    {
+      "name": "Bell Quinby Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.88959,
+        "west": -123.47414,
+        "north": 41.00504,
+        "east": -123.35282
+      }
+    },
+    {
+      "name": "Cow Creek Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.78485,
+        "west": -123.48708,
+        "north": 40.94935,
+        "east": -123.34793
+      }
+    },
+    {
+      "name": "Panther Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.7177,
+        "west": -123.4166,
+        "north": 40.80017,
+        "east": -123.26819
+      }
+    },
+    {
+      "name": "Pattison Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.57126,
+        "west": -123.43994,
+        "north": 40.68737,
+        "east": -123.21688
+      }
+    },
+    {
+      "name": "South Fork Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.37576,
+        "west": -123.48629,
+        "north": 40.5617,
+        "east": -123.32545
+      }
+    },
+    {
+      "name": "Underwood Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.69627,
+        "west": -123.51323,
+        "north": 40.73518,
+        "east": -123.44964
+      }
+    },
+    {
+      "name": "Blue Creek Rare I Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 41.47554,
+        "west": -123.84189,
+        "north": 41.57814,
+        "east": -123.63976
+      }
+    },
+    {
+      "name": "Board Camp Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.6688,
+        "west": -123.77952,
+        "north": 40.71,
+        "east": -123.70289
+      }
+    },
+    {
+      "name": "Cow Creek Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.84752,
+        "west": -123.50117,
+        "north": 40.88798,
+        "east": -123.47268
+      }
+    },
+    {
+      "name": "Mt. Lassic Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.31101,
+        "west": -123.59694,
+        "north": 40.37857,
+        "east": -123.5254
+      }
+    },
+    {
+      "name": "Orleans Mtn. B Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 41.16165,
+        "west": -123.53056,
+        "north": 41.37437,
+        "east": -123.42855
+      }
+    },
+    {
+      "name": "Orleans Mtn. C Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.96335,
+        "west": -123.54815,
+        "north": 41.15265,
+        "east": -123.42709
+      }
+    },
+    {
+      "name": "Pilot Creek Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.54211,
+        "west": -123.63473,
+        "north": 40.68063,
+        "east": -123.51227
+      }
+    },
+    {
+      "name": "Redcap Addition Rare I Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 41.16336,
+        "west": -123.50602,
+        "north": 41.18363,
+        "east": -123.48017
+      }
+    },
+    {
+      "name": "Salt Creek Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.02906,
+        "west": -123.40623,
+        "north": 40.11957,
+        "east": -123.3254
+      }
+    },
+    {
+      "name": "Slide Creek Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 41.38716,
+        "west": -123.82321,
+        "north": 41.47874,
+        "east": -123.70608
+      }
+    },
+    {
+      "name": "Solider Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.1509,
+        "west": -123.45006,
+        "north": 40.28776,
+        "east": -123.31029
+      }
+    },
+    {
+      "name": "Underwood Roadless Area",
+      "manager": "U.S. Forest Service",
+      "designation": "IRA",
+      "access": "open",
+      "bbox": {
+        "south": 40.71287,
+        "west": -123.57093,
+        "north": 40.77288,
+        "east": -123.47718
+      }
+    },
+    {
+      "name": "Adorni Research Natural Area",
+      "manager": "U.S. Forest Service",
+      "designation": "RNA",
+      "access": "restricted",
+      "bbox": {
+        "south": 41.22073,
+        "west": -123.68862,
+        "north": 41.23641,
+        "east": -123.66016
+      }
+    },
+    {
+      "name": "King Range Wilderness Area",
+      "manager": "Bureau of Land Management",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 39.97372,
+        "west": -124.35787,
+        "north": 40.2961,
+        "east": -123.98051
+      }
+    },
+    {
+      "name": "Rocks And Islands Wilderness Area",
+      "manager": "Bureau of Land Management",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 39.96014,
+        "west": -124.37482,
+        "north": 40.29532,
+        "east": -123.98
+      }
+    },
+    {
+      "name": "South Fork Eel River Wilderness Area",
+      "manager": "Bureau of Land Management",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 39.66918,
+        "west": -123.70419,
+        "north": 39.92699,
+        "east": -123.55175
+      }
+    },
+    {
+      "name": "Marble Mountain Wilderness",
+      "manager": "U.S. Forest Service",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 41.32903,
+        "west": -123.44287,
+        "north": 41.69632,
+        "east": -123.02064
+      }
+    },
+    {
+      "name": "Mount Lassic Wilderness",
+      "manager": "U.S. Forest Service",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.29455,
+        "west": -123.6065,
+        "north": 40.37748,
+        "east": -123.54444
+      }
+    },
+    {
+      "name": "Siskiyou Wilderness",
+      "manager": "U.S. Forest Service",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 41.39399,
+        "west": -123.8521,
+        "north": 41.93939,
+        "east": -123.50969
+      }
+    },
+    {
+      "name": "Trinity Alps Wilderness",
+      "manager": "U.S. Forest Service",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.74346,
+        "west": -123.55236,
+        "north": 41.26378,
+        "east": -122.65177
+      }
+    },
+    {
+      "name": "Klamath, California Wild and Scenic River",
+      "manager": "U.S. Forest Service",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 41.18675,
+        "west": -123.66005,
+        "north": 41.87055,
+        "east": -122.62246
+      }
+    },
+    {
+      "name": "Trinity, California Wild and Scenic River",
+      "manager": "U.S. Forest Service",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.35776,
+        "west": -123.64691,
+        "north": 41.01847,
+        "east": -122.79065
+      }
+    },
+    {
+      "name": "Klamath, California Wild and Scenic River",
+      "manager": "U.S. Forest Service",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 41.13043,
+        "west": -123.42317,
+        "north": 41.74217,
+        "east": -123.00142
+      }
+    },
+    {
+      "name": "Trinity, California Wild and Scenic River",
+      "manager": "U.S. Forest Service",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.29998,
+        "west": -123.48716,
+        "north": 40.90764,
+        "east": -123.00446
+      }
+    },
+    {
+      "name": "Klamath, California Wild and Scenic River",
+      "manager": "U.S. Forest Service",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 41.35868,
+        "west": -123.42107,
+        "north": 41.44273,
+        "east": -123.07576
+      }
+    },
+    {
+      "name": "Trinity, California Wild and Scenic River",
+      "manager": "U.S. Forest Service",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.1704,
+        "west": -123.48315,
+        "north": 41.03133,
+        "east": -123.04529
+      }
+    },
+    {
+      "name": "Bridge Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.04109,
+        "west": -123.99531,
+        "north": 40.06163,
+        "east": -123.96941
+      }
+    },
+    {
+      "name": "East Branch South Fork Eel",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.93351,
+        "west": -123.70915,
+        "north": 39.98353,
+        "east": -123.61622
+      }
+    },
+    {
+      "name": "East Branch South Fork Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.95851,
+        "west": -123.72038,
+        "north": 39.98376,
+        "east": -123.69169
+      }
+    },
+    {
+      "name": "Jewett Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.12775,
+        "west": -124.04364,
+        "north": 40.14953,
+        "east": -124.01763
+      }
+    },
+    {
+      "name": "Mad River (Segment 1)",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.64059,
+        "west": -123.84314,
+        "north": 40.66618,
+        "east": -123.80214
+      }
+    },
+    {
+      "name": "Mad River (Segment 2)",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.64616,
+        "west": -123.77071,
+        "north": 40.65645,
+        "east": -123.74772
+      }
+    },
+    {
+      "name": "Mattole River",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.05407,
+        "west": -123.99334,
+        "north": 40.0625,
+        "east": -123.97364
+      }
+    },
+    {
+      "name": "Bell Springs Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.92928,
+        "west": -123.57288,
+        "north": 39.96772,
+        "east": -123.47072
+      }
+    },
+    {
+      "name": "Bell Springs Creek Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.94804,
+        "west": -123.55923,
+        "north": 39.95581,
+        "east": -123.54576
+      }
+    },
+    {
+      "name": "Butte Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.40263,
+        "west": -123.71292,
+        "north": 40.42141,
+        "east": -123.67907
+      }
+    },
+    {
+      "name": "Butte Creek Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.39469,
+        "west": -123.70527,
+        "north": 40.42794,
+        "east": -123.67578
+      }
+    },
+    {
+      "name": "Cedar Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.83647,
+        "west": -123.71267,
+        "north": 39.90225,
+        "east": -123.60827
+      }
+    },
+    {
+      "name": "Cedar Creek Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.88099,
+        "west": -123.61703,
+        "north": 39.88799,
+        "east": -123.61029
+      }
+    },
+    {
+      "name": "Charlton Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.96771,
+        "west": -123.57812,
+        "north": 39.99448,
+        "east": -123.53395
+      }
+    },
+    {
+      "name": "Charlton Creek Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.99148,
+        "west": -123.57444,
+        "north": 40.00028,
+        "east": -123.54939
+      }
+    },
+    {
+      "name": "Colman Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.29043,
+        "west": -123.7318,
+        "north": 40.31418,
+        "east": -123.69461
+      }
+    },
+    {
+      "name": "Colman Creek Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.28469,
+        "west": -123.73007,
+        "north": 40.31812,
+        "east": -123.69568
+      }
+    },
+    {
+      "name": "Lacks Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 41.02148,
+        "west": -123.87431,
+        "north": 41.06548,
+        "east": -123.802
+      }
+    },
+    {
+      "name": "North Fork Cedar Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 39.88181,
+        "west": -123.64555,
+        "north": 39.90196,
+        "east": -123.62996
+      }
+    },
+    {
+      "name": "Pipe Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.0434,
+        "west": -123.61571,
+        "north": 40.11153,
+        "east": -123.56113
+      }
+    },
+    {
+      "name": "South Fork Bear Creak",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.01242,
+        "west": -124.03011,
+        "north": 40.03887,
+        "east": -123.98757
+      }
+    },
+    {
+      "name": "Mattole River",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.28574,
+        "west": -124.35863,
+        "north": 40.30577,
+        "east": -124.29428
+      }
+    },
+    {
+      "name": "Mill Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.27324,
+        "west": -124.3111,
+        "north": 40.29773,
+        "east": -124.28963
+      }
+    },
+    {
+      "name": "North Fork Bear Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.12636,
+        "west": -124.11716,
+        "north": 40.15734,
+        "east": -124.0601
+      }
+    },
+    {
+      "name": "Salmon Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.61742,
+        "west": -124.11816,
+        "north": 40.64368,
+        "east": -124.03946
+      }
+    },
+    {
+      "name": "Salmon Creek Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.61483,
+        "west": -124.07648,
+        "north": 40.63123,
+        "east": -124.04883
+      }
+    },
+    {
+      "name": "South Fork Bear Creak",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.03653,
+        "west": -124.07032,
+        "north": 40.12745,
+        "east": -124.01954
+      }
+    },
+    {
+      "name": "Bear Creek, Main Stem",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.11531,
+        "west": -124.06454,
+        "north": 40.141,
+        "east": -123.99406
+      }
+    },
+    {
+      "name": "Bear Creek, Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.10879,
+        "west": -124.04537,
+        "north": 40.11811,
+        "east": -124.02439
+      }
+    },
+    {
+      "name": "Big Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.15399,
+        "west": -124.21484,
+        "north": 40.18408,
+        "east": -124.15904
+      }
+    },
+    {
+      "name": "Big Flat Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.12617,
+        "west": -124.18098,
+        "north": 40.16806,
+        "east": -124.12638
+      }
+    },
+    {
+      "name": "Gitchell Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.08876,
+        "west": -124.10601,
+        "north": 40.12958,
+        "east": -124.07726
+      }
+    },
+    {
+      "name": "Honeydew Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.15438,
+        "west": -124.17515,
+        "north": 40.23811,
+        "east": -124.08039
+      }
+    },
+    {
+      "name": "Little South Fork Elk Creek",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.62788,
+        "west": -124.10212,
+        "north": 40.67345,
+        "east": -124.05392
+      }
+    },
+    {
+      "name": "North Fork Bear Creek Trib",
+      "manager": "Bureau of Land Management",
+      "designation": "WSR",
+      "access": "open",
+      "bbox": {
+        "south": 40.12897,
+        "west": -124.10858,
+        "north": 40.15212,
+        "east": -124.07565
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.9014,
+        "west": -124.14211,
+        "north": 40.90493,
+        "east": -124.14001
+      }
+    },
+    {
+      "name": "Humboldt Bay National Wildlife Refuge",
+      "manager": "U.S. Fish & Wildlife Service",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.68051,
+        "west": -124.23172,
+        "north": 40.68129,
+        "east": -124.23001
+      }
+    },
+    {
+      "name": "Agricultural Conservation Easement Program - Wetland Reserve Easements (ACEP-WRE), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.62881,
+        "west": -124.28846,
+        "north": 40.65393,
+        "east": -124.24535
+      }
+    },
+    {
+      "name": "Agricultural Conservation Easement Program - Wetland Reserve Easements (ACEP-WRE), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.57703,
+        "west": -124.34799,
+        "north": 40.8349,
+        "east": -124.07889
+      }
+    },
+    {
+      "name": "Emergency Watershed Protection Program - Floodplain Easement (EWPP-FPE), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.59411,
+        "west": -124.2648,
+        "north": 40.59961,
+        "east": -124.24547
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.5492,
+        "west": -124.09245,
+        "north": 40.55577,
+        "east": -124.08229
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.58781,
+        "west": -124.30319,
+        "north": 40.59164,
+        "east": -124.29353
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.74037,
+        "west": -124.20749,
+        "north": 40.74604,
+        "east": -124.20175
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.58557,
+        "west": -124.30287,
+        "north": 40.58787,
+        "east": -124.29818
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.77327,
+        "west": -124.12095,
+        "north": 40.80132,
+        "east": -124.07907
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP), Humboldt, CA",
+      "manager": "NRCS",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.64313,
+        "west": -124.29323,
+        "north": 40.65396,
+        "east": -124.28637
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.83497,
+        "west": -124.07009,
+        "north": 40.83952,
+        "east": -124.06343
+      }
+    },
+    {
+      "name": "United Indian Health Services Conservation Easement",
+      "manager": "City",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.89333,
+        "west": -124.08902,
+        "north": 40.89621,
+        "east": -124.08397
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.8335,
+        "west": -124.05768,
+        "north": 40.83871,
+        "east": -124.05475
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.80814,
+        "west": -124.02564,
+        "north": 40.81005,
+        "east": -124.02346
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.81711,
+        "west": -124.03491,
+        "north": 40.82314,
+        "east": -124.0286
+      }
+    },
+    {
+      "name": "Freshwater Creek Conservation Easement",
+      "manager": "State fish & wildlife",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.78419,
+        "west": -124.08663,
+        "north": 40.7848,
+        "east": -124.08585
+      }
+    },
+    {
+      "name": "Samuels Conservation Easement",
+      "manager": "City",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.88284,
+        "west": -124.07084,
+        "north": 40.89024,
+        "east": -124.05728
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.81002,
+        "west": -124.0256,
+        "north": 40.81232,
+        "east": -124.0239
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.81134,
+        "west": -124.03086,
+        "north": 40.8171,
+        "east": -124.02558
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.8347,
+        "west": -124.06344,
+        "north": 40.83659,
+        "east": -124.05867
+      }
+    },
+    {
+      "name": "Jacoby Creek Land Trust CE",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.83315,
+        "west": -124.05388,
+        "north": 40.83628,
+        "east": -124.0511
+      }
+    },
+    {
+      "name": "ERS - Mello",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.22983,
+        "west": -124.00774,
+        "north": 40.24704,
+        "east": -123.98836
+      }
+    },
+    {
+      "name": "ERS - Barkdull-Wright",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.24234,
+        "west": -124.00861,
+        "north": 40.25484,
+        "east": -123.97427
+      }
+    },
+    {
+      "name": "Wotkyns",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 41.05456,
+        "west": -124.13501,
+        "north": 41.05617,
+        "east": -124.13354
+      }
+    },
+    {
+      "name": "Baker Beach",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 41.05372,
+        "west": -124.12849,
+        "north": 41.05513,
+        "east": -124.12562
+      }
+    },
+    {
+      "name": "Nash",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 41.05691,
+        "west": -124.14015,
+        "north": 41.05775,
+        "east": -124.13858
+      }
+    },
+    {
+      "name": "Moonstone Beach",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 41.02852,
+        "west": -124.11598,
+        "north": 41.03212,
+        "east": -124.11108
+      }
+    },
+    {
+      "name": "Martin Creek Trail",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 41.07516,
+        "west": -124.15616,
+        "north": 41.07744,
+        "east": -124.15196
+      }
+    },
+    {
+      "name": "Baker Beach",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 41.05193,
+        "west": -124.12853,
+        "north": 41.05393,
+        "east": -124.1256
+      }
+    },
+    {
+      "name": "ERS - Holmgren",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.20838,
+        "west": -123.9935,
+        "north": 40.21693,
+        "east": -123.98814
+      }
+    },
+    {
+      "name": "Valley View",
+      "manager": "Non-profit conservation group",
+      "designation": "FORE",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.32473,
+        "west": -124.29538,
+        "north": 40.35275,
+        "east": -124.25788
+      }
+    },
+    {
+      "name": "Agricultural Conservation Easement Program - Wetland Reserve Easement",
+      "manager": "NRCS",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.64668,
+        "west": -124.28846,
+        "north": 40.65393,
+        "east": -124.27899
+      }
+    },
+    {
+      "name": "Agricultural Conservation Easement Program - Wetland Reserve Easement",
+      "manager": "NRCS",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.62881,
+        "west": -124.25061,
+        "north": 40.63566,
+        "east": -124.24535
+      }
+    },
+    {
+      "name": "Bell Springs Ranch-West",
+      "manager": "Non-profit conservation group",
+      "designation": "FORE",
+      "access": "closed",
+      "bbox": {
+        "south": 39.90155,
+        "west": -123.64416,
+        "north": 39.91975,
+        "east": -123.62062
+      }
+    },
+    {
+      "name": "Bell Springs Ranch-East",
+      "manager": "Non-profit conservation group",
+      "designation": "RANE",
+      "access": "closed",
+      "bbox": {
+        "south": 39.907,
+        "west": -123.62079,
+        "north": 39.91284,
+        "east": -123.6074
+      }
+    },
+    {
+      "name": "A-Chalk Mountain Phase I (North Half)",
+      "manager": "State natural resources",
+      "designation": "FORE",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.39126,
+        "west": -123.85289,
+        "north": 40.44299,
+        "east": -123.76946
+      }
+    },
+    {
+      "name": "B - Charles Mountain Ranch (North Half)",
+      "manager": "Non-profit conservation group",
+      "designation": "RANE",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.41465,
+        "west": -123.85203,
+        "north": 40.46396,
+        "east": -123.78698
+      }
+    },
+    {
+      "name": "Stansberry Ranch",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.17615,
+        "west": -124.09242,
+        "north": 40.22806,
+        "east": -124.01118
+      }
+    },
+    {
+      "name": "ERS - Barnum aka Goshawk",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 39.99151,
+        "west": -123.92294,
+        "north": 39.99961,
+        "east": -123.91346
+      }
+    },
+    {
+      "name": "Panther Gap 1",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.25752,
+        "west": -124.04742,
+        "north": 40.27584,
+        "east": -124.02822
+      }
+    },
+    {
+      "name": "Bell-Phillips",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.11763,
+        "west": -123.83408,
+        "north": 40.11801,
+        "east": -123.83271
+      }
+    },
+    {
+      "name": "Four Mile",
+      "manager": "Non-profit conservation group",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.18723,
+        "west": -124.09766,
+        "north": 40.20839,
+        "east": -124.07194
+      }
+    },
+    {
+      "name": "Sholes 1 Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.16444,
+        "west": -124.05407,
+        "north": 40.16943,
+        "east": -124.03932
+      }
+    },
+    {
+      "name": "Six Rivers (Price Creek Ranch)",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.49021,
+        "west": -124.23477,
+        "north": 40.51575,
+        "east": -124.20157
+      }
+    },
+    {
+      "name": "Charles Mountain Ranch, Phase I",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.37062,
+        "west": -123.68096,
+        "north": 40.42114,
+        "east": -123.61321
+      }
+    },
+    {
+      "name": "Stansberry C",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.17742,
+        "west": -124.01143,
+        "north": 40.18505,
+        "east": -124.00115
+      }
+    },
+    {
+      "name": "ERS - Beauter",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.21642,
+        "west": -124.03681,
+        "north": 40.24304,
+        "east": -124.0011
+      }
+    },
+    {
+      "name": "Panther Gap 2 Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.25514,
+        "west": -124.00936,
+        "north": 40.25855,
+        "east": -124.00428
+      }
+    },
+    {
+      "name": "Dillon Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.21952,
+        "west": -123.9739,
+        "north": 40.23113,
+        "east": -123.95952
+      }
+    },
+    {
+      "name": "SPI Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.17835,
+        "west": -124.08302,
+        "north": 40.20088,
+        "east": -124.04494
+      }
+    },
+    {
+      "name": "Stansberry E",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.20014,
+        "west": -124.07387,
+        "north": 40.20202,
+        "east": -124.07036
+      }
+    },
+    {
+      "name": "Miller Forest",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.9104,
+        "west": -123.77054,
+        "north": 40.96516,
+        "east": -123.69875
+      }
+    },
+    {
+      "name": "Sunnybrae",
+      "manager": "City",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.85358,
+        "west": -124.05808,
+        "north": 40.8646,
+        "east": -124.04329
+      }
+    },
+    {
+      "name": "Stansberry A",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.19658,
+        "west": -124.02221,
+        "north": 40.22005,
+        "east": -123.98772
+      }
+    },
+    {
+      "name": "Six Rivers (Iaqua)",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.58531,
+        "west": -123.89026,
+        "north": 40.63396,
+        "east": -123.80996
+      }
+    },
+    {
+      "name": "Stansberry B Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.18949,
+        "west": -124.01151,
+        "north": 40.19957,
+        "east": -123.9966
+      }
+    },
+    {
+      "name": "Four Corners aka Brown",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 39.96834,
+        "west": -123.97074,
+        "north": 39.9764,
+        "east": -123.95511
+      }
+    },
+    {
+      "name": "Stansberry D",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.16816,
+        "west": -124.04919,
+        "north": 40.1804,
+        "east": -124.03954
+      }
+    },
+    {
+      "name": "Carr 2 Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.1797,
+        "west": -124.04931,
+        "north": 40.18487,
+        "east": -124.03995
+      }
+    },
+    {
+      "name": "Hartsook Inn",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.0103,
+        "west": -123.79497,
+        "north": 40.01319,
+        "east": -123.78761
+      }
+    },
+    {
+      "name": "Humboldt Bay Wildlife Area, Jacoby Creek/Gannon Slough Unit, Expansion 2",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.83899,
+        "west": -124.07262,
+        "north": 40.84115,
+        "east": -124.06909
+      }
+    },
+    {
+      "name": "Grizzly Mountain Ranch South",
+      "manager": "Non-profit conservation group",
+      "designation": "RANE",
+      "access": "restricted",
+      "bbox": {
+        "south": 40.19878,
+        "west": -123.53255,
+        "north": 40.22308,
+        "east": -123.47854
+      }
+    },
+    {
+      "name": "Landergen Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.19434,
+        "west": -124.08756,
+        "north": 40.19922,
+        "east": -124.08295
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "State fish & wildlife",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.54413,
+        "west": -124.09261,
+        "north": 40.5557,
+        "east": -124.07857
+      }
+    },
+    {
+      "name": "Carr 1 Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.17965,
+        "west": -124.03575,
+        "north": 40.18833,
+        "east": -124.02495
+      }
+    },
+    {
+      "name": "Jones Corridor",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 40.15387,
+        "west": -124.03954,
+        "north": 40.16824,
+        "east": -124.02913
+      }
+    },
+    {
+      "name": "Charles Mountain Ranch Conservation Easement, Phase II",
+      "manager": "Non-profit conservation group",
+      "designation": "RANE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.3451,
+        "west": -123.68206,
+        "north": 40.39183,
+        "east": -123.61231
+      }
+    },
+    {
+      "name": "Usal Forest Conservation Easement",
+      "manager": "Non-profit conservation group",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 39.79565,
+        "west": -123.93214,
+        "north": 39.99979,
+        "east": -123.67881
+      }
+    },
+    {
+      "name": "Wetlands Reserve Program (WRP)",
+      "manager": "NRCS",
+      "designation": "UNKE",
+      "access": "closed",
+      "bbox": {
+        "south": 40.64313,
+        "west": -124.29322,
+        "north": 40.65395,
+        "east": -124.28636
+      }
+    }
+  ]
+}
