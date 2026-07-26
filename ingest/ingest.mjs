@@ -425,7 +425,14 @@ async function cmdCommons(id) {
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
   const doc = await requireSpots(P, 'commons');
-  const images = await commons.harvestBBox(region.bbox, { log });
+  // Pick the cheaper sweep. Tiling a county beats probing its thousands of
+  // spots; probing a sparse statewide region beats tiling all of California.
+  const tiles = commons.tileCenters(region.bbox).length;
+  const images = doc.spots.length < tiles
+    ? (log(`commons: ${doc.spots.length} spots vs ${tiles} tiles — probing per spot`),
+       await commons.harvestAroundSpots(doc.spots, { log }))
+    : (log(`commons: ${tiles} tiles vs ${doc.spots.length} spots — sweeping by tile`),
+       await commons.harvestBBox(region.bbox, { log }));
   if (images.length === 0) {
     console.error('commons: 0 photos harvested — refusing to wipe (likely a fetch problem)');
     process.exit(1);

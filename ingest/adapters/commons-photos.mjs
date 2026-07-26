@@ -67,6 +67,33 @@ export function tileCenters(bbox, stepLat = 0.12, stepLng = 0.15) {
   return centers;
 }
 
+// Harvest around the SPOTS instead of tiling the bbox. The tiled sweep assumes a
+// region whose spots outnumber its tiles — true for a county (2,362 spots vs 195
+// tiles), badly false for a sparse statewide theme region like California Ghost
+// Towns (205 spots vs 4,264 tiles, ~3 hours, past the workflow timeout). There
+// the spots ARE the cheap index: one small geosearch each.
+export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {}, sleep, pool = 4 } = {}) {
+  const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
+  const images = new Map(); // pageid → {lat,lng}, deduped across overlapping spots
+  let idx = 0, done = 0;
+  async function worker() {
+    while (idx < spots.length) {
+      const s = spots[idx++];
+      try {
+        // Only the counting radius is needed here, not the 10 km tile radius.
+        const hits = await geosearchTile(s.lat, s.lng, { fetchFn, sleep, radius: RADIUS_M, limit: TILE_LIMIT });
+        for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng });
+      } catch { /* one spot failing must not lose the run */ }
+      done++;
+      if (done % 25 === 0) log(`  commons: ${done}/${spots.length} spots probed, ${images.size} photos found`);
+      await wait(120);
+    }
+  }
+  await Promise.all(Array.from({ length: pool }, worker));
+  log(`  commons: probed ${spots.length} spots → ${images.size} unique photos`);
+  return [...images.values()];
+}
+
 // Harvest every unique geotagged Commons file in the region bbox → [{lat,lng}].
 export async function harvestBBox(bbox, { fetchFn = fetch, log = () => {}, sleep, pool = 4 } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));

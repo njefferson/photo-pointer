@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -48,4 +48,34 @@ test('meta declares a keyless, count-only Commons source', () => {
   assert.equal(meta.source, 'wikimedia_commons');
   assert.equal(meta.status, 'working');
   assert.equal(RADIUS_M, 800);
+});
+
+// A sparse statewide region has far fewer spots than bbox tiles — probing the
+// spots is then the cheap sweep, and tiling would blow the workflow timeout
+// (California Ghost Towns: 205 spots vs 4,264 tiles, roughly three hours).
+test('harvestAroundSpots probes each spot at the counting radius and dedups', async () => {
+  const urls = [];
+  const fetchFn = async (url) => {
+    urls.push(url);
+    // The same photo is in range of both spots — it must be counted once.
+    return { ok: true, status: 200, json: async () => ({ query: { geosearch: [
+      { pageid: 7, lat: 37.9, lon: -118.2 },
+    ] } }) };
+  };
+  const spots = [{ lat: 37.9, lng: -118.2 }, { lat: 37.901, lng: -118.201 }];
+  const out = await harvestAroundSpots(spots, { fetchFn, sleep: async () => {} });
+  assert.equal(out.length, 1, 'the shared photo is deduped by pageid');
+  assert.equal(urls.length, 2, 'one geosearch per spot');
+  assert.ok(urls.every((u) => u.includes(`gsradius=${RADIUS_M}`)),
+    'uses the 800 m counting radius, not the 10 km tile radius');
+});
+
+test('a failing spot probe does not lose the whole harvest', async () => {
+  let n = 0;
+  const fetchFn = async () => {
+    if (n++ === 0) throw new Error('network');
+    return { ok: true, status: 200, json: async () => ({ query: { geosearch: [{ pageid: 1, lat: 1, lon: 2 }] } }) };
+  };
+  const out = await harvestAroundSpots([{ lat: 1, lng: 2 }, { lat: 3, lng: 4 }], { fetchFn, sleep: async () => {} });
+  assert.equal(out.length, 1);
 });
