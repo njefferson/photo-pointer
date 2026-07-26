@@ -47,8 +47,8 @@
     },
     {
       "name": "Apalachicola",
-      "manager": "BOEM",
-      "designation": "OCS",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
       "access": "open",
       "bbox": {
         "south": 28.94967,
@@ -59,8 +59,8 @@
     },
     {
       "name": "Destin Dome",
-      "manager": "BOEM",
-      "designation": "OCS",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
       "access": "open",
       "bbox": {
         "south": 28.97745,
@@ -71,8 +71,8 @@
     },
     {
       "name": "Pensacola",
-      "manager": "BOEM",
-      "designation": "OCS",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
       "access": "open",
       "bbox": {
         "south": 30.07518,
@@ -83,8 +83,8 @@
     },
     {
       "name": "Pensacola",
-      "manager": "BOEM",
-      "designation": "OCS",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
       "access": "open",
       "bbox": {
         "south": 29.97888,
@@ -95,8 +95,8 @@
     },
     {
       "name": "St. Vincent National Wildlife Refuge",
-      "manager": "U.S. Fish & Wildlife Service",
-      "designation": "MPA",
+      "manager": "U.S. Fish and Wildlife Service",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.62846,
@@ -107,8 +107,8 @@
     },
     {
       "name": "Apalachicola National Estuarine Research Reserve",
-      "manager": "Jointly managed",
-      "designation": "MPA",
+      "manager": "Joint",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.58738,
@@ -119,8 +119,8 @@
     },
     {
       "name": "SS Tarpon Underwater Archaeological Preserve",
-      "manager": "Other state agency",
-      "designation": "MPA",
+      "manager": "Other or Unknown State Land",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.09091,
@@ -131,8 +131,8 @@
     },
     {
       "name": "Vamar Underwater Archaeological Preserve",
-      "manager": "Other state agency",
-      "designation": "MPA",
+      "manager": "Other or Unknown State Land",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.8949,
@@ -143,8 +143,8 @@
     },
     {
       "name": "Apalachicola Bay Aquatic Preserve",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.59609,
@@ -155,8 +155,8 @@
     },
     {
       "name": "Rocky Bayou State Park Aquatic Preserve",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.49932,
@@ -167,8 +167,8 @@
     },
     {
       "name": "St. Andrews State Park Aquatic Preserve",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.02989,
@@ -179,8 +179,8 @@
     },
     {
       "name": "St. Joseph Bay Aquatic Preserve",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.65543,
@@ -191,8 +191,8 @@
     },
     {
       "name": "St. Joseph Bay State Buffer Preserve",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.67533,
@@ -203,8 +203,8 @@
     },
     {
       "name": "Camp Helen State Park",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.26714,
@@ -215,8 +215,8 @@
     },
     {
       "name": "Deer Lake State Park",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.29754,
@@ -227,8 +227,8 @@
     },
     {
       "name": "Fred Gannon Rocky Bayou State Park",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.48936,
@@ -239,8 +239,8 @@
     },
     {
       "name": "Grayton Beach State Park",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.32144,
@@ -251,8 +251,8 @@
     },
     {
       "name": "St. Andrews State Park",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.0894,
@@ -263,8 +263,8 @@
     },
     {
       "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.71876,
@@ -275,8 +275,8 @@
     },
     {
       "name": "Topsail Hill Preserve State Park",
-      "manager": "State conservation agency",
-      "designation": "MPA",
+      "manager": "State Department of Conservation",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 30.35488,
@@ -287,8 +287,8 @@
     },
     {
       "name": "Apalachicola River Wildlife and Environmental Area",
-      "manager": "State fish & wildlife",
-      "designation": "MPA",
+      "manager": "State Fish and Wildlife",
+      "designation": "Marine Protected Area",
       "access": "open",
       "bbox": {
         "south": 29.72756,
@@ -300,7 +300,7 @@
     {
       "name": "Southeastern States District Office",
       "manager": "Bureau of Land Management",
-      "designation": "PUB",
+      "designation": "National Public Lands",
       "access": "open",
       "bbox": {
         "south": 30.22787,
@@ -312,7 +312,7 @@
     {
       "name": "Southeastern States District Office",
       "manager": "Bureau of Land Management",
-      "designation": "PUB",
+      "designation": "National Public Lands",
       "access": "open",
       "bbox": {
         "south": 24.61642,
@@ -347,7 +347,7 @@
     },
     {
       "name": "Apalachicola National Forest",
-      "manager": "U.S. Forest Service",
+      "manager": "Forest Service",
       "designation": "National Forest",
       "access": "open",
       "bbox": {
@@ -359,7 +359,7 @@
     },
     {
       "name": "St. Vincent National Wildlife Refuge",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "National Wildlife Refuge",
       "access": "restricted",
       "bbox": {
@@ -371,7 +371,7 @@
     },
     {
       "name": "Florala State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -383,8 +383,8 @@
     },
     {
       "name": "State-owned Submerged Lands",
-      "manager": "State natural resources",
-      "designation": "RMA",
+      "manager": "State Department of Natural Resources",
+      "designation": "Resource Management Area",
       "access": "open",
       "bbox": {
         "south": 30.29739,
@@ -395,8 +395,8 @@
     },
     {
       "name": "Apalachicola River Water Management Area",
-      "manager": "Regional water district",
-      "designation": "WPA",
+      "manager": "Regional Water Districts",
+      "designation": "Watershed Protection Area",
       "access": "closed",
       "bbox": {
         "south": 29.94958,
@@ -407,8 +407,8 @@
     },
     {
       "name": "Choctawhatchee River Water Management Area",
-      "manager": "Regional water district",
-      "designation": "WPA",
+      "manager": "Regional Water Districts",
+      "designation": "Watershed Protection Area",
       "access": "closed",
       "bbox": {
         "south": 30.35612,
@@ -419,8 +419,8 @@
     },
     {
       "name": "Econfina Creek Water Management Area",
-      "manager": "Regional water district",
-      "designation": "WPA",
+      "manager": "Regional Water Districts",
+      "designation": "Watershed Protection Area",
       "access": "closed",
       "bbox": {
         "south": 30.32903,
@@ -431,8 +431,8 @@
     },
     {
       "name": "Upper Chipola River Water Management Area",
-      "manager": "Regional water district",
-      "designation": "WPA",
+      "manager": "Regional Water Districts",
+      "designation": "Watershed Protection Area",
       "access": "closed",
       "bbox": {
         "south": 30.52036,
@@ -443,8 +443,8 @@
     },
     {
       "name": "Ward Creek West",
-      "manager": "Regional water district",
-      "designation": "WPA",
+      "manager": "Regional Water Districts",
+      "designation": "Watershed Protection Area",
       "access": "closed",
       "bbox": {
         "south": 30.25976,
@@ -455,8 +455,8 @@
     },
     {
       "name": "Panama City Beach Conservation Park",
-      "manager": "City",
-      "designation": "LCA",
+      "manager": "City Land",
+      "designation": "Local Conservation Area",
       "access": "restricted",
       "bbox": {
         "south": 30.25503,
@@ -467,8 +467,8 @@
     },
     {
       "name": "Deep Springs Park",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 30.51455,
@@ -479,8 +479,8 @@
     },
     {
       "name": "Dead Lakes Park",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 30.1348,
@@ -491,8 +491,8 @@
     },
     {
       "name": "Salinas Park",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 29.68248,
@@ -503,8 +503,8 @@
     },
     {
       "name": "Eastshore Property",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 30.77797,
@@ -515,8 +515,8 @@
     },
     {
       "name": "Stallworth Lake Preserve",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 30.35474,
@@ -527,8 +527,8 @@
     },
     {
       "name": "McNaughton Tract",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.10798,
@@ -539,8 +539,8 @@
     },
     {
       "name": "Audubon Nature Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.18249,
@@ -551,8 +551,8 @@
     },
     {
       "name": "Margaret Roberts Meek Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.18102,
@@ -563,8 +563,8 @@
     },
     {
       "name": "Tumble Creek Audubon Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.5999,
@@ -575,8 +575,8 @@
     },
     {
       "name": "Coffeen Nature Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.36837,
@@ -587,8 +587,8 @@
     },
     {
       "name": "Beulah A. Laidlaw Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.67226,
@@ -600,7 +600,7 @@
     {
       "name": "Sumatra Property",
       "manager": "Private",
-      "designation": "PCON",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.04291,
@@ -612,7 +612,7 @@
     {
       "name": "Camp Kolomoki",
       "manager": "Private",
-      "designation": "PREC",
+      "designation": "Private Recreation or Education",
       "access": "closed",
       "bbox": {
         "south": 30.78034,
@@ -624,7 +624,7 @@
     {
       "name": "Sweetwater Mitigation Bank",
       "manager": "Private",
-      "designation": "PCON",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.2625,
@@ -635,7 +635,7 @@
     },
     {
       "name": "Marianna Greenway",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "State Recreation Area",
       "access": "open",
       "bbox": {
@@ -647,7 +647,7 @@
     },
     {
       "name": "South Marianna Trail and Canoe Launch",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "State Recreation Area",
       "access": "open",
       "bbox": {
@@ -659,7 +659,7 @@
     },
     {
       "name": "Chipola River Greenway",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "State Recreation Area",
       "access": "open",
       "bbox": {
@@ -671,7 +671,7 @@
     },
     {
       "name": "Jackson County Blue Springs and Merritts Mill Pond",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "State Recreation Area",
       "access": "open",
       "bbox": {
@@ -683,7 +683,7 @@
     },
     {
       "name": "Grayton Dunes Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -695,7 +695,7 @@
     },
     {
       "name": "Inlet Beach",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -707,7 +707,7 @@
     },
     {
       "name": "Morrison Springs Recreational Facility",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "State Recreation Area",
       "access": "open",
       "bbox": {
@@ -719,8 +719,8 @@
     },
     {
       "name": "Pine Log State Forest",
-      "manager": "Other state agency",
-      "designation": "SRMA",
+      "manager": "Other or Unknown State Land",
+      "designation": "State Resource Management Area",
       "access": "open",
       "bbox": {
         "south": 30.37946,
@@ -731,8 +731,8 @@
     },
     {
       "name": "Point Washington State Forest",
-      "manager": "Other state agency",
-      "designation": "SRMA",
+      "manager": "Other or Unknown State Land",
+      "designation": "State Resource Management Area",
       "access": "open",
       "bbox": {
         "south": 30.31127,
@@ -743,8 +743,8 @@
     },
     {
       "name": "Bruner Bay Tract",
-      "manager": "Other state agency",
-      "designation": "SOTH",
+      "manager": "Other or Unknown State Land",
+      "designation": "State Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 30.6402,
@@ -755,8 +755,8 @@
     },
     {
       "name": "Choctawhatchee River Tract",
-      "manager": "Other state agency",
-      "designation": "SOTH",
+      "manager": "Other or Unknown State Land",
+      "designation": "State Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 30.63095,
@@ -767,8 +767,8 @@
     },
     {
       "name": "Holmes Creek Tract",
-      "manager": "Other state agency",
-      "designation": "SOTH",
+      "manager": "Other or Unknown State Land",
+      "designation": "State Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 30.70732,
@@ -779,8 +779,8 @@
     },
     {
       "name": "Loblolly Tract",
-      "manager": "Other state agency",
-      "designation": "SOTH",
+      "manager": "Other or Unknown State Land",
+      "designation": "State Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 30.68591,
@@ -791,8 +791,8 @@
     },
     {
       "name": "Tupelo Tract",
-      "manager": "Other state agency",
-      "designation": "SOTH",
+      "manager": "Other or Unknown State Land",
+      "designation": "State Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 30.697,
@@ -803,7 +803,7 @@
     },
     {
       "name": "Porter Pond Tract",
-      "manager": "Other state agency",
+      "manager": "Other or Unknown State Land",
       "designation": "State Recreation Area",
       "access": "closed",
       "bbox": {
@@ -815,7 +815,7 @@
     },
     {
       "name": "Apalachicola National Estuarine Research Reserve",
-      "manager": "State conservation agency",
+      "manager": "State Department of Conservation",
       "designation": "State Conservation Area",
       "access": "restricted",
       "bbox": {
@@ -827,7 +827,7 @@
     },
     {
       "name": "Cape St. George State Reserve",
-      "manager": "State conservation agency",
+      "manager": "State Department of Conservation",
       "designation": "State Conservation Area",
       "access": "open",
       "bbox": {
@@ -839,7 +839,7 @@
     },
     {
       "name": "St. Joseph Bay State Buffer Preserve",
-      "manager": "State conservation agency",
+      "manager": "State Department of Conservation",
       "designation": "State Conservation Area",
       "access": "open",
       "bbox": {
@@ -851,7 +851,7 @@
     },
     {
       "name": "Apalachicola River Wildlife and Environmental Area",
-      "manager": "State fish & wildlife",
+      "manager": "State Fish and Wildlife",
       "designation": "State Conservation Area",
       "access": "restricted",
       "bbox": {
@@ -863,7 +863,7 @@
     },
     {
       "name": "Judges Cave Wildlife and Environmental Area",
-      "manager": "State fish & wildlife",
+      "manager": "State Fish and Wildlife",
       "designation": "State Conservation Area",
       "access": "restricted",
       "bbox": {
@@ -875,7 +875,7 @@
     },
     {
       "name": "Box-R Wildlife Management Area",
-      "manager": "State fish & wildlife",
+      "manager": "State Fish and Wildlife",
       "designation": "State Conservation Area",
       "access": "restricted",
       "bbox": {
@@ -887,7 +887,7 @@
     },
     {
       "name": "Topsail Hill Preserve State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Conservation Area",
       "access": "open",
       "bbox": {
@@ -899,7 +899,7 @@
     },
     {
       "name": "Eden Gardens State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -911,7 +911,7 @@
     },
     {
       "name": "Constitution Convention Museum State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -923,7 +923,7 @@
     },
     {
       "name": "Deer Lake State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -935,7 +935,7 @@
     },
     {
       "name": "Florida Caverns State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -947,7 +947,7 @@
     },
     {
       "name": "T. H. Stone Memorial St. Joseph Peninsula State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -959,7 +959,7 @@
     },
     {
       "name": "Camp Helen State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -971,7 +971,7 @@
     },
     {
       "name": "Falling Waters State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -983,7 +983,7 @@
     },
     {
       "name": "Fred Gannon Rocky Bayou State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -995,7 +995,7 @@
     },
     {
       "name": "Grayton Beach State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -1007,7 +1007,7 @@
     },
     {
       "name": "Henderson Beach State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -1019,7 +1019,7 @@
     },
     {
       "name": "Ponce de Leon Springs State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -1031,7 +1031,7 @@
     },
     {
       "name": "St. Andrews State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -1043,8 +1043,8 @@
     },
     {
       "name": "Marjorie's Magical Marsh - Symone's Sanctimonious Swamp",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.2782,
@@ -1055,8 +1055,8 @@
     },
     {
       "name": "Mary Ola Reynolds Miller Palm Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.15427,
@@ -1067,8 +1067,8 @@
     },
     {
       "name": "Sapp Family Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.18026,
@@ -1079,8 +1079,8 @@
     },
     {
       "name": "Talkington Family Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.21604,
@@ -1091,8 +1091,8 @@
     },
     {
       "name": "Hazel and Herselle Wilderness Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.3428,
@@ -1103,8 +1103,8 @@
     },
     {
       "name": "Juniper Headwaters Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.48683,
@@ -1115,8 +1115,8 @@
     },
     {
       "name": "King Family Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.17653,
@@ -1127,7 +1127,7 @@
     },
     {
       "name": "Florala State Park",
-      "manager": "State parks & recreation",
+      "manager": "State Park and Recreation",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -1139,8 +1139,8 @@
     },
     {
       "name": "Calhoun Spigelia Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.26245,
@@ -1151,8 +1151,8 @@
     },
     {
       "name": "Choctawhatchee River Delta Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.38845,
@@ -1163,8 +1163,8 @@
     },
     {
       "name": "Rock Hill Preserve",
-      "manager": "Non-profit conservation group",
-      "designation": "PCON",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
       "access": "closed",
       "bbox": {
         "south": 30.73488,
@@ -1175,8 +1175,8 @@
     },
     {
       "name": "Drp/Middle Chipola River 2503",
-      "manager": null,
-      "designation": null,
+      "manager": "Unknown",
+      "designation": "Unknown",
       "access": null,
       "bbox": {
         "south": 30.50589,
@@ -1187,7 +1187,7 @@
     },
     {
       "name": "Richard Seltzer Park",
-      "manager": "Regional agency",
+      "manager": "Regional Agency Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1199,7 +1199,7 @@
     },
     {
       "name": "Tyndall Afb Heritage Park",
-      "manager": "Other federal agency",
+      "manager": "Other or Unknown Federal Land",
       "designation": "Local Park",
       "access": "restricted",
       "bbox": {
@@ -1211,7 +1211,7 @@
     },
     {
       "name": "Unknown Park",
-      "manager": "Other federal agency",
+      "manager": "Other or Unknown Federal Land",
       "designation": "Local Park",
       "access": "restricted",
       "bbox": {
@@ -1223,7 +1223,7 @@
     },
     {
       "name": "Unknown Playground",
-      "manager": "Other federal agency",
+      "manager": "Other or Unknown Federal Land",
       "designation": "Local Park",
       "access": "restricted",
       "bbox": {
@@ -1235,7 +1235,7 @@
     },
     {
       "name": "Recreation Complex",
-      "manager": "Other federal agency",
+      "manager": "Other or Unknown Federal Land",
       "designation": "Local Recreation Area",
       "access": "restricted",
       "bbox": {
@@ -1247,7 +1247,7 @@
     },
     {
       "name": "Apalachicola Bayside Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1259,8 +1259,8 @@
     },
     {
       "name": "Sutton Creek Trail Head",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 30.44813,
@@ -1271,7 +1271,7 @@
     },
     {
       "name": "Central & Gazebo Ave E Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1283,7 +1283,7 @@
     },
     {
       "name": "Central Avenue Square Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1295,7 +1295,7 @@
     },
     {
       "name": "M & B Railroad Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1307,7 +1307,7 @@
     },
     {
       "name": "Banifill Avenue Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "Eastside Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1331,7 +1331,7 @@
     },
     {
       "name": "Bonifay Recreation Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1343,7 +1343,7 @@
     },
     {
       "name": "Memorial Field",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1355,7 +1355,7 @@
     },
     {
       "name": "John B Gore Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1367,7 +1367,7 @@
     },
     {
       "name": "Patterson Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1379,7 +1379,7 @@
     },
     {
       "name": "Veterans Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1391,7 +1391,7 @@
     },
     {
       "name": "Callaway Recreational Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1403,7 +1403,7 @@
     },
     {
       "name": "Bill Lee Station Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1415,7 +1415,7 @@
     },
     {
       "name": "Gilmore Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1427,7 +1427,7 @@
     },
     {
       "name": "Pals Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1439,7 +1439,7 @@
     },
     {
       "name": "Shivers Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1451,7 +1451,7 @@
     },
     {
       "name": "Chipley Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1463,7 +1463,7 @@
     },
     {
       "name": "Florence Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1475,7 +1475,7 @@
     },
     {
       "name": "Hnery Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1487,7 +1487,7 @@
     },
     {
       "name": "Lake Stanley Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1499,7 +1499,7 @@
     },
     {
       "name": "Pat Covell Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1511,7 +1511,7 @@
     },
     {
       "name": "Plateau Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1523,7 +1523,7 @@
     },
     {
       "name": "Harbeson Field",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1535,7 +1535,7 @@
     },
     {
       "name": "Pat Covell Park #2",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1547,7 +1547,7 @@
     },
     {
       "name": "Gene Hurley Sports Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1559,7 +1559,7 @@
     },
     {
       "name": "Crystal Beach Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1571,7 +1571,7 @@
     },
     {
       "name": "Geneva Rec Department Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1583,7 +1583,7 @@
     },
     {
       "name": "Robert Fowler Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1595,7 +1595,7 @@
     },
     {
       "name": "Hugh Owen Memorial Stadium",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1607,7 +1607,7 @@
     },
     {
       "name": "James Martin Park / Graceville Ball Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1619,7 +1619,7 @@
     },
     {
       "name": "R L Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1631,7 +1631,7 @@
     },
     {
       "name": "Tiger Park Sports Complex / Graceville Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1643,7 +1643,7 @@
     },
     {
       "name": "A.L. Kinsaul Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1655,7 +1655,7 @@
     },
     {
       "name": "Cain Griffin Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1667,7 +1667,7 @@
     },
     {
       "name": "James E Rogers Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1679,7 +1679,7 @@
     },
     {
       "name": "Memorial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1691,7 +1691,7 @@
     },
     {
       "name": "Pine Forest Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1703,7 +1703,7 @@
     },
     {
       "name": "Sharron J Sheffield Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1715,7 +1715,7 @@
     },
     {
       "name": "Lynn Haven Sports Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1727,7 +1727,7 @@
     },
     {
       "name": "Circle Drive Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1739,7 +1739,7 @@
     },
     {
       "name": "Confederate Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1751,7 +1751,7 @@
     },
     {
       "name": "Harley Drive Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1763,7 +1763,7 @@
     },
     {
       "name": "Jennings Field Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1775,7 +1775,7 @@
     },
     {
       "name": "Madison Street Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1787,7 +1787,7 @@
     },
     {
       "name": "Mcclane Community Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1799,7 +1799,7 @@
     },
     {
       "name": "Wynn Street Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1811,7 +1811,7 @@
     },
     {
       "name": "Yancey Boat Landing",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1823,7 +1823,7 @@
     },
     {
       "name": "Adams Memorial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1835,7 +1835,7 @@
     },
     {
       "name": "Al Helms Dog Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1847,7 +1847,7 @@
     },
     {
       "name": "Asbell Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1859,7 +1859,7 @@
     },
     {
       "name": "Bay Memorial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1871,7 +1871,7 @@
     },
     {
       "name": "Bob George Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1883,7 +1883,7 @@
     },
     {
       "name": "C.M.'Kidd' Harris Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1895,7 +1895,7 @@
     },
     {
       "name": "Carl Gray Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1907,7 +1907,7 @@
     },
     {
       "name": "Carswell Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1919,7 +1919,7 @@
     },
     {
       "name": "City Marina",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1931,7 +1931,7 @@
     },
     {
       "name": "Cove Balfield",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1943,7 +1943,7 @@
     },
     {
       "name": "Cove Blvd Mediun",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1955,7 +1955,7 @@
     },
     {
       "name": "Cove Lane Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1967,7 +1967,7 @@
     },
     {
       "name": "Daffin Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1979,7 +1979,7 @@
     },
     {
       "name": "Frank Nelson Jr. Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1991,7 +1991,7 @@
     },
     {
       "name": "Glenwood Comminity Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2003,7 +2003,7 @@
     },
     {
       "name": "Harry Edwards Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2015,7 +2015,7 @@
     },
     {
       "name": "Harvey Dee Mathis Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2027,7 +2027,7 @@
     },
     {
       "name": "Hathaway Bridge Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2039,7 +2039,7 @@
     },
     {
       "name": "Henry Davis Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2051,7 +2051,7 @@
     },
     {
       "name": "Hentz Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2063,7 +2063,7 @@
     },
     {
       "name": "Joe Moody Harris Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2075,7 +2075,7 @@
     },
     {
       "name": "Kraft Field",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2087,7 +2087,7 @@
     },
     {
       "name": "Lake Caroline",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2099,7 +2099,7 @@
     },
     {
       "name": "Lake Huntington",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2111,7 +2111,7 @@
     },
     {
       "name": "Lannie Rowe Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2123,7 +2123,7 @@
     },
     {
       "name": "Martin Luther King Jr. Recreation Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2135,7 +2135,7 @@
     },
     {
       "name": "Mckenzie Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2147,7 +2147,7 @@
     },
     {
       "name": "Moates Ave Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2159,7 +2159,7 @@
     },
     {
       "name": "Oak Grove Field",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2171,7 +2171,7 @@
     },
     {
       "name": "Oak Hammock Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2183,7 +2183,7 @@
     },
     {
       "name": "Oakland Terrace Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2195,7 +2195,7 @@
     },
     {
       "name": "Oaks By The Bay",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2207,7 +2207,7 @@
     },
     {
       "name": "Richard Simpson Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2219,7 +2219,7 @@
     },
     {
       "name": "St. Andrew Marina",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2231,7 +2231,7 @@
     },
     {
       "name": "Sudduth Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2243,7 +2243,7 @@
     },
     {
       "name": "Sweetbay Wetlands",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2255,7 +2255,7 @@
     },
     {
       "name": "Tarpon Bridge (Palm Trees)",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2267,7 +2267,7 @@
     },
     {
       "name": "Triangle",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2279,7 +2279,7 @@
     },
     {
       "name": "Truesdell Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2291,7 +2291,7 @@
     },
     {
       "name": "Venetian Sunset Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2303,7 +2303,7 @@
     },
     {
       "name": "Whittington Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2315,7 +2315,7 @@
     },
     {
       "name": "Woods Field",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2327,7 +2327,7 @@
     },
     {
       "name": "Frank Brown Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2339,7 +2339,7 @@
     },
     {
       "name": "Scott Field Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2351,7 +2351,7 @@
     },
     {
       "name": "Veterans Memorial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2363,7 +2363,7 @@
     },
     {
       "name": "Parker Memorial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2375,7 +2375,7 @@
     },
     {
       "name": "Under The Oaks Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2387,7 +2387,7 @@
     },
     {
       "name": "Parker Sports Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2399,7 +2399,7 @@
     },
     {
       "name": "Baltzell Pond Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2411,7 +2411,7 @@
     },
     {
       "name": "Bay Walk Park And Gulf County Welcome Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2423,7 +2423,7 @@
     },
     {
       "name": "Buck Griffin Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2435,7 +2435,7 @@
     },
     {
       "name": "Centennial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2447,7 +2447,7 @@
     },
     {
       "name": "Dr Joe Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2459,7 +2459,7 @@
     },
     {
       "name": "Forrest Park North",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2471,7 +2471,7 @@
     },
     {
       "name": "Forrest Park South",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2483,7 +2483,7 @@
     },
     {
       "name": "Frank Pate Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2495,7 +2495,7 @@
     },
     {
       "name": "Historic Port St Joe City Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2507,7 +2507,7 @@
     },
     {
       "name": "Jetty Park / Port St Joe Marina",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2519,7 +2519,7 @@
     },
     {
       "name": "Lamar Faison Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2531,7 +2531,7 @@
     },
     {
       "name": "Patton Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2543,7 +2543,7 @@
     },
     {
       "name": "Peters Park / Washington Recreation Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2555,7 +2555,7 @@
     },
     {
       "name": "Port St Joe City Hall Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2567,7 +2567,7 @@
     },
     {
       "name": "Sand Hills Pond Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2579,7 +2579,7 @@
     },
     {
       "name": "Shipyard Cove/ Maddox Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2591,7 +2591,7 @@
     },
     {
       "name": "Centennial Park Ballfield",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2603,7 +2603,7 @@
     },
     {
       "name": "Springfield Gardens Walking Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2615,7 +2615,7 @@
     },
     {
       "name": "Springfield Sports Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2627,7 +2627,7 @@
     },
     {
       "name": "Clay Marry Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2639,7 +2639,7 @@
     },
     {
       "name": "Coopers Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2651,7 +2651,7 @@
     },
     {
       "name": "Pear-Azalea Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2663,7 +2663,7 @@
     },
     {
       "name": "Sam B Atkins Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2675,7 +2675,7 @@
     },
     {
       "name": "Hiland Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2687,7 +2687,7 @@
     },
     {
       "name": "Island View Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2699,7 +2699,7 @@
     },
     {
       "name": "Lake Powell Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2711,7 +2711,7 @@
     },
     {
       "name": "Pete Edwards Field",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2723,7 +2723,7 @@
     },
     {
       "name": "Ned Porter Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2735,7 +2735,7 @@
     },
     {
       "name": "Seafood Workers Park Public Boat Ramp And Kayak Launch",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2747,7 +2747,7 @@
     },
     {
       "name": "Donnie Wayne Brake Memorial Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2759,7 +2759,7 @@
     },
     {
       "name": "Highland View Park & Boat Ramp",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2771,7 +2771,7 @@
     },
     {
       "name": "Windmark Beach - Beach Access",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2783,7 +2783,7 @@
     },
     {
       "name": "Windmark Beach Access Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2795,7 +2795,7 @@
     },
     {
       "name": "Smith Lake Public Boat Ramp - Fwc #109",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2807,7 +2807,7 @@
     },
     {
       "name": "Citizens Lodge",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2819,7 +2819,7 @@
     },
     {
       "name": "Juniper Lake Park & Boat Ramp",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2831,7 +2831,7 @@
     },
     {
       "name": "Wee Care Childrens Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2843,7 +2843,7 @@
     },
     {
       "name": "Carillon Bellview Park",
-      "manager": "Non-profit conservation group",
+      "manager": "Non-Governmental Organization",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2855,7 +2855,7 @@
     },
     {
       "name": "Hinson Conservation And Recreation Area Boat Launch",
-      "manager": "Other state agency",
+      "manager": "Other or Unknown State Land",
       "designation": "State Recreation Area",
       "access": "open",
       "bbox": {
@@ -2891,8 +2891,8 @@
     },
     {
       "name": "Savannah Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 30.08918,
@@ -2903,7 +2903,7 @@
     },
     {
       "name": "Prospect Bluff Historical Area",
-      "manager": "U.S. Forest Service",
+      "manager": "Forest Service",
       "designation": "Historic or Cultural Area",
       "access": "restricted",
       "bbox": {
@@ -2915,8 +2915,8 @@
     },
     {
       "name": "Chipola Experimental Forest",
-      "manager": "U.S. Forest Service",
-      "designation": "REA",
+      "manager": "Forest Service",
+      "designation": "Research or Educational Area",
       "access": "restricted",
       "bbox": {
         "south": 30.40243,
@@ -2927,7 +2927,7 @@
     },
     {
       "name": "Wright Lake Recreation Area",
-      "manager": "U.S. Forest Service",
+      "manager": "Forest Service",
       "designation": "Recreation Management Area",
       "access": "open",
       "bbox": {
@@ -2939,8 +2939,8 @@
     },
     {
       "name": "Apalachicola Savannah Research Natural Area",
-      "manager": "U.S. Forest Service",
-      "designation": "RNA",
+      "manager": "Forest Service",
+      "designation": "Research Natural Area",
       "access": "restricted",
       "bbox": {
         "south": 30.09867,
@@ -2951,7 +2951,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -2963,7 +2963,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Al",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -2975,7 +2975,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Al",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -2987,7 +2987,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -2999,7 +2999,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3011,7 +3011,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3023,7 +3023,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3035,7 +3035,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3047,7 +3047,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3059,7 +3059,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3071,7 +3071,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3083,7 +3083,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3095,7 +3095,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3107,7 +3107,7 @@
     },
     {
       "name": "St. Vincent National Wildlife Refuge",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3119,7 +3119,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3131,7 +3131,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3143,7 +3143,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3155,7 +3155,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3167,7 +3167,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3179,7 +3179,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3191,7 +3191,7 @@
     },
     {
       "name": "Farm Service Agency Interest Of Fl",
-      "manager": "U.S. Fish & Wildlife Service",
+      "manager": "U.S. Fish and Wildlife Service",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -3203,8 +3203,8 @@
     },
     {
       "name": "M. C. Davis - Seven Runs Creek Conservation Easement",
-      "manager": "Other state agency",
-      "designation": "UNKE",
+      "manager": "Other or Unknown State Land",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.49984,
@@ -3215,8 +3215,8 @@
     },
     {
       "name": "Florida National Scenic Trail",
-      "manager": "U.S. Forest Service",
-      "designation": "OTHE",
+      "manager": "Forest Service",
+      "designation": "Other Easement",
       "access": "closed",
       "bbox": {
         "south": 30.51446,
@@ -3227,7 +3227,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3239,7 +3239,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3251,7 +3251,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3275,7 +3275,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3287,7 +3287,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3299,7 +3299,7 @@
     },
     {
       "name": "Sweetwater Village North Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3311,7 +3311,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3323,7 +3323,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3335,7 +3335,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3347,7 +3347,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3359,7 +3359,7 @@
     },
     {
       "name": "Brookwood",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3371,7 +3371,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3383,7 +3383,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3395,7 +3395,7 @@
     },
     {
       "name": "Bay County Conservancy, Inc. 15",
-      "manager": "Non-profit conservation group",
+      "manager": "Non-Governmental Organization",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3407,7 +3407,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3419,7 +3419,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3431,7 +3431,7 @@
     },
     {
       "name": "Trieste Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3443,7 +3443,7 @@
     },
     {
       "name": "Trieste Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3455,7 +3455,7 @@
     },
     {
       "name": "College Oaks",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3467,7 +3467,7 @@
     },
     {
       "name": "Trieste Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3479,7 +3479,7 @@
     },
     {
       "name": "Cedar Creek Phase II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3491,7 +3491,7 @@
     },
     {
       "name": "Trieste Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3503,7 +3503,7 @@
     },
     {
       "name": "Trieste Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3515,7 +3515,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3527,7 +3527,7 @@
     },
     {
       "name": "College Oaks",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3539,7 +3539,7 @@
     },
     {
       "name": "Bay County Easement #",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3551,7 +3551,7 @@
     },
     {
       "name": "Trieste Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3563,7 +3563,7 @@
     },
     {
       "name": "Trieste Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3575,7 +3575,7 @@
     },
     {
       "name": "Sweetwater Village North Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3587,7 +3587,7 @@
     },
     {
       "name": "Camryn's Crossing 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3599,7 +3599,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3611,7 +3611,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek Unit 5",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3623,7 +3623,7 @@
     },
     {
       "name": "North Colony Club Estates Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3635,7 +3635,7 @@
     },
     {
       "name": "Bay County Conservancy, Inc. 8",
-      "manager": "Non-profit conservation group",
+      "manager": "Non-Governmental Organization",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3647,7 +3647,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3659,7 +3659,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3671,7 +3671,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3683,7 +3683,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3695,7 +3695,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3707,7 +3707,7 @@
     },
     {
       "name": "Bay County Easement #",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3719,7 +3719,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3731,7 +3731,7 @@
     },
     {
       "name": "East Bay Plantation Ph II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3743,7 +3743,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3755,7 +3755,7 @@
     },
     {
       "name": "Cedar Creek Phase II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3767,7 +3767,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3779,7 +3779,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3791,7 +3791,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3803,7 +3803,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3815,7 +3815,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3827,7 +3827,7 @@
     },
     {
       "name": "College Oaks",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3839,7 +3839,7 @@
     },
     {
       "name": "East Bay Plantation Ph II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3851,7 +3851,7 @@
     },
     {
       "name": "Brookwood",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3863,7 +3863,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3875,7 +3875,7 @@
     },
     {
       "name": "East Bay Plantation Ph II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3887,7 +3887,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek Unit 5",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3899,7 +3899,7 @@
     },
     {
       "name": "East Bay Plantation Ph II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3911,7 +3911,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3923,7 +3923,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3935,7 +3935,7 @@
     },
     {
       "name": "Camryn's Crossing 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3947,7 +3947,7 @@
     },
     {
       "name": "Pines of Lynn Haven",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3959,7 +3959,7 @@
     },
     {
       "name": "Sweetwater Village North Phase 2",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3971,7 +3971,7 @@
     },
     {
       "name": "Camryn's Crossing 3",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3983,7 +3983,7 @@
     },
     {
       "name": "Camryn's Crossing 4",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -3995,7 +3995,7 @@
     },
     {
       "name": "Cedar Creek Phase 2-A",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4019,7 +4019,7 @@
     },
     {
       "name": "Cedar Creek Phase 2-A",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4031,7 +4031,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4043,7 +4043,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4055,7 +4055,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4067,7 +4067,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek Unit 5",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4079,7 +4079,7 @@
     },
     {
       "name": "Coastal Palms Commercial",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4091,7 +4091,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4103,7 +4103,7 @@
     },
     {
       "name": "Horizon Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4115,7 +4115,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4127,7 +4127,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4139,7 +4139,7 @@
     },
     {
       "name": "East Bay Plantation Ph II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4151,7 +4151,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4163,7 +4163,7 @@
     },
     {
       "name": "Bay County Conservancy, Inc. 7",
-      "manager": "Non-profit conservation group",
+      "manager": "Non-Governmental Organization",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4175,7 +4175,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4187,7 +4187,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4199,7 +4199,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4211,7 +4211,7 @@
     },
     {
       "name": "Pines of Lynn Haven",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4223,7 +4223,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4235,7 +4235,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4247,7 +4247,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4259,7 +4259,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4271,7 +4271,7 @@
     },
     {
       "name": "Lyndell Plantation",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4283,7 +4283,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4295,7 +4295,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4307,7 +4307,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4319,7 +4319,7 @@
     },
     {
       "name": "Bay County Easement #",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4331,7 +4331,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4343,7 +4343,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4355,7 +4355,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4367,7 +4367,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4379,7 +4379,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4391,7 +4391,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4403,7 +4403,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4415,7 +4415,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4427,7 +4427,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4439,7 +4439,7 @@
     },
     {
       "name": "Bay County Easement #",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4451,7 +4451,7 @@
     },
     {
       "name": "Bay County Easement #",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4463,7 +4463,7 @@
     },
     {
       "name": "Pelican Bay",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4475,7 +4475,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4487,7 +4487,7 @@
     },
     {
       "name": "Basswood Estates 3",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4499,7 +4499,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4511,7 +4511,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4523,7 +4523,7 @@
     },
     {
       "name": "Hidden Pines Phase 5",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4535,7 +4535,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4547,7 +4547,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4559,7 +4559,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4571,7 +4571,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4583,7 +4583,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4595,7 +4595,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4607,7 +4607,7 @@
     },
     {
       "name": "Cove Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4619,7 +4619,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4631,7 +4631,7 @@
     },
     {
       "name": "Waterfall Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4643,7 +4643,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4655,7 +4655,7 @@
     },
     {
       "name": "Laird Point Phase 1",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4667,7 +4667,7 @@
     },
     {
       "name": "Cedar Creek Phase II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4679,7 +4679,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4691,7 +4691,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4703,7 +4703,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4715,7 +4715,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4727,7 +4727,7 @@
     },
     {
       "name": "The Meadows And The Pointe",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4739,7 +4739,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4751,7 +4751,7 @@
     },
     {
       "name": "College Oaks",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4763,7 +4763,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4775,7 +4775,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4787,7 +4787,7 @@
     },
     {
       "name": "Cedar Creek Phase II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4799,7 +4799,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4811,7 +4811,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4823,7 +4823,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4835,7 +4835,7 @@
     },
     {
       "name": "Cedar Creek Phase II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4847,7 +4847,7 @@
     },
     {
       "name": "Brookwood",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4859,7 +4859,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4871,7 +4871,7 @@
     },
     {
       "name": "Bay County Easement #",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4883,7 +4883,7 @@
     },
     {
       "name": "Cedar Ridge",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4895,7 +4895,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek Unit 5",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4907,7 +4907,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4919,7 +4919,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4931,7 +4931,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4943,7 +4943,7 @@
     },
     {
       "name": "East Bay Plantation Ph II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4955,7 +4955,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4967,7 +4967,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4979,7 +4979,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -4991,7 +4991,7 @@
     },
     {
       "name": "Cedar Creek Phase II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5003,7 +5003,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5015,7 +5015,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5027,7 +5027,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5039,7 +5039,7 @@
     },
     {
       "name": "Camryn's Crossing 5",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5051,7 +5051,7 @@
     },
     {
       "name": "Camryn's Crossing 6",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5063,7 +5063,7 @@
     },
     {
       "name": "Rivercamps On Crooked Creek",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5075,7 +5075,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5087,7 +5087,7 @@
     },
     {
       "name": "Cedar Creek Phase I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5099,7 +5099,7 @@
     },
     {
       "name": "East Bay Plantation Ph I",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5111,7 +5111,7 @@
     },
     {
       "name": "Palms Phase Three",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5123,7 +5123,7 @@
     },
     {
       "name": "Cedar Ridge",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5135,7 +5135,7 @@
     },
     {
       "name": "Cedar Ridge",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5147,7 +5147,7 @@
     },
     {
       "name": "Cedar Creek Phase II",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5159,7 +5159,7 @@
     },
     {
       "name": "College Oaks",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {
@@ -5171,8 +5171,8 @@
     },
     {
       "name": "Nokuse Plantation Conservation Easements",
-      "manager": "Other state agency",
-      "designation": "UNKE",
+      "manager": "Other or Unknown State Land",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.42013,
@@ -5183,8 +5183,8 @@
     },
     {
       "name": "Corbin-Tucker Conservation Easement",
-      "manager": "Other state agency",
-      "designation": "UNKE",
+      "manager": "Other or Unknown State Land",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.29873,
@@ -5195,8 +5195,8 @@
     },
     {
       "name": "Trammell Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.51979,
@@ -5207,8 +5207,8 @@
     },
     {
       "name": "Gaskin et al. Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.13523,
@@ -5219,8 +5219,8 @@
     },
     {
       "name": "Patronis Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.4086,
@@ -5231,8 +5231,8 @@
     },
     {
       "name": "Syfrett Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.43866,
@@ -5243,8 +5243,8 @@
     },
     {
       "name": "Haddock Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.68571,
@@ -5255,8 +5255,8 @@
     },
     {
       "name": "Glover Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.60756,
@@ -5267,8 +5267,8 @@
     },
     {
       "name": "Walton Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.53022,
@@ -5279,8 +5279,8 @@
     },
     {
       "name": "Intrawest Sandestin Company Conservation Easement",
-      "manager": "Other state agency",
-      "designation": "UNKE",
+      "manager": "Other or Unknown State Land",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.47834,
@@ -5291,8 +5291,8 @@
     },
     {
       "name": "Panama City Airport Conservation Easement",
-      "manager": "Other state agency",
-      "designation": "UNKE",
+      "manager": "Other or Unknown State Land",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.23409,
@@ -5303,8 +5303,8 @@
     },
     {
       "name": "Seven Runs Creek Conservation Easement",
-      "manager": "Other state agency",
-      "designation": "UNKE",
+      "manager": "Other or Unknown State Land",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.52898,
@@ -5315,8 +5315,8 @@
     },
     {
       "name": "Urquhart/Perry Conservation Easement",
-      "manager": "Regional water district",
-      "designation": "UNKE",
+      "manager": "Regional Water Districts",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.46664,
@@ -5328,7 +5328,7 @@
     {
       "name": "Sandhill Lakes Conservation Easement",
       "manager": "Private",
-      "designation": "UNKE",
+      "designation": "Unknown Easement",
       "access": "closed",
       "bbox": {
         "south": 30.42631,
@@ -5339,7 +5339,7 @@
     },
     {
       "name": "TPL Seven Runs Creek Conservation Easement",
-      "manager": "Other state agency",
+      "manager": "Other or Unknown State Land",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -5351,7 +5351,7 @@
     },
     {
       "name": "Flatwoods Salamander Critical Habitat Conservation Easement",
-      "manager": "Other state agency",
+      "manager": "Other or Unknown State Land",
       "designation": "Conservation Easement",
       "access": "closed",
       "bbox": {
@@ -5363,7 +5363,7 @@
     },
     {
       "name": "Anglin Properties Conservation Easement",
-      "manager": "Non-profit conservation group",
+      "manager": "Non-Governmental Organization",
       "designation": "Conservation Easement",
       "access": null,
       "bbox": {

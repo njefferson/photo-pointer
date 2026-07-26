@@ -83,7 +83,7 @@
         },
         "padus": {
           "name": "Veterans Memorial Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -224,7 +224,7 @@
         "ebird_species": 47,
         "padus": {
           "name": "Apalachicola River Wildlife and Environmental Area",
-          "manager": "State fish & wildlife",
+          "manager": "State Fish and Wildlife",
           "designation": "State Conservation Area",
           "access": "restricted"
         }
@@ -265,7 +265,7 @@
         },
         "padus": {
           "name": "Asbell Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -306,7 +306,7 @@
         },
         "padus": {
           "name": "Recreation Complex",
-          "manager": "Other federal agency",
+          "manager": "Other or Unknown Federal Land",
           "designation": "Local Recreation Area",
           "access": "restricted"
         }
@@ -452,7 +452,7 @@
         },
         "padus": {
           "name": "Bay Memorial Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -489,7 +489,7 @@
         "ebird_species": 136,
         "padus": {
           "name": "Bay Walk Park And Gulf County Welcome Center",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -744,8 +744,8 @@
         "ebird_species": 57,
         "padus": {
           "name": "Choctawhatchee River Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -828,7 +828,7 @@
         },
         "padus": {
           "name": "Cain Griffin Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -865,7 +865,7 @@
         "ebird_species": 41,
         "padus": {
           "name": "Callaway Recreational Complex",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -902,8 +902,8 @@
         "ebird_species": 231,
         "padus": {
           "name": "Camp Helen State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -954,8 +954,8 @@
         },
         "padus": {
           "name": "Camp Helen State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -991,8 +991,8 @@
         "ebird_species": 46,
         "padus": {
           "name": "Choctawhatchee River Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -1057,7 +1057,7 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Cape_San_Blas_Light",
         "padus": {
           "name": "Sand Hills Pond Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -1091,7 +1091,7 @@
         "nrhp": "15000208",
         "padus": {
           "name": "Shipyard Cove/ Maddox Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -1570,8 +1570,8 @@
         "ebird_species": 191,
         "padus": {
           "name": "Panama City Beach Conservation Park",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "restricted"
         }
       }
@@ -1607,7 +1607,7 @@
         "ebird_species": 49,
         "padus": {
           "name": "Constitution Convention Museum State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -1649,7 +1649,7 @@
         },
         "padus": {
           "name": "Harry Edwards Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -1686,8 +1686,8 @@
         "ebird_species": 30,
         "padus": {
           "name": "Choctawhatchee River Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -1912,8 +1912,8 @@
         "ebird_species": 80,
         "padus": {
           "name": "Dead Lakes Park",
-          "manager": "County",
-          "designation": "LOTH",
+          "manager": "County Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -1980,8 +1980,8 @@
         "ebird_species": 121,
         "padus": {
           "name": "Nokuse Plantation Conservation Easements",
-          "manager": "Other state agency",
-          "designation": "UNKE",
+          "manager": "Other or Unknown State Land",
+          "designation": "Unknown Easement",
           "access": "closed"
         }
       }
@@ -2021,8 +2021,8 @@
         },
         "padus": {
           "name": "Deep Springs Park",
-          "manager": "County",
-          "designation": "LOTH",
+          "manager": "County Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -2058,7 +2058,7 @@
         "ebird_species": 164,
         "padus": {
           "name": "Deer Lake State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -2407,8 +2407,8 @@
         "ebird_species": 48,
         "padus": {
           "name": "Econfina Creek Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -2444,8 +2444,8 @@
         "ebird_species": 36,
         "padus": {
           "name": "Econfina Creek Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -2512,7 +2512,7 @@
         "ebird_species": 138,
         "padus": {
           "name": "Eden Gardens State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -2546,7 +2546,7 @@
         "nrhp": "100006749",
         "padus": {
           "name": "Eden Gardens State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -2708,7 +2708,7 @@
         "gnis": "282368",
         "padus": {
           "name": "Falling Waters State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -2850,7 +2850,7 @@
         },
         "padus": {
           "name": "Frank Brown Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2887,7 +2887,7 @@
         "ebird_species": 152,
         "padus": {
           "name": "Frank Brown Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2943,7 +2943,7 @@
         },
         "padus": {
           "name": "Frank Nelson Jr. Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -2980,7 +2980,7 @@
         "ebird_species": 115,
         "padus": {
           "name": "Sand Hills Pond Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3084,8 +3084,8 @@
         "ebird_species": 208,
         "padus": {
           "name": "Grayton Beach State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -3121,7 +3121,7 @@
         "ebird_species": 138,
         "padus": {
           "name": "Grayton Dunes Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3349,7 +3349,7 @@
         },
         "padus": {
           "name": "Harvey Dee Mathis Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3839,7 +3839,7 @@
         },
         "padus": {
           "name": "James E Rogers Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -3895,7 +3895,7 @@
         },
         "padus": {
           "name": "Joe Moody Harris Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4092,7 +4092,7 @@
         },
         "padus": {
           "name": "A.L. Kinsaul Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4129,8 +4129,8 @@
         "ebird_species": 67,
         "padus": {
           "name": "Choctawhatchee River Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -4228,7 +4228,7 @@
         "ebird_species": 104,
         "padus": {
           "name": "Asbell Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4362,7 +4362,7 @@
         },
         "padus": {
           "name": "Lake Powell Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -4598,8 +4598,8 @@
         "ebird_species": 35,
         "padus": {
           "name": "Choctawhatchee River Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -4635,8 +4635,8 @@
         "ebird_species": 26,
         "padus": {
           "name": "Point Washington State Forest",
-          "manager": "Other state agency",
-          "designation": "SRMA",
+          "manager": "Other or Unknown State Land",
+          "designation": "State Resource Management Area",
           "access": "open"
         }
       }
@@ -4766,7 +4766,7 @@
         },
         "padus": {
           "name": "Lynn Haven Sports Complex",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -5072,7 +5072,7 @@
         },
         "padus": {
           "name": "Mckenzie Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5391,7 +5391,7 @@
         "ebird_species": 76,
         "padus": {
           "name": "Morrison Springs Recreational Facility",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "State Recreation Area",
           "access": "open"
         }
@@ -5456,8 +5456,8 @@
         "ebird_species": 19,
         "padus": {
           "name": "Econfina Creek Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -5558,7 +5558,7 @@
         },
         "padus": {
           "name": "Oakland Terrace Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5614,7 +5614,7 @@
         },
         "padus": {
           "name": "Oaks By The Bay",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5700,7 +5700,7 @@
         },
         "padus": {
           "name": "Whittington Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -5977,7 +5977,7 @@
         },
         "padus": {
           "name": "City Marina",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -6049,8 +6049,8 @@
         },
         "padus": {
           "name": "Panama City Beach Conservation Park",
-          "manager": "City",
-          "designation": "LCA",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
           "access": "restricted"
         }
       }
@@ -6494,7 +6494,7 @@
         },
         "padus": {
           "name": "Parker Sports Complex",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
         }
@@ -6649,8 +6649,8 @@
         "ebird_species": 97,
         "padus": {
           "name": "Pine Log State Forest",
-          "manager": "Other state agency",
-          "designation": "SRMA",
+          "manager": "Other or Unknown State Land",
+          "designation": "State Resource Management Area",
           "access": "open"
         }
       }
@@ -6704,8 +6704,8 @@
         },
         "padus": {
           "name": "Pine Log State Forest",
-          "manager": "Other state agency",
-          "designation": "SRMA",
+          "manager": "Other or Unknown State Land",
+          "designation": "State Resource Management Area",
           "access": "open"
         }
       }
@@ -6784,8 +6784,8 @@
         "ebird_species": 87,
         "padus": {
           "name": "Econfina Creek Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -6919,7 +6919,7 @@
         "ebird_species": 150,
         "padus": {
           "name": "Jetty Park / Port St Joe Marina",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -7124,7 +7124,7 @@
         },
         "padus": {
           "name": "Richard Seltzer Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -7161,7 +7161,7 @@
         "ebird_species": 62,
         "padus": {
           "name": "Richard Seltzer Park",
-          "manager": "Regional agency",
+          "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -7374,8 +7374,8 @@
         },
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -7421,8 +7421,8 @@
         },
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -7458,8 +7458,8 @@
         "ebird_species": 204,
         "padus": {
           "name": "Salinas Park",
-          "manager": "County",
-          "designation": "LOTH",
+          "manager": "County Land",
+          "designation": "Local Other or Unknown",
           "access": "open"
         }
       }
@@ -7556,7 +7556,7 @@
         },
         "padus": {
           "name": "Scott Field Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -7672,7 +7672,7 @@
         },
         "padus": {
           "name": "Sharron J Sheffield Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -7709,8 +7709,8 @@
         "ebird_species": 72,
         "padus": {
           "name": "St. Andrews State Park Aquatic Preserve",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8026,7 +8026,7 @@
         },
         "padus": {
           "name": "Springfield Gardens Walking Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -8150,8 +8150,8 @@
         "ebird_species": 141,
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8218,8 +8218,8 @@
         "ebird_species": 168,
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8255,8 +8255,8 @@
         "ebird_species": 236,
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8292,8 +8292,8 @@
         "ebird_species": 180,
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8360,8 +8360,8 @@
         "ebird_species": 51,
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8397,8 +8397,8 @@
         "ebird_species": 300,
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8434,8 +8434,8 @@
         "ebird_species": 111,
         "padus": {
           "name": "St. Andrews State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8502,7 +8502,7 @@
         "ebird_species": 173,
         "padus": {
           "name": "T. H. Stone Memorial St. Joseph Peninsula State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
         }
@@ -8539,8 +8539,8 @@
         "ebird_species": 188,
         "padus": {
           "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8576,8 +8576,8 @@
         "ebird_species": 185,
         "padus": {
           "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8644,8 +8644,8 @@
         "ebird_species": 145,
         "padus": {
           "name": "St. Joseph Bay State Buffer Preserve",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8681,8 +8681,8 @@
         "ebird_species": 199,
         "padus": {
           "name": "St. Joseph Bay State Buffer Preserve",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8746,8 +8746,8 @@
         "ebird_species": 266,
         "padus": {
           "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
-          "manager": "State conservation agency",
-          "designation": "MPA",
+          "manager": "State Department of Conservation",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -8990,8 +8990,8 @@
         "ebird_species": 49,
         "padus": {
           "name": "Choctawhatchee River Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -9055,7 +9055,7 @@
         "ebird_species": 222,
         "padus": {
           "name": "Topsail Hill Preserve State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -9092,7 +9092,7 @@
         "ebird_species": 89,
         "padus": {
           "name": "Topsail Hill Preserve State Park",
-          "manager": "State parks & recreation",
+          "manager": "State Park and Recreation",
           "designation": "State Conservation Area",
           "access": "open"
         }
@@ -9132,8 +9132,8 @@
         },
         "padus": {
           "name": "Econfina Creek Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -9173,8 +9173,8 @@
         },
         "padus": {
           "name": "Econfina Creek Water Management Area",
-          "manager": "Regional water district",
-          "designation": "WPA",
+          "manager": "Regional Water Districts",
+          "designation": "Watershed Protection Area",
           "access": "closed"
         }
       }
@@ -9215,7 +9215,7 @@
         },
         "padus": {
           "name": "Truesdell Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9487,7 +9487,7 @@
         },
         "padus": {
           "name": "Under The Oaks Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9521,8 +9521,8 @@
         "nrhp": "06000243",
         "padus": {
           "name": "Vamar Underwater Archaeological Preserve",
-          "manager": "Other state agency",
-          "designation": "MPA",
+          "manager": "Other or Unknown State Land",
+          "designation": "Marine Protected Area",
           "access": "open"
         }
       }
@@ -9564,7 +9564,7 @@
         },
         "padus": {
           "name": "Veterans Memorial Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9630,7 +9630,7 @@
         "ebird_species": 40,
         "padus": {
           "name": "Harvey Dee Mathis Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9766,7 +9766,7 @@
         },
         "padus": {
           "name": "Whittington Park",
-          "manager": "City",
+          "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9838,7 +9838,7 @@
         "ebird_species": 86,
         "padus": {
           "name": "Windmark Beach Access Park",
-          "manager": "County",
+          "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
         }
@@ -9932,7 +9932,7 @@
         "reservable": true,
         "padus": {
           "name": "Wright Lake Recreation Area",
-          "manager": "U.S. Forest Service",
+          "manager": "Forest Service",
           "designation": "Recreation Management Area",
           "access": "open"
         }
