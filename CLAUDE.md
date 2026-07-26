@@ -122,6 +122,17 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 STREAMFLOW CONFIRMED ON DEVICE (Noah: "it works"), right after
+  tides. Real USGS instantaneous-values + daily-median numbers on a real
+  waterfall, so 1.9.0's live path is verified end to end rather than against
+  mocks. WITH THIS, EVERY "NEEDS NOAH'S HANDS" ITEM IS CLOSED — the two live
+  per-spot sources the sandbox 403s (NOAA tides, USGS streamflow) are both
+  confirmed, and nothing in the app now rests on a mocked network path.
+  WHAT THIS MEANS FOR THE HARNESS: scripts/smoke-flow.mjs mocks USGS to prove
+  fetch+CSP+parse+format, and its in-browser assertions have always passed — the
+  flakiness is its POPUP-READ step only. Now that the real path is confirmed on
+  device, that smoke's remaining value is regression cover, not proof; do not
+  read a flaky run as evidence the feature is broken.
 - 2026-07-26 TIDES CONFIRMED ON DEVICE (Noah: "tides confirmed"). Real NOAA
   CO-OPS numbers on a real coastal spot, so 1.8.0's live path — station lookup,
   hilo predictions, formatting, and the CSP allowance — is verified end to end
@@ -597,9 +608,9 @@ kept because it is more granular than the Doctrine) before doing anything.
   (campgrounds/trailheads — the real prize) and /recareas; /events worth checking
   for the 1.7.0 events layer; SKIP /campsites, /permits, /tours, /media (media =
   third-party image licensing risk).
-- 2026-07-25 1.9.0 "Is the waterfall actually running?" (a CAPABILITY) BUILT on
-  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: real USGS numbers on a
-  real waterfall). Chosen as the next source after the three-part plan shipped
+- 2026-07-25 1.9.0 "Is the waterfall actually running?" (a CAPABILITY) — LIVE and
+  CONFIRMED ON DEVICE by Noah 2026-07-26 ("it works"): real USGS gauge numbers on
+  a real waterfall. Chosen as the next source after the three-part plan shipped
   (Noah: "please continue") — it was my top recommendation after tides, and it
   pays off the GNIS/OSM waterfall data directly: a named fall is a year-round
   pin, the SHOT isn't. NEW src/model/streamflow.js — USGS Water Services, US
