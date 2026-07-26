@@ -122,6 +122,41 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 1.15.1 "Place cards fit your text size" (an ITERATION, an
+  ACCESSIBILITY FIX). Noah asked the right question: "Is the popup a fixed size
+  that could fail if the font size was set higher on the phone for visibility?
+  If so, that is a violation of my accessibility values." IT WAS. Measured, on
+  the then-PROMOTED build — raising text size is equivalent to shrinking the
+  viewport, so 200% text on a 390x844 phone is a 195x422 viewport:
+    100% text  map 390x667 — card opens, x reachable
+    150% text  map 260x322 — card renders 267 WIDE IN A 260 MAP, x pushed OFF
+    200% text  map 195x181 — card does not open at all
+    320x568 @200%  map 160x114 — card does not open; header alone was 241 of 284
+  THREE fixed sizes, none of which ever looked at the map: `maxWidth: 320`, a
+  hard `maxHeight: Math.max(240, innerHeight*0.6)` FLOOR, and `autoPanPadding
+  [12,76]` (152px of vertical margin demanded from a 322px map, so Leaflet gave
+  up panning and left the card hanging off-screen). All THREE were computed ONCE
+  at marker-creation time from window.innerHeight — never from the map, so they
+  were also stale after rotation.
+  FIX: new sizePopup(marker) runs at every open (activate, zoomToCluster's
+  fallback, and focusSpot) and derives maxHeight/maxWidth/autoPanPadding from
+  `map.getSize()`. TWO GOTCHAS each cost a cycle: (1) maxWidth is the CONTENT
+  width — Leaflet's wrapper adds ~40px of padding/border/shadow, so budgeting
+  only 24px still rendered wider than the map; (2) MY OWN FLOORS became the next
+  fixed size that fails — a 160px minimum width inside a 160px map re-broke the
+  close button. A floor must never exceed the space available.
+  ALSO: `.bar` is now max-height 60vh + overflow-y auto. At 200% text it was
+  241px of a 284px viewport, leaving the map 43px — the same failure as the
+  1.14.1 filters panel, but driven by the reader's text size.
+  NEW scripts/smoke-cardfits.mjs is the gate: five viewport sizes, and it FAILS
+  if the card does not open, is taller than the map, hangs off any edge, or has
+  an unreachable close. VERIFIED TO BITE: 4 of 5 sizes FAIL on the promoted
+  build, 0 of 5 after. sw CACHE pointer-1.15.1; changelog[0] 1.15.1.
+  STILL OPEN, reported to Noah, NOT changed unilaterally: all 90 font-size
+  declarations in styles.css are `px` and there are ZERO rem/em. Browser/OS
+  page-zoom scales px so this fix covers that path, but a reader who raises only
+  the DEFAULT FONT SIZE gets no change at all. Converting is a sweeping change
+  and his call.
 - 2026-07-26 STREAMFLOW CONFIRMED ON DEVICE (Noah: "it works"), right after
   tides. Real USGS instantaneous-values + daily-median numbers on a real
   waterfall, so 1.9.0's live path is verified end to end rather than against

@@ -384,10 +384,11 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // top place's card so the tap still does something.
   function zoomToCluster(rec) {
     const members = rec.clusterMembers || [];
-    if (members.length < 2) { rememberViewForPopup(); rec.marker.openPopup(); return; }
+    if (members.length < 2) { rememberViewForPopup(); sizePopup(rec.marker); rec.marker.openPopup(); return; }
     const bounds = L.latLngBounds(members.map((m) => [m.lat, m.lng]));
     if (map.getBoundsZoom(bounds, false, L.point(50, 50)) <= map.getZoom()) {
       rememberViewForPopup();
+      sizePopup(rec.marker);
       rec.marker.openPopup();
       return;
     }
@@ -942,16 +943,54 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     return root;
   }
 
+  // Size the card to the space that ACTUALLY EXISTS, at the moment it opens.
+  //
+  // The old values were fixed (320 wide, and a hard `Math.max(240, ...)` floor)
+  // and were computed ONCE when the marker was created, from window.innerHeight.
+  // So they never responded to the map's real size, to rotation, or to a reader
+  // raising their text size — measured at 200% text on a small phone, the map is
+  // 43px tall and the card was still demanding 240. Fixed sizing that ignores the
+  // viewport is an accessibility failure, not a cosmetic one.
+  function sizePopup(marker) {
+    const popup = marker.getPopup?.();
+    if (!popup) return;
+    const size = map.getSize();
+    // Leave room for the popup tip and a little breathing space; never go below
+    // a floor SMALLER than the space we have, so the card always fits and
+    // scrolls internally rather than overflowing with an unreachable close.
+    // Budget for the wrapper chrome AND the tip below it, or the card sits a few
+    // pixels past the bottom edge.
+    const maxHeight = Math.max(60, size.y - 90);
+    // maxWidth is the CONTENT width; Leaflet's wrapper adds ~40px of padding,
+    // border and shadow around it. Budgeting only 24px let the card render wider
+    // than the map itself (267 in a 260px map), which pushed the × close off the
+    // screen entirely — the card could be read but not dismissed.
+    // NO FLOOR ABOVE WHAT WE HAVE. A 160px minimum in a 160px-wide map renders a
+    // card wider than the map and pushes the × off the screen — the floor itself
+    // becomes the fixed size that fails. Narrow, wrapped text is readable; an
+    // undismissable card is not.
+    const maxWidth = Math.max(110, Math.min(320, size.x - 56));
+    popup.options.maxHeight = maxHeight;
+    popup.options.maxWidth = maxWidth;
+    // autoPan can only fit the card if the padding it must respect actually fits
+    // in the map. A fixed 76px top+bottom is 152px of a 322px map, so Leaflet
+    // gave up panning and left the card hanging below the screen. Scale it.
+    const padY = Math.max(8, Math.min(76, Math.round(size.y * 0.08)));
+    const padX = Math.max(6, Math.min(12, Math.round(size.x * 0.03)));
+    popup.options.autoPanPadding = [padX, padY];
+  }
+
   // Build one marker record (heavy: an L.marker + bound popup). Kept out of
   // setSpots so we only pay it for spots that are actually new.
   function createMarkerRec(spot) {
     const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category, !!spot.tags?.commons?.photos) })
       .bindPopup(() => popupFor(spot), {
+        // Real values are set per-open by sizePopup() — these are only a sane
+        // starting point. They must NOT be a fixed floor: a card that insists on
+        // 240px in a 43px map is unusable, and that is exactly what happens when
+        // someone raises their phone's text size.
         maxWidth: 320,
-        // Cap the popup to the viewport so a long card scrolls INSIDE the popup
-        // (Leaflet makes a scroll container) and the × close stays reachable —
-        // instead of overflowing off a phone screen with no way to dismiss it.
-        maxHeight: Math.max(240, Math.round((typeof window !== 'undefined' ? window.innerHeight : 700) * 0.6)),
+        maxHeight: 240,
         autoPanPadding: [12, 76],
       });
     // Take over click / keyboard-Enter from Leaflet's default popup opener (it
@@ -964,6 +1003,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       const rec = markerById.get(spot.id);
       if (rec && rec.clusterCount > 1) { zoomToCluster(rec); return; }
       rememberViewForPopup();
+      sizePopup(marker);
       marker.openPopup();
     };
     marker.__spotId = spot.id; // lets popupopen protect this exact pin (see below)
@@ -1039,6 +1079,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       const r = markerById.get(spot.id);
       if (r) {
         if (!r.mounted) { r.marker.addTo(map); r.mounted = true; }
+        sizePopup(r.marker);
         r.marker.openPopup();
       }
     };

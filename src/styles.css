@@ -69,6 +69,10 @@ body {
 
 #app { display: flex; flex-direction: column; height: 100%; }
 
+/* BOUNDED. At 200% text on a small phone the header measured 241px of a 284px
+   viewport, leaving the map 43px — the same failure as the filters panel, but
+   driven by the reader's text size rather than by a chip count. The header
+   scrolls itself before it is allowed to push the map off the screen. */
 .bar {
   padding: calc(8px + env(safe-area-inset-top)) 12px 8px;
   background: var(--bg);
@@ -77,6 +81,9 @@ body {
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
+  max-height: 60vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .bar h1 { font-size: 17px; margin: 0; flex: 1 1 auto; }
