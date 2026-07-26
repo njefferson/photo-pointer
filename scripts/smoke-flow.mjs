@@ -49,6 +49,15 @@ const IV = { value: { timeSeries: [
 const STAT_ROWS = ['agency_cd\tsite_no\tparameter_cd\tmonth_nu\tday_nu\tmedian_va', '5s\t15s\t5s\t2n\t2n\t12n'];
 // Median for EVERY calendar day = 1000 cfs, so "today" always resolves (3180/1000 → higher than usual).
 for (let m = 1; m <= 12; m++) for (let d = 1; d <= 31; d++) STAT_ROWS.push(`USGS\t11427000\t00060\t${m}\t${d}\t1000`);
+// Everything ELSE the popup reaches for — basemap tiles, Open-Meteo weather and
+// air quality, NOAA tides — is unreachable from the sandbox and fails SLOWLY
+// through the proxy. That contention is what made the USGS line intermittently
+// miss its deadline and remove itself (the popup opened fine; the fetch behind
+// the line lost the race). Abort them instantly so the only network this test
+// waits on is the one it actually mocks.
+await ctx.route(/tile\.openstreetmap\.org|open-meteo\.com|tidesandcurrents\.noaa\.gov/,
+  (route) => route.abort());
+
 await ctx.route('**/waterservices.usgs.gov/**', async (route) => {
   const url = route.request().url();
   if (url.includes('/nwis/stat/')) {

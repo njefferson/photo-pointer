@@ -125,15 +125,27 @@ kept because it is more granular than the Doctrine) before doing anything.
   List→Map keeps the markers, a zero-match filter shows 0 markers not every pin,
   clearing restores the map, 0 pageerrors. sw CACHE pointer-1.14.1; changelog[0]
   1.14.1. 192 tests + contrast + smokes green.
-  KNOWN, PRE-EXISTING, NOT INTRODUCED HERE: scripts/smoke-flow.mjs is FLAKY on
-  its popup assertion — measured on untouched HEAD it failed 3 of 6 runs (with
-  these changes, 1 of 6), so the earlier "stable over 3 consecutive runs" note
-  was optimistic. The popup and its `.popup-more` DO open (verified) and the
-  in-browser flowNow/formatFlow assertions pass EVERY run, so the streamflow code
-  itself is fine; it's the mocked-route/popup timing in the harness. One real
-  harness bug WAS fixed in passing: the "settled" predicate counted "the line
-  isn't in the DOM yet" as settled, so it exited before the line was inserted —
-  it now waits for presence when a line is expected. Worth finishing properly.
+  KNOWN, PRE-EXISTING, STILL OPEN: scripts/smoke-flow.mjs is FLAKY on its popup
+  assertion — up to 5 of 10 runs fail under load, so the earlier "stable over 3
+  consecutive runs" note was optimistic. WHAT IS ESTABLISHED: the failure rate is
+  HEAVILY load-dependent and swings run-to-run, so small samples prove nothing
+  (an early 3-of-6 vs 1-of-6 reading looked like a difference and was just
+  noise — don't draw conclusions from six runs). The ResizeObserver added in
+  1.14.1 is NOT the cause: disabled vs enabled both measured 5 of 10 over the
+  same 10-run window. The popup and its `.popup-more` DO open every time
+  (verified via instrumentation), and the in-browser flowNow/formatFlow
+  assertions pass EVERY run — so the streamflow code is fine and this is harness
+  timing. The line is REMOVED rather than left at "checking…", meaning flowNow
+  resolved empty or rejected. KEY CLUE for whoever picks this up: RAISING the
+  poll deadline 6s → 15s made it WORSE (6 of 8), so it is NOT a timeout — the
+  line settles and is then torn down. Ruled out: setClusterState mutates the pin
+  icon in place (no setIcon), so a re-cull is not detaching the popup.
+  TWO REAL HARNESS BUGS WERE FIXED in passing, neither of which cured it: (1) the
+  "settled" predicate counted "the line isn't in the DOM yet" as settled, so it
+  read before the line was ever inserted — it now waits for presence when a line
+  is expected; (2) only USGS was mocked, so tiles/Open-Meteo/NOAA all went out and
+  failed SLOWLY through the sandbox proxy — those hosts are now aborted instantly
+  so the only network the test waits on is the one it mocks.
 - 2026-07-26 1.14.0 "Who manages it, and hand-written detail" (a CAPABILITY)
   BUILT + DATA ROLLED OUT on staging (awaiting on-device pass). Noah's "Promote,
   PADUS then shared enrichment" — the last two items owed from the bare-card
