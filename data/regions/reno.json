@@ -44,7 +44,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -75,7 +76,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -106,7 +108,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 98
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -137,7 +140,8 @@
         "nrhp": "83001113",
         "commons": {
           "photos": 194
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -168,7 +172,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 9
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -197,7 +202,8 @@
         "leisure": "park",
         "commons": {
           "photos": 78
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -229,7 +235,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 16
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -262,7 +269,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -293,7 +301,8 @@
         "nrhp": "79001466",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -325,7 +334,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -360,7 +370,8 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -397,7 +408,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -429,7 +441,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -464,7 +477,8 @@
         },
         "commons": {
           "photos": 6
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -496,7 +510,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -528,7 +543,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -558,7 +574,8 @@
         "name": "Arrowcreek Open Space",
         "operator": "Washoe County",
         "natural": "heath",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "bortle": 5
       }
     },
     {
@@ -593,7 +610,8 @@
         },
         "commons": {
           "photos": 10
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -624,7 +642,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -656,7 +675,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 191
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -692,7 +712,8 @@
         },
         "commons": {
           "photos": 32
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -723,7 +744,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 36
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -755,7 +777,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -789,7 +812,8 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -818,7 +842,8 @@
         "leisure": "park",
         "commons": {
           "photos": 59
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -849,7 +874,8 @@
         "nrhp": "07001013",
         "commons": {
           "photos": 64
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -878,7 +904,8 @@
         "leisure": "park",
         "commons": {
           "photos": 163
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -909,7 +936,8 @@
         "nrhp": "02000874",
         "commons": {
           "photos": 32
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -936,7 +964,8 @@
       "tags": {
         "name": "Barolo Park",
         "operator": "D'Andrea Ranch PhIII HOA",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -971,7 +1000,8 @@
         },
         "commons": {
           "photos": 34
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1002,7 +1032,7 @@
         "description": "The monument was designed to represent the sheepherder and his descendants in the American West, as well as all Basques throughout the world. ",
         "artwork_type": "sculpture",
         "historic": "monument",
-        "inscription": "Nestor Basterretxea’s poem, “Solitude.”",
+        "inscription": "Nestor Basterretxea\u2019s poem, \u201cSolitude.\u201d",
         "padus": {
           "name": "Rancho San Rafael Regional Park",
           "manager": "County Land",
@@ -1011,7 +1041,8 @@
         },
         "commons": {
           "photos": 18
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1042,7 +1073,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 134
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1073,12 +1105,13 @@
         "tourism": "artwork",
         "commons": {
           "photos": 13
-        }
+        },
+        "bortle": 6
       }
     },
     {
       "id": "beefy-s-inc@9r4bcb",
-      "name": "Beefy’s Inc",
+      "name": "Beefy\u2019s Inc",
       "lat": 39.5114853,
       "lng": -119.8059011,
       "category": "oddity",
@@ -1100,7 +1133,7 @@
         }
       ],
       "tags": {
-        "name": "Beefy’s Inc",
+        "name": "Beefy\u2019s Inc",
         "tourism": "artwork",
         "padus": {
           "name": "Virginia Lake Park",
@@ -1110,7 +1143,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1141,7 +1175,8 @@
         "nrhp": "01000587",
         "commons": {
           "photos": 192
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1170,7 +1205,8 @@
         "leisure": "park",
         "commons": {
           "photos": 5
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1199,7 +1235,8 @@
         "leisure": "park",
         "commons": {
           "photos": 190
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1230,7 +1267,8 @@
         "nrhp": "74001151",
         "commons": {
           "photos": 247
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1262,7 +1300,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1293,7 +1332,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1325,7 +1365,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1356,7 +1397,8 @@
         "nrhp": "83001114",
         "commons": {
           "photos": 196
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1384,7 +1426,8 @@
         "name": "Brachetto Loop",
         "access": "private",
         "operator": "D'Andrea Ranch PhIII",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -1419,7 +1462,8 @@
         },
         "commons": {
           "photos": 82
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1447,7 +1491,8 @@
         }
       ],
       "tags": {
-        "nrhp": "94001471"
+        "nrhp": "94001471",
+        "bortle": 5
       }
     },
     {
@@ -1479,7 +1524,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1510,7 +1556,8 @@
         "nrhp": "04000984",
         "commons": {
           "photos": 6
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1541,7 +1588,8 @@
         "nrhp": "84002077",
         "commons": {
           "photos": 105
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1578,7 +1626,8 @@
         },
         "commons": {
           "photos": 13
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1610,7 +1659,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1642,7 +1692,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1673,7 +1724,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1705,7 +1757,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 259
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1731,7 +1784,8 @@
       ],
       "tags": {
         "name": "Caughlin Crest Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -1766,7 +1820,8 @@
         },
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1832,7 +1887,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -1865,7 +1921,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1898,7 +1955,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -1966,7 +2024,8 @@
         "leisure": "park",
         "commons": {
           "photos": 252
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2001,7 +2060,8 @@
         },
         "commons": {
           "photos": 6
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2027,7 +2087,8 @@
       ],
       "tags": {
         "name": "Cottonwood Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -2059,7 +2120,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2090,7 +2152,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2118,7 +2181,8 @@
       ],
       "tags": {
         "name": "Cross Peak",
-        "natural": "peak"
+        "natural": "peak",
+        "bortle": 5
       }
     },
     {
@@ -2153,7 +2217,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2180,7 +2245,8 @@
       "tags": {
         "name": "Culpepper Park",
         "operator": "D'Andrea Ranch PhIII HOA",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -2212,7 +2278,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2244,7 +2311,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2280,7 +2348,8 @@
         },
         "commons": {
           "photos": 28
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2312,7 +2381,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -2344,7 +2414,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -2379,7 +2450,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2411,7 +2483,8 @@
         "memorial": "statue",
         "commons": {
           "photos": 48
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2440,7 +2513,8 @@
         "leisure": "park",
         "commons": {
           "photos": 10
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2466,7 +2540,8 @@
       ],
       "tags": {
         "name": "Dorostkar Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -2498,7 +2573,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2530,7 +2606,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2562,7 +2639,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -2591,7 +2669,8 @@
         "highway": "trailhead",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2617,7 +2696,8 @@
       ],
       "tags": {
         "name": "Eastridge Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -2652,7 +2732,8 @@
         },
         "commons": {
           "photos": 37
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2680,7 +2761,8 @@
       ],
       "tags": {
         "name": "El Adobe Cafe",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "bortle": 6
       }
     },
     {
@@ -2711,7 +2793,8 @@
         "nrhp": "84002078",
         "commons": {
           "photos": 226
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2743,7 +2826,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2778,7 +2862,8 @@
         },
         "commons": {
           "photos": 19
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2807,7 +2892,8 @@
         "leisure": "park",
         "commons": {
           "photos": 73
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2842,7 +2928,8 @@
         },
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -2873,7 +2960,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2904,7 +2992,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2935,7 +3024,8 @@
         "historic": "memorial",
         "commons": {
           "photos": 10
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -2966,7 +3056,8 @@
         "nrhp": "100006290",
         "commons": {
           "photos": 42
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -3002,7 +3093,8 @@
         },
         "commons": {
           "photos": 86
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3028,7 +3120,8 @@
       ],
       "tags": {
         "name": "Fireburst Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -3059,7 +3152,8 @@
         "nrhp": "99000939",
         "commons": {
           "photos": 169
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3090,7 +3184,8 @@
         "nrhp": "83001115",
         "commons": {
           "photos": 246
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3125,7 +3220,8 @@
         },
         "commons": {
           "photos": 78
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3154,7 +3250,8 @@
         "leisure": "park",
         "commons": {
           "photos": 86
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3183,7 +3280,8 @@
         "leisure": "park",
         "commons": {
           "photos": 18
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3214,7 +3312,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 59
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3245,7 +3344,8 @@
         "nrhp": "83001116",
         "commons": {
           "photos": 194
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3277,7 +3377,8 @@
         "memorial": "plaque",
         "commons": {
           "photos": 20
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3305,7 +3406,8 @@
         }
       ],
       "tags": {
-        "nrhp": "99000267"
+        "nrhp": "99000267",
+        "bortle": 5
       }
     },
     {
@@ -3340,7 +3442,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -3375,7 +3478,8 @@
       "tags": {
         "name": "Frontera Community Park",
         "leisure": "park",
-        "opening_hours": "sunrise-sunset"
+        "opening_hours": "sunrise-sunset",
+        "bortle": 5
       }
     },
     {
@@ -3404,7 +3508,8 @@
         "leisure": "park",
         "commons": {
           "photos": 191
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3435,7 +3540,8 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -3472,7 +3578,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -3506,7 +3613,8 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -3535,7 +3643,8 @@
       "tags": {
         "name": "Galena Terrace",
         "operator": "Washoe County",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "bortle": 4
       }
     },
     {
@@ -3568,7 +3677,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -3596,7 +3706,8 @@
         "name": "Garda Park",
         "access": "private",
         "operator": "D'Andrea Ranch PHIII HOA",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -3627,7 +3738,8 @@
         "nrhp": "03001510",
         "commons": {
           "photos": 127
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3662,7 +3774,8 @@
         },
         "commons": {
           "photos": 10
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3694,7 +3807,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -3724,7 +3838,8 @@
         "leisure": "park",
         "commons": {
           "photos": 45
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -3755,7 +3870,8 @@
           "name": "Gepford Park",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -3787,7 +3903,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 180
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3818,7 +3935,8 @@
         "nrhp": "84002079",
         "commons": {
           "photos": 103
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -3850,7 +3968,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -3878,7 +3997,8 @@
         }
       ],
       "tags": {
-        "nrhp": "78001729"
+        "nrhp": "78001729",
+        "bortle": 5
       }
     },
     {
@@ -3913,7 +4033,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -3945,7 +4066,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -3977,7 +4099,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4008,7 +4131,8 @@
         "nrhp": "83001117",
         "commons": {
           "photos": 125
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4043,7 +4167,8 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -4078,7 +4203,8 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -4109,7 +4235,8 @@
         "nrhp": "87001472",
         "commons": {
           "photos": 147
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4151,7 +4278,8 @@
         "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Reno_Balloon_Race",
         "commons": {
           "photos": 87
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4186,7 +4314,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4217,7 +4346,8 @@
         "nrhp": "02000875",
         "commons": {
           "photos": 31
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4248,7 +4378,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 12
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4279,7 +4410,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4314,7 +4446,8 @@
         },
         "commons": {
           "photos": 85
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4345,7 +4478,8 @@
         "nrhp": "79001465",
         "commons": {
           "photos": 137
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4383,7 +4517,8 @@
         },
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4418,7 +4553,8 @@
         },
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4453,7 +4589,8 @@
         },
         "commons": {
           "photos": 8
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4485,7 +4622,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4516,7 +4654,8 @@
         "tourism": "attraction",
         "commons": {
           "photos": 63
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4550,7 +4689,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4584,7 +4724,8 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4616,7 +4757,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4648,7 +4790,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4678,7 +4821,8 @@
         "leisure": "park",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4709,7 +4853,8 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 8
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4741,7 +4886,8 @@
         "natural": "peak",
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4776,7 +4922,8 @@
         },
         "commons": {
           "photos": 5
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4807,7 +4954,8 @@
         "nrhp": "83001118",
         "commons": {
           "photos": 186
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -4843,7 +4991,8 @@
         },
         "commons": {
           "photos": 30
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4874,7 +5023,8 @@
         "nrhp": "92001700",
         "commons": {
           "photos": 59
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4910,7 +5060,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -4937,7 +5088,8 @@
       "tags": {
         "name": "Isabella Park",
         "operator": "D'Andrea Ranch PhIII HOA",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -4972,7 +5124,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5004,7 +5157,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -5030,7 +5184,8 @@
       ],
       "tags": {
         "name": "Jack Reviglio Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 4
       }
     },
     {
@@ -5062,7 +5217,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5091,7 +5247,8 @@
         "leisure": "park",
         "commons": {
           "photos": 63
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5126,7 +5283,8 @@
         },
         "commons": {
           "photos": 81
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5159,7 +5317,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 15
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5190,7 +5349,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5222,7 +5382,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5257,7 +5418,8 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5288,7 +5450,8 @@
         "nrhp": "05001121",
         "commons": {
           "photos": 50
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5319,7 +5482,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5350,7 +5514,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5378,7 +5543,8 @@
         }
       ],
       "tags": {
-        "nrhp": "72000767"
+        "nrhp": "72000767",
+        "bortle": 5
       }
     },
     {
@@ -5410,7 +5576,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5447,7 +5614,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5479,7 +5647,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5510,7 +5679,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5548,7 +5718,8 @@
         },
         "commons": {
           "photos": 8
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5581,7 +5752,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5613,7 +5785,8 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -5646,7 +5819,8 @@
           "manager": "County Land",
           "designation": "Local Conservation Area",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -5678,7 +5852,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -5710,7 +5885,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5738,7 +5914,8 @@
         "name": "Lessini Ct. Park",
         "access": "private",
         "operator": "D'Andrea Ranch PhIII HOA",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -5769,7 +5946,8 @@
         "nrhp": "83001119",
         "commons": {
           "photos": 93
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5804,7 +5982,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5836,7 +6015,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 257
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5872,7 +6052,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -5907,7 +6088,8 @@
         },
         "commons": {
           "photos": 138
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5938,7 +6120,8 @@
         "nrhp": "82003258",
         "commons": {
           "photos": 108
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -5970,7 +6153,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6002,7 +6186,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6033,7 +6218,8 @@
         "memorial": "plaque",
         "commons": {
           "photos": 232
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6064,7 +6250,8 @@
         "memorial": "plaque",
         "commons": {
           "photos": 250
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6095,7 +6282,8 @@
         "memorial": "plaque",
         "commons": {
           "photos": 10
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6127,7 +6315,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6156,7 +6345,8 @@
         "leisure": "park",
         "commons": {
           "photos": 11
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6187,7 +6377,8 @@
         "nrhp": "84002080",
         "commons": {
           "photos": 14
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6234,7 +6425,8 @@
         },
         "commons": {
           "photos": 114
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6269,7 +6461,8 @@
         },
         "commons": {
           "photos": 14
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6300,7 +6493,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6337,7 +6531,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6364,7 +6559,8 @@
       "tags": {
         "name": "Michael D. Thompson Trailhead",
         "operator": "Washoe County",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -6390,7 +6586,8 @@
       ],
       "tags": {
         "name": "Middle Keystone Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "bortle": 5
       }
     },
     {
@@ -6422,7 +6619,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6453,7 +6651,8 @@
         "nrhp": "05000470",
         "commons": {
           "photos": 131
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6485,7 +6684,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6516,7 +6716,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 58
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6551,7 +6752,8 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6584,7 +6786,8 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6619,7 +6822,8 @@
           "manager": "County Land",
           "designation": "Local Conservation Area",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6651,7 +6855,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -6682,7 +6887,8 @@
         "nrhp": "74001152",
         "commons": {
           "photos": 48
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6713,7 +6919,8 @@
         "nrhp": "77000841",
         "commons": {
           "photos": 24
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6750,7 +6957,8 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
-        }
+        },
+        "bortle": 3
       }
     },
     {
@@ -6778,7 +6986,8 @@
         "name": "Mt. Baldy Neighborhood Park",
         "access": "permissive",
         "operator": "Sierra View Estates HOA",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -6812,7 +7021,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -6844,7 +7054,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 182
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6875,7 +7086,8 @@
         "nrhp": "80002469",
         "commons": {
           "photos": 171
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6906,7 +7118,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6934,7 +7147,8 @@
       ],
       "tags": {
         "name": "Nevada Historical Marker #169",
-        "historic": "monument"
+        "historic": "monument",
+        "bortle": 5
       }
     },
     {
@@ -6965,7 +7179,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 138
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -6996,7 +7211,8 @@
         "nrhp": "83001120",
         "commons": {
           "photos": 159
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7031,7 +7247,8 @@
         },
         "commons": {
           "photos": 43
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7062,7 +7279,8 @@
         "nrhp": "02001277",
         "commons": {
           "photos": 60
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7094,7 +7312,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 78
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7126,7 +7345,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7161,7 +7381,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7194,7 +7415,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7225,7 +7447,8 @@
         "nrhp": "83001121",
         "commons": {
           "photos": 132
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7256,7 +7479,8 @@
         "nrhp": "00000339",
         "commons": {
           "photos": 196
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7283,7 +7507,8 @@
       "tags": {
         "name": "Oasis Park",
         "access": "private",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -7314,7 +7539,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7345,7 +7571,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7376,7 +7603,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 156
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7415,7 +7643,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 189
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7446,7 +7675,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 225
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7482,7 +7712,8 @@
         },
         "commons": {
           "photos": 66
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7512,7 +7743,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 5
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7551,7 +7783,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 87
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7598,7 +7831,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 90
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7630,7 +7864,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 180
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7659,7 +7894,8 @@
         "tourism": "attraction",
         "commons": {
           "photos": 234
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7694,7 +7930,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7723,7 +7960,8 @@
         "leisure": "park",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7755,7 +7993,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7787,7 +8026,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7818,7 +8058,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 35
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7850,7 +8091,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7882,7 +8124,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7913,7 +8156,8 @@
         "nrhp": "03000417",
         "commons": {
           "photos": 14
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -7945,7 +8189,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 48
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -7977,7 +8222,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8008,7 +8254,8 @@
         "natural": "peak",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -8038,7 +8285,8 @@
         "name": "Peavine Peak",
         "ele": "2504",
         "wikidata": "Q7158489",
-        "natural": "peak"
+        "natural": "peak",
+        "bortle": 4
       }
     },
     {
@@ -8083,7 +8331,8 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -8114,7 +8363,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 12
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8146,7 +8396,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8181,7 +8432,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8216,7 +8468,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -8245,7 +8498,8 @@
         "leisure": "park",
         "commons": {
           "photos": 5
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8276,7 +8530,8 @@
         "nrhp": "84000086",
         "commons": {
           "photos": 48
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8305,7 +8560,8 @@
         "leisure": "park",
         "commons": {
           "photos": 19
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8336,7 +8592,8 @@
         "nrhp": "04001528",
         "commons": {
           "photos": 223
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8371,7 +8628,8 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8400,7 +8658,8 @@
       "tags": {
         "commons": {
           "photos": 257
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8435,7 +8694,8 @@
         },
         "commons": {
           "photos": 12
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8470,7 +8730,8 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -8501,7 +8762,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8532,7 +8794,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 60
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8569,7 +8832,8 @@
         },
         "commons": {
           "photos": 193
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8600,7 +8864,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8635,7 +8900,8 @@
         },
         "commons": {
           "photos": 37
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8664,7 +8930,8 @@
         "leisure": "park",
         "commons": {
           "photos": 195
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8696,7 +8963,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 180
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8722,7 +8990,8 @@
       ],
       "tags": {
         "name": "Questa Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "bortle": 5
       }
     },
     {
@@ -8755,7 +9024,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8786,7 +9056,8 @@
         "nrhp": "80002470",
         "commons": {
           "photos": 59
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8820,7 +9091,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -8852,7 +9124,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8886,7 +9159,8 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8921,7 +9195,8 @@
         },
         "commons": {
           "photos": 11
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8952,7 +9227,8 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 8
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -8984,7 +9260,8 @@
         "natural": "peak",
         "commons": {
           "photos": 11
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9012,7 +9289,8 @@
         "name": "Ravenna Park",
         "access": "private",
         "operator": "D'Andrea Ranch PH-III HOA",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -9044,7 +9322,8 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9070,7 +9349,8 @@
       ],
       "tags": {
         "name": "Red Hawk Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -9099,7 +9379,8 @@
         "leisure": "park",
         "commons": {
           "photos": 12
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9131,7 +9412,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 180
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9162,7 +9444,8 @@
         "inscription": "Reno The Biggest Little City in the World",
         "commons": {
           "photos": 259
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9194,7 +9477,8 @@
         "gnis": "857098",
         "commons": {
           "photos": 15
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -9225,7 +9509,8 @@
         "nrhp": "86002257",
         "commons": {
           "photos": 93
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9256,7 +9541,8 @@
         "nrhp": "12000929",
         "commons": {
           "photos": 238
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9288,7 +9574,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 110
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9320,7 +9607,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9349,7 +9637,8 @@
         "leisure": "park",
         "commons": {
           "photos": 131
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9380,7 +9669,8 @@
         "nrhp": "86002256",
         "commons": {
           "photos": 235
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9412,7 +9702,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9443,7 +9734,8 @@
         "nrhp": "06000895",
         "commons": {
           "photos": 63
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9480,7 +9772,8 @@
         },
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9506,7 +9799,8 @@
       ],
       "tags": {
         "name": "Rose Garden Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -9532,7 +9826,8 @@
       ],
       "tags": {
         "name": "Rosewood Nature Study Area",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -9567,7 +9862,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9596,7 +9892,8 @@
         "leisure": "park",
         "commons": {
           "photos": 11
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -9628,7 +9925,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9663,7 +9961,8 @@
         },
         "commons": {
           "photos": 28
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9694,7 +9993,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 6
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9726,7 +10026,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9757,7 +10058,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 61
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9786,7 +10088,8 @@
         "leisure": "park",
         "commons": {
           "photos": 38
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9817,7 +10120,8 @@
         "historic": "memorial",
         "commons": {
           "photos": 54
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9849,7 +10153,8 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9882,7 +10187,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -9914,7 +10220,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 193
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9951,7 +10258,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -9989,7 +10297,8 @@
         },
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10025,7 +10334,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -10057,7 +10367,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -10090,7 +10401,8 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10116,7 +10428,8 @@
       ],
       "tags": {
         "name": "Silverton Shores Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -10152,7 +10465,8 @@
         },
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10187,7 +10501,8 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
-        }
+        },
+        "bortle": 3
       }
     },
     {
@@ -10227,7 +10542,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10254,7 +10570,8 @@
       "tags": {
         "name": "Somersett West Park",
         "operator": "City of Reno",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 4
       }
     },
     {
@@ -10285,7 +10602,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 113
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10320,7 +10638,8 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -10355,7 +10674,8 @@
         },
         "commons": {
           "photos": 17
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10386,7 +10706,8 @@
         "nrhp": "93000683",
         "commons": {
           "photos": 152
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10418,7 +10739,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 252
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10447,7 +10769,8 @@
         "leisure": "park",
         "commons": {
           "photos": 16
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10476,7 +10799,8 @@
         "leisure": "park",
         "commons": {
           "photos": 63
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10505,7 +10829,8 @@
       "tags": {
         "name": "Steamboat Hills",
         "ele": "1875",
-        "natural": "peak"
+        "natural": "peak",
+        "bortle": 4
       }
     },
     {
@@ -10537,7 +10862,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 14
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10569,7 +10895,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 13
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10601,7 +10928,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10631,7 +10959,8 @@
         "leisure": "park",
         "commons": {
           "photos": 74
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10660,7 +10989,8 @@
       "tags": {
         "name": "Sugarloaf Peak Open Space",
         "operator": "Washoe County",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "bortle": 4
       }
     },
     {
@@ -10695,7 +11025,8 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -10730,7 +11061,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10761,7 +11093,8 @@
           "name": "Sun Mesa Park",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10792,7 +11125,8 @@
           "name": "Sun Valley Community Park",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10824,7 +11158,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10861,7 +11196,8 @@
         },
         "commons": {
           "photos": 13
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -10893,7 +11229,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10925,7 +11262,8 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -10956,7 +11294,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -10987,7 +11326,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 33
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11019,7 +11359,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11046,7 +11387,8 @@
       "tags": {
         "name": "Tigh Park",
         "ele": "1363",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 6
       }
     },
     {
@@ -11077,7 +11419,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11107,7 +11450,8 @@
         "tourism": "attraction",
         "commons": {
           "photos": 63
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11136,7 +11480,8 @@
         "leisure": "park",
         "commons": {
           "photos": 11
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11162,7 +11507,8 @@
       ],
       "tags": {
         "name": "Truckee River Greenbelt",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -11188,7 +11534,8 @@
       ],
       "tags": {
         "name": "Truckee River Greenbelt",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -11217,7 +11564,8 @@
         "leisure": "park",
         "commons": {
           "photos": 42
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11246,7 +11594,8 @@
         "leisure": "park",
         "commons": {
           "photos": 9
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11272,7 +11621,8 @@
       ],
       "tags": {
         "name": "Truckee River Greenbelt",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -11298,7 +11648,8 @@
       ],
       "tags": {
         "name": "Truckee River Greenbelt",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -11330,7 +11681,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -11361,7 +11713,8 @@
         "nrhp": "83001122",
         "commons": {
           "photos": 184
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11392,7 +11745,8 @@
         "nrhp": "83001123",
         "commons": {
           "photos": 105
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11424,7 +11778,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11455,7 +11810,8 @@
         "nrhp": "03000749",
         "commons": {
           "photos": 110
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11486,7 +11842,8 @@
         "nrhp": "90000135",
         "commons": {
           "photos": 236
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11517,7 +11874,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 96
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11548,7 +11906,8 @@
         "nrhp": "86002258",
         "commons": {
           "photos": 93
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11585,7 +11944,8 @@
         },
         "commons": {
           "photos": 6
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11619,7 +11979,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11651,7 +12012,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11682,7 +12044,8 @@
         "nrhp": "93000690",
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11710,7 +12073,8 @@
         }
       ],
       "tags": {
-        "nrhp": "08000511"
+        "nrhp": "08000511",
+        "bortle": 6
       }
     },
     {
@@ -11743,7 +12107,8 @@
         "waterway": "waterfall",
         "commons": {
           "photos": 246
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -11781,7 +12146,8 @@
         },
         "commons": {
           "photos": 7
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11819,7 +12185,8 @@
         },
         "commons": {
           "photos": 23
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11853,7 +12220,8 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 14
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11888,7 +12256,8 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -11914,7 +12283,8 @@
       ],
       "tags": {
         "name": "Village Green Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -11949,7 +12319,8 @@
         },
         "commons": {
           "photos": 23
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -11981,7 +12352,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12012,7 +12384,8 @@
         "nrhp": "80002471",
         "commons": {
           "photos": 251
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12044,7 +12417,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12083,7 +12457,8 @@
         },
         "commons": {
           "photos": 16
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12114,7 +12489,8 @@
         "nrhp": "86002254",
         "commons": {
           "photos": 145
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12145,7 +12521,8 @@
         "nrhp": "92000116",
         "commons": {
           "photos": 63
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12176,7 +12553,8 @@
         "nrhp": "13000011",
         "commons": {
           "photos": 225
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12208,7 +12586,8 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12241,7 +12620,8 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12272,7 +12652,8 @@
         "ridb_type": "Facility",
         "commons": {
           "photos": 3
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12307,7 +12688,8 @@
         },
         "commons": {
           "photos": 245
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12342,7 +12724,8 @@
         },
         "commons": {
           "photos": 33
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12377,7 +12760,8 @@
         },
         "commons": {
           "photos": 89
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12409,7 +12793,8 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -12444,7 +12829,8 @@
         },
         "commons": {
           "photos": 25
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -12473,7 +12859,8 @@
         "leisure": "park",
         "commons": {
           "photos": 11
-        }
+        },
+        "bortle": 4
       }
     },
     {
@@ -12504,7 +12891,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 78
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12530,7 +12918,8 @@
       ],
       "tags": {
         "name": "Wildcreek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "bortle": 5
       }
     },
     {
@@ -12563,7 +12952,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12598,7 +12988,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12630,7 +13021,8 @@
         "tourism": "artwork",
         "commons": {
           "photos": 25
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12660,7 +13052,8 @@
         "leisure": "park",
         "commons": {
           "photos": 189
-        }
+        },
+        "bortle": 6
       }
     },
     {
@@ -12692,7 +13085,8 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
+        },
+        "bortle": 5
       }
     },
     {
@@ -12728,7 +13122,8 @@
         },
         "commons": {
           "photos": 4
-        }
+        },
+        "bortle": 6
       }
     }
   ]
