@@ -102,6 +102,8 @@ export const OVERPASS_HOSTS = [
 export const USER_AGENT =
   'photo-pointer-ingest/0.1 (personal project; https://github.com/njefferson/photo-pointer)';
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_HOSTS } = {}) {
   let lastErr = null;
   // Overpass public instances 504/timeout often when busy — that is transient,
@@ -124,7 +126,10 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
         });
         if (res.status === 429 || res.status === 502 || res.status === 503 || res.status === 504) {
           lastErr = new Error(`${host}: HTTP ${res.status}`);
-          await sleep(20000 * (round + 1));
+          // If the mirror stated how long to wait, wait THAT long — it is the
+          // operator's own terms, and guessing shorter ignores them. Overpass is
+          // volunteer-run; a 429 is an instruction, not an obstacle.
+          await sleep(backoffMs(res, round, { base: 20000 }));
           continue;
         }
         if (!res.ok) throw new Error(`${host}: HTTP ${res.status}`);

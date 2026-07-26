@@ -419,6 +419,35 @@ async function cmdINaturalist(id) {
 }
 
 // Enrich a region's spots with nearby Wikimedia Commons photo density.
+// Count, per spot, how many harvested photos fall within RADIUS_M — a local
+// grid pass, no further requests. Only the spots PASSED IN are touched, so an
+// incremental harvest can't wipe the ones it deliberately skipped.
+function countCommons(spots, images, _doc) {
+  const MIN = 3;
+  const RADIUS_M = commons.RADIUS_M;
+  const CELL = 0.008;
+  const grid = new Map();
+  const gkey = (lat, lng) => `${Math.round(lat / CELL)}:${Math.round(lng / CELL)}`;
+  for (const im of images) {
+    const k = gkey(im.lat, im.lng);
+    (grid.get(k) ?? grid.set(k, []).get(k)).push(im);
+  }
+  for (const s of spots) {
+    const clat = Math.round(s.lat / CELL);
+    const clng = Math.round(s.lng / CELL);
+    let n = 0;
+    for (let dy = -1; dy <= 1; dy++) {
+      for (let dx = -1; dx <= 1; dx++) {
+        for (const im of grid.get(`${clat + dy}:${clng + dx}`) ?? []) {
+          if (distanceM(s, im) <= RADIUS_M) n++;
+        }
+      }
+    }
+    if (n >= MIN) (s.tags ??= {}).commons = { photos: n };
+    else if (s.tags?.commons) delete s.tags.commons;
+  }
+}
+
 async function cmdCommons(id) {
   const MIN = 3;
   const RADIUS_M = commons.RADIUS_M;
@@ -430,18 +459,47 @@ async function cmdCommons(id) {
   const tiles = commons.tileCenters(region.bbox).length;
   let images;
   if (doc.spots.length < tiles) {
-    log(`commons: ${doc.spots.length} spots vs ${tiles} tiles — probing per spot`);
-    const res = await commons.harvestAroundSpots(doc.spots, { log });
+    // DON'T ASK TWICE FOR WHAT WE ALREADY HAVE. The layer file records which
+    // spots were successfully probed and when; those are skipped on a re-run.
+    // The California re-run cost 205 requests to Wikimedia when only 84 were
+    // actually missing — that is someone else's bandwidth spent to be told what
+    // we already knew. `force` re-probes everything when the data really is stale.
+    const prev = await readJsonIfExists(path.join(P.layersDir, 'commons.json'));
+    const probed = (!process.env.COMMONS_FORCE && prev?.probed) || {};
+    const FRESH_DAYS = 30;
+    const cutoff = Date.now() - FRESH_DAYS * 864e5;
+    const stale = (sid) => !probed[sid] || Date.parse(probed[sid]) < cutoff;
+    const todo = doc.spots.filter((sp) => stale(sp.id));
+    const skipped = doc.spots.length - todo.length;
+    log(`commons: ${doc.spots.length} spots vs ${tiles} tiles — probing per spot`
+      + (skipped ? ` (${skipped} already probed within ${FRESH_DAYS} days, skipping)` : ''));
+    if (!todo.length) { log('commons: nothing to re-probe — leaving the data as it is'); return; }
+    const res = await commons.harvestAroundSpots(todo, { log });
     images = res.images;
     // REFUSE a holed result. Each failed probe becomes a place that silently
     // reports "no photos nearby", and committing that is worse than committing
     // nothing — it looks like an answer. Wikimedia throttles runner IPs, so this
     // is a re-run, not a bug.
-    const limit = Math.max(2, Math.floor(doc.spots.length * 0.02));
+    const limit = Math.max(2, Math.floor(todo.length * 0.02));
     if (res.failed.length > limit) {
-      console.error(`commons: ${res.failed.length}/${doc.spots.length} probes failed (limit ${limit}) — refusing to commit a partial harvest; re-run`);
+      console.error(`commons: ${res.failed.length}/${todo.length} probes failed (limit ${limit}) — refusing to commit a partial harvest; re-run`);
       process.exit(1);
     }
+    // Only the spots we actually probed may have their tag rewritten — a
+    // partial harvest must not wipe the ones we deliberately skipped.
+    countCommons(todo, images, doc);
+    const nowProbed = { ...probed };
+    for (const sp of todo) nowProbed[sp.id] = today;
+    await writeLayer(P, 'commons.json', {
+      source: commons.meta, builtAt: today,
+      photosHarvested: images.length,
+      spotsTagged: doc.spots.filter((sp) => sp.tags?.commons).length,
+      probed: nowProbed,
+    });
+    await writeFile(P.spotsFile, JSON.stringify(doc, null, 2) + '\n');
+    log(`[${region.id}] tagged ${doc.spots.filter((sp) => sp.tags?.commons).length}/${doc.spots.length} spots with Commons photo density `
+      + `(${images.length} photos, ${todo.length} probed, ${skipped} skipped)`);
+    return;
   } else {
     log(`commons: ${tiles} tiles vs ${doc.spots.length} spots — sweeping by tile`);
     images = await commons.harvestBBox(region.bbox, { log });
@@ -450,32 +508,8 @@ async function cmdCommons(id) {
     console.error('commons: 0 photos harvested — refusing to wipe (likely a fetch problem)');
     process.exit(1);
   }
-  const CELL = 0.008;
-  const grid = new Map();
-  const gkey = (lat, lng) => `${Math.round(lat / CELL)}:${Math.round(lng / CELL)}`;
-  for (const im of images) {
-    const k = gkey(im.lat, im.lng);
-    (grid.get(k) ?? grid.set(k, []).get(k)).push(im);
-  }
-  let tagged = 0;
-  for (const s of doc.spots) {
-    const clat = Math.round(s.lat / CELL);
-    const clng = Math.round(s.lng / CELL);
-    let n = 0;
-    for (let dy = -1; dy <= 1; dy++) {
-      for (let dx = -1; dx <= 1; dx++) {
-        for (const im of grid.get(`${clat + dy}:${clng + dx}`) ?? []) {
-          if (distanceM(s, im) <= RADIUS_M) n++;
-        }
-      }
-    }
-    if (n >= MIN) {
-      (s.tags ??= {}).commons = { photos: n };
-      tagged++;
-    } else if (s.tags?.commons) {
-      delete s.tags.commons;
-    }
-  }
+  countCommons(doc.spots, images, doc);
+  const tagged = doc.spots.filter((s) => s.tags?.commons).length;
   await writeFile(P.spotsFile, JSON.stringify(doc, null, 2) + '\n');
   await writeLayer(P, 'commons.json', { source: commons.meta, builtAt: today, photosHarvested: images.length, spotsTagged: tagged });
   log(`[${region.id}] tagged ${tagged}/${doc.spots.length} spots with Commons photo density (${images.length} photos harvested)`);

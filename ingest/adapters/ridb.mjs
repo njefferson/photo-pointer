@@ -25,7 +25,13 @@ export const meta = {
   status: 'working',
 };
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const BASE_URL = 'https://ridb.recreation.gov/api/v1';
+// Identify ourselves to every service we call, so an operator seeing this
+// traffic can tell what it is and who to contact.
+export const USER_AGENT =
+  'photo-pointer/1.15 (personal open-data map; github.com/njefferson/photo-pointer)';
 export const PAGE_SIZE = 50; // RIDB's per-request maximum
 
 // FacilityTypeDescription → our pin type. Anything not listed is skipped rather
@@ -173,10 +179,10 @@ async function getJson(url, apiKey, fetchFn, wait) {
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const res = await fetchFn(url, {
-        headers: { apikey: apiKey, accept: 'application/json' },
+        headers: { apikey: apiKey, accept: 'application/json', 'User-Agent': USER_AGENT },
         signal: AbortSignal.timeout(60000),
       });
-      if (res.status === 429 || res.status === 503) { await wait(10000); continue; }
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 10000 })); continue; }
       if (res.status === 401 || res.status === 403) {
         const e = new Error(`RIDB rejected the API key (HTTP ${res.status}) — check the RIDB_API_KEY repo secret`);
         e.fatal = true; throw e;

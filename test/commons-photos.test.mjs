@@ -1,5 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
 import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
@@ -108,4 +109,20 @@ test('a spot that fails even the retries is still reported by name', async () =>
   };
   const out = await harvestAroundSpots([{ lat: 1, lng: 2, name: 'Bodie' }], { fetchFn, sleep: async () => {} });
   assert.deepEqual(out.failed, ['Bodie']);
+});
+
+// Retry-After is the service stating its own terms. Guessing a shorter backoff
+// ignores them, which is the whole point of the header.
+test('a stated Retry-After is honoured over our own guess', () => {
+  const res = (v) => ({ headers: { get: (k) => (k === 'retry-after' ? v : null) } });
+  assert.equal(retryAfterMs(res('30')), 30000);
+  assert.equal(retryAfterMs(res(null)), null, 'absent header → we fall back to our own backoff');
+  assert.equal(retryAfterMs(res('nonsense')), null);
+  // A service asking for an implausibly long wait means "come back another day",
+  // not "hold a runner open" — cap it so the caller gives up instead.
+  assert.equal(retryAfterMs(res('99999')), RETRY_AFTER_CAP_MS);
+  // Our own escalating backoff only applies when nothing was stated.
+  assert.equal(backoffMs(res(null), 0, { base: 5000 }), 5000);
+  assert.equal(backoffMs(res(null), 2, { base: 5000 }), 15000);
+  assert.equal(backoffMs(res('7'), 2, { base: 5000 }), 7000, 'the service wins');
 });

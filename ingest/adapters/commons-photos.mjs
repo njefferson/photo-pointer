@@ -25,6 +25,8 @@ export const meta = {
   status: 'working',
 };
 
+import { backoffMs } from './http-etiquette.mjs';
+
 export const API = 'https://commons.wikimedia.org/w/api.php';
 export const USER_AGENT =
   'photo-pointer/0.10 (personal open-data map; github.com/njefferson/photo-pointer)';
@@ -44,7 +46,8 @@ export async function geosearchTile(lat, lng, { fetchFn = fetch, sleep, radius =
         headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
         signal: AbortSignal.timeout(30000),
       });
-      if (res.status === 429) { await wait(3000 * (attempt + 1)); continue; }
+      // Wikimedia throttles datacenter IPs; wait as long as it asks.
+      if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 3000 })); continue; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const j = await res.json();
       return (j?.query?.geosearch ?? []).map((g) => ({ pageid: g.pageid, lat: g.lat, lng: g.lon }));

@@ -38,6 +38,22 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## (Noah, 2026-07-19 — corrected from an earlier wrong "no LICENSE" reading).
 ## Keep the header scope current when third-party material changes.
 
+## How we treat the services we depend on (Noah, 2026-07-26: "what we do must
+## be measured... I do not want to be disrespectful"). Every source is
+## volunteer-run (Overpass), donation-funded (Wikimedia, Wikidata, iNaturalist)
+## or tax-funded (USGS, NPS, NOAA, RIDB). None owes a free personal map
+## anything. The rules, in ingest/adapters/http-etiquette.mjs:
+## 1. IDENTIFY OURSELVES on every request — a real User-Agent naming the project.
+## 2. A 429 IS AN INSTRUCTION, NOT AN OBSTACLE. Wait longer; never retry harder,
+##    widen concurrency, or route around to another mirror to evade it.
+## 3. IF IT STATES Retry-After, WAIT THAT LONG. Our guess doesn't override it.
+## 4. NEVER ASK TWICE FOR WHAT WE ALREADY HAVE. Committed data is the cache;
+##    per-spot sweeps record what they probed and skip it for 30 days.
+## 5. NO BULK SWEEP where a targeted query exists (see PAD-US below).
+## MEASURED, and the reason this is not just etiquette: the GENTLER Commons run
+## returned a BETTER answer than the aggressive one — 51 spots and Bodie at 313
+## photos, vs 32 and Bodie missing entirely. Backing off cost nothing.
+
 ## Licensing is load-bearing. Every ingest adapter declares its source's
 ## license in its header and honors it structurally (HMdb: links only;
 ## Flickr: CC/PD only; eBird: no bulk redistribution). Never add a source
@@ -83,6 +99,45 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 SERVICE ETIQUETTE + the ghost-town data gap. Noah asked why the
+  "Photographed" filter returned ZERO on California Ghost Towns. ANSWER: not
+  that no ghost town is photographed — that region had NO enrichment of any kind
+  and never had. Reno was nearly as bare. When those two regions were created
+  (1.5.12) only the curiosities adapter ran; the five enrichment workflows were
+  never dispatched. MY omission.
+  IT ALSO COULD NOT HAVE RUN: the Commons harvest TILES the region bbox, and
+  that region's bbox is the whole state — 4,264 tiles, ~3 h, past the 55-min
+  timeout. Tiling suits a county (sac: 2,362 spots vs 195 tiles); it is backwards
+  for a sparse statewide theme region (205 spots vs 4,264 tiles). cmdCommons now
+  picks the cheaper sweep, and harvestAroundSpots probes the spots instead.
+  THE NEAR-MISS, and the real lesson: the first per-spot run returned 32 tagged
+  and BODIE — the most photographed ghost town in California — with NOTHING. The
+  probe was swallowing its own failures, so a throttled request became a place
+  that quietly reports "no photos": a WRONG ANSWER dressed as a real one. Only
+  Bodie's absence gave it away, and I nearly reported 32 as fact. Failed probes
+  are now counted, NAMED in the log, and a run refuses to commit if more than 2%
+  fail. The refusal fired immediately: 84/205 failed, in one ALPHABETICAL BLOCK
+  (Aurora | Ballarat | Basalt | Belleville…) — a throttle burst, not 84 places
+  without photographs.
+  FIX + MEASURED RESULT: pool 4→2, longer gap, plus a serial retry pass for
+  throttled spots. Second run: 51/205 tagged, 882 photos (vs 336), Bodie 313,
+  ZERO failures. THE GENTLER RUN GOT THE BETTER ANSWER — worth remembering next
+  time the instinct is to retry harder.
+  RENO now complete: commons 243, bortle 395, horizon 397, inat 28, publicLand
+  20, padus 181 (four workflows, run ONE AT A TIME — two enrichments on the same
+  region race the same file).
+  ALSO SHIPPED: Retry-After is now honoured on Overpass/Commons/RIDB; RIDB
+  finally sends a User-Agent; and the per-spot sweep RECORDS what it probed
+  (layer file `probed`) and skips anything probed within 30 days —
+  VERIFIED: a CA re-run now makes ZERO requests instead of 205. COMMONS_FORCE=1
+  overrides. A CORRECTION I owe the record: I told Noah "Overpass has no 429
+  handling" — WRONG, I had grepped public-lands.mjs, which imports the shared
+  fetchOverpass; it handles 429/502/503/504 across mirrors.
+  STILL OPEN, deliberately: PAD-US for california-ghost-towns. The adapter bulk-
+  downloads every protected-area polygon in the bbox — statewide that is the same
+  infeasible shape as the Commons tile sweep. The RIGHT build is an ArcGIS POINT
+  query per spot (205 tiny queries, no geometry transferred), not a bulk pull.
+  Not built yet; Noah has seen the recommendation.
 - 2026-07-26 1.14.2 "A readable build stamp" (an ITERATION, a diagnostics FIX)
   BUILT on staging. Noah: "Put a discrete version identifier for screenshot
   troubleshooting." One ALREADY EXISTED and was useless — 0.13.x put a `.ver-tag`
