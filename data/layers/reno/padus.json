@@ -23,8 +23,8 @@
     },
     {
       "name": "Reno-Sparks Off-Reservation Trust Land",
-      "manager": "Tribal land",
-      "designation": "TRIBL",
+      "manager": "American Indian Lands",
+      "designation": "Native American Land Area",
       "access": null,
       "bbox": {
         "south": 39.42692,
@@ -35,8 +35,8 @@
     },
     {
       "name": "Reno-Sparks Indian Colony",
-      "manager": "Tribal land",
-      "designation": "TRIBL",
+      "manager": "American Indian Lands",
+      "designation": "Native American Land Area",
       "access": null,
       "bbox": {
         "south": 39.42485,
@@ -48,7 +48,7 @@
     {
       "name": "Sierra Front Field Office",
       "manager": "Bureau of Land Management",
-      "designation": "PUB",
+      "designation": "National Public Lands",
       "access": "open",
       "bbox": {
         "south": 38.43653,
@@ -59,7 +59,7 @@
     },
     {
       "name": "Toiyabe National Forest",
-      "manager": "U.S. Forest Service",
+      "manager": "Forest Service",
       "designation": "National Forest",
       "access": "open",
       "bbox": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Regional Park",
-      "manager": "Regional agency",
+      "manager": "Regional Agency Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -83,7 +83,7 @@
     },
     {
       "name": "Spanish Springs Regional Park",
-      "manager": "Regional agency",
+      "manager": "Regional Agency Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -95,8 +95,8 @@
     },
     {
       "name": "Anderson Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.50189,
@@ -107,8 +107,8 @@
     },
     {
       "name": "Billinghurst Ms",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.52889,
@@ -119,8 +119,8 @@
     },
     {
       "name": "Dodson Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.49736,
@@ -131,8 +131,8 @@
     },
     {
       "name": "Echo Loder Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.51094,
@@ -143,8 +143,8 @@
     },
     {
       "name": "Gandolfo Rodeo Arena",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.5428,
@@ -155,8 +155,8 @@
     },
     {
       "name": "George Westergard Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.53422,
@@ -167,8 +167,8 @@
     },
     {
       "name": "Glenn Duncan Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.54823,
@@ -179,8 +179,8 @@
     },
     {
       "name": "Governor's Bowl",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.54291,
@@ -191,8 +191,8 @@
     },
     {
       "name": "Grace Warner Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.53499,
@@ -203,8 +203,8 @@
     },
     {
       "name": "Jack Tighe Ballfields",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.49601,
@@ -215,8 +215,8 @@
     },
     {
       "name": "Jessie Beck Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.51198,
@@ -227,8 +227,8 @@
     },
     {
       "name": "Mt Rose Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.52302,
@@ -239,8 +239,8 @@
     },
     {
       "name": "O'brien Ms",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.62966,
@@ -251,8 +251,8 @@
     },
     {
       "name": "Pine Ms",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.48663,
@@ -263,8 +263,8 @@
     },
     {
       "name": "Reggie Road Exercise Area",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.48481,
@@ -275,8 +275,8 @@
     },
     {
       "name": "Rita Cannon Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.55749,
@@ -287,8 +287,8 @@
     },
     {
       "name": "Roger Corbett Es",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.51758,
@@ -299,8 +299,8 @@
     },
     {
       "name": "Shadow Mountain Sports Center",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.56685,
@@ -311,8 +311,8 @@
     },
     {
       "name": "Swope Ms",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.51713,
@@ -323,8 +323,8 @@
     },
     {
       "name": "Traner Ms",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.54759,
@@ -335,8 +335,8 @@
     },
     {
       "name": "Vaughn Ms",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.52111,
@@ -347,8 +347,8 @@
     },
     {
       "name": "West Street Plaza",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.5328,
@@ -359,7 +359,7 @@
     },
     {
       "name": "Crystal Lake Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -371,7 +371,7 @@
     },
     {
       "name": "Virginia Lake Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -383,7 +383,7 @@
     },
     {
       "name": "Sparks Marina Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -395,7 +395,7 @@
     },
     {
       "name": "Almone Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -407,7 +407,7 @@
     },
     {
       "name": "Barbara Bennett Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -419,7 +419,7 @@
     },
     {
       "name": "Bicentennial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -431,7 +431,7 @@
     },
     {
       "name": "Bodega Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -443,7 +443,7 @@
     },
     {
       "name": "Brodhead Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -455,7 +455,7 @@
     },
     {
       "name": "Burgess Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -467,7 +467,7 @@
     },
     {
       "name": "Canyon Creek Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -479,7 +479,7 @@
     },
     {
       "name": "Canyon Hills Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -491,7 +491,7 @@
     },
     {
       "name": "Church Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -503,7 +503,7 @@
     },
     {
       "name": "Comstock Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -515,7 +515,7 @@
     },
     {
       "name": "Cottonwood Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -527,7 +527,7 @@
     },
     {
       "name": "Crissie Caughlin Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -539,7 +539,7 @@
     },
     {
       "name": "Del Cobre Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -551,7 +551,7 @@
     },
     {
       "name": "Dick Taylor Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -563,7 +563,7 @@
     },
     {
       "name": "Dorothy Macalinden/mayors Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -575,7 +575,7 @@
     },
     {
       "name": "Eighth Street Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -587,7 +587,7 @@
     },
     {
       "name": "Evans Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -599,7 +599,7 @@
     },
     {
       "name": "Fisherman's Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -611,7 +611,7 @@
     },
     {
       "name": "Fisherman's Park #1",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -623,7 +623,7 @@
     },
     {
       "name": "Fisherman's Park #2",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -635,7 +635,7 @@
     },
     {
       "name": "Gateway Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -647,7 +647,7 @@
     },
     {
       "name": "Glendale Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -659,7 +659,7 @@
     },
     {
       "name": "Horseman's Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -671,7 +671,7 @@
     },
     {
       "name": "Huffaker Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -683,7 +683,7 @@
     },
     {
       "name": "Idlewild Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -695,7 +695,7 @@
     },
     {
       "name": "Irving Circle Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -707,7 +707,7 @@
     },
     {
       "name": "Ivan Sack Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -719,7 +719,7 @@
     },
     {
       "name": "Jacinto Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -731,7 +731,7 @@
     },
     {
       "name": "Jamaica Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -743,7 +743,7 @@
     },
     {
       "name": "John Champion Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -755,7 +755,7 @@
     },
     {
       "name": "Lake Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -767,7 +767,7 @@
     },
     {
       "name": "Les Kicks Jr. Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -779,7 +779,7 @@
     },
     {
       "name": "Lillard Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -791,7 +791,7 @@
     },
     {
       "name": "Liston Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -803,7 +803,7 @@
     },
     {
       "name": "Longford Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -815,7 +815,7 @@
     },
     {
       "name": "Maldonado Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -827,7 +827,7 @@
     },
     {
       "name": "Manzanita Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -839,7 +839,7 @@
     },
     {
       "name": "Mary Gojack Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -851,7 +851,7 @@
     },
     {
       "name": "Mckinley Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -863,7 +863,7 @@
     },
     {
       "name": "Melody Lane Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -875,7 +875,7 @@
     },
     {
       "name": "Miguel Ribera Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -887,7 +887,7 @@
     },
     {
       "name": "Mira Loma Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -899,7 +899,7 @@
     },
     {
       "name": "Newlands Circle Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -911,7 +911,7 @@
     },
     {
       "name": "Northgate Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -923,7 +923,7 @@
     },
     {
       "name": "Oppio Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -935,7 +935,7 @@
     },
     {
       "name": "Pagni Ranch Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -947,7 +947,7 @@
     },
     {
       "name": "Pah Rah Mountain Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -959,7 +959,7 @@
     },
     {
       "name": "Pat Baker Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -971,7 +971,7 @@
     },
     {
       "name": "Pickett Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -983,7 +983,7 @@
     },
     {
       "name": "Pinion Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -995,7 +995,7 @@
     },
     {
       "name": "Plumas Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1007,7 +1007,7 @@
     },
     {
       "name": "Poulakidas Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1019,7 +1019,7 @@
     },
     {
       "name": "Powning Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1031,7 +1031,7 @@
     },
     {
       "name": "Rainbow Ridge Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1043,7 +1043,7 @@
     },
     {
       "name": "Raleigh Heights Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1055,7 +1055,7 @@
     },
     {
       "name": "Red Hawk Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1067,7 +1067,7 @@
     },
     {
       "name": "Riverside Drive Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1079,7 +1079,7 @@
     },
     {
       "name": "Robinhood Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1091,7 +1091,7 @@
     },
     {
       "name": "Rock Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1103,7 +1103,7 @@
     },
     {
       "name": "Sage Street Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1115,7 +1115,7 @@
     },
     {
       "name": "Schiappacasse Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1127,7 +1127,7 @@
     },
     {
       "name": "Shelly Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1139,7 +1139,7 @@
     },
     {
       "name": "Stewart Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1151,7 +1151,7 @@
     },
     {
       "name": "Summit Ridge Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1163,7 +1163,7 @@
     },
     {
       "name": "Teglia's Paradise Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1175,7 +1175,7 @@
     },
     {
       "name": "Van Meter Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1187,7 +1187,7 @@
     },
     {
       "name": "Village Green Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1199,7 +1199,7 @@
     },
     {
       "name": "Wheatland Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1211,7 +1211,7 @@
     },
     {
       "name": "Whitaker Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1223,7 +1223,7 @@
     },
     {
       "name": "Wildcreek Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1235,7 +1235,7 @@
     },
     {
       "name": "Wilkinson Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1247,7 +1247,7 @@
     },
     {
       "name": "Willowcreek Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1259,7 +1259,7 @@
     },
     {
       "name": "Wingfield Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1271,7 +1271,7 @@
     },
     {
       "name": "Woodtrail Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1283,7 +1283,7 @@
     },
     {
       "name": "Yori Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1295,7 +1295,7 @@
     },
     {
       "name": "Northwest Pool & Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1307,7 +1307,7 @@
     },
     {
       "name": "Alf Sorensen Community Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "Charlie Smith Youth Fields",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1331,7 +1331,7 @@
     },
     {
       "name": "Peavine Fields",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1343,7 +1343,7 @@
     },
     {
       "name": "Rosewood Lakes Golf Course",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1355,7 +1355,7 @@
     },
     {
       "name": "Truckee River Greenbelt",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1367,7 +1367,7 @@
     },
     {
       "name": "Harrah's/diloreto Pathway",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1379,7 +1379,7 @@
     },
     {
       "name": "Kuenzli River Belt Pathway",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1391,7 +1391,7 @@
     },
     {
       "name": "City Recreation Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1403,7 +1403,7 @@
     },
     {
       "name": "Don Mello Sports Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1415,7 +1415,7 @@
     },
     {
       "name": "Terrace Sports Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1427,7 +1427,7 @@
     },
     {
       "name": "Moana Pool, Park And Stadium",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1439,7 +1439,7 @@
     },
     {
       "name": "Reno Tennis Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1451,7 +1451,7 @@
     },
     {
       "name": "Sterling Village Tot Lot",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1463,7 +1463,7 @@
     },
     {
       "name": "Huffaker Mountain Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -1475,8 +1475,8 @@
     },
     {
       "name": "General Services Complex",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.49915,
@@ -1487,8 +1487,8 @@
     },
     {
       "name": "Kids Kottage I & II",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.50703,
@@ -1499,8 +1499,8 @@
     },
     {
       "name": "Lemmon Valley Horseman's Arena",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.6767,
@@ -1511,8 +1511,8 @@
     },
     {
       "name": "Mcgee Center Juvenile Facility",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 39.50747,
@@ -1523,8 +1523,8 @@
     },
     {
       "name": "Pioneer Property Joint Justice Center",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 39.53074,
@@ -1535,8 +1535,8 @@
     },
     {
       "name": "Washoe Co Admin Bldg",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.54674,
@@ -1547,8 +1547,8 @@
     },
     {
       "name": "Washoe Co Coroner",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.53505,
@@ -1559,8 +1559,8 @@
     },
     {
       "name": "Washoe Co Courthouse Complex",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.5316,
@@ -1571,8 +1571,8 @@
     },
     {
       "name": "Washoe Co District Attorneys Office",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.53156,
@@ -1583,8 +1583,8 @@
     },
     {
       "name": "Washoe Co Jail",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "closed",
       "bbox": {
         "south": 39.57904,
@@ -1595,8 +1595,8 @@
     },
     {
       "name": "Washoe County Water Resources",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.51275,
@@ -1607,8 +1607,8 @@
     },
     {
       "name": "Wittenberg Hall",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.5318,
@@ -1619,8 +1619,8 @@
     },
     {
       "name": "North Valleys Library",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.61222,
@@ -1631,8 +1631,8 @@
     },
     {
       "name": "Reno Central Library",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.53039,
@@ -1643,8 +1643,8 @@
     },
     {
       "name": "Sparks Branch Library",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.55138,
@@ -1655,7 +1655,7 @@
     },
     {
       "name": "Sun Valley Community Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1667,7 +1667,7 @@
     },
     {
       "name": "Ardmore Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1679,7 +1679,7 @@
     },
     {
       "name": "Arrow Creek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1691,7 +1691,7 @@
     },
     {
       "name": "Bailey Creek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1703,7 +1703,7 @@
     },
     {
       "name": "Betsy Caughlin Donnelly Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1715,7 +1715,7 @@
     },
     {
       "name": "Callahan Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1727,7 +1727,7 @@
     },
     {
       "name": "Deer Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1739,7 +1739,7 @@
     },
     {
       "name": "Desert Winds Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1751,7 +1751,7 @@
     },
     {
       "name": "Eagle Canyon Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1763,7 +1763,7 @@
     },
     {
       "name": "Gator Swamp Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1775,7 +1775,7 @@
     },
     {
       "name": "Golden Valley Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1787,7 +1787,7 @@
     },
     {
       "name": "Harris Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1799,7 +1799,7 @@
     },
     {
       "name": "Hidden Valley Highlands Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1811,7 +1811,7 @@
     },
     {
       "name": "Highland Ranch Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1823,7 +1823,7 @@
     },
     {
       "name": "Lemmon Valley Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1835,7 +1835,7 @@
     },
     {
       "name": "Martin Luther King Park (black Springs)",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1847,7 +1847,7 @@
     },
     {
       "name": "Mogul Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1859,7 +1859,7 @@
     },
     {
       "name": "Pleasant Valley Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1871,7 +1871,7 @@
     },
     {
       "name": "Rivermount Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1883,7 +1883,7 @@
     },
     {
       "name": "Rock Park (portion)",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1895,7 +1895,7 @@
     },
     {
       "name": "Saddlehorn Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1907,7 +1907,7 @@
     },
     {
       "name": "Silver Knolls Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1919,7 +1919,7 @@
     },
     {
       "name": "Sky Ranch Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1931,7 +1931,7 @@
     },
     {
       "name": "South Hills Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1943,7 +1943,7 @@
     },
     {
       "name": "Thomas Creek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1955,7 +1955,7 @@
     },
     {
       "name": "Virginia Foothills Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1967,7 +1967,7 @@
     },
     {
       "name": "Whites Creek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1979,7 +1979,7 @@
     },
     {
       "name": "Sierra Manor Park Site",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -1991,7 +1991,7 @@
     },
     {
       "name": "Roy Gomm School Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2003,7 +2003,7 @@
     },
     {
       "name": "Huffaker Hills",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2015,7 +2015,7 @@
     },
     {
       "name": "Brookside Reno Municipal Golf Course",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2027,7 +2027,7 @@
     },
     {
       "name": "Northgate Golf Course",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2039,7 +2039,7 @@
     },
     {
       "name": "Sierra Sage Golf Course",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2051,7 +2051,7 @@
     },
     {
       "name": "Washoe Co Golf Course",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2063,7 +2063,7 @@
     },
     {
       "name": "Lois Allen Elementary School",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2075,7 +2075,7 @@
     },
     {
       "name": "Washoe County Tennis Complex",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2087,8 +2087,8 @@
     },
     {
       "name": "Oxbow Nature Study Area/Doyle Island",
-      "manager": "State fish & wildlife",
-      "designation": "RNA",
+      "manager": "State Fish and Wildlife",
+      "designation": "Research Natural Area",
       "access": "restricted",
       "bbox": {
         "south": 39.51366,
@@ -2099,7 +2099,7 @@
     },
     {
       "name": "Mayberry Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2111,7 +2111,7 @@
     },
     {
       "name": "Saddlehorn Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2123,7 +2123,7 @@
     },
     {
       "name": "Ambrose Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2135,7 +2135,7 @@
     },
     {
       "name": "Anderson Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2147,7 +2147,7 @@
     },
     {
       "name": "Audrey Harris Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2159,7 +2159,7 @@
     },
     {
       "name": "Bartley Ranch Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2171,7 +2171,7 @@
     },
     {
       "name": "Dorostkar Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2183,7 +2183,7 @@
     },
     {
       "name": "Galena Creek Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2195,7 +2195,7 @@
     },
     {
       "name": "Hidden Valley Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2207,7 +2207,7 @@
     },
     {
       "name": "Lazy 5 Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2219,7 +2219,7 @@
     },
     {
       "name": "North Valleys Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2231,7 +2231,7 @@
     },
     {
       "name": "Rancho San Rafael Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2243,7 +2243,7 @@
     },
     {
       "name": "South Valleys Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2255,7 +2255,7 @@
     },
     {
       "name": "Sun Valley Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2267,7 +2267,7 @@
     },
     {
       "name": "Arrowcreek Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2279,7 +2279,7 @@
     },
     {
       "name": "Canepa Ranch",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2291,7 +2291,7 @@
     },
     {
       "name": "Carcione Property",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2303,7 +2303,7 @@
     },
     {
       "name": "Caughlin Ranch Trail System",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2315,7 +2315,7 @@
     },
     {
       "name": "Galena Stream Zone and Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2327,7 +2327,7 @@
     },
     {
       "name": "Hidden Meadow Subdivision Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2339,7 +2339,7 @@
     },
     {
       "name": "Highland Ditch Greenbelt",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2351,7 +2351,7 @@
     },
     {
       "name": "Huffaker Hills Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2363,7 +2363,7 @@
     },
     {
       "name": "Hungry Valley-Eagle Canyon",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2375,7 +2375,7 @@
     },
     {
       "name": "Lemmon Valley Trails",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2387,7 +2387,7 @@
     },
     {
       "name": "Lockwood Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2399,7 +2399,7 @@
     },
     {
       "name": "Moya Blvd Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2411,7 +2411,7 @@
     },
     {
       "name": "Red Hill",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2423,7 +2423,7 @@
     },
     {
       "name": "Rolling Hills (Galena Terrace)",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2435,7 +2435,7 @@
     },
     {
       "name": "Sierra Front Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2447,7 +2447,7 @@
     },
     {
       "name": "Silver Lake Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2459,7 +2459,7 @@
     },
     {
       "name": "Steamboat Creek Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2471,7 +2471,7 @@
     },
     {
       "name": "Sugarloaf Peak",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2483,7 +2483,7 @@
     },
     {
       "name": "Sun Valley Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2495,7 +2495,7 @@
     },
     {
       "name": "Swan Lake Nature Study Area",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2507,7 +2507,7 @@
     },
     {
       "name": "Truckee River Greenbelt",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2519,7 +2519,7 @@
     },
     {
       "name": "Truckee River Greenbelt (near Dorostkar)",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2531,7 +2531,7 @@
     },
     {
       "name": "Virginia Highlands",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2543,7 +2543,7 @@
     },
     {
       "name": "Whites Creek Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2555,7 +2555,7 @@
     },
     {
       "name": "Whites Creek Parcel - Manogue",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2567,8 +2567,8 @@
     },
     {
       "name": "Lagomarsino Wildlife Management Unit",
-      "manager": "State fish & wildlife",
-      "designation": "NCA",
+      "manager": "State Fish and Wildlife",
+      "designation": "Conservation Area",
       "access": "restricted",
       "bbox": {
         "south": 39.50614,
@@ -2579,7 +2579,7 @@
     },
     {
       "name": "Panther Valley Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2591,7 +2591,7 @@
     },
     {
       "name": "Terrace Open Space",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2603,7 +2603,7 @@
     },
     {
       "name": "Anderson Park (Jesch Property)",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2615,7 +2615,7 @@
     },
     {
       "name": "University Ridge Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2627,7 +2627,7 @@
     },
     {
       "name": "Rancho San Rafael Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2639,7 +2639,7 @@
     },
     {
       "name": "Sun Valley Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2651,7 +2651,7 @@
     },
     {
       "name": "Ballardini",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2663,7 +2663,7 @@
     },
     {
       "name": "Galena Historic Schoolhouse",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2675,7 +2675,7 @@
     },
     {
       "name": "Eagle Canyon Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2687,7 +2687,7 @@
     },
     {
       "name": "Eagle Canyon Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2699,7 +2699,7 @@
     },
     {
       "name": "Eagle Canyon Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2711,7 +2711,7 @@
     },
     {
       "name": "Truckee River Greenbelt",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -2723,8 +2723,8 @@
     },
     {
       "name": "Silverlake",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.64428,
@@ -2735,8 +2735,8 @@
     },
     {
       "name": "Truckee River - Carcione",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.51205,
@@ -2747,8 +2747,8 @@
     },
     {
       "name": "Red Hill 2",
-      "manager": "County",
-      "designation": "LOTH",
+      "manager": "County Land",
+      "designation": "Local Other or Unknown",
       "access": null,
       "bbox": {
         "south": 39.59277,
@@ -2759,7 +2759,7 @@
     },
     {
       "name": "Highland Ranch Park",
-      "manager": "Regional agency",
+      "manager": "Regional Agency Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2771,8 +2771,8 @@
     },
     {
       "name": "Kuenzli Greenbelt Park",
-      "manager": "City",
-      "designation": "LOTH",
+      "manager": "City Land",
+      "designation": "Local Other or Unknown",
       "access": "open",
       "bbox": {
         "south": 39.52952,
@@ -2783,7 +2783,7 @@
     },
     {
       "name": "Bagpipe Circle Pathway",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2795,7 +2795,7 @@
     },
     {
       "name": "Bankside Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2807,7 +2807,7 @@
     },
     {
       "name": "Barbara Bennett Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2819,7 +2819,7 @@
     },
     {
       "name": "Beaumont Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2831,7 +2831,7 @@
     },
     {
       "name": "Bicentennial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2843,7 +2843,7 @@
     },
     {
       "name": "Brodhead Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2855,7 +2855,7 @@
     },
     {
       "name": "Cannan Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2867,7 +2867,7 @@
     },
     {
       "name": "Canyon Creek Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2879,7 +2879,7 @@
     },
     {
       "name": "Center Creek Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2891,7 +2891,7 @@
     },
     {
       "name": "Comstock Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2903,7 +2903,7 @@
     },
     {
       "name": "Crissie Caughlin Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2915,7 +2915,7 @@
     },
     {
       "name": "Crystal Lakes Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2927,7 +2927,7 @@
     },
     {
       "name": "Cyan Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2939,7 +2939,7 @@
     },
     {
       "name": "Damonte-Curti Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2951,7 +2951,7 @@
     },
     {
       "name": "Damonte Ranch Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2963,7 +2963,7 @@
     },
     {
       "name": "Dbl-Diamond Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2975,7 +2975,7 @@
     },
     {
       "name": "Dick Taylor Memorial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2987,7 +2987,7 @@
     },
     {
       "name": "Diloreto Pathway/Greenbelt",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -2999,7 +2999,7 @@
     },
     {
       "name": "Donner Party Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3011,7 +3011,7 @@
     },
     {
       "name": "Dorothy Macalinden Park/Mayors Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3023,7 +3023,7 @@
     },
     {
       "name": "Double Diamond Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3035,7 +3035,7 @@
     },
     {
       "name": "Downtown Plaza",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3047,7 +3047,7 @@
     },
     {
       "name": "Duncan Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3059,7 +3059,7 @@
     },
     {
       "name": "Eighth Street Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3071,7 +3071,7 @@
     },
     {
       "name": "Evans Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3083,7 +3083,7 @@
     },
     {
       "name": "Evenlyn Mount Northeast Community Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3095,7 +3095,7 @@
     },
     {
       "name": "Evergreen Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3107,7 +3107,7 @@
     },
     {
       "name": "Fisherman's Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3119,7 +3119,7 @@
     },
     {
       "name": "Fisherman's Park #1",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3131,7 +3131,7 @@
     },
     {
       "name": "Fisherman's Park #2",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3143,7 +3143,7 @@
     },
     {
       "name": "Foxtrail Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3155,7 +3155,7 @@
     },
     {
       "name": "Governors Bowl Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3167,7 +3167,7 @@
     },
     {
       "name": "Harrahs/Diloreto Pathway",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3179,7 +3179,7 @@
     },
     {
       "name": "Hilltop Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3191,7 +3191,7 @@
     },
     {
       "name": "Holcomb Historic Site",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3203,7 +3203,7 @@
     },
     {
       "name": "Horizon View Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3215,7 +3215,7 @@
     },
     {
       "name": "Horseman's Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3227,7 +3227,7 @@
     },
     {
       "name": "Huffaker Mountain",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3239,7 +3239,7 @@
     },
     {
       "name": "Huffaker Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3251,7 +3251,7 @@
     },
     {
       "name": "Idlewild Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "Irving Circle Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3275,7 +3275,7 @@
     },
     {
       "name": "Ishii Point Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3287,7 +3287,7 @@
     },
     {
       "name": "Ivan Sack Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3299,7 +3299,7 @@
     },
     {
       "name": "Jack Tighe Memorial Fields",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3311,7 +3311,7 @@
     },
     {
       "name": "Jamaica Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3323,7 +3323,7 @@
     },
     {
       "name": "John Champion Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3335,7 +3335,7 @@
     },
     {
       "name": "Lake Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3347,7 +3347,7 @@
     },
     {
       "name": "Las Brisas Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3359,7 +3359,7 @@
     },
     {
       "name": "Las Brisas Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3371,7 +3371,7 @@
     },
     {
       "name": "Liston Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3383,7 +3383,7 @@
     },
     {
       "name": "Lunsford Triangle Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3395,7 +3395,7 @@
     },
     {
       "name": "Manzanita Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3407,7 +3407,7 @@
     },
     {
       "name": "Mary Gojack Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3419,7 +3419,7 @@
     },
     {
       "name": "Mckinley Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3431,7 +3431,7 @@
     },
     {
       "name": "Melody Lane Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3443,7 +3443,7 @@
     },
     {
       "name": "Miguel Ribera Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3455,7 +3455,7 @@
     },
     {
       "name": "Mira Loma Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3467,7 +3467,7 @@
     },
     {
       "name": "Newlands Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3479,7 +3479,7 @@
     },
     {
       "name": "Northgate Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3491,7 +3491,7 @@
     },
     {
       "name": "Northwest Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3503,7 +3503,7 @@
     },
     {
       "name": "O'Brien Ms",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3515,7 +3515,7 @@
     },
     {
       "name": "Panther Valley Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3527,7 +3527,7 @@
     },
     {
       "name": "Pat Baker Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3539,7 +3539,7 @@
     },
     {
       "name": "Peavine Fields",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3551,7 +3551,7 @@
     },
     {
       "name": "Pickett Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3563,7 +3563,7 @@
     },
     {
       "name": "Plumas Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3575,7 +3575,7 @@
     },
     {
       "name": "Powning Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3587,7 +3587,7 @@
     },
     {
       "name": "Rainbow Ridge Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3599,7 +3599,7 @@
     },
     {
       "name": "Rainbow Ridge Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3611,7 +3611,7 @@
     },
     {
       "name": "Reggie Rd Exercise Area",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3623,7 +3623,7 @@
     },
     {
       "name": "Riverside Drive Park/Greenbelt",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3635,7 +3635,7 @@
     },
     {
       "name": "Robinhood Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3647,7 +3647,7 @@
     },
     {
       "name": "Rotary Centennial Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3659,7 +3659,7 @@
     },
     {
       "name": "Sage Street Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3671,7 +3671,7 @@
     },
     {
       "name": "Sapphire Ridge Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3683,7 +3683,7 @@
     },
     {
       "name": "Schiappacasse Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3695,7 +3695,7 @@
     },
     {
       "name": "Seminary Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3707,7 +3707,7 @@
     },
     {
       "name": "Silver Lake Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3719,7 +3719,7 @@
     },
     {
       "name": "Sky Country Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3731,7 +3731,7 @@
     },
     {
       "name": "Sky Vista Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3743,7 +3743,7 @@
     },
     {
       "name": "Somersett East Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3755,7 +3755,7 @@
     },
     {
       "name": "Steamboat Ditch Conector Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3767,7 +3767,7 @@
     },
     {
       "name": "Sterling Village Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3779,7 +3779,7 @@
     },
     {
       "name": "Stewart Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3791,7 +3791,7 @@
     },
     {
       "name": "Summit Ridge Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3803,7 +3803,7 @@
     },
     {
       "name": "Teglias Paradise Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3815,7 +3815,7 @@
     },
     {
       "name": "Terrace Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3827,7 +3827,7 @@
     },
     {
       "name": "University Ridge Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3839,7 +3839,7 @@
     },
     {
       "name": "Valley Wood Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3851,7 +3851,7 @@
     },
     {
       "name": "Valleywood Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3863,7 +3863,7 @@
     },
     {
       "name": "Virginia Lake Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3875,7 +3875,7 @@
     },
     {
       "name": "West Street Plaza",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3887,7 +3887,7 @@
     },
     {
       "name": "Wheatland Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3899,7 +3899,7 @@
     },
     {
       "name": "Whitaker Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3911,7 +3911,7 @@
     },
     {
       "name": "Wildcreek Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3923,7 +3923,7 @@
     },
     {
       "name": "Wilkinson Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3935,7 +3935,7 @@
     },
     {
       "name": "Wingfield Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3947,7 +3947,7 @@
     },
     {
       "name": "Yori Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -3959,7 +3959,7 @@
     },
     {
       "name": "Bike Path From Silva Ranch Rd To Us 40 W",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -3971,7 +3971,7 @@
     },
     {
       "name": "Huffaker Park Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -3983,7 +3983,7 @@
     },
     {
       "name": "Manzanita Park Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -3995,7 +3995,7 @@
     },
     {
       "name": "Mira Loma Park- Boynton Slough Path",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "Moana Springs Recreation Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4019,7 +4019,7 @@
     },
     {
       "name": "Morgan Point Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4031,7 +4031,7 @@
     },
     {
       "name": "Somersett Parkway Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4043,7 +4043,7 @@
     },
     {
       "name": "Steamboat Ditch Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4055,7 +4055,7 @@
     },
     {
       "name": "Terrace Sports Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4067,7 +4067,7 @@
     },
     {
       "name": "Tom Cooke Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4079,7 +4079,7 @@
     },
     {
       "name": "Truckee River Trail",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4091,7 +4091,7 @@
     },
     {
       "name": "Raleigh Heights Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4103,7 +4103,7 @@
     },
     {
       "name": "Aimone Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4115,7 +4115,7 @@
     },
     {
       "name": "Ardmore Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4127,7 +4127,7 @@
     },
     {
       "name": "Bitterbrush Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4139,7 +4139,7 @@
     },
     {
       "name": "Bodega Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4151,7 +4151,7 @@
     },
     {
       "name": "Burgess Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4163,7 +4163,7 @@
     },
     {
       "name": "Canyon Hills Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4175,7 +4175,7 @@
     },
     {
       "name": "Church Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4187,7 +4187,7 @@
     },
     {
       "name": "Cottonwood Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4199,7 +4199,7 @@
     },
     {
       "name": "Coyote Springs Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4211,7 +4211,7 @@
     },
     {
       "name": "Deer Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4223,7 +4223,7 @@
     },
     {
       "name": "Del Cobre Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4235,7 +4235,7 @@
     },
     {
       "name": "Fishermans Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4247,7 +4247,7 @@
     },
     {
       "name": "Gandolfo Rodeo Arena",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4259,7 +4259,7 @@
     },
     {
       "name": "Gateway Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4271,7 +4271,7 @@
     },
     {
       "name": "Glendale Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4283,7 +4283,7 @@
     },
     {
       "name": "Jacinto Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4295,7 +4295,7 @@
     },
     {
       "name": "Les Hicks Jr Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4307,7 +4307,7 @@
     },
     {
       "name": "Longford Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4319,7 +4319,7 @@
     },
     {
       "name": "Maldonado Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4331,7 +4331,7 @@
     },
     {
       "name": "Oppio Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4343,7 +4343,7 @@
     },
     {
       "name": "Pagni Ranch Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4355,7 +4355,7 @@
     },
     {
       "name": "Pah Rah Mountain Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4367,7 +4367,7 @@
     },
     {
       "name": "Pelican Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4379,7 +4379,7 @@
     },
     {
       "name": "Poulakidas Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4391,7 +4391,7 @@
     },
     {
       "name": "Rock Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4403,7 +4403,7 @@
     },
     {
       "name": "Sage Canyon Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4415,7 +4415,7 @@
     },
     {
       "name": "Sparks Marina Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4427,7 +4427,7 @@
     },
     {
       "name": "Tumbleweed Trails Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4439,7 +4439,7 @@
     },
     {
       "name": "Van Meter Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4451,7 +4451,7 @@
     },
     {
       "name": "Village Green Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4463,7 +4463,7 @@
     },
     {
       "name": "Vista View Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4475,7 +4475,7 @@
     },
     {
       "name": "Willowcreek Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4487,7 +4487,7 @@
     },
     {
       "name": "Woodtrail Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4499,7 +4499,7 @@
     },
     {
       "name": "Alf Sorensen Community Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4511,7 +4511,7 @@
     },
     {
       "name": "City Recreation Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4523,7 +4523,7 @@
     },
     {
       "name": "Larry D. Johnson Community Center",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4535,7 +4535,7 @@
     },
     {
       "name": "Shadow Mountain Sports Complex",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4547,7 +4547,7 @@
     },
     {
       "name": "Kestrel Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4559,7 +4559,7 @@
     },
     {
       "name": "Shelly Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4571,8 +4571,8 @@
     },
     {
       "name": "Red Hill Open Space",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.59276,
@@ -4583,7 +4583,7 @@
     },
     {
       "name": "Truckee River Green Belt -Rock Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4595,7 +4595,7 @@
     },
     {
       "name": "Mario Road Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -4607,8 +4607,8 @@
     },
     {
       "name": "Callahan Ranch Trails",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.35272,
@@ -4619,8 +4619,8 @@
     },
     {
       "name": "Caughlin Ranch Os & Trails System",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.48908,
@@ -4631,8 +4631,8 @@
     },
     {
       "name": "Moana Open Space",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.49127,
@@ -4643,8 +4643,8 @@
     },
     {
       "name": "Mt. Rose/Veterans Pkwy",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.40328,
@@ -4655,8 +4655,8 @@
     },
     {
       "name": "Peavine Access",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.60508,
@@ -4667,8 +4667,8 @@
     },
     {
       "name": "Pioneer Open Space & Access",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.49064,
@@ -4679,8 +4679,8 @@
     },
     {
       "name": "Sun Valley Open Space",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.56385,
@@ -4691,8 +4691,8 @@
     },
     {
       "name": "Whites Creek Stream Zone",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.3849,
@@ -4703,7 +4703,7 @@
     },
     {
       "name": "Antelope Ridge Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4715,7 +4715,7 @@
     },
     {
       "name": "Arrowcreek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4727,7 +4727,7 @@
     },
     {
       "name": "Bailey Creek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4739,7 +4739,7 @@
     },
     {
       "name": "Creek View Dr. Access",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4751,7 +4751,7 @@
     },
     {
       "name": "East Truckee Canyon Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4763,7 +4763,7 @@
     },
     {
       "name": "Ellens Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4775,7 +4775,7 @@
     },
     {
       "name": "Hidden Valley Highlands Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4787,7 +4787,7 @@
     },
     {
       "name": "Phillip & Annie Callahan Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4799,7 +4799,7 @@
     },
     {
       "name": "Pleasant Valley Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4811,7 +4811,7 @@
     },
     {
       "name": "Rivermount Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4823,7 +4823,7 @@
     },
     {
       "name": "Silver Knolls Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4835,7 +4835,7 @@
     },
     {
       "name": "Sky Ranch Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4847,7 +4847,7 @@
     },
     {
       "name": "Thomas Creek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4859,7 +4859,7 @@
     },
     {
       "name": "Whites Creek Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4871,8 +4871,8 @@
     },
     {
       "name": "Paradise View",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.67528,
@@ -4883,7 +4883,7 @@
     },
     {
       "name": "Betsy Caughlin Donnelly Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4895,7 +4895,7 @@
     },
     {
       "name": "Desert Winds Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4907,7 +4907,7 @@
     },
     {
       "name": "Eagle Canyon Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4919,7 +4919,7 @@
     },
     {
       "name": "Gator Swamp Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4931,7 +4931,7 @@
     },
     {
       "name": "Martin Luther King Jr Memorial Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4943,7 +4943,7 @@
     },
     {
       "name": "Mogul Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4955,7 +4955,7 @@
     },
     {
       "name": "Reno Tennis Center",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4967,7 +4967,7 @@
     },
     {
       "name": "Virginia Foothills Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -4979,8 +4979,8 @@
     },
     {
       "name": "Lemmon Valley Open Space",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.67707,
@@ -4991,8 +4991,8 @@
     },
     {
       "name": "Mogul Open Space",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.51934,
@@ -5003,8 +5003,8 @@
     },
     {
       "name": "Peavine Open Space",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "open",
       "bbox": {
         "south": 39.57043,
@@ -5015,7 +5015,7 @@
     },
     {
       "name": "Golden Valley Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5027,7 +5027,7 @@
     },
     {
       "name": "Lemmon Valley Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5039,7 +5039,7 @@
     },
     {
       "name": "Lemmon Valley Horsemans Arena",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5051,7 +5051,7 @@
     },
     {
       "name": "Anderson Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5063,7 +5063,7 @@
     },
     {
       "name": "Beck Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5075,7 +5075,7 @@
     },
     {
       "name": "Billinghurst Ms",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5087,7 +5087,7 @@
     },
     {
       "name": "Corbett Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5099,7 +5099,7 @@
     },
     {
       "name": "Dodson Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5111,7 +5111,7 @@
     },
     {
       "name": "Loder Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5123,7 +5123,7 @@
     },
     {
       "name": "Matthews Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5135,7 +5135,7 @@
     },
     {
       "name": "Pine Ms",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5147,7 +5147,7 @@
     },
     {
       "name": "Swope Ms",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5159,7 +5159,7 @@
     },
     {
       "name": "Traner Ms",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5171,7 +5171,7 @@
     },
     {
       "name": "Vaughn Ms",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5183,7 +5183,7 @@
     },
     {
       "name": "Warner Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5195,7 +5195,7 @@
     },
     {
       "name": "Westergard Es",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5207,7 +5207,7 @@
     },
     {
       "name": "Gepford Park",
-      "manager": null,
+      "manager": "Other or Unknown Local Government",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5219,7 +5219,7 @@
     },
     {
       "name": "Sun Mesa Park",
-      "manager": null,
+      "manager": "Other or Unknown Local Government",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5231,7 +5231,7 @@
     },
     {
       "name": "Sun Valley Community Park",
-      "manager": null,
+      "manager": "Other or Unknown Local Government",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5243,7 +5243,7 @@
     },
     {
       "name": "Pinion Park",
-      "manager": "Other state agency",
+      "manager": "Other or Unknown State Land",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -5255,7 +5255,7 @@
     },
     {
       "name": "Whitewater Park At Rock",
-      "manager": "Other state agency",
+      "manager": "Other or Unknown State Land",
       "designation": "State Park",
       "access": "open",
       "bbox": {
@@ -5279,8 +5279,8 @@
     },
     {
       "name": "Rose - Alum Creek Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.46206,
@@ -5291,8 +5291,8 @@
     },
     {
       "name": "Rose - Big Meadows Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.42578,
@@ -5303,8 +5303,8 @@
     },
     {
       "name": "Rose - Davis Mdw. Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.37462,
@@ -5315,8 +5315,8 @@
     },
     {
       "name": "Rose - Dutch Louie Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.42929,
@@ -5327,8 +5327,8 @@
     },
     {
       "name": "Rose - Evans Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.39255,
@@ -5339,8 +5339,8 @@
     },
     {
       "name": "Rose - Galena Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.30808,
@@ -5351,8 +5351,8 @@
     },
     {
       "name": "Rose - Hunter East Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.49054,
@@ -5363,8 +5363,8 @@
     },
     {
       "name": "Rose - Hunter Lk No Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.42906,
@@ -5375,8 +5375,8 @@
     },
     {
       "name": "Rose - Hunter Lk. West Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.4257,
@@ -5387,8 +5387,8 @@
     },
     {
       "name": "Rose - Hunter West Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.48915,
@@ -5399,8 +5399,8 @@
     },
     {
       "name": "Rose - North Notch Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.46729,
@@ -5411,8 +5411,8 @@
     },
     {
       "name": "Rose - Northeast Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.45032,
@@ -5423,8 +5423,8 @@
     },
     {
       "name": "Rose - Thomas Mdw. Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.39445,
@@ -5435,8 +5435,8 @@
     },
     {
       "name": "Rose - Verdi Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.46826,
@@ -5447,8 +5447,8 @@
     },
     {
       "name": "Rose - Whites Canyon Roadless Area",
-      "manager": "U.S. Forest Service",
-      "designation": "IRA",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
       "access": "open",
       "bbox": {
         "south": 39.36054,
@@ -5459,7 +5459,7 @@
     },
     {
       "name": "Mt. Rose Wilderness",
-      "manager": "U.S. Forest Service",
+      "manager": "Forest Service",
       "designation": "Wilderness Area",
       "access": "restricted",
       "bbox": {
@@ -5471,7 +5471,7 @@
     },
     {
       "name": "Hilltop Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5483,7 +5483,7 @@
     },
     {
       "name": "Sky Country Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5495,7 +5495,7 @@
     },
     {
       "name": "Hilltop Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5507,7 +5507,7 @@
     },
     {
       "name": "Sky Country Park",
-      "manager": "City",
+      "manager": "City Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5519,7 +5519,7 @@
     },
     {
       "name": "Saddlehorn Park Site",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5531,7 +5531,7 @@
     },
     {
       "name": "Saddlehorn Park Site",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5543,7 +5543,7 @@
     },
     {
       "name": "Mayberry Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5555,7 +5555,7 @@
     },
     {
       "name": "Mayberry Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5567,7 +5567,7 @@
     },
     {
       "name": "Ballardini Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5579,7 +5579,7 @@
     },
     {
       "name": "Ballardini Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5591,7 +5591,7 @@
     },
     {
       "name": "Hunter Creek Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5603,7 +5603,7 @@
     },
     {
       "name": "Hunter Creek Open Space",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5615,7 +5615,7 @@
     },
     {
       "name": "Huffaker Hills",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5627,7 +5627,7 @@
     },
     {
       "name": "Huffaker Hills",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5639,7 +5639,7 @@
     },
     {
       "name": "Huffaker Hills",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5651,7 +5651,7 @@
     },
     {
       "name": "Huffaker Hills",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5663,7 +5663,7 @@
     },
     {
       "name": "Huffaker Hills",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5675,7 +5675,7 @@
     },
     {
       "name": "Huffaker Hills",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5687,7 +5687,7 @@
     },
     {
       "name": "Huffaker Hills - Sppco",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Recreation Area",
       "access": "open",
       "bbox": {
@@ -5699,8 +5699,8 @@
     },
     {
       "name": "Swan Lake/Lemmon Valley",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "restricted",
       "bbox": {
         "south": 39.65045,
@@ -5711,7 +5711,7 @@
     },
     {
       "name": "Golden Eagle Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5723,7 +5723,7 @@
     },
     {
       "name": "North Valleys Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5735,7 +5735,7 @@
     },
     {
       "name": "Rancho San Rafael Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5747,7 +5747,7 @@
     },
     {
       "name": "South Valleys Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5759,8 +5759,8 @@
     },
     {
       "name": "Swan Lake/Lemmon Valley",
-      "manager": "County",
-      "designation": "LCA",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
       "access": "restricted",
       "bbox": {
         "south": 39.65045,
@@ -5771,7 +5771,7 @@
     },
     {
       "name": "Golden Eagle Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5783,7 +5783,7 @@
     },
     {
       "name": "North Valleys Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5795,7 +5795,7 @@
     },
     {
       "name": "Rancho San Rafael Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5807,7 +5807,7 @@
     },
     {
       "name": "South Valleys Regional Park",
-      "manager": "County",
+      "manager": "County Land",
       "designation": "Local Park",
       "access": "open",
       "bbox": {
@@ -5819,8 +5819,8 @@
     },
     {
       "name": "Pendleton Conservation Easement",
-      "manager": "Non-profit conservation group",
-      "designation": "Recreation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Recreation or Education Easement",
       "access": "open",
       "bbox": {
         "south": 39.48569,
@@ -5831,8 +5831,8 @@
     },
     {
       "name": "Pendleton Conservation Easement",
-      "manager": "Non-profit conservation group",
-      "designation": "Recreation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Recreation or Education Easement",
       "access": "open",
       "bbox": {
         "south": 39.48569,
