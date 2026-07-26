@@ -1,0 +1,175 @@
+// PAD-US — the Protected Areas Database of the United States (USGS GAP), the
+// authoritative national inventory of protected land. US GOVERNMENT PUBLIC
+// DOMAIN, no key.
+//
+// WHY IT MATTERS, and why it isn't a duplicate of the OSM public-lands layer:
+// OSM tells us a boundary exists. PAD-US tells us WHO MANAGES IT, WHAT KIND of
+// protected area it is, and WHETHER THE PUBLIC MAY ENTER — the three facts a
+// photographer actually needs before driving somewhere ("is this open, and whose
+// rules apply?"). It also covers STATE, COUNTY and LOCAL government land, not
+// just federal, so a small county or district park gets an authoritative manager
+// name instead of nothing.
+//
+// SHAPE: polygons, like public-lands.mjs. We fetch the areas intersecting the
+// region bbox (geometry generalised — we only need containment, not detail),
+// then point-in-polygon every spot locally and write tags.padus. No ring
+// geometry ever ships to the browser.
+//
+// ACCESS: an ArcGIS REST service, unreachable from the sandbox (egress 403s the
+// CONNECT), so it runs on a runner. Layer AND field names are DISCOVERED at
+// runtime, case-insensitively — PAD-US renames fields between versions (v3 → v4)
+// and a hard-coded guess is exactly what cost a debug cycle on GNIS and NRHP.
+
+export const meta = {
+  source: 'padus',
+  name: 'Protected Areas Database of the United States (USGS)',
+  license: 'public-domain',
+  attribution: 'USGS Gap Analysis Project — PAD-US',
+  status: 'working',
+};
+
+// The USGS-hosted PAD-US service. Overridable so a version bump (padus3 → 4) or
+// a mirror doesn't need a code change.
+export const BASE_URL =
+  'https://gis1.usgs.gov/arcgis/rest/services/padus3/Combined_Proclamation_Marine_Fee_Designation_Easement/MapServer';
+
+export const USER_AGENT =
+  'photo-pointer/1.13 (personal open-data map; github.com/njefferson/photo-pointer)';
+
+// Field candidates, lowest-common-denominator first. PAD-US ships both coded
+// fields (Mang_Name) and decoded "domain" versions (d_Mang_Nam); prefer decoded,
+// since that's the human-readable text we want to show.
+const NAME_FIELDS = ['unit_nm', 'loc_nm', 'name'];
+const MANAGER_FIELDS = ['d_mang_nam', 'mang_name', 'd_mang_typ', 'mang_type'];
+const DESIGNATION_FIELDS = ['d_des_tp', 'des_tp', 'd_feat_cls', 'feat_cls'];
+const ACCESS_FIELDS = ['d_pub_access', 'pub_access', 'access'];
+
+function pick(fieldNames, candidates) {
+  const lower = new Map(fieldNames.map((f) => [String(f).toLowerCase(), f]));
+  for (const c of candidates) if (lower.has(c)) return lower.get(c);
+  return null;
+}
+
+// Polygon layers carrying a PAD-US unit name. Marine layers are skipped — an
+// offshore protected area never contains a land spot and just costs a query.
+export function pickLayers(layersDoc) {
+  const layers = layersDoc?.layers ?? [];
+  return layers
+    .filter((l) => (l.geometryType ?? '').toLowerCase().includes('polygon'))
+    .filter((l) => !/marine/i.test(l.name || ''))
+    .map((l) => {
+      const names = (l.fields ?? []).map((f) => f.name);
+      return {
+        id: l.id,
+        name: l.name,
+        nameField: pick(names, NAME_FIELDS),
+        managerField: pick(names, MANAGER_FIELDS),
+        designationField: pick(names, DESIGNATION_FIELDS),
+        accessField: pick(names, ACCESS_FIELDS),
+      };
+    })
+    .filter((l) => l.nameField);
+}
+
+async function getJson(url, fetchFn, wait) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const res = await fetchFn(url, {
+        headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
+        signal: AbortSignal.timeout(120000),
+      });
+      if (res.status === 429 || res.status === 503) { await wait(10000); continue; }
+      if (res.status >= 400 && res.status < 500) { const e = new Error(`HTTP ${res.status}`); e.fatal = true; throw e; }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json();
+      if (json && json.error) { const e = new Error(`ArcGIS error ${json.error.code}: ${json.error.message}`); e.fatal = true; throw e; }
+      return json;
+    } catch (e) {
+      if (e.fatal || attempt === 2) throw e;
+      await wait(3000 * (attempt + 1));
+    }
+  }
+}
+
+// "Unknown"/"Not designated" style placeholders carry no information — treat
+// them as absent rather than showing the user a shrug.
+const EMPTY_RE = /^\s*(|unknown|not\s+designated|n\/?a|none|other)\s*$/i;
+function clean(v) {
+  const s = v == null ? '' : String(v).trim();
+  return EMPTY_RE.test(s) ? null : s;
+}
+
+// One ArcGIS polygon feature -> { name, manager, designation, access, bbox, rings }
+export function normalizeArea(f, layer) {
+  const a = f.attributes ?? {};
+  const name = clean(a[layer.nameField]);
+  const rings = (f.geometry?.rings ?? []).filter((r) => Array.isArray(r) && r.length > 2);
+  if (!rings.length) return null;
+  let south = Infinity, north = -Infinity, west = Infinity, east = -Infinity;
+  for (const r of rings) {
+    for (const [x, y] of r) {
+      if (y < south) south = y;
+      if (y > north) north = y;
+      if (x < west) west = x;
+      if (x > east) east = x;
+    }
+  }
+  if (!isFinite(south) || !isFinite(west)) return null;
+  return {
+    name,
+    manager: layer.managerField ? clean(a[layer.managerField]) : null,
+    designation: layer.designationField ? clean(a[layer.designationField]) : null,
+    access: layer.accessField ? clean(a[layer.accessField]) : null,
+    bbox: { south, west, north, east },
+    // geo.pointInRing expects [lat,lng] pairs; ArcGIS gives [x,y] = [lng,lat].
+    rings: rings.map((r) => r.map(([x, y]) => [y, x])),
+  };
+}
+
+async function queryLayer(baseUrl, layer, region, fetchFn, wait) {
+  const b = region.bbox;
+  const envelope = encodeURIComponent(`${b.west},${b.south},${b.east},${b.north}`);
+  const fields = [layer.nameField, layer.managerField, layer.designationField, layer.accessField]
+    .filter(Boolean).join(',');
+  const PAGE = 200; // polygons are heavy — page small
+  const out = [];
+  for (let offset = 0; ; offset += PAGE) {
+    const url = `${baseUrl}/${layer.id}/query?where=1%3D1`
+      + `&geometry=${envelope}&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects`
+      + `&outFields=${encodeURIComponent(fields)}&returnGeometry=true&outSR=4326`
+      // Generalise: we only need containment, not cartographic detail. This is
+      // what keeps a statewide query from returning tens of MB of vertices.
+      + '&maxAllowableOffset=0.0005&geometryPrecision=5'
+      + `&resultOffset=${offset}&resultRecordCount=${PAGE}&f=json`;
+    const page = await getJson(url, fetchFn, wait);
+    const feats = page?.features ?? [];
+    for (const f of feats) {
+      const area = normalizeArea(f, layer);
+      if (area) out.push(area);
+    }
+    if (feats.length < PAGE && !page?.exceededTransferLimit) break;
+    if (feats.length === 0) break;
+    await wait(300);
+  }
+  return out;
+}
+
+export async function ingest(region, { fetchFn = fetch, log = () => {}, sleep, baseUrl = BASE_URL } = {}) {
+  const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
+  const layersDoc = await getJson(`${baseUrl}/layers?f=json`, fetchFn, wait);
+  const layers = pickLayers(layersDoc);
+  if (!layers.length) throw new Error('padus: no polygon layer with a unit-name field found');
+  log(`padus: ${layers.length} polygon layer(s): ${layers.map((l) => `${l.id}:${l.name}[name=${l.nameField},mgr=${l.managerField},des=${l.designationField},acc=${l.accessField}]`).join(' | ')}`);
+  const areas = [];
+  for (const layer of layers) {
+    try {
+      const got = await queryLayer(baseUrl, layer, region, fetchFn, wait);
+      if (got.length) log(`padus: layer ${layer.id} (${layer.name}) → ${got.length} areas`);
+      areas.push(...got);
+    } catch (e) {
+      log(`padus: layer ${layer.id} (${layer.name}) failed: ${e.message} — skipping`);
+    }
+  }
+  log(`padus: ${areas.length} protected areas intersecting the region`);
+  return areas;
+}

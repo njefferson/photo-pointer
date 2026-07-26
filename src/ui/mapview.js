@@ -848,6 +848,14 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       spot.access_difficulty && spot.access_difficulty !== 'unknown'
         ? el('p', {}, `Access: ${spot.access_difficulty}`)
         : null,
+      spot.tags?.padus
+        ? el('p', { class: 'popup-land' }, [
+            // PAD-US: who runs it, what it is, and whether you may enter. The
+            // access word is quoted from the dataset, not our interpretation.
+            [spot.tags.padus.manager, spot.tags.padus.designation].filter(Boolean).join(' · ') || 'Protected area',
+            spot.tags.padus.access ? ` — public access: ${spot.tags.padus.access.toLowerCase()}` : '',
+          ])
+        : null,
       spot.tags?.publicLand
         ? el('p', { class: 'popup-land' },
             `On public land: ${spot.tags.publicLand.name || spot.tags.publicLand.class}` +
@@ -864,6 +872,12 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         ? el('div', { class: 'popup-linkrow' }, [
             el('p', { class: 'popup-linktext' }, `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here.`),
             el('a', { class: 'popup-linkbtn', href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'View the photos on Commons →'),
+          ])
+        : null,
+      spot.tags?.curatedLink
+        ? el('p', { class: 'popup-improve' }, [
+            el('a', { class: 'popup-srclink', href: spot.tags.curatedLink, target: '_blank', rel: 'noopener' },
+              `${spot.tags.curatedLinkLabel} →`),
           ])
         : null,
       wikiLine(spot),

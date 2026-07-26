@@ -1,0 +1,38 @@
+{
+  "_readme": [
+    "SHARED CURATED ENRICHMENT — hand-written detail layered onto existing spots,",
+    "keyed by spot id (the `id` field in data/regions/<region>.json).",
+    "",
+    "WHY: some cards are thin because the open data behind them is thin, and no",
+    "dataset will ever fix it. Personal notes (1.12.0) solve that for ONE device;",
+    "this file is the version that SHIPS to everyone.",
+    "",
+    "LICENSING — the rule that makes this safe:",
+    "  WRITE YOUR OWN WORDS. Do NOT paste text from a city, district, park or",
+    "  business website: that prose is copyrighted even when the facts in it are",
+    "  not. Facts are free (who runs it, when it opens, that there is a bedrock",
+    "  mortar site) — sentences are not. Federal sources (RIDB, NRHP, GNIS, USGS,",
+    "  NOAA) are public domain and their text may be carried, but those already",
+    "  come in through their own adapters. NEVER copy from social platforms.",
+    "  `link` should point at the official page so a reader can go read the",
+    "  original for themselves.",
+    "",
+    "FIELDS (all optional): notes, link, link_label, best_light, best_season,",
+    "  access_difficulty, subject_type. They only FILL GAPS — anything the",
+    "  ingested data already provides is left alone, so a future ingest that",
+    "  improves upstream never gets clobbered by a stale hand-written line.",
+    "",
+    "Entries live under `spots`. Keep this file small and high-quality; it is for",
+    "places worth the effort, not for bulk."
+  ],
+  "spots": {
+    "fairchild-park-indian-grinding-rocks@9qcuhv": {
+      "notes": "Bedrock mortars ground into the granite outcrop by the Nisenan, who lived along these creek drainages long before the Gold Rush. The holes are easy to walk past — look down at the flat rock rather than out at the trees. Low, raking side-light picks the depressions out; flat midday sun erases them.",
+      "link": "https://www.eldoradohillscsd.org/programs_and_amp_activities/fairchild_park.php",
+      "link_label": "Fairchild Park — El Dorado Hills CSD",
+      "best_light": ["golden_hour"],
+      "access_difficulty": "short_walk",
+      "subject_type": ["historic", "macro"]
+    }
+  }
+}

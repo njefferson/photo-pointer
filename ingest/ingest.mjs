@@ -34,6 +34,7 @@ import * as curiosities from './adapters/wikidata-curiosities.mjs';
 import * as gnis from './adapters/gnis.mjs';
 import * as nrhp from './adapters/nrhp.mjs';
 import * as ridb from './adapters/ridb.mjs';
+import * as padus from './adapters/padus.mjs';
 import * as commons from './adapters/commons-photos.mjs';
 import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
@@ -263,6 +264,51 @@ async function cmdRidb(id) {
   await writeSource(P.sourcesDir, 'ridb.json', ridb.meta, region, records);
 }
 
+// PAD-US (USGS) — WHO manages a protected area, WHAT KIND it is, and WHETHER the
+// public may enter. An ENRICHMENT (point-in-polygon onto existing spots), not a
+// source of new pins; complements the OSM public-lands boundaries with the
+// authoritative manager/designation/access facts, including state/county/local land.
+async function cmdPadus(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const areas = await padus.ingest(region, { log });
+  if (areas.length === 0) {
+    if (await readJsonIfExists(path.join(P.layersDir, 'padus.json'))) {
+      console.error('padus: 0 areas — refusing to wipe tags');
+      process.exit(1);
+    }
+    log(`[${region.id}] no PAD-US areas here — writing an empty layer`);
+    await writeLayer(P, 'padus.json', { source: padus.meta, builtAt: today, count: 0, areas: [] });
+    return;
+  }
+  const doc = await requireSpots(P, 'padus');
+  const areaSize = (a) => (a.bbox.north - a.bbox.south) * (a.bbox.east - a.bbox.west);
+  let tagged = 0;
+  for (const s of doc.spots) {
+    const hits = areas.filter((a) => pointInArea(s.lat, s.lng, a));
+    if (hits.length) {
+      // Smallest containing area wins — the most specific claim about this point
+      // (a county park inside a national forest describes the spot better).
+      hits.sort((a, b) => areaSize(a) - areaSize(b));
+      const h = hits[0];
+      const t = {};
+      if (h.name) t.name = h.name;
+      if (h.manager) t.manager = h.manager;
+      if (h.designation) t.designation = h.designation;
+      if (h.access) t.access = h.access;
+      if (Object.keys(t).length) { (s.tags ??= {}).padus = t; tagged++; }
+    } else if (s.tags?.padus) {
+      delete s.tags.padus;
+    }
+  }
+  await writeFile(P.spotsFile, JSON.stringify(doc, null, 2) + '\n');
+  await writeLayer(P, 'padus.json', {
+    source: padus.meta, builtAt: today, count: areas.length,
+    areas: areas.map((a) => ({ name: a.name, manager: a.manager, designation: a.designation, access: a.access, bbox: a.bbox })),
+  });
+  log(`[${region.id}] tagged ${tagged}/${doc.spots.length} spots with PAD-US manager/access (${areas.length} areas)`);
+}
+
 async function requireSpots(P, cmdName) {
   const doc = await readJsonIfExists(P.spotsFile);
   if (!doc) {
@@ -417,7 +463,7 @@ async function cmdCommons(id) {
 
 // Enrichment tags are written AFTER merge by the layer passes — a fresh merge
 // would drop them, so carry them forward for spots whose id is unchanged.
-const ENRICH_TAGS = ['bortle', 'publicLand', 'horizon', 'inaturalist', 'commons'];
+const ENRICH_TAGS = ['bortle', 'publicLand', 'horizon', 'inaturalist', 'commons', 'padus'];
 
 async function cmdMerge(id) {
   const region = await loadRegionFor(id);
@@ -513,6 +559,7 @@ const commands = {
   gnis: cmdGnis,
   nrhp: cmdNrhp,
   ridb: cmdRidb,
+  padus: cmdPadus,
   merge: cmdMerge,
   validate: cmdValidate,
   all: async (id) => { await cmdOsm(id); await cmdOsmFeatures(id); await cmdEbird(id); await cmdMarkers(id); await cmdCuriosities(id); await cmdGnis(id); await cmdNrhp(id); await cmdRidb(id); await cmdMerge(id); await cmdValidate(id); },

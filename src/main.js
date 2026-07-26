@@ -12,6 +12,7 @@ import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js'
 import { renderListInto } from './ui/listview.js';
 import { keepSpot, refineCategory } from './model/notability.js';
 import { buildCelestialEvents } from './model/events.js';
+import { loadEnrichment, enrichSpots } from './model/enrichment.js';
 import { VERSION } from './data/changelog.js';
 
 applyTheme(currentTheme());
@@ -544,7 +545,7 @@ async function loadRegionData(id) {
       // keep verified landmarks and any marker that carries other worthwhile data.
       // Keep the worthwhile spots, then split the broad 'oddity' bucket into
       // finer categories (ghost town / waterfall / hot spring / …) for filtering.
-      dataSpots = (doc.spots ?? []).filter(keepSpot).map(refineCategory);
+      dataSpots = enrichSpots((doc.spots ?? []).filter(keepSpot).map(refineCategory), await loadEnrichment());
       dataBuiltAt = doc.builtAt ?? null;
     } else {
       toast('No spot data for this region yet');

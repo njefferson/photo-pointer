@@ -1,0 +1,44 @@
+name: PAD-US enrichment (protected-area manager + access)
+
+# PAD-US (USGS Protected Areas Database, US public domain, no key): tags each
+# spot with WHO manages the protected area it sits in, WHAT KIND it is, and
+# WHETHER the public may enter — including state/county/local land, which the
+# OSM public-lands layer doesn't reliably carry. An ENRICHMENT: it edits tags on
+# existing spots, so it needs no re-merge, but RE-RUN IT after a full OSM refresh
+# (which regenerates spots.json and drops enrichment tags).
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
+concurrency:
+  group: padus-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Tag spots from PAD-US (USGS, public domain)
+        run: node ingest/ingest.mjs padus "$REGION"
+      - name: Validate
+        run: node ingest/ingest.mjs validate "$REGION"
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add PAD-US manager, designation and public-access facts" -m "Each place now says who manages the protected land it sits on, what kind of protected area it is, and whether the public may enter. From the USGS Protected Areas Database (public domain)."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done
