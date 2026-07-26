@@ -103,3 +103,30 @@ test('a failing layer is skipped rather than losing the whole run', async () => 
   const areas = await ingest(REGION, { fetchFn, sleep: async () => {} });
   assert.deepEqual(areas, []);
 });
+
+test('resolveService falls past a service whose SITE is down to the next candidate', async () => {
+  const good = 'https://good.example/FeatureServer';
+  const down = 'https://down.example/MapServer';
+  const tried = [];
+  const fetchFn = async (url) => {
+    tried.push(url);
+    if (url.startsWith(down)) {
+      // The real failure seen on the first run: the ArcGIS SITE isn't running.
+      return { ok: true, status: 200, json: async () => ({ error: { code: 500, message: '9017$SITE_NOT_INITIALIZED' } }) };
+    }
+    return { ok: true, status: 200, json: async () => LAYERS };
+  };
+  const { resolveService } = await import('../ingest/adapters/padus.mjs');
+  const r = await resolveService(fetchFn, async () => {}, () => {}, [down, good]);
+  assert.equal(r.baseUrl, good);
+  assert.equal(r.layers.length, 1);
+  assert.ok(tried[0].startsWith(down), 'must try the first candidate before falling through');
+});
+
+test('resolveService reports every candidate it tried when none answer', async () => {
+  const { resolveService } = await import('../ingest/adapters/padus.mjs');
+  const fetchFn = async () => ({ ok: false, status: 404, json: async () => ({}) });
+  await assert.rejects(
+    () => resolveService(fetchFn, async () => {}, () => {}, ['https://a.example/x', 'https://b.example/y']),
+    (e) => /a\.example/.test(e.message) && /b\.example/.test(e.message));
+});

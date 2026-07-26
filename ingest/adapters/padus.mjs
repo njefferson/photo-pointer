@@ -28,10 +28,19 @@ export const meta = {
   status: 'working',
 };
 
-// The USGS-hosted PAD-US service. Overridable so a version bump (padus3 → 4) or
-// a mirror doesn't need a code change.
-export const BASE_URL =
-  'https://gis1.usgs.gov/arcgis/rest/services/padus3/Combined_Proclamation_Marine_Fee_Designation_Easement/MapServer';
+// PAD-US is published in several places and the USGS-hosted site has been seen
+// returning 500 SITE_NOT_INITIALIZED (its ArcGIS site down or restarting). So we
+// TRY CANDIDATES IN ORDER rather than betting on one URL, and log which one
+// answered. Override with PADUS_SERVICE_URL to pin a specific service without a
+// code change.
+export const BASE_CANDIDATES = [
+  // Esri Living Atlas hosted PAD-US (a FeatureServer; /layers works the same).
+  'https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Manager_Name/FeatureServer',
+  // USGS-hosted, newest first.
+  'https://gis1.usgs.gov/arcgis/rest/services/padus4/Combined_Proclamation_Marine_Fee_Designation_Easement/MapServer',
+  'https://gis1.usgs.gov/arcgis/rest/services/padus3/Combined_Proclamation_Marine_Fee_Designation_Easement/MapServer',
+];
+export const BASE_URL = BASE_CANDIDATES[0];
 
 export const USER_AGENT =
   'photo-pointer/1.13 (personal open-data map; github.com/njefferson/photo-pointer)';
@@ -82,7 +91,14 @@ async function getJson(url, fetchFn, wait) {
       if (res.status >= 400 && res.status < 500) { const e = new Error(`HTTP ${res.status}`); e.fatal = true; throw e; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
-      if (json && json.error) { const e = new Error(`ArcGIS error ${json.error.code}: ${json.error.message}`); e.fatal = true; throw e; }
+      if (json && json.error) {
+        const e = new Error(`ArcGIS error ${json.error.code}: ${json.error.message}`);
+        // A 500/SITE_NOT_INITIALIZED means that SITE is unavailable, not that the
+        // query is wrong — surface it so the caller can try the next candidate.
+        e.fatal = !/SITE_NOT_INITIALIZED/i.test(String(json.error.message ?? ''));
+        e.siteDown = !e.fatal;
+        throw e;
+      }
       return json;
     } catch (e) {
       if (e.fatal || attempt === 2) throw e;
@@ -154,11 +170,28 @@ async function queryLayer(baseUrl, layer, region, fetchFn, wait) {
   return out;
 }
 
-export async function ingest(region, { fetchFn = fetch, log = () => {}, sleep, baseUrl = BASE_URL } = {}) {
+// Probe the candidates and return the first that answers with usable layers.
+export async function resolveService(fetchFn, wait, log, candidates) {
+  const errs = [];
+  for (const base of candidates) {
+    try {
+      const doc = await getJson(`${base}/layers?f=json`, fetchFn, wait);
+      const layers = pickLayers(doc);
+      if (layers.length) { log(`padus: using ${base}`); return { baseUrl: base, layers }; }
+      errs.push(`${base}: no usable polygon layer`);
+    } catch (e) {
+      errs.push(`${base}: ${e.message}`);
+    }
+  }
+  throw new Error(`padus: no PAD-US service answered —\n  ${errs.join('\n  ')}`);
+}
+
+export async function ingest(region, { fetchFn = fetch, log = () => {}, sleep, baseUrl = null } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
-  const layersDoc = await getJson(`${baseUrl}/layers?f=json`, fetchFn, wait);
-  const layers = pickLayers(layersDoc);
-  if (!layers.length) throw new Error('padus: no polygon layer with a unit-name field found');
+  const candidates = baseUrl ? [baseUrl] : (process.env.PADUS_SERVICE_URL ? [process.env.PADUS_SERVICE_URL] : BASE_CANDIDATES);
+  const resolved = await resolveService(fetchFn, wait, log, candidates);
+  baseUrl = resolved.baseUrl;
+  const layers = resolved.layers;
   log(`padus: ${layers.length} polygon layer(s): ${layers.map((l) => `${l.id}:${l.name}[name=${l.nameField},mgr=${l.managerField},des=${l.designationField},acc=${l.accessField}]`).join(' | ')}`);
   const areas = [];
   for (const layer of layers) {

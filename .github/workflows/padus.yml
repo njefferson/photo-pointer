@@ -13,6 +13,9 @@ on:
       region:
         description: Region id (see config/regions.json)
         default: sac-eldorado-placer
+      service_url:
+        description: Optional PAD-US service URL to pin (else the built-in candidates are probed)
+        required: false
 concurrency:
   group: padus-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
   cancel-in-progress: false
@@ -31,6 +34,8 @@ jobs:
         with:
           node-version: 22
       - name: Tag spots from PAD-US (USGS, public domain)
+        env:
+          PADUS_SERVICE_URL: ${{ github.event.inputs.service_url }}
         run: node ingest/ingest.mjs padus "$REGION"
       - name: Validate
         run: node ingest/ingest.mjs validate "$REGION"
