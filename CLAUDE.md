@@ -51,31 +51,20 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## (Noah, 2026-07-19 — corrected from an earlier wrong "no LICENSE" reading).
 ## Keep the header scope current when third-party material changes.
 
-## How we treat the services we depend on. READ THE PUBLISHED POLICY BEFORE
-## CHANGING ANY PACING — it is the authority, not our inference from whatever
-## error codes we happened to get back. Noah, 2026-07-26, and he was right:
-## "we have not been following industry standard and have instead, as an
-## amateur, bumbled through good faith actors' work with disregard."
-## WHAT WE HAD BEEN DOING vs WIKIMEDIA'S PUBLISHED API:Etiquette:
-##   concurrency 4 (then 2)   vs  their stated MAXIMUM OF 1
-##   120 ms between requests  vs  their stated MINIMUM OF 1 SECOND
-##   no maxlag                vs  requested for non-interactive jobs
-##   UA without contact info  vs  must carry a full URL or email
-##   Retry-After ignored      vs  must be respected on 429
-## We were outside their terms, which is WHY they throttled us; the throttle was
-## the service asking us to stop, and the instinct to "retry harder" was wrong.
-## Now at the published numbers (commons-photos.mjs WIKIMEDIA_CONCURRENCY=1,
-## WIKIMEDIA_MIN_GAP_MS=1000, maxlag=5), pinned by tests.
-## The policies, all cited in ingest/adapters/http-etiquette.mjs:
-##   Wikimedia  mediawiki.org/wiki/API:Etiquette + the WMF User-Agent Policy
-##   OSM/Overpass  operations.osmfoundation.org/policies/api/ (~10k req/day,
-##     <1 GB/day — we are far under; heavy users get load-shed first)
-## STANDING RULES: identify ourselves with contact info; a 429 is an instruction,
-## never route around it; honour Retry-After; never ask twice for what we already
-## have (probed-record + 30-day skip); no bulk sweep where a targeted query fits.
-## MEASURED: the GENTLER Commons run returned a BETTER answer than the aggressive
-## one — 51 spots, Bodie 313 photos, vs 32 and Bodie missing. Backing off cost
-## nothing.
+## Service etiquette — the RULE lives in the hub Doctrine §14, not here. Read it
+## before touching any pacing. What is repo-specific: `scripts/check-etiquette.mjs`
+## is the gate (runs in CI beside check-contrast); each adapter declares
+## `meta.policy` + `meta.pacing`; the shared helpers are in
+## `ingest/adapters/http-etiquette.mjs`. MEASURED HERE, Wikimedia's published
+## API:Etiquette vs what this repo had been doing: concurrency 4 (then 2) vs
+## their stated MAXIMUM OF 1; 120 ms between requests vs their stated MINIMUM OF
+## 1 SECOND; no maxlag; a UA with no contact info; Retry-After ignored. That is
+## why they throttled us. Now at their numbers (commons-photos.mjs
+## WIKIMEDIA_CONCURRENCY=1, WIKIMEDIA_MIN_GAP_MS=1000, maxlag=5), pinned by tests.
+## Per-spot sweeps record what they probed and skip it for 30 days
+## (COMMONS_FORCE=1 overrides) — a CA re-run now makes ZERO requests, not 205.
+## MEASURED: the GENTLER run got the BETTER answer — 51 spots and Bodie at 313
+## photos, vs 32 and Bodie missing.
 
 ## Licensing is load-bearing. Every ingest adapter declares its source's
 ## license in its header and honors it structurally (HMdb: links only;
