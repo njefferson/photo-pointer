@@ -84,3 +84,28 @@ test('a failing spot probe is REPORTED, not silently treated as "no photos"', as
   // reported as having no photos near it.
   assert.deepEqual(out.failed, ['Bodie']);
 });
+
+// Wikimedia throttles runner IPs in bursts, so a failed probe is usually a
+// timing artefact rather than "this place has no photos". A real run lost 84 of
+// 205 in one contiguous block.
+test('a throttled spot is retried and recovered rather than left as a hole', async () => {
+  let calls = 0;
+  const fetchFn = async (url) => {
+    // Fail every attempt of the first probe (all 4 retries inside geosearchTile),
+    // then let the retry pass through.
+    if (url.includes('gscoord=1%7C2') && ++calls <= 4) throw new Error('429 burst');
+    return { ok: true, status: 200, json: async () => ({ query: { geosearch: [{ pageid: calls, lat: 1, lon: 2 }] } }) };
+  };
+  const out = await harvestAroundSpots([{ lat: 1, lng: 2, name: 'Bodie' }], { fetchFn, sleep: async () => {} });
+  assert.deepEqual(out.failed, [], 'the retry pass recovered it');
+  assert.ok(out.images.length >= 1);
+});
+
+test('a spot that fails even the retries is still reported by name', async () => {
+  const fetchFn = async (url) => {
+    if (url.includes('gscoord=1%7C2')) throw new Error('down');
+    return { ok: true, status: 200, json: async () => ({ query: { geosearch: [] } }) };
+  };
+  const out = await harvestAroundSpots([{ lat: 1, lng: 2, name: 'Bodie' }], { fetchFn, sleep: async () => {} });
+  assert.deepEqual(out.failed, ['Bodie']);
+});

@@ -72,35 +72,51 @@ export function tileCenters(bbox, stepLat = 0.12, stepLng = 0.15) {
 // tiles), badly false for a sparse statewide theme region like California Ghost
 // Towns (205 spots vs 4,264 tiles, ~3 hours, past the workflow timeout). There
 // the spots ARE the cheap index: one small geosearch each.
-export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {}, sleep, pool = 4 } = {}) {
+export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {}, sleep, pool = 2, gap = 250 } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
   const images = new Map(); // pageid → {lat,lng}, deduped across overlapping spots
-  const failed = [];        // spots whose probe never answered — see below
+  let failed = [];          // the SPOTS whose probe never answered
+  const probe = async (s) => {
+    // Only the counting radius is needed here, not the 10 km tile radius.
+    const hits = await geosearchTile(s.lat, s.lng, { fetchFn, sleep, radius: RADIUS_M, limit: TILE_LIMIT });
+    for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng });
+  };
+
   let idx = 0, done = 0;
   async function worker() {
     while (idx < spots.length) {
       const s = spots[idx++];
-      try {
-        // Only the counting radius is needed here, not the 10 km tile radius.
-        const hits = await geosearchTile(s.lat, s.lng, { fetchFn, sleep, radius: RADIUS_M, limit: TILE_LIMIT });
-        for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng });
-      } catch {
-        // A failed probe here is NOT harmless: unlike the tile sweep, where
-        // neighbouring tiles overlap and cover each other, one spot = one probe.
-        // Swallowing it silently means that place simply reports "no photos",
-        // which is a WRONG ANSWER dressed up as a real one. Wikimedia throttles
-        // runner IPs hard, so this happens. Record them and let the caller decide.
-        failed.push(s.name ?? `${s.lat},${s.lng}`);
-      }
+      // A failed probe here is NOT harmless: unlike the tile sweep, where
+      // neighbouring tiles overlap and cover each other, one spot = one probe.
+      // Swallowing it silently means that place reports "no photos", which is a
+      // WRONG ANSWER dressed up as a real one.
+      try { await probe(s); } catch { failed.push(s); }
       done++;
       if (done % 25 === 0) log(`  commons: ${done}/${spots.length} spots probed, ${images.size} photos found`);
-      await wait(120);
+      await wait(gap);
     }
   }
   await Promise.all(Array.from({ length: pool }, worker));
-  log(`  commons: probed ${spots.length} spots → ${images.size} unique photos, ${failed.length} probes failed`);
-  if (failed.length) log(`  commons: FAILED probes (sample): ${failed.slice(0, 10).join(' | ')}`);
-  return { images: [...images.values()], failed };
+
+  // Wikimedia throttles datacenter IPs in BURSTS — a real run lost 84 of 205 in
+  // one alphabetical block, not scattered at random. So the failures are a
+  // timing artefact, not "these places have no photos", and re-probing just
+  // those slowly and one at a time recovers them for far less than a re-run.
+  for (let round = 1; round <= 2 && failed.length; round++) {
+    const retry = failed;
+    failed = [];
+    log(`  commons: retry pass ${round} for ${retry.length} throttled spots`);
+    for (const s of retry) {
+      try { await probe(s); } catch { failed.push(s); }
+      await wait(1200);
+    }
+  }
+
+  log(`  commons: probed ${spots.length} spots → ${images.size} unique photos, ${failed.length} still failing after retries`);
+  if (failed.length) {
+    log(`  commons: FAILED probes (sample): ${failed.slice(0, 10).map((s) => s.name ?? `${s.lat},${s.lng}`).join(' | ')}`);
+  }
+  return { images: [...images.values()], failed: failed.map((s) => s.name ?? `${s.lat},${s.lng}`) };
 }
 
 // Harvest every unique geotagged Commons file in the region bbox → [{lat,lng}].
