@@ -901,7 +901,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       // The astro/weather readout is long — collapse it so the card is short and
       // opens at the top (no manual scroll-up). Tap to expand when planning.
       el('details', { class: 'popup-more' }, [
-        el('summary', {}, 'Tonight & light ▾'),
+        el('summary', {}, 'Tides, sun & moon ▾'),
         lightSection(spot),
         tideLine(spot),
         flowLine(spot),
