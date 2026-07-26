@@ -107,6 +107,66 @@ kept because it is more granular than the Doctrine) before doing anything.
   would steal focus from the search box (the 1.6.0 reason refreshViews exists).
   sw CACHE pointer-1.14.2; changelog[0] 1.14.2. 192 tests + contrast + all six
   smokes green.
+- 2026-07-26 "Card opens, pushes down, then closes" — DIAGNOSED (quantified),
+  guard shipped, AWAITING NOAH'S DEVICE to confirm. Three screenshots + his two
+  clarifications cracked it; the first pass at this had the wrong theory.
+  WHAT HE SAID, and each detail matters: "only zoomed out like this, not zoomed
+  in", then "they are NOT one pin when I click. It opens, PUSHES DOWN, and then
+  closes."
+  THE PAIR: Salmon Falls (ghost_town, pin G, `salmon-falls@9qcumr`) and Old
+  Salmon Falls Bridge (ruins, pin R, `old-salmon-falls-bridge@9qcut0`) are
+  353 m apart — visible as the two overlapping R/G pins in his third screenshot.
+  SYNTHESIS SCORES, the crux: bridge 0.2578, Salmon Falls 0.1260. The card he
+  opens is the LOWER-scoring of the two.
+  THE CHAIN: at his zoom (~z13) 353 m is ~20px, INSIDE the 40px declutter cell —
+  but the two only merge when a cell BOUNDARY doesn't happen to fall between
+  them, which is why he sometimes sees two separate pins. He taps G; Leaflet
+  AUTO-PANS the map to fit the card, which is the "pushes down" he described;
+  that pan fires moveend → cull(); the pixel grid has now SHIFTED, G and R land
+  in the SAME cell, R outscores G 2:1 and takes it, G is unmounted — and an
+  unmounted marker takes its open popup with it. Zoomed IN the pair is far
+  enough apart in px to never share a cell, so the card stays: exactly the
+  "only zoomed out" signature. Zoomed OUT FURTHER they are already one cluster
+  pin, and a tap zooms instead of opening (the "2" badge in his first shot).
+  FIX: popupopen sets `forcedId` from the new `marker.__spotId`; popupclose
+  clears it and re-culls so the pin can rejoin its cluster. In cull() forcedId
+  makes catOk unconditional, `continue`s the rec OUT of the cell competition,
+  and forces `keep` true — so the unmount branch is UNREACHABLE for a pin whose
+  card is open. That is a code-level guarantee, not a hope.
+  STILL NOT REPRODUCED HEADLESSLY, and that is the honest caveat: the failure
+  needs the grid boundary to start BETWEEN the two pins and the auto-pan to move
+  it, and no synthetic tap arranged that. Do not mark this closed until Noah
+  confirms on the iPad. WHAT WAS RULED OUT along the way: setClusterState
+  mutates the icon in place (no setIcon, so no popup detach); bindPopup runs
+  BEFORE `marker.off({click: marker._openPopup})`, so Leaflet's own opener is
+  genuinely detached; and 20 cards left completely alone never closed by
+  themselves, so nothing closes a card without a map movement.
+  scripts/smoke-popupstays.mjs guards the invariant (a tapped card survives the
+  declutter pass) and is labelled in-file as not reproducing the report.
+- 2026-07-26 1.14.2 "A readable build stamp" (an ITERATION, a diagnostics FIX)
+  BUILT on staging. Noah: "Put a discrete version identifier for screenshot
+  troubleshooting." One ALREADY EXISTED and was useless — 0.13.x put a `.ver-tag`
+  at `position:fixed; left:6px; bottom:4px` at 10px in `--dim` on `--card`. On
+  his iPad the map LEGEND control sits in that exact corner and the screen edge
+  clipped it, so it photographed as a smudge (visible bottom-left in his
+  2026-07-26 popup screenshot). It also used an UNGATED pair: check-contrast
+  covers dim-on-BG, not dim-on-CARD.
+  FIX: moved into the header's `.bar-actions` row (background `--bg`, so
+  `--dim` is the already-gated pair), 12px monospace, `margin-left:auto`.
+  MEASURED 5.51:1 light / 7.12:1 dark, unoccluded, on-screen, and present in the
+  LIST view too (the map corner was map-only).
+  CONTENT is the two things a screenshot CANNOT otherwise tell me:
+  `v<app> · data <region builtAt>` — the app build (a stale service worker
+  reports the OLD version here, which is exactly the signal wanted) and the
+  region data's build date (a data-only ingest changes the map without moving
+  the app version). Region is NOT repeated — the highlighted pill already says it.
+  GOTCHA that would have shipped a dash: both loadRegionData callers run
+  renderHeader BEFORE the fetch resolves, so the stamp read "data —" until some
+  later interaction re-rendered the header. refresh() now calls a tiny
+  updateVerTag() that patches textContent IN PLACE — a full renderHeader there
+  would steal focus from the search box (the 1.6.0 reason refreshViews exists).
+  sw CACHE pointer-1.14.2; changelog[0] 1.14.2. 192 tests + contrast + all six
+  smokes green.
 - 2026-07-26 "Card opens and immediately collapses" — REPORTED, CAUSE NOT FOUND,
   a guard shipped but NOT a confirmed fix. Noah, iPad screenshot: a Ghost town
   card on the Sacramento region caught MID-FADE (Leaflet's popup fade-out), with
