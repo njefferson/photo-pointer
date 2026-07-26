@@ -61,14 +61,30 @@ function pick(fieldNames, candidates) {
 
 // Polygon layers carrying a PAD-US unit name. Marine layers are skipped — an
 // offshore protected area never contains a land spot and just costs a query.
+// Build code → label from an ArcGIS field's coded-value domain, keyed
+// case-insensitively so a code's casing can't cause a miss.
+export function domainMap(fields, fieldName) {
+  if (!fieldName) return null;
+  const f = (fields ?? []).find((x) => x?.name === fieldName);
+  const coded = f?.domain?.codedValues;
+  if (!Array.isArray(coded) || !coded.length) return null;
+  const m = new Map();
+  for (const cv of coded) {
+    if (cv?.code == null || !cv?.name) continue;
+    m.set(String(cv.code).trim().toUpperCase(), String(cv.name).trim());
+  }
+  return m.size ? m : null;
+}
+
 export function pickLayers(layersDoc) {
   const layers = layersDoc?.layers ?? [];
   return layers
     .filter((l) => (l.geometryType ?? '').toLowerCase().includes('polygon'))
     .filter((l) => !/marine/i.test(l.name || ''))
     .map((l) => {
-      const names = (l.fields ?? []).map((f) => f.name);
-      return {
+      const fields = l.fields ?? [];
+      const names = fields.map((f) => f.name);
+      const layer = {
         id: l.id,
         name: l.name,
         nameField: pick(names, NAME_FIELDS),
@@ -76,6 +92,17 @@ export function pickLayers(layersDoc) {
         designationField: pick(names, DESIGNATION_FIELDS),
         accessField: pick(names, ACCESS_FIELDS),
       };
+      // The SERVICE publishes its own coded-value domains. Read them at runtime
+      // and prefer them over our built-in tables: they are authoritative, they
+      // cover the whole long tail (PAD-US has dozens of designation codes), and
+      // they follow the data forward when USGS publishes a new PAD-US version.
+      // Same lesson as GNIS/NRHP — discover, don't hard-code.
+      layer.domains = {
+        manager: domainMap(fields, layer.managerField),
+        designation: domainMap(fields, layer.designationField),
+        access: domainMap(fields, layer.accessField),
+      };
+      return layer;
     })
     .filter((l) => l.nameField);
 }
@@ -145,11 +172,22 @@ const ACCESS_DECODE = {
   CLOSED: 'closed', 'CLOSED ACCESS': 'closed', UNKNOWN: null,
 };
 
-function decode(table, v, { fallback = true } = {}) {
+// Expand a code through the service's published domain, leaving anything the
+// domain doesn't know untouched for the caller to handle.
+function expandDomain(domain, v) {
+  if (v == null || !domain) return v;
+  const key = String(v).trim().toUpperCase();
+  return domain.has(key) ? domain.get(key) : v;
+}
+
+function decode(table, v, { fallback = true, domain = null } = {}) {
   if (v == null) return null;
   const raw = String(v).trim();
   if (!raw) return null;
   const key = raw.toUpperCase();
+  // The service's own published domain is authoritative — it wins over our
+  // built-in table, which exists only for a service that publishes none.
+  if (domain?.has(key)) return domain.get(key);
   if (Object.prototype.hasOwnProperty.call(table, key)) return table[key];
   // Already-decoded text (a d_* field) passes through unchanged.
   if (raw.length > 5 || /\s/.test(raw)) return raw;
@@ -182,9 +220,17 @@ export function normalizeArea(f, layer) {
   if (!isFinite(south) || !isFinite(west)) return null;
   return {
     name,
-    manager: layer.managerField ? decode(MANAGER_DECODE, clean(a[layer.managerField])) : null,
-    designation: layer.designationField ? decode(DESIGNATION_DECODE, clean(a[layer.designationField])) : null,
-    access: layer.accessField ? decode(ACCESS_DECODE, clean(a[layer.accessField]), { fallback: false }) : null,
+    manager: layer.managerField
+      ? decode(MANAGER_DECODE, clean(a[layer.managerField]), { domain: layer.domains?.manager }) : null,
+    designation: layer.designationField
+      ? decode(DESIGNATION_DECODE, clean(a[layer.designationField]), { domain: layer.domains?.designation }) : null,
+    // Access is a CONTROLLED VOCABULARY (open/restricted/closed), not free text,
+    // so the service's label is expanded first and then normalised — otherwise a
+    // published domain would put "Open Access" where every other source says
+    // "open". An access claim is still never invented from an unknown code.
+    access: layer.accessField
+      ? decode(ACCESS_DECODE, expandDomain(layer.domains?.access, clean(a[layer.accessField])), { fallback: false })
+      : null,
     bbox: { south, west, north, east },
     // geo.pointInRing expects [lat,lng] pairs; ArcGIS gives [x,y] = [lng,lat].
     rings: rings.map((r) => r.map(([x, y]) => [y, x])),

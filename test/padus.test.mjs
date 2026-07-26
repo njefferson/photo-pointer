@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { pickLayers, normalizeArea, ingest, meta } from '../ingest/adapters/padus.mjs';
+import { pickLayers, normalizeArea, domainMap, ingest, meta } from '../ingest/adapters/padus.mjs';
 import { pointInArea } from '../src/model/geo.js';
 
 const REGION = { id: 't', bbox: { south: 38.5, west: -121.5, north: 39.5, east: -120.5 } };
@@ -177,4 +177,62 @@ test('an already-decoded d_* value passes through untouched', () => {
   }, layer);
   assert.equal(a.manager, 'California State Parks');
   assert.equal(a.designation, 'State Recreation Area');
+});
+
+// The long tail is the point: a real Sacramento run left 17 designation codes
+// (POTH, PCON, IRA, LCA, WSR, RNA, SRMA…) and one manager code (NRCS) showing as
+// bare codes. Hard-coding 17 more entries would only postpone the next tail —
+// the service publishes the authoritative list itself, so read that.
+const DOMAIN_LAYERS = { layers: [{
+  id: 0, name: 'PADUS Fee', geometryType: 'esriGeometryPolygon',
+  fields: [
+    { name: 'Unit_Nm' },
+    { name: 'd_Mang_Nam', domain: { type: 'codedValue', codedValues: [
+      { code: 'NRCS', name: 'Natural Resources Conservation Service' },
+      { code: 'USFS', name: 'Forest Service (from the service)' },
+    ] } },
+    { name: 'd_Des_Tp', domain: { type: 'codedValue', codedValues: [
+      { code: 'WSR', name: 'Wild and Scenic River' },
+      { code: 'RNA', name: 'Research Natural Area' },
+    ] } },
+    { name: 'd_Pub_Access', domain: { type: 'codedValue', codedValues: [
+      { code: 'OA', name: 'Open Access' },
+    ] } },
+  ],
+}] };
+
+test('domainMap reads a coded-value domain, keyed case-insensitively', () => {
+  const fields = DOMAIN_LAYERS.layers[0].fields;
+  const m = domainMap(fields, 'd_Des_Tp');
+  assert.equal(m.get('WSR'), 'Wild and Scenic River');
+  assert.equal(m.get('RNA'), 'Research Natural Area');
+  assert.equal(domainMap(fields, 'Unit_Nm'), null);   // no domain published
+  assert.equal(domainMap(fields, null), null);
+});
+
+test("the service's published domain decodes the long tail our table never listed", () => {
+  const layer = pickLayers(DOMAIN_LAYERS)[0];
+  const a = normalizeArea({
+    attributes: { Unit_Nm: 'Rubicon River', d_Mang_Nam: 'NRCS', d_Des_Tp: 'WSR', d_Pub_Access: 'OA' },
+    geometry: { rings: square(-121, 39, 0.02) },
+  }, layer);
+  assert.equal(a.manager, 'Natural Resources Conservation Service');
+  assert.equal(a.designation, 'Wild and Scenic River');
+  assert.equal(a.access, 'open'); // still normalised to our one-word vocabulary
+});
+
+test('the published domain outranks our built-in table', () => {
+  const layer = pickLayers(DOMAIN_LAYERS)[0];
+  const a = normalizeArea({ attributes: { Unit_Nm: 'X', d_Mang_Nam: 'USFS' },
+    geometry: { rings: square(-121, 39, 0.02) } }, layer);
+  assert.equal(a.manager, 'Forest Service (from the service)');
+});
+
+test('with no domain published, the built-in table still decodes', () => {
+  const layer = pickLayers(LAYERS)[0];
+  assert.equal(layer.domains.manager, null);
+  const a = normalizeArea({ attributes: { Unit_Nm: 'X', d_Mang_Nam: 'USFS', d_Des_Tp: 'NF' },
+    geometry: { rings: square(-121, 39, 0.02) } }, layer);
+  assert.equal(a.manager, 'U.S. Forest Service');
+  assert.equal(a.designation, 'National Forest');
 });
