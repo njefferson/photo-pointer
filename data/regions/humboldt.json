@@ -1,6 +1,6 @@
 {
   "region": "humboldt",
-  "builtAt": "2026-07-25",
+  "builtAt": "2026-07-26",
   "spots": [
     {
       "id": "14th-l-st-eucalyptus@9prb82",
@@ -340,7 +340,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/271900",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -3815,7 +3815,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239638",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -6299,6 +6299,34 @@
       }
     },
     {
+      "id": "big-rock-day-use-area-river-access@9r20fv",
+      "name": "Big Rock Day Use Area & River Access",
+      "lat": 40.943844,
+      "lng": -123.629065,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located approximately 1/4 mile on Highway 96 from the Highway 299 intersection in the town of Willow Creek, Big Rock offers day use for those who want to spend the day on the Trinity River. It is a popular spot in the summer months for swimming, sunbathing, picnicking and just relaxing. This site offers river access to fisherman and non-motorized boaters wishing to float the lower section of the…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239677",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239677",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "big-rock-day-use-area-river-access@9r20fw",
       "name": "Big Rock Day Use Area and River Access",
       "lat": 40.9468,
@@ -6364,7 +6392,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/238340",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -7560,7 +7588,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233142",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -12906,7 +12934,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/239647",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -16839,7 +16867,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233218",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -21518,7 +21546,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/262781",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -29039,6 +29067,34 @@
       }
     },
     {
+      "id": "little-rock-picnic-area@9r0pmb",
+      "name": "Little Rock Picnic Area",
+      "lat": 40.65027188,
+      "lng": -123.4937363,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A short distance away, you have the South Fork of the Trinity River and the swimming is great! Close by, at Scotts Flat Campground, you have the trailhead for the South Fork National Recreational Trail. The trail parallels the South Fork of the Trinity River and is 7.2 miles long. The South Fork of the Trinity River is one of the most scenic waterways in Northern California. A visit to this…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "238345",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "238345",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "lohse-farm-historic-no-longer-accessible-public@9prbd2",
       "name": "Lohse farm (historic; no longer accessible to public)",
       "lat": 40.8709,
@@ -30433,7 +30489,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234650",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -32777,7 +32833,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/262790",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -35500,7 +35556,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234608",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -37840,7 +37896,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234598",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -45323,7 +45379,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/238350",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -49061,7 +49117,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/262792",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
