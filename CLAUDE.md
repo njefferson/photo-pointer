@@ -83,6 +83,38 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 "Card opens and immediately collapses" — REPORTED, CAUSE NOT FOUND,
+  a guard shipped but NOT a confirmed fix. Noah, iPad screenshot: a Ghost town
+  card on the Sacramento region caught MID-FADE (Leaflet's popup fade-out), with
+  a "2" cluster badge beside it. NOTE THE TIMESTAMP — the screenshot reads
+  "20:01 Sat Jul 25", i.e. BEFORE the 1.14.1 promote, so it may predate the
+  culling/re-measure changes; FIRST STEP is to have him reload and re-check.
+  LEADING THEORY (plausible, unproven): Leaflet auto-pans to fit a popup →
+  moveend → cull() → the 40px declutter grid shifts → a pin that loses its cell
+  to a higher-scoring neighbour is unmounted and its OPEN CARD goes with it.
+  `rememberViewForPopup()` clears forcedId on a manual tap, so a map-tapped card
+  had NO protection, while a card reached from the LIST did (focusSpot sets
+  forcedId). GUARD SHIPPED: popupopen sets forcedId from `marker.__spotId`;
+  popupclose clears it and re-culls so the pin can rejoin its cluster.
+  COULD NOT REPRODUCE, and this is the important part — do not assume it's fixed.
+  Tried and ALL PASSED (cards stayed open): synthetic mouse clicks; real touch
+  taps in a hasTouch iPad-landscape context; forced pans/drags with a card open;
+  and 20 cards opened and then left completely ALONE for 2s each. The guard makes
+  no measurable difference because nothing failed without it either.
+  STILL-OPEN SUSPECTS for whoever picks this up: (a) iOS Safari firing a second
+  synthesized click after touchend, so activate() runs TWICE — if cull() set
+  clusterCount>1 between the two calls, the second call takes the
+  `clusterCount > 1 → zoomToCluster()` branch, fitBounds moves the map and the
+  card dies; Playwright's single synthetic tap can't emit that duplicate.
+  (b) Leaflet's closePopupOnClick/preclick reaching the map because 1.4.3
+  detached Leaflet's own marker click handlers (`marker.off({click:
+  marker._openPopup, ...})`) and replaced them with `activate`.
+  WHAT TO ASK NOAH: which place exactly (the name is cut off in the shot); every
+  time or intermittent; that one place or others; tapping the PIN only or from
+  the LIST too; and whether it survives a reload onto 1.14.1.
+  NEW scripts/smoke-popupstays.mjs guards the invariant the theory rested on (a
+  tapped card survives the declutter pass) and is LABELLED in-file as not
+  reproducing the report.
 - 2026-07-26 1.14.1 "The map shows what you filtered for" (an ITERATION, a BUG
   FIX) BUILT on staging (awaiting on-device pass). Noah: "Choosing only
   photographed places works on list but not map." REPRODUCED headless, and it was

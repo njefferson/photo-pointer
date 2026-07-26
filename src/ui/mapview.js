@@ -420,6 +420,15 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   }
   map.on('popupopen', (e) => {
     openPopups += 1;
+    // HOLD THE OPEN CARD'S PIN. Leaflet auto-pans to fit a popup, that fires
+    // moveend → cull(), and the 40px declutter grid shifts underneath — if this
+    // pin then loses its cell to a higher-scoring neighbour it gets unmounted
+    // and its open popup goes with it. That read as a card that "opens and
+    // immediately collapses", and only on pins that happened to lose the cell.
+    // forcedId already protects a spot reached from the LIST; a tap on the map
+    // is just as deliberate, so it earns the same protection.
+    const id = e.popup._source?.__spotId;
+    if (id != null) forcedId = id;
     // Open scrolled to the TOP (name/why first), not wherever a tall card landed.
     const c = e.popup.getElement()?.querySelector('.leaflet-popup-content');
     if (c) c.scrollTop = 0;
@@ -430,6 +439,8 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     // Defer so a popup-to-popup switch (close then open) doesn't restore between.
     setTimeout(() => {
       if (openPopups !== 0) return;
+      // The card is gone, so stop holding its pin out of the declutter grid.
+      if (forcedId != null) { forcedId = null; cull(); }
       if (focusCenter) {
         // Deliberate focus: keep the map on the spot the user chose.
         map.panTo(focusCenter, { animate: true });
@@ -955,6 +966,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       rememberViewForPopup();
       marker.openPopup();
     };
+    marker.__spotId = spot.id; // lets popupopen protect this exact pin (see below)
     marker.on('click', activate);
     marker.on('keypress', (e) => { if (e.originalEvent?.keyCode === 13) activate(); });
     const cm = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
