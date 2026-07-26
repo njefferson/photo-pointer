@@ -45,7 +45,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 2.4,
+          "site_m": 1360
+        }
       }
     },
     {
@@ -77,7 +85,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -109,7 +125,15 @@
         "commons": {
           "photos": 98
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 2.1,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -141,7 +165,15 @@
         "commons": {
           "photos": 194
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.7,
+          "e": 0.6,
+          "s": 1.6,
+          "w": 1.6,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -173,7 +205,15 @@
         "commons": {
           "photos": 9
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 1.0,
+          "s": 1.1,
+          "w": 2.3,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -203,7 +243,15 @@
         "commons": {
           "photos": 78
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.62,
+          "n": 2.6,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 2.3,
+          "site_m": 1378
+        }
       }
     },
     {
@@ -236,7 +284,15 @@
         "commons": {
           "photos": 16
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.8,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1384
+        }
       }
     },
     {
@@ -270,7 +326,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.53,
+          "n": 2.4,
+          "e": 2.0,
+          "s": 0.7,
+          "w": 2.2,
+          "site_m": 1353
+        }
       }
     },
     {
@@ -302,7 +366,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.0,
+          "n": 17.9,
+          "e": 3.8,
+          "s": 12.0,
+          "w": 7.8,
+          "site_m": 1431
+        }
       }
     },
     {
@@ -335,7 +407,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.7,
+          "e": 1.1,
+          "s": 1.1,
+          "w": 2.5,
+          "site_m": 1365
+        }
       }
     },
     {
@@ -371,7 +451,15 @@
           "designation": "Wilderness Area",
           "access": "restricted"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.48,
+          "n": 0.3,
+          "e": 3.2,
+          "s": 3.1,
+          "w": 8.7,
+          "site_m": 2726
+        }
       }
     },
     {
@@ -409,7 +497,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1361
+        }
       }
     },
     {
@@ -442,7 +538,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.07,
+          "n": 9.8,
+          "e": 1.1,
+          "s": 5.7,
+          "w": 1.9,
+          "site_m": 1402
+        }
       }
     },
     {
@@ -478,7 +582,15 @@
         "commons": {
           "photos": 6
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.57,
+          "n": 0.8,
+          "e": 2.7,
+          "s": 2.1,
+          "w": 4.3,
+          "site_m": 1377
+        }
       }
     },
     {
@@ -511,7 +623,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.37,
+          "n": 1.6,
+          "e": 8.1,
+          "s": 3.0,
+          "w": 1.1,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -544,7 +664,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.67,
+          "n": 2.6,
+          "e": 2.6,
+          "s": 0.8,
+          "w": 1.5,
+          "site_m": 1348
+        }
       }
     },
     {
@@ -575,7 +703,15 @@
         "operator": "Washoe County",
         "natural": "heath",
         "leisure": "nature_reserve",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.48,
+          "n": -0.2,
+          "e": 0.7,
+          "s": 3.1,
+          "w": 9.4,
+          "site_m": 1622
+        }
       }
     },
     {
@@ -611,7 +747,15 @@
         "commons": {
           "photos": 10
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.57,
+          "n": -0.0,
+          "e": 1.6,
+          "s": 2.8,
+          "w": 6.8,
+          "site_m": 1591
+        }
       }
     },
     {
@@ -643,7 +787,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 2.5,
+          "site_m": 1363
+        }
       }
     },
     {
@@ -676,7 +828,15 @@
         "commons": {
           "photos": 191
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.7,
+          "e": 0.8,
+          "s": 1.3,
+          "w": 1.7,
+          "site_m": 1375
+        }
       }
     },
     {
@@ -713,7 +873,15 @@
         "commons": {
           "photos": 32
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.1,
+          "n": 0.6,
+          "e": 1.3,
+          "s": 5.6,
+          "w": 12.4,
+          "site_m": 1414
+        }
       }
     },
     {
@@ -745,7 +913,15 @@
         "commons": {
           "photos": 36
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.9,
+          "e": 0.9,
+          "s": 1.1,
+          "w": 2.1,
+          "site_m": 1367
+        }
       }
     },
     {
@@ -778,7 +954,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.35,
+          "n": 0.4,
+          "e": 7.5,
+          "s": 3.1,
+          "w": 4.3,
+          "site_m": 1421
+        }
       }
     },
     {
@@ -813,7 +997,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.09,
+          "n": 8.2,
+          "e": 0.9,
+          "s": 3.4,
+          "w": 8.8,
+          "site_m": 1511
+        }
       }
     },
     {
@@ -843,7 +1035,15 @@
         "commons": {
           "photos": 59
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 2.0,
+          "e": 2.4,
+          "s": 0.7,
+          "w": 1.7,
+          "site_m": 1348
+        }
       }
     },
     {
@@ -875,7 +1075,15 @@
         "commons": {
           "photos": 64
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.9,
+          "e": 2.7,
+          "s": 0.6,
+          "w": 1.4,
+          "site_m": 1346
+        }
       }
     },
     {
@@ -905,7 +1113,15 @@
         "commons": {
           "photos": 163
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 0.6,
+          "s": 2.0,
+          "w": 1.6,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -937,7 +1153,15 @@
         "commons": {
           "photos": 32
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.1,
+          "e": 0.9,
+          "s": 1.3,
+          "w": 1.6,
+          "site_m": 1390
+        }
       }
     },
     {
@@ -965,7 +1189,15 @@
         "name": "Barolo Park",
         "operator": "D'Andrea Ranch PhIII HOA",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.47,
+          "n": 1.5,
+          "e": 4.2,
+          "s": 1.7,
+          "w": 1.6,
+          "site_m": 1438
+        }
       }
     },
     {
@@ -1001,7 +1233,15 @@
         "commons": {
           "photos": 34
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.09,
+          "n": 0.8,
+          "e": 1.4,
+          "s": 3.3,
+          "w": 13.5,
+          "site_m": 1393
+        }
       }
     },
     {
@@ -1042,7 +1282,15 @@
         "commons": {
           "photos": 18
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.43,
+          "n": 5.3,
+          "e": 0.5,
+          "s": 0.9,
+          "w": 5.7,
+          "site_m": 1446
+        }
       }
     },
     {
@@ -1074,7 +1322,15 @@
         "commons": {
           "photos": 134
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.1,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -1106,7 +1362,15 @@
         "commons": {
           "photos": 13
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 1.1,
+          "s": 1.2,
+          "w": 2.2,
+          "site_m": 1365
+        }
       }
     },
     {
@@ -1144,7 +1408,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1361
+        }
       }
     },
     {
@@ -1176,7 +1448,15 @@
         "commons": {
           "photos": 192
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.0,
+          "e": 0.8,
+          "s": 1.3,
+          "w": 1.8,
+          "site_m": 1376
+        }
       }
     },
     {
@@ -1206,7 +1486,15 @@
         "commons": {
           "photos": 5
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.43,
+          "n": 2.8,
+          "e": 1.1,
+          "s": 4.6,
+          "w": 3.0,
+          "site_m": 1406
+        }
       }
     },
     {
@@ -1236,7 +1524,15 @@
         "commons": {
           "photos": 190
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 0.6,
+          "s": 1.8,
+          "w": 1.6,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -1268,7 +1564,15 @@
         "commons": {
           "photos": 247
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.1,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1374
+        }
       }
     },
     {
@@ -1301,7 +1605,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.56,
+          "n": 1.3,
+          "e": 5.0,
+          "s": 3.1,
+          "w": 1.5,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -1333,7 +1645,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.0,
+          "s": 1.1,
+          "w": 2.3,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -1366,7 +1686,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.58,
+          "n": 1.6,
+          "e": 4.1,
+          "s": 0.9,
+          "w": 2.6,
+          "site_m": 1358
+        }
       }
     },
     {
@@ -1398,7 +1726,15 @@
         "commons": {
           "photos": 196
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 1.0,
+          "s": 1.3,
+          "w": 1.6,
+          "site_m": 1379
+        }
       }
     },
     {
@@ -1427,7 +1763,15 @@
         "access": "private",
         "operator": "D'Andrea Ranch PhIII",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.33,
+          "n": 2.2,
+          "e": 9.7,
+          "s": 2.7,
+          "w": 1.4,
+          "site_m": 1420
+        }
       }
     },
     {
@@ -1463,7 +1807,15 @@
         "commons": {
           "photos": 82
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.3,
+          "e": 1.5,
+          "s": 1.0,
+          "w": 2.1,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -1492,7 +1844,15 @@
       ],
       "tags": {
         "nrhp": "94001471",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 0.5,
+          "e": 4.6,
+          "s": 2.3,
+          "w": 5.4,
+          "site_m": 1383
+        }
       }
     },
     {
@@ -1525,7 +1885,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.66,
+          "n": 2.4,
+          "e": 3.1,
+          "s": 0.6,
+          "w": 1.5,
+          "site_m": 1348
+        }
       }
     },
     {
@@ -1557,7 +1925,15 @@
         "commons": {
           "photos": 6
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.3,
+          "e": 1.1,
+          "s": 1.2,
+          "w": 2.4,
+          "site_m": 1367
+        }
       }
     },
     {
@@ -1589,7 +1965,15 @@
         "commons": {
           "photos": 105
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.8,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 2.0,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -1627,7 +2011,15 @@
         "commons": {
           "photos": 13
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.6,
+          "n": 1.8,
+          "e": 0.4,
+          "s": 1.6,
+          "w": 2.5,
+          "site_m": 1379
+        }
       }
     },
     {
@@ -1660,7 +2052,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.44,
+          "n": 4.5,
+          "e": 2.0,
+          "s": 4.7,
+          "w": 4.1,
+          "site_m": 1487
+        }
       }
     },
     {
@@ -1693,7 +2093,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 8.3,
+          "e": 5.2,
+          "s": 1.9,
+          "w": 10.4,
+          "site_m": 1412
+        }
       }
     },
     {
@@ -1725,7 +2133,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.4,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -1758,7 +2174,15 @@
         "commons": {
           "photos": 259
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 2.1,
+          "e": 0.7,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -1785,7 +2209,15 @@
       "tags": {
         "name": "Caughlin Crest Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.57,
+          "n": 0.4,
+          "e": 0.7,
+          "s": 3.7,
+          "w": 3.2,
+          "site_m": 1546
+        }
       }
     },
     {
@@ -1821,7 +2253,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 0.7,
+          "e": 4.2,
+          "s": 2.0,
+          "w": 4.8,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -1856,6 +2296,14 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "horizon": {
+          "open": 0.65,
+          "n": -1.6,
+          "e": -2.0,
+          "s": -0.5,
+          "w": 7.7,
+          "site_m": 2864
         }
       }
     },
@@ -1888,7 +2336,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -1922,7 +2378,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.44,
+          "n": 4.0,
+          "e": 0.8,
+          "s": 4.1,
+          "w": 3.1,
+          "site_m": 1391
+        }
       }
     },
     {
@@ -1956,7 +2420,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.4,
+          "e": 3.2,
+          "s": 0.8,
+          "w": 1.6,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -1994,6 +2466,14 @@
         },
         "commons": {
           "photos": 19
+        },
+        "horizon": {
+          "open": 0.98,
+          "n": -2.0,
+          "e": -2.6,
+          "s": -1.3,
+          "w": -1.4,
+          "site_m": 3228
         }
       }
     },
@@ -2025,7 +2505,15 @@
         "commons": {
           "photos": 252
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.1,
+          "e": 0.6,
+          "s": 1.1,
+          "w": 1.7,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -2061,7 +2549,15 @@
         "commons": {
           "photos": 6
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.51,
+          "n": 0.6,
+          "e": 4.0,
+          "s": 2.1,
+          "w": 4.4,
+          "site_m": 1358
+        }
       }
     },
     {
@@ -2088,7 +2584,15 @@
       "tags": {
         "name": "Cottonwood Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 0.8,
+          "e": 2.7,
+          "s": 1.2,
+          "w": 1.9,
+          "site_m": 1339
+        }
       }
     },
     {
@@ -2121,7 +2625,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 1.5,
+          "e": 3.0,
+          "s": 0.5,
+          "w": 3.4,
+          "site_m": 1357
+        }
       }
     },
     {
@@ -2153,7 +2665,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -2182,7 +2702,15 @@
       "tags": {
         "name": "Cross Peak",
         "natural": "peak",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.4,
+          "n": 0.4,
+          "e": 0.2,
+          "s": 6.2,
+          "w": 7.6,
+          "site_m": 1665
+        }
       }
     },
     {
@@ -2218,7 +2746,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.58,
+          "n": 0.6,
+          "e": 1.6,
+          "s": 2.6,
+          "w": 4.9,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -2246,7 +2782,15 @@
         "name": "Culpepper Park",
         "operator": "D'Andrea Ranch PhIII HOA",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.22,
+          "n": 2.0,
+          "e": 7.2,
+          "s": 2.2,
+          "w": 6.3,
+          "site_m": 1405
+        }
       }
     },
     {
@@ -2279,7 +2823,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.45,
+          "n": 0.6,
+          "e": 5.2,
+          "s": 2.0,
+          "w": 3.7,
+          "site_m": 1354
+        }
       }
     },
     {
@@ -2312,7 +2864,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.41,
+          "n": 0.2,
+          "e": 5.6,
+          "s": 2.4,
+          "w": 4.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -2349,7 +2909,15 @@
         "commons": {
           "photos": 28
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.9,
+          "e": 1.9,
+          "s": 0.6,
+          "w": 1.7,
+          "site_m": 1351
+        }
       }
     },
     {
@@ -2382,7 +2950,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.61,
+          "n": 0.9,
+          "e": 4.6,
+          "s": 1.9,
+          "w": 1.6,
+          "site_m": 1374
+        }
       }
     },
     {
@@ -2415,7 +2991,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.62,
+          "n": 2.8,
+          "e": 2.9,
+          "s": 0.6,
+          "w": 4.3,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -2451,7 +3035,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.62,
+          "n": 3.5,
+          "e": 1.5,
+          "s": 0.9,
+          "w": 2.0,
+          "site_m": 1379
+        }
       }
     },
     {
@@ -2484,7 +3076,15 @@
         "commons": {
           "photos": 48
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.6,
+          "e": 1.3,
+          "s": 1.0,
+          "w": 1.5,
+          "site_m": 1387
+        }
       }
     },
     {
@@ -2514,7 +3114,15 @@
         "commons": {
           "photos": 10
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 0.6,
+          "e": 3.3,
+          "s": 10.9,
+          "w": 15.5,
+          "site_m": 1343
+        }
       }
     },
     {
@@ -2541,7 +3149,15 @@
       "tags": {
         "name": "Dorostkar Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.03,
+          "n": 8.9,
+          "e": 1.0,
+          "s": 9.6,
+          "w": 2.2,
+          "site_m": 1404
+        }
       }
     },
     {
@@ -2574,7 +3190,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.67,
+          "n": 1.4,
+          "e": 1.2,
+          "s": 2.2,
+          "w": 1.8,
+          "site_m": 1527
+        }
       }
     },
     {
@@ -2607,7 +3231,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.43,
+          "n": 0.5,
+          "e": 4.4,
+          "s": 1.9,
+          "w": 3.8,
+          "site_m": 1351
+        }
       }
     },
     {
@@ -2640,7 +3272,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.61,
+          "n": 2.9,
+          "e": 2.8,
+          "s": 0.7,
+          "w": 6.4,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -2670,7 +3310,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.09,
+          "n": 4.3,
+          "e": 4.3,
+          "s": 1.8,
+          "w": 8.8,
+          "site_m": 1500
+        }
       }
     },
     {
@@ -2697,7 +3345,15 @@
       "tags": {
         "name": "Eastridge Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.55,
+          "n": 0.5,
+          "e": 0.6,
+          "s": 4.2,
+          "w": 3.5,
+          "site_m": 1544
+        }
       }
     },
     {
@@ -2733,7 +3389,15 @@
         "commons": {
           "photos": 37
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.8,
+          "e": 1.1,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -2762,7 +3426,15 @@
       "tags": {
         "name": "El Adobe Cafe",
         "tourism": "artwork",
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.4,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 2.2,
+          "site_m": 1363
+        }
       }
     },
     {
@@ -2794,7 +3466,15 @@
         "commons": {
           "photos": 226
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.9,
+          "e": 0.6,
+          "s": 1.2,
+          "w": 1.6,
+          "site_m": 1374
+        }
       }
     },
     {
@@ -2827,7 +3507,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.56,
+          "n": 0.4,
+          "e": 2.3,
+          "s": 2.6,
+          "w": 6.0,
+          "site_m": 1405
+        }
       }
     },
     {
@@ -2863,7 +3551,15 @@
         "commons": {
           "photos": 19
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.47,
+          "n": 5.9,
+          "e": 0.6,
+          "s": 1.0,
+          "w": 4.9,
+          "site_m": 1441
+        }
       }
     },
     {
@@ -2893,7 +3589,15 @@
         "commons": {
           "photos": 73
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.7,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1377
+        }
       }
     },
     {
@@ -2929,7 +3633,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.5,
+          "n": 2.4,
+          "e": 4.0,
+          "s": 1.7,
+          "w": 4.6,
+          "site_m": 1357
+        }
       }
     },
     {
@@ -2961,7 +3673,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.3,
+          "s": 1.1,
+          "w": 2.4,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -2993,7 +3713,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.4,
+          "site_m": 1363
+        }
       }
     },
     {
@@ -3025,7 +3753,15 @@
         "commons": {
           "photos": 10
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 3.0,
+          "e": 1.3,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1383
+        }
       }
     },
     {
@@ -3057,7 +3793,15 @@
         "commons": {
           "photos": 42
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 1.1,
+          "e": 4.9,
+          "s": 2.2,
+          "w": 1.5,
+          "site_m": 1381
+        }
       }
     },
     {
@@ -3094,7 +3838,15 @@
         "commons": {
           "photos": 86
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 1.4,
+          "e": 1.4,
+          "s": 1.1,
+          "w": 1.3,
+          "site_m": 1357
+        }
       }
     },
     {
@@ -3121,7 +3873,15 @@
       "tags": {
         "name": "Fireburst Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.6,
+          "n": 0.9,
+          "e": 3.1,
+          "s": 3.1,
+          "w": 1.9,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -3153,7 +3913,15 @@
         "commons": {
           "photos": 169
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.6,
+          "e": 0.7,
+          "s": 1.9,
+          "w": 1.6,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -3185,7 +3953,15 @@
         "commons": {
           "photos": 246
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 2.0,
+          "e": 0.5,
+          "s": 1.2,
+          "w": 1.7,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -3221,7 +3997,15 @@
         "commons": {
           "photos": 78
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.2,
+          "e": 1.9,
+          "s": 1.0,
+          "w": 1.5,
+          "site_m": 1354
+        }
       }
     },
     {
@@ -3251,7 +4035,15 @@
         "commons": {
           "photos": 86
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 1.6,
+          "e": 1.9,
+          "s": 0.6,
+          "w": 1.3,
+          "site_m": 1353
+        }
       }
     },
     {
@@ -3281,7 +4073,15 @@
         "commons": {
           "photos": 18
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.6,
+          "e": 1.3,
+          "s": 0.7,
+          "w": 1.3,
+          "site_m": 1353
+        }
       }
     },
     {
@@ -3313,7 +4113,15 @@
         "commons": {
           "photos": 59
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1368
+        }
       }
     },
     {
@@ -3345,7 +4153,15 @@
         "commons": {
           "photos": 194
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.7,
+          "e": 1.1,
+          "s": 1.3,
+          "w": 1.6,
+          "site_m": 1378
+        }
       }
     },
     {
@@ -3378,7 +4194,15 @@
         "commons": {
           "photos": 20
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.7,
+          "e": 1.3,
+          "s": 1.0,
+          "w": 1.5,
+          "site_m": 1390
+        }
       }
     },
     {
@@ -3407,7 +4231,15 @@
       ],
       "tags": {
         "nrhp": "99000267",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 0.9,
+          "e": 1.5,
+          "s": 1.7,
+          "w": 2.5,
+          "site_m": 1379
+        }
       }
     },
     {
@@ -3443,7 +4275,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.42,
+          "n": 0.2,
+          "e": 5.8,
+          "s": 2.3,
+          "w": 4.2,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -3479,7 +4319,15 @@
         "name": "Frontera Community Park",
         "leisure": "park",
         "opening_hours": "sunrise-sunset",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.53,
+          "n": 2.6,
+          "e": 4.3,
+          "s": 4.3,
+          "w": 2.4,
+          "site_m": 1435
+        }
       }
     },
     {
@@ -3509,7 +4357,15 @@
         "commons": {
           "photos": 191
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.8,
+          "e": 0.5,
+          "s": 1.2,
+          "w": 1.6,
+          "site_m": 1370
+        }
       }
     },
     {
@@ -3541,7 +4397,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.0,
+          "n": 3.2,
+          "e": 0.4,
+          "s": 14.5,
+          "w": 13.4,
+          "site_m": 1900
+        }
       }
     },
     {
@@ -3579,7 +4443,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.39,
+          "n": 1.1,
+          "e": 2.9,
+          "s": 0.9,
+          "w": 8.3,
+          "site_m": 1667
+        }
       }
     },
     {
@@ -3614,7 +4486,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.0,
+          "n": -0.1,
+          "e": 5.9,
+          "s": 23.7,
+          "w": 5.9,
+          "site_m": 1633
+        }
       }
     },
     {
@@ -3644,7 +4524,15 @@
         "name": "Galena Terrace",
         "operator": "Washoe County",
         "leisure": "nature_reserve",
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.14,
+          "n": 0.1,
+          "e": 2.2,
+          "s": 11.4,
+          "w": 6.0,
+          "site_m": 1555
+        }
       }
     },
     {
@@ -3678,7 +4566,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.19,
+          "n": 1.1,
+          "e": 11.5,
+          "s": 5.7,
+          "w": 0.9,
+          "site_m": 1382
+        }
       }
     },
     {
@@ -3707,7 +4603,15 @@
         "access": "private",
         "operator": "D'Andrea Ranch PHIII HOA",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 1.9,
+          "e": 9.4,
+          "s": 11.3,
+          "w": 1.3,
+          "site_m": 1412
+        }
       }
     },
     {
@@ -3739,7 +4643,15 @@
         "commons": {
           "photos": 127
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.1,
+          "e": 0.6,
+          "s": 1.4,
+          "w": 1.5,
+          "site_m": 1386
+        }
       }
     },
     {
@@ -3775,7 +4687,15 @@
         "commons": {
           "photos": 10
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 1.1,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 1.3,
+          "site_m": 1348
+        }
       }
     },
     {
@@ -3808,7 +4728,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.6,
+          "n": 3.0,
+          "e": 3.6,
+          "s": 0.8,
+          "w": 4.9,
+          "site_m": 1377
+        }
       }
     },
     {
@@ -3839,7 +4767,15 @@
         "commons": {
           "photos": 45
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.4,
+          "n": -0.1,
+          "e": 10.7,
+          "s": 2.2,
+          "w": 2.5,
+          "site_m": 1691
+        }
       }
     },
     {
@@ -3871,7 +4807,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.52,
+          "n": 2.8,
+          "e": 3.3,
+          "s": 0.4,
+          "w": 4.4,
+          "site_m": 1425
+        }
       }
     },
     {
@@ -3904,7 +4848,15 @@
         "commons": {
           "photos": 180
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.58,
+          "n": 4.8,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 2.8,
+          "site_m": 1392
+        }
       }
     },
     {
@@ -3936,7 +4888,15 @@
         "commons": {
           "photos": 103
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.5,
+          "e": 0.8,
+          "s": 1.2,
+          "w": 1.7,
+          "site_m": 1379
+        }
       }
     },
     {
@@ -3969,7 +4929,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.67,
+          "n": 0.9,
+          "e": 1.7,
+          "s": 1.0,
+          "w": 1.3,
+          "site_m": 1341
+        }
       }
     },
     {
@@ -3998,7 +4966,15 @@
       ],
       "tags": {
         "nrhp": "78001729",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 0.9,
+          "e": 1.7,
+          "s": 2.1,
+          "w": 2.7,
+          "site_m": 1361
+        }
       }
     },
     {
@@ -4034,7 +5010,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.57,
+          "n": 0.4,
+          "e": 0.7,
+          "s": 2.6,
+          "w": 3.7,
+          "site_m": 1489
+        }
       }
     },
     {
@@ -4067,7 +5051,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.22,
+          "n": 1.1,
+          "e": 5.5,
+          "s": 3.8,
+          "w": 6.6,
+          "site_m": 1383
+        }
       }
     },
     {
@@ -4100,7 +5092,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.54,
+          "n": 3.5,
+          "e": 3.0,
+          "s": 1.6,
+          "w": 2.7,
+          "site_m": 1555
+        }
       }
     },
     {
@@ -4132,7 +5132,15 @@
         "commons": {
           "photos": 125
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.2,
+          "e": 0.7,
+          "s": 1.3,
+          "w": 1.6,
+          "site_m": 1383
+        }
       }
     },
     {
@@ -4168,7 +5176,15 @@
           "designation": "National Public Lands",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.82,
+          "n": 0.6,
+          "e": -0.1,
+          "s": 4.0,
+          "w": 0.9,
+          "site_m": 1802
+        }
       }
     },
     {
@@ -4204,7 +5220,15 @@
           "designation": "National Public Lands",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.63,
+          "n": 0.4,
+          "e": 0.2,
+          "s": 8.6,
+          "w": 2.5,
+          "site_m": 1733
+        }
       }
     },
     {
@@ -4236,7 +5260,15 @@
         "commons": {
           "photos": 147
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.4,
+          "e": 0.7,
+          "s": 2.2,
+          "w": 1.5,
+          "site_m": 1376
+        }
       }
     },
     {
@@ -4279,7 +5311,15 @@
         "commons": {
           "photos": 87
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.41,
+          "n": 7.7,
+          "e": 2.1,
+          "s": 0.9,
+          "w": 3.0,
+          "site_m": 1431
+        }
       }
     },
     {
@@ -4315,7 +5355,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.51,
+          "n": 5.8,
+          "e": 1.8,
+          "s": 0.9,
+          "w": 2.4,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -4347,7 +5395,15 @@
         "commons": {
           "photos": 31
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.1,
+          "e": 0.9,
+          "s": 1.3,
+          "w": 1.6,
+          "site_m": 1390
+        }
       }
     },
     {
@@ -4379,7 +5435,15 @@
         "commons": {
           "photos": 12
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 1.1,
+          "s": 1.2,
+          "w": 2.2,
+          "site_m": 1365
+        }
       }
     },
     {
@@ -4411,7 +5475,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -4447,7 +5519,15 @@
         "commons": {
           "photos": 85
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.2,
+          "e": 1.3,
+          "s": 1.3,
+          "w": 2.2,
+          "site_m": 1360
+        }
       }
     },
     {
@@ -4479,7 +5559,15 @@
         "commons": {
           "photos": 137
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.3,
+          "e": 0.7,
+          "s": 1.3,
+          "w": 1.5,
+          "site_m": 1382
+        }
       }
     },
     {
@@ -4518,7 +5606,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 1.0,
+          "e": 13.9,
+          "s": 7.9,
+          "w": 1.3,
+          "site_m": 1448
+        }
       }
     },
     {
@@ -4554,7 +5650,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.3,
+          "n": 4.4,
+          "e": 0.6,
+          "s": 7.0,
+          "w": 3.5,
+          "site_m": 1446
+        }
       }
     },
     {
@@ -4590,7 +5694,15 @@
         "commons": {
           "photos": 8
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.23,
+          "n": 3.0,
+          "e": 5.1,
+          "s": 7.8,
+          "w": 2.8,
+          "site_m": 1451
+        }
       }
     },
     {
@@ -4623,7 +5735,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.52,
+          "n": 6.2,
+          "e": 0.5,
+          "s": 2.7,
+          "w": 1.9,
+          "site_m": 1533
+        }
       }
     },
     {
@@ -4655,7 +5775,15 @@
         "commons": {
           "photos": 63
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.8,
+          "e": 2.6,
+          "s": 0.6,
+          "w": 1.4,
+          "site_m": 1346
+        }
       }
     },
     {
@@ -4690,7 +5818,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.6,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 2.5,
+          "site_m": 1359
+        }
       }
     },
     {
@@ -4725,7 +5861,15 @@
           "designation": "National Forest",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.54,
+          "n": 0.4,
+          "e": -0.3,
+          "s": 4.2,
+          "w": 7.4,
+          "site_m": 1642
+        }
       }
     },
     {
@@ -4758,7 +5902,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 0.5,
+          "e": 4.3,
+          "s": 1.6,
+          "w": 4.2,
+          "site_m": 1355
+        }
       }
     },
     {
@@ -4791,7 +5943,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.6,
+          "n": 0.5,
+          "e": 0.7,
+          "s": 3.6,
+          "w": 3.2,
+          "site_m": 1475
+        }
       }
     },
     {
@@ -4822,7 +5982,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 0.5,
+          "e": 0.7,
+          "s": 4.5,
+          "w": 3.4,
+          "site_m": 1478
+        }
       }
     },
     {
@@ -4854,7 +6022,15 @@
         "commons": {
           "photos": 8
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.51,
+          "n": 1.0,
+          "e": 3.8,
+          "s": 4.0,
+          "w": 3.1,
+          "site_m": 1420
+        }
       }
     },
     {
@@ -4887,7 +6063,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.67,
+          "n": 0.2,
+          "e": 2.0,
+          "s": 0.8,
+          "w": 3.5,
+          "site_m": 1469
+        }
       }
     },
     {
@@ -4923,7 +6107,15 @@
         "commons": {
           "photos": 5
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.47,
+          "n": 2.8,
+          "e": 2.3,
+          "s": 1.3,
+          "w": 3.8,
+          "site_m": 1403
+        }
       }
     },
     {
@@ -4955,7 +6147,15 @@
         "commons": {
           "photos": 186
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.7,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 1.8,
+          "site_m": 1380
+        }
       }
     },
     {
@@ -4992,7 +6192,15 @@
         "commons": {
           "photos": 30
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.6,
+          "n": 1.7,
+          "e": 0.4,
+          "s": 1.5,
+          "w": 2.2,
+          "site_m": 1377
+        }
       }
     },
     {
@@ -5024,7 +6232,15 @@
         "commons": {
           "photos": 59
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.5,
+          "e": 2.5,
+          "s": 0.6,
+          "w": 1.2,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -5061,7 +6277,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.61,
+          "n": 1.6,
+          "e": 0.5,
+          "s": 1.2,
+          "w": 2.0,
+          "site_m": 1410
+        }
       }
     },
     {
@@ -5089,7 +6313,15 @@
         "name": "Isabella Park",
         "operator": "D'Andrea Ranch PhIII HOA",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.47,
+          "n": 6.8,
+          "e": 3.4,
+          "s": 2.1,
+          "w": 1.7,
+          "site_m": 1420
+        }
       }
     },
     {
@@ -5125,7 +6357,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.5,
+          "n": 2.4,
+          "e": 0.7,
+          "s": 2.7,
+          "w": 2.7,
+          "site_m": 1388
+        }
       }
     },
     {
@@ -5158,7 +6398,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.6,
+          "n": 0.7,
+          "e": 4.5,
+          "s": 2.8,
+          "w": 2.2,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -5185,7 +6433,15 @@
       "tags": {
         "name": "Jack Reviglio Memorial Park",
         "leisure": "park",
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.49,
+          "n": 1.9,
+          "e": 6.1,
+          "s": 2.4,
+          "w": 1.0,
+          "site_m": 1386
+        }
       }
     },
     {
@@ -5218,7 +6474,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 0.8,
+          "e": 2.4,
+          "s": 0.9,
+          "w": 3.0,
+          "site_m": 1351
+        }
       }
     },
     {
@@ -5248,7 +6512,15 @@
         "commons": {
           "photos": 63
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.7,
+          "e": 2.6,
+          "s": 0.6,
+          "w": 1.4,
+          "site_m": 1346
+        }
       }
     },
     {
@@ -5284,7 +6556,15 @@
         "commons": {
           "photos": 81
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.8,
+          "e": 1.7,
+          "s": 1.0,
+          "w": 1.7,
+          "site_m": 1356
+        }
       }
     },
     {
@@ -5318,7 +6598,15 @@
         "commons": {
           "photos": 15
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 3.0,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 1.7,
+          "site_m": 1388
+        }
       }
     },
     {
@@ -5350,7 +6638,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -5383,7 +6679,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 2.5,
+          "e": 1.8,
+          "s": 0.8,
+          "w": 7.1,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -5419,7 +6723,15 @@
           "designation": "National Forest",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 6.8,
+          "e": 20.7,
+          "s": 1.5,
+          "w": 13.3,
+          "site_m": 1552
+        }
       }
     },
     {
@@ -5451,7 +6763,15 @@
         "commons": {
           "photos": 50
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.1,
+          "e": 0.9,
+          "s": 1.4,
+          "w": 1.4,
+          "site_m": 1391
+        }
       }
     },
     {
@@ -5483,7 +6803,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -5515,7 +6843,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 1.1,
+          "s": 1.2,
+          "w": 2.2,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -5544,7 +6880,15 @@
       ],
       "tags": {
         "nrhp": "72000767",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 0.9,
+          "e": 1.4,
+          "s": 2.2,
+          "w": 2.8,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -5577,7 +6921,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.61,
+          "n": 1.9,
+          "e": 0.7,
+          "s": 1.4,
+          "w": 2.1,
+          "site_m": 1426
+        }
       }
     },
     {
@@ -5615,7 +6967,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1361
+        }
       }
     },
     {
@@ -5648,7 +7008,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.4,
+          "n": 7.5,
+          "e": 0.9,
+          "s": 2.9,
+          "w": 4.5,
+          "site_m": 1518
+        }
       }
     },
     {
@@ -5680,7 +7048,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.1,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -5719,7 +7095,15 @@
         "commons": {
           "photos": 8
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.02,
+          "n": 8.8,
+          "e": 4.9,
+          "s": 7.2,
+          "w": 3.7,
+          "site_m": 1429
+        }
       }
     },
     {
@@ -5753,7 +7137,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 2.1,
+          "e": 3.1,
+          "s": 0.9,
+          "w": 5.8,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -5786,7 +7178,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.57,
+          "n": 2.9,
+          "e": 6.5,
+          "s": 2.7,
+          "w": 1.2,
+          "site_m": 1506
+        }
       }
     },
     {
@@ -5820,7 +7220,15 @@
           "designation": "Local Conservation Area",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.59,
+          "n": 3.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 1.8,
+          "site_m": 1502
+        }
       }
     },
     {
@@ -5853,7 +7261,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.57,
+          "n": 2.2,
+          "e": 3.0,
+          "s": 2.5,
+          "w": 1.0,
+          "site_m": 1501
+        }
       }
     },
     {
@@ -5886,7 +7302,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.36,
+          "n": 1.2,
+          "e": 4.3,
+          "s": 1.1,
+          "w": 5.7,
+          "site_m": 1346
+        }
       }
     },
     {
@@ -5915,7 +7339,15 @@
         "access": "private",
         "operator": "D'Andrea Ranch PhIII HOA",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.28,
+          "n": 2.2,
+          "e": 10.3,
+          "s": 3.0,
+          "w": 1.4,
+          "site_m": 1418
+        }
       }
     },
     {
@@ -5947,7 +7379,15 @@
         "commons": {
           "photos": 93
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.7,
+          "e": 0.8,
+          "s": 1.2,
+          "w": 1.9,
+          "site_m": 1375
+        }
       }
     },
     {
@@ -5983,7 +7423,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.3,
+          "e": 1.7,
+          "s": 1.5,
+          "w": 2.0,
+          "site_m": 1352
+        }
       }
     },
     {
@@ -6016,7 +7464,15 @@
         "commons": {
           "photos": 257
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 2.0,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 1.6,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -6053,7 +7509,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 3.6,
+          "s": 1.0,
+          "w": 1.4,
+          "site_m": 1344
+        }
       }
     },
     {
@@ -6089,7 +7553,15 @@
         "commons": {
           "photos": 138
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.57,
+          "n": 1.5,
+          "e": 1.5,
+          "s": 2.3,
+          "w": 1.7,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -6121,7 +7593,15 @@
         "commons": {
           "photos": 108
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 3.0,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 1.7,
+          "site_m": 1388
+        }
       }
     },
     {
@@ -6154,7 +7634,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.61,
+          "n": 2.4,
+          "e": 3.2,
+          "s": 1.7,
+          "w": 1.9,
+          "site_m": 1414
+        }
       }
     },
     {
@@ -6187,7 +7675,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.61,
+          "n": 1.0,
+          "e": 1.4,
+          "s": 1.5,
+          "w": 3.0,
+          "site_m": 1370
+        }
       }
     },
     {
@@ -6219,7 +7715,15 @@
         "commons": {
           "photos": 232
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.0,
+          "e": 0.9,
+          "s": 1.0,
+          "w": 1.8,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -6251,7 +7755,15 @@
         "commons": {
           "photos": 250
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 2.3,
+          "e": 0.9,
+          "s": 1.0,
+          "w": 1.7,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -6283,7 +7795,15 @@
         "commons": {
           "photos": 10
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 0.6,
+          "e": 3.3,
+          "s": 10.9,
+          "w": 15.6,
+          "site_m": 1344
+        }
       }
     },
     {
@@ -6316,7 +7836,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.6,
+          "n": 0.8,
+          "e": 0.9,
+          "s": 3.0,
+          "w": 3.7,
+          "site_m": 1564
+        }
       }
     },
     {
@@ -6346,7 +7874,15 @@
         "commons": {
           "photos": 11
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 4.1,
+          "e": 2.2,
+          "s": 12.5,
+          "w": 4.0,
+          "site_m": 1413
+        }
       }
     },
     {
@@ -6378,7 +7914,15 @@
         "commons": {
           "photos": 14
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.4,
+          "e": 1.3,
+          "s": 1.3,
+          "w": 1.9,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -6426,7 +7970,15 @@
         "commons": {
           "photos": 114
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.58,
+          "n": 1.4,
+          "e": 1.2,
+          "s": 3.1,
+          "w": 1.7,
+          "site_m": 1374
+        }
       }
     },
     {
@@ -6462,7 +8014,15 @@
         "commons": {
           "photos": 14
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.63,
+          "n": 3.1,
+          "e": 0.9,
+          "s": 0.9,
+          "w": 3.4,
+          "site_m": 1428
+        }
       }
     },
     {
@@ -6494,7 +8054,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -6532,7 +8100,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1361
+        }
       }
     },
     {
@@ -6560,7 +8136,15 @@
         "name": "Michael D. Thompson Trailhead",
         "operator": "Washoe County",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 2.6,
+          "e": 5.3,
+          "s": 17.6,
+          "w": 8.7,
+          "site_m": 1522
+        }
       }
     },
     {
@@ -6587,7 +8171,15 @@
       "tags": {
         "name": "Middle Keystone Trailhead",
         "highway": "trailhead",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 8.2,
+          "e": 9.1,
+          "s": 1.9,
+          "w": 6.8,
+          "site_m": 1516
+        }
       }
     },
     {
@@ -6620,7 +8212,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.0,
+          "e": 2.0,
+          "s": 1.7,
+          "w": 1.8,
+          "site_m": 1346
+        }
       }
     },
     {
@@ -6652,7 +8252,15 @@
         "commons": {
           "photos": 131
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.58,
+          "n": 1.4,
+          "e": 1.7,
+          "s": 2.7,
+          "w": 1.7,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -6685,7 +8293,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 0.6,
+          "e": 3.5,
+          "s": 1.4,
+          "w": 1.5,
+          "site_m": 1339
+        }
       }
     },
     {
@@ -6717,7 +8333,15 @@
         "commons": {
           "photos": 58
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1368
+        }
       }
     },
     {
@@ -6753,7 +8377,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.5,
+          "s": 1.7,
+          "w": 2.5,
+          "site_m": 1361
+        }
       }
     },
     {
@@ -6787,7 +8419,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.3,
+          "e": 1.5,
+          "s": 1.7,
+          "w": 2.5,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -6823,7 +8463,15 @@
           "designation": "Local Conservation Area",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 15.1,
+          "e": 11.4,
+          "s": 6.1,
+          "w": 2.5,
+          "site_m": 1469
+        }
       }
     },
     {
@@ -6856,7 +8504,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.28,
+          "n": 6.6,
+          "e": 0.4,
+          "s": 8.7,
+          "w": 4.4,
+          "site_m": 1488
+        }
       }
     },
     {
@@ -6888,7 +8544,15 @@
         "commons": {
           "photos": 48
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.6,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 1.5,
+          "site_m": 1386
+        }
       }
     },
     {
@@ -6920,7 +8584,15 @@
         "commons": {
           "photos": 24
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.3,
+          "e": 1.1,
+          "s": 1.3,
+          "w": 1.7,
+          "site_m": 1382
+        }
       }
     },
     {
@@ -6958,7 +8630,15 @@
           "designation": "Wilderness Area",
           "access": "restricted"
         },
-        "bortle": 3
+        "bortle": 3,
+        "horizon": {
+          "open": 0.0,
+          "n": 0.5,
+          "e": -1.7,
+          "s": 19.0,
+          "w": 13.8,
+          "site_m": 2971
+        }
       }
     },
     {
@@ -6987,7 +8667,15 @@
         "access": "permissive",
         "operator": "Sierra View Estates HOA",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.67,
+          "n": 0.9,
+          "e": 1.2,
+          "s": 2.3,
+          "w": 2.9,
+          "site_m": 1528
+        }
       }
     },
     {
@@ -7022,7 +8710,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.09,
+          "n": 2.3,
+          "e": 0.1,
+          "s": 1.3,
+          "w": 14.0,
+          "site_m": 1557
+        }
       }
     },
     {
@@ -7055,7 +8751,15 @@
         "commons": {
           "photos": 182
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.61,
+          "n": 3.1,
+          "e": 1.3,
+          "s": 1.0,
+          "w": 3.3,
+          "site_m": 1391
+        }
       }
     },
     {
@@ -7087,7 +8791,15 @@
         "commons": {
           "photos": 171
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.4,
+          "e": 1.5,
+          "s": 1.0,
+          "w": 1.7,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -7119,7 +8831,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -7148,7 +8868,15 @@
       "tags": {
         "name": "Nevada Historical Marker #169",
         "historic": "monument",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.67,
+          "n": 0.7,
+          "e": 2.2,
+          "s": 1.0,
+          "w": 1.4,
+          "site_m": 1341
+        }
       }
     },
     {
@@ -7180,7 +8908,15 @@
         "commons": {
           "photos": 138
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.1,
+          "site_m": 1370
+        }
       }
     },
     {
@@ -7212,7 +8948,15 @@
         "commons": {
           "photos": 159
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.3,
+          "e": 1.9,
+          "s": 1.0,
+          "w": 1.8,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -7248,7 +8992,15 @@
         "commons": {
           "photos": 43
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.0,
+          "e": 0.9,
+          "s": 1.4,
+          "w": 1.4,
+          "site_m": 1393
+        }
       }
     },
     {
@@ -7280,7 +9032,15 @@
         "commons": {
           "photos": 60
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.3,
+          "e": 2.3,
+          "s": 0.7,
+          "w": 1.2,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -7313,7 +9073,15 @@
         "commons": {
           "photos": 78
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 1.0,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1368
+        }
       }
     },
     {
@@ -7346,7 +9114,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 1.5,
+          "e": 4.1,
+          "s": 2.9,
+          "w": 2.5,
+          "site_m": 1538
+        }
       }
     },
     {
@@ -7382,7 +9158,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.5,
+          "n": 4.4,
+          "e": 0.3,
+          "s": 5.4,
+          "w": 2.8,
+          "site_m": 1500
+        }
       }
     },
     {
@@ -7416,7 +9200,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.6,
+          "n": 2.7,
+          "e": 0.4,
+          "s": 2.0,
+          "w": 2.2,
+          "site_m": 1460
+        }
       }
     },
     {
@@ -7448,7 +9240,15 @@
         "commons": {
           "photos": 132
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 1.5,
+          "e": 0.6,
+          "s": 1.2,
+          "w": 1.7,
+          "site_m": 1378
+        }
       }
     },
     {
@@ -7480,7 +9280,15 @@
         "commons": {
           "photos": 196
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.6,
+          "e": 1.0,
+          "s": 1.3,
+          "w": 1.6,
+          "site_m": 1378
+        }
       }
     },
     {
@@ -7508,7 +9316,15 @@
         "name": "Oasis Park",
         "access": "private",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.47,
+          "n": 2.8,
+          "e": 2.2,
+          "s": 0.7,
+          "w": 5.8,
+          "site_m": 1375
+        }
       }
     },
     {
@@ -7540,7 +9356,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 0.3,
+          "e": 4.8,
+          "s": 2.2,
+          "w": 5.5,
+          "site_m": 1389
+        }
       }
     },
     {
@@ -7572,7 +9396,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 0.3,
+          "e": 5.2,
+          "s": 2.6,
+          "w": 5.2,
+          "site_m": 1386
+        }
       }
     },
     {
@@ -7604,7 +9436,15 @@
         "commons": {
           "photos": 156
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.0,
+          "s": 1.3,
+          "w": 1.8,
+          "site_m": 1381
+        }
       }
     },
     {
@@ -7644,7 +9484,15 @@
         "commons": {
           "photos": 189
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.7,
+          "e": 1.2,
+          "s": 1.2,
+          "w": 1.7,
+          "site_m": 1377
+        }
       }
     },
     {
@@ -7676,7 +9524,15 @@
         "commons": {
           "photos": 225
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.8,
+          "e": 1.0,
+          "s": 1.1,
+          "w": 1.6,
+          "site_m": 1375
+        }
       }
     },
     {
@@ -7713,7 +9569,15 @@
         "commons": {
           "photos": 66
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.7,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1377
+        }
       }
     },
     {
@@ -7744,7 +9608,15 @@
         "commons": {
           "photos": 5
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 0.9,
+          "e": 1.8,
+          "s": 1.6,
+          "w": 3.7,
+          "site_m": 1363
+        }
       }
     },
     {
@@ -7784,7 +9656,15 @@
         "commons": {
           "photos": 87
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 1.4,
+          "e": 1.3,
+          "s": 1.1,
+          "w": 1.3,
+          "site_m": 1357
+        }
       }
     },
     {
@@ -7832,7 +9712,15 @@
         "commons": {
           "photos": 90
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.5,
+          "e": 1.2,
+          "s": 0.9,
+          "w": 1.4,
+          "site_m": 1356
+        }
       }
     },
     {
@@ -7865,7 +9753,15 @@
         "commons": {
           "photos": 180
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.58,
+          "n": 4.6,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 3.0,
+          "site_m": 1392
+        }
       }
     },
     {
@@ -7895,7 +9791,15 @@
         "commons": {
           "photos": 234
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.0,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 1.8,
+          "site_m": 1365
+        }
       }
     },
     {
@@ -7931,7 +9835,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.6,
+          "e": 1.8,
+          "s": 0.5,
+          "w": 2.0,
+          "site_m": 1356
+        }
       }
     },
     {
@@ -7961,7 +9873,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.41,
+          "n": 2.7,
+          "e": 0.7,
+          "s": 2.8,
+          "w": 7.3,
+          "site_m": 1387
+        }
       }
     },
     {
@@ -7994,7 +9914,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.32,
+          "n": 2.1,
+          "e": 9.6,
+          "s": 3.0,
+          "w": 1.1,
+          "site_m": 1352
+        }
       }
     },
     {
@@ -8027,7 +9955,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.33,
+          "n": 8.5,
+          "e": 3.4,
+          "s": 1.0,
+          "w": 2.0,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -8059,7 +9995,15 @@
         "commons": {
           "photos": 35
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.9,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1367
+        }
       }
     },
     {
@@ -8092,7 +10036,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.44,
+          "n": 5.0,
+          "e": 1.6,
+          "s": 3.5,
+          "w": 5.1,
+          "site_m": 1535
+        }
       }
     },
     {
@@ -8125,7 +10077,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 3.4,
+          "e": 1.4,
+          "s": 0.9,
+          "w": 1.8,
+          "site_m": 1365
+        }
       }
     },
     {
@@ -8157,7 +10117,15 @@
         "commons": {
           "photos": 14
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.1,
+          "e": 1.0,
+          "s": 1.4,
+          "w": 1.5,
+          "site_m": 1387
+        }
       }
     },
     {
@@ -8190,7 +10158,15 @@
         "commons": {
           "photos": 48
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.6,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1383
+        }
       }
     },
     {
@@ -8223,7 +10199,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.58,
+          "n": 2.7,
+          "e": 0.9,
+          "s": 2.5,
+          "w": 2.5,
+          "site_m": 1453
+        }
       }
     },
     {
@@ -8255,7 +10239,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.99,
+          "n": -1.4,
+          "e": -1.7,
+          "s": 1.0,
+          "w": -0.7,
+          "site_m": 2514
+        }
       }
     },
     {
@@ -8286,7 +10278,15 @@
         "ele": "2504",
         "wikidata": "Q7158489",
         "natural": "peak",
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.99,
+          "n": -1.4,
+          "e": -1.7,
+          "s": 0.8,
+          "w": -0.4,
+          "site_m": 2508
+        }
       }
     },
     {
@@ -8332,7 +10332,15 @@
           "designation": "National Public Lands",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.0,
+          "n": 8.6,
+          "e": 0.8,
+          "s": 9.4,
+          "w": 27.9,
+          "site_m": 1542
+        }
       }
     },
     {
@@ -8364,7 +10372,15 @@
         "commons": {
           "photos": 12
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.9,
+          "e": 1.1,
+          "s": 1.2,
+          "w": 2.1,
+          "site_m": 1367
+        }
       }
     },
     {
@@ -8397,7 +10413,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 1.0,
+          "e": 3.8,
+          "s": 3.0,
+          "w": 1.8,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -8433,7 +10457,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.42,
+          "n": 0.2,
+          "e": 5.9,
+          "s": 2.3,
+          "w": 4.2,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -8469,7 +10501,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.38,
+          "n": 1.2,
+          "e": 4.1,
+          "s": 1.2,
+          "w": 8.0,
+          "site_m": 1674
+        }
       }
     },
     {
@@ -8499,7 +10539,15 @@
         "commons": {
           "photos": 5
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 1.7,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 1.9,
+          "site_m": 1363
+        }
       }
     },
     {
@@ -8531,7 +10579,15 @@
         "commons": {
           "photos": 48
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 3.0,
+          "e": 1.1,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1375
+        }
       }
     },
     {
@@ -8561,7 +10617,15 @@
         "commons": {
           "photos": 19
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 2.1,
+          "e": 2.2,
+          "s": 0.7,
+          "w": 1.5,
+          "site_m": 1357
+        }
       }
     },
     {
@@ -8593,7 +10657,15 @@
         "commons": {
           "photos": 223
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.9,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 1.7,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -8629,7 +10701,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.19,
+          "n": 3.7,
+          "e": 2.1,
+          "s": 9.9,
+          "w": 3.3,
+          "site_m": 1450
+        }
       }
     },
     {
@@ -8659,7 +10739,15 @@
         "commons": {
           "photos": 257
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.0,
+          "e": 1.0,
+          "s": 1.1,
+          "w": 1.6,
+          "site_m": 1374
+        }
       }
     },
     {
@@ -8695,7 +10783,15 @@
         "commons": {
           "photos": 12
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.4,
+          "e": 1.2,
+          "s": 1.3,
+          "w": 1.8,
+          "site_m": 1376
+        }
       }
     },
     {
@@ -8731,7 +10827,15 @@
           "designation": "National Forest",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.0,
+          "n": 0.2,
+          "e": 8.1,
+          "s": 13.1,
+          "w": 16.8,
+          "site_m": 1887
+        }
       }
     },
     {
@@ -8763,7 +10867,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 2.4,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -8795,7 +10907,15 @@
         "commons": {
           "photos": 60
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -8833,7 +10953,15 @@
         "commons": {
           "photos": 193
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.7,
+          "e": 0.5,
+          "s": 1.6,
+          "w": 1.6,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -8865,7 +10993,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.4,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -8901,7 +11037,15 @@
         "commons": {
           "photos": 37
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.4,
+          "e": 2.3,
+          "s": 1.0,
+          "w": 1.2,
+          "site_m": 1343
+        }
       }
     },
     {
@@ -8931,7 +11075,15 @@
         "commons": {
           "photos": 195
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 1.7,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 1.7,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -8964,7 +11116,15 @@
         "commons": {
           "photos": 180
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.59,
+          "n": 4.5,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 2.7,
+          "site_m": 1393
+        }
       }
     },
     {
@@ -8991,7 +11151,15 @@
       "tags": {
         "name": "Questa Trailhead",
         "highway": "trailhead",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 0.1,
+          "e": 1.2,
+          "s": 3.6,
+          "w": 7.5,
+          "site_m": 1528
+        }
       }
     },
     {
@@ -9025,7 +11193,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.14,
+          "n": 3.9,
+          "e": 7.8,
+          "s": 3.5,
+          "w": 3.9,
+          "site_m": 1475
+        }
       }
     },
     {
@@ -9057,7 +11233,15 @@
         "commons": {
           "photos": 59
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.2,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 2.3,
+          "site_m": 1367
+        }
       }
     },
     {
@@ -9092,7 +11276,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.6,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 2.4,
+          "site_m": 1360
+        }
       }
     },
     {
@@ -9125,7 +11317,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.51,
+          "n": 0.7,
+          "e": -0.1,
+          "s": 5.7,
+          "w": 8.2,
+          "site_m": 1614
+        }
       }
     },
     {
@@ -9160,7 +11360,15 @@
           "designation": "National Forest",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.53,
+          "n": 0.6,
+          "e": -0.2,
+          "s": 5.1,
+          "w": 8.0,
+          "site_m": 1619
+        }
       }
     },
     {
@@ -9196,7 +11404,15 @@
         "commons": {
           "photos": 11
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.58,
+          "n": 3.7,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 3.2,
+          "site_m": 1432
+        }
       }
     },
     {
@@ -9228,7 +11444,15 @@
         "commons": {
           "photos": 8
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.27,
+          "n": 4.9,
+          "e": 0.8,
+          "s": 1.0,
+          "w": 8.2,
+          "site_m": 1472
+        }
       }
     },
     {
@@ -9261,7 +11485,15 @@
         "commons": {
           "photos": 11
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.72,
+          "n": 0.3,
+          "e": 1.9,
+          "s": 1.0,
+          "w": 1.9,
+          "site_m": 1519
+        }
       }
     },
     {
@@ -9290,7 +11522,15 @@
         "access": "private",
         "operator": "D'Andrea Ranch PH-III HOA",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.32,
+          "n": 2.0,
+          "e": 6.0,
+          "s": 3.1,
+          "w": 1.4,
+          "site_m": 1429
+        }
       }
     },
     {
@@ -9323,7 +11563,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.9,
+          "e": 2.8,
+          "s": 0.8,
+          "w": 1.7,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -9350,7 +11598,15 @@
       "tags": {
         "name": "Red Hawk Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.51,
+          "n": 0.7,
+          "e": 3.9,
+          "s": 5.5,
+          "w": 1.3,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -9380,7 +11636,15 @@
         "commons": {
           "photos": 12
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.52,
+          "n": 0.7,
+          "e": 3.8,
+          "s": 2.0,
+          "w": 2.2,
+          "site_m": 1342
+        }
       }
     },
     {
@@ -9413,7 +11677,15 @@
         "commons": {
           "photos": 180
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.58,
+          "n": 5.0,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 2.7,
+          "site_m": 1393
+        }
       }
     },
     {
@@ -9445,7 +11717,15 @@
         "commons": {
           "photos": 259
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 2.1,
+          "e": 0.7,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -9478,7 +11758,15 @@
         "commons": {
           "photos": 15
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.23,
+          "n": 0.1,
+          "e": 7.3,
+          "s": 5.0,
+          "w": 6.3,
+          "site_m": 1408
+        }
       }
     },
     {
@@ -9510,7 +11798,15 @@
         "commons": {
           "photos": 93
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.6,
+          "e": 1.0,
+          "s": 1.0,
+          "w": 2.0,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -9542,7 +11838,15 @@
         "commons": {
           "photos": 238
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 2.2,
+          "e": 1.1,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1372
+        }
       }
     },
     {
@@ -9575,7 +11879,15 @@
         "commons": {
           "photos": 110
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 3.0,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1391
+        }
       }
     },
     {
@@ -9608,7 +11920,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.54,
+          "n": 1.3,
+          "e": 1.3,
+          "s": 3.8,
+          "w": 2.1,
+          "site_m": 1418
+        }
       }
     },
     {
@@ -9638,7 +11958,15 @@
         "commons": {
           "photos": 131
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.59,
+          "n": 1.4,
+          "e": 1.4,
+          "s": 2.5,
+          "w": 1.7,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -9670,7 +11998,15 @@
         "commons": {
           "photos": 235
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.8,
+          "e": 0.7,
+          "s": 1.4,
+          "w": 1.7,
+          "site_m": 1368
+        }
       }
     },
     {
@@ -9703,7 +12039,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.2,
+          "e": 1.9,
+          "s": 1.4,
+          "w": 2.2,
+          "site_m": 1368
+        }
       }
     },
     {
@@ -9735,7 +12079,15 @@
         "commons": {
           "photos": 63
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 2.2,
+          "e": 2.4,
+          "s": 0.5,
+          "w": 1.6,
+          "site_m": 1348
+        }
       }
     },
     {
@@ -9773,7 +12125,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 1.0,
+          "e": 1.7,
+          "s": 0.9,
+          "w": 1.3,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -9800,7 +12160,15 @@
       "tags": {
         "name": "Rose Garden Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.57,
+          "n": 1.1,
+          "e": 4.0,
+          "s": 3.8,
+          "w": 1.6,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -9827,7 +12195,15 @@
       "tags": {
         "name": "Rosewood Nature Study Area",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.49,
+          "n": 0.3,
+          "e": 6.3,
+          "s": 3.4,
+          "w": 1.9,
+          "site_m": 1339
+        }
       }
     },
     {
@@ -9863,7 +12239,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.62,
+          "n": 2.9,
+          "e": 1.6,
+          "s": 0.8,
+          "w": 1.7,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -9893,7 +12277,15 @@
         "commons": {
           "photos": 11
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.55,
+          "n": 0.0,
+          "e": 2.1,
+          "s": 3.8,
+          "w": 5.5,
+          "site_m": 1566
+        }
       }
     },
     {
@@ -9926,7 +12318,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.27,
+          "n": 3.6,
+          "e": 5.8,
+          "s": 2.4,
+          "w": 7.5,
+          "site_m": 1462
+        }
       }
     },
     {
@@ -9962,7 +12362,15 @@
         "commons": {
           "photos": 28
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 1.9,
+          "e": 1.4,
+          "s": 0.9,
+          "w": 1.9,
+          "site_m": 1365
+        }
       }
     },
     {
@@ -9994,7 +12402,15 @@
         "commons": {
           "photos": 6
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.7,
+          "e": 1.2,
+          "s": 1.2,
+          "w": 2.2,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -10027,7 +12443,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.35,
+          "n": 6.0,
+          "e": 1.1,
+          "s": 4.2,
+          "w": 2.8,
+          "site_m": 1394
+        }
       }
     },
     {
@@ -10059,7 +12483,15 @@
         "commons": {
           "photos": 61
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -10089,7 +12521,15 @@
         "commons": {
           "photos": 38
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.63,
+          "n": 2.4,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 1.9,
+          "site_m": 1393
+        }
       }
     },
     {
@@ -10121,7 +12561,15 @@
         "commons": {
           "photos": 54
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 2.5,
+          "e": 1.3,
+          "s": 1.0,
+          "w": 1.5,
+          "site_m": 1386
+        }
       }
     },
     {
@@ -10154,7 +12602,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 1.7,
+          "e": 2.5,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1360
+        }
       }
     },
     {
@@ -10188,7 +12644,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 3.1,
+          "e": 3.4,
+          "s": 0.9,
+          "w": 1.6,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -10221,7 +12685,15 @@
         "commons": {
           "photos": 193
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.7,
+          "e": 0.8,
+          "s": 1.3,
+          "w": 1.7,
+          "site_m": 1375
+        }
       }
     },
     {
@@ -10259,7 +12731,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.5,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 2.4,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -10298,7 +12778,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.28,
+          "n": 6.4,
+          "e": 3.6,
+          "s": 5.0,
+          "w": 4.2,
+          "site_m": 1558
+        }
       }
     },
     {
@@ -10335,7 +12823,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.48,
+          "n": 1.4,
+          "e": 0.5,
+          "s": 5.9,
+          "w": 7.4,
+          "site_m": 1565
+        }
       }
     },
     {
@@ -10368,7 +12864,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.43,
+          "n": 0.8,
+          "e": 1.7,
+          "s": 5.0,
+          "w": 5.1,
+          "site_m": 1525
+        }
       }
     },
     {
@@ -10402,7 +12906,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.2,
+          "e": 1.6,
+          "s": 1.5,
+          "w": 2.4,
+          "site_m": 1355
+        }
       }
     },
     {
@@ -10429,7 +12941,15 @@
       "tags": {
         "name": "Silverton Shores Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.55,
+          "n": 0.9,
+          "e": 2.9,
+          "s": 4.5,
+          "w": 2.3,
+          "site_m": 1363
+        }
       }
     },
     {
@@ -10466,7 +12986,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.43,
+          "n": 7.1,
+          "e": 0.9,
+          "s": 1.9,
+          "w": 2.7,
+          "site_m": 1486
+        }
       }
     },
     {
@@ -10502,7 +13030,15 @@
           "designation": "Wilderness Area",
           "access": "restricted"
         },
-        "bortle": 3
+        "bortle": 3,
+        "horizon": {
+          "open": 0.98,
+          "n": -1.1,
+          "e": -1.8,
+          "s": 0.2,
+          "w": -1.3,
+          "site_m": 3095
+        }
       }
     },
     {
@@ -10543,7 +13079,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.09,
+          "n": 7.4,
+          "e": 8.4,
+          "s": 5.2,
+          "w": 1.8,
+          "site_m": 1540
+        }
       }
     },
     {
@@ -10571,7 +13115,15 @@
         "name": "Somersett West Park",
         "operator": "City of Reno",
         "leisure": "park",
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.08,
+          "n": 10.6,
+          "e": 1.3,
+          "s": 5.6,
+          "w": 6.9,
+          "site_m": 1618
+        }
       }
     },
     {
@@ -10603,7 +13155,15 @@
         "commons": {
           "photos": 113
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.1,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -10639,7 +13199,15 @@
           "designation": "National Forest",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.97,
+          "n": -1.3,
+          "e": -1.1,
+          "s": 0.9,
+          "w": -0.0,
+          "site_m": 2441
+        }
       }
     },
     {
@@ -10675,7 +13243,15 @@
         "commons": {
           "photos": 17
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.5,
+          "n": 0.3,
+          "e": 4.4,
+          "s": 2.8,
+          "w": 5.2,
+          "site_m": 1415
+        }
       }
     },
     {
@@ -10707,7 +13283,15 @@
         "commons": {
           "photos": 152
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.0,
+          "w": 2.0,
+          "site_m": 1371
+        }
       }
     },
     {
@@ -10740,7 +13324,15 @@
         "commons": {
           "photos": 252
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.1,
+          "e": 0.6,
+          "s": 1.1,
+          "w": 1.8,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -10770,7 +13362,15 @@
         "commons": {
           "photos": 16
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 0.7,
+          "e": 3.6,
+          "s": 1.0,
+          "w": 1.8,
+          "site_m": 1336
+        }
       }
     },
     {
@@ -10800,7 +13400,15 @@
         "commons": {
           "photos": 63
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.4,
+          "e": 2.3,
+          "s": 0.7,
+          "w": 1.3,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -10830,7 +13438,15 @@
         "name": "Steamboat Hills",
         "ele": "1875",
         "natural": "peak",
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.75,
+          "n": -0.5,
+          "e": 0.3,
+          "s": -0.4,
+          "w": 4.6,
+          "site_m": 1882
+        }
       }
     },
     {
@@ -10863,7 +13479,15 @@
         "commons": {
           "photos": 14
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.62,
+          "n": 3.1,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 2.1,
+          "site_m": 1384
+        }
       }
     },
     {
@@ -10896,7 +13520,15 @@
         "commons": {
           "photos": 13
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 3.2,
+          "e": 1.4,
+          "s": 1.0,
+          "w": 1.9,
+          "site_m": 1384
+        }
       }
     },
     {
@@ -10929,7 +13561,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.6,
+          "n": 3.2,
+          "e": 1.5,
+          "s": 0.8,
+          "w": 1.8,
+          "site_m": 1375
+        }
       }
     },
     {
@@ -10960,7 +13600,15 @@
         "commons": {
           "photos": 74
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.6,
+          "e": 1.2,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -10990,7 +13638,15 @@
         "name": "Sugarloaf Peak Open Space",
         "operator": "Washoe County",
         "leisure": "nature_reserve",
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.53,
+          "n": 2.0,
+          "e": 8.3,
+          "s": 0.5,
+          "w": 1.5,
+          "site_m": 1422
+        }
       }
     },
     {
@@ -11026,7 +13682,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.77,
+          "n": 0.6,
+          "e": 3.0,
+          "s": 0.4,
+          "w": 0.6,
+          "site_m": 1603
+        }
       }
     },
     {
@@ -11062,7 +13726,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.56,
+          "n": 2.2,
+          "e": 0.9,
+          "s": 2.9,
+          "w": 2.8,
+          "site_m": 1432
+        }
       }
     },
     {
@@ -11094,7 +13766,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.47,
+          "n": 1.8,
+          "e": 3.8,
+          "s": 3.0,
+          "w": 2.5,
+          "site_m": 1459
+        }
       }
     },
     {
@@ -11126,7 +13806,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.6,
+          "n": 2.8,
+          "e": 0.9,
+          "s": 0.1,
+          "w": 4.5,
+          "site_m": 1454
+        }
       }
     },
     {
@@ -11159,7 +13847,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 3.1,
+          "e": 0.8,
+          "s": 0.4,
+          "w": 5.9,
+          "site_m": 1535
+        }
       }
     },
     {
@@ -11197,7 +13893,15 @@
         "commons": {
           "photos": 13
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.67,
+          "n": 2.2,
+          "e": 1.8,
+          "s": 1.8,
+          "w": 1.7,
+          "site_m": 1501
+        }
       }
     },
     {
@@ -11230,7 +13934,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 2.0,
+          "e": 2.1,
+          "s": 0.5,
+          "w": 1.6,
+          "site_m": 1356
+        }
       }
     },
     {
@@ -11263,7 +13975,15 @@
           "designation": "Local Recreation Area",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.4,
+          "n": 6.9,
+          "e": 0.3,
+          "s": 3.9,
+          "w": 2.5,
+          "site_m": 1595
+        }
       }
     },
     {
@@ -11295,7 +14015,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.5,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 2.4,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -11327,7 +14055,15 @@
         "commons": {
           "photos": 33
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.3,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -11360,7 +14096,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.58,
+          "n": 0.0,
+          "e": 1.6,
+          "s": 2.9,
+          "w": 6.8,
+          "site_m": 1507
+        }
       }
     },
     {
@@ -11388,7 +14132,15 @@
         "name": "Tigh Park",
         "ele": "1363",
         "leisure": "park",
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.2,
+          "e": 1.5,
+          "s": 1.7,
+          "w": 2.5,
+          "site_m": 1364
+        }
       }
     },
     {
@@ -11420,7 +14172,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.4,
+          "e": 1.4,
+          "s": 1.2,
+          "w": 2.3,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -11451,7 +14211,15 @@
         "commons": {
           "photos": 63
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.8,
+          "e": 2.7,
+          "s": 0.6,
+          "w": 1.4,
+          "site_m": 1346
+        }
       }
     },
     {
@@ -11481,7 +14249,15 @@
         "commons": {
           "photos": 11
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 4.4,
+          "e": 0.5,
+          "s": 18.3,
+          "w": 4.9,
+          "site_m": 1414
+        }
       }
     },
     {
@@ -11508,7 +14284,15 @@
       "tags": {
         "name": "Truckee River Greenbelt",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.0,
+          "n": 12.8,
+          "e": 1.1,
+          "s": 7.3,
+          "w": 1.9,
+          "site_m": 1403
+        }
       }
     },
     {
@@ -11535,7 +14319,15 @@
       "tags": {
         "name": "Truckee River Greenbelt",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.38,
+          "n": 4.3,
+          "e": 1.2,
+          "s": 4.9,
+          "w": 2.4,
+          "site_m": 1397
+        }
       }
     },
     {
@@ -11565,7 +14357,15 @@
         "commons": {
           "photos": 42
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.5,
+          "n": 1.3,
+          "e": 1.8,
+          "s": 2.1,
+          "w": 1.7,
+          "site_m": 1373
+        }
       }
     },
     {
@@ -11595,7 +14395,15 @@
         "commons": {
           "photos": 9
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 1.1,
+          "e": 2.1,
+          "s": 0.9,
+          "w": 1.5,
+          "site_m": 1347
+        }
       }
     },
     {
@@ -11622,7 +14430,15 @@
       "tags": {
         "name": "Truckee River Greenbelt",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 0.6,
+          "e": 2.2,
+          "s": 1.0,
+          "w": 1.8,
+          "site_m": 1339
+        }
       }
     },
     {
@@ -11649,7 +14465,15 @@
       "tags": {
         "name": "Truckee River Greenbelt",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.4,
+          "n": 0.8,
+          "e": 3.7,
+          "s": 3.3,
+          "w": 0.7,
+          "site_m": 1337
+        }
       }
     },
     {
@@ -11682,7 +14506,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.55,
+          "n": 1.5,
+          "e": 5.1,
+          "s": 1.8,
+          "w": 1.4,
+          "site_m": 1392
+        }
       }
     },
     {
@@ -11714,7 +14546,15 @@
         "commons": {
           "photos": 184
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.8,
+          "e": 1.3,
+          "s": 1.2,
+          "w": 1.7,
+          "site_m": 1380
+        }
       }
     },
     {
@@ -11746,7 +14586,15 @@
         "commons": {
           "photos": 105
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.66,
+          "n": 1.4,
+          "e": 0.7,
+          "s": 1.2,
+          "w": 1.7,
+          "site_m": 1379
+        }
       }
     },
     {
@@ -11779,7 +14627,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.64,
+          "n": 3.7,
+          "e": 0.7,
+          "s": 0.3,
+          "w": 2.8,
+          "site_m": 1499
+        }
       }
     },
     {
@@ -11811,7 +14667,15 @@
         "commons": {
           "photos": 110
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.62,
+          "n": 1.6,
+          "e": 1.0,
+          "s": 1.7,
+          "w": 1.8,
+          "site_m": 1376
+        }
       }
     },
     {
@@ -11843,7 +14707,15 @@
         "commons": {
           "photos": 236
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.0,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 1.7,
+          "site_m": 1368
+        }
       }
     },
     {
@@ -11875,7 +14747,15 @@
         "commons": {
           "photos": 96
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 2.1,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -11907,7 +14787,15 @@
         "commons": {
           "photos": 93
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.6,
+          "e": 1.0,
+          "s": 1.0,
+          "w": 2.0,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -11945,7 +14833,15 @@
         "commons": {
           "photos": 6
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.34,
+          "n": 5.7,
+          "e": 0.2,
+          "s": 4.6,
+          "w": 4.5,
+          "site_m": 1516
+        }
       }
     },
     {
@@ -11980,7 +14876,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.6,
+          "e": 1.5,
+          "s": 1.2,
+          "w": 2.5,
+          "site_m": 1359
+        }
       }
     },
     {
@@ -12013,7 +14917,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 1.3,
+          "e": 5.0,
+          "s": 1.2,
+          "w": 1.4,
+          "site_m": 1342
+        }
       }
     },
     {
@@ -12045,7 +14957,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.1,
+          "e": 1.3,
+          "s": 1.1,
+          "w": 2.2,
+          "site_m": 1359
+        }
       }
     },
     {
@@ -12074,7 +14994,15 @@
       ],
       "tags": {
         "nrhp": "08000511",
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.3,
+          "e": 1.5,
+          "s": 1.8,
+          "w": 2.5,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -12108,7 +15036,15 @@
         "commons": {
           "photos": 246
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.61,
+          "n": 1.9,
+          "e": 0.6,
+          "s": 3.3,
+          "w": 1.8,
+          "site_m": 1367
+        }
       }
     },
     {
@@ -12147,7 +15083,15 @@
         "commons": {
           "photos": 7
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.07,
+          "n": 0.4,
+          "e": 11.8,
+          "s": 5.6,
+          "w": 1.3,
+          "site_m": 1463
+        }
       }
     },
     {
@@ -12186,7 +15130,15 @@
         "commons": {
           "photos": 23
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.11,
+          "n": 0.5,
+          "e": 13.5,
+          "s": 4.0,
+          "w": 1.1,
+          "site_m": 1455
+        }
       }
     },
     {
@@ -12221,7 +15173,15 @@
         "commons": {
           "photos": 14
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.68,
+          "n": 2.3,
+          "e": 1.1,
+          "s": 0.7,
+          "w": 2.6,
+          "site_m": 1426
+        }
       }
     },
     {
@@ -12257,7 +15217,15 @@
           "designation": "National Public Lands",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.82,
+          "n": 0.9,
+          "e": 0.3,
+          "s": 0.2,
+          "w": 2.6,
+          "site_m": 1544
+        }
       }
     },
     {
@@ -12284,7 +15252,15 @@
       "tags": {
         "name": "Village Green Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.53,
+          "n": 0.3,
+          "e": 0.5,
+          "s": 5.6,
+          "w": 3.9,
+          "site_m": 1592
+        }
       }
     },
     {
@@ -12320,7 +15296,15 @@
         "commons": {
           "photos": 23
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.35,
+          "n": 0.3,
+          "e": 9.1,
+          "s": 3.3,
+          "w": 4.5,
+          "site_m": 1406
+        }
       }
     },
     {
@@ -12353,7 +15337,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.62,
+          "n": 1.2,
+          "e": 2.0,
+          "s": 1.3,
+          "w": 2.5,
+          "site_m": 1362
+        }
       }
     },
     {
@@ -12385,7 +15377,15 @@
         "commons": {
           "photos": 251
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.0,
+          "e": 0.6,
+          "s": 1.5,
+          "w": 1.8,
+          "site_m": 1366
+        }
       }
     },
     {
@@ -12418,7 +15418,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.38,
+          "n": 5.1,
+          "e": 5.3,
+          "s": 2.4,
+          "w": 1.6,
+          "site_m": 1363
+        }
       }
     },
     {
@@ -12458,7 +15466,15 @@
         "commons": {
           "photos": 16
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.61,
+          "n": 1.5,
+          "e": 0.3,
+          "s": 1.5,
+          "w": 2.3,
+          "site_m": 1379
+        }
       }
     },
     {
@@ -12490,7 +15506,15 @@
         "commons": {
           "photos": 145
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.5,
+          "e": 0.9,
+          "s": 1.0,
+          "w": 2.0,
+          "site_m": 1369
+        }
       }
     },
     {
@@ -12522,7 +15546,15 @@
         "commons": {
           "photos": 63
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.68,
+          "n": 1.4,
+          "e": 2.3,
+          "s": 0.6,
+          "w": 1.3,
+          "site_m": 1345
+        }
       }
     },
     {
@@ -12554,7 +15586,15 @@
         "commons": {
           "photos": 225
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.9,
+          "e": 0.7,
+          "s": 1.1,
+          "w": 1.7,
+          "site_m": 1368
+        }
       }
     },
     {
@@ -12587,7 +15627,15 @@
           "designation": "National Public Lands",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.69,
+          "n": 1.3,
+          "e": 1.6,
+          "s": 0.6,
+          "w": 2.6,
+          "site_m": 1410
+        }
       }
     },
     {
@@ -12621,7 +15669,15 @@
           "designation": "National Forest",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.31,
+          "n": 9.9,
+          "e": 0.7,
+          "s": 1.9,
+          "w": 5.0,
+          "site_m": 1537
+        }
       }
     },
     {
@@ -12653,7 +15709,15 @@
         "commons": {
           "photos": 3
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.11,
+          "n": 7.4,
+          "e": 1.5,
+          "s": 1.8,
+          "w": 7.4,
+          "site_m": 1489
+        }
       }
     },
     {
@@ -12689,7 +15753,15 @@
         "commons": {
           "photos": 245
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 1.9,
+          "e": 0.6,
+          "s": 1.7,
+          "w": 1.7,
+          "site_m": 1370
+        }
       }
     },
     {
@@ -12725,7 +15797,15 @@
         "commons": {
           "photos": 33
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.59,
+          "n": 1.1,
+          "e": 1.6,
+          "s": 1.6,
+          "w": 4.4,
+          "site_m": 1391
+        }
       }
     },
     {
@@ -12761,7 +15841,15 @@
         "commons": {
           "photos": 89
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.6,
+          "e": 1.1,
+          "s": 1.1,
+          "w": 1.6,
+          "site_m": 1393
+        }
       }
     },
     {
@@ -12794,7 +15882,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.39,
+          "n": 0.3,
+          "e": 1.8,
+          "s": 6.4,
+          "w": 6.7,
+          "site_m": 1529
+        }
       }
     },
     {
@@ -12830,7 +15926,15 @@
         "commons": {
           "photos": 25
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.45,
+          "n": 1.6,
+          "e": 0.9,
+          "s": 2.1,
+          "w": 10.1,
+          "site_m": 1762
+        }
       }
     },
     {
@@ -12860,7 +15964,15 @@
         "commons": {
           "photos": 11
         },
-        "bortle": 4
+        "bortle": 4,
+        "horizon": {
+          "open": 0.25,
+          "n": 2.6,
+          "e": 1.3,
+          "s": 10.9,
+          "w": 7.3,
+          "site_m": 1596
+        }
       }
     },
     {
@@ -12892,7 +16004,15 @@
         "commons": {
           "photos": 78
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.8,
+          "e": 0.8,
+          "s": 1.1,
+          "w": 2.0,
+          "site_m": 1370
+        }
       }
     },
     {
@@ -12919,7 +16039,15 @@
       "tags": {
         "name": "Wildcreek Park",
         "leisure": "park",
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.23,
+          "n": 5.3,
+          "e": 6.3,
+          "s": 1.5,
+          "w": 4.2,
+          "site_m": 1386
+        }
       }
     },
     {
@@ -12953,7 +16081,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.67,
+          "n": 1.2,
+          "e": 1.5,
+          "s": 1.5,
+          "w": 1.7,
+          "site_m": 1358
+        }
       }
     },
     {
@@ -12989,7 +16125,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.62,
+          "n": 0.7,
+          "e": 4.8,
+          "s": 0.9,
+          "w": 1.3,
+          "site_m": 1340
+        }
       }
     },
     {
@@ -13022,7 +16166,15 @@
         "commons": {
           "photos": 25
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.65,
+          "n": 2.7,
+          "e": 1.2,
+          "s": 1.0,
+          "w": 1.6,
+          "site_m": 1385
+        }
       }
     },
     {
@@ -13053,7 +16205,15 @@
         "commons": {
           "photos": 189
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.63,
+          "n": 1.7,
+          "e": 0.5,
+          "s": 1.6,
+          "w": 1.6,
+          "site_m": 1370
+        }
       }
     },
     {
@@ -13086,7 +16246,15 @@
           "designation": "Local Park",
           "access": "open"
         },
-        "bortle": 5
+        "bortle": 5,
+        "horizon": {
+          "open": 0.54,
+          "n": 1.8,
+          "e": 5.9,
+          "s": 1.1,
+          "w": 1.0,
+          "site_m": 1342
+        }
       }
     },
     {
@@ -13123,7 +16291,15 @@
         "commons": {
           "photos": 4
         },
-        "bortle": 6
+        "bortle": 6,
+        "horizon": {
+          "open": 0.64,
+          "n": 1.2,
+          "e": 1.6,
+          "s": 1.3,
+          "w": 2.3,
+          "site_m": 1352
+        }
       }
     }
   ]
