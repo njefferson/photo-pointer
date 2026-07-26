@@ -1,6 +1,6 @@
 {
   "region": "sac-eldorado-placer",
-  "builtAt": "2026-07-25",
+  "builtAt": "2026-07-26",
   "spots": [
     {
       "id": "1-welcome-canyon-view-preserve@9qcvmr",
@@ -431,7 +431,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233683",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -919,7 +919,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236537",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -7444,7 +7444,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236539",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -9314,7 +9314,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234172",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -9478,7 +9478,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245552",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -9490,6 +9490,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "beardsley-day-use@9qf9k5",
+      "name": "Beardsley Day Use",
+      "lat": 38.209752,
+      "lng": -120.055025,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Stoves, tables, picnicking, boating, boat launch ramp, water skiing, fishing, nature trail.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245571",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245571",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -10668,7 +10696,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232260",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -10767,7 +10795,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236532",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -10901,7 +10929,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/248716",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -10935,7 +10963,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233768",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -11581,7 +11609,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232021",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -11605,6 +11633,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "black-springs-ohv-campground@9qfd2f",
+      "name": "Black Springs OHV Campground",
+      "lat": 38.377534,
+      "lng": -120.195475,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Campground in Black Springs Off-Highway Vehicle Area. Lat/Long: 38.377534, -120.195475 Elevation: 6,500 feet",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "10134451",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/10134451",
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "10134451",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -12704,7 +12760,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234114",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -13642,7 +13698,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/251615",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -16125,7 +16181,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236536",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -17301,7 +17357,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236512",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -17386,7 +17442,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233981",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -17746,7 +17802,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245555",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -19125,7 +19181,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236508",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -19186,6 +19242,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "china-flat-day-use@9qf8g2",
+      "name": "China Flat Day Use",
+      "lat": 38.101723,
+      "lng": -120.081144,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "China Flat Day Use Area",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245594",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245594",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -22723,7 +22807,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232032",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -22899,6 +22983,34 @@
       ],
       "tags": {
         "nrhp": "100001384"
+      }
+    },
+    {
+      "id": "crabtree-cross-country-ski-trailhead@9qf9q0",
+      "name": "Crabtree Cross-Country Ski Trailhead",
+      "lat": 38.189415,
+      "lng": -119.965958,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Summit Ranger District offers 25.5 miles of marked cross-country ski trails. The trails are of varying difficulty: from fairly level beginners trails, to steeper and narrow trails for advanced skiers. The Gooseberry trail crosses several downhill ski runs at Dodge Ridge Ski Area. Use caution when on the Gooseberry Trail between the downhill ski runs. Numerous skiers and snowboarders go…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251811",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251811",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -23625,6 +23737,34 @@
           "designation": "PUB",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "cronan-ranch-trailhead@9qcuyu",
+      "name": "Cronan Ranch Trailhead",
+      "lat": 38.82652,
+      "lng": -120.989162,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Remember your OUTDOOR ETHICS when enjoying your public lands. Please RECREATE RESPONSIBLY. Overview Cronan Ranch Trailhead is located in Pilot Hill, California. The area contains 12 miles of trails for hiking, biking, horseback riding, fishing, bird watching and other passive recreation. There is a wide variety of terrain to choose from, including gently sloped to challenging hills, oak woodland…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "273853",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "273853",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -24950,7 +25090,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/270421",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -27143,6 +27283,34 @@
       }
     },
     {
+      "id": "donnell-vista@9qfdp5",
+      "name": "Donnell Vista",
+      "lat": 38.341151,
+      "lng": -119.925031,
+      "category": "viewpoint",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "A ¼ mile paved trail with signs along the way, leads to an overlook with sweeping views of the Middle Fork Stanislaus River Canyon, and Donnell Reservoir.We invite everyone to visit this newly improved majestic overlook.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245581",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245581",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "donner-memorial-state-park@9qfrxv",
       "name": "Donner Memorial State Park",
       "lat": 39.32,
@@ -27314,6 +27482,62 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "donner-summit-day-use-area@9qfrv9",
+      "name": "Donner Summit Day Use Area",
+      "lat": 39.339432,
+      "lng": -120.341943,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "...",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248648",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248648",
+        "ridb_type": "Facility"
+      }
+    },
+    {
+      "id": "donner-summit-rest-area-picnic-site@9qfrv9",
+      "name": "Donner Summit Rest Area Picnic Site",
+      "lat": 39.339432,
+      "lng": -120.341943,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Donner Summit Rest Area Picnic Site",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248604",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248604",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -27873,7 +28097,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236544",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -28438,6 +28662,48 @@
       }
     },
     {
+      "id": "eagle-falls-trailhead@9qftde",
+      "name": "Eagle Falls Trailhead",
+      "lat": 38.9521,
+      "lng": -120.1138,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape",
+        "water"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "roadside",
+      "notes": "Eagle Falls Trailhead",
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "259656",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/259656",
+          "first_seen": "2026-07-25",
+          "last_seen": "2026-07-25"
+        },
+        {
+          "source": "ridb",
+          "source_id": "239741",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "259656",
+        "ridb": "239741",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "eagle-falls@9qftdf",
       "name": "Eagle Falls",
       "lat": 38.95186,
@@ -28456,14 +28722,6 @@
       "access_difficulty": "unknown",
       "notes": null,
       "sources": [
-        {
-          "source": "gnis",
-          "source_id": "259656",
-          "source_license": "public-domain",
-          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/259656",
-          "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
-        },
         {
           "source": "osm",
           "source_id": "node/2919834084",
@@ -28490,9 +28748,6 @@
         }
       ],
       "tags": {
-        "curiosity": "Waterfall",
-        "natural": "waterfall",
-        "gnis": "259656",
         "name": "Eagle Falls",
         "tourism": "viewpoint",
         "waterway": "waterfall",
@@ -29334,11 +29589,13 @@
       "lat": 38.8346508,
       "lng": -120.0442292,
       "category": "trailhead",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Echo Lakes Trailhead",
       "sources": [
         {
           "source": "osm",
@@ -29347,9 +29604,19 @@
           "source_url": "https://www.openstreetmap.org/node/5180118411",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "239723",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
+        "ridb": "239723",
+        "ridb_type": "Facility",
         "name": "Echo Trailhead",
         "highway": "trailhead",
         "bortle": 1,
@@ -31674,11 +31941,13 @@
       "lat": 39.1945916,
       "lng": -120.7698552,
       "category": "trailhead",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Euchre Bar is a trailhead and kayak, canoe, and raft put-in with access to the North Fork American River. VISIT: USFS website for Euchre Bar Trail and Trailhead",
       "sources": [
         {
           "source": "osm",
@@ -31687,9 +31956,19 @@
           "source_url": "https://www.openstreetmap.org/node/2400235292",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "273886",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
+        "ridb": "273886",
+        "ridb_type": "Facility",
         "name": "Euchre Bar Trailhead",
         "operator": "US Forest Service",
         "highway": "trailhead",
@@ -32212,7 +32491,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232769",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -32710,7 +32989,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234135",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -32847,7 +33126,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245561",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -33648,6 +33927,34 @@
           "designation": "Local Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "fleming-trail-system-trailhead@9qfk0y",
+      "name": "Fleming Trail System & Trailhead",
+      "lat": 38.708677,
+      "lng": -120.545343,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Recreation Opportunity Guides (ROG) - These guides contains information, maps, and directions to assist you in enjoying your trip to the Eldorado National Forest. Fleming Meadow Trail System Non-motorized Trails",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "236552",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "236552",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -35365,7 +35672,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232045",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -35461,6 +35768,34 @@
           "designation": "State Recreation Area",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "foresthill-divide-driving-tour-interpretive-site@9qfntz",
+      "name": "Foresthill Divide Driving Tour Interpretive Site",
+      "lat": 39.15052,
+      "lng": -120.6762,
+      "category": "historic_site",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Foresthill Divide Road Driving Tour is a self-guided journey through the history of the Foresthill Divide. Beginning in the town of Foresthill, the tour route is 27 miles (one way) to Robinson Flat. Tour booklets can be aquired at the American River Ranger District office at 22830 Foresthill Road. The district office is stop #1 on the drive tour.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "270727",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "270727",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -35994,7 +36329,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245538",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -36006,6 +36341,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "fraser-flat-fishing-pier-day-use@9qf95s",
+      "name": "Fraser Flat Fishing Pier Day Use",
+      "lat": 38.1707,
+      "lng": -120.0747,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Fraser Flat Day Use Area - Day use sites include tables, restrooms and garbage service. 2 accessible fishing piers on the South Fork of the Stanislaus River. All toilets are accessible. NO WATER. Bring drinking water.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245600",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245600",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -36406,6 +36769,34 @@
       }
     },
     {
+      "id": "french-meadows-boat-ramp@9qfq7x",
+      "name": "French Meadows Boat Ramp",
+      "lat": 39.110833,
+      "lng": -120.428333,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located within a State Game Refuge on the south shore of French Meadows Reservoir, approximately 40 miles from Foresthill on Mosquito Ridge Road.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248737",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248737",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "french-meadows-campground@9qfqe8",
       "name": "French Meadows Campground",
       "lat": 39.1149033,
@@ -36433,7 +36824,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232047",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -36458,6 +36849,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "french-meadows-picnic-site@9qfqe8",
+      "name": "French Meadows Picnic Site",
+      "lat": 39.114005,
+      "lng": -120.421465,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located within a State Game Refuge on the south shore of French Meadows Reservoir, adjacent to the boat ramp. Seven picnic tables with cooking grills.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248644",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248644",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -36695,6 +37114,34 @@
           "designation": "Local Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "fuller-lake-picnic-site@9qfpy7",
+      "name": "Fuller Lake Picnic Site",
+      "lat": 39.349576,
+      "lng": -120.655142,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Pretty site with picnic tables, restrooms, and small boat ramp at north west side of the Lake",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248669",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248669",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -37392,7 +37839,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232048",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -37866,7 +38313,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232049",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -37966,7 +38413,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232888",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -38482,11 +38929,13 @@
       "lat": 38.8771155,
       "lng": -120.0804553,
       "category": "trailhead",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Glen Alpine Trailhead",
       "sources": [
         {
           "source": "osm",
@@ -38495,9 +38944,19 @@
           "source_url": "https://www.openstreetmap.org/node/4004588877",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "239724",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
+        "ridb": "239724",
+        "ridb_type": "Facility",
         "name": "Glen Alpine Trailhead",
         "highway": "trailhead",
         "bortle": 1,
@@ -38618,6 +39077,34 @@
           "designation": "Local Park",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "glenshire-drive-staging-area-picnic-site@9qfxfs",
+      "name": "Glenshire Drive Staging Area Picnic Site",
+      "lat": 39.35327,
+      "lng": -120.12087,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Glenshire Drive Staging Area Picnic Site",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248627",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248627",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -38962,6 +39449,34 @@
       }
     },
     {
+      "id": "golden-quartz-picnic-site@9qfpum",
+      "name": "Golden Quartz  Picnic Site",
+      "lat": 39.358615,
+      "lng": -120.747811,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located on the South Fork of the Yuba River, five miles upstream from the town of Washington on a rough road. Golden Quarts day use area is temporarily closed from August 29, 2016 to December 20, 2016 due to County Bridge Replacement. Read the news release here.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248744",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248744",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "goose-meadow-campground@9qfx2d",
       "name": "Goose Meadow Campground",
       "lat": 39.2594404,
@@ -39028,7 +39543,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232755",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -39041,6 +39556,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "gooseberry-cross-country-ski-trailhead@9qf9q0",
+      "name": "Gooseberry Cross-Country Ski Trailhead",
+      "lat": 38.192125,
+      "lng": -119.962071,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Summit Ranger District offers 25.5 miles of marked cross-country ski trails. The trails are of varying difficulty: from fairly level beginners trails, to steeper and narrow trails for advanced skiers. The Gooseberry trail crosses several downhill ski runs at Dodge Ridge Ski Area. Use caution when on the Gooseberry Trail between the downhill ski runs. Numerous skiers and snowboarders go…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "251817",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "251817",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -39516,7 +40059,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232883",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -41669,7 +42212,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234006",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -42354,7 +42897,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236530",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -42727,7 +43270,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245563",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -43735,7 +44278,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232185",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -44776,7 +45319,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245539",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -45774,7 +46317,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232061",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -49054,7 +49597,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236538",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -49632,7 +50175,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232875",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -50701,7 +51244,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236514",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -50781,7 +51324,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234739",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -51955,7 +52498,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232343",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -53588,7 +54131,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234117",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -55205,7 +55748,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233180",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -57721,7 +58264,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232348",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -57756,7 +58299,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232070",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -58036,7 +58579,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236551",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -58770,6 +59313,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "lyons-reservoir-pg-e-day-use@9qf89w",
+      "name": "Lyons Reservoir (PG&E) Day Use",
+      "lat": 38.094946,
+      "lng": -120.163389,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Fishing and picnic area on the Pacific Gas and Electric Reservoir. Hiking and Horseback riding on designated trails on the former Sugar Pine Rail Road Grade from Lyons Reservoir to Fraser Flat and Strawberry.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245602",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245602",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -60085,6 +60656,34 @@
           "w": -0.2,
           "site_m": 53
         }
+      }
+    },
+    {
+      "id": "manzanita-day-use-swim-area-picnic-site@9qfnem",
+      "name": "Manzanita Day Use, Swim Area Picnic Site",
+      "lat": 39.140887,
+      "lng": -120.786591,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Day use area at Sugar Pine Reservoir. Picnic tables and BBQ grills. The Foresthill Public Utility District (FPUD) will transfer water from Sugar Pine Reservoir to the Central Valley during the month of September. Water levels will be dropping during this time, exposing underwater hazards and changing conditions along shorelines. Please use caution. For more information, please contact Foresthill…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248749",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248749",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -63016,6 +63615,62 @@
       }
     },
     {
+      "id": "mcguire-boat-ramp@9qfqed",
+      "name": "McGuire Boat Ramp",
+      "lat": 39.122778,
+      "lng": -120.425278,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located on the north shore of French Meadows Reservoir",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248668",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248668",
+        "ridb_type": "Facility"
+      }
+    },
+    {
+      "id": "mcguire-picnic-site@9qfqef",
+      "name": "Mcguire Picnic Site",
+      "lat": 39.126012,
+      "lng": -120.419996,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located on the north shore of French Meadows Reservoir. 10 picnic tables with cooking grills. Day use only. Adjacent to beach and swimming area.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248700",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248700",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "mcintosh-hill@9qfr90",
       "name": "McIntosh Hill",
       "lat": 39.289347,
@@ -63164,6 +63819,42 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "mckinney-rubicon-trailhead@9qfw1k",
+      "name": "McKinney/Rubicon Trailhead",
+      "lat": 39.0457,
+      "lng": -120.1719,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Directions to the trailhead: From Highway 89, south of Homewood, turn west onto McKinney Rubicon Springs Road. Take the first left on Bellevue and then the second right on McKinney Road (follow signs to Miller Lake). Make a left on McKinney Rubicon Springs. Go straight at the stop sign and you're at the Mckinney/Rubicon Trail and Miller Lake Road. Approximately 1 mile up the windy single lane…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239737",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        },
+        {
+          "source": "ridb",
+          "source_id": "239743",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239737",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -63524,11 +64215,13 @@
       "lat": 39.0373863,
       "lng": -120.1264563,
       "category": "trailhead",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
+      "access_difficulty": "roadside",
+      "notes": "Meeks Bay Trailhead",
       "sources": [
         {
           "source": "osm",
@@ -63537,9 +64230,19 @@
           "source_url": "https://www.openstreetmap.org/node/87269521",
           "first_seen": "2026-07-19",
           "last_seen": "2026-07-20"
+        },
+        {
+          "source": "ridb",
+          "source_id": "239740",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
+        "ridb": "239740",
+        "ridb_type": "Facility",
         "name": "Meeks Bay Trailhead",
         "highway": "trailhead",
         "bortle": 1,
@@ -64597,7 +65300,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236510",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -64644,7 +65347,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/231953",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -64771,7 +65474,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245565",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -65583,7 +66286,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236516",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -66449,7 +67152,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245478",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -67234,7 +67937,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232186",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -67541,6 +68244,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "mt-rose-summit-interpretive-site@9qfxx7",
+      "name": "Mt. Rose Summit Interpretive Site",
+      "lat": 39.3068708,
+      "lng": -119.9061922,
+      "category": "historic_site",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": ".",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "243981",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "243981",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -69072,7 +69803,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232768",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -69402,7 +70133,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245566",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -69436,7 +70167,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245567",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -70424,6 +71155,34 @@
       }
     },
     {
+      "id": "north-fork-day-use@9qf8dz",
+      "name": "North Fork Day Use",
+      "lat": 38.098,
+      "lng": -120.107,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Fishing and picnic facilities along the North Fork Tuolumne River. Includes five picnic tables, one accessible picnic table.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245544",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245544",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "north-fork@9qfpqm",
       "name": "North Fork",
       "lat": 39.2717083,
@@ -70451,7 +71210,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234587",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -71165,7 +71924,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236525",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -71302,7 +72061,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236520",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -71628,7 +72387,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233779",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -72009,7 +72768,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/251550",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -74562,6 +75321,34 @@
       }
     },
     {
+      "id": "oregon-creek-day-use-area@9r1bhe",
+      "name": "Oregon Creek Day Use Area",
+      "lat": 39.395847,
+      "lng": -121.083578,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Day Use Area",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248662",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248662",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "orleans-hotel@9qce7p",
       "name": "Orleans Hotel",
       "lat": 38.582,
@@ -75557,7 +76344,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236547",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -77792,6 +78579,34 @@
       }
     },
     {
+      "id": "pinecrest-day-use@9qf9m2",
+      "name": "Pinecrest Day Use",
+      "lat": 38.192878,
+      "lng": -119.993219,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Swimming, fishing, and a beach area. Fully accessible restrooms and fishing pier are available. Forest Service maintained boat ramp with dock.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245575",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245575",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "pinecrest@9qf9m2",
       "name": "PINECREST",
       "lat": 38.1908333,
@@ -77811,7 +78626,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232254",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -78114,7 +78929,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232293",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -78197,7 +79012,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232262",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -78564,7 +79379,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236526",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -78972,7 +79787,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233285",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -80402,7 +81217,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234210",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -80437,7 +81252,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/231977",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -81245,6 +82060,34 @@
       }
     },
     {
+      "id": "ralston-picnic-site@9qfjus",
+      "name": "Ralston Picnic Site",
+      "lat": 39.00538,
+      "lng": -120.732171,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located twelve miles east of Foresthill on Mosquito Ridge Road (forest road 96) and one mile south on Forest Road 23. Located on the Middle Fork of the American River. Five picnic sites with tables and fire rings. Firewood scarce.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248785",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248785",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "ramirez-jose-manuel-house@9qcw9j",
       "name": "Ramirez, Jose Manuel, House",
       "lat": 39.140194069000074,
@@ -81890,7 +82733,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232302",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -83376,7 +84219,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232349",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -88120,7 +88963,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245541",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -88198,7 +89041,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236545",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -90890,7 +91733,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232887",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -91791,7 +92634,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234133",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -91820,7 +92663,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232884",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -91868,7 +92711,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236509",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -92045,7 +92888,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232263",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -92752,7 +93595,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234654",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -93433,6 +94276,34 @@
       }
     },
     {
+      "id": "sourgrass-day-use@9qfd02",
+      "name": "Sourgrass Day Use",
+      "lat": 38.3222,
+      "lng": -120.214,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Day use parking for approximately 15 cars in addition to picnic area. Fishing and hiking.",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "245500",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "245500",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "south-fork-american-river-chili-bar-put@9qfhd9",
       "name": "South Fork American River--Chili Bar Put In",
       "lat": 38.7653,
@@ -93498,7 +94369,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233879",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -93715,7 +94586,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/234111",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -95175,7 +96046,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245493",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -95326,6 +96197,34 @@
           "designation": "National Forest",
           "access": "open"
         }
+      }
+    },
+    {
+      "id": "stateline-lookout@9qfxjj",
+      "name": "Stateline Lookout",
+      "lat": 39.2315,
+      "lng": -120.0085,
+      "category": "lookout_tower",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Stateline Lookout",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "239703",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "239703",
+        "ridb_type": "Facility"
       }
     },
     {
@@ -96847,7 +97746,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236521",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -96987,7 +97886,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232107",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -97100,6 +97999,34 @@
       }
     },
     {
+      "id": "sugar-pine-boat-ramp@9qfne7",
+      "name": "Sugar Pine Boat Ramp",
+      "lat": 39.129444,
+      "lng": -120.791667,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located on the southern shore of Sugar Pine Reservoir, there is a concrete ramp and metal floating dockwith handrails and tie ups. The Foresthill Public Utility District (FPUD) will transfer water from Sugar Pine Reservoir to the Central Valley during the month of September. Water levels will be dropping during this time, exposing underwater hazards and changing conditions along shorelines…",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248748",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248748",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "sugar-pine-mountain@9qcvv6",
       "name": "Sugar Pine Mountain",
       "lat": 38.9923969,
@@ -97157,7 +98084,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236511",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -98387,7 +99314,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232083",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -100935,7 +101862,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/245603",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -103421,7 +104348,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232264",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -104898,7 +105825,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236531",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -105804,7 +106731,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/233104",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -110443,6 +111370,34 @@
       }
     },
     {
+      "id": "washington-overlook-observation-site@9qfpdv",
+      "name": "Washington Overlook Observation Site",
+      "lat": 39.317583,
+      "lng": -120.814916,
+      "category": "viewpoint",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Washington Overlook Observation Site",
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "248694",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-07-26",
+          "last_seen": "2026-07-26"
+        }
+      ],
+      "tags": {
+        "ridb": "248694",
+        "ridb_type": "Facility"
+      }
+    },
+    {
       "id": "washington-park@9qce7x",
       "name": "Washington Park",
       "lat": 38.5827395,
@@ -111017,7 +111972,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232121",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -111052,7 +112007,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236519",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -111241,7 +112196,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236518",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -111863,7 +112818,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/236550",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -111897,7 +112852,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232321",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -112700,7 +113655,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232874",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -113974,7 +114929,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232366",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -114578,7 +115533,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/270947",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -114874,7 +115829,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/251578",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -115007,7 +115962,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/231954",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
@@ -115083,7 +116038,7 @@
           "source_license": "public-domain",
           "source_url": "https://www.recreation.gov/camping/campgrounds/232125",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-26"
         }
       ],
       "tags": {
