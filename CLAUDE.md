@@ -83,6 +83,57 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 1.14.1 "The map shows what you filtered for" (an ITERATION, a BUG
+  FIX) BUILT on staging (awaiting on-device pass). Noah: "Choosing only
+  photographed places works on list but not map." REPRODUCED headless, and it was
+  THREE separate faults stacked — the first one being the real culprit:
+  (1) THE FILTERS PANEL ATE THE WHOLE SCREEN. Measured on a 390×844 phone
+  viewport: filters collapsed → `.bar` 188px, map 655px; filters OPEN → `.bar`
+  941px, `.view-root` 0px, MAP 0px. `.map-root{flex:1;min-height:0}` correctly
+  gets zero when the header exceeds the viewport. This is 1.5.14's problem
+  returning, because the panel has since grown from ~10 chips to 25 pin types in
+  4 labeled groups + 8 layer chips + the distance row. The LIST is its own
+  scrolling column so it was unaffected — which is EXACTLY why the filter looked
+  like it "worked in the list but not the map". FIX: `.filters-panel` gets
+  `max-height:42vh; overflow-y:auto; overscroll-behavior:contain` — it scrolls
+  itself and the map always keeps its place (open now: bar 552, map 291).
+  DIAGNOSTIC LESSON: `.pin` ALSO matches the legend's inline swatches, so a
+  `.pin` count says the map has markers when it has none — count
+  `.leaflet-marker-icon` for real map markers.
+  (2) MAP → LIST → MAP CAME BACK EMPTY, filter or no filter. Leaflet caches its
+  container size; while the list is up the map is display:none so that cache
+  drops to ZERO HEIGHT (measured `map.getSize()` = [390,0], bounds with
+  south===north), and cull() then finds nothing in view and unmounts every pin.
+  setViewMode called `invalidateSize()` BEFORE `renderHeader()`, i.e. before the
+  flex column had been laid out, so it re-measured zero. A requestAnimationFrame
+  was ALSO too early (verified: still [390,0]). FIX: a ResizeObserver on the map
+  container drives a new `resized()` (invalidateSize + cull) — it fires when the
+  height is really there, and covers rotation/window resize too. GOTCHA that cost
+  a cycle: the observer must record the ZERO size as well, or 667→0→667 reads as
+  "no change" and never re-measures.
+  (3) OFF-SCREEN MATCHES LOOKED LIKE NO MATCHES. With Photographed on, the list
+  said 286 and the banner said "286 places match" while the map sat empty,
+  because none of the 286 was in the default Cameron Park frame. setSpotFilter
+  now calls frameFilteredIfOffscreen(): if NOTHING matching is currently mounted
+  it fitBounds to the matches (maxZoom 13); if the user can already see matches
+  their frame is left alone. ALSO FIXED alongside: `spotFilter = ids && ids.size
+  ? ids : null` treated an EMPTY match set as "no filter", so a filter matching
+  nothing fell back to the category toggles and showed EVERY pin; it now keeps
+  the empty set (map empty) and the banner reads "No places match your filters".
+  NEW scripts/smoke-mapfilter.mjs pins all of it: Photographed → map has markers
+  (16) not an empty map, banner reports the count, list agrees (286 rows),
+  List→Map keeps the markers, a zero-match filter shows 0 markers not every pin,
+  clearing restores the map, 0 pageerrors. sw CACHE pointer-1.14.1; changelog[0]
+  1.14.1. 192 tests + contrast + smokes green.
+  KNOWN, PRE-EXISTING, NOT INTRODUCED HERE: scripts/smoke-flow.mjs is FLAKY on
+  its popup assertion — measured on untouched HEAD it failed 3 of 6 runs (with
+  these changes, 1 of 6), so the earlier "stable over 3 consecutive runs" note
+  was optimistic. The popup and its `.popup-more` DO open (verified) and the
+  in-browser flowNow/formatFlow assertions pass EVERY run, so the streamflow code
+  itself is fine; it's the mocked-route/popup timing in the harness. One real
+  harness bug WAS fixed in passing: the "settled" predicate counted "the line
+  isn't in the DOM yet" as settled, so it exited before the line was inserted —
+  it now waits for presence when a line is expected. Worth finishing properly.
 - 2026-07-26 1.14.0 "Who manages it, and hand-written detail" (a CAPABILITY)
   BUILT + DATA ROLLED OUT on staging (awaiting on-device pass). Noah's "Promote,
   PADUS then shared enrichment" — the last two items owed from the bare-card

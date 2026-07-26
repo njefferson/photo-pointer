@@ -255,7 +255,9 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     const n = spotFilter.size;
     filterBanner.hidden = false;
     filterBanner.replaceChildren(
-      el('span', { class: 'mfb-text' }, `${n} place${n === 1 ? '' : 's'} match your filters`),
+      el('span', { class: 'mfb-text' }, n === 0
+        ? 'No places match your filters'
+        : `${n} place${n === 1 ? '' : 's'} match your filters`),
       el('button', {
         class: 'map-filter-clear',
         // Clear the layer filters at the source (the header chips) so the map and
@@ -976,6 +978,34 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     cull();
   }
 
+  // The map container is display:none while the List view is up, and Leaflet
+  // caches its container size — so the cache drops to ZERO HEIGHT, cull() sees an
+  // empty viewport and unmounts every pin. Coming back to the map then showed
+  // nothing at all. Re-measure and redo the viewport pass whenever the map is
+  // revealed or resized.
+  function resized() {
+    map.invalidateSize({ animate: false, pan: false });
+    cull();
+  }
+
+  // Watch the container itself rather than guessing WHEN it gets its height back.
+  // Calling resized() on the view switch is too early — the header re-renders in
+  // the same tick and the flex column hasn't been laid out yet, so Leaflet
+  // re-measures zero height and the map stays blank. The observer fires once the
+  // height is really there, and it covers device rotation and window resize too.
+  if (typeof ResizeObserver !== 'undefined') {
+    let lastW = -1, lastH = -1;
+    new ResizeObserver(() => {
+      const w = container.clientWidth, h = container.clientHeight;
+      if (w === lastW && h === lastH) return;
+      // Record the ZERO too. Remembering only non-zero sizes made the round trip
+      // 667 → 0 → 667 look like "no change", so the map was never re-measured.
+      lastW = w; lastH = h;
+      if (!w || !h) return; // hidden: nothing meaningful to measure yet
+      resized();
+    }).observe(container);
+  }
+
   function setSynthesis(byId) {
     synthesisFor = (id) => byId.get(id) ?? null;
   }
@@ -1016,9 +1046,30 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // to clear it and return to the category toggles. Announces itself via a
   // standing banner so the mode is never silent, and offers an obvious exit.
   function setSpotFilter(ids) {
-    spotFilter = ids && ids.size ? ids : null;
+    // An EMPTY set means "a filter is on and nothing matched" — keep it. Treating
+    // it as null (no filter) made the map fall back to the category toggles and
+    // show EVERY pin, which is the opposite of what the user asked for.
+    spotFilter = ids ?? null;
     updateFilterBanner();
     cull();
+    // A filter whose matches are all off-screen reads as a filter that doesn't
+    // work: the list says "286 places match" and the map sits empty. If none of
+    // the matches is on screen, go to them — the standard filtered-map gesture.
+    if (spotFilter?.size) frameFilteredIfOffscreen();
+  }
+
+  // Frame the filtered set, but ONLY when none of it is currently visible: if the
+  // user can already see matches, their chosen view is left alone.
+  function frameFilteredIfOffscreen() {
+    const pts = [];
+    for (const rec of markerById.values()) {
+      if (!spotFilter.has(rec.id)) continue;
+      if (rec.mounted) return; // something matching is already in view — don't move
+      pts.push([rec.lat, rec.lng]);
+    }
+    if (!pts.length) return;
+    // fitBounds fires moveend, which re-runs cull() and mounts the pins.
+    map.fitBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 13 });
   }
 
   // Long-press / tap-and-hold empty map → add a user pin (direct manipulation).
@@ -1042,5 +1093,5 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     L.popup().setLatLng(e.latlng).setContent(form).openOn(map);
   });
 
-  return { map, setSpots, setVisible, setSpotFilter, setSynthesis, focusSpot, setRegion, syncThemeBasemap };
+  return { map, setSpots, setVisible, setSpotFilter, setSynthesis, focusSpot, setRegion, syncThemeBasemap, resized };
 }

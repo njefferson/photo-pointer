@@ -133,7 +133,17 @@ body {
 .filters-toggle.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 /* The expanded panel holds two clearly-separated groups: the pin-type chips and
    the "must have" layer chips, each under its own heading, full width. */
-.filters-panel { width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: 2px; }
+/* BOUNDED, and it scrolls itself. 1.5.14 shrank the header by collapsing these
+   chips, but the panel has since grown to 25 pin types in four groups plus the
+   layer and distance rows — open, it measured 941px on a 844px phone, so the
+   header ate the WHOLE screen and the map underneath got zero height. The list
+   is its own scrolling column so it looked fine, which is exactly why a filter
+   seemed to "work in the list but not the map". Capping the panel keeps the map
+   on screen while you pick. */
+.filters-panel {
+  width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: 2px;
+  max-height: 42vh; overflow-y: auto; overscroll-behavior: contain;
+}
 .filter-group { display: flex; flex-direction: column; gap: 5px; width: 100%; }
 .filter-group-label { font-size: 12px; font-weight: 600; color: var(--dim); }
 

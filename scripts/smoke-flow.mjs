@@ -100,7 +100,7 @@ else fail(`far water should be null, got ${JSON.stringify(out.far)}`);
 // 2) The POPUP wiring: a waterfall renders the flow line; a dry spot removes it.
 // Each spot gets a FRESH map + host so no stale popup DOM from a previous read can
 // be matched (that made an earlier version of this check pass spuriously).
-const readPopup = (spot) => page.evaluate(async (s) => {
+const readPopup = (spot, expectLine = false) => page.evaluate(async ({ s, expectLine }) => {
   const { createMapView } = await import('./src/ui/mapview.js');
   const host = document.createElement('div');
   host.style.height = '300px';
@@ -123,16 +123,20 @@ const readPopup = (spot) => page.evaluate(async (s) => {
   await until(() => document.querySelector('.leaflet-popup'));
   await until(() => { const d = document.querySelector('.popup-more'); if (d) { d.open = true; return true; } return false; });
   // The line starts as "checking…" and settles to real text or removes itself.
+  // WHICH outcome we're waiting for matters: treating "not in the DOM yet" as
+  // "settled" made this exit before the line was ever inserted, which is what
+  // made this check flaky (it failed ~half the time on a loaded machine).
   await until(() => {
     const e = document.querySelector('.popup-flow');
+    if (expectLine) return e && !/checking/.test(e.textContent);
     return e ? !/checking/.test(e.textContent) : true;
   });
   // Give a removal a moment to land so "absent" is a real answer, not a race.
   await new Promise((r) => setTimeout(r, 400));
   return document.querySelector('.popup-flow')?.textContent ?? null;
-}, spot);
+}, { s: spot, expectLine });
 
-const wet = await readPopup({ id: 'w', name: 'Test Falls', lat: 38.94, lng: -121.03, category: 'waterfall', tags: {}, sources: [] });
+const wet = await readPopup({ id: 'w', name: 'Test Falls', lat: 38.94, lng: -121.03, category: 'waterfall', tags: {}, sources: [] }, true);
 if (wet && /Water now/.test(wet) && /3,180 cfs/.test(wet) && /AMERICAN/.test(wet))
   ok(`popup shows the flow line: "${wet.slice(0, 100)}"`);
 else fail(`popup flow line missing/wrong: ${JSON.stringify(wet)}`);

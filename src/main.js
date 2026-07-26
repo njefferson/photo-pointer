@@ -70,8 +70,14 @@ function setViewMode(mode) {
   if (mapRoot) mapRoot.style.display = mode === 'map' ? '' : 'none';
   if (listEl) listEl.style.display = mode === 'list' ? '' : 'none';
   if (mode === 'list') renderListView();
-  else mapView?.map.invalidateSize();
   renderHeader();
+  // Leaflet caches its container size, and while the map is display:none that
+  // cache goes to ZERO HEIGHT — so the viewport pass finds nothing in view and
+  // the map comes back EMPTY (it looked exactly like a filter that only worked
+  // in the list). Re-measure AFTER renderHeader, since the header shares the
+  // flex column and therefore decides the map's height, and after a frame so the
+  // browser has laid it out; then redo the viewport pass.
+  if (mode === 'map') requestAnimationFrame(() => mapView?.resized());
 }
 
 function allCategories() {
