@@ -236,3 +236,22 @@ test('with no domain published, the built-in table still decodes', () => {
   assert.equal(a.manager, 'U.S. Forest Service');
   assert.equal(a.designation, 'National Forest');
 });
+
+test('a decoded value that is still a shrug is dropped, not printed on a card', () => {
+  const layers = { layers: [{ id: 0, name: 'Fee', geometryType: 'esriGeometryPolygon', fields: [
+    { name: 'Unit_Nm' },
+    { name: 'd_Des_Tp', domain: { type: 'codedValue', codedValues: [
+      { code: 'LOTH', name: 'Local Other or Unknown' },
+      { code: 'UNKE', name: 'Unknown Easement' },
+      { code: 'OTHE', name: 'Other Easement' },
+      { code: 'LP', name: 'Local Park' },
+    ] } },
+  ] }] };
+  const layer = pickLayers(layers)[0];
+  const des = (code) => normalizeArea({ attributes: { Unit_Nm: 'X', d_Des_Tp: code },
+    geometry: { rings: square(-121, 39, 0.01) } }, layer).designation;
+  assert.equal(des('LOTH'), null);
+  assert.equal(des('UNKE'), null);
+  assert.equal(des('OTHE'), 'Other Easement'); // still says it IS an easement
+  assert.equal(des('LP'), 'Local Park');
+});

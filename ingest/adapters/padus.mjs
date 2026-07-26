@@ -202,6 +202,15 @@ function clean(v) {
   return EMPTY_RE.test(s) ? null : s;
 }
 
+// The same shrug can arrive AFTER decoding, spelled out: PAD-US has LOTH →
+// "Local Other or Unknown", SOTH → "State Other or Unknown", UNKE → "Unknown
+// Easement". Printing those on a card is worse than printing nothing, so drop
+// them once decoded. "Other Easement" survives — it still says it's an easement.
+const SHRUG_RE = /\bother\s+or\s+unknown\b|^\s*unknown\b/i;
+function meaningful(v) {
+  return v != null && !SHRUG_RE.test(String(v)) ? v : null;
+}
+
 // One ArcGIS polygon feature -> { name, manager, designation, access, bbox, rings }
 export function normalizeArea(f, layer) {
   const a = f.attributes ?? {};
@@ -221,9 +230,9 @@ export function normalizeArea(f, layer) {
   return {
     name,
     manager: layer.managerField
-      ? decode(MANAGER_DECODE, clean(a[layer.managerField]), { domain: layer.domains?.manager }) : null,
+      ? meaningful(decode(MANAGER_DECODE, clean(a[layer.managerField]), { domain: layer.domains?.manager })) : null,
     designation: layer.designationField
-      ? decode(DESIGNATION_DECODE, clean(a[layer.designationField]), { domain: layer.domains?.designation }) : null,
+      ? meaningful(decode(DESIGNATION_DECODE, clean(a[layer.designationField]), { domain: layer.domains?.designation })) : null,
     // Access is a CONTROLLED VOCABULARY (open/restricted/closed), not free text,
     // so the service's label is expanded first and then normalised — otherwise a
     // published domain would put "Open Access" where every other source says

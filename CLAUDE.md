@@ -83,6 +83,67 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-26 1.14.0 "Who manages it, and hand-written detail" (a CAPABILITY)
+  BUILT + DATA ROLLED OUT on staging (awaiting on-device pass). Noah's "Promote,
+  PADUS then shared enrichment" — the last two items owed from the bare-card
+  conversation. TWO things.
+  (A) PAD-US (ingest/adapters/padus.mjs, USGS Protected Areas Database, US PUBLIC
+  DOMAIN, no key). NOT a duplicate of the OSM public-lands layer: OSM says a
+  boundary exists; PAD-US says WHO MANAGES IT, WHAT KIND of protected area it is,
+  and WHETHER THE PUBLIC MAY ENTER — and it covers STATE/COUNTY/LOCAL land, so a
+  small district park finally gets an authoritative manager instead of nothing.
+  An ENRICHMENT (tags.padus, already in ENRICH_TAGS so a re-merge preserves it);
+  polygons fetched generalised, point-in-polygon locally, NO ring geometry ships
+  to the browser. sac-eldorado-placer: 3501 areas, 1643 of 2723 spots tagged
+  (U.S. Forest Service 516, City 435, Regional agency 290, State parks 127,
+  County 106…; access open 1489 / restricted 88 / closed 63).
+  THREE RUNNER LESSONS, each one a real failure: (1) I GUESSED A SERVICE URL and
+  got `ArcGIS error 500: 9017$SITE_NOT_INITIALIZED` — now BASE_CANDIDATES are
+  probed in order, SITE_NOT_INITIALIZED is treated as "this site is down, try the
+  next" rather than fatal, and PADUS_SERVICE_URL pins one without a code change.
+  (2) The first good run stored RAW DOMAIN CODES ("USFS","NF","OA") — "NF —
+  public access: oa" is jargon, not information. (3) The decode table I then
+  hand-wrote left a LONG TAIL of bare codes (17 designations — POTH, PCON, IRA,
+  LCA, WSR, RNA, SRMA… — plus manager NRCS; Fairchild Park had read "REG"). That
+  is the raw-code FALLBACK WORKING AS DESIGNED: an unmapped code stays VISIBLE so
+  it can be found, instead of being silently dropped. The fix is not 17 more
+  hand-written entries — the ArcGIS service PUBLISHES ITS OWN coded-value domains,
+  so pickLayers now reads `field.domain.codedValues` at runtime and prefers it
+  over the built-in table (which survives only as a fallback for a service that
+  publishes none). Same discover-don't-hard-code lesson as GNIS and NRHP; it also
+  follows PAD-US forward to v5. ACCESS is the exception — it's a CONTROLLED
+  vocabulary, so a published label is expanded and THEN normalised to one word,
+  and an unknown access code still yields null (an access claim is never
+  invented).
+  (B) SHARED CURATED ENRICHMENT (src/model/enrichment.js + data/curated/
+  enrichment.json). 1.12.0's notes fix a thin card for ONE device; this is the
+  version that SHIPS to everyone. Keyed by spot id; FILLS GAPS ONLY, so a future
+  ingest that improves upstream is never clobbered by a stale hand-written line.
+  Values validate against the LIGHT/SEASONS/ACCESS/SUBJECT_TYPES enums and links
+  must be https. THE LICENSING RULE IS IN THE FILE'S OWN `_readme`, verbatim:
+  WRITE YOUR OWN WORDS — facts are free (who runs it, that there is a bedrock
+  mortar site), SENTENCES ARE NOT; link to the official page instead of copying
+  it; federal sources are public domain but already come in through their own
+  adapters; NEVER copy from social platforms. First entry is Fairchild Park
+  Indian Grinding Rocks — the exact node Noah pointed at — which now reads
+  archaeological, with real notes, golden_hour, short_walk and a link to the CSD
+  page it was written FROM but not copied from.
+  sw CACHE pointer-1.14.0; changelog[0] 1.14.0. 191 tests + contrast green.
+- 2026-07-26 RIDB, the generic-"Facility" fix. The unmapped-type diagnostic added
+  on 2026-07-25 finally got READ (the get_job_logs tail window kept cutting above
+  it; the line is in the FETCH step, so ask for that job and a short tail). It
+  said: `Facility=85, Ticket Facility=1, Library=1`. So the KNOWN GAP — every
+  mapped facility being a "Campground", zero trailheads/day-use/visitor centers —
+  had one cause: RIDB types almost everything that ISN'T a campground as the
+  generic "Facility", and a type-only rule therefore found campgrounds and
+  nothing else. FIX: for GENERIC-typed rows ONLY (`Facility`/`Site`/`Other`/
+  empty), the facility NAME becomes the evidence — trailhead / visitor center /
+  overlook / lookout / day-use each get their real pin. A SPECIFIC type we don't
+  want (Library, Ticket Facility) is still refused outright and the name is NOT
+  allowed to talk us back into a pin; a generic row whose name says nothing still
+  gets NO pin (the 1.11.0 rule holds — a wrong label is worse than no pin). The
+  diagnostic now also samples the NAMES it left behind, so the next tail is
+  readable evidence rather than another guess. +5 tests.
 - 2026-07-25 1.13.0 "Thin cards now tell you something" (a CAPABILITY) BUILT on
   staging. The OTHER half of the bare-card problem (1.12.0 was the user's own
   words; this is what the app already knows but wasn't showing). mapview
