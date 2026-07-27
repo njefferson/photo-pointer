@@ -1,0 +1,911 @@
+{
+  "source": {
+    "source": "usanpn",
+    "name": "USA National Phenology Network — bloom and leaf-out timing",
+    "license": "public-domain",
+    "attribution": "USA National Phenology Network (usanpn.org) and its volunteer observers",
+    "status": "working",
+    "policy": {
+      "url": "https://www.usanpn.org/about/terms",
+      "maxConcurrency": 1,
+      "minGapMs": 0,
+      "selfIdentifies": true
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 400
+    }
+  },
+  "region": "sac-eldorado-placer",
+  "builtAt": "2026-07-27",
+  "records": [
+    {
+      "name": "apricot in autumn colour",
+      "lat": 38.528275,
+      "lng": -121.47479999999999,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 10 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 11,
+          "day": 3,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "apricot",
+          "kind": "Autumn colour",
+          "records": 10
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:apricot",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "blue elderberry in autumn colour",
+      "lat": 38.72728265217392,
+      "lng": -120.98087995652173,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 69 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 8,
+          "day": 19,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "blue elderberry",
+          "kind": "Autumn colour",
+          "records": 69
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:blue-elderberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "blue oak in autumn colour",
+      "lat": 38.764736204472655,
+      "lng": -120.88902106070191,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 313 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 10,
+          "day": 3,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "blue oak",
+          "kind": "Autumn colour",
+          "records": 313
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:blue-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "California black oak in autumn colour",
+      "lat": 38.64603799999991,
+      "lng": -120.64370000000028,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 182 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 10,
+          "day": 1,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California black oak",
+          "kind": "Autumn colour",
+          "records": 182
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:california-black-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "California buckeye in autumn colour",
+      "lat": 38.76352923780467,
+      "lng": -120.88346906097456,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 328 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 8,
+          "day": 20,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California buckeye",
+          "kind": "Autumn colour",
+          "records": 328
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:california-buckeye",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "Fremont cottonwood in autumn colour",
+      "lat": 38.56248100000002,
+      "lng": -121.39279900000004,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 24 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 9,
+          "day": 14,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "Fremont cottonwood",
+          "kind": "Autumn colour",
+          "records": 24
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:fremont-cottonwood",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "valley oak in autumn colour",
+      "lat": 38.55917865,
+      "lng": -121.40282838333344,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 60 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 10,
+          "day": 2,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "valley oak",
+          "kind": "Autumn colour",
+          "records": 60
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:valley-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "bigleaf lupine in bloom",
+      "lat": 39.184318999999995,
+      "lng": -120.12203200000002,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 18 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 7,
+          "day": 19,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "bigleaf lupine",
+          "kind": "Bloom",
+          "records": 18
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:bigleaf-lupine",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "blue elderberry in bloom",
+      "lat": 38.71041721590912,
+      "lng": -121.0778025909091,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 88 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 5,
+          "day": 12,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "blue elderberry",
+          "kind": "Bloom",
+          "records": 88
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:blue-elderberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "blue oak in bloom",
+      "lat": 38.772153061728424,
+      "lng": -120.88536685185186,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 81 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 4,
+          "day": 16,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "blue oak",
+          "kind": "Bloom",
+          "records": 81
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:blue-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "blueblossom in bloom",
+      "lat": 38.717903,
+      "lng": -121.76145900000003,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 9 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 2,
+          "day": 17,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "blueblossom",
+          "kind": "Bloom",
+          "records": 9
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:blueblossom",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "buckbrush in bloom",
+      "lat": 38.7673260000001,
+      "lng": -120.88548299999938,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 207 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 3,
+          "day": 19,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "buckbrush",
+          "kind": "Bloom",
+          "records": 207
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:buckbrush",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "California black oak in bloom",
+      "lat": 38.68720103448278,
+      "lng": -120.71021337931023,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 58 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 4,
+          "day": 20,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California black oak",
+          "kind": "Bloom",
+          "records": 58
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:california-black-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "California buckeye in bloom",
+      "lat": 38.7385072222222,
+      "lng": -120.87054699176875,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 243 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 5,
+          "day": 11,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California buckeye",
+          "kind": "Bloom",
+          "records": 243
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:california-buckeye",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "California poppy in bloom",
+      "lat": 38.0275426,
+      "lng": -120.39594720000002,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 10 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 6,
+          "day": 25,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California poppy",
+          "kind": "Bloom",
+          "records": 10
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:california-poppy",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "common snowberry in bloom",
+      "lat": 38.795254,
+      "lng": -120.88481099999997,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 13 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 6,
+          "day": 16,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "common snowberry",
+          "kind": "Bloom",
+          "records": 13
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:common-snowberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "Douglas iris in bloom",
+      "lat": 38.545197,
+      "lng": -121.36186199999999,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 8 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 4,
+          "day": 30,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "Douglas iris",
+          "kind": "Bloom",
+          "records": 8
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:douglas-iris",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "interior live oak in bloom",
+      "lat": 38.784673409090914,
+      "lng": -120.90790136363631,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 22 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 4,
+          "day": 25,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "interior live oak",
+          "kind": "Bloom",
+          "records": 22
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:interior-live-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "Pacific dogwood in bloom",
+      "lat": 38.25598125000001,
+      "lng": -120.32716525000004,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 16 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 3,
+          "day": 1,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "Pacific dogwood",
+          "kind": "Bloom",
+          "records": 16
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:pacific-dogwood",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "toyon in bloom",
+      "lat": 38.67370853846152,
+      "lng": -120.69651502197804,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 91 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 6,
+          "day": 15,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "toyon",
+          "kind": "Bloom",
+          "records": 91
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:toyon",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "valley oak in bloom",
+      "lat": 38.562481000000005,
+      "lng": -121.39279899999998,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 17 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 3,
+          "day": 31,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "valley oak",
+          "kind": "Bloom",
+          "records": 17
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:valley-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "Virginia strawberry in bloom",
+      "lat": 39.184318999999995,
+      "lng": -120.12203200000003,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 19 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 7,
+          "day": 19,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "Virginia strawberry",
+          "kind": "Bloom",
+          "records": 19
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:virginia-strawberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "western redbud in bloom",
+      "lat": 38.77315371428572,
+      "lng": -121.13528185714281,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 14 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 3,
+          "day": 21,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "western redbud",
+          "kind": "Bloom",
+          "records": 14
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:western-redbud",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "whiteleaf manzanita in bloom",
+      "lat": 38.64603800000017,
+      "lng": -120.64370000000036,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": "Typically around this date, from 305 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "tags": {
+        "event": {
+          "month": 4,
+          "day": 10,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "whiteleaf manzanita",
+          "kind": "Bloom",
+          "records": 305
+        }
+      },
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:whiteleaf-manzanita",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-07-27",
+          "last_seen": "2026-07-27"
+        }
+      ]
+    }
+  ]
+}
