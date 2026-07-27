@@ -25,7 +25,11 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # Six per-county Overpass queries instead of one region-wide one, and each
+    # can take a couple of minutes when the mirrors are busy. 25 was sized for a
+    # three-county region asking once; it is not enough headroom now, and a job
+    # that dies at the ceiling wastes every query it already made.
+    timeout-minutes: 45
     permissions:
       contents: write
     env:
