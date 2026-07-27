@@ -110,7 +110,60 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## "Version" stamp renders CHANGELOG[0].v. Major (x) is Noah's call. 1.0.0 was
 ## declared at the first full release (2026-07-20).
 
+## Cross-app lessons live in the HUB: `LESSONS.md` in noahjefferson, beside the
+## Doctrine (Noah, 2026-07-27: "create a place to log lessons learned that this
+## and other apps can benefit from instead of learning things repeatedly").
+## Read it every session; APPEND to it whenever something learned here would
+## have saved time in a different app. THIS repo's own LESSONS.md is a different
+## document — the stack contract (build/deploy/vendor conventions).
+
 ## Project facts (append on every release, unprompted)
+- 2026-07-27 PROMOTED 1.18.0 to main (Noah's "Promote"). Production ==
+  origin/main == origin/staging == daaacd9 (a MERGE, not a fast-forward — main
+  carried a tooling-only commit). Ships the two discovery layers with real data.
+- 2026-07-27 WHY ARE PHOTOS TAKEN THERE, AND WHY IS THERE NO PIN — Noah's two
+  questions, and both had answers worth having.
+  (A) THE TITLES WERE ALWAYS IN THE RESPONSE AND WE THREW THEM AWAY. `list=
+  geosearch` returns each file's TITLE alongside its coordinates; the harvester
+  mapped only pageid/lat/lng. Keeping it costs Wikimedia NOTHING and lets a
+  discovered place say what people came for. describeCluster() takes the longest
+  phrase (≤6 words) shared by ≥25% of the files; below that it says nothing.
+  Rendered as EVIDENCE, never as a name: "most are titled something like
+  'X' (43 of 77)" — a recurring phrase can be one photographer's habit.
+  (B) THE HEADLINE RESULT WAS WRONG AND THE TITLES ARE WHAT CAUGHT IT. I had
+  reported "Donner Summit, 376 distinct vantage points" as the layer's best find.
+  It is ONE 360 RIG MOVING: the files are named `<token> with Labpano Pilot One`,
+  and another block `with Suzuki Dl1000` — somebody photographing from a
+  motorcycle. Every frame of a continuous 360 capture lands on its own
+  coordinate, so "distinct coordinates" — which correctly defeats a batch upload
+  geotagged once — is SATURATED BY ONE ACTOR MOVING. THE GENERAL LESSON, now in
+  the hub: when a metric can be saturated by a single actor, find a second
+  INDEPENDENT field that identifies the actor; do not tighten the first metric.
+  isSingleRig() drops a cluster when ≥60% of its files share one device tail or
+  start with the same style of machine token, and NAMES them in the log.
+  MEASURED: 54 discovered → 37 after rejection, and what is left reads right —
+  Folsom Dam, Sand Harbor at Lake Tahoe, Bridgeport Covered Bridge, Dave Moore
+  Nature Area, Spooner Lake, Amador City, Rough and Ready, the Truckee River
+  Legacy Trail, autumn foliage along Brockway Road.
+  (C) WHY THERE IS NO PIN: A STRUCTURAL COVERAGE HOLE, not obscurity. The region
+  is a BBOX (38.0..39.4 / -121.95..-119.85) but the OSM ingest queries by COUNTY
+  (Sacramento, El Dorado, Placer). Everything inside the box and outside those
+  three counties has NO OSM DATA AT ALL. MEASURED: 26 of 43 discoveries sat in
+  ~11 km cells holding fewer than 5 known places, 19 of them in cells with ZERO.
+  The biggest hole is 38.2,-120.4 — nine discoveries, zero known places — which
+  is CALAVERAS COUNTY (Murphys, Arnold, Calaveras Big Trees, Sourgrass on the
+  Stanislaus). Others: Nevada County (Grass Valley / Nevada City / the Yuba),
+  the Nevada shore of Lake Tahoe (Incline Village, Sand Harbor, Spooner), and
+  the delta around Antioch / Rio Vista / Pittsburg. reportCoverageGaps() now
+  PRINTS this on every discovery run. THE FIX IS NOAH'S CALL, not mine: add the
+  counties people demonstrably photograph (Calaveras, Nevada, Amador, and the
+  NV side of Tahoe), or narrow the bbox to the counties we actually ingest.
+  Adding is the better answer — the photographs are proof people go there.
+  STILL JUNK IN THE 37, reported not filtered (a judgement about what counts as
+  a photo destination, his to make): single-uploader DOCUMENTATION sets that are
+  not destinations — botanical specimen series (Chenopodium botrys, Cirsium
+  occidentale), agency archives (NRCS, USFS Pacific Southwest Research Station),
+  "Bear Third Treatment", "Placervillenursery Eldorador5" — and an IKEA.
 - 2026-07-27 1.18.0 "Places nobody wrote down, and dates worth driving for" (a
   CAPABILITY) BUILT on staging. The two layers 1.16.0/1.17.0 shipped EMPTY now
   carry real data, and getting there was four wrong answers in a row — each one
