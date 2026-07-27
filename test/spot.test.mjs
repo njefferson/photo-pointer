@@ -53,7 +53,7 @@ test('out-of-range coordinates are rejected', () => {
 test('category vocabulary is exactly the agreed kinds', () => {
   assert.deepEqual(CATEGORIES, [
     'viewpoint', 'marker', 'oddity', 'park', 'trailhead',
-    'campsite', 'wildlife_hotspot', 'dark_sky', 'event', 'historic_site',
+    'campsite', 'wildlife_hotspot', 'photo_cluster', 'dark_sky', 'event', 'historic_site',
     'summit', 'cave', 'arch', 'notable_tree',
     'archaeological', 'mine', 'shipwreck', 'lookout_tower',
     'nature_reserve', 'public_art',

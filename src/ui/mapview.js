@@ -49,6 +49,9 @@ export const CATEGORY_META = {
   campsite: { label: 'Campsite', letter: 'C', group: 'Parks & access' },
   // — Wildlife, art & events —
   wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W', group: 'Wildlife, art & events' },
+  // Found by photo density rather than by any catalogue — see ingest
+  // commons-clusters. The glyph is a lens, which is literally what it means.
+  photo_cluster: { label: 'Photographed place', letter: '◎', group: 'Wildlife, art & events' },
   public_art: { label: 'Art & murals', letter: 'A', group: 'Wildlife, art & events' },
   oddity: { label: 'Attraction', letter: 'O', group: 'Wildlife, art & events' },
   event: { label: 'Event', letter: 'E', group: 'Wildlife, art & events' },

@@ -13,6 +13,7 @@ export const CATEGORIES = [
   'trailhead',
   'campsite',
   'wildlife_hotspot',
+  'photo_cluster',
   'dark_sky',
   'event',
   'historic_site',
