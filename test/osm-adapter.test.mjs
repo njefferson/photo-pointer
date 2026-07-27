@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES, fetchOverpass, OVERPASS_MAX_ATTEMPTS, GIVE_UP_AFTER, TILE_SERVER_TIMEOUT_S } from '../ingest/adapters/osm-overpass.mjs';
+import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES, fetchOverpass, OVERPASS_MAX_ATTEMPTS, GIVE_UP_AFTER, TILE_SERVER_TIMEOUT_S, freshTiles, tileKey } from '../ingest/adapters/osm-overpass.mjs';
 import { validateSpot } from '../src/model/spot.js';
 import { makeSpot } from '../src/model/spot.js';
 
@@ -197,4 +197,33 @@ test('we ask the server for a minute per tile, not three', () => {
   const q = buildQuery({ bbox: { south: 38, west: -122, north: 39.4, east: -119.8 } });
   assert.match(q, new RegExp(`\\[timeout:${TILE_SERVER_TIMEOUT_S}\\]`),
     'a healthy tile answers in seconds; a struggling server should abandon us quickly');
+});
+
+// DON'T ASK TWICE FOR WHAT THEY ALREADY GAVE US. A run that gives up part-way
+// used to mean the next attempt re-fetched every tile that had already answered
+// — asking a service we had just decided was struggling to redo its own work.
+test('a re-run only asks about the tiles that are actually missing', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 38.7, east: -121.3 }, counties: [] };
+  const tiles = bboxTiles(region.bbox);
+  const cache = {
+    [tileKey(tiles[0])]: { at: new Date().toISOString(), elements: [
+      { type: 'node', id: 7, lat: 38.1, lon: -121.9, tags: { tourism: 'viewpoint', name: 'Already have this' } },
+    ] },
+  };
+  const asked = [];
+  const fetchFn = async (_u, opts) => {
+    asked.push(decodeURIComponent(opts.body).match(/\[bbox:([^\]]+)\]/)[1]);
+    return { ok: true, status: 200, json: async () => ({ elements: [] }) };
+  };
+  const out = await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {}, cache });
+  assert.equal(asked.length, tiles.length - 1, 'the cached tile is not requested again');
+  assert.ok(out.some((r) => r.name === 'Already have this'), 'but its places are still in the result');
+});
+
+test('a stale cache entry is asked for again rather than trusted forever', () => {
+  const tiles = bboxTiles({ south: 38, west: -122, north: 38.7, east: -121.3 });
+  const old = new Date(Date.now() - 48 * 3600e3).toISOString();
+  const { have, todo } = freshTiles({ [tileKey(tiles[0])]: { at: old } }, tiles);
+  assert.equal(have.size, 0, 'two days old is not "we already have it"');
+  assert.equal(todo.length, tiles.length);
 });
