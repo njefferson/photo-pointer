@@ -494,23 +494,7 @@ async function cmdCommonsClusters(id) {
   }
   const pts = input.points.map(([lat, lng]) => ({ lat, lng }));
   const clusters = commons.clusterPoints(pts);
-  // Drop anything a known spot already explains.
-  const CELL = 0.008;
-  const grid = new Map();
-  for (const sp of doc.spots) {
-    const k = `${Math.round(sp.lat / CELL)}:${Math.round(sp.lng / CELL)}`;
-    (grid.get(k) ?? grid.set(k, []).get(k)).push(sp);
-  }
-  const near = (c) => {
-    const clat = Math.round(c.lat / CELL), clng = Math.round(c.lng / CELL);
-    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
-      for (const sp of grid.get(`${clat + dy}:${clng + dx}`) ?? []) {
-        if (distanceM(c, sp) <= commons.CLUSTER_MIN_DISTANCE_M) return sp;
-      }
-    }
-    return null;
-  };
-  const fresh = clusters.filter((c) => !near(c));
+  const fresh = commons.unexplainedBy(clusters, doc.spots);
   log(`commons-clusters: ${clusters.length} photo clusters, ${clusters.length - fresh.length} already explained by a known spot`);
   if (!fresh.length) {
     log(`commons-clusters: nothing undiscovered in ${region.id} — skipping`);

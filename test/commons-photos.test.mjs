@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord, unexplainedBy } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -214,4 +214,19 @@ test('the density threshold is a deliberate value, not an accident', () => {
   assert.equal(CLUSTER_MIN_DISTANCE_M, 400);
   // One viewpoint, not one town.
   assert.ok(CLUSTER_CELL_DEG > 0.002 && CLUSTER_CELL_DEG < 0.006);
+});
+
+// A discovery pass must be able to run twice. The second real run found its 43
+// discoveries, decided each was "already explained" by the pin it had created
+// for it on the first run, and committed an empty layer that deleted all 128.
+test('the pass does not count its own previous pins as prior knowledge', () => {
+  const cluster = { lat: 38.9, lng: -120.9, photos: 40, spots: 40 };
+  const ownPin = { lat: 38.9, lng: -120.9, category: 'photo_cluster' };
+  const realSpot = { lat: 38.9, lng: -120.9, category: 'viewpoint' };
+  assert.equal(unexplainedBy([cluster], [ownPin]).length, 1,
+    'our own pin from last time is not a reason to forget the place');
+  assert.equal(unexplainedBy([cluster], [realSpot]).length, 0,
+    'but a place some other source already lists genuinely is');
+  assert.equal(unexplainedBy([cluster], [{ lat: 39.9, lng: -120.9, category: 'viewpoint' }]).length, 1,
+    'and a catalogued place 100 km away explains nothing');
 });

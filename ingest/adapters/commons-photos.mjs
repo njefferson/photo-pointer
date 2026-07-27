@@ -228,6 +228,32 @@ export function clusterPoints(points, {
   return mergeAdjacent(found, mergeM);
 }
 
+// Which clusters nothing in our data already explains.
+//
+// PINS THIS PASS MADE LAST TIME ARE NOT PRIOR KNOWLEDGE. Counting them makes the
+// layer erase itself: the second real run found its 43 discoveries, decided each
+// was already explained by the pin it had created for it, and wrote an empty
+// layer that deleted all 128. A discovery pass must be able to run twice.
+export function unexplainedBy(clusters, spots, withinM = CLUSTER_MIN_DISTANCE_M) {
+  const CELL = 0.008;
+  const grid = new Map();
+  for (const sp of spots) {
+    if (sp.category === 'photo_cluster') continue;
+    const k = `${Math.round(sp.lat / CELL)}:${Math.round(sp.lng / CELL)}`;
+    (grid.get(k) ?? grid.set(k, []).get(k)).push(sp);
+  }
+  const explained = (c) => {
+    const a = Math.round(c.lat / CELL), b = Math.round(c.lng / CELL);
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+      for (const sp of grid.get(`${a + dy}:${b + dx}`) ?? []) {
+        if (distanceM(c, sp) <= withinM) return true;
+      }
+    }
+    return false;
+  };
+  return clusters.filter((c) => !explained(c));
+}
+
 // A grid is arbitrary, and a big subject straddles it. Four cells in a row along
 // the Sacramento delta were four pins on one stretch of the same river. Anything
 // closer together than we require a cluster to be from a KNOWN place has no
