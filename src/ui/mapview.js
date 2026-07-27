@@ -5,7 +5,7 @@ import * as L from '../vendor/leaflet.js';
 import { el, toast } from './dom.js';
 import { addUserPin, removeUserPin, restoreUserPin, isFavorite, toggleFavorite, noteFor, setNote } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
-import { moonTonight } from '../model/tonight.js';
+import { moonTonight, milkyWayTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
 import { airToday } from '../model/airquality.js';
 import { tidesToday, formatTides } from '../model/tides.js';
@@ -545,6 +545,20 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     } else if (t.astroNight) {
       rows.push(el('tr', {}, [el('th', { scope: 'row' }, 'Moon up'), el('td', {}, 'all night — bright')]));
     }
+    // THE MILKY WAY CORE. The dark window says when it is dark; this says whether
+    // the thing you came for is actually above the horizon, how high it gets, and
+    // which way to point. For most of autumn and winter the honest answer is
+    // "not tonight", which is worth as much as a yes — it saves the drive.
+    const mw = milkyWayTonight(spot.lat, spot.lng);
+    if (mw) {
+      rows.push(el('tr', { class: mw.visible ? 'light-mark' : '' }, [
+        el('th', { scope: 'row' }, 'Milky Way'),
+        el('td', {}, mw.visible
+          ? `${compass(mw.azimuthAtPeak)} ${mw.maxAltitude}° up · ${clock(mw.start)} – ${clock(mw.end)}`
+            + (mw.moonFree ? '' : ' (moonlit)')
+          : 'core below the horizon tonight'),
+      ]));
+    }
     const sky = el('td', {}, 'checking…');
     rows.push(el('tr', {}, [el('th', { scope: 'row' }, 'Sky tonight'), sky]));
 
@@ -905,7 +919,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       // The astro/weather readout is long — collapse it so the card is short and
       // opens at the top (no manual scroll-up). Tap to expand when planning.
       el('details', { class: 'popup-more' }, [
-        el('summary', {}, 'Tides, sun & moon ▾'),
+        el('summary', {}, 'Tides, sun, moon & Milky Way ▾'),
         lightSection(spot),
         tideLine(spot),
         flowLine(spot),

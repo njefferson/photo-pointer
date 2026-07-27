@@ -36,6 +36,7 @@ import * as nrhp from './adapters/nrhp.mjs';
 import * as ridb from './adapters/ridb.mjs';
 import * as padus from './adapters/padus.mjs';
 import * as commons from './adapters/commons-photos.mjs';
+import * as phenology from './adapters/phenology.mjs';
 import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -464,6 +465,23 @@ async function saveCommonsPoints(regionId, images) {
 // the harvest already kept — NO network at all — clusters them, and drops every
 // cluster a known spot already explains. What survives is, by construction,
 // somewhere our catalogues missed.
+// Bloom and autumn-colour timing as dated events (USA-NPN, volunteer records).
+async function cmdPhenology(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const records = await phenology.ingest(region, { today, log });
+  if (records.length === 0) {
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'phenology.json'))) {
+      console.error('phenology: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`phenology: none for ${region.id} — skipping`);
+    return;
+  }
+  await writeSource(P.sourcesDir, 'phenology.json', phenology.meta, region, records);
+  log(`[${region.id}] ${records.length} bloom/colour events`);
+}
+
 async function cmdCommonsClusters(id) {
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
@@ -688,6 +706,7 @@ const commands = {
   inaturalist: cmdINaturalist,
   commons: cmdCommons,
   'commons-clusters': cmdCommonsClusters,
+  phenology: cmdPhenology,
   markers: cmdMarkers,
   curiosities: cmdCuriosities,
   gnis: cmdGnis,
