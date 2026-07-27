@@ -81,6 +81,21 @@ offline-first, no account. No Instagram, no social scraping, ever.
       tags.bortle per spot, auto-activating the darkSky synthesis signal.
       (Rejected: djlorenz = permission-required; lightpollutionmap = not
       redistributable; NASA VIIRS = CC0 but radiance, not sky-brightness.)
+- [ ] UNDO / REDO across filter changes (Noah, 2026-07-27: "I think an undo/redo
+      is needed and that can be added to the roadmap"). SHIPPED IN 1.19.0 IS ONE
+      STEP ONLY: the toolbar Show all / Hide all button turns into "Restore"
+      immediately after a bulk change and puts back the set it replaced, and the
+      offer retires the moment any other filter changes so a stale set can never
+      come back. That covers the case that actually stings — realising Hide all
+      threw away a set you had built up. THE GENERAL THING is a small history
+      stack over the whole filter state (pin types, layers, distance, search,
+      hidden places) with undo and redo, which is a different shape: it needs a
+      single funnel every filter change passes through (applyVisible /
+      applyLayers / distance / search are separate today), a bounded stack, and
+      a decision about whether hiding a PLACE belongs on the same stack as
+      hiding a TYPE. Worth doing properly rather than bolting more one-step
+      memories onto individual buttons.
+
 - [ ] ACCESSIBILITY: convert type sizing from px to rem so the app honours the
       reader's DEFAULT FONT SIZE, not just page zoom. Noah's call, 2026-07-26,
       after 1.15.1 fixed the place cards. MEASURED: styles.css carries 90

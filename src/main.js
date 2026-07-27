@@ -97,9 +97,38 @@ function currentLayers() {
 }
 
 // Category toggle → persist + re-apply everywhere.
-function applyVisible(v) {
+// The set the last bulk Show-all / Hide-all replaced, so that button can offer
+// to put it back. Any OTHER change to what is showing clears it — restoring a
+// set the reader has since edited would be worse than not offering at all.
+let bulkPrev = null;
+
+function applyVisible(v, { bulk = false } = {}) {
+  if (!bulk) bulkPrev = null;
   setActiveFilters(v);
   applyFilters();
+}
+
+// UNDO SITS BESIDE THE ACTION, NOT ON TOP OF IT. The first build of this made
+// the one button read "Restore" straight after a bulk change — and the app's own
+// filters smoke caught what that costs: having pressed Show all, there was no
+// longer a one-tap way to Hide all, because the button had been taken over by
+// its own undo. The bulk toggle now always offers the bulk action, and a
+// separate Restore appears next to it only while there is something to put back.
+// (A general undo/redo across every filter is on the roadmap.)
+function bulkToggleLabel() {
+  return currentVisible().size === allCategories().size ? 'Hide all' : 'Show all';
+}
+
+function bulkToggle() {
+  const before = new Set(currentVisible());
+  const goingDark = before.size === allCategories().size;
+  bulkPrev = before;
+  applyVisible(goingDark ? new Set() : allCategories(), { bulk: true });
+}
+
+function restoreBulk() {
+  const back = bulkPrev;
+  if (back) applyVisible(back); // applyVisible clears the offer — one step, not a loop
 }
 
 // "Must have" layer toggle → persist + re-apply everywhere.
@@ -160,11 +189,12 @@ function refreshViews() {
 function renderHeader() {
   const visible = currentVisible();
   const layers = currentLayers();
-  const allOn = visible.size === allCategories().size;
+  // Two controls that look alike must not have different rules — the in-panel
+  // one and the toolbar one are the same button in two places.
   const allToggle = el('button', {
     class: 'chip chip-all',
-    onClick: () => applyVisible(allOn ? new Set() : allCategories()),
-  }, allOn ? 'Hide all' : 'Show all');
+    onClick: () => bulkToggle(),
+  }, bulkToggleLabel());
   const chipFor = (cat, meta) =>
     el('button', {
       class: `chip chip-${cat}${visible.has(cat) ? ' on' : ''}`,
@@ -318,6 +348,24 @@ function renderHeader() {
       : null,
     searchRow,
     el('div', { class: 'bar-actions' }, [
+      // Showing or hiding everything is the most-used filter action there is; it
+      // should not require opening the filter panel first (Noah, 2026-07-27).
+      el('button', {
+        class: 'data-btn',
+        title: 'Show or hide every place type',
+        onClick: () => bulkToggle(),
+      }, bulkToggleLabel()),
+      // Only while there IS something to put back. It disappears the moment any
+      // other filter changes, because restoring a set the reader has since
+      // edited would be worse than not offering.
+      bulkPrev
+        ? el('button', {
+            class: 'data-btn',
+            'aria-label': 'Restore the place types that were showing before',
+            title: 'Put back the place types you had showing',
+            onClick: () => restoreBulk(),
+          }, '↺ Restore')
+        : null,
       filtersToggle,
       el('div', { class: 'view-toggle', role: 'group', 'aria-label': 'Map or list view' }, [
         el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
