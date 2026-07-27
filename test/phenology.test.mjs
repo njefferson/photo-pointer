@@ -1,7 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  summarize, toEvent, classifyPhenophase, dayOfYearToDate, typicalDayOfYear, REQUEST_SOURCE, MIN_RECORDS, meta, buildUrl,
+  summarize, toEvent, classifyPhenophase, dayOfYearToDate, typicalDayOfYear, REQUEST_SOURCE, MIN_RECORDS, meta,
+  buildBody, endpoint, yearWindows, ingest,
 } from '../ingest/adapters/phenology.mjs';
 import { makeSpot, validateSpot } from '../src/model/spot.js';
 
@@ -66,16 +67,67 @@ test('we self-identify, which is the one thing their terms actually require', ()
 // box x1/y1 and x2/y2, but x is LATITUDE and y is LONGITUDE — the opposite of
 // every other adapter here. Getting it backwards returns HTTP 200 with zero
 // records, which reads exactly like "no data in this region".
+const REGION = { bbox: { south: 38.2, west: -121.6, north: 39.4, east: -119.9 } };
+
 test('the bounding box is sent as lat/lng, not the x/y the names suggest', () => {
-  const region = { bbox: { south: 38.2, west: -121.6, north: 39.4, east: -119.9 } };
-  const q = new URL(buildUrl('https://example.test', region,
-    { startDate: '2021-01-01', endDate: '2025-12-31' })).searchParams;
+  const q = buildBody(REGION, { startDate: '2021-01-01', endDate: '2021-12-31' });
   assert.equal(q.get('bottom_left_x1'), '38.2', 'x1 carries the SOUTH LATITUDE');
   assert.equal(q.get('bottom_left_y1'), '-121.6', 'y1 carries the WEST LONGITUDE');
   assert.equal(q.get('upper_right_x2'), '39.4');
   assert.equal(q.get('upper_right_y2'), '-119.9');
-  // Dates are a real range, not the year[] array a first guess reached for.
   assert.equal(q.get('start_date'), '2021-01-01');
-  assert.equal(q.get('end_date'), '2025-12-31');
+  assert.equal(q.get('end_date'), '2021-12-31');
   assert.ok(q.get('request_src').includes('photo-pointer'));
+});
+
+// Each of these three cost a real runner cycle, because getting any of them
+// wrong is answered HTTP 200 with `[]` — indistinguishable from "no data here".
+test('one window per calendar year, never a single multi-year range', () => {
+  const w = yearWindows(2026, 5);
+  assert.equal(w.length, 5);
+  assert.deepEqual(w[0], { year: 2021, startDate: '2021-01-01', endDate: '2021-12-31' });
+  assert.equal(w.at(-1).year, 2025, 'the current year is incomplete, so it is left out');
+  for (const s of w) assert.equal(s.startDate.slice(0, 4), s.endDate.slice(0, 4));
+});
+
+test('the request is a POST with a form body, not a GET with a query string', async () => {
+  const seen = [];
+  const fetchFn = async (url, opts) => {
+    seen.push({ url, opts });
+    return { ok: true, status: 200, json: async () => [] };
+  };
+  await ingest(REGION, {
+    fetchFn, log: () => {}, sleep: async () => {},
+    bases: ['https://example.test/npn_portal'],
+    windows: [{ year: 2024, startDate: '2024-01-01', endDate: '2024-12-31' }],
+  });
+  assert.ok(seen.length >= 1);
+  const { url, opts } = seen[0];
+  assert.equal(url, endpoint('https://example.test/npn_portal'));
+  assert.equal(url.includes('?'), false, 'the parameters belong in the body');
+  assert.equal(opts.method, 'POST');
+  assert.equal(opts.headers['Content-Type'], 'application/x-www-form-urlencoded');
+  assert.ok(opts.body.includes('request_src=photo-pointer'));
+  assert.ok(opts.headers['User-Agent']);
+});
+
+test('records from every year are pooled before a date is decided', async () => {
+  const byYear = { 2023: 100, 2024: 110 };
+  const fetchFn = async (_url, opts) => {
+    const year = new URLSearchParams(opts.body).get('start_date').slice(0, 4);
+    return { ok: true, status: 200, json: async () => Array.from({ length: 5 }, () => row({
+      day_of_year: byYear[year], latitude: 38.9, longitude: -120.9 })) };
+  };
+  const out = await ingest(REGION, {
+    fetchFn, log: () => {}, sleep: async () => {},
+    bases: ['https://example.test/npn_portal'],
+    windows: [
+      { year: 2023, startDate: '2023-01-01', endDate: '2023-12-31' },
+      { year: 2024, startDate: '2024-01-01', endDate: '2024-12-31' },
+    ],
+  });
+  // 5 records a year is under MIN_RECORDS; 10 across two years clears it, which
+  // is the whole reason we ask for several years rather than the latest one.
+  assert.equal(out.length, 1);
+  assert.equal(out[0].tags.phenology.records, 10);
 });

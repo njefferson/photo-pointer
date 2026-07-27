@@ -49,8 +49,8 @@ export const REQUEST_SOURCE = 'photo-pointer (https://github.com/njefferson/phot
 // Endpoint candidates, probed in order. The PAD-US lesson: a guessed service URL
 // costs a whole runner cycle, so try rather than bet, and fail loudly and by name.
 export const BASE_CANDIDATES = [
-  'https://www.usanpn.org/npn_portal',
   'https://services.usanpn.org/npn_portal',
+  'https://www.usanpn.org/npn_portal',
 ];
 
 // Phenophases we care about photographically. NPN tracks dozens (breaking leaf
@@ -159,9 +159,9 @@ export function toEvent(s, today) {
 // `c(lower_left_lat, lower_left_long, upper_right_lat, upper_right_long)`.
 // Passing them the obvious way round returns HTTP 200 with zero records, which
 // looks exactly like "this region has no data" — it cost a runner cycle.
-export function buildUrl(base, region, { startDate, endDate }) {
+export function buildBody(region, { startDate, endDate }) {
   const b = region.bbox;
-  const p = new URLSearchParams({
+  return new URLSearchParams({
     // request_src is what USA-NPN's terms actually ask of us: say who is calling.
     request_src: REQUEST_SOURCE,
     climate_data: '0',
@@ -172,13 +172,38 @@ export function buildUrl(base, region, { startDate, endDate }) {
     upper_right_x2: String(b.north),
     upper_right_y2: String(b.east),
   });
-  return `${base}/observations/getObservations.json?${p.toString()}`;
 }
 
-async function getJson(url, fetchFn, wait) {
+export function endpoint(base) {
+  return `${base}/observations/getObservations.json`;
+}
+
+// A YEAR AT A TIME. Their own client loops per calendar year and sends a
+// start_date/end_date inside that year; one range spanning five years is not a
+// query they answer, it is a query they ignore. That distinction is invisible
+// from the outside — both come back HTTP 200 with `[]`.
+export function yearWindows(thisYear, count = 5) {
+  const out = [];
+  for (let y = thisYear - count; y < thisYear; y++) {
+    out.push({ year: y, startDate: `${y}-01-01`, endDate: `${y}-12-31` });
+  }
+  return out;
+}
+
+// POST WITH A FORM BODY, not GET with a query string. Confirmed against their R
+// client (`req_method("POST")` + `req_body_form()`). A GET is answered 200 with
+// an empty array — the exact shape of "this region has no data", which is how
+// two runner cycles were spent believing a wrong request was a true zero.
+async function postJson(url, body, fetchFn, wait) {
   for (let attempt = 0; attempt < 3; attempt++) {
     const res = await fetchFn(url, {
-      headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
+      method: 'POST',
+      headers: {
+        'User-Agent': USER_AGENT,
+        Accept: 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: body.toString(),
       signal: AbortSignal.timeout(120000),
     });
     if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 5000 })); continue; }
@@ -191,29 +216,41 @@ async function getJson(url, fetchFn, wait) {
 
 export async function ingest(region, {
   fetchFn = fetch, today = new Date().toISOString().slice(0, 10), log = () => {},
-  sleep, bases = BASE_CANDIDATES, years,
+  sleep, bases = BASE_CANDIDATES, windows,
 } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
-  const thisYear = new Date().getUTCFullYear();
-  const range = years ?? { startDate: `${thisYear - 5}-01-01`, endDate: `${thisYear - 1}-12-31` };
-  let rows = null; const tried = [];
-  for (const base of bases) {
-    const url = buildUrl(base, region, range);
+  const spans = windows ?? yearWindows(new Date().getUTCFullYear());
+
+  // Find an endpoint that answers at all, using the first year as the probe.
+  let base = null; const tried = [];
+  for (const cand of bases) {
     try {
-      rows = await getJson(url, fetchFn, wait);
-      const n = Array.isArray(rows) ? rows.length : 0;
-      log(`phenology: ${base} answered with ${n} records`);
-      // A 200 carrying nothing is the shape a WRONG QUERY takes, not just an
-      // empty region — so print the query that produced it rather than leaving
-      // a silent zero to be read as fact.
-      if (!n) log(`phenology: zero records — the query was ${url}`);
-      break;
-    } catch (e) { tried.push(`${base}: ${e.message}`); }
+      await postJson(endpoint(cand), buildBody(region, spans[0]), fetchFn, wait);
+      base = cand; break;
+    } catch (e) { tried.push(`${cand}: ${e.message}`); }
     await wait(meta.pacing.gapMs);
   }
-  if (!rows) throw new Error(`phenology: no endpoint answered — ${tried.join(' | ')}`);
+  if (!base) throw new Error(`phenology: no endpoint answered — ${tried.join(' | ')}`);
 
-  const inRegion = (Array.isArray(rows) ? rows : []).filter((r) =>
+  const rows = [];
+  for (const span of spans) {
+    const got = await postJson(endpoint(base), buildBody(region, span), fetchFn, wait);
+    const n = Array.isArray(got) ? got.length : 0;
+    log(`phenology: ${span.year} → ${n} records`);
+    // SHOW THE SHAPE OF THE FIRST ROW ONCE. I cannot reach this API from the
+    // sandbox, so the field names here are read from their docs, not measured —
+    // print them so the next run says whether they are right instead of leaving
+    // a silent zero to be read as fact.
+    if (n && !rows.length) log(`phenology: a record looks like ${JSON.stringify(Object.keys(got[0]))}`);
+    if (n) rows.push(...got);
+    await wait(meta.pacing.gapMs);
+  }
+  if (!rows.length) {
+    log(`phenology: zero records across ${spans.length} years — the request was `
+      + `POST ${endpoint(base)} with ${buildBody(region, spans[0])}`);
+  }
+
+  const inRegion = rows.filter((r) =>
     inBBox(Number(r.latitude), Number(r.longitude), region.bbox));
   const summaries = summarize(inRegion);
   log(`phenology: ${inRegion.length} usable records → ${summaries.length} species with enough to date`);
