@@ -831,8 +831,16 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       return `${c.photos}${cap} freely-licensed photos taken near here.`;
     }
     const n = c.spots ?? c.photos;
+    const subj = spot.tags?.subject;
+    // What people TITLED their own photographs, where enough of them agree. Said
+    // as the observation it is — the phrase is evidence, not a name we are
+    // claiming for the place, because a recurring phrase can be a photographer's
+    // habit as easily as a landmark.
+    const of = subj
+      ? ` Most are titled something like “${subj.subject}” (${subj.files} of ${subj.of}).`
+      : '';
     return `Nothing we know of is listed here, but cameras have been set down in `
-      + `${n} different places within a few hundred metres — ${c.photos}${cap} photographs in all.`;
+      + `${n} different places within a few hundred metres — ${c.photos}${cap} photographs in all.${of}`;
   }
 
   function commonsNearUrl(spot) {

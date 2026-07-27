@@ -77,7 +77,10 @@ export async function geosearchTile(lat, lng, { fetchFn = fetch, sleep, radius =
       if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 3000 })); continue; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const j = await res.json();
-      return (j?.query?.geosearch ?? []).map((g) => ({ pageid: g.pageid, lat: g.lat, lng: g.lon }));
+      // The TITLE comes back in the same response, free. Keeping it is what lets
+      // a discovered place say what people came to photograph, instead of being
+      // an anonymous dot — and it costs Wikimedia nothing extra.
+      return (j?.query?.geosearch ?? []).map((g) => ({ pageid: g.pageid, lat: g.lat, lng: g.lon, title: g.title }));
     } catch (e) {
       if (attempt === 3) throw new Error(`commons geosearch: ${e.message}`);
       await wait(1500 * (attempt + 1));
@@ -109,7 +112,7 @@ export async function harvestAroundSpots(spots, { fetchFn = fetch, log = () => {
   const probe = async (s) => {
     // Only the counting radius is needed here, not the 10 km tile radius.
     const hits = await geosearchTile(s.lat, s.lng, { fetchFn, sleep, radius: RADIUS_M, limit: TILE_LIMIT });
-    for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng });
+    for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng, title: h.title });
   };
 
   let idx = 0, done = 0;
@@ -160,7 +163,7 @@ export async function harvestBBox(bbox, { fetchFn = fetch, log = () => {}, sleep
       const c = centers[idx++];
       try {
         const hits = await geosearchTile(c.lat, c.lng, { fetchFn, sleep });
-        for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng });
+        for (const h of hits) images.set(h.pageid, { lat: h.lat, lng: h.lng, title: h.title });
       } catch { /* skip a bad tile; others cover the overlap */ }
       done++;
       if (done % 20 === 0) log(`  commons: ${done}/${centers.length} tiles, ${images.size} photos harvested`);
@@ -218,14 +221,109 @@ export function clusterPoints(points, {
     if (!isFinite(lat) || !isFinite(lng)) continue;
     if (isPlaceholderCoord(lat, lng)) continue;
     const key = `${Math.floor(lat / cell)}:${Math.floor(lng / cell)}`;
-    const c = cells.get(key) ?? cells.set(key, { n: 0, sLat: 0, sLng: 0, seen: new Set() }).get(key);
+    const c = cells.get(key) ?? cells.set(key, { n: 0, sLat: 0, sLng: 0, seen: new Set(), titles: [] }).get(key);
     c.n++; c.sLat += lat; c.sLng += lng; c.seen.add(`${lat},${lng}`);
+    if (p.title) c.titles.push(p.title);
   }
   const found = [...cells.values()]
-    .map((c) => ({ lat: c.sLat / c.n, lng: c.sLng / c.n, photos: c.n, spots: c.seen.size }))
+    .map((c) => ({ lat: c.sLat / c.n, lng: c.sLng / c.n, photos: c.n, spots: c.seen.size, titles: c.titles }))
     .filter((c) => c.spots >= minPhotos)
     .sort((a, b) => b.spots - a.spots);
   return mergeAdjacent(found, mergeM);
+}
+
+// WHAT ARE THE PHOTOGRAPHS OF? A discovered place is, by construction, one we
+// have no name for — but the people who went there named their own files, and
+// those titles come back in the geosearch response we already make. Where a
+// phrase recurs across many separate files, that phrase is what they came for.
+//
+// This is EVIDENCE, NOT A NAME. It is reported as "photos here are titled things
+// like X", never assigned as the place's name, because a recurring phrase can
+// just as easily be a photographer's habit as a landmark. The app says what was
+// observed and lets the reader draw the conclusion.
+
+// Words that recur across photo titles without saying anything about the place.
+const NOISE = new Set([
+  'file', 'jpg', 'jpeg', 'png', 'tif', 'tiff', 'gif', 'svg', 'webp',
+  'the', 'a', 'an', 'of', 'in', 'at', 'on', 'from', 'and', 'near', 'by', 'to',
+  'ca', 'usa', 'us', 'california', 'nevada', 'county', 'photo', 'photos',
+  'img', 'dsc', 'image', 'view', 'looking',
+]);
+
+export function titleWords(title) {
+  return String(title ?? '')
+    .replace(/^File:/i, '')
+    .replace(/\.[a-z0-9]{2,5}$/i, '')
+    .replace(/[_\-]+/g, ' ')
+    .replace(/[^\p{L}\p{N} ]+/gu, ' ')
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((w) => w && !/^\d+$/.test(w) && !NOISE.has(w));
+}
+
+// The longest phrase (up to six words — long enough for "Calaveras Big Trees
+// State Park") that appears in the most titles, provided enough of them share
+// it. A phrase in one file out of eighty is one person's filename, not a
+// subject.
+export const SUBJECT_MIN_SHARE = 0.25;
+
+export function describeCluster(titles, { minShare = SUBJECT_MIN_SHARE } = {}) {
+  const seqs = (titles ?? []).map(titleWords).filter((w) => w.length);
+  if (seqs.length < 4) return null;
+  const counts = new Map();
+  for (const words of seqs) {
+    // Count each phrase ONCE per file, or a title that repeats a word wins by
+    // repetition rather than by agreement between photographers.
+    const here = new Set();
+    for (let n = 6; n >= 1; n--) {
+      for (let i = 0; i + n <= words.length; i++) here.add(words.slice(i, i + n).join(' '));
+    }
+    for (const phrase of here) counts.set(phrase, (counts.get(phrase) ?? 0) + 1);
+  }
+  const need = Math.max(3, Math.ceil(seqs.length * minShare));
+  let best = null;
+  for (const [phrase, n] of counts) {
+    if (n < need) continue;
+    const words = phrase.split(' ').length;
+    // Prefer the most specific phrase that still clears the bar; break ties on
+    // how many files agree.
+    if (!best || words > best.words || (words === best.words && n > best.n)) {
+      best = { phrase, n, words };
+    }
+  }
+  if (!best) return null;
+  return {
+    subject: best.phrase.replace(/\b\p{L}/gu, (c) => c.toUpperCase()),
+    files: best.n,
+    of: seqs.length,
+  };
+}
+
+// Fetch titles for the clusters we are actually going to publish — one small
+// geosearch each, at the published pacing. Deliberately AFTER the "nothing else
+// explains this" filter: asking about 43 places we will keep is proportionate;
+// asking about 88 to throw half away is not. Skipped entirely when the harvest
+// already kept titles (it does now), so this is a one-time catch-up for
+// coordinate files gathered before that.
+export async function fetchClusterTitles(clusters, {
+  fetchFn = fetch, log = () => {}, sleep, gap = WIKIMEDIA_MIN_GAP_MS, radius = 350,
+} = {}) {
+  const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
+  const out = [];
+  for (const c of clusters) {
+    let titles = [];
+    try {
+      const hits = await geosearchTile(c.lat, c.lng, { fetchFn, sleep, radius, limit: TILE_LIMIT });
+      titles = hits.map((h) => h.title).filter(Boolean);
+    } catch (e) {
+      // A place we could not ask about simply goes unnamed. It is still a real
+      // cluster; we just do not get to say what the photographs are of.
+      log(`  commons: no titles for ${c.lat.toFixed(4)},${c.lng.toFixed(4)} — ${e.message}`);
+    }
+    out.push({ ...c, titles });
+    await wait(gap);
+  }
+  return out;
 }
 
 // Which clusters nothing in our data already explains.
@@ -268,6 +366,7 @@ export function mergeAdjacent(clusters, withinM = CLUSTER_MIN_DISTANCE_M) {
     near.lng = (near.lng * near.photos + c.lng * c.photos) / total;
     near.photos = total;
     near.spots += c.spots;
+    near.titles = [...(near.titles ?? []), ...(c.titles ?? [])];
   }
   return out.sort((a, b) => b.spots - a.spots);
 }

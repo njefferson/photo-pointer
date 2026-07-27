@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord, unexplainedBy } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord, unexplainedBy, describeCluster, titleWords } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -13,7 +13,7 @@ test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async (
   };
   const hits = await geosearchTile(38.6, -121.3, { fetchFn, sleep: () => Promise.resolve() });
   assert.equal(hits.length, 2);
-  assert.deepEqual(hits[0], { pageid: 1, lat: 38.6, lng: -121.3 });
+  assert.deepEqual(hits[0], { pageid: 1, lat: 38.6, lng: -121.3, title: undefined });
   assert.match(url, /gsradius=10000/);
   assert.match(url, /gsnamespace=6/);
 });
@@ -35,7 +35,7 @@ test('harvestBBox dedups photos across overlapping tiles by pageid', async () =>
   const imgs = await harvestBBox({ south: 38.0, west: -121.95, north: 39.4, east: -119.85 },
     { fetchFn, sleep: () => Promise.resolve() });
   assert.equal(imgs.length, 2);
-  assert.deepEqual(imgs[0], { lat: 38.5, lng: -121.4 });
+  assert.deepEqual(imgs[0], { lat: 38.5, lng: -121.4, title: undefined });
 });
 
 test('geosearchTile retries then throws on persistent failure', async () => {
@@ -229,4 +229,38 @@ test('the pass does not count its own previous pins as prior knowledge', () => {
     'but a place some other source already lists genuinely is');
   assert.equal(unexplainedBy([cluster], [{ lat: 39.9, lng: -120.9, category: 'viewpoint' }]).length, 1,
     'and a catalogued place 100 km away explains nothing');
+});
+
+// A discovered place has no name by construction — but the people who went
+// there named their own files, and those titles arrive free in the geosearch
+// response we already make. Where a phrase recurs, that is what they came for.
+test('a discovered place is described by what photographers titled their files', () => {
+  const titles = [
+    'File:Calaveras Big Trees State Park - North Grove 2019.jpg',
+    'File:Calaveras Big Trees State Park, giant sequoia.jpg',
+    'File:North Grove, Calaveras Big Trees State Park.jpg',
+    'File:Calaveras Big Trees State Park trail.jpg',
+    'File:DSC_0041 Calaveras Big Trees.jpg',
+    'File:An unrelated barn.jpg',
+  ];
+  const d = describeCluster(titles);
+  assert.equal(d.subject, 'Calaveras Big Trees State Park');
+  assert.equal(d.files, 4);
+  assert.equal(d.of, 6);
+});
+
+test('no agreement between photographers means no claim', () => {
+  assert.equal(describeCluster(['File:a.jpg', 'File:b.jpg', 'File:c.jpg', 'File:d.jpg']), null);
+  assert.equal(describeCluster(['File:Only one.jpg']), null, 'one file is not agreement');
+  // Place words alone must not be the answer, and a repeated word inside ONE
+  // title must not outvote agreement between separate photographers.
+  assert.equal(describeCluster([
+    'File:Lake lake lake lake sunset.jpg', 'File:Barn.jpg', 'File:Fence.jpg', 'File:Road.jpg', 'File:Sky.jpg',
+  ]), null);
+});
+
+test('filenames are stripped to words that could name a place', () => {
+  assert.deepEqual(titleWords('File:Donner_Lake_from_the_summit,_CA_2019.jpg'),
+    ['donner', 'lake', 'summit']);
+  assert.deepEqual(titleWords('File:IMG 20190412 California.JPG'), []);
 });
