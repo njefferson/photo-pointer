@@ -37,6 +37,10 @@ export const meta = {
 // simply what we hold ourselves to when we are the ones asking repeatedly.
 export const OVERPASS_GAP_MS = meta.pacing.gapMs;
 
+// How many tiles in a row may fail before we conclude the service is having a
+// bad time and stop asking altogether.
+export const GIVE_UP_AFTER = 3;
+
 // Ordered rules: first match wins. Each rule = OSM tag selector → category +
 // photographer-intent seeds. Kept as data so curation is a table edit.
 export const TAG_RULES = [
@@ -111,7 +115,7 @@ export function buildQuery(region, rules = TAG_RULES, box = region.bbox) {
     const named = r.namedOnly ? '["name"]' : '';
     return `  nwr["${r.k}"="${r.v}"]${named};`;
   }).join('\n');
-  return `[out:json][timeout:180][bbox:${box.south},${box.west},${box.north},${box.east}];
+  return `[out:json][timeout:${TILE_SERVER_TIMEOUT_S}][bbox:${box.south},${box.west},${box.north},${box.east}];
 (
 ${selectors}
 );
@@ -123,6 +127,11 @@ out center tags;
 // county was 16 minutes, so the unit needs to be well under that. ~0.35° is
 // roughly 39 × 31 km here — small enough to finish, few enough to stay a polite
 // number of requests.
+// What we ask the SERVER to spend on one tile. Measured: a healthy tile answers
+// in 3–14 seconds, so 60 is already generous — and it tells a struggling server
+// to abandon us quickly rather than grind. 180 was sized for a whole region.
+export const TILE_SERVER_TIMEOUT_S = 60;
+
 export const TILE_DEG = 0.35;
 // …but a big region must not turn into hundreds of requests. Yellowstone at
 // 0.35° is 110 tiles; doubling until the count fits keeps every region a polite
@@ -162,45 +171,58 @@ export const USER_AGENT =
 
 import { backoffMs } from './http-etiquette.mjs';
 
-export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_HOSTS, sleepFn = sleep } = {}) {
+// AT MOST TWO ATTEMPTS, AND NEVER ON ANOTHER MIRROR.
+//
+// This used to cycle three mirrors three times — up to NINE requests for one
+// query. MEASURED on the 2026-07-27 run: 11 tiles answered in 3–14 s (median 5),
+// and 8 tiles took 86–739 s. That extra time was not Overpass computing. It was
+// this loop failing, sleeping, and asking the NEXT VOLUNTEER SERVER the same
+// question. One tile spent 333 seconds to be told there was nothing there.
+//
+// A 504 from an overloaded server means "this is too much right now". Asking a
+// different volunteer the identical question is not a retry, it is moving our
+// load onto someone else who is probably also busy — and three of them are all
+// the public Overpass there is. So: one host per attempt, at most two attempts,
+// and if it says no twice we take no for an answer.
+export const OVERPASS_MAX_ATTEMPTS = 2;
+
+export async function fetchOverpass(query, {
+  fetchFn = fetch, hosts = OVERPASS_HOSTS, sleepFn = sleep, host = hosts[0],
+} = {}) {
   let lastErr = null;
-  // Overpass public instances 504/timeout often when busy — that is transient,
-  // so cycle the hosts a few times with backoff before giving up. The job's
-  // timeout-minutes is the hard ceiling if a whole Overpass hour is bad.
-  for (let round = 0; round < 3; round++) {
-    for (const host of hosts) {
-      try {
-        const res = await fetchFn(host, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'User-Agent': USER_AGENT,
-          },
-          body: 'data=' + encodeURIComponent(query),
-          // Per-attempt cap must clear the REAL query time (~180 s healthy)
-          // yet still bail on a mirror that accepted the connection and went
-          // silent. 210 s does both; rounds/hosts handle transient overload.
-          signal: AbortSignal.timeout(210000),
-        });
-        if (res.status === 429 || res.status === 502 || res.status === 503 || res.status === 504) {
-          lastErr = new Error(`${host}: HTTP ${res.status}`);
-          // If the mirror stated how long to wait, wait THAT long — it is the
-          // operator's own terms, and guessing shorter ignores them. Overpass is
-          // volunteer-run; a 429 is an instruction, not an obstacle.
-          await sleepFn(backoffMs(res, round, { base: 20000 }));
-          continue;
-        }
-        if (!res.ok) throw new Error(`${host}: HTTP ${res.status}`);
-        const json = await res.json();
-        if (!Array.isArray(json.elements)) throw new Error(`${host}: no elements array`);
-        return json;
-      } catch (e) {
-        lastErr = e; // network error / timeout — try the next host, then back off
-        await sleepFn(5000 * (round + 1));
+  for (let attempt = 0; attempt < OVERPASS_MAX_ATTEMPTS; attempt++) {
+    try {
+      const res = await fetchFn(host, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'User-Agent': USER_AGENT,
+        },
+        body: 'data=' + encodeURIComponent(query),
+        // Just past the server's own [timeout:] directive, so we stop waiting
+        // shortly after IT has given up rather than holding a connection open
+        // on work that is already abandoned.
+        signal: AbortSignal.timeout(90000),
+      });
+      if (res.status === 429 || res.status === 502 || res.status === 503 || res.status === 504) {
+        lastErr = new Error(`HTTP ${res.status}`);
+        if (attempt + 1 >= OVERPASS_MAX_ATTEMPTS) break;
+        // If the operator stated how long to wait, wait THAT long — it is their
+        // terms, and guessing shorter ignores them. A 429 is an instruction.
+        await sleepFn(backoffMs(res, attempt, { base: 30000 }));
+        continue;
       }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json();
+      if (!Array.isArray(json.elements)) throw new Error('no elements array');
+      return json;
+    } catch (e) {
+      lastErr = e;
+      if (attempt + 1 >= OVERPASS_MAX_ATTEMPTS) break;
+      await sleepFn(15000);
     }
   }
-  throw lastErr ?? new Error('overpass: all hosts failed');
+  throw lastErr ?? new Error('overpass: no answer');
 }
 
 // Normalize one Overpass element to a Spot-shaped record (single provenance
@@ -266,26 +288,50 @@ function keepTags(tags) {
 }
 
 export async function ingest(region, {
-  fetchFn, today, log = () => {}, rules = TAG_RULES, sleepFn = sleep, tileDeg = TILE_DEG, now = () => Date.now(),
+  fetchFn, today, log = () => {}, rules = TAG_RULES, sleepFn = sleep, tileDeg = TILE_DEG,
+  now = () => Date.now(), hostIndex = 0,
 } = {}) {
   const records = [];
   const seen = new Set();   // an element on a tile edge comes back twice; count it once
   const failed = [];
   const tiles = bboxTiles(region.bbox, tileDeg);
+  let consecutive = 0;
+  // ONE host for the whole run. Rotating on failure sprays our load across every
+  // volunteer mirror there is; rotating per RUN spreads the steady load without
+  // ever turning one server's "no" into three servers' problem.
+  const host = OVERPASS_HOSTS[hostIndex % OVERPASS_HOSTS.length];
+  log(`overpass: asking ${host} only (one mirror per run, never on failure)`);
   log(`overpass: ${tiles.length} tiles over the region box, ${rules.length} selectors each`);
   for (const [i, box] of tiles.entries()) {
     const label = `${box.south.toFixed(2)},${box.west.toFixed(2)}`;
     let json;
     const t0 = now();
     try {
-      json = await fetchOverpass(buildQuery(region, rules, box), { fetchFn, sleepFn });
+      json = await fetchOverpass(buildQuery(region, rules, box), { fetchFn, sleepFn, host });
     } catch (e) {
       // A tile that will not answer is NOT an empty tile. Name it, keep the
       // rest — the same rule as a failed Commons probe.
       failed.push(`${label}: ${e.message}`);
+      consecutive += 1;
       log(`  overpass: tile ${i + 1}/${tiles.length} ${label} FAILED — ${e.message}`);
+      // KNOW WHEN TO GO AWAY. If several tiles in a row will not answer, the
+      // service is having a bad time and the considerate response is to stop —
+      // not to grind through the remaining tiles proving it. On 2026-07-27 the
+      // right moment to abandon was tile 2; instead the run spent 45 minutes
+      // and roughly fifty failed requests to end up cancelled anyway.
+      if (consecutive >= GIVE_UP_AFTER) {
+        log(`overpass: ${consecutive} tiles in a row did not answer — Overpass is `
+          + `struggling, so we stop asking. Re-run later; nothing is committed from `
+          + `a partial sweep.`);
+        const err = new Error(`overpass: gave up after ${consecutive} consecutive failures`);
+        err.gaveUp = true;
+        err.partial = records;
+        throw err;
+      }
+      await sleepFn(OVERPASS_GAP_MS);
       continue;
     }
+    consecutive = 0;
     let kept = 0;
     for (const el of json.elements) {
       const key = `${el.type}/${el.id}`;

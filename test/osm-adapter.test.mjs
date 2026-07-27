@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES } from '../ingest/adapters/osm-overpass.mjs';
+import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES, fetchOverpass, OVERPASS_MAX_ATTEMPTS, GIVE_UP_AFTER, TILE_SERVER_TIMEOUT_S } from '../ingest/adapters/osm-overpass.mjs';
 import { validateSpot } from '../src/model/spot.js';
 import { makeSpot } from '../src/model/spot.js';
 
@@ -139,4 +139,62 @@ test('a failing tile is named and the rest of the region still lands', async () 
   assert.ok(out.length >= 1, 'the tiles that answered are not thrown away');
   assert.equal(out.failedTiles.length, 1);
   assert.match(out.failedTiles[0], /504/, 'and the one that failed is named, not silently zero');
+});
+
+// BEING CONSIDERATE IS A GATE, NOT AN INTENTION (Noah, 2026-07-27: "make sure
+// you are not hammering them and making it worse"). MEASURED on the run that
+// prompted it: 11 tiles answered in 3-14 s, and 8 took 86-739 s. That extra time
+// was not Overpass computing — it was the retry loop asking the NEXT VOLUNTEER
+// SERVER the same question. One tile spent 333 seconds to be told there was
+// nothing there.
+test('a refused query is never re-asked on another mirror', async () => {
+  const asked = [];
+  const fetchFn = async (host) => { asked.push(host); return { ok: false, status: 504 }; };
+  await assert.rejects(() => fetchOverpass('q', { fetchFn, sleepFn: async () => {} }));
+  assert.equal(asked.length, OVERPASS_MAX_ATTEMPTS, `at most ${OVERPASS_MAX_ATTEMPTS} attempts, not nine`);
+  assert.equal(new Set(asked).size, 1, "one server's 'no' must not become three servers' problem");
+});
+
+test('a stated Retry-After is waited out rather than guessed at', async () => {
+  const waits = [];
+  const fetchFn = async () => ({ ok: false, status: 429, headers: { get: (k) => (k === 'retry-after' ? '45' : null) } });
+  await assert.rejects(() => fetchOverpass('q', { fetchFn, sleepFn: async (ms) => waits.push(ms) }));
+  assert.deepEqual(waits, [45000], 'their number, not ours');
+});
+
+// The important one. When a service is struggling, the considerate response is
+// to stop asking — not to grind through the remaining tiles proving it.
+test('several failures in a row means stop asking, not keep going', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 }, counties: [] };
+  let calls = 0;
+  const fetchFn = async () => { calls += 1; return { ok: false, status: 504 }; };
+  const err = await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} })
+    .then(() => null, (e) => e);
+  assert.ok(err?.gaveUp, 'the run abandons itself rather than hammering');
+  assert.ok(calls <= GIVE_UP_AFTER * OVERPASS_MAX_ATTEMPTS,
+    `${calls} requests before giving up — must be at most ${GIVE_UP_AFTER * OVERPASS_MAX_ATTEMPTS}`);
+  assert.ok(bboxTiles(region.bbox).length > calls, 'it did NOT work through every tile to prove the point');
+});
+
+test('a run that gives up commits nothing, so a partial sweep never looks complete', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 }, counties: [] };
+  let n = 0;
+  const fetchFn = async () => {
+    n += 1;
+    // One good tile, then the service falls over.
+    if (n === 1) return { ok: true, status: 200, json: async () => ({ elements: [
+      { type: 'node', id: 1, lat: 38.1, lon: -121.9, tags: { tourism: 'viewpoint', name: 'Kept' } },
+    ] }) };
+    return { ok: false, status: 503 };
+  };
+  const err = await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} })
+    .then(() => null, (e) => e);
+  assert.ok(err?.gaveUp);
+  assert.equal(err.partial.length, 1, 'what it did get is attached for the log, but it THROWS');
+});
+
+test('we ask the server for a minute per tile, not three', () => {
+  const q = buildQuery({ bbox: { south: 38, west: -122, north: 39.4, east: -119.8 } });
+  assert.match(q, new RegExp(`\\[timeout:${TILE_SERVER_TIMEOUT_S}\\]`),
+    'a healthy tile answers in seconds; a struggling server should abandon us quickly');
 });

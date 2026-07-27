@@ -127,7 +127,20 @@ async function writeSource(sourcesDir, file, meta, region, records) {
 async function cmdOsm(id) {
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
-  const records = await osm.ingest(region, { today, log });
+  let records;
+  try {
+    records = await osm.ingest(region, { today, log });
+  } catch (e) {
+    // The adapter abandons a sweep when Overpass is clearly struggling. That is
+    // a deliberate stop, not a crash: say so plainly, keep the good data that is
+    // already committed, and exit so nobody reads a partial sweep as the truth.
+    if (e.gaveUp) {
+      console.error(`osm: stopped early to stop asking a struggling service `
+        + `(${e.partial?.length ?? 0} places gathered before that). Nothing written; re-run later.`);
+      process.exit(1);
+    }
+    throw e;
+  }
   if (records.length === 0) {
     console.error('osm: 0 records — refusing to write an empty file over good data');
     process.exit(1);
