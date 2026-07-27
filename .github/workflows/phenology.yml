@@ -1,0 +1,54 @@
+name: Phenology events (bloom + autumn colour timing)
+
+# Turns volunteer phenology records into DATED EVENTS: "California poppy in
+# bloom, typically mid-April". Wildflower peak and autumn colour are the most
+# time-sensitive subjects a photographer plans around, and nothing else in this
+# app answers when to go.
+#
+# Source: USA National Phenology Network (usanpn.org). No API key, but their
+# terms ask callers to SELF-IDENTIFY on an honour system, so every request
+# carries a request_src naming this project — see ingest/adapters/phenology.mjs
+# and Doctrine section 15.
+#
+# Results are annual and approximate by construction (a median across several
+# years of volunteer records), and each card says so.
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
+concurrency:
+  group: phenology-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Fetch phenology records (USA-NPN, self-identified)
+        env:
+          REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+        run: node ingest/ingest.mjs phenology "$REGION"
+      - name: Re-merge (tag-preserving) + validate
+        env:
+          REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+        run: |
+          node ingest/ingest.mjs merge "$REGION"
+          node ingest/ingest.mjs validate "$REGION"
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add bloom and autumn-colour timing as upcoming events" -m "When wildflowers typically bloom and leaves typically turn in this area, from the USA National Phenology Network's volunteer records. Approximate by nature — a window to plan around, not a forecast."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

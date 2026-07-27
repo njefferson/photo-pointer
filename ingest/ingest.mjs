@@ -36,6 +36,7 @@ import * as nrhp from './adapters/nrhp.mjs';
 import * as ridb from './adapters/ridb.mjs';
 import * as padus from './adapters/padus.mjs';
 import * as commons from './adapters/commons-photos.mjs';
+import * as phenology from './adapters/phenology.mjs';
 import { pointInArea, distanceM, inBBox } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -448,6 +449,100 @@ function countCommons(spots, images, _doc) {
   }
 }
 
+// The harvested photo COORDINATES, kept ingest-side (ingest/inputs/, never
+// shipped to the browser) so the discovery pass can cluster them without asking
+// Wikimedia for anything a second time.
+async function saveCommonsPoints(regionId, images) {
+  const file = path.join(ROOT, 'ingest', 'inputs', `${regionId}-commons-points.json`);
+  await mkdir(path.dirname(file), { recursive: true });
+  // Round to ~1 m; full float precision is noise and triples the file size.
+  const pts = images.map((im) => [Number(im.lat.toFixed(5)), Number(im.lng.toFixed(5))]);
+  await writeFile(file, JSON.stringify({ builtAt: today, count: pts.length, points: pts }) + '\n');
+  log(`  commons: kept ${pts.length} photo coordinates for the discovery pass`);
+}
+
+// Places people photograph that nothing in our data lists. Reads the coordinates
+// the harvest already kept — NO network at all — clusters them, and drops every
+// cluster a known spot already explains. What survives is, by construction,
+// somewhere our catalogues missed.
+// Bloom and autumn-colour timing as dated events (USA-NPN, volunteer records).
+async function cmdPhenology(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const records = await phenology.ingest(region, { today, log });
+  if (records.length === 0) {
+    if (await readJsonIfExists(path.join(P.sourcesDir, 'phenology.json'))) {
+      console.error('phenology: 0 records — refusing to write an empty file over good data');
+      process.exit(1);
+    }
+    log(`phenology: none for ${region.id} — skipping`);
+    return;
+  }
+  await writeSource(P.sourcesDir, 'phenology.json', phenology.meta, region, records);
+  log(`[${region.id}] ${records.length} bloom/colour events`);
+}
+
+async function cmdCommonsClusters(id) {
+  const region = await loadRegionFor(id);
+  const P = regionPaths(region.id);
+  const doc = await requireSpots(P, 'commons-clusters');
+  const file = path.join(ROOT, 'ingest', 'inputs', `${region.id}-commons-points.json`);
+  const input = await readJsonIfExists(file);
+  if (!input?.points?.length) {
+    console.error(`commons-clusters: no photo coordinates for ${region.id} — run \`commons\` first`);
+    process.exit(1);
+  }
+  const pts = input.points.map(([lat, lng]) => ({ lat, lng }));
+  const clusters = commons.clusterPoints(pts);
+  // Drop anything a known spot already explains.
+  const CELL = 0.008;
+  const grid = new Map();
+  for (const sp of doc.spots) {
+    const k = `${Math.round(sp.lat / CELL)}:${Math.round(sp.lng / CELL)}`;
+    (grid.get(k) ?? grid.set(k, []).get(k)).push(sp);
+  }
+  const near = (c) => {
+    const clat = Math.round(c.lat / CELL), clng = Math.round(c.lng / CELL);
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+      for (const sp of grid.get(`${clat + dy}:${clng + dx}`) ?? []) {
+        if (distanceM(c, sp) <= commons.CLUSTER_MIN_DISTANCE_M) return sp;
+      }
+    }
+    return null;
+  };
+  const fresh = clusters.filter((c) => !near(c));
+  log(`commons-clusters: ${clusters.length} photo clusters, ${clusters.length - fresh.length} already explained by a known spot`);
+  if (!fresh.length) {
+    log(`commons-clusters: nothing undiscovered in ${region.id} — skipping`);
+    return;
+  }
+  const records = fresh.map((c) => ({
+    // NO INVENTED NAME. We know people photograph here and nothing more; the app
+    // renders an unnamed photo-backed spot as "A photographed spot".
+    name: null,
+    lat: c.lat,
+    lng: c.lng,
+    category: 'photo_cluster',
+    subject_type: ['landscape'],
+    best_light: [],
+    best_season: [],
+    access_difficulty: null,
+    notes: null,
+    tags: { commons: { photos: c.photos }, discovered: 'photo-density' },
+    sources: [{
+      source: commons.meta.source,
+      source_id: `cluster:${c.lat.toFixed(5)},${c.lng.toFixed(5)}`,
+      source_license: commons.meta.license,
+      source_url: `https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,${c.lat.toFixed(5)},${c.lng.toFixed(5)}`,
+      first_seen: today,
+      last_seen: today,
+    }],
+  }));
+  await writeSource(P.sourcesDir, 'commons-clusters.json', commons.meta, region, records);
+  log(`[${region.id}] ${records.length} photographed places nothing else in our data lists `
+    + `(densest ${records[0].tags.commons.photos} photos)`);
+}
+
 async function cmdCommons(id) {
   const MIN = 3;
   const RADIUS_M = commons.RADIUS_M;
@@ -496,6 +591,7 @@ async function cmdCommons(id) {
       spotsTagged: doc.spots.filter((sp) => sp.tags?.commons).length,
       probed: nowProbed,
     });
+    await saveCommonsPoints(region.id, images);
     await writeFile(P.spotsFile, JSON.stringify(doc, null, 2) + '\n');
     log(`[${region.id}] tagged ${doc.spots.filter((sp) => sp.tags?.commons).length}/${doc.spots.length} spots with Commons photo density `
       + `(${images.length} photos, ${todo.length} probed, ${skipped} skipped)`);
@@ -509,6 +605,7 @@ async function cmdCommons(id) {
     process.exit(1);
   }
   countCommons(doc.spots, images, doc);
+  await saveCommonsPoints(region.id, images);
   const tagged = doc.spots.filter((s) => s.tags?.commons).length;
   await writeFile(P.spotsFile, JSON.stringify(doc, null, 2) + '\n');
   await writeLayer(P, 'commons.json', { source: commons.meta, builtAt: today, photosHarvested: images.length, spotsTagged: tagged });
@@ -608,6 +705,8 @@ const commands = {
   'public-lands': cmdPublicLands,
   inaturalist: cmdINaturalist,
   commons: cmdCommons,
+  'commons-clusters': cmdCommonsClusters,
+  phenology: cmdPhenology,
   markers: cmdMarkers,
   curiosities: cmdCuriosities,
   gnis: cmdGnis,

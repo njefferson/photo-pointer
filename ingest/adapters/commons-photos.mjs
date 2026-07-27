@@ -170,3 +170,37 @@ export async function harvestBBox(bbox, { fetchFn = fetch, log = () => {}, sleep
   log(`commons: harvested ${images.size} unique geotagged photos from ${centers.length} tiles`);
   return [...images.values()];
 }
+
+// ── DISCOVERY: where people photograph that nothing in our data lists ────────
+//
+// Every other layer here starts from a place someone catalogued — an OSM node, a
+// Wikidata item, a National Register listing. This one starts from BEHAVIOUR. We
+// already fetch every geotagged Commons photo in the region to count them per
+// spot, and then throw the coordinates away. Keeping them costs Wikimedia
+// nothing extra and answers a question no catalogue can: what are people
+// standing in front of that nobody wrote down?
+//
+// Grid-cluster the points, then keep only clusters that no known spot already
+// explains. Deliberately conservative — a cluster must be BOTH dense enough to
+// mean something AND genuinely away from everything we know, or it is noise.
+
+export const CLUSTER_CELL_DEG = 0.0035;  // ~390 m at 39°N — one viewpoint, not one town
+export const CLUSTER_MIN_PHOTOS = 12;    // below this it is a passer-by, not a subject
+export const CLUSTER_MIN_DISTANCE_M = 400; // must be this far from any known spot
+
+// Group points into grid cells and return each cell's centroid + count, densest
+// first. The centroid (not the cell centre) so the pin lands on the subject.
+export function clusterPoints(points, { cell = CLUSTER_CELL_DEG, minPhotos = CLUSTER_MIN_PHOTOS } = {}) {
+  const cells = new Map();
+  for (const p of points) {
+    const lat = Number(p.lat), lng = Number(p.lng);
+    if (!isFinite(lat) || !isFinite(lng)) continue;
+    const key = `${Math.floor(lat / cell)}:${Math.floor(lng / cell)}`;
+    const c = cells.get(key) ?? cells.set(key, { n: 0, sLat: 0, sLng: 0 }).get(key);
+    c.n++; c.sLat += lat; c.sLng += lng;
+  }
+  return [...cells.values()]
+    .filter((c) => c.n >= minPhotos)
+    .map((c) => ({ lat: c.sLat / c.n, lng: c.sLng / c.n, photos: c.n }))
+    .sort((a, b) => b.photos - a.photos);
+}

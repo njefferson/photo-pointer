@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -143,4 +143,34 @@ test('every geosearch sends maxlag so we step aside when their databases lag', a
   };
   await geosearchTile(1, 2, { fetchFn, sleep: async () => {} });
   assert.ok(urls[0].includes(`maxlag=${MAXLAG_SECONDS}`), urls[0]);
+});
+
+// Discovery: a dense knot of photos with no spot near it is a place our
+// catalogues missed. Sparse scatter is not — it is someone's holiday snap.
+test('clusterPoints keeps dense knots and drops scatter', () => {
+  const pts = [];
+  for (let i = 0; i < 20; i++) pts.push({ lat: 38.9 + i * 0.00002, lng: -120.9 + i * 0.00002 });
+  for (let i = 0; i < 4; i++) pts.push({ lat: 39.5, lng: -121.5 });   // below the threshold
+  pts.push({ lat: 40, lng: -122 });                                    // a lone stray
+  const out = clusterPoints(pts);
+  assert.equal(out.length, 1, 'only the dense knot survives');
+  assert.equal(out[0].photos, 20);
+  // The pin lands on the CENTROID of the photos, not the corner of a grid cell.
+  assert.ok(Math.abs(out[0].lat - 38.9002) < 0.001 && Math.abs(out[0].lng + 120.8998) < 0.001);
+});
+
+test('clusterPoints returns the densest first and ignores unusable points', () => {
+  const pts = [];
+  for (let i = 0; i < 15; i++) pts.push({ lat: 38.9, lng: -120.9 });
+  for (let i = 0; i < 30; i++) pts.push({ lat: 38.5, lng: -121.4 });
+  pts.push({ lat: null, lng: 'x' });
+  const out = clusterPoints(pts);
+  assert.deepEqual(out.map((c) => c.photos), [30, 15]);
+});
+
+test('the density threshold is a deliberate value, not an accident', () => {
+  assert.equal(CLUSTER_MIN_PHOTOS, 12);
+  assert.equal(CLUSTER_MIN_DISTANCE_M, 400);
+  // One viewpoint, not one town.
+  assert.ok(CLUSTER_CELL_DEG > 0.002 && CLUSTER_CELL_DEG < 0.006);
 });

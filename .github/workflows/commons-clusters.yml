@@ -1,0 +1,53 @@
+name: Photographed places (discovery from Commons photo density)
+
+# Finds places people demonstrably photograph that NOTHING else in our data
+# lists — no OSM node, no Wikidata item, no National Register listing. Every
+# other layer starts from a place someone catalogued; this one starts from
+# behaviour, which is why it can find what the catalogues missed.
+#
+# ASKS WIKIMEDIA FOR NOTHING. It reads the photo coordinates the `commons`
+# harvest already kept (ingest/inputs/<region>-commons-points.json), clusters
+# them locally, and drops every cluster a known spot already explains. Run
+# `commons` first if that file does not exist yet.
+#
+# The surviving clusters become UNNAMED spots — we know people photograph there
+# and nothing more, so the app renders them as "A photographed spot" rather than
+# inventing a name for somewhere we cannot identify.
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
+concurrency:
+  group: commons-clusters-${{ github.ref }}-${{ github.event.inputs.region || 'default' }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Cluster the photo coordinates we already have (no network)
+        run: node ingest/ingest.mjs commons-clusters "$REGION"
+      - name: Re-merge (tag-preserving) + validate
+        run: |
+          node ingest/ingest.mjs merge "$REGION"
+          node ingest/ingest.mjs validate "$REGION"
+      - name: Commit
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ ingest/inputs/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Add places people photograph that nothing else lists" -m "Found by clustering the geotagged Wikimedia Commons photos already harvested for this region, then discarding every cluster an existing place explains. What is left is somewhere people clearly point a camera that no map or register names."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done
