@@ -86,33 +86,67 @@ export const ALL_RULES = [...FEATURE_RULES, ...TAG_RULES];
 
 // One Overpass query for the whole region: union of the counties' admin
 // areas, belt-and-braces bounded by the region bbox.
-// ONE QUERY PER COUNTY, NOT PER REGION. Asking for every county at once was
-// fine at three and fell over at six: a single query carrying 6 county areas ×
-// 15 selectors spent nineteen minutes being retried across all three Overpass
-// mirrors and ended in HTTP 504. Overpass bills by how much work one query does,
-// so the fix is smaller questions, not more patience — and a county that times
-// out now costs that county, not the whole region.
-export function buildQuery(region, rules = TAG_RULES, counties = region.counties) {
-  const b = region.bbox;
-  const areas = counties
-    .map(
-      (c) =>
-        `  area["boundary"="administrative"]["admin_level"="6"]["name"="${c.osm_area_name}"];`
-    )
-    .join('\n');
+// ASK BY BOX, IN TILES — and the county list is not part of this any more.
+//
+// TWO MEASURED FAILURES got us here. One query carrying six county areas × 15
+// selectors spent nineteen minutes being retried across all three mirrors and
+// ended in HTTP 504. Splitting it per county worked — real data came back — but
+// SACRAMENTO COUNTY ALONE TOOK SIXTEEN MINUTES (819 places), so six counties at
+// that pace is an hour and a half, past any sane ceiling.
+//
+// THE COUNTY WAS ALWAYS THE WRONG UNIT HERE. The map is a BOUNDING BOX; the
+// merge already drops anything outside it. So the `area` filter only ever
+// removed places the app would happily have shown — that is exactly how
+// Calaveras, Nevada and Amador stayed invisible while sitting inside the box —
+// and it charged an admin-boundary membership test per element for the
+// privilege. Asking by box removes both the cost and the coverage hole, and it
+// cannot come back: whatever the map draws is what we ask about.
+//
+// TILES because a single box over a whole region is one big question again.
+// Small ones finish inside the per-attempt timeout, and a tile that fails costs
+// a tile. Counties still matter elsewhere (eBird and RIDB really are organised
+// that way) — just not here.
+export function buildQuery(region, rules = TAG_RULES, box = region.bbox) {
   const selectors = rules.map((r) => {
     const named = r.namedOnly ? '["name"]' : '';
-    return `  nwr["${r.k}"="${r.v}"]${named}(area.region);`;
+    return `  nwr["${r.k}"="${r.v}"]${named};`;
   }).join('\n');
-  return `[out:json][timeout:300][bbox:${b.south},${b.west},${b.north},${b.east}];
-(
-${areas}
-)->.region;
+  return `[out:json][timeout:180][bbox:${box.south},${box.west},${box.north},${box.east}];
 (
 ${selectors}
 );
 out center tags;
 `;
+}
+
+// How big a tile to ask for. Measured against the failures above: a whole dense
+// county was 16 minutes, so the unit needs to be well under that. ~0.35° is
+// roughly 39 × 31 km here — small enough to finish, few enough to stay a polite
+// number of requests.
+export const TILE_DEG = 0.35;
+// …but a big region must not turn into hundreds of requests. Yellowstone at
+// 0.35° is 110 tiles; doubling until the count fits keeps every region a polite
+// number of questions, and a sparse region does not need fine tiles anyway.
+export const MAX_TILES = 40;
+
+export function bboxTiles(bbox, deg = TILE_DEG, max = MAX_TILES) {
+  let d = deg;
+  while (tileGrid(bbox, d).length > max) d *= 2;
+  return tileGrid(bbox, d);
+}
+
+function tileGrid(bbox, deg) {
+  const tiles = [];
+  for (let s = bbox.south; s < bbox.north; s += deg) {
+    for (let w = bbox.west; w < bbox.east; w += deg) {
+      tiles.push({
+        south: s, west: w,
+        north: Math.min(s + deg, bbox.north),
+        east: Math.min(w + deg, bbox.east),
+      });
+    }
+  }
+  return tiles;
 }
 
 export const OVERPASS_HOSTS = [
@@ -231,22 +265,25 @@ function keepTags(tags) {
   return out;
 }
 
-export async function ingest(region, { fetchFn, today, log = () => {}, rules = TAG_RULES, sleepFn = sleep } = {}) {
+export async function ingest(region, {
+  fetchFn, today, log = () => {}, rules = TAG_RULES, sleepFn = sleep, tileDeg = TILE_DEG, now = () => Date.now(),
+} = {}) {
   const records = [];
-  const seen = new Set();   // an element can sit on a county line; count it once
+  const seen = new Set();   // an element on a tile edge comes back twice; count it once
   const failed = [];
-  for (const county of region.counties) {
-    const query = buildQuery(region, rules, [county]);
-    log(`overpass: ${county.osm_area_name} (${rules.length} selectors, ${query.length} chars)`);
+  const tiles = bboxTiles(region.bbox, tileDeg);
+  log(`overpass: ${tiles.length} tiles over the region box, ${rules.length} selectors each`);
+  for (const [i, box] of tiles.entries()) {
+    const label = `${box.south.toFixed(2)},${box.west.toFixed(2)}`;
     let json;
+    const t0 = now();
     try {
-      json = await fetchOverpass(query, { fetchFn, sleepFn });
+      json = await fetchOverpass(buildQuery(region, rules, box), { fetchFn, sleepFn });
     } catch (e) {
-      // A county that will not answer is NOT zero places. Name it, keep the
-      // rest, and let the caller decide whether the run is usable — the same
-      // rule as a failed Commons probe.
-      failed.push(`${county.osm_area_name}: ${e.message}`);
-      log(`  overpass: ${county.osm_area_name} FAILED — ${e.message}`);
+      // A tile that will not answer is NOT an empty tile. Name it, keep the
+      // rest — the same rule as a failed Commons probe.
+      failed.push(`${label}: ${e.message}`);
+      log(`  overpass: tile ${i + 1}/${tiles.length} ${label} FAILED — ${e.message}`);
       continue;
     }
     let kept = 0;
@@ -257,16 +294,16 @@ export async function ingest(region, { fetchFn, today, log = () => {}, rules = T
       const rec = normalizeElement(el, today);
       if (rec) { records.push(rec); kept++; }
     }
-    log(`  overpass: ${county.osm_area_name} → ${json.elements.length} elements, ${kept} places`);
-    // Overpass asks callers to leave gaps between queries; one per county at a
-    // walking pace is well inside that. https://wiki.openstreetmap.org/wiki/Overpass_API
-    if (county !== region.counties.at(-1)) await sleepFn(OVERPASS_GAP_MS);
+    // Per-tile timing, so the next run says whether the tile size is right
+    // instead of leaving it to be guessed at again.
+    log(`  overpass: tile ${i + 1}/${tiles.length} ${label} → ${kept} places in ${Math.round((now() - t0) / 1000)}s`);
+    if (i < tiles.length - 1) await sleepFn(OVERPASS_GAP_MS);
   }
   if (failed.length) {
-    log(`overpass: ${failed.length} of ${region.counties.length} counties did not answer — ${failed.join(' | ')}`);
+    log(`overpass: ${failed.length} of ${tiles.length} tiles did not answer — ${failed.join(' | ')}`);
   }
-  log(`normalized ${records.length} records from ${region.counties.length - failed.length} counties`);
-  records.failedCounties = failed;
+  log(`normalized ${records.length} records from ${tiles.length - failed.length}/${tiles.length} tiles`);
+  records.failedTiles = failed;
   return records;
 }
 
