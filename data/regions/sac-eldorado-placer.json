@@ -5572,45 +5572,6 @@
       }
     },
     {
-      "id": "apricot-autumn-colour@9qce5v",
-      "name": "apricot in autumn colour",
-      "lat": 38.528275,
-      "lng": -121.47479999999999,
-      "category": "event",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 4 of 10 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
-      "sources": [
-        {
-          "source": "usanpn",
-          "source_id": "autumn-colour:apricot",
-          "source_license": "public-domain",
-          "source_url": "https://www.usanpn.org/data",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "event": {
-          "month": 10,
-          "day": 31,
-          "days": 14,
-          "recurs": "annual",
-          "skywide": false
-        },
-        "phenology": {
-          "species": "apricot",
-          "kind": "Autumn colour",
-          "records": 4,
-          "seasonRecords": 10
-        }
-      }
-    },
-    {
       "id": "arcade-creek-jo-smith-trail@9qceyu",
       "name": "Arcade Creek--Jo Smith Trail",
       "lat": 38.652,
@@ -13168,45 +13129,6 @@
         },
         "commons": {
           "photos": 5
-        }
-      }
-    },
-    {
-      "id": "blueblossom-bloom@9qckm2",
-      "name": "blueblossom in bloom",
-      "lat": 38.717903,
-      "lng": -121.76145900000003,
-      "category": "event",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 6 of 9 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
-      "sources": [
-        {
-          "source": "usanpn",
-          "source_id": "bloom:blueblossom",
-          "source_license": "public-domain",
-          "source_url": "https://www.usanpn.org/data",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "event": {
-          "month": 2,
-          "day": 24,
-          "days": 14,
-          "recurs": "annual",
-          "skywide": false
-        },
-        "phenology": {
-          "species": "blueblossom",
-          "kind": "Bloom",
-          "records": 6,
-          "seasonRecords": 9
         }
       }
     },
@@ -22270,45 +22192,6 @@
         "nrhp": "85000259",
         "commons": {
           "photos": 59
-        }
-      }
-    },
-    {
-      "id": "common-snowberry-bloom@9qfh9n",
-      "name": "common snowberry in bloom",
-      "lat": 38.795254,
-      "lng": -120.88481099999997,
-      "category": "event",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 6 of 13 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
-      "sources": [
-        {
-          "source": "usanpn",
-          "source_id": "bloom:common-snowberry",
-          "source_license": "public-domain",
-          "source_url": "https://www.usanpn.org/data",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "event": {
-          "month": 6,
-          "day": 10,
-          "days": 14,
-          "recurs": "annual",
-          "skywide": false
-        },
-        "phenology": {
-          "species": "common snowberry",
-          "kind": "Bloom",
-          "records": 6,
-          "seasonRecords": 13
         }
       }
     },
@@ -38121,45 +38004,6 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
-        }
-      }
-    },
-    {
-      "id": "fremont-cottonwood-autumn-colour@9qcems",
-      "name": "Fremont cottonwood in autumn colour",
-      "lat": 38.56248100000002,
-      "lng": -121.39279900000004,
-      "category": "event",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 3 of 24 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
-      "sources": [
-        {
-          "source": "usanpn",
-          "source_id": "autumn-colour:fremont-cottonwood",
-          "source_license": "public-domain",
-          "source_url": "https://www.usanpn.org/data",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "event": {
-          "month": 10,
-          "day": 7,
-          "days": 14,
-          "recurs": "annual",
-          "skywide": false
-        },
-        "phenology": {
-          "species": "Fremont cottonwood",
-          "kind": "Autumn colour",
-          "records": 3,
-          "seasonRecords": 24
         }
       }
     },
@@ -78223,45 +78067,6 @@
       }
     },
     {
-      "id": "pacific-dogwood-bloom@9qf3tu",
-      "name": "Pacific dogwood in bloom",
-      "lat": 38.25598125000001,
-      "lng": -120.32716525000004,
-      "category": "event",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 6 of 16 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
-      "sources": [
-        {
-          "source": "usanpn",
-          "source_id": "bloom:pacific-dogwood",
-          "source_license": "public-domain",
-          "source_url": "https://www.usanpn.org/data",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "event": {
-          "month": 2,
-          "day": 2,
-          "days": 14,
-          "recurs": "annual",
-          "skywide": false
-        },
-        "phenology": {
-          "species": "Pacific dogwood",
-          "kind": "Bloom",
-          "records": 6,
-          "seasonRecords": 16
-        }
-      }
-    },
-    {
       "id": "pacific-park@9qceh4",
       "name": "Pacific Park",
       "lat": 38.5115737,
@@ -117019,45 +116824,6 @@
       "tags": {
         "commons": {
           "photos": 101
-        }
-      }
-    },
-    {
-      "id": "western-redbud-bloom@9qcue6",
-      "name": "western redbud in bloom",
-      "lat": 38.77315371428572,
-      "lng": -121.13528185714281,
-      "category": "event",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 6 of 14 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
-      "sources": [
-        {
-          "source": "usanpn",
-          "source_id": "bloom:western-redbud",
-          "source_license": "public-domain",
-          "source_url": "https://www.usanpn.org/data",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "event": {
-          "month": 4,
-          "day": 7,
-          "days": 14,
-          "recurs": "annual",
-          "skywide": false
-        },
-        "phenology": {
-          "species": "western redbud",
-          "kind": "Bloom",
-          "records": 6,
-          "seasonRecords": 14
         }
       }
     },
