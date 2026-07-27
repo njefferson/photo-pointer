@@ -137,9 +137,14 @@ export function summarize(rows, { minRecords = MIN_RECORDS } = {}) {
   }
   const out = [];
   for (const g of groups.values()) {
-    if (g.days.length < minRecords) continue;
     const peak = peakWindow(g.days);
     if (!peak) continue;
+    // THE THRESHOLD BELONGS ON THE FORTNIGHT WE ARE NAMING, not on the season.
+    // Counting the season let Pacific dogwood be dated 2 February off six
+    // sightings, and Fremont cottonwood off three — a date printed on a card
+    // with nothing behind it. We will not put a date on fewer than this many
+    // observations inside the window itself.
+    if (peak.inWindow < minRecords) continue;
     out.push({
       kind: g.kind,
       species: g.name,

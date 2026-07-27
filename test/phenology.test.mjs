@@ -148,3 +148,18 @@ test('records from every year are pooled before a date is decided', async () => 
   assert.equal(out.length, 1);
   assert.equal(out[0].tags.phenology.records, 10);
 });
+
+// The threshold belongs on the fortnight being named, not on the whole season.
+// Counting the season let Pacific dogwood be dated 2 February off six sightings
+// and Fremont cottonwood off three — a date on a card with nothing behind it.
+test('a date needs enough sightings inside the window it names', () => {
+  // 30 records, but scattered — no fortnight of them holds MIN_RECORDS.
+  const scattered = Array.from({ length: 30 }, (_, i) => row({ day_of_year: 1 + i * 12 }));
+  assert.deepEqual(summarize(scattered), [], 'a long thin season is not a date');
+  // The same 30 records with a real cluster in them do earn one.
+  const withPeak = [...scattered, ...Array.from({ length: MIN_RECORDS }, (_, i) => row({ day_of_year: 100 + i }))];
+  const out = summarize(withPeak);
+  assert.equal(out.length, 1);
+  assert.ok(out[0].records >= MIN_RECORDS);
+  assert.ok(out[0].seasonRecords > out[0].records, 'and the card still shows how diffuse the season is');
+});
