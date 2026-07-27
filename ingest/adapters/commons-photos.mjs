@@ -326,6 +326,41 @@ export async function fetchClusterTitles(clusters, {
   return out;
 }
 
+// ONE CAMERA MOVING IS NOT A PLACE PEOPLE GO — and this is what finally caught
+// it. Counting distinct coordinates was supposed to mean "distinct places a
+// camera was set down", and it defeats a batch upload geotagged once. It does
+// NOT defeat a 360 rig capturing continuously from a moving vehicle: every frame
+// lands on its own coordinate, so a stretch of road scored 376 "vantage points"
+// off one person on one afternoon.
+//
+// The titles give it away where the coordinates could not. Commons 360 uploads
+// are named "<random token> with <device>", so a cluster whose files nearly all
+// carry the same equipment tail, or nearly all start with the same style of
+// machine-generated token, is one rig — however many coordinates it produced.
+const RIG_TAIL = /\bwith\s+([\p{L}\p{N}]+(?:\s+[\p{L}\p{N}]+){0,2})\s*$/iu;
+const MACHINE_TOKEN = /(?=[a-z0-9]*[a-z])(?=[a-z0-9]*\d)[a-z0-9]{16,}/i;
+
+export const RIG_SHARE = 0.6;
+
+export function singleRigShare(titles) {
+  const clean = (titles ?? []).map((t) => String(t ?? '')
+    .replace(/^File:/i, '').replace(/\.[a-z0-9]{2,5}$/i, '').replace(/[_-]+/g, ' ').trim());
+  if (clean.length < 4) return 0;
+  const tails = new Map();
+  let machine = 0;
+  for (const t of clean) {
+    const m = t.match(RIG_TAIL);
+    if (m) { const k = m[1].toLowerCase(); tails.set(k, (tails.get(k) ?? 0) + 1); }
+    if (MACHINE_TOKEN.test(t)) machine++;
+  }
+  const topTail = Math.max(0, ...tails.values());
+  return Math.max(topTail, machine) / clean.length;
+}
+
+export function isSingleRig(titles, { share = RIG_SHARE } = {}) {
+  return singleRigShare(titles) >= share;
+}
+
 // Which clusters nothing in our data already explains.
 //
 // PINS THIS PASS MADE LAST TIME ARE NOT PRIOR KNOWLEDGE. Counting them makes the

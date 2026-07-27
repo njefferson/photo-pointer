@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord, unexplainedBy, describeCluster, titleWords } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord, unexplainedBy, describeCluster, titleWords, isSingleRig, singleRigShare } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -263,4 +263,34 @@ test('filenames are stripped to words that could name a place', () => {
   assert.deepEqual(titleWords('File:Donner_Lake_from_the_summit,_CA_2019.jpg'),
     ['donner', 'lake', 'summit']);
   assert.deepEqual(titleWords('File:IMG 20190412 California.JPG'), []);
+});
+
+// THE ONE THE COORDINATE COUNT COULD NOT CATCH. Counting distinct coordinates
+// defeats a batch upload geotagged once. It does not defeat a 360 rig capturing
+// continuously from a moving vehicle — every frame gets its own coordinate, so
+// a stretch of road scored 376 "vantage points" off one person on one afternoon.
+// The filenames give it away where the geometry could not.
+test('one camera rig moving is not a place people go', () => {
+  const rig = Array.from({ length: 20 }, (_, i) =>
+    `File:Zymrn8njiod0x3te6v7kc${i} with Labpano Pilot One.jpg`);
+  assert.equal(isSingleRig(rig), true);
+  assert.equal(singleRigShare(rig), 1);
+
+  const motorbike = Array.from({ length: 12 }, (_, i) =>
+    `File:Gsb4uqoc7z6iatcwxu1yp${i}_with_Suzuki_Dl1000.jpg`);
+  assert.equal(isSingleRig(motorbike), true, 'a rig on a motorcycle is still one rig');
+
+  // A place a lot of separate people photographed reads nothing like that.
+  const real = [
+    'File:Folsom Dam spillway.jpg',
+    'File:Folsom Dam from the north shore.jpg',
+    'File:Folsom Dam at sunset by J Smith.jpg',
+    'File:Lake Natoma below Folsom Dam.jpg',
+    'File:Folsom Dam road crossing.jpg',
+  ];
+  assert.equal(isSingleRig(real), false);
+  assert.equal(singleRigShare(real), 0);
+
+  // Too few files to judge — say nothing rather than guess.
+  assert.equal(singleRigShare(['File:a with GoPro.jpg']), 0);
 });

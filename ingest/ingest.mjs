@@ -507,6 +507,19 @@ async function cmdCommonsClusters(id) {
     log(`commons-clusters: nothing undiscovered in ${region.id} — skipping`);
     return;
   }
+  // Drop the ones the titles reveal to be one camera rig, not a place.
+  const rigs = fresh.filter((c) => c.titles?.length && commons.isSingleRig(c.titles));
+  if (rigs.length) {
+    log(`commons-clusters: ${rigs.length} clusters are ONE camera rig moving, not a place people go `
+      + `(360 or dashcam captures — every frame gets its own coordinate). Dropped:`);
+    for (const r of rigs) log(`  ${r.spots} coords @ ${r.lat.toFixed(4)},${r.lng.toFixed(4)} — `
+      + `${Math.round(commons.singleRigShare(r.titles) * 100)}% of files share one device signature`);
+  }
+  fresh = fresh.filter((c) => !(c.titles?.length && commons.isSingleRig(c.titles)));
+  if (!fresh.length) {
+    log(`commons-clusters: nothing left once single-rig captures are removed — skipping`);
+    return;
+  }
   const records = fresh.map((c) => ({
     // NO INVENTED NAME. We know people photograph here and nothing more; the app
     // renders an unnamed photo-backed spot as "A photographed spot".
