@@ -361,6 +361,51 @@ export function isSingleRig(titles, { share = RIG_SHARE } = {}) {
   return singleRigShare(titles) >= share;
 }
 
+// IS THIS SOMEWHERE YOU COULD GO AND PHOTOGRAPH THE THING? That is the whole
+// test, and it is Noah's, in his words (2026-07-27) on the first real output:
+//   - IKEA: no.
+//   - Botanical specimens: "good if it's a flower that can be photographed
+//     there — not good if it's someone's personal potted plants."
+//   - Archives: "old historical photos that may not be there to photograph
+//     today, so not useful — but if they are of an ancient tree or something
+//     then maybe useful."
+// So a Latin binomial is NOT disqualifying; a wild thistle growing on a hillside
+// is exactly what this app is for. What disqualifies is CULTIVATION (nursery
+// stock, a greenhouse, a herbarium sheet), COMMERCE, and an organisation's own
+// RECORDS — photographs of something that happened rather than something that
+// is there. The permanent-feature exception is Noah's ancient tree: an archive
+// of a thing that is still standing is still worth the drive.
+//
+// This is a hand-written vocabulary, which the doctrine warns about — but no
+// service publishes "is this a photo destination", and the alternative is
+// leaving an IKEA on the map. It is kept honest by REPORTING every rejection
+// with its reason, so the list is auditable rather than a silent filter.
+const NOT_A_DESTINATION = [
+  { why: 'a shop is not a place to photograph',
+    re: /\b(ikea|walmart|costco|target store|home depot|lowe'?s|safeway|kohls|mall|shopping cent|dealership|showroom|supermarket|warehouse|storefront)\b/i },
+  { why: 'cultivated stock, not something growing where you would go and find it',
+    // NO LEADING WORD BOUNDARY on the run-together ones: Commons filenames
+    // routinely concatenate, and "Placervillenursery" is exactly the case this
+    // rule exists for.
+    re: /(nurser(y|ies)|greenhouse|garden cent(er|re)|potted|houseplant|herbari(um|a)|cultivar|cultivated|seedlings?|plant materials|arboretum accession)/i },
+  { why: "an organisation's own records — a photograph of something that happened, not something that is there",
+    re: /\b(nrcs|usda|research station|experiment(al)? station|field office|silvicultur\w*|treatment|study (site|plot)|plot \d|annual report|archives?|collection of|staff|personnel|conference|awards?|honou?r|ceremony|groundbreaking|ribbon cutting)\b/i },
+];
+
+// Noah's exception, kept explicit: an archive OF SOMETHING STILL STANDING is
+// still worth the drive.
+const STILL_THERE = /\b(ancient|old.?growth|giant|champion|heritage|historic tree|sequoia|redwood|oak|waterfall|falls|arch|canyon|summit|peak|lake|river|bridge|lighthouse|trail|grove)\b/i;
+
+export function photoDestination(subject, titles = []) {
+  const hay = [subject ?? '', ...(titles ?? []).slice(0, 60)].join(' ');
+  for (const rule of NOT_A_DESTINATION) {
+    if (!rule.re.test(hay)) continue;
+    if (STILL_THERE.test(hay)) return { ok: true, kept: 'an archive, but of something still standing' };
+    return { ok: false, why: rule.why };
+  }
+  return { ok: true };
+}
+
 // Which clusters nothing in our data already explains.
 //
 // PINS THIS PASS MADE LAST TIME ARE NOT PRIOR KNOWLEDGE. Counting them makes the
