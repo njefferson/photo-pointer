@@ -818,6 +818,23 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     return null;
   }
 
+  // On a place that only exists BECAUSE of the photographs, the honest sentence
+  // is the one that says so — and says what actually earned it, which is the
+  // number of separate places a camera was set down, not the file count. A
+  // hundred files from one upload is one person; twenty vantage points is a
+  // subject. Everywhere else, the file count is the answer to "is there much
+  // of this place already", so it stays as it was.
+  function photoLine(spot) {
+    const c = spot.tags.commons;
+    const cap = c.capped ? '+' : '';
+    if (spot.tags?.discovered !== 'photo-density') {
+      return `${c.photos}${cap} freely-licensed photos taken near here.`;
+    }
+    const n = c.spots ?? c.photos;
+    return `Nothing we know of is listed here, but cameras have been set down in `
+      + `${n} different places within a few hundred metres — ${c.photos}${cap} photographs in all.`;
+  }
+
   function commonsNearUrl(spot) {
     return `https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(`nearcoord:1km,${spot.lat},${spot.lng}`)}&title=Special:MediaSearch&type=image`;
   }
@@ -901,7 +918,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         : null,
       spot.tags?.commons?.photos
         ? el('div', { class: 'popup-linkrow' }, [
-            el('p', { class: 'popup-linktext' }, `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here.`),
+            el('p', { class: 'popup-linktext' }, photoLine(spot)),
             el('a', { class: 'popup-linkbtn', href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'View the photos on Commons →'),
           ])
         : null,
