@@ -845,6 +845,60 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       + `${n} different places within a few hundred metres — ${c.photos}${cap} photographs in all.${of}`;
   }
 
+  // BEHIND A TAP, NEVER AUTOMATIC. Nobody should spend bandwidth on a card they
+  // only glanced at — and, more importantly, Commons is not curated for this
+  // app. A geosearch near a pin returns whatever anyone geotagged there and we
+  // cannot preview it, so nothing arrives unbidden.
+  function thumbsSection(spot) {
+    const wrap = el('div', { class: 'popup-thumbs' });
+    const btn = el('button', {
+      class: 'popup-linkbtn',
+      onClick: async () => {
+        btn.disabled = true;
+        btn.textContent = 'Loading photographs…';
+        const { thumbsNear } = await import('../model/commons-thumbs.js');
+        const shots = await thumbsNear(spot.lat, spot.lng).catch(() => []);
+        btn.remove();
+        if (!shots.length) {
+          wrap.append(el('p', { class: 'popup-linktext' },
+            'Could not load the photographs — you may be offline. The link below still works.'));
+          return;
+        }
+        wrap.append(el('div', { class: 'thumb-grid' }, shots.map(thumbTile)));
+      },
+    }, 'Show the photographs');
+    wrap.append(btn);
+    return wrap;
+  }
+
+  // EVERY TILE CARRIES ITS ATTRIBUTION. Most of Commons is CC-BY or CC-BY-SA,
+  // which require the author and licence to be shown WITH the image — so this is
+  // the condition of using it at all, not a caption. The author string arrives
+  // as HTML written by an uploader and is reduced to plain text upstream; it is
+  // set here as TEXT, never as markup.
+  function thumbTile(shot) {
+    return el('a', {
+      class: 'thumb-tile',
+      href: shot.page,
+      target: '_blank',
+      rel: 'noopener',
+      // The whole tile links to the file's own page, which carries the full
+      // licence and author — where an attribution link is supposed to point.
+      'aria-label': `${shot.title} — by ${shot.author}, ${shot.licence}. Opens on Wikimedia Commons.`,
+    }, [
+      el('img', {
+        class: 'thumb-img',
+        src: shot.thumb,
+        alt: shot.title,
+        loading: 'lazy',
+        decoding: 'async',
+        width: shot.width ?? undefined,
+        height: shot.height ?? undefined,
+      }),
+      el('span', { class: 'thumb-credit' }, `${shot.author} · ${shot.licence}`),
+    ]);
+  }
+
   function commonsNearUrl(spot) {
     return `https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(`nearcoord:1km,${spot.lat},${spot.lng}`)}&title=Special:MediaSearch&type=image`;
   }
@@ -929,6 +983,11 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       spot.tags?.commons?.photos
         ? el('div', { class: 'popup-linkrow' }, [
             el('p', { class: 'popup-linktext' }, photoLine(spot)),
+            // Only a DISCOVERED place gets thumbnails in the card: there the
+            // photographs are the reason it is on the map, and we have no name
+            // to offer instead. Everywhere else a photo is incidental and the
+            // link out is the honest weight.
+            spot.tags?.discovered === 'photo-density' ? thumbsSection(spot) : null,
             el('a', { class: 'popup-linkbtn', href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'View the photos on Commons →'),
           ])
         : null,
