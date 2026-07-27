@@ -1,8 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  summarize, toEvent, classifyPhenophase, dayOfYearToDate, typicalDayOfYear,
-  REQUEST_SOURCE, MIN_RECORDS, meta,
+  summarize, toEvent, classifyPhenophase, dayOfYearToDate, typicalDayOfYear, REQUEST_SOURCE, MIN_RECORDS, meta, buildUrl,
 } from '../ingest/adapters/phenology.mjs';
 import { makeSpot, validateSpot } from '../src/model/spot.js';
 
@@ -61,4 +60,22 @@ test('we self-identify, which is the one thing their terms actually require', ()
   assert.match(REQUEST_SOURCE, /^.*https:\/\/github\.com/);
   assert.equal(meta.policy.selfIdentifies, true);
   assert.match(meta.policy.url, /^https:\/\/www\.usanpn\.org/);
+});
+
+// The axis names are a trap and cost a runner cycle: USA-NPN calls the bounding
+// box x1/y1 and x2/y2, but x is LATITUDE and y is LONGITUDE — the opposite of
+// every other adapter here. Getting it backwards returns HTTP 200 with zero
+// records, which reads exactly like "no data in this region".
+test('the bounding box is sent as lat/lng, not the x/y the names suggest', () => {
+  const region = { bbox: { south: 38.2, west: -121.6, north: 39.4, east: -119.9 } };
+  const q = new URL(buildUrl('https://example.test', region,
+    { startDate: '2021-01-01', endDate: '2025-12-31' })).searchParams;
+  assert.equal(q.get('bottom_left_x1'), '38.2', 'x1 carries the SOUTH LATITUDE');
+  assert.equal(q.get('bottom_left_y1'), '-121.6', 'y1 carries the WEST LONGITUDE');
+  assert.equal(q.get('upper_right_x2'), '39.4');
+  assert.equal(q.get('upper_right_y2'), '-119.9');
+  // Dates are a real range, not the year[] array a first guess reached for.
+  assert.equal(q.get('start_date'), '2021-01-01');
+  assert.equal(q.get('end_date'), '2025-12-31');
+  assert.ok(q.get('request_src').includes('photo-pointer'));
 });

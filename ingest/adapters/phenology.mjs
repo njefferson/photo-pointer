@@ -152,15 +152,27 @@ export function toEvent(s, today) {
   };
 }
 
-function buildUrl(base, region, years) {
+// BEWARE THE AXIS NAMES. USA-NPN's bounding-box parameters are called x1/y1 and
+// x2/y2, but x is LATITUDE and y is LONGITUDE — the opposite of the usual
+// convention, and the opposite of every other adapter here. Confirmed against
+// their own R client, which documents the argument order as
+// `c(lower_left_lat, lower_left_long, upper_right_lat, upper_right_long)`.
+// Passing them the obvious way round returns HTTP 200 with zero records, which
+// looks exactly like "this region has no data" — it cost a runner cycle.
+export function buildUrl(base, region, { startDate, endDate }) {
   const b = region.bbox;
-  // request_src is what USA-NPN's terms actually ask of us: say who is calling.
-  const p = new URLSearchParams({ request_src: REQUEST_SOURCE, climate_data: '0' });
-  const range = years.map((y) => `&year[]=${y}`).join('');
-  return `${base}/observations/getObservations.json?${p.toString()}`
-    + `&bottom_left_x1=${b.west}&bottom_left_y1=${b.south}`
-    + `&upper_right_x2=${b.east}&upper_right_y2=${b.north}`
-    + range;
+  const p = new URLSearchParams({
+    // request_src is what USA-NPN's terms actually ask of us: say who is calling.
+    request_src: REQUEST_SOURCE,
+    climate_data: '0',
+    start_date: startDate,
+    end_date: endDate,
+    bottom_left_x1: String(b.south),   // latitude, despite the name
+    bottom_left_y1: String(b.west),    // longitude, despite the name
+    upper_right_x2: String(b.north),
+    upper_right_y2: String(b.east),
+  });
+  return `${base}/observations/getObservations.json?${p.toString()}`;
 }
 
 async function getJson(url, fetchFn, wait) {
@@ -182,12 +194,19 @@ export async function ingest(region, {
   sleep, bases = BASE_CANDIDATES, years,
 } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
-  const yrs = years ?? [0, 1, 2, 3, 4].map((n) => new Date().getUTCFullYear() - 1 - n);
+  const thisYear = new Date().getUTCFullYear();
+  const range = years ?? { startDate: `${thisYear - 5}-01-01`, endDate: `${thisYear - 1}-12-31` };
   let rows = null; const tried = [];
   for (const base of bases) {
+    const url = buildUrl(base, region, range);
     try {
-      rows = await getJson(buildUrl(base, region, yrs), fetchFn, wait);
-      log(`phenology: ${base} answered with ${Array.isArray(rows) ? rows.length : 0} records`);
+      rows = await getJson(url, fetchFn, wait);
+      const n = Array.isArray(rows) ? rows.length : 0;
+      log(`phenology: ${base} answered with ${n} records`);
+      // A 200 carrying nothing is the shape a WRONG QUERY takes, not just an
+      // empty region — so print the query that produced it rather than leaving
+      // a silent zero to be read as fact.
+      if (!n) log(`phenology: zero records — the query was ${url}`);
       break;
     } catch (e) { tried.push(`${base}: ${e.message}`); }
     await wait(meta.pacing.gapMs);
