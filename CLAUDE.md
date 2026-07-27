@@ -118,6 +118,64 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## document — the stack contract (build/deploy/vendor conventions).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-27 1.19.0 → 1.20.0 BUILT on staging, unpromoted. Noah: "add those and
+  right-size the app and what it does and how it does it… region tabs load very
+  slowly… earlier conventions may no longer be valid."
+  PERFORMANCE, all MEASURED, not guessed. A Yellowstone switch froze the UI for
+  1,329 ms here (so several times that on his iPad). (1) RANKING 1,586 → 281 ms:
+  the `view` signal asked the astronomy engine for the sun once per ~1.1 km —
+  ~1,500 sun models for Sacramento — and what that bought was ONE WORD ("evening
+  light from the NW") that does not touch the score. Across the whole 200 km
+  region the setting azimuth moves 0.55° and compass() buckets to 16 points, so
+  LIGHT_CELL_DEG=0.25 (~28 km) renders identically: VERIFIED every score and
+  every note byte-identical over 2,799 spots. (2) RANK CACHE 1.37 MB → 0.40 MB:
+  it stored each spot's full `parts` (labels + notes) and wrote that to
+  localStorage SYNCHRONOUSLY on every switch, out of a ~5 MB quota shared by
+  seven regions. Now caches `keys` only; the readable breakdown is recomputed for
+  the ONE open card (breakdownFor in main.js, passed to setSynthesis). (3) LAZY
+  MARKERS: 42 → 11 ms. I predicted ~900 ms and was WRONG — measured before
+  claiming. Kept because it stops growing with the region.
+  COUNTIES: +Calaveras (06009), +Nevada (06057), +Amador (06005); region renamed
+  "Sacramento · Gold Country · Tahoe". Chosen from the coverage audit, not taste.
+  ONE QUERY PER COUNTY, the convention that stopped being valid. Six county areas
+  × 15 selectors in one Overpass query = 19 minutes of retries across all three
+  mirrors → HTTP 504. Overpass bills by the WORK a query does, so the fix is
+  smaller questions, not more patience. osm.ingest now loops counties, dedups
+  elements on county lines by type/id, NAMES failing counties and keeps the rest
+  (records.failedCounties), 2 s gap, sleepFn threaded through fetchOverpass so
+  tests don't wait. ingest-osm.yml timeout 25 → 45 min.
+  JUNK RULES, Noah's words: IKEA out; a wild flower photographable there IN but
+  nursery stock OUT (no leading \b — "Placervillenursery" is one word); agency
+  archives OUT unless of something still standing (his ancient tree).
+  photoDestination() reports every rejection WITH ITS REASON so the list is
+  auditable rather than a silent filter.
+  SHOW ALL / HIDE ALL in the toolbar + a separate "↺ Restore". FIRST BUILD MADE
+  THE ONE BUTTON TURN INTO "Restore" AND THE FILTERS SMOKE CAUGHT IT: after Show
+  all there was no one-tap Hide all, because the button had been taken over by
+  its own undo. Undo sits BESIDE the action. bulkPrev is cleared by any non-bulk
+  applyVisible, so a stale set can never be restored. Full undo/redo → NOTES.md
+  roadmap (needs one funnel for every filter path, a bounded stack, and a
+  decision on whether hiding a PLACE shares the stack with hiding a TYPE).
+  THUMBNAILS (1.20.0) on DISCOVERED pins only, behind a tap. src/model/
+  commons-thumbs.js: ONE request, generator=geosearch + prop=imageinfo +
+  iiurlwidth=320 + extmetadata, origin=*. NO maxlag — this is INTERACTIVE (one
+  request because a person tapped), which API:Etiquette separates from the bulk
+  rules our ingest follows; maxlag would only make a tap fail during lag.
+  ATTRIBUTION IS THE CONDITION, NOT A CAPTION: no stateable licence → the file is
+  not shown at all; Artist/Credit arrive as uploader-written HTML → plainText()
+  strips it and it is set as TEXT (smoke fires an onerror payload and proves it
+  inert). Ordinary photographed spots keep the link-out — there a photo is
+  incidental. CSP += img-src upload.wikimedia.org, connect-src
+  commons.wikimedia.org. WHY BEHIND A TAP is mostly NOT bandwidth: Commons is not
+  curated for this app and we cannot preview what a geosearch returns.
+  NEW SMOKES: smoke-bulktoggle.mjs (12 checks incl. the stale-restore trap),
+  smoke-thumbs.mjs (13 checks incl. licence-missing → not rendered, and the XSS
+  payload). 230+ tests + contrast + etiquette + all NINE smokes green.
+  STILL OPEN: the six-county OSM ingest — the first attempt 504'd (see above),
+  the re-dispatch on the per-county code inherited the OLD 25-min ceiling and was
+  still in its fetch step at last check. CHECK THE JOB'S OWN CONCLUSION, not the
+  branch tip: "still running" is not "still alive" — that is the sibling of the
+  "cancelled is not zero" lesson and it caught me out this session.
 - 2026-07-27 PROMOTED 1.18.0 to main (Noah's "Promote"). Production ==
   origin/main == origin/staging == daaacd9 (a MERGE, not a fast-forward — main
   carried a tooling-only commit). Ships the two discovery layers with real data.
