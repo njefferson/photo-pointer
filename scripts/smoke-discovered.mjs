@@ -57,8 +57,14 @@ console.log(JSON.stringify(out, null, 2));
 // The Upcoming list must carry the bloom events too. Dismiss the first-visit
 // welcome dialog first, or every row read is that dialog's install steps.
 await page.evaluate(() => { for (const d of document.querySelectorAll('dialog')) d.close?.(); });
+// Pin types default to all-off and the master toggle lives inside the collapsed
+// Filters panel, so an empty list would otherwise mean nothing at all.
+await page.click('button:has-text("Filters")').catch(() => {});
+await page.waitForTimeout(200);
+await page.click('button:has-text("Show all")').catch(() => {});
+await page.waitForTimeout(300);
 await page.click('button:has-text("List")').catch(() => {});
-await page.waitForTimeout(400);
+await page.waitForTimeout(500);
 await page.evaluate(() => {
   const b = [...document.querySelectorAll('button')].find((x) => /^Upcoming$/i.test(x.textContent.trim()));
   b?.click();
@@ -66,6 +72,7 @@ await page.evaluate(() => {
 await page.waitForTimeout(600);
 const rows = await page.evaluate(() =>
   [...document.querySelectorAll('.list-row')].slice(0, 6).map((r) => r.innerText.replace(/\s+/g, ' ').slice(0, 90)));
+
 console.log('upcoming rows:', JSON.stringify(rows, null, 2));
 if (!rows.some((r) => /bloom|autumn colour/i.test(r))) {
   console.error('FAIL: no bloom or autumn-colour event in the Upcoming list');

@@ -111,6 +111,63 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## declared at the first full release (2026-07-20).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-27 1.18.0 "Places nobody wrote down, and dates worth driving for" (a
+  CAPABILITY) BUILT on staging. The two layers 1.16.0/1.17.0 shipped EMPTY now
+  carry real data, and getting there was four wrong answers in a row — each one
+  arithmetically correct and each one useless, which is the pattern worth
+  remembering from this session.
+  (A) PHENOLOGY WAS NOT BROKEN, IT WAS BEING ASKED WRONG. Two runs returned
+  HTTP 200 with `[]` and I read that as "no records in this region". THREE
+  separate mistakes all produce that identical shape: a GET instead of a POST
+  form body; one five-year `start_date`/`end_date` span instead of ONE CALENDAR
+  YEAR PER CALL; and (already fixed) the x1/y1 axis names being lat/lng. Read
+  from their own R client (usa-npn/rnpn npn_data_download.R: `req_method("POST")`
+  + `req_body_form()`, and a `for (year in years)` loop). MEASURED after the fix:
+  45,222 usable records, 5 years pooled. The adapter now PRINTS the exact request
+  behind any zero and the field names of the first row it gets, so the next zero
+  is evidence rather than a guess.
+  (B) THEN THE STATISTIC WAS WRONG. First real output put CALIFORNIA POPPY at
+  25 JUNE in the Sierra foothills, where it peaks in early April. The median of
+  every "in flower" record over a March-to-August season really is late June —
+  right answer, wrong question, and it sends someone to an empty hillside. Now
+  dated by the BUSIEST FORTNIGHT (peakWindow), and the card states how many of
+  the season's records fall inside it so a diffuse season reads as diffuse.
+  (C) THEN THE THRESHOLD WAS ON THE WRONG THING. MIN_RECORDS was counting the
+  SEASON, so Pacific dogwood got dated 2 FEBRUARY off six sightings and Fremont
+  cottonwood off three. The bar now applies to the fortnight being named.
+  24 species → 18, and the survivors read correctly for the foothills: whiteleaf
+  manzanita 2 Apr (63 of 305), buckbrush 10 Apr, blue oak bloom 16 Apr (46 of
+  81), blue oak autumn colour 2 Nov (41 of 313), California buckeye going brown
+  4 Aug (a real summer-drought signature, not an error).
+  (D) PHOTO-DENSITY DISCOVERY, and the two ways its first output was junk.
+  MEASURED: 1,785 of 18,185 harvested coordinates sat on an EXACT 0.1° GRID —
+  someone typing roughly where they were; a 0.1° cell is ~11 km, and clustered
+  they become a confident pin in a field (isPlaceholderCoord drops them). And
+  the densest cell held 187 photos, 160 AT ONE IDENTICAL COORDINATE — one upload
+  batch geotagged once. So what earns a pin is now the count of DISTINCT
+  COORDINATES a camera was set down at, not files; the file count is shown but
+  does not decide. Plus mergeAdjacent, because four cells in a row along the
+  delta were four pins on one stretch of river. 243 raw clusters → 88.
+  (E) THE ONE THAT WOULD HAVE BITTEN SILENTLY FOREVER: the discovery pass counted
+  ITS OWN PREVIOUS PINS as prior knowledge. Run two found its 43 discoveries,
+  decided each was "already explained" by the pin it had created for it, and
+  committed an empty layer that DELETED ALL 128 from run one. unexplainedBy()
+  now skips category 'photo_cluster'. A discovery pass must be able to run twice
+  — check this on any future discovery-shaped layer.
+  RESULT on sac-eldorado-placer: 2,816 spots, 43 photo_cluster, 18 phenology
+  events. The discovered pins are real places — Donner Summit (376 distinct
+  vantage points), Folsom Lake, the American River at Cal Expo, Sherman Island in
+  the delta, Angels Camp. Their cards say "Nothing we know of is listed here, but
+  cameras have been set down in N different places within a few hundred metres".
+  ETIQUETTE NOTE, mine to own: I dispatched phenology while the commons harvest
+  was mid-flight, against the standing "never two enrichments on one region"
+  rule. It happened not to conflict. Also, the ONE re-harvest against Wikimedia
+  (195 tiles) was needed only because commons.yml did `git add data/` and
+  discarded the coordinates in ingest/inputs/ — my bug, their bandwidth. Fixed.
+  sw CACHE pointer-1.18.0; changelog[0] 1.18.0. 219 tests + contrast + etiquette
+  + validate + all EIGHT smokes green, plus NEW scripts/smoke-discovered.mjs
+  which opens the densest discovered pin on the real region, reads its card, and
+  proves a bloom event reaches the Upcoming list. 0 pageerrors.
 - 2026-07-26 1.15.1 "Place cards fit your text size" (an ITERATION, an
   ACCESSIBILITY FIX). Noah asked the right question: "Is the popup a fixed size
   that could fail if the font size was set higher on the phone for visibility?
