@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   summarize, toEvent, classifyPhenophase, dayOfYearToDate, typicalDayOfYear, REQUEST_SOURCE, MIN_RECORDS, meta,
-  buildBody, endpoint, yearWindows, ingest,
+  buildBody, endpoint, yearWindows, ingest, peakWindow,
 } from '../ingest/adapters/phenology.mjs';
 import { makeSpot, validateSpot } from '../src/model/spot.js';
 
@@ -30,6 +30,23 @@ test('"looked for but not seen" is not evidence that it bloomed', () => {
   // phenophase_status 0 means the observer checked and it was NOT happening.
   const rows = Array.from({ length: 20 }, () => row({ phenophase_status: 0 }));
   assert.deepEqual(summarize(rows), []);
+});
+
+// The first run put California poppy at 25 June in the Sierra foothills, where
+// it peaks in early April. Nothing was broken — the median of a March-to-August
+// season really is late June. It was the wrong question, and a wrong answer
+// arrived at correctly is still someone driving out to an empty hillside.
+test('the date is the busiest fortnight, not the middle of a long season', () => {
+  const days = [];
+  for (let i = 0; i < 30; i++) days.push(95 + Math.floor(i / 6));  // dense early April
+  for (let d = 140; d <= 230; d += 2) days.push(d);                // long tail to August
+  const w = peakWindow(days);
+  assert.equal(w.start, 95, 'the peak is where the observations actually pile up');
+  assert.equal(w.inWindow, 30);
+  assert.equal(w.total, 76);
+  assert.ok(w.center < 110, `centre ${w.center} should be early April, not midsummer`);
+  // And the median, for contrast, lands in the empty tail.
+  assert.ok(typicalDayOfYear(days) > 130, 'which is exactly why we stopped using it');
 });
 
 test('the typical date is the median, so one freak year cannot drag it', () => {

@@ -82,6 +82,38 @@ export function typicalDayOfYear(days) {
   return xs.length % 2 ? xs[mid] : Math.round((xs[mid - 1] + xs[mid]) / 2);
 }
 
+// How wide a window we call "the bloom" — a fortnight, which is about how long a
+// drive stays worth making.
+export const WINDOW_DAYS = 14;
+
+// THE MEDIAN IS THE WRONG QUESTION. It answers "when is this species halfway
+// through being in flower somewhere", which for anything with a long or
+// double-ended season is a date nothing is happening. The FIRST run put
+// California poppy at 25 June in the Sierra foothills, where it peaks in early
+// April — the median of a season that runs March to August, arithmetically
+// right and useless to someone deciding whether to drive.
+// So: find the fortnight holding the MOST observations. That is the peak, which
+// is the thing actually being asked about.
+export function peakWindow(days, windowDays = WINDOW_DAYS) {
+  const xs = days.filter((n) => Number.isFinite(n)).sort((a, b) => a - b);
+  if (!xs.length) return null;
+  let best = { start: xs[0], count: 0 };
+  for (const start of xs) {
+    const end = start + windowDays;
+    let count = 0;
+    for (const d of xs) { if (d >= start && d < end) count++; else if (d >= end) break; }
+    if (count > best.count) best = { start, count };
+  }
+  return {
+    start: best.start,
+    end: best.start + windowDays - 1,
+    // The date on the card is the middle of the peak fortnight, not its edge.
+    center: Math.round(best.start + (windowDays - 1) / 2),
+    inWindow: best.count,
+    total: xs.length,
+  };
+}
+
 // A species needs this many independent observations before we will put a date
 // on it. Below this it is one person's garden, not a regional bloom.
 export const MIN_RECORDS = 8;
@@ -106,13 +138,14 @@ export function summarize(rows, { minRecords = MIN_RECORDS } = {}) {
   const out = [];
   for (const g of groups.values()) {
     if (g.days.length < minRecords) continue;
-    const doy = typicalDayOfYear(g.days);
-    if (doy == null) continue;
+    const peak = peakWindow(g.days);
+    if (!peak) continue;
     out.push({
       kind: g.kind,
       species: g.name,
-      dayOfYear: doy,
-      records: g.days.length,
+      dayOfYear: peak.center,
+      records: peak.inWindow,
+      seasonRecords: peak.total,
       lat: g.lats.reduce((a, b) => a + b, 0) / g.lats.length,
       lng: g.lngs.reduce((a, b) => a + b, 0) / g.lngs.length,
     });
@@ -135,11 +168,14 @@ export function toEvent(s, today) {
     access_difficulty: null,
     // Said plainly on the card: this is a typical date from volunteer records,
     // not a forecast for this year.
-    notes: `Typically around this date, from ${s.records} volunteer observations `
-      + `recorded nearby. Timing shifts with the season — treat it as a window, not a date.`,
+    notes: `Busiest fortnight in the records: ${s.records} of ${s.seasonRecords} nearby `
+      + `observations fall in it. Timing shifts with the season — treat it as a window, not a date.`,
     tags: {
-      event: { month, day, days: 14, recurs: 'annual', skywide: false },
-      phenology: { species: s.species, kind: s.kind, records: s.records },
+      event: { month, day, days: WINDOW_DAYS, recurs: 'annual', skywide: false },
+      phenology: {
+        species: s.species, kind: s.kind,
+        records: s.records, seasonRecords: s.seasonRecords,
+      },
     },
     sources: [{
       source: meta.source,
