@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord, unexplainedBy, describeCluster, titleWords, isSingleRig, singleRigShare } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord, unexplainedBy, describeCluster, titleWords, isSingleRig, singleRigShare, photoDestination } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -293,4 +293,39 @@ test('one camera rig moving is not a place people go', () => {
 
   // Too few files to judge — say nothing rather than guess.
   assert.equal(singleRigShare(['File:a with GoPro.jpg']), 0);
+});
+
+// Noah's rules, in his words (2026-07-27), on the first real output.
+test('a pin has to be somewhere you could go and photograph the thing', () => {
+  // "IKEA: no."
+  assert.equal(photoDestination('Ikea').ok, false);
+  // "Botanical specimens can be good if it's a flower that can be photographed
+  // there — not good if it's someone's personal potted plants."
+  assert.equal(photoDestination('Cirsium Occidentale Candidissimum Snowy Thistle').ok, true,
+    'a native thistle growing on a hillside is exactly what this app is for');
+  assert.equal(photoDestination('Placervillenursery Eldorador5').ok, false,
+    'nursery stock is not a wildflower, even run together into one word');
+  assert.equal(photoDestination('Potted succulent collection').ok, false);
+  // "Archives sound like old historical photos that may not be there to
+  // photograph today, so not useful — but if they are of an ancient tree or
+  // something then maybe useful."
+  assert.equal(photoDestination('Nrcs Lsc').ok, false);
+  assert.equal(photoDestination('Pacific Southwest Region Research Station Honor').ok, false);
+  assert.equal(
+    photoDestination('Forest Service Archive', ['File:Archive - the giant sequoia at Big Trees.jpg']).ok,
+    true, 'an archive of something still standing is still worth the drive');
+  assert.equal(
+    photoDestination('Forest Service Archive', ['File:Archive - 1954 staff picnic.jpg']).ok,
+    false);
+  // Real places are untouched.
+  for (const p of ['Folsom Dam', 'Bridgeport Covered Bridge', 'Sand Harbor Lake Tahoe State Park',
+    'Autumn Foliage Along Brockway Road Truckee']) {
+    assert.equal(photoDestination(p).ok, true, p);
+  }
+});
+
+test('a rejection always says why, so the list can be audited', () => {
+  const v = photoDestination('Ikea');
+  assert.equal(v.ok, false);
+  assert.match(v.why, /shop/);
 });

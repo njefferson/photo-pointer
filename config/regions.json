@@ -4,7 +4,7 @@
   "regions": [
     {
       "id": "sac-eldorado-placer",
-      "name": "Sacramento · El Dorado · Placer",
+      "name": "Sacramento \u00b7 Gold Country \u00b7 Tahoe",
       "bbox": {
         "south": 38,
         "west": -121.95,
@@ -32,6 +32,27 @@
           "fips": "06061",
           "osm_area_name": "Placer County",
           "ebird_region": "US-CA-061"
+        },
+        {
+          "name": "Calaveras County",
+          "state": "CA",
+          "fips": "06009",
+          "osm_area_name": "Calaveras County",
+          "ebird_region": "US-CA-009"
+        },
+        {
+          "name": "Nevada County",
+          "state": "CA",
+          "fips": "06057",
+          "osm_area_name": "Nevada County",
+          "ebird_region": "US-CA-057"
+        },
+        {
+          "name": "Amador County",
+          "state": "CA",
+          "fips": "06005",
+          "osm_area_name": "Amador County",
+          "ebird_region": "US-CA-005"
         }
       ]
     },

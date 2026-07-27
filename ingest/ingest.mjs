@@ -516,6 +516,22 @@ async function cmdCommonsClusters(id) {
       + `${Math.round(commons.singleRigShare(r.titles) * 100)}% of files share one device signature`);
   }
   fresh = fresh.filter((c) => !(c.titles?.length && commons.isSingleRig(c.titles)));
+
+  // And the ones that are somewhere, but not somewhere you could go and take
+  // the photograph — a shop, a nursery's stock, an organisation's own records.
+  const notPlaces = [];
+  fresh = fresh.filter((c) => {
+    const verdict = commons.photoDestination(commons.describeCluster(c.titles)?.subject, c.titles);
+    if (!verdict.ok) notPlaces.push({ c, why: verdict.why });
+    return verdict.ok;
+  });
+  if (notPlaces.length) {
+    log(`commons-clusters: ${notPlaces.length} clusters are not somewhere you could go and photograph the thing:`);
+    for (const { c, why } of notPlaces) {
+      log(`  ${String(c.spots).padStart(3)} coords @ ${c.lat.toFixed(4)},${c.lng.toFixed(4)} — `
+        + `"${commons.describeCluster(c.titles)?.subject ?? '?'}" — ${why}`);
+    }
+  }
   if (!fresh.length) {
     log(`commons-clusters: nothing left once single-rig captures are removed — skipping`);
     return;

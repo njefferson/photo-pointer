@@ -27,8 +27,24 @@ test('pickRegion resolves by id and falls back to the default', () => {
   assert.equal(pickRegion(doc, undefined).id, doc.default);
 });
 
-test('home region is Sacramento + El Dorado + Placer', () => {
-  assert.deepEqual(byId['sac-eldorado-placer'].counties.map((c) => c.fips).sort(), ['06017', '06061', '06067']);
+// The home region grew on 2026-07-27, and the reason is worth keeping: the map
+// was always a bounding BOX while the OpenStreetMap ingest asked by COUNTY, so
+// everything in the box outside the three original counties had no data at all.
+// The photo-density layer fell into that hole and found it — 26 of 43
+// discoveries in cells holding fewer than five known places. Calaveras, Nevada
+// and Amador are where people demonstrably go and we knew nothing.
+test('the home region covers the counties inside its own bounding box', () => {
+  assert.deepEqual(byId['sac-eldorado-placer'].counties.map((c) => c.fips).sort(),
+    ['06005', '06009', '06017', '06057', '06061', '06067']);
+});
+
+test('every county named in a region is one we could actually be asked about', () => {
+  for (const r of doc.regions) {
+    for (const c of r.counties) {
+      assert.ok(c.osm_area_name, `${r.id}: a county with no OSM area name cannot be ingested`);
+      assert.match(c.fips ?? '', /^\d{5}$/, `${r.id}/${c.name}: fips`);
+    }
+  }
 });
 
 test('each region bbox covers a known place inside it', () => {
