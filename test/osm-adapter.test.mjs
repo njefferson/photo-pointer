@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildQuery, normalizeElement, TAG_RULES, meta } from '../ingest/adapters/osm-overpass.mjs';
+import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS } from '../ingest/adapters/osm-overpass.mjs';
 import { validateSpot } from '../src/model/spot.js';
 import { makeSpot } from '../src/model/spot.js';
 
@@ -71,4 +71,57 @@ test('a specific feature tag wins over the generic oddity rule (feature-first)',
   };
   const rec = normalizeElement(el, '2026-07-19');
   assert.equal(rec.tags.curiosity, 'Hot spring');
+});
+
+// ONE QUERY PER COUNTY. Asking for all of them at once was fine at three
+// counties and fell over at six: nineteen minutes of retries across all three
+// mirrors, ending in HTTP 504. Overpass bills by how much work one query does,
+// so the fix is smaller questions rather than more patience.
+test('one Overpass query per county, not one for the whole region', async () => {
+  const region = {
+    bbox: { south: 38, west: -122, north: 39.4, east: -119.8 },
+    counties: [
+      { osm_area_name: 'Sacramento County' },
+      { osm_area_name: 'Calaveras County' },
+      { osm_area_name: 'Nevada County' },
+    ],
+  };
+  const bodies = [];
+  const fetchFn = async (_url, opts) => {
+    bodies.push(decodeURIComponent(opts.body.replace(/^data=/, '')));
+    return { ok: true, status: 200, json: async () => ({ elements: [] }) };
+  };
+  await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} });
+  assert.equal(bodies.length, 3, 'three counties, three queries');
+  for (const [i, c] of region.counties.entries()) {
+    assert.ok(bodies[i].includes(`"name"="${c.osm_area_name}"`), c.osm_area_name);
+    const named = bodies[i].match(/admin_level"="6"/g) ?? [];
+    assert.equal(named.length, 1, 'each query asks about exactly one county');
+  }
+});
+
+test('an element on a county line is counted once, not twice', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 },
+    counties: [{ osm_area_name: 'A' }, { osm_area_name: 'B' }] };
+  const el = { type: 'node', id: 42, lat: 38.5, lon: -121, tags: { tourism: 'viewpoint', name: 'On the line' } };
+  const fetchFn = async () => ({ ok: true, status: 200, json: async () => ({ elements: [el] }) });
+  const out = await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} });
+  assert.equal(out.length, 1, 'both counties returned it; it is one place');
+});
+
+// A county that will not answer is not a county with no places in it.
+test('a failing county is named and the rest of the region still lands', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 },
+    counties: [{ osm_area_name: 'Good' }, { osm_area_name: 'Broken' }] };
+  const fetchFn = async (_url, opts) => {
+    const body = decodeURIComponent(opts.body);
+    if (body.includes('"name"="Broken"')) return { ok: false, status: 504 };
+    return { ok: true, status: 200, json: async () => ({ elements: [
+      { type: 'node', id: 1, lat: 38.5, lon: -121, tags: { tourism: 'viewpoint', name: 'Kept' } },
+    ] }) };
+  };
+  const out = await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} });
+  assert.equal(out.length, 1, 'the county that answered is not thrown away');
+  assert.equal(out.failedCounties.length, 1);
+  assert.match(out.failedCounties[0], /Broken/, 'and the one that failed is named, not silently zero');
 });

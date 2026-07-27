@@ -18,7 +18,9 @@ export const meta = {
   attribution: '© OpenStreetMap contributors',
   status: 'working',
   // Overpass publishes a daily budget (~10k requests, <1 GB) rather than a rate:
-  // we send a handful of large queries per region, run rarely, one at a time.
+  // we send one query PER COUNTY per region, run rarely, one at a time. Six
+  // small questions cost their servers far less than one that runs for nineteen
+  // minutes and 504s — the budget is about work done, not requests made.
   // Heavy users are load-shed first, so keeping the footprint small IS the
   // etiquette. If our usage ever approaches those numbers the answer is to run
   // our own instance, not to spread across more mirrors.
@@ -28,8 +30,12 @@ export const meta = {
     minGapMs: 0,          // no stated per-request rate; the budget is daily
     dailyRequestBudget: 10000,
   },
-  pacing: { concurrency: 1, gapMs: 0 },
+  pacing: { concurrency: 1, gapMs: 2000 },
 };
+
+// A walking pace between county queries. Nothing published requires it; it is
+// simply what we hold ourselves to when we are the ones asking repeatedly.
+export const OVERPASS_GAP_MS = meta.pacing.gapMs;
 
 // Ordered rules: first match wins. Each rule = OSM tag selector → category +
 // photographer-intent seeds. Kept as data so curation is a table edit.
@@ -80,9 +86,15 @@ export const ALL_RULES = [...FEATURE_RULES, ...TAG_RULES];
 
 // One Overpass query for the whole region: union of the counties' admin
 // areas, belt-and-braces bounded by the region bbox.
-export function buildQuery(region, rules = TAG_RULES) {
+// ONE QUERY PER COUNTY, NOT PER REGION. Asking for every county at once was
+// fine at three and fell over at six: a single query carrying 6 county areas ×
+// 15 selectors spent nineteen minutes being retried across all three Overpass
+// mirrors and ended in HTTP 504. Overpass bills by how much work one query does,
+// so the fix is smaller questions, not more patience — and a county that times
+// out now costs that county, not the whole region.
+export function buildQuery(region, rules = TAG_RULES, counties = region.counties) {
   const b = region.bbox;
-  const areas = region.counties
+  const areas = counties
     .map(
       (c) =>
         `  area["boundary"="administrative"]["admin_level"="6"]["name"="${c.osm_area_name}"];`
@@ -116,7 +128,7 @@ export const USER_AGENT =
 
 import { backoffMs } from './http-etiquette.mjs';
 
-export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_HOSTS } = {}) {
+export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_HOSTS, sleepFn = sleep } = {}) {
   let lastErr = null;
   // Overpass public instances 504/timeout often when busy — that is transient,
   // so cycle the hosts a few times with backoff before giving up. The job's
@@ -141,7 +153,7 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
           // If the mirror stated how long to wait, wait THAT long — it is the
           // operator's own terms, and guessing shorter ignores them. Overpass is
           // volunteer-run; a 429 is an instruction, not an obstacle.
-          await sleep(backoffMs(res, round, { base: 20000 }));
+          await sleepFn(backoffMs(res, round, { base: 20000 }));
           continue;
         }
         if (!res.ok) throw new Error(`${host}: HTTP ${res.status}`);
@@ -150,7 +162,7 @@ export async function fetchOverpass(query, { fetchFn = fetch, hosts = OVERPASS_H
         return json;
       } catch (e) {
         lastErr = e; // network error / timeout — try the next host, then back off
-        await sleep(5000 * (round + 1));
+        await sleepFn(5000 * (round + 1));
       }
     }
   }
@@ -219,17 +231,42 @@ function keepTags(tags) {
   return out;
 }
 
-export async function ingest(region, { fetchFn, today, log = () => {}, rules = TAG_RULES } = {}) {
-  const query = buildQuery(region, rules);
-  log(`overpass query: ${query.length} chars, ${rules.length} selectors`);
-  const json = await fetchOverpass(query, { fetchFn });
-  log(`overpass returned ${json.elements.length} elements`);
+export async function ingest(region, { fetchFn, today, log = () => {}, rules = TAG_RULES, sleepFn = sleep } = {}) {
   const records = [];
-  for (const el of json.elements) {
-    const rec = normalizeElement(el, today);
-    if (rec) records.push(rec);
+  const seen = new Set();   // an element can sit on a county line; count it once
+  const failed = [];
+  for (const county of region.counties) {
+    const query = buildQuery(region, rules, [county]);
+    log(`overpass: ${county.osm_area_name} (${rules.length} selectors, ${query.length} chars)`);
+    let json;
+    try {
+      json = await fetchOverpass(query, { fetchFn, sleepFn });
+    } catch (e) {
+      // A county that will not answer is NOT zero places. Name it, keep the
+      // rest, and let the caller decide whether the run is usable — the same
+      // rule as a failed Commons probe.
+      failed.push(`${county.osm_area_name}: ${e.message}`);
+      log(`  overpass: ${county.osm_area_name} FAILED — ${e.message}`);
+      continue;
+    }
+    let kept = 0;
+    for (const el of json.elements) {
+      const key = `${el.type}/${el.id}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const rec = normalizeElement(el, today);
+      if (rec) { records.push(rec); kept++; }
+    }
+    log(`  overpass: ${county.osm_area_name} → ${json.elements.length} elements, ${kept} places`);
+    // Overpass asks callers to leave gaps between queries; one per county at a
+    // walking pace is well inside that. https://wiki.openstreetmap.org/wiki/Overpass_API
+    if (county !== region.counties.at(-1)) await sleepFn(OVERPASS_GAP_MS);
   }
-  log(`normalized ${records.length} records`);
+  if (failed.length) {
+    log(`overpass: ${failed.length} of ${region.counties.length} counties did not answer — ${failed.join(' | ')}`);
+  }
+  log(`normalized ${records.length} records from ${region.counties.length - failed.length} counties`);
+  records.failedCounties = failed;
   return records;
 }
 
