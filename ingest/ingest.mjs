@@ -456,7 +456,7 @@ async function saveCommonsPoints(regionId, images) {
   const file = path.join(ROOT, 'ingest', 'inputs', `${regionId}-commons-points.json`);
   await mkdir(path.dirname(file), { recursive: true });
   // Round to ~1 m; full float precision is noise and triples the file size.
-  const pts = images.map((im) => [Number(im.lat.toFixed(5)), Number(im.lng.toFixed(5))]);
+  const pts = images.map((im) => [Number(im.lat.toFixed(5)), Number(im.lng.toFixed(5)), im.title ?? null]);
   await writeFile(file, JSON.stringify({ builtAt: today, count: pts.length, points: pts }) + '\n');
   log(`  commons: kept ${pts.length} photo coordinates for the discovery pass`);
 }
@@ -492,9 +492,16 @@ async function cmdCommonsClusters(id) {
     console.error(`commons-clusters: no photo coordinates for ${region.id} — run \`commons\` first`);
     process.exit(1);
   }
-  const pts = input.points.map(([lat, lng]) => ({ lat, lng }));
+  const pts = input.points.map(([lat, lng, title]) => ({ lat, lng, title }));
   const clusters = commons.clusterPoints(pts);
-  const fresh = commons.unexplainedBy(clusters, doc.spots);
+  let fresh = commons.unexplainedBy(clusters, doc.spots);
+  // Only ask about the ones we are keeping, and only if the harvest predates
+  // titles being kept. A coordinate file gathered since needs no requests.
+  if (fresh.length && !fresh.some((c) => c.titles?.length)) {
+    log(`commons-clusters: asking what ${fresh.length} discovered places are photographs OF `
+      + `(one small request each, ${commons.WIKIMEDIA_MIN_GAP_MS} ms apart)`);
+    fresh = await commons.fetchClusterTitles(fresh, { log });
+  }
   log(`commons-clusters: ${clusters.length} photo clusters, ${clusters.length - fresh.length} already explained by a known spot`);
   if (!fresh.length) {
     log(`commons-clusters: nothing undiscovered in ${region.id} — skipping`);
@@ -515,7 +522,13 @@ async function cmdCommonsClusters(id) {
     // `spots` is what earned the pin — the number of DISTINCT coordinates a
     // camera was put down at. `photos` is how much material exists there, which
     // is worth showing but must not be what decides.
-    tags: { commons: { photos: c.photos, spots: c.spots }, discovered: 'photo-density' },
+    tags: {
+      commons: { photos: c.photos, spots: c.spots },
+      // What the photographers called their own files, where enough of them
+      // agree. Reported as evidence, never adopted as the place's name.
+      ...(commons.describeCluster(c.titles) ? { subject: commons.describeCluster(c.titles) } : {}),
+      discovered: 'photo-density',
+    },
     sources: [{
       source: commons.meta.source,
       source_id: `cluster:${c.lat.toFixed(5)},${c.lng.toFixed(5)}`,
@@ -528,6 +541,37 @@ async function cmdCommonsClusters(id) {
   await writeSource(P.sourcesDir, 'commons-clusters.json', commons.meta, region, records);
   log(`[${region.id}] ${records.length} photographed places nothing else in our data lists `
     + `(densest ${records[0].tags.commons.photos} photos)`);
+  reportCoverageGaps(region, doc.spots, records);
+}
+
+// WHERE OUR SOURCES DO NOT REACH. A discovery pass that starts from behaviour is
+// also, for free, an audit of coverage: a place people demonstrably photograph
+// and we know nothing about within kilometres is not an obscure place, it is a
+// place we never asked about. The home region's map is a BOX; its OSM ingest is
+// by COUNTY, and everything in the box outside those counties has no OSM data at
+// all. This prints that mismatch instead of leaving it to be noticed by accident.
+function reportCoverageGaps(region, spots, records) {
+  const CELL = 0.1; // ~11 km
+  const key = (s) => `${Math.floor(s.lat / CELL)}:${Math.floor(s.lng / CELL)}`;
+  const known = new Map();
+  for (const s of spots) {
+    if (s.category === 'photo_cluster') continue;
+    known.set(key(s), (known.get(key(s)) ?? 0) + 1);
+  }
+  const bare = new Map();
+  for (const r of records) {
+    if ((known.get(key(r)) ?? 0) >= 5) continue;
+    const g = bare.get(key(r)) ?? bare.set(key(r), { n: 0, known: known.get(key(r)) ?? 0, lat: r.lat, lng: r.lng }).get(key(r));
+    g.n++;
+  }
+  if (!bare.size) { log('coverage: every discovery sits among places we already know'); return; }
+  const total = [...bare.values()].reduce((a, b) => a + b.n, 0);
+  log(`coverage: ${total} of ${records.length} discoveries are in areas where we know `
+    + `almost nothing — probably not obscure places, but places our sources were never asked about:`);
+  for (const g of [...bare.values()].sort((a, b) => b.n - a.n)) {
+    log(`  ${String(g.n).padStart(3)} discovered · ${String(g.known).padStart(4)} known  near `
+      + `${g.lat.toFixed(2)},${g.lng.toFixed(2)}`);
+  }
 }
 
 async function cmdCommons(id) {
