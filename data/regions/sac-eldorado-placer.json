@@ -61,6 +61,9 @@
           "s": 1,
           "w": 4.8,
           "site_m": 465
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -239,6 +242,9 @@
           "s": 0,
           "w": 0.1,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -320,6 +326,9 @@
           "s": 0,
           "w": 0.1,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -368,6 +377,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -442,6 +454,9 @@
           "name": "Acorn Recreation Area",
           "manager": "Army Corps of Engineers",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -493,6 +508,9 @@
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -791,6 +809,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -833,6 +854,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -977,6 +1001,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -1288,6 +1315,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -1493,6 +1523,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -1718,6 +1751,9 @@
           "s": 0.2,
           "w": -0.1,
           "site_m": 43
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -1885,6 +1921,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -2024,7 +2063,10 @@
         }
       ],
       "tags": {
-        "nrhp": "79000471"
+        "nrhp": "79000471",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -2075,6 +2117,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 47
         }
       }
     },
@@ -2103,7 +2148,10 @@
         }
       ],
       "tags": {
-        "nrhp": "72000215"
+        "nrhp": "72000215",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -2211,7 +2259,10 @@
         }
       ],
       "tags": {
-        "nrhp": "16000094"
+        "nrhp": "16000094",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -2427,6 +2478,9 @@
           "s": 0.6,
           "w": -0.5,
           "site_m": 412
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -2483,6 +2537,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 33
         }
       }
     },
@@ -2511,7 +2568,10 @@
         }
       ],
       "tags": {
-        "nrhp": "96001079"
+        "nrhp": "96001079",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -2613,6 +2673,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -2664,6 +2727,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 40
         }
       }
     },
@@ -2715,6 +2781,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 95
         }
       }
     },
@@ -2820,6 +2889,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -2876,6 +2948,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -2927,6 +3002,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -2991,6 +3069,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -3047,6 +3128,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -3098,6 +3182,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -3149,6 +3236,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -3200,6 +3290,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -3306,6 +3399,9 @@
           "observations": 6,
           "species": 5,
           "topGuild": "mammals"
+        },
+        "commons": {
+          "photos": 69
         }
       }
     },
@@ -3362,6 +3458,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -3412,6 +3511,9 @@
           "observations": 17,
           "species": 13,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 64
         }
       }
     },
@@ -3463,6 +3565,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 40
         }
       }
     },
@@ -3514,6 +3619,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -3565,6 +3673,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -3621,6 +3732,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -3672,6 +3786,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -3723,6 +3840,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -3779,6 +3899,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -3830,6 +3953,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -3886,6 +4012,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 36
         }
       }
     },
@@ -3936,6 +4065,9 @@
           "observations": 6,
           "species": 5,
           "topGuild": "mammals"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -3987,6 +4119,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -4043,6 +4178,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 33
         }
       }
     },
@@ -4241,6 +4379,9 @@
           "observations": 96,
           "species": 36,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -4297,6 +4438,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 23
         }
       }
     },
@@ -4353,6 +4497,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -4450,6 +4597,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 32
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -4496,6 +4646,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -4591,6 +4744,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -4637,6 +4793,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 30
         }
       }
     },
@@ -4809,6 +4968,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 20
         }
       }
     },
@@ -5014,7 +5176,10 @@
         }
       ],
       "tags": {
-        "nrhp": "72000220"
+        "nrhp": "72000220",
+        "commons": {
+          "photos": 26
+        }
       }
     },
     {
@@ -5140,7 +5305,10 @@
         }
       ],
       "tags": {
-        "nrhp": "86001354"
+        "nrhp": "86001354",
+        "commons": {
+          "photos": 117
+        }
       }
     },
     {
@@ -5270,6 +5438,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -5448,6 +5619,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Conservation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -5484,6 +5658,9 @@
           "s": 0.3,
           "w": 0.6,
           "site_m": 25
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -5588,6 +5765,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 89
         }
       }
     },
@@ -5679,6 +5859,9 @@
           "s": 0.2,
           "w": -0.1,
           "site_m": 19
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -5771,6 +5954,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 13
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -6277,7 +6463,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000935"
+        "nrhp": "11000935",
+        "commons": {
+          "photos": 152
+        }
       }
     },
     {
@@ -6430,7 +6619,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000936"
+        "nrhp": "11000936",
+        "commons": {
+          "photos": 68
+        }
       }
     },
     {
@@ -6458,7 +6650,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000937"
+        "nrhp": "11000937",
+        "commons": {
+          "photos": 101
+        }
       }
     },
     {
@@ -6486,7 +6681,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000938"
+        "nrhp": "11000938",
+        "commons": {
+          "photos": 137
+        }
       }
     },
     {
@@ -6555,7 +6753,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000939"
+        "nrhp": "11000939",
+        "commons": {
+          "photos": 155
+        }
       }
     },
     {
@@ -6583,7 +6784,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000153"
+        "nrhp": "11000153",
+        "commons": {
+          "photos": 155
+        }
       }
     },
     {
@@ -6732,6 +6936,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -6778,6 +6985,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 48
         }
       }
     },
@@ -6880,6 +7090,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -6980,6 +7193,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -7087,6 +7303,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 16
         }
       }
     },
@@ -7259,7 +7478,10 @@
         }
       ],
       "tags": {
-        "california_landmark": true
+        "california_landmark": true,
+        "commons": {
+          "photos": 136
+        }
       }
     },
     {
@@ -7524,6 +7746,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -7777,6 +8002,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -7818,6 +8046,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -8516,7 +8747,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100004528"
+        "nrhp": "100004528",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -8594,6 +8828,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -8636,6 +8873,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -8687,6 +8927,9 @@
           "manager": "Department of Defense",
           "designation": "Military Land",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -9041,7 +9284,10 @@
         }
       ],
       "tags": {
-        "nrhp": "78000660"
+        "nrhp": "78000660",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -9085,6 +9331,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -9126,6 +9375,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -9218,6 +9470,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 32
         }
       }
     },
@@ -9246,7 +9501,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002283"
+        "nrhp": "82002283",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -9321,6 +9579,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -9612,6 +9873,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 20
         }
       }
     },
@@ -9654,6 +9918,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 57
         }
       }
     },
@@ -9843,6 +10110,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 15
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -10109,6 +10379,9 @@
           "s": -0.1,
           "w": 3.5,
           "site_m": 165
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -10151,6 +10424,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -10229,6 +10505,9 @@
           "s": 0.1,
           "w": 0,
           "site_m": 28
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -10407,6 +10686,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -11012,6 +11294,9 @@
           "s": 1.2,
           "w": 7.9,
           "site_m": 1906
+        },
+        "commons": {
+          "photos": 62
         }
       }
     },
@@ -11100,6 +11385,9 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -11243,6 +11531,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -11315,7 +11606,10 @@
         }
       ],
       "tags": {
-        "nrhp": "99001264"
+        "nrhp": "99001264",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -11631,6 +11925,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -11873,6 +12170,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -11966,6 +12266,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -12111,6 +12414,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 11
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -12150,6 +12456,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 8
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -12266,7 +12575,10 @@
         }
       ],
       "tags": {
-        "nrhp": "83001224"
+        "nrhp": "83001224",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -12302,6 +12614,9 @@
           "s": 0,
           "w": 0.3,
           "site_m": 120
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -12705,6 +13020,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 58
         }
       }
     },
@@ -12811,6 +13129,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -12924,7 +13245,10 @@
         }
       ],
       "tags": {
-        "nrhp": "75000498"
+        "nrhp": "75000498",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -13046,6 +13370,9 @@
           "s": 3,
           "w": 5.5,
           "site_m": 380
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -13159,6 +13486,9 @@
           "s": 0.2,
           "w": 1.2,
           "site_m": 58
+        },
+        "commons": {
+          "photos": 43
         }
       }
     },
@@ -13760,6 +14090,9 @@
           "s": 0.7,
           "w": 0.2,
           "site_m": 37
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -13795,6 +14128,9 @@
           "s": 0.6,
           "w": 0.1,
           "site_m": 37
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -13831,6 +14167,9 @@
           "s": 0,
           "w": -0.3,
           "site_m": 137
+        },
+        "commons": {
+          "photos": 44
         }
       }
     },
@@ -13912,7 +14251,10 @@
       ],
       "tags": {
         "nrhp": "81000168",
-        "hmdb": "704"
+        "hmdb": "704",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -13990,6 +14332,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 24
         }
       }
     },
@@ -14079,6 +14424,9 @@
           "s": 1.5,
           "w": -0.3,
           "site_m": 130
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -14150,7 +14498,10 @@
         }
       ],
       "tags": {
-        "nrhp": "04000733"
+        "nrhp": "04000733",
+        "commons": {
+          "photos": 109
+        }
       }
     },
     {
@@ -14295,6 +14646,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -14347,6 +14701,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -14937,6 +15294,9 @@
           "s": 0,
           "w": 0,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -15009,7 +15369,10 @@
         }
       ],
       "tags": {
-        "nrhp": "13000141"
+        "nrhp": "13000141",
+        "commons": {
+          "photos": 63
+        }
       }
     },
     {
@@ -15266,7 +15629,10 @@
         }
       ],
       "tags": {
-        "nrhp": "86002412"
+        "nrhp": "86002412",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -15349,6 +15715,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -15535,7 +15904,10 @@
         }
       ],
       "tags": {
-        "nrhp": "94000551"
+        "nrhp": "94000551",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -15563,7 +15935,10 @@
         }
       ],
       "tags": {
-        "nrhp": "85001683"
+        "nrhp": "85001683",
+        "commons": {
+          "photos": 26
+        }
       }
     },
     {
@@ -15591,7 +15966,10 @@
         }
       ],
       "tags": {
-        "nrhp": "72000221"
+        "nrhp": "72000221",
+        "commons": {
+          "photos": 20
+        }
       }
     },
     {
@@ -15806,6 +16184,9 @@
           "s": 0,
           "w": 0,
           "site_m": 5
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -16161,6 +16542,9 @@
           "s": 2.4,
           "w": 2.4,
           "site_m": 382
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -16275,6 +16659,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -16437,6 +16824,9 @@
           "manager": "Bureau of Land Management",
           "designation": "Wild and Scenic River",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -16577,6 +16967,9 @@
           "observations": 5,
           "species": 5,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -16628,6 +17021,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -16908,6 +17304,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 44
         }
       }
     },
@@ -17154,7 +17553,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84000944"
+        "nrhp": "84000944",
+        "commons": {
+          "photos": 25
+        }
       }
     },
     {
@@ -17194,6 +17596,9 @@
           "s": -0.1,
           "w": 0.1,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 140
         }
       }
     },
@@ -17371,6 +17776,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -17552,6 +17960,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -17580,7 +17991,10 @@
         }
       ],
       "tags": {
-        "nrhp": "06000143"
+        "nrhp": "06000143",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -17671,7 +18085,10 @@
         }
       ],
       "tags": {
-        "nrhp": "09000199"
+        "nrhp": "09000199",
+        "commons": {
+          "photos": 74
+        }
       }
     },
     {
@@ -17752,6 +18169,9 @@
           "s": -0.4,
           "w": -0.5,
           "site_m": 250
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -17815,6 +18235,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -18226,6 +18649,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -18254,7 +18680,10 @@
         }
       ],
       "tags": {
-        "nrhp": "03000988"
+        "nrhp": "03000988",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -18781,6 +19210,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -18823,6 +19255,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -18864,6 +19299,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -19118,6 +19556,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -19193,6 +19634,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -19488,6 +19932,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -19604,7 +20051,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84000759"
+        "nrhp": "84000759",
+        "commons": {
+          "photos": 26
+        }
       }
     },
     {
@@ -19730,6 +20180,9 @@
           "s": 0,
           "w": 0.1,
           "site_m": 12
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -19848,7 +20301,10 @@
         }
       ],
       "tags": {
-        "nrhp": "95000999"
+        "nrhp": "95000999",
+        "commons": {
+          "photos": 36
+        }
       }
     },
     {
@@ -19979,6 +20435,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -20270,6 +20729,9 @@
           "s": 0.2,
           "w": 0.4,
           "site_m": 107
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -20676,7 +21138,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002228"
+        "nrhp": "82002228",
+        "commons": {
+          "photos": 61
+        }
       }
     },
     {
@@ -20718,6 +21183,9 @@
           "s": -0.2,
           "w": -0.2,
           "site_m": 64
+        },
+        "commons": {
+          "photos": 32
         }
       }
     },
@@ -20876,7 +21344,10 @@
         }
       ],
       "tags": {
-        "nrhp": "99001564"
+        "nrhp": "99001564",
+        "commons": {
+          "photos": 22
+        }
       }
     },
     {
@@ -20942,7 +21413,10 @@
         }
       ],
       "tags": {
-        "nrhp": "98001605"
+        "nrhp": "98001605",
+        "commons": {
+          "photos": 21
+        }
       }
     },
     {
@@ -21023,6 +21497,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -21093,6 +21570,9 @@
           "manager": "Bureau of Land Management",
           "designation": "Wild and Scenic River",
           "access": "open"
+        },
+        "commons": {
+          "photos": 57
         }
       }
     },
@@ -21249,6 +21729,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 69
         }
       }
     },
@@ -21277,7 +21760,10 @@
         }
       ],
       "tags": {
-        "nrhp": "85000259"
+        "nrhp": "85000259",
+        "commons": {
+          "photos": 59
+        }
       }
     },
     {
@@ -21305,7 +21791,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002174"
+        "nrhp": "82002174",
+        "commons": {
+          "photos": 59
+        }
       }
     },
     {
@@ -21389,6 +21878,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 29
         }
       }
     },
@@ -21430,6 +21922,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -21534,6 +22029,9 @@
           "s": 0.2,
           "w": 0.4,
           "site_m": 22
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -21569,6 +22067,9 @@
           "s": 0.1,
           "w": 0,
           "site_m": 32
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -21611,6 +22112,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -21655,6 +22159,9 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -22413,6 +22920,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -22783,6 +23293,9 @@
           "s": 0.3,
           "w": 0.1,
           "site_m": 31
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -22989,7 +23502,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100001384"
+        "nrhp": "100001384",
+        "commons": {
+          "photos": 135
+        }
       }
     },
     {
@@ -23192,7 +23708,10 @@
         }
       ],
       "tags": {
-        "nrhp": "97001662"
+        "nrhp": "97001662",
+        "commons": {
+          "photos": 37
+        }
       }
     },
     {
@@ -23227,6 +23746,9 @@
           "s": 1.2,
           "w": 1.5,
           "site_m": 177
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -23289,6 +23811,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Conservation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -23580,7 +24105,10 @@
         }
       ],
       "tags": {
-        "nrhp": "71000176"
+        "nrhp": "71000176",
+        "commons": {
+          "photos": 148
+        }
       }
     },
     {
@@ -23616,6 +24144,9 @@
           "s": 0,
           "w": 0.4,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 144
         }
       }
     },
@@ -23708,6 +24239,9 @@
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -23783,6 +24317,9 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -23824,6 +24361,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -24107,6 +24647,9 @@
           "observations": 8,
           "species": 7,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 63
         }
       }
     },
@@ -24149,6 +24692,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -24205,6 +24751,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -24366,6 +24915,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -24670,6 +25222,9 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
+        },
+        "commons": {
+          "photos": 46
         }
       }
     },
@@ -24843,6 +25398,9 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -24912,7 +25470,10 @@
         }
       ],
       "tags": {
-        "nrhp": "98000713"
+        "nrhp": "98000713",
+        "commons": {
+          "photos": 59
+        }
       }
     },
     {
@@ -25086,6 +25647,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 87
         }
       }
     },
@@ -25120,6 +25684,9 @@
           "name": "Observation Point & Playground",
           "manager": "Army Corps of Engineers",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -25391,6 +25958,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -25442,6 +26012,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -25483,6 +26056,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -25831,6 +26407,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 34
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -25872,6 +26451,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -25900,7 +26482,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002169"
+        "nrhp": "82002169",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -25989,6 +26574,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -26239,6 +26827,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -26682,6 +27273,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -26718,6 +27312,9 @@
           "s": -0.1,
           "w": 0.2,
           "site_m": 5
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -26765,6 +27362,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -26888,6 +27488,9 @@
           "name": "Dixon Holding 1",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -27324,6 +27927,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -27532,6 +28138,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -27566,6 +28175,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -27808,6 +28420,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -27854,6 +28469,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -28020,6 +28638,9 @@
           "s": 0,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 85
         }
       }
     },
@@ -28048,7 +28669,10 @@
         }
       ],
       "tags": {
-        "nrhp": "76000540"
+        "nrhp": "76000540",
+        "commons": {
+          "photos": 63
+        }
       }
     },
     {
@@ -28256,6 +28880,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -28296,6 +28923,9 @@
           "s": 0.5,
           "w": 1.9,
           "site_m": 43
+        },
+        "commons": {
+          "photos": 62
         }
       }
     },
@@ -28416,6 +29046,9 @@
           "s": 0,
           "w": -0.7,
           "site_m": 390
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -28488,7 +29121,10 @@
         }
       ],
       "tags": {
-        "nrhp": "92000308"
+        "nrhp": "92000308",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -28734,6 +29370,9 @@
           "manager": "Forest Service",
           "designation": "Inventoried Roadless Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 66
         }
       }
     },
@@ -28804,6 +29443,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 92
         }
       }
     },
@@ -28911,6 +29553,9 @@
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -28996,6 +29641,9 @@
           "s": 0.4,
           "w": 4.2,
           "site_m": 43
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -29120,6 +29768,9 @@
           "s": -0.1,
           "w": 0.4,
           "site_m": 11
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -29160,6 +29811,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 14
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -29196,6 +29850,9 @@
           "s": 0.5,
           "w": 0,
           "site_m": 8
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -29252,6 +29909,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -29362,6 +30022,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -29390,7 +30053,10 @@
         }
       ],
       "tags": {
-        "nrhp": "92001757"
+        "nrhp": "92001757",
+        "commons": {
+          "photos": 68
+        }
       }
     },
     {
@@ -29436,6 +30102,9 @@
           "manager": "City Land",
           "designation": "Local Conservation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -29704,6 +30373,9 @@
           "s": 0,
           "w": 1.5,
           "site_m": 128
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -29747,6 +30419,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -29880,6 +30555,9 @@
           "s": 0,
           "w": 0.1,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -29924,6 +30602,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -29965,6 +30646,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -30156,6 +30840,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 14
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -30192,6 +30879,9 @@
           "s": 0.6,
           "w": 7.9,
           "site_m": 219
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -30281,6 +30971,9 @@
           "s": 0.4,
           "w": 0.4,
           "site_m": 178
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -30436,6 +31129,9 @@
           "s": 5.4,
           "w": 6.7,
           "site_m": 683
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -30505,7 +31201,10 @@
         }
       ],
       "tags": {
-        "nrhp": "10000118"
+        "nrhp": "10000118",
+        "commons": {
+          "photos": 45
+        }
       }
     },
     {
@@ -30806,6 +31505,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 38
         }
       }
     },
@@ -30846,6 +31548,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 10
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -30872,7 +31577,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 6
+        }
+      }
     },
     {
       "id": "elk-grove-historic-district@9qcdw0",
@@ -30908,6 +31617,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 15
+        },
+        "commons": {
+          "photos": 24
         }
       }
     },
@@ -30994,6 +31706,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 39
         }
       }
     },
@@ -31377,6 +32092,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -31428,6 +32146,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -31479,6 +32200,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 75
         }
       }
     },
@@ -31531,6 +32255,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 43
         }
       }
     },
@@ -31888,7 +32615,10 @@
         }
       ],
       "tags": {
-        "nrhp": "77000291"
+        "nrhp": "77000291",
+        "commons": {
+          "photos": 55
+        }
       }
     },
     {
@@ -32061,6 +32791,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 132
         }
       }
     },
@@ -32146,6 +32879,9 @@
           "observations": 4,
           "species": 4,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 33
         }
       }
     },
@@ -32174,7 +32910,10 @@
         }
       ],
       "tags": {
-        "nrhp": "06000913"
+        "nrhp": "06000913",
+        "commons": {
+          "photos": 34
+        }
       }
     },
     {
@@ -32399,6 +33138,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -32501,6 +33243,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -32638,6 +33383,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -32736,6 +33484,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -32866,6 +33617,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 83
         }
       }
     },
@@ -32907,6 +33661,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -32957,6 +33714,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -33094,6 +33854,9 @@
           "s": 0,
           "w": 0,
           "site_m": 27
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -33136,6 +33899,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -33378,7 +34144,10 @@
         }
       ],
       "tags": {
-        "nrhp": "91000484"
+        "nrhp": "91000484",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -33406,7 +34175,10 @@
         }
       ],
       "tags": {
-        "nrhp": "91001537"
+        "nrhp": "91001537",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -33491,6 +34263,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -33517,7 +34292,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 34
+        }
+      }
     },
     {
       "id": "first-sugarloaf@9qfn3w",
@@ -33756,7 +34535,10 @@
         }
       ],
       "tags": {
-        "nrhp": "86000734"
+        "nrhp": "86000734",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -34117,6 +34899,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 12
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -34230,6 +35015,9 @@
           "name": "Folsom City Zoo/Park",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 91
         }
       }
     },
@@ -34270,6 +35058,9 @@
           "s": -0.3,
           "w": -0.4,
           "site_m": 142
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -34304,6 +35095,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 45
         }
       }
     },
@@ -34344,6 +35138,9 @@
           "name": "Folsom Kids Play",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -34395,6 +35192,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -34435,6 +35235,9 @@
           "s": -0.3,
           "w": -0.3,
           "site_m": 133
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -34486,6 +35289,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 32
         }
       }
     },
@@ -34624,6 +35430,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -34675,6 +35484,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -34777,6 +35589,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -34828,6 +35643,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -34879,6 +35697,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -34930,6 +35751,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -34981,6 +35805,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -35134,6 +35961,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -35182,6 +36012,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -35224,6 +36057,9 @@
           "manager": "City Land",
           "designation": "Local Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 86
         }
       }
     },
@@ -35455,6 +36291,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 54
         }
       }
     },
@@ -35513,6 +36352,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 92
         }
       }
     },
@@ -35555,6 +36397,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -35597,6 +36442,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 123
         }
       }
     },
@@ -36154,6 +37002,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -36196,6 +37047,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 68
         }
       }
     },
@@ -36224,7 +37078,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84000770"
+        "nrhp": "84000770",
+        "commons": {
+          "photos": 59
+        }
       }
     },
     {
@@ -36496,6 +37353,9 @@
           "s": 1.9,
           "w": 1.6,
           "site_m": 2
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -36537,6 +37397,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 89
         }
       }
     },
@@ -37011,7 +37874,10 @@
         }
       ],
       "tags": {
-        "nrhp": "86003259"
+        "nrhp": "86003259",
+        "commons": {
+          "photos": 30
+        }
       }
     },
     {
@@ -37208,6 +38074,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -37277,7 +38146,10 @@
         }
       ],
       "tags": {
-        "nrhp": "01000077"
+        "nrhp": "01000077",
+        "commons": {
+          "photos": 54
+        }
       }
     },
     {
@@ -37305,7 +38177,10 @@
         }
       ],
       "tags": {
-        "nrhp": "01000586"
+        "nrhp": "01000586",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -37483,6 +38358,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -37545,6 +38423,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -37875,6 +38756,9 @@
           "s": 1.7,
           "w": 6.4,
           "site_m": 1901
+        },
+        "commons": {
+          "photos": 62
         }
       }
     },
@@ -37970,6 +38854,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -38313,7 +39200,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100001601"
+        "nrhp": "100001601",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -38543,6 +39433,9 @@
           "s": 1.9,
           "w": 3.4,
           "site_m": 388
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -38629,6 +39522,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -38672,6 +39568,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -38741,7 +39640,7 @@
           "site_m": 51
         },
         "commons": {
-          "photos": 24
+          "photos": 27
         }
       }
     },
@@ -38863,6 +39762,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 26
         }
       }
     },
@@ -38937,6 +39839,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -39040,6 +39945,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -39143,6 +40051,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 41
         }
       }
     },
@@ -39205,7 +40116,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002230"
+        "nrhp": "82002230",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -39461,6 +40375,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -39866,7 +40783,10 @@
         }
       ],
       "tags": {
-        "nrhp": "74000508"
+        "nrhp": "74000508",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -40155,6 +41075,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -40316,6 +41239,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 49
         }
       }
     },
@@ -40468,6 +41394,9 @@
           "observations": 3,
           "species": 1,
           "topGuild": "mammals"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -40604,7 +41533,10 @@
         }
       ],
       "tags": {
-        "nrhp": "92000267"
+        "nrhp": "92000267",
+        "commons": {
+          "photos": 31
+        }
       }
     },
     {
@@ -40644,6 +41576,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 12
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -40765,6 +41700,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 36
         }
       }
     },
@@ -40839,6 +41777,9 @@
           "s": -0.8,
           "w": -1,
           "site_m": 1006
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -40902,7 +41843,10 @@
         }
       ],
       "tags": {
-        "nrhp": "78000733"
+        "nrhp": "78000733",
+        "commons": {
+          "photos": 19
+        }
       }
     },
     {
@@ -40944,6 +41888,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -41200,6 +42147,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -41262,6 +42212,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -41395,6 +42348,9 @@
           "s": 0.3,
           "w": 0,
           "site_m": 11
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -41466,7 +42422,10 @@
         }
       ],
       "tags": {
-        "nrhp": "76000507"
+        "nrhp": "76000507",
+        "commons": {
+          "photos": 91
+        }
       }
     },
     {
@@ -41681,6 +42640,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -41798,6 +42760,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -41833,6 +42798,9 @@
           "s": 0.7,
           "w": 1,
           "site_m": 105
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -41947,7 +42915,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 138
+        }
+      }
     },
     {
       "id": "happy-harbor@9qc8c0",
@@ -42017,7 +42989,10 @@
         }
       ],
       "tags": {
-        "nrhp": "93001020"
+        "nrhp": "93001020",
+        "commons": {
+          "photos": 55
+        }
       }
     },
     {
@@ -42191,7 +43166,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002285"
+        "nrhp": "82002285",
+        "commons": {
+          "photos": 27
+        }
       }
     },
     {
@@ -42362,7 +43340,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100004529"
+        "nrhp": "100004529",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -42484,6 +43465,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -42518,6 +43502,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -42711,6 +43698,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -42828,7 +43818,10 @@
         }
       ],
       "tags": {
-        "nrhp": "76000511"
+        "nrhp": "76000511",
+        "commons": {
+          "photos": 81
+        }
       }
     },
     {
@@ -42868,6 +43861,9 @@
           "name": "Heilbron Mansion",
           "manager": "State Park and Recreation",
           "access": "open"
+        },
+        "commons": {
+          "photos": 86
         }
       }
     },
@@ -43127,6 +44123,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -43246,6 +44245,9 @@
           "s": 0.3,
           "w": 1.1,
           "site_m": 147
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -43746,6 +44748,9 @@
           "manager": "City Land",
           "designation": "Local Conservation Area",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -43832,6 +44837,9 @@
           "s": 2.5,
           "w": 1.6,
           "site_m": 0
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -44081,6 +45089,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 21
         }
       }
     },
@@ -44130,6 +45141,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -44468,6 +45482,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -44536,7 +45553,7 @@
           "site_m": 51
         },
         "commons": {
-          "photos": 24
+          "photos": 27
         }
       }
     },
@@ -44572,6 +45589,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 11
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -44866,7 +45886,10 @@
         }
       ],
       "tags": {
-        "nrhp": "95001140"
+        "nrhp": "95001140",
+        "commons": {
+          "photos": 49
+        }
       }
     },
     {
@@ -44958,7 +45981,10 @@
         }
       ],
       "tags": {
-        "nrhp": "94001225"
+        "nrhp": "94001225",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -44994,6 +46020,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -45110,7 +46139,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002232"
+        "nrhp": "82002232",
+        "commons": {
+          "photos": 20
+        }
       }
     },
     {
@@ -45177,6 +46209,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -45454,6 +46489,9 @@
           "name": "City Of Folsom",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 69
         }
       }
     },
@@ -45494,6 +46532,9 @@
           "s": 0.3,
           "w": 0.3,
           "site_m": 111
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -45539,6 +46580,9 @@
           "observations": 21,
           "species": 8,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 40
         }
       }
     },
@@ -45579,6 +46623,9 @@
           "s": 1.1,
           "w": 0,
           "site_m": 108
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -45619,6 +46666,9 @@
           "s": 0.7,
           "w": -0.2,
           "site_m": 98
+        },
+        "commons": {
+          "photos": 24
         }
       }
     },
@@ -45659,6 +46709,9 @@
           "s": 1.2,
           "w": -0.1,
           "site_m": 111
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -45704,6 +46757,9 @@
           "name": "City Of Folsom",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 20
         }
       }
     },
@@ -45801,6 +46857,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -45992,7 +47051,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002284"
+        "nrhp": "82002284",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -46020,7 +47082,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002257"
+        "nrhp": "82002257",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -46048,7 +47113,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002233"
+        "nrhp": "82002233",
+        "commons": {
+          "photos": 146
+        }
       }
     },
     {
@@ -46095,7 +47163,7 @@
           "site_m": 10
         },
         "commons": {
-          "photos": 9
+          "photos": 70
         },
         "padus": {
           "name": "Old Sacramento State Historic Park",
@@ -46476,7 +47544,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82000980"
+        "nrhp": "82000980",
+        "commons": {
+          "photos": 17
+        }
       }
     },
     {
@@ -46772,6 +47843,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -46807,6 +47881,9 @@
           "s": 0.3,
           "w": -0.1,
           "site_m": 87
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -46835,7 +47912,10 @@
         }
       ],
       "tags": {
-        "nrhp": "77000287"
+        "nrhp": "77000287",
+        "commons": {
+          "photos": 28
+        }
       }
     },
     {
@@ -47246,6 +48326,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 30
         }
       }
     },
@@ -47287,6 +48370,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -47359,7 +48445,10 @@
         }
       ],
       "tags": {
-        "nrhp": "91000297"
+        "nrhp": "91000297",
+        "commons": {
+          "photos": 42
+        }
       }
     },
     {
@@ -47513,7 +48602,10 @@
         }
       ],
       "tags": {
-        "nrhp": "91000562"
+        "nrhp": "91000562",
+        "commons": {
+          "photos": 135
+        }
       }
     },
     {
@@ -47589,6 +48681,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -47671,6 +48766,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -47719,6 +48817,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -48115,6 +49216,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 52
         }
       }
     },
@@ -48307,6 +49411,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -48706,6 +49813,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -48788,6 +49898,9 @@
           "observations": 3,
           "species": 3,
           "topGuild": "mammals"
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -48996,6 +50109,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -49160,6 +50276,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -49361,6 +50480,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -49420,6 +50542,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 81
         }
       }
     },
@@ -49455,6 +50580,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -49808,6 +50936,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 22
         }
       }
     },
@@ -49846,6 +50977,9 @@
           "s": 0.2,
           "w": 0,
           "site_m": 47
+        },
+        "commons": {
+          "photos": 92
         }
       }
     },
@@ -50090,6 +51224,9 @@
           "manager": "Bureau of Land Management",
           "designation": "National Public Lands",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -50176,6 +51313,9 @@
           "s": 0.1,
           "w": -0.1,
           "site_m": 33
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -50630,6 +51770,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -50749,6 +51892,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -50790,6 +51936,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -50866,6 +52015,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 29
         }
       }
     },
@@ -50992,6 +52144,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -51294,6 +52449,9 @@
           "s": 3.8,
           "w": 1.4,
           "site_m": 51
+        },
+        "commons": {
+          "photos": 87
         }
       }
     },
@@ -51409,6 +52567,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -51567,7 +52728,7 @@
       ],
       "tags": {
         "commons": {
-          "photos": 25
+          "photos": 29
         }
       }
     },
@@ -51596,7 +52757,10 @@
         }
       ],
       "tags": {
-        "nrhp": "75000423"
+        "nrhp": "75000423",
+        "commons": {
+          "photos": 44
+        }
       }
     },
     {
@@ -51721,6 +52885,9 @@
           "s": -0.1,
           "w": -0.2,
           "site_m": 35
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -51765,6 +52932,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -51914,7 +53084,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002220"
+        "nrhp": "82002220",
+        "commons": {
+          "photos": 31
+        }
       }
     },
     {
@@ -52068,6 +53241,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -52132,7 +53308,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 134
+        }
+      }
     },
     {
       "id": "lady-gaga@9qce7p",
@@ -52169,6 +53349,9 @@
           "s": 0,
           "w": 0.2,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 60
         }
       }
     },
@@ -52380,6 +53563,9 @@
           "s": 0.3,
           "w": 0,
           "site_m": 3
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -52468,6 +53654,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -52547,6 +53736,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -53115,6 +54307,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -53217,6 +54412,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -53268,6 +54466,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -53364,6 +54565,9 @@
           "s": 8.2,
           "w": 6.5,
           "site_m": 36
+        },
+        "commons": {
+          "photos": 96
         }
       }
     },
@@ -53412,6 +54616,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 45
         }
       }
     },
@@ -53463,6 +54670,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -53514,6 +54724,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 36
         }
       }
     },
@@ -53565,6 +54778,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -53683,6 +54899,9 @@
           "s": 1.2,
           "w": 7.6,
           "site_m": 1899
+        },
+        "commons": {
+          "photos": 62
         }
       }
     },
@@ -53760,7 +54979,10 @@
         }
       ],
       "tags": {
-        "nrhp": "81000713"
+        "nrhp": "81000713",
+        "commons": {
+          "photos": 62
+        }
       }
     },
     {
@@ -53903,6 +55125,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -53952,6 +55177,9 @@
           "manager": "Private",
           "designation": "Private Recreation or Education",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -54002,6 +55230,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -54052,6 +55283,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -54830,6 +56064,9 @@
           "s": 1.5,
           "w": -1,
           "site_m": 806
+        },
+        "commons": {
+          "photos": 23
         }
       }
     },
@@ -54951,7 +56188,10 @@
         }
       ],
       "tags": {
-        "nrhp": "13001067"
+        "nrhp": "13001067",
+        "commons": {
+          "photos": 50
+        }
       }
     },
     {
@@ -55117,6 +56357,9 @@
           "s": 4.5,
           "w": 1,
           "site_m": 52
+        },
+        "commons": {
+          "photos": 90
         }
       }
     },
@@ -55153,6 +56396,9 @@
           "s": 0.1,
           "w": 1.2,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 63
         }
       }
     },
@@ -55200,6 +56446,9 @@
           "s": 0,
           "w": 0.1,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 44
         }
       }
     },
@@ -55258,6 +56507,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -55594,6 +56846,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -55739,6 +56994,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -55796,6 +57054,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -55859,7 +57120,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002235"
+        "nrhp": "82002235",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -55934,6 +57198,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -55980,6 +57247,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -56062,6 +57332,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -56175,7 +57448,10 @@
         }
       ],
       "tags": {
-        "nrhp": "90001814"
+        "nrhp": "90001814",
+        "commons": {
+          "photos": 27
+        }
       }
     },
     {
@@ -56380,6 +57656,9 @@
           "s": 0.8,
           "w": 0.9,
           "site_m": 47
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -56425,6 +57704,9 @@
           "name": "Roseville Holding 19",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -56680,6 +57962,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -56937,6 +58222,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -57065,6 +58353,9 @@
           "s": 0,
           "w": -0.2,
           "site_m": 82
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -57105,6 +58396,9 @@
           "s": 0,
           "w": 0.2,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -57431,6 +58725,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -57656,7 +58953,10 @@
         }
       ],
       "tags": {
-        "nrhp": "71000174"
+        "nrhp": "71000174",
+        "commons": {
+          "photos": 98
+        }
       }
     },
     {
@@ -57831,7 +59131,10 @@
         }
       ],
       "tags": {
-        "nrhp": "80000848"
+        "nrhp": "80000848",
+        "commons": {
+          "photos": 48
+        }
       }
     },
     {
@@ -58310,6 +59613,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -58345,6 +59651,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -58426,6 +59735,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -58617,6 +59929,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -58788,6 +60103,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -58939,6 +60257,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -58986,6 +60307,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 29
         }
       }
     },
@@ -59022,6 +60346,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 10
+        },
+        "commons": {
+          "photos": 22
         }
       }
     },
@@ -59409,7 +60736,10 @@
       ],
       "tags": {
         "ridb": "245602",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -59544,6 +60874,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -59674,6 +61007,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -59718,6 +61054,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -60066,6 +61405,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -60116,6 +61458,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -60162,6 +61507,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -61156,6 +62504,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -61195,6 +62546,9 @@
           "s": 0.3,
           "w": 0.4,
           "site_m": 5
+        },
+        "commons": {
+          "photos": 56
         }
       }
     },
@@ -61233,6 +62587,9 @@
           "s": 0,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 63
         }
       }
     },
@@ -61312,6 +62669,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 29
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -61403,6 +62763,9 @@
           "s": 0.4,
           "w": 2.8,
           "site_m": 49
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -61461,6 +62824,9 @@
           "manager": "Department of Defense",
           "designation": "Military Land",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 85
         }
       }
     },
@@ -61627,7 +62993,7 @@
           "site_m": 51
         },
         "commons": {
-          "photos": 24
+          "photos": 27
         }
       }
     },
@@ -61666,6 +63032,9 @@
           "s": 0,
           "w": -0.2,
           "site_m": 51
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -61707,6 +63076,9 @@
           "name": "Folsom City Zoo/Park",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 91
         }
       }
     },
@@ -61750,6 +63122,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 81
         }
       }
     },
@@ -61970,6 +63345,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -62053,6 +63431,9 @@
           "s": 1.2,
           "w": 7.8,
           "site_m": 1912
+        },
+        "commons": {
+          "photos": 62
         }
       }
     },
@@ -62136,6 +63517,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -62164,7 +63548,10 @@
         }
       ],
       "tags": {
-        "nrhp": "73000415"
+        "nrhp": "73000415",
+        "commons": {
+          "photos": 244
+        }
       }
     },
     {
@@ -62210,6 +63597,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 51
         }
       }
     },
@@ -62256,6 +63646,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 52
         }
       }
     },
@@ -62297,6 +63690,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 54
         }
       }
     },
@@ -62332,6 +63728,9 @@
           "manager": "Bureau of Land Management",
           "designation": "Wild and Scenic River",
           "access": "open"
+        },
+        "commons": {
+          "photos": 52
         }
       }
     },
@@ -62373,6 +63772,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -62420,6 +63822,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 75
         }
       }
     },
@@ -62963,6 +64368,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -63090,6 +64498,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -63138,6 +64549,9 @@
           "s": 0.8,
           "w": 0.3,
           "site_m": 38
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -63183,6 +64597,9 @@
           "observations": 5,
           "species": 3,
           "topGuild": "amphibians"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -63225,6 +64642,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -63307,7 +64727,7 @@
           "site_m": 50
         },
         "commons": {
-          "photos": 23
+          "photos": 26
         },
         "padus": {
           "name": "Mcbean Memorial Park",
@@ -63356,6 +64776,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -63403,6 +64826,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -63454,6 +64880,9 @@
           "manager": "Department of Defense",
           "designation": "Military Land",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 16
         }
       }
     },
@@ -63684,6 +65113,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -63857,6 +65289,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -64130,7 +65565,7 @@
           "site_m": 51
         },
         "commons": {
-          "photos": 3
+          "photos": 4
         }
       }
     },
@@ -64833,6 +66268,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -64919,6 +66357,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 24
         }
       }
     },
@@ -64983,7 +66424,10 @@
         }
       ],
       "tags": {
-        "nrhp": "96000108"
+        "nrhp": "96000108",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -65052,6 +66496,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -65618,6 +67065,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -65694,7 +67144,10 @@
         }
       ],
       "tags": {
-        "nrhp": "98000225"
+        "nrhp": "98000225",
+        "commons": {
+          "photos": 19
+        }
       }
     },
     {
@@ -65813,6 +67266,9 @@
           "s": 1.8,
           "w": 3.4,
           "site_m": 72
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -65915,6 +67371,9 @@
           "s": 3,
           "w": 3.3,
           "site_m": 60
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -66098,6 +67557,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -66154,6 +67616,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -66195,6 +67660,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -66413,7 +67881,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q14683382",
-        "wikipedia": "https://en.wikipedia.org/wiki/Mokelumne_City,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Mokelumne_City,_California",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -66471,6 +67942,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -66591,7 +68065,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100009396"
+        "nrhp": "100009396",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -67013,6 +68490,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -67064,6 +68544,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -67111,6 +68594,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -67146,6 +68632,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -67250,6 +68739,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -67480,6 +68972,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -68036,6 +69531,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 50
         }
       }
     },
@@ -68064,7 +69562,10 @@
         }
       ],
       "tags": {
-        "nrhp": "74000543"
+        "nrhp": "74000543",
+        "commons": {
+          "photos": 37
+        }
       }
     },
     {
@@ -68110,6 +69611,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -68242,6 +69746,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -68364,6 +69871,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 24
         }
       }
     },
@@ -68456,6 +69966,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -68538,6 +70051,9 @@
           "s": 0.1,
           "w": 0.2,
           "site_m": 5
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -68747,6 +70263,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 43
         }
       }
     },
@@ -68878,7 +70397,10 @@
         }
       ],
       "tags": {
-        "nrhp": "73000398"
+        "nrhp": "73000398",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -68906,7 +70428,10 @@
         }
       ],
       "tags": {
-        "nrhp": "71000134"
+        "nrhp": "71000134",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -69054,7 +70579,10 @@
         }
       ],
       "tags": {
-        "nrhp": "73000416"
+        "nrhp": "73000416",
+        "commons": {
+          "photos": 316
+        }
       }
     },
     {
@@ -69183,6 +70711,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -69531,6 +71062,9 @@
           "s": 0.5,
           "w": 0.3,
           "site_m": 62
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -69566,6 +71100,9 @@
           "s": 0.2,
           "w": 0.2,
           "site_m": 70
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -69657,6 +71194,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -69907,6 +71447,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -69935,7 +71478,10 @@
         }
       ],
       "tags": {
-        "nrhp": "85002303"
+        "nrhp": "85002303",
+        "commons": {
+          "photos": 316
+        }
       }
     },
     {
@@ -69963,7 +71509,10 @@
         }
       ],
       "tags": {
-        "nrhp": "74000544"
+        "nrhp": "74000544",
+        "commons": {
+          "photos": 316
+        }
       }
     },
     {
@@ -69991,7 +71540,10 @@
         }
       ],
       "tags": {
-        "nrhp": "90001809"
+        "nrhp": "90001809",
+        "commons": {
+          "photos": 316
+        }
       }
     },
     {
@@ -70019,7 +71571,10 @@
         }
       ],
       "tags": {
-        "nrhp": "73000417"
+        "nrhp": "73000417",
+        "commons": {
+          "photos": 316
+        }
       }
     },
     {
@@ -70059,6 +71614,9 @@
           "s": -0.5,
           "w": -0.7,
           "site_m": 410
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -70140,6 +71698,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -70168,7 +71729,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002225"
+        "nrhp": "82002225",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -70202,6 +71766,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -70488,6 +72055,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 24
         }
       }
     },
@@ -70544,6 +72114,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 37
         }
       }
     },
@@ -70592,6 +72165,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -70702,7 +72278,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100005713"
+        "nrhp": "100005713",
+        "commons": {
+          "photos": 143
+        }
       }
     },
     {
@@ -70957,6 +72536,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 36
         }
       }
     },
@@ -70998,6 +72580,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -71045,6 +72630,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -71276,6 +72864,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -71599,7 +73190,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100006320"
+        "nrhp": "100006320",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -71633,6 +73227,9 @@
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -72030,6 +73627,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -72255,6 +73855,9 @@
           "s": 13.9,
           "w": 10.5,
           "site_m": 301
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -72343,6 +73946,9 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 61
         }
       }
     },
@@ -72389,6 +73995,9 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -72563,6 +74172,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -72839,6 +74451,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -72873,6 +74488,9 @@
           "name": "Observation Point & Playground",
           "manager": "Army Corps of Engineers",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -72951,7 +74569,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000940"
+        "nrhp": "11000940",
+        "commons": {
+          "photos": 137
+        }
       }
     },
     {
@@ -73100,6 +74721,9 @@
           "s": 0,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -73253,6 +74877,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 36
         }
       }
     },
@@ -73581,6 +75208,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -73623,6 +75253,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 12
+        },
+        "commons": {
+          "photos": 159
         }
       }
     },
@@ -73665,6 +75298,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 13
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -73815,6 +75451,9 @@
           "s": 0.3,
           "w": -0.1,
           "site_m": 40
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -73858,6 +75497,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -73900,6 +75542,9 @@
           "name": "Folsom City Zoo/Park",
           "manager": "City Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 91
         }
       }
     },
@@ -73946,6 +75591,9 @@
           "s": 0,
           "w": -0.2,
           "site_m": 63
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -73984,6 +75632,9 @@
           "s": 0,
           "w": 0,
           "site_m": 61
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -74323,6 +75974,9 @@
           "s": 1.4,
           "w": 0.8,
           "site_m": 375
+        },
+        "commons": {
+          "photos": 130
         }
       }
     },
@@ -74633,6 +76287,9 @@
           "s": 2.7,
           "w": 11.7,
           "site_m": 51
+        },
+        "commons": {
+          "photos": 53
         }
       }
     },
@@ -74676,6 +76333,9 @@
           "s": 1.3,
           "w": 0.4,
           "site_m": 2
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -74708,6 +76368,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 100
         }
       }
     },
@@ -74780,7 +76443,10 @@
         }
       ],
       "tags": {
-        "nrhp": "83001225"
+        "nrhp": "83001225",
+        "commons": {
+          "photos": 68
+        }
       }
     },
     {
@@ -74821,6 +76487,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -75087,6 +76756,9 @@
           "manager": "City Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -75244,6 +76916,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -75286,6 +76961,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -75332,6 +77010,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -75467,7 +77148,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 108
+        }
+      }
     },
     {
       "id": "orr-ranch-limited-access@9qc9ty",
@@ -75559,6 +77244,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -75633,7 +77321,10 @@
         }
       ],
       "tags": {
-        "nrhp": "75000447"
+        "nrhp": "75000447",
+        "commons": {
+          "photos": 316
+        }
       }
     },
     {
@@ -75707,6 +77398,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 62
         }
       }
     },
@@ -75747,6 +77441,9 @@
           "s": 0.6,
           "w": -0.4,
           "site_m": 412
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -75773,7 +77470,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 101
+        }
+      }
     },
     {
       "id": "owl-s-tree-house@9qce5p",
@@ -75813,6 +77514,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -75849,6 +77553,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -75885,6 +77592,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 51
         }
       }
     },
@@ -75913,7 +77623,10 @@
         }
       ],
       "tags": {
-        "nrhp": "78000829"
+        "nrhp": "78000829",
+        "commons": {
+          "photos": 27
+        }
       }
     },
     {
@@ -76244,6 +77957,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -76279,6 +77995,9 @@
           "s": 0,
           "w": -0.2,
           "site_m": 117
+        },
+        "commons": {
+          "photos": 32
         }
       }
     },
@@ -76382,6 +78101,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 41
         }
       }
     },
@@ -76417,6 +78139,9 @@
           "s": 0.3,
           "w": 0,
           "site_m": 38
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -76896,7 +78621,10 @@
         }
       ],
       "tags": {
-        "nrhp": "07000507"
+        "nrhp": "07000507",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -77074,7 +78802,10 @@
         }
       ],
       "tags": {
-        "nrhp": "85003326"
+        "nrhp": "85003326",
+        "commons": {
+          "photos": 59
+        }
       }
     },
     {
@@ -77474,6 +79205,9 @@
           "s": 2.1,
           "w": -1,
           "site_m": 1056
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -77805,6 +79539,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 86
         }
       }
     },
@@ -77849,6 +79586,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 81
         }
       }
     },
@@ -77890,6 +79630,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -78064,6 +79807,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -78140,6 +79886,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 8
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -78248,6 +79997,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -78435,6 +80187,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -78486,6 +80241,9 @@
           "manager": "Bureau of Land Management",
           "designation": "Area of Critical Environmental Concern",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -78537,6 +80295,9 @@
           "s": -0.9,
           "w": -1,
           "site_m": 622
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -78580,6 +80341,9 @@
           "observations": 3,
           "species": 3,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -78703,6 +80467,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -78738,6 +80505,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -78809,7 +80579,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 3
+        }
+      }
     },
     {
       "id": "pioneer-landing-park@9qce6y",
@@ -78851,6 +80625,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 156
         }
       }
     },
@@ -78877,7 +80654,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 93
+        }
+      }
     },
     {
       "id": "pioneer-park-eld-co@9qf5tk",
@@ -79041,6 +80822,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -79165,6 +80949,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -79193,7 +80980,10 @@
         }
       ],
       "tags": {
-        "nrhp": "11000941"
+        "nrhp": "11000941",
+        "commons": {
+          "photos": 113
+        }
       }
     },
     {
@@ -79281,6 +81071,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -79589,6 +81382,9 @@
           "s": 1.3,
           "w": 1.2,
           "site_m": 346
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -79615,7 +81411,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 5
+        }
+      }
     },
     {
       "id": "pleasant-grove-waste-water-treatment-plant@9qcstv",
@@ -79654,6 +81454,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 30
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -79864,6 +81667,9 @@
           "s": 4.1,
           "w": 0.5,
           "site_m": 98
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -79935,6 +81741,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -80105,6 +81914,9 @@
           "s": 0,
           "w": 0,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 102
         }
       }
     },
@@ -80177,6 +81989,9 @@
           "s": 0.2,
           "w": 0.2,
           "site_m": 416
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -80334,7 +82149,10 @@
         }
       ],
       "tags": {
-        "nrhp": "78000828"
+        "nrhp": "78000828",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -80629,6 +82447,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -80752,6 +82573,9 @@
           "s": 0.1,
           "w": -0.2,
           "site_m": 89
+        },
+        "commons": {
+          "photos": 26
         }
       }
     },
@@ -80827,6 +82651,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 10
+        },
+        "commons": {
+          "photos": 29
         }
       }
     },
@@ -80868,6 +82695,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -80904,6 +82734,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 11
+        },
+        "commons": {
+          "photos": 29
         }
       }
     },
@@ -80932,7 +82765,10 @@
         }
       ],
       "tags": {
-        "nrhp": "75000422"
+        "nrhp": "75000422",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -80974,6 +82810,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -81142,6 +82981,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -81177,6 +83019,9 @@
           "s": 4.1,
           "w": 1,
           "site_m": 73
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -81327,6 +83172,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -81639,6 +83487,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 21
         }
       }
     },
@@ -81847,6 +83698,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -81926,6 +83780,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -82010,6 +83867,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -82059,6 +83919,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 29
         }
       }
     },
@@ -82210,7 +84073,10 @@
         }
       ],
       "tags": {
-        "nrhp": "76000545"
+        "nrhp": "76000545",
+        "commons": {
+          "photos": 27
+        }
       }
     },
     {
@@ -82250,6 +84116,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 19
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -82767,7 +84636,10 @@
       "tags": {
         "curiosity": "Ghost town",
         "wikidata": "Q7304043",
-        "wikipedia": "https://en.wikipedia.org/wiki/Red_Dog,_California"
+        "wikipedia": "https://en.wikipedia.org/wiki/Red_Dog,_California",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -83143,6 +85015,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -83183,6 +85058,9 @@
           "s": -0.1,
           "w": 0.4,
           "site_m": 14
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -83266,6 +85144,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -83301,6 +85182,9 @@
           "s": 0.1,
           "w": 0,
           "site_m": 79
+        },
+        "commons": {
+          "photos": 23
         }
       }
     },
@@ -83671,6 +85555,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -83713,6 +85600,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -83891,6 +85781,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 32
         }
       }
     },
@@ -84087,6 +85980,9 @@
           "s": 0,
           "w": 0,
           "site_m": 4
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -84123,6 +86019,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -84200,7 +86099,10 @@
         }
       ],
       "tags": {
-        "nrhp": "98001243"
+        "nrhp": "98001243",
+        "commons": {
+          "photos": 24
+        }
       }
     },
     {
@@ -84242,6 +86144,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -84686,6 +86591,9 @@
           "s": 0.5,
           "w": 0.2,
           "site_m": 35
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -84876,6 +86784,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -85406,6 +87317,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 51
         }
       }
     },
@@ -85475,7 +87389,10 @@
         }
       ],
       "tags": {
-        "nrhp": "79000521"
+        "nrhp": "79000521",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -85686,6 +87603,9 @@
           "s": 0,
           "w": -0.2,
           "site_m": 39
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -85726,6 +87646,9 @@
           "s": 0.3,
           "w": 3.3,
           "site_m": 18
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -86123,6 +88046,9 @@
           "s": 2,
           "w": -0.2,
           "site_m": 398
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -86208,6 +88134,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 76
         }
       }
     },
@@ -86358,6 +88287,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -86439,6 +88371,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -86613,6 +88548,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -86641,7 +88579,10 @@
         }
       ],
       "tags": {
-        "nrhp": "00001270"
+        "nrhp": "00001270",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -86812,6 +88753,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -86853,6 +88797,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -87094,6 +89041,9 @@
           "s": 0.7,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 21
         }
       }
     },
@@ -87175,6 +89125,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 8
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -87203,7 +89156,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82002238"
+        "nrhp": "82002238",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -87271,6 +89227,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 10
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -87359,6 +89318,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -87714,6 +89676,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -87794,6 +89759,9 @@
           "s": -0.1,
           "w": 0.2,
           "site_m": 8
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -87834,6 +89802,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 10
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -87874,6 +89845,9 @@
           "s": 0,
           "w": 0.3,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -87910,6 +89884,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 12
         }
       }
     },
@@ -87950,6 +89927,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 13
+        },
+        "commons": {
+          "photos": 40
         }
       }
     },
@@ -87990,6 +89970,9 @@
           "s": 0,
           "w": 0.1,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -88068,6 +90051,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 27
         }
       }
     },
@@ -88109,6 +90095,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 30
         }
       }
     },
@@ -88184,6 +90173,9 @@
           "s": 0,
           "w": 0,
           "site_m": 21
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -88392,6 +90384,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 11
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -88539,7 +90534,10 @@
         }
       ],
       "tags": {
-        "nrhp": "86000385"
+        "nrhp": "86000385",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -88581,6 +90579,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -88629,6 +90630,9 @@
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -88680,6 +90684,9 @@
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -88787,7 +90794,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 3
+        }
+      }
     },
     {
       "id": "salt-wash-way-oak-forest-open-space@9qcgyr",
@@ -88894,7 +90905,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 115
+        }
+      }
     },
     {
       "id": "san-juan-azevedo-rookery-little-blue-heron-2014@9qcedz",
@@ -89070,6 +91085,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -89148,6 +91166,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -89367,6 +91388,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -89395,7 +91419,10 @@
         }
       ],
       "tags": {
-        "nrhp": "80000825"
+        "nrhp": "80000825",
+        "commons": {
+          "photos": 316
+        }
       }
     },
     {
@@ -89437,6 +91464,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -89493,6 +91523,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 22
         }
       }
     },
@@ -89687,7 +91720,10 @@
         "fee": "yes",
         "access": "customers",
         "natural": "cave_entrance",
-        "curiosity": "Cave"
+        "curiosity": "Cave",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -89779,6 +91815,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -89825,6 +91864,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 137
         }
       }
     },
@@ -90019,6 +92061,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -90213,7 +92258,10 @@
         }
       ],
       "tags": {
-        "nrhp": "78000656"
+        "nrhp": "78000656",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -90254,6 +92302,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -90429,6 +92480,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -90726,6 +92780,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -91082,7 +93139,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 5
+        }
+      }
     },
     {
       "id": "sheldon-park@9qcduw",
@@ -91560,7 +93621,10 @@
         }
       ],
       "tags": {
-        "nrhp": "12000376"
+        "nrhp": "12000376",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -91794,6 +93858,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -92003,6 +94070,9 @@
           "s": 0.3,
           "w": -0.1,
           "site_m": 88
+        },
+        "commons": {
+          "photos": 58
         }
       }
     },
@@ -92191,6 +94261,9 @@
           "s": 2.6,
           "w": 2,
           "site_m": 82
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -92314,6 +94387,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -92357,6 +94433,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -92404,6 +94483,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -92487,6 +94569,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -92575,6 +94660,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -92766,6 +94854,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -93337,6 +95428,9 @@
           "manager": "Bureau of Land Management",
           "designation": "Area of Critical Environmental Concern",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -93616,7 +95710,10 @@
         }
       ],
       "tags": {
-        "nrhp": "79000520"
+        "nrhp": "79000520",
+        "commons": {
+          "photos": 34
+        }
       }
     },
     {
@@ -93696,6 +95793,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -94060,6 +96160,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -94360,6 +96463,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -94440,6 +96546,9 @@
           "manager": "Bureau of Land Management",
           "designation": "Wild and Scenic River",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -94749,7 +96858,10 @@
         }
       ],
       "tags": {
-        "nrhp": "75000457"
+        "nrhp": "75000457",
+        "commons": {
+          "photos": 50
+        }
       }
     },
     {
@@ -94777,7 +96889,10 @@
         }
       ],
       "tags": {
-        "nrhp": "08000501"
+        "nrhp": "08000501",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -94805,7 +96920,10 @@
         }
       ],
       "tags": {
-        "nrhp": "76000541"
+        "nrhp": "76000541",
+        "commons": {
+          "photos": 50
+        }
       }
     },
     {
@@ -94846,6 +96964,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -94903,6 +97024,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 64
         }
       }
     },
@@ -94938,6 +97062,9 @@
           "s": 2.4,
           "w": 2.7,
           "site_m": 392
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -95024,6 +97151,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 36
         }
       }
     },
@@ -95541,7 +97671,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84000757"
+        "nrhp": "84000757",
+        "commons": {
+          "photos": 39
+        }
       }
     },
     {
@@ -95581,6 +97714,9 @@
           "s": 0,
           "w": 0,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -95662,6 +97798,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 16
         }
       }
     },
@@ -95743,6 +97882,9 @@
           "s": 0.1,
           "w": 0,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -95949,6 +98091,9 @@
           "s": 0.8,
           "w": 1.5,
           "site_m": 141
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -95991,6 +98136,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -96083,6 +98231,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -96188,6 +98339,9 @@
           "s": 0.1,
           "w": 0,
           "site_m": 7
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -96236,6 +98390,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -96324,6 +98481,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -96360,6 +98520,9 @@
           "s": 0.1,
           "w": 0.2,
           "site_m": 49
+        },
+        "commons": {
+          "photos": 87
         }
       }
     },
@@ -96515,6 +98678,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 24
         }
       }
     },
@@ -96599,6 +98765,9 @@
           "name": "Stephen Harris Memorial Park",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -96912,6 +99081,9 @@
           "observations": 48,
           "species": 41,
           "topGuild": "insects"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -97953,6 +100125,9 @@
           "s": 0,
           "w": 0.1,
           "site_m": 14
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -98007,6 +100182,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -98127,6 +100305,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -98284,6 +100465,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -98768,6 +100952,9 @@
           "manager": "City Land",
           "designation": "Local Conservation Area",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -99395,6 +101582,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -99561,6 +101751,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -99589,7 +101782,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100000951"
+        "nrhp": "100000951",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -99617,7 +101813,10 @@
         }
       ],
       "tags": {
-        "nrhp": "76000477"
+        "nrhp": "76000477",
+        "commons": {
+          "photos": 44
+        }
       }
     },
     {
@@ -99674,6 +101873,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 63
         }
       }
     },
@@ -99723,6 +101925,9 @@
           "s": 0,
           "w": -0.1,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 69
         }
       }
     },
@@ -99821,6 +102026,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 52
         }
       }
     },
@@ -99861,6 +102069,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 8
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -99947,6 +102158,9 @@
           "name": "Blue Oak Hills",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -99975,7 +102189,10 @@
         }
       ],
       "tags": {
-        "nrhp": "14000824"
+        "nrhp": "14000824",
+        "commons": {
+          "photos": 28
+        }
       }
     },
     {
@@ -100244,6 +102461,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -100272,7 +102492,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84000760"
+        "nrhp": "84000760",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -100497,6 +102720,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 28
         }
       }
     },
@@ -100958,6 +103184,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 37
         }
       }
     },
@@ -101118,6 +103347,9 @@
           "s": 1.7,
           "w": 7.3,
           "site_m": 1985
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -101257,6 +103489,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -101304,6 +103539,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -101388,6 +103626,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 32
         }
       }
     },
@@ -101548,6 +103789,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -101604,6 +103848,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -101655,6 +103902,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -101706,6 +103956,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -101816,7 +104069,10 @@
         }
       ],
       "tags": {
-        "nrhp": "16000153"
+        "nrhp": "16000153",
+        "commons": {
+          "photos": 126
+        }
       }
     },
     {
@@ -102154,6 +104410,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -102262,7 +104521,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84001189"
+        "nrhp": "84001189",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -102359,6 +104621,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -102457,6 +104722,9 @@
           "s": 0.2,
           "w": 0.5,
           "site_m": 5
+        },
+        "commons": {
+          "photos": 134
         }
       }
     },
@@ -102497,6 +104765,9 @@
           "s": 0.1,
           "w": -0.1,
           "site_m": 17
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -102691,7 +104962,10 @@
         }
       ],
       "tags": {
-        "nrhp": "72000222"
+        "nrhp": "72000222",
+        "commons": {
+          "photos": 20
+        }
       }
     },
     {
@@ -102732,6 +105006,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -102778,6 +105055,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -102979,6 +105259,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -103188,6 +105471,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -103216,7 +105502,10 @@
         }
       ],
       "tags": {
-        "nrhp": "82004845"
+        "nrhp": "82004845",
+        "commons": {
+          "photos": 94
+        }
       }
     },
     {
@@ -103338,6 +105627,9 @@
           "s": 0.2,
           "w": 3.3,
           "site_m": 180
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -103380,6 +105672,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -103759,6 +106054,9 @@
           "s": -0.1,
           "w": 0,
           "site_m": 10
+        },
+        "commons": {
+          "photos": 139
         }
       }
     },
@@ -103812,7 +106110,10 @@
         }
       ],
       "tags": {
-        "nrhp": "78000744"
+        "nrhp": "78000744",
+        "commons": {
+          "photos": 84
+        }
       }
     },
     {
@@ -104041,6 +106342,9 @@
           "manager": "County Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -104179,6 +106483,9 @@
           "s": 17.4,
           "w": 15.7,
           "site_m": 1891
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -104270,6 +106577,9 @@
           "s": 1.7,
           "w": 6.3,
           "site_m": 1901
+        },
+        "commons": {
+          "photos": 62
         }
       }
     },
@@ -104298,7 +106608,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100006720"
+        "nrhp": "100006720",
+        "commons": {
+          "photos": 32
+        }
       }
     },
     {
@@ -104389,6 +106702,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -104417,7 +106733,10 @@
         }
       ],
       "tags": {
-        "nrhp": "79000571"
+        "nrhp": "79000571",
+        "commons": {
+          "photos": 49
+        }
       }
     },
     {
@@ -104998,6 +107317,9 @@
           "name": "Unnamed site - California Tahoe Conservancy",
           "manager": "State Department of Conservation",
           "access": "closed"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -105039,6 +107361,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -105124,6 +107449,9 @@
           "manager": "Forest Service",
           "designation": "Inventoried Roadless Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -105275,6 +107603,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 11
+        },
+        "commons": {
+          "photos": 6
         }
       }
     },
@@ -105401,6 +107732,9 @@
           "s": 0,
           "w": 0.2,
           "site_m": 110
+        },
+        "commons": {
+          "photos": 14
         }
       }
     },
@@ -105439,6 +107773,9 @@
           "s": 0.2,
           "w": -0.7,
           "site_m": 452
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -105551,6 +107888,9 @@
           "s": 0,
           "w": 0,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -105597,6 +107937,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 16
         }
       }
     },
@@ -105643,6 +107986,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 22
         }
       }
     },
@@ -105728,6 +108074,9 @@
           "s": -0.1,
           "w": -0.2,
           "site_m": 65
+        },
+        "commons": {
+          "photos": 20
         }
       }
     },
@@ -105793,6 +108142,9 @@
           "manager": "Forest Service",
           "designation": "Inventoried Roadless Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 63
         }
       }
     },
@@ -105839,6 +108191,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 26
         }
       }
     },
@@ -105997,6 +108352,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 31
         }
       }
     },
@@ -106186,6 +108544,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -106227,6 +108588,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -106255,7 +108619,10 @@
         }
       ],
       "tags": {
-        "nrhp": "85000143"
+        "nrhp": "85000143",
+        "commons": {
+          "photos": 17
+        }
       }
     },
     {
@@ -106311,7 +108678,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84000764"
+        "nrhp": "84000764",
+        "commons": {
+          "photos": 26
+        }
       }
     },
     {
@@ -106517,6 +108887,9 @@
           "s": -0.2,
           "w": 0.9,
           "site_m": 183
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -106704,6 +109077,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -106988,6 +109364,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -107278,6 +109657,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -107327,6 +109709,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 37
         }
       }
     },
@@ -107441,6 +109826,9 @@
           "s": 7,
           "w": -0.4,
           "site_m": 211
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -107484,6 +109872,9 @@
           "s": 3.6,
           "w": 1.5,
           "site_m": 47
+        },
+        "commons": {
+          "photos": 79
         }
       }
     },
@@ -107528,6 +109919,9 @@
           "s": 2.7,
           "w": 10.9,
           "site_m": 56
+        },
+        "commons": {
+          "photos": 54
         }
       }
     },
@@ -107566,6 +109960,9 @@
           "s": 2.6,
           "w": 0.1,
           "site_m": 115
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -107615,6 +110012,9 @@
           "manager": "Bureau of Reclamation",
           "designation": "State Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 18
         }
       }
     },
@@ -109452,6 +111852,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -109501,6 +111904,9 @@
           "manager": "Forest Service",
           "designation": "Wilderness Area",
           "access": "restricted"
+        },
+        "commons": {
+          "photos": 56
         }
       }
     },
@@ -109550,6 +111956,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 79
         }
       }
     },
@@ -109607,6 +112016,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 82
         }
       }
     },
@@ -109661,6 +112073,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 92
         }
       }
     },
@@ -109768,6 +112183,9 @@
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 15
         }
       }
     },
@@ -109822,6 +112240,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -110179,6 +112600,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 34
         }
       }
     },
@@ -110332,6 +112756,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -110370,6 +112797,9 @@
           "s": -0.2,
           "w": -0.3,
           "site_m": 125
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -110454,6 +112884,9 @@
           "manager": "Bureau of Land Management",
           "designation": "Area of Critical Environmental Concern",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -110775,6 +113208,9 @@
           "s": 0,
           "w": 0,
           "site_m": 6
+        },
+        "commons": {
+          "photos": 7
         }
       }
     },
@@ -111129,7 +113565,10 @@
         }
       ],
       "tags": {
-        "nrhp": "80000837"
+        "nrhp": "80000837",
+        "commons": {
+          "photos": 18
+        }
       }
     },
     {
@@ -111157,7 +113596,10 @@
         }
       ],
       "tags": {
-        "nrhp": "06000144"
+        "nrhp": "06000144",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -111458,7 +113900,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100000882"
+        "nrhp": "100000882",
+        "commons": {
+          "photos": 25
+        }
       }
     },
     {
@@ -111852,7 +114297,10 @@
         }
       ],
       "tags": {
-        "nrhp": "79000518"
+        "nrhp": "79000518",
+        "commons": {
+          "photos": 62
+        }
       }
     },
     {
@@ -111929,6 +114377,9 @@
           "s": -0.1,
           "w": -0.2,
           "site_m": 56
+        },
+        "commons": {
+          "photos": 82
         }
       }
     },
@@ -112271,7 +114722,10 @@
         }
       ],
       "tags": {
-        "nrhp": "16000167"
+        "nrhp": "16000167",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -112371,7 +114825,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 101
+        }
+      }
     },
     {
       "id": "westhamptton-park@9qcs42",
@@ -112480,7 +114938,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100002240"
+        "nrhp": "100002240",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -112703,7 +115164,11 @@
           "last_seen": "2026-07-20"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 139
+        }
+      }
     },
     {
       "id": "wheatland-masonic-temple@9qctuv",
@@ -112730,7 +115195,10 @@
         }
       ],
       "tags": {
-        "nrhp": "93001396"
+        "nrhp": "93001396",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -112849,6 +115317,9 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 10
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -113080,6 +115551,9 @@
           "s": 1,
           "w": 0.9,
           "site_m": 184
+        },
+        "commons": {
+          "photos": 11
         }
       }
     },
@@ -113354,6 +115828,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -113666,6 +116143,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 30
         }
       }
     },
@@ -113777,6 +116257,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -113833,6 +116316,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 16
         }
       }
     },
@@ -113877,6 +116363,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 33
         }
       }
     },
@@ -113923,6 +116412,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 19
         }
       }
     },
@@ -113986,6 +116478,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -114037,6 +116532,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -114127,6 +116625,9 @@
           "manager": "County Land",
           "designation": "Local Recreation Area",
           "access": "open"
+        },
+        "commons": {
+          "photos": 10
         }
       }
     },
@@ -114240,6 +116741,9 @@
           "s": 0.4,
           "w": 0.3,
           "site_m": 63
+        },
+        "commons": {
+          "photos": 21
         }
       }
     },
@@ -114349,6 +116853,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 25
         }
       }
     },
@@ -114477,6 +116984,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 4
         }
       }
     },
@@ -114644,6 +117154,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 9
         }
       }
     },
@@ -114686,6 +117199,9 @@
           "manager": "Regional Agency Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -114728,6 +117244,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 38
         }
       }
     },
@@ -114776,6 +117295,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 13
         }
       }
     },
@@ -114804,7 +117326,10 @@
         }
       ],
       "tags": {
-        "nrhp": "98001634"
+        "nrhp": "98001634",
+        "commons": {
+          "photos": 49
+        }
       }
     },
     {
@@ -114892,6 +117417,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 35
         }
       }
     },
@@ -114920,7 +117448,10 @@
         }
       ],
       "tags": {
-        "nrhp": "00000341"
+        "nrhp": "00000341",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -114948,7 +117479,10 @@
         }
       ],
       "tags": {
-        "nrhp": "14001148"
+        "nrhp": "14001148",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -115231,7 +117765,10 @@
         }
       ],
       "tags": {
-        "nrhp": "01000331"
+        "nrhp": "01000331",
+        "commons": {
+          "photos": 27
+        }
       }
     },
     {
@@ -115259,7 +117796,10 @@
         }
       ],
       "tags": {
-        "nrhp": "88000555"
+        "nrhp": "88000555",
+        "commons": {
+          "photos": 49
+        }
       }
     },
     {
@@ -115299,7 +117839,7 @@
           "site_m": 53
         },
         "commons": {
-          "photos": 23
+          "photos": 26
         },
         "padus": {
           "name": "Mcbean Memorial Park",
@@ -115441,7 +117981,10 @@
         }
       ],
       "tags": {
-        "nrhp": "89000318"
+        "nrhp": "89000318",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -115482,6 +118025,9 @@
           "manager": "City Land",
           "designation": "Local Park",
           "access": "open"
+        },
+        "commons": {
+          "photos": 39
         }
       }
     },
@@ -115523,6 +118069,9 @@
           "s": 0.1,
           "w": 0,
           "site_m": 9
+        },
+        "commons": {
+          "photos": 17
         }
       }
     },
@@ -115580,7 +118129,10 @@
         }
       ],
       "tags": {
-        "nrhp": "71000212"
+        "nrhp": "71000212",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -115608,7 +118160,10 @@
         }
       ],
       "tags": {
-        "nrhp": "81000183"
+        "nrhp": "81000183",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -115939,6 +118494,9 @@
           "manager": "Forest Service",
           "designation": "National Forest",
           "access": "open"
+        },
+        "commons": {
+          "photos": 3
         }
       }
     },
@@ -116198,7 +118756,10 @@
         }
       ],
       "tags": {
-        "nrhp": "86003660"
+        "nrhp": "86003660",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -116237,6 +118798,9 @@
           "s": 0.2,
           "w": 1.6,
           "site_m": 56
+        },
+        "commons": {
+          "photos": 8
         }
       }
     },
@@ -116277,6 +118841,9 @@
           "s": 0.2,
           "w": 1.6,
           "site_m": 56
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
@@ -116358,6 +118925,9 @@
           "name": "Youth Center, & Kids Korner Buildings",
           "manager": "Regional Agency Land",
           "access": "open"
+        },
+        "commons": {
+          "photos": 5
         }
       }
     },
