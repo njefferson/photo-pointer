@@ -494,23 +494,7 @@ async function cmdCommonsClusters(id) {
   }
   const pts = input.points.map(([lat, lng]) => ({ lat, lng }));
   const clusters = commons.clusterPoints(pts);
-  // Drop anything a known spot already explains.
-  const CELL = 0.008;
-  const grid = new Map();
-  for (const sp of doc.spots) {
-    const k = `${Math.round(sp.lat / CELL)}:${Math.round(sp.lng / CELL)}`;
-    (grid.get(k) ?? grid.set(k, []).get(k)).push(sp);
-  }
-  const near = (c) => {
-    const clat = Math.round(c.lat / CELL), clng = Math.round(c.lng / CELL);
-    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
-      for (const sp of grid.get(`${clat + dy}:${clng + dx}`) ?? []) {
-        if (distanceM(c, sp) <= commons.CLUSTER_MIN_DISTANCE_M) return sp;
-      }
-    }
-    return null;
-  };
-  const fresh = clusters.filter((c) => !near(c));
+  const fresh = commons.unexplainedBy(clusters, doc.spots);
   log(`commons-clusters: ${clusters.length} photo clusters, ${clusters.length - fresh.length} already explained by a known spot`);
   if (!fresh.length) {
     log(`commons-clusters: nothing undiscovered in ${region.id} — skipping`);
@@ -528,7 +512,10 @@ async function cmdCommonsClusters(id) {
     best_season: [],
     access_difficulty: null,
     notes: null,
-    tags: { commons: { photos: c.photos }, discovered: 'photo-density' },
+    // `spots` is what earned the pin — the number of DISTINCT coordinates a
+    // camera was put down at. `photos` is how much material exists there, which
+    // is worth showing but must not be what decides.
+    tags: { commons: { photos: c.photos, spots: c.spots }, discovered: 'photo-density' },
     sources: [{
       source: commons.meta.source,
       source_id: `cluster:${c.lat.toFixed(5)},${c.lng.toFixed(5)}`,

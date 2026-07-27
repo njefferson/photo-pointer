@@ -5,7 +5,7 @@ import * as L from '../vendor/leaflet.js';
 import { el, toast } from './dom.js';
 import { addUserPin, removeUserPin, restoreUserPin, isFavorite, toggleFavorite, noteFor, setNote } from '../model/store.js';
 import { sunTimesFor, compass, clock } from '../model/light.js';
-import { moonTonight } from '../model/tonight.js';
+import { moonTonight, milkyWayTonight } from '../model/tonight.js';
 import { cloudTonight } from '../model/weather.js';
 import { airToday } from '../model/airquality.js';
 import { tidesToday, formatTides } from '../model/tides.js';
@@ -49,6 +49,9 @@ export const CATEGORY_META = {
   campsite: { label: 'Campsite', letter: 'C', group: 'Parks & access' },
   // — Wildlife, art & events —
   wildlife_hotspot: { label: 'Wildlife hotspot', letter: 'W', group: 'Wildlife, art & events' },
+  // Found by photo density rather than by any catalogue — see ingest
+  // commons-clusters. The glyph is a lens, which is literally what it means.
+  photo_cluster: { label: 'Photographed place', letter: '◎', group: 'Wildlife, art & events' },
   public_art: { label: 'Art & murals', letter: 'A', group: 'Wildlife, art & events' },
   oddity: { label: 'Attraction', letter: 'O', group: 'Wildlife, art & events' },
   event: { label: 'Event', letter: 'E', group: 'Wildlife, art & events' },
@@ -542,6 +545,20 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     } else if (t.astroNight) {
       rows.push(el('tr', {}, [el('th', { scope: 'row' }, 'Moon up'), el('td', {}, 'all night — bright')]));
     }
+    // THE MILKY WAY CORE. The dark window says when it is dark; this says whether
+    // the thing you came for is actually above the horizon, how high it gets, and
+    // which way to point. For most of autumn and winter the honest answer is
+    // "not tonight", which is worth as much as a yes — it saves the drive.
+    const mw = milkyWayTonight(spot.lat, spot.lng);
+    if (mw) {
+      rows.push(el('tr', { class: mw.visible ? 'light-mark' : '' }, [
+        el('th', { scope: 'row' }, 'Milky Way'),
+        el('td', {}, mw.visible
+          ? `${compass(mw.azimuthAtPeak)} ${mw.maxAltitude}° up · ${clock(mw.start)} – ${clock(mw.end)}`
+            + (mw.moonFree ? '' : ' (moonlit)')
+          : 'core below the horizon tonight'),
+      ]));
+    }
     const sky = el('td', {}, 'checking…');
     rows.push(el('tr', {}, [el('th', { scope: 'row' }, 'Sky tonight'), sky]));
 
@@ -801,6 +818,23 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     return null;
   }
 
+  // On a place that only exists BECAUSE of the photographs, the honest sentence
+  // is the one that says so — and says what actually earned it, which is the
+  // number of separate places a camera was set down, not the file count. A
+  // hundred files from one upload is one person; twenty vantage points is a
+  // subject. Everywhere else, the file count is the answer to "is there much
+  // of this place already", so it stays as it was.
+  function photoLine(spot) {
+    const c = spot.tags.commons;
+    const cap = c.capped ? '+' : '';
+    if (spot.tags?.discovered !== 'photo-density') {
+      return `${c.photos}${cap} freely-licensed photos taken near here.`;
+    }
+    const n = c.spots ?? c.photos;
+    return `Nothing we know of is listed here, but cameras have been set down in `
+      + `${n} different places within a few hundred metres — ${c.photos}${cap} photographs in all.`;
+  }
+
   function commonsNearUrl(spot) {
     return `https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(`nearcoord:1km,${spot.lat},${spot.lng}`)}&title=Special:MediaSearch&type=image`;
   }
@@ -884,7 +918,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         : null,
       spot.tags?.commons?.photos
         ? el('div', { class: 'popup-linkrow' }, [
-            el('p', { class: 'popup-linktext' }, `${spot.tags.commons.photos}${spot.tags.commons.capped ? '+' : ''} freely-licensed photos taken near here.`),
+            el('p', { class: 'popup-linktext' }, photoLine(spot)),
             el('a', { class: 'popup-linkbtn', href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'View the photos on Commons →'),
           ])
         : null,
@@ -902,7 +936,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       // The astro/weather readout is long — collapse it so the card is short and
       // opens at the top (no manual scroll-up). Tap to expand when planning.
       el('details', { class: 'popup-more' }, [
-        el('summary', {}, 'Tides, sun & moon ▾'),
+        el('summary', {}, 'Tides, sun, moon & Milky Way ▾'),
         lightSection(spot),
         tideLine(spot),
         flowLine(spot),

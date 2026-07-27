@@ -49,8 +49,8 @@ export const REQUEST_SOURCE = 'photo-pointer (https://github.com/njefferson/phot
 // Endpoint candidates, probed in order. The PAD-US lesson: a guessed service URL
 // costs a whole runner cycle, so try rather than bet, and fail loudly and by name.
 export const BASE_CANDIDATES = [
-  'https://www.usanpn.org/npn_portal',
   'https://services.usanpn.org/npn_portal',
+  'https://www.usanpn.org/npn_portal',
 ];
 
 // Phenophases we care about photographically. NPN tracks dozens (breaking leaf
@@ -82,6 +82,38 @@ export function typicalDayOfYear(days) {
   return xs.length % 2 ? xs[mid] : Math.round((xs[mid - 1] + xs[mid]) / 2);
 }
 
+// How wide a window we call "the bloom" — a fortnight, which is about how long a
+// drive stays worth making.
+export const WINDOW_DAYS = 14;
+
+// THE MEDIAN IS THE WRONG QUESTION. It answers "when is this species halfway
+// through being in flower somewhere", which for anything with a long or
+// double-ended season is a date nothing is happening. The FIRST run put
+// California poppy at 25 June in the Sierra foothills, where it peaks in early
+// April — the median of a season that runs March to August, arithmetically
+// right and useless to someone deciding whether to drive.
+// So: find the fortnight holding the MOST observations. That is the peak, which
+// is the thing actually being asked about.
+export function peakWindow(days, windowDays = WINDOW_DAYS) {
+  const xs = days.filter((n) => Number.isFinite(n)).sort((a, b) => a - b);
+  if (!xs.length) return null;
+  let best = { start: xs[0], count: 0 };
+  for (const start of xs) {
+    const end = start + windowDays;
+    let count = 0;
+    for (const d of xs) { if (d >= start && d < end) count++; else if (d >= end) break; }
+    if (count > best.count) best = { start, count };
+  }
+  return {
+    start: best.start,
+    end: best.start + windowDays - 1,
+    // The date on the card is the middle of the peak fortnight, not its edge.
+    center: Math.round(best.start + (windowDays - 1) / 2),
+    inWindow: best.count,
+    total: xs.length,
+  };
+}
+
 // A species needs this many independent observations before we will put a date
 // on it. Below this it is one person's garden, not a regional bloom.
 export const MIN_RECORDS = 8;
@@ -105,14 +137,20 @@ export function summarize(rows, { minRecords = MIN_RECORDS } = {}) {
   }
   const out = [];
   for (const g of groups.values()) {
-    if (g.days.length < minRecords) continue;
-    const doy = typicalDayOfYear(g.days);
-    if (doy == null) continue;
+    const peak = peakWindow(g.days);
+    if (!peak) continue;
+    // THE THRESHOLD BELONGS ON THE FORTNIGHT WE ARE NAMING, not on the season.
+    // Counting the season let Pacific dogwood be dated 2 February off six
+    // sightings, and Fremont cottonwood off three — a date printed on a card
+    // with nothing behind it. We will not put a date on fewer than this many
+    // observations inside the window itself.
+    if (peak.inWindow < minRecords) continue;
     out.push({
       kind: g.kind,
       species: g.name,
-      dayOfYear: doy,
-      records: g.days.length,
+      dayOfYear: peak.center,
+      records: peak.inWindow,
+      seasonRecords: peak.total,
       lat: g.lats.reduce((a, b) => a + b, 0) / g.lats.length,
       lng: g.lngs.reduce((a, b) => a + b, 0) / g.lngs.length,
     });
@@ -135,11 +173,14 @@ export function toEvent(s, today) {
     access_difficulty: null,
     // Said plainly on the card: this is a typical date from volunteer records,
     // not a forecast for this year.
-    notes: `Typically around this date, from ${s.records} volunteer observations `
-      + `recorded nearby. Timing shifts with the season — treat it as a window, not a date.`,
+    notes: `Busiest fortnight in the records: ${s.records} of ${s.seasonRecords} nearby `
+      + `observations fall in it. Timing shifts with the season — treat it as a window, not a date.`,
     tags: {
-      event: { month, day, days: 14, recurs: 'annual', skywide: false },
-      phenology: { species: s.species, kind: s.kind, records: s.records },
+      event: { month, day, days: WINDOW_DAYS, recurs: 'annual', skywide: false },
+      phenology: {
+        species: s.species, kind: s.kind,
+        records: s.records, seasonRecords: s.seasonRecords,
+      },
     },
     sources: [{
       source: meta.source,
@@ -159,9 +200,9 @@ export function toEvent(s, today) {
 // `c(lower_left_lat, lower_left_long, upper_right_lat, upper_right_long)`.
 // Passing them the obvious way round returns HTTP 200 with zero records, which
 // looks exactly like "this region has no data" — it cost a runner cycle.
-export function buildUrl(base, region, { startDate, endDate }) {
+export function buildBody(region, { startDate, endDate }) {
   const b = region.bbox;
-  const p = new URLSearchParams({
+  return new URLSearchParams({
     // request_src is what USA-NPN's terms actually ask of us: say who is calling.
     request_src: REQUEST_SOURCE,
     climate_data: '0',
@@ -172,13 +213,38 @@ export function buildUrl(base, region, { startDate, endDate }) {
     upper_right_x2: String(b.north),
     upper_right_y2: String(b.east),
   });
-  return `${base}/observations/getObservations.json?${p.toString()}`;
 }
 
-async function getJson(url, fetchFn, wait) {
+export function endpoint(base) {
+  return `${base}/observations/getObservations.json`;
+}
+
+// A YEAR AT A TIME. Their own client loops per calendar year and sends a
+// start_date/end_date inside that year; one range spanning five years is not a
+// query they answer, it is a query they ignore. That distinction is invisible
+// from the outside — both come back HTTP 200 with `[]`.
+export function yearWindows(thisYear, count = 5) {
+  const out = [];
+  for (let y = thisYear - count; y < thisYear; y++) {
+    out.push({ year: y, startDate: `${y}-01-01`, endDate: `${y}-12-31` });
+  }
+  return out;
+}
+
+// POST WITH A FORM BODY, not GET with a query string. Confirmed against their R
+// client (`req_method("POST")` + `req_body_form()`). A GET is answered 200 with
+// an empty array — the exact shape of "this region has no data", which is how
+// two runner cycles were spent believing a wrong request was a true zero.
+async function postJson(url, body, fetchFn, wait) {
   for (let attempt = 0; attempt < 3; attempt++) {
     const res = await fetchFn(url, {
-      headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
+      method: 'POST',
+      headers: {
+        'User-Agent': USER_AGENT,
+        Accept: 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: body.toString(),
       signal: AbortSignal.timeout(120000),
     });
     if (res.status === 429 || res.status === 503) { await wait(backoffMs(res, attempt, { base: 5000 })); continue; }
@@ -191,29 +257,41 @@ async function getJson(url, fetchFn, wait) {
 
 export async function ingest(region, {
   fetchFn = fetch, today = new Date().toISOString().slice(0, 10), log = () => {},
-  sleep, bases = BASE_CANDIDATES, years,
+  sleep, bases = BASE_CANDIDATES, windows,
 } = {}) {
   const wait = sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
-  const thisYear = new Date().getUTCFullYear();
-  const range = years ?? { startDate: `${thisYear - 5}-01-01`, endDate: `${thisYear - 1}-12-31` };
-  let rows = null; const tried = [];
-  for (const base of bases) {
-    const url = buildUrl(base, region, range);
+  const spans = windows ?? yearWindows(new Date().getUTCFullYear());
+
+  // Find an endpoint that answers at all, using the first year as the probe.
+  let base = null; const tried = [];
+  for (const cand of bases) {
     try {
-      rows = await getJson(url, fetchFn, wait);
-      const n = Array.isArray(rows) ? rows.length : 0;
-      log(`phenology: ${base} answered with ${n} records`);
-      // A 200 carrying nothing is the shape a WRONG QUERY takes, not just an
-      // empty region — so print the query that produced it rather than leaving
-      // a silent zero to be read as fact.
-      if (!n) log(`phenology: zero records — the query was ${url}`);
-      break;
-    } catch (e) { tried.push(`${base}: ${e.message}`); }
+      await postJson(endpoint(cand), buildBody(region, spans[0]), fetchFn, wait);
+      base = cand; break;
+    } catch (e) { tried.push(`${cand}: ${e.message}`); }
     await wait(meta.pacing.gapMs);
   }
-  if (!rows) throw new Error(`phenology: no endpoint answered — ${tried.join(' | ')}`);
+  if (!base) throw new Error(`phenology: no endpoint answered — ${tried.join(' | ')}`);
 
-  const inRegion = (Array.isArray(rows) ? rows : []).filter((r) =>
+  const rows = [];
+  for (const span of spans) {
+    const got = await postJson(endpoint(base), buildBody(region, span), fetchFn, wait);
+    const n = Array.isArray(got) ? got.length : 0;
+    log(`phenology: ${span.year} → ${n} records`);
+    // SHOW THE SHAPE OF THE FIRST ROW ONCE. I cannot reach this API from the
+    // sandbox, so the field names here are read from their docs, not measured —
+    // print them so the next run says whether they are right instead of leaving
+    // a silent zero to be read as fact.
+    if (n && !rows.length) log(`phenology: a record looks like ${JSON.stringify(Object.keys(got[0]))}`);
+    if (n) rows.push(...got);
+    await wait(meta.pacing.gapMs);
+  }
+  if (!rows.length) {
+    log(`phenology: zero records across ${spans.length} years — the request was `
+      + `POST ${endpoint(base)} with ${buildBody(region, spans[0])}`);
+  }
+
+  const inRegion = rows.filter((r) =>
     inBBox(Number(r.latitude), Number(r.longitude), region.bbox));
   const summaries = summarize(inRegion);
   log(`phenology: ${inRegion.length} usable records → ${summaries.length} species with enough to date`);

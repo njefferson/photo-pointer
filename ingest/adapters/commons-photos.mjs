@@ -33,6 +33,7 @@ export const meta = {
   pacing: { concurrency: 1, gapMs: 1000 },
 };
 
+import { distanceM } from '../../src/model/geo.js';
 import { backoffMs } from './http-etiquette.mjs';
 
 export const API = 'https://commons.wikimedia.org/w/api.php';
@@ -188,19 +189,85 @@ export const CLUSTER_CELL_DEG = 0.0035;  // ~390 m at 39°N — one viewpoint, n
 export const CLUSTER_MIN_PHOTOS = 12;    // below this it is a passer-by, not a subject
 export const CLUSTER_MIN_DISTANCE_M = 400; // must be this far from any known spot
 
-// Group points into grid cells and return each cell's centroid + count, densest
-// first. The centroid (not the cell centre) so the pin lands on the subject.
-export function clusterPoints(points, { cell = CLUSTER_CELL_DEG, minPhotos = CLUSTER_MIN_PHOTOS } = {}) {
+// A COORDINATE ON A ROUND GRID IS NOT A LOCATION. 1,785 of the home region's
+// 18,185 harvested photos sit on an exact 0.1° grid point — 38.1, -121.0 and
+// the like. Nobody's GPS produces that; it is someone typing roughly where they
+// were, and a 0.1° cell is about 11 km across. Clustering them produces a
+// confident pin in the middle of a field. Real fixes land on a round tenth
+// about once in ten thousand, so this throws away almost nothing true.
+export function isPlaceholderCoord(lat, lng, grid = 0.1) {
+  const onGrid = (v) => Math.abs(v / grid - Math.round(v / grid)) < 1e-9;
+  return onGrid(lat) && onGrid(lng);
+}
+
+// Group points into grid cells and return each cell's centroid, densest first.
+// The centroid (not the cell centre) so the pin lands on the subject.
+//
+// WHAT IS COUNTED IS DISTINCT COORDINATES, NOT FILES. The densest cell in the
+// home region held 187 photos, 160 of them at one identical coordinate — a
+// single upload batch geotagged once, which says one person was here, not that
+// this is somewhere people go. Counting the distinct places a camera was put
+// down measures the thing actually being claimed. `photos` is still reported,
+// so a card can say how much material exists without the count deciding.
+export function clusterPoints(points, {
+  cell = CLUSTER_CELL_DEG, minPhotos = CLUSTER_MIN_PHOTOS, mergeM = CLUSTER_MIN_DISTANCE_M,
+} = {}) {
   const cells = new Map();
   for (const p of points) {
     const lat = Number(p.lat), lng = Number(p.lng);
     if (!isFinite(lat) || !isFinite(lng)) continue;
+    if (isPlaceholderCoord(lat, lng)) continue;
     const key = `${Math.floor(lat / cell)}:${Math.floor(lng / cell)}`;
-    const c = cells.get(key) ?? cells.set(key, { n: 0, sLat: 0, sLng: 0 }).get(key);
-    c.n++; c.sLat += lat; c.sLng += lng;
+    const c = cells.get(key) ?? cells.set(key, { n: 0, sLat: 0, sLng: 0, seen: new Set() }).get(key);
+    c.n++; c.sLat += lat; c.sLng += lng; c.seen.add(`${lat},${lng}`);
   }
-  return [...cells.values()]
-    .filter((c) => c.n >= minPhotos)
-    .map((c) => ({ lat: c.sLat / c.n, lng: c.sLng / c.n, photos: c.n }))
-    .sort((a, b) => b.photos - a.photos);
+  const found = [...cells.values()]
+    .map((c) => ({ lat: c.sLat / c.n, lng: c.sLng / c.n, photos: c.n, spots: c.seen.size }))
+    .filter((c) => c.spots >= minPhotos)
+    .sort((a, b) => b.spots - a.spots);
+  return mergeAdjacent(found, mergeM);
+}
+
+// Which clusters nothing in our data already explains.
+//
+// PINS THIS PASS MADE LAST TIME ARE NOT PRIOR KNOWLEDGE. Counting them makes the
+// layer erase itself: the second real run found its 43 discoveries, decided each
+// was already explained by the pin it had created for it, and wrote an empty
+// layer that deleted all 128. A discovery pass must be able to run twice.
+export function unexplainedBy(clusters, spots, withinM = CLUSTER_MIN_DISTANCE_M) {
+  const CELL = 0.008;
+  const grid = new Map();
+  for (const sp of spots) {
+    if (sp.category === 'photo_cluster') continue;
+    const k = `${Math.round(sp.lat / CELL)}:${Math.round(sp.lng / CELL)}`;
+    (grid.get(k) ?? grid.set(k, []).get(k)).push(sp);
+  }
+  const explained = (c) => {
+    const a = Math.round(c.lat / CELL), b = Math.round(c.lng / CELL);
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+      for (const sp of grid.get(`${a + dy}:${b + dx}`) ?? []) {
+        if (distanceM(c, sp) <= withinM) return true;
+      }
+    }
+    return false;
+  };
+  return clusters.filter((c) => !explained(c));
+}
+
+// A grid is arbitrary, and a big subject straddles it. Four cells in a row along
+// the Sacramento delta were four pins on one stretch of the same river. Anything
+// closer together than we require a cluster to be from a KNOWN place has no
+// business being two separate discoveries either — so fold them, densest first.
+export function mergeAdjacent(clusters, withinM = CLUSTER_MIN_DISTANCE_M) {
+  const out = [];
+  for (const c of clusters) {
+    const near = out.find((o) => distanceM(o, c) <= withinM);
+    if (!near) { out.push({ ...c }); continue; }
+    const total = near.photos + c.photos;
+    near.lat = (near.lat * near.photos + c.lat * c.photos) / total;
+    near.lng = (near.lng * near.photos + c.lng * c.photos) / total;
+    near.photos = total;
+    near.spots += c.spots;
+  }
+  return out.sort((a, b) => b.spots - a.spots);
 }

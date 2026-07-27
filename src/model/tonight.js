@@ -81,3 +81,76 @@ export function moonTonight(lat, lng, date = new Date()) {
   }
   return out;
 }
+
+// ── THE MILKY WAY CORE ──────────────────────────────────────────────────────
+//
+// The dark window says WHEN it is dark. It does not say whether the thing you
+// came to photograph is above the horizon — and for most of the year, in the
+// northern hemisphere, it is not. The bright core of the galaxy sits in
+// Sagittarius, far enough south that it clears the horizon for only part of the
+// year and only part of the night, and never rises high from northern latitudes.
+// That is the fact that decides whether the shot exists at all.
+//
+// Sagittarius A*, the galactic centre, is a FIXED equatorial coordinate, so the
+// same horizon maths already used for the Moon works unchanged — no ephemeris,
+// no network, correct offline.
+export const GALACTIC_CORE = { ra: 17.7611, dec: -29.0078 }; // RA in hours, dec in degrees
+
+// Usable altitude: below this the core is buried in horizon murk and whatever
+// light dome is down there, however dark the sky overhead.
+export const CORE_MIN_ALTITUDE = 10;
+
+export function coreAltitude(observer, time) {
+  return A.Horizon(time, observer, GALACTIC_CORE.ra, GALACTIC_CORE.dec, 'normal').altitude;
+}
+
+// Compass bearing of the core at a given moment — where to point the camera.
+export function coreAzimuth(observer, time) {
+  return A.Horizon(time, observer, GALACTIC_CORE.ra, GALACTIC_CORE.dec, 'normal').azimuth;
+}
+
+// When, tonight, is the core BOTH usably high AND in genuinely dark sky?
+// Intersects the core's own above-altitude window with the dark window that
+// moonTonight already computes, so the answer accounts for the Moon.
+//
+// Returns null when the core never clears CORE_MIN_ALTITUDE in the dark tonight
+// — which is the honest answer for most of autumn and winter, and the whole
+// point: it tells you not to drive out.
+export function milkyWayTonight(lat, lng, date = new Date()) {
+  const observer = new A.Observer(lat, lng, 0);
+  const t = moonTonight(lat, lng, date);
+  const dark = t.darkWindow ?? t.astroNight;
+  if (!dark) return null;
+
+  const start = dark.start.getTime();
+  const end = dark.end.getTime();
+  const STEP = 10 * 60 * 1000;
+  let best = null;           // highest the core gets while it is dark
+  let winStart = null, win = null;
+  for (let ms = start; ms <= end; ms += STEP) {
+    const time = A.MakeTime(new Date(ms));
+    const alt = coreAltitude(observer, time);
+    if (!best || alt > best.alt) best = { alt, ms };
+    if (alt >= CORE_MIN_ALTITUDE) {
+      if (winStart === null) winStart = ms;
+      win = ms;
+    } else if (winStart !== null) {
+      break; // the core has set (or not yet risen); one continuous window is enough
+    }
+  }
+  if (winStart === null) {
+    return { visible: false, maxAltitude: best ? Math.round(best.alt) : null,
+             moonFree: !!t.darkWindow };
+  }
+  const peak = A.MakeTime(new Date(best.ms));
+  return {
+    visible: true,
+    start: new Date(winStart),
+    end: new Date(win),
+    maxAltitude: Math.round(best.alt),
+    peakAt: best.ms ? new Date(best.ms) : null,
+    azimuthAtPeak: Math.round(coreAzimuth(observer, peak)),
+    // false = the window is astronomical night but the Moon is up washing it out.
+    moonFree: !!t.darkWindow,
+  };
+}

@@ -38,6 +38,7 @@
   --cat-lookout_tower: #5b5b8a;
   --cat-nature_reserve: #2f6b4a;
   --cat-public_art: #7a3f8c;
+  --cat-photo_cluster: #1663a8;
   --cat-user_pin: #6d5200;
 }
 
@@ -473,6 +474,7 @@ body {
 .pin-lookout_tower { background: var(--cat-lookout_tower); }
 .pin-nature_reserve { background: var(--cat-nature_reserve); }
 .pin-public_art { background: var(--cat-public_art); }
+.pin-photo_cluster { background: var(--cat-photo_cluster); }
 .pin-user_pin { background: var(--cat-user_pin); }
 
 .popup-event { margin: 4px 0; font-size: 13px; }
