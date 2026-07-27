@@ -5583,7 +5583,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 10 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 4 of 10 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -5596,8 +5596,8 @@
       ],
       "tags": {
         "event": {
-          "month": 11,
-          "day": 3,
+          "month": 10,
+          "day": 31,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -5605,7 +5605,8 @@
         "phenology": {
           "species": "apricot",
           "kind": "Autumn colour",
-          "records": 10
+          "records": 4,
+          "seasonRecords": 10
         }
       }
     },
@@ -11350,7 +11351,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 18 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 8 of 18 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -11364,7 +11365,7 @@
       "tags": {
         "event": {
           "month": 7,
-          "day": 19,
+          "day": 26,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -11372,7 +11373,8 @@
         "phenology": {
           "species": "bigleaf lupine",
           "kind": "Bloom",
-          "records": 18
+          "records": 8,
+          "seasonRecords": 18
         }
       }
     },
@@ -12708,7 +12710,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 69 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 9 of 69 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -12722,7 +12724,7 @@
       "tags": {
         "event": {
           "month": 8,
-          "day": 19,
+          "day": 16,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -12730,7 +12732,8 @@
         "phenology": {
           "species": "blue elderberry",
           "kind": "Autumn colour",
-          "records": 69
+          "records": 9,
+          "seasonRecords": 69
         }
       }
     },
@@ -12746,7 +12749,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 88 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 16 of 88 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -12760,7 +12763,7 @@
       "tags": {
         "event": {
           "month": 5,
-          "day": 12,
+          "day": 1,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -12768,7 +12771,8 @@
         "phenology": {
           "species": "blue elderberry",
           "kind": "Bloom",
-          "records": 88
+          "records": 16,
+          "seasonRecords": 88
         }
       }
     },
@@ -12886,7 +12890,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 313 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 41 of 313 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -12899,8 +12903,8 @@
       ],
       "tags": {
         "event": {
-          "month": 10,
-          "day": 3,
+          "month": 11,
+          "day": 2,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -12908,7 +12912,8 @@
         "phenology": {
           "species": "blue oak",
           "kind": "Autumn colour",
-          "records": 313
+          "records": 41,
+          "seasonRecords": 313
         }
       }
     },
@@ -12924,7 +12929,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 81 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 46 of 81 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -12946,7 +12951,8 @@
         "phenology": {
           "species": "blue oak",
           "kind": "Bloom",
-          "records": 81
+          "records": 46,
+          "seasonRecords": 81
         }
       }
     },
@@ -13177,7 +13183,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 9 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 6 of 9 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -13191,7 +13197,7 @@
       "tags": {
         "event": {
           "month": 2,
-          "day": 17,
+          "day": 24,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -13199,7 +13205,8 @@
         "phenology": {
           "species": "blueblossom",
           "kind": "Bloom",
-          "records": 9
+          "records": 6,
+          "seasonRecords": 9
         }
       }
     },
@@ -15025,7 +15032,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 207 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 41 of 207 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -15038,8 +15045,8 @@
       ],
       "tags": {
         "event": {
-          "month": 3,
-          "day": 19,
+          "month": 4,
+          "day": 10,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -15047,7 +15054,8 @@
         "phenology": {
           "species": "buckbrush",
           "kind": "Bloom",
-          "records": 207
+          "records": 41,
+          "seasonRecords": 207
         }
       }
     },
@@ -16316,7 +16324,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 182 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 21 of 182 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -16330,7 +16338,7 @@
       "tags": {
         "event": {
           "month": 10,
-          "day": 1,
+          "day": 8,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -16338,7 +16346,8 @@
         "phenology": {
           "species": "California black oak",
           "kind": "Autumn colour",
-          "records": 182
+          "records": 21,
+          "seasonRecords": 182
         }
       }
     },
@@ -16354,7 +16363,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 58 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 28 of 58 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -16368,7 +16377,7 @@
       "tags": {
         "event": {
           "month": 4,
-          "day": 20,
+          "day": 27,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -16376,7 +16385,8 @@
         "phenology": {
           "species": "California black oak",
           "kind": "Bloom",
-          "records": 58
+          "records": 28,
+          "seasonRecords": 58
         }
       }
     },
@@ -16392,7 +16402,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 328 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 40 of 328 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -16406,7 +16416,7 @@
       "tags": {
         "event": {
           "month": 8,
-          "day": 20,
+          "day": 4,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -16414,7 +16424,8 @@
         "phenology": {
           "species": "California buckeye",
           "kind": "Autumn colour",
-          "records": 328
+          "records": 40,
+          "seasonRecords": 328
         }
       }
     },
@@ -16430,7 +16441,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 243 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 50 of 243 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -16443,8 +16454,8 @@
       ],
       "tags": {
         "event": {
-          "month": 5,
-          "day": 11,
+          "month": 6,
+          "day": 13,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -16452,7 +16463,8 @@
         "phenology": {
           "species": "California buckeye",
           "kind": "Bloom",
-          "records": 243
+          "records": 50,
+          "seasonRecords": 243
         }
       }
     },
@@ -16619,7 +16631,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 10 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 10 of 10 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -16633,7 +16645,7 @@
       "tags": {
         "event": {
           "month": 6,
-          "day": 25,
+          "day": 27,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -16641,7 +16653,8 @@
         "phenology": {
           "species": "California poppy",
           "kind": "Bloom",
-          "records": 10
+          "records": 10,
+          "seasonRecords": 10
         }
       }
     },
@@ -22272,7 +22285,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 13 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 6 of 13 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -22286,7 +22299,7 @@
       "tags": {
         "event": {
           "month": 6,
-          "day": 16,
+          "day": 10,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -22294,7 +22307,8 @@
         "phenology": {
           "species": "common snowberry",
           "kind": "Bloom",
-          "records": 13
+          "records": 6,
+          "seasonRecords": 13
         }
       }
     },
@@ -28838,7 +28852,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 8 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 8 of 8 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -28851,8 +28865,8 @@
       ],
       "tags": {
         "event": {
-          "month": 4,
-          "day": 30,
+          "month": 5,
+          "day": 6,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -28860,7 +28874,8 @@
         "phenology": {
           "species": "Douglas iris",
           "kind": "Bloom",
-          "records": 8
+          "records": 8,
+          "seasonRecords": 8
         }
       }
     },
@@ -38121,7 +38136,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 24 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 3 of 24 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -38134,8 +38149,8 @@
       ],
       "tags": {
         "event": {
-          "month": 9,
-          "day": 14,
+          "month": 10,
+          "day": 7,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -38143,7 +38158,8 @@
         "phenology": {
           "species": "Fremont cottonwood",
           "kind": "Autumn colour",
-          "records": 24
+          "records": 3,
+          "seasonRecords": 24
         }
       }
     },
@@ -48507,7 +48523,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 22 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 14 of 22 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -48521,7 +48537,7 @@
       "tags": {
         "event": {
           "month": 4,
-          "day": 25,
+          "day": 27,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -48529,7 +48545,8 @@
         "phenology": {
           "species": "interior live oak",
           "kind": "Bloom",
-          "records": 22
+          "records": 14,
+          "seasonRecords": 22
         }
       }
     },
@@ -78217,7 +78234,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 16 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 6 of 16 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -78230,8 +78247,8 @@
       ],
       "tags": {
         "event": {
-          "month": 3,
-          "day": 1,
+          "month": 2,
+          "day": 2,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -78239,7 +78256,8 @@
         "phenology": {
           "species": "Pacific dogwood",
           "kind": "Bloom",
-          "records": 16
+          "records": 6,
+          "seasonRecords": 16
         }
       }
     },
@@ -107753,7 +107771,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 91 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 24 of 91 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -107767,7 +107785,7 @@
       "tags": {
         "event": {
           "month": 6,
-          "day": 15,
+          "day": 10,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -107775,7 +107793,8 @@
         "phenology": {
           "species": "toyon",
           "kind": "Bloom",
-          "records": 91
+          "records": 24,
+          "seasonRecords": 91
         }
       }
     },
@@ -110835,7 +110854,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 60 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 8 of 60 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -110848,8 +110867,8 @@
       ],
       "tags": {
         "event": {
-          "month": 10,
-          "day": 2,
+          "month": 11,
+          "day": 11,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -110857,7 +110876,8 @@
         "phenology": {
           "species": "valley oak",
           "kind": "Autumn colour",
-          "records": 60
+          "records": 8,
+          "seasonRecords": 60
         }
       }
     },
@@ -110873,7 +110893,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 17 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 9 of 17 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -110886,8 +110906,8 @@
       ],
       "tags": {
         "event": {
-          "month": 3,
-          "day": 31,
+          "month": 4,
+          "day": 7,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -110895,7 +110915,8 @@
         "phenology": {
           "species": "valley oak",
           "kind": "Bloom",
-          "records": 17
+          "records": 9,
+          "seasonRecords": 17
         }
       }
     },
@@ -114860,7 +114881,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 19 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 8 of 19 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -114882,7 +114903,8 @@
         "phenology": {
           "species": "Virginia strawberry",
           "kind": "Bloom",
-          "records": 19
+          "records": 8,
+          "seasonRecords": 19
         }
       }
     },
@@ -117012,7 +117034,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 14 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 6 of 14 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -117025,8 +117047,8 @@
       ],
       "tags": {
         "event": {
-          "month": 3,
-          "day": 21,
+          "month": 4,
+          "day": 7,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -117034,7 +117056,8 @@
         "phenology": {
           "species": "western redbud",
           "kind": "Bloom",
-          "records": 14
+          "records": 6,
+          "seasonRecords": 14
         }
       }
     },
@@ -117811,7 +117834,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Typically around this date, from 305 volunteer observations recorded nearby. Timing shifts with the season — treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 63 of 305 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -117825,7 +117848,7 @@
       "tags": {
         "event": {
           "month": 4,
-          "day": 10,
+          "day": 2,
           "days": 14,
           "recurs": "annual",
           "skywide": false
@@ -117833,7 +117856,8 @@
         "phenology": {
           "species": "whiteleaf manzanita",
           "kind": "Bloom",
-          "records": 305
+          "records": 63,
+          "seasonRecords": 305
         }
       }
     },
