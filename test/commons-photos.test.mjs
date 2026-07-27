@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { retryAfterMs, backoffMs, RETRY_AFTER_CAP_MS } from '../ingest/adapters/http-etiquette.mjs';
-import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG } from '../ingest/adapters/commons-photos.mjs';
+import { geosearchTile, tileCenters, harvestBBox, RADIUS_M, meta, harvestAroundSpots, WIKIMEDIA_CONCURRENCY, WIKIMEDIA_MIN_GAP_MS, MAXLAG_SECONDS, clusterPoints, CLUSTER_MIN_PHOTOS, CLUSTER_MIN_DISTANCE_M, CLUSTER_CELL_DEG, isPlaceholderCoord } from '../ingest/adapters/commons-photos.mjs';
 
 test('geosearchTile returns {pageid,lat,lng} from the geosearch result', async () => {
   let url = null;
@@ -149,23 +149,64 @@ test('every geosearch sends maxlag so we step aside when their databases lag', a
 // catalogues missed. Sparse scatter is not — it is someone's holiday snap.
 test('clusterPoints keeps dense knots and drops scatter', () => {
   const pts = [];
-  for (let i = 0; i < 20; i++) pts.push({ lat: 38.9 + i * 0.00002, lng: -120.9 + i * 0.00002 });
-  for (let i = 0; i < 4; i++) pts.push({ lat: 39.5, lng: -121.5 });   // below the threshold
-  pts.push({ lat: 40, lng: -122 });                                    // a lone stray
+  for (let i = 1; i <= 20; i++) pts.push({ lat: 38.9 + i * 0.00002, lng: -120.9 + i * 0.00002 });
+  for (let i = 0; i < 4; i++) pts.push({ lat: 39.503, lng: -121.507 }); // below the threshold
+  pts.push({ lat: 40.001, lng: -122.003 });                             // a lone stray
   const out = clusterPoints(pts);
   assert.equal(out.length, 1, 'only the dense knot survives');
   assert.equal(out[0].photos, 20);
+  assert.equal(out[0].spots, 20);
   // The pin lands on the CENTROID of the photos, not the corner of a grid cell.
   assert.ok(Math.abs(out[0].lat - 38.9002) < 0.001 && Math.abs(out[0].lng + 120.8998) < 0.001);
 });
 
 test('clusterPoints returns the densest first and ignores unusable points', () => {
   const pts = [];
-  for (let i = 0; i < 15; i++) pts.push({ lat: 38.9, lng: -120.9 });
-  for (let i = 0; i < 30; i++) pts.push({ lat: 38.5, lng: -121.4 });
+  for (let i = 1; i <= 15; i++) pts.push({ lat: 38.9 + i * 1e-5, lng: -120.9 });
+  for (let i = 1; i <= 30; i++) pts.push({ lat: 38.5 + i * 1e-5, lng: -121.4 });
   pts.push({ lat: null, lng: 'x' });
   const out = clusterPoints(pts);
-  assert.deepEqual(out.map((c) => c.photos), [30, 15]);
+  assert.deepEqual(out.map((c) => c.spots), [30, 15]);
+});
+
+// MEASURED on the real harvest: 1,785 of 18,185 photo coordinates sat on an
+// exact 0.1° grid — a 11 km cell someone typed rather than a place they stood.
+// Clustered, they become a confident pin in the middle of a field.
+test('coordinates typed onto a round grid are not places', () => {
+  assert.equal(isPlaceholderCoord(38.1, -121.0), true);
+  assert.equal(isPlaceholderCoord(38.2, -119.8), true);
+  assert.equal(isPlaceholderCoord(38.10001, -121.0), false, 'a real fix, one metre off the grid');
+  assert.equal(isPlaceholderCoord(38.6785, -120.9872), false);
+  const pts = Array.from({ length: 40 }, () => ({ lat: 38.1, lng: -121.0 }));
+  assert.deepEqual(clusterPoints(pts), [], 'forty of them are still not a place');
+});
+
+// MEASURED on the real harvest: the densest cell held 187 photos, 160 of them at
+// ONE identical coordinate — a single upload batch geotagged once. That is one
+// person having been somewhere, not somewhere people go.
+test('one batch upload at one coordinate is one camera, not a crowd', () => {
+  const batch = Array.from({ length: 200 }, () => ({ lat: 38.6785, lng: -120.9872 }));
+  assert.deepEqual(clusterPoints(batch), [], 'two hundred files, one place someone stood');
+  const crowd = Array.from({ length: 14 }, (_, i) => ({ lat: 38.6785 + i * 1e-5, lng: -120.9872 }));
+  const out = clusterPoints(crowd);
+  assert.equal(out.length, 1, 'fourteen different vantage points is a subject');
+  assert.equal(out[0].spots, 14);
+});
+
+// A grid is arbitrary and a big subject straddles it: four cells in a row along
+// the Sacramento delta were four pins on one stretch of the same river.
+test('cells that split one subject are folded back together', () => {
+  const pts = [];
+  for (let i = 1; i <= 20; i++) pts.push({ lat: 38.0332 + i * 1e-5, lng: -121.8833 });
+  for (let i = 1; i <= 20; i++) pts.push({ lat: 38.0354 + i * 1e-5, lng: -121.8832 });
+  const out = clusterPoints(pts);
+  assert.equal(out.length, 1, '250 m apart is not two discoveries');
+  assert.equal(out[0].spots, 40);
+  const far = clusterPoints([
+    ...pts,
+    ...Array.from({ length: 20 }, (_, i) => ({ lat: 38.0800 + i * 1e-5, lng: -121.8833 })),
+  ]);
+  assert.equal(far.length, 2, 'but 5 km apart genuinely is');
 });
 
 test('the density threshold is a deliberate value, not an accident', () => {

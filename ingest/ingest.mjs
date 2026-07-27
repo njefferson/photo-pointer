@@ -528,7 +528,10 @@ async function cmdCommonsClusters(id) {
     best_season: [],
     access_difficulty: null,
     notes: null,
-    tags: { commons: { photos: c.photos }, discovered: 'photo-density' },
+    // `spots` is what earned the pin — the number of DISTINCT coordinates a
+    // camera was put down at. `photos` is how much material exists there, which
+    // is worth showing but must not be what decides.
+    tags: { commons: { photos: c.photos, spots: c.spots }, discovered: 'photo-density' },
     sources: [{
       source: commons.meta.source,
       source_id: `cluster:${c.lat.toFixed(5)},${c.lng.toFixed(5)}`,
