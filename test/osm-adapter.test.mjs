@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS } from '../ingest/adapters/osm-overpass.mjs';
+import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES } from '../ingest/adapters/osm-overpass.mjs';
 import { validateSpot } from '../src/model/spot.js';
 import { makeSpot } from '../src/model/spot.js';
 
@@ -13,11 +13,14 @@ const region = {
   ],
 };
 
-test('buildQuery names every county area and carries the bbox guard', () => {
+// This test used to assert that the query NAMED EVERY COUNTY. That was the bug:
+// the app draws a bounding box, so an area filter could only ever remove places
+// it would have shown — and did, for three whole counties.
+test('buildQuery carries the box and every selector, and names no county', () => {
   const q = buildQuery(region);
-  assert.match(q, /Sacramento County/);
   assert.match(q, /\[bbox:38,-121\.95,39\.4,-119\.85\]/);
   assert.match(q, /out center tags/);
+  assert.ok(!/County/.test(q), 'the county list is not part of asking OpenStreetMap any more');
   for (const r of TAG_RULES) assert.match(q, new RegExp(`"${r.k}"="${r.v}"`));
 });
 
@@ -73,55 +76,67 @@ test('a specific feature tag wins over the generic oddity rule (feature-first)',
   assert.equal(rec.tags.curiosity, 'Hot spring');
 });
 
-// ONE QUERY PER COUNTY. Asking for all of them at once was fine at three
-// counties and fell over at six: nineteen minutes of retries across all three
-// mirrors, ending in HTTP 504. Overpass bills by how much work one query does,
-// so the fix is smaller questions rather than more patience.
-test('one Overpass query per county, not one for the whole region', async () => {
-  const region = {
-    bbox: { south: 38, west: -122, north: 39.4, east: -119.8 },
-    counties: [
-      { osm_area_name: 'Sacramento County' },
-      { osm_area_name: 'Calaveras County' },
-      { osm_area_name: 'Nevada County' },
-    ],
-  };
-  const bodies = [];
-  const fetchFn = async (_url, opts) => {
-    bodies.push(decodeURIComponent(opts.body.replace(/^data=/, '')));
-    return { ok: true, status: 200, json: async () => ({ elements: [] }) };
-  };
-  await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} });
-  assert.equal(bodies.length, 3, 'three counties, three queries');
-  for (const [i, c] of region.counties.entries()) {
-    assert.ok(bodies[i].includes(`"name"="${c.osm_area_name}"`), c.osm_area_name);
-    const named = bodies[i].match(/admin_level"="6"/g) ?? [];
-    assert.equal(named.length, 1, 'each query asks about exactly one county');
-  }
+// ASK BY BOX, IN TILES. Two measured failures got here: one query with six
+// county areas 504'd after nineteen minutes of retries, and splitting per county
+// still took SIXTEEN MINUTES for Sacramento County alone. The county was always
+// the wrong unit — the map is a box, the merge drops anything outside it, so the
+// area filter only ever removed places the app would have shown. That is exactly
+// how three counties inside the box stayed invisible.
+test('the query asks by box and names no county at all', () => {
+  const region = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 }, counties: [{ osm_area_name: 'Sacramento County' }] };
+  const q = buildQuery(region, TAG_RULES, { south: 38, west: -122, north: 38.35, east: -121.65 });
+  assert.match(q, /\[bbox:38,-122,38\.35,-121\.65\]/);
+  assert.ok(!/area/.test(q), 'no admin-boundary membership test');
+  assert.ok(!/Sacramento County/.test(q), 'and no county name');
 });
 
-test('an element on a county line is counted once, not twice', async () => {
-  const region = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 },
-    counties: [{ osm_area_name: 'A' }, { osm_area_name: 'B' }] };
-  const el = { type: 'node', id: 42, lat: 38.5, lon: -121, tags: { tourism: 'viewpoint', name: 'On the line' } };
-  const fetchFn = async () => ({ ok: true, status: 200, json: async () => ({ elements: [el] }) });
+test('tiles cover the whole box, do not overlap, and stay a polite number', () => {
+  const bbox = { south: 38, west: -121.95, north: 39.4, east: -119.85 };
+  const tiles = bboxTiles(bbox);
+  assert.ok(tiles.length > 1 && tiles.length <= MAX_TILES, `${tiles.length} tiles`);
+  assert.equal(Math.min(...tiles.map((t) => t.south)), bbox.south);
+  assert.equal(Math.max(...tiles.map((t) => t.north)), bbox.north);
+  assert.equal(Math.min(...tiles.map((t) => t.west)), bbox.west);
+  assert.equal(Math.max(...tiles.map((t) => t.east)), bbox.east);
+  for (const t of tiles) assert.ok(t.north > t.south && t.east > t.west, 'no empty tile');
+  // A huge region must not become hundreds of requests.
+  const huge = bboxTiles({ south: 32.4, west: -124.6, north: 42.1, east: -117 });
+  assert.ok(huge.length <= MAX_TILES, `a statewide box is ${huge.length} tiles`);
+});
+
+test('one query per tile, and an element on a tile edge is counted once', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 38.7, east: -121.3 }, counties: [] };
+  const el = { type: 'node', id: 42, lat: 38.35, lon: -121.65, tags: { tourism: 'viewpoint', name: 'On the edge' } };
+  const boxes = [];
+  const fetchFn = async (_url, opts) => {
+    boxes.push(decodeURIComponent(opts.body).match(/\[bbox:([^\]]+)\]/)[1]);
+    return { ok: true, status: 200, json: async () => ({ elements: [el] }) };
+  };
   const out = await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} });
-  assert.equal(out.length, 1, 'both counties returned it; it is one place');
+  assert.ok(boxes.length >= 4, `tiled into ${boxes.length} queries`);
+  assert.equal(new Set(boxes).size, boxes.length, 'every tile is a different box');
+  assert.equal(out.length, 1, 'every tile returned it; it is one place');
 });
 
-// A county that will not answer is not a county with no places in it.
-test('a failing county is named and the rest of the region still lands', async () => {
-  const region = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 },
-    counties: [{ osm_area_name: 'Good' }, { osm_area_name: 'Broken' }] };
+// A tile that will not answer is not an empty tile.
+test('a failing tile is named and the rest of the region still lands', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 38.7, east: -121.3 }, counties: [] };
+  // Key the failure on the TILE, not a call counter — fetchOverpass retries
+  // across three mirrors, so a counter would let the retry succeed.
+  let id = 0;
+  const doomed = bboxTiles(region.bbox)[1];
   const fetchFn = async (_url, opts) => {
-    const body = decodeURIComponent(opts.body);
-    if (body.includes('"name"="Broken"')) return { ok: false, status: 504 };
+    const box = decodeURIComponent(opts.body).match(/\[bbox:([^\]]+)\]/)[1];
+    if (box === `${doomed.south},${doomed.west},${doomed.north},${doomed.east}`) {
+      return { ok: false, status: 504 };
+    }
+    id += 1;
     return { ok: true, status: 200, json: async () => ({ elements: [
-      { type: 'node', id: 1, lat: 38.5, lon: -121, tags: { tourism: 'viewpoint', name: 'Kept' } },
+      { type: 'node', id, lat: 38.1, lon: -121.9, tags: { tourism: 'viewpoint', name: `Kept ${id}` } },
     ] }) };
   };
   const out = await ingest(region, { fetchFn, today: '2026-07-27', sleepFn: async () => {} });
-  assert.equal(out.length, 1, 'the county that answered is not thrown away');
-  assert.equal(out.failedCounties.length, 1);
-  assert.match(out.failedCounties[0], /Broken/, 'and the one that failed is named, not silently zero');
+  assert.ok(out.length >= 1, 'the tiles that answered are not thrown away');
+  assert.equal(out.failedTiles.length, 1);
+  assert.match(out.failedTiles[0], /504/, 'and the one that failed is named, not silently zero');
 });
