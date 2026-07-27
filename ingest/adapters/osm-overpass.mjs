@@ -41,6 +41,28 @@ export const OVERPASS_GAP_MS = meta.pacing.gapMs;
 // bad time and stop asking altogether.
 export const GIVE_UP_AFTER = 3;
 
+// DON'T ASK TWICE FOR WHAT THEY ALREADY GAVE US. A run that gives up part-way
+// used to mean the next attempt re-fetched every tile that had already answered
+// — asking a service we had just decided was struggling to redo work it had
+// already done for us. Tiles that answered are kept for a day, so a re-run after
+// a failure only asks about what is actually missing. This is the same rule the
+// Commons sweep already follows, and it is the one that turns "sorry" into a
+// behaviour rather than a sentiment.
+export const TILE_CACHE_HOURS = 24;
+
+export function freshTiles(cache, tiles, { hours = TILE_CACHE_HOURS, now = Date.now() } = {}) {
+  const cutoff = now - hours * 3600e3;
+  const kept = new Map();
+  for (const [key, entry] of Object.entries(cache ?? {})) {
+    if (Date.parse(entry?.at ?? '') >= cutoff) kept.set(key, entry);
+  }
+  return { have: kept, todo: tiles.filter((t) => !kept.has(tileKey(t))) };
+}
+
+export function tileKey(box) {
+  return `${box.south.toFixed(2)},${box.west.toFixed(2)}`;
+}
+
 // Ordered rules: first match wins. Each rule = OSM tag selector → category +
 // photographer-intent seeds. Kept as data so curation is a table edit.
 export const TAG_RULES = [
@@ -166,10 +188,12 @@ export const OVERPASS_HOSTS = [
 
 // Overpass instances answer 406/403 to anonymous UAs — identify honestly
 // (their usage policy asks for a contactable User-Agent).
-export const USER_AGENT =
-  'photo-pointer-ingest/0.1 (personal project; https://github.com/njefferson/photo-pointer)';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
-import { backoffMs } from './http-etiquette.mjs';
+// Overpass instances answer 406/403 to anonymous callers and their usage policy
+// asks for a contactable User-Agent. Re-exported from the shared one so there is
+// exactly ONE identity across every service we call, carrying the real version.
+export { USER_AGENT };
 
 // AT MOST TWO ATTEMPTS, AND NEVER ON ANOTHER MIRROR.
 //
@@ -289,19 +313,35 @@ function keepTags(tags) {
 
 export async function ingest(region, {
   fetchFn, today, log = () => {}, rules = TAG_RULES, sleepFn = sleep, tileDeg = TILE_DEG,
-  now = () => Date.now(), hostIndex = 0,
+  now = () => Date.now(), hostIndex = 0, cache = {},
 } = {}) {
   const records = [];
   const seen = new Set();   // an element on a tile edge comes back twice; count it once
   const failed = [];
-  const tiles = bboxTiles(region.bbox, tileDeg);
+  const allTiles = bboxTiles(region.bbox, tileDeg);
+  const { have, todo } = freshTiles(cache, allTiles, { now: now() });
+  const tiles = todo;
+  // Elements a recent run already fetched — replayed, not re-requested.
+  const reused = {};
+  for (const [key, entry] of have) reused[key] = entry;
   let consecutive = 0;
   // ONE host for the whole run. Rotating on failure sprays our load across every
   // volunteer mirror there is; rotating per RUN spreads the steady load without
   // ever turning one server's "no" into three servers' problem.
   const host = OVERPASS_HOSTS[hostIndex % OVERPASS_HOSTS.length];
   log(`overpass: asking ${host} only (one mirror per run, never on failure)`);
-  log(`overpass: ${tiles.length} tiles over the region box, ${rules.length} selectors each`);
+  log(`overpass: ${allTiles.length} tiles over the region box, ${rules.length} selectors each`
+    + (have.size ? ` — ${have.size} answered within ${TILE_CACHE_HOURS}h, asking about ${tiles.length}` : ''));
+  // Replay what a recent run already got, without asking again.
+  for (const entry of have.values()) {
+    for (const el of entry.elements ?? []) {
+      const key = `${el.type}/${el.id}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const rec = normalizeElement(el, today);
+      if (rec) records.push(rec);
+    }
+  }
   for (const [i, box] of tiles.entries()) {
     const label = `${box.south.toFixed(2)},${box.west.toFixed(2)}`;
     let json;
@@ -326,6 +366,9 @@ export async function ingest(region, {
         const err = new Error(`overpass: gave up after ${consecutive} consecutive failures`);
         err.gaveUp = true;
         err.partial = records;
+        // The tiles that DID answer go home with us, so the next attempt asks
+        // only about what is missing.
+        err.cache = reused;
         throw err;
       }
       await sleepFn(OVERPASS_GAP_MS);
@@ -342,6 +385,7 @@ export async function ingest(region, {
     }
     // Per-tile timing, so the next run says whether the tile size is right
     // instead of leaving it to be guessed at again.
+    reused[tileKey(box)] = { at: new Date(now()).toISOString(), elements: json.elements };
     log(`  overpass: tile ${i + 1}/${tiles.length} ${label} → ${kept} places in ${Math.round((now() - t0) / 1000)}s`);
     if (i < tiles.length - 1) await sleepFn(OVERPASS_GAP_MS);
   }
@@ -350,6 +394,7 @@ export async function ingest(region, {
   }
   log(`normalized ${records.length} records from ${tiles.length - failed.length}/${tiles.length} tiles`);
   records.failedTiles = failed;
+  records.cache = reused;
   return records;
 }
 

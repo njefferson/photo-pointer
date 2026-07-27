@@ -46,8 +46,16 @@
 //
 // One canonical User-Agent for every adapter, in the format Wikimedia's policy
 // specifies: tool name, version, and a contactable full URL.
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity, and it must not go stale. It said 1.15 while the app was 1.20,
+// and the ingest client separately claimed to be version 0.1 — so an operator
+// looking at a spike in their logs could not tell which build of ours caused it.
+// Read from the changelog the app itself ships, so it can only ever be right.
+// The URL is a real contact route: anyone can open an issue there and reach us,
+// which is what Overpass and Wikimedia both ask a client to provide.
+import { CHANGELOG } from '../../src/data/changelog.js';
+
+export const CONTACT_URL = 'https://github.com/njefferson/photo-pointer';
+export const USER_AGENT = `photo-pointer/${CHANGELOG[0].v} (+${CONTACT_URL})`;
 
 // `Retry-After` is either a number of seconds or an HTTP date. Returns ms to
 // wait, or null when the header is absent or unparseable.

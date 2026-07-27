@@ -127,16 +127,32 @@ async function writeSource(sourcesDir, file, meta, region, records) {
 async function cmdOsm(id) {
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
+  // What a recent run already got, so we never ask Overpass to redo work it has
+  // already done for us.
+  // The file name carries WHICH QUESTION was asked. osm-features runs the same
+  // adapter over the same tiles with a DIFFERENT rule set, and replaying one as
+  // the other would silently swap two sources' data for each other.
+  const cacheFile = path.join(ROOT, 'ingest', 'inputs', `${region.id}-osm-tiles.json`);
+  const cache = (await readJsonIfExists(cacheFile))?.tiles ?? {};
   let records;
+  const keepCache = async (tiles) => {
+    if (!tiles || !Object.keys(tiles).length) return;
+    await mkdir(path.dirname(cacheFile), { recursive: true });
+    await writeFile(cacheFile, JSON.stringify({ builtAt: today, tiles }) + '\n');
+  };
   try {
-    records = await osm.ingest(region, { today, log });
+    records = await osm.ingest(region, { today, log, cache });
   } catch (e) {
     // The adapter abandons a sweep when Overpass is clearly struggling. That is
     // a deliberate stop, not a crash: say so plainly, keep the good data that is
     // already committed, and exit so nobody reads a partial sweep as the truth.
     if (e.gaveUp) {
+      // Keep what they already gave us even though we write no region data —
+      // a re-run then asks only about the tiles that are actually missing.
+      await keepCache(e.cache);
       console.error(`osm: stopped early to stop asking a struggling service `
-        + `(${e.partial?.length ?? 0} places gathered before that). Nothing written; re-run later.`);
+        + `(${e.partial?.length ?? 0} places gathered before that). Nothing written; `
+        + `the tiles that answered are kept, so a re-run asks only for what is missing.`);
       process.exit(1);
     }
     throw e;
@@ -145,6 +161,7 @@ async function cmdOsm(id) {
     console.error('osm: 0 records — refusing to write an empty file over good data');
     process.exit(1);
   }
+  await keepCache(records.cache);
   await writeSource(P.sourcesDir, 'osm.json', osm.meta, region, records);
 }
 
@@ -155,7 +172,28 @@ async function cmdOsm(id) {
 async function cmdOsmFeatures(id) {
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
-  const records = await osm.ingest(region, { today, log, rules: osm.FEATURE_RULES });
+  // Its OWN tile cache — same tiles, different question (see cmdOsm).
+  const cacheFile = path.join(ROOT, 'ingest', 'inputs', `${region.id}-osm-features-tiles.json`);
+  const cache = (await readJsonIfExists(cacheFile))?.tiles ?? {};
+  let records;
+  try {
+    records = await osm.ingest(region, { today, log, rules: osm.FEATURE_RULES, cache });
+  } catch (e) {
+    if (e.gaveUp) {
+      if (e.cache && Object.keys(e.cache).length) {
+        await mkdir(path.dirname(cacheFile), { recursive: true });
+        await writeFile(cacheFile, JSON.stringify({ builtAt: today, tiles: e.cache }) + '\n');
+      }
+      console.error('osm-features: stopped early to stop asking a struggling service; '
+        + 'the tiles that answered are kept, so a re-run asks only for what is missing.');
+      process.exit(1);
+    }
+    throw e;
+  }
+  if (records.cache && Object.keys(records.cache).length) {
+    await mkdir(path.dirname(cacheFile), { recursive: true });
+    await writeFile(cacheFile, JSON.stringify({ builtAt: today, tiles: records.cache }) + '\n');
+  }
   if (records.length === 0) {
     // No feature nodes here — skip without clobbering a good existing file.
     if (await readJsonIfExists(path.join(P.sourcesDir, 'osm-features.json'))) {
