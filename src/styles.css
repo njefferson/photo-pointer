@@ -274,6 +274,8 @@ body {
 .legend-hint { margin: 8px 0 0; font-size: 0.6875rem; color: var(--dim); line-height: 1.35; }
 /* Indicator swatches keep their box-shadow ring (unlike .pin-inline), so the
    gold "photos" ring and the neutral cluster circle actually show at legend size. */
+/* SUB-11px EXEMPT: the letter inside a swatch is a glyph, not a label — every
+   legend row carries its full-size name text beside it. */
 .pin.legend-swatch { width: 18px; height: 18px; font-size: 0.625rem; flex: none; }
 
 /* "Map filtered to N top spots" banner — a standing indicator with an obvious
@@ -448,6 +450,8 @@ body {
   font-size: 0.75rem;
 }
 
+/* SUB-11px EXEMPT: same glyph-not-label case as .legend-swatch — this pin sits
+   inline beside the text it illustrates. */
 .pin-inline { width: 18px; height: 18px; font-size: 0.625rem; border-width: 1px; box-shadow: none; }
 
 .pin-viewpoint { background: var(--cat-viewpoint); }
@@ -606,7 +610,9 @@ body {
 /* Photo-score badge (shared by the list rows). Number reads as the rating, the
    strength word (capitalized) anchors it. Theme-token colours, gated. */
 .score-num { font-size: 1rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent); }
-.score-cap { font-size: 0.5625rem; font-weight: 600; color: var(--dim); letter-spacing: 0.02em; text-transform: capitalize; }
+/* The strength WORD is what anchors the number, so it is informational text, not
+   decoration — raised to the 11px floor (was 9px). */
+.score-cap { font-size: 0.6875rem; font-weight: 600; color: var(--dim); letter-spacing: 0.02em; text-transform: capitalize; }
 
 /* Dark-sky overlay legend (a Leaflet control). Solid card bg + dark text so
    it reads over any basemap; every Bortle class is labeled in words. */
@@ -626,7 +632,9 @@ body {
 .lp-row { display: flex; align-items: center; gap: 6px; padding: 1px 0; }
 .lp-swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.35); flex: none; }
 .lp-row-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.lp-credit { margin-top: 5px; color: var(--dim); font-size: 0.625rem; }
+/* Source credit — an attribution we are licence-bound to show, so it has to be
+   legible: raised to the 11px floor (was 10px). */
+.lp-credit { margin-top: 5px; color: var(--dim); font-size: 0.6875rem; }
 
 .data-dialog {
   max-width: 480px;
