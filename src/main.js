@@ -6,7 +6,7 @@ import { createMapView, CATEGORY_META, CATEGORY_GROUPS, spotDisplayName } from '
 import { distanceM } from './model/geo.js';
 import { loadRegions, pickRegion } from './model/region.js';
 import { userPins, activeFilters, setActiveFilters, activeLayers, setActiveLayers, activeRegionId, setActiveRegionId, exportBundle, importBundle, hiddenSpots, hideSpot, unhideSpot, clearHidden, loadRankCache, saveRankCache } from './model/store.js';
-import { rankSpots } from './model/synthesis.js';
+import { rankSpots, buildContext, scoreSpot } from './model/synthesis.js';
 import { LAYER_FILTERS } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 import { renderListInto } from './ui/listview.js';
@@ -97,9 +97,38 @@ function currentLayers() {
 }
 
 // Category toggle → persist + re-apply everywhere.
-function applyVisible(v) {
+// The set the last bulk Show-all / Hide-all replaced, so that button can offer
+// to put it back. Any OTHER change to what is showing clears it — restoring a
+// set the reader has since edited would be worse than not offering at all.
+let bulkPrev = null;
+
+function applyVisible(v, { bulk = false } = {}) {
+  if (!bulk) bulkPrev = null;
   setActiveFilters(v);
   applyFilters();
+}
+
+// UNDO SITS BESIDE THE ACTION, NOT ON TOP OF IT. The first build of this made
+// the one button read "Restore" straight after a bulk change — and the app's own
+// filters smoke caught what that costs: having pressed Show all, there was no
+// longer a one-tap way to Hide all, because the button had been taken over by
+// its own undo. The bulk toggle now always offers the bulk action, and a
+// separate Restore appears next to it only while there is something to put back.
+// (A general undo/redo across every filter is on the roadmap.)
+function bulkToggleLabel() {
+  return currentVisible().size === allCategories().size ? 'Hide all' : 'Show all';
+}
+
+function bulkToggle() {
+  const before = new Set(currentVisible());
+  const goingDark = before.size === allCategories().size;
+  bulkPrev = before;
+  applyVisible(goingDark ? new Set() : allCategories(), { bulk: true });
+}
+
+function restoreBulk() {
+  const back = bulkPrev;
+  if (back) applyVisible(back); // applyVisible clears the offer — one step, not a loop
 }
 
 // "Must have" layer toggle → persist + re-apply everywhere.
@@ -160,11 +189,12 @@ function refreshViews() {
 function renderHeader() {
   const visible = currentVisible();
   const layers = currentLayers();
-  const allOn = visible.size === allCategories().size;
+  // Two controls that look alike must not have different rules — the in-panel
+  // one and the toolbar one are the same button in two places.
   const allToggle = el('button', {
     class: 'chip chip-all',
-    onClick: () => applyVisible(allOn ? new Set() : allCategories()),
-  }, allOn ? 'Hide all' : 'Show all');
+    onClick: () => bulkToggle(),
+  }, bulkToggleLabel());
   const chipFor = (cat, meta) =>
     el('button', {
       class: `chip chip-${cat}${visible.has(cat) ? ' on' : ''}`,
@@ -318,6 +348,24 @@ function renderHeader() {
       : null,
     searchRow,
     el('div', { class: 'bar-actions' }, [
+      // Showing or hiding everything is the most-used filter action there is; it
+      // should not require opening the filter panel first (Noah, 2026-07-27).
+      el('button', {
+        class: 'data-btn',
+        title: 'Show or hide every place type',
+        onClick: () => bulkToggle(),
+      }, bulkToggleLabel()),
+      // Only while there IS something to put back. It disappears the moment any
+      // other filter changes, because restoring a set the reader has since
+      // edited would be worse than not offering.
+      bulkPrev
+        ? el('button', {
+            class: 'data-btn',
+            'aria-label': 'Restore the place types that were showing before',
+            title: 'Put back the place types you had showing',
+            onClick: () => restoreBulk(),
+          }, '↺ Restore')
+        : null,
       filtersToggle,
       el('div', { class: 'view-toggle', role: 'group', 'aria-label': 'Map or list view' }, [
         el('button', { class: `vt-btn${viewMode === 'map' ? ' on' : ''}`, 'aria-pressed': String(viewMode === 'map'), onClick: () => setViewMode('map') }, 'Map'),
@@ -429,14 +477,37 @@ function ranking() {
   const cached = loadRankCache(region?.id, sig);
   if (cached) {
     const byId = new Map(spots.map((s) => [s.id, s]));
-    rankingCache = cached.map((c) => ({ spot: byId.get(c.id), score: c.score, parts: c.parts })).filter((r) => r.spot);
+    // `keys` is all the cache carries; the full breakdown (labels, notes) is
+    // recomputed for the ONE spot whose card is open — see synthesisFor below.
+    rankingCache = cached.map((c) => ({ spot: byId.get(c.id), score: c.score, parts: null, keys: c.keys ?? [] }))
+      .filter((r) => r.spot);
     rankingKey = key;
     return rankingCache;
   }
   rankingCache = rankSpots(spots);
   rankingKey = key;
-  saveRankCache(region?.id, sig, rankingCache.map((r) => ({ id: r.spot.id, score: r.score, parts: r.parts })));
+  // CACHE THE KEYS, NOT THE BREAKDOWN. Storing every spot's full parts — label
+  // and note strings and all — made this a 1.37 MB synchronous localStorage
+  // write on every region switch, out of a ~5 MB per-origin quota that has to
+  // hold seven regions. Everything that reads the cache in bulk wants only the
+  // score and which signals contributed; the human-readable breakdown is needed
+  // for exactly one spot at a time, and costs nothing to recompute for one.
+  saveRankCache(region?.id, sig, rankingCache.map((r) => ({
+    id: r.spot.id, score: r.score, keys: r.parts.map((p) => p.key),
+  })));
   return rankingCache;
+}
+
+// The human-readable breakdown for ONE spot. When the ranking came back from
+// the cache it carries scores and signal keys but no labels or notes, so this
+// recomputes them — for a single spot, which is all a card ever needs.
+let breakdownCtx = null, breakdownCtxKey = null;
+function breakdownFor(spot) {
+  if (!spot) return null;
+  const spots = allSpots();
+  const key = `${region?.id}:${spots.length}`;
+  if (breakdownCtxKey !== key) { breakdownCtx = buildContext(spots); breakdownCtxKey = key; }
+  return scoreSpot(spot, breakdownCtx);
 }
 
 // Derived from the ranking, memoized alongside it: id → score (for the Best sort
@@ -449,7 +520,7 @@ function rankMaps() {
     const score = new Map(), layers = new Map();
     for (const r of ranked) {
       score.set(r.spot.id, r.score);
-      layers.set(r.spot.id, new Set(r.parts.map((p) => p.key)));
+      layers.set(r.spot.id, new Set(r.keys ?? r.parts.map((p) => p.key)));
     }
     rankMapsCache = { score, layers };
     rankMapsKey = rankingKey;
@@ -583,7 +654,7 @@ function refresh() {
   updateVerTag();
   mapView?.setSpots(spotsForMap());
   const byId = new Map(ranking().map((r) => [r.spot.id, r]));
-  mapView?.setSynthesis(byId);
+  mapView?.setSynthesis(byId, breakdownFor);
   syncMapFilter(); // setVisible + any "Must have" narrowing, from fresh ranking maps
   renderListView();
 }

@@ -182,6 +182,11 @@ function clamp(x, lo, hi) {
   return Math.max(lo, Math.min(hi, x));
 }
 
+// How coarsely the sun's position is cached. A quarter degree is ~28 km; the
+// setting azimuth varies by well under a degree over an entire region, and the
+// only consumer rounds it to one of 16 compass points.
+export const LIGHT_CELL_DEG = 0.25;
+
 // Build a reusable context (spatial index + memoized light + the score
 // denominator) for a spot set. One index, queried by every signal; scoring
 // runs once on load, not per frame.
@@ -216,7 +221,16 @@ export function buildContext(spots, signals = SIGNALS) {
       return best;
     },
     lightFor(spot) {
-      const k = `${spot.lat.toFixed(2)},${spot.lng.toFixed(2)}`;
+      // THIS CACHE KEY WAS THE WHOLE COST OF RANKING A REGION. At two decimals
+      // it is a ~1.1 km cell, so Sacramento asked the astronomy engine for
+      // roughly 1,500 separate sun models — 1.4 s of the 1.6 s a region switch
+      // took, on a machine faster than the iPad this runs on.
+      // What that bought was ONE WORD. The sun's setting azimuth is used only
+      // for the note ("evening light from the NW"); it does not touch the score.
+      // MEASURED across the whole home region — 200 km corner to corner — the
+      // azimuth moves 0.55°, and compass() buckets to 16 points, so every spot
+      // in the region renders the same word either way.
+      const k = `${(spot.lat / LIGHT_CELL_DEG) | 0},${(spot.lng / LIGHT_CELL_DEG) | 0}`;
       if (!lightCache.has(k)) {
         try {
           lightCache.set(k, sunTimesFor(spot.lat, spot.lng));

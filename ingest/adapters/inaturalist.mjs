@@ -19,7 +19,7 @@
 // dense wildlife area far from any spot is therefore not surfaced; in a region
 // this densely spotted by OSM+eBird that is a rare gap (documented, honest).
 
-import { backoffMs } from './http-etiquette.mjs';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
 export const meta = {
   source: 'inaturalist',
@@ -38,8 +38,9 @@ export const meta = {
 };
 
 export const API = 'https://api.inaturalist.org/v1/observations';
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity across every service we call, carrying the real app version —
+// a stale User-Agent is barely better than an anonymous one.
+export { USER_AGENT };
 
 // Animals a photographer shoots that eBird does NOT cover. Aves excluded.
 export const ICONIC = ['Mammalia', 'Reptilia', 'Amphibia', 'Insecta', 'Arachnida', 'Mollusca'];

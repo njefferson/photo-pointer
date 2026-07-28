@@ -17,7 +17,7 @@
 // Field names are DISCOVERED at runtime rather than hard-coded — the GNIS lesson
 // (a guessed layer/field returned almost nothing and cost a debug cycle).
 
-import { backoffMs } from './http-etiquette.mjs';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
 export const meta = {
   source: 'nrhp',
@@ -37,8 +37,9 @@ export const meta = {
 export const BASE_URL =
   'https://mapservices.nps.gov/arcgis/rest/services/cultural_resources/nrhp_locations/MapServer';
 
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity across every service we call, carrying the real app version —
+// a stale User-Agent is barely better than an anonymous one.
+export { USER_AGENT };
 
 // The service's attributes are deliberately sparse, and capitalisation has moved
 // between releases — so match candidates CASE-INSENSITIVELY and take what exists.

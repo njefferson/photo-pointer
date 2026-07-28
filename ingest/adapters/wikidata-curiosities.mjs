@@ -21,7 +21,7 @@
 // so class QIDs are confirmed by a runner pass, not locally — if a class returns
 // nothing across regions, verify its QID via WebSearch and correct it here.
 
-import { backoffMs } from './http-etiquette.mjs';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
 export const meta = {
   source: 'wikidata',
@@ -40,8 +40,9 @@ export const meta = {
 };
 
 export const ENDPOINT = 'https://query.wikidata.org/sparql';
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity across every service we call, carrying the real app version —
+// a stale User-Agent is barely better than an anonymous one.
+export { USER_AGENT };
 
 // key = a Wikidata class; label = the human "kind" shown in the popup. Matched by
 // P31 (instance of) OR P279* (subclass chain) so subtypes are caught too.

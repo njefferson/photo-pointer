@@ -110,7 +110,118 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## "Version" stamp renders CHANGELOG[0].v. Major (x) is Noah's call. 1.0.0 was
 ## declared at the first full release (2026-07-20).
 
+## Cross-app lessons live in the HUB: `LESSONS.md` in noahjefferson, beside the
+## Doctrine (Noah, 2026-07-27: "create a place to log lessons learned that this
+## and other apps can benefit from instead of learning things repeatedly").
+## Read it every session; APPEND to it whenever something learned here would
+## have saved time in a different app. THIS repo's own LESSONS.md is a different
+## document — the stack contract (build/deploy/vendor conventions).
+
 ## Project facts (append on every release, unprompted)
+- 2026-07-27 1.19.0 → 1.20.0 BUILT on staging, unpromoted. Noah: "add those and
+  right-size the app and what it does and how it does it… region tabs load very
+  slowly… earlier conventions may no longer be valid."
+  PERFORMANCE, all MEASURED, not guessed. A Yellowstone switch froze the UI for
+  1,329 ms here (so several times that on his iPad). (1) RANKING 1,586 → 281 ms:
+  the `view` signal asked the astronomy engine for the sun once per ~1.1 km —
+  ~1,500 sun models for Sacramento — and what that bought was ONE WORD ("evening
+  light from the NW") that does not touch the score. Across the whole 200 km
+  region the setting azimuth moves 0.55° and compass() buckets to 16 points, so
+  LIGHT_CELL_DEG=0.25 (~28 km) renders identically: VERIFIED every score and
+  every note byte-identical over 2,799 spots. (2) RANK CACHE 1.37 MB → 0.40 MB:
+  it stored each spot's full `parts` (labels + notes) and wrote that to
+  localStorage SYNCHRONOUSLY on every switch, out of a ~5 MB quota shared by
+  seven regions. Now caches `keys` only; the readable breakdown is recomputed for
+  the ONE open card (breakdownFor in main.js, passed to setSynthesis). (3) LAZY
+  MARKERS: 42 → 11 ms. I predicted ~900 ms and was WRONG — measured before
+  claiming. Kept because it stops growing with the region.
+  COUNTIES: +Calaveras (06009), +Nevada (06057), +Amador (06005); region renamed
+  "Sacramento · Gold Country · Tahoe". Chosen from the coverage audit, not taste.
+  ONE QUERY PER COUNTY, the convention that stopped being valid. Six county areas
+  × 15 selectors in one Overpass query = 19 minutes of retries across all three
+  mirrors → HTTP 504. Overpass bills by the WORK a query does, so the fix is
+  smaller questions, not more patience. osm.ingest now loops counties, dedups
+  elements on county lines by type/id, NAMES failing counties and keeps the rest
+  (records.failedCounties), 2 s gap, sleepFn threaded through fetchOverpass so
+  tests don't wait. ingest-osm.yml timeout 25 → 45 min.
+  JUNK RULES, Noah's words: IKEA out; a wild flower photographable there IN but
+  nursery stock OUT (no leading \b — "Placervillenursery" is one word); agency
+  archives OUT unless of something still standing (his ancient tree).
+  photoDestination() reports every rejection WITH ITS REASON so the list is
+  auditable rather than a silent filter.
+  SHOW ALL / HIDE ALL in the toolbar + a separate "↺ Restore". FIRST BUILD MADE
+  THE ONE BUTTON TURN INTO "Restore" AND THE FILTERS SMOKE CAUGHT IT: after Show
+  all there was no one-tap Hide all, because the button had been taken over by
+  its own undo. Undo sits BESIDE the action. bulkPrev is cleared by any non-bulk
+  applyVisible, so a stale set can never be restored. Full undo/redo → NOTES.md
+  roadmap (needs one funnel for every filter path, a bounded stack, and a
+  decision on whether hiding a PLACE shares the stack with hiding a TYPE).
+  THUMBNAILS (1.20.0) on DISCOVERED pins only, behind a tap. src/model/
+  commons-thumbs.js: ONE request, generator=geosearch + prop=imageinfo +
+  iiurlwidth=320 + extmetadata, origin=*. NO maxlag — this is INTERACTIVE (one
+  request because a person tapped), which API:Etiquette separates from the bulk
+  rules our ingest follows; maxlag would only make a tap fail during lag.
+  ATTRIBUTION IS THE CONDITION, NOT A CAPTION: no stateable licence → the file is
+  not shown at all; Artist/Credit arrive as uploader-written HTML → plainText()
+  strips it and it is set as TEXT (smoke fires an onerror payload and proves it
+  inert). Ordinary photographed spots keep the link-out — there a photo is
+  incidental. CSP += img-src upload.wikimedia.org, connect-src
+  commons.wikimedia.org. WHY BEHIND A TAP is mostly NOT bandwidth: Commons is not
+  curated for this app and we cannot preview what a geosearch returns.
+  NEW SMOKES: smoke-bulktoggle.mjs (12 checks incl. the stale-restore trap),
+  smoke-thumbs.mjs (13 checks incl. licence-missing → not rendered, and the XSS
+  payload). 230+ tests + contrast + etiquette + all NINE smokes green.
+  STILL OPEN: the six-county OSM ingest — the first attempt 504'd (see above),
+  the re-dispatch on the per-county code inherited the OLD 25-min ceiling and was
+  still in its fetch step at last check. CHECK THE JOB'S OWN CONCLUSION, not the
+  branch tip: "still running" is not "still alive" — that is the sibling of the
+  "cancelled is not zero" lesson and it caught me out this session.
+- 2026-07-27 PROMOTED 1.18.0 to main (Noah's "Promote"). Production ==
+  origin/main == origin/staging == daaacd9 (a MERGE, not a fast-forward — main
+  carried a tooling-only commit). Ships the two discovery layers with real data.
+- 2026-07-27 WHY ARE PHOTOS TAKEN THERE, AND WHY IS THERE NO PIN — Noah's two
+  questions, and both had answers worth having.
+  (A) THE TITLES WERE ALWAYS IN THE RESPONSE AND WE THREW THEM AWAY. `list=
+  geosearch` returns each file's TITLE alongside its coordinates; the harvester
+  mapped only pageid/lat/lng. Keeping it costs Wikimedia NOTHING and lets a
+  discovered place say what people came for. describeCluster() takes the longest
+  phrase (≤6 words) shared by ≥25% of the files; below that it says nothing.
+  Rendered as EVIDENCE, never as a name: "most are titled something like
+  'X' (43 of 77)" — a recurring phrase can be one photographer's habit.
+  (B) THE HEADLINE RESULT WAS WRONG AND THE TITLES ARE WHAT CAUGHT IT. I had
+  reported "Donner Summit, 376 distinct vantage points" as the layer's best find.
+  It is ONE 360 RIG MOVING: the files are named `<token> with Labpano Pilot One`,
+  and another block `with Suzuki Dl1000` — somebody photographing from a
+  motorcycle. Every frame of a continuous 360 capture lands on its own
+  coordinate, so "distinct coordinates" — which correctly defeats a batch upload
+  geotagged once — is SATURATED BY ONE ACTOR MOVING. THE GENERAL LESSON, now in
+  the hub: when a metric can be saturated by a single actor, find a second
+  INDEPENDENT field that identifies the actor; do not tighten the first metric.
+  isSingleRig() drops a cluster when ≥60% of its files share one device tail or
+  start with the same style of machine token, and NAMES them in the log.
+  MEASURED: 54 discovered → 37 after rejection, and what is left reads right —
+  Folsom Dam, Sand Harbor at Lake Tahoe, Bridgeport Covered Bridge, Dave Moore
+  Nature Area, Spooner Lake, Amador City, Rough and Ready, the Truckee River
+  Legacy Trail, autumn foliage along Brockway Road.
+  (C) WHY THERE IS NO PIN: A STRUCTURAL COVERAGE HOLE, not obscurity. The region
+  is a BBOX (38.0..39.4 / -121.95..-119.85) but the OSM ingest queries by COUNTY
+  (Sacramento, El Dorado, Placer). Everything inside the box and outside those
+  three counties has NO OSM DATA AT ALL. MEASURED: 26 of 43 discoveries sat in
+  ~11 km cells holding fewer than 5 known places, 19 of them in cells with ZERO.
+  The biggest hole is 38.2,-120.4 — nine discoveries, zero known places — which
+  is CALAVERAS COUNTY (Murphys, Arnold, Calaveras Big Trees, Sourgrass on the
+  Stanislaus). Others: Nevada County (Grass Valley / Nevada City / the Yuba),
+  the Nevada shore of Lake Tahoe (Incline Village, Sand Harbor, Spooner), and
+  the delta around Antioch / Rio Vista / Pittsburg. reportCoverageGaps() now
+  PRINTS this on every discovery run. THE FIX IS NOAH'S CALL, not mine: add the
+  counties people demonstrably photograph (Calaveras, Nevada, Amador, and the
+  NV side of Tahoe), or narrow the bbox to the counties we actually ingest.
+  Adding is the better answer — the photographs are proof people go there.
+  STILL JUNK IN THE 37, reported not filtered (a judgement about what counts as
+  a photo destination, his to make): single-uploader DOCUMENTATION sets that are
+  not destinations — botanical specimen series (Chenopodium botrys, Cirsium
+  occidentale), agency archives (NRCS, USFS Pacific Southwest Research Station),
+  "Bear Third Treatment", "Placervillenursery Eldorador5" — and an IKEA.
 - 2026-07-27 1.18.0 "Places nobody wrote down, and dates worth driving for" (a
   CAPABILITY) BUILT on staging. The two layers 1.16.0/1.17.0 shipped EMPTY now
   carry real data, and getting there was four wrong answers in a row — each one

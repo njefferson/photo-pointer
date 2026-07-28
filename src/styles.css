@@ -796,3 +796,43 @@ body {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* Thumbnails of the photographs a DISCOVERED place is made of (1.20.0).
+   Sized in relative units off the card's own width so they shrink with it —
+   a card at 200% text is a small card, and a fixed tile size would be the same
+   mistake 1.15.1 fixed. */
+.popup-thumbs { margin: 6px 0 0; }
+.thumb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 6px;
+  margin-top: 6px;
+}
+.leaflet-container a.thumb-tile,
+.thumb-tile {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);          /* gated pair: ink on card */
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--card);
+}
+.thumb-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--bg);
+}
+/* The credit is a REQUIREMENT of the licence, so it is never hidden, never
+   truncated to nothing, and never smaller than the app's smallest real text. */
+.thumb-credit {
+  display: block;
+  padding: 3px 4px;
+  font-size: 11px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.thumb-tile:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }

@@ -80538,6 +80538,11 @@
           "photos": 12,
           "spots": 12
         },
+        "subject": {
+          "subject": "Pittsburg Center Station",
+          "files": 11,
+          "of": 16
+        },
         "discovered": "photo-density"
       }
     },
@@ -80568,6 +80573,11 @@
         "commons": {
           "photos": 86,
           "spots": 84
+        },
+        "subject": {
+          "subject": "Old Town Pittsburg Panoramio",
+          "files": 34,
+          "of": 89
         },
         "discovered": "photo-density"
       }
@@ -80600,6 +80610,11 @@
           "photos": 35,
           "spots": 29
         },
+        "subject": {
+          "subject": "Old Town Pittsburg Panoramio",
+          "files": 17,
+          "of": 43
+        },
         "discovered": "photo-density"
       }
     },
@@ -80630,6 +80645,11 @@
         "commons": {
           "photos": 76,
           "spots": 48
+        },
+        "subject": {
+          "subject": "Western Railway Museum April Sarah Stierch",
+          "files": 23,
+          "of": 79
         },
         "discovered": "photo-density"
       }
@@ -80662,6 +80682,11 @@
           "photos": 64,
           "spots": 19
         },
+        "subject": {
+          "subject": "C",
+          "files": 30,
+          "of": 65
+        },
         "discovered": "photo-density"
       }
     },
@@ -80692,6 +80717,11 @@
         "commons": {
           "photos": 36,
           "spots": 30
+        },
+        "subject": {
+          "subject": "August Sarah Stierch",
+          "files": 13,
+          "of": 38
         },
         "discovered": "photo-density"
       }
@@ -80724,6 +80754,11 @@
           "photos": 39,
           "spots": 31
         },
+        "subject": {
+          "subject": "Canoemobile",
+          "files": 39,
+          "of": 39
+        },
         "discovered": "photo-density"
       }
     },
@@ -80755,36 +80790,10 @@
           "photos": 28,
           "spots": 16
         },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qceh79",
-      "name": null,
-      "lat": 38.515829230769214,
-      "lng": -121.45185492307694,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.51583,-121.45185",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.51583,-121.45185",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 65,
-          "spots": 65
+        "subject": {
+          "subject": "Ikea",
+          "files": 31,
+          "of": 33
         },
         "discovered": "photo-density"
       }
@@ -80817,67 +80826,10 @@
           "photos": 55,
           "spots": 44
         },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qceyvy",
-      "name": null,
-      "lat": 38.660705294117655,
-      "lng": -121.33530352941179,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.66071,-121.33530",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.66071,-121.33530",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 17,
-          "spots": 17
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qcezn4",
-      "name": null,
-      "lat": 38.66117588785048,
-      "lng": -121.33005841121496,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.66118,-121.33006",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.66118,-121.33006",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 107,
-          "spots": 107
+        "subject": {
+          "subject": "Pacific Southwest Region Research Station Honor",
+          "files": 55,
+          "of": 60
         },
         "discovered": "photo-density"
       }
@@ -80910,6 +80862,11 @@
           "photos": 26,
           "spots": 25
         },
+        "subject": {
+          "subject": "Bear Third Treatment",
+          "files": 11,
+          "of": 32
+        },
         "discovered": "photo-density"
       }
     },
@@ -80940,6 +80897,11 @@
         "commons": {
           "photos": 21,
           "spots": 19
+        },
+        "subject": {
+          "subject": "Nrcs Lsc",
+          "files": 21,
+          "of": 21
         },
         "discovered": "photo-density"
       }
@@ -80972,6 +80934,11 @@
           "photos": 165,
           "spots": 113
         },
+        "subject": {
+          "subject": "Folsom Dam",
+          "files": 92,
+          "of": 177
+        },
         "discovered": "photo-density"
       }
     },
@@ -81002,6 +80969,11 @@
         "commons": {
           "photos": 15,
           "spots": 15
+        },
+        "subject": {
+          "subject": "Rough Ready Small Settlement Grass Valley",
+          "files": 7,
+          "of": 21
         },
         "discovered": "photo-density"
       }
@@ -81034,6 +81006,11 @@
           "photos": 24,
           "spots": 23
         },
+        "subject": {
+          "subject": "Bridgeport Covered Bridge",
+          "files": 20,
+          "of": 42
+        },
         "discovered": "photo-density"
       }
     },
@@ -81065,284 +81042,10 @@
           "photos": 20,
           "spots": 12
         },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3kvt",
-      "name": null,
-      "lat": 38.21921666666667,
-      "lng": -120.37017388888889,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.21922,-120.37017",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.21922,-120.37017",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 18,
-          "spots": 18
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3kym",
-      "name": null,
-      "lat": 38.22355186666667,
-      "lng": -120.36930453333335,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.22355,-120.36930",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.22355,-120.36930",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 75,
-          "spots": 75
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3kzq",
-      "name": null,
-      "lat": 38.22863515151515,
-      "lng": -120.36889303030303,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.22864,-120.36889",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.22864,-120.36889",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 33,
-          "spots": 33
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3sbp",
-      "name": null,
-      "lat": 38.23328,
-      "lng": -120.36710754385962,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.23328,-120.36711",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.23328,-120.36711",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 57,
-          "spots": 57
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3t14",
-      "name": null,
-      "lat": 38.238403,
-      "lng": -120.363353,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.23840,-120.36335",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.23840,-120.36335",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 60,
-          "spots": 60
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3t1g",
-      "name": null,
-      "lat": 38.243010000000005,
-      "lng": -120.36092366666671,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.24301,-120.36092",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.24301,-120.36092",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 30,
-          "spots": 30
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3t4u",
-      "name": null,
-      "lat": 38.247682125,
-      "lng": -120.35949000000002,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.24768,-120.35949",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.24768,-120.35949",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 80,
-          "spots": 80
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3t7b",
-      "name": null,
-      "lat": 38.25373642857143,
-      "lng": -120.35416035714285,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.25374,-120.35416",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.25374,-120.35416",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 84,
-          "spots": 84
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qf3tkk",
-      "name": null,
-      "lat": 38.25608722222223,
-      "lng": -120.3493161111111,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:38.25609,-120.34932",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,38.25609,-120.34932",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 36,
-          "spots": 36
+        "subject": {
+          "subject": "Nevadacity Woolman",
+          "files": 17,
+          "of": 21
         },
         "discovered": "photo-density"
       }
@@ -81375,6 +81078,11 @@
           "photos": 16,
           "spots": 16
         },
+        "subject": {
+          "subject": "Amador City",
+          "files": 20,
+          "of": 25
+        },
         "discovered": "photo-density"
       }
     },
@@ -81405,6 +81113,11 @@
         "commons": {
           "photos": 18,
           "spots": 18
+        },
+        "subject": {
+          "subject": "Dave Moore Nature Area",
+          "files": 28,
+          "of": 34
         },
         "discovered": "photo-density"
       }
@@ -81437,160 +81150,10 @@
           "photos": 14,
           "spots": 13
         },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qfp4b3",
-      "name": null,
-      "lat": 39.201079580419574,
-      "lng": -120.81406650349649,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:39.20108,-120.81407",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,39.20108,-120.81407",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 143,
-          "spots": 143
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qfp4c4",
-      "name": null,
-      "lat": 39.20583236842105,
-      "lng": -120.81315752631578,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:39.20583,-120.81316",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,39.20583,-120.81316",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 190,
-          "spots": 190
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qfp50g",
-      "name": null,
-      "lat": 39.204655526315804,
-      "lng": -120.80124052631578,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:39.20466,-120.80124",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,39.20466,-120.80124",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 114,
-          "spots": 113
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qfp51f",
-      "name": null,
-      "lat": 39.20985970899471,
-      "lng": -120.80286616402118,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:39.20986,-120.80287",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,39.20986,-120.80287",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 378,
-          "spots": 376
-        },
-        "discovered": "photo-density"
-      }
-    },
-    {
-      "id": "photo_cluster@9qfp54j",
-      "name": null,
-      "lat": 39.210926761904744,
-      "lng": -120.79781228571427,
-      "category": "photo_cluster",
-      "subject_type": [
-        "landscape"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "sources": [
-        {
-          "source": "wikimedia_commons",
-          "source_id": "cluster:39.21093,-120.79781",
-          "source_license": "CC/public-domain media (Commons); derived counts only",
-          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,39.21093,-120.79781",
-          "first_seen": "2026-07-27",
-          "last_seen": "2026-07-27"
-        }
-      ],
-      "tags": {
-        "commons": {
-          "photos": 105,
-          "spots": 101
+        "subject": {
+          "subject": "Placervillenursery Eldorador5",
+          "files": 20,
+          "of": 20
         },
         "discovered": "photo-density"
       }
@@ -81623,6 +81186,11 @@
           "photos": 51,
           "spots": 25
         },
+        "subject": {
+          "subject": "Railroad",
+          "files": 15,
+          "of": 51
+        },
         "discovered": "photo-density"
       }
     },
@@ -81653,6 +81221,11 @@
         "commons": {
           "photos": 62,
           "spots": 33
+        },
+        "subject": {
+          "subject": "South Lake Tahoe",
+          "files": 27,
+          "of": 62
         },
         "discovered": "photo-density"
       }
@@ -81685,6 +81258,11 @@
           "photos": 19,
           "spots": 19
         },
+        "subject": {
+          "subject": "Spooner Lake Panoramio",
+          "files": 27,
+          "of": 27
+        },
         "discovered": "photo-density"
       }
     },
@@ -81715,6 +81293,11 @@
         "commons": {
           "photos": 107,
           "spots": 92
+        },
+        "subject": {
+          "subject": "Sand Harbor Lake Tahoe State Park",
+          "files": 64,
+          "of": 119
         },
         "discovered": "photo-density"
       }
@@ -81747,6 +81330,11 @@
           "photos": 15,
           "spots": 15
         },
+        "subject": {
+          "subject": "Along Truckee River Legacy Trail During",
+          "files": 6,
+          "of": 17
+        },
         "discovered": "photo-density"
       }
     },
@@ -81777,6 +81365,11 @@
         "commons": {
           "photos": 54,
           "spots": 49
+        },
+        "subject": {
+          "subject": "Autumn Foliage Along Brockway Road Truckee",
+          "files": 43,
+          "of": 77
         },
         "discovered": "photo-density"
       }
@@ -81809,6 +81402,11 @@
           "photos": 33,
           "spots": 25
         },
+        "subject": {
+          "subject": "Hyatt Regency Lake Tahoe Resort Spa",
+          "files": 10,
+          "of": 37
+        },
         "discovered": "photo-density"
       }
     },
@@ -81839,6 +81437,11 @@
         "commons": {
           "photos": 19,
           "spots": 14
+        },
+        "subject": {
+          "subject": "Cirsium Occidentale Candidissimum Snowy Thistle",
+          "files": 19,
+          "of": 25
         },
         "discovered": "photo-density"
       }

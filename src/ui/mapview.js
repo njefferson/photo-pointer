@@ -327,7 +327,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         (spotFilter ? (spotFilter.has(rec.id) || rec.category === 'user_pin') : visible.has(rec.category));
       const inView = catOk && b.contains([rec.lat, rec.lng]);
       if (inView) cands.push(rec);
-      else if (rec.mounted) { rec.marker.remove(); rec.mounted = false; }
+      else if (rec.mounted) { rec.marker?.remove(); rec.mounted = false; }
     }
     // 2) Declutter: keep the best pin per screen-grid cell. The grid is in PIXELS,
     //    so zoomed out a cell covers lots of ground (few pins) and zoomed in each
@@ -352,8 +352,8 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       const key = keyOf.get(rec);
       const keep = rec.category === 'user_pin' || rec.id === forcedId || !taken.has(key);
       if (keep && key) taken.add(key);
-      if (keep && !rec.mounted) { rec.marker.addTo(map); rec.mounted = true; }
-      else if (!keep && rec.mounted) { rec.marker.remove(); rec.mounted = false; }
+      if (keep && !rec.mounted) { ensureMarker(rec).addTo(map); rec.mounted = true; }
+      else if (!keep && rec.mounted) { rec.marker?.remove(); rec.mounted = false; }
       if (keep) {
         const cnt = key ? cellCount.get(key) : 1;
         setClusterState(rec, cnt);
@@ -367,7 +367,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // circle showing the count; otherwise restore the category pin. The number
   // carries the meaning (not colour), and the marker announces the count.
   function setClusterState(rec, total) {
-    const pin = rec.marker._icon?.querySelector?.('.pin');
+    const pin = rec.marker?._icon?.querySelector?.('.pin');
     if (!pin) return;
     if (total > 1) {
       pin.classList.add('is-cluster');
@@ -387,12 +387,13 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // top place's card so the tap still does something.
   function zoomToCluster(rec) {
     const members = rec.clusterMembers || [];
-    if (members.length < 2) { rememberViewForPopup(); sizePopup(rec.marker); rec.marker.openPopup(); return; }
+    if (members.length < 2) { rememberViewForPopup(); const m = ensureMarker(rec); sizePopup(m); m.openPopup(); return; }
     const bounds = L.latLngBounds(members.map((m) => [m.lat, m.lng]));
     if (map.getBoundsZoom(bounds, false, L.point(50, 50)) <= map.getZoom()) {
       rememberViewForPopup();
-      sizePopup(rec.marker);
-      rec.marker.openPopup();
+      const m = ensureMarker(rec);
+      sizePopup(m);
+      m.openPopup();
       return;
     }
     map.fitBounds(bounds, { padding: [50, 50], animate: true });
@@ -456,7 +457,8 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       }
     }, 0);
   });
-  let synthesisFor = () => null; // set by setSynthesis; id -> {score, parts}
+  let synthesisFor = () => null; // set by setSynthesis; id -> {score, parts|keys}
+  let breakdownFor = null;       // set by setSynthesis; spot -> {score, parts}
 
   // "Light today" — the question the app is named for, computed on-device for
   // this spot and this date. A row per window; each carries a text label (not
@@ -831,8 +833,70 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       return `${c.photos}${cap} freely-licensed photos taken near here.`;
     }
     const n = c.spots ?? c.photos;
+    const subj = spot.tags?.subject;
+    // What people TITLED their own photographs, where enough of them agree. Said
+    // as the observation it is — the phrase is evidence, not a name we are
+    // claiming for the place, because a recurring phrase can be a photographer's
+    // habit as easily as a landmark.
+    const of = subj
+      ? ` Most are titled something like “${subj.subject}” (${subj.files} of ${subj.of}).`
+      : '';
     return `Nothing we know of is listed here, but cameras have been set down in `
-      + `${n} different places within a few hundred metres — ${c.photos}${cap} photographs in all.`;
+      + `${n} different places within a few hundred metres — ${c.photos}${cap} photographs in all.${of}`;
+  }
+
+  // BEHIND A TAP, NEVER AUTOMATIC. Nobody should spend bandwidth on a card they
+  // only glanced at — and, more importantly, Commons is not curated for this
+  // app. A geosearch near a pin returns whatever anyone geotagged there and we
+  // cannot preview it, so nothing arrives unbidden.
+  function thumbsSection(spot) {
+    const wrap = el('div', { class: 'popup-thumbs' });
+    const btn = el('button', {
+      class: 'popup-linkbtn',
+      onClick: async () => {
+        btn.disabled = true;
+        btn.textContent = 'Loading photographs…';
+        const { thumbsNear } = await import('../model/commons-thumbs.js');
+        const shots = await thumbsNear(spot.lat, spot.lng).catch(() => []);
+        btn.remove();
+        if (!shots.length) {
+          wrap.append(el('p', { class: 'popup-linktext' },
+            'Could not load the photographs — you may be offline. The link below still works.'));
+          return;
+        }
+        wrap.append(el('div', { class: 'thumb-grid' }, shots.map(thumbTile)));
+      },
+    }, 'Show the photographs');
+    wrap.append(btn);
+    return wrap;
+  }
+
+  // EVERY TILE CARRIES ITS ATTRIBUTION. Most of Commons is CC-BY or CC-BY-SA,
+  // which require the author and licence to be shown WITH the image — so this is
+  // the condition of using it at all, not a caption. The author string arrives
+  // as HTML written by an uploader and is reduced to plain text upstream; it is
+  // set here as TEXT, never as markup.
+  function thumbTile(shot) {
+    return el('a', {
+      class: 'thumb-tile',
+      href: shot.page,
+      target: '_blank',
+      rel: 'noopener',
+      // The whole tile links to the file's own page, which carries the full
+      // licence and author — where an attribution link is supposed to point.
+      'aria-label': `${shot.title} — by ${shot.author}, ${shot.licence}. Opens on Wikimedia Commons.`,
+    }, [
+      el('img', {
+        class: 'thumb-img',
+        src: shot.thumb,
+        alt: shot.title,
+        loading: 'lazy',
+        decoding: 'async',
+        width: shot.width ?? undefined,
+        height: shot.height ?? undefined,
+      }),
+      el('span', { class: 'thumb-credit' }, `${shot.author} · ${shot.licence}`),
+    ]);
   }
 
   function commonsNearUrl(spot) {
@@ -919,6 +983,11 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       spot.tags?.commons?.photos
         ? el('div', { class: 'popup-linkrow' }, [
             el('p', { class: 'popup-linktext' }, photoLine(spot)),
+            // Only a DISCOVERED place gets thumbnails in the card: there the
+            // photographs are the reason it is on the map, and we have no name
+            // to offer instead. Everywhere else a photo is incidental and the
+            // link out is the honest weight.
+            spot.tags?.discovered === 'photo-density' ? thumbsSection(spot) : null,
             el('a', { class: 'popup-linkbtn', href: commonsNearUrl(spot), target: '_blank', rel: 'noopener' }, 'View the photos on Commons →'),
           ])
         : null,
@@ -932,7 +1001,11 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       spot.notes ? el('p', {}, spot.notes) : null,
       noteSection(spot),
       osmEditLink(spot),
-      synthesisBreakdown(synthesisFor(spot.id)),
+      synthesisBreakdown((() => {
+        const r = synthesisFor(spot.id);
+        if (!r) return null;
+        return r.parts ? r : { ...r, ...(breakdownFor?.(spot) ?? { parts: [] }) };
+      })()),
       // The astro/weather readout is long — collapse it so the card is short and
       // opens at the top (no manual scroll-up). Tap to expand when planning.
       el('details', { class: 'popup-more' }, [
@@ -1016,7 +1089,19 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
 
   // Build one marker record (heavy: an L.marker + bound popup). Kept out of
   // setSpots so we only pay it for spots that are actually new.
-  function createMarkerRec(spot) {
+  // A record is CHEAP; its Leaflet marker is not. Yellowstone has 3,930 spots
+  // and the viewport ever shows a couple of hundred, so building every marker up
+  // front cost roughly 900 ms of frozen UI on a region switch — most of the 1.3 s
+  // Noah feels, and it gets worse every time a region grows. The marker is now
+  // built the first time the pin is actually mounted, and never for a spot the
+  // reader does not look at.
+  function ensureMarker(rec) {
+    if (rec.marker) return rec.marker;
+    rec.marker = buildMarker(rec.spot);
+    return rec.marker;
+  }
+
+  function buildMarker(spot) {
     const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot.category, !!spot.tags?.commons?.photos) })
       .bindPopup(() => popupFor(spot), {
         // Real values are set per-open by sizePopup() — these are only a sane
@@ -1043,10 +1128,15 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     marker.__spotId = spot.id; // lets popupopen protect this exact pin (see below)
     marker.on('click', activate);
     marker.on('keypress', (e) => { if (e.originalEvent?.keyCode === 13) activate(); });
+    return marker;
+  }
+
+  function createMarkerRec(spot) {
     const cm = CATEGORY_META[spot.category] ?? { label: spot.category, letter: '?' };
     // id is needed for the score-based declutter (scoreOf reads it) and to
-    // hold a deliberately-focused spot unclustered.
-    return { id: spot.id, marker, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false, letter: cm.letter, label: cm.label };
+    // hold a deliberately-focused spot unclustered. `marker` stays null until
+    // this pin is first mounted.
+    return { id: spot.id, spot, marker: null, category: spot.category, lat: spot.lat, lng: spot.lng, mounted: false, letter: cm.letter, label: cm.label };
   }
 
   // INCREMENTAL: keep the markers for spots that are still present, drop the ones
@@ -1056,7 +1146,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   function setSpots(spots) {
     const next = new Set(spots.map((s) => s.id));
     for (const [id, rec] of markerById) {
-      if (!next.has(id)) { if (rec.mounted) rec.marker.remove(); markerById.delete(id); }
+      if (!next.has(id)) { if (rec.mounted) rec.marker?.remove(); markerById.delete(id); }
     }
     for (const spot of spots) {
       if (!markerById.has(spot.id)) markerById.set(spot.id, createMarkerRec(spot));
@@ -1092,8 +1182,13 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     }).observe(container);
   }
 
-  function setSynthesis(byId) {
+  // `byId` gives the score and which signals contributed — enough for the
+  // declutter and the filters. `breakdown` fills in the labels and notes for the
+  // one spot whose card is open, because a restored cache does not carry them
+  // (storing them for every spot was a 1.37 MB write on every region switch).
+  function setSynthesis(byId, breakdown) {
     synthesisFor = (id) => byId.get(id) ?? null;
+    breakdownFor = breakdown ?? null;
   }
 
   // Fly to a spot and open its popup (from the Top-spots panel). Force-mounts it
@@ -1112,9 +1207,10 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
       cull(); // forcedId keeps this pin mounted and its category-letter (unclustered)
       const r = markerById.get(spot.id);
       if (r) {
-        if (!r.mounted) { r.marker.addTo(map); r.mounted = true; }
-        sizePopup(r.marker);
-        r.marker.openPopup();
+        const m = ensureMarker(r);
+        if (!r.mounted) { m.addTo(map); r.mounted = true; }
+        sizePopup(m);
+        m.openPopup();
       }
     };
     // setView fires moveend when the view actually changes; reveal there. If the
