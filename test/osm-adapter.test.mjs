@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES, fetchOverpass, OVERPASS_MAX_ATTEMPTS, GIVE_UP_AFTER, TILE_SERVER_TIMEOUT_S, freshTiles, tileKey } from '../ingest/adapters/osm-overpass.mjs';
-import { decide, fingerprint, MAX_ATTEMPTS } from '../scripts/osm-schedule.mjs';
+import { decide, fingerprint, statusLine, MAX_ATTEMPTS } from '../scripts/osm-schedule.mjs';
 import { validateSpot } from '../src/model/spot.js';
 import { makeSpot } from '../src/model/spot.js';
 
@@ -259,4 +259,18 @@ test('the fingerprint notices the things that change the answer', () => {
   assert.notEqual(fingerprint(base), fingerprint(base, TAG_RULES.slice(0, 3)),
     'and so is asking for fewer kinds of place');
   assert.equal(fingerprint(base), fingerprint(base), 'but the same question is stable');
+});
+
+test('the run says where it got to, in words, without anyone reading a log', () => {
+  assert.match(
+    statusLine({ state: { completedAt: '2026-07-28T02:00:00Z' }, cachedTiles: 28, totalTiles: 28, spots: 3480 }),
+    /^complete — 28 of 28 map tiles, 3,480 places$/);
+
+  const partial = statusLine({ state: { attempts: 1 }, cachedTiles: 19, totalTiles: 28, spots: 2799 });
+  assert.match(partial, /unfinished — 19 of 28 map tiles answered/);
+  assert.match(partial, /carry on tomorrow night/,
+    'an unfinished night is the design, not a failure — the sentence has to say so');
+
+  assert.match(statusLine({ state: null, cachedTiles: 0, totalTiles: 28, spots: 2799 }),
+    /^no tiles answered yet/, 'a night that got nothing must not read as progress');
 });

@@ -89,6 +89,19 @@ jobs:
         if: success() && (steps.gate.outputs.action == 'run' || steps.gate.outputs.action == 'refresh')
         run: node scripts/osm-schedule.mjs done "$REGION"
 
+      # Say what happened, in one sentence, somewhere a person will actually see
+      # it. A sweep that spans several nights is worthless as a record if the
+      # only way to learn its outcome is to open a job transcript — so the
+      # outcome goes in the run's summary page AND in the commit subject, and
+      # both are read from committed files rather than from this job's memory.
+      - name: Where it got to
+        id: status
+        if: always() && (steps.gate.outputs.action == 'run' || steps.gate.outputs.action == 'refresh')
+        run: |
+          line="$(node scripts/osm-schedule.mjs status "$REGION")"
+          echo "status=$line" >> "$GITHUB_OUTPUT"
+          echo "**$REGION** — $line" >> "$GITHUB_STEP_SUMMARY"
+
       # Commit whether it finished or not: the attempt count and the tiles that
       # DID answer both need to survive, or the next night re-asks for work
       # Overpass has already done.
@@ -99,5 +112,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/ ingest/inputs/
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "Overnight OpenStreetMap sweep for $REGION" -m "Runs in Europe's quiet hours and asks only for the map tiles it does not already have. Stops on its own once the area is complete."
+          git commit -m "Overnight map sweep for $REGION: ${{ steps.status.outputs.status }}" -m "Runs in Europe's quiet hours and asks only for the map tiles it does not already have. Stops on its own once the area is complete."
           for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

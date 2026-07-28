@@ -76,6 +76,34 @@ function stateFile(regionId) {
   return path.join(ROOT, 'ingest', 'inputs', `${regionId}-osm-schedule.json`);
 }
 
+// WHY THIS EXISTS: so the run says what happened without anyone reading a log.
+// The sweep spans nights, and the person who wants to know whether it finished
+// should not have to open a job transcript to find out — the commit subject and
+// the run's summary page should just say it. Everything here is read from
+// committed files, so it is as true tomorrow as it was at the moment it ran.
+export function statusLine({ state, cachedTiles, totalTiles, spots }) {
+  const tiles = `${cachedTiles} of ${totalTiles} map tiles`;
+  const places = spots == null ? '' : `, ${spots.toLocaleString('en-US')} places`;
+  if (state?.completedAt) return `complete — ${tiles}${places}`;
+  if (!cachedTiles) return `no tiles answered yet${places}`;
+  return `unfinished — ${tiles} answered${places}; it will carry on tomorrow night`;
+}
+
+async function readJson(file) {
+  try { return JSON.parse(await readFile(file, 'utf8')); } catch { return null; }
+}
+
+async function status(region) {
+  const cache = await readJson(path.join(ROOT, 'ingest', 'inputs', `${region.id}-osm-tiles.json`));
+  const data = await readJson(path.join(ROOT, 'data', 'regions', `${region.id}.json`));
+  return statusLine({
+    state: await readState(region.id),
+    cachedTiles: Object.keys(cache?.tiles ?? {}).length,
+    totalTiles: bboxTiles(region.bbox).length,
+    spots: data?.spots?.length ?? null,
+  });
+}
+
 async function readState(regionId) {
   try { return JSON.parse(await readFile(stateFile(regionId), 'utf8')); } catch { return null; }
 }
@@ -87,7 +115,8 @@ async function writeState(regionId, state) {
 
 // CLI: `decide <region>` prints the action (the workflow gates on it);
 //      `attempt <region>` records that tonight tried;
-//      `done <region>` records that it finished.
+//      `done <region>` records that it finished;
+//      `status <region>` prints one plain sentence about where it has got to.
 const [cmd, regionId] = process.argv.slice(2);
 if (cmd) {
   const doc = JSON.parse(await readFile(path.join(ROOT, 'config', 'regions.json'), 'utf8'));
@@ -118,8 +147,10 @@ if (cmd) {
       completedAt: new Date().toISOString(),
     });
     console.log(`osm-schedule: ${region.id} recorded complete`);
+  } else if (cmd === 'status') {
+    console.log(await status(region));
   } else {
-    console.error('usage: osm-schedule.mjs <decide|attempt|done> <region>');
+    console.error('usage: osm-schedule.mjs <decide|attempt|done|status> <region>');
     process.exit(1);
   }
 }
