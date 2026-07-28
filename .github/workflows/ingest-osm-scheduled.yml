@@ -5,12 +5,18 @@ name: Ingest OSM (scheduled, quiet hours)
 # low traffic hours in a respectful way until complete, without just running that
 # forever blindly").
 #
-# WHY 03:23 UTC. Overpass's main public instance is in Germany and the OSM
-# community's usage follows European daytime, so 03:23 UTC is 05:23 in Berlin —
-# genuinely quiet — while still being 20:23 on the US west coast. There is no
-# hour that is quiet everywhere; this targets the instance that actually carries
-# the load. The :23 is deliberate: cron entries pile up on the hour, so firing
-# off the hour avoids joining everyone else's stampede.
+# WHY 01:23 UTC — THEIR quiet hours, not ours. All three public Overpass mirrors
+# are Central European (overpass-api.de in Germany; kumi.systems and
+# private.coffee in Austria), so there is exactly one timezone worth aiming at.
+# Cron is fixed UTC while their clocks shift, so the time has to sit inside the
+# overnight trough in BOTH seasons:
+#     01:23 UTC  =  03:23 CEST (summer)  /  02:23 CET (winter)
+# An earlier version used 03:23 UTC, which is 05:23 CEST — the tail of the quiet
+# window, right as Europe starts waking. This sits in the middle of it instead.
+# It happens to be 18:23 in Sacramento, which is neither here nor there: the
+# point is when THEIR servers are idle, not when we are asleep.
+# The :23 is deliberate too — cron entries pile up on the hour, and joining that
+# stampede is the opposite of quiet.
 #
 # HOW IT STOPS. Every firing asks scripts/osm-schedule.mjs first, which answers
 # from committed state:
@@ -22,7 +28,7 @@ name: Ingest OSM (scheduled, quiet hours)
 
 on:
   schedule:
-    - cron: '23 3 * * *'
+    - cron: '23 1 * * *'
   workflow_dispatch:
     inputs:
       region:
