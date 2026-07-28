@@ -118,6 +118,34 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## document — the stack contract (build/deploy/vendor conventions).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-28 1.20.3 "Two last places that ignored your text size" (an ITERATION)
+  BUILT on staging, UNPROMOTED — and note WHY it stayed there while three sibling
+  apps shipped the same day. Noah said "Merge all"; for Frame / Clear Horizons /
+  Studio that meant main, but THIS repo's staging carries the unpromoted 1.20.0
+  candidate INCLUDING an unfinished overnight map sweep ("24 of 28 map tiles
+  answered… it will carry on tomorrow night"). Promoting the accessibility work
+  would have dragged 1.20.1/1.20.2/1.20.0 + partial data into production, so it
+  went to staging and the promote decision was handed back to him. THE GENERAL
+  RULE: when a fix is based on staging, "merge it" cannot mean main until staging
+  itself is promotable — check what else rides along before fast-forwarding.
+  WHAT 1.20.3 IS: 1.20.2 (a PARALLEL SESSION's px→rem conversion, commit aa8604a)
+  missed two px `line-height`s — `.leaflet-popup-close-button` (font 1.375rem in a
+  pinned 26px line box) and `.popup-linkbtn` (0.8125rem in a 20px box). A scaling
+  font inside a fixed line box presses text against its own button edge at large
+  text sizes. Both → rem.
+  1.20.2's WORK WAS INDEPENDENTLY RE-VERIFIED here rather than assumed, by
+  swapping origin/main's px stylesheet under the SAME staging JS: old CSS failed
+  to scale (349/487 elements), the rem CSS was pixel-identical at a 16px default
+  (0 mismatches) and scaled exactly 1.25× at a 20px default (0 mismatches). So
+  1.20.2 is SOUND — only the two line-heights were missing.
+  ALSO CONFIRMED (do not re-do): the Leaflet +/− controls were already handled
+  correctly by 1.20.2 via an override in OUR stylesheet (`.leaflet-touch .leaflet-bar
+  a.leaflet-control-zoom-in` etc., doubled class to beat 0,3,1) — src/vendor/
+  leaflet.css is UNTOUCHED so a future Leaflet update drops in cleanly. That exact
+  pattern was copied to Clear Horizons the same day. MEASURED: 22px at default,
+  27.5px at a 20px default.
+  sw CACHE pointer-1.20.3; changelog[0] 1.20.3. 263 tests + contrast + etiquette +
+  smoke-cardfits (passes at 200% text) + smoke-thumbs + smoke-notes green.
 - 2026-07-27 1.19.0 → 1.20.0 BUILT on staging, unpromoted. Noah: "add those and
   right-size the app and what it does and how it does it… region tabs load very
   slowly… earlier conventions may no longer be valid."
