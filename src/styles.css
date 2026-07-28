@@ -87,7 +87,7 @@ body {
   overscroll-behavior: contain;
 }
 
-.bar h1 { font-size: 17px; margin: 0; flex: 1 1 auto; }
+.bar h1 { font-size: 1.0625rem; margin: 0; flex: 1 1 auto; }
 
 /* Region switcher (Frame-style pills). Active reads by weight + fill + accent
    underline, never hue alone. Single scrolling row so 7 regions don't stack
@@ -96,7 +96,7 @@ body {
 .region-pill { flex: 0 0 auto; }
 .region-pill {
   font: inherit;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   color: var(--ink);
   background: transparent;
@@ -129,15 +129,15 @@ body {
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
   background: var(--bg); color: var(--ink); text-align: center; padding: 24px;
 }
-.app-loading-title { font-size: 17px; font-weight: 650; }
-.app-loading-sub { font-size: 13px; color: var(--dim); }
+.app-loading-title { font-size: 1.0625rem; font-weight: 650; }
+.app-loading-sub { font-size: 0.8125rem; color: var(--dim); }
 
 .bar-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 
 /* The "Filters" disclosure — collapses the many category + layer chips so they
    don't eat half a phone screen. Reads as a labeled button; "on" when expanded.
    The count (active filters) is part of the label, not a colour-only badge. */
-.filters-toggle { font-size: 13px; font-weight: 650; padding: 6px 12px; min-height: 34px; white-space: nowrap; }
+.filters-toggle { font-size: 0.8125rem; font-weight: 650; padding: 6px 12px; min-height: 34px; white-space: nowrap; }
 .filters-toggle.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 /* The expanded panel holds two clearly-separated groups: the pin-type chips and
    the "must have" layer chips, each under its own heading, full width. */
@@ -153,7 +153,7 @@ body {
   max-height: 42vh; overflow-y: auto; overscroll-behavior: contain;
 }
 .filter-group { display: flex; flex-direction: column; gap: 5px; width: 100%; }
-.filter-group-label { font-size: 12px; font-weight: 600; color: var(--dim); }
+.filter-group-label { font-size: 0.75rem; font-weight: 600; color: var(--dim); }
 
 /* Global name search — a full-width field under the region row. Text is --ink on
    --card (the gated body pair); the search-row is the visible control surface. */
@@ -162,15 +162,15 @@ body {
   background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 3px 8px;
 }
 .search-row:focus-within { border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
-.search-icon { font-size: 13px; opacity: 0.7; }
+.search-icon { font-size: 0.8125rem; opacity: 0.7; }
 .search-input {
-  flex: 1 1 auto; min-width: 0; font: inherit; font-size: 14px;
+  flex: 1 1 auto; min-width: 0; font: inherit; font-size: 0.875rem;
   color: var(--ink); background: transparent; border: 0; padding: 5px 2px;
 }
 .search-input::placeholder { color: var(--dim); }
 .search-input:focus { outline: none; }
 .search-clear {
-  font: inherit; font-size: 18px; line-height: 1; color: var(--dim);
+  font: inherit; font-size: 1.125rem; line-height: 1; color: var(--dim);
   background: transparent; border: 0; cursor: pointer; padding: 0 4px; min-height: 30px;
 }
 
@@ -179,19 +179,19 @@ body {
 /* With ~25 pin types, the chips are sub-grouped by theme so the panel stays
    scannable. The sub-label is quieter than the group heading above it. */
 .chip-subgroup { display: flex; flex-direction: column; gap: 4px; width: 100%; margin-top: 2px; }
-.chip-subgroup-label { font-size: 11px; font-weight: 600; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
+.chip-subgroup-label { font-size: 0.6875rem; font-weight: 600; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
 
 /* Data-layer filters are simple on/off "must have", the SAME look as the
    pin-type chips (the standard filter-chip pattern). */
 .layer-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; width: 100%; }
-.layer-hint { font-size: 11px; color: var(--dim); }
+.layer-hint { font-size: 0.6875rem; color: var(--dim); }
 /* The trailing ✓ that marks a selected chip (a shape cue on top of the fill, so
    the on-state survives grayscale — never colour alone). */
 .chip-check { font-weight: 700; margin-left: 5px; }
 
 .chip {
   font: inherit;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--ink);
   background: var(--card);
   border: 1px solid var(--line);
@@ -227,7 +227,7 @@ body {
   width: 100%;
   margin: 2px 0 0;
   padding: 6px 10px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--ink);
   background: var(--card);
   border: 1px solid var(--line);
@@ -239,7 +239,7 @@ body {
 .map-center-btn {
   width: 34px;
   height: 34px;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1;
   color: var(--ink);
   background: var(--card);
@@ -255,7 +255,7 @@ body {
    letter/number glyph, so it survives grayscale; colour only reinforces. */
 .map-legend { margin: 0 0 6px 6px; }
 .legend-toggle {
-  font: inherit; font-size: 13px; font-weight: 650; line-height: 1;
+  font: inherit; font-size: 0.8125rem; font-weight: 650; line-height: 1;
   color: var(--ink); background: var(--card);
   border: 1px solid var(--line); border-radius: 8px;
   padding: 7px 11px; min-height: 34px; cursor: pointer;
@@ -269,12 +269,12 @@ body {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 .legend-row { display: flex; align-items: center; gap: 8px; padding: 2px 0; }
-.legend-label { font-size: 12px; line-height: 1.3; }
+.legend-label { font-size: 0.75rem; line-height: 1.3; }
 .legend-sep { border-top: 1px solid var(--line); margin: 6px 0; height: 0; }
-.legend-hint { margin: 8px 0 0; font-size: 11px; color: var(--dim); line-height: 1.35; }
+.legend-hint { margin: 8px 0 0; font-size: 0.6875rem; color: var(--dim); line-height: 1.35; }
 /* Indicator swatches keep their box-shadow ring (unlike .pin-inline), so the
    gold "photos" ring and the neutral cluster circle actually show at legend size. */
-.pin.legend-swatch { width: 18px; height: 18px; font-size: 10px; flex: none; }
+.pin.legend-swatch { width: 18px; height: 18px; font-size: 0.625rem; flex: none; }
 
 /* "Map filtered to N top spots" banner — a standing indicator with an obvious
    exit, shown while a Top-spots layer filter narrows the map. Overlays the top
@@ -284,13 +284,13 @@ body {
   z-index: 1000; display: flex; align-items: center; gap: 10px;
   max-width: calc(100% - 24px);
   padding: 6px 8px 6px 12px;
-  font-size: 13px; color: var(--ink); background: var(--card);
+  font-size: 0.8125rem; color: var(--ink); background: var(--card);
   border: 1px solid color-mix(in srgb, var(--ink) 45%, var(--line)); border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 .mfb-text { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .map-filter-clear {
-  font: inherit; font-size: 13px; font-weight: 650; white-space: nowrap;
+  font: inherit; font-size: 0.8125rem; font-weight: 650; white-space: nowrap;
   color: var(--bg); background: var(--ink);
   border: none; border-radius: 14px; padding: 5px 12px; min-height: 32px; cursor: pointer;
 }
@@ -312,7 +312,7 @@ body {
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3 3 8l9 5 9-5-9-5z'/%3E%3Cpath d='M3 13l9 5 9-5'/%3E%3Cpath d='M3 17l9 5 9-5'/%3E%3C/svg%3E") center / 20px 20px no-repeat;
 }
 .leaflet-control-layers-expanded { color: var(--ink); padding: 8px 10px 8px 8px; }
-.leaflet-control-layers-list { font-size: 13px; }
+.leaflet-control-layers-list { font-size: 0.8125rem; }
 
 .theme-toggle, .data-btn {
   font: inherit;
@@ -328,7 +328,7 @@ body {
 
 /* Uniform compact icon buttons in the header actions (Top spots / Backup / ⓘ /
    theme), so the row reads as a tidy set of icons rather than mixed labels. */
-.icon-btn { min-width: 44px; padding: 6px 8px; font-size: 17px; line-height: 1; text-align: center; }
+.icon-btn { min-width: 44px; padding: 6px 8px; font-size: 1.0625rem; line-height: 1; text-align: center; }
 
 /* Discrete version stamp — always on screen for screenshot debugging. A solid
    card chip so --dim on --card keeps ≥4.5:1 whatever's underneath (a11y). */
@@ -340,7 +340,7 @@ body {
    covers; the old rule put --dim on --card, which nothing gated. */
 .ver-tag {
   margin-left: auto; align-self: center; white-space: nowrap;
-  font-family: ui-monospace, monospace; font-size: 12px; letter-spacing: 0.02em;
+  font-family: ui-monospace, monospace; font-size: 0.75rem; letter-spacing: 0.02em;
   color: var(--dim);
 }
 
@@ -363,29 +363,29 @@ body {
 .leaflet-popup-content { margin: 12px 14px; }
 .leaflet-popup-close-button {
   width: 30px !important; height: 30px !important;
-  font-size: 22px !important; line-height: 26px !important;
+  font-size: 1.375rem !important; line-height: 26px !important;
   padding: 2px 4px 0 0 !important;
 }
 .popup-head { padding-right: 20px; } /* clear the × close */
 
 /* Map / List view toggle (in the header). Active tab inverts (fill), not hue. */
 .view-toggle { display: inline-flex; flex-shrink: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
-.vt-btn { font: inherit; font-size: 13px; padding: 6px 14px; min-height: 34px; min-width: 48px; text-align: center; white-space: nowrap; background: var(--card); color: var(--ink); border: none; cursor: pointer; }
+.vt-btn { font: inherit; font-size: 0.8125rem; padding: 6px 14px; min-height: 34px; min-width: 48px; text-align: center; white-space: nowrap; background: var(--card); color: var(--ink); border: none; cursor: pointer; }
 .vt-btn + .vt-btn { border-left: 1px solid var(--line); }
 .vt-btn.on { background: var(--ink); color: var(--bg); font-weight: 650; }
 
 /* List view: the text counterpart to the map. */
 .list-root { flex: 1; min-height: 0; overflow-y: auto; background: var(--bg); padding: 10px 12px 24px; }
 .list-controls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; position: sticky; top: 0; background: var(--bg); padding-bottom: 8px; z-index: 1; }
-.list-sortlabel { font-size: 13px; color: var(--dim); }
+.list-sortlabel { font-size: 0.8125rem; color: var(--dim); }
 .list-sort, .list-favonly {
-  font: inherit; font-size: 13px; padding: 5px 10px; min-height: 32px;
+  font: inherit; font-size: 0.8125rem; padding: 5px 10px; min-height: 32px;
   background: var(--card); color: var(--ink); border: 1px solid var(--line);
   border-radius: 14px; cursor: pointer;
 }
 .list-sort.on, .list-favonly.on { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 55%, var(--line)); }
 .list-favonly.on { color: var(--accent); }
-.list-note { font-size: 12px; color: var(--dim); margin: 4px 0 8px; }
+.list-note { font-size: 0.75rem; color: var(--dim); margin: 4px 0 8px; }
 .list-rows { display: flex; flex-direction: column; }
 .list-row { display: grid; grid-template-columns: auto 1fr auto auto auto; align-items: center; gap: 8px; padding: 9px 6px; border-bottom: 1px solid var(--line); }
 /* The photo-score badge on each row (number + strength word), shared look with
@@ -393,24 +393,24 @@ body {
 .list-score { display: flex; flex-direction: column; align-items: center; line-height: 1.05; flex: none; }
 .list-row-main { min-width: 0; }
 .list-name {
-  display: block; font: inherit; font-size: 15px; font-weight: 600; color: var(--ink);
+  display: block; font: inherit; font-size: 0.9375rem; font-weight: 600; color: var(--ink);
   background: none; border: none; padding: 0; text-align: left; cursor: pointer;
 }
 .list-name:hover { text-decoration: underline; }
-.list-meta { font-size: 12px; color: var(--dim); margin-top: 2px; }
-.list-star { font-size: 20px; line-height: 1; width: 40px; min-height: 40px; background: none; border: none; color: var(--dim); cursor: pointer; }
+.list-meta { font-size: 0.75rem; color: var(--dim); margin-top: 2px; }
+.list-star { font-size: 1.25rem; line-height: 1; width: 40px; min-height: 40px; background: none; border: none; color: var(--dim); cursor: pointer; }
 .list-star.on { color: var(--accent); }
 /* Quiet ✕ to hide/block a place; a hair smaller than the star so it doesn't
    compete. Colour reinforces; the ✕ glyph is the affordance. */
-.list-hide { font-size: 15px; line-height: 1; width: 34px; min-height: 40px; background: none; border: none; color: var(--dim); cursor: pointer; }
+.list-hide { font-size: 0.9375rem; line-height: 1; width: 34px; min-height: 40px; background: none; border: none; color: var(--dim); cursor: pointer; }
 .list-hide:hover, .list-hide:focus-visible { color: var(--ink); }
-.list-empty { font-size: 14px; color: var(--dim); padding: 20px 4px; }
+.list-empty { font-size: 0.875rem; color: var(--dim); padding: 20px 4px; }
 
 /* Favorite toggle in a spot popup — text label carries the state, star reinforces. */
 .popup-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
 .popup-head h3 { margin: 0; }
 .popup-fav {
-  font: inherit; font-size: 13px; font-weight: 600; white-space: nowrap;
+  font: inherit; font-size: 0.8125rem; font-weight: 600; white-space: nowrap;
   padding: 4px 8px; min-height: 32px; background: var(--bg); color: var(--ink);
   border: 1px solid var(--line); border-radius: 8px; cursor: pointer;
 }
@@ -429,7 +429,7 @@ body {
   border: 2px solid #ffffff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
   color: var(--pin-ink);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -445,10 +445,10 @@ body {
   background: #55504a;
   color: #ffffff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
-.pin-inline { width: 18px; height: 18px; font-size: 10px; border-width: 1px; box-shadow: none; }
+.pin-inline { width: 18px; height: 18px; font-size: 0.625rem; border-width: 1px; box-shadow: none; }
 
 .pin-viewpoint { background: var(--cat-viewpoint); }
 .pin-marker { background: var(--cat-marker); }
@@ -477,39 +477,39 @@ body {
 .pin-photo_cluster { background: var(--cat-photo_cluster); }
 .pin-user_pin { background: var(--cat-user_pin); }
 
-.popup-event { margin: 4px 0; font-size: 13px; }
+.popup-event { margin: 4px 0; font-size: 0.8125rem; }
 
 /* "What we can tell you" — shown only on a card whose SOURCE is bare, so the
    space carries computed facts (sky, horizon, sun) instead of nothing.
    --dim and --ink on --card are the gated pairs. */
 .popup-glance { margin: 6px 0; padding: 5px 8px; background: color-mix(in srgb, var(--ink) 5%, var(--card)); border-radius: 6px; }
-.popup-glance-label { margin: 0 0 1px; font-size: 11px; font-weight: 700; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
-.popup-glance-text { margin: 0; font-size: 13px; }
+.popup-glance-label { margin: 0 0 1px; font-size: 0.6875rem; font-weight: 700; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
+.popup-glance-text { margin: 0; font-size: 0.8125rem; }
 /* The upstream-fix link. Quiet, below the note box. */
-.popup-improve { margin: 6px 0 2px; font-size: 12px; }
+.popup-improve { margin: 6px 0 2px; font-size: 0.75rem; }
 
 /* YOUR OWN NOTE on a place — the one thing no dataset supplies. Set off from the
    sourced facts above it by a rule, so it's never mistaken for open data.
    --ink on --card and --dim on --card are the gated pairs. */
 .popup-note { margin: 8px 0 4px; padding-top: 6px; border-top: 1px solid var(--line); }
-.popup-note-label { margin: 0 0 2px; font-size: 11px; font-weight: 700; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
-.popup-note-text { margin: 0 0 4px; font-size: 13px; white-space: pre-wrap; }
+.popup-note-label { margin: 0 0 2px; font-size: 0.6875rem; font-weight: 700; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
+.popup-note-text { margin: 0 0 4px; font-size: 0.8125rem; white-space: pre-wrap; }
 .popup-note-input {
-  width: 100%; font: inherit; font-size: 13px; color: var(--ink); background: var(--card);
+  width: 100%; font: inherit; font-size: 0.8125rem; color: var(--ink); background: var(--card);
   border: 1px solid var(--line); border-radius: 6px; padding: 5px 6px; resize: vertical;
 }
 .popup-note-actions { display: flex; gap: 6px; margin-top: 4px; }
 .popup-note-btn {
-  font: inherit; font-size: 12px; color: var(--ink); background: var(--card);
+  font: inherit; font-size: 0.75rem; color: var(--ink); background: var(--card);
   border: 1px solid var(--line); border-radius: 12px; padding: 3px 10px; min-height: 28px; cursor: pointer;
 }
 .popup-note-btn.save { font-weight: 650; border-color: color-mix(in srgb, var(--ink) 45%, var(--line)); }
 /* The ✎ marker on a list row that carries your note (shape, not colour). */
-.list-note-mark { font-size: 12px; color: var(--dim); margin-left: 4px; }
+.list-note-mark { font-size: 0.75rem; color: var(--dim); margin-left: 4px; }
 /* Events view honesty note — --dim on --bg is the gated dim-text pair. */
-.list-eventsnote { margin: 6px 0 2px; font-size: 12px; line-height: 1.4; color: var(--dim); }
-.popup h3 { margin: 0 0 4px; font-size: 15px; }
-.popup p { margin: 4px 0; font-size: 13px; }
+.list-eventsnote { margin: 6px 0 2px; font-size: 0.75rem; line-height: 1.4; color: var(--dim); }
+.popup h3 { margin: 0 0 4px; font-size: 0.9375rem; }
+.popup p { margin: 4px 0; font-size: 0.8125rem; }
 .popup-cat { color: #555555; }
 .popup input {
   font: inherit;
@@ -533,36 +533,36 @@ body {
 /* "Light today" table inside a spot popup. Meaning is in the row labels
    (text), never color; sunrise/sunset rows are emphasized by weight. */
 .light-box { margin: 6px 0; }
-.light-box h4 { margin: 6px 0 3px; font-size: 13px; }
-.light-table { border-collapse: collapse; font-size: 12px; color: #2a2a2a; }
+.light-box h4 { margin: 6px 0 3px; font-size: 0.8125rem; }
+.light-table { border-collapse: collapse; font-size: 0.75rem; color: #2a2a2a; }
 .light-table th, .light-table td { text-align: left; padding: 1px 8px 1px 0; font-weight: 400; }
 .light-table th { color: #555555; white-space: nowrap; }
 .light-table tr.light-mark th, .light-table tr.light-mark td { font-weight: 700; color: #1e1e1e; }
 .light-dir { color: #555555; }
-.light-polar { font-size: 12px; margin: 2px 0; }
-.light-horizon { font-size: 11px; margin: 3px 0 0; color: #555555; }
+.light-polar { font-size: 0.75rem; margin: 2px 0; }
+.light-horizon { font-size: 0.6875rem; margin: 3px 0 0; color: #555555; }
 
 /* Historic-marker detail on a popup card: kind, plaque inscription (OSM/ODbL),
    and a clear link to the reference page. Popup-local dark-on-cream. */
 .marker-box { margin: 7px 0; padding: 7px 10px; background: #f7f1e4; border-left: 3px solid #a34a00; border-radius: 4px; }
-.marker-kind { font-size: 12px; font-weight: 700; color: #8a2f2b; margin: 0 0 3px; }
-.marker-inscription { font-size: 12px; font-style: italic; color: #322a1c; margin: 0 0 6px; line-height: 1.36; }
+.marker-kind { font-size: 0.75rem; font-weight: 700; color: #8a2f2b; margin: 0 0 3px; }
+.marker-inscription { font-size: 0.75rem; font-style: italic; color: #322a1c; margin: 0 0 6px; line-height: 1.36; }
 .marker-ref { margin: 0; }
-.marker-ref a { font-size: 13px; font-weight: 700; color: #a34a00; text-decoration: underline; }
+.marker-ref a { font-size: 0.8125rem; font-weight: 700; color: #a34a00; text-decoration: underline; }
 
 /* "Read about this place on Wikipedia" — a link out we build from OSM's own
    wikipedia/wikidata tags (no fetch). Popup-local accent, ~5.9:1 on white. */
 .popup-wiki { margin: 6px 0 0; }
-.popup-wiki a { font-size: 13px; color: #a34a00; text-decoration: underline; }
+.popup-wiki a { font-size: 0.8125rem; color: #a34a00; text-decoration: underline; }
 
 /* "Is there anything worthwhile here?" — a verified-notable badge vs an honest
    caveat for community-tagged markers. Popup-local (fixed light) colors. */
 .popup-notable {
   display: inline-block; margin: 6px 0 2px; padding: 3px 9px;
-  font-size: 13px; font-weight: 700; color: #2f5320;
+  font-size: 0.8125rem; font-weight: 700; color: #2f5320;
   background: #e7f0dd; border: 1px solid #b9cfa6; border-radius: 6px;
 }
-.popup-minor { margin: 6px 0 2px; font-size: 12px; font-style: italic; color: #6d5f49; }
+.popup-minor { margin: 6px 0 2px; font-size: 0.75rem; font-style: italic; color: #6d5f49; }
 
 /* Make source + data links obvious (a kid should see they're tappable).
    NOTE: leaflet.css sets `.leaflet-container a { color:#0078A8 }` (specificity
@@ -576,37 +576,37 @@ body {
    link its own solid button under a plain caption so it can't be missed. White
    on #1663a8 ≈ 5.2:1. Popup-local (Leaflet popups are always light). */
 .popup-linkrow { margin: 6px 0; }
-.popup-linktext { margin: 0 0 4px; font-size: 13px; }
+.popup-linktext { margin: 0 0 4px; font-size: 0.8125rem; }
 .leaflet-container a.popup-linkbtn {
-  display: inline-block; font-size: 13px; font-weight: 700; text-decoration: none;
+  display: inline-block; font-size: 0.8125rem; font-weight: 700; text-decoration: none;
   color: #ffffff; background: #1663a8; padding: 6px 11px; border-radius: 8px;
   min-height: 32px; line-height: 20px;
 }
 .leaflet-container a.popup-linkbtn:hover { background: #12517f; color: #ffffff; }
-.popup-lic { margin: 3px 0 0; font-size: 11px; color: #8a7d64; }
+.popup-lic { margin: 3px 0 0; font-size: 0.6875rem; color: #8a7d64; }
 
 /* Cross-layer "why this spot" inside a popup. Popup-local dark-on-white,
    consistent with .light-table; meaning is in the layer labels, not color. */
 /* Collapsible "Tonight & light" details in the popup — keeps the card short so
    it opens at the top. Fixed dark ink on the light popup card (~15:1). */
 .popup-more { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 4px; }
-.popup-more > summary { cursor: pointer; font-size: 13px; font-weight: 700; color: #1e1e1e; padding: 3px 0; list-style: none; }
+.popup-more > summary { cursor: pointer; font-size: 0.8125rem; font-weight: 700; color: #1e1e1e; padding: 3px 0; list-style: none; }
 .popup-more > summary::-webkit-details-marker { display: none; }
 .popup-more[open] > summary { margin-bottom: 4px; }
 
 .synth-box { margin: 6px 0; border-top: 1px solid #e2ddd0; padding-top: 5px; }
 .synth-head { display: flex; justify-content: space-between; align-items: baseline; }
-.synth-why { font-size: 13px; font-weight: 700; color: #1e1e1e; }
-.synth-score { font-size: 11px; color: #555555; font-variant-numeric: tabular-nums; }
-.synth-parts { list-style: none; margin: 3px 0 0; padding: 0; font-size: 12px; color: #2a2a2a; }
+.synth-why { font-size: 0.8125rem; font-weight: 700; color: #1e1e1e; }
+.synth-score { font-size: 0.6875rem; color: #555555; font-variant-numeric: tabular-nums; }
+.synth-parts { list-style: none; margin: 3px 0 0; padding: 0; font-size: 0.75rem; color: #2a2a2a; }
 .synth-parts li { padding: 1px 0; }
 .synth-part-label { font-weight: 600; }
 .synth-part-note { color: #555555; }
 
 /* Photo-score badge (shared by the list rows). Number reads as the rating, the
    strength word (capitalized) anchors it. Theme-token colours, gated. */
-.score-num { font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent); }
-.score-cap { font-size: 9px; font-weight: 600; color: var(--dim); letter-spacing: 0.02em; text-transform: capitalize; }
+.score-num { font-size: 1rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent); }
+.score-cap { font-size: 0.5625rem; font-weight: 600; color: var(--dim); letter-spacing: 0.02em; text-transform: capitalize; }
 
 /* Dark-sky overlay legend (a Leaflet control). Solid card bg + dark text so
    it reads over any basemap; every Bortle class is labeled in words. */
@@ -616,17 +616,17 @@ body {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 8px 10px;
-  font-size: 11px;
+  font-size: 0.6875rem;
   max-width: 200px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
-.lp-legend-title { font-weight: 700; font-size: 12px; margin-bottom: 4px; }
+.lp-legend-title { font-weight: 700; font-size: 0.75rem; margin-bottom: 4px; }
 .lp-op { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
 .lp-op input { flex: 1; }
 .lp-row { display: flex; align-items: center; gap: 6px; padding: 1px 0; }
 .lp-swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.35); flex: none; }
 .lp-row-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.lp-credit { margin-top: 5px; color: var(--dim); font-size: 10px; }
+.lp-credit { margin-top: 5px; color: var(--dim); font-size: 0.625rem; }
 
 .data-dialog {
   max-width: 480px;
@@ -650,16 +650,16 @@ body {
 .dialog-x, .welcome-x {
   position: sticky; top: -2px; z-index: 3; align-self: flex-end;
   min-width: 40px; min-height: 36px; margin: -6px -6px 2px 0; padding: 2px 8px;
-  font: inherit; font-size: 22px; line-height: 1;
+  font: inherit; font-size: 1.375rem; line-height: 1;
   color: var(--ink); background: var(--card);
   border: 1px solid var(--line); border-radius: 8px; cursor: pointer;
 }
-.data-dialog h2 { font-size: 16px; margin: 0 0 6px; }
-.data-dialog p, .data-dialog li { font-size: 13px; }
+.data-dialog h2 { font-size: 1rem; margin: 0 0 6px; }
+.data-dialog p, .data-dialog li { font-size: 0.8125rem; }
 .data-dialog textarea {
   width: 100%;
   font-family: ui-monospace, monospace;
-  font-size: 12px;
+  font-size: 0.75rem;
   background: var(--bg);
   color: var(--ink);
   border: 1px solid var(--line);
@@ -682,7 +682,7 @@ body {
 /* "Hide this place" — a low-key secondary action in the popup (not a link-out,
    not the primary CTA). --ink on --card, gated. */
 .leaflet-container a.popup-hide, .popup-hide {
-  display: inline-block; margin-top: 8px; font: inherit; font-size: 12px;
+  display: inline-block; margin-top: 8px; font: inherit; font-size: 0.75rem;
   color: var(--ink); background: var(--card); border: 1px solid var(--line);
   border-radius: 8px; padding: 5px 10px; cursor: pointer; text-decoration: none;
 }
@@ -693,7 +693,7 @@ body {
 .hidden-list { list-style: none; margin: 6px 0; padding: 0; display: flex; flex-direction: column; gap: 4px; max-height: 34vh; overflow-y: auto; }
 .hidden-list li { display: flex; align-items: center; gap: 8px; }
 .hidden-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.hidden-unhide { font: inherit; font-size: 12px; color: var(--ink); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
+.hidden-unhide { font: inherit; font-size: 0.75rem; color: var(--ink); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
 
 /* First-open pop-up: "turn on a pin type". Reuses the dialog look; the primary
    button leads with weight + a firmer border (not hue), on the gated ink/bg. */
@@ -706,8 +706,8 @@ body {
   color: var(--ink);
   padding: 18px;
 }
-.tip-dialog h2 { font-size: 17px; margin: 0 0 8px; }
-.tip-dialog p { font-size: 14px; line-height: 1.45; margin: 0 0 4px; }
+.tip-dialog h2 { font-size: 1.0625rem; margin: 0 0 8px; }
+.tip-dialog p { font-size: 0.875rem; line-height: 1.45; margin: 0 0 4px; }
 .tip-dialog button {
   font: inherit;
   color: var(--ink);
@@ -735,9 +735,9 @@ body {
   padding: 20px;
 }
 .welcome-dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
-.welcome-dialog h2 { font-size: 19px; margin: 0 6px 8px 0; }
-.welcome-dialog h3.welcome-sub { font-size: 15px; margin: 16px 0 4px; }
-.welcome-dialog p { font-size: 14px; line-height: 1.45; margin: 0 0 8px; }
+.welcome-dialog h2 { font-size: 1.1875rem; margin: 0 6px 8px 0; }
+.welcome-dialog h3.welcome-sub { font-size: 0.9375rem; margin: 16px 0 4px; }
+.welcome-dialog p { font-size: 0.875rem; line-height: 1.45; margin: 0 0 8px; }
 .welcome-dialog p.dim { color: var(--dim); }
 .welcome-dialog button {
   font: inherit;
@@ -755,23 +755,23 @@ body {
 .update-btn:disabled { opacity: 0.6; cursor: default; }
 
 .install-steps { margin: 4px 0 8px; padding-left: 20px; }
-.install-steps li { font-size: 14px; line-height: 1.5; margin: 0 0 6px; }
+.install-steps li { font-size: 0.875rem; line-height: 1.5; margin: 0 0 6px; }
 .install-done { font-weight: 600; }
 .inline-ico { display: inline-flex; vertical-align: -3px; }
 .welcome-foot { margin-top: 12px; align-items: center; }
-.cl-stamp { font-size: 12px; color: var(--dim); margin-left: auto; }
+.cl-stamp { font-size: 0.75rem; color: var(--dim); margin-left: auto; }
 
 /* Changelog, collapsed behind a disclosure. */
 .changelog { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 10px; }
-.changelog > summary { font-size: 14px; font-weight: 650; cursor: pointer; min-height: 32px; }
+.changelog > summary { font-size: 0.875rem; font-weight: 650; cursor: pointer; min-height: 32px; }
 .changelog-list { list-style: none; margin: 8px 0 0; padding: 0; max-height: 240px; overflow-y: auto; }
 .changelog-list li { display: grid; grid-template-columns: auto 1fr; gap: 1px 8px; margin: 0 0 10px; }
-.cl-v { font-family: ui-monospace, monospace; font-size: 12px; color: var(--dim); }
-.cl-t { font-size: 13px; font-weight: 650; }
-.cl-n { grid-column: 2; font-size: 13px; color: var(--dim); line-height: 1.4; }
+.cl-v { font-family: ui-monospace, monospace; font-size: 0.75rem; color: var(--dim); }
+.cl-t { font-size: 0.8125rem; font-weight: 650; }
+.cl-n { grid-column: 2; font-size: 0.8125rem; color: var(--dim); line-height: 1.4; }
 
 /* Header ⓘ button — same size as the other bar buttons. */
-.info-btn { font-size: 15px; line-height: 1; }
+.info-btn { font-size: 0.9375rem; line-height: 1; }
 
 .toast {
   position: fixed;
@@ -782,7 +782,7 @@ body {
   color: var(--bg);
   border-radius: 10px;
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: 0.875rem;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.25s;
@@ -831,8 +831,25 @@ body {
 .thumb-credit {
   display: block;
   padding: 3px 4px;
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 1.25;
   overflow-wrap: anywhere;
 }
 .thumb-tile:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* The map's own +/− controls come from the vendored Leaflet stylesheet, which
+   sizes them in px — so they were the last text on screen that ignored a
+   reader's default font size (MEASURED: everything else scaled, these four did
+   not). Scaling the glyph alone would overflow Leaflet's fixed 30px box, so the
+   box scales with it, which also makes the tap target grow — the right outcome
+   for the same reader. Specificity must beat `.leaflet-touch .leaflet-bar a`
+   (0,3,1), hence the doubled class. */
+.leaflet-touch .leaflet-bar a.leaflet-control-zoom-in,
+.leaflet-touch .leaflet-bar a.leaflet-control-zoom-out,
+.leaflet-bar a.leaflet-control-zoom-in,
+.leaflet-bar a.leaflet-control-zoom-out {
+  font-size: 1.375rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+}
