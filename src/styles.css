@@ -363,7 +363,7 @@ body {
 .leaflet-popup-content { margin: 12px 14px; }
 .leaflet-popup-close-button {
   width: 30px !important; height: 30px !important;
-  font-size: 1.375rem !important; line-height: 26px !important;
+  font-size: 1.375rem !important; line-height: 1.625rem !important;
   padding: 2px 4px 0 0 !important;
 }
 .popup-head { padding-right: 20px; } /* clear the × close */
@@ -580,7 +580,7 @@ body {
 .leaflet-container a.popup-linkbtn {
   display: inline-block; font-size: 0.8125rem; font-weight: 700; text-decoration: none;
   color: #ffffff; background: #1663a8; padding: 6px 11px; border-radius: 8px;
-  min-height: 32px; line-height: 20px;
+  min-height: 32px; line-height: 1.25rem;
 }
 .leaflet-container a.popup-linkbtn:hover { background: #12517f; color: #ffffff; }
 .popup-lic { margin: 3px 0 0; font-size: 0.6875rem; color: #8a7d64; }
