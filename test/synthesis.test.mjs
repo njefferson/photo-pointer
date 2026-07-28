@@ -135,3 +135,91 @@ test('every signal has the required shape', () => {
     assert.ok(s.key && s.label && typeof s.weight === 'number' && typeof s.evaluate === 'function');
   }
 });
+
+// THE REGRESSION THIS EXISTS FOR: LIGHT_CELL_DEG was removed once by a branch
+// reset, ranking went back to computing 1,815 sun models per region switch
+// instead of 52 — about 1.1 seconds of a 1.2 second switch — and NOT ONE TEST
+// FAILED. Slowness is invisible to a correctness suite, so the constant itself
+// has to be pinned, and so does the reason it is safe.
+test('the sun is modelled per ~28 km cell, and that is lossless', async () => {
+  const { LIGHT_CELL_DEG } = await import('../src/model/synthesis.js');
+  const { sunTimesFor, compass } = await import('../src/model/light.js');
+  const { readFileSync } = await import('node:fs');
+
+  assert.ok(LIGHT_CELL_DEG >= 0.2,
+    `LIGHT_CELL_DEG is ${LIGHT_CELL_DEG} — a fine cell silently costs ~1.1s per region switch`);
+
+  // The ONLY thing the ranking does with the sun is name a compass point. So
+  // the approximation is safe exactly when every spot sharing a cell yields the
+  // SAME compass point. Checked at each cell's real extremes, on real data.
+  const spots = JSON.parse(readFileSync('data/regions/sac-eldorado-placer.json', 'utf8')).spots;
+  const cells = new Map();
+  for (const s of spots) {
+    const k = `${Math.floor(s.lat / LIGHT_CELL_DEG)},${Math.floor(s.lng / LIGHT_CELL_DEG)}`;
+    const c = cells.get(k) ?? [];
+    c.push(s);
+    cells.set(k, c);
+  }
+
+  let checked = 0;
+  for (const [key, members] of cells) {
+    const extremes = [
+      members.reduce((a, b) => (a.lat <= b.lat ? a : b)),
+      members.reduce((a, b) => (a.lat >= b.lat ? a : b)),
+      members.reduce((a, b) => (a.lng <= b.lng ? a : b)),
+      members.reduce((a, b) => (a.lng >= b.lng ? a : b)),
+    ];
+    const dirs = new Set(extremes.map((s) => {
+      try { return compass(sunTimesFor(s.lat, s.lng).sunsetAzimuth); } catch { return null; }
+    }));
+    assert.equal(dirs.size, 1,
+      `cell ${key} spans two compass points (${[...dirs].join('/')}) — the cell is too coarse `
+      + 'and the ranking would name the wrong direction');
+    checked++;
+  }
+  assert.ok(checked > 20, `expected many cells on the real region, saw ${checked}`);
+});
+
+// WHY PIN A PERFORMANCE CONSTANT: nothing else does, and a regression here is
+// invisible to a correctness suite. Ranking asks the astronomy engine for the
+// sun, and the ONLY thing it does with the answer is name a compass point — a
+// word that never touches the score. At 0.25° that is 52 sun models for the
+// home region; at 0.01° it is 1,815, and the ONLY symptom is a slow region
+// switch. Measured on the real region: 152 ms vs 1,104 ms.
+test('the sun is modelled per ~28 km cell, and that is lossless', async () => {
+  const { LIGHT_CELL_DEG } = await import('../src/model/synthesis.js');
+  const { sunTimesFor, compass } = await import('../src/model/light.js');
+  const { readFileSync } = await import('node:fs');
+
+  assert.ok(LIGHT_CELL_DEG >= 0.2,
+    `LIGHT_CELL_DEG is ${LIGHT_CELL_DEG} — a finer cell costs about a second per region switch `
+    + 'and changes no output at all');
+
+  // The approximation is safe exactly when every spot sharing a cell yields the
+  // SAME compass point. Checked at each cell's real extremes, on real data —
+  // so this fails if the cell is ever widened past the point where it matters.
+  const spots = JSON.parse(readFileSync('data/regions/sac-eldorado-placer.json', 'utf8')).spots;
+  const cells = new Map();
+  for (const s of spots) {
+    const k = `${(s.lat / LIGHT_CELL_DEG) | 0},${(s.lng / LIGHT_CELL_DEG) | 0}`;
+    cells.set(k, [...(cells.get(k) ?? []), s]);
+  }
+
+  let checked = 0;
+  for (const [key, members] of cells) {
+    const extremes = [
+      members.reduce((a, b) => (a.lat <= b.lat ? a : b)),
+      members.reduce((a, b) => (a.lat >= b.lat ? a : b)),
+      members.reduce((a, b) => (a.lng <= b.lng ? a : b)),
+      members.reduce((a, b) => (a.lng >= b.lng ? a : b)),
+    ];
+    const dirs = new Set(extremes.map((s) => {
+      try { return compass(sunTimesFor(s.lat, s.lng).sunsetAzimuth); } catch { return null; }
+    }));
+    assert.equal(dirs.size, 1,
+      `cell ${key} spans two compass points (${[...dirs].join('/')}) — too coarse, the ranking `
+      + 'would name a direction that is wrong for some of the places in it');
+    checked++;
+  }
+  assert.ok(checked > 20, `expected many cells on the real region, saw ${checked}`);
+});
