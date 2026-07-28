@@ -118,6 +118,25 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## document — the stack contract (build/deploy/vendor conventions).
 
 ## Project facts (append on every release, unprompted)
+- 2026-07-28 1.20.4 "The smallest writing got bigger" (an ITERATION) BUILT on
+  staging, UNPROMOTED — and note WHY, because it is a rule now. Noah: "You can
+  merge the ones that are ready, DON'T PROMOTE ANYTHING THAT YOU DIDN'T MAKE."
+  This repo's `accessibility` branch is 8 commits ahead of main and only 3 are
+  mine; the other 5 are the 1.20.1/1.20.2 candidate, its guard commit, and the
+  UNFINISHED overnight map sweep. So main stays where it is and staging gets the
+  work. Frame and Studio were 1 commit each, both mine, so those promoted.
+  WHAT IT IS: the sub-11px pass, applying FRAME'S A10 RULE (informational text
+  >= 11px; a glyph that labels nothing on its own may be smaller IF recorded as
+  exempt). `.score-cap` 9px → 11px (the strength WORD anchors the number — its own
+  code comment says so, which makes it informational) and `.lp-credit` 10px → 11px
+  (a source attribution we are licence-bound to show, so it has to be legible).
+  EXEMPT AND DOCUMENTED IN THE CSS — do not "finish the job" on these: `.pin`
+  glyphs (`.legend-swatch`, `.pin-inline`) stay 10px. A headless sweep reports 26
+  of them, which looks alarming and is not: it is ONE letter per category (V ▲ F
+  S K ∩ Y H M ◆ G R X ≈ L …), each a symbol inside a pin with its full-size name
+  written beside it in the legend row.
+  sw CACHE pointer-1.20.4; changelog[0] 1.20.4. 263 tests + contrast + etiquette +
+  smoke-cardfits/thumbs/notes green, 0 pageerrors, no overflow at a 20px default.
 - 2026-07-28 1.20.3 "Two last places that ignored your text size" (an ITERATION)
   BUILT on staging, UNPROMOTED — and note WHY it stayed there while three sibling
   apps shipped the same day. Noah said "Merge all"; for Frame / Clear Horizons /
