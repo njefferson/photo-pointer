@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES, fetchOverpass, OVERPASS_MAX_ATTEMPTS, GIVE_UP_AFTER, TILE_SERVER_TIMEOUT_S, freshTiles, tileKey } from '../ingest/adapters/osm-overpass.mjs';
+import { decide, fingerprint, MAX_ATTEMPTS } from '../scripts/osm-schedule.mjs';
 import { validateSpot } from '../src/model/spot.js';
 import { makeSpot } from '../src/model/spot.js';
 
@@ -226,4 +227,36 @@ test('a stale cache entry is asked for again rather than trusted forever', () =>
   const { have, todo } = freshTiles({ [tileKey(tiles[0])]: { at: old } }, tiles);
   assert.equal(have.size, 0, 'two days old is not "we already have it"');
   assert.equal(todo.length, tiles.length);
+});
+
+// The scheduled sweep must be able to STOP (Noah, 2026-07-27: "until complete,
+// without just running that forever blindly"). These pin the four answers.
+test('a finished region asks Overpass nothing on the next scheduled night', () => {
+  const fp = 'abc';
+  const now = new Date('2026-08-01T04:00:00Z');
+  assert.equal(decide({ fingerprint: fp, completedAt: '2026-07-30T00:00:00Z' }, fp, { now }).action,
+    'complete', 'two days after finishing there is nothing to ask for');
+  assert.equal(decide({ fingerprint: fp, completedAt: '2026-06-22T00:00:00Z' }, fp, { now }).action,
+    'refresh', 'but a month later OpenStreetMap has moved on');
+});
+
+test('changing what we ask for makes a finished region unfinished', () => {
+  const done = { fingerprint: 'OLD', completedAt: '2026-07-30T00:00:00Z' };
+  assert.equal(decide(done, 'NEW').action, 'run',
+    'the old answer is not an answer to the new question — this is how three counties appeared');
+});
+
+test('it gives up rather than asking a volunteer service every night forever', () => {
+  const fp = 'abc';
+  assert.equal(decide({ fingerprint: fp, attempts: MAX_ATTEMPTS - 1 }, fp).action, 'run');
+  assert.equal(decide({ fingerprint: fp, attempts: MAX_ATTEMPTS }, fp).action, 'exhausted');
+});
+
+test('the fingerprint notices the things that change the answer', () => {
+  const base = { bbox: { south: 38, west: -122, north: 39.4, east: -119.8 } };
+  const wider = { bbox: { south: 38, west: -122.5, north: 39.4, east: -119.8 } };
+  assert.notEqual(fingerprint(base), fingerprint(wider), 'a different box is a different question');
+  assert.notEqual(fingerprint(base), fingerprint(base, TAG_RULES.slice(0, 3)),
+    'and so is asking for fewer kinds of place');
+  assert.equal(fingerprint(base), fingerprint(base), 'but the same question is stable');
 });

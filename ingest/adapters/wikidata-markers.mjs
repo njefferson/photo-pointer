@@ -25,7 +25,7 @@
 // KEY: none. The Wikidata Query Service is keyless but REQUIRES a descriptive
 // User-Agent (a bare/absent UA gets 403). Runs on a runner (sandbox blocked).
 
-import { backoffMs } from './http-etiquette.mjs';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
 export const meta = {
   source: 'wikidata',
@@ -44,8 +44,9 @@ export const meta = {
 };
 
 export const ENDPOINT = 'https://query.wikidata.org/sparql';
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity across every service we call, carrying the real app version —
+// a stale User-Agent is barely better than an anonymous one.
+export { USER_AGENT };
 
 export function buildQuery(region) {
   const b = region.bbox;

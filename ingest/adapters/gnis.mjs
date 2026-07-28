@@ -19,7 +19,7 @@
 // silently break the query. Fields (confirmed via the service metadata):
 // gaz_id, gaz_name, gaz_featureclass, plus point geometry.
 
-import { backoffMs } from './http-etiquette.mjs';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
 export const meta = {
   source: 'gnis',
@@ -40,8 +40,9 @@ export const meta = {
 
 export const BASE_URL =
   'https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer';
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity across every service we call, carrying the real app version —
+// a stale User-Agent is barely better than an anonymous one.
+export { USER_AGENT };
 
 // GNIS feature classes we surface, and how each maps to a curiosity. Falls / Arch
 // / Cave map straight through; "Spring" is only a curiosity when it's a HOT one

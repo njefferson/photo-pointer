@@ -1,0 +1,97 @@
+name: Ingest OSM (scheduled, quiet hours)
+
+# Finish the OpenStreetMap sweep for a region across as many quiet nights as it
+# takes — and STOP when it is done (Noah, 2026-07-27: "schedule it to run within
+# low traffic hours in a respectful way until complete, without just running that
+# forever blindly").
+#
+# WHY 03:23 UTC. Overpass's main public instance is in Germany and the OSM
+# community's usage follows European daytime, so 03:23 UTC is 05:23 in Berlin —
+# genuinely quiet — while still being 20:23 on the US west coast. There is no
+# hour that is quiet everywhere; this targets the instance that actually carries
+# the load. The :23 is deliberate: cron entries pile up on the hour, so firing
+# off the hour avoids joining everyone else's stampede.
+#
+# HOW IT STOPS. Every firing asks scripts/osm-schedule.mjs first, which answers
+# from committed state:
+#   run/refresh → do the work
+#   complete    → exit in seconds having asked Overpass NOTHING
+#   exhausted   → seven failed nights means stop and let a person look
+# So the cron stays armed as a monthly freshness check rather than a nightly
+# re-fetch, and a region that is finished costs one trivial no-op job.
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Region id (see config/regions.json)
+        default: sac-eldorado-placer
+
+concurrency:
+  group: ingest-osm-${{ github.ref }}-${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    env:
+      REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: staging
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      # THE GATE. In the normal case this is the whole job.
+      - name: Is there anything to do?
+        id: gate
+        run: |
+          out="$(node scripts/osm-schedule.mjs decide "$REGION")"
+          echo "$out"
+          action="$(echo "$out" | sed -n 's/^::set-action:://p')"
+          echo "action=$action" >> "$GITHUB_OUTPUT"
+
+      - name: Nothing to do
+        if: steps.gate.outputs.action == 'complete'
+        run: echo "Already complete for this region as currently defined. Overpass was not contacted."
+
+      - name: Give up
+        if: steps.gate.outputs.action == 'exhausted'
+        run: |
+          echo "::warning::Too many failed nights for $REGION. The schedule has stopped asking."
+          echo "Re-run by hand once the cause is understood; that resets the count."
+
+      # Record the attempt BEFORE the work, so a job that is killed at the
+      # timeout still counts as a try. Otherwise a run that always times out
+      # would never reach the cap and would poke Overpass every night forever.
+      - name: Count this attempt
+        if: steps.gate.outputs.action == 'run' || steps.gate.outputs.action == 'refresh'
+        run: node scripts/osm-schedule.mjs attempt "$REGION"
+
+      - name: Fetch OSM + eBird + markers, merge + validate
+        if: steps.gate.outputs.action == 'run' || steps.gate.outputs.action == 'refresh'
+        run: node ingest/ingest.mjs all "$REGION"
+
+      - name: Record that it finished
+        if: success() && (steps.gate.outputs.action == 'run' || steps.gate.outputs.action == 'refresh')
+        run: node scripts/osm-schedule.mjs done "$REGION"
+
+      # Commit whether it finished or not: the attempt count and the tiles that
+      # DID answer both need to survive, or the next night re-asks for work
+      # Overpass has already done.
+      - name: Commit
+        if: always() && (steps.gate.outputs.action == 'run' || steps.gate.outputs.action == 'refresh')
+        run: |
+          git config user.name "photo-pointer ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ ingest/inputs/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Overnight OpenStreetMap sweep for $REGION" -m "Runs in Europe's quiet hours and asks only for the map tiles it does not already have. Stops on its own once the area is complete."
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

@@ -20,7 +20,7 @@
 // runtime, case-insensitively — PAD-US renames fields between versions (v3 → v4)
 // and a hard-coded guess is exactly what cost a debug cycle on GNIS and NRHP.
 
-import { backoffMs } from './http-etiquette.mjs';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
 export const meta = {
   source: 'padus',
@@ -51,8 +51,9 @@ export const BASE_CANDIDATES = [
 ];
 export const BASE_URL = BASE_CANDIDATES[0];
 
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity across every service we call, carrying the real app version —
+// a stale User-Agent is barely better than an anonymous one.
+export { USER_AGENT };
 
 // Field candidates, lowest-common-denominator first. PAD-US ships both coded
 // fields (Mang_Name) and decoded "domain" versions (d_Mang_Nam); prefer decoded,

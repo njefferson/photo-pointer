@@ -34,11 +34,12 @@ export const meta = {
 };
 
 import { distanceM } from '../../src/model/geo.js';
-import { backoffMs } from './http-etiquette.mjs';
+import { backoffMs, USER_AGENT } from './http-etiquette.mjs';
 
 export const API = 'https://commons.wikimedia.org/w/api.php';
-export const USER_AGENT =
-  'photo-pointer/1.15 (https://github.com/njefferson/photo-pointer)';
+// ONE identity across every service we call, carrying the real app version —
+// a stale User-Agent is barely better than an anonymous one.
+export { USER_AGENT };
 // WIKIMEDIA'S PUBLISHED LIMITS, not our own invention. API:Etiquette asks for
 // serial requests — "a total concurrency of at most 1, and a delay between
 // requests of at least 1 second" — and maxlag on non-interactive jobs. We had
