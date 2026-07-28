@@ -4,10 +4,19 @@
     "name": "USGS GNIS (The National Map geonames — named natural features)",
     "license": "public-domain",
     "attribution": "U.S. Geological Survey, Geographic Names Information System (public domain)",
-    "status": "working"
+    "status": "working",
+    "policy": {
+      "url": "https://www.usgs.gov/information-policies-and-instructions",
+      "maxConcurrency": 1,
+      "minGapMs": 0
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 300
+    }
   },
   "region": "sac-eldorado-placer",
-  "builtAt": "2026-07-25",
+  "builtAt": "2026-07-28",
   "records": [
     {
       "name": "The Falls",
@@ -36,7 +45,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/236166",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -67,7 +76,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/256584",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -98,7 +107,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/258504",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -129,7 +138,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/259656",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -160,7 +169,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/261537",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -191,7 +200,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/261904",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -222,7 +231,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2742287",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -253,7 +262,7 @@
           "source_license": "public-domain",
           "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2830596",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     }

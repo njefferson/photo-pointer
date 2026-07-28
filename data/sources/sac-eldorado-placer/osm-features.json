@@ -4,36 +4,74 @@
     "name": "OpenStreetMap (Overpass API)",
     "license": "ODbL-1.0",
     "attribution": "© OpenStreetMap contributors",
-    "status": "working"
+    "status": "working",
+    "policy": {
+      "url": "https://dev.overpass-api.de/overpass-doc/en/preface/commons.html",
+      "maxConcurrency": 1,
+      "minGapMs": 0,
+      "dailyRequestBudget": 10000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 2000
+    }
   },
   "region": "sac-eldorado-placer",
-  "builtAt": "2026-07-25",
+  "builtAt": "2026-07-28",
   "records": [
     {
-      "name": "Scandia Fun Center Entrance",
-      "lat": 38.6585311,
-      "lng": -121.3641807,
+      "name": "Peep Sight",
+      "lat": 38.4930598,
+      "lng": -119.855954,
       "category": "oddity",
-      "subject_type": [],
+      "subject_type": [
+        "landscape"
+      ],
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
       "notes": null,
       "tags": {
-        "name": "Scandia Fun Center Entrance",
-        "fee": "yes",
-        "access": "customers",
-        "natural": "cave_entrance",
-        "curiosity": "Cave"
+        "name": "Peep Sight",
+        "natural": "arch",
+        "curiosity": "Natural arch"
       },
       "sources": [
         {
           "source": "osm",
-          "source_id": "node/13375201593",
+          "source_id": "node/11386231511",
           "source_license": "ODbL-1.0",
-          "source_url": "https://www.openstreetmap.org/node/13375201593",
-          "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "source_url": "https://www.openstreetmap.org/node/11386231511",
+          "first_seen": "2026-07-28",
+          "last_seen": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "name": "Natural Bridge",
+      "lat": 38.0545327,
+      "lng": -120.4771332,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Natural Bridge",
+        "natural": "arch",
+        "curiosity": "Natural arch"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11386231530",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11386231530",
+          "first_seen": "2026-07-28",
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -60,7 +98,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/429169349",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -87,7 +125,63 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/429169399",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "name": "Mercer Caverns",
+      "lat": 38.1511736,
+      "lng": -120.478089,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Mercer Caverns",
+        "wikidata": "Q8342992",
+        "tourism": "attraction",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/485093241",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/485093241",
+          "first_seen": "2026-07-28",
+          "last_seen": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "name": "California Caverns",
+      "lat": 38.202532,
+      "lng": -120.5090756,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "California Caverns",
+        "wikidata": "Q2918763",
+        "tourism": "attraction",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/485100221",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/485100221",
+          "first_seen": "2026-07-28",
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -115,7 +209,37 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/5618093482",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "name": "SS Tahoe",
+      "lat": 39.091627,
+      "lng": -119.9542736,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "SS Tahoe",
+        "wikipedia": "en:SS Tahoe",
+        "wikidata": "Q7394433",
+        "historic": "wreck",
+        "curiosity": "Shipwreck"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/7259522813",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/7259522813",
+          "first_seen": "2026-07-28",
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -143,7 +267,33 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/761689572",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "name": "Moaning Cave",
+      "lat": 38.06904,
+      "lng": -120.4660397,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Moaning Cave",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/992092588",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/992092588",
+          "first_seen": "2026-07-28",
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -171,7 +321,40 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/302181531",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "name": "Solano",
+      "lat": 38.0171865,
+      "lng": -121.8051306,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Solano",
+        "description": "Late 1800s railroad ferry sunk as a breakwater",
+        "wikipedia": "en:Solano (ferry)",
+        "wikidata": "Q7555711",
+        "access": "unknown",
+        "historic": "wreck",
+        "man_made": "breakwater",
+        "curiosity": "Shipwreck"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/35836546",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/35836546",
+          "first_seen": "2026-07-28",
+          "last_seen": "2026-07-28"
         }
       ]
     }

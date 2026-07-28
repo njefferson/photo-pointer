@@ -4,10 +4,19 @@
     "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
     "license": "CC0-1.0",
     "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
-    "status": "working"
+    "status": "working",
+    "policy": {
+      "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+      "maxConcurrency": 1,
+      "minGapMs": 1000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 1000
+    }
   },
   "region": "sac-eldorado-placer",
-  "builtAt": "2026-07-25",
+  "builtAt": "2026-07-28",
   "records": [
     {
       "name": "Mokelumne City",
@@ -33,7 +42,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Mokelumne_City,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -61,7 +70,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Liberty,_San_Joaquin_County,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -89,7 +98,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Horsetail_Falls_(California)",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -116,7 +125,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://www.wikidata.org/wiki/Q46228077",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -144,7 +153,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Ambrose,_Contra_Costa_County,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -172,7 +181,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Bassi_Falls",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -199,7 +208,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://www.wikidata.org/wiki/Q49091589",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -227,7 +236,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Buckeye,_Yolo_County,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -255,7 +264,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Carson_Hill,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -282,7 +291,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://www.wikidata.org/wiki/Q5071238",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -310,7 +319,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Deadwood,_Placer_County,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -338,7 +347,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/East_Snow_Mountain_Falls",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -366,7 +375,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Fremont_Landing,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -394,7 +403,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/New_York_Canyon_Falls",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -422,7 +431,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Logtown,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -450,7 +459,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Michigan_Bar,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -478,7 +487,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Middle_Bar,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -506,7 +515,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Mormon_Island,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -534,34 +543,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/North_Bloomfield,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
-        }
-      ]
-    },
-    {
-      "name": "Oak Grove",
-      "lat": 39.34222222,
-      "lng": -121.32055556,
-      "category": "oddity",
-      "subject_type": [
-        "historic"
-      ],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "tags": {
-        "curiosity": "Ghost town",
-        "wikidata": "Q7073493"
-      },
-      "sources": [
-        {
-          "source": "wikidata",
-          "source_id": "Q7073493",
-          "source_license": "CC0-1.0",
-          "source_url": "https://www.wikidata.org/wiki/Q7073493",
-          "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -589,7 +571,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Ophir,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -617,7 +599,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Red_Dog,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -645,7 +627,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Rubicon_Point_Light",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -673,7 +655,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Salmon_Falls,_California",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -701,7 +683,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://en.wikipedia.org/wiki/Sugar_Pine_Point_Light",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     },
@@ -728,7 +710,7 @@
           "source_license": "CC0-1.0",
           "source_url": "https://www.wikidata.org/wiki/Q97011267",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-25"
+          "last_seen": "2026-07-28"
         }
       ]
     }
