@@ -11,6 +11,7 @@ import { LAYER_FILTERS } from './ui/synthesis.js';
 import { maybeShowWelcome, maybeShowWhatsNew, openAbout } from './ui/install.js';
 import { renderListInto } from './ui/listview.js';
 import { keepSpot, refineCategory } from './model/notability.js';
+import { expandSources } from './model/sources.js';
 import { buildCelestialEvents } from './model/events.js';
 import { loadEnrichment, enrichSpots } from './model/enrichment.js';
 import { VERSION } from './data/changelog.js';
@@ -674,7 +675,11 @@ async function loadRegionData(id) {
       // keep verified landmarks and any marker that carries other worthwhile data.
       // Keep the worthwhile spots, then split the broad 'oddity' bucket into
       // finer categories (ghost town / waterfall / hot spring / …) for filtering.
-      dataSpots = enrichSpots((doc.spots ?? []).filter(keepSpot).map(refineCategory), await loadEnrichment());
+      // Put back the licence + link the region file states once rather than
+      // per spot (see model/sources.js). A stored value always wins, so this
+      // is a no-op on a file that still spells everything out.
+      const spots = expandSources(doc.spots ?? [], doc.licenses ?? {});
+      dataSpots = enrichSpots(spots.filter(keepSpot).map(refineCategory), await loadEnrichment());
       dataBuiltAt = doc.builtAt ?? null;
     } else {
       toast('No spot data for this region yet');
