@@ -17,7 +17,7 @@
     }
   },
   "region": "sac-eldorado-placer",
-  "builtAt": "2026-07-28",
+  "builtAt": "2026-07-29",
   "records": [
     {
       "name": "Peep Sight",
@@ -43,7 +43,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/11386231511",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -71,7 +71,63 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/11386231530",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "name": "Scandia Fun Center Entrance",
+      "lat": 38.6585311,
+      "lng": -121.3641807,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Scandia Fun Center Entrance",
+        "fee": "yes",
+        "access": "customers",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/13375201593",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/13375201593",
+          "first_seen": "2026-07-29",
+          "last_seen": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "name": "Petroglyphs",
+      "lat": 39.3171503,
+      "lng": -120.3208085,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Petroglyphs",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/3083020134",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/3083020134",
+          "first_seen": "2026-07-29",
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -98,7 +154,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/429169349",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -125,7 +181,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/429169399",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -153,7 +209,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/485093241",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -181,7 +237,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/485100221",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -209,7 +265,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/5618093482",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -239,7 +295,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/7259522813",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -267,7 +323,33 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/761689572",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "name": "Black Chasm Cavern",
+      "lat": 38.4322276,
+      "lng": -120.626548,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Black Chasm Cavern",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/992089190",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/992089190",
+          "first_seen": "2026-07-29",
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -293,7 +375,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/992092588",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -321,7 +403,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/302181531",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     },
@@ -354,7 +436,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/35836546",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-07-28"
+          "last_seen": "2026-07-29"
         }
       ]
     }
