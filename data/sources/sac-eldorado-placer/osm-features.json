@@ -17,7 +17,7 @@
     }
   },
   "region": "sac-eldorado-placer",
-  "builtAt": "2026-08-02",
+  "builtAt": "2026-08-03",
   "records": [
     {
       "name": "Peep Sight",
@@ -43,7 +43,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/11386231511",
           "first_seen": "2026-08-01",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -71,7 +71,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/11386231530",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -99,7 +99,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/13375201593",
           "first_seen": "2026-07-29",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -127,7 +127,61 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/3083020134",
           "first_seen": "2026-08-01",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "name": "Hawver Cave Gate A",
+      "lat": 38.9162285,
+      "lng": -121.0146542,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Hawver Cave Gate A",
+        "wheelchair": "no",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/429169349",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/429169349",
+          "first_seen": "2026-08-03",
+          "last_seen": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "name": "Hawver Cave Gate B",
+      "lat": 38.9137774,
+      "lng": -121.0154114,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Hawver Cave Gate B",
+        "wheelchair": "no",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/429169399",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/429169399",
+          "first_seen": "2026-08-03",
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -155,7 +209,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/485093241",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -183,7 +237,65 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/485100221",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "name": "Fairchild Park Indian Grinding Rocks",
+      "lat": 38.7023321,
+      "lng": -121.0772474,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Fairchild Park Indian Grinding Rocks",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/5618093482",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/5618093482",
+          "first_seen": "2026-08-03",
+          "last_seen": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "name": "SS Tahoe",
+      "lat": 39.091627,
+      "lng": -119.9542736,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "SS Tahoe",
+        "wikipedia": "en:SS Tahoe",
+        "wikidata": "Q7394433",
+        "historic": "wreck",
+        "curiosity": "Shipwreck"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/7259522813",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/7259522813",
+          "first_seen": "2026-08-03",
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -211,33 +323,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/761689572",
           "first_seen": "2026-07-25",
-          "last_seen": "2026-08-02"
-        }
-      ]
-    },
-    {
-      "name": "Black Chasm Cavern",
-      "lat": 38.4322276,
-      "lng": -120.626548,
-      "category": "oddity",
-      "subject_type": [],
-      "best_light": [],
-      "best_season": [],
-      "access_difficulty": "unknown",
-      "notes": null,
-      "tags": {
-        "name": "Black Chasm Cavern",
-        "natural": "cave_entrance",
-        "curiosity": "Cave"
-      },
-      "sources": [
-        {
-          "source": "osm",
-          "source_id": "node/992089190",
-          "source_license": "ODbL-1.0",
-          "source_url": "https://www.openstreetmap.org/node/992089190",
-          "first_seen": "2026-07-29",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -263,7 +349,35 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/node/992092588",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "name": "Maidu Museum & Historic Site",
+      "lat": 38.7375061,
+      "lng": -121.2448284,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Maidu Museum & Historic Site",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/302181531",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/302181531",
+          "first_seen": "2026-08-03",
+          "last_seen": "2026-08-03"
         }
       ]
     },
@@ -296,7 +410,7 @@
           "source_license": "ODbL-1.0",
           "source_url": "https://www.openstreetmap.org/way/35836546",
           "first_seen": "2026-07-28",
-          "last_seen": "2026-08-02"
+          "last_seen": "2026-08-03"
         }
       ]
     }
