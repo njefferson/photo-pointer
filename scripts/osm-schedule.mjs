@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Should tonight's scheduled ingest actually ask Overpass anything?
 //
-// THE POINT OF THIS FILE is Noah's condition (2026-07-27): run "until complete,
-// without just running that forever blindly". A cron that fires every night and
+// THE POINT OF THIS FILE is the standing condition on the scheduled sweep: run
+// until the region is complete, and then stop. A cron that fires every night and
 // re-fetches a region that is already done is precisely the blind hammering we
 // spent the afternoon removing. So the schedule wakes, asks this, and in the
 // normal case exits in a second having touched nobody.

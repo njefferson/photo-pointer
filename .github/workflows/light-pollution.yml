@@ -6,7 +6,9 @@ name: Light pollution ingest
 # 684 MB source is never committed. Dispatch via MCP actions_run_trigger.
 #
 # Data: Falchi et al. 2016, GFZ Data Services, doi:10.5880/GFZ.1.4.2016.001,
-# CC BY-NC 4.0. Fetched from Noah's shared Drive copy.
+# CC BY-NC 4.0. Fetched from a Google Drive copy of the published archive: the
+# publisher's own landing page is a JavaScript app with no machine-downloadable
+# URL, so the 684 MB source cannot be pulled from it on a runner.
 
 on:
   workflow_dispatch:

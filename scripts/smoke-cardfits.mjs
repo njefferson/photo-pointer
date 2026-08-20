@@ -1,8 +1,9 @@
 // A place card must remain usable when the reader enlarges their text.
 //
-// THE BUG THIS PINS (Noah, 2026-07-26: "is the popup a fixed size that could
-// fail if the font size was set higher... that is a violation of my
-// accessibility values" — it was): the popup carried maxWidth 320 and a hard
+// THE BUG THIS PINS, found 2026-07-26 by asking whether the popup was a fixed
+// size that could fail at a raised font size. It was, and that is an
+// accessibility failure rather than a cosmetic one: the popup carried maxWidth
+// 320 and a hard
 // `Math.max(240, innerHeight*0.6)` floor, computed ONCE when the marker was
 // built. It never looked at the map. MEASURED at 200% text on a 320px phone:
 // the map is 114px tall and the card was still demanding 240, so it did not

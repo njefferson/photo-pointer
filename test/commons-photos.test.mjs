@@ -295,20 +295,20 @@ test('one camera rig moving is not a place people go', () => {
   assert.equal(singleRigShare(['File:a with GoPro.jpg']), 0);
 });
 
-// Noah's rules, in his words (2026-07-27), on the first real output.
+// The three destination rulings settled 2026-07-27 against the first real
+// output, which had mapped a retailer, a herbarium sheet and an agency's staff
+// photographs. See the NOT_A_DESTINATION comment in commons-photos.mjs.
 test('a pin has to be somewhere you could go and photograph the thing', () => {
-  // "IKEA: no."
+  // A retailer is not a destination.
   assert.equal(photoDestination('Ikea').ok, false);
-  // "Botanical specimens can be good if it's a flower that can be photographed
-  // there — not good if it's someone's personal potted plants."
+  // A Latin binomial is not disqualifying: the line is CULTIVATION, not botany.
   assert.equal(photoDestination('Cirsium Occidentale Candidissimum Snowy Thistle').ok, true,
     'a native thistle growing on a hillside is exactly what this app is for');
   assert.equal(photoDestination('Placervillenursery Eldorador5').ok, false,
     'nursery stock is not a wildflower, even run together into one word');
   assert.equal(photoDestination('Potted succulent collection').ok, false);
-  // "Archives sound like old historical photos that may not be there to
-  // photograph today, so not useful — but if they are of an ancient tree or
-  // something then maybe useful."
+  // An archive is out by default — a photograph of something that happened is
+  // not somewhere to stand — except where its subject is still standing.
   assert.equal(photoDestination('Nrcs Lsc').ok, false);
   assert.equal(photoDestination('Pacific Southwest Region Research Station Honor').ok, false);
   assert.equal(

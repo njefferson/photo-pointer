@@ -1,8 +1,8 @@
 // The toolbar Show all / Hide all / Restore button.
 //
-// Noah, 2026-07-27: a show-all and hide-all button at the top so the filter panel
-// does not have to be open just to do that, and "maybe the button changes to
-// 'restore' after hiding all, to bring back the previous set."
+// The requirement, settled 2026-07-27: show-all and hide-all belong at the top,
+// so the most-used filter action does not require opening the filter panel; and
+// hiding all offers a one-tap way back to the previous set.
 //
 // The trap this guards: Restore must never put back a set the reader has since
 // edited. Any other change to what is showing has to retire the offer.

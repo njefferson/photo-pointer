@@ -1,7 +1,7 @@
 // The map must obey the "must have" layer filters the same way the list does.
 //
-// Two real bugs this pins (Noah: "Choosing only photographed places works on
-// list but not map"):
+// Two real bugs this pins. The report that found them: the Photographed filter
+// worked in the LIST view and not on the MAP.
 //   1. The matches were all OFF-SCREEN, so the map sat empty while the banner
 //      announced "286 places match" — indistinguishable from a broken filter.
 //   2. setSpotFilter treated an EMPTY match set as "no filter", so a filter that

@@ -350,7 +350,7 @@ function renderHeader() {
     searchRow,
     el('div', { class: 'bar-actions' }, [
       // Showing or hiding everything is the most-used filter action there is; it
-      // should not require opening the filter panel first (Noah, 2026-07-27).
+      // should not require opening the filter panel first.
       el('button', {
         class: 'data-btn',
         title: 'Show or hide every place type',

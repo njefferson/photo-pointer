@@ -1,9 +1,9 @@
 name: Ingest OSM (scheduled, quiet hours)
 
 # Finish the OpenStreetMap sweep for a region across as many quiet nights as it
-# takes — and STOP when it is done (Noah, 2026-07-27: "schedule it to run within
-# low traffic hours in a respectful way until complete, without just running that
-# forever blindly").
+# takes — and STOP when it is done. That is the standing requirement, and both
+# halves are load-bearing: run inside THEIR low-traffic hours, and terminate on
+# completion rather than firing forever against a region that is already built.
 #
 # WHY 01:23 UTC — THEIR quiet hours, not ours. All three public Overpass mirrors
 # are Central European (overpass-api.de in Germany; kumi.systems and

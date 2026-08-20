@@ -14,6 +14,42 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+      # THE DOCTRINE'S CANONICAL GATES, checked out rather than forked. Five
+      # divergent copies of a privacy rule is worse than none, so the hub is
+      # cloned SHA-pinned into an untracked path and its own copies are run: a
+      # pattern widened in the hub binds this repo on its next push, with
+      # nothing here to drift. Pinned to a commit that exists on the hub's
+      # default branch — a cross-repo gate depends on the OTHER repo's
+      # published history, not on anybody's working copy.
+      - name: Check out the hub (canonical gates)
+        uses: actions/checkout@v5
+        with:
+          repository: njefferson/noahjefferson
+          ref: 6da5c6e765538fed5dd702e9d9e40a5d80001fea
+          path: .hub
+          persist-credentials: false
+
+      - name: Privacy — nothing personal about the owner lands in this repo
+        run: node .hub/privacy-check.mjs --repo .
+
+      # THE SECOND HALF OF THE SAME RULE. privacy-check.mjs anchors every
+      # pattern on the owner's name or role, so it cannot see a verbatim
+      # sentence of somebody's speech — that shape carries neither. This holds
+      # the other half: every set-apart quotation is declared, and a quotation
+      # of a person is never declarable.
+      - name: Every set-apart quotation says whose words it is
+        if: ${{ !cancelled() }}
+        run: node .hub/quote-check.mjs --repo .
+
+      # --artefact, NEVER the plain check. The plain check also asserts that
+      # .git/hooks/pre-commit is installed and current, which is a fact about
+      # ONE CLONE — and actions/checkout leaves .git/hooks empty by definition,
+      # so that spelling can never hold on a runner. What CI can check is the
+      # TRACKED hook against what .branch-guard declares.
+      - name: The commit guard is the one that was declared
+        if: ${{ !cancelled() }}
+        run: node .hub/branch-guard.mjs --repo . --artefact
+
       - name: Unit tests
         run: node --test
       - name: Contrast gate (WCAG, both themes)

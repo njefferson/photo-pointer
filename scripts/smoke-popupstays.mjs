@@ -1,8 +1,8 @@
 // A card opened by TAPPING A PIN must stay open.
 //
-// HONEST SCOPE: this does NOT reproduce Noah's 2026-07-26 report ("this one
-// opens and immediately collapses", a Ghost town card caught mid-fade beside a
-// "2" cluster badge). That was chased hard — mouse clicks, real touch taps,
+// HONEST SCOPE: this does NOT reproduce the 2026-07-26 defect — a Ghost town
+// card that opened and immediately collapsed, caught mid-fade in a screenshot
+// beside a "2" cluster badge. That was chased hard — mouse clicks, real touch taps,
 // forced pans, and 20 cards left completely alone — and every card stayed open,
 // with and without the guard added alongside this file. So the cause is still
 // UNKNOWN and this smoke would not have caught it.

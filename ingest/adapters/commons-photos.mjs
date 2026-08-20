@@ -363,19 +363,20 @@ export function isSingleRig(titles, { share = RIG_SHARE } = {}) {
 }
 
 // IS THIS SOMEWHERE YOU COULD GO AND PHOTOGRAPH THE THING? That is the whole
-// test, and it is Noah's, in his words (2026-07-27) on the first real output:
-//   - IKEA: no.
-//   - Botanical specimens: "good if it's a flower that can be photographed
-//     there — not good if it's someone's personal potted plants."
-//   - Archives: "old historical photos that may not be there to photograph
-//     today, so not useful — but if they are of an ancient tree or something
-//     then maybe useful."
-// So a Latin binomial is NOT disqualifying; a wild thistle growing on a hillside
-// is exactly what this app is for. What disqualifies is CULTIVATION (nursery
-// stock, a greenhouse, a herbarium sheet), COMMERCE, and an organisation's own
-// RECORDS — photographs of something that happened rather than something that
-// is there. The permanent-feature exception is Noah's ancient tree: an archive
-// of a thing that is still standing is still worth the drive.
+// test, and it was settled against the first real output on 2026-07-27, which
+// had put an IKEA, a herbarium sheet and an agency's staff photographs on the
+// map as photo destinations. Three rulings came out of it:
+//   - A RETAILER is not a destination. IKEA is out.
+//   - A LATIN BINOMIAL IS NOT DISQUALIFYING. A wild flower photographable where
+//     it grows is in; nursery stock and somebody's potted plants are out. So the
+//     line is CULTIVATION, not botany.
+//   - AN ARCHIVE is out by default — a photograph of something that happened is
+//     not somewhere to stand — EXCEPT where its subject is still standing. An
+//     archive photograph of an ancient tree still points at a tree.
+// What disqualifies, then: CULTIVATION (nursery stock, a greenhouse, a herbarium
+// sheet), COMMERCE, and an organisation's own RECORDS. The permanent-feature
+// exception is the third ruling: an archive of a thing that is still there is
+// still worth the drive.
 //
 // This is a hand-written vocabulary, which the doctrine warns about — but no
 // service publishes "is this a photo destination", and the alternative is
@@ -393,8 +394,8 @@ const NOT_A_DESTINATION = [
     re: /\b(nrcs|usda|research station|experiment(al)? station|field office|silvicultur\w*|treatment|study (site|plot)|plot \d|annual report|archives?|collection of|staff|personnel|conference|awards?|honou?r|ceremony|groundbreaking|ribbon cutting)\b/i },
 ];
 
-// Noah's exception, kept explicit: an archive OF SOMETHING STILL STANDING is
-// still worth the drive.
+// The permanent-feature exception, kept explicit: an archive OF SOMETHING STILL
+// STANDING is still worth the drive.
 const STILL_THERE = /\b(ancient|old.?growth|giant|champion|heritage|historic tree|sequoia|redwood|oak|waterfall|falls|arch|canyon|summit|peak|lake|river|bridge|lighthouse|trail|grove)\b/i;
 
 export function photoDestination(subject, titles = []) {

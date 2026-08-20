@@ -142,8 +142,9 @@ test('a failing tile is named and the rest of the region still lands', async () 
   assert.match(out.failedTiles[0], /504/, 'and the one that failed is named, not silently zero');
 });
 
-// BEING CONSIDERATE IS A GATE, NOT AN INTENTION (Noah, 2026-07-27: "make sure
-// you are not hammering them and making it worse"). MEASURED on the run that
+// BEING CONSIDERATE IS A GATE, NOT AN INTENTION. The requirement, settled
+// 2026-07-27: a retry must not hammer a volunteer service and make its load
+// worse. MEASURED on the run that
 // prompted it: 11 tiles answered in 3-14 s, and 8 took 86-739 s. That extra time
 // was not Overpass computing — it was the retry loop asking the NEXT VOLUNTEER
 // SERVER the same question. One tile spent 333 seconds to be told there was
@@ -229,8 +230,9 @@ test('a stale cache entry is asked for again rather than trusted forever', () =>
   assert.equal(todo.length, tiles.length);
 });
 
-// The scheduled sweep must be able to STOP (Noah, 2026-07-27: "until complete,
-// without just running that forever blindly"). These pin the four answers.
+// The scheduled sweep must be able to STOP: run until the region is complete,
+// then stop, rather than firing forever against a region already built. These
+// pin the four answers.
 test('a finished region asks Overpass nothing on the next scheduled night', () => {
   const fp = 'abc';
   const now = new Date('2026-08-01T04:00:00Z');

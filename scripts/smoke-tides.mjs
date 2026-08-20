@@ -1,7 +1,8 @@
 // Headless smoke for the tides line (1.8.0). NOAA is unreachable from the
 // sandbox, so the NOAA endpoints are MOCKED via route interception — this proves
 // the UI wiring (coastal spot shows tides; inland spot shows nothing), not NOAA
-// itself. The real-data check is Noah's device.
+// itself. The real-data check has to be run on a real device against the live
+// service.
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';

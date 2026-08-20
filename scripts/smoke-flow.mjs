@@ -1,7 +1,8 @@
 // Headless smoke for the streamflow line (1.9.0). USGS is unreachable from the
 // sandbox, so the USGS endpoints are MOCKED via route interception — this proves
 // the UI wiring + fetch/CSP/parse/format path (water spot shows flow; dry spot
-// shows nothing), not USGS itself. The real-data check is Noah's device.
+// shows nothing), not USGS itself. The real-data check has to be run on a real
+// device against the live service.
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';

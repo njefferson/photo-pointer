@@ -2,7 +2,7 @@
 
 > **Inherits the [Universal App Doctrine](https://github.com/njefferson/noahjefferson/blob/main/DOCTRINE.md)**
 > (canonical copy: `DOCTRINE.md` in the noahjefferson hub). Single source of truth
-> for the rules shared across all of Noah's apps — product values, taste,
+> for the rules shared across all of the owner's apps — product values, taste,
 > accessibility, honesty, verification, release discipline & taxonomy, licensing
 > (PolyForm Noncommercial), privacy, the permanent **AskUserQuestion ban** (§0),
 > and the **repo-metadata confirm rule** (§10). **Where anything below overlaps
@@ -16,20 +16,20 @@ Read `NOTES.md` (source of truth: thesis, roadmap, settled decisions) and
 `LESSONS.md` (the technical stack contract — build/deploy/vendor conventions,
 kept because it is more granular than the Doctrine) before doing anything.
 
-## 0. NEVER use the AskUserQuestion / choice-popup tool (Noah, 2026-07-17,
+## 0. NEVER use the AskUserQuestion / choice-popup tool (settled 2026-07-17,
 ## absolute and permanent, applies to every repo). Present choices as plain
-## text; he replies in his own words.
+## text and let them be answered in ordinary words.
 
-## Branches: only `staging` and `main`, ever (Noah, 2026-07-19). No `claude/*`,
-## no other branches, and NO pull requests — he does not use them. EVERY build
-## lands on `staging`; his hands-on device test happens there; he EXPLICITLY
-## says "promote to main" and only then does it go to `main` (= production
+## Branches: only `staging` and `main`, ever (settled 2026-07-19). No `claude/*`,
+## no other branches, and NO pull requests — they are not used here. EVERY build
+## lands on `staging`; the on-device test happens there; an EXPLICIT promote is
+## required and only then does it go to `main` (= production
 ## deploy). Never promote to main on your own read of "it's ready." Docs-only
 ## changes may go straight to main. Start every session by checking whether
-## `staging` is ahead of `main` — that candidate is already waiting on his
-## test; surface it, never rebuild it (it's also logged in Project facts).
+## `staging` is ahead of `main` — that candidate is already waiting on the
+## on-device test; surface it, never rebuild it (it's also logged in Project facts).
 
-## Service etiquette is a GATE, not an intention (Noah, 2026-07-26). Every
+## Service etiquette is a GATE, not an intention (settled 2026-07-26). Every
 ## networked ingest adapter DECLARES the published policy it operates under
 ## (`meta.policy.url` + maxConcurrency/minGapMs) and what it actually does
 ## (`meta.pacing`); `node scripts/check-etiquette.mjs` FAILS the build if the
@@ -48,7 +48,7 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## the same commit); keyboard + focus-visible always.
 
 ## License: PolyForm Noncommercial 1.0.0 (LICENSE.md), same as Clear Horizons
-## (Noah, 2026-07-19 — corrected from an earlier wrong "no LICENSE" reading).
+## (settled 2026-07-19 — corrected from an earlier wrong "no LICENSE" reading).
 ## Keep the header scope current when third-party material changes.
 
 ## Service etiquette — the RULE lives in the hub Doctrine §14, not here. Read it
@@ -76,7 +76,7 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## most APIs (probe first: `node ingest/ingest.mjs probe`); ingest runs on
 ## Actions runners via workflow dispatch (MCP actions_run_trigger is the
 ## proven channel). State what was VERIFIED (headless, request inspection)
-## vs what NEEDS NOAH'S HANDS (real iPad/iPhone feel).
+## vs what NEEDS AN ON-DEVICE PASS (real iPad/iPhone feel).
 
 ## The owner is iPad-first, often driving: one step at a time, no
 ## desktop-required steps unless every alternative is exhausted, finished
@@ -87,11 +87,11 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## - Description: `One map of every photo-worthy place in your region — viewpoints, markers, oddities, parks, trails, wildlife, dark skies. Open data only.`
 ## - Website: `https://photo-pointer.pages.dev`
 ## - Topics: `photography` `maps` `openstreetmap` `pwa` `offline-first` `poi`
-## List these and ask Noah to confirm each is done; never report the repo
+## List these and ask for confirmation that each is done; never report the repo
 ## "set up" while any is unconfirmed.
 
 ## SETTLED, don't re-offer:
-## - FLICKR is DEAD as a source (Noah verified 2026-07-19 with a screenshot):
+## - FLICKR is DEAD as a source (verified 2026-07-19 from a screenshot of Flickr's own page):
 ##   "API key creation is currently disabled for free accounts. API key creation
 ##   is available to all Flickr PRO subscribers." So no free Flickr key exists.
 ##   We do NOT pay for Flickr PRO for a free personal tool. The "where CC
@@ -104,24 +104,24 @@ kept because it is more granular than the Doctrine) before doing anything.
 ##   stale the moment it's committed; Open-Meteo AQI is live at view time (same
 ##   pattern as the Tonight weather). Don't commit a fire snapshot into spots.json.
 
-## Versioning (Noah, 2026-07-20): version.capability.iteration (same as the
+## Versioning (settled 2026-07-20): version.capability.iteration (same as the
 ## sibling apps). sw.js CACHE = `pointer-<x.y.z>` and src/data/changelog.js
 ## CHANGELOG[0].v carry the SAME triplet — bump both together; the ⓘ panel's
-## "Version" stamp renders CHANGELOG[0].v. Major (x) is Noah's call. 1.0.0 was
+## "Version" stamp renders CHANGELOG[0].v. Major (x) is the owner's call. 1.0.0 was
 ## declared at the first full release (2026-07-20).
 
 ## Cross-app lessons live in the HUB: `LESSONS.md` in noahjefferson, beside the
-## Doctrine (Noah, 2026-07-27: "create a place to log lessons learned that this
-## and other apps can benefit from instead of learning things repeatedly").
+## Doctrine. The requirement, settled 2026-07-27: cross-app lessons need ONE
+## place, so a thing learned here is not learned again from scratch in a sibling.
 ## Read it every session; APPEND to it whenever something learned here would
 ## have saved time in a different app. THIS repo's own LESSONS.md is a different
 ## document — the stack contract (build/deploy/vendor conventions).
 
 ## Project facts (append on every release, unprompted)
 - 2026-07-28 1.20.4 "The smallest writing got bigger" (an ITERATION) BUILT on
-  staging, UNPROMOTED — and note WHY, because it is a rule now. Noah: "You can
-  merge the ones that are ready, DON'T PROMOTE ANYTHING THAT YOU DIDN'T MAKE."
-  This repo's `accessibility` branch is 8 commits ahead of main and only 3 are
+  staging, UNPROMOTED — and note WHY, because it is a rule now. THE RULE: a
+  session may promote what it made and what is ready; it must NEVER promote work
+  it did not make. This repo's `accessibility` branch is 8 commits ahead of main and only 3 are
   mine; the other 5 are the 1.20.1/1.20.2 candidate, its guard commit, and the
   UNFINISHED overnight map sweep. So main stays where it is and staging gets the
   work. Frame and Studio were 1 commit each, both mine, so those promoted.
@@ -139,12 +139,13 @@ kept because it is more granular than the Doctrine) before doing anything.
   smoke-cardfits/thumbs/notes green, 0 pageerrors, no overflow at a 20px default.
 - 2026-07-28 1.20.3 "Two last places that ignored your text size" (an ITERATION)
   BUILT on staging, UNPROMOTED — and note WHY it stayed there while three sibling
-  apps shipped the same day. Noah said "Merge all"; for Frame / Clear Horizons /
+  apps shipped the same day, under one instruction to merge across all of them.
+  For Frame / Clear Horizons /
   Studio that meant main, but THIS repo's staging carries the unpromoted 1.20.0
   candidate INCLUDING an unfinished overnight map sweep ("24 of 28 map tiles
   answered… it will carry on tomorrow night"). Promoting the accessibility work
   would have dragged 1.20.1/1.20.2/1.20.0 + partial data into production, so it
-  went to staging and the promote decision was handed back to him. THE GENERAL
+  went to staging and the promote decision was handed back. THE GENERAL
   RULE: when a fix is based on staging, "merge it" cannot mean main until staging
   itself is promotable — check what else rides along before fast-forwarding.
   WHAT 1.20.3 IS: 1.20.2 (a PARALLEL SESSION's px→rem conversion, commit aa8604a)
@@ -165,11 +166,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   27.5px at a 20px default.
   sw CACHE pointer-1.20.3; changelog[0] 1.20.3. 263 tests + contrast + etiquette +
   smoke-cardfits (passes at 200% text) + smoke-thumbs + smoke-notes green.
-- 2026-07-27 1.19.0 → 1.20.0 BUILT on staging, unpromoted. Noah: "add those and
-  right-size the app and what it does and how it does it… region tabs load very
-  slowly… earlier conventions may no longer be valid."
+- 2026-07-27 1.19.0 → 1.20.0 BUILT on staging, unpromoted. THE ASK, in three
+  parts: add the missing counties, right-size what the app does and how it does
+  it, and fix region tabs that load very slowly — and treat earlier conventions
+  as possibly no longer valid.
   PERFORMANCE, all MEASURED, not guessed. A Yellowstone switch froze the UI for
-  1,329 ms here (so several times that on his iPad). (1) RANKING 1,586 → 281 ms:
+  1,329 ms here (so several times that on a tablet). (1) RANKING 1,586 → 281 ms:
   the `view` signal asked the astronomy engine for the sun once per ~1.1 km —
   ~1,500 sun models for Sacramento — and what that bought was ONE WORD ("evening
   light from the NW") that does not touch the score. Across the whole 200 km
@@ -191,9 +193,9 @@ kept because it is more granular than the Doctrine) before doing anything.
   elements on county lines by type/id, NAMES failing counties and keeps the rest
   (records.failedCounties), 2 s gap, sleepFn threaded through fetchOverpass so
   tests don't wait. ingest-osm.yml timeout 25 → 45 min.
-  JUNK RULES, Noah's words: IKEA out; a wild flower photographable there IN but
+  JUNK RULES, The rulings: IKEA out; a wild flower photographable there IN but
   nursery stock OUT (no leading \b — "Placervillenursery" is one word); agency
-  archives OUT unless of something still standing (his ancient tree).
+  archives OUT unless of something still standing (the ancient-tree case).
   photoDestination() reports every rejection WITH ITS REASON so the list is
   auditable rather than a silent filter.
   SHOW ALL / HIDE ALL in the toolbar + a separate "↺ Restore". FIRST BUILD MADE
@@ -223,11 +225,11 @@ kept because it is more granular than the Doctrine) before doing anything.
   still in its fetch step at last check. CHECK THE JOB'S OWN CONCLUSION, not the
   branch tip: "still running" is not "still alive" — that is the sibling of the
   "cancelled is not zero" lesson and it caught me out this session.
-- 2026-07-27 PROMOTED 1.18.0 to main (Noah's "Promote"). Production ==
+- 2026-07-27 PROMOTED 1.18.0 to main (on the explicit promote the staging gate waits for). Production ==
   origin/main == origin/staging == daaacd9 (a MERGE, not a fast-forward — main
   carried a tooling-only commit). Ships the two discovery layers with real data.
-- 2026-07-27 WHY ARE PHOTOS TAKEN THERE, AND WHY IS THERE NO PIN — Noah's two
-  questions, and both had answers worth having.
+- 2026-07-27 WHY ARE PHOTOS TAKEN THERE, AND WHY IS THERE NO PIN — two
+  questions put to this repo, and both had answers worth having.
   (A) THE TITLES WERE ALWAYS IN THE RESPONSE AND WE THREW THEM AWAY. `list=
   geosearch` returns each file's TITLE alongside its coordinates; the harvester
   mapped only pageid/lat/lng. Keeping it costs Wikimedia NOTHING and lets a
@@ -260,12 +262,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   Stanislaus). Others: Nevada County (Grass Valley / Nevada City / the Yuba),
   the Nevada shore of Lake Tahoe (Incline Village, Sand Harbor, Spooner), and
   the delta around Antioch / Rio Vista / Pittsburg. reportCoverageGaps() now
-  PRINTS this on every discovery run. THE FIX IS NOAH'S CALL, not mine: add the
+  PRINTS this on every discovery run. THE FIX IS THE OWNER'S CALL, not mine: add the
   counties people demonstrably photograph (Calaveras, Nevada, Amador, and the
   NV side of Tahoe), or narrow the bbox to the counties we actually ingest.
   Adding is the better answer — the photographs are proof people go there.
   STILL JUNK IN THE 37, reported not filtered (a judgement about what counts as
-  a photo destination, his to make): single-uploader DOCUMENTATION sets that are
+  a photo destination, and not a session's to make): single-uploader DOCUMENTATION sets that are
   not destinations — botanical specimen series (Chenopodium botrys, Cirsium
   occidentale), agency archives (NRCS, USFS Pacific Southwest Research Station),
   "Bear Third Treatment", "Placervillenursery Eldorador5" — and an IKEA.
@@ -327,9 +329,9 @@ kept because it is more granular than the Doctrine) before doing anything.
   which opens the densest discovered pin on the real region, reads its card, and
   proves a bloom event reaches the Upcoming list. 0 pageerrors.
 - 2026-07-26 1.15.1 "Place cards fit your text size" (an ITERATION, an
-  ACCESSIBILITY FIX). Noah asked the right question: "Is the popup a fixed size
-  that could fail if the font size was set higher on the phone for visibility?
-  If so, that is a violation of my accessibility values." IT WAS. Measured, on
+  ACCESSIBILITY FIX). THE RIGHT QUESTION was asked of the popup: is it a fixed
+  size that could fail once the reader raises their font size — and if so, that
+  is an accessibility failure, not a cosmetic one. IT WAS. Measured, on
   the then-PROMOTED build — raising text size is equivalent to shrinking the
   viewport, so 200% text on a 390x844 phone is a 195x422 viewport:
     100% text  map 390x667 — card opens, x reachable
@@ -356,15 +358,15 @@ kept because it is more granular than the Doctrine) before doing anything.
   if the card does not open, is taller than the map, hangs off any edge, or has
   an unreachable close. VERIFIED TO BITE: 4 of 5 sizes FAIL on the promoted
   build, 0 of 5 after. sw CACHE pointer-1.15.1; changelog[0] 1.15.1.
-  STILL OPEN, reported to Noah, NOT changed unilaterally: all 90 font-size
+  STILL OPEN, reported, NOT changed unilaterally: all 90 font-size
   declarations in styles.css are `px` and there are ZERO rem/em. Browser/OS
   page-zoom scales px so this fix covers that path, but a reader who raises only
   the DEFAULT FONT SIZE gets no change at all. Converting is a sweeping change
-  and his call.
-- 2026-07-26 STREAMFLOW CONFIRMED ON DEVICE (Noah: "it works"), right after
+  and not a session's to make unilaterally.
+- 2026-07-26 STREAMFLOW CONFIRMED ON DEVICE, right after
   tides. Real USGS instantaneous-values + daily-median numbers on a real
   waterfall, so 1.9.0's live path is verified end to end rather than against
-  mocks. WITH THIS, EVERY "NEEDS NOAH'S HANDS" ITEM IS CLOSED — the two live
+  mocks. WITH THIS, EVERY "NEEDS AN ON-DEVICE PASS" ITEM IS CLOSED — the two live
   per-spot sources the sandbox 403s (NOAA tides, USGS streamflow) are both
   confirmed, and nothing in the app now rests on a mocked network path.
   WHAT THIS MEANS FOR THE HARNESS: scripts/smoke-flow.mjs mocks USGS to prove
@@ -372,21 +374,21 @@ kept because it is more granular than the Doctrine) before doing anything.
   flakiness is its POPUP-READ step only. Now that the real path is confirmed on
   device, that smoke's remaining value is regression cover, not proof; do not
   read a flaky run as evidence the feature is broken.
-- 2026-07-26 TIDES CONFIRMED ON DEVICE (Noah: "tides confirmed"). Real NOAA
+- 2026-07-26 TIDES CONFIRMED ON DEVICE. Real NOAA
   CO-OPS numbers on a real coastal spot, so 1.8.0's live path — station lookup,
   hilo predictions, formatting, and the CSP allowance — is verified end to end
   and no longer rests on mocks. The sandbox 403s NOAA, which is why this could
-  only ever be closed by him.
-  NOTE the discoverability lesson that came with it: he could not FIND the tide
+  only ever be closed on a real device.
+  NOTE the discoverability lesson that came with it: the tide line could not be
   line at first, because it renders inside a COLLAPSED section that was labelled
   "Tonight & light" — a name that says nothing about tides. Renamed to "Tides,
-  sun & moon". WHEN HE REPORTED IT I RESTRUCTURED THE CARD INSTEAD OF FIXING THE
-  LABEL, which was wrong and he said so; the whole fix is one string. If a
+  sun & moon". WHEN IT WAS REPORTED I RESTRUCTURED THE CARD INSTEAD OF FIXING THE
+  LABEL, which was wrong and was corrected; the whole fix is one string. If a
   feature is invisible, check the LABEL before moving anything.
   STILL UNVERIFIED AGAINST REAL DATA: streamflow (1.9.0) — needs a real waterfall
   with a USGS gauge nearby; the sandbox 403s USGS the same way.
-- 2026-07-26 SERVICE ETIQUETTE + the ghost-town data gap. Noah asked why the
-  "Photographed" filter returned ZERO on California Ghost Towns. ANSWER: not
+- 2026-07-26 SERVICE ETIQUETTE + the ghost-town data gap. THE QUESTION: why did
+  the "Photographed" filter return ZERO on California Ghost Towns? ANSWER: not
   that no ghost town is photographed — that region had NO enrichment of any kind
   and never had. Reno was nearly as bare. When those two regions were created
   (1.5.12) only the curiosities adapter ran; the five enrichment workflows were
@@ -416,21 +418,21 @@ kept because it is more granular than the Doctrine) before doing anything.
   finally sends a User-Agent; and the per-spot sweep RECORDS what it probed
   (layer file `probed`) and skips anything probed within 30 days —
   VERIFIED: a CA re-run now makes ZERO requests instead of 205. COMMONS_FORCE=1
-  overrides. A CORRECTION I owe the record: I told Noah "Overpass has no 429
-  handling" — WRONG, I had grepped public-lands.mjs, which imports the shared
+  overrides. A CORRECTION I owe the record: I reported that Overpass had no 429
+  handling — WRONG. I had grepped public-lands.mjs, which imports the shared
   fetchOverpass; it handles 429/502/503/504 across mirrors.
   STILL OPEN, deliberately: PAD-US for california-ghost-towns. The adapter bulk-
   downloads every protected-area polygon in the bbox — statewide that is the same
   infeasible shape as the Commons tile sweep. The RIGHT build is an ArcGIS POINT
   query per spot (205 tiny queries, no geometry transferred), not a bulk pull.
-  Not built yet; Noah has seen the recommendation.
+  Not built yet; the recommendation has been handed over.
 - 2026-07-26 1.14.2 "A readable build stamp" (an ITERATION, a diagnostics FIX)
-  BUILT on staging. Noah: "Put a discrete version identifier for screenshot
-  troubleshooting." One ALREADY EXISTED and was useless — 0.13.x put a `.ver-tag`
-  at `position:fixed; left:6px; bottom:4px` at 10px in `--dim` on `--card`. On
-  his iPad the map LEGEND control sits in that exact corner and the screen edge
-  clipped it, so it photographed as a smudge (visible bottom-left in his
-  2026-07-26 popup screenshot). It also used an UNGATED pair: check-contrast
+  BUILT on staging. THE ASK: a discreet version identifier, so a screenshot can
+  say which build it is. One ALREADY EXISTED and was useless — 0.13.x put a
+  `.ver-tag` at `position:fixed; left:6px; bottom:4px` at 10px in `--dim` on
+  `--card`. On a tablet the map LEGEND control sits in that exact corner and the
+  screen edge clipped it, so it photographed as a smudge (visible bottom-left in
+  the 2026-07-26 popup screenshot). It also used an UNGATED pair: check-contrast
   covers dim-on-BG, not dim-on-CARD.
   FIX: moved into the header's `.bar-actions` row (background `--bg`, so
   `--dim` is the already-gated pair), 12px monospace, `margin-left:auto`.
@@ -448,27 +450,27 @@ kept because it is more granular than the Doctrine) before doing anything.
   would steal focus from the search box (the 1.6.0 reason refreshViews exists).
   sw CACHE pointer-1.14.2; changelog[0] 1.14.2. 192 tests + contrast + all six
   smokes green.
-- 2026-07-26 "Card opens, pushes down, then closes" — FIXED, CONFIRMED ON DEVICE
-  by Noah ("It works now") and promoted. Three screenshots + his two
-  clarifications cracked it; the first pass at this had the wrong theory.
-  WHAT HE SAID, and each detail matters: "only zoomed out like this, not zoomed
-  in", then "they are NOT one pin when I click. It opens, PUSHES DOWN, and then
-  closes."
+- 2026-07-26 A card that opened, was shoved down and then closed — FIXED, CONFIRMED ON DEVICE
+  and promoted. Three screenshots plus two clarifying details from the report
+  cracked it; the first pass at this had the wrong theory.
+  THE TWO DETAILS, and each one matters: it happens only ZOOMED OUT, not zoomed
+  in; and the pins are NOT merged into one at the moment of the tap — the card
+  opens, the map PUSHES DOWN, and then the card closes.
   THE PAIR: Salmon Falls (ghost_town, pin G, `salmon-falls@9qcumr`) and Old
   Salmon Falls Bridge (ruins, pin R, `old-salmon-falls-bridge@9qcut0`) are
-  353 m apart — visible as the two overlapping R/G pins in his third screenshot.
-  SYNTHESIS SCORES, the crux: bridge 0.2578, Salmon Falls 0.1260. The card he
+  353 m apart — visible as the two overlapping R/G pins in the third screenshot.
+  SYNTHESIS SCORES, the crux: bridge 0.2578, Salmon Falls 0.1260. The card that
   opens is the LOWER-scoring of the two.
-  THE CHAIN: at his zoom (~z13) 353 m is ~20px, INSIDE the 40px declutter cell —
+  THE CHAIN: at that zoom (~z13) 353 m is ~20px, INSIDE the 40px declutter cell —
   but the two only merge when a cell BOUNDARY doesn't happen to fall between
-  them, which is why he sometimes sees two separate pins. He taps G; Leaflet
-  AUTO-PANS the map to fit the card, which is the "pushes down" he described;
+  them, which is why two separate pins sometimes show. A tap on G; Leaflet
+  AUTO-PANS the map to fit the card, which is the downward shove in the report;
   that pan fires moveend → cull(); the pixel grid has now SHIFTED, G and R land
   in the SAME cell, R outscores G 2:1 and takes it, G is unmounted — and an
   unmounted marker takes its open popup with it. Zoomed IN the pair is far
   enough apart in px to never share a cell, so the card stays: exactly the
   "only zoomed out" signature. Zoomed OUT FURTHER they are already one cluster
-  pin, and a tap zooms instead of opening (the "2" badge in his first shot).
+  pin, and a tap zooms instead of opening (the "2" badge in the first shot).
   FIX: popupopen sets `forcedId` from the new `marker.__spotId`; popupclose
   clears it and re-culls so the pin can rejoin its cluster. In cull() forcedId
   makes catOk unconditional, `continue`s the rec OUT of the cell competition,
@@ -477,7 +479,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   NEVER REPRODUCED HEADLESSLY — the failure needs the grid boundary to start
   BETWEEN the two pins and the auto-pan to move it, and no synthetic tap arranged
   that. THE LESSON: the diagnosis was earned from the SCREENSHOTS plus two exact
-  words from Noah ("not one pin", "pushes down") and from MEASURING the data (353
+  details in the report — not one pin, and the map pushing down — plus MEASURING the data (353
   m apart; scores 0.258 vs 0.126), NOT from the harness. When a headless repro
   won't come, measure the data and read the user's wording literally — an earlier
   pass guessed "cluster tap" from the same screenshots and was wrong.
@@ -489,12 +491,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   scripts/smoke-popupstays.mjs guards the invariant (a tapped card survives the
   declutter pass) and is labelled in-file as not reproducing the report.
 - 2026-07-26 1.14.2 "A readable build stamp" (an ITERATION, a diagnostics FIX)
-  BUILT on staging. Noah: "Put a discrete version identifier for screenshot
-  troubleshooting." One ALREADY EXISTED and was useless — 0.13.x put a `.ver-tag`
-  at `position:fixed; left:6px; bottom:4px` at 10px in `--dim` on `--card`. On
-  his iPad the map LEGEND control sits in that exact corner and the screen edge
-  clipped it, so it photographed as a smudge (visible bottom-left in his
-  2026-07-26 popup screenshot). It also used an UNGATED pair: check-contrast
+  BUILT on staging. THE ASK: a discreet version identifier, so a screenshot can
+  say which build it is. One ALREADY EXISTED and was useless — 0.13.x put a
+  `.ver-tag` at `position:fixed; left:6px; bottom:4px` at 10px in `--dim` on
+  `--card`. On a tablet the map LEGEND control sits in that exact corner and the
+  screen edge clipped it, so it photographed as a smudge (visible bottom-left in
+  the 2026-07-26 popup screenshot). It also used an UNGATED pair: check-contrast
   covers dim-on-BG, not dim-on-CARD.
   FIX: moved into the header's `.bar-actions` row (background `--bg`, so
   `--dim` is the already-gated pair), 12px monospace, `margin-left:auto`.
@@ -513,11 +515,11 @@ kept because it is more granular than the Doctrine) before doing anything.
   sw CACHE pointer-1.14.2; changelog[0] 1.14.2. 192 tests + contrast + all six
   smokes green.
 - 2026-07-26 "Card opens and immediately collapses" — REPORTED, CAUSE NOT FOUND,
-  a guard shipped but NOT a confirmed fix. Noah, iPad screenshot: a Ghost town
+  a guard shipped but NOT a confirmed fix. From a tablet screenshot: a Ghost town
   card on the Sacramento region caught MID-FADE (Leaflet's popup fade-out), with
-  a "2" cluster badge beside it. NOTE THE TIMESTAMP — the screenshot reads
-  "20:01 Sat Jul 25", i.e. BEFORE the 1.14.1 promote, so it may predate the
-  culling/re-measure changes; FIRST STEP is to have him reload and re-check.
+  a "2" cluster badge beside it. NOTE THE TIMESTAMP — the screenshot was taken
+  BEFORE the 1.14.1 promote, so it may predate the
+  culling/re-measure changes; FIRST STEP is a reload onto 1.14.1 and a re-check.
   LEADING THEORY (plausible, unproven): Leaflet auto-pans to fit a popup →
   moveend → cull() → the 40px declutter grid shifts → a pin that loses its cell
   to a higher-scoring neighbour is unmounted and its OPEN CARD goes with it.
@@ -545,8 +547,8 @@ kept because it is more granular than the Doctrine) before doing anything.
   tapped card survives the declutter pass) and is LABELLED in-file as not
   reproducing the report.
 - 2026-07-26 1.14.1 "The map shows what you filtered for" (an ITERATION, a BUG
-  FIX) BUILT on staging (awaiting on-device pass). Noah: "Choosing only
-  photographed places works on list but not map." REPRODUCED headless, and it was
+  FIX) BUILT on staging (awaiting on-device pass). THE REPORT: choosing only
+  photographed places worked in the LIST and not on the MAP. REPRODUCED headless, and it was
   THREE separate faults stacked — the first one being the real culprit:
   (1) THE FILTERS PANEL ATE THE WHOLE SCREEN. Measured on a 390×844 phone
   viewport: filters collapsed → `.bar` 188px, map 655px; filters OPEN → `.bar`
@@ -608,9 +610,9 @@ kept because it is more granular than the Doctrine) before doing anything.
   failed SLOWLY through the sandbox proxy — those hosts are now aborted instantly
   so the only network the test waits on is the one it mocks.
 - 2026-07-26 1.14.0 "Who manages it, and hand-written detail" (a CAPABILITY)
-  BUILT + DATA ROLLED OUT on staging (awaiting on-device pass). Noah's "Promote,
-  PADUS then shared enrichment" — the last two items owed from the bare-card
-  conversation. TWO things.
+  BUILT + DATA ROLLED OUT on staging (awaiting on-device pass). The instruction
+  was to promote, then build PAD-US and then shared enrichment — the last two
+  items owed from the bare-card conversation. TWO things.
   (A) PAD-US (ingest/adapters/padus.mjs, USGS Protected Areas Database, US PUBLIC
   DOMAIN, no key). NOT a duplicate of the OSM public-lands layer: OSM says a
   boundary exists; PAD-US says WHO MANAGES IT, WHAT KIND of protected area it is,
@@ -658,7 +660,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   mortar site), SENTENCES ARE NOT; link to the official page instead of copying
   it; federal sources are public domain but already come in through their own
   adapters; NEVER copy from social platforms. First entry is Fairchild Park
-  Indian Grinding Rocks — the exact node Noah pointed at — which now reads
+  Indian Grinding Rocks — the exact node that was reported — which now reads
   archaeological, with real notes, golden_hour, short_walk and a link to the CSD
   page it was written FROM but not copied from.
   sw CACHE pointer-1.14.0; changelog[0] 1.14.0. 192 tests + contrast + all five
@@ -703,7 +705,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   osmEditLink(): any osm-sourced spot gets "Improve this in OpenStreetMap →"
   deep-linked to that exact node/way in the iD editor — the honest open-data
   answer to a thin card (fix once, every OSM consumer benefits, flows back here
-  next ingest). VERIFIED headless on Noah's two spots, TZ=America/Los_Angeles:
+  next ingest). VERIFIED headless on the two spots reported, TZ=America/Los_Angeles:
   Fairchild Park → "Bortle 5 sky · fairly open horizon (lowest N 0.4°) · 201 m up
   · sun sets NW 8:21 PM" + way/588194789 link; the Grinding Rocks node carries no
   bortle/horizon so it shows ONLY "sun sets NW 8:21 PM" + node/5618093482 link —
@@ -723,7 +725,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   get_job_logs tail window kept cutting above it) — read it on the next dispatch
   and extend TYPE_CATEGORY if trailheads/day-use hide under another type name.
 - 2026-07-25 1.12.0 "Write your own notes on a place" (a CAPABILITY) BUILT on
-  staging (awaiting on-device pass). The half of Noah's bare-card frustration
+  staging (awaiting on-device pass). The half of the bare-card complaint
   (OSM node/5618093482, Fairchild Park) that NO dataset can fix: OSM is bare, the
   El Dorado Hills CSD page is copyrighted prose (LINK ok, COPY not), and Facebook
   is out twice over (standing no-social-scraping rule + their ToS). So: let the
@@ -742,15 +744,14 @@ kept because it is more granular than the Doctrine) before doing anything.
   compute (Bortle/horizon/sun compass) instead of showing empty sections, a
   curated enrichment file keyed by spot id, and PAD-US for park manager/
   designation/access.
-- 2026-07-25 PROMOTED 1.9.0 + 1.10.0 + 1.11.0 + RIDB to main (Noah's "Promote to
-  main and continue"). Production == origin/staging == origin/main == 044d8cc
+- 2026-07-25 PROMOTED 1.9.0 + 1.10.0 + 1.11.0 + RIDB to main (on the explicit promote the staging gate waits for). Production == origin/staging == origin/main == 044d8cc
   (clean 5-commit fast-forward). Ships: streamflow, National Register (692
   historic_site pins), the 25-pin-type granular relabel, and Recreation.gov
   facilities WITH descriptions. RIDB counts: Sac 101, Yellowstone 94, Humboldt 13,
   PCB 1 — reno + hahira dispatched twice and still show no ridb.json (either a
   genuine 0 for those bboxes or the runs didn't commit; CHECK THE LOG before
-  assuming 0). GENERIC-BUCKET AUDIT (Noah: "do the generic buckets still serve a
-  purpose"): MEASURED what remains — viewpoint 331 (271 explicit
+  assuming 0). GENERIC-BUCKET AUDIT, asking whether the generic buckets still
+  serve a purpose: MEASURED what remains — viewpoint 331 (271 explicit
   tourism=viewpoint), park 1555 (1550 explicit leisure=park), marker 170
   (explicit memorial/monument + Wikidata/HMdb markers with no OSM tag), oddity 95
   (100% tourism=attraction). Conclusion: the first three are real claims, not
@@ -760,12 +761,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   make. Also swept 12 historic=district → historic_site and 6 tourism=camp_site →
   campsite out of "Park".
 - 2026-07-25 RIDB (Recreation.gov) BUILT + rolling out — the LAST parked source,
-  unblocked when Noah added the key. ingest/adapters/ridb.mjs; key read from the
+  unblocked once the key was added. ingest/adapters/ridb.mjs; key read from the
   RIDB_API_KEY repo secret, sent as the `apikey` HEADER, never logged and never
   written to a data file (ingest-time only — a key can't ship in a client-side
   app). Carries DESCRIPTIONS: RIDB is federal public domain, so unlike a city/
   district website we may include the text (HTML stripped, trimmed to ~400 chars)
-  — this is the direct fix for Noah's bare-card complaint. Counts so far: Sac 101,
+  — this is the direct fix for the bare-card complaint. Counts so far: Sac 101,
   Yellowstone 94, Humboldt 13, PCB 1 (reno + hahira still running), ALL with a
   description. TWO BUGS FOUND ON THE FIRST RUN (both mine, fixed): (1) I broke
   pagination on a SHORT page — RIDB returns fewer rows than `limit` while more
@@ -783,10 +784,10 @@ kept because it is more granular than the Doctrine) before doing anything.
   /permits, /tours. dedup SOURCE_PRIORITY gains 'ridb' (below osm/wikidata,
   above nrhp/gnis). 8 adapter tests incl. one pinning the short-page paging bug.
 - 2026-07-25 1.11.0 "Places called what they actually are" (a CAPABILITY) BUILT
-  on staging (awaiting on-device pass). Noah pointed at OSM node/5618093482
-  (Fairchild Park Indian Grinding Rocks): bare card AND mislabeled "Ruins &
-  mines". He asked to "separate things out granularly… suggest as many labels as
-  are necessary and useful". A SURVEY of the real data showed the mislabeling was
+  on staging (awaiting on-device pass). THE REPORT named OSM node/5618093482
+  (Fairchild Park Indian Grinding Rocks): a bare card, AND mislabelled "Ruins &
+  mines". THE ASK that followed: separate the types out granularly, with as many
+  labels as are necessary and useful. A SURVEY of the real data showed the mislabeling was
   systemic: 1283 natural=peak were "Viewpoint", 251 tourism=artwork were "Oddity",
   171 leisure=nature_reserve were "Park". TEN new pin types (15 → 25): summit ▲,
   public_art A, nature_reserve N, archaeological ◆, mine X, cave K, arch ∩,
@@ -805,16 +806,17 @@ kept because it is more granular than the Doctrine) before doing anything.
   3 OLD TESTS had encoded the mislabeling and were updated. sw CACHE
   pointer-1.11.0; changelog[0] 1.11.0. 146 tests + contrast + smoke green.
   STILL OPEN from that conversation (offered, not yet built): per-spot USER NOTES
-  (his own words, per-device, in the backup bundle), an "Improve this in
+  (the reader's own words, per-device, in the backup bundle), an "Improve this in
   OpenStreetMap" deep link, making thin cards lead with what we compute
   (Bortle/horizon/light), a curated enrichment file keyed by spot id, and PAD-US
   for park manager/designation/access. FACEBOOK IS OUT (settled: no social
   scraping + ToS); a CSD/city website may be LINKED but its prose is copyrighted
   — only federal sources (RIDB/NRHP/GNIS/USGS/NOAA) may have their text carried.
 - 2026-07-25 1.10.0 "Historic places, properly" (a CAPABILITY) BUILT + DATA ROLLED
-  OUT on staging (awaiting on-device pass). Noah, sharply — I had stopped to ask
-  about RIDB when NRHP needed nothing from him: "Well?? What are you doing??"
-  Correct call; NRHP is keyless, so it should have been built without asking.
+  OUT on staging (awaiting on-device pass). I had stopped to ask about RIDB when
+  NRHP needed nothing from anybody, and was pulled up sharply for it. The
+  correction stands: NRHP is keyless, so it should have been built without
+  asking. DON'T STOP TO ASK FOR SOMETHING THE WORK DOES NOT NEED.
   NEW SOURCE ingest/adapters/nrhp.mjs — National Register of Historic Places via
   the NPS ArcGIS MapServer (cultural_resources/nrhp_locations), US PUBLIC DOMAIN,
   NO KEY. Discovers its layers AND FIELD NAMES at runtime, case-insensitively
@@ -848,9 +850,9 @@ kept because it is more granular than the Doctrine) before doing anything.
   for the 1.7.0 events layer; SKIP /campsites, /permits, /tours, /media (media =
   third-party image licensing risk).
 - 2026-07-25 1.9.0 "Is the waterfall actually running?" (a CAPABILITY) — LIVE and
-  CONFIRMED ON DEVICE by Noah 2026-07-26 ("it works"): real USGS gauge numbers on
+  CONFIRMED ON DEVICE 2026-07-26: real USGS gauge numbers on
   a real waterfall. Chosen as the next source after the three-part plan shipped
-  (Noah: "please continue") — it was my top recommendation after tides, and it
+  and the work was told to carry on — it was my top recommendation after tides, and it
   pays off the GNIS/OSM waterfall data directly: a named fall is a year-round
   pin, the SHOT isn't. NEW src/model/streamflow.js — USGS Water Services, US
   PUBLIC DOMAIN, no key. TWO keyless calls, SAME SHAPE AS TIDES: (1) the
@@ -885,11 +887,11 @@ kept because it is more granular than the Doctrine) before doing anything.
   rather than fixed sleeps. Smoke is stable over 3 consecutive runs. 134 tests
   (+9 streamflow) + contrast + ALL FOUR smokes (filters/events/tides/flow) green.
   STILL OPEN from the sources list: National Register of Historic Places (NPS,
-  public domain) and Recreation.gov RIDB (needs a free API key = a Noah step).
+  public domain) and Recreation.gov RIDB (needs a free API key = a manual step the session token cannot perform).
 - 2026-07-25 1.8.0 "Tides for the coast" (a CAPABILITY) — LIVE and CONFIRMED ON
-  DEVICE by Noah 2026-07-26 ("tides confirmed"): real NOAA numbers on a real
-  coastal spot. That closes the last thing only his hands could check here; the
-  sandbox 403s NOAA, so everything before this was mocked. Step #3 (last) of Noah's three-part plan. NEW src/model/tides.js —
+  DEVICE 2026-07-26: real NOAA numbers on a real
+  coastal spot. That closes the last thing only a real device could check here; the
+  sandbox 403s NOAA, so everything before this was mocked. Step #3 (last) of the three-part plan. NEW src/model/tides.js —
   NOAA CO-OPS, US PUBLIC DOMAIN, no key, CORS. TWO keyless calls: the
   tide-predictions STATION list (mdapi .../stations.json?type=tidepredictions,
   fetched ONCE per session, cached in a module var) then today's hilo
@@ -911,12 +913,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   and call view.focusSpot(spot) inside the SAME evaluate to render + read the
   actual popup DOM. Both coastal (line + station present) and inland (element
   removed) verified. 125 tests (+8 tides) + contrast + all three smokes green.
-  ALL THREE of Noah's asks are now built: 1.6.0 search+distance, 1.7.0 events,
-  1.8.0 tides — all UNPROMOTED on staging awaiting his device pass.
+  ALL THREE asks are now built: 1.6.0 search+distance, 1.7.0 events,
+  1.8.0 tides — all UNPROMOTED on staging awaiting the on-device pass.
 - 2026-07-25 1.7.0 "Events" (a CAPABILITY) BUILT on staging (awaiting on-device
-  pass). Step #2 of Noah's three ("do them in that order"). Noah mid-build: "make
-  sure the events tab explains it's limitations" — so the honesty note is a
-  REQUIREMENT, in TWO places. NEW src/model/events.js: an event is an ordinary
+  pass). Step #2 of the three, in the order they were asked for. A REQUIREMENT
+  added mid-build: the events tab must state its own limitations — so the honesty
+  note is not optional, and it is in TWO places. NEW src/model/events.js: an event is an ordinary
   Spot, category 'event', carrying tags.event {month,day,days,when,recurs:
   'annual',skywide}. nextOccurrence() rolls a FINISHED annual event to next year
   but keeps a multi-day run current through its last day; formatEventWhen() →
@@ -931,7 +933,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   #9b3b6a (6.51:1 white, added to check-contrast CATS) + .pin-event — so it
   filters like any pin type. listview: "Upcoming" sort button + the date in
   detailBits; mapview popupFor: a .popup-event line (+ "visible region-wide" for
-  skywide). LIMITATIONS STATED (Noah's ask): a `.list-eventsnote` at the top of
+  skywide). LIMITATIONS STATED (a stated requirement): a `.list-eventsnote` at the top of
   the Upcoming view — hand-picked, NOT a complete listing (no open/licence-clean
   events database exists), annual dates approximate, confirm with the official
   source — AND a matching "Events" section in the ⓘ panel (install.js openAbout).
@@ -944,9 +946,9 @@ kept because it is more granular than the Doctrine) before doing anything.
 - 2026-07-25 1.6.0 "Search and near-me" — see the entry below; step #1 of the
   same three-part plan.
 - 2026-07-25 1.6.0 "Search and near-me" (a CAPABILITY) BUILT on staging (awaiting
-  on-device pass). Noah asked for search + a distance filter as the groundwork
-  under an events layer ("do them in that order": #1 search+distance, #2 events,
-  #3 NOAA tides). (A) SEARCH — a full-width `.search-row` name box under the
+  on-device pass). THE ASK: search plus a distance filter as the groundwork under
+  an events layer, built in that order — #1 search+distance, #2 events,
+  #3 NOAA tides. (A) SEARCH — a full-width `.search-row` name box under the
   region pills (main.renderHeader), module `searchQuery`. Filters BOTH views by
   name, OVERRIDING the pin-type/layer/distance filters: spotsForList returns
   spotsForMap().filter(matchesSearch) when a query is set; syncMapFilter sets
@@ -967,7 +969,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   5 mi narrows 300→70; dist chips use the standard toggle look; ZERO pageerrors.
   111 tests + contrast green. NEXT (in order): #2 events layer (schedule model +
   Upcoming view, curated + computed celestial events), then #3 NOAA tides.
-- 2026-07-25 PROMOTED source #3 (GNIS) to main (Noah's "promote"). Production ==
+- 2026-07-25 PROMOTED source #3 (GNIS) to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == origin/main == 2b563ad (clean 4-commit fast-forward). ALL
   THREE curiosity sources are now COMPLETE and live: #1 Wikidata curiosities, #2
   OSM feature tags, #3 USGS GNIS. GNIS counts by region: Yellowstone 252 (104
@@ -1015,12 +1017,11 @@ kept because it is more granular than the Doctrine) before doing anything.
   timeout, re-dispatch it; only a "success" with "osm-features: none" in the log
   is a true 0. Sac + Yellowstone features are already LIVE on main (promoted);
   Humboldt + PCB feature DATA is STAGING-ONLY (2 runner commits ahead of main,
-  5ee7228 + f509fcd) — a data-only PROMOTE CANDIDATE awaiting Noah's call (the
+  5ee7228 + f509fcd) — a data-only PROMOTE CANDIDATE awaiting the promote decision (the
   display code, refineCategory feature-first, is already on main). NEXT: source
   #3 (USGS GNIS, US public domain, independent of Overpass) — the last of the
   "three sources".
-- 2026-07-25 PROMOTED 1.5.15 + 1.5.16 + 1.5.17 to main (Noah's "promote what is
-  there now to main"). Production == origin/staging == origin/main == cc8af8d.
+- 2026-07-25 PROMOTED 1.5.15 + 1.5.16 + 1.5.17 to main (on the explicit promote the staging gate waits for). Production == origin/staging == origin/main == cc8af8d.
   NOTE this was a MERGE, not a fast-forward (same shape as the 1.5.9→1.5.12
   promote): main carried a tooling-only commit (834e375 "osm-features
   dispatchable on main") that staging didn't have as a commit, so the branches
@@ -1039,11 +1040,11 @@ kept because it is more granular than the Doctrine) before doing anything.
   promote time — a future promote if they land features; Reno + Hahira confirmed
   0), then source #3 (USGS GNIS).
 - 2026-07-25 1.5.17 "Filter buttons look like real toggles" (an ITERATION, a
-  design FIX) BUILT on staging (awaiting on-device pass). Noah, on the 1.5.16
-  bar: "'only show places...' is a good explanation. Those should not be crossed
-  out though. That is very amateur. They should be toggles or on/off radio
-  buttons or lights or something like that. Use actual accepted design principles
-  instead of making shit up." The off-state strike-through (a long-standing
+  design FIX) BUILT on staging (awaiting on-device pass). THE REPORT on the
+  1.5.16 bar: the "only show places…" wording explains itself well, but the chips
+  must NOT be crossed out — an off state should be a toggle, an on/off control or
+  a light, drawn to an accepted design convention rather than an invented one.
+  The off-state strike-through (a long-standing
   choice as the "non-hue off channel") read as deleted/disabled, not "off". FIX:
   replaced it with the STANDARD FILTER-CHIP pattern (Material/iOS filter pills),
   applied to BOTH the place-type chips AND the layer chips: SELECTED = solid
@@ -1060,13 +1061,13 @@ kept because it is more granular than the Doctrine) before doing anything.
   looks professional in both themes. 105 tests + contrast green. NO GitHub
   metadata step.
 - 2026-07-25 1.5.16 "Filters that make sense: simple 'must also have'" (an
-  ITERATION, a UX FIX) BUILT on staging (awaiting on-device pass). Noah: "The
-  layers and filters really don't make any sense when I start using them?" I
+  ITERATION, a UX FIX) BUILT on staging (awaiting on-device pass). THE REPORT:
+  the layers and filters do not make sense in use. I
   named 4 real inconsistencies I'd introduced (two look-alike chip rows with
   DIFFERENT tap rules; a layer does nothing until a pin type is also on;
   strike-through meant BOTH "off" and "exclude"; "Dark sky" existed twice) and
   offered (a) simplify layers to on/off vs (b) keep tri-state but distinguish it.
-  Noah answered "a" (confirmed: "the 'a' was me answering your question"). FIX
+  Option (a) was chosen. FIX
   (option a): (1) LAYERS ARE NOW SIMPLE ON/OFF "must have" — store K_LAYERS
   bumped v2→v3, activeLayers() is a plain Set of required keys (was a tri-state
   Map); passesLayers requires EVERY layer, no exclude state. main renderHeader
@@ -1105,23 +1106,24 @@ kept because it is more granular than the Doctrine) before doing anything.
   california-ghost-towns correctly has NO osm-features (OSM isn't run there —
   curiosity-only). STILL OWED after this: SOURCE #3 (USGS GNIS, US public domain,
   independent of Overpass).
-- 2026-07-25 PROMOTED 1.5.13 + 1.5.14 to main (Noah's "Promote"). Production ==
+- 2026-07-25 PROMOTED 1.5.13 + 1.5.14 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == origin/main == 5c132c0 (clean 2-commit fast-forward from
   1.5.12 / bd74f03). Ships: 1.5.13 (oddity split into Ghost town/Waterfall/Hot
   spring/Lighthouse/Ruins pin types + filter buttons, refineCategory at load) and
   1.5.14 (collapsible "Filters" header so the chips don't eat half a phone screen
-  — fixes the "half the screen is covered, tiles won't open" regression). Noah's
-  trigger: "no way to turn on ghost towns on a normal layer" — the dedicated
+  — fixes the regression where the header covered half the screen and place
+  cards could not open because of it). THE
+  TRIGGER: there was no way to turn on ghost towns on a normal layer — the dedicated
   Ghost town button existed only on staging until this promote. staging == main
   after this. NO GitHub metadata step. STILL OWED: source #2 (specific OSM feature
   tags) + source #3 (USGS GNIS) from the "three sources" ask.
 - 2026-07-25 1.5.14 "Collapsible filters (map fills the screen)" (an ITERATION,
-  mobile BUG FIX) BUILT on staging (awaiting on-device pass). Noah (phone
-  screenshot, v1.5.12): "Half the screen is covered and tiles won't open now
-  because of it." ROOT CAUSE: the filter header had grown unbounded — 7 region
+  mobile BUG FIX) BUILT on staging (awaiting on-device pass). FROM A PHONE
+  SCREENSHOT of v1.5.12: half the screen was covered by the header and place
+  cards would not open because of it. ROOT CAUSE: the filter header had grown unbounded — 7 region
   pills (wrapping to 3 rows) + 10→15 category chips + 8 layer chips + hint + view
   toggle ≈ 10+ rows ≈ HALF a phone screen; the map was squished so pin popups had
-  no room ("tiles won't open"). 1.5.13's 5 new category chips made it worse. FIX
+  no room, which is why cards would not open. 1.5.13's 5 new category chips made it worse. FIX
   (main.renderHeader + styles.css): (1) the category + layer chip rows are now
   behind a labeled `.filters-toggle` ("Filters (N) ▾", N = active count, aria-
   expanded/controls) — COLLAPSED BY DEFAULT (module `filtersOpen=false`); tapping
@@ -1136,8 +1138,8 @@ kept because it is more granular than the Doctrine) before doing anything.
   pageerrors. NOTE this is a PRODUCTION UX regression (1.5.12 is live) — worth
   promoting soon.
 - 2026-07-25 1.5.13 "Split 'oddity' into finer pin types" (an ITERATION) BUILT on
-  staging (awaiting on-device pass). Noah: "I feel like 'oddities' should be split
-  to more filter buttons?" The oddity bucket had become a grab-bag (curiosities +
+  staging (awaiting on-device pass). THE ASK: split "oddities" across more filter
+  buttons. The oddity bucket had become a grab-bag (curiosities +
   OSM art/ruins). SPLIT into 5 new CATEGORIES + kept oddity as the catch-all:
   ghost_town (G), waterfall (F), hot_spring (S), lighthouse (L), ruins (R, historic
   ruins/mines). Reclassified at LOAD (no re-ingest): main.loadRegionData now does
@@ -1159,7 +1161,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   tests (+4 refineCategory) + contrast green. NOTE the "Waterfall/etc." filters
   only catch what Wikidata tagged as that kind; OSM-native natural=waterfall etc.
   come with SOURCE #2 (still owed, + source #3 GNIS).
-- 2026-07-25 PROMOTED 1.5.9→1.5.12 to main (Noah's "Promote"). Production ==
+- 2026-07-25 PROMOTED 1.5.9→1.5.12 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == origin/main == bd74f03. NOTE this promote was a MERGE, not a
   fast-forward: main had 2 tooling-only commits (the curiosities adapter/workflow
   added to main so workflow_dispatch could find it) that staging didn't carry as
@@ -1173,9 +1175,9 @@ kept because it is more granular than the Doctrine) before doing anything.
   unchanged; regions/data aren't repo metadata). STILL OWED: source #2 (specific
   OSM feature tags) + source #3 (USGS GNIS) from the "three sources" ask.
 - 2026-07-25 1.5.12 "Two new areas: California Ghost Towns & Reno" (a CAPABILITY)
-  BUILT on staging (awaiting on-device pass). Noah: "I like the ghost town region
-  but they also load in other regions? I need a new region around the balloon
-  race." TWO new regions in config/regions.json: (1) `california-ghost-towns` —
+  BUILT on staging (awaiting on-device pass). TWO REQUESTS: keep the ghost-town
+  region but stop ghost towns loading into every other region as well, and add a
+  region around the balloon race. TWO new regions in config/regions.json: (1) `california-ghost-towns` —
   a STATEWIDE theme region (bbox 32.4/-124.6/42.1/-117.0 = all CA + nearby NV),
   GHOST-TOWN-ONLY via a new region field `curiosityClasses:['Q74047']` that the
   curiosities adapter honors (classesFor(region) filters the VALUES list) so a
@@ -1205,8 +1207,8 @@ kept because it is more granular than the Doctrine) before doing anything.
   "three sources" ask: SOURCE #2 (specific OSM feature tags) and SOURCE #3 (USGS
   GNIS) — source #1 (Wikidata curiosities) is done across all 7 regions.
 - 2026-07-25 1.5.11 "Atlas-Obscura finds (source #1: Wikidata curiosities)"
-  (a CAPABILITY) BUILT on staging (awaiting on-device pass). Noah: "run the three
-  suggested sources in order" — this is SOURCE #1 of 3. NEW adapter ingest/
+  (a CAPABILITY) BUILT on staging (awaiting on-device pass). THE ASK: build the
+  three suggested sources in order — this is SOURCE #1 of 3. NEW adapter ingest/
   adapters/wikidata-curiosities.mjs (CC0) + `curiosities` command + workflow
   wikidata-curiosities.yml: queries the region bbox (wikibase:box) for P31/P279*
   of curiosity CLASSES → 'oddity' spots tagged {curiosity: kind, wikidata,
@@ -1234,18 +1236,18 @@ kept because it is more granular than the Doctrine) before doing anything.
   lighthouse/obelisk/tower, historic=archaeological_site/wreck — ODbL); SOURCE #3
   (USGS GNIS named natural features, US public domain); the STATEWIDE "California
   Ghost Towns" region (CA + nearby NV, ghost-town-only) for Bodie + whole-state
-  coverage; the Great Reno Balloon Race curated pin. Noah leaning to statewide
+  coverage; the Great Reno Balloon Race curated pin. The preference leans statewide
   region over an Eastern-Sierra local region (recommendation given, not yet
   confirmed).
 - 2026-07-25 1.5.9 "Tri-state layers, cleaner oddities, faster opens" (an
   ITERATION: design fix + data quality + perf/UX) BUILT on staging (awaiting
-  on-device pass — NEEDS NOAH'S HANDS: the tri-state feel + real return-visit
-  speed on the iPad). Noah, three asks across the turn: "the must-have row
-  conflicts with my tri-state filter design", "'unnamed oddity' looks like
-  roundabouts", and "make it say something while it's loading… every return page
+  on-device pass — NEEDS AN ON-DEVICE PASS: the tri-state feel + real return-visit
+  speed on a tablet). THREE ASKS across the turn: the must-have row conflicts
+  with the established tri-state filter design; "unnamed oddity" pins read as
+  roundabouts; and the app must say something while it is loading — every return page
   visit makes it resort and look retarded in how long it takes." FOUR changes:
   (A) TRI-STATE LAYERS RESTORED — 1.5.7 collapsed the layer chips to binary
-  "Must have"; that broke Noah's long-standing design (layer chips are tri-state
+  "Must have"; that broke the long-standing design (layer chips are tri-state
   require/exclude, ONLY pin-type chips are on/off — see the 1.0.0 note). store
   K_LAYERS bumped v1→v2: activeLayers() is now a Map(key→'require'|'exclude')
   (was a Set). Header "Layers:" row cycles neutral→require(✓)→exclude(✕)→clear
@@ -1276,15 +1278,15 @@ kept because it is more granular than the Doctrine) before doing anything.
   cache makes it moot for RETURN visits; only the very first visit per build
   still pays the rank, now behind the splash); adding MORE atlas-obscura sources
   (Wikidata curiosity classes / OSM natural tags / USGS GNIS — see prior entry).
-- 2026-07-25 PROMOTED 1.5.4→1.5.8 to main (Noah's "merge."). Production ==
+- 2026-07-25 PROMOTED 1.5.4→1.5.8 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == origin/main == 2dfa70f (clean 5-commit fast-forward from
   1.5.3 / bfd6ae9). Ships the whole Top-spots redesign arc + curation + perf:
   1.5.4/5/6 score labeling→recalibration (never shown alone), 1.5.7 (trophy gone,
   one filter bar with "Must have" layers, "Best" sort + distance/bearing in the
   list), 1.5.8 (hide/block places + blocklist manager, oddity junk filter,
   ranking/marker perf fix — hide 1.18s→~155ms). staging == main after this. NO
-  GitHub metadata step. OPEN FOLLOW-UPS (Noah asked "what more points to atlas-
-  obscura locations?"): candidate license-clean sources to ADD curiosities —
+  GitHub metadata step. OPEN FOLLOW-UPS, from the question of what else points
+  at atlas-obscura-type locations: candidate license-clean sources to ADD curiosities —
   (1) EXPAND wikidata-markers to curiosity CLASSES (folly Q170980, land art,
   roadside attraction Q2380335, ghost town, lighthouse, observation tower,
   natural arch/waterfall/hot spring, sculpture) CC0 + Wikipedia link-out; (2)
@@ -1296,11 +1298,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   interactivity.
 - 2026-07-25 1.5.8 "Hide places, fewer junk oddities, snappier" (an ITERATION:
   feature + data-quality + perf) BUILT on staging (awaiting on-device pass —
-  NEEDS NOAH'S HANDS: the hide flow + real load/zoom feel on the iPad). Noah:
-  "a way to permanently delete, or at least block… certain locations" (Southwind
-  Labradors), "a LOT of oddities are just garbage… NOT atlas obscura type
-  wonders", "a blocked-list… sorted by most recent, and recovered", and load/
-  zoom/reset "take a long time… seems wrong". THREE things: (A) HIDE/BLOCK — a
+  NEEDS AN ON-DEVICE PASS: the hide flow + real load/zoom feel on a tablet).
+  FOUR REPORTS: a place should be permanently deletable, or at least blockable
+  (the example was a dog breeder's premises); a LOT of oddities are junk rather
+  than atlas-obscura-type wonders; a blocked list should exist, most-recent
+  first, with a way to bring one back; and load, zoom and reset all take long
+  enough to feel wrong. THREE things: (A) HIDE/BLOCK — a
   per-device blocklist (store.js K_HIDDEN + hiddenSpots/hideSpot/unhideSpot/
   clearHidden, in the export bundle). Hidden ids are dropped at the SOURCE
   (spotsForMap filters them) so they leave map + list + ranking. UI: "Hide this
@@ -1326,7 +1329,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   (~1.3 s headless) is one-time module load + a single rank; better on-device
   once the SW caches assets. DEFERRED (offered): making the FIRST rank async so
   the map is instantly interactive — a bigger change, left for a follow-up if it
-  still drags on his iPad; also "add MORE Atlas-Obscura-type sources" (this pass
+  still drags on a tablet; also adding MORE Atlas-Obscura-type sources (this pass
   only REMOVES junk). sw CACHE pointer-1.5.8; changelog[0] 1.5.8. VERIFIED
   headless (playwright, Sac): hide Southwind from list → 132→131, gone, persists
   across reload, manager lists it, undo + Restore all work; oddity list 132→94
@@ -1334,14 +1337,15 @@ kept because it is more granular than the Doctrine) before doing anything.
   each; ZERO pageerrors. 91 tests + check-contrast green. BRANCH NOTE: on
   `staging` per the standing rule. NO GitHub metadata step.
 - 2026-07-25 1.5.7 "One filter bar, and Best in the list" (an ITERATION, a UX
-  REDESIGN) BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the
+  REDESIGN) BUILT on staging (awaiting on-device pass — NEEDS AN ON-DEVICE PASS: the
   whole filter/sort/list flow on a real device). SUPERSEDES the unpromoted
   1.5.4/1.5.5/1.5.6 Top-spots-clarity arc (see trail at the bottom of this
-  entry). Noah, blunt: "the trophy icon needs to leave, entirely… integrate them
-  with the other filters in a way that makes sense. They are also NOT applying to
-  the list after the pop-up closes, making them a second filter in a second
-  place… I want to see miles from me for each in the list, with a cardinal
-  direction/degrees… show me a commonly used standard of design." ROOT PROBLEM:
+  entry). THE REPORT, in four parts: the trophy icon must go entirely; its
+  filters belong integrated with the other filters; they do NOT apply to the list
+  once the popup closes, which makes them a second filter system in a second
+  place; the list should show miles from the reader and a cardinal
+  direction in degrees; and the whole thing should follow a commonly used design
+  standard rather than an invented one. ROOT PROBLEM:
   TWO disjoint filter systems — the header category chips (map+list) AND the
   trophy popup's tri-state layer requires (map only, via setSpotFilter, never the
   list, and lost on close). REDESIGN to the conventional filterable/sortable-list
@@ -1370,7 +1374,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   check-contrast green. BRANCH NOTE: on `staging` per the standing rule. NO
   GitHub metadata step.
   ---- FOLDED, UNPROMOTED (reasoning trail for the Top-spots arc) ----
-  1.5.4 labeled the score "N / 100" → Noah: "looks like a failing grade" (top
+  1.5.4 labelled the score "N / 100", which reads as a failing grade (top
   real scores ~mid-50s, score = Σ(value·weight)/Σ(all live weights), never 100).
   1.5.5 dropped the "/100", called it a relative "score", reworded the blurb to
   match a score not a layer count ("match the score"), and made the trophy a
@@ -1381,15 +1385,15 @@ kept because it is more granular than the Doctrine) before doing anything.
   + per-signal constants). All THREE of those survive in 1.5.7 (the score, the
   strength words at 48/30, and the number-comments) — only their HOME changed
   from the trophy popup to the list. The 🏆 button 1.5.5 added is now removed.
-- 2026-07-25 PROMOTED 1.5.3 to main (Noah's "Merge"). Production ==
+- 2026-07-25 PROMOTED 1.5.3 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == origin/main == bfd6ae9 (clean 2-commit fast-forward from
   1.5.2 / 9e5b52e). Ships the List-view fix: the header category buttons now
   filter the list like they filter the map, plus the denied-location distance-
   sort re-render-loop fix. staging == main after this. No GitHub metadata step.
 - 2026-07-24 1.5.3 "Filters work in the list too" (an ITERATION, a BUG FIX)
-  BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: the List view
-  filtering + sort feel on a real device). BUG (Noah: "Filter buttons do not
-  work in list view"): the header category chips (viewpoint/park/marker/…) had
+  BUILT on staging (awaiting on-device pass — NEEDS AN ON-DEVICE PASS: the List view
+  filtering + sort feel on a real device). BUG, as reported: the filter buttons
+  did not work in list view. The header category chips (viewpoint/park/marker/…) had
   ZERO effect on the List view — it always showed every place in the region.
   ROOT CAUSE (main.js): both setViewMode('list') and refresh() fed the list
   `spotsForMap()` (the FULL set) filtered only by favourites, never by
@@ -1417,7 +1421,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   91 tests + check-contrast green (no new fg/bg pairs — logic-only). BRANCH
   NOTE: web-task harness designated a claude/* branch; landed on `staging` per
   the standing staging-only rule (as with 1.4.x/1.5.0). NO GitHub metadata step.
-- 2026-07-22 PROMOTED 1.5.2 to main (Noah's "promote all"). Production ==
+- 2026-07-22 PROMOTED 1.5.2 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == 7d3d4b7 (clean 1-commit fast-forward from 1.5.1). "An
   accessibility statement" (an ITERATION) — the ⓘ panel's hub line (openAbout,
   src/ui/install.js) gained a second link ` · Accessibility` →
@@ -1428,9 +1432,9 @@ kept because it is more granular than the Doctrine) before doing anything.
   pointer-1.5.2; changelog[0] 1.5.2. VERIFIED headless: link present, 6.1:1
   contrast, zero pageerrors; check-contrast.mjs green. Shipped the same day to
   Frame (3.1.2), Clear Horizons (2.16.8) and Studio.
-- 2026-07-21 PROMOTED 1.5.1 to main (Noah's "promote all"). Production ==
+- 2026-07-21 PROMOTED 1.5.1 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == 482356b (clean 1-commit fast-forward from 1.5.0). "Find
-  Noah's other free tools" (an ITERATION) — the ⓘ panel (openAbout, src/ui/
+  the other free tools" (an ITERATION) — the ⓘ panel (openAbout, src/ui/
   install.js) now ends with a link to the personal hub noahjefferson.pages.dev's
   sibling apps: a `<p class="dim">` with an `<a style="color:inherit;text-
   decoration:underline">More free tools by Noah Jefferson ↗</a>` (inherits the
@@ -1440,17 +1444,17 @@ kept because it is more granular than the Doctrine) before doing anything.
   VERIFIED headless: ⓘ/welcome dialog shows the link, 6.1:1 contrast, zero
   pageerrors; check-contrast.mjs green. The SAME back-link shipped the same day
   to Frame (3.1.1), Clear Horizons (2.16.7) and Jefferson-Photography-Studio.
-  NEEDS NOAH'S HANDS: real tap on the link on iOS Safari (taste, not regression).
-- 2026-07-21 PROMOTED 1.4.3 + 1.5.0 to main (Noah's "promote"). Production ==
+  NEEDS AN ON-DEVICE PASS: real tap on the link on iOS Safari (taste, not regression).
+- 2026-07-21 PROMOTED 1.4.3 + 1.5.0 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == 2f4a410 (clean 2-commit fast-forward from 1.4.2). Ships the
   tap-a-cluster-to-zoom-in gesture (1.4.3) AND the eBird bird hotspots for
   Hahira (23) & Panama City Beach (168), reused from Frame with no API/cookie
   (1.5.0). staging == main after this. NOTE 1.5.0 widened PCB's geographic
   scope (added Gulf + Walton counties, St. Joseph Peninsula ~50 km SE and
-  Grayton Beach NW) to match Frame's PCB region — if Noah later wants PCB kept
+  Grayton Beach NW) to match Frame's PCB region — if a later decision wants PCB kept
   tight to the beach, narrow its counties/bbox back.
 - 2026-07-21 1.5.0 "Bird hotspots for Hahira & Panama City Beach" (a CAPABILITY)
-  BUILT on staging (awaiting on-device pass — NEEDS NOAH'S HANDS: how the two
+  BUILT on staging (awaiting on-device pass — NEEDS AN ON-DEVICE PASS: how the two
   areas feel now that the bird-hotspot pins are on them, and the wider region
   frame on region-switch). Fills the ONE remaining data layer for these two
   regions (the eBird bird hotspots that 1.4.0/1.4.1 documented as pending —
@@ -1473,8 +1477,8 @@ kept because it is more granular than the Doctrine) before doing anything.
     / lng -86.39..-85.06, mostly OUTSIDE the Bay-only box). 168 hotspots
     imported (Bay 81/Gulf 33/Walton 54). NOTE this is a real GEOGRAPHIC
     EXPANSION of PCB — St. Joseph Peninsula (Gulf) is ~50 km SE, Grayton Beach
-    (Walton) is to the NW; matches Frame's own PCB region definition. If Noah
-    wants PCB kept tight to the beach, narrow the counties/bbox back.
+    (Walton) is to the NW; matches Frame's own PCB region definition. If a later
+    decision wants PCB kept tight to the beach, narrow the counties/bbox back.
   SCHEMA TRANSFORM (the only real adaptation): Frame's county files carry
   per-species freqByMonth + checklistsByMonth; Photo-Pointer DELIBERATELY does
   NOT store those (eBird terms — no bulk redistribution). import-ebird-from-frame
@@ -1501,8 +1505,8 @@ kept because it is more granular than the Doctrine) before doing anything.
   web-task harness designated a claude/* branch; landed on `staging` per the
   standing staging-only rule (as with 1.4.0/1.4.1).
 - 2026-07-20 1.4.3 "Tap a cluster to zoom in" BUILT on staging (awaiting
-  on-device pass — NEEDS NOAH'S HANDS: the tap-to-zoom feel on a real touch
-  screen). Noah's ask: the neutral numbered summary pins should, when tapped,
+  on-device pass — NEEDS AN ON-DEVICE PASS: the tap-to-zoom feel on a real touch
+  screen). The ask: the neutral numbered summary pins should, when tapped,
   zoom in until the pins beneath them become visible. IMPLEMENTED in
   ui/mapview.js: cull() now records each kept cluster's members (cellMembers by
   40px grid cell) onto the rec (rec.clusterCount, rec.clusterMembers). New
@@ -1522,14 +1526,14 @@ kept because it is more granular than the Doctrine) before doing anything.
   z8 (48 clusters), tapped the "99+" cluster → zoomed to z11, NO popup, pins
   declustered (48→245 finer pins); regression — a single non-cluster pin still
   opens its card; zero pageerrors. 91 tests + contrast green.
-- 2026-07-20 PROMOTED 1.4.2 to main (Noah's "Promote"). Production ==
+- 2026-07-20 PROMOTED 1.4.2 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == 6b5f4f2 (clean 1-commit fast-forward from 1.4.1). Ships the
   basemap fix: Referrer-Policy no-referrer → strict-origin-when-cross-origin so
   OSM tile requests carry a Referer and stop 403'ing to the "Access blocked"
   placeholder. Affected every region. staging == main.
 - 2026-07-20 1.4.2 "The map background is back" BUILT on staging (awaiting
-  on-device pass — NEEDS NOAH'S HANDS: confirm the OSM basemap tiles actually
-  render on his device). BUG (Noah screenshot, home region): the ENTIRE basemap
+  on-device pass — NEEDS AN ON-DEVICE PASS: confirm the OSM basemap tiles actually
+  render on a real device). BUG, from a screenshot of the home region: the ENTIRE basemap
   was OSM's "Access blocked — Referer is required by tile usage policy of
   OpenStreetMap's volunteer-run servers: osm.wiki/Blocked" placeholder — every
   tile 403'd; pins/popup/data all fine (app logic unaffected). ROOT CAUSE: the
@@ -1543,21 +1547,21 @@ kept because it is more granular than the Doctrine) before doing anything.
   capture): under no-referrer a cross-origin tile request carries NO Referer;
   under strict-origin-when-cross-origin it carries the origin. Could NOT hit
   tile.openstreetmap.org from the sandbox (egress blocked), so the final
-  tiles-render proof is NOAH'S DEVICE. Affects ALL regions, not just the new
+  tiles-render proof is AN ON-DEVICE CHECK. Affects ALL regions, not just the new
   ones. sw CACHE pointer-1.4.2; changelog[0] 1.4.2. 91 tests + contrast green.
-- 2026-07-20 PROMOTED 1.4.1 to main (Noah's "Promote"). Production ==
+- 2026-07-20 PROMOTED 1.4.1 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == 6e84e35 (clean 12-commit fast-forward from 1.4.0). Ships all
   5 enrichment layers for both new regions (hahira + panama-city-beach:
   bortle/horizon on every spot, public-land/iNaturalist/Commons on the subset
   with data) + the empty-public-lands robustness fix. staging == main. The ONLY
   remaining layer for these two areas is eBird bird hotspots (needs the live API +
-  an EBIRD_API_TOKEN repo secret — a Noah manual step, still not done). No new
+  an EBIRD_API_TOKEN repo secret — a manual step the session token cannot perform, still not done). No new
   GitHub metadata step (regions aren't repo metadata; description/website/topics
   unchanged).
 - 2026-07-20 1.4.1 "Full data layers for Hahira & Panama City Beach" BUILT on
-  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: how the two areas feel
+  staging (awaiting on-device pass — NEEDS AN ON-DEVICE PASS: how the two areas feel
   with the full layer set + the dark-sky overlay on each). ALL 5 ENRICHMENT
-  LAYERS run for both new regions (Noah's "Do the 5"), each a per-region
+  LAYERS run for both new regions (on the explicit promote the staging gate waits for), each a per-region
   workflow_dispatch on staging (MCP actions_run_trigger), landed one enrichment
   type per round with both regions in parallel (different data/regions/<id>.json
   files → clean rebase; NEVER two enrichments on the SAME region at once — they'd
@@ -1582,17 +1586,17 @@ kept because it is more granular than the Doctrine) before doing anything.
   to origin/main and moved the enrichment work onto local `staging` before any
   push — production main never received enrichment WIP. Landed on staging per the
   standing rule (task harness's claude/* branch ignored, as with 1.4.0).
-- 2026-07-20 PROMOTED 1.4.0 to main (Noah's "Promote"). Production ==
+- 2026-07-20 PROMOTED 1.4.0 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == c29df83 (clean 6-commit fast-forward from 1.3.1). Ships the
   two new regions — Hahira / Lowndes County, GA and Panama City Beach / Bay
   County, FL — with their OSM base data (hahira 134 spots, panama-city-beach 83),
   plus the eBird graceful-skip and the markers 0-guard fix that let a
   Frame-uncovered / marker-less region build. staging == main after this. STILL
   the documented follow-up for these two areas: bird hotspots (live eBird API +
-  EBIRD_API_TOKEN secret — Noah manual step) and the 5 enrichment layers
+  EBIRD_API_TOKEN secret — a manual step the session token cannot perform) and the 5 enrichment layers
   (bortle/horizon/public-lands/inaturalist/commons, one workflow dispatch each).
 - 2026-07-20 1.4.0 "Two new areas: Hahira, GA & Panama City Beach" BUILT on
-  staging (awaiting on-device pass — NEEDS NOAH'S HANDS: real iPad region-switch
+  staging (awaiting on-device pass — NEEDS AN ON-DEVICE PASS: real iPad region-switch
   to Hahira + Panama City Beach and how those two areas feel). TWO NEW REGIONS
   added to config/regions.json (a config + data change, no app code): `hahira`
   = Lowndes County, GA (fips 13185, US-GA-185, bbox 30.5..31.1 / -83.65..-82.95,
@@ -1607,7 +1611,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   no committed hotspot snapshot (ebird.mjs snapshotFile/hasSnapshot +
   cmdEbird guard) instead of aborting `all` — so these two launch with NO bird
   hotspots for now (add later from the live eBird API, GET ref/hotspot/{region}
-  with an EBIRD_API_TOKEN repo secret — a Noah manual step, not done). (2) the
+  with an EBIRD_API_TOKEN repo secret — a manual step the session token cannot perform, not done). (2) the
   markers 0-guard now only refuses when an EXISTING wikidata.json would be
   clobbered; a brand-new region with 0 Wikidata markers skips gracefully. WHY:
   the FIRST hahira run FAILED — OSM fetched 151 places, eBird skipped fine, then
@@ -1626,19 +1630,20 @@ kept because it is more granular than the Doctrine) before doing anything.
   contrast green. No new GitHub metadata step (description/website/topics
   unchanged; regions aren't repo metadata). BRANCH NOTE: the web-task harness
   designated a `claude/add-hahira-pcb-regions-md0yyb` branch, but per the
-  standing staging-only rule this landed on `staging` (flagged to Noah).
-- 2026-07-20 PROMOTED 1.3.1 to main (Noah's "Promote"). Production ==
+  standing staging-only rule this landed on `staging` (flagged in the handoff).
+- 2026-07-20 PROMOTED 1.3.1 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == a8c6564 (clean fast-forward from 1.3.0). New app icon +
-  matching social-preview.png. Noah CONFIRMED he uploaded the new
+  matching social-preview.png. CONFIRMED uploaded the new
   social-preview.png to GitHub Settings → Social preview (the one manual step
   the API can't do); repo description/website/topics already confirmed set.
   staging == main.
-- 2026-07-20 1.3.1 "A brand-new icon" BUILT on staging (Noah: the old dark-brown
-  #2e2618 pin-on-square icon was "poop brown"; he generated a new one with
-  another AI — the camera-aperture map pin over a bright golden-hour valley
-  (mountains, pines, stone bridge, river, a dirt trail, and a CA historical-
-  landmark sign). He iterated once: v1's busy tall foreground grass → v2 swapped
-  it for a calmer dirt trail/river foreground, which he chose. ASSET PIPELINE
+- 2026-07-20 1.3.1 "A brand-new icon" BUILT on staging. The old dark-brown
+  #2e2618 pin-on-square icon was rejected on its colour, and a replacement was
+  supplied from outside this repo — a camera-aperture map pin over a bright
+  golden-hour valley (mountains, pines, stone bridge, river, a dirt trail, and a
+  CA historical-landmark sign). It went through one revision: v1's busy tall
+  foreground grass was replaced by a calmer dirt trail and river, and that is the
+  version that shipped. ASSET PIPELINE
   (sharp, installed from npm in the repo dir — sandbox reaches registry.npmjs.org):
   source at assets/icon-source.png (1254², kept for regen). The source had baked
   ROUNDED CORNERS with a black border (radius ≈222px, black reaching ~66px along
@@ -1650,18 +1655,20 @@ kept because it is more granular than the Doctrine) before doing anything.
   the three PNGs; OLD icon.svg DELETED (all refs updated). sw CACHE pointer-1.3.1;
   changelog[0] 1.3.1. VERIFIED: post-crop corners are sky/ground not black;
   renders clean + legible (pin is the hero) at 60/120/180; manifest valid JSON;
-  91 tests + contrast + smoke48 green, zero pageerrors. NEEDS NOAH'S HANDS +
+  91 tests + contrast + smoke48 green, zero pageerrors. NEEDS AN ON-DEVICE PASS +
   IOS CAVEAT: iOS captures a PWA's home-screen icon AT INSTALL time, so an
-  already-installed app won't show the new icon until he REMOVES it from the home
+  already-installed app won't show the new icon until the reader REMOVES it from the home
   screen and re-adds it (Share → Add to Home Screen); new installs get it
   automatically. To regenerate icons from a new source: sharp crop-inset +
   resize (see this entry).
-- 2026-07-20 PROMOTED 1.3.0 to main (Noah's "Promote"). Production ==
+- 2026-07-20 PROMOTED 1.3.0 to main (on the explicit promote the staging gate waits for). Production ==
   origin/staging == 25ebf85 (clean fast-forward from 1.2.1). Seamless
   auto-update on relaunch + "Check for updates" button are live. staging == main.
-- 2026-07-20 1.3.0 "Updates arrive on their own" BUILT on staging (Noah: "I don't
-  like having to force close my app twice every time to see new updates. My kids
-  will never get them" + asked for a "force update" button). ROOT CAUSE of the
+- 2026-07-20 1.3.0 "Updates arrive on their own" BUILT on staging. THE REPORT:
+  seeing a new version required force-closing the installed app TWICE, which is a
+  ritual no ordinary reader will ever perform — so an update that needs it does
+  not reach them at all. A manual "check for updates" control was asked for
+  alongside the fix. ROOT CAUSE of the
   double-close: sw.js skipWaiting()+clients.claim() so a new SW ACTIVATES on the
   first relaunch, but nothing told the already-loaded PAGE to reload and the code
   modules are cache-first (SWR) — so launch#1 ran old code while caching new,
@@ -1685,18 +1692,18 @@ kept because it is more granular than the Doctrine) before doing anything.
   v1.4.0 + fired the "What's new" dialog, and the manual button reports "You're
   on the latest version (v1.4.0)"; zero pageerrors. 91 tests + contrast + axe
   (zero across 16 surface×theme, incl. the About "Updates" button) green;
-  smoke48 still green. GITHUB METADATA CONFIRMED (read via API, Noah did it):
+  smoke48 still green. GITHUB METADATA CONFIRMED (read back via the API after it was applied):
   description + website (photo-pointer.pages.dev) + all 6 topics set correctly;
   the social-preview IMAGE is the one field the API can't expose to verify.
-- 2026-07-20 PROMOTED 1.2.0 + 1.2.1 to main (Noah's "Promote to main" after he
-  caught the blue-on-blue button on his phone and it was fixed). Production ==
+- 2026-07-20 PROMOTED 1.2.0 + 1.2.1 to main (on the explicit go, after the
+  blue-on-blue button was caught on a phone and fixed). Production ==
   origin/staging == a7e0a88 (clean fast-forward from 1.1.1). Ships the 7-item
   feedback batch (collapsible legend, prominent photo/wildlife buttons, focusSpot
   first-tap + stay-centred, 🏆 Top-spots icon, "My pins", add-pin help, Top-spots
   filter narrows the map) AND the 1.2.1 contrast fix. staging == main after this.
-- 2026-07-20 1.2.1 "Photo button is readable" BUILT on staging (Noah caught it
-  on his phone from a screenshot: the new Commons/iNaturalist link BUTTONS
-  rendered BLUE TEXT ON BLUE — #0078A8 on #1663a8, ~1.3:1). ROOT CAUSE + DURABLE
+- 2026-07-20 1.2.1 "Photo button is readable" BUILT on staging. Caught from a
+  phone screenshot: the new Commons/iNaturalist link BUTTONS
+  rendered BLUE TEXT ON BLUE — #0078A8 on #1663a8, ~1.3:1. ROOT CAUSE + DURABLE
   LESSON: leaflet.css has `.leaflet-container a { color:#0078A8 }` (specificity
   0,1,1) which BEATS a bare `.popup-linkbtn` class (0,1,0), so my white was
   silently overridden. FIX: every popup link colour MUST out-specify it — qualify
@@ -1717,7 +1724,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   violations + popupContrast clean across 16 surface×theme combos; smoke48 +
   91 tests + token contrast still green.
 - 2026-07-20 1.2.0 "A map legend, clearer links & pin help" BUILT on staging
-  (awaiting on-device pass — NEEDS NOAH'S HANDS on real iPad/iPhone: legend
+  (awaiting on-device pass — NEEDS AN ON-DEVICE PASS on real iPad/iPhone: legend
   collapse/expand feel, the 🏆 Top-spots glyph read, and the map-filter banner
   ergonomics). A batch of 7 feedback items, all in src/. (1) COLLAPSIBLE LEGEND
   (mapview.js LegendControl, bottom-left; CSS .map-legend/.legend-*): a "Legend ▸"
@@ -1754,8 +1761,8 @@ kept because it is more granular than the Doctrine) before doing anything.
 - 2026-07-20 PROMOTED 1.1.1 to main (rolled up 1.0.1→1.1.1: popup snaps back,
   accessibility pass, tidy toolbar + always-there close + version stamp, photo-
   ring + "+N" cluster badge, neutral cluster count). Production == origin/staging.
-- 2026-07-20 PROMOTED 1.0.0 to main (Noah's "Promote to main as version 1.0.0")
-  — the FIRST MAJOR release, declared by Noah. Production == origin/staging
+- 2026-07-20 PROMOTED 1.0.0 to main (on the explicit promote the staging gate waits for)
+  — the FIRST MAJOR release, declared by the owner. Production == origin/staging
   (clean fast-forward from 0.14.0). Rolls up everything since 0.14.0: 0.15.0
   notability badges + source/data link-outs + tri-state Top-spots chips; 0.15.1
   dark-map-via-CSS-filter (dropped external CARTO tiles — they didn't load /
@@ -1767,12 +1774,12 @@ kept because it is more granular than the Doctrine) before doing anything.
   pin per ~40px grid cell in cull(), highest synthesis score wins, user pins
   always kept — FEWER mounted nodes, no lag); 0.16.2 per-region opening `center`
   (config/regions.json) — Humboldt opens on Arcata. NOTE: category buttons are
-  ON/OFF TOGGLES, not tri-state (Noah corrected a mis-build: only the Top-spots
+  ON/OFF TOGGLES, not tri-state (a mis-build was corrected: only the Top-spots
   LAYER chips are tri-state require/exclude; the pin-type buttons stay simple
   show/hide, all-off default). sw CACHE pointer-1.0.0. All gates green (91 tests,
   contrast), each change headless-smoked.
 - 2026-07-20 PROMOTED 0.13.6 to main — SECOND promotion, completes Yellowstone +
-  ships the welcome/ⓘ UI batch (Noah's "Promote when it's done"). Production ==
+  ships the welcome/ⓘ UI batch (on the explicit promote the staging gate waits for). Production ==
   origin/staging (clean FF). YELLOWSTONE NOW FULLY DONE: 2789 spots, all 5
   enrichment layers (publicLand 485, horizon 2789, inat 297, bortle 2789, commons
   517) + OSM re-run folded in marker inscriptions (only 1 — Yellowstone backcountry
@@ -1792,7 +1799,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   === sw CACHE, keep in sync) + Version stamp, opened by a header .info-btn ⓘ and
   reachable from Backup. sw CACHE pointer-0.13.6. NOTE the earlier same-day fact
   below (0.13.0→0.13.3) is SUPERSEDED for Yellowstone — it's no longer 4/5.
-- 2026-07-20 PROMOTED 0.13.0→0.13.3 to main (Noah's "Promote now" — he chose to
+- 2026-07-20 PROMOTED 0.13.0→0.13.3 to main (on the explicit go — the decision was to
   ship before Yellowstone fully finished). Production == 7a654f3 (SW cache
   pointer-0.13.3, Deploy on main green). Clean 24-commit fast-forward, main was
   0.12.0. WHAT'S LIVE: the whole multi-region app (3 region pills, viewport
@@ -1807,10 +1814,10 @@ kept because it is more granular than the Doctrine) before doing anything.
   commons yet, 0 marker inscriptions, 2789 spots). PENDING → NEEDS A 2ND
   PROMOTION: Yellowstone commons (run 29718802870, ~700-tile harvest, 55-min
   ceiling — commons.yml timeout bumped 25→55) then its OSM re-run (inscriptions),
-  both landing on staging; when done, staging re-diverges and Noah promotes again
+  both landing on staging; when done, staging re-diverges and the promote happens again
   to complete Yellowstone in production. Everything else: staging == main.
 - 2026-07-20 0.13.0 "Three regions + map trimming" BUILT on staging (awaiting
-  on-device pass): Noah's "all the map trimming and Humboldt + Yellowstone
+  on-device pass): The ask: "all the map trimming and Humboldt + Yellowstone
   regions, like Frame". FULL MULTI-REGION REFACTOR. config/regions.json = {
   default, regions:[...] } (old config/region.json DELETED); region.js gains
   loadRegions/pickRegion/validateRegions. DATA IS PER-REGION: data/regions/<id>
@@ -1843,7 +1850,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   (Arcata Bottoms/Ferndale Bottoms/Mad River), switch Yellowstone→720, zero
   pageerrors; 91 tests, contrast green. NEEDS RUNNER: OSM for humboldt +
   yellowstone (dispatch ingest-osm.yml region=<id>) to add viewpoints/parks/
-  trailheads (they have eBird+markers-capable base now). NEEDS NOAH'S HANDS: real
+  trailheads (they have eBird+markers-capable base now). NEEDS AN ON-DEVICE PASS: real
   iPad region-switch feel + GPS. Enrichments (bortle/horizon/lands/inat/commons)
   for new regions = follow-up (workflows ready with region input; signals dormant
   until then). OSM RUNS DONE (ingest-osm.yml region=humboldt/yellowstone on
@@ -1856,14 +1863,13 @@ kept because it is more granular than the Doctrine) before doing anything.
   now drops spots outside region.bbox (inBBox filter, logged as "N dropped
   outside bbox"); re-ran, both green. VERIFIED (smoke26): switch Yellowstone →
   2789 pins, Humboldt → 1130, Sacramento culled 604/2409, 0 pageerrors.
-- 2026-07-20 PROMOTED 0.12.0 to main (Noah's "Promote to main" after his device
-  pass): production == 0.12.0 (photo-pointer.pages.dev, Deploy run #45 on main,
+- 2026-07-20 PROMOTED 0.12.0 to main (on the explicit promote the staging gate waits for): production == 0.12.0 (photo-pointer.pages.dev, Deploy run #45 on main,
   green). Clean 1-commit fast-forward. staging == main after this. "Opens where
   you are" (geo start + center button + Cameron Park fallback + all-off default +
   Show all/Hide all) is live.
 - 2026-07-20 0.12.0 "Opens where you are" BUILT on staging (awaiting on-device
-  pass — needs Noah's HANDS: real iPad GPS + the Safari location-permission
-  prompt, only Chromium-verified here). Noah's asks, all four done: (1) MASTER
+  pass — needs AN ON-DEVICE PASS for: real iPad GPS + the Safari location-permission
+  prompt, only Chromium-verified here). Four asks, all done: (1) MASTER
   TOGGLE — main.js renderHeader adds a `.chip-all` button first in the chips row,
   label "Show all" when not-all-on / "Hide all" when all-on, sets
   applyVisible(all|none). (2) DEFAULT ALL-OFF — filter semantics CHANGED: the
@@ -1884,8 +1890,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   present; in-area (Auburn fix) = no toast (centers on user), out-of-area (NYC
   fix) = Cameron Park toast; zero pageerrors in all three geo scenarios; 88
   tests, contrast green (added .chip-all/.map-center-btn — ink-on-card, gated).
-- 2026-07-19 PROMOTED 0.5.0→0.11.0 to main in one fast-forward (Noah's "Promote
-  to main" after his on-device pass on staging): production == 0.11.0
+- 2026-07-19 PROMOTED 0.5.0→0.11.0 to main in one fast-forward (on the explicit go after the on-device pass on staging): production == 0.11.0
   (photo-pointer.pages.dev, Deploy run #41 on main). Seven releases went live at
   once — Tonight (moon/dark-window/clouds), Public lands, Open horizon, Wild
   subjects (iNaturalist), Historical sites (Wikidata/HMdb), Photographed
@@ -1946,8 +1951,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   pageerrors. LESSON: for Wikimedia from a runner, MINIMIZE call count (tile-
   harvest, not per-spot) — the IP throttling is the wall, not the total work.
 - 2026-07-19 0.9.0 "Historical markers" BUILT on staging (awaiting on-device
-  pass + a markers.yml runner pass to add the data): Tier 3 item #2 (Noah's "Do
-  1 and 2"). HMdb has NO public API + its content is COPYRIGHTED, so the clean
+  pass + a markers.yml runner pass to add the data): Tier 3 item #2 (on the explicit promote the staging gate waits for). HMdb has NO public API + its content is COPYRIGHTED, so the clean
   path is Wikidata (CC0): ingest/adapters/wikidata-markers.mjs SPARQL-queries the
   Wikidata Query Service for items in the region bbox carrying P7883 (Historical
   Marker Database ID → real HMdb markers) OR P5651 (California Historical Landmark
@@ -1991,7 +1995,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   WD knows, not every roadside plaque (stated in changelog + adapter header).
 - 2026-07-19 0.8.0 "Wild subjects" BUILT on staging (awaiting on-device pass +
   an inaturalist.yml runner pass to tag the data): Tier 3 item #1 of the
-  integrations list (Noah's "Do 1 and 2"). NON-BIRD wildlife density per spot —
+  integrations list (on the explicit promote the staging gate waits for). NON-BIRD wildlife density per spot —
   the layer eBird can't give. ingest/adapters/inaturalist.mjs (per-record CC,
   FETCHES only cc0/cc-by/cc-by-sa research-grade, captive=false, geoprivacy=
   open, iconic_taxa Mammalia/Reptilia/Amphibia/Insecta/Arachnida/Mollusca —
@@ -2086,7 +2090,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   30 satisfying both, popup note renders, 64 tests, contrast green, zero
   pageerrors.
 - 2026-07-19 0.5.0 "Tonight" BUILT on staging (awaiting on-device pass): moon +
-  clear-sky = Tier 1 of Noah's "do all integrations in order" list. model/
+  clear-sky = Tier 1 of the "do all integrations in order" list. model/
   tonight.js (on-device via astronomy-engine): moon phase/illumination,
   moonrise/set, astronomical night (sun<−18°), and the DARK WINDOW (longest
   stretch of astro-night with the moon also down, sampled at 12-min steps) —
@@ -2104,7 +2108,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   +night-access signal, open-horizon/elevation signal; (Tier3) air-quality/
   smoke, iNaturalist seasonal wildlife, HMdb markers, Flickr CC density.
 - 2026-07-19 PROMOTED 0.2.0 + 0.3.0 + 0.4.0 to main in one fast-forward
-  (Noah's "Push main"): production == 0.4.0 (photo-pointer.pages.dev). Golden
+  (on the explicit promote the staging gate waits for): production == 0.4.0 (photo-pointer.pages.dev). Golden
   Hour, cross-layer synthesis, and the dark-sky/Bortle layer are all live.
   staging == main after this; next candidate re-diverges staging.
 - 2026-07-19 SCAFFOLDED (this repo's genesis): Spot schema + dedup
@@ -2117,8 +2121,8 @@ kept because it is more granular than the Doctrine) before doing anything.
   Artificial Night Sky Brightness (CC BY-NC 4.0, doi:10.5880/GFZ.1.4.2016.001).
   KEY LESSON (cost hours): the GFZ file is NOT machine-downloadable (JS-app
   landing, no DataCite contentUrl, backend API not scrapeable) — DO NOT try to
-  hack GFZ again. Noah shared World_Atlas_2015.zip (684 MB raw GeoTIFF) +
-  a KMZ from his Drive; the Google Drive MCP connector caps downloads at 10 MB,
+  hack GFZ again. A Drive copy of World_Atlas_2015.zip was made available (684 MB raw GeoTIFF) +
+  a KMZ, both from a shared Drive; the Google Drive MCP connector caps downloads at 10 MB,
   so a RUNNER fetches the public Drive link
   (https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t)
   — that's the working pattern for any big Drive file. Pipeline
@@ -2149,7 +2153,7 @@ kept because it is more granular than the Doctrine) before doing anything.
   require Dark-sky→empty (dormant proof), 3-layer require→3 spots all matching,
   52 tests, contrast green, zero pageerrors. See the synthesis contract in
   NOTES.md — don't edit scoreSpot to add a source.
-- 2026-07-19 0.1.0 PROMOTED to main (Noah's "Promote to main"): production
+- 2026-07-19 0.1.0 PROMOTED to main (on the explicit promote the staging gate waits for): production
   live at photo-pointer.pages.dev (Deploy run on main green). Then eBird added
   (2,362 spots) + PolyForm license. main == 0.1.0.
 - 2026-07-19 0.2.0 "Golden Hour" BUILT on staging (awaiting on-device pass):
@@ -2165,7 +2169,7 @@ kept because it is more granular than the Doctrine) before doing anything.
 - 2026-07-19 FIRST LIVE DATA: Ingest OSM committed data/spots.json = 1,711
   deduped spots for Sacramento/El Dorado/Placer (OSM/Overpass, ODbL). Deploy
   auto-creates the Pages project; staging deploys are green (no secrets step
-  needed — they're inherited from Noah's account). GOTCHAS learned this
+  needed — they're inherited from the account that owns the Pages project). GOTCHAS learned this
   session: (1) Overpass rejects anonymous UAs (406/429) — send a real
   User-Agent; (2) Overpass public mirrors hang/504 under load — retry across
   3 mirrors with a 210s per-attempt cap + a 25-min job timeout; (3) the

@@ -2,7 +2,7 @@
 // about a place into one photographer-intent score, with a transparent
 // breakdown of why. Node-safe + pure so it's unit-tested and runs headless.
 //
-// THE EXTENSIBILITY CONTRACT (Noah, 2026-07-19): new data sources plug in as
+// THE EXTENSIBILITY CONTRACT, settled 2026-07-19: new data sources plug in as
 // new SIGNALS. A signal reads whatever a source left on the spot (a tag, a
 // category, a nearby-layer relationship) and returns a 0..1 contribution plus
 // a human note. The scorer (scoreSpot) never changes when a source is added —

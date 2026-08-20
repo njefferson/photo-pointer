@@ -17,7 +17,9 @@ import { inBBox, bboxCenter } from '../model/geo.js';
 import { notableReasons } from '../model/notability.js';
 
 // If a GPS fix lands outside the covered region, drop the user in the middle of
-// the map's world instead — Cameron Park, in El Dorado County (Noah's call).
+// the map's world instead — Cameron Park, in El Dorado County. A settled product
+// decision: the home region's centre is a real place inside the covered data
+// rather than the bbox's arithmetic middle, which can land in a reservoir.
 export const FALLBACK_CENTER = { lat: 38.6785, lng: -120.9872, name: 'Cameron Park, CA' };
 
 // Every pin type, its label, its letter/glyph (the NON-HUE channel — with this
@@ -107,7 +109,8 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   let activeRegion = region;
 
   // The center to fall back to when GPS is outside the active region. Cameron
-  // Park for the home region (Noah's call); the region's middle otherwise.
+  // Park for the home region (settled, see FALLBACK_CENTER); the region's middle
+  // otherwise.
   function fallbackCenter() {
     if (activeRegion.id === 'sac-eldorado-placer') return { lat: FALLBACK_CENTER.lat, lng: FALLBACK_CENTER.lng, name: FALLBACK_CENTER.name };
     const c = bboxCenter(activeRegion.bbox);
@@ -1092,7 +1095,7 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // A record is CHEAP; its Leaflet marker is not. Yellowstone has 3,930 spots
   // and the viewport ever shows a couple of hundred, so building every marker up
   // front cost roughly 900 ms of frozen UI on a region switch — most of the 1.3 s
-  // Noah feels, and it gets worse every time a region grows. The marker is now
+  // a reader waits, and it gets worse every time a region grows. The marker is now
   // built the first time the pin is actually mounted, and never for a spot the
   // reader does not look at.
   function ensureMarker(rec) {

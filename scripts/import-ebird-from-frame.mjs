@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Import eBird hotspots for a region (or all regions) from the sibling
 // Bird-location-scouting ("Frame") app, which already commits full hotspot data
-// for these counties. The reuse Noah asked for: don't re-fetch what a sibling
+// for these counties. The reuse this exists for: don't re-fetch what a sibling
 // repo already curated.
 //
 // We take only the hotspot IDENTITY + LOCATION (locId, name, lat, lng,
