@@ -45,8 +45,9 @@ offline-first, no account. No Instagram, no social scraping, ever.
 ## The privacy scrub, 2026-08-20
 
 **This repo had never been scanned, and it was not clean.** Both halves of the
-rule were applied: nothing personal about the owner, and never quote him or
-attribute anything to him — which binds source comments, tests, tooling, docs
+rule were applied: nothing personal about the owner, and never quote the owner
+or attribute anything to the owner — which binds source comments, tests,
+tooling, docs
 and workflow files, not just markdown.
 
 WHAT THE GATES SAW, run from the hub with an explicit `--repo .`:
@@ -82,7 +83,7 @@ or the defect as a measurement:
   that would not open at 200% text, the blue-on-blue link button at 1.3:1, the
   filter panel that took the whole screen.
 - Facts about a person went entirely rather than being reworded. One entry
-  carried both a quotation and a fact about the owner's family in the same
+  carried both a quotation and a personal fact in the same
   sentence; the fact is gone and the requirement — that an update needing a
   force-close twice never reaches an ordinary reader — is what remains.
 - A named person's tablet or phone became simply `a tablet` or `a phone`. The
@@ -100,8 +101,8 @@ quotation marks after their surrounding paragraph had been rewritten.
 
 **Left in place on purpose, and each was read:** the app's own patch notes and
 UI strings (`src/data/changelog.js`, `index.html` meta, "Within distance of me",
-"What we can tell you"), the ⓘ panel's link to the owner's own site under his
-own byline, the reader's voice quoted in design prose ("can I actually go shoot
+"What we can tell you"), the ⓘ panel's link to the owner's own site under that
+byline, the reader's voice quoted in design prose ("can I actually go shoot
 here"), a session's own voice, and the licence notice.
 
 VERIFICATION, read from the run rather than remembered: `node --test` **263

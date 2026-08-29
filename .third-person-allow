@@ -1,0 +1,44 @@
+# Third-person references that are NOT about the owner, declared for
+# `noahjefferson:third-person-check.mjs`. Format:
+#
+#   file | reason | the matched word
+#
+# A reference to the OWNER is never declarable and never becomes declarable.
+# Rewrite it: say the ROLE for a governance fact, and for anything else say what
+# was wrong and what it measured.
+#
+# Checked BOTH WAYS — a declaration matching nothing any more is a failure, so a
+# scrub cannot quietly un-cover a file by leaving a stale line here.
+#
+# EVERYTHING HERE IS SOMEBODY ELSE'S TEXT, and none of it was typed in this
+# repo. `data/` is the INGESTED corpus — OpenStreetMap and Wikidata descriptions
+# of historical markers, artworks and place names, fetched by the workflows in
+# `.github/workflows/` and committed as-is. The pronouns in it belong to the
+# people those markers commemorate. Rewording them would be falsifying a source,
+# which is the one thing an ingest must never do, so they are declared instead.
+# `src/vendor/` is a third-party library whose comments cite its own author.
+#
+# THE RISK THIS ACCEPTS, written down because a declared exception is only safe
+# while somebody knows what it covers: these entries are per FILE, and a
+# re-ingest can put new text into the same file. That is tolerable because
+# nothing about the owner is ever ingested — no workflow here writes anything
+# but a fetch of a public source — and a hand-written note added to one of these
+# files would be a change nobody intends.
+data/regions/hahira.json | ingested OpenStreetMap/Wikidata source text | he
+data/regions/hahira.json | ingested OpenStreetMap/Wikidata source text | his
+data/regions/hahira.json | ingested OpenStreetMap/Wikidata source text | him
+data/regions/reno.json | ingested OpenStreetMap/Wikidata source text | his
+data/regions/sac-eldorado-placer.json | ingested OpenStreetMap/Wikidata source text | his
+data/regions/sac-eldorado-placer.json | ingested OpenStreetMap/Wikidata source text | he
+data/regions/yellowstone.json | ingested OpenStreetMap/Wikidata source text | he
+data/regions/yellowstone.json | ingested OpenStreetMap/Wikidata source text | his
+data/regions/yellowstone.json | ingested OpenStreetMap/Wikidata source text | him
+data/sources/hahira/osm.json | ingested OpenStreetMap/Wikidata source text | Him
+data/sources/hahira/osm.json | ingested OpenStreetMap/Wikidata source text | his
+data/sources/hahira/osm.json | ingested OpenStreetMap/Wikidata source text | he
+data/sources/reno/osm.json | ingested OpenStreetMap/Wikidata source text | his
+data/sources/sac-eldorado-placer/osm.json | ingested OpenStreetMap/Wikidata source text | his
+data/sources/yellowstone/osm.json | ingested OpenStreetMap/Wikidata source text | he
+data/sources/yellowstone/osm.json | ingested OpenStreetMap/Wikidata source text | his
+data/sources/yellowstone/osm.json | ingested OpenStreetMap/Wikidata source text | him
+src/vendor/astronomy.js | vendored third-party source, citing its own author | He

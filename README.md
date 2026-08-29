@@ -54,20 +54,70 @@ commits `data/` to the branch it ran on.
 
 ## Data sources & licenses
 
-| Source | What | License / terms | Status |
-| --- | --- | --- | --- |
-| OpenStreetMap (Overpass) | viewpoints, waterfalls, peaks, markers, oddities, parks, trailheads, campsites | **ODbL 1.0** — attribution "© OpenStreetMap contributors"; share-alike on the database | **Working** |
-| Historical markers | HMdb markers + California Historical Landmarks as spots, linking out to HMdb | Facts from **Wikidata (CC0)**; HMdb pages linked, never copied (HMdb content is copyrighted) | **Working** |
-| eBird (Cornell Lab) | wildlife hotspots | API terms — attribution required, no bulk redistribution | **Working** |
-| iNaturalist | non-bird wildlife density (mammals/reptiles/amphibians/insects) near each spot | Per-record CC licensing — ingest fetches CC0/CC-BY/CC-BY-SA only, counts not content | **Working** |
-| Wikimedia Commons | how many freely-licensed photos are taken near each spot (photogenic proxy) | All Commons media is **CC/public-domain**; derived counts only, no images copied | **Working** |
-| World Atlas (Falchi 2016) | dark-sky / light-pollution raster → Bortle per spot + map overlay | **CC BY-NC 4.0**, doi:10.5880/GFZ.1.4.2016.001 | **Working** |
-| Public lands | protected-area boundaries → which spots are on public land | OpenStreetMap, ODbL | **Working** |
-| Terrain (SRTM) | 30 m elevation model → each spot's real horizon openness + E/W/S ridge angles | **Public domain** (NASA/USGS SRTM, via AWS Terrain Tiles) | **Working** |
-| Map tiles | OSM carto + Esri World Imagery | © OpenStreetMap contributors · Imagery © Esri | Working |
-| Sun & moon | on-device golden/blue-hour, sunrise/sunset + direction, moon phase + Milky-Way dark window | astronomy-engine © Don Cross, MIT (vendored) | Working |
-| Weather | live clear-sky (cloud) forecast for tonight, per spot | Open-Meteo, free, no key (CC BY 4.0) | Working |
-| Air quality | live US AQI + wildfire-smoke note today, per spot | Open-Meteo Air Quality, free, no key (CC BY 4.0) | Working |
+Each entry names what the source gives, the terms it is under, and whether
+it is working. This was a table until 2026-08-29; tables do not render on the
+device this is read on, so the columns were being lost silently.
+
+**OpenStreetMap (Overpass)** — Working
+
+- Viewpoints, waterfalls, peaks, markers, oddities, parks, trailheads, campsites.
+- Terms: **ODbL 1.0** — attribution "© OpenStreetMap contributors"; share-alike on the database
+
+**Historical markers** — Working
+
+- HMdb markers + California Historical Landmarks as spots, linking out to HMdb.
+- Terms: Facts from **Wikidata (CC0)**; HMdb pages linked, never copied (HMdb content is copyrighted)
+
+**eBird (Cornell Lab)** — Working
+
+- Wildlife hotspots.
+- Terms: API terms — attribution required, no bulk redistribution
+
+**iNaturalist** — Working
+
+- Non-bird wildlife density (mammals/reptiles/amphibians/insects) near each spot.
+- Terms: Per-record CC licensing — ingest fetches CC0/CC-BY/CC-BY-SA only, counts not content
+
+**Wikimedia Commons** — Working
+
+- How many freely-licensed photos are taken near each spot (photogenic proxy).
+- Terms: All Commons media is **CC/public-domain**; derived counts only, no images copied
+
+**World Atlas (Falchi 2016)** — Working
+
+- Dark-sky / light-pollution raster → Bortle per spot + map overlay.
+- Terms: **CC BY-NC 4.0**, doi:10.5880/GFZ.1.4.2016.001
+
+**Public lands** — Working
+
+- Protected-area boundaries → which spots are on public land.
+- Terms: OpenStreetMap, ODbL
+
+**Terrain (SRTM)** — Working
+
+- 30 m elevation model → each spot's real horizon openness + E/W/S ridge angles.
+- Terms: **Public domain** (NASA/USGS SRTM, via AWS Terrain Tiles)
+
+**Map tiles** — Working
+
+- OSM carto + Esri World Imagery.
+- Terms: © OpenStreetMap contributors · Imagery © Esri
+
+**Sun & moon** — Working
+
+- On-device golden/blue-hour, sunrise/sunset + direction, moon phase + Milky-Way dark window.
+- Terms: astronomy-engine © Don Cross, MIT (vendored)
+
+**Weather** — Working
+
+- Live clear-sky (cloud) forecast for tonight, per spot.
+- Terms: Open-Meteo, free, no key (CC BY 4.0)
+
+**Air quality** — Working
+
+- Live US AQI + wildfire-smoke note today, per spot.
+- Terms: Open-Meteo Air Quality, free, no key (CC BY 4.0)
+
 
 Each adapter's header comment is the authoritative license note — read it
 before extending that source.

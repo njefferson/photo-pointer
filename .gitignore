@@ -1,5 +1,10 @@
 node_modules/
-package-lock.json
+# package-lock.json IS TRACKED, deliberately. It was ignored here from the first
+# commit, which is the ordinary habit for a repo with no runtime dependencies —
+# and it means `npm ci` cannot run, so nothing about what executes on a runner
+# is reproducible (Doctrine §16.3). The tree has zero dependencies today; the
+# lockfile is a few lines and costs nothing, and the day something is added it
+# is the only record of what was actually installed.
 .env
 *.local
 .DS_Store
