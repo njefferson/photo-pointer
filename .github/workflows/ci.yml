@@ -66,3 +66,14 @@ jobs:
         run: node scripts/check-etiquette.mjs
       - name: Validate committed spot data
         run: node ingest/ingest.mjs validate
+
+      # THE READER'S PATH THROUGH AN UPDATE, driven against a real second
+      # worker. pwa-check reads the SOURCE and can tell that skipWaiting is gone
+      # and a message listener exists; it cannot tell whether anybody is ever
+      # shown anything, or whether pressing it works. It was green on a draft
+      # that reloaded the very first visit.
+      - name: Install a browser for the update walk
+        run: npx --no-install playwright-core install --with-deps chromium
+
+      - name: A new version waits, and the reader can take it
+        run: npm run --silent update:walk

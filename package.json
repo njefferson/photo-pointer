@@ -14,6 +14,10 @@
     "probe": "node ingest/ingest.mjs probe",
     "validate": "node ingest/ingest.mjs validate",
     "serve": "python3 -m http.server 8080",
-    "check": "node --test && node scripts/check-contrast.mjs && node scripts/check-etiquette.mjs"
+    "check": "node --test && node scripts/check-contrast.mjs && node scripts/check-etiquette.mjs && node scripts/update-walk.mjs",
+    "update:walk": "node scripts/update-walk.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.56.0"
   }
 }
