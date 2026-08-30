@@ -1,6 +1,6 @@
 // Service worker — offline-first, per the house pattern.
 // CACHE bumps with every release (keep in sync with NOTES.md release log).
-const CACHE = 'pointer-1.20.4';
+const CACHE = 'pointer-1.21.0';
 
 const ASSETS = [
   './',
@@ -61,8 +61,21 @@ self.addEventListener('install', (e) => {
       // Per-asset, never atomic addAll: one flaky request must not wipe the
       // whole offline cache.
       Promise.allSettled(ASSETS.map((u) => c.add(u)))
-    ).then(() => self.skipWaiting())
+    )
+    // NO skipWaiting HERE. A worker that takes over during install starts
+    // serving the new release's files to a page that is still running the old
+    // release's HTML and modules — and activate deletes the old cache, so that
+    // page keeps being served new files from then on. The reader's decision is
+    // what releases it, below (Doctrine §7h).
   );
+});
+
+/* The reader's decision, arriving from the page. The update strip's button is
+   the only thing that sends this, so nothing takes over a page somebody is
+   still reading. */
+self.addEventListener('message', (e) => {
+  const t = e.data && (e.data.type || e.data);
+  if (t === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('activate', (e) => {

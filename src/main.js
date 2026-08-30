@@ -754,25 +754,67 @@ async function boot() {
   setupServiceWorker();
 }
 
-// Service worker + SEAMLESS UPDATES. Before, a new version took TWO force-closes
-// to appear: a relaunch got fresh index.html but the cached code modules updated
-// only in the background, so it took a SECOND relaunch to actually run them.
-// Now: the SW skips waiting + claims (sw.js), and when the new worker takes
-// control we reload the page ONCE — so a single relaunch (or the "Check for
-// updates" button) lands the new version. No more double-close.
+/* Service worker, and the update a reader is TOLD about (Doctrine §7h).
+ *
+ * WHAT THIS USED TO DO, and why it is not that any more. The worker called
+ * skipWaiting() during install and this file reloaded the page the moment the
+ * new worker took control. It was written to fix a real defect — a new version
+ * used to need TWO force-closes, because a relaunch got fresh index.html while
+ * the cached modules updated only in the background — and it fixed it by taking
+ * the decision away from the reader instead.
+ *
+ * The cost is invisible until it happens to you: the page reloads under
+ * whoever is reading it. On this app that is somebody standing at a viewpoint
+ * with a map open, losing their place because a deploy landed.
+ *
+ * So the new version WAITS, the reader is told in words on a standing strip,
+ * and pressing it is what releases the worker. The double-close defect stays
+ * fixed: releasing it triggers controllerchange and this reloads ONCE.
+ */
+function updateStrip(onTake) {
+  let strip = document.getElementById('update-strip');
+  if (strip) return strip;
+  strip = el('div', { id: 'update-strip', class: 'update-strip', role: 'status' }, [
+    el('span', {}, 'A new version of photo-pointer is ready.'),
+    el('button', {
+      class: 'update-take',
+      onClick: () => { strip.querySelector('button').disabled = true; onTake(); },
+    }, 'Load it'),
+  ]);
+  document.body.append(strip);
+  return strip;
+}
+
 function setupServiceWorker() {
   if (!('serviceWorker' in navigator)) return;
-  // Was this page already controlled? If not, this is a first install — don't
-  // reload on that initial claim (there's no "new version" to jump to).
-  const hadController = !!navigator.serviceWorker.controller;
-  let reloading = false;
+  // ONLY EVER AFTER THE READER ASKED. controllerchange also fires on a FIRST
+  // install, when there was no previous version and nothing to jump to —
+  // reloading somebody who has just opened the app is the same rudeness this
+  // whole change is about, wearing a different costume. Watched happening: the
+  // first draft of this tracked "have I reloaded" instead of "did they ask",
+  // and reloaded the very first visit.
+  let asked = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (reloading || !hadController) return;
-    reloading = true;
+    if (!asked) return;
+    asked = false;
     window.location.reload();
   });
+
   navigator.serviceWorker.register('./sw.js')
-    .then((reg) => { reg.update().catch(() => {}); }) // check for a new SW on every open
+    .then((reg) => {
+      const offer = (worker) => {
+        if (!worker || !navigator.serviceWorker.controller) return;
+        updateStrip(() => { asked = true; worker.postMessage({ type: 'SKIP_WAITING' }); });
+      };
+      // Already waiting when the page opened — the common case on a relaunch.
+      offer(reg.waiting);
+      reg.addEventListener('updatefound', () => {
+        const w = reg.installing;
+        if (!w) return;
+        w.addEventListener('statechange', () => { if (w.state === 'installed') offer(w); });
+      });
+      reg.update().catch(() => {});   // ask on every open
+    })
     .catch(() => {});
 }
 

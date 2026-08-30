@@ -11,11 +11,44 @@
 import { el, closeOnBackdrop, toast } from './dom.js';
 import { CHANGELOG, VERSION } from '../data/changelog.js';
 
+/* §7f — WHICH COPY OF THE APP IS THIS DEVICE ACTUALLY HOLDING?
+ *
+ * The version stamp cannot answer that. It says what THIS document is, which is
+ * not the same as what the cache will serve after the next relaunch — and on an
+ * offline-first app those differ exactly when something has gone wrong. Only
+ * caches.keys() knows, so the panel that answers "what have I got" reads it.
+ * Nothing the reader wrote is in here: cache names carry the release, not data. */
+async function cacheReport() {
+  if (!('caches' in window)) return ['This browser has no offline cache storage.'];
+  try {
+    const names = await caches.keys();
+    return names.length ? names : ['Nothing stored offline yet.'];
+  } catch (e) {
+    return ['Could not read the offline caches: ' + String((e && e.message) || e)];
+  }
+}
+
+function cacheSection() {
+  const list = el('p', { class: 'dim' }, 'Reading…');
+  cacheReport().then((names) => {
+    list.textContent = names.join(' · ');
+  });
+  return [
+    el('h3', { class: 'welcome-sub' }, 'What this device is holding'),
+    el('p', {}, [
+      'This copy is ', el('strong', {}, 'v' + VERSION), '. Below is what is actually stored offline — ',
+      'useful if the app seems to be showing you an older version than it says.',
+    ]),
+    list,
+  ];
+}
+
 // Manual "Check for updates" — asks the browser to re-fetch the service worker
-// now. If a newer version exists it installs and takes control, and main.js's
-// controllerchange handler reloads the page to it (so this button can end in an
-// automatic refresh). Reports each step so the button label + a toast stay
-// honest. Fails soft offline.
+// now. If a newer version exists it installs AND WAITS: the strip at the bottom
+// of the screen is what offers it, and pressing that is what loads it. This
+// button never reloads the page out from under whoever is reading it (§7h).
+// Reports each step so the button label + a toast stay honest. Fails soft
+// offline.
 async function checkForUpdates(setStatus) {
   if (!('serviceWorker' in navigator)) { setStatus('unavailable'); return; }
   let reg = null;
@@ -42,7 +75,7 @@ function updateButton() {
   btn.addEventListener('click', () => {
     checkForUpdates((s) => {
       if (s === 'checking') { btn.disabled = true; btn.textContent = 'Checking…'; return; }
-      if (s === 'updating') { btn.textContent = 'Updating…'; toast('New version found — updating…'); return; }
+      if (s === 'updating') { btn.textContent = 'Found one…'; toast('New version found — load it from the strip at the bottom'); return; }
       btn.disabled = false; btn.textContent = 'Check for updates';
       if (s === 'current') toast(`You’re on the latest version (v${VERSION})`);
       else if (s === 'offline') toast('Can’t check for updates while offline');
@@ -200,6 +233,7 @@ export function openAbout({ welcome = false, onShowAll } = {}) {
     onShowAll
       ? el('button', { class: 'tip-primary', onClick: () => { onShowAll(); dlg.close(); } }, 'Show all pins')
       : null,
+    ...cacheSection(),
     el('h3', { class: 'welcome-sub' }, 'Drop your own pins'),
     el('p', {}, [
       'Press and hold anywhere on the map — a long-press on a phone, or a right-click on a computer — to drop your own pin and give it a name. ',

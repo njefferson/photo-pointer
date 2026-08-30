@@ -861,3 +861,43 @@ body {
   height: 1.875rem;
   line-height: 1.875rem;
 }
+
+/* THE UPDATE STRIP — Doctrine §7h. Standing, not a toast: a new version that
+   announces itself for four seconds and fades has told nobody who was looking
+   at the map. It stays until the reader acts on it.
+
+   Above the safe area and below the top bar's z-index, so it never covers a
+   control. `role="status"` on the element itself, so a screen reader hears it
+   arrive without it stealing focus from whatever is being read. */
+.update-strip {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: calc(100vw - 24px);
+  padding: 10px 12px 10px 16px;
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.28);
+  font-size: 0.875rem;
+  z-index: 2100;
+}
+.update-strip button {
+  flex: none;
+  /* 44px, because this is pressed by a thumb on a phone held one-handed. */
+  min-height: 44px;
+  padding: 0 14px;
+  border-radius: 9px;
+  border: 1px solid color-mix(in srgb, var(--ink) 45%, var(--line));
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+.update-strip button:disabled { opacity: 0.55; cursor: default; }

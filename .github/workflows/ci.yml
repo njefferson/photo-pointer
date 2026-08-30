@@ -23,14 +23,15 @@ jobs:
   # ingested OpenStreetMap text and a vendored library, now declared in
   # `.third-person-allow`.
   #
-  # `pwa` IS DELIBERATELY ABSENT AND THAT IS A DEBT, NOT A SETTING. This app has
-  # a service worker, so the flag belongs here; pwa-check fails it on three real
-  # Doctrine §7h findings — sw.js calls skipWaiting() during install, so a new
-  # worker takes over under the open page; nothing lets the reader trigger the
-  # update; and nothing reads caches.keys(), so the diagnostic cannot say which
-  # copy of the app a device is holding. Fixing that means building the update
-  # strip a reader can see, which is a change to what people using this app
-  # experience rather than a change to its wiring. Recorded in REPOS.md as owed.
+  # `pwa` IS ON as of 2026-08-30, and what it was hiding is worth recording.
+  # The service worker called skipWaiting() during install and the page reloaded
+  # itself the moment the new worker took control — so a deploy threw away what
+  # somebody standing at a viewpoint was reading. That was written to fix a real
+  # defect (a new version needed TWO force-closes) and fixed it by taking the
+  # decision away from the reader. The version now waits, a standing strip says
+  # so in words, and pressing it is what loads it. Watched happening against a
+  # REAL second worker before this line was written — which is how the first
+  # draft was caught reloading the very first visit.
   #
   # `zizmor` IS ON as of 2026-08-29. It was off because these workflows carried
   # THIRTY-FIVE unpinned action references — `@v5` and `@v3` tags, which are
@@ -42,6 +43,7 @@ jobs:
   hub-gates:
     uses: njefferson/noahjefferson/.github/workflows/hub-gates.yml@e2a5b7cb6b59311bdc7379abd0dea442edc8422f
     with:
+      pwa: true
       zizmor: true
 
   test:
