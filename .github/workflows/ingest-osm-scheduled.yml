@@ -48,10 +48,17 @@ jobs:
     env:
       REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
     steps:
-      - uses: actions/checkout@v5
+      # THE CREDENTIAL IS THE POINT HERE. This job fetches from a public source
+      # and COMMITS the result back, so it needs a git credential and
+      # `persist-credentials: false` would break it. The job's permissions are
+      # already scoped to `contents: write` and nothing else, the workflow is
+      # dispatch- or schedule-triggered so no outside input reaches it, and
+      # every step between the checkout and the push is this repo's own code.
+      # zizmor: artipacked, declared rather than left standing.
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5 # zizmor: ignore[artipacked]
         with:
           ref: staging
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
 
@@ -107,10 +114,17 @@ jobs:
       # Overpass has already done.
       - name: Commit
         if: always() && (steps.gate.outputs.action == 'run' || steps.gate.outputs.action == 'refresh')
+        env:
+          # Through the environment, never expanded into the script. A step
+          # output is a string this workflow did not write, and `${{ }}`
+          # substitutes it BEFORE bash parses the line — so a status containing
+          # a quote runs the rest of it as a command, in a job holding a
+          # contents:write token. zizmor: template-injection.
+          STATUS: ${{ steps.status.outputs.status }}
         run: |
           git config user.name "photo-pointer ingest"
           git config user.email "actions@users.noreply.github.com"
           git add data/ ingest/inputs/
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "Overnight map sweep for $REGION: ${{ steps.status.outputs.status }}" -m "Runs in Europe's quiet hours and asks only for the map tiles it does not already have. Stops on its own once the area is complete."
+          git commit -m "Overnight map sweep for $REGION: $STATUS" -m "Runs in Europe's quiet hours and asks only for the map tiles it does not already have. Stops on its own once the area is complete."
           for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((i*5)); done

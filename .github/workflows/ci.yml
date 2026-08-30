@@ -6,6 +6,12 @@ on:
   pull_request:
   workflow_dispatch:
 
+# NOTHING HERE WRITES. Declared rather than inherited: with no block at all a
+# workflow takes the repository's default token permissions, which on this
+# account includes write. zizmor: excessive-permissions.
+permissions:
+  contents: read
+
 jobs:
   # EVERY HUB GATE, CALLED RATHER THAN COPIED.
   #
@@ -25,15 +31,29 @@ jobs:
   # copy of the app a device is holding. Fixing that means building the update
   # strip a reader can see, which is a change to what people using this app
   # experience rather than a change to its wiring. Recorded in REPOS.md as owed.
-  # `zizmor` likewise: the workflows here carry unpinned action references.
+  #
+  # `zizmor` IS ON as of 2026-08-29. It was off because these workflows carried
+  # THIRTY-FIVE unpinned action references — `@v5` and `@v3` tags, which are
+  # mutable pointers somebody else controls, two of them in the job that holds a
+  # live Cloudflare token. All are pinned to commits now. Every checkout that
+  # does not push drops its git credential; the sixteen ingest workflows that DO
+  # commit keep theirs and say why. Both workflows that lacked a `permissions:`
+  # block have one. And a step output no longer expands into a `git commit -m`.
   hub-gates:
     uses: njefferson/noahjefferson/.github/workflows/hub-gates.yml@e2a5b7cb6b59311bdc7379abd0dea442edc8422f
+    with:
+      zizmor: true
 
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          # Nothing in this job pushes, so the runner has no use for a git
+          # credential — and one left in .git/config is available to every later
+          # step, including whatever gets added next year. zizmor: artipacked.
+          persist-credentials: false
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
       - name: Unit tests

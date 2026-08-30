@@ -26,8 +26,15 @@ jobs:
     env:
       REGION: ${{ github.event.inputs.region || 'sac-eldorado-placer' }}
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+      # THE CREDENTIAL IS THE POINT HERE. This job fetches from a public source
+      # and COMMITS the result back, so it needs a git credential and
+      # `persist-credentials: false` would break it. The job's permissions are
+      # already scoped to `contents: write` and nothing else, the workflow is
+      # dispatch- or schedule-triggered so no outside input reaches it, and
+      # every step between the checkout and the push is this repo's own code.
+      # zizmor: artipacked, declared rather than left standing.
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5 # zizmor: ignore[artipacked]
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
       - name: Fetch OSM curiosity features (ODbL)

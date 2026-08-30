@@ -13,12 +13,21 @@ concurrency:
   group: deploy-${{ github.ref_name }}
   cancel-in-progress: true
 
+# The deploy holds a live Cloudflare token and pushes nothing to git.
+permissions:
+  contents: read
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     if: github.ref_name == 'main' || github.ref_name == 'staging'
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          # Nothing in this job pushes, so the runner has no use for a git
+          # credential — and one left in .git/config is available to every later
+          # step, including whatever gets added next year. zizmor: artipacked.
+          persist-credentials: false
       - name: Check Cloudflare secrets
         id: cf
         env:
@@ -37,14 +46,14 @@ jobs:
       - name: Ensure Pages project exists
         if: steps.cf.outputs.ready == 'true'
         continue-on-error: true
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages project create photo-pointer --production-branch=main
       - name: Deploy to Cloudflare Pages
         if: steps.cf.outputs.ready == 'true'
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
