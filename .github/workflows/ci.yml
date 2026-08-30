@@ -58,6 +58,12 @@ jobs:
       - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
+      # NEW, and it is new because this repo genuinely had no dependencies until
+      # the update walk needed a browser driver. npm ci, never npm install: the
+      # committed lockfile is what pins what executes on a runner (§16.1).
+      - name: Install tooling
+        run: npm ci
+
       - name: Unit tests
         run: node --test
       - name: Contrast gate (WCAG, both themes)
