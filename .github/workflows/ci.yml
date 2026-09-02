@@ -41,7 +41,7 @@ jobs:
   # commit keep theirs and say why. Both workflows that lacked a `permissions:`
   # block have one. And a step output no longer expands into a `git commit -m`.
   hub-gates:
-    uses: njefferson/noahjefferson/.github/workflows/hub-gates.yml@e2a5b7cb6b59311bdc7379abd0dea442edc8422f
+    uses: njefferson/noahjefferson/.github/workflows/hub-gates.yml@3f2a37374fd7fb9fa5671f6c6b79e1c95d660b06
     with:
       pwa: true
       zizmor: true
@@ -58,6 +58,13 @@ jobs:
       - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
+      # THE PIN AND THE MARKER ARE THE SAME FACT, in two files. A pin left
+      # behind means CI runs the hub's gates from an older commit and every one
+      # of them goes green. It runs on every commit through .branch-guard as
+      # well; here it is because a fresh clone has no hook.
+      - name: The hub pin and the doctrine marker agree
+        run: node tools/hub-pin-check.mjs
+
       # NEW, and it is new because this repo genuinely had no dependencies until
       # the update walk needed a browser driver. npm ci, never npm install: the
       # committed lockfile is what pins what executes on a runner (§16.1).
