@@ -1,0 +1,495 @@
+{
+  "source": "ebird",
+  "region": "solvang",
+  "note": "Hotspot identity + location only, imported from Bird-location-scouting county data. Observation frequencies omitted (eBird terms). Refresh with scripts/import-ebird-from-frame.mjs.",
+  "attribution": "Hotspot data from eBird, Cornell Lab of Ornithology",
+  "license": "eBird API Terms of Use — attribution required, no bulk redistribution",
+  "countyBuilt": {
+    "US-CA-083": "2026-07-15",
+    "US-CA-079": "2026-07-15",
+    "US-CA-029": "2026-07-15",
+    "US-CA-111": "2026-07-15"
+  },
+  "hotspots": [
+    {
+      "locId": "L1072372",
+      "name": "UCSB--Campus Lagoon",
+      "lat": 34.4077,
+      "lng": -119.8452,
+      "nSpecies": 258,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L109260",
+      "name": "South Fork Kern River Valley--general area",
+      "lat": 35.6722,
+      "lng": -118.3075,
+      "nSpecies": 218,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L109310",
+      "name": "Pt. Mugu State Park (general)",
+      "lat": 34.1079,
+      "lng": -119.0059,
+      "nSpecies": 301,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L109395",
+      "name": "Morro Bay Estuary (use more specific location(s) when possible)",
+      "lat": 35.3377,
+      "lng": -120.8501,
+      "nSpecies": 259,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L109437",
+      "name": "Galileo Hill--Silver Saddle Ranch and Club",
+      "lat": 35.219,
+      "lng": -117.758,
+      "nSpecies": 337,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L109497",
+      "name": "Butterbredt Spring",
+      "lat": 35.3818,
+      "lng": -118.1133,
+      "nSpecies": 241,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L109503",
+      "name": "Santa Barbara Island (SBA Co.)",
+      "lat": 33.4758,
+      "lng": -119.0357,
+      "nSpecies": 267,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L109505",
+      "name": "San Nicolas Island (VEN Co.)",
+      "lat": 33.2501,
+      "lng": -119.5107,
+      "nSpecies": 270,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L1316658",
+      "name": "Morro Bay SP--Marina/Boardwalk Trail",
+      "lat": 35.3445,
+      "lng": -120.8418,
+      "nSpecies": 265,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L1341662",
+      "name": "Kern Water Bank",
+      "lat": 35.3359,
+      "lng": -119.2407,
+      "nSpecies": 229,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L163614",
+      "name": "California City Central Park",
+      "lat": 35.1289,
+      "lng": -117.9455,
+      "nSpecies": 299,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L16871073",
+      "name": "Coal Oil Point Natural Reserve (parent hotspot, if possible, use more specific hotspot)",
+      "lat": 34.4152,
+      "lng": -119.88,
+      "nSpecies": 311,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L1861949",
+      "name": "Ormond Beach--Arnold Rd. access",
+      "lat": 34.1227,
+      "lng": -119.1565,
+      "nSpecies": 273,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L208487",
+      "name": "Oso Flaco Lake (not for beach/ocean)",
+      "lat": 35.0302,
+      "lng": -120.6208,
+      "nSpecies": 293,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L2095553",
+      "name": "Islay Creek Campground--Montana de Oro SP",
+      "lat": 35.2736,
+      "lng": -120.8839,
+      "nSpecies": 257,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L251839",
+      "name": "Sweet Springs Nature Preserve",
+      "lat": 35.3217,
+      "lng": -120.8423,
+      "nSpecies": 239,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L2520115",
+      "name": "Kern NWR--South Auto Tour Route",
+      "lat": 35.7487,
+      "lng": -119.5973,
+      "nSpecies": 210,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L267487",
+      "name": "Carpinteria Creek",
+      "lat": 34.393,
+      "lng": -119.514,
+      "nSpecies": 253,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L282089",
+      "name": "Laguna Lake",
+      "lat": 35.2656,
+      "lng": -120.6904,
+      "nSpecies": 271,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L282283",
+      "name": "Morro Bay SP--Campground",
+      "lat": 35.3468,
+      "lng": -120.8388,
+      "nSpecies": 252,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L282694",
+      "name": "Pismo SB--Oceano Campground",
+      "lat": 35.1086,
+      "lng": -120.6265,
+      "nSpecies": 286,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L297806",
+      "name": "Santa Clara River Estuary",
+      "lat": 34.2317,
+      "lng": -119.2628,
+      "nSpecies": 293,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L297811",
+      "name": "Pt. Mugu SP--Sycamore Canyon",
+      "lat": 34.0731,
+      "lng": -119.0154,
+      "nSpecies": 281,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L297814",
+      "name": "Lake Casitas",
+      "lat": 34.3813,
+      "lng": -119.3402,
+      "nSpecies": 275,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L299264",
+      "name": "Ventura River Estuary",
+      "lat": 34.2756,
+      "lng": -119.3082,
+      "nSpecies": 245,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L336013",
+      "name": "Lake Los Carneros Park",
+      "lat": 34.4432,
+      "lng": -119.8497,
+      "nSpecies": 277,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L348850",
+      "name": "Montana de Oro SP (use a more specific hotspot when possible)",
+      "lat": 35.2679,
+      "lng": -120.8888,
+      "nSpecies": 330,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L351583",
+      "name": "Ventura Harbor (general)",
+      "lat": 34.2494,
+      "lng": -119.2673,
+      "nSpecies": 271,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L351584",
+      "name": "Ventura Settling Ponds",
+      "lat": 34.2381,
+      "lng": -119.2615,
+      "nSpecies": 313,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L354230",
+      "name": "Saticoy Spreading Ponds",
+      "lat": 34.2734,
+      "lng": -119.1251,
+      "nSpecies": 264,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L373996",
+      "name": "Ventura County Game Preserve (no public access)",
+      "lat": 34.1178,
+      "lng": -119.1361,
+      "nSpecies": 242,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L373997",
+      "name": "Pt. Mugu Naval Air Station (restricted access)",
+      "lat": 34.1114,
+      "lng": -119.1115,
+      "nSpecies": 324,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L375253",
+      "name": "Santa Cruz Island--Prisoners Harbor",
+      "lat": 34.0187,
+      "lng": -119.6821,
+      "nSpecies": 251,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L384940",
+      "name": "Cerro Coso Community College",
+      "lat": 35.5674,
+      "lng": -117.6706,
+      "nSpecies": 208,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L3874634",
+      "name": "South Fork Wildlife Area (general location)",
+      "lat": 35.6645,
+      "lng": -118.3658,
+      "nSpecies": 246,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L416384",
+      "name": "McGrath State Beach",
+      "lat": 34.2263,
+      "lng": -119.2599,
+      "nSpecies": 323,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L422817",
+      "name": "Coal Oil Point, Devereux Beach, Sands Beach, and bluff trails",
+      "lat": 34.4071,
+      "lng": -119.8783,
+      "nSpecies": 261,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L471741",
+      "name": "Villa Creek--Estero Bluffs State Park",
+      "lat": 35.46,
+      "lng": -120.9688,
+      "nSpecies": 254,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L473074",
+      "name": "Estero Bluffs SP",
+      "lat": 35.4484,
+      "lng": -120.9438,
+      "nSpecies": 272,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L5531828",
+      "name": "San Simeon Creek Mouth/Beach",
+      "lat": 35.5956,
+      "lng": -121.1267,
+      "nSpecies": 246,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L613644",
+      "name": "Gaviota State Park--Gaviota Beach area",
+      "lat": 34.4727,
+      "lng": -120.2284,
+      "nSpecies": 260,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L615786",
+      "name": "Refugio State Beach",
+      "lat": 34.4644,
+      "lng": -120.0695,
+      "nSpecies": 257,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L615794",
+      "name": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+      "lat": 34.4136,
+      "lng": -119.8756,
+      "nSpecies": 290,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L616539",
+      "name": "Pecho Road Willows",
+      "lat": 35.3171,
+      "lng": -120.8527,
+      "nSpecies": 269,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L628412",
+      "name": "Kern NWR",
+      "lat": 35.7592,
+      "lng": -119.5934,
+      "nSpecies": 249,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L635864",
+      "name": "Arroyo de la Cruz",
+      "lat": 35.7102,
+      "lng": -121.3089,
+      "nSpecies": 238,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L639686",
+      "name": "Lake Isabella",
+      "lat": 35.661,
+      "lng": -118.4233,
+      "nSpecies": 281,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L69840958",
+      "name": "UC Santa Barbara (parent hotspot)",
+      "lat": 34.4123,
+      "lng": -119.8473,
+      "nSpecies": 306,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L70464943",
+      "name": "Carpinteria Creek and beaches area",
+      "lat": 34.3905,
+      "lng": -119.5144,
+      "nSpecies": 319,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L71125716",
+      "name": "Gaviota State Park (parent hotspot)",
+      "lat": 34.4783,
+      "lng": -120.2357,
+      "nSpecies": 264,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L713500",
+      "name": "San Simeon SP",
+      "lat": 35.5969,
+      "lng": -121.1235,
+      "nSpecies": 272,
+      "county": "US-CA-079"
+    },
+    {
+      "locId": "L726768",
+      "name": "Kern River Preserve--Headquarters",
+      "lat": 35.669,
+      "lng": -118.306,
+      "nSpecies": 258,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L772068",
+      "name": "China Lake NAWS--Sewage Ponds (restricted access)",
+      "lat": 35.6722,
+      "lng": -117.6383,
+      "nSpecies": 294,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L773935",
+      "name": "Lake Ming",
+      "lat": 35.44,
+      "lng": -118.8629,
+      "nSpecies": 216,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L773936",
+      "name": "Hart Park (KER Co.)",
+      "lat": 35.4488,
+      "lng": -118.9111,
+      "nSpecies": 223,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L798527",
+      "name": "Kern River County Park",
+      "lat": 35.4355,
+      "lng": -118.8879,
+      "nSpecies": 211,
+      "county": "US-CA-029"
+    },
+    {
+      "locId": "L820867",
+      "name": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+      "lat": 34.4198,
+      "lng": -119.8792,
+      "nSpecies": 260,
+      "county": "US-CA-083"
+    },
+    {
+      "locId": "L853941",
+      "name": "Arnold Rd.",
+      "lat": 34.1357,
+      "lng": -119.1536,
+      "nSpecies": 231,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L855316",
+      "name": "Ormond Beach--Perkins Rd. access",
+      "lat": 34.1383,
+      "lng": -119.1843,
+      "nSpecies": 236,
+      "county": "US-CA-111"
+    },
+    {
+      "locId": "L989821",
+      "name": "Ocean Beach Park and Santa Ynez River Estuary",
+      "lat": 34.691,
+      "lng": -120.6004,
+      "nSpecies": 277,
+      "county": "US-CA-083"
+    }
+  ]
+}

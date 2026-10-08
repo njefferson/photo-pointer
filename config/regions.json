@@ -259,6 +259,51 @@
         "lng": -119.8213,
         "zoom": 12
       }
+    },
+    {
+      "id": "solvang",
+      "name": "Solvang · Santa Barbara County",
+      "bbox": {
+        "south": 34.3469,
+        "west": -120.7006,
+        "north": 35.1431,
+        "east": -119.413
+      },
+      "counties": [
+        {
+          "name": "Santa Barbara County",
+          "state": "CA",
+          "fips": "06083",
+          "osm_area_name": "Santa Barbara County",
+          "ebird_region": "US-CA-083"
+        },
+        {
+          "name": "San Luis Obispo County",
+          "state": "CA",
+          "fips": "06079",
+          "osm_area_name": "San Luis Obispo County",
+          "ebird_region": "US-CA-079"
+        },
+        {
+          "name": "Kern County",
+          "state": "CA",
+          "fips": "06029",
+          "osm_area_name": "Kern County",
+          "ebird_region": "US-CA-029"
+        },
+        {
+          "name": "Ventura County",
+          "state": "CA",
+          "fips": "06111",
+          "osm_area_name": "Ventura County",
+          "ebird_region": "US-CA-111"
+        }
+      ],
+      "center": {
+        "lat": 34.5958,
+        "lng": -120.1377,
+        "zoom": 12
+      }
     }
   ]
 }

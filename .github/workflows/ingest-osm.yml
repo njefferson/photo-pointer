@@ -49,6 +49,8 @@ jobs:
       - name: Probe Overpass reachability
         run: node ingest/ingest.mjs probe
       - name: Fetch OSM + eBird + markers, merge + validate
+        env:
+          RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
         run: node ingest/ingest.mjs all "$REGION"
       - name: Commit data
         run: |
