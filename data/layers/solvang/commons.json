@@ -1,0 +1,21 @@
+{
+  "source": {
+    "source": "wikimedia_commons",
+    "name": "Wikimedia Commons geotagged photo density",
+    "license": "CC/public-domain media (Commons); derived counts only",
+    "attribution": "Photo locations from Wikimedia Commons",
+    "status": "working",
+    "policy": {
+      "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+      "maxConcurrency": 1,
+      "minGapMs": 1000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 1000
+    }
+  },
+  "builtAt": "2026-10-09",
+  "photosHarvested": 6109,
+  "spotsTagged": 289
+}

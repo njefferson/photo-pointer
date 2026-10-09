@@ -110,7 +110,10 @@
         }
       ],
       "tags": {
-        "nrhp": "97000750"
+        "nrhp": "97000750",
+        "commons": {
+          "photos": 22
+        }
       }
     },
     {
@@ -559,7 +562,10 @@
       ],
       "tags": {
         "name": "Alisal Commons Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 60
+        }
       }
     },
     {
@@ -700,7 +706,10 @@
         "description": "Andrée Clark Bird Refuge",
         "wikipedia": "en:Andrée Clark Bird Refuge",
         "wikidata": "Q4755706",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -869,7 +878,10 @@
         "description": "This oceanfront beach with seasonal lifeguards & a grassy area for picnicking allows off-leash dogs.",
         "website": "https://www.countyofsb.org/810/Arroyo-Burro-Beach",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 459
+        }
       }
     },
     {
@@ -897,7 +909,10 @@
         }
       ],
       "tags": {
-        "nrhp": "91000344"
+        "nrhp": "91000344",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -923,7 +938,10 @@
       ],
       "tags": {
         "name": "Arroyo",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -950,7 +968,10 @@
       "tags": {
         "name": "Arthur Ferrini Park",
         "ele": "172",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -1003,7 +1024,10 @@
       ],
       "tags": {
         "name": "ATV Open Area",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -1029,7 +1053,10 @@
       ],
       "tags": {
         "name": "ATV Safety Training Area",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -1058,7 +1085,10 @@
       "tags": {
         "name": "Bald Mountain",
         "ele": "796",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -1173,7 +1203,10 @@
       ],
       "tags": {
         "name": "Banana Cabana",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -1199,7 +1232,10 @@
       ],
       "tags": {
         "name": "Barbeque Flats",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -1426,7 +1462,10 @@
       "tags": {
         "name": "Bella Vista Park",
         "ele": "34",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -1566,7 +1605,10 @@
       ],
       "tags": {
         "name": "Big Cone Spruce Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -1933,7 +1975,10 @@
       ],
       "tags": {
         "name": "Bradbury Dam Overlook",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -2101,7 +2146,10 @@
       ],
       "tags": {
         "name": "Buena Vista Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -2158,7 +2206,10 @@
       "tags": {
         "name": "Burton Mesa",
         "ele": "150",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -2502,7 +2553,10 @@
         "name": "Camino Corto Open Space",
         "operator": "Isla Vista Recreation and Park District",
         "natural": "grassland",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 100
+        }
       }
     },
     {
@@ -2528,7 +2582,10 @@
       ],
       "tags": {
         "name": "Camino Pescadero Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -2556,7 +2613,10 @@
       ],
       "tags": {
         "name": "Camino Real Bell",
-        "historic": "memorial"
+        "historic": "memorial",
+        "commons": {
+          "photos": 140
+        }
       }
     },
     {
@@ -2585,7 +2645,10 @@
       "tags": {
         "name": "Camp Hill",
         "ele": "53",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 50
+        }
       }
     },
     {
@@ -2611,7 +2674,10 @@
       ],
       "tags": {
         "name": "Campo Santo",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 141
+        }
       }
     },
     {
@@ -2695,7 +2761,10 @@
       ],
       "tags": {
         "name": "Canalino School Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -2748,7 +2817,10 @@
       ],
       "tags": {
         "name": "Canyon",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 37
+        }
       }
     },
     {
@@ -2859,7 +2931,10 @@
       "tags": {
         "name": "Carpinteria Bluffs III",
         "operator": "Citizens for the Carpinteria Bluffs",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -2889,7 +2964,10 @@
         "name": "Carpinteria Bluffs Nature Preserve",
         "website": "https://carpinteriabluffs.org/",
         "operator": "Citizens for the Carpinteria Bluffs",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -2920,7 +2998,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 319
+        "ebird_species": 319,
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -2977,7 +3058,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 253
+        "ebird_species": 253,
+        "commons": {
+          "photos": 23
+        }
       }
     },
     {
@@ -3019,7 +3103,10 @@
         "access": "yes",
         "natural": "beach",
         "leisure": "nature_reserve",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -3048,7 +3135,10 @@
         "fee": "yes",
         "access": "customers",
         "operator": "California State Parks",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 41
+        }
       }
     },
     {
@@ -3087,7 +3177,10 @@
         "fee": "yes",
         "access": "customers",
         "operator": "California State Parks",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 34
+        }
       }
     },
     {
@@ -3115,7 +3208,10 @@
         "name": "Carpinteria Tar Pit",
         "description": "Natural Tar Seep / Natural Tar Pit",
         "tourism": "attraction",
-        "natural": "feature"
+        "natural": "feature",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -3239,7 +3335,10 @@
         "opening_hours": "sunrise-sunset",
         "access": "yes",
         "natural": "wood",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -3296,7 +3395,10 @@
       ],
       "tags": {
         "ridb": "252856",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -3351,7 +3453,10 @@
       ],
       "tags": {
         "name": "Centennial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -3378,7 +3483,10 @@
       "tags": {
         "name": "Ceremonial Teahouse",
         "operator": "Santa Barbara Botanic Gardens",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -3555,7 +3663,10 @@
       "tags": {
         "name": "The Cheadle Center Overlook",
         "direction": "180",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 119
+        }
       }
     },
     {
@@ -3586,7 +3697,10 @@
       "tags": {
         "name": "Cheadle Overlook",
         "direction": "270",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 129
+        }
       }
     },
     {
@@ -3615,7 +3729,10 @@
         "ele": "12",
         "website": "https://ivparks.org/isla-vista-district-parks/neighborhood-parks/childrens-park/",
         "operator": "Isla Vista Recreation and Park District",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -3743,7 +3860,10 @@
         "wikidata": "Q4518038",
         "website": "https://www.parks.ca.gov/?page_id=602",
         "opening_hours": "dawn-dusk",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -3771,7 +3891,10 @@
       ],
       "tags": {
         "name": "Chumash Painted Cave",
-        "historic": "ruins"
+        "historic": "ruins",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -3798,7 +3921,10 @@
       "tags": {
         "name": "Chumash Park",
         "website": "http://www.pismobeach.org/287/Chumash-Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -3941,7 +4067,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 261
+        "ebird_species": 261,
+        "commons": {
+          "photos": 379
+        }
       }
     },
     {
@@ -3972,7 +4101,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 290
+        "ebird_species": 290,
+        "commons": {
+          "photos": 482
+        }
       }
     },
     {
@@ -4003,7 +4135,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 311
+        "ebird_species": 311,
+        "commons": {
+          "photos": 302
+        }
       }
     },
     {
@@ -4031,7 +4166,10 @@
       ],
       "tags": {
         "name": "Coal Oil Point Reserve",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 416
+        }
       }
     },
     {
@@ -4061,7 +4199,10 @@
         "name": "Coal Oil Point Reserve",
         "ele": "2",
         "wikidata": "Q49478722",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 485
+        }
       }
     },
     {
@@ -4120,7 +4261,10 @@
       "tags": {
         "name": "Coastal Ranches Conservancy Outlook",
         "direction": "180",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 67
+        }
       }
     },
     {
@@ -4146,7 +4290,10 @@
       ],
       "tags": {
         "name": "Cocheo Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -4182,7 +4329,10 @@
         "name": "Cold Spring Trail",
         "operator": "Montecito Trails Foundation",
         "tourism": "information",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "commons": {
+          "photos": 41
+        }
       }
     },
     {
@@ -4242,7 +4392,10 @@
         "name": "Cold Spring",
         "operator": "Montecito Trails Foundation",
         "tourism": "information",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "commons": {
+          "photos": 41
+        }
       }
     },
     {
@@ -4297,7 +4450,10 @@
       "tags": {
         "name": "Colin Drummond Campbell",
         "access": "yes",
-        "historic": "monument"
+        "historic": "monument",
+        "commons": {
+          "photos": 394
+        }
       }
     },
     {
@@ -4352,7 +4508,10 @@
       ],
       "tags": {
         "name": "Commons",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -4613,7 +4772,10 @@
       ],
       "tags": {
         "name": "County Firefighters Memorial",
-        "historic": "memorial"
+        "historic": "memorial",
+        "commons": {
+          "photos": 23
+        }
       }
     },
     {
@@ -4674,7 +4836,10 @@
       "tags": {
         "name": "Crossroads Open Space",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -4731,7 +4896,10 @@
       ],
       "tags": {
         "ridb": "252777",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -4788,7 +4956,10 @@
         }
       ],
       "tags": {
-        "nrhp": "71000189"
+        "nrhp": "71000189",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -4990,7 +5161,10 @@
         "website": "https://ivparks.org/isla-vista-district-parks/natural-open-spaces/del-sol-vernal-pool-reserve/",
         "operator": "Isla Vista Recreation and Park District",
         "natural": "grassland",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 52
+        }
       }
     },
     {
@@ -5016,7 +5190,10 @@
       ],
       "tags": {
         "name": "Desert",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 39
+        }
       }
     },
     {
@@ -5162,7 +5339,10 @@
       "tags": {
         "name": "The Dinosaur",
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 156
+        }
       }
     },
     {
@@ -5291,7 +5471,10 @@
       "tags": {
         "name": "Douglas Family Preserve",
         "wikidata": "Q5301459",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 465
+        }
       }
     },
     {
@@ -5317,7 +5500,10 @@
       ],
       "tags": {
         "name": "Dr. Rudolf W. Gerber Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -5462,7 +5648,10 @@
       ],
       "tags": {
         "name": "Edgewood Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -5549,7 +5738,10 @@
       ],
       "tags": {
         "name": "El Capitan Beach Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -5584,7 +5776,10 @@
         "operator": "California Department of Parks and Recreation",
         "leisure": "nature_reserve",
         "boundary": "national_park",
-        "wikimedia_commons": "Category:El Capitán State Beach"
+        "wikimedia_commons": "Category:El Capitán State Beach",
+        "commons": {
+          "photos": 16
+        }
       }
     },
     {
@@ -5696,7 +5891,10 @@
       "tags": {
         "name": "El Presidio de Santa Barbara State Historic Park",
         "ele": "103",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -5762,7 +5960,10 @@
       "tags": {
         "name": "Elders Park",
         "description": "Private Park located behind the Tribal Offices",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -5790,7 +5991,10 @@
         "name": "Elings Park",
         "website": "https://elingspark.org/",
         "opening_hours": "sunrise-sunset",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -5819,7 +6023,10 @@
       "tags": {
         "name": "Elkhorn Hills",
         "ele": "980.5",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -5897,7 +6104,10 @@
       ],
       "tags": {
         "name": "Elm Apt Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 18
+        }
       }
     },
     {
@@ -6015,7 +6225,10 @@
         "name": "Estero Park",
         "website": "https://ivparks.org/estero-park/",
         "operator": "Isla Vista Recreation & Park District",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 35
+        }
       }
     },
     {
@@ -6125,7 +6338,10 @@
       ],
       "tags": {
         "name": "Falcon Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -6151,7 +6367,10 @@
       ],
       "tags": {
         "name": "Fallen Forest",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 39
+        }
       }
     },
     {
@@ -6180,7 +6399,10 @@
       "tags": {
         "name": "Fault Line",
         "historic": "archaeological_site",
-        "curiosity": "Archaeological site"
+        "curiosity": "Archaeological site",
+        "commons": {
+          "photos": 20
+        }
       }
     },
     {
@@ -6235,7 +6457,10 @@
         "website": "https://www.fs.usda.gov/recarea/lpnf/recreation/recarea/?recid=11121&actid=29",
         "operator": "USFS",
         "tourism": "camp_site",
-        "highway": "service"
+        "highway": "service",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -6398,7 +6623,10 @@
       ],
       "tags": {
         "name": "Fletcher Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -6682,7 +6910,10 @@
       ],
       "tags": {
         "name": "Francisco \"Paco\" Pereyra Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -6880,7 +7111,10 @@
         "ele": "35",
         "wikidata": "Q49491914",
         "historic": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -6906,7 +7140,10 @@
       ],
       "tags": {
         "name": "Gaffney Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 69
+        }
       }
     },
     {
@@ -6936,7 +7173,10 @@
         "fee": "yes",
         "access": "yes",
         "wheelchair": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -7017,7 +7257,10 @@
         "name": "Gaviota Peak",
         "ele": "747",
         "wikidata": "Q5528326",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -7048,7 +7291,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 260
+        "ebird_species": 260,
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -7181,7 +7427,10 @@
       "tags": {
         "name": "Giant Troll Lulu Hyggelig",
         "artwork_type": "installation",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 134
+        }
       }
     },
     {
@@ -7409,7 +7658,10 @@
         }
       ],
       "tags": {
-        "nrhp": "01001457"
+        "nrhp": "01001457",
+        "commons": {
+          "photos": 48
+        }
       }
     },
     {
@@ -7496,7 +7748,10 @@
       "tags": {
         "name": "Gould Park",
         "ele": "217",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -7617,7 +7872,10 @@
         "inscription": "GROTTO OF SAINT JOSEPH\nDEDICATED TO THE MEMORY OF JOE AIREY\n1933-2016\nAND ALL THE MEMBERS OF THE OLD MISSION SANTA INES MEN'S AND WOMEN'S CLUB WHO HAVE SHARED THEIR FAITH AND TALENTS OVER THE YEARS.\nSAINT JOSEPH PRAY FOR US!",
         "memorial": "plaque",
         "name": "Grotto of Saint Joseph",
-        "direction": "15"
+        "direction": "15",
+        "commons": {
+          "photos": 141
+        }
       }
     },
     {
@@ -7643,7 +7901,10 @@
       ],
       "tags": {
         "name": "Grover Heights Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -7672,7 +7933,10 @@
       "tags": {
         "name": "Gruta de Nuestra Señora de Guadalupe",
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 139
+        }
       }
     },
     {
@@ -7753,7 +8017,10 @@
       ],
       "tags": {
         "name": "Halcyon Iceplants",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -7809,7 +8076,10 @@
       "tags": {
         "name": "Hans Christian Andersen Park",
         "wikidata": "Q49497721",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 66
+        }
       }
     },
     {
@@ -7838,7 +8108,10 @@
       "tags": {
         "name": "Hans Christian Andersen",
         "artwork_type": "bust",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 145
+        }
       }
     },
     {
@@ -7943,7 +8216,10 @@
       ],
       "tags": {
         "name": "Hart-Collett Firefighters Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -7970,7 +8246,10 @@
       "tags": {
         "name": "Heath Ranch Park & Adobe",
         "ele": "14",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -8055,7 +8334,10 @@
         "name": "Heritage Square Park",
         "website": "https://www.arroyogrande.org/",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -8190,7 +8472,10 @@
       "tags": {
         "name": "Highland Park",
         "website": "http://www.pismobeach.org/291/Highland-Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -8218,7 +8503,10 @@
         "name": "Hike Bike Campsite",
         "fee": "yes",
         "operator": "Carpinteria State Beach",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 42
+        }
       }
     },
     {
@@ -8246,7 +8534,10 @@
         "name": "Hiker-Biker Campsite - Coastal Dunes",
         "fee": "yes",
         "access": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -8393,7 +8684,10 @@
       ],
       "tags": {
         "name": "Home Demo",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -8428,7 +8722,10 @@
       "tags": {
         "name": "Honda Valley Park",
         "leisure": "park",
-        "ele": "84"
+        "ele": "84",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -8454,7 +8751,10 @@
       ],
       "tags": {
         "name": "Hoosegow Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -8642,7 +8942,10 @@
       "tags": {
         "name": "Huasna Peak",
         "ele": "577",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -8762,7 +9065,10 @@
       "tags": {
         "tourism": "viewpoint",
         "name": "Inspiration Point",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -8789,7 +9095,10 @@
       "tags": {
         "name": "Ira Lease Park",
         "website": "http://www.pismobeach.org/292/Ira-Lease-Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 56
+        }
       }
     },
     {
@@ -8815,7 +9124,10 @@
       ],
       "tags": {
         "name": "Isla Vista \"DS\" Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 65
+        }
       }
     },
     {
@@ -8841,7 +9153,10 @@
       ],
       "tags": {
         "name": "Island View",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -9141,7 +9456,10 @@
         "name": "Junípero Serra",
         "artwork_type": "statue",
         "tourism": "artwork",
-        "inscription": "Fray Junipero Serra 1713-1784. Founder of The California Missions. In Memory of EUGENE D. HANNON. Donated by William H. Hannon Foundation"
+        "inscription": "Fray Junipero Serra 1713-1784. Founder of The California Missions. In Memory of EUGENE D. HANNON. Donated by William H. Hannon Foundation",
+        "commons": {
+          "photos": 140
+        }
       }
     },
     {
@@ -9280,7 +9598,10 @@
       ],
       "tags": {
         "name": "King's Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 39
+        }
       }
     },
     {
@@ -9333,7 +9654,10 @@
       "tags": {
         "name": "kitiyepumu' Park",
         "description": "A private park located on the Santa Ynez Chumash reservation.",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 18
+        }
       }
     },
     {
@@ -9359,7 +9683,10 @@
       ],
       "tags": {
         "name": "Kiwanis Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -9389,7 +9716,10 @@
       ],
       "tags": {
         "name": "Knapp's Castle",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 17
+        }
       }
     },
     {
@@ -9471,7 +9801,10 @@
       ],
       "tags": {
         "name": "la Coronilla Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -9511,7 +9844,10 @@
         "name": "La Cumbre Peak",
         "ele": "1215",
         "wikidata": "Q6462147",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -9568,7 +9904,10 @@
       ],
       "tags": {
         "ridb": "252825",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -9594,7 +9933,10 @@
       ],
       "tags": {
         "name": "La Mesa Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 21
+        }
       }
     },
     {
@@ -9674,7 +10016,11 @@
           "last_seen": "2026-10-09"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 34
+        }
+      }
     },
     {
       "id": "la-purisima-mission-state-historic-park@9q4m7f",
@@ -9786,7 +10132,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 277
+        "ebird_species": 277,
+        "commons": {
+          "photos": 48
+        }
       }
     },
     {
@@ -9981,7 +10330,10 @@
       "tags": {
         "name": "Lavigia Hill",
         "ele": "140",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -10008,7 +10360,10 @@
       "tags": {
         "name": "Le Roy Park",
         "ele": "23",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -10282,7 +10637,10 @@
       ],
       "tags": {
         "name": "The Little Mermaid Fountain",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 143
+        }
       }
     },
     {
@@ -10399,7 +10757,10 @@
         "name": "Lizards Mouth",
         "description": "scenic, climbing and hiking area",
         "tourism": "viewpoint",
-        "natural": "cliff"
+        "natural": "cliff",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -10430,7 +10791,10 @@
       "tags": {
         "name": "Lois Sidenberg Overlook",
         "direction": "90-300",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -10545,7 +10909,10 @@
         }
       ],
       "tags": {
-        "nrhp": "90001818"
+        "nrhp": "90001818",
+        "commons": {
+          "photos": 98
+        }
       }
     },
     {
@@ -10573,7 +10940,10 @@
         }
       ],
       "tags": {
-        "nrhp": "16000664"
+        "nrhp": "16000664",
+        "commons": {
+          "photos": 95
+        }
       }
     },
     {
@@ -10834,7 +11204,10 @@
       ],
       "tags": {
         "name": "Los Olivos Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -11054,7 +11427,10 @@
       "tags": {
         "name": "Lower Manning Park",
         "ele": "52",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -11356,7 +11732,10 @@
       ],
       "tags": {
         "name": "Manzanita",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -11504,7 +11883,10 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 443
+        }
       }
     },
     {
@@ -11534,7 +11916,10 @@
         "direction": "45;225",
         "historic": "memorial",
         "inscription": "In loving memory of David Michael Kyne, Heroes get remembered, but legends never die. Follow your heart and you'll never go wrong. -The Sandlot",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 446
+        }
       }
     },
     {
@@ -11570,7 +11955,10 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 66
+        }
       }
     },
     {
@@ -12026,7 +12414,10 @@
         "direction": "0",
         "historic": "memorial",
         "inscription": "This bench is in honor of: Matt & Virginia Mayer, Dedicated by: the kids... April 2021",
-        "memorial": "bench"
+        "memorial": "bench",
+        "commons": {
+          "photos": 48
+        }
       }
     },
     {
@@ -12168,7 +12559,10 @@
       "tags": {
         "direction": "200",
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -12196,7 +12590,10 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -12401,7 +12798,10 @@
       "tags": {
         "historic": "memorial",
         "inscription": "In grateful recognition of all who have honorably served in the Armed Forces of the United States of America",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 73
+        }
       }
     },
     {
@@ -12429,7 +12829,10 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 143
+        }
       }
     },
     {
@@ -12468,7 +12871,10 @@
         "historic": "memorial",
         "tourism": "artwork",
         "inscription": "LA GRUTA FUE INICIADO EN 1970 TERMINADO Y INAGRUADO EN 1981 POR EL CLUB GUADALUPANO. AÑOS MAS TARDE SE LE AGREGO LA FUENTE.\nTHE SHRINE WAS BEGUN IN 1970 AND FINISHED AND DEDICATED IN 1981 BY CLUB GUADALUPANO. LATER THE FOUNTAIN WAS ADDED.",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 139
+        }
       }
     },
     {
@@ -12496,7 +12902,10 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -12524,7 +12933,10 @@
       ],
       "tags": {
         "name": "Markowitz Memorial",
-        "historic": "memorial"
+        "historic": "memorial",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -12551,7 +12963,10 @@
       "tags": {
         "name": "Mary Harrington Park",
         "website": "http://www.pismobeach.org/294/Mary-Herrington-Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 67
+        }
       }
     },
     {
@@ -12772,7 +13187,10 @@
       "tags": {
         "name": "Memorial Park",
         "ele": "13",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -12862,7 +13280,10 @@
       ],
       "tags": {
         "name": "Mesa Lane Steps",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 86
+        }
       }
     },
     {
@@ -12914,7 +13335,10 @@
       ],
       "tags": {
         "name": "Michael Jackson's Neverlandland Ranch Gatehouse",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -13021,7 +13445,10 @@
         }
       ],
       "tags": {
-        "nrhp": "84001193"
+        "nrhp": "84001193",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -13073,7 +13500,10 @@
       ],
       "tags": {
         "name": "Miranda Pine Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -13130,7 +13560,10 @@
         "name": "Mission Dam",
         "historic": "dam",
         "tourism": "attraction",
-        "waterway": "dam"
+        "waterway": "dam",
+        "commons": {
+          "photos": 37
+        }
       }
     },
     {
@@ -13157,7 +13590,10 @@
       "tags": {
         "name": "Mission Historical Park",
         "ele": "101",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -13237,7 +13673,10 @@
         }
       ],
       "tags": {
-        "nrhp": "99000630"
+        "nrhp": "99000630",
+        "commons": {
+          "photos": 141
+        }
       }
     },
     {
@@ -13293,7 +13732,10 @@
       "tags": {
         "name": "Monarch Butterfly Grove",
         "tourism": "attraction",
-        "natural": "wood"
+        "natural": "wood",
+        "commons": {
+          "photos": 33
+        }
       }
     },
     {
@@ -13378,7 +13820,10 @@
       "tags": {
         "name": "Montecito Peak",
         "ele": "981",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -13575,7 +14020,10 @@
       ],
       "tags": {
         "name": "Mountain View Ranch Community Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -13601,7 +14049,10 @@
       ],
       "tags": {
         "name": "Mountain View Ranch Green Belt",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -13658,7 +14109,10 @@
       ],
       "tags": {
         "name": "Moy Mel",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -13775,7 +14229,10 @@
       ],
       "tags": {
         "name": "Napal Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -13804,7 +14261,10 @@
       "tags": {
         "name": "Naples State Marine Conservation Area",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -14092,7 +14552,10 @@
         "website": "https://www.countyofsb.org/parks/day-use/nojoqui-falls.sbc",
         "leisure": "park",
         "wikidata": "Q49531896",
-        "operator": "Santa Barbara County"
+        "operator": "Santa Barbara County",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -14121,7 +14584,10 @@
       "tags": {
         "curiosity": "Waterfall",
         "wikidata": "Q7047817",
-        "wikipedia": "https://en.wikipedia.org/wiki/Nojoqui_Falls"
+        "wikipedia": "https://en.wikipedia.org/wiki/Nojoqui_Falls",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -14164,7 +14630,10 @@
         "gnis": "246575",
         "name": "Nojoqui Falls",
         "wikidata": "Q7047817",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -14193,7 +14662,10 @@
       "tags": {
         "name": "Noon Peak",
         "ele": "1212",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -14229,7 +14701,10 @@
         "name": "North Beach Campground",
         "operator": "State of CA",
         "tourism": "camp_site",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 30
+        }
       }
     },
     {
@@ -14258,7 +14733,10 @@
       "tags": {
         "name": "North Campus Open Space",
         "website": "https://www.openspace.vcadmin.ucsb.edu/",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 120
+        }
       }
     },
     {
@@ -14430,7 +14908,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 277
+        "ebird_species": 277,
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -14458,7 +14939,10 @@
         "name": "Oceano Airport Campground",
         "website": "https://www.oceanoairport.com/facilities.html",
         "tourism": "camp_site",
-        "note": "must fly in to use"
+        "note": "must fly in to use",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -14510,7 +14994,10 @@
       ],
       "tags": {
         "name": "Oceano Memorial Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -14540,7 +15027,10 @@
         "name": "Oceano WW2 Memorial",
         "historic": "memorial",
         "inscription": "TO THE ETERNAL MEMORY OF OUR BOYS FROM OCEANO CALIFORNIA WHO GAVE THEIR LIVES IN WORLD WAR II",
-        "memorial": "war_memorial"
+        "memorial": "war_memorial",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -14624,7 +15114,10 @@
       "tags": {
         "ele": "0",
         "description": "Leftover piece from oil infrastructure",
-        "historic": "ruins"
+        "historic": "ruins",
+        "commons": {
+          "photos": 387
+        }
       }
     },
     {
@@ -14651,7 +15144,10 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "commons": {
+          "photos": 92
+        }
       }
     },
     {
@@ -14761,7 +15257,10 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "commons": {
+          "photos": 399
+        }
       }
     },
     {
@@ -14799,7 +15298,10 @@
       "tags": {
         "historic": "ruins",
         "artwork_type": "graffiti",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 493
+        }
       }
     },
     {
@@ -14827,7 +15329,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 33
+        }
       }
     },
     {
@@ -14855,7 +15360,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -14923,7 +15431,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -14952,7 +15463,10 @@
       "tags": {
         "artwork_type": "street_art",
         "tourism": "artwork",
-        "man_made": "street_cabinet"
+        "man_made": "street_cabinet",
+        "commons": {
+          "photos": 47
+        }
       }
     },
     {
@@ -15008,7 +15522,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -15093,7 +15610,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -15121,7 +15641,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -15149,7 +15672,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -15796,7 +16322,10 @@
       ],
       "tags": {
         "artwork_type": "mosaic",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 434
+        }
       }
     },
     {
@@ -16101,7 +16630,10 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 73
+        }
       }
     },
     {
@@ -16172,7 +16704,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -16208,7 +16743,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 143
+        }
       }
     },
     {
@@ -16236,7 +16774,10 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 43
+        }
       }
     },
     {
@@ -16318,7 +16859,10 @@
       ],
       "tags": {
         "artwork_type": "mural",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 22
+        }
       }
     },
     {
@@ -16374,7 +16918,10 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -16485,7 +17032,10 @@
       ],
       "tags": {
         "name": "Open recreation area for off road vehicles, called open Area",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -16630,7 +17180,10 @@
         "tourism": "attraction",
         "leisure": "park",
         "note": "two walls remaining",
-        "curiosity": "Archaeological site"
+        "curiosity": "Archaeological site",
+        "commons": {
+          "photos": 31
+        }
       }
     },
     {
@@ -16748,7 +17301,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 293
+        "ebird_species": 293,
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -16834,7 +17390,10 @@
         "name": "Pacific Coast Railway",
         "historic": "memorial",
         "inscription": "This plaque marks the location of the Pacific Coast Railway Right-of-Way as established on October 12th, 1881.",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 35
+        }
       }
     },
     {
@@ -16900,7 +17459,10 @@
         "reservable": true,
         "name": "Paradise Campground (Fed)",
         "ele": "280",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -16926,7 +17488,10 @@
       ],
       "tags": {
         "name": "Paradise Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -17005,7 +17570,10 @@
       "tags": {
         "name": "Parma Park",
         "wikidata": "Q7139148",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -17086,7 +17654,10 @@
       ],
       "tags": {
         "name": "Path to the Beach",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 36
+        }
       }
     },
     {
@@ -17140,7 +17711,10 @@
       ],
       "tags": {
         "name": "The Pauper's Cemetery",
-        "historic": "ruins"
+        "historic": "ruins",
+        "commons": {
+          "photos": 45
+        }
       }
     },
     {
@@ -17169,7 +17743,10 @@
         "ele": "122",
         "website": "https://www.facebook.com/syvpaws",
         "opening_hours": "Mo-Su 06:00-20:00",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 55
+        }
       }
     },
     {
@@ -17498,7 +18075,10 @@
       ],
       "tags": {
         "name": "Pike Place",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -17577,7 +18157,10 @@
       "tags": {
         "name": "Pismo Beach City Park",
         "ele": "7",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -17606,7 +18189,10 @@
       "tags": {
         "name": "Pismo Beach sign",
         "artwork_type": "sign",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "commons": {
+          "photos": 72
+        }
       }
     },
     {
@@ -17636,7 +18222,10 @@
         "name": "Pismo Dunes Natural Preserve",
         "ele": "12",
         "leisure": "nature_reserve",
-        "boundary": "national_park"
+        "boundary": "national_park",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -17663,7 +18252,10 @@
       "tags": {
         "name": "Pismo Invertebrate Reserve",
         "ele": "0",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 40
+        }
       }
     },
     {
@@ -17694,7 +18286,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 286
+        "ebird_species": 286,
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -17720,7 +18315,10 @@
       ],
       "tags": {
         "name": "Pismo State Beach Oceano Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 16
+        }
       }
     },
     {
@@ -17747,7 +18345,10 @@
       "tags": {
         "name": "Pismo State Beach",
         "leisure": "park",
-        "boundary": "national_park"
+        "boundary": "national_park",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -17897,7 +18498,10 @@
       "tags": {
         "curiosity": "Lighthouse",
         "wikidata": "Q7207940",
-        "wikipedia": "https://en.wikipedia.org/wiki/Point_Arguello_Light"
+        "wikipedia": "https://en.wikipedia.org/wiki/Point_Arguello_Light",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -18225,7 +18829,10 @@
       ],
       "tags": {
         "name": "Quail Grove",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -18277,7 +18884,10 @@
       ],
       "tags": {
         "name": "Ramona Garden Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -18304,7 +18914,10 @@
       "tags": {
         "name": "Ramona Gardens Park",
         "ele": "23",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -18386,7 +18999,10 @@
       ],
       "tags": {
         "name": "Raptor's Perch",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 38
+        }
       }
     },
     {
@@ -18414,7 +19030,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100000465"
+        "nrhp": "100000465",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -18441,7 +19060,10 @@
       "tags": {
         "name": "Rattlesnake Canyon Park",
         "ele": "411",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -18564,7 +19186,10 @@
         "operator": "California Department of Parks and Recreation",
         "leisure": "nature_reserve",
         "boundary": "national_park",
-        "wikimedia_commons": "Category:Refugio State Beach"
+        "wikimedia_commons": "Category:Refugio State Beach",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -18595,7 +19220,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 257
+        "ebird_species": 257,
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -18756,7 +19384,10 @@
       "tags": {
         "name": "Rincon Beach County Park",
         "ele": "7",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -18811,7 +19442,10 @@
       ],
       "tags": {
         "name": "River View Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -18868,7 +19502,10 @@
         "name": "Rocky Nook Park",
         "ele": "107",
         "website": "https://countyofsb.org/parks/day-use/rocky-nook.sbc#area1",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 13
+        }
       }
     },
     {
@@ -18960,7 +19597,10 @@
         "name": "Rosalind Perlman Park",
         "ele": "67",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -19049,7 +19689,10 @@
       ],
       "tags": {
         "name": "Rottapel Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 47
+        }
       }
     },
     {
@@ -19077,7 +19720,10 @@
         }
       ],
       "tags": {
-        "nrhp": "100007474"
+        "nrhp": "100007474",
+        "commons": {
+          "photos": 17
+        }
       }
     },
     {
@@ -19246,7 +19892,10 @@
       ],
       "tags": {
         "name": "Sage Hill Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -19275,7 +19924,10 @@
       "tags": {
         "ridb": "231960",
         "ridb_type": "Campground",
-        "reservable": true
+        "reservable": true,
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -19446,7 +20098,10 @@
       "tags": {
         "name": "San Marcos Foothills Preserve",
         "website": "http://sanmarcosfoothills.com",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 154
+        }
       }
     },
     {
@@ -19656,7 +20311,10 @@
         "wikidata": "Q7419231",
         "wikipedia": "en:Santa Barbara Light",
         "name": "Santa Barbara Light",
-        "man_made": "lighthouse"
+        "man_made": "lighthouse",
+        "commons": {
+          "photos": 20
+        }
       }
     },
     {
@@ -19682,7 +20340,10 @@
       ],
       "tags": {
         "name": "Santa Barbara Polo & Racquet Club",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -19848,7 +20509,10 @@
       "tags": {
         "name": "Santa Rosa Park",
         "ele": "93",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 7
+        }
       }
     },
     {
@@ -19875,7 +20539,10 @@
       "tags": {
         "name": "Santa Ynez Chumash Museum and Cultural Center",
         "operator": "Santa Ynez Band of Chumash Indians",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 43
+        }
       }
     },
     {
@@ -19905,7 +20572,10 @@
       ],
       "tags": {
         "name": "Santa Ynez Overlook",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -19931,7 +20601,10 @@
       ],
       "tags": {
         "name": "Santa Ynez Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 42
+        }
       }
     },
     {
@@ -20015,7 +20688,10 @@
       "tags": {
         "name": "Schau Peak",
         "ele": "454",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -20187,7 +20863,10 @@
       "tags": {
         "name": "Shephard Mesa peak",
         "ele": "210.312",
-        "natural": "peak"
+        "natural": "peak",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -20243,7 +20922,10 @@
       "tags": {
         "name": "Shoreline Park",
         "wikidata": "Q14683964",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -20326,7 +21008,10 @@
         "name": "Simas Park",
         "ele": "68",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -20436,7 +21121,10 @@
       ],
       "tags": {
         "name": "Site of WWII Japanese Attack",
-        "historic": "monument"
+        "historic": "monument",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -20490,7 +21178,10 @@
       "tags": {
         "name": "Skofield Park",
         "ele": "258",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -20542,7 +21233,10 @@
       ],
       "tags": {
         "name": "SM Foothills Preserve Trail",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "commons": {
+          "photos": 71
+        }
       }
     },
     {
@@ -20568,7 +21262,10 @@
       ],
       "tags": {
         "name": "SM Foothills Preserve Trail",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "commons": {
+          "photos": 63
+        }
       }
     },
     {
@@ -20655,7 +21352,10 @@
       "tags": {
         "name": "Snowy Plover Roost",
         "operator": "UCSB",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "commons": {
+          "photos": 406
+        }
       }
     },
     {
@@ -20683,7 +21383,10 @@
         "name": "Solvang Park",
         "ele": "152",
         "wheelchair": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 145
+        }
       }
     },
     {
@@ -21014,7 +21717,10 @@
       "tags": {
         "name": "Stow Grove Park",
         "ele": "27",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 16
+        }
       }
     },
     {
@@ -21042,7 +21748,10 @@
         }
       ],
       "tags": {
-        "nrhp": "00001166"
+        "nrhp": "00001166",
+        "commons": {
+          "photos": 48
+        }
       }
     },
     {
@@ -21127,7 +21836,10 @@
         "name": "Sueño Orchard",
         "website": "https://ivparks.org/isla-vista-district-parks/neighborhood-parks/sueno-orchard/",
         "operator": "Isla Vista Recreation & Park District",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 35
+        }
       }
     },
     {
@@ -21292,7 +22004,10 @@
       ],
       "tags": {
         "name": "Sycamore Grove",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 37
+        }
       }
     },
     {
@@ -21471,7 +22186,10 @@
         "name": "Tangerine Falls Overlook",
         "tourism": "viewpoint",
         "waterway": "waterfall",
-        "direction": "0-360"
+        "direction": "0-360",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -21497,7 +22215,10 @@
       ],
       "tags": {
         "name": "Tar Pit Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -21605,7 +22326,10 @@
       ],
       "tags": {
         "name": "Tecolote Meadows Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -21660,7 +22384,10 @@
       ],
       "tags": {
         "name": "Terra de Oro Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 30
+        }
       }
     },
     {
@@ -21687,7 +22414,10 @@
       "tags": {
         "name": "Thousand Steps",
         "website": "https://sbparksandrec.santabarbaraca.gov/beaches/thousand-steps-beach",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 24
+        }
       }
     },
     {
@@ -21740,7 +22470,10 @@
       ],
       "tags": {
         "name": "Tierra de Fortuna Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 154
+        }
       }
     },
     {
@@ -21821,7 +22554,10 @@
       ],
       "tags": {
         "name": "Toganazzini Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -21933,7 +22669,10 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -21958,7 +22697,10 @@
         }
       ],
       "tags": {
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "commons": {
+          "photos": 15
+        }
       }
     },
     {
@@ -22068,7 +22810,10 @@
       "tags": {
         "name": "Trigo-Pasado Park",
         "ele": "14",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -22241,7 +22986,10 @@
         }
       ],
       "tags": {
-        "ebird_species": 260
+        "ebird_species": 260,
+        "commons": {
+          "photos": 164
+        }
       }
     },
     {
@@ -22270,7 +23018,10 @@
       "tags": {
         "name": "UCSB West Campus Bluffs",
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "commons": {
+          "photos": 193
+        }
       }
     },
     {
@@ -22442,7 +23193,10 @@
       ],
       "tags": {
         "name": "Upper Manning Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -22552,7 +23306,10 @@
       ],
       "tags": {
         "name": "Upper Santa Ynez Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -22634,7 +23391,11 @@
           "last_seen": "2026-10-09"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 47
+        }
+      }
     },
     {
       "id": "vandenberg-space-launch-complex-10-west@9q4jz0",
@@ -22667,7 +23428,11 @@
           "last_seen": "2026-10-09"
         }
       ],
-      "tags": {}
+      "tags": {
+        "commons": {
+          "photos": 36
+        }
+      }
     },
     {
       "id": "vandenberg-state-marine-reserve@9q4jng",
@@ -22722,7 +23487,10 @@
       "tags": {
         "name": "Veterans' Memorial Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 10
+        }
       }
     },
     {
@@ -22780,7 +23548,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -22846,7 +23617,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 92
+        }
       }
     },
     {
@@ -22933,7 +23707,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 388
+        }
       }
     },
     {
@@ -22962,7 +23739,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 394
+        }
       }
     },
     {
@@ -22991,7 +23771,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 476
+        }
       }
     },
     {
@@ -23020,7 +23803,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 446
+        }
       }
     },
     {
@@ -23049,7 +23835,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 193
+        }
       }
     },
     {
@@ -23086,7 +23875,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 24
+        }
       }
     },
     {
@@ -23299,7 +24091,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 49
+        }
       }
     },
     {
@@ -23328,7 +24123,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 52
+        }
       }
     },
     {
@@ -23357,7 +24155,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 69
+        }
       }
     },
     {
@@ -23386,7 +24187,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -23415,7 +24219,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -23444,7 +24251,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 5
+        }
       }
     },
     {
@@ -23473,7 +24283,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -23618,7 +24431,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -23647,7 +24463,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 8
+        }
       }
     },
     {
@@ -23676,7 +24495,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -23705,7 +24527,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 11
+        }
       }
     },
     {
@@ -23734,7 +24559,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 12
+        }
       }
     },
     {
@@ -23763,7 +24591,10 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 104
+        }
       }
     },
     {
@@ -23793,7 +24624,10 @@
         }
       ],
       "tags": {
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "commons": {
+          "photos": 37
+        }
       }
     },
     {
@@ -24112,7 +24946,10 @@
       ],
       "tags": {
         "name": "Village Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 59
+        }
       }
     },
     {
@@ -24138,7 +24975,10 @@
       ],
       "tags": {
         "name": "Viola Fields",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
@@ -24255,7 +25095,10 @@
       "tags": {
         "name": "Vista Point",
         "wheelchair": "yes",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -24281,7 +25124,10 @@
       ],
       "tags": {
         "name": "Waller Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 6
+        }
       }
     },
     {
@@ -24307,7 +25153,10 @@
       ],
       "tags": {
         "name": "Walter Capps Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 42
+        }
       }
     },
     {
@@ -24452,7 +25301,10 @@
       ],
       "tags": {
         "name": "weedsfield",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 14
+        }
       }
     },
     {
@@ -24494,7 +25346,10 @@
         "natural": "waterfall",
         "gnis": "275500",
         "name": "Wellhouse Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "commons": {
+          "photos": 19
+        }
       }
     },
     {
@@ -24756,7 +25611,10 @@
       ],
       "tags": {
         "name": "Winchester Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -24782,7 +25640,10 @@
       ],
       "tags": {
         "name": "Winchester Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 3
+        }
       }
     },
     {
@@ -24808,7 +25669,10 @@
       ],
       "tags": {
         "name": "Window to the Sea Park",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 33
+        }
       }
     },
     {
@@ -24894,7 +25758,10 @@
       "tags": {
         "name": "Woodland Park",
         "ele": "19",
-        "leisure": "park"
+        "leisure": "park",
+        "commons": {
+          "photos": 9
+        }
       }
     },
     {
@@ -24952,7 +25819,10 @@
       ],
       "tags": {
         "name": "Worm Valley",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "commons": {
+          "photos": 4
+        }
       }
     },
     {
