@@ -90,6 +90,11 @@
           "s": 7.9,
           "w": 10.1,
           "site_m": 457
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -337,6 +342,11 @@
           "s": 15.8,
           "w": 7,
           "site_m": 333
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -462,6 +472,11 @@
           "s": 3.8,
           "w": 5.9,
           "site_m": 1730
+        },
+        "publicLand": {
+          "name": "Dick Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -506,6 +521,11 @@
           "s": -0.9,
           "w": 3.1,
           "site_m": 1088
+        },
+        "publicLand": {
+          "name": "Dick Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -1180,6 +1200,11 @@
           "s": -1.5,
           "w": -1.3,
           "site_m": 985
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -2040,6 +2065,11 @@
           "s": 16.8,
           "w": 12.1,
           "site_m": 1579
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -2122,6 +2152,11 @@
           "s": 13.3,
           "w": 4,
           "site_m": 550
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -2468,6 +2503,11 @@
           "s": -2.9,
           "w": -1.8,
           "site_m": 2072
+        },
+        "publicLand": {
+          "name": "Dick Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -2689,6 +2729,11 @@
           "s": 3.2,
           "w": 3.6,
           "site_m": 257
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -2737,6 +2782,11 @@
           "s": 7.8,
           "w": 18.4,
           "site_m": 271
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -2778,6 +2828,11 @@
           "s": 15.6,
           "w": 6.6,
           "site_m": 1360
+        },
+        "publicLand": {
+          "name": "Dick Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -2910,6 +2965,11 @@
           "s": -1.2,
           "w": -1.2,
           "site_m": 841
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -3118,6 +3178,11 @@
           "s": 9,
           "w": 1.5,
           "site_m": 258
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -3298,6 +3363,11 @@
           "observations": 7,
           "species": 7,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -3597,6 +3667,11 @@
           "observations": 16,
           "species": 13,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -3766,6 +3841,11 @@
           "s": 9.3,
           "w": 20.1,
           "site_m": 1323
+        },
+        "publicLand": {
+          "name": "Caliente Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "BLM"
         }
       }
     },
@@ -3811,6 +3891,11 @@
           "s": 0.3,
           "w": -1.7,
           "site_m": 1556
+        },
+        "publicLand": {
+          "name": "Caliente Mountain Wilderness Study Area",
+          "class": "1b",
+          "operator": "BLM"
         }
       }
     },
@@ -3993,6 +4078,11 @@
           "s": 8.7,
           "w": 0.3,
           "site_m": 247
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -4118,6 +4208,11 @@
           "s": -0.1,
           "w": -0.1,
           "site_m": 12
+        },
+        "publicLand": {
+          "name": "Camino Corto Open Space",
+          "class": "nature_reserve",
+          "operator": "Isla Vista Recreation and Park District"
         }
       }
     },
@@ -4705,6 +4800,11 @@
           "observations": 3,
           "species": 3,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Carpinteria Bluffs Nature Preserve",
+          "class": "nature_reserve",
+          "operator": "Citizens for the Carpinteria Bluffs"
         }
       }
     },
@@ -5063,6 +5163,11 @@
           "observations": 14,
           "species": 11,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Carpinteria Bluffs Nature Preserve",
+          "class": "nature_reserve",
+          "operator": "Citizens for the Carpinteria Bluffs"
         }
       }
     },
@@ -5238,6 +5343,11 @@
           "s": -0.3,
           "w": 1.5,
           "site_m": 35
+        },
+        "publicLand": {
+          "name": "Casa Dorinda Oak Woodland",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -5281,6 +5391,11 @@
           "s": -1.5,
           "w": -1.1,
           "site_m": 980
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -5528,6 +5643,11 @@
           "s": 3.1,
           "w": 1.5,
           "site_m": 730
+        },
+        "publicLand": {
+          "name": "Carrizo Plain National Monument",
+          "class": "3",
+          "operator": "Bureau of Land Management"
         }
       }
     },
@@ -5719,6 +5839,11 @@
           "observations": 8,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "North Campus Open Space",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -5772,6 +5897,11 @@
           "observations": 11,
           "species": 10,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "North Campus Open Space",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -5992,6 +6122,11 @@
           "s": -1.3,
           "w": 10,
           "site_m": 771
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -6038,6 +6173,11 @@
           "s": -1.2,
           "w": 24.2,
           "site_m": 739
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -6290,6 +6430,11 @@
           "observations": 139,
           "species": 55,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -6343,6 +6488,11 @@
           "observations": 3,
           "species": 3,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -6391,6 +6541,11 @@
           "s": -0.2,
           "w": 0,
           "site_m": 14
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -6436,6 +6591,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 8
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -6488,6 +6648,11 @@
           "observations": 3,
           "species": 3,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -6578,6 +6743,11 @@
           "observations": 3,
           "species": 2,
           "topGuild": "reptiles"
+        },
+        "publicLand": {
+          "name": "North Campus Open Space",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -6777,6 +6947,11 @@
           "observations": 7,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -6823,6 +6998,11 @@
           "observations": 5,
           "species": 4,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -7456,6 +7636,11 @@
           "s": 6.5,
           "w": 3.5,
           "site_m": 233
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -7975,6 +8160,11 @@
           "s": -0.1,
           "w": 0.3,
           "site_m": 10
+        },
+        "publicLand": {
+          "name": "Del Sol Vernal Pool Preserve",
+          "class": "nature_reserve",
+          "operator": "Isla Vista Recreation and Park District"
         }
       }
     },
@@ -8188,6 +8378,11 @@
           "s": 2.1,
           "w": 1.8,
           "site_m": 254
+        },
+        "publicLand": {
+          "name": "Los Flores Ranch Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -8235,6 +8430,11 @@
           "s": 0,
           "w": -0.2,
           "site_m": 10
+        },
+        "publicLand": {
+          "name": "Camino Corto Open Space",
+          "class": "nature_reserve",
+          "operator": "Isla Vista Recreation and Park District"
         }
       }
     },
@@ -8646,6 +8846,11 @@
           "s": 8.7,
           "w": 8.8,
           "site_m": 338
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -8694,6 +8899,11 @@
           "s": 8.7,
           "w": 8.3,
           "site_m": 338
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -8962,6 +9172,11 @@
           "s": -0.6,
           "w": -0.1,
           "site_m": 277
+        },
+        "publicLand": {
+          "name": "El Capitán State Beach",
+          "class": "7",
+          "operator": "California Department of Parks and Recreation"
         }
       }
     },
@@ -10993,6 +11208,11 @@
           "observations": 32,
           "species": 16,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -11053,6 +11273,11 @@
           "observations": 7,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -11112,6 +11337,11 @@
           "s": -1.3,
           "w": -1.3,
           "site_m": 744
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -11161,6 +11391,11 @@
           "s": 0.4,
           "w": 10.4,
           "site_m": 5
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -11207,6 +11442,11 @@
           "s": 11.3,
           "w": 11.2,
           "site_m": 91
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -11250,6 +11490,11 @@
           "s": 21,
           "w": 11.2,
           "site_m": 116
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -11310,6 +11555,11 @@
           "s": -0.5,
           "w": 6.5,
           "site_m": 180
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -11706,6 +11956,11 @@
           "s": 0.2,
           "w": 0.8,
           "site_m": 24
+        },
+        "publicLand": {
+          "name": "Lake Los Carneros Ecological Preserve",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -11752,6 +12007,11 @@
           "s": 1.4,
           "w": 0.2,
           "site_m": 2
+        },
+        "publicLand": {
+          "name": "Goleta Slough Ecological Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -11840,6 +12100,11 @@
           "observations": 9,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -12068,6 +12333,11 @@
           "s": 0.1,
           "w": -0.4,
           "site_m": 43
+        },
+        "publicLand": {
+          "name": "Coastal Zone",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -12205,6 +12475,11 @@
           "s": 1.3,
           "w": -0.4,
           "site_m": 35
+        },
+        "publicLand": {
+          "name": "Guadalupe-Nipomo Dunes National Wildlife Refuge",
+          "class": "4",
+          "operator": null
         }
       }
     },
@@ -13431,6 +13706,11 @@
           "s": 15.3,
           "w": 10.7,
           "site_m": 343
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -13482,6 +13762,11 @@
           "observations": 4,
           "species": 4,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -13540,6 +13825,11 @@
           "s": -0.8,
           "w": 19.1,
           "site_m": 410
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -14368,6 +14658,11 @@
           "s": -0.2,
           "w": 0.3,
           "site_m": -31
+        },
+        "publicLand": {
+          "name": "Kashtayit State Marine Conservation Area",
+          "class": "4",
+          "operator": null
         }
       }
     },
@@ -14710,6 +15005,11 @@
           "s": 5.1,
           "w": 0.6,
           "site_m": 894
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -15241,6 +15541,11 @@
           "s": 6.2,
           "w": 3.2,
           "site_m": 232
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -15283,6 +15588,11 @@
           "s": 5.6,
           "w": 0.1,
           "site_m": 318
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -15337,6 +15647,11 @@
           "observations": 7,
           "species": 5,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Lake Los Carneros Ecological Preserve",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -16223,6 +16538,11 @@
           "s": 0.3,
           "w": 12,
           "site_m": 1585
+        },
+        "publicLand": {
+          "name": "Dick Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -16316,6 +16636,11 @@
           "s": -0.3,
           "w": -0.3,
           "site_m": 30
+        },
+        "publicLand": {
+          "name": "Carpinteria Bluffs Nature Preserve",
+          "class": "nature_reserve",
+          "operator": "Citizens for the Carpinteria Bluffs"
         }
       }
     },
@@ -16354,6 +16679,11 @@
           "s": -1.2,
           "w": -0.7,
           "site_m": 831
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -16436,6 +16766,11 @@
           "s": -2.1,
           "w": -0.8,
           "site_m": 1354
+        },
+        "publicLand": {
+          "name": "Dick Smith Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -16601,6 +16936,11 @@
           "s": -0.8,
           "w": -1.5,
           "site_m": 1029
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -16858,6 +17198,11 @@
           "s": 3.7,
           "w": 1.3,
           "site_m": 358
+        },
+        "publicLand": {
+          "name": "Los Flores Ranch Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -17151,6 +17496,11 @@
           "s": 17.5,
           "w": 17.2,
           "site_m": 1438
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -18649,6 +18999,11 @@
           "observations": 9,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Lake Los Carneros Ecological Preserve",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -19347,6 +19702,11 @@
           "s": 9,
           "w": 1.4,
           "site_m": 259
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -19527,6 +19887,11 @@
           "s": -3,
           "w": -2.1,
           "site_m": 1878
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -19946,6 +20311,11 @@
           "s": 3,
           "w": 2.9,
           "site_m": 377
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -19984,6 +20354,11 @@
           "s": 4.5,
           "w": 5.3,
           "site_m": 366
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -20592,6 +20967,11 @@
           "observations": 55,
           "species": 11,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -20730,6 +21110,11 @@
           "observations": 5,
           "species": 4,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -21396,6 +21781,11 @@
           "s": 1.5,
           "w": 8.6,
           "site_m": 389
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -21432,6 +21822,11 @@
           "s": 2.4,
           "w": 5.3,
           "site_m": 402
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -21677,6 +22072,11 @@
           "s": 21.5,
           "w": 11.7,
           "site_m": 551
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -21820,6 +22220,11 @@
           "observations": 4,
           "species": 4,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": null,
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -21986,6 +22391,11 @@
           "observations": 19,
           "species": 8,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -22032,6 +22442,11 @@
           "s": -0.1,
           "w": 0.8,
           "site_m": 7
+        },
+        "publicLand": {
+          "name": "North Campus Open Space",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -22592,6 +23007,11 @@
           "observations": 5,
           "species": 4,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -24635,6 +25055,11 @@
           "observations": 9,
           "species": 3,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -25128,6 +25553,11 @@
           "s": -2.6,
           "w": -1.4,
           "site_m": 1682
+        },
+        "publicLand": {
+          "name": "Matilija Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -25772,6 +26202,11 @@
           "s": 3.2,
           "w": 3.6,
           "site_m": 1402
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -26409,6 +26844,11 @@
           "s": -0.1,
           "w": -2.2,
           "site_m": 1769
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -27271,6 +27711,11 @@
           "observations": 3,
           "species": 3,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -27319,6 +27764,11 @@
           "s": 0.8,
           "w": 0.6,
           "site_m": 17
+        },
+        "publicLand": {
+          "name": "Pismo Dunes Natural Preserve",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -27417,6 +27867,11 @@
           "observations": 15,
           "species": 13,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -27466,6 +27921,11 @@
           "observations": 10,
           "species": 4,
           "topGuild": "reptiles"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -27511,6 +27971,11 @@
           "s": 0.9,
           "w": -0.4,
           "site_m": 13
+        },
+        "publicLand": {
+          "name": "Pismo Dunes Natural Preserve",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -27720,6 +28185,11 @@
           "s": -0.7,
           "w": 2.4,
           "site_m": 8
+        },
+        "publicLand": {
+          "name": "Vandenberg State Marine Reserve",
+          "class": "2",
+          "operator": null
         }
       }
     },
@@ -27770,6 +28240,11 @@
           "s": -0.3,
           "w": -0.7,
           "site_m": 21
+        },
+        "publicLand": {
+          "name": "Point Conception State Marine Reserve",
+          "class": "2",
+          "operator": null
         }
       }
     },
@@ -27835,6 +28310,11 @@
           "s": 9.4,
           "w": 26.7,
           "site_m": 528
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -27892,6 +28372,11 @@
           "s": 8.4,
           "w": 25.1,
           "site_m": 531
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -27937,6 +28422,11 @@
           "s": 4.2,
           "w": 22.5,
           "site_m": 540
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -28024,6 +28514,11 @@
           "s": 8.4,
           "w": 16.2,
           "site_m": 656
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -28070,6 +28565,11 @@
           "observations": 9,
           "species": 8,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -28273,6 +28773,11 @@
           "s": 0.3,
           "w": -0.3,
           "site_m": 24
+        },
+        "publicLand": {
+          "name": "Coastal Zone",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -28323,6 +28828,11 @@
           "observations": 25,
           "species": 6,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Coastal Zone",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -28553,6 +29063,11 @@
           "observations": 4,
           "species": 3,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -28738,6 +29253,11 @@
           "observations": 19,
           "species": 12,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Refugio State Beach",
+          "class": "7",
+          "operator": "California Department of Parks and Recreation"
         }
       }
     },
@@ -28792,6 +29312,11 @@
           "observations": 65,
           "species": 34,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Refugio State Beach",
+          "class": "7",
+          "operator": "California Department of Parks and Recreation"
         }
       }
     },
@@ -28951,6 +29476,11 @@
           "s": 3.2,
           "w": 1.6,
           "site_m": 656
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -29320,6 +29850,11 @@
           "s": 1,
           "w": 17.7,
           "site_m": 657
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -30233,6 +30768,11 @@
           "observations": 4,
           "species": 4,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -30998,6 +31538,11 @@
           "s": 8.2,
           "w": 9.9,
           "site_m": 458
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -31735,6 +32280,11 @@
           "s": 3.3,
           "w": 1,
           "site_m": 114
+        },
+        "publicLand": {
+          "name": "San Marcos Foothills Preserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -31811,6 +32361,11 @@
           "s": -0.9,
           "w": -0.9,
           "site_m": 509
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -31862,6 +32417,11 @@
           "observations": 3,
           "species": 2,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Snowy Plover Roost",
+          "class": "nature_reserve",
+          "operator": "UCSB"
         }
       }
     },
@@ -32077,6 +32637,11 @@
           "s": 1.8,
           "w": 3.6,
           "site_m": 258
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -32446,6 +33011,11 @@
           "observations": 3,
           "species": 2,
           "topGuild": "mammals"
+        },
+        "publicLand": {
+          "name": "Lake Los Carneros Ecological Preserve",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -32854,6 +33424,11 @@
           "s": 4.5,
           "w": 6.6,
           "site_m": 415
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -33077,6 +33652,11 @@
           "observations": 7,
           "species": 4,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -33501,6 +34081,11 @@
           "s": 0,
           "w": -0.2,
           "site_m": 10
+        },
+        "publicLand": {
+          "name": "Camino Corto Open Space",
+          "class": "nature_reserve",
+          "operator": "Isla Vista Recreation and Park District"
         }
       }
     },
@@ -33764,6 +34349,11 @@
           "s": 6.1,
           "w": 12.2,
           "site_m": 349
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -33907,6 +34497,11 @@
           "observations": 8,
           "species": 5,
           "topGuild": "mammals"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -34320,6 +34915,11 @@
           "s": 0.6,
           "w": 1.1,
           "site_m": 7
+        },
+        "publicLand": {
+          "name": "North Campus Open Space",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -34521,6 +35121,11 @@
           "s": 24.4,
           "w": 17.9,
           "site_m": 1617
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -34903,6 +35508,11 @@
           "s": 9.9,
           "w": 10.2,
           "site_m": 342
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -34951,6 +35561,11 @@
           "s": 9.9,
           "w": 10.2,
           "site_m": 342
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -34995,6 +35610,11 @@
           "s": 0.2,
           "w": -0.6,
           "site_m": 62
+        },
+        "publicLand": {
+          "name": "Space Launch Complex 10",
+          "class": "22",
+          "operator": null
         }
       }
     },
@@ -35047,6 +35667,11 @@
           "s": 0.3,
           "w": -0.6,
           "site_m": 53
+        },
+        "publicLand": {
+          "name": "Space Launch Complex 10",
+          "class": "22",
+          "operator": null
         }
       }
     },
@@ -35439,6 +36064,11 @@
           "observations": 13,
           "species": 9,
           "topGuild": "wildlife"
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -35572,6 +36202,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 7
+        },
+        "publicLand": {
+          "name": "Coal Oil Point Reserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -35985,6 +36620,11 @@
           "observations": 17,
           "species": 9,
           "topGuild": "mammals"
+        },
+        "publicLand": {
+          "name": "Pismo State Beach",
+          "class": "national_park",
+          "operator": null
         }
       }
     },
@@ -36124,6 +36764,11 @@
           "s": 3.4,
           "w": 6.5,
           "site_m": 65
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -36171,6 +36816,11 @@
           "s": -0.6,
           "w": 4.4,
           "site_m": 223
+        },
+        "publicLand": {
+          "name": "Gaviota State Park",
+          "class": "protected_area",
+          "operator": null
         }
       }
     },
@@ -36218,6 +36868,11 @@
           "s": -1.1,
           "w": -1,
           "site_m": 661
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -36265,6 +36920,11 @@
           "s": 8.6,
           "w": 3.6,
           "site_m": 230
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -36303,6 +36963,11 @@
           "s": 1.1,
           "w": -0.1,
           "site_m": 405
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -36347,6 +37012,11 @@
           "s": 10.5,
           "w": -0.8,
           "site_m": 606
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -36391,6 +37061,11 @@
           "s": 14,
           "w": -0.6,
           "site_m": 599
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -36726,6 +37401,11 @@
           "s": -0.4,
           "w": -0.1,
           "site_m": 204
+        },
+        "publicLand": {
+          "name": "San Marcos Foothills Preserve",
+          "class": "nature_reserve",
+          "operator": null
         }
       }
     },
@@ -36812,6 +37492,11 @@
           "s": 12.1,
           "w": 13.5,
           "site_m": 441
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -36937,6 +37622,11 @@
           "observations": 3,
           "species": 3,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -36982,6 +37672,11 @@
           "s": -0.9,
           "w": -0.9,
           "site_m": 490
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -37032,6 +37727,11 @@
           "observations": 8,
           "species": 6,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -37213,6 +37913,11 @@
           "observations": 5,
           "species": 2,
           "topGuild": "insects"
+        },
+        "publicLand": {
+          "name": "Carrizo Plain National Monument",
+          "class": "3",
+          "operator": "Bureau of Land Management"
         }
       }
     },
@@ -37295,6 +38000,11 @@
           "s": -0.4,
           "w": -0.3,
           "site_m": 37
+        },
+        "publicLand": {
+          "name": "Carpinteria Bluffs Nature Preserve",
+          "class": "nature_reserve",
+          "operator": "Citizens for the Carpinteria Bluffs"
         }
       }
     },
@@ -37813,6 +38523,11 @@
           "s": 32.9,
           "w": 27.6,
           "site_m": 555
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -37938,6 +38653,11 @@
           "s": 3.4,
           "w": -0.8,
           "site_m": 703
+        },
+        "publicLand": {
+          "name": "San Rafael Wilderness",
+          "class": "1b",
+          "operator": "United States Forest Service"
         }
       }
     },
@@ -37982,6 +38702,11 @@
           "s": -1.8,
           "w": -1.2,
           "site_m": 1159
+        },
+        "publicLand": {
+          "name": "Los Padres National Forest",
+          "class": "6",
+          "operator": "United States Forest Service"
         }
       }
     },

@@ -1,0 +1,530 @@
+{
+  "source": {
+    "source": "public_lands",
+    "name": "Public-land boundaries (OpenStreetMap)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working"
+  },
+  "builtAt": "2026-10-09",
+  "count": 47,
+  "areas": [
+    {
+      "name": "Carrizo Plains Ecological Reserve",
+      "class": "4",
+      "operator": "California Department of Fish and Wildlife",
+      "bbox": {
+        "south": 35.0444809,
+        "west": -120.0585951,
+        "north": 35.2199002,
+        "east": -119.6291636
+      }
+    },
+    {
+      "name": "Chumash Heritage National Marine Sanctuary",
+      "class": "4",
+      "operator": "National Oceanic and Atmospheric Administration",
+      "bbox": {
+        "south": 33.8237714,
+        "west": -121.7049989,
+        "north": 35.192801,
+        "east": -119.9333285
+      }
+    },
+    {
+      "name": "Refugio State Beach",
+      "class": "7",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 34.4601633,
+        "west": -120.0896873,
+        "north": 34.4652112,
+        "east": -120.035067
+      }
+    },
+    {
+      "name": "Gaviota State Park",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 34.4636771,
+        "west": -120.2484878,
+        "north": 34.511748,
+        "east": -120.1015789
+      }
+    },
+    {
+      "name": "San Rafael Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 34.6144083,
+        "west": -120.1243641,
+        "north": 35.0244652,
+        "east": -119.6170252
+      }
+    },
+    {
+      "name": "Dick Smith Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 34.575969,
+        "west": -119.6812879,
+        "north": 34.7864425,
+        "east": -119.3863584
+      }
+    },
+    {
+      "name": "Matilija Wilderness",
+      "class": "1b",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 34.4901171,
+        "west": -119.4718802,
+        "north": 34.6270005,
+        "east": -119.3368032
+      }
+    },
+    {
+      "name": "Los Padres National Forest",
+      "class": "6",
+      "operator": "United States Forest Service",
+      "bbox": {
+        "south": 34.3918825,
+        "west": -121.9074041,
+        "north": 36.4205895,
+        "east": -118.7123937
+      }
+    },
+    {
+      "name": "El Capitán State Beach",
+      "class": "7",
+      "operator": "California Department of Parks and Recreation",
+      "bbox": {
+        "south": 34.4576303,
+        "west": -120.0353794,
+        "north": 34.5115919,
+        "east": -119.9816305
+      }
+    },
+    {
+      "name": "Pismo Dunes Natural Preserve",
+      "class": "national_park",
+      "operator": null,
+      "bbox": {
+        "south": 35.0788785,
+        "west": -120.6295376,
+        "north": 35.0997989,
+        "east": -120.6006377
+      }
+    },
+    {
+      "name": "Pismo State Beach",
+      "class": "national_park",
+      "operator": null,
+      "bbox": {
+        "south": 35.0412754,
+        "west": -120.6500981,
+        "north": 35.1469267,
+        "east": -120.6006377
+      }
+    },
+    {
+      "name": "Carrizo Plain National Monument",
+      "class": "3",
+      "operator": "Bureau of Land Management",
+      "bbox": {
+        "south": 34.9380466,
+        "west": -119.9806156,
+        "north": 35.2928374,
+        "east": -119.437831
+      }
+    },
+    {
+      "name": "Caliente Mountain Wilderness Study Area",
+      "class": "1b",
+      "operator": "BLM",
+      "bbox": {
+        "south": 34.9903197,
+        "west": -119.8448536,
+        "north": 35.1246431,
+        "east": -119.7115092
+      }
+    },
+    {
+      "name": "Bitter Creek National Wildlife Refuge",
+      "class": "4",
+      "operator": "United States Fish and Wildlife Service",
+      "bbox": {
+        "south": 34.8971669,
+        "west": -119.455564,
+        "north": 34.9744007,
+        "east": -119.312036
+      }
+    },
+    {
+      "name": "Vandenberg State Marine Reserve",
+      "class": "2",
+      "operator": null,
+      "bbox": {
+        "south": 34.554021,
+        "west": -120.650728,
+        "north": 34.7441113,
+        "east": -120.6006033
+      }
+    },
+    {
+      "name": "Point Conception State Marine Reserve",
+      "class": "2",
+      "operator": null,
+      "bbox": {
+        "south": 34.391184,
+        "west": -120.535911,
+        "north": 34.4530295,
+        "east": -120.4166528
+      }
+    },
+    {
+      "name": "Kashtayit State Marine Conservation Area",
+      "class": "4",
+      "operator": null,
+      "bbox": {
+        "south": 34.455,
+        "west": -120.2410201,
+        "north": 34.4707985,
+        "east": -120.2078333
+      }
+    },
+    {
+      "name": "Naples State Marine Conservation Area",
+      "class": "4",
+      "operator": null,
+      "bbox": {
+        "south": 34.4346952,
+        "west": -119.9666761,
+        "north": 34.4419367,
+        "east": -119.9333333
+      }
+    },
+    {
+      "name": "Campus Point State Marine Conservation Area",
+      "class": "4",
+      "operator": null,
+      "bbox": {
+        "south": 34.3535333,
+        "west": -119.89336,
+        "north": 34.4199169,
+        "east": -119.8441667
+      }
+    },
+    {
+      "name": "Modoc Preserve",
+      "class": "nature_reserve",
+      "operator": "Santa Barbara Land Trust",
+      "bbox": {
+        "south": 34.4360849,
+        "west": -119.7682823,
+        "north": 34.4388659,
+        "east": -119.7570036
+      }
+    },
+    {
+      "name": "Guadalupe-Nipomo Dunes National Wildlife Refuge",
+      "class": "4",
+      "operator": null,
+      "bbox": {
+        "south": 34.9917559,
+        "west": -120.6434838,
+        "north": 35.022215,
+        "east": -120.590934
+      }
+    },
+    {
+      "name": "Space Launch Complex 10",
+      "class": "22",
+      "operator": null,
+      "bbox": {
+        "south": 34.7615233,
+        "west": -120.6303178,
+        "north": 34.7691636,
+        "east": -120.6172305
+      }
+    },
+    {
+      "name": "Elkhorn Unit",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 35.1195669,
+        "west": -119.638195,
+        "north": 35.1309608,
+        "east": -119.6291636
+      }
+    },
+    {
+      "name": "Lake Los Carneros Ecological Preserve",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 34.438259,
+        "west": -119.8542888,
+        "north": 34.445637,
+        "east": -119.8428577
+      }
+    },
+    {
+      "name": "Coastal Zone",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 35.1060502,
+        "west": -120.6284033,
+        "north": 35.1337756,
+        "east": -120.6179577
+      }
+    },
+    {
+      "name": null,
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 35.10609,
+        "west": -120.6229531,
+        "north": 35.1088811,
+        "east": -120.6165143
+      }
+    },
+    {
+      "name": "Coal Oil Point Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4068844,
+        "west": -119.8848481,
+        "north": 34.4176859,
+        "east": -119.869967
+      }
+    },
+    {
+      "name": "Gaviota State Park",
+      "class": "national_park",
+      "operator": null,
+      "bbox": {
+        "south": 34.5117614,
+        "west": -120.2370746,
+        "north": 34.5121512,
+        "east": -120.2367464
+      }
+    },
+    {
+      "name": "Del Sol Vernal Pool Preserve",
+      "class": "nature_reserve",
+      "operator": "Isla Vista Recreation and Park District",
+      "bbox": {
+        "south": 34.414874,
+        "west": -119.8664782,
+        "north": 34.4172581,
+        "east": -119.864462
+      }
+    },
+    {
+      "name": "Point Sal State Beach",
+      "class": "5",
+      "operator": null,
+      "bbox": {
+        "south": 34.894005,
+        "west": -120.652766,
+        "north": 34.902694,
+        "east": -120.642181
+      }
+    },
+    {
+      "name": "Goleta Slough Ecological Reserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4158,
+        "west": -119.8650345,
+        "north": 34.4311942,
+        "east": -119.8352785
+      }
+    },
+    {
+      "name": "North Campus Open Space",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4175777,
+        "west": -119.8848945,
+        "north": 34.4228925,
+        "east": -119.8699387
+      }
+    },
+    {
+      "name": "Jack and Laura Dangermond Preserve",
+      "class": "protected_area",
+      "operator": "The Nature Conservancy",
+      "bbox": {
+        "south": 34.4422791,
+        "west": -120.4993433,
+        "north": 34.5741871,
+        "east": -120.3576933
+      }
+    },
+    {
+      "name": "Camino Corto Open Space",
+      "class": "nature_reserve",
+      "operator": "Isla Vista Recreation and Park District",
+      "bbox": {
+        "south": 34.4124576,
+        "west": -119.869623,
+        "north": 34.4172628,
+        "east": -119.8665567
+      }
+    },
+    {
+      "name": "San Marcos Foothills Preserve",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4542931,
+        "west": -119.7675312,
+        "north": 34.4650014,
+        "east": -119.7512287
+      }
+    },
+    {
+      "name": "Los Flores Ranch Park",
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 34.8169728,
+        "west": -120.3659818,
+        "north": 34.8433509,
+        "east": -120.330227
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.424012,
+        "west": -119.9104723,
+        "north": 34.4240648,
+        "east": -119.9104048
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4240216,
+        "west": -119.9106009,
+        "north": 34.4240708,
+        "east": -119.9105329
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4240223,
+        "west": -119.9107225,
+        "north": 34.4240713,
+        "east": -119.910657
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4239846,
+        "west": -119.9109121,
+        "north": 34.4240351,
+        "east": -119.9108457
+      }
+    },
+    {
+      "name": "Carpinteria Bluffs Nature Preserve",
+      "class": "nature_reserve",
+      "operator": "Citizens for the Carpinteria Bluffs",
+      "bbox": {
+        "south": 34.3853743,
+        "west": -119.5031365,
+        "north": 34.3894848,
+        "east": -119.4952168
+      }
+    },
+    {
+      "name": "Carpinteria Seal Sanctuary",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.3850617,
+        "west": -119.509067,
+        "north": 34.3858957,
+        "east": -119.5029372
+      }
+    },
+    {
+      "name": "Snowy Plover Roost",
+      "class": "nature_reserve",
+      "operator": "UCSB",
+      "bbox": {
+        "south": 34.4081564,
+        "west": -119.8849162,
+        "north": 34.4141731,
+        "east": -119.8793823
+      }
+    },
+    {
+      "name": null,
+      "class": "protected_area",
+      "operator": null,
+      "bbox": {
+        "south": 34.5271614,
+        "west": -120.1818474,
+        "north": 34.5356264,
+        "east": -120.1733593
+      }
+    },
+    {
+      "name": "Casa Dorinda Oak Woodland",
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4263354,
+        "west": -119.6407453,
+        "north": 34.4289455,
+        "east": -119.6349818
+      }
+    },
+    {
+      "name": null,
+      "class": "22",
+      "operator": null,
+      "bbox": {
+        "south": 34.5553351,
+        "west": -120.6114114,
+        "north": 34.5561274,
+        "east": -120.6098401
+      }
+    },
+    {
+      "name": null,
+      "class": "nature_reserve",
+      "operator": null,
+      "bbox": {
+        "south": 34.4338207,
+        "west": -119.862086,
+        "north": 34.4357957,
+        "east": -119.8600626
+      }
+    }
+  ]
+}
