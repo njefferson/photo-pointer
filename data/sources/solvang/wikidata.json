@@ -1,0 +1,240 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Historical markers (Wikidata, CC0 — links out to HMdb)",
+    "license": "CC0-1.0",
+    "attribution": "Marker facts from Wikidata (CC0); marker pages via HMdb.org",
+    "status": "working",
+    "policy": {
+      "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+      "maxConcurrency": 1,
+      "minGapMs": 1000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 1000
+    }
+  },
+  "region": "solvang",
+  "builtAt": "2026-10-09",
+  "records": [
+    {
+      "name": "El Presidio de Santa Barbara State Historic Park",
+      "lat": 34.422567,
+      "lng": -119.6971,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q123056422",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q123056422",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Burton Mound",
+      "lat": 34.4111,
+      "lng": -119.692,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {
+        "california_landmark": true
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q17586338",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q17586338",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Vandenberg Space Launch Complex 10",
+      "lat": 34.764202,
+      "lng": -120.623053,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q2510096",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q2510096",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Chumash Painted Cave State Historic Park",
+      "lat": 34.504166666,
+      "lng": -119.786944444,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4518038",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q4518038",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Fremont Foxon Historical Marker",
+      "lat": 34.487777777,
+      "lng": -120.226388888,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49491914",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49491914",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Fremont-Foxen Monument",
+      "lat": 34.815,
+      "lng": -120.2175,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q49491953",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q49491953",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "La Purísima Mission State Historic Park",
+      "lat": 34.6792,
+      "lng": -120.424,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q6464684",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q6464684",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Vandenberg Space Launch Complex 10 West",
+      "lat": 34.763621,
+      "lng": -120.624442,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q98591751",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q98591751",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Vandenberg Space Launch Complex 10 East",
+      "lat": 34.762606,
+      "lng": -120.621315,
+      "category": "marker",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": null,
+      "tags": {},
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q98591754",
+          "source_license": "CC0-1.0",
+          "source_url": "https://www.wikidata.org/wiki/Q98591754",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "source": {
+    "source": "nrhp",
+    "name": "National Register of Historic Places (NPS)",
+    "license": "public-domain",
+    "attribution": "National Park Service — National Register of Historic Places",
+    "status": "working",
+    "policy": {
+      "url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "maxConcurrency": 1,
+      "minGapMs": 0
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 300
+    }
+  },
+  "region": "solvang",
+  "builtAt": "2026-10-09",
+  "records": [
+    {
+      "name": "Virginia Hotel",
+      "lat": 34.41624723500007,
+      "lng": -119.69567629299996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "00000295"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "00000295",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/00000295",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Herschell, Allan, 3-Abreast Carousel",
+      "lat": 34.41513126700005,
+      "lng": -119.68575243099997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "00000363"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "00000363",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/00000363",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Stow House",
+      "lat": 34.44292000200005,
+      "lng": -119.85181455899999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "00001166"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "00001166",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/00001166",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Goleta Depot",
+      "lat": 34.44289968500004,
+      "lng": -119.85268429899997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "01001457"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "01001457",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/01001457",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Southern Pacific Train Depot",
+      "lat": 34.41371718700003,
+      "lng": -119.69266891299998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "06000658"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "06000658",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/06000658",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Rattlesnake Canyon Bridge",
+      "lat": 34.455787989000044,
+      "lng": -119.69500201699998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100000465"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100000465",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Santa Barbara Club",
+      "lat": 34.42122000000006,
+      "lng": -119.70498999999995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100003919"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100003919",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Royal Theater (Additional Documentation)",
+      "lat": 34.969186000000036,
+      "lng": -120.57350099999996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100007474"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100007474",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Saint Paul African Methodist Episcopal Church, Santa Barbara",
+      "lat": 34.42234700000006,
+      "lng": -119.68988699999994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "100011289"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "100011289",
+          "source_license": "public-domain",
+          "source_url": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Lompoc Veterans Memorial Building",
+      "lat": 34.63212200000004,
+      "lng": -120.45792699999998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "16000664"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "16000664",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/16000664",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Dana Adobe",
+      "lat": 35.02774702200003,
+      "lng": -120.52878346099999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "71000189"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "71000189",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/71000189",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Santa Barbara Presidio",
+      "lat": 34.42261306600005,
+      "lng": -119.69806748999997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "73000455"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "73000455",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/73000455",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "El Paseo and Casa de la Guerra",
+      "lat": 34.42060004600006,
+      "lng": -119.69941696399997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "77000346"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "77000346",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/77000346",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Hope, Thomas, House",
+      "lat": 34.43458142900005,
+      "lng": -119.77156697999999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "78000783"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "78000783",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/78000783",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Madulce Guard Station and Site",
+      "lat": 34.70309793000007,
+      "lng": -119.57932182699994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "79000547"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "79000547",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/79000547",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Faith Mission",
+      "lat": 34.41600433800005,
+      "lng": -119.69524424699995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "82002269"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "82002269",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/82002269",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "St. Vincent Orphanage and School Building",
+      "lat": 34.41905548900007,
+      "lng": -119.70404496799995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "82002270"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "82002270",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/82002270",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Minerva Club of Santa Maria",
+      "lat": 34.94742259900005,
+      "lng": -120.43690097499996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "84001193"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "84001193",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/84001193",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "US Post Office--Santa Barbara Main",
+      "lat": 34.42274526800003,
+      "lng": -119.70024751499994,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "85000138"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "85000138",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/85000138",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Hill-Carrillo Adobe",
+      "lat": 34.42234893400007,
+      "lng": -119.70186657799997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "86000778"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "86000778",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/86000778",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Janssens-Orella-Birk Building",
+      "lat": 34.41250099300004,
+      "lng": -119.70285476999999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "87001170"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "87001170",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/87001170",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Lompoc Public Library",
+      "lat": 34.63703082300003,
+      "lng": -120.45762127799998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "90001818"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "90001818",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/90001818",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Arroyo Grande IOOF Hall",
+      "lat": 35.12232666700004,
+      "lng": -120.57822947999995,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "91000344"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "91000344",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/91000344",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Sexton, Joseph and Lucy Foster, House",
+      "lat": 34.43599624900003,
+      "lng": -119.81611168299997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "91002033"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "91002033",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/91002033",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Los Banos del Mar",
+      "lat": 34.40774768600005,
+      "lng": -119.69356508499999,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "92001726"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "92001726",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/92001726",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Val Verde",
+      "lat": 34.44008148700004,
+      "lng": -119.64950093299996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "95000359"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "95000359",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/95000359",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Acacia Lodge",
+      "lat": 34.423002103000044,
+      "lng": -119.63052135199996,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "97000750"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "97000750",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/97000750",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Mission Santa Ines, Church",
+      "lat": 34.59477598700005,
+      "lng": -120.13664558699998,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "99000630"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "99000630",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/99000630",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Andalucia Building",
+      "lat": 34.415864860000056,
+      "lng": -119.69339050999997,
+      "category": "historic_site",
+      "subject_type": [
+        "historic",
+        "architecture"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "nrhp": "99001592"
+      },
+      "sources": [
+        {
+          "source": "nrhp",
+          "source_id": "99001592",
+          "source_license": "public-domain",
+          "source_url": "https://npgallery.nps.gov/AssetDetail/NRIS/99001592",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

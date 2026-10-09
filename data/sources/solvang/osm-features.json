@@ -1,0 +1,335 @@
+{
+  "source": {
+    "source": "osm",
+    "name": "OpenStreetMap (Overpass API)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "working",
+    "policy": {
+      "url": "https://dev.overpass-api.de/overpass-doc/en/preface/commons.html",
+      "maxConcurrency": 1,
+      "minGapMs": 0,
+      "dailyRequestBudget": 10000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 2000
+    }
+  },
+  "region": "solvang",
+  "builtAt": "2026-10-09",
+  "records": [
+    {
+      "name": "Elusive Arch",
+      "lat": 34.4922222,
+      "lng": -119.8730556,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Elusive Arch",
+        "natural": "arch",
+        "curiosity": "Natural arch"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11386231485",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11386231485",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "San Roque Arch",
+      "lat": 34.48,
+      "lng": -119.7394444,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "San Roque Arch",
+        "natural": "arch",
+        "curiosity": "Natural arch"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/11386231490",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/11386231490",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Little Caliente Spring",
+      "lat": 34.5404797,
+      "lng": -119.6200342,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Little Caliente Spring",
+        "natural": "hot_spring",
+        "curiosity": "Hot spring"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/12547891701",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/12547891701",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Gaviota Wind Caves",
+      "lat": 34.4828494,
+      "lng": -120.2384699,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Gaviota Wind Caves",
+        "fee": "no",
+        "access": "yes",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/4504828572",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/4504828572",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Gaviota Wind Caves",
+      "lat": 34.4830188,
+      "lng": -120.2385773,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Gaviota Wind Caves",
+        "fee": "no",
+        "access": "yes",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/4504828573",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/4504828573",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Gaviota Wind Caves",
+      "lat": 34.4821996,
+      "lng": -120.2374485,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Gaviota Wind Caves",
+        "fee": "no",
+        "access": "yes",
+        "natural": "cave_entrance",
+        "curiosity": "Cave"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/4504829506",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/4504829506",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Santa Barbara Light",
+      "lat": 34.3963106,
+      "lng": -119.7226045,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Santa Barbara Light",
+        "wikipedia": "en:Santa Barbara Light",
+        "wikidata": "Q7419231",
+        "man_made": "lighthouse",
+        "curiosity": "Lighthouse"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/538588117",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/538588117",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Point Conception Light",
+      "lat": 34.4487007,
+      "lng": -120.470796,
+      "category": "oddity",
+      "subject_type": [],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Point Conception Light",
+        "wikidata": "Q7207992",
+        "historic": "maritime",
+        "man_made": "lighthouse",
+        "heritage": "2",
+        "curiosity": "Lighthouse"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/538659370",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/538659370",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Sibyl Marston",
+      "lat": 34.6693687,
+      "lng": -120.6119279,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Sibyl Marston",
+        "historic": "wreck",
+        "curiosity": "Shipwreck"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "node/8993686992",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/node/8993686992",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Original Site of Mission La Purisíma",
+      "lat": 34.6317572,
+      "lng": -120.4552782,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Original Site of Mission La Purisíma",
+        "historic": "archaeological_site",
+        "tourism": "attraction",
+        "leisure": "park",
+        "note": "two walls remaining",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "relation/20803266",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/relation/20803266",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Fault Line",
+      "lat": 34.6289273,
+      "lng": -120.4561289,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "name": "Fault Line",
+        "historic": "archaeological_site",
+        "curiosity": "Archaeological site"
+      },
+      "sources": [
+        {
+          "source": "osm",
+          "source_id": "way/237619267",
+          "source_license": "ODbL-1.0",
+          "source_url": "https://www.openstreetmap.org/way/237619267",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

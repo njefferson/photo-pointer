@@ -1,0 +1,246 @@
+{
+  "source": {
+    "source": "wikidata",
+    "name": "Curiosities (Wikidata, CC0 — ghost towns, follies, arches, waterfalls…)",
+    "license": "CC0-1.0",
+    "attribution": "Facts from Wikidata (CC0); details via Wikipedia",
+    "status": "working",
+    "policy": {
+      "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+      "maxConcurrency": 1,
+      "minGapMs": 1000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 1000
+    }
+  },
+  "region": "solvang",
+  "builtAt": "2026-10-09",
+  "records": [
+    {
+      "name": "Big Caliente Hot Springs",
+      "lat": 34.539217,
+      "lng": -119.5646,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q103817205",
+        "wikipedia": "https://en.wikipedia.org/wiki/Big_Caliente_Hot_Springs"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q103817205",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Big_Caliente_Hot_Springs",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Gaviota Hot Springs",
+      "lat": 34.502694444,
+      "lng": -120.218333333,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "wikidata": "Q124373117",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gaviota_Hot_Springs"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q124373117",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Gaviota_Hot_Springs",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Sisquoc Falls",
+      "lat": 34.74297,
+      "lng": -119.73154,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q24191697",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sisquoc_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q24191697",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Sisquoc_Falls",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Betteravia",
+      "lat": 34.9178,
+      "lng": -120.515,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Ghost town",
+        "wikidata": "Q4898583",
+        "wikipedia": "https://en.wikipedia.org/wiki/Betteravia,_California"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q4898583",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Betteravia,_California",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Nojoqui Falls",
+      "lat": 34.5298,
+      "lng": -120.175,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "wikidata": "Q7047817",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nojoqui_Falls"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7047817",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Nojoqui_Falls",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Point Arguello Light",
+      "lat": 34.57694444,
+      "lng": -120.64722222,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7207940",
+        "wikipedia": "https://en.wikipedia.org/wiki/Point_Arguello_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7207940",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Point_Arguello_Light",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Point Conception Light",
+      "lat": 34.448753,
+      "lng": -120.470753,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7207992",
+        "wikipedia": "https://en.wikipedia.org/wiki/Point_Conception_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7207992",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Point_Conception_Light",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Santa Barbara Light",
+      "lat": 34.3958,
+      "lng": -119.723,
+      "category": "oddity",
+      "subject_type": [
+        "historic"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Lighthouse",
+        "wikidata": "Q7419231",
+        "wikipedia": "https://en.wikipedia.org/wiki/Santa_Barbara_Light"
+      },
+      "sources": [
+        {
+          "source": "wikidata",
+          "source_id": "Q7419231",
+          "source_license": "CC0-1.0",
+          "source_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Light",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

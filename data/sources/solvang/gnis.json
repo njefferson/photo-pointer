@@ -1,0 +1,230 @@
+{
+  "source": {
+    "source": "gnis",
+    "name": "USGS GNIS (The National Map geonames — named natural features)",
+    "license": "public-domain",
+    "attribution": "U.S. Geological Survey, Geographic Names Information System (public domain)",
+    "status": "working",
+    "policy": {
+      "url": "https://www.usgs.gov/information-policies-and-instructions",
+      "maxConcurrency": 1,
+      "minGapMs": 0
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 300
+    }
+  },
+  "region": "solvang",
+  "builtAt": "2026-10-09",
+  "records": [
+    {
+      "name": "Hot Springs",
+      "lat": 34.46305601965046,
+      "lng": -119.63903335160373,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "243687"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "243687",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/243687",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Hot Springs",
+      "lat": 34.502389002825076,
+      "lng": -120.21873913843525,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "243688"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "243688",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/243688",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Nojoqui Falls",
+      "lat": 34.528237264961746,
+      "lng": -120.17235021082516,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "246575"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "246575",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/246575",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Hot Spring",
+      "lat": 34.53707269278244,
+      "lng": -119.88205948752311,
+      "category": "oddity",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Hot spring",
+        "natural": "hot_spring",
+        "gnis": "271666"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "271666",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/271666",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Sisquoc Falls",
+      "lat": 34.74248974295434,
+      "lng": -119.73125789042294,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "273727"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "273727",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/273727",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Wellhouse Falls",
+      "lat": 34.528329030424274,
+      "lng": -119.78817327204077,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "275500"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "275500",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/275500",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Tangerine Falls",
+      "lat": 34.46988001890619,
+      "lng": -119.65884975468175,
+      "category": "oddity",
+      "subject_type": [
+        "water",
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [
+        "spring"
+      ],
+      "access_difficulty": "unknown",
+      "notes": null,
+      "tags": {
+        "curiosity": "Waterfall",
+        "natural": "waterfall",
+        "gnis": "2831475"
+      },
+      "sources": [
+        {
+          "source": "gnis",
+          "source_id": "2831475",
+          "source_license": "public-domain",
+          "source_url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2831475",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "source": {
+    "source": "ridb",
+    "name": "Recreation.gov (RIDB) — federal recreation facilities",
+    "license": "public-domain",
+    "attribution": "Recreation Information Database (RIDB), U.S. federal recreation agencies",
+    "status": "working",
+    "policy": {
+      "url": "https://ridb.recreation.gov/docs",
+      "maxConcurrency": 1,
+      "minGapMs": 0
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 200
+    }
+  },
+  "region": "solvang",
+  "builtAt": "2026-10-09",
+  "records": [
+    {
+      "name": "KCL Campground",
+      "lat": 35.0905,
+      "lng": -119.7348,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Camping is available on a first come-first serve basis--we do not take reservations. The campground has 12 campsites, 3 with elevated tent pads. There is an accessible vault toilet, along with picnic tables and fire rings. The campground has no electricity. Drinking water may not be available. There is no garbage service; please act responsibly and pack out any refuse you have. The campground has…",
+      "tags": {
+        "ridb": "14804",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "14804",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/14804",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Selby Campground",
+      "lat": 35.1281,
+      "lng": -119.8409,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Camping is available on a first come-first serve basis. Thirteen campsites with picnic tables, fire pits, horse corrals and a wheelchair accessible vault toilet. Electricity and drinking water is not available. There is no garbage service, please act responsibly and pack out any refuse you have. This campground is more secluded and the camper is only steps away from unlimited hiking in the…",
+      "tags": {
+        "ridb": "14805",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "14805",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/14805",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "SAGE HILL",
+      "lat": 34.5391667,
+      "lng": -119.7911111,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Nestled in the Santa Ynez Mountain Range, Sage Hill Campground is a great group camping spot with easy access to the Santa Ynez River. Spend time fishing or take in the epic scenery on one of the trails designed for both hikers and horseback riders. One of the campsites is designed for group equestrian camping and includes 12 corrals and a hitching post.Recreation Fishermen are likely to…",
+      "tags": {
+        "ridb": "231960",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "231960",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/231960",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "UPPER OSO CAMPGROUND",
+      "lat": 34.5558333,
+      "lng": -119.7538889,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Upper Oso Campground provides ample opportunity for exploration of California's coastal mountains. It is a family-friendly campground, equipped with equestrian sites, and is close to a variety of trails and several mountain streams.Recreation A variety of hiking, mountain biking and horseback riding trails begin in and around the campground, including the Santa Cruz Trail, which…",
+      "tags": {
+        "ridb": "231961",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "231961",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/231961",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "PARADISE CAMPGROUND",
+      "lat": 34.5422222,
+      "lng": -119.8127778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Paradise Campground is a beautiful place to enjoy California's westernmost national forest. It provides access to a variety of recreational activities, including hiking, biking, horseback riding and more. Mountain lakes and rivers in the area offer campers plentiful fishing, boating and swimming opportunities.Recreation The Santa Ynez River is popular for a variety of water-related…",
+      "tags": {
+        "ridb": "233870",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "233870",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/233870",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "LOS PRIETOS",
+      "lat": 34.5416667,
+      "lng": -119.8091667,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Los Prietos Campground is situated in the Los Padres National Forest and provides access to a variety of outdoor adventures, including water-related recreation and hiking. The family-friendly campground is green and lush and is a great place to camp in the mountains of western California.Recreation The Santa Ynez River is popular for a variety of water-related recreation. The river can…",
+      "tags": {
+        "ridb": "234001",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234001",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234001",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "FREMONT CAMPGROUND",
+      "lat": 34.5430556,
+      "lng": -119.8202778,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Overview Fremont Campground is a family-friendly facility located just off California's western coast. It provides access to a variety of hiking, biking and horseback riding trails, as well as some off-road vehicle trails, in a scenic area. Recreation The Santa Ynez River is popular for a variety of water-related recreation. It can be accessed at nearby White Rock Day Use Area. Cachuma Lake…",
+      "tags": {
+        "ridb": "234106",
+        "ridb_type": "Campground",
+        "reservable": true
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "234106",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/234106",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Gifford Trailhead",
+      "lat": 35.108,
+      "lng": -120.076,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The site is located on Hwy #166 26 miles east of Santa Maria. This trail is currently within the Front Fire Closure area. No access. Trail is expected to reopen in early 2019. Gifford Trailhead has one large parking area and serving hikers, equestrians. No motorized use allowed. The Gifford trail (18E12) 2.2 miles has beautiful scenic views. Hitching posts. Picnicking 1 table. Stock trailer…",
+      "tags": {
+        "ridb": "252674",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252674",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Willow Springs Trailhead",
+      "lat": 34.7521,
+      "lng": -119.9314,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Willow Springs Trailhead. Located in the Figueroa Mountain area. This is a two mile connector between the Catway Road and lower Davy Brown Trail.",
+      "tags": {
+        "ridb": "252691",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252691",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Lower Oso Day Use Picnic Area",
+      "lat": 34.5461,
+      "lng": -119.7761,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Lower Oso Day Use Pinci Area is located off Paradise Road just across the first Santa Ynez River crossing ford. Lower Oso Day Use Area includes 28 sites, each with a picnic table, pedestal grill and parking spur. There are three flush toilet buildings for a total of eight seats. The Santa Ynez River can be accessed from the site. Drinking water is available. There is no electricity. Lower Oso…",
+      "tags": {
+        "ridb": "252709",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252709",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Davy Brown Trailhead",
+      "lat": 34.7578,
+      "lng": -119.9541,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Davy Brown Trailhead is located approximately 13 miles from the time one turns onto Figueroa Mountain Road off of Highway 154. It is one mile past the Figueroa Campground on the left hand side of the road. The large dirt turnout parking area accommodates between 6 and 8 vehicles. The Davy Brown Trailhead leads to various connecting trails, including Munch Canyon Trail.",
+      "tags": {
+        "ridb": "252730",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252730",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Horseshoe Springs Campground",
+      "lat": 35.0211,
+      "lng": -120.1148,
+      "category": "campsite",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Nestled in large grove of oaks. Campground provides solitude for those seeking that type of experience.",
+      "tags": {
+        "ridb": "252747",
+        "ridb_type": "Campground"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252747",
+          "source_license": "public-domain",
+          "source_url": "https://www.recreation.gov/camping/campgrounds/252747",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Sunset Valley Trailhead",
+      "lat": 34.7428,
+      "lng": -119.9262,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located in the Figueroa Mt. area. This 2 mile trail parallels the Sunset Valley Road. It meanders through oaks, pine and chaparral.",
+      "tags": {
+        "ridb": "252764",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252764",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Munch Canyon Trailhead",
+      "lat": 34.7578,
+      "lng": -119.9541,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Munch Canyon Trailhead is located on Sunset Valley Road on Figueroa Mountain. This trailhead meets up with several other trails in this general area, including the Davy Brown Trail and White Rock Trail. This trail is very popular during spring, as it produces beautiful wildflowers during a wet year. From mid-July to the end of September, this trail is utilized by hunters during deer season. The…",
+      "tags": {
+        "ridb": "252765",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252765",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Cumbre Day Use",
+      "lat": 34.7433,
+      "lng": -119.9912,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Located among the pines high on Figueroa Mountain. Beautiful displays of wildflowers March through May. This day use area may be closed in the winter due to wet weather. Check with the Santa Lucia Ranger District - (805) 925-9538.",
+      "tags": {
+        "ridb": "252777",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252777",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Lower Manzana Trailhead",
+      "lat": 34.7717,
+      "lng": -119.9439,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The Lower Manzana Trailhead is located on Sunset Valley Road, approximately 1.5 miles past Davy Brown Campground. This trailhead is very popular for a number of reasons, primarily because it is a portal to the San Rafael Wilderness. The Lower Manzana Trailhead leads to a historical schoolhouse, last used in 1901. In close proximity to the schoolhouse, one will also find a historical hunting lodge…",
+      "tags": {
+        "ridb": "252806",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252806",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "White Rock Trailhead",
+      "lat": 34.7363,
+      "lng": -119.9245,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "White Rock Trailhead is located on Sunset Valley Road on Figueroa Mountain. This trailhead meets up with several other trails in this general area, including East Pinery and Munch Canyon Trail. This trail is very popular during spring, as it produces beautiful wildflowers during a wet year. From mid-July to the end of September, this trail is utilized by hunters during deer season. The parking…",
+      "tags": {
+        "ridb": "252809",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252809",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Adobe Trailhead",
+      "lat": 35.0844,
+      "lng": -120.1454,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The site is located on Hwy #166. 20 miles east of Santa Maria. This trail is currently within the Front Fire Closure area. No access. Trail is expected to reopen in early 2019. Adobe Trailhead has one large parking area and serving hikers, equestrians. No motorized use allowed. The facility has no drinking water and trash receptacles. Please pack your trash out. The Adobe trail (31W03) 2.5 miles…",
+      "tags": {
+        "ridb": "252812",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252812",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "La Jolla / Ballard Trailhead",
+      "lat": 34.7358,
+      "lng": -119.9999,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "La Jolla / Ballard Trailhead is located approximately 12.5 miles from the time that one turns onto Figueroa Mountain Road off of Highway 154. You will find the trailhead .5 miles past the Figueroa Station. Parking is available on the right side of the road on the dirt turnout, right before Tunnell Ranch Road. This parking area can accommodate between 5 to 6 vehicles. This trail is approximately 3…",
+      "tags": {
+        "ridb": "252825",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252825",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "La Cumbre Peak Day Use",
+      "lat": 34.4947,
+      "lng": -119.713,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Top of the Santa Ynez Mountain Range, overlooking the city of Santa Barbara. Coulter pines, maple trees, manzanita, bay trees, chaparral. There is a ¼ mile hike past the locked gate to the picnic area on top. Next to the day use area there is an old Forest Service fire lookout tower that is closed to the public.",
+      "tags": {
+        "ridb": "252835",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252835",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Divide Peak OHV Trailhead",
+      "lat": 34.4818,
+      "lng": -119.5778,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "Offers views of Santa Barbara coastline, Upper Santa Ynez Valley and San Rafael Mountains. Divide Peak Road is approximately 17 miles on East Camino Cielo from Highway 154. The parking lot for the OHV road is on the right side of East Camino Cielo 12.5 miles from Highway 154.",
+      "tags": {
+        "ridb": "252838",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252838",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "Catway Day Use",
+      "lat": 34.737,
+      "lng": -119.9968,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "On the Catway Road overlooking Santa Ynez Valley",
+      "tags": {
+        "ridb": "252856",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252856",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "First Crossing Day Use Picnic Area",
+      "lat": 34.5458,
+      "lng": -119.7781,
+      "category": "park",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "The First Crossing Day Use Area is a 16 acre day use picnic site located off Paradise Road just before the first Santa Ynez River crossing ford. The First Crossing Day Use Area is open all year. During high river flows Paradise Road is closed to motorized vehicles at the river ford and this facility becomes the “end of the road” for visitor vehicle access. The site is adjacent to the Santa Ynez…",
+      "tags": {
+        "ridb": "252902",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252902",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": "McKinley Trailhead",
+      "lat": 34.727,
+      "lng": -119.9195,
+      "category": "trailhead",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "roadside",
+      "notes": "McKinley Trailhead is located approximately 13 miles from the junction of Figueroa Mtn Road and Happy Canyon/Sunset Valley Road. In order to reach the trailhead, one must hike to the trailhead for 13 miles past the locked gate. From the trailhead one can access Big Cone Spruce Campsite and continue to the Manzana Trail in the San Rafael Wilderness.",
+      "tags": {
+        "ridb": "252903",
+        "ridb_type": "Facility"
+      },
+      "sources": [
+        {
+          "source": "ridb",
+          "source_id": "252903",
+          "source_license": "public-domain",
+          "source_url": null,
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}
