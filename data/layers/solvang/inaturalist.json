@@ -1,0 +1,21 @@
+{
+  "source": {
+    "source": "inaturalist",
+    "name": "iNaturalist",
+    "license": "per-record CC licensing — fetched to CC0/CC-BY/CC-BY-SA only",
+    "attribution": "Observation data from iNaturalist (per-record open licenses)",
+    "status": "working",
+    "policy": {
+      "url": "https://www.inaturalist.org/pages/api+recommended+practices",
+      "maxConcurrency": 1,
+      "minGapMs": 1000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 1100
+    }
+  },
+  "builtAt": "2026-10-09",
+  "observations": 6000,
+  "spotsTagged": 200
+}

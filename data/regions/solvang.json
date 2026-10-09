@@ -34,12 +34,17 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.2,
           "e": 11.6,
           "s": 6.2,
           "w": 9.2,
           "site_m": 519
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 7,
+          "topGuild": "insects"
         }
       }
     },
@@ -79,9 +84,9 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 20.6,
-          "e": 28.0,
+          "e": 28,
           "s": 7.9,
           "w": 10.1,
           "site_m": 457
@@ -121,7 +126,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 20.4,
           "e": 7.4,
           "s": 26.3,
@@ -165,7 +170,7 @@
           "n": 8.4,
           "e": 1.6,
           "s": -0.2,
-          "w": 1.0,
+          "w": 1,
           "site_m": 13
         }
       }
@@ -204,8 +209,8 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 26.0,
+          "open": 0,
+          "n": 26,
           "e": 7.6,
           "s": 9.4,
           "w": 22.5,
@@ -304,7 +309,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "The site is located on Hwy #166. 20 miles east of Santa Maria. This trail is currently within the Front Fire Closure area. No access. Trail is expected to reopen in early 2019. Adobe Trailhead has one large parking area and serving hikers, equestrians. No motorized use allowed. The facility has no drinking water and trash receptacles. Please pack your trash out. The Adobe trail (31W03) 2.5 miles\u2026",
+      "notes": "The site is located on Hwy #166. 20 miles east of Santa Maria. This trail is currently within the Front Fire Closure area. No access. Trail is expected to reopen in early 2019. Adobe Trailhead has one large parking area and serving hikers, equestrians. No motorized use allowed. The facility has no drinking water and trash receptacles. Please pack your trash out. The Adobe trail (31W03) 2.5 miles…",
       "sources": [
         {
           "source": "ridb",
@@ -326,11 +331,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.9,
           "e": 14.1,
           "s": 15.8,
-          "w": 7.0,
+          "w": 7,
           "site_m": 333
         }
       }
@@ -370,9 +375,14 @@
           "open": 0.51,
           "n": 7.8,
           "e": 3.5,
-          "s": 0.0,
+          "s": 0,
           "w": 1.1,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 7,
+          "topGuild": "insects"
         }
       }
     },
@@ -446,7 +456,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.9,
           "e": 7.9,
           "s": 3.8,
@@ -571,7 +581,7 @@
           "open": 0.64,
           "n": 4.8,
           "e": 2.2,
-          "s": -0.0,
+          "s": 0,
           "w": 1.7,
           "site_m": 5
         }
@@ -610,7 +620,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 15.8,
           "e": 19.7,
           "s": 24.5,
@@ -744,11 +754,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.56,
-          "n": 6.0,
+          "n": 6,
           "e": 0.9,
           "s": 0.8,
           "w": 0.5,
           "site_m": 45
+        },
+        "inaturalist": {
+          "observations": 26,
+          "species": 24,
+          "topGuild": "insects"
         }
       }
     },
@@ -857,10 +872,10 @@
         "tourism": "camp_site",
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 2.3,
           "e": 9.8,
-          "s": 17.0,
+          "s": 17,
           "w": 13.6,
           "site_m": 875
         }
@@ -904,7 +919,7 @@
           "open": 0.61,
           "n": 6.1,
           "e": 0.8,
-          "s": 0.0,
+          "s": 0,
           "w": 3.1,
           "site_m": 4
         }
@@ -944,6 +959,11 @@
           "s": -0.1,
           "w": 1.6,
           "site_m": 8
+        },
+        "inaturalist": {
+          "observations": 24,
+          "species": 19,
+          "topGuild": "insects"
         }
       }
     },
@@ -984,7 +1004,7 @@
           "open": 0.58,
           "n": 6.7,
           "e": 1.2,
-          "s": 0.0,
+          "s": 0,
           "w": 1.2,
           "site_m": 25
         }
@@ -992,7 +1012,7 @@
     },
     {
       "id": "andree-clark-bird-refuge@9q4gv4",
-      "name": "Andr\u00e9e Clark Bird Refuge",
+      "name": "Andrée Clark Bird Refuge",
       "lat": 34.4202927,
       "lng": -119.6605824,
       "category": "park",
@@ -1012,10 +1032,10 @@
         }
       ],
       "tags": {
-        "name": "Andr\u00e9e Clark Bird Refuge",
+        "name": "Andrée Clark Bird Refuge",
         "ele": "1",
-        "description": "Andr\u00e9e Clark Bird Refuge",
-        "wikipedia": "en:Andr\u00e9e Clark Bird Refuge",
+        "description": "Andrée Clark Bird Refuge",
+        "wikipedia": "en:Andrée Clark Bird Refuge",
         "wikidata": "Q4755706",
         "leisure": "park",
         "commons": {
@@ -1035,6 +1055,11 @@
           "s": 5.7,
           "w": 0.5,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 8,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -1074,7 +1099,7 @@
           "open": 0.79,
           "n": 4.5,
           "e": 0.5,
-          "s": 0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 15
         }
@@ -1112,8 +1137,8 @@
           "open": 0.76,
           "n": 4.7,
           "e": 0.3,
-          "s": -0.0,
-          "w": 0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 13
         }
       }
@@ -1282,7 +1307,7 @@
           "open": 0.7,
           "n": 3.8,
           "e": 1.6,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 44
         }
@@ -1363,6 +1388,11 @@
           "s": -0.5,
           "w": 5.6,
           "site_m": 219
+        },
+        "inaturalist": {
+          "observations": 19,
+          "species": 13,
+          "topGuild": "insects"
         }
       }
     },
@@ -1408,6 +1438,11 @@
           "s": 3.5,
           "w": 1.6,
           "site_m": 173
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -1577,7 +1612,7 @@
           "n": -0.3,
           "e": 1.9,
           "s": -1.7,
-          "w": -1.0,
+          "w": -1,
           "site_m": 796
         }
       }
@@ -1701,7 +1736,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 4.5,
           "e": 7.9,
           "s": 8.6,
@@ -1751,6 +1786,11 @@
           "s": 0.5,
           "w": -0.4,
           "site_m": 2
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -1875,7 +1915,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 0.1,
           "e": 14.9,
           "s": 8.3,
@@ -1952,7 +1992,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.48,
-          "n": 8.0,
+          "n": 8,
           "e": 0.9,
           "s": 1.6,
           "w": 2.8,
@@ -1994,7 +2034,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 4.3,
           "e": 10.7,
           "s": 16.8,
@@ -2041,7 +2081,7 @@
           "open": 0.73,
           "n": 4.3,
           "e": 0.9,
-          "s": 0.0,
+          "s": 0,
           "w": 0.7,
           "site_m": 3
         }
@@ -2076,11 +2116,11 @@
         "natural": "peak",
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 1.6,
           "e": 9.2,
           "s": 13.3,
-          "w": 4.0,
+          "w": 4,
           "site_m": 550
         }
       }
@@ -2121,11 +2161,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.65,
-          "n": 5.0,
+          "n": 5,
           "e": 1.1,
           "s": -0.2,
-          "w": 1.0,
+          "w": 1,
           "site_m": 32
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -2201,7 +2246,7 @@
         "horizon": {
           "open": 0.8,
           "n": 0.6,
-          "e": 1.0,
+          "e": 1,
           "s": 1.1,
           "w": 2.4,
           "site_m": 48
@@ -2241,9 +2286,14 @@
           "open": 0.63,
           "n": 6.5,
           "e": 0.8,
-          "s": 0.0,
-          "w": 2.0,
+          "s": 0,
+          "w": 2,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 12,
+          "species": 11,
+          "topGuild": "insects"
         }
       }
     },
@@ -2282,7 +2332,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.8,
           "e": 27.2,
           "s": 7.2,
@@ -2326,7 +2376,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 17.3,
           "e": 28.6,
           "s": 16.6,
@@ -2367,7 +2417,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": -1.8,
           "e": 22.7,
           "s": 7.5,
@@ -2413,7 +2463,7 @@
         "bortle": 1,
         "horizon": {
           "open": 0.98,
-          "n": -2.0,
+          "n": -2,
           "e": -0.7,
           "s": -2.9,
           "w": -1.8,
@@ -2469,7 +2519,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 8 of 62 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 8 of 62 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -2496,12 +2546,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.4,
           "e": 5.7,
           "s": -0.6,
           "w": 9.7,
           "site_m": 230
+        },
+        "inaturalist": {
+          "observations": 12,
+          "species": 8,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -2517,7 +2572,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 34 of 135 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 34 of 135 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -2544,7 +2599,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.4,
           "e": 5.7,
           "s": -0.6,
@@ -2581,7 +2636,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.53,
-          "n": 8.0,
+          "n": 8,
           "e": 1.2,
           "s": -0.1,
           "w": 0.8,
@@ -2601,7 +2656,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 36 of 296 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 36 of 296 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -2649,7 +2704,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 70 of 452 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 70 of 452 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -2676,7 +2731,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 2.8,
           "e": 4.2,
           "s": 7.8,
@@ -2717,7 +2772,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 15.4,
           "e": 3.4,
           "s": 15.6,
@@ -2762,10 +2817,10 @@
         "bortle": 2,
         "horizon": {
           "open": 0.96,
-          "n": 0.0,
+          "n": 0,
           "e": 0.5,
           "s": -0.5,
-          "w": -1.0,
+          "w": -1,
           "site_m": 554
         }
       }
@@ -2808,10 +2863,15 @@
         "horizon": {
           "open": 0.33,
           "n": 5.6,
-          "e": 1.0,
+          "e": 1,
           "s": 7.8,
           "w": 2.5,
           "site_m": 16
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -2926,7 +2986,7 @@
           "open": 0.78,
           "n": 1.4,
           "e": 0.8,
-          "s": 1.0,
+          "s": 1,
           "w": 2.2,
           "site_m": 26
         }
@@ -2968,7 +3028,7 @@
         "horizon": {
           "open": 0.65,
           "n": 6.3,
-          "e": 1.0,
+          "e": 1,
           "s": 0.2,
           "w": 2.9,
           "site_m": 2
@@ -3055,7 +3115,7 @@
           "open": 0.45,
           "n": 2.9,
           "e": 1.7,
-          "s": 9.0,
+          "s": 9,
           "w": 1.5,
           "site_m": 258
         }
@@ -3098,7 +3158,7 @@
         "horizon": {
           "open": 0.98,
           "n": -0.2,
-          "e": -0.0,
+          "e": 0,
           "s": -1.9,
           "w": 0.3,
           "site_m": 1217
@@ -3227,12 +3287,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 14.5,
           "e": 11.8,
           "s": -0.9,
           "w": 8.7,
           "site_m": 457
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 7,
+          "topGuild": "insects"
         }
       }
     },
@@ -3269,10 +3334,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 2.8,
           "e": 8.1,
-          "s": 12.0,
+          "s": 12,
           "w": 7.2,
           "site_m": 570
         }
@@ -3399,7 +3464,7 @@
         "horizon": {
           "open": 0.93,
           "n": 0.3,
-          "e": 1.0,
+          "e": 1,
           "s": 0.3,
           "w": -0.7,
           "site_m": 149
@@ -3436,7 +3501,7 @@
           "open": 0.61,
           "n": 6.2,
           "e": 0.8,
-          "s": 0.0,
+          "s": 0,
           "w": 3.2,
           "site_m": 4
         }
@@ -3478,7 +3543,7 @@
         "horizon": {
           "open": 0.61,
           "n": 7.4,
-          "e": 1.0,
+          "e": 1,
           "s": 0.1,
           "w": 0.7,
           "site_m": 3
@@ -3527,6 +3592,11 @@
           "s": 7.9,
           "w": 1.6,
           "site_m": 243
+        },
+        "inaturalist": {
+          "observations": 16,
+          "species": 13,
+          "topGuild": "insects"
         }
       }
     },
@@ -3566,7 +3636,7 @@
         "bortle": 1,
         "horizon": {
           "open": 0.94,
-          "n": -0.0,
+          "n": 0,
           "e": 2.3,
           "s": -2.5,
           "w": -1.6,
@@ -3606,11 +3676,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 20.0,
+          "open": 0,
+          "n": 20,
           "e": 12.1,
-          "s": 20.0,
-          "w": 16.0,
+          "s": 20,
+          "w": 16,
           "site_m": 649
         }
       }
@@ -3647,7 +3717,7 @@
         "horizon": {
           "open": 0.6,
           "n": 5.7,
-          "e": 1.0,
+          "e": 1,
           "s": 0.1,
           "w": 4.4,
           "site_m": 15
@@ -3690,7 +3760,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": -0.4,
           "e": -1.1,
           "s": 9.3,
@@ -3735,8 +3805,8 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 1.0,
-          "n": -1.0,
+          "open": 1,
+          "n": -1,
           "e": -1.8,
           "s": 0.3,
           "w": -1.7,
@@ -3756,7 +3826,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 22 of 126 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 22 of 126 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -3783,7 +3853,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.4,
           "e": 5.7,
           "s": -0.6,
@@ -3804,7 +3874,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 40 of 214 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 40 of 214 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -3831,7 +3901,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.4,
           "e": 5.7,
           "s": -0.6,
@@ -3890,7 +3960,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 69 of 196 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 69 of 196 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -4125,7 +4195,7 @@
           "photos": 140
         },
         "padus": {
-          "name": "Mission Santa In\u00e9s",
+          "name": "Mission Santa Inés",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "open"
@@ -4136,7 +4206,7 @@
           "n": 2.9,
           "e": 1.2,
           "s": 4.1,
-          "w": 1.0,
+          "w": 1,
           "site_m": 150
         }
       }
@@ -4175,7 +4245,7 @@
         "horizon": {
           "open": 0.77,
           "n": 4.4,
-          "e": 1.0,
+          "e": 1,
           "s": 0.1,
           "w": -0.4,
           "site_m": 51
@@ -4210,7 +4280,7 @@
           "photos": 141
         },
         "padus": {
-          "name": "Mission Santa In\u00e9s",
+          "name": "Mission Santa Inés",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "open"
@@ -4265,7 +4335,7 @@
           "n": 4.3,
           "e": 0.2,
           "s": 0.1,
-          "w": -0.0,
+          "w": 0,
           "site_m": -59
         }
       }
@@ -4345,7 +4415,7 @@
         "horizon": {
           "open": 0.55,
           "n": 7.7,
-          "e": 3.0,
+          "e": 3,
           "s": -0.2,
           "w": -0.1,
           "site_m": 13
@@ -4380,7 +4450,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.71,
-          "n": 4.0,
+          "n": 4,
           "e": 0.3,
           "s": 0.5,
           "w": 0.5,
@@ -4417,7 +4487,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 11.6,
           "e": 14.3,
           "s": -0.6,
@@ -4456,7 +4526,7 @@
           "open": 0.09,
           "n": -0.3,
           "e": 1.8,
-          "s": 8.0,
+          "s": 8,
           "w": 9.7,
           "site_m": 454
         }
@@ -4494,6 +4564,11 @@
           "s": -0.1,
           "w": 0.9,
           "site_m": 13
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "insects"
         }
       }
     },
@@ -4625,6 +4700,11 @@
           "s": -0.3,
           "w": -0.3,
           "site_m": 31
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -4649,7 +4729,7 @@
         {
           "source": "ebird",
           "source_id": "L70464943",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L70464943",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -4668,6 +4748,11 @@
           "s": -0.3,
           "w": -0.2,
           "site_m": 11
+        },
+        "inaturalist": {
+          "observations": 94,
+          "species": 40,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -4731,7 +4816,7 @@
         {
           "source": "ebird",
           "source_id": "L267487",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L267487",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -4746,10 +4831,15 @@
         "horizon": {
           "open": 0.61,
           "n": 7.4,
-          "e": 2.0,
+          "e": 2,
           "s": -0.3,
           "w": -0.2,
           "site_m": 12
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "mammals"
         }
       }
     },
@@ -4804,6 +4894,11 @@
           "s": -0.3,
           "w": -0.3,
           "site_m": 16
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 6,
+          "topGuild": "mammals"
         }
       }
     },
@@ -4851,6 +4946,11 @@
           "s": -0.2,
           "w": -0.1,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 12,
+          "species": 10,
+          "topGuild": "insects"
         }
       }
     },
@@ -4908,6 +5008,11 @@
           "s": -0.2,
           "w": -0.2,
           "site_m": 8
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 7,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -4953,6 +5058,11 @@
           "s": -0.3,
           "w": -0.3,
           "site_m": 22
+        },
+        "inaturalist": {
+          "observations": 14,
+          "species": 11,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -5036,7 +5146,7 @@
           "open": 0.71,
           "n": 1.8,
           "e": 1.3,
-          "s": 2.0,
+          "s": 2,
           "w": 1.8,
           "site_m": 634
         }
@@ -5212,8 +5322,8 @@
         "bortle": 1,
         "horizon": {
           "open": 0.41,
-          "n": 2.0,
-          "e": 7.0,
+          "n": 2,
+          "e": 7,
           "s": -0.9,
           "w": -1.4,
           "site_m": 1065
@@ -5330,8 +5440,13 @@
           "n": 10.2,
           "e": 6.2,
           "s": -0.5,
-          "w": 6.0,
+          "w": 6,
           "site_m": 214
+        },
+        "inaturalist": {
+          "observations": 11,
+          "species": 10,
+          "topGuild": "insects"
         }
       }
     },
@@ -5368,7 +5483,7 @@
           "n": 1.3,
           "e": 0.9,
           "s": 2.6,
-          "w": -0.0,
+          "w": 0,
           "site_m": 223
         }
       }
@@ -5453,9 +5568,14 @@
           "open": 0.64,
           "n": 7.2,
           "e": 0.9,
-          "s": 0.0,
+          "s": 0,
           "w": 1.3,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 13,
+          "species": 5,
+          "topGuild": "mammals"
         }
       }
     },
@@ -5495,9 +5615,14 @@
           "open": 0.63,
           "n": 6.5,
           "e": 0.9,
-          "s": 0.0,
+          "s": 0,
           "w": 1.6,
           "site_m": 4
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "mammals"
         }
       }
     },
@@ -5538,8 +5663,8 @@
           "open": 0.64,
           "n": 6.5,
           "e": 0.9,
-          "s": 0.0,
-          "w": 1.0,
+          "s": 0,
+          "w": 1,
           "site_m": 2
         }
       }
@@ -5586,9 +5711,14 @@
           "open": 0.73,
           "n": 4.3,
           "e": 0.6,
-          "s": 0.0,
+          "s": 0,
           "w": 0.8,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -5632,11 +5762,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.7,
-          "n": 4.0,
+          "n": 4,
           "e": 0.7,
           "s": 0.3,
-          "w": 1.0,
+          "w": 1,
           "site_m": 4
+        },
+        "inaturalist": {
+          "observations": 11,
+          "species": 10,
+          "topGuild": "insects"
         }
       }
     },
@@ -5676,7 +5811,7 @@
           "n": 4.9,
           "e": 0.8,
           "s": -0.1,
-          "w": -0.0,
+          "w": 0,
           "site_m": 12
         }
       }
@@ -5762,8 +5897,8 @@
         "bortle": 5,
         "horizon": {
           "open": 0.62,
-          "n": 7.0,
-          "e": 1.0,
+          "n": 7,
+          "e": 1,
           "s": 0.1,
           "w": 0.8,
           "site_m": 3
@@ -5852,10 +5987,10 @@
         "bortle": 4,
         "horizon": {
           "open": 0.08,
-          "n": 6.0,
+          "n": 6,
           "e": 6.9,
           "s": -1.3,
-          "w": 10.0,
+          "w": 10,
           "site_m": 771
         }
       }
@@ -5897,7 +6032,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.3,
           "e": 16.9,
           "s": -1.2,
@@ -5981,7 +6116,7 @@
           "n": 0.9,
           "e": 0.9,
           "s": 2.8,
-          "w": -0.0,
+          "w": 0,
           "site_m": 28
         }
       }
@@ -6019,7 +6154,7 @@
           "open": 0.77,
           "n": 4.3,
           "e": 0.6,
-          "s": 0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
@@ -6057,10 +6192,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.5,
           "e": 12.2,
-          "s": 27.0,
+          "s": 27,
           "w": 22.9,
           "site_m": 549
         }
@@ -6097,7 +6232,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.72,
-          "n": 4.0,
+          "n": 4,
           "e": 0.3,
           "s": 0.5,
           "w": 0.4,
@@ -6126,7 +6261,7 @@
         {
           "source": "ebird",
           "source_id": "L422817",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L422817",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -6150,6 +6285,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 4
+        },
+        "inaturalist": {
+          "observations": 139,
+          "species": 55,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -6174,7 +6314,7 @@
         {
           "source": "ebird",
           "source_id": "L615794",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L615794",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -6198,6 +6338,11 @@
           "s": 0.6,
           "w": 0.6,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -6222,7 +6367,7 @@
         {
           "source": "ebird",
           "source_id": "L16871073",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L16871073",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -6244,7 +6389,7 @@
           "n": 3.5,
           "e": 0.2,
           "s": -0.2,
-          "w": -0.0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -6333,11 +6478,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.72,
-          "n": 4.0,
+          "n": 4,
           "e": 0.9,
           "s": 1.1,
           "w": 0.7,
           "site_m": 2
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -6423,6 +6573,11 @@
           "s": 0.2,
           "w": 0.8,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -6467,6 +6622,11 @@
           "s": 0.6,
           "w": -0.7,
           "site_m": 138
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "mammals"
         }
       }
     },
@@ -6509,12 +6669,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 17.8,
           "e": 21.9,
           "s": -0.6,
           "w": 26.3,
           "site_m": 235
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -6562,6 +6727,11 @@
           "s": -1.6,
           "w": 2.3,
           "site_m": 1042
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 7,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -6596,12 +6766,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 19.7,
           "e": 31.3,
           "s": 3.8,
           "w": 26.1,
           "site_m": 261
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -6637,12 +6812,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 11.4,
           "e": 7.3,
           "s": 27.6,
           "w": 14.1,
           "site_m": 484
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -6689,6 +6869,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 6
+        },
+        "inaturalist": {
+          "observations": 20,
+          "species": 12,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -6807,7 +6992,7 @@
           "open": 0.89,
           "n": 0.8,
           "e": 1.3,
-          "s": 1.0,
+          "s": 1,
           "w": -0.5,
           "site_m": 24
         }
@@ -6858,10 +7043,15 @@
         "horizon": {
           "open": 0.65,
           "n": 6.1,
-          "e": 1.0,
+          "e": 1,
           "s": 0.3,
-          "w": 3.0,
+          "w": 3,
           "site_m": 1
+        },
+        "inaturalist": {
+          "observations": 19,
+          "species": 7,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -6896,8 +7086,13 @@
           "n": 5.8,
           "e": 0.8,
           "s": 0.2,
-          "w": 3.0,
+          "w": 3,
           "site_m": 4
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 6,
+          "topGuild": "mammals"
         }
       }
     },
@@ -6983,6 +7178,11 @@
           "s": 1.9,
           "w": 1.1,
           "site_m": 12
+        },
+        "inaturalist": {
+          "observations": 13,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -7061,12 +7261,17 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.2,
           "e": 8.7,
           "s": 16.7,
           "w": 10.4,
           "site_m": 471
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -7152,8 +7357,8 @@
           "open": 0.54,
           "n": 8.9,
           "e": 1.6,
-          "s": -0.0,
-          "w": 1.0,
+          "s": 0,
+          "w": 1,
           "site_m": 85
         }
       }
@@ -7198,6 +7403,11 @@
           "s": 0.4,
           "w": 0.7,
           "site_m": 24
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -7213,7 +7423,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 70 of 476 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 70 of 476 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -7415,7 +7625,7 @@
         "horizon": {
           "open": 0.97,
           "n": -1.9,
-          "e": 0.0,
+          "e": 0,
           "s": -0.6,
           "w": -0.7,
           "site_m": 1778
@@ -7535,12 +7745,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.3,
           "e": 17.9,
           "s": 27.3,
           "w": 10.2,
           "site_m": 646
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -7578,12 +7793,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.1,
           "e": 15.1,
-          "s": 27.0,
+          "s": 27,
           "w": 10.9,
           "site_m": 635
+        },
+        "inaturalist": {
+          "observations": 16,
+          "species": 14,
+          "topGuild": "insects"
         }
       }
     },
@@ -7620,6 +7840,11 @@
           "s": 0.2,
           "w": 1.4,
           "site_m": 14
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "mammals"
         }
       }
     },
@@ -7650,7 +7875,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.69,
-          "n": 6.0,
+          "n": 6,
           "e": 0.6,
           "s": 0.3,
           "w": 1.2,
@@ -7788,6 +8013,11 @@
           "s": -0.6,
           "w": 8.8,
           "site_m": 230
+        },
+        "inaturalist": {
+          "observations": 21,
+          "species": 18,
+          "topGuild": "insects"
         }
       }
     },
@@ -7860,11 +8090,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.64,
-          "n": 6.0,
+          "n": 6,
           "e": 0.9,
           "s": 0.1,
           "w": 3.8,
           "site_m": 31
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -7906,7 +8141,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 4.7,
           "e": 1.3,
           "s": 18.4,
@@ -7997,7 +8232,7 @@
           "open": 0.78,
           "n": 5.1,
           "e": 0.4,
-          "s": -0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 10
         }
@@ -8051,9 +8286,14 @@
           "open": 0.77,
           "n": 4.4,
           "e": 0.5,
-          "s": -0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 13
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -8091,7 +8331,7 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 1.8,
           "e": 1.8,
           "s": 21.7,
@@ -8183,9 +8423,14 @@
           "open": 0.76,
           "n": 4.6,
           "e": 0.6,
-          "s": 0.0,
+          "s": 0,
           "w": -0.4,
           "site_m": 53
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -8263,8 +8508,8 @@
           "open": 0.58,
           "n": 7.3,
           "e": 1.1,
-          "s": 0.0,
-          "w": 1.0,
+          "s": 0,
+          "w": 1,
           "site_m": 4
         }
       }
@@ -8305,7 +8550,7 @@
           "open": 0.58,
           "n": 7.4,
           "e": 1.1,
-          "s": -0.0,
+          "s": 0,
           "w": 1.1,
           "site_m": 5
         }
@@ -8368,7 +8613,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 25 of 247 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 25 of 247 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -8395,7 +8640,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.3,
           "e": 16.4,
           "s": 8.7,
@@ -8416,7 +8661,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 74 of 835 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 74 of 835 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -8443,7 +8688,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.4,
           "e": 18.2,
           "s": 8.7,
@@ -8565,12 +8810,17 @@
         "memorial": "plaque",
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.5,
           "e": 4.2,
           "s": -0.7,
           "w": 15.1,
           "site_m": 349
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -8605,9 +8855,9 @@
         "bortle": 5,
         "horizon": {
           "open": 0.76,
-          "n": 5.0,
+          "n": 5,
           "e": 0.4,
-          "s": 0.0,
+          "s": 0,
           "w": 0.1,
           "site_m": 16
         }
@@ -8641,7 +8891,7 @@
           "photos": 6
         },
         "padus": {
-          "name": "El Capit\u00e1n State Beach",
+          "name": "El Capitán State Beach",
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
@@ -8652,14 +8902,19 @@
           "n": 9.1,
           "e": 1.1,
           "s": -0.3,
-          "w": -0.0,
+          "w": 0,
           "site_m": 25
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
     {
       "id": "el-capitan-state-beach@9q4sjj",
-      "name": "El Capit\u00e1n State Beach",
+      "name": "El Capitán State Beach",
       "lat": 34.4846111,
       "lng": -120.008505,
       "category": "park",
@@ -8681,20 +8936,20 @@
         }
       ],
       "tags": {
-        "name": "El Capit\u00e1n State Beach",
-        "wikipedia": "en:El Capit\u00e1n State Beach",
+        "name": "El Capitán State Beach",
+        "wikipedia": "en:El Capitán State Beach",
         "wikidata": "Q5350933",
         "website": "https://www.parks.ca.gov/?page_id=601",
         "opening_hours": "Mo-Su 08:00-sunset",
         "operator": "California Department of Parks and Recreation",
         "leisure": "nature_reserve",
         "boundary": "national_park",
-        "wikimedia_commons": "Category:El Capit\u00e1n State Beach",
+        "wikimedia_commons": "Category:El Capitán State Beach",
         "commons": {
           "photos": 16
         },
         "padus": {
-          "name": "El Capit\u00e1n State Beach",
+          "name": "El Capitán State Beach",
           "manager": "State Park and Recreation",
           "designation": "State Park",
           "access": "open"
@@ -8747,7 +9002,7 @@
           "n": 8.3,
           "e": 3.3,
           "s": -0.3,
-          "w": -0.0,
+          "w": 0,
           "site_m": 18
         }
       }
@@ -8820,10 +9075,10 @@
         "bortle": 5,
         "horizon": {
           "open": 0.54,
-          "n": 7.0,
+          "n": 7,
           "e": 0.8,
           "s": 0.2,
-          "w": 1.0,
+          "w": 1,
           "site_m": 16
         }
       }
@@ -8864,6 +9119,11 @@
           "s": 0.5,
           "w": -0.2,
           "site_m": 98
+        },
+        "inaturalist": {
+          "observations": 43,
+          "species": 36,
+          "topGuild": "insects"
         }
       }
     },
@@ -8914,7 +9174,7 @@
         "horizon": {
           "open": 0.55,
           "n": 7.1,
-          "e": 1.0,
+          "e": 1,
           "s": 0.4,
           "w": 0.8,
           "site_m": 17
@@ -9002,12 +9262,17 @@
         },
         "bortle": 5,
         "horizon": {
-          "open": 0.0,
-          "n": 9.0,
+          "open": 0,
+          "n": 9,
           "e": 11.8,
           "s": 7.7,
           "w": 0.2,
           "site_m": 86
+        },
+        "inaturalist": {
+          "observations": 15,
+          "species": 10,
+          "topGuild": "insects"
         }
       }
     },
@@ -9125,6 +9390,11 @@
           "s": 1.9,
           "w": 0.6,
           "site_m": 14
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -9207,7 +9477,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.83,
-          "n": 2.0,
+          "n": 2,
           "e": 2.4,
           "s": 0.7,
           "w": -0.4,
@@ -9250,8 +9520,8 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
-          "n": 22.0,
+          "open": 0,
+          "n": 22,
           "e": 1.3,
           "s": -1.1,
           "w": 0.5,
@@ -9415,7 +9685,7 @@
           "open": 0.7,
           "n": 5.4,
           "e": 0.5,
-          "s": -0.0,
+          "s": 0,
           "w": 0.5,
           "site_m": 38
         }
@@ -9497,8 +9767,13 @@
           "n": 1.9,
           "e": 1.6,
           "s": 1.2,
-          "w": 0.0,
+          "w": 0,
           "site_m": 121
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -9531,12 +9806,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 11.2,
           "e": 5.4,
           "s": -0.6,
           "w": 16.8,
           "site_m": 226
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -9615,8 +9895,8 @@
           "open": 0.55,
           "n": 7.8,
           "e": 2.2,
-          "s": -0.0,
-          "w": 1.0,
+          "s": 0,
+          "w": 1,
           "site_m": 8
         }
       }
@@ -9659,12 +9939,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.5,
           "e": 9.5,
           "s": -0.4,
           "w": 0.9,
           "site_m": 1049
+        },
+        "inaturalist": {
+          "observations": 12,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -9706,7 +9991,7 @@
         "horizon": {
           "open": 0.99,
           "n": -0.4,
-          "e": 0.0,
+          "e": 0,
           "s": -2.1,
           "w": -1.7,
           "site_m": 1379
@@ -9745,9 +10030,9 @@
         },
         "bortle": 5,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.8,
-          "e": 1.0,
+          "e": 1,
           "s": 5.3,
           "w": 8.2,
           "site_m": 209
@@ -9766,7 +10051,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "The First Crossing Day Use Area is a 16 acre day use picnic site located off Paradise Road just before the first Santa Ynez River crossing ford. The First Crossing Day Use Area is open all year. During high river flows Paradise Road is closed to motorized vehicles at the river ford and this facility becomes the \u201cend of the road\u201d for visitor vehicle access. The site is adjacent to the Santa Ynez\u2026",
+      "notes": "The First Crossing Day Use Area is a 16 acre day use picnic site located off Paradise Road just before the first Santa Ynez River crossing ford. The First Crossing Day Use Area is open all year. During high river flows Paradise Road is closed to motorized vehicles at the river ford and this facility becomes the “end of the road” for visitor vehicle access. The site is adjacent to the Santa Ynez…",
       "sources": [
         {
           "source": "ridb",
@@ -9788,8 +10073,8 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
-          "n": 18.0,
+          "open": 0,
+          "n": 18,
           "e": 7.6,
           "s": 10.5,
           "w": 5.1,
@@ -9829,10 +10114,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 14.7,
-          "e": 10.0,
-          "s": 30.0,
+          "e": 10,
+          "s": 30,
           "w": 9.8,
           "site_m": 627
         }
@@ -9875,6 +10160,11 @@
           "s": 0.5,
           "w": 0.7,
           "site_m": 8
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -10068,12 +10358,17 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
-          "n": 9.0,
-          "e": 2.0,
+          "open": 0,
+          "n": 9,
+          "e": 2,
           "s": 16.3,
-          "w": 15.0,
+          "w": 15,
           "site_m": 723
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 7,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -10270,7 +10565,7 @@
         },
         "bortle": 5,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 21.5,
           "e": 3.1,
           "s": -0.5,
@@ -10403,7 +10698,7 @@
           "n": 9.1,
           "e": 3.1,
           "s": -0.2,
-          "w": 0.0,
+          "w": 0,
           "site_m": 12
         }
       }
@@ -10440,6 +10735,11 @@
           "s": -0.2,
           "w": 0.4,
           "site_m": 15
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -10455,7 +10755,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Overview Fremont Campground is a family-friendly facility located just off California's western coast. It provides access to a variety of hiking, biking and horseback riding trails, as well as some off-road vehicle trails, in a scenic area. Recreation The Santa Ynez River is popular for a variety of water-related recreation. It can be accessed at nearby White Rock Day Use Area. Cachuma Lake\u2026",
+      "notes": "Overview Fremont Campground is a family-friendly facility located just off California's western coast. It provides access to a variety of hiking, biking and horseback riding trails, as well as some off-road vehicle trails, in a scenic area. Recreation The Santa Ynez River is popular for a variety of water-related recreation. It can be accessed at nearby White Rock Day Use Area. Cachuma Lake…",
       "sources": [
         {
           "source": "osm",
@@ -10488,7 +10788,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.4,
           "e": 3.3,
           "s": 20.9,
@@ -10534,9 +10834,9 @@
         "leisure": "park",
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 5.7,
-          "e": 5.0,
+          "e": 5,
           "s": 10.5,
           "w": 2.8,
           "site_m": 215
@@ -10585,7 +10885,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.7,
           "e": 20.4,
           "s": 26.9,
@@ -10635,6 +10935,11 @@
           "s": 0.1,
           "w": -0.1,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -10683,6 +10988,11 @@
           "s": 0.1,
           "w": 8.5,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 32,
+          "species": 16,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -10732,12 +11042,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 2.0,
+          "open": 0,
+          "n": 2,
           "e": 19.5,
           "s": 26.7,
           "w": 1.4,
           "site_m": 211
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -10793,7 +11108,7 @@
         "horizon": {
           "open": 0.98,
           "n": -0.4,
-          "e": -0.0,
+          "e": 0,
           "s": -1.3,
           "w": -1.3,
           "site_m": 744
@@ -10821,7 +11136,7 @@
         {
           "source": "ebird",
           "source_id": "L613644",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L613644",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -10870,7 +11185,7 @@
         {
           "source": "ebird",
           "source_id": "L71125716",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L71125716",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -10886,7 +11201,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.3,
           "e": 0.7,
           "s": 11.3,
@@ -10929,10 +11244,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.8,
           "e": 7.4,
-          "s": 21.0,
+          "s": 21,
           "w": 11.2,
           "site_m": 116
         }
@@ -11033,7 +11348,7 @@
           "open": 0.6,
           "n": 2.6,
           "e": 1.2,
-          "s": 3.0,
+          "s": 3,
           "w": 1.8,
           "site_m": 150
         }
@@ -11051,7 +11366,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "The site is located on Hwy #166 26 miles east of Santa Maria. This trail is currently within the Front Fire Closure area. No access. Trail is expected to reopen in early 2019. Gifford Trailhead has one large parking area and serving hikers, equestrians. No motorized use allowed. The Gifford trail (18E12) 2.2 miles has beautiful scenic views. Hitching posts. Picnicking 1 table. Stock trailer\u2026",
+      "notes": "The site is located on Hwy #166 26 miles east of Santa Maria. This trail is currently within the Front Fire Closure area. No access. Trail is expected to reopen in early 2019. Gifford Trailhead has one large parking area and serving hikers, equestrians. No motorized use allowed. The Gifford trail (18E12) 2.2 miles has beautiful scenic views. Hitching posts. Picnicking 1 table. Stock trailer…",
       "sources": [
         {
           "source": "ridb",
@@ -11073,12 +11388,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 14.4,
-          "e": 15.0,
-          "s": 9.0,
+          "e": 15,
+          "s": 9,
           "w": 4.1,
           "site_m": 401
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -11155,7 +11475,7 @@
           "open": 0.52,
           "n": 7.8,
           "e": 2.6,
-          "s": 0.0,
+          "s": 0,
           "w": 0.9,
           "site_m": 9
         }
@@ -11196,7 +11516,7 @@
           "open": 0.71,
           "n": 5.8,
           "e": 0.3,
-          "s": -0.0,
+          "s": 0,
           "w": 0.3,
           "site_m": 7
         }
@@ -11238,9 +11558,9 @@
         "bortle": 1,
         "horizon": {
           "open": 0.48,
-          "n": 9.0,
+          "n": 9,
           "e": 3.8,
-          "s": -1.0,
+          "s": -1,
           "w": -0.8,
           "site_m": 848
         }
@@ -11284,6 +11604,11 @@
           "s": 0.9,
           "w": -0.4,
           "site_m": 24
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -11462,7 +11787,7 @@
           "open": 0.68,
           "n": 4.3,
           "e": 0.6,
-          "s": -0.0,
+          "s": 0,
           "w": 0.2,
           "site_m": 2
         }
@@ -11504,12 +11829,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 24.5,
           "e": 21.3,
           "s": 4.4,
           "w": 25.1,
           "site_m": 408
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -11635,7 +11965,7 @@
           "n": 1.7,
           "e": 1.8,
           "s": 0.3,
-          "w": -0.0,
+          "w": 0,
           "site_m": 57
         }
       }
@@ -11681,7 +12011,7 @@
           "photos": 141
         },
         "padus": {
-          "name": "Mission Santa In\u00e9s",
+          "name": "Mission Santa Inés",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "open"
@@ -11734,7 +12064,7 @@
         "horizon": {
           "open": 0.85,
           "n": 1.5,
-          "e": 1.0,
+          "e": 1,
           "s": 0.1,
           "w": -0.4,
           "site_m": 43
@@ -11743,7 +12073,7 @@
     },
     {
       "id": "gruta-de-nuestra-senora-de-guadalupe@9q4sf1",
-      "name": "Gruta de Nuestra Se\u00f1ora de Guadalupe",
+      "name": "Gruta de Nuestra Señora de Guadalupe",
       "lat": 34.5935092,
       "lng": -120.1368033,
       "category": "oddity",
@@ -11765,14 +12095,14 @@
         }
       ],
       "tags": {
-        "name": "Gruta de Nuestra Se\u00f1ora de Guadalupe",
+        "name": "Gruta de Nuestra Señora de Guadalupe",
         "artwork_type": "statue",
         "tourism": "artwork",
         "commons": {
           "photos": 139
         },
         "padus": {
-          "name": "Mission Santa In\u00e9s",
+          "name": "Mission Santa Inés",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "open"
@@ -11823,9 +12153,14 @@
           "open": 0.81,
           "n": 0.6,
           "e": 2.4,
-          "s": 3.0,
+          "s": 3,
           "w": -0.3,
           "site_m": 24
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -12072,11 +12407,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.8,
           "e": 10.2,
           "s": 9.7,
-          "w": 6.0,
+          "w": 6,
           "site_m": 1305
         }
       }
@@ -12113,7 +12448,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 11.8,
           "e": 2.2,
           "s": 16.7,
@@ -12279,8 +12614,8 @@
           "open": 0.76,
           "n": 4.1,
           "e": 1.1,
-          "s": -0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 15
         }
       }
@@ -12318,6 +12653,11 @@
           "s": 0.7,
           "w": 0.2,
           "site_m": 60
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -12359,7 +12699,7 @@
         "horizon": {
           "open": 0.63,
           "n": 2.1,
-          "e": 3.0,
+          "e": 3,
           "s": 1.3,
           "w": 0.9,
           "site_m": 33
@@ -12442,6 +12782,11 @@
           "s": -0.1,
           "w": 1.4,
           "site_m": 4
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -12478,7 +12823,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.2,
           "e": 3.8,
           "s": 13.7,
@@ -12515,7 +12860,7 @@
         "horizon": {
           "open": 0.11,
           "n": 5.5,
-          "e": 6.0,
+          "e": 6,
           "s": 7.4,
           "w": 4.5,
           "site_m": 35
@@ -12560,7 +12905,7 @@
         "horizon": {
           "open": 0.36,
           "n": 5.8,
-          "e": 4.0,
+          "e": 4,
           "s": 0.3,
           "w": 3.9,
           "site_m": 43
@@ -12610,6 +12955,11 @@
           "s": -0.2,
           "w": -0.1,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 9,
+          "topGuild": "insects"
         }
       }
     },
@@ -12650,6 +13000,11 @@
           "s": 0.4,
           "w": -0.3,
           "site_m": 9
+        },
+        "inaturalist": {
+          "observations": 28,
+          "species": 24,
+          "topGuild": "insects"
         }
       }
     },
@@ -12689,7 +13044,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.49,
-          "n": 5.0,
+          "n": 5,
           "e": 0.9,
           "s": 2.7,
           "w": 0.5,
@@ -12845,12 +13200,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.5,
           "e": 5.9,
           "s": -0.6,
           "w": 7.1,
           "site_m": 219
+        },
+        "inaturalist": {
+          "observations": 14,
+          "species": 12,
+          "topGuild": "insects"
         }
       }
     },
@@ -12898,10 +13258,10 @@
         },
         "bortle": 5,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.5,
           "e": 3.2,
-          "s": 20.0,
+          "s": 20,
           "w": 11.2,
           "site_m": 67
         }
@@ -12985,6 +13345,11 @@
           "s": 5.7,
           "w": -0.1,
           "site_m": 40
+        },
+        "inaturalist": {
+          "observations": 19,
+          "species": 5,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -13022,9 +13387,9 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.9,
-          "e": 24.0,
+          "e": 24,
           "s": 21.8,
           "w": 15.3,
           "site_m": 442
@@ -13060,7 +13425,7 @@
         "gnis": "271666",
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 1.8,
           "e": 22.6,
           "s": 15.3,
@@ -13106,12 +13471,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 21.5,
           "e": 22.2,
           "s": -0.7,
           "w": 21.5,
           "site_m": 317
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -13164,7 +13534,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 28.9,
           "e": 34.7,
           "s": -0.8,
@@ -13296,7 +13666,7 @@
           "open": 0.68,
           "n": 0.5,
           "e": 1.5,
-          "s": 1.0,
+          "s": 1,
           "w": 4.1,
           "site_m": 22
         }
@@ -13334,8 +13704,8 @@
           "open": 0.76,
           "n": 4.7,
           "e": 0.3,
-          "s": -0.0,
-          "w": 0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 16
         }
       }
@@ -13391,7 +13761,7 @@
           "open": 0.23,
           "n": 18.1,
           "e": 3.3,
-          "s": -1.0,
+          "s": -1,
           "w": -0.9,
           "site_m": 549
         }
@@ -13516,11 +13886,16 @@
         "bortle": 4,
         "horizon": {
           "open": 0.35,
-          "n": 9.0,
+          "n": 9,
           "e": 2.6,
           "s": -0.6,
           "w": 1.1,
           "site_m": 226
+        },
+        "inaturalist": {
+          "observations": 50,
+          "species": 30,
+          "topGuild": "insects"
         }
       }
     },
@@ -13560,7 +13935,7 @@
           "n": 0.5,
           "e": 0.7,
           "s": 3.6,
-          "w": 0.0,
+          "w": 0,
           "site_m": 20
         }
       }
@@ -13598,8 +13973,8 @@
           "open": 0.77,
           "n": 4.8,
           "e": 0.5,
-          "s": 0.0,
-          "w": 0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 16
         }
       }
@@ -13636,7 +14011,7 @@
           "open": 0.62,
           "n": 6.9,
           "e": 0.8,
-          "s": -0.0,
+          "s": 0,
           "w": 1.7,
           "site_m": 4
         }
@@ -13715,6 +14090,11 @@
           "s": 0.2,
           "w": 3.7,
           "site_m": 17
+        },
+        "inaturalist": {
+          "observations": 79,
+          "species": 44,
+          "topGuild": "insects"
         }
       }
     },
@@ -13883,7 +14263,7 @@
     },
     {
       "id": "junipero-serra@9q4sf1",
-      "name": "Jun\u00edpero Serra",
+      "name": "Junípero Serra",
       "lat": 34.5944738,
       "lng": -120.1368123,
       "category": "oddity",
@@ -13923,7 +14303,7 @@
       ],
       "tags": {
         "historic": "ruins",
-        "name": "Jun\u00edpero Serra",
+        "name": "Junípero Serra",
         "artwork_type": "statue",
         "tourism": "artwork",
         "inscription": "Fray Junipero Serra 1713-1784. Founder of The California Missions. In Memory of EUGENE D. HANNON. Donated by William H. Hannon Foundation",
@@ -13931,7 +14311,7 @@
           "photos": 140
         },
         "padus": {
-          "name": "Mission Santa In\u00e9s",
+          "name": "Mission Santa Inés",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "open"
@@ -14003,7 +14383,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Camping is available on a first come-first serve basis--we do not take reservations. The campground has 12 campsites, 3 with elevated tent pads. There is an accessible vault toilet, along with picnic tables and fire rings. The campground has no electricity. Drinking water may not be available. There is no garbage service; please act responsibly and pack out any refuse you have. The campground has\u2026",
+      "notes": "Camping is available on a first come-first serve basis--we do not take reservations. The campground has 12 campsites, 3 with elevated tent pads. There is an accessible vault toilet, along with picnic tables and fire rings. The campground has no electricity. Drinking water may not be available. There is no garbage service; please act responsibly and pack out any refuse you have. The campground has…",
       "sources": [
         {
           "source": "ridb",
@@ -14031,6 +14411,11 @@
           "s": 3.2,
           "w": 4.6,
           "site_m": 698
+        },
+        "inaturalist": {
+          "observations": 45,
+          "species": 31,
+          "topGuild": "insects"
         }
       }
     },
@@ -14067,8 +14452,8 @@
           "open": 0.76,
           "n": 4.6,
           "e": 0.4,
-          "s": -0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -14139,10 +14524,15 @@
         "horizon": {
           "open": 0.58,
           "n": 7.4,
-          "e": 2.0,
+          "e": 2,
           "s": -0.2,
-          "w": -0.0,
+          "w": 0,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 29,
+          "species": 19,
+          "topGuild": "insects"
         }
       }
     },
@@ -14315,7 +14705,7 @@
         "bortle": 3,
         "horizon": {
           "open": 0.55,
-          "n": 2.0,
+          "n": 2,
           "e": 1.2,
           "s": 5.1,
           "w": 0.6,
@@ -14358,6 +14748,11 @@
           "s": 0.2,
           "w": 3.5,
           "site_m": 17
+        },
+        "inaturalist": {
+          "observations": 13,
+          "species": 12,
+          "topGuild": "insects"
         }
       }
     },
@@ -14389,7 +14784,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.33,
-          "n": 5.0,
+          "n": 5,
           "e": 0.9,
           "s": 7.4,
           "w": 2.8,
@@ -14429,9 +14824,14 @@
           "open": 0.4,
           "n": 5.6,
           "e": 9.3,
-          "s": 1.0,
+          "s": 1,
           "w": -0.2,
           "site_m": 104
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -14447,7 +14847,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Top of the Santa Ynez Mountain Range, overlooking the city of Santa Barbara. Coulter pines, maple trees, manzanita, bay trees, chaparral. There is a \u00bc mile hike past the locked gate to the picnic area on top. Next to the day use area there is an old Forest Service fire lookout tower that is closed to the public.",
+      "notes": "Top of the Santa Ynez Mountain Range, overlooking the city of Santa Barbara. Coulter pines, maple trees, manzanita, bay trees, chaparral. There is a ¼ mile hike past the locked gate to the picnic area on top. Next to the day use area there is an old Forest Service fire lookout tower that is closed to the public.",
       "sources": [
         {
           "source": "osm",
@@ -14549,7 +14949,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "La Jolla / Ballard Trailhead is located approximately 12.5 miles from the time that one turns onto Figueroa Mountain Road off of Highway 154. You will find the trailhead .5 miles past the Figueroa Station. Parking is available on the right side of the road on the dirt turnout, right before Tunnell Ranch Road. This parking area can accommodate between 5 to 6 vehicles. This trail is approximately 3\u2026",
+      "notes": "La Jolla / Ballard Trailhead is located approximately 12.5 miles from the time that one turns onto Figueroa Mountain Road off of Highway 154. You will find the trailhead .5 miles past the Figueroa Station. Parking is available on the right side of the road on the dirt turnout, right before Tunnell Ranch Road. This parking area can accommodate between 5 to 6 vehicles. This trail is approximately 3…",
       "sources": [
         {
           "source": "ridb",
@@ -14622,7 +15022,7 @@
           "n": 3.8,
           "e": 0.5,
           "s": -0.1,
-          "w": -0.0,
+          "w": 0,
           "site_m": 46
         }
       }
@@ -14663,7 +15063,7 @@
           "n": 1.8,
           "e": 2.9,
           "s": 4.4,
-          "w": 0.0,
+          "w": 0,
           "site_m": 20
         }
       }
@@ -14707,7 +15107,7 @@
     },
     {
       "id": "la-purisima-mission-state-historic-park@9q4m79",
-      "name": "La Pur\u00edsima Mission State Historic Park",
+      "name": "La Purísima Mission State Historic Park",
       "lat": 34.6792,
       "lng": -120.424,
       "category": "marker",
@@ -14733,7 +15133,7 @@
           "photos": 34
         },
         "padus": {
-          "name": "La Pur\u00edsima Mission State Historic Park",
+          "name": "La Purísima Mission State Historic Park",
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
@@ -14746,12 +15146,17 @@
           "s": 0.4,
           "w": -0.3,
           "site_m": 97
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
     {
       "id": "la-purisima-mission-state-historic-park@9q4m7f",
-      "name": "La Pur\u00edsima Mission State Historic Park",
+      "name": "La Purísima Mission State Historic Park",
       "lat": 34.6839814,
       "lng": -120.4194083,
       "category": "park",
@@ -14771,10 +15176,10 @@
         }
       ],
       "tags": {
-        "name": "La Pur\u00edsima Mission State Historic Park",
+        "name": "La Purísima Mission State Historic Park",
         "leisure": "park",
         "padus": {
-          "name": "La Pur\u00edsima Mission State Historic Park",
+          "name": "La Purísima Mission State Historic Park",
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
@@ -14787,6 +15192,11 @@
           "s": 0.7,
           "w": 0.4,
           "site_m": 88
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -14897,7 +15307,7 @@
         {
           "source": "ebird",
           "source_id": "L336013",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L336013",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -14922,6 +15332,11 @@
           "s": 0.3,
           "w": 0.9,
           "site_m": 23
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -14954,7 +15369,7 @@
           "open": 0.24,
           "n": 11.5,
           "e": 2.5,
-          "s": 1.0,
+          "s": 1,
           "w": 1.4,
           "site_m": 178
         }
@@ -14996,7 +15411,7 @@
           "open": 0.24,
           "n": 11.5,
           "e": 2.5,
-          "s": 1.0,
+          "s": 1,
           "w": 1.4,
           "site_m": 178
         }
@@ -15041,6 +15456,11 @@
           "s": 9.2,
           "w": 2.9,
           "site_m": 83
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -15077,12 +15497,17 @@
         },
         "bortle": 5,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.9,
-          "e": 8.0,
+          "e": 8,
           "s": 2.9,
           "w": 10.2,
           "site_m": 22
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "insects"
         }
       }
     },
@@ -15114,7 +15539,7 @@
         "horizon": {
           "open": 0.64,
           "n": 5.4,
-          "e": 1.0,
+          "e": 1,
           "s": 0.4,
           "w": 0.1,
           "site_m": 20
@@ -15154,7 +15579,7 @@
         },
         "bortle": 5,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.7,
           "e": 14.9,
           "s": -0.3,
@@ -15248,7 +15673,7 @@
         "horizon": {
           "open": 0.85,
           "n": 0.9,
-          "e": 1.0,
+          "e": 1,
           "s": 1.9,
           "w": 0.1,
           "site_m": 23
@@ -15293,6 +15718,11 @@
           "s": 0.1,
           "w": 3.2,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 9,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -15367,8 +15797,13 @@
           "n": 0.5,
           "e": 1.2,
           "s": 1.4,
-          "w": 0.0,
+          "w": 0,
           "site_m": 147
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "amphibians"
         }
       }
     },
@@ -15444,6 +15879,11 @@
           "s": 0.1,
           "w": 3.4,
           "site_m": 1
+        },
+        "inaturalist": {
+          "observations": 40,
+          "species": 13,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -15478,7 +15918,7 @@
           "n": 7.8,
           "e": 4.4,
           "s": 0.9,
-          "w": -0.0,
+          "w": 0,
           "site_m": 36
         }
       }
@@ -15520,7 +15960,7 @@
         "horizon": {
           "open": 0.65,
           "n": 4.1,
-          "e": 4.0,
+          "e": 4,
           "s": -0.2,
           "w": -0.9,
           "site_m": 125
@@ -15563,7 +16003,7 @@
           "open": 0.79,
           "n": 4.8,
           "e": 0.3,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 14
         }
@@ -15604,12 +16044,17 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.3,
           "e": 17.1,
           "s": 9.3,
           "w": 2.1,
           "site_m": 500
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -15728,7 +16173,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 4.5,
           "e": 13.8,
           "s": 10.8,
@@ -15774,9 +16219,9 @@
         "horizon": {
           "open": 0.59,
           "n": 1.5,
-          "e": 0.0,
+          "e": 0,
           "s": 0.3,
-          "w": 12.0,
+          "w": 12,
           "site_m": 1585
         }
       }
@@ -15824,7 +16269,7 @@
         "horizon": {
           "open": 0.76,
           "n": 6.3,
-          "e": 1.0,
+          "e": 1,
           "s": -1.5,
           "w": -0.7,
           "site_m": 915
@@ -15904,7 +16349,7 @@
         "bortle": 2,
         "horizon": {
           "open": 0.84,
-          "n": 3.0,
+          "n": 3,
           "e": 1.1,
           "s": -1.2,
           "w": -0.7,
@@ -15986,7 +16431,7 @@
         "bortle": 1,
         "horizon": {
           "open": 0.77,
-          "n": 3.0,
+          "n": 3,
           "e": 1.2,
           "s": -2.1,
           "w": -0.8,
@@ -16074,7 +16519,7 @@
           "open": 0.34,
           "n": 0.6,
           "e": 2.5,
-          "s": 11.0,
+          "s": 11,
           "w": 1.2,
           "site_m": 43
         }
@@ -16112,11 +16557,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 3.8,
           "e": 8.6,
           "s": 13.9,
-          "w": 11.0,
+          "w": 11,
           "site_m": 817
         }
       }
@@ -16242,7 +16687,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 1.9,
           "e": 11.2,
           "s": 9.4,
@@ -16295,7 +16740,7 @@
     },
     {
       "id": "los-banos-playground@9q4gsr",
-      "name": "Los Ba\u00f1os Playground",
+      "name": "Los Baños Playground",
       "lat": 34.4083124,
       "lng": -119.693337,
       "category": "marker",
@@ -16317,7 +16762,7 @@
         }
       ],
       "tags": {
-        "name": "Los Ba\u00f1os Playground",
+        "name": "Los Baños Playground",
         "historic": "memorial",
         "memorial": "stone",
         "bortle": 5,
@@ -16326,7 +16771,7 @@
           "n": 5.6,
           "e": 0.8,
           "s": 0.1,
-          "w": 4.0,
+          "w": 4,
           "site_m": 5
         }
       }
@@ -16363,7 +16808,7 @@
           "open": 0.99,
           "n": -0.4,
           "e": 0.1,
-          "s": -1.0,
+          "s": -1,
           "w": -1.4,
           "site_m": 917
         }
@@ -16492,7 +16937,7 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.9,
           "e": 6.3,
           "s": 11.7,
@@ -16533,7 +16978,7 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.5,
           "e": 4.6,
           "s": 21.2,
@@ -16554,7 +16999,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Overview Los Prietos Campground is situated in the Los Padres National Forest and provides access to a variety of outdoor adventures, including water-related recreation and hiking. The family-friendly campground is green and lush and is a great place to camp in the mountains of western California.Recreation The Santa Ynez River is popular for a variety of water-related recreation. The river can\u2026",
+      "notes": "Overview Los Prietos Campground is situated in the Los Padres National Forest and provides access to a variety of outdoor adventures, including water-related recreation and hiking. The family-friendly campground is green and lush and is a great place to camp in the mountains of western California.Recreation The Santa Ynez River is popular for a variety of water-related recreation. The river can…",
       "sources": [
         {
           "source": "ridb",
@@ -16577,7 +17022,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.9,
           "e": 3.1,
           "s": 12.9,
@@ -16659,8 +17104,8 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 11.0,
+          "open": 0,
+          "n": 11,
           "e": 5.6,
           "s": 18.1,
           "w": 5.9,
@@ -16700,7 +17145,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.3,
           "e": 25.2,
           "s": 17.5,
@@ -16741,7 +17186,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.4,
           "e": 12.3,
           "s": 21.2,
@@ -16815,7 +17260,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "The Lower Manzana Trailhead is located on Sunset Valley Road, approximately 1.5 miles past Davy Brown Campground. This trailhead is very popular for a number of reasons, primarily because it is a portal to the San Rafael Wilderness. The Lower Manzana Trailhead leads to a historical schoolhouse, last used in 1901. In close proximity to the schoolhouse, one will also find a historical hunting lodge\u2026",
+      "notes": "The Lower Manzana Trailhead is located on Sunset Valley Road, approximately 1.5 miles past Davy Brown Campground. This trailhead is very popular for a number of reasons, primarily because it is a portal to the San Rafael Wilderness. The Lower Manzana Trailhead leads to a historical schoolhouse, last used in 1901. In close proximity to the schoolhouse, one will also find a historical hunting lodge…",
       "sources": [
         {
           "source": "ridb",
@@ -16837,7 +17282,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.8,
           "e": 8.5,
           "s": 22.7,
@@ -16858,7 +17303,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "The Lower Oso Day Use Pinci Area is located off Paradise Road just across the first Santa Ynez River crossing ford. Lower Oso Day Use Area includes 28 sites, each with a picnic table, pedestal grill and parking spur. There are three flush toilet buildings for a total of eight seats. The Santa Ynez River can be accessed from the site. Drinking water is available. There is no electricity. Lower Oso\u2026",
+      "notes": "The Lower Oso Day Use Pinci Area is located off Paradise Road just across the first Santa Ynez River crossing ford. Lower Oso Day Use Area includes 28 sites, each with a picnic table, pedestal grill and parking spur. There are three flush toilet buildings for a total of eight seats. The Santa Ynez River can be accessed from the site. Drinking water is available. There is no electricity. Lower Oso…",
       "sources": [
         {
           "source": "ridb",
@@ -16880,10 +17325,10 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 23.9,
           "e": 9.1,
-          "s": 11.0,
+          "s": 11,
           "w": 3.9,
           "site_m": 304
         }
@@ -16961,7 +17406,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 2.7,
           "e": 1.6,
           "s": 21.2,
@@ -17006,7 +17451,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 1.0,
+          "open": 1,
           "n": -1.8,
           "e": -0.5,
           "s": -2.8,
@@ -17047,7 +17492,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 11.8,
           "e": 13.6,
           "s": 25.4,
@@ -17088,7 +17533,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 23.8,
           "e": 20.7,
           "s": 15.1,
@@ -17129,7 +17574,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 24.7,
           "e": 20.1,
           "s": 29.5,
@@ -17170,8 +17615,8 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 16.0,
+          "open": 0,
+          "n": 16,
           "e": 5.5,
           "s": 19.9,
           "w": 10.9,
@@ -17252,7 +17697,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.9,
           "e": 6.2,
           "s": -0.5,
@@ -17465,6 +17910,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 12,
+          "species": 9,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -17504,9 +17954,14 @@
           "open": 0.8,
           "n": 4.8,
           "e": 0.5,
-          "s": -0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -17614,6 +18069,11 @@
           "s": 0.1,
           "w": 0.4,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -17654,9 +18114,14 @@
           "open": 0.71,
           "n": 5.8,
           "e": 0.3,
-          "s": -0.0,
+          "s": 0,
           "w": 0.3,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -17734,7 +18199,7 @@
           "open": 0.79,
           "n": 4.9,
           "e": 0.4,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 14
         }
@@ -17867,9 +18332,9 @@
         "bortle": 5,
         "horizon": {
           "open": 0.76,
-          "n": 5.0,
+          "n": 5,
           "e": 0.4,
-          "s": 0.0,
+          "s": 0,
           "w": 0.1,
           "site_m": 15
         }
@@ -17906,7 +18371,7 @@
           "open": 0.77,
           "n": 4.6,
           "e": 0.4,
-          "s": -0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
@@ -17943,8 +18408,8 @@
           "open": 0.76,
           "n": 4.6,
           "e": 0.4,
-          "s": 0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -17979,8 +18444,8 @@
           "open": 0.78,
           "n": 4.3,
           "e": 0.5,
-          "s": -0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -18017,7 +18482,7 @@
           "open": 0.78,
           "n": 4.3,
           "e": 0.6,
-          "s": -0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 14
         }
@@ -18054,8 +18519,8 @@
           "open": 0.78,
           "n": 4.6,
           "e": 0.5,
-          "s": 0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -18091,7 +18556,7 @@
           "open": 0.77,
           "n": 4.6,
           "e": 0.8,
-          "s": 0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 14
         }
@@ -18179,6 +18644,11 @@
           "s": 0.2,
           "w": 0.6,
           "site_m": 19
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -18257,7 +18727,7 @@
           "open": 0.68,
           "n": 4.6,
           "e": 0.6,
-          "s": -0.0,
+          "s": 0,
           "w": 0.1,
           "site_m": 2
         }
@@ -18376,11 +18846,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.5,
-          "n": 10.0,
+          "n": 10,
           "e": 3.7,
           "s": 0.2,
           "w": -0.3,
           "site_m": 101
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -18419,8 +18894,13 @@
           "n": 4.5,
           "e": 0.5,
           "s": -0.1,
-          "w": 1.0,
+          "w": 1,
           "site_m": 16
+        },
+        "inaturalist": {
+          "observations": 16,
+          "species": 16,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -18537,9 +19017,14 @@
           "open": 0.62,
           "n": 7.3,
           "e": 0.8,
-          "s": -0.0,
+          "s": 0,
           "w": 1.6,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -18573,8 +19058,8 @@
         "horizon": {
           "open": 0.63,
           "n": 7.1,
-          "e": 1.0,
-          "s": 0.0,
+          "e": 1,
+          "s": 0,
           "w": 1.7,
           "site_m": 3
         }
@@ -18615,12 +19100,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 12.2,
           "e": 5.2,
           "s": 9.2,
           "w": 4.9,
           "site_m": 239
+        },
+        "inaturalist": {
+          "observations": 11,
+          "species": 11,
+          "topGuild": "insects"
         }
       }
     },
@@ -18701,9 +19191,14 @@
           "open": 0.71,
           "n": 5.6,
           "e": 1.5,
-          "s": 0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -18742,7 +19237,7 @@
           "n": 1.8,
           "e": 1.2,
           "s": 4.2,
-          "w": 1.0,
+          "w": 1,
           "site_m": 151
         }
       }
@@ -18782,13 +19277,13 @@
         "artwork_type": "statue",
         "historic": "memorial",
         "tourism": "artwork",
-        "inscription": "LA GRUTA FUE INICIADO EN 1970 TERMINADO Y INAGRUADO EN 1981 POR EL CLUB GUADALUPANO. A\u00d1OS MAS TARDE SE LE AGREGO LA FUENTE.\nTHE SHRINE WAS BEGUN IN 1970 AND FINISHED AND DEDICATED IN 1981 BY CLUB GUADALUPANO. LATER THE FOUNTAIN WAS ADDED.",
+        "inscription": "LA GRUTA FUE INICIADO EN 1970 TERMINADO Y INAGRUADO EN 1981 POR EL CLUB GUADALUPANO. AÑOS MAS TARDE SE LE AGREGO LA FUENTE.\nTHE SHRINE WAS BEGUN IN 1970 AND FINISHED AND DEDICATED IN 1981 BY CLUB GUADALUPANO. LATER THE FOUNTAIN WAS ADDED.",
         "memorial": "plaque",
         "commons": {
           "photos": 139
         },
         "padus": {
-          "name": "Mission Santa In\u00e9s",
+          "name": "Mission Santa Inés",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "open"
@@ -18801,6 +19296,11 @@
           "s": 4.2,
           "w": 1.2,
           "site_m": 150
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 2,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -18844,7 +19344,7 @@
           "open": 0.45,
           "n": 2.8,
           "e": 1.7,
-          "s": 9.0,
+          "s": 9,
           "w": 1.4,
           "site_m": 259
         }
@@ -18889,10 +19389,15 @@
         "horizon": {
           "open": 0.76,
           "n": 1.1,
-          "e": 1.0,
+          "e": 1,
           "s": -1.5,
           "w": 2.3,
           "site_m": 907
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 7,
+          "topGuild": "insects"
         }
       }
     },
@@ -18938,6 +19443,11 @@
           "s": 0.1,
           "w": -0.2,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 5,
+          "topGuild": "mammals"
         }
       }
     },
@@ -19012,9 +19522,9 @@
         "bortle": 1,
         "horizon": {
           "open": 0.97,
-          "n": -1.0,
+          "n": -1,
           "e": -0.6,
-          "s": -3.0,
+          "s": -3,
           "w": -2.1,
           "site_m": 1878
         }
@@ -19052,7 +19562,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": -0.4,
           "e": 11.4,
           "s": 24.8,
@@ -19095,8 +19605,8 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 6.0,
+          "open": 0,
+          "n": 6,
           "e": 13.2,
           "s": 1.1,
           "w": 18.2,
@@ -19139,7 +19649,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 1.0,
+          "open": 1,
           "n": -1.2,
           "e": -0.9,
           "s": -0.6,
@@ -19181,7 +19691,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.3,
           "e": 11.8,
           "s": 11.2,
@@ -19268,7 +19778,7 @@
           "n": 8.4,
           "e": 2.8,
           "s": -0.2,
-          "w": 0.0,
+          "w": 0,
           "site_m": 13
         }
       }
@@ -19393,9 +19903,14 @@
           "open": 0.72,
           "n": 4.6,
           "e": 0.3,
-          "s": -0.0,
+          "s": 0,
           "w": -0.4,
           "site_m": 38
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 6,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -19428,7 +19943,7 @@
           "open": 0.22,
           "n": 6.4,
           "e": 5.3,
-          "s": 3.0,
+          "s": 3,
           "w": 2.9,
           "site_m": 377
         }
@@ -19464,7 +19979,7 @@
         "bortle": 1,
         "horizon": {
           "open": 0.13,
-          "n": 4.0,
+          "n": 4,
           "e": 5.5,
           "s": 4.5,
           "w": 5.3,
@@ -19504,7 +20019,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.6,
           "e": 8.7,
           "s": 20.2,
@@ -19545,7 +20060,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 14.7,
           "e": 10.8,
           "s": 15.2,
@@ -19717,6 +20232,11 @@
           "s": -0.6,
           "w": -1.6,
           "site_m": 1232
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 5,
+          "topGuild": "mammals"
         }
       }
     },
@@ -19795,12 +20315,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
-          "n": 12.0,
+          "open": 0,
+          "n": 12,
           "e": 14.6,
           "s": -0.6,
           "w": 8.2,
           "site_m": 231
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -19923,10 +20448,10 @@
         "bortle": 1,
         "horizon": {
           "open": 0.56,
-          "n": 2.0,
+          "n": 2,
           "e": 0.1,
           "s": -2.5,
-          "w": 4.0,
+          "w": 4,
           "site_m": 1768
         }
       }
@@ -19961,7 +20486,7 @@
           "photos": 141
         },
         "padus": {
-          "name": "Mission Santa In\u00e9s",
+          "name": "Mission Santa Inés",
           "manager": "Non-Governmental Organization",
           "designation": "Private Conservation",
           "access": "open"
@@ -19969,7 +20494,7 @@
         "bortle": 4,
         "horizon": {
           "open": 0.6,
-          "n": 3.0,
+          "n": 3,
           "e": 1.2,
           "s": 4.2,
           "w": 1.1,
@@ -20062,6 +20587,11 @@
           "s": 0.2,
           "w": -0.2,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 55,
+          "species": 11,
+          "topGuild": "insects"
         }
       }
     },
@@ -20195,6 +20725,11 @@
           "s": -1.5,
           "w": -1.4,
           "site_m": 975
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -20230,6 +20765,11 @@
           "s": 0.5,
           "w": -0.1,
           "site_m": 29
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -20268,7 +20808,7 @@
           "open": 0.57,
           "n": 7.6,
           "e": 0.7,
-          "s": 0.0,
+          "s": 0,
           "w": 1.1,
           "site_m": 7
         }
@@ -20306,7 +20846,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 17.1,
           "e": 13.4,
           "s": 15.2,
@@ -20433,7 +20973,7 @@
         "bortle": 4,
         "horizon": {
           "open": 0.97,
-          "n": -0.0,
+          "n": 0,
           "e": 0.1,
           "s": -0.2,
           "w": -0.9,
@@ -20654,7 +21194,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Munch Canyon Trailhead is located on Sunset Valley Road on Figueroa Mountain. This trailhead meets up with several other trails in this general area, including the Davy Brown Trail and White Rock Trail. This trail is very popular during spring, as it produces beautiful wildflowers during a wet year. From mid-July to the end of September, this trail is utilized by hunters during deer season. The\u2026",
+      "notes": "Munch Canyon Trailhead is located on Sunset Valley Road on Figueroa Mountain. This trailhead meets up with several other trails in this general area, including the Davy Brown Trail and White Rock Trail. This trail is very popular during spring, as it produces beautiful wildflowers during a wet year. From mid-July to the end of September, this trail is utilized by hunters during deer season. The…",
       "sources": [
         {
           "source": "ridb",
@@ -20676,10 +21216,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.1,
           "e": 15.1,
-          "s": 27.0,
+          "s": 27,
           "w": 10.9,
           "site_m": 635
         }
@@ -20813,6 +21353,11 @@
           "s": -0.2,
           "w": -0.2,
           "site_m": -18
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -20962,7 +21507,7 @@
         "horizon": {
           "open": 0.97,
           "n": 0.3,
-          "e": 0.0,
+          "e": 0,
           "s": -0.3,
           "w": -0.9,
           "site_m": 384
@@ -21039,7 +21584,7 @@
           "open": 0.9,
           "n": 0.9,
           "e": 1.9,
-          "s": -0.0,
+          "s": 0,
           "w": -0.6,
           "site_m": 116
         }
@@ -21083,6 +21628,11 @@
           "s": 0.3,
           "w": -0.5,
           "site_m": 123
+        },
+        "inaturalist": {
+          "observations": 11,
+          "species": 10,
+          "topGuild": "insects"
         }
       }
     },
@@ -21121,7 +21671,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.9,
           "e": 15.9,
           "s": 21.5,
@@ -21159,7 +21709,7 @@
           "open": 0.78,
           "n": 4.5,
           "e": 0.5,
-          "s": -0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 14
         }
@@ -21212,7 +21762,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 1.9,
           "e": 7.7,
           "s": 16.4,
@@ -21259,12 +21809,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 10.0,
+          "open": 0,
+          "n": 10,
           "e": 18.3,
           "s": 22.8,
           "w": 14.1,
           "site_m": 255
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -21314,12 +21869,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.6,
           "e": 18.4,
           "s": 18.4,
           "w": 12.6,
           "site_m": 317
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "insects"
         }
       }
     },
@@ -21421,6 +21981,11 @@
           "s": 0.2,
           "w": -0.3,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 19,
+          "species": 8,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -21549,9 +22114,14 @@
           "open": 0.34,
           "n": 7.8,
           "e": 0.8,
-          "s": 1.0,
-          "w": 6.0,
+          "s": 1,
+          "w": 6,
           "site_m": 47
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -21674,7 +22244,7 @@
           "open": 0.68,
           "n": 4.4,
           "e": 0.6,
-          "s": -0.0,
+          "s": 0,
           "w": 0.2,
           "site_m": 2
         }
@@ -21701,7 +22271,7 @@
         {
           "source": "ebird",
           "source_id": "L989821",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L989821",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -21726,6 +22296,11 @@
           "s": 1.9,
           "w": -0.4,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -21847,7 +22422,7 @@
         "horizon": {
           "open": 0.86,
           "n": 1.2,
-          "e": 2.0,
+          "e": 2,
           "s": 1.1,
           "w": -0.3,
           "site_m": 6
@@ -22012,6 +22587,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 4,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -22051,6 +22631,11 @@
           "s": -0.2,
           "w": -0.3,
           "site_m": 22
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -22084,9 +22669,14 @@
           "open": 0.74,
           "n": 4.5,
           "e": 0.5,
-          "s": -0.0,
+          "s": 0,
           "w": 0.1,
           "site_m": 28
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "mammals"
         }
       }
     },
@@ -22195,7 +22785,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.8,
-          "n": 4.0,
+          "n": 4,
           "e": 0.4,
           "s": -0.1,
           "w": -0.3,
@@ -22247,9 +22837,14 @@
           "open": 0.8,
           "n": 4.7,
           "e": 0.4,
-          "s": -0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 6
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -22287,7 +22882,7 @@
           "open": 0.79,
           "n": 4.9,
           "e": 0.9,
-          "s": 0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 10
         }
@@ -22327,7 +22922,7 @@
           "open": 0.79,
           "n": 4.7,
           "e": 0.7,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 14
         }
@@ -22497,7 +23092,7 @@
           "open": 0.77,
           "n": 4.4,
           "e": 0.9,
-          "s": -0.0,
+          "s": 0,
           "w": 0.3,
           "site_m": 10
         }
@@ -22616,7 +23211,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.73,
-          "n": 6.0,
+          "n": 6,
           "e": 0.5,
           "s": 0.1,
           "w": 0.3,
@@ -22696,9 +23291,9 @@
         "bortle": 5,
         "horizon": {
           "open": 0.79,
-          "n": 5.0,
+          "n": 5,
           "e": 0.3,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 14
         }
@@ -22738,7 +23333,7 @@
           "open": 0.79,
           "n": 4.9,
           "e": 0.3,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 14
         }
@@ -22775,7 +23370,7 @@
           "open": 0.78,
           "n": 4.7,
           "e": 0.5,
-          "s": -0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 15
         }
@@ -22812,7 +23407,7 @@
           "open": 0.78,
           "n": 4.7,
           "e": 0.5,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 15
         }
@@ -22842,7 +23437,7 @@
         }
       ],
       "tags": {
-        "description": "Inspired by Chumash Cave Paintings \u2014 vandalized over the years and may be replaced",
+        "description": "Inspired by Chumash Cave Paintings — vandalized over the years and may be replaced",
         "artwork_type": "mural",
         "tourism": "artwork",
         "bortle": 5,
@@ -22850,7 +23445,7 @@
           "open": 0.79,
           "n": 4.6,
           "e": 0.3,
-          "s": -0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 15
         }
@@ -22885,7 +23480,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.78,
-          "n": 5.0,
+          "n": 5,
           "e": 0.3,
           "s": -0.1,
           "w": -0.2,
@@ -22924,7 +23519,7 @@
           "open": 0.78,
           "n": 4.8,
           "e": 0.4,
-          "s": -0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 15
         }
@@ -23038,6 +23633,11 @@
           "s": -0.1,
           "w": 0.7,
           "site_m": 11
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -23126,7 +23726,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.75,
-          "n": 5.0,
+          "n": 5,
           "e": 0.7,
           "s": 0.3,
           "w": 0.2,
@@ -23201,7 +23801,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.74,
-          "n": 5.0,
+          "n": 5,
           "e": 0.6,
           "s": 0.3,
           "w": 0.2,
@@ -23247,10 +23847,10 @@
         "bortle": 5,
         "horizon": {
           "open": 0.75,
-          "n": 5.0,
+          "n": 5,
           "e": 0.4,
           "s": 0.1,
-          "w": 0.0,
+          "w": 0,
           "site_m": 13
         }
       }
@@ -23361,8 +23961,8 @@
           "open": 0.78,
           "n": 4.3,
           "e": 0.5,
-          "s": 0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -23435,7 +24035,7 @@
           "open": 0.68,
           "n": 4.3,
           "e": 0.6,
-          "s": -0.0,
+          "s": 0,
           "w": 0.2,
           "site_m": 2
         }
@@ -23589,12 +24189,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
-          "n": 12.0,
+          "open": 0,
+          "n": 12,
           "e": 11.3,
           "s": 0.8,
           "w": 10.2,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 18,
+          "species": 13,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -23638,6 +24243,11 @@
           "s": 0.1,
           "w": 2.9,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -23675,6 +24285,11 @@
           "s": 0.1,
           "w": 4.4,
           "site_m": 19
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -23811,6 +24426,11 @@
           "s": 0.5,
           "w": 1.4,
           "site_m": 22
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -23881,10 +24501,15 @@
         "horizon": {
           "open": 0.56,
           "n": 7.2,
-          "e": 1.0,
+          "e": 1,
           "s": 0.1,
           "w": 0.9,
           "site_m": 15
+        },
+        "inaturalist": {
+          "observations": 14,
+          "species": 9,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -23918,7 +24543,7 @@
         "horizon": {
           "open": 0.62,
           "n": 7.1,
-          "e": 1.0,
+          "e": 1,
           "s": 0.1,
           "w": 0.8,
           "site_m": 3
@@ -24002,9 +24627,14 @@
           "open": 0.72,
           "n": 5.4,
           "e": 1.5,
-          "s": 0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -24049,9 +24679,9 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.3,
-          "e": 19.0,
+          "e": 19,
           "s": -0.3,
           "w": 10.3,
           "site_m": 200
@@ -24149,7 +24779,7 @@
           "n": 2.3,
           "e": 1.2,
           "s": 4.1,
-          "w": 1.0,
+          "w": 1,
           "site_m": 152
         }
       }
@@ -24227,12 +24857,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
-          "n": 13.0,
+          "open": 0,
+          "n": 13,
           "e": 11.9,
           "s": 13.1,
           "w": 6.4,
           "site_m": 118
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -24269,7 +24904,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.6,
           "e": 3.8,
           "s": 16.7,
@@ -24352,7 +24987,7 @@
         "horizon": {
           "open": 0.56,
           "n": 7.9,
-          "e": 2.0,
+          "e": 2,
           "s": -0.1,
           "w": -0.2,
           "site_m": 15
@@ -24402,6 +25037,11 @@
           "s": -0.3,
           "w": -0.3,
           "site_m": 16
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 7,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -24611,7 +25251,7 @@
         "bortle": 4,
         "horizon": {
           "open": 0.77,
-          "n": 3.0,
+          "n": 3,
           "e": 2.2,
           "s": 0.4,
           "w": -0.7,
@@ -24649,11 +25289,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.74,
-          "n": 5.0,
+          "n": 5,
           "e": 0.5,
           "s": 0.3,
           "w": 0.2,
           "site_m": 10
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
@@ -24731,12 +25376,17 @@
           "s": 5.3,
           "w": 1.6,
           "site_m": 153
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "insects"
         }
       }
     },
     {
       "id": "original-site-mission-la-purisima@9q4m4b",
-      "name": "Original Site of Mission La Puris\u00edma",
+      "name": "Original Site of Mission La Purisíma",
       "lat": 34.6317572,
       "lng": -120.4552782,
       "category": "oddity",
@@ -24758,7 +25408,7 @@
         }
       ],
       "tags": {
-        "name": "Original Site of Mission La Puris\u00edma",
+        "name": "Original Site of Mission La Purisíma",
         "historic": "archaeological_site",
         "tourism": "attraction",
         "leisure": "park",
@@ -24813,6 +25463,11 @@
           "s": -0.2,
           "w": -0.3,
           "site_m": 124
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -24846,7 +25501,7 @@
         "bortle": 4,
         "horizon": {
           "open": 0.55,
-          "n": 9.0,
+          "n": 9,
           "e": 1.8,
           "s": 0.1,
           "w": -0.2,
@@ -24891,10 +25546,15 @@
         "horizon": {
           "open": 0.54,
           "n": 8.1,
-          "e": 1.0,
+          "e": 1,
           "s": -0.1,
           "w": 0.8,
           "site_m": 12
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -24919,7 +25579,7 @@
         {
           "source": "ebird",
           "source_id": "L208487",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L208487",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -24940,10 +25600,15 @@
         "horizon": {
           "open": 0.79,
           "n": 3.3,
-          "e": 1.0,
+          "e": 1,
           "s": 1.6,
           "w": 0.4,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 56,
+          "species": 24,
+          "topGuild": "insects"
         }
       }
     },
@@ -25018,7 +25683,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 12.2,
           "e": 9.3,
           "s": 16.6,
@@ -25102,7 +25767,7 @@
         "bortle": 1,
         "horizon": {
           "open": 0.08,
-          "n": 8.0,
+          "n": 8,
           "e": 4.2,
           "s": 3.2,
           "w": 3.6,
@@ -25122,7 +25787,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Overview Paradise Campground is a beautiful place to enjoy California's westernmost national forest. It provides access to a variety of recreational activities, including hiking, biking, horseback riding and more. Mountain lakes and rivers in the area offer campers plentiful fishing, boating and swimming opportunities.Recreation The Santa Ynez River is popular for a variety of water-related\u2026",
+      "notes": "Overview Paradise Campground is a beautiful place to enjoy California's westernmost national forest. It provides access to a variety of recreational activities, including hiking, biking, horseback riding and more. Mountain lakes and rivers in the area offer campers plentiful fishing, boating and swimming opportunities.Recreation The Santa Ynez River is popular for a variety of water-related…",
       "sources": [
         {
           "source": "osm",
@@ -25159,12 +25824,17 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.3,
           "e": 2.7,
           "s": 13.9,
           "w": 6.3,
           "site_m": 281
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -25203,12 +25873,17 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.9,
           "e": 2.5,
           "s": 15.7,
           "w": 8.6,
           "site_m": 280
+        },
+        "inaturalist": {
+          "observations": 19,
+          "species": 13,
+          "topGuild": "insects"
         }
       }
     },
@@ -25330,12 +26005,17 @@
           "s": 0.2,
           "w": 3.6,
           "site_m": 183
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 9,
+          "topGuild": "insects"
         }
       }
     },
     {
       "id": "parque-de-los-ninos@9q4gu0",
-      "name": "Parque De Los Ni\u00f1os",
+      "name": "Parque De Los Niños",
       "lat": 34.4116882,
       "lng": -119.701987,
       "category": "park",
@@ -25355,7 +26035,7 @@
         }
       ],
       "tags": {
-        "name": "Parque De Los Ni\u00f1os",
+        "name": "Parque De Los Niños",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/parque-de-los-ninos",
         "access": "yes",
         "operator": "Santa Barbara Parks and Recreation",
@@ -25363,7 +26043,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.36,
-          "n": 5.0,
+          "n": 5,
           "e": 0.6,
           "s": 2.9,
           "w": 6.5,
@@ -25399,8 +26079,8 @@
         "horizon": {
           "open": 0.82,
           "n": 0.6,
-          "e": 1.0,
-          "s": 3.0,
+          "e": 1,
+          "s": 3,
           "w": 0.1,
           "site_m": 26
         }
@@ -25438,7 +26118,7 @@
           "open": 0.79,
           "n": 4.9,
           "e": 1.6,
-          "s": 0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 8
         }
@@ -25517,7 +26197,7 @@
           "open": 0.53,
           "n": 8.9,
           "e": 1.4,
-          "s": 0.0,
+          "s": 0,
           "w": 0.1,
           "site_m": 95
         }
@@ -25563,7 +26243,7 @@
         "horizon": {
           "open": 0.26,
           "n": 8.3,
-          "e": 2.0,
+          "e": 2,
           "s": 2.1,
           "w": 0.3,
           "site_m": 123
@@ -25600,8 +26280,8 @@
           "open": 0.46,
           "n": 9.6,
           "e": 1.5,
-          "s": 0.0,
-          "w": 2.0,
+          "s": 0,
+          "w": 2,
           "site_m": 16
         }
       }
@@ -25639,7 +26319,7 @@
           "open": 0.78,
           "n": 4.3,
           "e": 0.7,
-          "s": 0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
@@ -25682,7 +26362,7 @@
           "open": 0.78,
           "n": 4.8,
           "e": 0.4,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 15
         }
@@ -25723,7 +26403,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 1.0,
+          "open": 1,
           "n": -1.5,
           "e": -0.6,
           "s": -0.1,
@@ -25802,6 +26482,11 @@
           "s": 0.1,
           "w": 0.4,
           "site_m": 9
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -25834,7 +26519,7 @@
           "open": 0.8,
           "n": 4.6,
           "e": 0.3,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 15
         }
@@ -25869,7 +26554,7 @@
           "open": 0.78,
           "n": 4.7,
           "e": 0.5,
-          "s": 0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 15
         }
@@ -25910,7 +26595,7 @@
           "open": 0.78,
           "n": 4.8,
           "e": 0.4,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 15
         }
@@ -25995,6 +26680,11 @@
           "s": 1.9,
           "w": 0.8,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -26032,9 +26722,14 @@
           "open": 0.52,
           "n": 7.9,
           "e": 1.4,
-          "s": 0.0,
+          "s": 0,
           "w": 1.4,
           "site_m": 2
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -26072,9 +26767,14 @@
           "open": 0.56,
           "n": 7.6,
           "e": 1.2,
-          "s": 0.0,
+          "s": 0,
           "w": 1.7,
           "site_m": 1
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -26204,7 +26904,7 @@
         },
         "discovered": "photo-density",
         "padus": {
-          "name": "La Pur\u00edsima Mission State Historic Park",
+          "name": "La Purísima Mission State Historic Park",
           "manager": "State Park and Recreation",
           "designation": "State Historic or Cultural Area",
           "access": "open"
@@ -26217,6 +26917,11 @@
           "s": 0.9,
           "w": 4.2,
           "site_m": 45
+        },
+        "inaturalist": {
+          "observations": 41,
+          "species": 25,
+          "topGuild": "insects"
         }
       }
     },
@@ -26260,7 +26965,7 @@
           "n": 4.7,
           "e": 4.2,
           "s": 5.8,
-          "w": 2.0,
+          "w": 2,
           "site_m": 81
         }
       }
@@ -26381,7 +27086,7 @@
           "n": 1.5,
           "e": 1.9,
           "s": 0.6,
-          "w": 0.0,
+          "w": 0,
           "site_m": 25
         }
       }
@@ -26419,7 +27124,7 @@
         "horizon": {
           "open": 0.8,
           "n": 0.7,
-          "e": 1.0,
+          "e": 1,
           "s": 1.1,
           "w": 1.2,
           "site_m": 80
@@ -26464,6 +27169,11 @@
           "s": 0.9,
           "w": 0.8,
           "site_m": 13
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -26556,6 +27266,11 @@
           "s": 0.1,
           "w": -0.2,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -26643,6 +27358,11 @@
           "s": 0.3,
           "w": -0.3,
           "site_m": 2
+        },
+        "inaturalist": {
+          "observations": 45,
+          "species": 11,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -26667,7 +27387,7 @@
         {
           "source": "ebird",
           "source_id": "L282694",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L282694",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -26688,10 +27408,15 @@
         "horizon": {
           "open": 0.83,
           "n": 1.1,
-          "e": 2.0,
+          "e": 2,
           "s": 0.6,
           "w": 1.1,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 15,
+          "species": 13,
+          "topGuild": "insects"
         }
       }
     },
@@ -26732,10 +27457,15 @@
         "horizon": {
           "open": 0.78,
           "n": 1.1,
-          "e": 2.0,
+          "e": 2,
           "s": 0.6,
           "w": 2.6,
           "site_m": 2
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 4,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -26865,9 +27595,9 @@
         "horizon": {
           "open": 0.57,
           "n": 7.2,
-          "e": 1.0,
+          "e": 1,
           "s": -0.1,
-          "w": 1.0,
+          "w": 1,
           "site_m": 11
         }
       }
@@ -26903,7 +27633,7 @@
           "n": 5.5,
           "e": 0.8,
           "s": 0.3,
-          "w": 3.0,
+          "w": 3,
           "site_m": 12
         }
       }
@@ -26946,7 +27676,7 @@
           "open": 0.97,
           "n": -0.8,
           "e": -0.6,
-          "s": -1.0,
+          "s": -1,
           "w": -1.3,
           "site_m": 1189
         }
@@ -27099,7 +27829,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 18.5,
           "e": 29.9,
           "s": 9.4,
@@ -27156,7 +27886,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 18.2,
           "e": 32.6,
           "s": 8.4,
@@ -27201,8 +27931,8 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
-          "n": 20.0,
+          "open": 0,
+          "n": 20,
           "e": 29.4,
           "s": 4.2,
           "w": 22.5,
@@ -27288,7 +28018,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 17.5,
           "e": 20.2,
           "s": 8.4,
@@ -27329,12 +28059,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 12.9,
           "e": 14.7,
           "s": 24.6,
           "w": 14.9,
           "site_m": 507
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -27372,7 +28107,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.82,
-          "n": 2.0,
+          "n": 2,
           "e": 2.6,
           "s": 0.5,
           "w": -0.2,
@@ -27447,7 +28182,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.3,
           "e": 6.8,
           "s": -0.5,
@@ -27490,7 +28225,7 @@
         "horizon": {
           "open": 0.93,
           "n": 0.8,
-          "e": 1.0,
+          "e": 1,
           "s": 0.2,
           "w": -0.6,
           "site_m": 100
@@ -27583,6 +28318,11 @@
           "s": 0.3,
           "w": -0.3,
           "site_m": 24
+        },
+        "inaturalist": {
+          "observations": 25,
+          "species": 6,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -27669,6 +28409,11 @@
           "s": -1.3,
           "w": -1.7,
           "site_m": 1387
+        },
+        "inaturalist": {
+          "observations": 30,
+          "species": 21,
+          "topGuild": "insects"
         }
       }
     },
@@ -27747,12 +28492,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 14.3,
-          "e": 13.0,
+          "e": 13,
           "s": 10.9,
           "w": -0.1,
           "site_m": 247
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -27792,12 +28542,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.5,
           "e": 8.8,
           "s": -1.1,
           "w": 3.7,
           "site_m": 598
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -27835,11 +28590,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.7,
           "e": 23.8,
           "s": 14.8,
-          "w": 22.0,
+          "w": 22,
           "site_m": 729
         }
       }
@@ -27880,7 +28635,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 18.3,
           "e": 15.1,
           "s": 29.5,
@@ -27922,7 +28677,7 @@
           "n": -0.3,
           "e": 0.8,
           "s": -0.6,
-          "w": -1.0,
+          "w": -1,
           "site_m": 595
         }
       }
@@ -27978,6 +28733,11 @@
           "s": -0.2,
           "w": 1.2,
           "site_m": 16
+        },
+        "inaturalist": {
+          "observations": 19,
+          "species": 12,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -28002,7 +28762,7 @@
         {
           "source": "ebird",
           "source_id": "L615786",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L615786",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -28027,6 +28787,11 @@
           "s": 0.7,
           "w": 7.9,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 65,
+          "species": 34,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -28066,7 +28831,7 @@
           "n": 4.9,
           "e": 2.1,
           "s": 2.2,
-          "w": 0.0,
+          "w": 0,
           "site_m": 10
         }
       }
@@ -28104,8 +28869,8 @@
         "bortle": 5,
         "horizon": {
           "open": 0.83,
-          "n": 2.0,
-          "e": 2.0,
+          "n": 2,
+          "e": 2,
           "s": 0.5,
           "w": -0.2,
           "site_m": 69
@@ -28148,7 +28913,7 @@
           "open": 0.73,
           "n": 0.8,
           "e": 1.7,
-          "s": 3.0,
+          "s": 3,
           "w": 1.2,
           "site_m": 121
         }
@@ -28224,7 +28989,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 18.2,
           "e": 28.1,
           "s": -0.6,
@@ -28270,11 +29035,16 @@
         "bortle": 4,
         "horizon": {
           "open": 0.56,
-          "n": 6.0,
+          "n": 6,
           "e": 6.3,
           "s": -0.3,
           "w": -0.3,
           "site_m": 23
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 5,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -28357,6 +29127,11 @@
           "s": 5.3,
           "w": 0.5,
           "site_m": 98
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 1,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -28395,9 +29170,9 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 17.5,
-          "e": 18.0,
+          "e": 18,
           "s": 13.6,
           "w": 26.7,
           "site_m": 556
@@ -28441,12 +29216,17 @@
         },
         "bortle": 5,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.2,
           "e": 16.1,
           "s": 8.8,
           "w": -0.2,
           "site_m": 112
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -28534,10 +29314,10 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 18.1,
           "e": 19.3,
-          "s": 1.0,
+          "s": 1,
           "w": 17.7,
           "site_m": 657
         }
@@ -28780,8 +29560,8 @@
           "open": 0.77,
           "n": 4.4,
           "e": 0.6,
-          "s": 0.0,
-          "w": 0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 13
         }
       }
@@ -28817,9 +29597,9 @@
         "horizon": {
           "open": 0.77,
           "n": 4.3,
-          "e": 1.0,
-          "s": 0.0,
-          "w": -0.0,
+          "e": 1,
+          "s": 0,
+          "w": 0,
           "site_m": 15
         }
       }
@@ -28856,8 +29636,8 @@
           "open": 0.76,
           "n": 4.7,
           "e": 0.4,
-          "s": -0.0,
-          "w": -0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -28971,8 +29751,8 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
-          "n": 16.0,
+          "open": 0,
+          "n": 16,
           "e": 10.9,
           "s": 12.5,
           "w": 1.4,
@@ -28992,7 +29772,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Overview Nestled in the Santa Ynez Mountain Range, Sage Hill Campground is a great group camping spot with easy access to the Santa Ynez River. Spend time fishing or take in the epic scenery on one of the trails designed for both hikers and horseback riders. One of the campsites is designed for group equestrian camping and includes 12 corrals and a hitching post.Recreation Fishermen are likely to\u2026",
+      "notes": "Overview Nestled in the Santa Ynez Mountain Range, Sage Hill Campground is a great group camping spot with easy access to the Santa Ynez River. Spend time fishing or take in the epic scenery on one of the trails designed for both hikers and horseback riders. One of the campsites is designed for group equestrian camping and includes 12 corrals and a hitching post.Recreation Fishermen are likely to…",
       "sources": [
         {
           "source": "ridb",
@@ -29018,12 +29798,17 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 4.2,
           "e": 9.3,
           "s": 18.7,
           "w": 1.8,
           "site_m": 393
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 7,
+          "topGuild": "insects"
         }
       }
     },
@@ -29102,9 +29887,14 @@
           "open": 0.59,
           "n": 8.1,
           "e": 0.9,
-          "s": -0.0,
+          "s": 0,
           "w": 0.9,
           "site_m": 11
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -29142,7 +29932,7 @@
           "n": 4.9,
           "e": 0.4,
           "s": 0.1,
-          "w": 0.0,
+          "w": 0,
           "site_m": 16
         }
       }
@@ -29223,6 +30013,11 @@
           "s": -0.2,
           "w": 0.1,
           "site_m": 120
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -29261,7 +30056,7 @@
           "open": 0.45,
           "n": 9.5,
           "e": 1.8,
-          "s": -0.0,
+          "s": 0,
           "w": 0.9,
           "site_m": 138
         }
@@ -29294,10 +30089,10 @@
         "bortle": 4,
         "horizon": {
           "open": 0.43,
-          "n": 5.0,
+          "n": 5,
           "e": 2.4,
           "s": 2.6,
-          "w": 4.0,
+          "w": 4,
           "site_m": 22
         }
       }
@@ -29337,9 +30132,9 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 1.0,
+          "open": 1,
           "n": -1.7,
-          "e": -1.0,
+          "e": -1,
           "s": -3.1,
           "w": -2.1,
           "site_m": 2001
@@ -29384,7 +30179,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.5,
           "e": 4.7,
           "s": 27.6,
@@ -29427,12 +30222,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 26.3,
           "e": 19.5,
           "s": -0.9,
           "w": 8.4,
           "site_m": 454
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -29470,7 +30270,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.51,
-          "n": 9.0,
+          "n": 9,
           "e": 2.2,
           "s": 0.3,
           "w": 0.1,
@@ -29566,7 +30366,7 @@
           "open": 0.75,
           "n": 4.4,
           "e": 0.4,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 33
         }
@@ -29605,7 +30405,7 @@
           "n": 11.9,
           "e": 2.8,
           "s": 0.2,
-          "w": 1.0,
+          "w": 1,
           "site_m": 15
         }
       }
@@ -29685,11 +30485,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 18.6,
           "e": 11.4,
           "s": 30.9,
-          "w": 4.0,
+          "w": 4,
           "site_m": 592
         }
       }
@@ -29771,10 +30571,10 @@
         "bortle": 5,
         "horizon": {
           "open": 0.86,
-          "n": 1.0,
+          "n": 1,
           "e": 1.6,
           "s": 0.5,
-          "w": 0.0,
+          "w": 0,
           "site_m": 66
         }
       }
@@ -29808,10 +30608,10 @@
         "natural": "peak",
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.1,
           "e": 10.9,
-          "s": 3.0,
+          "s": 3,
           "w": 5.2,
           "site_m": 485
         }
@@ -29853,11 +30653,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 2.9,
           "e": 2.2,
           "s": 23.5,
-          "w": 18.0,
+          "w": 18,
           "site_m": 100
         }
       }
@@ -29943,7 +30743,7 @@
           "open": 0.91,
           "n": 0.9,
           "e": 0.6,
-          "s": -2.0,
+          "s": -2,
           "w": -1.7,
           "site_m": 1321
         }
@@ -30025,7 +30825,7 @@
           "open": 0.99,
           "n": -0.7,
           "e": -0.3,
-          "s": -2.0,
+          "s": -2,
           "w": -1.7,
           "site_m": 1308
         }
@@ -30119,7 +30919,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Camping is available on a first come-first serve basis. Thirteen campsites with picnic tables, fire pits, horse corrals and a wheelchair accessible vault toilet. Electricity and drinking water is not available. There is no garbage service, please act responsibly and pack out any refuse you have. This campground is more secluded and the camper is only steps away from unlimited hiking in the\u2026",
+      "notes": "Camping is available on a first come-first serve basis. Thirteen campsites with picnic tables, fire pits, horse corrals and a wheelchair accessible vault toilet. Electricity and drinking water is not available. There is no garbage service, please act responsibly and pack out any refuse you have. This campground is more secluded and the camper is only steps away from unlimited hiking in the…",
       "sources": [
         {
           "source": "ridb",
@@ -30141,12 +30941,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.9,
           "e": 0.3,
           "s": 11.3,
           "w": 8.3,
           "site_m": 761
+        },
+        "inaturalist": {
+          "observations": 21,
+          "species": 15,
+          "topGuild": "insects"
         }
       }
     },
@@ -30187,7 +30992,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 20.1,
           "e": 28.6,
           "s": 8.2,
@@ -30267,7 +31072,7 @@
         "horizon": {
           "open": 0.11,
           "n": 10.5,
-          "e": 1.0,
+          "e": 1,
           "s": 7.4,
           "w": 0.8,
           "site_m": 203
@@ -30391,7 +31196,7 @@
           "open": 0.77,
           "n": 4.6,
           "e": 0.4,
-          "s": -0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
@@ -30472,8 +31277,8 @@
         "bortle": 3,
         "horizon": {
           "open": 0.72,
-          "n": 1.0,
-          "e": 4.0,
+          "n": 1,
+          "e": 4,
           "s": 2.5,
           "w": -0.4,
           "site_m": 6
@@ -30513,7 +31318,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.81,
-          "n": 2.0,
+          "n": 2,
           "e": 2.4,
           "s": 0.7,
           "w": -0.2,
@@ -30602,11 +31407,11 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 1.4,
           "e": 9.7,
           "s": 11.9,
-          "w": 18.0,
+          "w": 18,
           "site_m": 1153
         }
       }
@@ -30670,7 +31475,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 4.9,
           "e": 29.3,
           "s": 27.7,
@@ -30711,11 +31516,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.49,
-          "n": 5.0,
+          "n": 5,
           "e": 8.1,
           "s": -0.2,
           "w": -0.2,
           "site_m": 8
+        },
+        "inaturalist": {
+          "observations": 26,
+          "species": 18,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -30797,7 +31607,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.1,
           "e": 12.6,
           "s": 12.2,
@@ -30838,7 +31648,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 15.7,
           "e": 10.7,
           "s": 27.6,
@@ -30880,8 +31690,13 @@
           "n": 7.8,
           "e": 1.6,
           "s": -0.3,
-          "w": -0.0,
+          "w": 0,
           "site_m": 134
+        },
+        "inaturalist": {
+          "observations": 11,
+          "species": 9,
+          "topGuild": "insects"
         }
       }
     },
@@ -30918,7 +31733,7 @@
           "n": 10.4,
           "e": 6.3,
           "s": 3.3,
-          "w": 1.0,
+          "w": 1,
           "site_m": 114
         }
       }
@@ -31042,6 +31857,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 2
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -31087,6 +31907,11 @@
           "s": 3.3,
           "w": 1.1,
           "site_m": 151
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -31122,7 +31947,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 19.1,
           "e": 15.9,
           "s": 12.9,
@@ -31162,7 +31987,7 @@
           "open": 0.59,
           "n": 7.6,
           "e": 0.8,
-          "s": 0.0,
+          "s": 0,
           "w": 1.1,
           "site_m": 6
         }
@@ -31209,6 +32034,11 @@
           "s": 3.3,
           "w": 1.3,
           "site_m": 25
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 10,
+          "topGuild": "insects"
         }
       }
     },
@@ -31280,7 +32110,7 @@
           "n": 8.9,
           "e": 3.3,
           "s": -0.2,
-          "w": -0.0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -31439,7 +32269,7 @@
           "n": 0.8,
           "e": 1.4,
           "s": 1.3,
-          "w": 1.0,
+          "w": 1,
           "site_m": 96
         }
       }
@@ -31476,7 +32306,7 @@
           "open": 0.77,
           "n": 4.7,
           "e": 0.5,
-          "s": -0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
@@ -31518,7 +32348,7 @@
           "n": 6.8,
           "e": 0.9,
           "s": 0.4,
-          "w": 2.0,
+          "w": 2,
           "site_m": 20
         }
       }
@@ -31611,6 +32441,11 @@
           "s": 0.2,
           "w": 0.8,
           "site_m": 25
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "mammals"
         }
       }
     },
@@ -31697,7 +32532,7 @@
     },
     {
       "id": "sueno-orchard@9q4gb2",
-      "name": "Sue\u00f1o Orchard",
+      "name": "Sueño Orchard",
       "lat": 34.4124112,
       "lng": -119.8634151,
       "category": "park",
@@ -31717,7 +32552,7 @@
         }
       ],
       "tags": {
-        "name": "Sue\u00f1o Orchard",
+        "name": "Sueño Orchard",
         "website": "https://ivparks.org/isla-vista-district-parks/neighborhood-parks/sueno-orchard/",
         "operator": "Isla Vista Recreation & Park District",
         "leisure": "park",
@@ -31774,6 +32609,11 @@
           "s": -0.2,
           "w": 0.5,
           "site_m": 12
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -31811,7 +32651,7 @@
         "bortle": 4,
         "horizon": {
           "open": 0.48,
-          "n": 2.0,
+          "n": 2,
           "e": 1.8,
           "s": 3.6,
           "w": 2.3,
@@ -31853,7 +32693,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.3,
           "e": 6.8,
           "s": 15.8,
@@ -31888,7 +32728,7 @@
       "tags": {
         "name": "Susan Glenn Nunez",
         "historic": "memorial",
-        "inscription": "\u201cNice day is it not?\u201d Susan Glenn Nunez 1948 - 1985",
+        "inscription": "“Nice day is it not?” Susan Glenn Nunez 1948 - 1985",
         "memorial": "plaque",
         "bortle": 5,
         "horizon": {
@@ -31934,10 +32774,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 14.5,
           "e": 25.7,
-          "s": 11.0,
+          "s": 11,
           "w": 8.4,
           "site_m": 622
         }
@@ -31972,7 +32812,7 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 12.4,
           "e": 7.6,
           "s": 0.5,
@@ -32008,7 +32848,7 @@
         "tourism": "attraction",
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 12.8,
           "e": 10.9,
           "s": 4.5,
@@ -32103,8 +32943,13 @@
           "n": 5.8,
           "e": 0.8,
           "s": 0.1,
-          "w": 3.0,
+          "w": 3,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 5,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -32150,6 +32995,11 @@
           "s": 0.7,
           "w": -0.4,
           "site_m": 23
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 7,
+          "topGuild": "mammals"
         }
       }
     },
@@ -32216,12 +33066,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 35.4,
           "e": 22.3,
-          "s": -1.0,
+          "s": -1,
           "w": 26.9,
           "site_m": 526
+        },
+        "inaturalist": {
+          "observations": 7,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -32266,6 +33121,11 @@
           "s": -0.3,
           "w": -0.2,
           "site_m": 10
+        },
+        "inaturalist": {
+          "observations": 126,
+          "species": 45,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -32343,7 +33203,7 @@
           "n": 4.4,
           "e": 0.7,
           "s": 0.1,
-          "w": -0.0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -32418,6 +33278,11 @@
           "s": -0.3,
           "w": -0.2,
           "site_m": 33
+        },
+        "inaturalist": {
+          "observations": 16,
+          "species": 9,
+          "topGuild": "insects"
         }
       }
     },
@@ -32502,7 +33367,7 @@
         "horizon": {
           "open": 0.61,
           "n": 3.5,
-          "e": 1.0,
+          "e": 1,
           "s": 0.3,
           "w": 3.9,
           "site_m": 71
@@ -32542,9 +33407,14 @@
           "open": 0.59,
           "n": 6.5,
           "e": 0.7,
-          "s": -0.0,
+          "s": 0,
           "w": 1.4,
           "site_m": 12
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 2,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -32583,7 +33453,7 @@
         "horizon": {
           "open": 0.64,
           "n": 4.6,
-          "e": 1.0,
+          "e": 1,
           "s": 0.4,
           "w": 0.1,
           "site_m": 18
@@ -32628,7 +33498,7 @@
           "open": 0.78,
           "n": 5.1,
           "e": 0.4,
-          "s": -0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 10
         }
@@ -32661,10 +33531,10 @@
         "bortle": 4,
         "horizon": {
           "open": 0.62,
-          "n": 2.0,
+          "n": 2,
           "e": 3.1,
           "s": 8.3,
-          "w": -0.0,
+          "w": 0,
           "site_m": 26
         }
       }
@@ -32785,12 +33655,17 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 11.9,
           "e": 5.4,
           "s": 11.9,
           "w": 6.1,
           "site_m": 239
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 7,
+          "topGuild": "insects"
         }
       }
     },
@@ -32831,6 +33706,11 @@
           "s": 0.4,
           "w": 0.9,
           "site_m": 29
+        },
+        "inaturalist": {
+          "observations": 6,
+          "species": 5,
+          "topGuild": "mammals"
         }
       }
     },
@@ -32846,7 +33726,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 64 of 571 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 64 of 571 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -32878,7 +33758,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 7.6,
           "e": 2.5,
           "s": 6.1,
@@ -32918,6 +33798,11 @@
           "s": -0.5,
           "w": 0.6,
           "site_m": 186
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "amphibians"
         }
       }
     },
@@ -32964,11 +33849,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.85,
-          "n": 1.0,
-          "e": 2.0,
+          "n": 1,
+          "e": 2,
           "s": 0.7,
           "w": 0.5,
           "site_m": 3
+        },
+        "inaturalist": {
+          "observations": 11,
+          "species": 8,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -33007,11 +33897,16 @@
         "bortle": 5,
         "horizon": {
           "open": 0.86,
-          "n": 1.0,
-          "e": 2.0,
+          "n": 1,
+          "e": 2,
           "s": 0.7,
           "w": -0.1,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 5,
+          "topGuild": "mammals"
         }
       }
     },
@@ -33081,8 +33976,8 @@
           "open": 0.76,
           "n": 4.6,
           "e": 0.4,
-          "s": -0.0,
-          "w": 0.0,
+          "s": 0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -33170,7 +34065,7 @@
           "open": 0.79,
           "n": 4.7,
           "e": 0.5,
-          "s": 0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 14
         }
@@ -33286,7 +34181,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.1,
           "e": 23.2,
           "s": 19.6,
@@ -33316,7 +34211,7 @@
         {
           "source": "ebird",
           "source_id": "L69840958",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L69840958",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -33330,7 +34225,7 @@
           "n": 4.7,
           "e": 0.4,
           "s": -0.1,
-          "w": -0.0,
+          "w": 0,
           "site_m": 14
         }
       }
@@ -33356,7 +34251,7 @@
         {
           "source": "ebird",
           "source_id": "L1072372",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L1072372",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -33372,6 +34267,11 @@
           "s": 2.5,
           "w": 2.5,
           "site_m": 2
+        },
+        "inaturalist": {
+          "observations": 20,
+          "species": 16,
+          "topGuild": "insects"
         }
       }
     },
@@ -33396,7 +34296,7 @@
         {
           "source": "ebird",
           "source_id": "L820867",
-          "source_license": "eBird API Terms of Use \u2014 attribution required, no bulk redistribution",
+          "source_license": "eBird API Terms of Use — attribution required, no bulk redistribution",
           "source_url": "https://ebird.org/hotspot/L820867",
           "first_seen": "2026-10-09",
           "last_seen": "2026-10-09"
@@ -33493,7 +34393,7 @@
           "open": 0.57,
           "n": 5.8,
           "e": 1.8,
-          "s": 0.0,
+          "s": 0,
           "w": 0.6,
           "site_m": 21
         }
@@ -33615,8 +34515,8 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
-          "n": 7.0,
+          "open": 0,
+          "n": 7,
           "e": 15.1,
           "s": 24.4,
           "w": 17.9,
@@ -33658,7 +34558,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 16.2,
           "e": 17.9,
           "s": 7.2,
@@ -33746,8 +34646,8 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
-          "n": 13.0,
+          "open": 0,
+          "n": 13,
           "e": 20.8,
           "s": 7.9,
           "w": 9.6,
@@ -33767,7 +34667,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "Overview Upper Oso Campground provides ample opportunity for exploration of California's coastal mountains. It is a family-friendly campground, equipped with equestrian sites, and is close to a variety of trails and several mountain streams.Recreation A variety of hiking, mountain biking and horseback riding trails begin in and around the campground, including the Santa Cruz Trail, which\u2026",
+      "notes": "Overview Upper Oso Campground provides ample opportunity for exploration of California's coastal mountains. It is a family-friendly campground, equipped with equestrian sites, and is close to a variety of trails and several mountain streams.Recreation A variety of hiking, mountain biking and horseback riding trails begin in and around the campground, including the Santa Cruz Trail, which…",
       "sources": [
         {
           "source": "ridb",
@@ -33790,7 +34690,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 6.2,
           "e": 1.8,
           "s": 22.5,
@@ -33831,7 +34731,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.1,
           "e": 29.3,
           "s": 6.4,
@@ -33875,7 +34775,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 22.1,
           "e": 16.1,
           "s": 14.9,
@@ -33953,7 +34853,7 @@
           "n": 9.7,
           "e": 1.7,
           "s": -0.3,
-          "w": 3.0,
+          "w": 3,
           "site_m": 112
         }
       }
@@ -33970,7 +34870,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 39 of 269 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 39 of 269 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -33997,7 +34897,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.7,
           "e": 15.6,
           "s": 9.9,
@@ -34018,7 +34918,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "unknown",
-      "notes": "Busiest fortnight in the records: 123 of 249 nearby observations fall in it. Timing shifts with the season \u2014 treat it as a window, not a date.",
+      "notes": "Busiest fortnight in the records: 123 of 249 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
       "sources": [
         {
           "source": "usanpn",
@@ -34045,7 +34945,7 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 10.7,
           "e": 15.6,
           "s": 9.9,
@@ -34232,7 +35132,7 @@
         "horizon": {
           "open": 0.86,
           "n": 1.1,
-          "e": 2.0,
+          "e": 2,
           "s": 0.4,
           "w": -0.2,
           "site_m": 66
@@ -34271,7 +35171,7 @@
           "open": 0.79,
           "n": 4.7,
           "e": 0.6,
-          "s": -0.0,
+          "s": 0,
           "w": -0.3,
           "site_m": 15
         }
@@ -34310,7 +35210,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.73,
-          "n": 5.0,
+          "n": 5,
           "e": 0.8,
           "s": -0.2,
           "w": -0.3,
@@ -34348,7 +35248,7 @@
         "bortle": 4,
         "horizon": {
           "open": 0.72,
-          "n": 4.0,
+          "n": 4,
           "e": 2.1,
           "s": -0.2,
           "w": 0.5,
@@ -34440,11 +35340,16 @@
         "bortle": 4,
         "horizon": {
           "open": 0.66,
-          "n": 4.0,
+          "n": 4,
           "e": 2.5,
           "s": -0.2,
           "w": 0.2,
           "site_m": 14
+        },
+        "inaturalist": {
+          "observations": 9,
+          "species": 6,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -34529,6 +35434,11 @@
           "s": -0.1,
           "w": -0.3,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 13,
+          "species": 9,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -34570,7 +35480,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.8,
-          "n": 4.0,
+          "n": 4,
           "e": 0.4,
           "s": -0.1,
           "w": -0.3,
@@ -34613,7 +35523,7 @@
           "open": 0.8,
           "n": 4.8,
           "e": 0.4,
-          "s": 0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 6
         }
@@ -34701,7 +35611,7 @@
           "n": 4.7,
           "e": 0.4,
           "s": 0.1,
-          "w": -0.0,
+          "w": 0,
           "site_m": 6
         }
       }
@@ -34749,7 +35659,7 @@
           "open": 0.62,
           "n": 6.3,
           "e": 0.6,
-          "s": -0.0,
+          "s": 0,
           "w": 0.8,
           "site_m": 16
         }
@@ -34790,6 +35700,11 @@
           "s": 0.1,
           "w": 3.7,
           "site_m": 17
+        },
+        "inaturalist": {
+          "observations": 13,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -34836,6 +35751,11 @@
           "s": 4.6,
           "w": 3.8,
           "site_m": 18
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 3,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -34874,6 +35794,11 @@
           "s": 0.3,
           "w": 2.7,
           "site_m": -10
+        },
+        "inaturalist": {
+          "observations": 11,
+          "species": 5,
+          "topGuild": "mammals"
         }
       }
     },
@@ -34962,7 +35887,7 @@
           "n": 9.2,
           "e": 2.2,
           "s": 0.3,
-          "w": 1.0,
+          "w": 1,
           "site_m": 12
         }
       }
@@ -35003,10 +35928,10 @@
         "bortle": 4,
         "horizon": {
           "open": 0.88,
-          "n": 1.0,
+          "n": 1,
           "e": 1.3,
           "s": 0.7,
-          "w": 0.0,
+          "w": 0,
           "site_m": 138
         }
       }
@@ -35053,8 +35978,13 @@
           "n": 1.9,
           "e": 1.2,
           "s": 0.3,
-          "w": -0.0,
+          "w": 0,
           "site_m": 4
+        },
+        "inaturalist": {
+          "observations": 17,
+          "species": 9,
+          "topGuild": "mammals"
         }
       }
     },
@@ -35096,6 +36026,11 @@
           "s": 0.1,
           "w": -0.3,
           "site_m": 7
+        },
+        "inaturalist": {
+          "observations": 14,
+          "species": 7,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -35132,11 +36067,16 @@
         "bortle": 4,
         "horizon": {
           "open": 0.77,
-          "n": 5.0,
+          "n": 5,
           "e": 1.1,
           "s": 0.1,
           "w": -0.2,
           "site_m": 5
+        },
+        "inaturalist": {
+          "observations": 17,
+          "species": 8,
+          "topGuild": "wildlife"
         }
       }
     },
@@ -35178,7 +36118,7 @@
         },
         "bortle": 2,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 9.4,
           "e": 4.2,
           "s": 3.4,
@@ -35276,7 +36216,7 @@
           "n": 13.2,
           "e": 0.2,
           "s": -1.1,
-          "w": -1.0,
+          "w": -1,
           "site_m": 661
         }
       }
@@ -35320,7 +36260,7 @@
         "bortle": 1,
         "horizon": {
           "open": 0.36,
-          "n": 3.0,
+          "n": 3,
           "e": 2.4,
           "s": 8.6,
           "w": 3.6,
@@ -35359,7 +36299,7 @@
         "horizon": {
           "open": 0.56,
           "n": 3.6,
-          "e": 5.0,
+          "e": 5,
           "s": 1.1,
           "w": -0.1,
           "site_m": 405
@@ -35403,7 +36343,7 @@
         "horizon": {
           "open": 0.02,
           "n": 6.4,
-          "e": 6.0,
+          "e": 6,
           "s": 10.5,
           "w": -0.8,
           "site_m": 606
@@ -35445,10 +36385,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.6,
           "e": 6.2,
-          "s": 14.0,
+          "s": 14,
           "w": -0.6,
           "site_m": 599
         }
@@ -35536,7 +36476,7 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 2.2,
           "e": 3.6,
           "s": 18.4,
@@ -35583,12 +36523,17 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 2.1,
           "e": 2.6,
           "s": 17.2,
           "w": 5.7,
           "site_m": 466
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 9,
+          "topGuild": "insects"
         }
       }
     },
@@ -35636,6 +36581,11 @@
           "s": -1.4,
           "w": -0.3,
           "site_m": 869
+        },
+        "inaturalist": {
+          "observations": 4,
+          "species": 4,
+          "topGuild": "insects"
         }
       }
     },
@@ -35730,6 +36680,11 @@
           "s": -1.4,
           "w": 0.2,
           "site_m": 836
+        },
+        "inaturalist": {
+          "observations": 15,
+          "species": 15,
+          "topGuild": "insects"
         }
       }
     },
@@ -35807,8 +36762,8 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
-          "n": 12.0,
+          "open": 0,
+          "n": 12,
           "e": 15.7,
           "s": -0.5,
           "w": 8.5,
@@ -35851,9 +36806,9 @@
         },
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
-          "n": 32.0,
-          "e": 24.0,
+          "open": 0,
+          "n": 32,
+          "e": 24,
           "s": 12.1,
           "w": 13.5,
           "site_m": 441
@@ -35889,7 +36844,7 @@
         "tourism": "viewpoint",
         "bortle": 4,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 14.8,
           "e": 11.8,
           "s": -0.7,
@@ -35928,7 +36883,7 @@
         "bortle": 4,
         "horizon": {
           "open": 0.24,
-          "n": 12.0,
+          "n": 12,
           "e": 2.1,
           "s": -0.8,
           "w": -0.6,
@@ -35977,6 +36932,11 @@
           "s": -0.8,
           "w": -0.7,
           "site_m": 399
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -36064,9 +37024,14 @@
           "open": 0.32,
           "n": 12.4,
           "e": 2.5,
-          "s": -1.0,
-          "w": -1.0,
+          "s": -1,
+          "w": -1,
           "site_m": 577
+        },
+        "inaturalist": {
+          "observations": 8,
+          "species": 6,
+          "topGuild": "insects"
         }
       }
     },
@@ -36194,6 +37159,11 @@
           "s": 2.7,
           "w": 4.3,
           "site_m": 832
+        },
+        "inaturalist": {
+          "observations": 10,
+          "species": 8,
+          "topGuild": "insects"
         }
       }
     },
@@ -36234,10 +37204,15 @@
         "horizon": {
           "open": 0.52,
           "n": 2.6,
-          "e": -1.0,
+          "e": -1,
           "s": 2.8,
           "w": 4.8,
           "site_m": 745
+        },
+        "inaturalist": {
+          "observations": 5,
+          "species": 2,
+          "topGuild": "insects"
         }
       }
     },
@@ -36353,10 +37328,10 @@
         "bortle": 5,
         "horizon": {
           "open": 0.78,
-          "n": 5.0,
+          "n": 5,
           "e": 0.5,
           "s": -0.1,
-          "w": -0.0,
+          "w": 0,
           "site_m": 13
         }
       }
@@ -36476,6 +37451,11 @@
           "s": -0.2,
           "w": 0.9,
           "site_m": 24
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -36520,6 +37500,11 @@
           "s": 0.9,
           "w": 1.6,
           "site_m": 80
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 2,
+          "topGuild": "reptiles"
         }
       }
     },
@@ -36559,7 +37544,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.8,
-          "n": 5.0,
+          "n": 5,
           "e": 0.9,
           "s": 0.1,
           "w": -0.1,
@@ -36599,7 +37584,7 @@
           "open": 0.77,
           "n": 4.7,
           "e": 0.4,
-          "s": -0.0,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
@@ -36644,8 +37629,8 @@
         "horizon": {
           "open": 0.76,
           "n": 4.2,
-          "e": 1.0,
-          "s": -0.0,
+          "e": 1,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
@@ -36684,12 +37669,17 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 8.7,
           "e": 20.5,
           "s": 13.5,
           "w": 13.9,
           "site_m": 411
+        },
+        "inaturalist": {
+          "observations": 14,
+          "species": 13,
+          "topGuild": "insects"
         }
       }
     },
@@ -36720,7 +37710,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.7,
-          "n": 5.0,
+          "n": 5,
           "e": 0.2,
           "s": 0.5,
           "w": 0.8,
@@ -36817,7 +37807,7 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 15.7,
           "e": 12.5,
           "s": 32.9,
@@ -37007,7 +37997,7 @@
       "best_light": [],
       "best_season": [],
       "access_difficulty": "roadside",
-      "notes": "White Rock Trailhead is located on Sunset Valley Road on Figueroa Mountain. This trailhead meets up with several other trails in this general area, including East Pinery and Munch Canyon Trail. This trail is very popular during spring, as it produces beautiful wildflowers during a wet year. From mid-July to the end of September, this trail is utilized by hunters during deer season. The parking\u2026",
+      "notes": "White Rock Trailhead is located on Sunset Valley Road on Figueroa Mountain. This trailhead meets up with several other trails in this general area, including East Pinery and Munch Canyon Trail. This trail is very popular during spring, as it produces beautiful wildflowers during a wet year. From mid-July to the end of September, this trail is utilized by hunters during deer season. The parking…",
       "sources": [
         {
           "source": "ridb",
@@ -37029,10 +38019,10 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 13.1,
           "e": 26.5,
-          "s": 11.0,
+          "s": 11,
           "w": 8.8,
           "site_m": 911
         }
@@ -37074,12 +38064,17 @@
         },
         "bortle": 3,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 21.6,
           "e": 3.9,
           "s": 12.3,
           "w": 1.4,
           "site_m": 278
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -37117,9 +38112,9 @@
         },
         "bortle": 1,
         "horizon": {
-          "open": 0.0,
+          "open": 0,
           "n": 12.1,
-          "e": 19.0,
+          "e": 19,
           "s": 13.3,
           "w": 4.3,
           "site_m": 821
@@ -37247,7 +38242,7 @@
           "n": 4.2,
           "e": 0.5,
           "s": -0.3,
-          "w": -0.0,
+          "w": 0,
           "site_m": 38
         }
       }
@@ -37290,7 +38285,7 @@
           "open": 0.79,
           "n": 4.9,
           "e": 1.3,
-          "s": 0.0,
+          "s": 0,
           "w": -0.2,
           "site_m": 9
         }
@@ -37365,7 +38360,7 @@
         "bortle": 5,
         "horizon": {
           "open": 0.71,
-          "n": 5.0,
+          "n": 5,
           "e": 0.5,
           "s": 0.5,
           "w": 0.4,
@@ -37452,7 +38447,7 @@
         "horizon": {
           "open": 0.69,
           "n": 4.8,
-          "e": 1.0,
+          "e": 1,
           "s": 0.3,
           "w": 0.1,
           "site_m": 1
@@ -37496,10 +38491,15 @@
         "horizon": {
           "open": 0.67,
           "n": 0.7,
-          "e": 3.0,
+          "e": 3,
           "s": 1.5,
           "w": 1.2,
           "site_m": 8
+        },
+        "inaturalist": {
+          "observations": 3,
+          "species": 3,
+          "topGuild": "insects"
         }
       }
     },
@@ -37569,8 +38569,8 @@
         "horizon": {
           "open": 0.77,
           "n": 4.1,
-          "e": 1.0,
-          "s": -0.0,
+          "e": 1,
+          "s": 0,
           "w": -0.1,
           "site_m": 15
         }
