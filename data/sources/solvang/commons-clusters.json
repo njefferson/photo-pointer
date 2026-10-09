@@ -1,0 +1,387 @@
+{
+  "source": {
+    "source": "wikimedia_commons",
+    "name": "Wikimedia Commons geotagged photo density",
+    "license": "CC/public-domain media (Commons); derived counts only",
+    "attribution": "Photo locations from Wikimedia Commons",
+    "status": "working",
+    "policy": {
+      "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+      "maxConcurrency": 1,
+      "minGapMs": 1000
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 1000
+    }
+  },
+  "region": "solvang",
+  "builtAt": "2026-10-09",
+  "records": [
+    {
+      "name": null,
+      "lat": 34.41656999999999,
+      "lng": -119.6426026190476,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 42,
+          "spots": 32
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:34.41657,-119.64260",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,34.41657,-119.64260",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 34.4170593548387,
+      "lng": -119.65283967741934,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 31,
+          "spots": 15
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:34.41706,-119.65284",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,34.41706,-119.65284",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 34.41731633333333,
+      "lng": -119.64725305555557,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 180,
+          "spots": 122
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:34.41732,-119.64725",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,34.41732,-119.64725",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 34.420834400000004,
+      "lng": -119.64392099999995,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 50,
+          "spots": 32
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:34.42083,-119.64392",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,34.42083,-119.64392",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 34.67166923076924,
+      "lng": -120.42206384615385,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 13,
+          "spots": 13
+        },
+        "subject": {
+          "subject": "La Purisima Mission Lompoc",
+          "files": 10,
+          "of": 13
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:34.67167,-120.42206",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,34.67167,-120.42206",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 34.68275846153846,
+      "lng": -120.60519076923076,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 13,
+          "spots": 12
+        },
+        "subject": {
+          "subject": "One Series Taken Pacific Surfliner Surf",
+          "files": 6,
+          "of": 13
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:34.68276,-120.60519",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,34.68276,-120.60519",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 34.83852882352942,
+      "lng": -120.53056647058823,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 17,
+          "spots": 16
+        },
+        "subject": {
+          "subject": "Hitching Post September Sarah Stierch",
+          "files": 12,
+          "of": 17
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:34.83853,-120.53057",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,34.83853,-120.53057",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 35.042873750000005,
+      "lng": -120.47594125000002,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 24,
+          "spots": 20
+        },
+        "subject": {
+          "subject": "Jocko S Steakhouse September Sarah Stierch",
+          "files": 15,
+          "of": 24
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:35.04287,-120.47594",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,35.04287,-120.47594",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 35.148122150537624,
+      "lng": -120.65209715053767,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 186,
+          "spots": 131
+        },
+        "subject": {
+          "subject": "Motel District Pismo Beach Panoramio Sergei",
+          "files": 167,
+          "of": 186
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:35.14812,-120.65210",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,35.14812,-120.65210",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 35.1520896103896,
+      "lng": -120.65973467532471,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 77,
+          "spots": 47
+        },
+        "subject": {
+          "subject": "Motel District Pismo Beach Panoramio Sergei",
+          "files": 27,
+          "of": 77
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:35.15209,-120.65973",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,35.15209,-120.65973",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "lat": 35.152548181818176,
+      "lng": -120.66728207792204,
+      "category": "photo_cluster",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": null,
+      "notes": null,
+      "tags": {
+        "commons": {
+          "photos": 77,
+          "spots": 40
+        },
+        "subject": {
+          "subject": "Pismo Beach Panoramio Sergei Gussev",
+          "files": 30,
+          "of": 77
+        },
+        "discovered": "photo-density"
+      },
+      "sources": [
+        {
+          "source": "wikimedia_commons",
+          "source_id": "cluster:35.15255,-120.66728",
+          "source_license": "CC/public-domain media (Commons); derived counts only",
+          "source_url": "https://commons.wikimedia.org/wiki/Special:Search?search=nearcoord:1km,35.15255,-120.66728",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}
