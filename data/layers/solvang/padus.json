@@ -1,0 +1,6490 @@
+{
+  "source": {
+    "source": "padus",
+    "name": "Protected Areas Database of the United States (USGS)",
+    "license": "public-domain",
+    "attribution": "USGS Gap Analysis Project — PAD-US",
+    "status": "working",
+    "policy": {
+      "url": "https://www.usgs.gov/information-policies-and-instructions",
+      "maxConcurrency": 1,
+      "minGapMs": 0
+    },
+    "pacing": {
+      "concurrency": 1,
+      "gapMs": 300
+    }
+  },
+  "builtAt": "2026-10-09",
+  "count": 539,
+  "areas": [
+    {
+      "name": "Vandenberg Air Force Base",
+      "manager": "Department of Defense",
+      "designation": "Military Land",
+      "access": "closed",
+      "bbox": {
+        "south": 34.51079,
+        "west": -120.64586,
+        "north": 34.90699,
+        "east": -120.43978
+      }
+    },
+    {
+      "name": "Santa Ynez Reservation",
+      "manager": "American Indian Lands",
+      "designation": "Native American Land Area",
+      "access": null,
+      "bbox": {
+        "south": 34.59154,
+        "west": -120.09512,
+        "north": 34.61053,
+        "east": -120.08369
+      }
+    },
+    {
+      "name": "Los Angeles",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
+      "access": "open",
+      "bbox": {
+        "south": 33.93176,
+        "west": -120.00001,
+        "north": 34.38391,
+        "east": -118.52667
+      }
+    },
+    {
+      "name": "Los Angeles",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
+      "access": "open",
+      "bbox": {
+        "south": 33.93179,
+        "west": -120.00001,
+        "north": 34.39842,
+        "east": -118.52728
+      }
+    },
+    {
+      "name": "San Luis Obispo",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.94048,
+        "west": -121.94854,
+        "north": 35.95247,
+        "east": -120.69176
+      }
+    },
+    {
+      "name": "Santa Maria",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
+      "access": "open",
+      "bbox": {
+        "south": 33.93589,
+        "west": -120.73434,
+        "north": 34.94048,
+        "east": -120.00001
+      }
+    },
+    {
+      "name": "Santa Maria",
+      "manager": "Bureau of Ocean Energy Management",
+      "designation": "Outer Continental Shelf Area",
+      "access": "open",
+      "bbox": {
+        "south": 33.93596,
+        "west": -121.96095,
+        "north": 34.95719,
+        "east": -120.00001
+      }
+    },
+    {
+      "name": "Campus Point State Marine Conservation Area",
+      "manager": "State Fish and Wildlife",
+      "designation": "Marine Protected Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.35354,
+        "west": -119.89335,
+        "north": 34.42,
+        "east": -119.84417
+      }
+    },
+    {
+      "name": "Goleta Slough State Marine Conservation Area",
+      "manager": "State Fish and Wildlife",
+      "designation": "Marine Protected Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41588,
+        "west": -119.85136,
+        "north": 34.42648,
+        "east": -119.82076
+      }
+    },
+    {
+      "name": "Kashtayit State Marine Conservation Area",
+      "manager": "State Fish and Wildlife",
+      "designation": "Marine Protected Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.455,
+        "west": -120.24101,
+        "north": 34.47103,
+        "east": -120.20785
+      }
+    },
+    {
+      "name": "Naples State Marine Conservation Area",
+      "manager": "State Fish and Wildlife",
+      "designation": "Marine Protected Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41667,
+        "west": -119.96668,
+        "north": 34.44199,
+        "east": -119.93335
+      }
+    },
+    {
+      "name": "Point Conception State Marine Reserve",
+      "manager": "State Fish and Wildlife",
+      "designation": "Marine Protected Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.39162,
+        "west": -120.53587,
+        "north": 34.45329,
+        "east": -120.41668
+      }
+    },
+    {
+      "name": "Vandenberg State Marine Reserve",
+      "manager": "State Fish and Wildlife",
+      "designation": "Marine Protected Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.55418,
+        "west": -120.66669,
+        "north": 34.74418,
+        "east": -120.60094
+      }
+    },
+    {
+      "name": "Bakersfield Field Office",
+      "manager": "Bureau of Land Management",
+      "designation": "National Public Lands",
+      "access": "open",
+      "bbox": {
+        "south": 34.33184,
+        "west": -121.07809,
+        "north": 37.40992,
+        "east": -117.9807
+      }
+    },
+    {
+      "name": "National Public Lands",
+      "manager": "Bureau of Land Management",
+      "designation": "National Public Lands",
+      "access": "open",
+      "bbox": {
+        "south": 32.55555,
+        "west": -122.49886,
+        "north": 40.05982,
+        "east": -114.24529
+      }
+    },
+    {
+      "name": "Cachuma Lake Recreational Area",
+      "manager": "Bureau of Reclamation",
+      "designation": "Recreation Management Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.54549,
+        "west": -119.99133,
+        "north": 34.6098,
+        "east": -119.86428
+      }
+    },
+    {
+      "name": "Lake Cachuma",
+      "manager": "Bureau of Reclamation",
+      "designation": "Recreation Management Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.548,
+        "west": -119.98271,
+        "north": 34.60579,
+        "east": -119.88161
+      }
+    },
+    {
+      "name": "Lauro Canyon Reservoir",
+      "manager": "Bureau of Reclamation",
+      "designation": "Resource Management Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.45273,
+        "west": -119.73096,
+        "north": 34.4587,
+        "east": -119.72134
+      }
+    },
+    {
+      "name": "Angeles National Forest",
+      "manager": "Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 34.44908,
+        "west": -120.42066,
+        "north": 34.96873,
+        "east": -118.71241
+      }
+    },
+    {
+      "name": "Los Padres National Forest",
+      "manager": "Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 34.39173,
+        "west": -121.90744,
+        "north": 36.40376,
+        "east": -118.75183
+      }
+    },
+    {
+      "name": "Los Padres Other",
+      "manager": "Forest Service",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 34.40083,
+        "west": -121.4767,
+        "north": 35.93845,
+        "east": -118.75595
+      }
+    },
+    {
+      "name": "Bitter Creek National Wildlife Refuge",
+      "manager": "U.S. Fish and Wildlife Service",
+      "designation": "National Wildlife Refuge",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.89819,
+        "west": -119.45565,
+        "north": 34.97437,
+        "east": -119.31247
+      }
+    },
+    {
+      "name": "Guadalupe-Nipomo Dunes National Wildlife Refuge",
+      "manager": "U.S. Fish and Wildlife Service",
+      "designation": "National Wildlife Refuge",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.99176,
+        "west": -120.6435,
+        "north": 35.02213,
+        "east": -120.59095
+      }
+    },
+    {
+      "name": "Pardall Gardens",
+      "manager": "Regional Agency Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41319,
+        "west": -119.85462,
+        "north": 34.41344,
+        "east": -119.85434
+      }
+    },
+    {
+      "name": "Sueno Orchard",
+      "manager": "Regional Agency Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41218,
+        "west": -119.86384,
+        "north": 34.4126,
+        "east": -119.86299
+      }
+    },
+    {
+      "name": "Other Federal",
+      "manager": null,
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.40581,
+        "west": -119.48736,
+        "north": 34.40761,
+        "east": -119.48505
+      }
+    },
+    {
+      "name": "Lions Park",
+      "manager": null,
+      "designation": "Local Resource Management Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40089,
+        "west": -119.49173,
+        "north": 34.40264,
+        "east": -119.49093
+      }
+    },
+    {
+      "name": "Health Fitness Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11283,
+        "west": -120.58788,
+        "north": 35.11378,
+        "east": -120.58668
+      }
+    },
+    {
+      "name": "Hoosgow Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.12462,
+        "west": -120.57893,
+        "north": 35.12517,
+        "east": -120.57818
+      }
+    },
+    {
+      "name": "Kingo Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11652,
+        "west": -120.60689,
+        "north": 35.11736,
+        "east": -120.60662
+      }
+    },
+    {
+      "name": "Kiwanis Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.12278,
+        "west": -120.57874,
+        "north": 35.12326,
+        "east": -120.57764
+      }
+    },
+    {
+      "name": "Parkside Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11246,
+        "west": -120.60607,
+        "north": 35.11274,
+        "east": -120.60562
+      }
+    },
+    {
+      "name": "Parque Peqeno",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.10785,
+        "west": -120.58912,
+        "north": 35.10846,
+        "east": -120.58874
+      }
+    },
+    {
+      "name": "Tiger Tail Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.10377,
+        "west": -120.58061,
+        "north": 35.10524,
+        "east": -120.57999
+      }
+    },
+    {
+      "name": "James Way Oak Habitat & Wildlife Preserve",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.13079,
+        "west": -120.60256,
+        "north": 35.13618,
+        "east": -120.58774
+      }
+    },
+    {
+      "name": "Soto Sports Complex",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.11276,
+        "west": -120.60827,
+        "north": 35.11479,
+        "east": -120.60068
+      }
+    },
+    {
+      "name": "Viola Fields",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.3858,
+        "west": -119.4977,
+        "north": 34.38709,
+        "east": -119.49549
+      }
+    },
+    {
+      "name": "Community Center",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4328,
+        "west": -119.82441,
+        "north": 34.43557,
+        "east": -119.82264
+      }
+    },
+    {
+      "name": "Costa Bella Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11003,
+        "west": -120.60828,
+        "north": 35.1106,
+        "east": -120.60746
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.96382,
+        "west": -120.57649,
+        "north": 34.96423,
+        "east": -120.57589
+      }
+    },
+    {
+      "name": "River Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.64714,
+        "west": -120.4372,
+        "north": 34.65828,
+        "east": -120.43204
+      }
+    },
+    {
+      "name": "Price Historical Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.14298,
+        "west": -120.63185,
+        "north": 35.14811,
+        "east": -120.62993
+      }
+    },
+    {
+      "name": "Crossroads Soccer Field",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.919,
+        "west": -120.42722,
+        "north": 34.9212,
+        "east": -120.42544
+      }
+    },
+    {
+      "name": "Edwards Community Center/Sierra Vista Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.95998,
+        "west": -120.40259,
+        "north": 34.96169,
+        "east": -120.40042
+      }
+    },
+    {
+      "name": "Fletcher Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.91967,
+        "west": -120.4252,
+        "north": 34.92078,
+        "east": -120.42381
+      }
+    },
+    {
+      "name": "Hagerman Sports Complex",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.89931,
+        "west": -120.44518,
+        "north": 34.90365,
+        "east": -120.44257
+      }
+    },
+    {
+      "name": "North Preisker Ranch Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.98497,
+        "west": -120.44606,
+        "north": 34.98581,
+        "east": -120.44462
+      }
+    },
+    {
+      "name": "Rodenberger Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.90903,
+        "west": -120.43176,
+        "north": 34.90988,
+        "east": -120.42923
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.95852,
+        "west": -120.58073,
+        "north": 34.97081,
+        "east": -120.57029
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.71399,
+        "west": -120.47124,
+        "north": 34.71437,
+        "east": -120.47026
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.70769,
+        "west": -120.47571,
+        "north": 34.70934,
+        "east": -120.47321
+      }
+    },
+    {
+      "name": "Jim May Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.97388,
+        "west": -120.42732,
+        "north": 34.97697,
+        "east": -120.42405
+      }
+    },
+    {
+      "name": "Oak Neighborhood Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.85503,
+        "west": -120.42202,
+        "north": 34.8558,
+        "east": -120.42023
+      }
+    },
+    {
+      "name": "Orcutt Community Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.84925,
+        "west": -120.42193,
+        "north": 34.85298,
+        "east": -120.41741
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.86545,
+        "west": -120.44723,
+        "north": 34.86917,
+        "east": -120.43835
+      }
+    },
+    {
+      "name": "Eric Okerblom Memorial Trail Park",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.85675,
+        "west": -120.42213,
+        "north": 34.86268,
+        "east": -120.40997
+      }
+    },
+    {
+      "name": "Unknown Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.87226,
+        "west": -120.42755,
+        "north": 34.8759,
+        "east": -120.42035
+      }
+    },
+    {
+      "name": "Polo Park",
+      "manager": "Non-Governmental Organization",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.66528,
+        "west": -120.1156,
+        "north": 34.66542,
+        "east": -120.11514
+      }
+    },
+    {
+      "name": "Knollwood Park",
+      "manager": "Private",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.04359,
+        "west": -120.53763,
+        "north": 35.0445,
+        "east": -120.53657
+      }
+    },
+    {
+      "name": "Girsh Park",
+      "manager": "Private",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.4244,
+        "west": -119.87705,
+        "north": 34.42715,
+        "east": -119.87119
+      }
+    },
+    {
+      "name": "Santa Maria Fair Park",
+      "manager": null,
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.93874,
+        "west": -120.44462,
+        "north": 34.94231,
+        "east": -120.44039
+      }
+    },
+    {
+      "name": "Alice Threfts Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.94205,
+        "west": -120.4279,
+        "north": 34.94444,
+        "east": -120.42479
+      }
+    },
+    {
+      "name": "Carpinteria Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41043,
+        "west": -119.54105,
+        "north": 34.41331,
+        "east": -119.53861
+      }
+    },
+    {
+      "name": "Goleta Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43872,
+        "west": -119.78287,
+        "north": 34.44154,
+        "east": -119.7786
+      }
+    },
+    {
+      "name": "Guadalupe Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.95762,
+        "west": -120.57649,
+        "north": 34.95895,
+        "east": -120.57409
+      }
+    },
+    {
+      "name": "Del Sol Vernal Pool Reserve",
+      "manager": "Regional Agency Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41486,
+        "west": -119.86643,
+        "north": 34.41726,
+        "east": -119.86447
+      }
+    },
+    {
+      "name": "District Office",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41148,
+        "west": -119.85752,
+        "north": 34.41175,
+        "east": -119.85715
+      }
+    },
+    {
+      "name": "Sueño Orchard",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41218,
+        "west": -119.86384,
+        "north": 34.4126,
+        "east": -119.86299
+      }
+    },
+    {
+      "name": "Tipi Village",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41274,
+        "west": -119.86403,
+        "north": 34.41315,
+        "east": -119.86357
+      }
+    },
+    {
+      "name": "Anisq'Oyo Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41184,
+        "west": -119.85697,
+        "north": 34.4128,
+        "east": -119.85547
+      }
+    },
+    {
+      "name": "Camino Pescadero Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40891,
+        "west": -119.859,
+        "north": 34.40972,
+        "east": -119.85875
+      }
+    },
+    {
+      "name": "Children's Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41488,
+        "west": -119.86247,
+        "north": 34.41509,
+        "east": -119.86128
+      }
+    },
+    {
+      "name": "Estero Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41315,
+        "west": -119.86644,
+        "north": 34.41435,
+        "east": -119.86265
+      }
+    },
+    {
+      "name": "Gaffney Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40933,
+        "west": -119.8672,
+        "north": 34.40972,
+        "east": -119.86667
+      }
+    },
+    {
+      "name": "Greek Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4145,
+        "west": -119.85525,
+        "north": 34.41476,
+        "east": -119.85446
+      }
+    },
+    {
+      "name": "Isla Vista Beach",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40933,
+        "west": -119.86842,
+        "north": 34.40975,
+        "east": -119.86746
+      }
+    },
+    {
+      "name": "Isla Vista County Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40902,
+        "west": -119.85999,
+        "north": 34.40972,
+        "east": -119.85983
+      }
+    },
+    {
+      "name": "Kids' Trail Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41192,
+        "west": -119.86961,
+        "north": 34.4126,
+        "east": -119.86944
+      }
+    },
+    {
+      "name": "Little Acorn Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41052,
+        "west": -119.85695,
+        "north": 34.41106,
+        "east": -119.8563
+      }
+    },
+    {
+      "name": "Pardall Gardens",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41319,
+        "west": -119.85462,
+        "north": 34.41344,
+        "east": -119.85434
+      }
+    },
+    {
+      "name": "People's Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41154,
+        "west": -119.85623,
+        "north": 34.41182,
+        "east": -119.85551
+      }
+    },
+    {
+      "name": "Perfect Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41103,
+        "west": -119.85659,
+        "north": 34.41154,
+        "east": -119.85552
+      }
+    },
+    {
+      "name": "Rottapel Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40898,
+        "west": -119.86485,
+        "north": 34.40973,
+        "east": -119.86469
+      }
+    },
+    {
+      "name": "Sueño Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41273,
+        "west": -119.86063,
+        "north": 34.41313,
+        "east": -119.86022
+      }
+    },
+    {
+      "name": "Tierra De Fortuna Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4126,
+        "west": -119.86962,
+        "north": 34.41362,
+        "east": -119.86806
+      }
+    },
+    {
+      "name": "Trigo Pasado Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41122,
+        "west": -119.86024,
+        "north": 34.41163,
+        "east": -119.8599
+      }
+    },
+    {
+      "name": "Window to the Sea Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40916,
+        "west": -119.86223,
+        "north": 34.40972,
+        "east": -119.86198
+      }
+    },
+    {
+      "name": "Camino Corto Open Space",
+      "manager": "Regional Agency Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41246,
+        "west": -119.86961,
+        "north": 34.41727,
+        "east": -119.86661
+      }
+    },
+    {
+      "name": "Lompoc Cemetery - Lompoc Cemetery District",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.6274,
+        "west": -120.45155,
+        "north": 34.63099,
+        "east": -120.44523
+      }
+    },
+    {
+      "name": "Los Alamos Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.73205,
+        "west": -120.28196,
+        "north": 34.73339,
+        "east": -120.28032
+      }
+    },
+    {
+      "name": "Ferini Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.74428,
+        "west": -120.28015,
+        "north": 34.74478,
+        "east": -120.2797
+      }
+    },
+    {
+      "name": "Oak Hill Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.63167,
+        "west": -120.11248,
+        "north": 34.63565,
+        "east": -120.11075
+      }
+    },
+    {
+      "name": "Santa Barbara Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.417,
+        "west": -119.65915,
+        "north": 34.42138,
+        "east": -119.65262
+      }
+    },
+    {
+      "name": "Pine Grove Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.85391,
+        "west": -120.41879,
+        "north": 34.85526,
+        "east": -120.41828
+      }
+    },
+    {
+      "name": "Santa Maria Cemetery",
+      "manager": "Regional Agency Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.93148,
+        "west": -120.42712,
+        "north": 34.93833,
+        "east": -120.42499
+      }
+    },
+    {
+      "name": "Pioneer Park - Santa Maria Public Airport District",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.88027,
+        "west": -120.45411,
+        "north": 34.88355,
+        "east": -120.44967
+      }
+    },
+    {
+      "name": "Rails to Trails",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 35.13392,
+        "west": -119.48287,
+        "north": 35.14352,
+        "east": -119.44728
+      }
+    },
+    {
+      "name": "Taft Heights Park (A Street Park)",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 35.13679,
+        "west": -119.47601,
+        "north": 35.13818,
+        "east": -119.47431
+      }
+    },
+    {
+      "name": "Civic Center Park",
+      "manager": "Regional Agency Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.1398,
+        "west": -119.44908,
+        "north": 35.14064,
+        "east": -119.44766
+      }
+    },
+    {
+      "name": "Jameson Lake",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.48686,
+        "west": -119.51347,
+        "north": 34.49395,
+        "east": -119.49006
+      }
+    },
+    {
+      "name": "Carpinteria Salt Marsh Reserve",
+      "manager": "Regional Water Districts",
+      "designation": "Local Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.3961,
+        "west": -119.53028,
+        "north": 34.40115,
+        "east": -119.52638
+      }
+    },
+    {
+      "name": "Douglas Family Reserve",
+      "manager": "Regional Water Districts",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40365,
+        "west": -119.73542,
+        "north": 34.40427,
+        "east": -119.73406
+      }
+    },
+    {
+      "name": "Santa Maria River",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.97976,
+        "west": -120.51264,
+        "north": 34.99219,
+        "east": -120.4758
+      }
+    },
+    {
+      "name": "Carpinteria Creek",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.39477,
+        "west": -119.50842,
+        "north": 34.39577,
+        "east": -119.50691
+      }
+    },
+    {
+      "name": "El Mission Creek",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.42606,
+        "west": -119.72191,
+        "north": 34.42628,
+        "east": -119.71979
+      }
+    },
+    {
+      "name": "Maria Ygnacia Creek",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.44317,
+        "west": -119.80541,
+        "north": 34.46126,
+        "east": -119.78792
+      }
+    },
+    {
+      "name": "San Antonio Creek",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.44357,
+        "west": -119.80166,
+        "north": 34.44382,
+        "east": -119.7996
+      }
+    },
+    {
+      "name": "Santa Monica Creek",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.40121,
+        "west": -119.52932,
+        "north": 34.42647,
+        "east": -119.5251
+      }
+    },
+    {
+      "name": "Unnamed site - Santa Barbara Flood Control and Water Conserv. District",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63446,
+        "west": -120.47549,
+        "north": 34.6556,
+        "east": -120.45478
+      }
+    },
+    {
+      "name": "Unnamed site - Santa Barbara Flood Control and Water Conserv. District",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.87228,
+        "west": -120.41369,
+        "north": 34.8736,
+        "east": -120.40954
+      }
+    },
+    {
+      "name": "Buellton Park",
+      "manager": "Regional Water Districts",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.61898,
+        "west": -120.19549,
+        "north": 34.62018,
+        "east": -120.19415
+      }
+    },
+    {
+      "name": "Franklin Park",
+      "manager": "Regional Water Districts",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40524,
+        "west": -119.51854,
+        "north": 34.40689,
+        "east": -119.51722
+      }
+    },
+    {
+      "name": "Santa Barbara Botanic Gardens",
+      "manager": "Regional Water Districts",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45848,
+        "west": -119.71221,
+        "north": 34.45872,
+        "east": -119.71177
+      }
+    },
+    {
+      "name": "Tuckers Grove Park",
+      "manager": "Regional Water Districts",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.46379,
+        "west": -119.77526,
+        "north": 34.46478,
+        "east": -119.77428
+      }
+    },
+    {
+      "name": "More Mesa Open Space",
+      "manager": "Regional Water Districts",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.4237,
+        "west": -119.80758,
+        "north": 34.42551,
+        "east": -119.80249
+      }
+    },
+    {
+      "name": "Santa Maria Valley Muli-Purpose Trail",
+      "manager": "Regional Water Districts",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.91474,
+        "west": -120.44507,
+        "north": 34.91664,
+        "east": -120.4448
+      }
+    },
+    {
+      "name": "Jim May Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.97387,
+        "west": -120.42702,
+        "north": 34.97493,
+        "east": -120.42407
+      }
+    },
+    {
+      "name": "Alamo Pintado Creek",
+      "manager": "Regional Water Districts",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.66508,
+        "west": -120.11818,
+        "north": 34.66546,
+        "east": -120.11784
+      }
+    },
+    {
+      "name": "Lauro Canyon Reservoir",
+      "manager": "Bureau of Reclamation",
+      "designation": "Resource Management Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.45118,
+        "west": -119.73096,
+        "north": 34.45924,
+        "east": -119.72134
+      }
+    },
+    {
+      "name": "Cachuma Lake Recreation Area",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.54549,
+        "west": -119.99133,
+        "north": 34.60979,
+        "east": -119.86428
+      }
+    },
+    {
+      "name": "Rotary Bandstand",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 35.12251,
+        "west": -120.57641,
+        "north": 35.12314,
+        "east": -120.57565
+      }
+    },
+    {
+      "name": "Christmas Tree Island Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.12097,
+        "west": -120.57815,
+        "north": 35.12154,
+        "east": -120.57749
+      }
+    },
+    {
+      "name": "Kingo Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11652,
+        "west": -120.60689,
+        "north": 35.11736,
+        "east": -120.60662
+      }
+    },
+    {
+      "name": "Kiwanis Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.12278,
+        "west": -120.57874,
+        "north": 35.12326,
+        "east": -120.57764
+      }
+    },
+    {
+      "name": "Rancho Grande Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.1326,
+        "west": -120.58745,
+        "north": 35.13482,
+        "east": -120.58481
+      }
+    },
+    {
+      "name": "Strother Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.12853,
+        "west": -120.55826,
+        "north": 35.13054,
+        "east": -120.55617
+      }
+    },
+    {
+      "name": "Terra de Oro Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.13185,
+        "west": -120.56925,
+        "north": 35.13384,
+        "east": -120.56519
+      }
+    },
+    {
+      "name": "Village Green",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.1233,
+        "west": -120.57745,
+        "north": 35.12353,
+        "east": -120.57695
+      }
+    },
+    {
+      "name": "Soto Sports Complex",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.11271,
+        "west": -120.60823,
+        "north": 35.11477,
+        "east": -120.60064
+      }
+    },
+    {
+      "name": "Buellton Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.61799,
+        "west": -120.19454,
+        "north": 34.61966,
+        "east": -120.19249
+      }
+    },
+    {
+      "name": "Oak Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.62043,
+        "west": -120.20488,
+        "north": 34.62172,
+        "east": -120.20417
+      }
+    },
+    {
+      "name": "Riverview Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.61374,
+        "west": -120.20984,
+        "north": 34.61687,
+        "east": -120.20748
+      }
+    },
+    {
+      "name": "Santa Ynez River Open Space",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.6078,
+        "west": -120.18862,
+        "north": 34.60825,
+        "east": -120.18629
+      }
+    },
+    {
+      "name": "Carpinteria Salt Marsh Reserve",
+      "manager": "City Land",
+      "designation": "Local Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.39581,
+        "west": -119.52891,
+        "north": 34.39836,
+        "east": -119.5265
+      }
+    },
+    {
+      "name": "Heath Ranch Park and Adobe",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.40688,
+        "west": -119.52429,
+        "north": 34.40842,
+        "east": -119.52306
+      }
+    },
+    {
+      "name": "Carpinteria Creek",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.39341,
+        "west": -119.51199,
+        "north": 34.39633,
+        "east": -119.50527
+      }
+    },
+    {
+      "name": "Santa Monica Creek",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.40703,
+        "west": -119.52774,
+        "north": 34.40968,
+        "east": -119.52679
+      }
+    },
+    {
+      "name": "Carpinteria City Beach",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.3932,
+        "west": -119.52667,
+        "north": 34.39421,
+        "east": -119.52457
+      }
+    },
+    {
+      "name": "El Carro Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40387,
+        "west": -119.51161,
+        "north": 34.4071,
+        "east": -119.50971
+      }
+    },
+    {
+      "name": "Franklin Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40532,
+        "west": -119.51887,
+        "north": 34.40689,
+        "east": -119.51757
+      }
+    },
+    {
+      "name": "Memorial Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4054,
+        "west": -119.52616,
+        "north": 34.40662,
+        "east": -119.52528
+      }
+    },
+    {
+      "name": "Monte Vista Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.39139,
+        "west": -119.49672,
+        "north": 34.39239,
+        "east": -119.49498
+      }
+    },
+    {
+      "name": "Tar Pits Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.38596,
+        "west": -119.51304,
+        "north": 34.38799,
+        "east": -119.5095
+      }
+    },
+    {
+      "name": "Sperling Preserve",
+      "manager": "City Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.42233,
+        "west": -119.89201,
+        "north": 34.42526,
+        "east": -119.88581
+      }
+    },
+    {
+      "name": "Ellwood Mesa",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41395,
+        "west": -119.89288,
+        "north": 34.4233,
+        "east": -119.88484
+      }
+    },
+    {
+      "name": "University Village",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.425,
+        "west": -119.88101,
+        "north": 34.42984,
+        "east": -119.88006
+      }
+    },
+    {
+      "name": "Goleta Holding 1",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.42342,
+        "west": -119.87676,
+        "north": 34.42404,
+        "east": -119.87632
+      }
+    },
+    {
+      "name": "Armitos Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43765,
+        "west": -119.81932,
+        "north": 34.43835,
+        "east": -119.81849
+      }
+    },
+    {
+      "name": "Jonny D. Wallis Neighborhood Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43626,
+        "west": -119.82046,
+        "north": 34.43735,
+        "east": -119.81876
+      }
+    },
+    {
+      "name": "Lake Los Carneros Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44511,
+        "west": -119.84967,
+        "north": 34.4455,
+        "east": -119.84762
+      }
+    },
+    {
+      "name": "Santa Barbara Shores Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42032,
+        "west": -119.90034,
+        "north": 34.42956,
+        "east": -119.89215
+      }
+    },
+    {
+      "name": "Koarts Open Space",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.44243,
+        "west": -119.88972,
+        "north": 34.44301,
+        "east": -119.8891
+      }
+    },
+    {
+      "name": "Willow Springs Open Space",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43376,
+        "west": -119.85075,
+        "north": 34.43479,
+        "east": -119.84986
+      }
+    },
+    {
+      "name": "16th Street Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11408,
+        "west": -120.61199,
+        "north": 35.1148,
+        "east": -120.60968
+      }
+    },
+    {
+      "name": "Costa Bella Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11003,
+        "west": -120.60828,
+        "north": 35.1106,
+        "east": -120.60747
+      }
+    },
+    {
+      "name": "Golden West Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.10735,
+        "west": -120.61048,
+        "north": 35.10811,
+        "east": -120.61014
+      }
+    },
+    {
+      "name": "Grover Heights Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.12736,
+        "west": -120.62065,
+        "north": 35.12918,
+        "east": -120.61816
+      }
+    },
+    {
+      "name": "Hero Community Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11015,
+        "west": -120.61243,
+        "north": 35.11056,
+        "east": -120.61163
+      }
+    },
+    {
+      "name": "Mentone Basin Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.11501,
+        "west": -120.6144,
+        "north": 35.11595,
+        "east": -120.6121
+      }
+    },
+    {
+      "name": "Ramona Garden Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.12258,
+        "west": -120.6201,
+        "north": 35.12372,
+        "east": -120.61902
+      }
+    },
+    {
+      "name": "South County Skate Park",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.12154,
+        "west": -120.61032,
+        "north": 35.12195,
+        "east": -120.6097
+      }
+    },
+    {
+      "name": "Guadalupe Holding 1",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.95871,
+        "west": -120.57747,
+        "north": 34.9594,
+        "east": -120.57719
+      }
+    },
+    {
+      "name": "Guadalupe Holding 10",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.97025,
+        "west": -120.57105,
+        "north": 34.97044,
+        "east": -120.57052
+      }
+    },
+    {
+      "name": "Guadalupe Holding 2",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.96231,
+        "west": -120.58053,
+        "north": 34.96255,
+        "east": -120.57982
+      }
+    },
+    {
+      "name": "Guadalupe Holding 3",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.96972,
+        "west": -120.5711,
+        "north": 34.97032,
+        "east": -120.5706
+      }
+    },
+    {
+      "name": "Guadalupe Holding 4",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.97041,
+        "west": -120.57089,
+        "north": 34.97081,
+        "east": -120.57029
+      }
+    },
+    {
+      "name": "Guadalupe Holding 5",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.96216,
+        "west": -120.58073,
+        "north": 34.9625,
+        "east": -120.58042
+      }
+    },
+    {
+      "name": "Guadalupe Holding 6",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.964,
+        "west": -120.57893,
+        "north": 34.96413,
+        "east": -120.57831
+      }
+    },
+    {
+      "name": "Guadalupe Holding 7",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.96217,
+        "west": -120.5805,
+        "north": 34.9625,
+        "east": -120.58018
+      }
+    },
+    {
+      "name": "Guadalupe Holding 8",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.96382,
+        "west": -120.57644,
+        "north": 34.96423,
+        "east": -120.5759
+      }
+    },
+    {
+      "name": "Guadalupe Holding 9",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.96378,
+        "west": -120.57753,
+        "north": 34.964,
+        "east": -120.57715
+      }
+    },
+    {
+      "name": "Jack O'Conell Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.95777,
+        "west": -120.59125,
+        "north": 34.96062,
+        "east": -120.58836
+      }
+    },
+    {
+      "name": "Leroy Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.97333,
+        "west": -120.5739,
+        "north": 34.97484,
+        "east": -120.57205
+      }
+    },
+    {
+      "name": "Lompoc Holding 1",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63144,
+        "west": -120.45602,
+        "north": 34.63165,
+        "east": -120.45552
+      }
+    },
+    {
+      "name": "Lompoc Holding 11",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63167,
+        "west": -120.45476,
+        "north": 34.63208,
+        "east": -120.45451
+      }
+    },
+    {
+      "name": "Lompoc Holding 12",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63511,
+        "west": -120.43526,
+        "north": 34.63771,
+        "east": -120.43434
+      }
+    },
+    {
+      "name": "Lompoc Holding 13",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.65559,
+        "west": -120.45416,
+        "north": 34.65575,
+        "east": -120.45329
+      }
+    },
+    {
+      "name": "Lompoc Holding 14",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.65553,
+        "west": -120.45639,
+        "north": 34.6561,
+        "east": -120.45329
+      }
+    },
+    {
+      "name": "Lompoc Holding 15",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63103,
+        "west": -120.45659,
+        "north": 34.63137,
+        "east": -120.45602
+      }
+    },
+    {
+      "name": "Lompoc Holding 16",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63771,
+        "west": -120.4363,
+        "north": 34.64001,
+        "east": -120.43458
+      }
+    },
+    {
+      "name": "Lompoc Holding 2",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.65505,
+        "west": -120.45749,
+        "north": 34.65656,
+        "east": -120.45291
+      }
+    },
+    {
+      "name": "Lompoc Holding 3",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63102,
+        "west": -120.45603,
+        "north": 34.6313,
+        "east": -120.45543
+      }
+    },
+    {
+      "name": "Lompoc Holding 4",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63198,
+        "west": -120.45535,
+        "north": 34.63209,
+        "east": -120.45505
+      }
+    },
+    {
+      "name": "Lompoc Holding 5",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.65346,
+        "west": -120.45332,
+        "north": 34.65554,
+        "east": -120.45289
+      }
+    },
+    {
+      "name": "Lompoc Holding 6",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.6553,
+        "west": -120.4564,
+        "north": 34.65557,
+        "east": -120.45513
+      }
+    },
+    {
+      "name": "Lompoc Holding 8",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.63178,
+        "west": -120.45535,
+        "north": 34.63198,
+        "east": -120.45482
+      }
+    },
+    {
+      "name": "Lompoc Holding 9",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.65588,
+        "west": -120.44192,
+        "north": 34.65702,
+        "east": -120.44018
+      }
+    },
+    {
+      "name": "Barton Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.65564,
+        "west": -120.4634,
+        "north": 34.65709,
+        "east": -120.46084
+      }
+    },
+    {
+      "name": "Beattie Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.62891,
+        "west": -120.44656,
+        "north": 34.63392,
+        "east": -120.44123
+      }
+    },
+    {
+      "name": "Centennial Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.63692,
+        "west": -120.45775,
+        "north": 34.63769,
+        "east": -120.45728
+      }
+    },
+    {
+      "name": "College Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.64714,
+        "west": -120.46095,
+        "north": 34.64863,
+        "east": -120.4597
+      }
+    },
+    {
+      "name": "Johns-Manville Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.64226,
+        "west": -120.45137,
+        "north": 34.64331,
+        "east": -120.44909
+      }
+    },
+    {
+      "name": "Ken Adam Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.67344,
+        "west": -120.47034,
+        "north": 34.68083,
+        "east": -120.45676
+      }
+    },
+    {
+      "name": "Pioneer Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.64848,
+        "west": -120.44384,
+        "north": 34.64997,
+        "east": -120.44256
+      }
+    },
+    {
+      "name": "Riverbend Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.66552,
+        "west": -120.44864,
+        "north": 34.67118,
+        "east": -120.4443
+      }
+    },
+    {
+      "name": "Ryon Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.63589,
+        "west": -120.47058,
+        "north": 34.63892,
+        "east": -120.4669
+      }
+    },
+    {
+      "name": "Thompson Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.64552,
+        "west": -120.47175,
+        "north": 34.64702,
+        "east": -120.47056
+      }
+    },
+    {
+      "name": "Westvale Street Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.6314,
+        "west": -120.47472,
+        "north": 34.63191,
+        "east": -120.47318
+      }
+    },
+    {
+      "name": "East/West Channel Bike Path",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.65539,
+        "west": -120.47503,
+        "north": 34.65678,
+        "east": -120.46085
+      }
+    },
+    {
+      "name": "Chumash Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.13745,
+        "west": -120.62377,
+        "north": 35.14196,
+        "east": -120.61493
+      }
+    },
+    {
+      "name": "Highland Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.1401,
+        "west": -120.62555,
+        "north": 35.1421,
+        "east": -120.62459
+      }
+    },
+    {
+      "name": "Ira Lease Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.1374,
+        "west": -120.63826,
+        "north": 35.13787,
+        "east": -120.63744
+      }
+    },
+    {
+      "name": "Mary Herrington Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.13724,
+        "west": -120.63907,
+        "north": 35.13773,
+        "east": -120.6383
+      }
+    },
+    {
+      "name": "Pismo Beach Sports Park",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.13914,
+        "west": -120.635,
+        "north": 35.14121,
+        "east": -120.63288
+      }
+    },
+    {
+      "name": "Andre Clark Bird Refuge",
+      "manager": "City Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.4179,
+        "west": -119.66491,
+        "north": 34.42255,
+        "east": -119.65673
+      }
+    },
+    {
+      "name": "Douglas Family Reserve",
+      "manager": "City Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.39855,
+        "west": -119.74328,
+        "north": 34.4049,
+        "east": -119.73438
+      }
+    },
+    {
+      "name": "Palza Vera Cruz",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41847,
+        "west": -119.69502,
+        "north": 34.41942,
+        "east": -119.69389
+      }
+    },
+    {
+      "name": "Santa Barbara Maitime Museum",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.40259,
+        "west": -119.69501,
+        "north": 34.41203,
+        "east": -119.68705
+      }
+    },
+    {
+      "name": "Santa Barbara Zoological Gardens",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41777,
+        "west": -119.66896,
+        "north": 34.4212,
+        "east": -119.66316
+      }
+    },
+    {
+      "name": "Stearns Wharf",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.40799,
+        "west": -119.68853,
+        "north": 34.41181,
+        "east": -119.68485
+      }
+    },
+    {
+      "name": "El Mission Creek",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.4336,
+        "west": -119.72721,
+        "north": 34.43545,
+        "east": -119.72666
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 1",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.45353,
+        "west": -119.69168,
+        "north": 34.45419,
+        "east": -119.69057
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 2",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.41009,
+        "west": -119.72271,
+        "north": 34.41051,
+        "east": -119.72233
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 3",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.42233,
+        "west": -119.7003,
+        "north": 34.42295,
+        "east": -119.69971
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 4",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43749,
+        "west": -119.69414,
+        "north": 34.4382,
+        "east": -119.69352
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 5",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.40986,
+        "west": -119.72282,
+        "north": 34.41014,
+        "east": -119.72252
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 6",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.40976,
+        "west": -119.72262,
+        "north": 34.41004,
+        "east": -119.72214
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 7",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.41009,
+        "west": -119.72233,
+        "north": 34.41042,
+        "east": -119.72201
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 8",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.43286,
+        "west": -119.67455,
+        "north": 34.43428,
+        "east": -119.67276
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 9",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.43904,
+        "west": -119.67035,
+        "north": 34.4395,
+        "east": -119.66918
+      }
+    },
+    {
+      "name": "Sycamore Creek",
+      "manager": "City Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.42324,
+        "west": -119.67343,
+        "north": 34.42356,
+        "east": -119.67276
+      }
+    },
+    {
+      "name": "Alameda Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42641,
+        "west": -119.70701,
+        "north": 34.42922,
+        "east": -119.70378
+      }
+    },
+    {
+      "name": "Alice Keck Park Memorial Garden",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42842,
+        "west": -119.70716,
+        "north": 34.43017,
+        "east": -119.70505
+      }
+    },
+    {
+      "name": "Ambassador Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41036,
+        "west": -119.6923,
+        "north": 34.41084,
+        "east": -119.69148
+      }
+    },
+    {
+      "name": "Bohnett Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41649,
+        "west": -119.7139,
+        "north": 34.41794,
+        "east": -119.71135
+      }
+    },
+    {
+      "name": "Cabrillo Bell Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41624,
+        "west": -119.67539,
+        "north": 34.41778,
+        "east": -119.67248
+      }
+    },
+    {
+      "name": "Chase Palm Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41211,
+        "west": -119.689,
+        "north": 34.41666,
+        "east": -119.6722
+      }
+    },
+    {
+      "name": "East Beach",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41654,
+        "west": -119.67195,
+        "north": 34.41842,
+        "east": -119.66238
+      }
+    },
+    {
+      "name": "East Side Neighborhood Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42624,
+        "west": -119.67799,
+        "north": 34.42759,
+        "east": -119.67643
+      }
+    },
+    {
+      "name": "Elings Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41426,
+        "west": -119.73432,
+        "north": 34.41714,
+        "east": -119.73166
+      }
+    },
+    {
+      "name": "Escondido Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40982,
+        "west": -119.72849,
+        "north": 34.41158,
+        "east": -119.72566
+      }
+    },
+    {
+      "name": "Franceschi Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43877,
+        "west": -119.69778,
+        "north": 34.44231,
+        "east": -119.69274
+      }
+    },
+    {
+      "name": "Gould Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45409,
+        "west": -119.70637,
+        "north": 34.50776,
+        "east": -119.64281
+      }
+    },
+    {
+      "name": "Hale Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43343,
+        "west": -119.66132,
+        "north": 34.43601,
+        "east": -119.65653
+      }
+    },
+    {
+      "name": "Hidden Valley Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42152,
+        "west": -119.75136,
+        "north": 34.43346,
+        "east": -119.74811
+      }
+    },
+    {
+      "name": "Hilda Ray Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41147,
+        "west": -119.72525,
+        "north": 34.4125,
+        "east": -119.72463
+      }
+    },
+    {
+      "name": "Honda Valley Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40645,
+        "west": -119.71794,
+        "north": 34.40934,
+        "east": -119.71279
+      }
+    },
+    {
+      "name": "La Coronilla Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40332,
+        "west": -119.71793,
+        "north": 34.40606,
+        "east": -119.7138
+      }
+    },
+    {
+      "name": "La Mesa Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.39562,
+        "west": -119.72453,
+        "north": 34.39895,
+        "east": -119.71979
+      }
+    },
+    {
+      "name": "Leadbetter Beach",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.39948,
+        "west": -119.70264,
+        "north": 34.40304,
+        "east": -119.69445
+      }
+    },
+    {
+      "name": "Los Robles Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44653,
+        "west": -119.75677,
+        "north": 34.44729,
+        "east": -119.75606
+      }
+    },
+    {
+      "name": "Mackenzie Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43785,
+        "west": -119.73403,
+        "north": 34.44025,
+        "east": -119.73062
+      }
+    },
+    {
+      "name": "Mission Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43718,
+        "west": -119.71304,
+        "north": 34.44046,
+        "east": -119.71109
+      }
+    },
+    {
+      "name": "Oak Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42732,
+        "west": -119.72878,
+        "north": 34.43232,
+        "east": -119.72624
+      }
+    },
+    {
+      "name": "Orpet Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4376,
+        "west": -119.70625,
+        "north": 34.43838,
+        "east": -119.70356
+      }
+    },
+    {
+      "name": "Ortega Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4242,
+        "west": -119.69115,
+        "north": 34.42609,
+        "east": -119.6889
+      }
+    },
+    {
+      "name": "Parma Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44519,
+        "west": -119.68834,
+        "north": 34.45386,
+        "east": -119.67212
+      }
+    },
+    {
+      "name": "Pershing Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40791,
+        "west": -119.69757,
+        "north": 34.40961,
+        "east": -119.6951
+      }
+    },
+    {
+      "name": "Plaza del Mar Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40738,
+        "west": -119.69756,
+        "north": 34.409,
+        "east": -119.69408
+      }
+    },
+    {
+      "name": "Rattlesnake Canyon Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45748,
+        "west": -119.71458,
+        "north": 34.49035,
+        "east": -119.67925
+      }
+    },
+    {
+      "name": "Rocky Nook Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4432,
+        "west": -119.71067,
+        "north": 34.4466,
+        "east": -119.70753
+      }
+    },
+    {
+      "name": "San Roque Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44337,
+        "west": -119.73738,
+        "north": 34.44408,
+        "east": -119.73662
+      }
+    },
+    {
+      "name": "Shoreline Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.39567,
+        "west": -119.71195,
+        "north": 34.39948,
+        "east": -119.70225
+      }
+    },
+    {
+      "name": "Skofield Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45356,
+        "west": -119.69856,
+        "north": 34.45774,
+        "east": -119.69222
+      }
+    },
+    {
+      "name": "Spencer Adams Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42135,
+        "west": -119.70787,
+        "north": 34.42311,
+        "east": -119.70624
+      }
+    },
+    {
+      "name": "Stevens Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44659,
+        "west": -119.73569,
+        "north": 34.45214,
+        "east": -119.7337
+      }
+    },
+    {
+      "name": "Sunflower Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42472,
+        "west": -119.6773,
+        "north": 34.42514,
+        "east": -119.67656
+      }
+    },
+    {
+      "name": "Thornbury Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40551,
+        "west": -119.71397,
+        "north": 34.40952,
+        "east": -119.70846
+      }
+    },
+    {
+      "name": "Wentworth Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41152,
+        "west": -119.70271,
+        "north": 34.41207,
+        "east": -119.70128
+      }
+    },
+    {
+      "name": "Willowglen Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44971,
+        "west": -119.74464,
+        "north": 34.45083,
+        "east": -119.74344
+      }
+    },
+    {
+      "name": "City Open Space",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.47932,
+        "west": -119.62073,
+        "north": 34.51555,
+        "east": -119.58368
+      }
+    },
+    {
+      "name": "Dwight Murphy Field",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41797,
+        "west": -119.67168,
+        "north": 34.42,
+        "east": -119.66804
+      }
+    },
+    {
+      "name": "Gibraltar Reservoir",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": null,
+      "bbox": {
+        "south": 34.51894,
+        "west": -119.69341,
+        "north": 34.54963,
+        "east": -119.62192
+      }
+    },
+    {
+      "name": "Lauro Canyon Reservoir",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.45008,
+        "west": -119.73491,
+        "north": 34.45386,
+        "east": -119.72625
+      }
+    },
+    {
+      "name": "Montecity Country Club",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": null,
+      "bbox": {
+        "south": 34.42181,
+        "west": -119.66558,
+        "north": 34.42302,
+        "east": -119.66146
+      }
+    },
+    {
+      "name": "Santa Barbara Golf Club",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.42909,
+        "west": -119.74155,
+        "north": 34.43799,
+        "east": -119.73367
+      }
+    },
+    {
+      "name": "Sheffield Reservoir",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": null,
+      "bbox": {
+        "south": 34.44286,
+        "west": -119.69484,
+        "north": 34.44661,
+        "east": -119.68597
+      }
+    },
+    {
+      "name": "Twin Lakes Golf Course",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.43297,
+        "west": -119.84194,
+        "north": 34.43871,
+        "east": -119.8308
+      }
+    },
+    {
+      "name": "Goleta Slough Ecological Reserve",
+      "manager": "State Fish and Wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.41588,
+        "west": -119.8596,
+        "north": 34.43096,
+        "east": -119.83523
+      }
+    },
+    {
+      "name": "Maramonte Park (North)",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.90777,
+        "west": -120.43084,
+        "north": 34.90904,
+        "east": -120.42928
+      }
+    },
+    {
+      "name": "Maramonte Park (South)",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.9066,
+        "west": -120.43023,
+        "north": 34.90776,
+        "east": -120.42892
+      }
+    },
+    {
+      "name": "Santa Maria Holding 1",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.92527,
+        "west": -120.43156,
+        "north": 34.92643,
+        "east": -120.43108
+      }
+    },
+    {
+      "name": "Santa Maria Holding 2",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.90236,
+        "west": -120.42868,
+        "north": 34.90293,
+        "east": -120.42787
+      }
+    },
+    {
+      "name": "Santa Maria Holding 3",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.91629,
+        "west": -120.44199,
+        "north": 34.91649,
+        "east": -120.44193
+      }
+    },
+    {
+      "name": "Santa Maria Holding 4",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.91649,
+        "west": -120.44342,
+        "north": 34.9166,
+        "east": -120.4413
+      }
+    },
+    {
+      "name": "Santa Maria Holding 6",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.90343,
+        "west": -120.42994,
+        "north": 34.90439,
+        "east": -120.42903
+      }
+    },
+    {
+      "name": "Santa Maria Holding 7",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.97161,
+        "west": -120.41583,
+        "north": 34.97224,
+        "east": -120.41522
+      }
+    },
+    {
+      "name": "Santa Maria Holding 9",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.91652,
+        "west": -120.4448,
+        "north": 34.91664,
+        "east": -120.44365
+      }
+    },
+    {
+      "name": "Unknown Park - Santa Maria, City of",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.92364,
+        "west": -120.4638,
+        "north": 34.92428,
+        "east": -120.46321
+      }
+    },
+    {
+      "name": "Unnamed Site - Santa Maria, City of",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.93228,
+        "west": -120.43156,
+        "north": 34.93393,
+        "east": -120.4311
+      }
+    },
+    {
+      "name": "Adam Park/Minami Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.93186,
+        "west": -120.44464,
+        "north": 34.93854,
+        "east": -120.44216
+      }
+    },
+    {
+      "name": "Alice Threfts Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.9421,
+        "west": -120.42881,
+        "north": 34.94444,
+        "east": -120.42787
+      }
+    },
+    {
+      "name": "Armstrong Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.95468,
+        "west": -120.42156,
+        "north": 34.95641,
+        "east": -120.42064
+      }
+    },
+    {
+      "name": "Atkinson Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.96238,
+        "west": -120.44441,
+        "north": 34.96412,
+        "east": -120.44296
+      }
+    },
+    {
+      "name": "Buena Vista Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.94324,
+        "west": -120.44059,
+        "north": 34.94446,
+        "east": -120.43924
+      }
+    },
+    {
+      "name": "Central Plaza Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.9533,
+        "west": -120.43564,
+        "north": 34.95523,
+        "east": -120.43292
+      }
+    },
+    {
+      "name": "Fletcher Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.91967,
+        "west": -120.4252,
+        "north": 34.92078,
+        "east": -120.42381
+      }
+    },
+    {
+      "name": "Grogan Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.97736,
+        "west": -120.45305,
+        "north": 34.97877,
+        "east": -120.45129
+      }
+    },
+    {
+      "name": "Jim May Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.97388,
+        "west": -120.42663,
+        "north": 34.97474,
+        "east": -120.42537
+      }
+    },
+    {
+      "name": "Joe White Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.94728,
+        "west": -120.41406,
+        "north": 34.94824,
+        "east": -120.41243
+      }
+    },
+    {
+      "name": "Los Flores Ranch Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.79874,
+        "west": -120.36588,
+        "north": 34.84334,
+        "east": -120.33041
+      }
+    },
+    {
+      "name": "Marilyn Stanley Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.91411,
+        "west": -120.44333,
+        "north": 34.9147,
+        "east": -120.44186
+      }
+    },
+    {
+      "name": "North Preisker Ranch Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.98497,
+        "west": -120.44606,
+        "north": 34.98581,
+        "east": -120.44461
+      }
+    },
+    {
+      "name": "Oakley Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.9638,
+        "west": -120.4523,
+        "north": 34.96506,
+        "east": -120.45022
+      }
+    },
+    {
+      "name": "Preisker Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.98223,
+        "west": -120.43986,
+        "north": 34.98591,
+        "east": -120.43543
+      }
+    },
+    {
+      "name": "Rice Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.96443,
+        "west": -120.42773,
+        "north": 34.96515,
+        "east": -120.42582
+      }
+    },
+    {
+      "name": "Rod Rodenberger Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.90904,
+        "west": -120.43176,
+        "north": 34.90988,
+        "east": -120.42924
+      }
+    },
+    {
+      "name": "Rotary Centennial Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.90902,
+        "west": -120.42737,
+        "north": 34.91232,
+        "east": -120.42401
+      }
+    },
+    {
+      "name": "Russell Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.95142,
+        "west": -120.45141,
+        "north": 34.95213,
+        "east": -120.45061
+      }
+    },
+    {
+      "name": "Simas Basin Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.94626,
+        "west": -120.43426,
+        "north": 34.94889,
+        "east": -120.43158
+      }
+    },
+    {
+      "name": "Tunnell Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.96251,
+        "west": -120.4154,
+        "north": 34.96389,
+        "east": -120.4125
+      }
+    },
+    {
+      "name": "Westgate Ranch Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.92682,
+        "west": -120.45846,
+        "north": 34.92786,
+        "east": -120.45756
+      }
+    },
+    {
+      "name": "Crossroads Open Space",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.919,
+        "west": -120.42859,
+        "north": 34.92108,
+        "east": -120.42544
+      }
+    },
+    {
+      "name": "Veterans' Memorial Community Center and Park",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.9576,
+        "west": -120.4398,
+        "north": 34.95845,
+        "east": -120.43765
+      }
+    },
+    {
+      "name": "Santa Ynez River",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.58949,
+        "west": -120.16152,
+        "north": 34.59253,
+        "east": -120.15737
+      }
+    },
+    {
+      "name": "Solvang Holding 1",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.60824,
+        "west": -120.14625,
+        "north": 34.60864,
+        "east": -120.1454
+      }
+    },
+    {
+      "name": "Unknown park - Solvang, City of",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.59555,
+        "west": -120.14077,
+        "north": 34.59593,
+        "east": -120.13947
+      }
+    },
+    {
+      "name": "Unnamed site - Solvang, City of",
+      "manager": "City Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.60351,
+        "west": -120.14652,
+        "north": 34.60449,
+        "east": -120.14374
+      }
+    },
+    {
+      "name": "Alisal Commons Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.58801,
+        "west": -120.14289,
+        "north": 34.58956,
+        "east": -120.1414
+      }
+    },
+    {
+      "name": "Hans Christian Andersen Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.59426,
+        "west": -120.15155,
+        "north": 34.60195,
+        "east": -120.14098
+      }
+    },
+    {
+      "name": "Sunny Fields Park",
+      "manager": "City Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.60686,
+        "west": -120.12473,
+        "north": 34.60944,
+        "east": -120.12205
+      }
+    },
+    {
+      "name": "Mesa Meadows Natural Area",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.02783,
+        "west": -120.51237,
+        "north": 35.0315,
+        "east": -120.50617
+      }
+    },
+    {
+      "name": "Jim Miller Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.03931,
+        "west": -120.48027,
+        "north": 35.03982,
+        "east": -120.47919
+      }
+    },
+    {
+      "name": "Nipomo Community Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.02776,
+        "west": -120.50668,
+        "north": 35.03788,
+        "east": -120.4955
+      }
+    },
+    {
+      "name": "Oceano Memorial Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.10476,
+        "west": -120.62598,
+        "north": 35.10685,
+        "east": -120.62311
+      }
+    },
+    {
+      "name": "Sand and Surf County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.10649,
+        "west": -120.62953,
+        "north": 35.1209,
+        "east": -120.6224
+      }
+    },
+    {
+      "name": "Oceano Memorial Campground",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.1044,
+        "west": -120.62643,
+        "north": 35.10496,
+        "east": -120.62526
+      }
+    },
+    {
+      "name": "Jim May Park",
+      "manager": "City Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.97488,
+        "west": -120.42712,
+        "north": 34.97697,
+        "east": -120.42398
+      }
+    },
+    {
+      "name": "Douglas Family Reserve",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40402,
+        "west": -119.74283,
+        "north": 34.40475,
+        "east": -119.74071
+      }
+    },
+    {
+      "name": "Guadalupe-Nipomo Dunes Preserve Forest",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.95092,
+        "west": -120.65718,
+        "north": 34.97052,
+        "east": -120.62839
+      }
+    },
+    {
+      "name": "Lake Los Carneros Natural and Historical Preserve",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43861,
+        "west": -119.85368,
+        "north": 34.44518,
+        "east": -119.84305
+      }
+    },
+    {
+      "name": "Point Sal Preserve",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.90273,
+        "west": -120.6701,
+        "north": 34.92674,
+        "east": -120.64529
+      }
+    },
+    {
+      "name": "Summerland Greenwell Preserve",
+      "manager": "County Land",
+      "designation": "Local Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.42315,
+        "west": -119.58981,
+        "north": 34.42428,
+        "east": -119.58851
+      }
+    },
+    {
+      "name": "Goleta Cemetery",
+      "manager": "County Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43949,
+        "west": -119.78169,
+        "north": 34.44041,
+        "east": -119.78036
+      }
+    },
+    {
+      "name": "Lompoc Cemetery",
+      "manager": "County Land",
+      "designation": "Local Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.63029,
+        "west": -120.45155,
+        "north": 34.6309,
+        "east": -120.45089
+      }
+    },
+    {
+      "name": "Alamo Pintado Creek (Solvang area)",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.60233,
+        "west": -120.12361,
+        "north": 34.60678,
+        "east": -120.12007
+      }
+    },
+    {
+      "name": "Bella Vista I & II",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43727,
+        "west": -119.88429,
+        "north": 34.43883,
+        "east": -119.88319
+      }
+    },
+    {
+      "name": "Bella Vista III",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43904,
+        "west": -119.88383,
+        "north": 34.43949,
+        "east": -119.88318
+      }
+    },
+    {
+      "name": "Campus Glen",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.42379,
+        "west": -119.89221,
+        "north": 34.42457,
+        "east": -119.88991
+      }
+    },
+    {
+      "name": "Evergreen Acres",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43552,
+        "west": -119.89262,
+        "north": 34.44136,
+        "east": -119.88517
+      }
+    },
+    {
+      "name": "Glen Annie at Del Norte",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43628,
+        "west": -119.87289,
+        "north": 34.43683,
+        "east": -119.87192
+      }
+    },
+    {
+      "name": "Hammond's Meadow",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.41584,
+        "west": -119.6371,
+        "north": 34.41757,
+        "east": -119.63487
+      }
+    },
+    {
+      "name": "Point Sal",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.89016,
+        "west": -120.64413,
+        "north": 34.90059,
+        "east": -120.63926
+      }
+    },
+    {
+      "name": "Rancho Guadalupe Dunes",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.95772,
+        "west": -120.63885,
+        "north": 34.95913,
+        "east": -120.6366
+      }
+    },
+    {
+      "name": "Santa Barbara Bowl",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.43247,
+        "west": -119.69544,
+        "north": 34.4363,
+        "east": -119.69257
+      }
+    },
+    {
+      "name": "Santa Maria River",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.97282,
+        "west": -120.57151,
+        "north": 34.99219,
+        "east": -120.45273
+      }
+    },
+    {
+      "name": "Santa Ynez River",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.67081,
+        "west": -120.49458,
+        "north": 34.67175,
+        "east": -120.49301
+      }
+    },
+    {
+      "name": "Stonebridge",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.44897,
+        "west": -119.84134,
+        "north": 34.45099,
+        "east": -119.84029
+      }
+    },
+    {
+      "name": "Alamo Pintado Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.66391,
+        "west": -120.11688,
+        "north": 34.66444,
+        "east": -120.11667
+      }
+    },
+    {
+      "name": "Atascadero Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.42775,
+        "west": -119.79499,
+        "north": 34.43379,
+        "east": -119.78054
+      }
+    },
+    {
+      "name": "Carpinteria Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.39311,
+        "west": -119.50946,
+        "north": 34.39588,
+        "east": -119.50698
+      }
+    },
+    {
+      "name": "El Mission Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.41593,
+        "west": -119.72437,
+        "north": 34.42679,
+        "east": -119.70406
+      }
+    },
+    {
+      "name": "Maria Ygnacia Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.42784,
+        "west": -119.80819,
+        "north": 34.45998,
+        "east": -119.79291
+      }
+    },
+    {
+      "name": "Rodeo-San Pascual Flood Control Channel",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.63316,
+        "west": -120.52592,
+        "north": 34.67602,
+        "east": -120.50155
+      }
+    },
+    {
+      "name": "San Antonio Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.44219,
+        "west": -119.80545,
+        "north": 34.4483,
+        "east": -119.79213
+      }
+    },
+    {
+      "name": "San Roque Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.44055,
+        "west": -119.74247,
+        "north": 34.44113,
+        "east": -119.74183
+      }
+    },
+    {
+      "name": "Santa Barbara Holding 11",
+      "manager": "County Land",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.63104,
+        "west": -120.45862,
+        "north": 34.63154,
+        "east": -120.45736
+      }
+    },
+    {
+      "name": "Santa Monica Creek",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41401,
+        "west": -119.52662,
+        "north": 34.41578,
+        "east": -119.5263
+      }
+    },
+    {
+      "name": "Unknown park - Santa Barbara, County of",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43598,
+        "west": -120.4263,
+        "north": 34.87059,
+        "east": -119.79693
+      }
+    },
+    {
+      "name": "Unnamed site - Santa Barbara, County of",
+      "manager": "County Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43222,
+        "west": -120.44977,
+        "north": 34.88252,
+        "east": -119.62198
+      }
+    },
+    {
+      "name": "Unnamed site - Santa Barbara, County of",
+      "manager": "County Land",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.87886,
+        "west": -120.41849,
+        "north": 34.87923,
+        "east": -120.41795
+      }
+    },
+    {
+      "name": "Andamar Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44998,
+        "west": -119.82434,
+        "north": 34.451,
+        "east": -119.82311
+      }
+    },
+    {
+      "name": "Armstrong Mini Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.42326,
+        "west": -119.87866,
+        "north": 34.42403,
+        "east": -119.87794
+      }
+    },
+    {
+      "name": "Arroyo Burro Beach County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40269,
+        "west": -119.74516,
+        "north": 34.40436,
+        "east": -119.74232
+      }
+    },
+    {
+      "name": "Baron Ranch",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.47099,
+        "west": -120.13902,
+        "north": 34.509,
+        "east": -120.10557
+      }
+    },
+    {
+      "name": "Brandon Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43279,
+        "west": -119.89137,
+        "north": 34.43502,
+        "east": -119.8901
+      }
+    },
+    {
+      "name": "Goleta Beach County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4151,
+        "west": -119.83597,
+        "north": 34.4173,
+        "east": -119.81919
+      }
+    },
+    {
+      "name": "Guadalupe Dunes County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.91132,
+        "west": -120.6208,
+        "north": 34.92914,
+        "east": -120.60324
+      }
+    },
+    {
+      "name": "Hans Christian Andersen Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.60182,
+        "west": -120.14737,
+        "north": 34.60214,
+        "east": -120.14631
+      }
+    },
+    {
+      "name": "Isla Vista Beach",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40896,
+        "west": -119.86944,
+        "north": 34.40981,
+        "east": -119.8665
+      }
+    },
+    {
+      "name": "Jalama Beach County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.508,
+        "west": -120.50411,
+        "north": 34.5122,
+        "east": -120.49943
+      }
+    },
+    {
+      "name": "La Goleta Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45158,
+        "west": -119.83505,
+        "north": 34.45427,
+        "east": -119.83191
+      }
+    },
+    {
+      "name": "Lookout Park and Beach",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41946,
+        "west": -119.60402,
+        "north": 34.42057,
+        "east": -119.59923
+      }
+    },
+    {
+      "name": "Los Alamos Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.72944,
+        "west": -120.28033,
+        "north": 34.73785,
+        "east": -120.27536
+      }
+    },
+    {
+      "name": "Manning Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43281,
+        "west": -119.63428,
+        "north": 34.43528,
+        "east": -119.63101
+      }
+    },
+    {
+      "name": "Miguelito County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.59209,
+        "west": -120.47152,
+        "north": 34.60048,
+        "east": -120.46388
+      }
+    },
+    {
+      "name": "Nectarine Mini Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43734,
+        "west": -119.82653,
+        "north": 34.43748,
+        "east": -119.82616
+      }
+    },
+    {
+      "name": "Nojoqui Falls County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.52719,
+        "west": -120.18192,
+        "north": 34.53548,
+        "east": -120.17344
+      }
+    },
+    {
+      "name": "Ocean Beach Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.68376,
+        "west": -120.60538,
+        "north": 34.69225,
+        "east": -120.59669
+      }
+    },
+    {
+      "name": "Ocean View Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.41986,
+        "west": -119.59153,
+        "north": 34.4222,
+        "east": -119.58941
+      }
+    },
+    {
+      "name": "Orcutt Community Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.84925,
+        "west": -120.42193,
+        "north": 34.85298,
+        "east": -120.41741
+      }
+    },
+    {
+      "name": "Oro Verde Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45305,
+        "west": -119.82396,
+        "north": 34.45846,
+        "east": -119.821
+      }
+    },
+    {
+      "name": "Pelican Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40862,
+        "west": -119.85596,
+        "north": 34.40931,
+        "east": -119.85538
+      }
+    },
+    {
+      "name": "Richardson County Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.94201,
+        "west": -119.68624,
+        "north": 34.94684,
+        "east": -119.67963
+      }
+    },
+    {
+      "name": "Rincon Beach Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.37524,
+        "west": -119.48929,
+        "north": 34.38316,
+        "east": -119.47738
+      }
+    },
+    {
+      "name": "River Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.64361,
+        "west": -120.44008,
+        "north": 34.66064,
+        "east": -120.43013
+      }
+    },
+    {
+      "name": "Rocky Nook Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44033,
+        "west": -119.71331,
+        "north": 34.4467,
+        "east": -119.7091
+      }
+    },
+    {
+      "name": "Santa Rosa Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.60326,
+        "west": -120.30737,
+        "north": 34.60893,
+        "east": -120.29875
+      }
+    },
+    {
+      "name": "Santa Ynez Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.61005,
+        "west": -120.08724,
+        "north": 34.61268,
+        "east": -120.08417
+      }
+    },
+    {
+      "name": "Sea Lookout Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.40896,
+        "west": -119.86651,
+        "north": 34.40972,
+        "east": -119.86583
+      }
+    },
+    {
+      "name": "Skofield Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45915,
+        "west": -119.69312,
+        "north": 34.46094,
+        "east": -119.69167
+      }
+    },
+    {
+      "name": "Stonebridge Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44888,
+        "west": -119.84222,
+        "north": 34.45086,
+        "east": -119.84024
+      }
+    },
+    {
+      "name": "Stow Grove Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.44617,
+        "west": -119.84631,
+        "north": 34.45094,
+        "east": -119.84514
+      }
+    },
+    {
+      "name": "Toro Canyon Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.4319,
+        "west": -119.56175,
+        "north": 34.43642,
+        "east": -119.54998
+      }
+    },
+    {
+      "name": "Tuckers Grove Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45148,
+        "west": -119.79225,
+        "north": 34.46911,
+        "east": -119.77171
+      }
+    },
+    {
+      "name": "Waller Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.89472,
+        "west": -120.44518,
+        "north": 34.90529,
+        "east": -120.43633
+      }
+    },
+    {
+      "name": "Walter Capps Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.409,
+        "west": -119.8643,
+        "north": 34.40972,
+        "east": -119.86306
+      }
+    },
+    {
+      "name": "Winchester I Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43381,
+        "west": -119.89554,
+        "north": 34.43471,
+        "east": -119.89509
+      }
+    },
+    {
+      "name": "Winchester II Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.43592,
+        "west": -119.89865,
+        "north": 34.4365,
+        "east": -119.89779
+      }
+    },
+    {
+      "name": "Camino Del Sur Beach Access",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40913,
+        "west": -119.86265,
+        "north": 34.40971,
+        "east": -119.86248
+      }
+    },
+    {
+      "name": "Camino Majorca Beach Access",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40914,
+        "west": -119.86964,
+        "north": 34.40984,
+        "east": -119.86944
+      }
+    },
+    {
+      "name": "Camino Pescadero Beach Access",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40891,
+        "west": -119.85875,
+        "north": 34.40972,
+        "east": -119.85861
+      }
+    },
+    {
+      "name": "Cathedral Oaks Fire Center",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": null,
+      "bbox": {
+        "south": 34.44934,
+        "west": -119.77685,
+        "north": 34.454,
+        "east": -119.76861
+      }
+    },
+    {
+      "name": "Domino Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.85852,
+        "west": -120.42062,
+        "north": 34.85914,
+        "east": -120.41983
+      }
+    },
+    {
+      "name": "El Embarcadero Beach Access",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40867,
+        "west": -119.8563,
+        "north": 34.40936,
+        "east": -119.85621
+      }
+    },
+    {
+      "name": "Emerald Terrace Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.44618,
+        "west": -119.82495,
+        "north": 34.44711,
+        "east": -119.82348
+      }
+    },
+    {
+      "name": "Escondido Pass Beach Access",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.40896,
+        "west": -119.8655,
+        "north": 34.40972,
+        "east": -119.86538
+      }
+    },
+    {
+      "name": "Kellogg Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.44942,
+        "west": -119.8168,
+        "north": 34.45243,
+        "east": -119.81411
+      }
+    },
+    {
+      "name": "Koarts Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.44172,
+        "west": -119.89467,
+        "north": 34.44338,
+        "east": -119.88794
+      }
+    },
+    {
+      "name": "Lassen Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43934,
+        "west": -119.8065,
+        "north": 34.44096,
+        "east": -119.80528
+      }
+    },
+    {
+      "name": "Lauro Canyon Reservoir",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.45386,
+        "west": -119.73276,
+        "north": 34.4557,
+        "east": -119.73034
+      }
+    },
+    {
+      "name": "More Mesa Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.42409,
+        "west": -119.80485,
+        "north": 34.42715,
+        "east": -119.79467
+      }
+    },
+    {
+      "name": "Rhoads Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.42778,
+        "west": -119.79734,
+        "north": 34.42886,
+        "east": -119.79581
+      }
+    },
+    {
+      "name": "Rice Ranch Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.84463,
+        "west": -120.43664,
+        "north": 34.85934,
+        "east": -120.40122
+      }
+    },
+    {
+      "name": "San Jose Creek Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": null,
+      "bbox": {
+        "south": 34.45306,
+        "west": -119.81542,
+        "north": 34.45955,
+        "east": -119.80895
+      }
+    },
+    {
+      "name": "San Miguel Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43858,
+        "west": -119.90631,
+        "north": 34.44129,
+        "east": -119.90046
+      }
+    },
+    {
+      "name": "Stonebrook Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.87512,
+        "west": -120.44563,
+        "north": 34.87592,
+        "east": -120.44402
+      }
+    },
+    {
+      "name": "Stow Canyon Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.44727,
+        "west": -119.84075,
+        "north": 34.44861,
+        "east": -119.83938
+      }
+    },
+    {
+      "name": "Thunderbird Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43552,
+        "west": -119.80219,
+        "north": 34.43591,
+        "east": -119.80126
+      }
+    },
+    {
+      "name": "University Circle Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.44343,
+        "west": -119.81784,
+        "north": 34.44868,
+        "east": -119.81445
+      }
+    },
+    {
+      "name": "Winchester I Open Space",
+      "manager": "County Land",
+      "designation": "Local Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.43263,
+        "west": -119.89551,
+        "north": 34.43361,
+        "east": -119.89125
+      }
+    },
+    {
+      "name": "Los Padres National Forest",
+      "manager": "County Land",
+      "designation": "National Forest",
+      "access": "open",
+      "bbox": {
+        "south": 34.47209,
+        "west": -119.81407,
+        "north": 34.50786,
+        "east": -119.71886
+      }
+    },
+    {
+      "name": "Honda Valley Park - Community Environmental Council",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "open",
+      "bbox": {
+        "south": 34.41072,
+        "west": -119.71424,
+        "north": 34.41261,
+        "east": -119.71212
+      }
+    },
+    {
+      "name": "Unnamed site - Community Environmental Council",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41039,
+        "west": -119.72162,
+        "north": 34.41167,
+        "east": -119.72135
+      }
+    },
+    {
+      "name": "Elings Park - Elings Park Foundation",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "open",
+      "bbox": {
+        "south": 34.4048,
+        "west": -119.74138,
+        "north": 34.41672,
+        "east": -119.73113
+      }
+    },
+    {
+      "name": "Girsh Park",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Recreation or Education",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.4244,
+        "west": -119.87704,
+        "north": 34.42696,
+        "east": -119.87119
+      }
+    },
+    {
+      "name": "Rincon Beach Park",
+      "manager": "County Land",
+      "designation": "Local Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.38181,
+        "west": -119.4902,
+        "north": 34.38525,
+        "east": -119.48492
+      }
+    },
+    {
+      "name": "Arroyo Hondo Preserve",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.47337,
+        "west": -120.15268,
+        "north": 34.50509,
+        "east": -120.12976
+      }
+    },
+    {
+      "name": "Carpinteria Salt Marsh Reserve",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.39568,
+        "west": -119.53706,
+        "north": 34.40082,
+        "east": -119.52743
+      }
+    },
+    {
+      "name": "Coronado Butterfly Preserve",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "open",
+      "bbox": {
+        "south": 34.4243,
+        "west": -119.89232,
+        "north": 34.42605,
+        "east": -119.88956
+      }
+    },
+    {
+      "name": "Hot Springs Canyon",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "open",
+      "bbox": {
+        "south": 34.45396,
+        "west": -119.64288,
+        "north": 34.45758,
+        "east": -119.63828
+      }
+    },
+    {
+      "name": "Carpinteria Bluffs Public Open Space",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Recreation or Education",
+      "access": "open",
+      "bbox": {
+        "south": 34.3849,
+        "west": -119.50862,
+        "north": 34.39119,
+        "east": -119.49449
+      }
+    },
+    {
+      "name": "Mission Santa Inés",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "open",
+      "bbox": {
+        "south": 34.59239,
+        "west": -120.13836,
+        "north": 34.59596,
+        "east": -120.133
+      }
+    },
+    {
+      "name": "Carrizo Plain National Monument",
+      "manager": "Bureau of Land Management",
+      "designation": "National Monument",
+      "access": "open",
+      "bbox": {
+        "south": 35.03768,
+        "west": -119.67247,
+        "north": 35.07442,
+        "east": -119.57944
+      }
+    },
+    {
+      "name": "Unnamed site - Sequoia Riverlands Trust",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 35.01595,
+        "west": -120.02294,
+        "north": 35.3697,
+        "east": -119.53456
+      }
+    },
+    {
+      "name": "Jack and Laura Dangermond Preserve",
+      "manager": "Non-Governmental Organization",
+      "designation": "Private Conservation",
+      "access": "closed",
+      "bbox": {
+        "south": 34.4423,
+        "west": -120.50101,
+        "north": 34.57418,
+        "east": -120.35771
+      }
+    },
+    {
+      "name": "Oak Neighborhood Park",
+      "manager": "Private",
+      "designation": "Private Recreation or Education",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.85503,
+        "west": -120.42202,
+        "north": 34.8558,
+        "east": -120.42023
+      }
+    },
+    {
+      "name": "Unnamed site - Other State",
+      "manager": null,
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.69001,
+        "west": -124.2689,
+        "north": 41.27719,
+        "east": -120.34384
+      }
+    },
+    {
+      "name": "Carpinteria Salt Marsh Reserve - UC Natural Reserve",
+      "manager": null,
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.396,
+        "west": -119.53868,
+        "north": 34.40506,
+        "east": -119.52715
+      }
+    },
+    {
+      "name": "Coal Oil Point Natural Reserve",
+      "manager": null,
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.40689,
+        "west": -119.88448,
+        "north": 34.41769,
+        "east": -119.87254
+      }
+    },
+    {
+      "name": "Sedgwick Reserve",
+      "manager": null,
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.67875,
+        "west": -120.0717,
+        "north": 34.74399,
+        "east": -120.01176
+      }
+    },
+    {
+      "name": "UC Reserve System land",
+      "manager": null,
+      "designation": null,
+      "access": "restricted",
+      "bbox": {
+        "south": 34.46417,
+        "west": -119.70994,
+        "north": 34.47222,
+        "east": -119.69722
+      }
+    },
+    {
+      "name": "North Coast Open Space",
+      "manager": null,
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41633,
+        "west": -119.88493,
+        "north": 34.42231,
+        "east": -119.87073
+      }
+    },
+    {
+      "name": "Rancho Dos Vistas",
+      "manager": "State Department of Conservation",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.50877,
+        "west": -120.12171,
+        "north": 34.53781,
+        "east": -120.09419
+      }
+    },
+    {
+      "name": "RHR, Santa Rosa Creek",
+      "manager": "State Department of Conservation",
+      "designation": null,
+      "access": null,
+      "bbox": {
+        "south": 34.61954,
+        "west": -120.2884,
+        "north": 34.6322,
+        "east": -120.28415
+      }
+    },
+    {
+      "name": "Santa Claus Lane Beach",
+      "manager": "State Department of Land",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.40336,
+        "west": -119.54803,
+        "north": 34.40541,
+        "east": -119.54606
+      }
+    },
+    {
+      "name": "California State Lands Commission",
+      "manager": "State Department of Land",
+      "designation": "State Resource Management Area",
+      "access": "open",
+      "bbox": {
+        "south": 32.68288,
+        "west": -124.16262,
+        "north": 41.99738,
+        "east": -114.24526
+      }
+    },
+    {
+      "name": "Burton Mesa Ecological Reserve",
+      "manager": "State Fish and Wildlife",
+      "designation": "State Conservation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.68871,
+        "west": -120.50382,
+        "north": 34.74919,
+        "east": -120.39269
+      }
+    },
+    {
+      "name": "Refugio State Beach",
+      "manager": "State Park and Recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45396,
+        "west": -120.09743,
+        "north": 34.46265,
+        "east": -120.04682
+      }
+    },
+    {
+      "name": "Burton Mesa Ecological Reserve",
+      "manager": "State Fish and Wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.69066,
+        "west": -120.4505,
+        "north": 34.70014,
+        "east": -120.44244
+      }
+    },
+    {
+      "name": "Carrizo Plains Ecological Reserve",
+      "manager": "State Fish and Wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.04442,
+        "west": -120.05859,
+        "north": 35.23445,
+        "east": -119.62917
+      }
+    },
+    {
+      "name": "Goleta Slough Ecological Reserve",
+      "manager": "State Fish and Wildlife",
+      "designation": "State Conservation Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.42257,
+        "west": -119.86508,
+        "north": 34.42433,
+        "east": -119.8514
+      }
+    },
+    {
+      "name": "Santa Ines Mission Mill",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "restricted",
+      "bbox": {
+        "south": 34.59233,
+        "west": -120.13296,
+        "north": 34.59802,
+        "east": -120.12681
+      }
+    },
+    {
+      "name": "El Presidio de Santa Barbara State Historic Park",
+      "manager": "Non-Governmental Organization",
+      "designation": "State Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.42159,
+        "west": -119.69985,
+        "north": 34.42374,
+        "east": -119.69736
+      }
+    },
+    {
+      "name": "Chumash Painted Cave State Historic Park",
+      "manager": "State Park and Recreation",
+      "designation": "State Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.50155,
+        "west": -119.79011,
+        "north": 34.50603,
+        "east": -119.78731
+      }
+    },
+    {
+      "name": "La Purísima Mission State Historic Park",
+      "manager": "State Park and Recreation",
+      "designation": "State Historic or Cultural Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.66758,
+        "west": -120.44031,
+        "north": 34.7004,
+        "east": -120.39922
+      }
+    },
+    {
+      "name": "Carpinteria State Beach",
+      "manager": "State Park and Recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.3873,
+        "west": -119.52532,
+        "north": 34.39551,
+        "east": -119.51303
+      }
+    },
+    {
+      "name": "El Capitán State Beach",
+      "manager": "State Park and Recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.45766,
+        "west": -120.03262,
+        "north": 34.5116,
+        "east": -119.98164
+      }
+    },
+    {
+      "name": "Gaviota State Park",
+      "manager": "State Park and Recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.46378,
+        "west": -120.2485,
+        "north": 34.51216,
+        "east": -120.10159
+      }
+    },
+    {
+      "name": "Pismo State Beach",
+      "manager": "State Park and Recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 35.04128,
+        "west": -120.65009,
+        "north": 35.14693,
+        "east": -120.60188
+      }
+    },
+    {
+      "name": "Point Sal State Beach",
+      "manager": "State Park and Recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.89213,
+        "west": -120.67132,
+        "north": 34.90275,
+        "east": -120.64191
+      }
+    },
+    {
+      "name": "Refugio State Beach",
+      "manager": "State Park and Recreation",
+      "designation": "State Park",
+      "access": "open",
+      "bbox": {
+        "south": 34.46018,
+        "west": -120.08961,
+        "north": 34.46522,
+        "east": -120.0322
+      }
+    },
+    {
+      "name": "Oceano Dunes State Vehicular Recreation Area",
+      "manager": "State Park and Recreation",
+      "designation": "State Recreation Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.00881,
+        "west": -120.63644,
+        "north": 35.08099,
+        "east": -120.60012
+      }
+    },
+    {
+      "name": "Oceano Dunes State Vehicular Recreation Area",
+      "manager": "State Park and Recreation",
+      "designation": "State Recreation Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 35.02377,
+        "west": -120.62014,
+        "north": 35.057,
+        "east": -120.59326
+      }
+    },
+    {
+      "name": "Point Sal Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 34.90265,
+        "west": -120.67174,
+        "north": 34.90732,
+        "east": -120.6621
+      }
+    },
+    {
+      "name": "Upper Cuyama Valley Area of Critical Environmental Concern",
+      "manager": "Bureau of Land Management",
+      "designation": "Area of Critical Environmental Concern",
+      "access": "open",
+      "bbox": {
+        "south": 34.7774,
+        "west": -119.58614,
+        "north": 34.92731,
+        "east": -119.43567
+      }
+    },
+    {
+      "name": "California Coastal National Monument",
+      "manager": "Bureau of Land Management",
+      "designation": "National Monument",
+      "access": "open",
+      "bbox": {
+        "south": 32.66511,
+        "west": -124.41811,
+        "north": 41.99579,
+        "east": -117.24007
+      }
+    },
+    {
+      "name": "Carrizo Plain National Monument",
+      "manager": "Bureau of Land Management",
+      "designation": "National Monument",
+      "access": "open",
+      "bbox": {
+        "south": 34.93805,
+        "west": -119.98062,
+        "north": 35.29258,
+        "east": -119.43784
+      }
+    },
+    {
+      "name": "Big Rocks Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.10933,
+        "west": -120.13986,
+        "north": 35.17707,
+        "east": -120.00948
+      }
+    },
+    {
+      "name": "Camuesa Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.52146,
+        "west": -119.77129,
+        "north": 34.57023,
+        "east": -119.6264
+      }
+    },
+    {
+      "name": "Condor Point Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.47552,
+        "west": -120.07722,
+        "north": 34.53637,
+        "east": -119.84573
+      }
+    },
+    {
+      "name": "Cuyama Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.74039,
+        "west": -119.57351,
+        "north": 34.83998,
+        "east": -119.43162
+      }
+    },
+    {
+      "name": "De La Guerra Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.66999,
+        "west": -119.98349,
+        "north": 34.72628,
+        "east": -119.90947
+      }
+    },
+    {
+      "name": "Diable Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.50983,
+        "west": -119.58659,
+        "north": 34.60793,
+        "east": -119.45246
+      }
+    },
+    {
+      "name": "Fox Mountain Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.77343,
+        "west": -119.90084,
+        "north": 34.94439,
+        "east": -119.54699
+      }
+    },
+    {
+      "name": "Horseshoe Springs Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.91917,
+        "west": -120.1918,
+        "north": 35.00638,
+        "east": -120.09435
+      }
+    },
+    {
+      "name": "Juncal Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.48611,
+        "west": -119.57608,
+        "north": 34.54433,
+        "east": -119.42747
+      }
+    },
+    {
+      "name": "La Brea Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.78382,
+        "west": -120.14177,
+        "north": 35.02597,
+        "east": -119.99259
+      }
+    },
+    {
+      "name": "Little Pine Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.59418,
+        "west": -119.77857,
+        "north": 34.63255,
+        "east": -119.73185
+      }
+    },
+    {
+      "name": "Los Machos Hills Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.13541,
+        "west": -120.23208,
+        "north": 35.21592,
+        "east": -120.11259
+      }
+    },
+    {
+      "name": "Lpoor Canyon Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.91737,
+        "west": -120.06407,
+        "north": 35.08558,
+        "east": -119.90133
+      }
+    },
+    {
+      "name": "Malduce Buckhorn Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.54786,
+        "west": -119.73662,
+        "north": 34.74762,
+        "east": -119.3865
+      }
+    },
+    {
+      "name": "Manzana Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.76066,
+        "west": -120.01136,
+        "north": 34.80465,
+        "east": -119.94603
+      }
+    },
+    {
+      "name": "Matilija Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.48972,
+        "west": -119.44142,
+        "north": 34.64665,
+        "east": -119.33661
+      }
+    },
+    {
+      "name": "Mirada Pime Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.99537,
+        "west": -120.13979,
+        "north": 35.0737,
+        "east": -120.0354
+      }
+    },
+    {
+      "name": "Mono Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.55863,
+        "west": -119.65428,
+        "north": 34.67174,
+        "east": -119.44322
+      }
+    },
+    {
+      "name": "Santa Cruz Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.54323,
+        "west": -119.91778,
+        "north": 34.73655,
+        "east": -119.71674
+      }
+    },
+    {
+      "name": "Sawmill - Badlands Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.69664,
+        "west": -119.43615,
+        "north": 34.86298,
+        "east": -119.05749
+      }
+    },
+    {
+      "name": "Stanley Mountain Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 35.06465,
+        "west": -120.29564,
+        "north": 35.14959,
+        "east": -120.11837
+      }
+    },
+    {
+      "name": "Tepusquet Peak Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.87587,
+        "west": -120.19505,
+        "north": 34.94008,
+        "east": -120.13127
+      }
+    },
+    {
+      "name": "Tequepis Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.50657,
+        "west": -120.0475,
+        "north": 34.55374,
+        "east": -119.85026
+      }
+    },
+    {
+      "name": "White Ledge Roadless Area",
+      "manager": "Forest Service",
+      "designation": "Inventoried Roadless Area",
+      "access": "open",
+      "bbox": {
+        "south": 34.41978,
+        "west": -119.50095,
+        "north": 34.50613,
+        "east": -119.33965
+      }
+    },
+    {
+      "name": "Caliente Mountain Wilderness Study Area",
+      "manager": "Bureau of Land Management",
+      "designation": "Wilderness Study Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.99032,
+        "west": -119.84487,
+        "north": 35.12465,
+        "east": -119.71152
+      }
+    },
+    {
+      "name": "Big Pine Mountain Research Natural Area",
+      "manager": "Forest Service",
+      "designation": "Research Natural Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.68891,
+        "west": -119.68446,
+        "north": 34.73125,
+        "east": -119.62622
+      }
+    },
+    {
+      "name": "Dick Smith Wilderness",
+      "manager": "Forest Service",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.57597,
+        "west": -119.6813,
+        "north": 34.78645,
+        "east": -119.38637
+      }
+    },
+    {
+      "name": "Matilija Wilderness",
+      "manager": "Forest Service",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.49016,
+        "west": -119.47189,
+        "north": 34.627,
+        "east": -119.33682
+      }
+    },
+    {
+      "name": "San Rafael Wilderness",
+      "manager": "Forest Service",
+      "designation": "Wilderness Area",
+      "access": "restricted",
+      "bbox": {
+        "south": 34.61392,
+        "west": -120.12488,
+        "north": 35.02463,
+        "east": -119.61716
+      }
+    },
+    {
+      "name": "Sisquoc, California Wild and Scenic River",
+      "manager": "Forest Service",
+      "designation": "Wild and Scenic River",
+      "access": "open",
+      "bbox": {
+        "south": 34.69983,
+        "west": -120.02389,
+        "north": 34.85205,
+        "east": -119.6292
+      }
+    },
+    {
+      "name": "Agricultural Conservation Easement Program - Agricultural Land Easements (ACEP-ALE), Santa Barbara, CA",
+      "manager": "Natural Resources Conservation Service",
+      "designation": "Agricultural Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 34.655,
+        "west": -120.55433,
+        "north": 34.68,
+        "east": -120.53653
+      }
+    },
+    {
+      "name": "Farm and Ranch Lands Protection Program (FRPP), San Luis Obispo, CA",
+      "manager": "Natural Resources Conservation Service",
+      "designation": "Agricultural Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.12035,
+        "west": -120.56809,
+        "north": 35.12421,
+        "east": -120.56037
+      }
+    },
+    {
+      "name": "Farm and Ranch Lands Protection Program (FRPP), Santa Barbara, CA",
+      "manager": "Natural Resources Conservation Service",
+      "designation": "Agricultural Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 34.64836,
+        "west": -120.43192,
+        "north": 34.66061,
+        "east": -120.40108
+      }
+    },
+    {
+      "name": "Black Lake Canyon (Choin)",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 35.05513,
+        "west": -120.57232,
+        "north": 35.0586,
+        "east": -120.565
+      }
+    },
+    {
+      "name": "California Valley Conservation Easement",
+      "manager": "State Fish and Wildlife",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 35.04147,
+        "west": -120.09429,
+        "north": 35.39389,
+        "east": -119.534
+      }
+    },
+    {
+      "name": "California Valley Conservation Easement",
+      "manager": "State Fish and Wildlife",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 35.01581,
+        "west": -119.93396,
+        "north": 35.35118,
+        "east": -119.60527
+      }
+    },
+    {
+      "name": "California Valley Conservation Easement",
+      "manager": "State Fish and Wildlife",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 35.01936,
+        "west": -120.02308,
+        "north": 35.35147,
+        "east": -119.57864
+      }
+    },
+    {
+      "name": "Coastal San Luis Resource Conservation District Easement",
+      "manager": "Regional Agency Land",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 35.12034,
+        "west": -120.56819,
+        "north": 35.12417,
+        "east": -120.56053
+      }
+    },
+    {
+      "name": "Mackie Mountain",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.71175,
+        "west": -120.4657,
+        "north": 34.71555,
+        "east": -120.46272
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.80126,
+        "west": -120.3665,
+        "north": 34.83082,
+        "east": -120.34249
+      }
+    },
+    {
+      "name": "Modoc Preserve",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43596,
+        "west": -119.76828,
+        "north": 34.43828,
+        "east": -119.75663
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.62333,
+        "west": -120.00153,
+        "north": 34.62856,
+        "east": -119.97889
+      }
+    },
+    {
+      "name": "West Fork Cold Springs Trail",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "restricted",
+      "bbox": {
+        "south": 34.46123,
+        "west": -119.66644,
+        "north": 34.46487,
+        "east": -119.65318
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.55874,
+        "west": -120.24696,
+        "north": 34.57557,
+        "east": -120.21058
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.41471,
+        "west": -119.51329,
+        "north": 34.424,
+        "east": -119.50428
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.46516,
+        "west": -120.06608,
+        "north": 34.46643,
+        "east": -120.06288
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.60846,
+        "west": -120.30939,
+        "north": 34.60992,
+        "east": -120.30663
+      }
+    },
+    {
+      "name": "015R2",
+      "manager": "Natural Resources Conservation Service",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.64836,
+        "west": -120.43192,
+        "north": 34.66061,
+        "east": -120.40108
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.47713,
+        "west": -120.06239,
+        "north": 34.50112,
+        "east": -120.04594
+      }
+    },
+    {
+      "name": "Ennisbrook\\ San Ysidro Trail",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "restricted",
+      "bbox": {
+        "south": 34.42519,
+        "west": -119.62292,
+        "north": 34.43654,
+        "east": -119.61622
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.61527,
+        "west": -120.34557,
+        "north": 34.62272,
+        "east": -120.33844
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.46289,
+        "west": -120.02241,
+        "north": 34.47112,
+        "east": -120.00768
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.41501,
+        "west": -119.53525,
+        "north": 34.46801,
+        "east": -119.49091
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.46417,
+        "west": -119.70993,
+        "north": 34.47222,
+        "east": -119.69721
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.63381,
+        "west": -120.2256,
+        "north": 34.6421,
+        "east": -120.21825
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.59745,
+        "west": -120.33971,
+        "north": 34.60395,
+        "east": -120.32283
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.90633,
+        "west": -120.67009,
+        "north": 34.91364,
+        "east": -120.65745
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.59772,
+        "west": -119.98332,
+        "north": 34.62699,
+        "east": -119.96456
+      }
+    },
+    {
+      "name": "South Parcel",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.41307,
+        "west": -119.88492,
+        "north": 34.42215,
+        "east": -119.87457
+      }
+    },
+    {
+      "name": "Arroyo Burro Trail",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "restricted",
+      "bbox": {
+        "south": 34.47573,
+        "west": -119.7413,
+        "north": 34.49751,
+        "east": -119.71463
+      }
+    },
+    {
+      "name": "Capinteria Bluffs",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.38505,
+        "west": -119.50311,
+        "north": 34.38954,
+        "east": -119.49521
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.46112,
+        "west": -120.01836,
+        "north": 34.47227,
+        "east": -119.99854
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.39858,
+        "west": -119.54597,
+        "north": 34.40546,
+        "east": -119.53863
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.62333,
+        "west": -119.98587,
+        "north": 34.63047,
+        "east": -119.96991
+      }
+    },
+    {
+      "name": "Franklin Trail",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "restricted",
+      "bbox": {
+        "south": 34.41427,
+        "west": -119.5084,
+        "north": 34.41864,
+        "east": -119.50389
+      }
+    },
+    {
+      "name": "Land Trust for Santa Barbara County Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "closed",
+      "bbox": {
+        "south": 34.46629,
+        "west": -120.08956,
+        "north": 34.4793,
+        "east": -120.06022
+      }
+    },
+    {
+      "name": "Fairview Gardens",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "restricted",
+      "bbox": {
+        "south": 34.44709,
+        "west": -119.83051,
+        "north": 34.4488,
+        "east": -119.82722
+      }
+    },
+    {
+      "name": "Alamo Creek Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.03736,
+        "west": -120.27911,
+        "north": 35.06925,
+        "east": -120.21585
+      }
+    },
+    {
+      "name": "Rancho Dos Vistas",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 34.50888,
+        "west": -120.12178,
+        "north": 34.53782,
+        "east": -120.09478
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.05507,
+        "west": -120.57491,
+        "north": 35.05619,
+        "east": -120.5738
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.05758,
+        "west": -120.61932,
+        "north": 35.08197,
+        "east": -120.59707
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.12427,
+        "west": -120.57088,
+        "north": 35.12467,
+        "east": -120.56926
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "State Park and Recreation",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.03276,
+        "west": -120.61165,
+        "north": 35.057,
+        "east": -120.59325
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.05828,
+        "west": -120.55958,
+        "north": 35.05841,
+        "east": -120.55937
+      }
+    },
+    {
+      "name": "Rancho La Purisima",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 34.6601,
+        "west": -120.2293,
+        "north": 34.68974,
+        "east": -120.1754
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.05808,
+        "west": -120.55968,
+        "north": 35.06208,
+        "east": -120.55366
+      }
+    },
+    {
+      "name": "Midland School Oak Woodlands Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 34.71737,
+        "west": -120.09166,
+        "north": 34.77149,
+        "east": -120.029
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.07004,
+        "west": -120.60529,
+        "north": 35.08118,
+        "east": -120.59216
+      }
+    },
+    {
+      "name": "Conservation Easement",
+      "manager": "Non-Governmental Organization",
+      "designation": "Conservation Easement",
+      "access": "closed",
+      "bbox": {
+        "south": 35.06484,
+        "west": -120.28259,
+        "north": 35.07579,
+        "east": -120.26954
+      }
+    },
+    {
+      "name": "Modoc Preserve",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.43597,
+        "west": -119.7683,
+        "north": 34.43828,
+        "east": -119.75664
+      }
+    },
+    {
+      "name": "Mackie Mountain",
+      "manager": "Non-Governmental Organization",
+      "designation": null,
+      "access": "open",
+      "bbox": {
+        "south": 34.71175,
+        "west": -120.46572,
+        "north": 34.71556,
+        "east": -120.46274
+      }
+    }
+  ]
+}

@@ -25,7 +25,13 @@
       ],
       "tags": {
         "name": "19 Oaks Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -55,7 +61,13 @@
       ],
       "tags": {
         "name": "7 falls",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -82,7 +94,13 @@
       "tags": {
         "name": "Abel Canyon Campground",
         "operator": "United States Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -141,7 +159,13 @@
         "name": "Aclove Camp",
         "fee": "no",
         "operator": "Santa Lucia Ranger District",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -196,7 +220,13 @@
         "name": "Adam Park",
         "ele": "65",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Adam Park/Minami Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -224,7 +254,13 @@
       ],
       "tags": {
         "ridb": "252812",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -250,7 +286,13 @@
       ],
       "tags": {
         "name": "African Lions",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "padus": {
+          "name": "Andre Clark Bird Refuge",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -305,7 +347,13 @@
       ],
       "tags": {
         "name": "Alamar Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Dick Smith Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -334,7 +382,13 @@
       "tags": {
         "name": "Alamar Hill",
         "ele": "1099",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mono Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -421,7 +475,13 @@
       "tags": {
         "name": "Alder Creek Camp",
         "access": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -451,7 +511,12 @@
         "name": "Alec Sutaruk",
         "historic": "memorial",
         "inscription": "In Memoriam / Alex Sutaruk / 1927 - 2003 / Who Loved The Sea",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "padus": {
+          "name": "Santa Barbara Maitime Museum",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -480,7 +545,13 @@
       "tags": {
         "name": "Alexander Peak",
         "ele": "1247",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -510,7 +581,13 @@
         "wikidata": "Q4725940",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/alice-keck-park-memorial-garden",
         "operator": "Santa Barbara Parks and Recreation",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Alice Keck Park Memorial Garden",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -536,7 +613,13 @@
       ],
       "tags": {
         "name": "Alice Trefts Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Alice Threfts Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -620,7 +703,13 @@
         "ele": "5",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/ambassador-park",
         "operator": "Santa Barbara Parks and Recreation",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Ambassador Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -676,7 +765,13 @@
         "name": "Andamar Park",
         "website": "https://www.cityofgoleta.org/Home/Components/FacilityDirectory/FacilityDirectory/92/2467",
         "operator": "City of Goleta",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Andamar Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -709,6 +804,12 @@
         "leisure": "park",
         "commons": {
           "photos": 14
+        },
+        "padus": {
+          "name": "Andre Clark Bird Refuge",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -736,7 +837,13 @@
       "tags": {
         "name": "Anisq'Oyo' Park",
         "ele": "15",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Anisq'Oyo Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -822,7 +929,13 @@
       ],
       "tags": {
         "name": "Armitos Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Armitos Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -849,7 +962,13 @@
       "tags": {
         "name": "Armstrong Park",
         "ele": "72",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Armstrong Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -881,6 +1000,12 @@
         "leisure": "park",
         "commons": {
           "photos": 459
+        },
+        "padus": {
+          "name": "Douglas Family Reserve",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -971,6 +1096,12 @@
         "leisure": "park",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Ferini Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -998,7 +1129,13 @@
       "tags": {
         "name": "Atkinson Park",
         "ele": "63",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Atkinson Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1027,6 +1164,12 @@
         "tourism": "attraction",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -1056,6 +1199,12 @@
         "tourism": "attraction",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -1117,7 +1266,13 @@
       "tags": {
         "name": "Bald Mountain",
         "ele": "1209",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1177,7 +1332,13 @@
         "website": "https://www.fs.usda.gov/recarea/lpnf/recreation/ohv/recarea/?recid=11016&actid=93",
         "fee": "yes",
         "operator": "US Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -1206,6 +1367,12 @@
         "tourism": "attraction",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -1235,6 +1402,12 @@
         "tourism": "attraction",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -1264,7 +1437,13 @@
       "tags": {
         "name": "Barger Peak",
         "ele": "1036",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -1291,7 +1470,13 @@
       "tags": {
         "name": "Bates Canyon Campground",
         "website": "https://www.fs.usda.gov/recarea/lpnf/recarea?recid=11113",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -1377,7 +1562,13 @@
         "name": "Bear Camp",
         "fee": "no",
         "access": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Big Pine Mountain Research Natural Area",
+          "manager": "Forest Service",
+          "designation": "Research Natural Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1406,7 +1597,13 @@
       "tags": {
         "name": "Becky Castillo",
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "padus": {
+          "name": "Goleta Beach County Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -1465,6 +1662,11 @@
         "leisure": "park",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Bella Vista I & II",
+          "manager": "County Land",
+          "access": "open"
         }
       }
     },
@@ -1491,7 +1693,13 @@
       ],
       "tags": {
         "name": "Berkeley Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Emerald Terrace Open Space",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -1579,7 +1787,13 @@
       "tags": {
         "curiosity": "Hot spring",
         "wikidata": "Q103817205",
-        "wikipedia": "https://en.wikipedia.org/wiki/Big_Caliente_Hot_Springs"
+        "wikipedia": "https://en.wikipedia.org/wiki/Big_Caliente_Hot_Springs",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -1608,6 +1822,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
         }
       }
     },
@@ -1634,7 +1854,13 @@
       ],
       "tags": {
         "name": "Big Pine Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Big Pine Mountain Research Natural Area",
+          "manager": "Forest Service",
+          "designation": "Research Natural Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1664,7 +1890,13 @@
         "name": "Big Pine Mountain",
         "ele": "2077",
         "wikidata": "Q4906126",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Big Pine Mountain Research Natural Area",
+          "manager": "Forest Service",
+          "designation": "Research Natural Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1900,7 +2132,13 @@
       ],
       "tags": {
         "name": "Bluff Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Dick Smith Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -1929,7 +2167,13 @@
       "tags": {
         "name": "Boar Peak",
         "ele": "563",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Bakersfield Field Office",
+          "manager": "Bureau of Land Management",
+          "designation": "National Public Lands",
+          "access": "open"
+        }
       }
     },
     {
@@ -1959,7 +2203,13 @@
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/bohnett-park",
         "access": "yes",
         "operator": "Santa Barbara Parks and Recreation",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Bohnett Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2043,7 +2293,13 @@
       ],
       "tags": {
         "name": "Boy Scout Camp Area",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -2072,7 +2328,12 @@
       "tags": {
         "name": "Boy On a Seahorse",
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Santa Barbara Maitime Museum",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -2134,6 +2395,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Cachuma Lake Recreation Area",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -2163,7 +2430,13 @@
       "tags": {
         "name": "Broadcast Peak",
         "ele": "1228",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -2192,7 +2465,13 @@
       "tags": {
         "name": "Brown Mountain",
         "ele": "759",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -2221,7 +2500,13 @@
       "tags": {
         "name": "Brush Peak",
         "ele": "935",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Tequepis Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -2249,7 +2534,13 @@
       ],
       "tags": {
         "name": "Bubb's Peak",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2276,7 +2567,13 @@
       "tags": {
         "name": "Buck Spring Campground",
         "website": "https://www.fs.usda.gov/recarea/lpnf/recarea/?recid=11115",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Big Rocks Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -2305,6 +2602,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Buena Vista Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -2365,6 +2668,12 @@
         "natural": "peak",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -2420,7 +2729,13 @@
         "name": "Cabrillo Park",
         "ele": "3",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Cabrillo Bell Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -2450,7 +2765,13 @@
         "fee": "yes",
         "operator": "Santa Barbara County Parks",
         "wheelchair": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Cachuma Lake Recreation Area",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -2479,7 +2800,13 @@
       "tags": {
         "name": "Cachuma Mountain",
         "ele": "1409",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -2505,7 +2832,13 @@
       ],
       "tags": {
         "name": "Cachuma",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -2565,7 +2898,13 @@
         "name": "Caliente Mountain Wilderness Study Area",
         "operator": "BLM",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Caliente Mountain Wilderness Study Area",
+          "manager": "Bureau of Land Management",
+          "designation": "Wilderness Study Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -2595,7 +2934,13 @@
         "name": "Caliente Mountain",
         "ele": "1556.3",
         "wikidata": "Q5019902",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Caliente Mountain Wilderness Study Area",
+          "manager": "Bureau of Land Management",
+          "designation": "Wilderness Study Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -2767,7 +3112,11 @@
       ],
       "tags": {
         "name": "Calle Barquero Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Maria Ygnacia Creek",
+          "manager": "County Land"
+        }
       }
     },
     {
@@ -2829,6 +3178,12 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 100
+        },
+        "padus": {
+          "name": "Camino Corto Open Space",
+          "manager": "Regional Agency Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -2858,6 +3213,12 @@
         "leisure": "park",
         "commons": {
           "photos": 7
+        },
+        "padus": {
+          "name": "Camino Pescadero Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -2889,6 +3250,12 @@
         "historic": "memorial",
         "commons": {
           "photos": 140
+        },
+        "padus": {
+          "name": "Mission Santa Inés",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -2950,6 +3317,12 @@
         "leisure": "park",
         "commons": {
           "photos": 141
+        },
+        "padus": {
+          "name": "Mission Santa Inés",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -2979,7 +3352,13 @@
       "tags": {
         "name": "Campus Point State Marine Conservation Area",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Campus Point State Marine Conservation Area",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -3008,7 +3387,13 @@
       "tags": {
         "name": "Camuesa Peak",
         "ele": "962",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Camuesa Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -3207,6 +3592,12 @@
         "leisure": "park",
         "commons": {
           "photos": 13
+        },
+        "padus": {
+          "name": "Rincon Beach Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -3240,6 +3631,11 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Capinteria Bluffs",
+          "manager": "Non-Governmental Organization",
+          "access": "open"
         }
       }
     },
@@ -3300,7 +3696,11 @@
       ],
       "tags": {
         "name": "Carpinteria Creek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Carpinteria Creek",
+          "manager": "County Land"
+        }
       }
     },
     {
@@ -3411,6 +3811,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 41
+        },
+        "padus": {
+          "name": "Carpinteria State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -3453,6 +3859,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 34
+        },
+        "padus": {
+          "name": "Carpinteria State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -3484,6 +3896,11 @@
         "natural": "feature",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Capinteria Bluffs",
+          "manager": "Non-Governmental Organization",
+          "access": "open"
         }
       }
     },
@@ -3546,7 +3963,13 @@
         "website": "https://www.blm.gov/programs/national-conservation-lands/california/carrizo-plain-national-monument",
         "operator": "Bureau of Land Management",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -3577,7 +4000,13 @@
         "website": "https://wildlife.ca.gov/Lands/Places-to-Visit/Carrizo-Plains-ER",
         "operator": "California Department of Fish and Wildlife",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -3640,7 +4069,12 @@
       "tags": {
         "name": "Cathedral Peak",
         "ele": "1016",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Arroyo Burro Trail",
+          "manager": "Non-Governmental Organization",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -3671,6 +4105,12 @@
         "ridb_type": "Facility",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -3816,7 +4256,13 @@
       ],
       "tags": {
         "name": "Chalk Mountain",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -3877,7 +4323,13 @@
       "tags": {
         "name": "Chase Palm Park",
         "website": "https://www.santabarbaraca.gov/gov/depts/parksrec/parks/features/playgrounds/chase.asp",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Chase Palm Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3905,7 +4357,13 @@
         "name": "Chase Palm Park",
         "ele": "3",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Chase Palm Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -3939,6 +4397,11 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 119
+        },
+        "padus": {
+          "name": "North Coast Open Space",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -3973,6 +4436,11 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 129
+        },
+        "padus": {
+          "name": "North Coast Open Space",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -4035,7 +4503,13 @@
         "name": "Chismahoo Mountain",
         "ele": "891",
         "wikidata": "Q35734507",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -4064,7 +4538,13 @@
       "tags": {
         "name": "Chromatic Gate, 1991",
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Cabrillo Bell Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4167,6 +4647,12 @@
         "historic": "ruins",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Chumash Painted Cave State Historic Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Historic or Cultural Area",
+          "access": "open"
         }
       }
     },
@@ -4197,6 +4683,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Chumash Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -4279,7 +4771,13 @@
       ],
       "tags": {
         "name": "Cliff Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -4343,6 +4841,11 @@
         "ebird_species": 261,
         "commons": {
           "photos": 379
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -4377,6 +4880,11 @@
         "ebird_species": 290,
         "commons": {
           "photos": 482
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -4411,6 +4919,11 @@
         "ebird_species": 311,
         "commons": {
           "photos": 302
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -4442,6 +4955,11 @@
         "tourism": "artwork",
         "commons": {
           "photos": 416
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -4475,6 +4993,11 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 485
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -4537,6 +5060,11 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 67
+        },
+        "padus": {
+          "name": "North Coast Open Space",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -4566,6 +5094,12 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -4637,7 +5171,13 @@
         "name": "Cold Spring Water Tower",
         "direction": "0-360",
         "tourism": "viewpoint",
-        "man_made": "water_tower"
+        "man_made": "water_tower",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -4694,7 +5234,13 @@
       ],
       "tags": {
         "name": "Coldwater Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -4726,6 +5272,11 @@
         "historic": "monument",
         "commons": {
           "photos": 394
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -4814,7 +5365,13 @@
       ],
       "tags": {
         "name": "Competition Hill",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -4852,7 +5409,12 @@
         "historic": "memorial",
         "inscription": "In memory of those who lost their lives September 2, 2019 on board the conception at Platt's Harbor, Santa Cruz Island",
         "memorial": "plaque",
-        "name": "Conception Memorial"
+        "name": "Conception Memorial",
+        "padus": {
+          "name": "Santa Barbara Maitime Museum",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -4908,7 +5470,13 @@
       "tags": {
         "name": "Condor Point",
         "ele": "915",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Condor Point Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -4935,7 +5503,12 @@
       "tags": {
         "name": "Coronado Butterfly Preserve",
         "operator": "City of Goleta",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "padus": {
+          "name": "Ellwood Mesa",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -4963,7 +5536,13 @@
         "name": "Costa Bella Park",
         "website": "http://grover.org/index.aspx?nid=141",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Costa Bella Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -4989,7 +5568,13 @@
       ],
       "tags": {
         "name": "Cottam Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -5017,7 +5602,13 @@
       ],
       "tags": {
         "name": "Coulter Peak",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -5048,6 +5639,11 @@
         "historic": "memorial",
         "commons": {
           "photos": 23
+        },
+        "padus": {
+          "name": "Cathedral Oaks Fire Center",
+          "manager": "County Land",
+          "designation": "Local Recreation Area"
         }
       }
     },
@@ -5151,6 +5747,12 @@
         "leisure": "park",
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Crossroads Soccer Field",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5211,6 +5813,12 @@
         "ridb_type": "Facility",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -5240,7 +5848,13 @@
       "tags": {
         "name": "Cuyama Peak",
         "ele": "1787",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -5329,7 +5943,13 @@
         "website": "https://www.fs.usda.gov/recarea/lpnf/recarea/?recid=11120",
         "fee": "yes",
         "operator": "US Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -5357,7 +5977,13 @@
       ],
       "tags": {
         "ridb": "252730",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -5440,7 +6066,12 @@
         "name": "The Deepwater Diving Monument",
         "website": "https://www.deepwaterdivingmonument.com/",
         "artwork_type": "statue",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Santa Barbara Maitime Museum",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -5476,6 +6107,12 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 52
+        },
+        "padus": {
+          "name": "Del Sol Vernal Pool Reserve",
+          "manager": "Regional Agency Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -5596,7 +6233,13 @@
         "wikidata": "Q5273394",
         "operator": "United States Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Dick Smith Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -5622,7 +6265,13 @@
       ],
       "tags": {
         "name": "Dinosaur Playground",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Los Flores Ranch Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -5654,6 +6303,12 @@
         "tourism": "artwork",
         "commons": {
           "photos": 156
+        },
+        "padus": {
+          "name": "Tierra De Fortuna Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -5727,7 +6382,13 @@
       ],
       "tags": {
         "ridb": "252838",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -5756,7 +6417,13 @@
       "tags": {
         "name": "Divide Peak",
         "ele": "1384",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -5786,6 +6453,12 @@
         "leisure": "park",
         "commons": {
           "photos": 465
+        },
+        "padus": {
+          "name": "Douglas Family Reserve",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -5842,7 +6515,13 @@
       "tags": {
         "name": "Dwight Murphy Field",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Dwight Murphy Field",
+          "manager": "City Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -5869,7 +6548,13 @@
       "tags": {
         "name": "Dwight Murphy Park",
         "ele": "4",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Dwight Murphy Field",
+          "manager": "City Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -6012,7 +6697,13 @@
         "ele": "16",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/eastside-neighborhood-park",
         "operator": "Santa Barbara Parks and Recreation",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "East Side Neighborhood Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6131,6 +6822,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "El Capitán State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -6169,6 +6866,12 @@
         "wikimedia_commons": "Category:El Capitán State Beach",
         "commons": {
           "photos": 16
+        },
+        "padus": {
+          "name": "El Capitán State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -6196,7 +6899,13 @@
       "tags": {
         "name": "El Carro Park",
         "ele": "19",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "El Carro Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6323,7 +7032,13 @@
         "wikipedia": "en:Presidio of Santa Barbara",
         "wikidata": "Q3402430",
         "website": "http://www.parks.ca.gov/?page_id=608",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "El Presidio de Santa Barbara State Historic Park",
+          "manager": "Non-Governmental Organization",
+          "designation": "State Historic or Cultural Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -6353,6 +7068,11 @@
         "leisure": "park",
         "commons": {
           "photos": 12
+        },
+        "padus": {
+          "name": "Santa Ynez Reservation",
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -6384,6 +7104,12 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Elings Park - Elings Park Foundation",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -6416,6 +7142,12 @@
         "natural": "peak",
         "commons": {
           "photos": 10
+        },
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
         }
       }
     },
@@ -6531,7 +7263,13 @@
       ],
       "tags": {
         "name": "Elm Street Dog Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Soto Sports Complex",
+          "manager": "City Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -6560,7 +7298,13 @@
       "tags": {
         "name": "Elusive Arch",
         "natural": "arch",
-        "curiosity": "Natural arch"
+        "curiosity": "Natural arch",
+        "padus": {
+          "name": "Condor Point Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -6587,7 +7331,13 @@
       "tags": {
         "name": "Escondido Park",
         "ele": "96",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Escondido Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -6618,6 +7368,12 @@
         "leisure": "park",
         "commons": {
           "photos": 35
+        },
+        "padus": {
+          "name": "Estero Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -6731,6 +7487,12 @@
         "leisure": "park",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Unknown Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -6818,7 +7580,12 @@
       ],
       "tags": {
         "name": "Fennic Fox",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "padus": {
+          "name": "Santa Barbara Zoological Gardens",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -6850,6 +7617,12 @@
         "highway": "service",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -6880,7 +7653,13 @@
         "name": "Figueroa Mountain",
         "ele": "1378",
         "wikidata": "Q5447982",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -6907,7 +7686,12 @@
       "tags": {
         "name": "Firescape",
         "description": "A Demonstration Garden of the City's Fire Department",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sheffield Reservoir",
+          "manager": "City Land",
+          "designation": "Local Recreation Area"
+        }
       }
     },
     {
@@ -6935,7 +7719,13 @@
       ],
       "tags": {
         "ridb": "252902",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -6961,7 +7751,13 @@
       ],
       "tags": {
         "name": "Fish Creek Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -6987,7 +7783,12 @@
       ],
       "tags": {
         "name": "Flamingos",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "padus": {
+          "name": "Santa Barbara Zoological Gardens",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -7016,6 +7817,12 @@
         "leisure": "park",
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Fletcher Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -7129,7 +7936,13 @@
       ],
       "tags": {
         "name": "Forbush Flat Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -7187,7 +8000,13 @@
       "tags": {
         "name": "Fox Mountain",
         "ele": "1569",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Fox Mountain Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -7274,7 +8093,13 @@
       "tags": {
         "name": "Franceschi Steps",
         "description": "public land",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Franceschi Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7303,6 +8128,11 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Guadalupe Holding 2",
+          "manager": "City Land",
+          "access": "open"
         }
       }
     },
@@ -7334,7 +8164,12 @@
       "tags": {
         "name": "Frank's Bench",
         "wheelchair": "no",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Land Trust for Santa Barbara County Easement",
+          "manager": "Non-Governmental Organization",
+          "access": "closed"
+        }
       }
     },
     {
@@ -7360,7 +8195,13 @@
       ],
       "tags": {
         "name": "Franklin Creek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Franklin Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7425,7 +8266,13 @@
         "ridb_type": "Campground",
         "reservable": true,
         "name": "Fremont Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -7533,6 +8380,12 @@
         "leisure": "park",
         "commons": {
           "photos": 69
+        },
+        "padus": {
+          "name": "Gaffney Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -7566,6 +8419,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 13
+        },
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -7606,7 +8465,13 @@
         "natural": "hot_spring",
         "gnis": "243688",
         "wikidata": "Q124373117",
-        "wikipedia": "https://en.wikipedia.org/wiki/Gaviota_Hot_Springs"
+        "wikipedia": "https://en.wikipedia.org/wiki/Gaviota_Hot_Springs",
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7650,6 +8515,12 @@
         "natural": "peak",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -7684,6 +8555,12 @@
         "ebird_species": 260,
         "commons": {
           "photos": 13
+        },
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -7715,7 +8592,13 @@
         }
       ],
       "tags": {
-        "ebird_species": 264
+        "ebird_species": 264,
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7743,7 +8626,13 @@
         "name": "Gaviota State Park",
         "website": "https://www.parks.ca.gov/?page_id=606",
         "leisure": "park",
-        "boundary": "national_park"
+        "boundary": "national_park",
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7788,7 +8677,13 @@
         "fee": "no",
         "access": "yes",
         "natural": "cave_entrance",
-        "curiosity": "Cave"
+        "curiosity": "Cave",
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -7848,7 +8743,13 @@
       ],
       "tags": {
         "ridb": "252674",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres Other",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -7903,7 +8804,13 @@
       ],
       "tags": {
         "name": "Giraffe",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "padus": {
+          "name": "Andre Clark Bird Refuge",
+          "manager": "City Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -7929,7 +8836,13 @@
       ],
       "tags": {
         "name": "Girsh Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Girsh Park",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -7958,7 +8871,13 @@
       "tags": {
         "name": "Goat Rock",
         "ele": "838",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "De La Guerra Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -7984,7 +8903,13 @@
       ],
       "tags": {
         "name": "Golden West Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Golden West Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8020,7 +8945,13 @@
         "name": "Goleta Beach County Park",
         "ele": "2",
         "website": "https://www.countyofsb.org/813/Goleta-Beach-Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Goleta Beach County Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8051,6 +8982,12 @@
         "nrhp": "01001457",
         "commons": {
           "photos": 48
+        },
+        "padus": {
+          "name": "Lake Los Carneros Natural and Historical Preserve",
+          "manager": "County Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -8082,7 +9019,13 @@
         "ele": "2",
         "wikidata": "Q5580529",
         "natural": "wetland",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "padus": {
+          "name": "Goleta Slough Ecological Reserve",
+          "manager": "State Fish and Wildlife",
+          "designation": "State Conservation Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -8141,6 +9084,12 @@
         "leisure": "park",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Gould Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -8170,7 +9119,13 @@
       "tags": {
         "name": "Grass Mountain",
         "ele": "1123",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -8196,7 +9151,13 @@
       ],
       "tags": {
         "name": "Greek Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Greek Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8223,7 +9184,13 @@
       "tags": {
         "name": "Grogan Park",
         "ele": "59",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Grogan Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8265,6 +9232,12 @@
         "direction": "15",
         "commons": {
           "photos": 141
+        },
+        "padus": {
+          "name": "Mission Santa Inés",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -8294,6 +9267,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Grover Heights Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -8326,6 +9305,12 @@
         "tourism": "artwork",
         "commons": {
           "photos": 139
+        },
+        "padus": {
+          "name": "Mission Santa Inés",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -8352,7 +9337,13 @@
       ],
       "tags": {
         "name": "Guadalupe Dunes County Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Guadalupe-Nipomo Dunes Preserve Forest",
+          "manager": "County Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -8381,7 +9372,13 @@
       "tags": {
         "name": "Guadalupe-Nipomo Dunes National Wildlife Refuge",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Guadalupe-Nipomo Dunes National Wildlife Refuge",
+          "manager": "U.S. Fish and Wildlife Service",
+          "designation": "National Wildlife Refuge",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -8439,7 +9436,13 @@
         "ele": "120",
         "opening_hours": "sunrise-(sunset+00:30)",
         "leisure": "park",
-        "inscription": "DANGER|HIGH FIRE HAZARD AREA| NO OPEN FIRE|NO SMOKING|Santa Barbara City Fire Department"
+        "inscription": "DANGER|HIGH FIRE HAZARD AREA| NO OPEN FIRE|NO SMOKING|Santa Barbara City Fire Department",
+        "padus": {
+          "name": "Hale Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8501,6 +9504,11 @@
         "tourism": "artwork",
         "commons": {
           "photos": 145
+        },
+        "padus": {
+          "name": "Unknown park - Solvang, City of",
+          "manager": "City Land",
+          "access": "open"
         }
       }
     },
@@ -8527,7 +9535,13 @@
       ],
       "tags": {
         "name": "Happy Hollow Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -8553,7 +9567,13 @@
       ],
       "tags": {
         "name": "Happy Hunting Ground Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -8609,6 +9629,12 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Christmas Tree Island Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -8639,6 +9665,11 @@
         "leisure": "park",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Heath Ranch Park and Adobe",
+          "manager": "City Land",
+          "access": "open"
         }
       }
     },
@@ -8727,6 +9758,11 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Rotary Bandstand",
+          "manager": "City Land",
+          "access": "open"
         }
       }
     },
@@ -8782,7 +9818,13 @@
         }
       ],
       "tags": {
-        "nrhp": "00000363"
+        "nrhp": "00000363",
+        "padus": {
+          "name": "Chase Palm Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -8809,7 +9851,13 @@
       "tags": {
         "name": "Hidden Potrero Camp",
         "operator": "USFS",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -8865,6 +9913,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Highland Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -8896,6 +9950,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 42
+        },
+        "padus": {
+          "name": "Carpinteria State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -8991,7 +10051,13 @@
       "tags": {
         "name": "Hildreth Peak",
         "ele": "1527",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mono Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -9115,6 +10181,12 @@
         "ele": "84",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Thornbury Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -9144,6 +10216,12 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Hoosgow Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -9200,7 +10278,13 @@
       ],
       "tags": {
         "ridb": "252747",
-        "ridb_type": "Campground"
+        "ridb_type": "Campground",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -9260,7 +10344,13 @@
       ],
       "tags": {
         "name": "Hot Springs Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "padus": {
+          "name": "Hot Springs Canyon",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
+        }
       }
     },
     {
@@ -9303,7 +10393,13 @@
         "description": "1800's resort for the nearby Hot Springs",
         "website": "https://www.sbhistorical.org/montecito-hot-springs-2/",
         "access": "yes",
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -9335,6 +10431,12 @@
         "natural": "peak",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Bakersfield Field Office",
+          "manager": "Bureau of Land Management",
+          "designation": "National Public Lands",
+          "access": "open"
         }
       }
     },
@@ -9361,7 +10463,13 @@
       ],
       "tags": {
         "name": "Independence",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -9387,7 +10495,13 @@
       ],
       "tags": {
         "name": "Indian Midden",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -9458,6 +10572,12 @@
         "natural": "peak",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -9488,6 +10608,12 @@
         "leisure": "park",
         "commons": {
           "photos": 56
+        },
+        "padus": {
+          "name": "Ira Lease Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -9517,6 +10643,12 @@
         "leisure": "park",
         "commons": {
           "photos": 65
+        },
+        "padus": {
+          "name": "Sea Lookout Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -9572,7 +10704,13 @@
       ],
       "tags": {
         "name": "Jack O' Connell Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Jack O'Conell Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9715,7 +10853,13 @@
       ],
       "tags": {
         "name": "Jim May Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Jim May Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9742,7 +10886,13 @@
       "tags": {
         "name": "Joe White Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Joe White Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9768,7 +10918,13 @@
       ],
       "tags": {
         "name": "Jonny D. Wallis Neighborhood Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Jonny D. Wallis Neighborhood Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -9849,6 +11005,12 @@
         "inscription": "Fray Junipero Serra 1713-1784. Founder of The California Missions. In Memory of EUGENE D. HANNON. Donated by William H. Hannon Foundation",
         "commons": {
           "photos": 140
+        },
+        "padus": {
+          "name": "Mission Santa Inés",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -9878,7 +11040,13 @@
       "tags": {
         "name": "Kashtayit State Marine Conservation Area",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Kashtayit State Marine Conservation Area",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -9906,7 +11074,13 @@
       ],
       "tags": {
         "ridb": "14804",
-        "ridb_type": "Campground"
+        "ridb_type": "Campground",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -10017,7 +11191,13 @@
       ],
       "tags": {
         "name": "Kingo Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Kingo Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10047,6 +11227,11 @@
         "leisure": "park",
         "commons": {
           "photos": 18
+        },
+        "padus": {
+          "name": "Santa Ynez Reservation",
+          "manager": "American Indian Lands",
+          "designation": "Native American Land Area"
         }
       }
     },
@@ -10076,6 +11261,12 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Kiwanis Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -10109,6 +11300,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 17
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -10237,6 +11434,12 @@
         "natural": "peak",
         "commons": {
           "photos": 7
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -10266,7 +11469,13 @@
       "tags": {
         "name": "La Granada Mountain",
         "ele": "686",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -10297,6 +11506,12 @@
         "ridb_type": "Facility",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -10326,6 +11541,12 @@
         "leisure": "park",
         "commons": {
           "photos": 21
+        },
+        "padus": {
+          "name": "La Mesa Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -10352,7 +11573,13 @@
       ],
       "tags": {
         "name": "La Mesa Village Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Tiger Tail Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10409,6 +11636,12 @@
       "tags": {
         "commons": {
           "photos": 34
+        },
+        "padus": {
+          "name": "La Purísima Mission State Historic Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Historic or Cultural Area",
+          "access": "open"
         }
       }
     },
@@ -10435,7 +11668,13 @@
       ],
       "tags": {
         "name": "La Purísima Mission State Historic Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "La Purísima Mission State Historic Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Historic or Cultural Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -10464,7 +11703,13 @@
         "website": "Cachuma Lake",
         "operator": "County of Santa Barbara",
         "leisure": "park",
-        "note": "there were MANY errors because of using common nodes with highways - creating a parallel contour fixed these errors"
+        "note": "there were MANY errors because of using common nodes with highways - creating a parallel contour fixed these errors",
+        "padus": {
+          "name": "Cachuma Lake Recreation Area",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -10491,7 +11736,13 @@
       "tags": {
         "name": "Lake Cachuma Recreation Area",
         "ele": "321",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Cachuma Lake Recreation Area",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -10525,6 +11776,12 @@
         "ebird_species": 277,
         "commons": {
           "photos": 48
+        },
+        "padus": {
+          "name": "Lake Los Carneros Natural and Historical Preserve",
+          "manager": "County Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -10611,7 +11868,13 @@
       "tags": {
         "name": "Las Positas Park",
         "ele": "81",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Elings Park - Elings Park Foundation",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
+        }
       }
     },
     {
@@ -10638,7 +11901,13 @@
       "tags": {
         "name": "Las Positas Tennis Courts",
         "ele": "22",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Elings Park - Elings Park Foundation",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
+        }
       }
     },
     {
@@ -10691,7 +11960,13 @@
       "tags": {
         "name": "Laurel Canyon Park",
         "ele": "154",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lauro Canyon Reservoir",
+          "manager": "City Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -10723,6 +11998,12 @@
         "natural": "peak",
         "commons": {
           "photos": 7
+        },
+        "padus": {
+          "name": "La Coronilla Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -10753,6 +12034,12 @@
         "leisure": "park",
         "commons": {
           "photos": 13
+        },
+        "padus": {
+          "name": "Leroy Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -10779,7 +12066,13 @@
       ],
       "tags": {
         "name": "Leadbetter Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Leadbetter Beach",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -10806,7 +12099,12 @@
       "tags": {
         "name": "Lee West Open Space",
         "website": "https://www.countyofsb.org/parks/parks03.aspx?id=13432",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Unknown park - Santa Barbara, County of",
+          "manager": "County Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -10945,7 +12243,13 @@
       "tags": {
         "name": "Lions Head",
         "ele": "138",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -10972,7 +12276,13 @@
       "tags": {
         "name": "Little Acorn Park",
         "ele": "14",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Little Acorn Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -11001,7 +12311,13 @@
       "tags": {
         "name": "Little Caliente Spring",
         "natural": "hot_spring",
-        "curiosity": "Hot spring"
+        "curiosity": "Hot spring",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -11060,7 +12376,13 @@
         "name": "Little Pine Mountain",
         "ele": "1368",
         "wikidata": "Q18154622",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Little Pine Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -11086,7 +12408,13 @@
       ],
       "tags": {
         "name": "Little Pine Spring Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -11115,7 +12443,13 @@
       "tags": {
         "name": "Lizard Head",
         "ele": "1590",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Dick Smith Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -11150,6 +12484,12 @@
         "natural": "cliff",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -11271,7 +12611,13 @@
       "tags": {
         "name": "Loma Pelona",
         "ele": "1359",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mono Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -11302,6 +12648,12 @@
         "nrhp": "90001818",
         "commons": {
           "photos": 98
+        },
+        "padus": {
+          "name": "Centennial Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -11359,7 +12711,13 @@
       ],
       "tags": {
         "name": "Lonnie Davis Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -11415,7 +12773,13 @@
       "tags": {
         "name": "Lookout Park",
         "ele": "16",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Lookout Park and Beach",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -11450,7 +12814,13 @@
       "tags": {
         "name": "Los Alamos County Park",
         "leisure": "park",
-        "ele": "192"
+        "ele": "192",
+        "padus": {
+          "name": "Los Alamos Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -11478,7 +12848,12 @@
         }
       ],
       "tags": {
-        "nrhp": "92001726"
+        "nrhp": "92001726",
+        "padus": {
+          "name": "Santa Barbara Maitime Museum",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -11568,7 +12943,13 @@
         "fee": "yes",
         "leisure": "nature_reserve",
         "boundary": "protected_area",
-        "note": "User Access Fees: Daily access fee is $3.75 for adults (16 & up); $1.60 for seniors; youth 15 years and under are free. Single visit group rate is $10.50 for up to 6 persons at one visit."
+        "note": "User Access Fees: Daily access fee is $3.75 for adults (16 & up); $1.60 for seniors; youth 15 years and under are free. Single visit group rate is $10.50 for up to 6 persons at one visit.",
+        "padus": {
+          "name": "Los Flores Ranch Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -11597,6 +12978,12 @@
         "leisure": "park",
         "commons": {
           "photos": 7
+        },
+        "padus": {
+          "name": "Polo Park",
+          "manager": "Non-Governmental Organization",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -11623,7 +13010,13 @@
       ],
       "tags": {
         "name": "Los Prietos Boys Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -11649,7 +13042,13 @@
       ],
       "tags": {
         "name": "Los Prietos Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -11678,7 +13077,13 @@
       "tags": {
         "ridb": "234001",
         "ridb_type": "Campground",
-        "reservable": true
+        "reservable": true,
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -11704,7 +13109,13 @@
       ],
       "tags": {
         "name": "Los Robles Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Los Robles Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -11730,7 +13141,13 @@
       ],
       "tags": {
         "name": "Lost Valley Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -11756,7 +13173,13 @@
       ],
       "tags": {
         "name": "Lower Bear Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Big Pine Mountain Research Natural Area",
+          "manager": "Forest Service",
+          "designation": "Research Natural Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -11782,7 +13205,13 @@
       ],
       "tags": {
         "name": "Lower Camuesa Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Camuesa Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -11820,6 +13249,12 @@
         "leisure": "park",
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Manning Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -11848,7 +13283,13 @@
       ],
       "tags": {
         "ridb": "252806",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -11876,7 +13317,13 @@
       ],
       "tags": {
         "ridb": "252709",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -11933,7 +13380,13 @@
         }
       ],
       "tags": {
-        "nrhp": "79000547"
+        "nrhp": "79000547",
+        "padus": {
+          "name": "Dick Smith Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -11963,7 +13416,13 @@
         "name": "Madulce Peak",
         "ele": "1993",
         "wikidata": "Q18154891",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Dick Smith Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -11989,7 +13448,13 @@
       ],
       "tags": {
         "name": "Mansfield Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -12015,7 +13480,13 @@
       ],
       "tags": {
         "name": "Manzana Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -12041,7 +13512,13 @@
       ],
       "tags": {
         "name": "Manzana Narrows Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -12067,7 +13544,13 @@
       ],
       "tags": {
         "name": "Manzana Schoolhouse Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "La Brea Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -12096,7 +13579,13 @@
       "tags": {
         "name": "Manzanita Mountain",
         "ele": "957",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "La Brea Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -12159,7 +13648,12 @@
       ],
       "tags": {
         "name": "Maramonte Park (North)",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Maramonte Park (North)",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -12217,7 +13711,13 @@
       "tags": {
         "name": "Marilyn Stanley Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Marilyn Stanley Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -12348,6 +13848,12 @@
         "memorial": "plaque",
         "commons": {
           "photos": 66
+        },
+        "padus": {
+          "name": "Sea Lookout Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -12386,7 +13892,13 @@
         "direction": "15",
         "historic": "memorial",
         "inscription": "In memory of Nancy & Andy Schiaz",
-        "memorial": "bench"
+        "memorial": "bench",
+        "padus": {
+          "name": "Girsh Park",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -12414,7 +13926,13 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "stone"
+        "memorial": "stone",
+        "padus": {
+          "name": "Girsh Park",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -12470,7 +13988,13 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "padus": {
+          "name": "Little Acorn Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -12807,6 +14331,12 @@
         "memorial": "bench",
         "commons": {
           "photos": 48
+        },
+        "padus": {
+          "name": "Lake Los Carneros Natural and Historical Preserve",
+          "manager": "County Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -12836,7 +14366,13 @@
       "tags": {
         "historic": "memorial",
         "inscription": "In Memory of John T. Gray, Ph. D",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "padus": {
+          "name": "Goleta Slough Ecological Reserve",
+          "manager": "State Fish and Wildlife",
+          "designation": "State Conservation Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -12920,7 +14456,13 @@
       ],
       "tags": {
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "padus": {
+          "name": "Stevens Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -13132,7 +14674,13 @@
       "tags": {
         "historic": "memorial",
         "inscription": "In the Fullness of Life, He Gave Back to the Mountains What was so Freely Given | In Memory of | Campbell Grant | 1909-1992 | Co-founder of the Carpinteria Valley Association Lover of the native land and spirit",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "padus": {
+          "name": "Toro Canyon Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -13159,7 +14707,13 @@
         }
       ],
       "tags": {
-        "historic": "memorial"
+        "historic": "memorial",
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -13264,6 +14818,12 @@
         "memorial": "plaque",
         "commons": {
           "photos": 139
+        },
+        "padus": {
+          "name": "Mission Santa Inés",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -13295,6 +14855,12 @@
         "memorial": "plaque",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Cachuma Lake Recreation Area",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -13326,6 +14892,12 @@
         "historic": "memorial",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -13356,6 +14928,12 @@
         "leisure": "park",
         "commons": {
           "photos": 67
+        },
+        "padus": {
+          "name": "Mary Herrington Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -13411,7 +14989,13 @@
       "tags": {
         "name": "McKinley Mountain",
         "ele": "1887",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -13437,7 +15021,13 @@
       ],
       "tags": {
         "name": "McKinley Springs Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -13465,7 +15055,13 @@
       ],
       "tags": {
         "ridb": "252903",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -13494,7 +15090,13 @@
       "tags": {
         "name": "McPherson Peak",
         "ele": "1752.3",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -13521,7 +15123,13 @@
       "tags": {
         "name": "Meadow",
         "access": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -13580,6 +15188,12 @@
         "leisure": "park",
         "commons": {
           "photos": 7
+        },
+        "padus": {
+          "name": "Memorial Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -13644,7 +15258,13 @@
       "tags": {
         "name": "Mentone Basin Park",
         "website": "http://grover.org/index.aspx?nid=141",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Mentone Basin Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -13754,7 +15374,13 @@
       ],
       "tags": {
         "name": "Middle Camuesa Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Malduce Buckhorn Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -13780,7 +15406,13 @@
       ],
       "tags": {
         "name": "Middle Santa Ynez Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -13807,7 +15439,13 @@
       "tags": {
         "name": "Minami Park",
         "ele": "65",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Adam Park/Minami Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -13864,7 +15502,12 @@
       ],
       "tags": {
         "name": "Miramonte Park (South)",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Maramonte Park (South)",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -13893,6 +15536,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -13922,7 +15571,13 @@
       "tags": {
         "name": "Miranda Pine Mountain",
         "ele": "1259",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -13983,6 +15638,12 @@
         "leisure": "park",
         "commons": {
           "photos": 10
+        },
+        "padus": {
+          "name": "Mission Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -14009,7 +15670,13 @@
       ],
       "tags": {
         "name": "Mission Pine Basin Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -14035,7 +15702,13 @@
       ],
       "tags": {
         "name": "Mission Pine Spring Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -14066,6 +15739,12 @@
         "nrhp": "99000630",
         "commons": {
           "photos": 141
+        },
+        "padus": {
+          "name": "Mission Santa Inés",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Conservation",
+          "access": "open"
         }
       }
     },
@@ -14095,7 +15774,12 @@
       "tags": {
         "name": "Modoc Preserve",
         "operator": "Santa Barbara Land Trust",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "padus": {
+          "name": "Modoc Preserve",
+          "manager": "Non-Governmental Organization",
+          "access": "open"
+        }
       }
     },
     {
@@ -14125,6 +15809,12 @@
         "natural": "wood",
         "commons": {
           "photos": 33
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -14154,7 +15844,13 @@
       "tags": {
         "name": "Monte Arido",
         "ele": "1831",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Juncal Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -14181,7 +15877,13 @@
       "tags": {
         "name": "Monte Vista Park",
         "ele": "40",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Monte Vista Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -14213,6 +15915,12 @@
         "natural": "peak",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -14297,7 +16005,13 @@
       ],
       "tags": {
         "name": "Mormon Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -14326,7 +16040,13 @@
       "tags": {
         "name": "Morro Hill",
         "ele": "1395",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Malduce Buckhorn Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -14355,7 +16075,13 @@
       "tags": {
         "name": "Mount Lospe",
         "ele": "500",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -14502,6 +16228,12 @@
         "tourism": "attraction",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -14528,7 +16260,13 @@
       ],
       "tags": {
         "name": "Moymell , off road vehicle recreation area",
-        "tourism": "attraction"
+        "tourism": "attraction",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -14556,7 +16294,13 @@
       ],
       "tags": {
         "ridb": "252765",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -14654,6 +16398,12 @@
         "boundary": "protected_area",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Naples State Marine Conservation Area",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
+          "access": "open"
         }
       }
     },
@@ -14736,7 +16486,13 @@
       ],
       "tags": {
         "name": "New Drags",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -14849,7 +16605,13 @@
       ],
       "tags": {
         "name": "Nipomo Regional Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Nipomo Community Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -14878,7 +16640,13 @@
         "website": "https://www.fs.usda.gov/recarea/lpnf/recreation/recarea/?recid=11130&actid=29",
         "fee": "yes",
         "operator": "US Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -14945,6 +16713,12 @@
         "operator": "Santa Barbara County",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Nojoqui Falls County Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -14977,6 +16751,12 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Nojoqui_Falls",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Nojoqui Falls County Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -15055,6 +16835,12 @@
         "natural": "peak",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -15094,6 +16880,12 @@
         "leisure": "park",
         "commons": {
           "photos": 30
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -15126,6 +16918,11 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 120
+        },
+        "padus": {
+          "name": "North Coast Open Space",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -15153,7 +16950,13 @@
       "tags": {
         "name": "North Preisker Ranch Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "North Preisker Ranch Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -15181,7 +16984,13 @@
         "name": "Oak Park",
         "ele": "47",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/oak-park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Oak Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -15207,7 +17016,13 @@
       ],
       "tags": {
         "name": "Oak Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Oak Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -15235,7 +17050,13 @@
         "name": "Oakley Park",
         "ele": "61",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Oakley Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -15301,6 +17122,12 @@
         "ebird_species": 277,
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Ocean Beach Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -15358,7 +17185,13 @@
       ],
       "tags": {
         "name": "Oceano Dunes State Vehicular Recreation Area",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -15387,6 +17220,12 @@
         "leisure": "park",
         "commons": {
           "photos": 10
+        },
+        "padus": {
+          "name": "Oceano Memorial Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -15507,6 +17346,11 @@
         "historic": "ruins",
         "commons": {
           "photos": 387
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -15824,6 +17668,12 @@
         "tourism": "artwork",
         "commons": {
           "photos": 15
+        },
+        "padus": {
+          "name": "Estero Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -15856,6 +17706,12 @@
         "man_made": "street_cabinet",
         "commons": {
           "photos": 47
+        },
+        "padus": {
+          "name": "Camino Corto Open Space",
+          "manager": "Regional Agency Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -15915,6 +17771,12 @@
         "tourism": "artwork",
         "commons": {
           "photos": 9
+        },
+        "padus": {
+          "name": "Children's Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -16656,7 +18518,13 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Community Center",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -16743,7 +18611,13 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Leadbetter Beach",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -17023,6 +18897,12 @@
         "tourism": "artwork",
         "commons": {
           "photos": 73
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -17058,7 +18938,13 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "Baron Ranch",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -17194,7 +19080,13 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "Lauro Canyon Reservoir",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -17221,7 +19113,13 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "La Brea Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -17280,7 +19178,11 @@
       ],
       "tags": {
         "artwork_type": "sculpture",
-        "tourism": "artwork"
+        "tourism": "artwork",
+        "padus": {
+          "name": "Carpinteria Creek",
+          "manager": "County Land"
+        }
       }
     },
     {
@@ -17311,6 +19213,12 @@
         "tourism": "artwork",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Rincon Beach Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -17338,7 +19246,13 @@
         }
       ],
       "tags": {
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -17367,7 +19281,13 @@
       "tags": {
         "name": "Old Man Mountain",
         "ele": "1688",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Matilija Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -17425,6 +19345,12 @@
         "tourism": "attraction",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -17456,7 +19382,13 @@
         "wikipedia": "en:Operational Silo Test Facility",
         "wikidata": "Q1729736",
         "access": "private",
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -17538,7 +19470,13 @@
       "tags": {
         "name": "Orcutt Community Park",
         "website": "https://www.countyofsb.org/parks/parks02.aspx?id=10328",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Orcutt Community Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -17660,7 +19598,13 @@
         "ele": "12",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/ortega-park",
         "operator": "Santa Barbara Parks and Recreation",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Ortega Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -17694,6 +19638,12 @@
         "ebird_species": 293,
         "commons": {
           "photos": 12
+        },
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -17750,7 +19700,13 @@
       ],
       "tags": {
         "name": "P-Bar Flat Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -17809,7 +19765,13 @@
       ],
       "tags": {
         "name": "Painted Rock Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -17852,6 +19814,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -17881,6 +19849,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -17907,7 +19881,13 @@
       ],
       "tags": {
         "name": "Pardall Gardens",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Pardall Gardens",
+          "manager": "Regional Agency Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -17963,6 +19943,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Parma Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -18073,7 +20059,11 @@
       ],
       "tags": {
         "name": "Patterson Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Maria Ygnacia Creek",
+          "manager": "County Land"
+        }
       }
     },
     {
@@ -18136,6 +20126,12 @@
         "leisure": "park",
         "commons": {
           "photos": 55
+        },
+        "padus": {
+          "name": "Buellton Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -18221,7 +20217,13 @@
       ],
       "tags": {
         "name": "Peace Monument",
-        "historic": "monument"
+        "historic": "monument",
+        "padus": {
+          "name": "Perfect Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -18250,7 +20252,13 @@
       "tags": {
         "name": "Peak Mountain",
         "ele": "1773",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -18383,7 +20391,13 @@
       ],
       "tags": {
         "name": "Perfect Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Perfect Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -18410,7 +20424,13 @@
       "tags": {
         "name": "Pershing Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Pershing Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -18570,7 +20590,13 @@
           "files": 6,
           "of": 13
         },
-        "discovered": "photo-density"
+        "discovered": "photo-density",
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -18606,7 +20632,13 @@
           "files": 10,
           "of": 13
         },
-        "discovered": "photo-density"
+        "discovered": "photo-density",
+        "padus": {
+          "name": "La Purísima Mission State Historic Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Historic or Cultural Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -18762,7 +20794,12 @@
       ],
       "tags": {
         "name": "Pioneer Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Pioneer Park - Santa Maria Public Airport District",
+          "manager": "Regional Agency Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -18788,7 +20825,13 @@
       ],
       "tags": {
         "name": "Pipeline Panhandle",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -18818,6 +20861,12 @@
         "leisure": "park",
         "commons": {
           "photos": 14
+        },
+        "padus": {
+          "name": "Pismo Beach Sports Park",
+          "manager": "City Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -18850,6 +20899,12 @@
         "tourism": "artwork",
         "commons": {
           "photos": 72
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -18883,6 +20938,12 @@
         "boundary": "national_park",
         "commons": {
           "photos": 11
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -18947,6 +21008,12 @@
         "ebird_species": 286,
         "commons": {
           "photos": 15
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -18976,6 +21043,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 16
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -19006,6 +21079,12 @@
         "boundary": "national_park",
         "commons": {
           "photos": 11
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -19071,7 +21150,12 @@
       "tags": {
         "name": "Plaza de Vera Cruz",
         "ele": "11",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Palza Vera Cruz",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -19127,7 +21211,13 @@
       "tags": {
         "name": "Plowshare Peak",
         "ele": "1194.8",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -19250,7 +21340,13 @@
       "tags": {
         "waterway": "waterfall",
         "name": "Pool 1",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -19292,7 +21388,13 @@
       "tags": {
         "waterway": "waterfall",
         "name": "Pool 2",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -19322,7 +21424,13 @@
       ],
       "tags": {
         "name": "Pool 3",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -19351,7 +21459,13 @@
       "tags": {
         "name": "Porter Peak",
         "ele": "1032",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Mirada Pime Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -19379,7 +21493,13 @@
       ],
       "tags": {
         "name": "possible root cellar location",
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "Gould Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -19405,7 +21525,13 @@
       ],
       "tags": {
         "name": "Potrero Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -19432,7 +21558,13 @@
       "tags": {
         "name": "Preisker Park",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Preisker Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -19516,7 +21648,13 @@
       ],
       "tags": {
         "name": "Radiosonde Launch Site",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -19545,6 +21683,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Ramona Garden Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -19575,6 +21719,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Ramona Garden Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -19602,7 +21752,13 @@
       "tags": {
         "name": "Rancho Grande Park",
         "ele": "91",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rancho Grande Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -19631,7 +21787,13 @@
       "tags": {
         "name": "Ranger Peak",
         "ele": "1376",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "De La Guerra Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -19691,6 +21853,12 @@
         "nrhp": "100000465",
         "commons": {
           "photos": 9
+        },
+        "padus": {
+          "name": "Skofield Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -19721,6 +21889,12 @@
         "leisure": "park",
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -19749,7 +21923,13 @@
         "name": "Rays Camp",
         "ele": "728",
         "access": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -19779,7 +21959,13 @@
       ],
       "tags": {
         "name": "Red Rock",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Camuesa Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -19847,6 +22033,12 @@
         "wikimedia_commons": "Category:Refugio State Beach",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Refugio State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -19881,6 +22073,12 @@
         "ebird_species": 257,
         "commons": {
           "photos": 7
+        },
+        "padus": {
+          "name": "Refugio State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -19907,7 +22105,13 @@
       ],
       "tags": {
         "name": "Rhoads Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rhoads Open Space",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -19933,7 +22137,13 @@
       ],
       "tags": {
         "name": "Rice Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rice Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -19960,7 +22170,13 @@
       "tags": {
         "name": "Rice Ranch Open Space",
         "website": "https://www.countyofsb.org/parks/parks03.aspx?id=13434",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Rice Ranch Open Space",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -20015,7 +22231,13 @@
         "operator": "Montecito Trails Foundation",
         "tourism": "information",
         "highway": "trailhead",
-        "inscription": "Ridge Trail -->|1.0 mi. East Fork Cold Spring Trail|Horses Not Recommended"
+        "inscription": "Ridge Trail -->|1.0 mi. East Fork Cold Spring Trail|Horses Not Recommended",
+        "padus": {
+          "name": "Gould Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -20045,6 +22267,12 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Rincon Beach Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -20103,6 +22331,12 @@
         "leisure": "park",
         "commons": {
           "photos": 9
+        },
+        "padus": {
+          "name": "Riverview Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -20132,7 +22366,13 @@
         "website": "https://www.fs.usda.gov/recarea/lpnf/recarea/?recid=11075",
         "fee": "yes",
         "operator": "USFS",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -20163,6 +22403,12 @@
         "leisure": "park",
         "commons": {
           "photos": 13
+        },
+        "padus": {
+          "name": "Rocky Nook Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -20198,7 +22444,12 @@
       "tags": {
         "name": "Rodenberger Park",
         "ele": "76",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Maramonte Park (North)",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -20227,7 +22478,13 @@
       "tags": {
         "name": "root cellar",
         "access": "yes",
-        "historic": "ruins"
+        "historic": "ruins",
+        "padus": {
+          "name": "Gould Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -20321,7 +22578,13 @@
       "tags": {
         "name": "Rotary Room For Community Use",
         "historic": "memorial",
-        "memorial": "plaque"
+        "memorial": "plaque",
+        "padus": {
+          "name": "Girsh Park",
+          "manager": "Non-Governmental Organization",
+          "designation": "Private Recreation or Education",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -20553,6 +22816,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -20585,6 +22854,12 @@
         "reservable": true,
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -20614,7 +22889,13 @@
       "tags": {
         "name": "Sage Hill",
         "ele": "719",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -20701,7 +22982,13 @@
       "tags": {
         "name": "Samon Peak",
         "ele": "1840",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -20814,7 +23101,13 @@
       "tags": {
         "name": "San Rafael Mountain",
         "ele": "1973",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -20846,7 +23139,13 @@
         "wikidata": "Q7415227",
         "operator": "United States Forest Service",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -20875,7 +23174,12 @@
       "tags": {
         "name": "San Roque Arch",
         "natural": "arch",
-        "curiosity": "Natural arch"
+        "curiosity": "Natural arch",
+        "padus": {
+          "name": "Arroyo Burro Trail",
+          "manager": "Non-Governmental Organization",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -20902,7 +23206,13 @@
       "tags": {
         "name": "San Roque Park",
         "ele": "78",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "San Roque Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -20972,6 +23282,12 @@
         "man_made": "lighthouse",
         "commons": {
           "photos": 20
+        },
+        "padus": {
+          "name": "La Mesa Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -21029,7 +23345,13 @@
         }
       ],
       "tags": {
-        "nrhp": "73000455"
+        "nrhp": "73000455",
+        "padus": {
+          "name": "El Presidio de Santa Barbara State Historic Park",
+          "manager": "Non-Governmental Organization",
+          "designation": "State Historic or Cultural Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -21055,7 +23377,13 @@
       ],
       "tags": {
         "name": "Santa Cruz Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -21084,7 +23412,13 @@
       "tags": {
         "name": "Santa Cruz Peak",
         "ele": "1687",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -21111,7 +23445,12 @@
       "tags": {
         "name": "Santa Maria Fairpark",
         "ele": "66",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Santa Maria Fair Park",
+          "designation": "State Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -21170,6 +23509,12 @@
         "leisure": "park",
         "commons": {
           "photos": 7
+        },
+        "padus": {
+          "name": "Santa Rosa Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -21233,6 +23578,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -21291,7 +23642,13 @@
       "tags": {
         "name": "Santa Ynez Peak",
         "ele": "1308",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -21377,7 +23734,13 @@
       ],
       "tags": {
         "ridb": "14805",
-        "ridb_type": "Campground"
+        "ridb_type": "Campground",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -21408,7 +23771,13 @@
       ],
       "tags": {
         "name": "Seven Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -21463,7 +23832,12 @@
       "tags": {
         "name": "Sheffield Open Space",
         "website": "https://santabarbaraparks.com/parks/sheffield-open-space/",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sheffield Reservoir",
+          "manager": "City Land",
+          "designation": "Local Recreation Area"
+        }
       }
     },
     {
@@ -21492,7 +23866,13 @@
       "tags": {
         "name": "Shell Peak",
         "ele": "748",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -21612,7 +23992,13 @@
       "tags": {
         "name": "Sibyl Marston",
         "historic": "wreck",
-        "curiosity": "Shipwreck"
+        "curiosity": "Shipwreck",
+        "padus": {
+          "name": "Vandenberg State Marine Reserve",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -21638,7 +24024,13 @@
       ],
       "tags": {
         "name": "Sierra Vista Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Edwards Community Center/Sierra Vista Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -21669,6 +24061,12 @@
         "leisure": "park",
         "commons": {
           "photos": 9
+        },
+        "padus": {
+          "name": "Simas Basin Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -21698,7 +24096,13 @@
       "tags": {
         "name": "Sisquoc Condor Sanctuary",
         "ele": "1233",
-        "leisure": "nature_reserve"
+        "leisure": "nature_reserve",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -21751,7 +24155,13 @@
         "wikidata": "Q24191697",
         "wikipedia": "https://en.wikipedia.org/wiki/Sisquoc_Falls",
         "name": "Sisquoc Falls",
-        "waterway": "waterfall"
+        "waterway": "waterfall",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -21809,7 +24219,13 @@
       "tags": {
         "name": "Sixteenth Street Park",
         "website": "http://grover.org/index.aspx?nid=141",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "16th Street Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -21839,6 +24255,12 @@
         "leisure": "park",
         "commons": {
           "photos": 9
+        },
+        "padus": {
+          "name": "Skofield Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -21865,7 +24287,13 @@
       ],
       "tags": {
         "name": "Skunk Campground",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -22013,6 +24441,11 @@
         "leisure": "nature_reserve",
         "commons": {
           "photos": 406
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -22044,6 +24477,11 @@
         "leisure": "park",
         "commons": {
           "photos": 145
+        },
+        "padus": {
+          "name": "Unknown park - Solvang, City of",
+          "manager": "City Land",
+          "access": "open"
         }
       }
     },
@@ -22070,7 +24508,13 @@
       ],
       "tags": {
         "name": "South Fork Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -22127,7 +24571,13 @@
         "ele": "24",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/spencer-adams-park",
         "operator": "Santa Barbara Parks and Recreaction",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Spencer Adams Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -22239,7 +24689,13 @@
       "tags": {
         "name": "Stanley Mountain",
         "ele": "758",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Stanley Mountain Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -22293,7 +24749,13 @@
       "tags": {
         "name": "Stonebrook Open Space",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Stonebrook Open Space",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -22348,7 +24810,13 @@
       ],
       "tags": {
         "name": "Stow Canyon Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Stow Canyon Open Space",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -22378,6 +24846,12 @@
         "leisure": "park",
         "commons": {
           "photos": 16
+        },
+        "padus": {
+          "name": "Stow Grove Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -22409,6 +24883,12 @@
         "nrhp": "00001166",
         "commons": {
           "photos": 48
+        },
+        "padus": {
+          "name": "Lake Los Carneros Natural and Historical Preserve",
+          "manager": "County Land",
+          "designation": "Local Conservation Area",
+          "access": "open"
         }
       }
     },
@@ -22466,7 +24946,13 @@
         "name": "Strother Park",
         "ele": "45",
         "website": "https://www.arroyogrande.org/Facilities/Facility/Details/Strother-Park-15",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Strother Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -22497,6 +24983,12 @@
         "leisure": "park",
         "commons": {
           "photos": 35
+        },
+        "padus": {
+          "name": "Sueno Orchard",
+          "manager": "Regional Agency Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -22551,7 +25043,13 @@
       "tags": {
         "name": "Sunny Fields Park",
         "opening_hours": "Su-Sa 08:00-sunset",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Sunny Fields Park",
+          "manager": "City Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -22579,7 +25077,13 @@
       ],
       "tags": {
         "ridb": "252764",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -22636,7 +25140,13 @@
       "tags": {
         "name": "Sycamore Camp",
         "operator": "United States Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -22719,7 +25229,12 @@
       "tags": {
         "name": "Sylvan Park",
         "website": "https://sbparksandrec.santabarbaraca.gov/parks/sylvan-park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Santa Barbara Holding 4",
+          "manager": "City Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -22790,7 +25305,13 @@
       ],
       "tags": {
         "name": "Tabletop",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -22847,6 +25368,12 @@
         "direction": "0-360",
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Gould Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -22876,6 +25403,12 @@
         "leisure": "park",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Tar Pits Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -22902,7 +25435,12 @@
       ],
       "tags": {
         "name": "Tarragona Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Unknown park - Santa Barbara, County of",
+          "manager": "County Land",
+          "access": "open"
+        }
       }
     },
     {
@@ -23016,7 +25554,13 @@
       "tags": {
         "name": "Tepusquet Peak",
         "ele": "982",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -23045,6 +25589,12 @@
         "leisure": "park",
         "commons": {
           "photos": 30
+        },
+        "padus": {
+          "name": "Terra de Oro Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -23102,7 +25652,13 @@
       "tags": {
         "name": "Thunderbird Open Space",
         "access": "yes",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Thunderbird Open Space",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -23131,6 +25687,12 @@
         "leisure": "park",
         "commons": {
           "photos": 154
+        },
+        "padus": {
+          "name": "Tierra De Fortuna Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -23186,7 +25748,13 @@
       "tags": {
         "name": "Timber Peak",
         "ele": "1452",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -23243,7 +25811,13 @@
         "name": "Toro Canyon Park",
         "ele": "326",
         "opening_hours": "Mo-Su 08:00-sunset",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Toro Canyon Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -23269,7 +25843,12 @@
       ],
       "tags": {
         "name": "Town and Country Open Space",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "San Jose Creek Open Space",
+          "manager": "County Land",
+          "designation": "Local Recreation Area"
+        }
       }
     },
     {
@@ -23308,6 +25887,11 @@
           "kind": "Bloom",
           "records": 64,
           "seasonRecords": 571
+        },
+        "padus": {
+          "name": "Sedgwick Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -23369,6 +25953,12 @@
         "highway": "trailhead",
         "commons": {
           "photos": 15
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -23397,6 +25987,12 @@
         "highway": "trailhead",
         "commons": {
           "photos": 15
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -23480,7 +26076,13 @@
       "tags": {
         "name": "Treplett Mountain",
         "ele": "1165",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "La Brea Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -23510,6 +26112,12 @@
         "leisure": "park",
         "commons": {
           "photos": 11
+        },
+        "padus": {
+          "name": "Trigo Pasado Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -23538,7 +26146,13 @@
         "name": "Tucker's Grove County Park",
         "ele": "53",
         "website": "https://www.countyofsb.org/847/Tuckers-Grove-Park",
-        "leisure": "park"
+        "leisure": "park",
+        "padus": {
+          "name": "Tuckers Grove Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -23590,7 +26204,13 @@
       ],
       "tags": {
         "name": "Twin Oaks Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -23686,6 +26306,11 @@
         "ebird_species": 260,
         "commons": {
           "photos": 164
+        },
+        "padus": {
+          "name": "North Coast Open Space",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -23836,7 +26461,13 @@
       ],
       "tags": {
         "name": "Upper Bear Camp",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Big Pine Mountain Research Natural Area",
+          "manager": "Forest Service",
+          "designation": "Research Natural Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -23864,7 +26495,13 @@
         "name": "Upper Caliente Camp",
         "fee": "no",
         "access": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Diable Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -23893,6 +26530,12 @@
         "leisure": "park",
         "commons": {
           "photos": 12
+        },
+        "padus": {
+          "name": "Manning Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -23922,7 +26565,13 @@
         "website": "https://www.fs.usda.gov/recarea/lpnf/recreation/camping-cabins/recarea/?recid=11078&actid=29",
         "fee": "yes",
         "operator": "Parks Management Company for the Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Santa Cruz Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -23951,7 +26600,13 @@
       "tags": {
         "ridb": "231961",
         "ridb_type": "Campground",
-        "reservable": true
+        "reservable": true,
+        "padus": {
+          "name": "Camuesa Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -23977,7 +26632,13 @@
       ],
       "tags": {
         "name": "Upper Oso Trailhead",
-        "highway": "trailhead"
+        "highway": "trailhead",
+        "padus": {
+          "name": "Camuesa Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -24006,6 +26667,12 @@
         "tourism": "camp_site",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Juncal Roadless Area",
+          "manager": "Forest Service",
+          "designation": "Inventoried Roadless Area",
+          "access": "open"
         }
       }
     },
@@ -24169,6 +26836,12 @@
       "tags": {
         "commons": {
           "photos": 47
+        },
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -24206,6 +26879,12 @@
       "tags": {
         "commons": {
           "photos": 36
+        },
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
         }
       }
     },
@@ -24235,7 +26914,13 @@
       "tags": {
         "name": "Vandenberg State Marine Reserve",
         "leisure": "nature_reserve",
-        "boundary": "protected_area"
+        "boundary": "protected_area",
+        "padus": {
+          "name": "Vandenberg State Marine Reserve",
+          "manager": "State Fish and Wildlife",
+          "designation": "Marine Protected Area",
+          "access": "open"
+        }
       }
     },
     {
@@ -24265,6 +26950,12 @@
         "leisure": "park",
         "commons": {
           "photos": 10
+        },
+        "padus": {
+          "name": "Veterans' Memorial Community Center and Park",
+          "manager": "City Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -24395,6 +27086,11 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 92
+        },
+        "padus": {
+          "name": "Ellwood Mesa",
+          "manager": "City Land",
+          "access": "open"
         }
       }
     },
@@ -24485,6 +27181,11 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 388
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -24517,6 +27218,11 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 394
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -24581,6 +27287,11 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 446
+        },
+        "padus": {
+          "name": "Coal Oil Point Natural Reserve",
+          "designation": "State Conservation Area",
+          "access": "restricted"
         }
       }
     },
@@ -24778,7 +27489,13 @@
       ],
       "tags": {
         "direction": "90-247",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Lookout Park and Beach",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -24808,7 +27525,13 @@
       ],
       "tags": {
         "direction": "135-270",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Lookout Park and Beach",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -24837,7 +27560,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Vandenberg Air Force Base",
+          "manager": "Department of Defense",
+          "designation": "Military Land",
+          "access": "closed"
+        }
       }
     },
     {
@@ -24869,6 +27598,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 49
+        },
+        "padus": {
+          "name": "Pismo State Beach",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -24965,6 +27700,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -24997,6 +27738,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Gaviota State Park",
+          "manager": "State Park and Recreation",
+          "designation": "State Park",
+          "access": "open"
         }
       }
     },
@@ -25029,6 +27776,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 5
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -25061,6 +27814,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Cachuma Lake Recreation Area",
+          "manager": "County Land",
+          "designation": "Local Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -25119,7 +27878,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Midland School Oak Woodlands Conservation Easement",
+          "manager": "Non-Governmental Organization",
+          "designation": "Conservation Easement",
+          "access": "closed"
+        }
       }
     },
     {
@@ -25148,7 +27913,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Midland School Oak Woodlands Conservation Easement",
+          "manager": "Non-Governmental Organization",
+          "designation": "Conservation Easement",
+          "access": "closed"
+        }
       }
     },
     {
@@ -25177,7 +27948,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -25209,6 +27986,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -25241,6 +28024,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 8
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -25273,6 +28062,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 11
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -25305,6 +28100,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 11
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -25337,6 +28138,12 @@
         "tourism": "viewpoint",
         "commons": {
           "photos": 12
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -25431,7 +28238,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -25518,7 +28331,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Gould Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -25548,7 +28367,13 @@
       ],
       "tags": {
         "direction": "0-360",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -25578,7 +28403,13 @@
       ],
       "tags": {
         "direction": "0-360",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -25608,7 +28439,13 @@
       ],
       "tags": {
         "direction": "0-360",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -25666,7 +28503,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -25695,7 +28538,13 @@
         }
       ],
       "tags": {
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Carrizo Plain National Monument",
+          "manager": "Bureau of Land Management",
+          "designation": "National Monument",
+          "access": "open"
+        }
       }
     },
     {
@@ -25753,6 +28602,12 @@
         "leisure": "park",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Viola Fields",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -25902,6 +28757,12 @@
         "leisure": "park",
         "commons": {
           "photos": 6
+        },
+        "padus": {
+          "name": "Waller Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -25931,6 +28792,12 @@
         "leisure": "park",
         "commons": {
           "photos": 42
+        },
+        "padus": {
+          "name": "Walter Capps Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -26024,7 +28891,13 @@
       "tags": {
         "name": "Water Canyon Campground",
         "operator": "United States Forest Service",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "padus": {
+          "name": "Sisquoc, California Wild and Scenic River",
+          "manager": "Forest Service",
+          "designation": "Wild and Scenic River",
+          "access": "open"
+        }
       }
     },
     {
@@ -26124,6 +28997,12 @@
         "waterway": "waterfall",
         "commons": {
           "photos": 19
+        },
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
         }
       }
     },
@@ -26216,7 +29095,13 @@
       "tags": {
         "name": "Wheat Peak",
         "ele": "712",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "San Rafael Wilderness",
+          "manager": "Forest Service",
+          "designation": "Wilderness Area",
+          "access": "restricted"
+        }
       }
     },
     {
@@ -26245,7 +29130,13 @@
       "tags": {
         "name": "White Mountain",
         "ele": "1162",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Rattlesnake Canyon Park",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
+        }
       }
     },
     {
@@ -26273,7 +29164,13 @@
       ],
       "tags": {
         "ridb": "252809",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -26303,7 +29200,13 @@
       ],
       "tags": {
         "name": "White Rock",
-        "tourism": "viewpoint"
+        "tourism": "viewpoint",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -26331,7 +29234,13 @@
       ],
       "tags": {
         "ridb": "252691",
-        "ridb_type": "Facility"
+        "ridb_type": "Facility",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     },
     {
@@ -26389,6 +29298,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Winchester II Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -26418,6 +29333,12 @@
         "leisure": "park",
         "commons": {
           "photos": 3
+        },
+        "padus": {
+          "name": "Winchester I Park",
+          "manager": "County Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -26447,6 +29368,12 @@
         "leisure": "park",
         "commons": {
           "photos": 33
+        },
+        "padus": {
+          "name": "Window to the Sea Park",
+          "manager": "Regional Agency Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -26536,6 +29463,12 @@
         "leisure": "park",
         "commons": {
           "photos": 9
+        },
+        "padus": {
+          "name": "Parque Peqeno",
+          "manager": "City Land",
+          "designation": "Local Park",
+          "access": "open"
         }
       }
     },
@@ -26597,6 +29530,12 @@
         "tourism": "attraction",
         "commons": {
           "photos": 4
+        },
+        "padus": {
+          "name": "Oceano Dunes State Vehicular Recreation Area",
+          "manager": "State Park and Recreation",
+          "designation": "State Recreation Area",
+          "access": "open"
         }
       }
     },
@@ -26681,7 +29620,13 @@
       "tags": {
         "name": "Zaca Peak",
         "ele": "1312",
-        "natural": "peak"
+        "natural": "peak",
+        "padus": {
+          "name": "Los Padres National Forest",
+          "manager": "Forest Service",
+          "designation": "National Forest",
+          "access": "open"
+        }
       }
     }
   ]
