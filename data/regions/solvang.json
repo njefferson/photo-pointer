@@ -1695,6 +1695,84 @@
       }
     },
     {
+      "id": "black-elderberry-autumn-colour@9q4u5b",
+      "name": "black elderberry in autumn colour",
+      "lat": 34.45725300000002,
+      "lng": -119.70993799999998,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 8 of 62 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:black-elderberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 7,
+          "day": 14,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "black elderberry",
+          "kind": "Autumn colour",
+          "records": 8,
+          "seasonRecords": 62
+        }
+      }
+    },
+    {
+      "id": "black-elderberry-bloom@9q4u5b",
+      "name": "black elderberry in bloom",
+      "lat": 34.45725299999997,
+      "lng": -119.70993799999998,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 34 of 135 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:black-elderberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 3,
+          "day": 19,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "black elderberry",
+          "kind": "Bloom",
+          "records": 34,
+          "seasonRecords": 135
+        }
+      }
+    },
+    {
       "id": "black-swan@9q4guf",
       "name": "Black Swan",
       "lat": 34.4203399,
@@ -1719,6 +1797,84 @@
         "name": "Black Swan",
         "wheelchair": "no",
         "tourism": "attraction"
+      }
+    },
+    {
+      "id": "blue-elderberry-autumn-colour@9q4thg",
+      "name": "blue elderberry in autumn colour",
+      "lat": 34.65053896283771,
+      "lng": -120.02363129729751,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 36 of 296 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:blue-elderberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 9,
+          "day": 17,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "blue elderberry",
+          "kind": "Autumn colour",
+          "records": 36,
+          "seasonRecords": 296
+        }
+      }
+    },
+    {
+      "id": "blue-elderberry-bloom@9q4thw",
+      "name": "blue elderberry in bloom",
+      "lat": 34.6636384092919,
+      "lng": -120.03259946902709,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 70 of 452 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:blue-elderberry",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 5,
+          "day": 5,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "blue elderberry",
+          "kind": "Bloom",
+          "records": 70,
+          "seasonRecords": 452
+        }
       }
     },
     {
@@ -2443,6 +2599,84 @@
       }
     },
     {
+      "id": "california-buckeye-autumn-colour@9q4u5b",
+      "name": "California buckeye in autumn colour",
+      "lat": 34.457253,
+      "lng": -119.70993799999998,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 22 of 126 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:california-buckeye",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 7,
+          "day": 14,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California buckeye",
+          "kind": "Autumn colour",
+          "records": 22,
+          "seasonRecords": 126
+        }
+      }
+    },
+    {
+      "id": "california-buckeye-bloom@9q4u5b",
+      "name": "California buckeye in bloom",
+      "lat": 34.45725299999983,
+      "lng": -119.70993799999998,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 40 of 214 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:california-buckeye",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 3,
+          "day": 19,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California buckeye",
+          "kind": "Bloom",
+          "records": 40,
+          "seasonRecords": 214
+        }
+      }
+    },
+    {
       "id": "california-fishroom@9q4gge",
       "name": "California Fishroom",
       "lat": 34.4292521,
@@ -2469,6 +2703,45 @@
         "name": "California Fishroom",
         "artwork_type": "sculpture",
         "tourism": "artwork"
+      }
+    },
+    {
+      "id": "california-live-oak-bloom@9q4sve",
+      "name": "California live oak in bloom",
+      "lat": 34.60598029591834,
+      "lng": -119.99238716326539,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 69 of 196 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:california-live-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 4,
+          "day": 7,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "California live oak",
+          "kind": "Bloom",
+          "records": 69,
+          "seasonRecords": 196
+        }
       }
     },
     {
@@ -4813,6 +5086,45 @@
       }
     },
     {
+      "id": "coyotebrush-bloom@9q4svk",
+      "name": "coyotebrush in bloom",
+      "lat": 34.60760538445354,
+      "lng": -119.99423801680678,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 70 of 476 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:coyotebrush",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 10,
+          "day": 6,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "coyotebrush",
+          "kind": "Bloom",
+          "records": 70,
+          "seasonRecords": 476
+        }
+      }
+    },
+    {
       "id": "crossroads-open-space@9q4qet",
       "name": "Crossroads Open Space",
       "lat": 34.9201154,
@@ -5594,6 +5906,84 @@
         "tourism": "attraction",
         "ele": "43",
         "leisure": "park"
+      }
+    },
+    {
+      "id": "eastern-mojave-buckwheat-autumn-colour@9q4tk2",
+      "name": "Eastern Mojave buckwheat in autumn colour",
+      "lat": 34.677179866396706,
+      "lng": -120.03970263157922,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 25 of 247 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:eastern-mojave-buckwheat",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 10,
+          "day": 15,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "Eastern Mojave buckwheat",
+          "kind": "Autumn colour",
+          "records": 25,
+          "seasonRecords": 247
+        }
+      }
+    },
+    {
+      "id": "eastern-mojave-buckwheat-bloom@9q4tk2",
+      "name": "Eastern Mojave buckwheat in bloom",
+      "lat": 34.67730990538925,
+      "lng": -120.03962842993829,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 74 of 835 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:eastern-mojave-buckwheat",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 7,
+          "day": 4,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "Eastern Mojave buckwheat",
+          "kind": "Bloom",
+          "records": 74,
+          "seasonRecords": 835
+        }
       }
     },
     {
@@ -22883,6 +23273,45 @@
       }
     },
     {
+      "id": "toyon-bloom@9q4tk3",
+      "name": "toyon in bloom",
+      "lat": 34.67957158493867,
+      "lng": -120.0383378914188,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 64 of 571 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:toyon",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 7,
+          "day": 6,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "toyon",
+          "kind": "Bloom",
+          "records": 64,
+          "seasonRecords": 571
+        }
+      }
+    },
+    {
       "id": "trailhead@9q4gvrk",
       "name": null,
       "lat": 34.4492532,
@@ -23634,6 +24063,84 @@
       ],
       "tags": {
         "nrhp": "95000359"
+      }
+    },
+    {
+      "id": "valley-oak-autumn-colour@9q4tk2",
+      "name": "valley oak in autumn colour",
+      "lat": 34.67545299999988,
+      "lng": -120.04068800000026,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 39 of 269 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "autumn-colour:valley-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 1,
+          "day": 10,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "valley oak",
+          "kind": "Autumn colour",
+          "records": 39,
+          "seasonRecords": 269
+        }
+      }
+    },
+    {
+      "id": "valley-oak-bloom@9q4tk2",
+      "name": "valley oak in bloom",
+      "lat": 34.67545299999988,
+      "lng": -120.04068800000022,
+      "category": "event",
+      "subject_type": [
+        "landscape"
+      ],
+      "best_light": [],
+      "best_season": [],
+      "access_difficulty": "unknown",
+      "notes": "Busiest fortnight in the records: 123 of 249 nearby observations fall in it. Timing shifts with the season — treat it as a window, not a date.",
+      "sources": [
+        {
+          "source": "usanpn",
+          "source_id": "bloom:valley-oak",
+          "source_license": "public-domain",
+          "source_url": "https://www.usanpn.org/data",
+          "first_seen": "2026-10-09",
+          "last_seen": "2026-10-09"
+        }
+      ],
+      "tags": {
+        "event": {
+          "month": 4,
+          "day": 1,
+          "days": 14,
+          "recurs": "annual",
+          "skywide": false
+        },
+        "phenology": {
+          "species": "valley oak",
+          "kind": "Bloom",
+          "records": 123,
+          "seasonRecords": 249
+        }
       }
     },
     {
