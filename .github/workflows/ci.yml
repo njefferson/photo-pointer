@@ -41,7 +41,7 @@ jobs:
   # commit keep theirs and say why. Both workflows that lacked a `permissions:`
   # block have one. And a step output no longer expands into a `git commit -m`.
   hub-gates:
-    uses: njefferson/noahjefferson/.github/workflows/hub-gates.yml@3f2a37374fd7fb9fa5671f6c6b79e1c95d660b06
+    uses: njefferson/noahjefferson/.github/workflows/hub-gates.yml@4d85f70117aac881a069b01f2e119f1bb61adfd4
     with:
       pwa: true
       zizmor: true
