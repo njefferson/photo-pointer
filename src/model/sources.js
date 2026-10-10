@@ -25,11 +25,12 @@
 export const URL_PATTERNS = {
   osm: (id) => `https://www.openstreetmap.org/${id}`,
   ebird: (id) => `https://ebird.org/hotspot/${id}`,
-  // Only an 8-digit reference number has an NPGallery record page. MEASURED:
-  // 674 ids of 8 digits deep-link; 37 of NINE digits (newer listings) have no
-  // page and deliberately cite the dataset instead. Deriving blindly would have
-  // invented 37 links to nothing — the adapter's "cite the dataset rather than
-  // guess a URL" rule has to live here too, or this module quietly undoes it.
+  // Only an 8-digit reference number has an NPGallery record page. MEASURED over
+  // the region files, Solvang's included: 699 ids of 8 digits deep-link and 41 of
+  // NINE digits (newer listings) have no page and deliberately cite the dataset
+  // instead. Deriving blindly would have invented 41 links to nothing — the
+  // adapter's "cite the dataset rather than guess a URL" rule has to live here
+  // too, or this module quietly undoes it.
   nrhp: (id) => (/^\d{8}$/.test(String(id)) ? `https://npgallery.nps.gov/AssetDetail/NRIS/${id}` : null),
   ridb: (id) => `https://www.recreation.gov/camping/campgrounds/${id}`,
   gnis: (id) => `https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/${id}`,

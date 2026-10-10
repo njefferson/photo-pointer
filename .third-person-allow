@@ -12,8 +12,9 @@
 #
 # EVERYTHING HERE IS SOMEBODY ELSE'S TEXT, and none of it was typed in this
 # repo. `data/` is the INGESTED corpus — OpenStreetMap and Wikidata descriptions
-# of historical markers, artworks and place names, fetched by the workflows in
-# `.github/workflows/` and committed as-is. The pronouns in it belong to the
+# of historical markers, artworks and place names, and federal source text
+# (Recreation.gov, the National Register, GNIS) about places, fetched by the
+# workflows in `.github/workflows/` and committed as-is. The pronouns in it belong to the
 # people those markers commemorate. Rewording them would be falsifying a source,
 # which is the one thing an ingest must never do, so they are declared instead.
 # `src/vendor/` is a third-party library whose comments cite its own author.
@@ -30,6 +31,8 @@ data/regions/hahira.json | ingested OpenStreetMap/Wikidata source text | him
 data/regions/reno.json | ingested OpenStreetMap/Wikidata source text | his
 data/regions/sac-eldorado-placer.json | ingested OpenStreetMap/Wikidata source text | his
 data/regions/sac-eldorado-placer.json | ingested OpenStreetMap/Wikidata source text | he
+data/regions/solvang.json | ingested OpenStreetMap/Wikidata source text | his
+data/regions/solvang.json | ingested OpenStreetMap/Wikidata source text | He
 data/regions/yellowstone.json | ingested OpenStreetMap/Wikidata source text | he
 data/regions/yellowstone.json | ingested OpenStreetMap/Wikidata source text | his
 data/regions/yellowstone.json | ingested OpenStreetMap/Wikidata source text | him
@@ -38,6 +41,8 @@ data/sources/hahira/osm.json | ingested OpenStreetMap/Wikidata source text | his
 data/sources/hahira/osm.json | ingested OpenStreetMap/Wikidata source text | he
 data/sources/reno/osm.json | ingested OpenStreetMap/Wikidata source text | his
 data/sources/sac-eldorado-placer/osm.json | ingested OpenStreetMap/Wikidata source text | his
+data/sources/solvang/osm.json | ingested OpenStreetMap/Wikidata source text | his
+data/sources/solvang/osm.json | ingested OpenStreetMap/Wikidata source text | He
 data/sources/yellowstone/osm.json | ingested OpenStreetMap/Wikidata source text | he
 data/sources/yellowstone/osm.json | ingested OpenStreetMap/Wikidata source text | his
 data/sources/yellowstone/osm.json | ingested OpenStreetMap/Wikidata source text | him

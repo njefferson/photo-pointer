@@ -141,9 +141,11 @@ this project's code license, and `LICENSE.md` lists them.
 The app is **multi-region** — `config/regions.json` holds a list, and you
 switch between them with the pills at the top of the app. Seeded regions:
 **Sacramento · El Dorado · Placer**, **Humboldt Coast**, **Yellowstone**
-(WY/MT/ID), **Hahira, GA** (Lowndes County), and **Panama City Beach, FL**
-(Bay County). Each region's data lives in `data/regions/<id>.json`; the map only
-mounts the pins currently on screen, so dense regions stay smooth.
+(WY/MT/ID), **Hahira, GA** (Lowndes County), **Panama City Beach, FL**
+(Bay County), and **Solvang · Santa Barbara County** (Santa Barbara, San Luis
+Obispo, Kern and Ventura counties). Each region's data lives in
+`data/regions/<id>.json`; the map only mounts the pins currently on screen, so
+dense regions stay smooth.
 
 To add a region:
 

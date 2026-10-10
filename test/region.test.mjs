@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { validateRegion, validateRegions, pickRegion } from '../src/model/region.js';
+import { validateRegion, validateRegions, pickRegion, regionForFix } from '../src/model/region.js';
 import { inBBox } from '../src/model/geo.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -53,6 +53,31 @@ test('each region bbox covers a known place inside it', () => {
   assert.ok(inBBox(44.4280, -110.5885, byId['yellowstone'].bbox), 'Old Faithful');
   assert.ok(inBBox(30.9902, -83.3724, byId['hahira'].bbox), 'Hahira, GA');
   assert.ok(inBBox(30.1766, -85.8055, byId['panama-city-beach'].bbox), 'Panama City Beach, FL');
+  assert.ok(inBBox(34.5958, -120.1377, byId['solvang'].bbox), 'Solvang, CA');
+});
+
+// A fix belongs to the region with the SMALLEST box that holds it. The statewide
+// ghost-town box comes before Solvang and Reno in the file and holds both, so
+// the old first-in-file-order rule sent a reader standing in either of them to
+// the statewide map.
+test('a fix in Solvang resolves to the Solvang region, not the statewide map', () => {
+  assert.equal(regionForFix(doc.regions, { lat: 34.5958, lng: -120.1377 }, doc.default).id, 'solvang');
+});
+
+test("a fix at Reno's centre resolves to Reno, not the statewide map", () => {
+  assert.equal(regionForFix(doc.regions, { lat: 39.5528, lng: -119.8213 }, doc.default).id, 'reno');
+});
+
+test('a fix at Cameron Park resolves to the home region', () => {
+  assert.equal(regionForFix(doc.regions, { lat: 38.6785, lng: -120.9872 }, doc.default).id, 'sac-eldorado-placer');
+});
+
+test('a fix in Los Angeles resolves to the statewide ghost-town region', () => {
+  assert.equal(regionForFix(doc.regions, { lat: 34.0522, lng: -118.2437 }, doc.default).id, 'california-ghost-towns');
+});
+
+test('a fix in New York resolves to no region', () => {
+  assert.equal(regionForFix(doc.regions, { lat: 40.7128, lng: -74.006 }, doc.default), null);
 });
 
 test('Yellowstone spans three states', () => {

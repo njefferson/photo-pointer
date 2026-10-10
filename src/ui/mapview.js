@@ -13,7 +13,8 @@ import { flowNow, formatFlow } from '../model/streamflow.js';
 import { nextOccurrence, formatEventWhen } from '../model/events.js';
 import { synthesisBreakdown } from './synthesis.js';
 import { loadLightLayer } from './lightlayer.js';
-import { inBBox, bboxCenter } from '../model/geo.js';
+import { bboxCenter } from '../model/geo.js';
+import { regionForFix } from '../model/region.js';
 import { notableReasons } from '../model/notability.js';
 
 // If a GPS fix lands outside the covered region, drop the user in the middle of
@@ -129,34 +130,26 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
     map.fitBounds([[b.south, b.west], [b.north, b.east]]);
   }
 
-  // Which covered region (other than the active one) contains these coords?
-  // Lets a GPS fix land in Humboldt or Yellowstone instead of failing home.
-  function regionContaining(coords) {
-    if (!coords) return null;
-    for (const r of regions) {
-      if (r.id !== activeRegion.id && inBBox(coords.lat, coords.lng, r.bbox)) return r;
-    }
-    return null;
-  }
-
-  // Ask the browser for a fix and act on it. In order: center here if the fix is
-  // in the active region; else if it falls in ANOTHER covered region, switch to
-  // that region and center there; else drop on the fallback. Fails soft — a
-  // denied/blocked/timed-out fix just leaves the fallback view. `onDone` reports
-  // the outcome so the caller can toast only when the fix is outside every region.
+  // Ask the browser for a fix and act on it. The fix belongs to the covered
+  // region with the SMALLEST box that holds it (regionForFix), so a town's box
+  // beats the statewide box that also holds it. If that is the active region,
+  // center here; if it is another, switch to it and center there; if no box
+  // holds the fix, drop on the fallback. Fails soft — a denied/blocked/timed-out
+  // fix just leaves the fallback view. `onDone` reports the outcome so the
+  // caller can toast only when the fix is outside every region.
   function centerOnLocation(onDone) {
     const fb = fallbackCenter();
     const act = (coords) => {
-      if (coords && inBBox(coords.lat, coords.lng, activeRegion.bbox)) {
+      const hit = regionForFix(regions, coords, activeRegion.id);
+      if (hit && hit.id === activeRegion.id) {
         map.setView([coords.lat, coords.lng], 14);
         onDone?.({ lat: coords.lat, lng: coords.lng, inArea: true, name: activeRegion.name });
         return;
       }
-      const other = regionContaining(coords);
-      if (other) {
+      if (hit) {
         // Hand off to main.js: load that region's data, then center on the fix.
-        onSwitchRegion?.(other.id, { lat: coords.lat, lng: coords.lng });
-        onDone?.({ lat: coords.lat, lng: coords.lng, inArea: true, switched: other.name, name: other.name });
+        onSwitchRegion?.(hit.id, { lat: coords.lat, lng: coords.lng });
+        onDone?.({ lat: coords.lat, lng: coords.lng, inArea: true, switched: hit.name, name: hit.name });
         return;
       }
       map.setView([fb.lat, fb.lng], 12);
@@ -1198,9 +1191,19 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
   // unclustered (so it's there on the FIRST tap, even inside a decluttered patch)
   // and recenters on it when the popup closes (see focusCenter) instead of
   // snapping back to the old view.
+  //
+  // Two things made a card opened from a LIST ROW end with its top and × off the
+  // screen (80px above it at 390x844, measured). (1) The map was display:none a
+  // moment ago and Leaflet still held the height it had before the list was up
+  // (644 against a real 641), so the next frame's re-measure fired a moveend that
+  // used up the once-handler below before the animated move had ended. (2) The
+  // card was also opened at once, on the view as it was BEFORE the move, and its
+  // auto-pan then raced the zoom animation. So: re-measure first, open the card
+  // only when the view has stopped moving.
   function focusSpot(spot) {
     const rec = markerById.get(spot.id);
     if (!rec) return;
+    map.invalidateSize({ animate: false, pan: false });
     forcedId = spot.id;
     focusCenter = { lat: spot.lat, lng: spot.lng };
     popupSavedCenter = null; // deliberate navigation — no restore-to-old-view
@@ -1216,11 +1219,10 @@ export function createMapView(container, { region, regions = [], onSwitchRegion,
         m.openPopup();
       }
     };
-    // setView fires moveend when the view actually changes; reveal there. If the
-    // view is already on the spot (no move), moveend won't fire — reveal now too.
+    // Every setView ends in a moveend — a move of zero distance fires it at once —
+    // so reveal there, and nowhere else.
     map.once('moveend', reveal);
     map.setView([spot.lat, spot.lng], targetZoom, { animate: true });
-    reveal();
   }
 
   function setVisible(categories) {

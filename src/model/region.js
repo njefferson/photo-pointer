@@ -5,6 +5,8 @@
 // region keeps the single-region shape (id, name, bbox, counties). The app
 // loads the list, lets you switch, and fetches data/regions/<id>.json.
 
+import { inBBox } from './geo.js';
+
 let cached = null;
 
 export async function loadRegions() {
@@ -24,6 +26,26 @@ export async function loadRegion(id) {
 export function pickRegion(doc, id) {
   const regions = doc.regions ?? [];
   return regions.find((r) => r.id === id) ?? regions.find((r) => r.id === doc.default) ?? regions[0];
+}
+
+// Which covered region should a GPS fix land in? Among the regions whose box
+// holds the fix, the one whose box is smallest (area in degrees), so a town's
+// box beats the statewide box that also holds it. An exact tie goes to the
+// region whose id is `activeId`, then to file order. Null when there is no fix,
+// no list, or no box holds the fix.
+export function regionForFix(regions, coords, activeId) {
+  if (!coords || !Array.isArray(regions)) return null;
+  let best = null;
+  let bestArea = Infinity;
+  for (const r of regions) {
+    if (!r.bbox || !inBBox(coords.lat, coords.lng, r.bbox)) continue;
+    const area = (r.bbox.north - r.bbox.south) * (r.bbox.east - r.bbox.west);
+    if (area < bestArea || (area === bestArea && r.id === activeId && best?.id !== activeId)) {
+      best = r;
+      bestArea = area;
+    }
+  }
+  return best;
 }
 
 // Node-safe validation, shared with ingest's `validate` command and tests.

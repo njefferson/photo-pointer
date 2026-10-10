@@ -125,6 +125,10 @@ plant and 0 with it removed.
 **Git history is out of scope and the question is settled.** A history scan
 coming back red is not new information and is not a reason to reopen it.
 
+## Staged candidate
+
+https://staging.photo-pointer.pages.dev carries version 1.22.0 (2026-10-09), unpromoted and awaiting an on-device pass: the Solvang · Santa Barbara County region, and a location fix that lands on the smallest region holding it.
+
 ## Roadmap (v0 → )
 
 - [x] Scaffold: schema, dedup, OSM adapter, map app, workflows (2026-07-19)

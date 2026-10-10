@@ -6,6 +6,7 @@
 // the real region. And it proves the two rules that matter:
 //   1. a photograph whose licence we cannot state is not shown at all;
 //   2. every thumbnail that IS shown carries its photographer and licence.
+// The context blocks service workers: sw.js answers every cross-origin read from inside the worker, where a context route never sees it.
 import { chromium } from 'playwright';
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
@@ -30,7 +31,7 @@ const PNG = Buffer.from(
   'base64');
 
 const browser = await chromium.launch({ executablePath: process.env.CHROME });
-const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'block' });
 await ctx.addInitScript(() => { try { localStorage.setItem('pointer.welcomed', '1'); } catch {} });
 await ctx.route('**/tile.openstreetmap.org/**', (r) => r.abort());
 

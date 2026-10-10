@@ -3,6 +3,7 @@
 // the UI wiring + fetch/CSP/parse/format path (water spot shows flow; dry spot
 // shows nothing), not USGS itself. The real-data check has to be run on a real
 // device against the live service.
+// The context blocks service workers: sw.js answers every cross-origin read from inside the worker, where a context route never sees it.
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';
@@ -30,7 +31,7 @@ if (!executablePath && glob) {
   for await (const p of glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome')) { executablePath = p; break; }
 }
 const browser = await chromium.launch(executablePath ? { executablePath } : {});
-const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'block' });
 
 // MOCK USGS: one gauge near the test waterfall, plus its daily-median stats.
 const IV = { value: { timeSeries: [

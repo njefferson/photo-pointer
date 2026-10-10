@@ -70,7 +70,8 @@ test('every derivable link rebuilds exactly, on the real regions', () => {
   assert.deepEqual([...kept.keys()].sort(), ['curated', 'nrhp', 'wikidata'],
     'only Wikidata, curated pins, and the 9-digit National Register listings that '
     + 'have no NPGallery page should ship their link verbatim');
-  assert.equal(kept.get('nrhp'), 37,
+  // 41 = 37 in the earlier regions + 4 in solvang (100000465, 100003919, 100007474, 100011289).
+  assert.equal(kept.get('nrhp'), 41,
     'the 9-digit National Register ids must stay dataset links — deriving would '
-    + 'invent 37 deep links to pages that do not exist');
+    + 'invent 41 deep links to pages that do not exist');
 });
