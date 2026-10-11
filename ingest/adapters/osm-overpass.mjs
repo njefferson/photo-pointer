@@ -313,13 +313,13 @@ function keepTags(tags) {
 
 export async function ingest(region, {
   fetchFn, today, log = () => {}, rules = TAG_RULES, sleepFn = sleep, tileDeg = TILE_DEG,
-  now = () => Date.now(), hostIndex = 0, cache = {},
+  now = () => Date.now(), hostIndex = 0, cache = {}, tileHours = TILE_CACHE_HOURS,
 } = {}) {
   const records = [];
   const seen = new Set();   // an element on a tile edge comes back twice; count it once
   const failed = [];
   const allTiles = bboxTiles(region.bbox, tileDeg);
-  const { have, todo } = freshTiles(cache, allTiles, { now: now() });
+  const { have, todo } = freshTiles(cache, allTiles, { hours: tileHours, now: now() });
   const tiles = todo;
   // Elements a recent run already fetched — replayed, not re-requested.
   const reused = {};
@@ -331,7 +331,7 @@ export async function ingest(region, {
   const host = OVERPASS_HOSTS[hostIndex % OVERPASS_HOSTS.length];
   log(`overpass: asking ${host} only (one mirror per run, never on failure)`);
   log(`overpass: ${allTiles.length} tiles over the region box, ${rules.length} selectors each`
-    + (have.size ? ` — ${have.size} answered within ${TILE_CACHE_HOURS}h, asking about ${tiles.length}` : ''));
+    + (have.size ? ` — ${have.size} answered within ${tileHours}h, asking about ${tiles.length}` : ''));
   // Replay what a recent run already got, without asking again.
   for (const entry of have.values()) {
     for (const el of entry.elements ?? []) {

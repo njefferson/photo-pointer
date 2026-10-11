@@ -118,6 +118,96 @@ kept because it is more granular than the Doctrine) before doing anything.
 ## document — the stack contract (build/deploy/vendor conventions).
 
 ## Project facts (append on every release, unprompted)
+- 2026-10-11 1.22.1 "One more place near Solvang, and what is still missing" (an
+  ITERATION) BUILT on staging, UNPROMOTED. The same candidate also carries 1.20.1
+  to 1.22.0, still unpromoted. The hub pin is unchanged at 4d85f70.
+  WHAT CHANGED FOR THE READER: the Solvang region holds 889 places, one more than
+  1.22.0, and the patch note says which parts of its box are still thin. The one
+  new place is "Szent András-törésvonal (San Andreas)", an OpenStreetMap node
+  (node/13666107004, 35.1360413, -119.6755287) tagged tourism=attraction, stored
+  as an oddity. It carries a name and that tag and nothing else, so it has none
+  of the land manager, dark sky, horizon, wildlife or photograph tags the other
+  888 carry: the five layers were not run again, because each would ask its
+  service again for the whole region. Two campgrounds already in the region from
+  Recreation.gov, KCL Campground and Selby Campground, gained an OpenStreetMap
+  source with a website, a no-fee tag, the Bureau of Land Management as operator
+  and OpenStreetMap's position, and kept every layer tag.
+  THE RETRY: step 15 asked only the seven squares the base run left unanswered
+  (places 34.35,-120.70, 35.05,-120.00 and 35.05,-119.65; features 34.70,-120.70,
+  34.70,-120.00, 34.70,-119.65 and 35.05,-120.00), from the session container
+  and with no workflow, on the mirror overpass.kumi.systems, at the adapter's
+  pacing (one request at a time, two seconds apart, two attempts a square). Two
+  answered: places 35.05,-120.00 (3 places, 11:09 California time) and features
+  34.70,-120.70 (0 places, 11:10). Five returned HTTP 500 after their two
+  attempts: places 34.35,-120.70 (the south-west corner) and 35.05,-119.65 (the
+  north-east corner), and features 34.70,-120.00, 34.70,-119.65 and 35.05,-120.00.
+  The features pass stopped under the adapter's three-in-a-row rule after its
+  last square, exit 1, and kept the one tile that answered. Still unanswered: 2 of
+  12 places squares and 3 of 12 feature squares. The merge wrote 889 spots from
+  1024 records (82 collapsed, 53 outside the box); validate passed.
+  TWO ARGUMENTS added to `ingest/ingest.mjs osm` and `osm-features`, both
+  optional, each accepted once, and neither changes a default (the workflows pass
+  neither). `--tile-hours=168`: the adapter trusts a held tile for
+  TILE_CACHE_HOURS, 24 hours, and the seventeen held tiles were answered on
+  2026-10-09 between 12:55 and 13:06 California time, more than a day before the
+  retry (about forty-six hours when the passes ran), so as the code stood both
+  passes would have asked Overpass for all twenty-four tiles where seven were
+  owed. The argument sets that window for the
+  one run that names it, as a whole number of hours above zero (anything else
+  exits before any request) and passes it to `freshTiles`; the default window is
+  still 24 hours, and the existing test that asks again for a tile two days old is
+  unchanged. `--mirror=overpass.kumi.systems`: names a host in the adapter's own
+  list and passes its index as `hostIndex`; any other host exits before any
+  request. The probe at 07:34 on 2026-10-11 printed "fetch failed" for
+  https://overpass-api.de/api/interpreter and HTTP 200 for
+  https://overpass.kumi.systems/api/interpreter, and its output does not say
+  whether the proxy refused the first or the server did not answer; a pass asks
+  one host per run, so the argument was the way to ask the one that answered. The
+  default host is still the first in the list, overpass-api.de. The adapter's
+  declared policy applies to every host in its list, and
+  `scripts/check-etiquette.mjs` passes. Two new test cases cover the two
+  arguments (270 tests, 268 before). A Node script that asks a service from the
+  session container needs `NODE_USE_ENV_PROXY=1`; without it the built-in fetch
+  does not use the container's proxy and every request ends in "fetch failed"
+  with no status, which looks like a blocked host.
+  sw CACHE pointer-1.22.1; changelog[0] 1.22.1; the staged-candidate line in
+  NOTES.md names 1.22.1. `.third-person-allow` needed no new line: the pinned
+  gate's `--list` printed nothing for the changed data files, and the flagged
+  words there are three memorial inscriptions about other people that the
+  existing declarations already cover, none of them among the three new records.
+  VERIFIED HEADLESS in a container with a software rasteriser, not a tablet: 270
+  unit tests; validate for all eight regions (solvang 889 spots, builtAt
+  2026-10-11); the hub pin check; the etiquette check; and the gates the shared
+  workflow runs for this repository, from a checkout of 4d85f70 (branch guard
+  with --artefact, privacy, quotations, third-person, docs, npm hygiene, PWA, and
+  zizmor 1.29.0 with no findings). The scratch walk (not committed) passed every
+  assertion at 390x844 and 1180x820: the region in the list, framed on Solvang at
+  zoom 12 with its pins mounted, each of the eight counted categories with pins, a
+  card opening from its pin with name and type and closing, a card opened from a
+  list row keeping its × on the screen (top 254 in a map spanning 203 to 844 at
+  390x844; 193 in a map spanning 139 to 820 at 1180x820), the list sorting by
+  Best, the stamp reading v1.22.1 · data 2026-10-11, the region loading again
+  offline after one visit (35 pins and 89 pins), the landing on the smallest box
+  that holds a location at each region's centre and at Solvang, a location in New
+  York falling back to Cameron Park with the toast, Reno stored with a Solvang
+  location staying on Reno, and no page error. The region file is 1,014,261 bytes
+  against 3,144,734 for the home region; first load to pins, median of three, 314
+  ms against 447 ms (container numbers). The contrast gate, the update walk and the
+  twelve smokes were not run for this release: nothing under src/ changed except
+  the patch note.
+  NEEDS AN ON-DEVICE PASS: the items 1.22.0 lists, and the stamp reading v1.22.1
+  once the update is taken.
+  FOUND, recorded and not corrected: (1) five of the seven squares are still
+  unanswered, each an HTTP 500 from the mirror after two attempts; a later run
+  that names the window asks only those five. (2) Each pass stamps every replayed
+  record's `last_seen`, and the region's `builtAt`, with the day of the run, so
+  the data diff is about six thousand lines each way for one new place. (3) The
+  date in the NOTES.md staged-candidate line still reads 2026-10-09, the date of
+  1.22.0, because this release's step could change the version only. (4) The
+  scratch walk held the release version as a constant, 1.22.0, which it uses for
+  the stored seen-version and the stamp assertion; it was moved to 1.22.1 by hand.
+  (5) The layer counts in the 1.22.0 entry are for its 888 places; the 889th
+  carries none of them.
 - 2026-10-09 1.22.0 "Solvang and Santa Barbara County join the map, and the map
   follows you into any area" (a CAPABILITY) BUILT on staging, UNPROMOTED. The
   same candidate also carries 1.20.1 to 1.21.0, still unpromoted. The hub pin

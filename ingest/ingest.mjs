@@ -124,7 +124,48 @@ async function writeSource(sourcesDir, file, meta, region, records) {
   log(`wrote data/sources/${region.id}/${file} (${records.length} records)`);
 }
 
+// OPTIONAL `--tile-hours=<n>` after the region id, for `osm` and `osm-features`
+// only: how many hours a held OpenStreetMap tile is still trusted for THIS run.
+// The adapter's own window is a day, so a retry made the day after a sweep would
+// otherwise ask about every square the sweep had already answered. Without the
+// argument nothing changes; anything but a whole number of hours above zero stops
+// the command here, before a single request.
+function tileHoursArg(command) {
+  const given = process.argv.slice(4).filter((a) => a === '--tile-hours' || a.startsWith('--tile-hours='));
+  if (!given.length) return undefined;
+  const m = given.length === 1 ? /^--tile-hours=([0-9]+)$/.exec(given[0]) : null;
+  const hours = m ? Number(m[1]) : 0;
+  if (!Number.isSafeInteger(hours) || hours < 1) {
+    console.error(`${command}: --tile-hours takes a whole number of hours above zero, written --tile-hours=168 `
+      + `(got ${given.join(' ')}); nothing was asked.`);
+    process.exit(1);
+  }
+  return hours;
+}
+
+// OPTIONAL `--mirror=<host>` after the region id, beside `--tile-hours`, in either
+// order and each at most once, for `osm` and `osm-features` only: which of the
+// adapter's own Overpass hosts THIS run asks, named by its host name. It is the
+// adapter's existing `hostIndex`, so a run still asks exactly one host and never
+// another on failure. Without the argument the first host is asked, as before; a
+// name that is not in the adapter's list stops the command here, before a request.
+function mirrorArg(command) {
+  const given = process.argv.slice(4).filter((a) => a === '--mirror' || a.startsWith('--mirror='));
+  if (!given.length) return undefined;
+  const m = given.length === 1 ? /^--mirror=(.+)$/.exec(given[0]) : null;
+  const index = m ? osm.OVERPASS_HOSTS.findIndex((h) => new URL(h).hostname === m[1]) : -1;
+  if (index < 0) {
+    console.error(`${command}: --mirror takes the host name of one of the adapter's Overpass hosts `
+      + `(${osm.OVERPASS_HOSTS.map((h) => new URL(h).hostname).join(', ')}), written --mirror=<host> `
+      + `(got ${given.join(' ')}); nothing was asked.`);
+    process.exit(1);
+  }
+  return index;
+}
+
 async function cmdOsm(id) {
+  const tileHours = tileHoursArg('osm');
+  const hostIndex = mirrorArg('osm');
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
   // What a recent run already got, so we never ask Overpass to redo work it has
@@ -141,7 +182,7 @@ async function cmdOsm(id) {
     await writeFile(cacheFile, JSON.stringify({ builtAt: today, tiles }) + '\n');
   };
   try {
-    records = await osm.ingest(region, { today, log, cache });
+    records = await osm.ingest(region, { today, log, cache, tileHours, hostIndex });
   } catch (e) {
     // The adapter abandons a sweep when Overpass is clearly struggling. That is
     // a deliberate stop, not a crash: say so plainly, keep the good data that is
@@ -170,6 +211,8 @@ async function cmdOsm(id) {
 // site/wreck) → its own source file the merge folds in. Kept out of the main osm
 // query, which got too heavy for Overpass's 300s limit when they were combined.
 async function cmdOsmFeatures(id) {
+  const tileHours = tileHoursArg('osm-features');
+  const hostIndex = mirrorArg('osm-features');
   const region = await loadRegionFor(id);
   const P = regionPaths(region.id);
   // Its OWN tile cache — same tiles, different question (see cmdOsm).
@@ -177,7 +220,7 @@ async function cmdOsmFeatures(id) {
   const cache = (await readJsonIfExists(cacheFile))?.tiles ?? {};
   let records;
   try {
-    records = await osm.ingest(region, { today, log, rules: osm.FEATURE_RULES, cache });
+    records = await osm.ingest(region, { today, log, rules: osm.FEATURE_RULES, cache, tileHours, hostIndex });
   } catch (e) {
     if (e.gaveUp) {
       if (e.cache && Object.keys(e.cache).length) {

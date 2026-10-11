@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES, fetchOverpass, OVERPASS_MAX_ATTEMPTS, GIVE_UP_AFTER, TILE_SERVER_TIMEOUT_S, freshTiles, tileKey } from '../ingest/adapters/osm-overpass.mjs';
+import { buildQuery, normalizeElement, TAG_RULES, meta, ingest, OVERPASS_GAP_MS, bboxTiles, MAX_TILES, fetchOverpass, OVERPASS_MAX_ATTEMPTS, GIVE_UP_AFTER, TILE_SERVER_TIMEOUT_S, freshTiles, tileKey, OVERPASS_HOSTS } from '../ingest/adapters/osm-overpass.mjs';
 import { decide, fingerprint, statusLine, MAX_ATTEMPTS } from '../scripts/osm-schedule.mjs';
 import { validateSpot } from '../src/model/spot.js';
 import { makeSpot } from '../src/model/spot.js';
@@ -228,6 +228,73 @@ test('a stale cache entry is asked for again rather than trusted forever', () =>
   const { have, todo } = freshTiles({ [tileKey(tiles[0])]: { at: old } }, tiles);
   assert.equal(have.size, 0, 'two days old is not "we already have it"');
   assert.equal(todo.length, tiles.length);
+});
+
+// The window can be named for ONE run. A retry made the day after a sweep finds
+// every tile that sweep answered older than a day, and would ask about the whole
+// region again to get the few squares that were owed. Naming 168 hours keeps the
+// held ones; the default stays a day, and a tile older than the named window is
+// still asked for.
+test('a held tile two days old is kept, not asked, when the window is named as 168 hours', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 38.7, east: -121.3 }, counties: [] };
+  const tiles = bboxTiles(region.bbox);
+  const boxOf = (t) => `${t.south},${t.west},${t.north},${t.east}`;
+  const cache = {
+    [tileKey(tiles[0])]: { at: new Date(Date.now() - 48 * 3600e3).toISOString(), elements: [
+      { type: 'node', id: 9, lat: 38.1, lon: -121.9, tags: { tourism: 'viewpoint', name: 'Held two days' } },
+    ] },
+    [tileKey(tiles[1])]: { at: new Date(Date.now() - 240 * 3600e3).toISOString(), elements: [] },
+  };
+  const run = async (opts) => {
+    const asked = [];
+    const logged = [];
+    const fetchFn = async (_u, o) => {
+      asked.push(decodeURIComponent(o.body).match(/\[bbox:([^\]]+)\]/)[1]);
+      return { ok: true, status: 200, json: async () => ({ elements: [] }) };
+    };
+    const out = await ingest(region, {
+      fetchFn, today: '2026-10-10', sleepFn: async () => {}, cache, log: (m) => logged.push(m), ...opts,
+    });
+    return { asked, logged, out };
+  };
+
+  const named = await run({ tileHours: 168 });
+  assert.ok(!named.asked.includes(boxOf(tiles[0])), 'the tile two days old is not requested again');
+  assert.ok(named.asked.includes(boxOf(tiles[1])), 'the tile ten days old is past the named window and is requested');
+  assert.equal(named.asked.length, tiles.length - 1);
+  assert.ok(named.out.some((r) => r.name === 'Held two days'), 'its places are still in the result');
+  assert.ok(named.logged.some((m) => m.includes('168h')), 'the log states the window the run used');
+
+  const plain = await run({});
+  assert.equal(plain.asked.length, tiles.length, 'without the argument the window is still a day and every tile is requested');
+});
+
+// Which of the adapter's own hosts a run asks can be named for ONE run, by index.
+// A run asks exactly one host either way: the second when it is named, the first
+// when it is not, and never another on failure.
+test('a named host index asks only that one host, and the default asks only the first', async () => {
+  const region = { bbox: { south: 38, west: -122, north: 38.7, east: -121.3 }, counties: [] };
+  const run = async (opts) => {
+    const asked = [];
+    const logged = [];
+    const fetchFn = async (url) => {
+      asked.push(url);
+      return { ok: true, status: 200, json: async () => ({ elements: [] }) };
+    };
+    await ingest(region, {
+      fetchFn, today: '2026-10-11', sleepFn: async () => {}, log: (m) => logged.push(m), ...opts,
+    });
+    return { asked, logged };
+  };
+
+  const second = await run({ hostIndex: 1 });
+  assert.ok(second.asked.length > 0, 'the run asked something');
+  assert.ok(second.asked.every((u) => u === OVERPASS_HOSTS[1]), 'every request went to the second host and to no other');
+  assert.ok(second.logged.some((m) => m.includes(OVERPASS_HOSTS[1])), 'the log names the host the run asked');
+
+  const plain = await run({});
+  assert.ok(plain.asked.length > 0);
+  assert.ok(plain.asked.every((u) => u === OVERPASS_HOSTS[0]), 'without the option only the first host is asked');
 });
 
 // The scheduled sweep must be able to STOP: run until the region is complete,

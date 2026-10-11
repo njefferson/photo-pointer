@@ -127,7 +127,7 @@ coming back red is not new information and is not a reason to reopen it.
 
 ## Staged candidate
 
-https://staging.photo-pointer.pages.dev carries version 1.22.0 (2026-10-09), unpromoted and awaiting an on-device pass: the Solvang · Santa Barbara County region, and a location fix that lands on the smallest region holding it.
+https://staging.photo-pointer.pages.dev carries version 1.22.1 (2026-10-09), unpromoted and awaiting an on-device pass: the Solvang · Santa Barbara County region, and a location fix that lands on the smallest region holding it.
 
 ## Roadmap (v0 → )
 
